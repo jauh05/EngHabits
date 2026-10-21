@@ -1,0 +1,575 @@
+{
+  "day": 4,
+  "week": 1,
+  "month": 1,
+  "title": "Simple Present 1: I, You, We, They",
+  "topic": "Simple present untuk I, you, we, dan they: kebiasaan rutin tanpa akhiran -s, serta negatif dan tanya dengan do",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memakai kata kerja dasar tanpa -s untuk I, you, we, dan they",
+    "Membuat kalimat negatif dengan do not atau don't",
+    "Membuat pertanyaan dengan Do di depan subjek"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "wake", "pronunciationId": "WEIK (ei panjang seperti 'ei' di 'lei')", "pos": "Verb", "meaningId": "bangun (dari tidur)", "example": "I wake up at six every day.", "exampleId": "Saya bangun jam enam setiap hari." },
+      { "no": 2, "en": "eat", "pronunciationId": "IT (i panjang, t di akhir hampir tidak terdengar)", "pos": "Verb", "meaningId": "makan", "example": "We eat dinner together.", "exampleId": "Kami makan malam bersama." },
+      { "no": 3, "en": "drink", "pronunciationId": "DRINK (i pendek, nk jelas di akhir)", "pos": "Verb", "meaningId": "minum", "example": "They drink tea in the morning.", "exampleId": "Mereka minum teh di pagi hari." },
+      { "no": 4, "en": "study", "pronunciationId": "STAD-i (a pendek, y di akhir seperti i)", "pos": "Verb", "meaningId": "belajar", "example": "I study English at night.", "exampleId": "Saya belajar bahasa Inggris di malam hari." },
+      { "no": 5, "en": "work", "pronunciationId": "WERK (r lidah sedikit melengkung, vokal samar)", "pos": "Verb", "meaningId": "bekerja", "example": "You work in a bank.", "exampleId": "Kamu bekerja di bank." },
+      { "no": 6, "en": "read", "pronunciationId": "RID (i panjang, dibaca seperti 'reed')", "pos": "Verb", "meaningId": "membaca", "example": "We read the news every morning.", "exampleId": "Kami membaca berita setiap pagi." },
+      { "no": 7, "en": "write", "pronunciationId": "RAIT (w tidak dibunyikan, ai seperti 'ai' di 'pakai')", "pos": "Verb", "meaningId": "menulis", "example": "They write notes in class.", "exampleId": "Mereka menulis catatan di kelas." },
+      { "no": 8, "en": "play", "pronunciationId": "PLEI (ai panjang, l ringan)", "pos": "Verb", "meaningId": "bermain", "example": "I play badminton on Friday.", "exampleId": "Saya bermain bulu tangkis pada hari Jumat." },
+      { "no": 9, "en": "sleep", "pronunciationId": "SLIP (i panjang, p di akhir tipis)", "pos": "Verb", "meaningId": "tidur", "example": "You sleep early on weekdays.", "exampleId": "Kamu tidur lebih awal pada hari kerja." },
+      { "no": 10, "en": "walk", "pronunciationId": "WAWK (l tidak dibunyikan, aw seperti 'o' panjang)", "pos": "Verb", "meaningId": "berjalan kaki", "example": "We walk to campus every day.", "exampleId": "Kami berjalan kaki ke kampus setiap hari." }
+    ],
+    "tip": "Pilih dua kegiatan rutinmu dan ucapkan dalam bahasa Inggris dengan subjek I atau we. Contohnya: I wake up at six. We eat dinner at seven. Mengaitkan kata dengan hidupmu sendiri membuatnya lebih mudah diingat."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["simple present daily routine English", "present simple I you we they"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang rutinitas harian dengan simple present, untuk subjek I, you, we, dan they.",
+      "watchFor": [
+        "Kata kerja tetap tanpa -s untuk I, you, we, dan they",
+        "Negatif dengan do not dan don't",
+        "Pertanyaan yang dimulai dengan Do"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan jadwal harianmu ditulis di buku agenda. Kalimat simple present adalah cara bercerita tentang kebiasaan: apa yang selalu kamu lakukan. Untuk I, you, we, dan they, bentuk kata kerjanya sederhana: tanpa tambahan -s.",
+      "sections": [
+        {
+          "heading": "Kata kerja tanpa -s",
+          "bodyMd": "Untuk **I, you, we, dan they**, pakai bentuk dasar kata kerja: **I wake up**, **You study**, **We eat**, **They play**. Bentuk dasar ini sama dengan kamus. Akhiran -s hanya dipakai untuk he, she, dan it, dan itu akan dibahas di hari berikutnya."
+        },
+        {
+          "heading": "Negatif dengan do not",
+          "bodyMd": "Untuk membuat negatif, tambahkan **do not** atau **don't** sebelum kata kerja: **I do not drink coffee**, **They don't work on Sunday**. Kata kerja setelah do not tetap bentuk dasar, tanpa -s dan tanpa -ed."
+        },
+        {
+          "heading": "Pertanyaan dengan Do",
+          "bodyMd": "Untuk pertanyaan, letakkan **Do** di depan subjek: **Do you study English?** Jawaban singkatnya adalah **Yes, I do** atau **No, I don't**. Kata kerja di dalam pertanyaan tetap bentuk dasar."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "I / you / we / they + kata kerja dasar" },
+        { "label": "Negatif", "pattern": "I / you / we / they + do not (don't) + kata kerja dasar" },
+        { "label": "Tanya", "pattern": "Do + I / you / we / they + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I wake up early.", "id": "Saya bangun pagi-pagi." },
+          { "en": "You study every night.", "id": "Kamu belajar setiap malam." },
+          { "en": "We eat rice for lunch.", "id": "Kami makan nasi untuk makan siang." },
+          { "en": "They play football on Sunday.", "id": "Mereka bermain sepak bola hari Minggu." },
+          { "en": "We walk to school.", "id": "Kami berjalan kaki ke sekolah." }
+        ],
+        "negative": [
+          { "en": "I do not drink coffee at night.", "id": "Saya tidak minum kopi di malam hari." },
+          { "en": "You don't sleep in class.", "id": "Kamu tidak tidur di kelas." },
+          { "en": "We do not work on Saturday.", "id": "Kami tidak bekerja pada hari Sabtu." },
+          { "en": "They don't read the news in the evening.", "id": "Mereka tidak membaca berita di sore hari." },
+          { "en": "I don't write essays every day.", "id": "Saya tidak menulis esai setiap hari." }
+        ],
+        "question": [
+          { "en": "Do you study English?", "id": "Apakah kamu belajar bahasa Inggris?" },
+          { "en": "Do we walk to campus?", "id": "Apakah kami berjalan kaki ke kampus?" },
+          { "en": "Do they eat breakfast at home?", "id": "Apakah mereka makan pagi di rumah?" },
+          { "en": "Do I wake up at six?", "id": "Apakah saya bangun jam enam?" },
+          { "en": "Do you play badminton?", "id": "Apakah kamu bermain bulu tangkis?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I wakes up at six.", "right": "I wake up at six.", "whyId": "Untuk I, kata kerja tetap bentuk dasar tanpa -s." },
+        { "wrong": "They eats rice every day.", "right": "They eat rice every day.", "whyId": "Akhiran -s hanya untuk he, she, dan it. They memakai bentuk dasar." },
+        { "wrong": "We not study on Sunday.", "right": "We do not study on Sunday.", "whyId": "Negatif butuh do not atau don't di depan kata kerja." },
+        { "wrong": "Do she study English?", "right": "Does she study English?", "whyId": "Untuk she, pertanyaan memakai does, bukan do. Ini akan dibahas di Hari 5." },
+        { "wrong": "Do you studies English?", "right": "Do you study English?", "whyId": "Dalam pertanyaan dengan do, kata kerja tetap bentuk dasar." },
+        { "wrong": "They don't works here.", "right": "They don't work here.", "whyId": "Setelah do not atau don't, kata kerja juga tetap bentuk dasar." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["simple present daily routine English", "present simple I you we they"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kalimat kebiasaan yang diucapkan dengan I dan we",
+        "Pertanyaan yang dimulai dengan Do"
+      ]
+    },
+    "script": {
+      "title": "Rutinitas kami di asrama",
+      "lines": [
+        { "speaker": "Mia", "text": "I wake up at six every day. What about you, Tono?" },
+        { "speaker": "Tono", "text": "I wake up at seven, but I sleep late on weekends. Do you eat breakfast at home?" },
+        { "speaker": "Mia", "text": "No, I eat at the canteen. I drink hot tea there." },
+        { "speaker": "Tono", "text": "I eat bread and I drink milk at home. We walk to campus together, right?" },
+        { "speaker": "Mia", "text": "Yes. We walk to campus every day, and it takes ten minutes." },
+        { "speaker": "Tono", "text": "I study English in the afternoon. Do you study in the afternoon too?" },
+        { "speaker": "Mia", "text": "I study English at night. I read a short article and I write three sentences." },
+        { "speaker": "Tono", "text": "I play football on Wednesday. You play badminton, don't you?" },
+        { "speaker": "Mia", "text": "Yes, I play badminton on Friday with my friends. My roommates walk to the gym too." },
+        { "speaker": "Tono", "text": "Do you sleep before eleven on weekdays?" },
+        { "speaker": "Mia", "text": "No, I sleep at eleven thirty. My roommates sleep earlier." }
+      ]
+    },
+    "shadowingTips": [
+      "Ucapkan I wake up dan I wake up at six dengan ritme yang sama, lalu tekankan kata up.",
+      "Pada don't, bunyi t pendek. Bandingkan dengan do not yang lebih panjang.",
+      "Saat menirukan kalimat tanya Do you, naikkan nada di akhir kalimat."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What time does Mia wake up?",
+        "options": [
+          { "id": "A", "text": "at five" },
+          { "id": "B", "text": "at seven" },
+          { "id": "C", "text": "at eleven thirty" },
+          { "id": "D", "text": "at six" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Mia berkata 'I wake up at six every day', jadi ia bangun jam enam setiap hari.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Jam lima tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Jam tujuh adalah waktu bangun Tono, bukan Mia." },
+          { "optionId": "C", "reasonId": "Jam sebelas tiga puluh adalah waktu Mia tidur, bukan waktu bangun." }
+        ],
+        "evidence": "I wake up at six every day."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does Mia drink at the canteen?",
+        "options": [
+          { "id": "A", "text": "hot tea" },
+          { "id": "B", "text": "coffee" },
+          { "id": "C", "text": "milk" },
+          { "id": "D", "text": "juice" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mia berkata 'I drink hot tea there', artinya ia minum teh panas di kantin.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Kopi tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Susu adalah minuman Tono di rumah, bukan Mia di kantin." },
+          { "optionId": "D", "reasonId": "Jus tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I drink hot tea there."
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Where do Mia and Tono walk every day?",
+        "options": [
+          { "id": "A", "text": "to the library" },
+          { "id": "B", "text": "to the market" },
+          { "id": "C", "text": "to campus" },
+          { "id": "D", "text": "to the park" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Mia mengatakan 'We walk to campus every day', jadi tujuan jalan kaki mereka adalah kampus.",
+        "stepByStep": [
+          "Cari kata walk di naskah. Kalimat yang relevan: 'We walk to campus together, right?' dan 'We walk to campus every day'.",
+          "Kata every day menunjukkan kebiasaan, jadi itu jawaban yang diminta.",
+          "Perpustakaan, pasar, dan taman tidak disebut sebagai tujuan jalan kaki mereka."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Perpustakaan tidak disebut sebagai tujuan jalan kaki." },
+          { "optionId": "B", "reasonId": "Pasar tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Taman tidak disebut. Yang disebut adalah gym untuk roommates, bukan tempat jalan kaki mereka." }
+        ],
+        "evidence": "We walk to campus every day"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Mia do in the evening?",
+        "options": [
+          { "id": "A", "text": "She plays badminton." },
+          { "id": "B", "text": "She studies English." },
+          { "id": "C", "text": "She sleeps." },
+          { "id": "D", "text": "She works in a bank." }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Mia berkata 'I study English at night', artinya ia belajar bahasa Inggris di malam hari.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bulu tangkis dilakukan Mia pada hari Jumat, bukan kebiasaan malam hari yang disebut dalam jawaban ini." },
+          { "optionId": "C", "reasonId": "Mia tidur pukul sebelas tiga puluh. Tidur bukan kegiatan yang ditanyakan." },
+          { "optionId": "D", "reasonId": "Kerja di bank tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I study English at night."
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement is true about Mia's sleep?",
+        "options": [
+          { "id": "A", "text": "Mia sleeps earlier than her roommates." },
+          { "id": "B", "text": "Mia sleeps at the same time as Tono." },
+          { "id": "C", "text": "Tono sleeps at eleven thirty." },
+          { "id": "D", "text": "Mia sleeps later than her roommates." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Mia menjawab 'No' untuk pertanyaan sebelum jam sebelas. Ia tidur pukul sebelas tiga puluh, dan teman-teman sekamarnya tidur lebih awal.",
+        "stepByStep": [
+          "Tono bertanya 'Do you sleep before eleven on weekdays?'. Mia menjawab 'No', yang berarti ia tidur setelah jam sebelas.",
+          "Mia menambahkan 'I sleep at eleven thirty', jadi ia tidur pukul sebelas tiga puluh.",
+          "Ia juga berkata 'My roommates sleep earlier'. Itu berarti teman sekamarnya tidur lebih awal daripada dia, sehingga dia tidur lebih lambat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ini kebalikan dari fakta. Teman sekamarnya yang tidur lebih awal, bukan Mia." },
+          { "optionId": "B", "reasonId": "Tono tidak pernah disebut tidur pukul sebelas tiga puluh. Ia tidak sebanding dengan waktu tidur Mia." },
+          { "optionId": "C", "reasonId": "Tidak ada informasi bahwa Tono tidur pukul sebelas tiga puluh. Waktu itu adalah waktu tidur Mia." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jawaban 'No' pada pertanyaan Do berarti kebalikan dari pertanyaan. Pertanyaan 'Do you sleep before eleven?' yang dijawab 'No' berarti 'I sleep after eleven'.",
+          "examples": [
+            { "en": "Do you study on Sunday? No, I don't.", "id": "Apakah kamu belajar hari Minggu? Tidak, saya tidak belajar." },
+            { "en": "Do they walk to school? No, they don't.", "id": "Apakah mereka berjalan kaki ke sekolah? Tidak, mereka tidak berjalan kaki." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah 'No' yang terdengar seperti kalimat negatif biasa. Padahal yang ditolak adalah tidur sebelum jam sebelas, sehingga Mia tidur setelahnya. Pilihan B dan C menggunakan waktu yang tidak disebut untuk orang lain.",
+        "evidence": "No, I sleep at eleven thirty. My roommates sleep earlier."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "They ___ English on Monday.",
+        "options": [
+          { "id": "A", "text": "studies" },
+          { "id": "B", "text": "study" },
+          { "id": "C", "text": "studying" },
+          { "id": "D", "text": "are study" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "They memakai kata kerja dasar tanpa -s: study.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Studies dipakai untuk he, she, it. They tidak memakai -s." },
+          { "optionId": "C", "reasonId": "Studying adalah bentuk -ing. Kalimat sederhana ini tidak memakainya." },
+          { "optionId": "D", "reasonId": "Are study tidak benar. Dalam simple present, pakai study saja." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "I ___ up early every morning.",
+        "options": [
+          { "id": "A", "text": "wake" },
+          { "id": "B", "text": "wakes" },
+          { "id": "C", "text": "waking" },
+          { "id": "D", "text": "woke" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Untuk I, pakai kata kerja dasar wake.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Wakes memakai -s, dan hanya untuk he, she, it." },
+          { "optionId": "C", "reasonId": "Waking adalah bentuk -ing, yang tidak cocok untuk kebiasaan sederhana ini." },
+          { "optionId": "D", "reasonId": "Woke adalah bentuk lampau. Kalimat ini menggambarkan kebiasaan sekarang." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "We ___ not play football on Sunday.",
+        "options": [
+          { "id": "A", "text": "does" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "do" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Untuk negatif dengan we, pakai do not.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Does dipakai dengan he, she, it." },
+          { "optionId": "B", "reasonId": "Is adalah to be untuk he, she, it. Kalimat ini memakai kata kerja biasa." },
+          { "optionId": "C", "reasonId": "Are adalah to be. Kalimat ini membutuhkan do not untuk negatif kata kerja biasa." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "They eats rice every day." },
+          { "id": "B", "text": "They eat rice every day." },
+          { "id": "C", "text": "They eating rice every day." },
+          { "id": "D", "text": "They eat rices every day." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "They memakai kata kerja dasar eat, dan rice adalah benda tidak bisa dihitung sehingga tidak diberi -s.",
+        "stepByStep": [
+          "Cek subjek: they. Bentuk kata kerja untuk they adalah bentuk dasar, tanpa -s.",
+          "Cek kata benda: rice tidak bisa dihitung, sehingga tidak diberi -s.",
+          "Pilihan A salah karena eats memakai -s. Pilihan C salah karena eating adalah -ing. Pilihan D salah karena rices tidak dipakai untuk nasi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Eats memakai -s, padahal subjeknya they." },
+          { "optionId": "C", "reasonId": "Eating adalah bentuk -ing. Dalam kebiasaan sederhana, pakai kata kerja dasar." },
+          { "optionId": "D", "reasonId": "Rice tidak bisa dihitung dengan -s. Kata benda ini tidak berjamak." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ you read the newspaper every morning?",
+        "options": [
+          { "id": "A", "text": "Is" },
+          { "id": "B", "text": "Does" },
+          { "id": "C", "text": "Do" },
+          { "id": "D", "text": "Are" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Untuk pertanyaan dengan you, pakai Do di depan subjek.",
+        "stepByStep": [
+          "Pertanyaan ini memakai kata kerja biasa read, bukan to be.",
+          "Subjek you dipakai dengan do, bukan does.",
+          "Is dan are adalah to be, sedangkan does dipakai untuk he, she, it. Keduanya salah di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is adalah to be, sedangkan kalimat ini memakai kata kerja read." },
+          { "optionId": "B", "reasonId": "Does dipakai untuk he, she, it, bukan you." },
+          { "optionId": "D", "reasonId": "Are adalah to be untuk you, tetapi di sini read adalah kata kerja biasa." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kami bangun jam enam setiap hari.",
+        "hint": "Subjek kami adalah we. Gunakan kata kerja dasar wake up.",
+        "acceptedAnswers": ["We wake up at six every day.", "We wake up at 6 every day."],
+        "modelAnswer": "We wake up at six every day.",
+        "commonErrors": [{ "pattern": "We wakes up at six", "feedbackId": "Untuk we, kata kerja tanpa -s." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Mereka makan malam bersama.",
+        "hint": "Gunakan subjek they dan kata kerja dasar. Bersama: together.",
+        "acceptedAnswers": ["They eat dinner together.", "They have dinner together."],
+        "modelAnswer": "They eat dinner together.",
+        "commonErrors": [{ "pattern": "They eats dinner together", "feedbackId": "They memakai kata kerja dasar, tanpa -s." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak minum kopi di malam hari.",
+        "hint": "Untuk negatif, gunakan do not atau don't sebelum kata kerja drink.",
+        "acceptedAnswers": ["I do not drink coffee at night.", "I don't drink coffee at night."],
+        "modelAnswer": "I do not drink coffee at night.",
+        "commonErrors": [{ "pattern": "I not drink coffee at night", "feedbackId": "Negatif memerlukan do not atau don't." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami belajar bahasa Inggris dan menulis kalimat setiap sore.",
+        "hint": "Dua kata kerja dihubungkan dengan and. Setiap sore: every afternoon.",
+        "acceptedAnswers": ["We study English and write sentences every afternoon.", "We study English and write sentences every evening."],
+        "modelAnswer": "We study English and write sentences every afternoon.",
+        "commonErrors": [{ "pattern": "We studies English", "feedbackId": "Untuk we, kata kerja study tanpa -s." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya bangun pagi, jalan kaki ke kampus, dan tidur setelah jam sepuluh.",
+        "hint": "Tiga kata kerja disusun paralel dengan subjek I. Setelah jam sepuluh: after ten o'clock.",
+        "acceptedAnswers": [
+          "I wake up early, walk to campus, and sleep after ten o'clock.",
+          "I wake up early, I walk to campus, and I sleep after ten o'clock.",
+          "I wake up early, walk to campus and sleep after ten o'clock."
+        ],
+        "modelAnswer": "I wake up early, walk to campus, and sleep after ten o'clock.",
+        "commonErrors": [
+          { "pattern": "I wake up early, walks to campus", "feedbackId": "Kata kerja kedua harus sejajar dengan kata kerja pertama: bentuk dasar untuk I." },
+          { "pattern": "after ten", "feedbackId": "Setelah jam sepuluh bisa diterjemahkan after ten o'clock." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'We ___ breakfast at seven every day.'",
+        "options": [
+          { "id": "A", "text": "has" },
+          { "id": "B", "text": "to have" },
+          { "id": "C", "text": "have" },
+          { "id": "D", "text": "having" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "We memakai kata kerja dasar have untuk kebiasaan sekarang. Has hanya untuk he, she, it.",
+        "stepByStep": [
+          "Subjek we adalah jamak. Kata kerja simple present untuk we adalah bentuk dasar.",
+          "Have adalah bentuk dasar dari has. Has hanya dipakai untuk he, she, dan it.",
+          "Pilihan B (to have) dan D (having) bukan bentuk simple present."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Has dipakai untuk he, she, it, bukan we." },
+          { "optionId": "B", "reasonId": "To have adalah infinitif. Kalimat simple present membutuhkan bentuk kata kerja biasa." },
+          { "optionId": "D", "reasonId": "Having adalah bentuk -ing. Di sini tidak ada to be yang membutuhkan -ing." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Have berubah menjadi has hanya untuk he, she, dan it. Untuk I, you, we, dan they, tetap have.",
+          "examples": [
+            { "en": "They have lunch at noon.", "id": "Mereka makan siang pukul dua belas." },
+            { "en": "She has lunch at noon.", "id": "Dia makan siang pukul dua belas." }
+          ]
+        },
+        "examTrap": "Pilihan A (has) mudah dipilih karena terdengar biasa, padahal bentuk itu hanya untuk he, she, it. Kata kunci di kalimat ini adalah we."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "They don't work here." },
+          { "id": "B", "text": "They doesn't work here." },
+          { "id": "C", "text": "They don't works here." },
+          { "id": "D", "text": "They do not works here." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Don't untuk they, dan kata kerja work tetap bentuk dasar setelah do not.",
+        "stepByStep": [
+          "Subjek they memakai do, sehingga bentuk negatifnya don't, bukan doesn't.",
+          "Setelah do not atau don't, kata kerja tetap bentuk dasar tanpa -s.",
+          "Pilihan B salah karena doesn't untuk he, she, it. Pilihan C dan D salah karena works memakai -s."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Doesn't hanya untuk he, she, it. Subjek they memakai don't." },
+          { "optionId": "C", "reasonId": "Works memakai -s setelah don't. Kata kerja di sini harus bentuk dasar." },
+          { "optionId": "D", "reasonId": "Do not diikuti kata kerja dasar. Works memakai -s, sehingga salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Negatif simple present memakai do not atau don't untuk I, you, we, dan they, dan doesn't untuk he, she, it. Kata kerja setelahnya selalu bentuk dasar.",
+          "examples": [
+            { "en": "We don't live here.", "id": "Kami tidak tinggal di sini." },
+            { "en": "He doesn't live here.", "id": "Dia tidak tinggal di sini." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti versi formal dari pilihan C, tetapi keduanya salah pada kata kerja works. Setelah do not atau don't, kata kerja selalu bentuk dasar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "My roommates ___ quiet at night, but they ___ friendly in the morning.",
+        "options": [
+          { "id": "A", "text": "is / is" },
+          { "id": "B", "text": "are / are" },
+          { "id": "C", "text": "are / is" },
+          { "id": "D", "text": "is / are" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Roommates jamak, dan they juga jamak. Keduanya cocok dengan to be are.",
+        "stepByStep": [
+          "Subjek pertama my roommates berarti lebih dari satu orang, jadi kata kerja to be-nya are.",
+          "Subjek kedua they juga jamak, jadi kata kerjanya are.",
+          "Pilihan A dan D memakai is untuk subjek jamak. Pilihan C memakai is untuk they."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak cocok dengan roommates (jamak) maupun they (jamak)." },
+          { "optionId": "C", "reasonId": "Is tidak cocok dengan they. Kata kerja untuk they adalah are." },
+          { "optionId": "D", "reasonId": "Subjek pertama jamak, jadi bukan is. Subjek kedua they juga memakai are." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk to be, they dan kata benda jamak selalu memakai are. Is hanya untuk he, she, it dan kata benda tunggal.",
+          "examples": [
+            { "en": "The students are ready, and they are happy.", "id": "Para mahasiswa sudah siap, dan mereka senang." },
+            { "en": "My roommate is quiet.", "id": "Teman sekamar saya pendiam." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah 'roommates' yang terlihat seperti kata benda tunggal karena dekat dengan kata 'my'. Periksa apakah ada lebih dari satu orang."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "I eat ___ apple and ___ banana every morning.",
+        "options": [
+          { "id": "A", "text": "a / a" },
+          { "id": "B", "text": "an / a" },
+          { "id": "C", "text": "an / an" },
+          { "id": "D", "text": "the / a" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Apple dimulai dengan bunyi vokal, jadi an. Banana dimulai dengan bunyi konsonan /b/, jadi a.",
+        "stepByStep": [
+          "Cek bunyi awal apple: vokal /æ/, jadi artikelnya an.",
+          "Cek bunyi awal banana: konsonan /b/, jadi artikelnya a.",
+          "Pilihan the tidak cocok karena apel dan pisang baru disebut, bukan benda yang sudah diketahui bersama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A sebelum apple salah karena apple berbunyi vokal." },
+          { "optionId": "C", "reasonId": "An sebelum banana salah karena banana berbunyi konsonan." },
+          { "optionId": "D", "reasonId": "The dipakai untuk benda yang sudah jelas bagi pendengar. Di sini benda baru pertama kali disebut." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pilih an atau a berdasarkan bunyi awal kata berikutnya, bukan huruf awalnya.",
+          "examples": [
+            { "en": "I have an egg and a bread.", "id": "Saya punya sebuah telur dan sepotong roti." },
+            { "en": "She is an artist.", "id": "Dia seorang seniman." }
+          ]
+        },
+        "examTrap": "Banana dimulai dengan huruf vokal a, tetapi bunyi awalnya konsonan /b/. Karena itu pilihan dengan an untuk banana salah."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "I not eat breakfast before class." },
+          { "id": "B", "text": "I do not eats breakfast before class." },
+          { "id": "C", "text": "I do not eat breakfast before class." },
+          { "id": "D", "text": "I does not eat breakfast before class." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Untuk I, negatif memakai do not, dan kata kerja eat tetap bentuk dasar.",
+        "stepByStep": [
+          "Subjek I memakai do, bukan does.",
+          "Negatif memakai do not di depan kata kerja. Not tanpa do tidak cukup.",
+          "Setelah do not, kata kerja eat tetap bentuk dasar, tanpa -s."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tidak ada do sebelum not. Negatif simple present memerlukan do not." },
+          { "optionId": "B", "reasonId": "Eats memakai -s setelah do not. Setelah do not, kata kerja harus dasar." },
+          { "optionId": "D", "reasonId": "Does not dipakai untuk he, she, it. Subjek I memakai do." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Negatif simple present: subjek + do not / don't + kata kerja dasar. Gunakan does not hanya untuk he, she, dan it.",
+          "examples": [
+            { "en": "I don't eat meat.", "id": "Saya tidak makan daging." },
+            { "en": "She does not eat meat.", "id": "Dia tidak makan daging." }
+          ]
+        },
+        "examTrap": "Pilihan D dan B sama-sama memakai bentuk yang salah untuk subjek I. Cek subjeknya dulu, lalu cek bentuk kata kerjanya."
+      }
+    ]
+  }
+}

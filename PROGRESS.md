@@ -10,7 +10,8 @@ Terakhir diperbarui: 2026-10-21
 | 0b. Desain UI/UX (`DESIGN_SPEC.md`, tokens, komponen, `/design`) | Selesai (`ff0468e`), disetujui |
 | 1. Fondasi aplikasi, skema, validator, IndexedDB, routing, sesi, evaluasi | Selesai (lihat commit Fase 1) |
 | 2. Kurikulum rinci 90 hari (`content/curriculum.json`) | Selesai, menunggu persetujuan ringkasan per minggu |
-| 3-10. Konten hari 1-90 (Hari 1 saat ini hanya contoh sementara) | Belum mulai |
+| 3. Konten hari 1-7 dan bank Hard minggu 1 | Selesai, menunggu persetujuan kualitas |
+| 4-10. Konten hari 8-90 | Belum mulai |
 | 11. Fitur lanjutan (sesi perbaikan, latihan bebas, laporan kesiapan, statistik, ekspor/impor, koreksi AI, pengingat, PWA offline penuh) | Belum mulai |
 | 11b. Deploy GitHub Pages | Belum mulai |
 | 12. QA akhir | Belum mulai |
@@ -29,8 +30,9 @@ Terakhir diperbarui: 2026-10-21
 
 ## Konten
 
-- Hari konten yang lolos validator: **1 dari 90** (`content/days/day-01.json`, contoh sementara).
-- Hari 1 ditulis untuk menguji sistem. Kualitasnya belum diaudit. Fase 3 akan menulis ulang Hari 1 sebagai standar rujukan.
+- Hari konten yang lolos validator: **7 dari 90** (hari 1 sampai 7).
+- Bank Hard minggu 1: 30 soal (`content/bank/week-01.json`).
+- Hari 1 awalnya dibuat untuk menguji sistem, lalu dipakai sebagai acuan standar Fase 3.
 
 ## Keputusan penting
 
@@ -38,5 +40,5 @@ Lihat [DECISIONS.md](DECISIONS.md).
 
 ## Sesi berikutnya
 
-- Menunggu persetujuan kurikulum 90 hari (`content/curriculum.json`, ringkasan per minggu di chat). Setelah disetujui: Fase 3, Hari 1-7 sebagai standar rujukan.
-- Catatan sebelum Fase 3: audit Hari 1 (grammar, kunci, terjemahan) dan periksa ulang rasio komposisi.
+- Menunggu persetujuan kualitas Hari 1 sampai 7 dan bank minggu 1. Setelah disetujui: Fase 4 (hari 8 sampai 14).
+- Audit mutu penuh tetap dijadwalkan di Fase 12.

@@ -1,0 +1,557 @@
+{
+  "day": 5,
+  "week": 1,
+  "month": 1,
+  "title": "Simple Present 2: He/She/It, Do/Does",
+  "topic": "Simple present untuk he, she, dan it: akhiran -s atau -es, serta negatif dan tanya dengan does",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menambahkan -s atau -es pada kata kerja untuk he, she, dan it",
+    "Membuat negatif dengan does not dan pertanyaan dengan Does",
+    "Membaca teks tentang kebiasaan seseorang dan menjawab dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "cook", "pronunciationId": "KUK (oo pendek seperti di 'buku', k di akhir jelas)", "pos": "Verb", "meaningId": "memasak", "example": "My mother cooks rice every day.", "exampleId": "Ibu saya memasak nasi setiap hari." },
+      { "no": 2, "en": "watch", "pronunciationId": "WAHCH (a seperti 'o' pendek, ch di akhir)", "pos": "Verb", "meaningId": "menonton, mengamati", "example": "She watches a movie on Friday.", "exampleId": "Dia menonton film pada hari Jumat." },
+      { "no": 3, "en": "go", "pronunciationId": "GOH (o panjang, seperti 'o' di 'kok' tetapi panjang)", "pos": "Verb", "meaningId": "pergi", "example": "He goes to the gym after class.", "exampleId": "Dia pergi ke gym setelah kelas." },
+      { "no": 4, "en": "teach", "pronunciationId": "TEECH (i panjang, ch di akhir)", "pos": "Verb", "meaningId": "mengajar", "example": "My grandfather teaches me Javanese.", "exampleId": "Kakek saya mengajari saya bahasa Jawa." },
+      { "no": 5, "en": "live", "pronunciationId": "LIV (i pendek, v terdengar jelas)", "pos": "Verb", "meaningId": "tinggal", "example": "Nadia lives near the campus.", "exampleId": "Nadia tinggal dekat kampus." },
+      { "no": 6, "en": "love", "pronunciationId": "LUV (u pendek, v di akhir)", "pos": "Verb", "meaningId": "sangat menyukai, mencintai", "example": "He loves spicy food.", "exampleId": "Dia sangat menyukai makanan pedas." },
+      { "no": 7, "en": "like", "pronunciationId": "LAIK (ai panjang, k di akhir jelas)", "pos": "Verb", "meaningId": "suka", "example": "She likes fresh vegetables.", "exampleId": "Dia suka sayuran segar." },
+      { "no": 8, "en": "need", "pronunciationId": "NID (i panjang, d di akhir ringan)", "pos": "Verb", "meaningId": "butuh, perlu", "example": "It needs more water.", "exampleId": "Benda itu butuh lebih banyak air." },
+      { "no": 9, "en": "want", "pronunciationId": "WAHNT (a seperti 'o' pendek, t di akhir jelas)", "pos": "Verb", "meaningId": "ingin", "example": "He wants a new phone.", "exampleId": "Dia ingin ponsel baru." },
+      { "no": 10, "en": "know", "pronunciationId": "NOH (k tidak dibunyikan, o panjang)", "pos": "Verb", "meaningId": "tahu, mengenal", "example": "She knows the answer.", "exampleId": "Dia tahu jawabannya." }
+    ],
+    "tip": "Untuk he, she, dan it, ucapkan kata kerja sambil menepuk bahu kananmu. Setiap kali kamu menyebut orang ketiga, tanyakan dulu: apakah kata kerjanya sudah punya -s? Kebiasaan kecil ini membuat kesalahan -s berkurang drastis."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["simple present third person s es", "do does questions English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang simple present untuk he, she, dan it, dengan contoh akhiran -s, -es, dan pertanyaan dengan does.",
+      "watchFor": [
+        "Aturan menambahkan -s atau -es, misalnya watches dan goes",
+        "Negatif dengan does not, dan kata kerja yang kembali ke bentuk dasar",
+        "Pertanyaan yang dimulai dengan Does"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu sedang menceritakan tentang temanmu. Untuk he, she, atau it, kata kerja seperti mendapat 'tanda' -s di belakangnya. Tanda ini kecil, tetapi wajib. Setelah kamu terbiasa, kalimatmu akan terdengar lebih alami.",
+      "sections": [
+        {
+          "heading": "Akhiran -s dan -es",
+          "bodyMd": "Untuk **he, she, atau it**, tambahkan **-s** pada kata kerja: **she likes**, **he plays**. Jika kata kerja berakhir dengan **-o, -ch, -sh, -s, atau -x**, tambahkan **-es**: **she goes**, **he watches**, **it washes**. Jika berakhir dengan konsonan dan **-y**, ubah y menjadi **-ies**: **she studies**."
+        },
+        {
+          "heading": "Negatif dan tanya dengan does",
+          "bodyMd": "Untuk **he, she, dan it**, negatif memakai **does not** atau **doesn't**, lalu kata kerja kembali ke **bentuk dasar**: **She does not like coffee**. Untuk pertanyaan, pakai **Does** di depan subjek: **Does he live here?**. Jangan menambahkan -s pada kata kerja setelah does."
+        },
+        {
+          "heading": "Ingat: kata kerja dengan -s hanya sekali",
+          "bodyMd": "Dalam kalimat negatif atau tanya dengan does, -s berpindah ke does. Kata kerja utamanya tetap bentuk dasar. Jadi tidak ada **does likes** dan tidak ada **does goes**."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "he / she / it + kata kerja + -s atau -es" },
+        { "label": "Negatif", "pattern": "he / she / it + does not (doesn't) + kata kerja dasar" },
+        { "label": "Tanya", "pattern": "Does + he / she / it + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "She cooks breakfast.", "id": "Dia memasak sarapan." },
+          { "en": "He goes to school by bus.", "id": "Dia pergi ke sekolah naik bus." },
+          { "en": "It works well.", "id": "Benda itu bekerja dengan baik." },
+          { "en": "She teaches English at a school.", "id": "Dia mengajar bahasa Inggris di sebuah sekolah." },
+          { "en": "He watches the news every night.", "id": "Dia menonton berita setiap malam." }
+        ],
+        "negative": [
+          { "en": "She does not like spicy food.", "id": "Dia tidak suka makanan pedas." },
+          { "en": "He doesn't live near the campus.", "id": "Dia tidak tinggal dekat kampus." },
+          { "en": "It does not need water.", "id": "Benda itu tidak butuh air." },
+          { "en": "She doesn't know the answer.", "id": "Dia tidak tahu jawabannya." },
+          { "en": "He does not want a new bag.", "id": "Dia tidak ingin tas baru." }
+        ],
+        "question": [
+          { "en": "Does she cook at home?", "id": "Apakah dia memasak di rumah?" },
+          { "en": "Does he go to the gym?", "id": "Apakah dia pergi ke gym?" },
+          { "en": "Does it need more time?", "id": "Apakah benda itu butuh lebih banyak waktu?" },
+          { "en": "Does your brother love music?", "id": "Apakah kakakmu sangat menyukai musik?" },
+          { "en": "Does she know your name?", "id": "Apakah dia tahu namamu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She like coffee.", "right": "She likes coffee.", "whyId": "Untuk she, kata kerja mendapat -s." },
+        { "wrong": "He goes to school, and he go home.", "right": "He goes to school, and he goes home.", "whyId": "Untuk he, setiap kata kerja dalam setiap klausa mendapat -es, termasuk klausa kedua." },
+        { "wrong": "She watchs the news.", "right": "She watches the news.", "whyId": "Kata kerja yang berakhir -ch mendapat -es." },
+        { "wrong": "Does she likes music?", "right": "Does she like music?", "whyId": "Setelah does, kata kerja kembali ke bentuk dasar." },
+        { "wrong": "He doesn't knows the answer.", "right": "He doesn't know the answer.", "whyId": "Setelah doesn't, tidak ada -s pada kata kerja." },
+        { "wrong": "It studys hard.", "right": "It studies hard.", "whyId": "Kata kerja yang berakhir konsonan + y berubah menjadi -ies." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Nadia, Mahasiswa yang Sibuk",
+    "text": "My friend Nadia is a kind and busy student. She lives near the campus, so she goes to class on foot. Every morning she cooks a simple breakfast of eggs and toast. Nadia does not like spicy food, but she needs fresh vegetables every day. In the evening she watches a short English video and tries to speak better. Her grandfather teaches her Javanese words, and she loves those lessons. Nadia knows many languages, but she says English is the hardest. Her classmates often ask simple questions: 'Do you live near campus? Do you cook at home? Where do you go after class? Do you watch movies? Do you need help? Do you want some tea?' Her brother, Rama, helps her with grammar. He does not know all the rules, but he always tries. When it is late, Nadia goes to bed early, because she wants enough sleep.",
+    "glossary": [
+      { "en": "busy", "id": "sibuk" },
+      { "en": "on foot", "id": "berjalan kaki" },
+      { "en": "spicy", "id": "pedas" },
+      { "en": "fresh", "id": "segar" },
+      { "en": "grammar", "id": "tata bahasa" },
+      { "en": "hardest", "id": "paling sulit" },
+      { "en": "rules", "id": "aturan" },
+      { "en": "lessons", "id": "pelajaran" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Where does Nadia live?",
+        "options": [
+          { "id": "A", "text": "far from the campus" },
+          { "id": "B", "text": "near the campus" },
+          { "id": "C", "text": "at her grandfather's house" },
+          { "id": "D", "text": "in another city" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'She lives near the campus', artinya Nadia tinggal dekat kampus.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut dia tinggal dekat kampus, sehingga far (jauh) salah." },
+          { "optionId": "C", "reasonId": "Rumah kakeknya tidak disebut sebagai tempat tinggal Nadia." },
+          { "optionId": "D", "reasonId": "Kota lain tidak disebut dalam teks." }
+        ],
+        "evidence": "She lives near the campus"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What does Nadia cook every morning?",
+        "options": [
+          { "id": "A", "text": "eggs and toast" },
+          { "id": "B", "text": "rice and fish" },
+          { "id": "C", "text": "noodles" },
+          { "id": "D", "text": "soup" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Every morning she cooks a simple breakfast of eggs and toast'.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Nasi dan ikan tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Mi tidak disebut sebagai sarapan Nadia." },
+          { "optionId": "D", "reasonId": "Sup tidak disebut dalam teks." }
+        ],
+        "evidence": "Every morning she cooks a simple breakfast of eggs and toast."
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Who teaches Nadia Javanese words?",
+        "options": [
+          { "id": "A", "text": "her brother" },
+          { "id": "B", "text": "her classmates" },
+          { "id": "C", "text": "her grandfather" },
+          { "id": "D", "text": "her teacher" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Her grandfather teaches her Javanese words'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kakak laki-lakinya, Rama, membantu tata bahasa, bukan kosakata Jawa." },
+          { "optionId": "B", "reasonId": "Teman sekelas hanya bertanya kepadanya. Mereka tidak mengajarinya bahasa Jawa." },
+          { "optionId": "D", "reasonId": "Guru tidak disebut dalam teks ini." }
+        ],
+        "evidence": "Her grandfather teaches her Javanese words"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why does Nadia go to bed early?",
+        "options": [
+          { "id": "A", "text": "She is sick." },
+          { "id": "B", "text": "She has an exam tomorrow." },
+          { "id": "C", "text": "Her brother asks her to." },
+          { "id": "D", "text": "She wants enough sleep." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menjelaskan alasannya dengan kata because: 'because she wants enough sleep'.",
+        "stepByStep": [
+          "Cari kata kunci early dan bed di teks. Kalimatnya: 'When it is late, Nadia goes to bed early, because she wants enough sleep'.",
+          "Kata because menandai alasan. Sesudahnya adalah penyebabnya: she wants enough sleep.",
+          "Pilihan A, B, dan C tidak disebut dalam teks. Jadi jawabannya adalah D."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut Nadia sakit. Jangan menambahkan informasi yang tidak ada." },
+          { "optionId": "B", "reasonId": "Ujian tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Rama membantu tata bahasa, tetapi tidak menyuruh Nadia tidur lebih awal." }
+        ],
+        "evidence": "because she wants enough sleep"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Which statement is best supported by the text?",
+        "options": [
+          { "id": "A", "text": "Nadia thinks English is easy." },
+          { "id": "B", "text": "Nadia's brother knows all the grammar rules." },
+          { "id": "C", "text": "Nadia finds English the hardest of the languages she knows." },
+          { "id": "D", "text": "Nadia dislikes all vegetables." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Nadia knows many languages, but she says English is the hardest'. Artinya dari banyak bahasa yang ia kuasai, bahasa Inggris yang paling sulit baginya.",
+        "stepByStep": [
+          "Pertanyaannya meminta pernyataan yang didukung teks, bukan fakta yang diucapkan langsung.",
+          "Kalimat kunci: 'Nadia knows many languages, but she says English is the hardest.'. Kata but menunjukkan perbandingan dengan bahasa lain.",
+          "Pilihan A bertolak belakang dengan kata hardest. Pilihan B salah karena brother 'does not know all the rules'. Pilihan D salah karena teks hanya bilang ia butuh sayuran segar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut bahasa Inggris paling sulit, sehingga 'easy' bertentangan dengan teks." },
+          { "optionId": "B", "reasonId": "Teks menyebut Rama tidak tahu semua aturan (does not know all the rules), jadi pilihan ini salah." },
+          { "optionId": "D", "reasonId": "Teks bilang Nadia butuh sayuran segar setiap hari. Tidak ada teks yang menyebut ia tidak suka semua sayuran." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola 'X is the hardest' menyatakan perbandingan terhadap semua pilihan. Kata yang sering muncul seperti most, least, dan hardest menunjukkan perbandingan itu.",
+          "examples": [
+            { "en": "Math is the hardest subject for me.", "id": "Matematika adalah pelajaran tersulit bagi saya." },
+            { "en": "She is the fastest runner in her class.", "id": "Dia pelari tercepat di kelasnya." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah pilihan B yang terdengar masuk akal karena Rama membantu grammar. Tetapi teks justru bilang ia tidak tahu semua aturan. Selalu cocokkan setiap kata dengan kalimat aslinya.",
+        "evidence": "Nadia knows many languages, but she says English is the hardest."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ English on TV every evening.",
+        "options": [
+          { "id": "A", "text": "watch" },
+          { "id": "B", "text": "watches" },
+          { "id": "C", "text": "watching" },
+          { "id": "D", "text": "watched" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "She memakai kata kerja dengan -es, karena watch berakhir -ch: watches.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Watch tanpa -es dipakai untuk I, you, we, they. Untuk she, perlu -es." },
+          { "optionId": "C", "reasonId": "Watching adalah bentuk -ing, bukan kebiasaan sederhana." },
+          { "optionId": "D", "reasonId": "Watched adalah bentuk lampau, sedangkan 'every evening' menunjukkan kebiasaan sekarang." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "He ___ a good cook.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "am" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "He adalah orang ketiga tunggal, jadi to be-nya is.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are dipakai untuk you, we, they." },
+          { "optionId": "C", "reasonId": "Be adalah bentuk dasar. Kalimat ini membutuhkan bentuk yang sesuai subjek." },
+          { "optionId": "D", "reasonId": "Am hanya dipakai dengan I." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Nadia ___ to school by bike.",
+        "options": [
+          { "id": "A", "text": "go" },
+          { "id": "B", "text": "goes" },
+          { "id": "C", "text": "going" },
+          { "id": "D", "text": "gone" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Nadia adalah orang ketiga tunggal, jadi kata kerja go mendapat -es: goes.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Go tanpa -es untuk I, you, we, they. Nadia memerlukan goes." },
+          { "optionId": "C", "reasonId": "Going adalah bentuk -ing, dan tidak cocok dengan kebiasaan sederhana." },
+          { "optionId": "D", "reasonId": "Gone adalah bentuk partisipel, dan tidak dipakai tanpa have atau be." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She don't like coffee." },
+          { "id": "B", "text": "She doesn't likes coffee." },
+          { "id": "C", "text": "She doesn't like coffee." },
+          { "id": "D", "text": "She not like coffee." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Untuk she, negatif memakai doesn't, dan kata kerja like kembali ke bentuk dasar.",
+        "stepByStep": [
+          "Subjek she adalah orang ketiga tunggal, sehingga negatifnya doesn't, bukan don't.",
+          "Setelah doesn't, kata kerja tetap bentuk dasar, tanpa -s.",
+          "Pilihan A salah karena don't untuk she. Pilihan B salah karena likes memakai -s. Pilihan D salah karena tidak ada do atau does."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Don't dipakai untuk I, you, we, they. Untuk she, pakai doesn't." },
+          { "optionId": "B", "reasonId": "Setelah doesn't, kata kerja tidak memakai -s. Bentuk yang benar adalah like." },
+          { "optionId": "D", "reasonId": "Negatif kata kerja biasa membutuhkan do atau does. Not saja tidak cukup." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ your sister know English?",
+        "options": [
+          { "id": "A", "text": "Is" },
+          { "id": "B", "text": "Does" },
+          { "id": "C", "text": "Do" },
+          { "id": "D", "text": "Are" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Your sister adalah orang ketiga tunggal, jadi pertanyaannya memakai Does.",
+        "stepByStep": [
+          "Pertanyaan ini memakai kata kerja biasa know, bukan to be.",
+          "Subjek your sister adalah tunggal, sehingga pertanyaannya memakai does.",
+          "Do dipakai untuk I, you, we, they. Is dan are adalah to be, sehingga tidak cocok dengan know."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is adalah to be. Kalimat ini memakai kata kerja know." },
+          { "optionId": "C", "reasonId": "Do dipakai untuk you, we, they dan I. Subjek your sister tunggal." },
+          { "optionId": "D", "reasonId": "Are adalah to be untuk jamak, dan tidak cocok dengan kata kerja know." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia tinggal di Yogyakarta.",
+        "hint": "Subjek dia adalah she atau he. Tinggal: live. Tambahkan -s pada kata kerja.",
+        "acceptedAnswers": ["She lives in Yogyakarta.", "She lives in Yogyakarta", "He lives in Yogyakarta.", "He lives in Yogyakarta"],
+        "modelAnswer": "She lives in Yogyakarta.",
+        "commonErrors": [{ "pattern": "She live in Yogyakarta", "feedbackId": "Untuk she, kata kerja live mendapat -s." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia memasak nasi goreng setiap malam.",
+        "hint": "Setiap malam: every night. Kata kerja cook untuk she perlu -s.",
+        "acceptedAnswers": ["She cooks fried rice every night.", "She cooks fried rice each night.", "He cooks fried rice every night."],
+        "modelAnswer": "She cooks fried rice every night.",
+        "commonErrors": [{ "pattern": "She cook fried rice", "feedbackId": "Untuk she, kata kerja cook mendapat -s." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Ibu saya tidak tahu jalannya.",
+        "hint": "Ibu saya adalah my mother, orang ketiga tunggal. Gunakan does not dan bentuk dasar know.",
+        "acceptedAnswers": ["My mother does not know the way.", "My mother doesn't know the way."],
+        "modelAnswer": "My mother does not know the way.",
+        "commonErrors": [{ "pattern": "My mother doesn't knows the way", "feedbackId": "Setelah doesn't, kata kerja kembali ke bentuk dasar: know." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kakak laki-laki saya suka menonton film.",
+        "hint": "Kakak laki-laki saya adalah my brother, tunggal. Suka: like. Menonton: watch.",
+        "acceptedAnswers": ["My brother likes to watch movies.", "My brother likes watching movies."],
+        "modelAnswer": "My brother likes to watch movies.",
+        "commonErrors": [{ "pattern": "My brother like to watch movies", "feedbackId": "Untuk my brother, kata kerja like mendapat -s." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia ingin belajar bahasa Inggris, dan gurunya selalu membantu dia.",
+        "hint": "Ingin: want to. Gurunya adalah her teacher, tunggal, sehingga kata kerja help mendapat -s.",
+        "acceptedAnswers": [
+          "She wants to learn English, and her teacher always helps her.",
+          "She wants to learn English and her teacher always helps her."
+        ],
+        "modelAnswer": "She wants to learn English, and her teacher always helps her.",
+        "commonErrors": [
+          { "pattern": "She want to learn English", "feedbackId": "Untuk she, kata kerja want mendapat -s." },
+          { "pattern": "her teacher always help her", "feedbackId": "Her teacher adalah orang ketiga tunggal, jadi help mendapat -s." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'My father ___ coffee every morning.'",
+        "options": [
+          { "id": "A", "text": "drink" },
+          { "id": "B", "text": "drinks" },
+          { "id": "C", "text": "drinking" },
+          { "id": "D", "text": "is drink" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "My father adalah orang ketiga tunggal, sehingga kata kerja drink mendapat -s: drinks.",
+        "stepByStep": [
+          "Cari subjek: my father. Ini satu orang, jadi orang ketiga tunggal.",
+          "Kata kerja simple present untuk he, she, it mendapat -s.",
+          "Pilihan C dan D bukan bentuk simple present. Pilihan A adalah bentuk dasar untuk I, you, we, they."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Drink tanpa -s untuk I, you, we, they. My father tidak termasuk kelompok itu." },
+          { "optionId": "C", "reasonId": "Drinking adalah bentuk -ing. Kebiasaan sehari-hari memakai simple present." },
+          { "optionId": "D", "reasonId": "Is drink tidak benar. Tidak ada to be di kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk he, she, it atau subjek tunggal yang bisa digantikan he atau she, kata kerja mendapat -s atau -es.",
+          "examples": [
+            { "en": "My sister drinks milk.", "id": "Kakak perempuan saya minum susu." },
+            { "en": "The bus stops here.", "id": "Bus berhenti di sini." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah my father yang terdengar seperti jamak karena ada 'my'. Padahal yang menentukan adalah jumlah orangnya, yaitu satu."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He doesn't wants a car." },
+          { "id": "B", "text": "He doesn't want a car." },
+          { "id": "C", "text": "He don't want a car." },
+          { "id": "D", "text": "He not want a car." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah doesn't, kata kerja want kembali ke bentuk dasar tanpa -s.",
+        "stepByStep": [
+          "Subjek he memakai doesn't untuk negatif.",
+          "Setelah doesn't, tidak ada -s pada kata kerja. Jadi want, bukan wants.",
+          "Pilihan C salah karena don't untuk he. Pilihan D salah karena tidak ada do atau does."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Doesn't wants memakai -s padahal sudah ada does. Dua -s tidak boleh dipakai bersamaan." },
+          { "optionId": "C", "reasonId": "Don't dipakai untuk I, you, we, they. He memakai doesn't." },
+          { "optionId": "D", "reasonId": "Negatif kata kerja biasa memerlukan do atau does. Not saja tidak cukup." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam negatif dengan does, -s berpindah ke does. Kata kerja utama selalu bentuk dasar.",
+          "examples": [
+            { "en": "She doesn't play tennis.", "id": "Dia tidak bermain tenis." },
+            { "en": "It doesn't work now.", "id": "Benda itu tidak bekerja sekarang." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat negatif yang sah, tetapi memakai dua tanda -s sekaligus. Ingat, tandanya cukup satu: di does."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "We ___ English, but my sister ___ Japanese.",
+        "options": [
+          { "id": "A", "text": "study / studies" },
+          { "id": "B", "text": "study / study" },
+          { "id": "C", "text": "studies / study" },
+          { "id": "D", "text": "studies / studies" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "We memakai bentuk dasar study. My sister adalah orang ketiga tunggal, sehingga studies.",
+        "stepByStep": [
+          "Kalimat pertama: subjek we, jadi kata kerja study tanpa -s.",
+          "Kalimat kedua: subjek my sister, tunggal, jadi kata kerja studies dengan -ies.",
+          "Pilihan B menyamakan kedua kata kerja. Pilihan C dan D salah karena membalik atau menyamakan keduanya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Study untuk my sister salah karena my sister tunggal." },
+          { "optionId": "C", "reasonId": "Studies untuk we salah, dan study untuk my sister juga salah. Urutannya dibalik." },
+          { "optionId": "D", "reasonId": "Studies untuk we salah, karena we memakai bentuk dasar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja yang berakhir konsonan + y mengganti y menjadi -ies untuk he, she, it.",
+          "examples": [
+            { "en": "She studies at night.", "id": "Dia belajar di malam hari." },
+            { "en": "We study at night.", "id": "Kami belajar di malam hari." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat simetris, tetapi menyamakan we dengan my sister. Pastikan setiap klausa punya subjeknya sendiri."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The red bag is ___, and the black phone is ___.",
+        "options": [
+          { "id": "A", "text": "mine / theirs" },
+          { "id": "B", "text": "my / their" },
+          { "id": "C", "text": "me / them" },
+          { "id": "D", "text": "I / they" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah is, tidak ada kata benda, jadi dipakai kata ganti kepemilikan mandiri: mine dan theirs.",
+        "stepByStep": [
+          "Setelah kata kerja is, tidak ada kata benda. Jadi kita butuh kata ganti kepemilikan mandiri.",
+          "Mine untuk I, dan theirs untuk they.",
+          "My dan their membutuhkan kata benda setelahnya. Me dan them adalah kata ganti objek. I dan they adalah kata ganti subjek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "My dan their harus diikuti kata benda. Di sini tidak ada kata benda setelah is." },
+          { "optionId": "C", "reasonId": "Me dan them adalah kata ganti objek, bukan kepemilikan." },
+          { "optionId": "D", "reasonId": "I dan they adalah kata ganti subjek. Setelah is, dibutuhkan kepemilikan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata ganti kepemilikan mandiri (mine, yours, hers, ours, theirs) dipakai setelah to be atau kata kerja lain ketika kata benda sudah jelas.",
+          "examples": [
+            { "en": "The blue pen is hers.", "id": "Pulpen biru itu milik dia." },
+            { "en": "The books are theirs.", "id": "Buku-buku itu milik mereka." }
+          ]
+        },
+        "examTrap": "Pilihan B (my / their) terlihat seperti jawaban yang benar karena berhubungan dengan kepemilikan. Tetapi kedua kata itu butuh kata benda setelahnya."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "She goes to school every day, and she like music." },
+          { "id": "B", "text": "She goes to school every day, and she likes music." },
+          { "id": "C", "text": "She go to school every day, and she likes music." },
+          { "id": "D", "text": "She goes to school every day, and she likes musics." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kedua klausa memakai subjek she, sehingga kedua kata kerja mendapat -s: goes dan likes.",
+        "stepByStep": [
+          "Klausa pertama: she goes. Goes sudah benar karena berakhir -o, sehingga -es.",
+          "Klausa kedua: and she likes. Likes harus punya -s karena subjeknya she.",
+          "Pilihan A kehilangan -s di likes. Pilihan C kehilangan -es di goes. Pilihan D menambahkan -s pada music, padahal music tidak bisa dihitung."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Like tanpa -s padahal subjeknya she. Kata kerja itu harus likes." },
+          { "optionId": "C", "reasonId": "Go tanpa -es untuk she salah. Kata kerja itu harus goes." },
+          { "optionId": "D", "reasonId": "Music tidak dihitung, jadi tidak menerima -s. Kata kerja likes sudah benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setiap klausa punya kata kerja yang sesuai dengan subjeknya. Untuk she, setiap kata kerja simple present mendapat -s atau -es.",
+          "examples": [
+            { "en": "He watches TV, and he cooks dinner.", "id": "Dia menonton TV, dan dia memasak makan malam." },
+            { "en": "She studies hard and she writes well.", "id": "Dia belajar keras dan dia menulis dengan baik." }
+          ]
+        },
+        "examTrap": "Jebakan terbesar adalah klausa kedua. Banyak yang lupa -s setelah 'and she'. Cek setiap klausa secara terpisah."
+      }
+    ]
+  }
+}

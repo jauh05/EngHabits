@@ -1,0 +1,554 @@
+{
+  "day": 7,
+  "week": 1,
+  "month": 1,
+  "title": "Evaluasi & Mini Test Minggu 1",
+  "topic": "Review minggu 1: to be, artikel dan penunjuk, kata ganti kepemilikan, dan simple present",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang to be, simple present, dan kepemilikan dalam satu teks",
+    "Memakai pola minggu 1 dalam kalimat baru tanpa melihat contoh",
+    "Mengukur kesiapan sebelum masuk minggu 2 dengan mini test"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "student", "pronunciationId": "STU-dent (akhiran dn terdengar lembut)", "pos": "Noun", "meaningId": "mahasiswa, siswa", "example": "I am a student.", "exampleId": "Saya seorang mahasiswa." },
+      { "no": 2, "en": "teacher", "pronunciationId": "TEE-cher (ch seperti 'c' di 'cek')", "pos": "Noun", "meaningId": "guru", "example": "My teacher is kind.", "exampleId": "Guru saya baik hati." },
+      { "no": 3, "en": "happy", "pronunciationId": "HAP-ee (akhiran -y terdengar seperti i pendek)", "pos": "Adj", "meaningId": "senang, bahagia", "example": "I am happy in class.", "exampleId": "Saya senang di kelas." },
+      { "no": 4, "en": "book", "pronunciationId": "BUK (vokal seperti 'u' di 'buku', lebih panjang)", "pos": "Noun", "meaningId": "buku", "example": "The book is on my desk.", "exampleId": "Buku itu ada di meja saya." },
+      { "no": 5, "en": "mine", "pronunciationId": "MAIN (ai panjang seperti 'pain')", "pos": "Other", "meaningId": "milik saya", "example": "The bag is mine.", "exampleId": "Tas itu milik saya." },
+      { "no": 6, "en": "brother", "pronunciationId": "BRA-ther (th lembut seperti 'dh')", "pos": "Noun", "meaningId": "saudara laki-laki", "example": "My brother is a cook.", "exampleId": "Kakak laki-laki saya seorang juru masak." },
+      { "no": 7, "en": "wake", "pronunciationId": "WEIK (ei panjang seperti 'lei')", "pos": "Verb", "meaningId": "bangun", "example": "I wake up at six.", "exampleId": "Saya bangun jam enam." },
+      { "no": 8, "en": "cook", "pronunciationId": "KUK (oo pendek, k di akhir jelas)", "pos": "Verb", "meaningId": "memasak", "example": "He cooks breakfast every day.", "exampleId": "Dia memasak sarapan setiap hari." },
+      { "no": 9, "en": "understand", "pronunciationId": "un-der-STAND (tekanan di stand)", "pos": "Verb", "meaningId": "mengerti, paham", "example": "I understand the rule now.", "exampleId": "Sekarang saya paham aturannya." },
+      { "no": 10, "en": "ask", "pronunciationId": "ASK (a seperti 'ae' di 'bat', s tajam)", "pos": "Verb", "meaningId": "bertanya", "example": "Can I ask a question?", "exampleId": "Boleh saya bertanya?" }
+    ],
+    "tip": "Hari evaluasi bukan untuk menghukum diri sendiri. Tandai setiap soal yang salah, lalu baca penjelasannya dengan tenang. Soal yang salah otomatis masuk Buku Kesalahan dan akan diulang sesuai jadwal."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["English grammar review beginners", "to be quiz English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum to be, simple present, dan kata ganti untuk pemula. Tonton sebelum mengerjakan mini test.",
+      "watchFor": [
+        "Ringkasan pola am, is, are dan do, does",
+        "Kata ganti kepemilikan mine, yours, dan his",
+        "Latihan singkat yang bisa diulang tanpa melihat jawaban"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu ini kamu sudah membangun fondasi: siapa atau apa (to be), apa yang dilakukan (simple present), dan milik siapa (kepemilikan). Hari ini kamu akan menggabungkan ketiganya dalam satu teks dan beberapa soal. Anggap ini sebagai latihan lari sebelum minggu 2.",
+      "sections": [
+        {
+          "heading": "Peta cepat minggu 1",
+          "bodyMd": "**To be**: I am, you/we/they are, he/she/it is. **Kata kerja biasa**: I/you/we/they pakai bentuk dasar, he/she/it pakai -s. **Negatif dan tanya**: do/does untuk kata kerja biasa. **Artikel**: a/an untuk tunggal, the untuk yang sudah diketahui. **Kepemilikan**: my dan your diikuti kata benda, mine dan yours berdiri sendiri."
+        },
+        {
+          "heading": "Cara memeriksa jawaban",
+          "bodyMd": "Sebelum memilih, cek tiga hal: (1) apakah subjeknya tunggal atau jamak, (2) apakah kata setelahnya kata benda atau berdiri sendiri, (3) apakah ada to be dan kata kerja biasa bersamaan. Banyak kesalahan minggu 1 hilang setelah tiga pertanyaan ini."
+        }
+      ],
+      "formulas": [
+        { "label": "To be", "pattern": "I am / you, we, they are / he, she, it is" },
+        { "label": "Simple present", "pattern": "I, you, we, they + kata kerja dasar; he, she, it + kata kerja -s" },
+        { "label": "Negatif dan tanya", "pattern": "do / does + kata kerja dasar" },
+        { "label": "Kepemilikan", "pattern": "my / your + kata benda; mine / yours berdiri sendiri" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I am a student in this class.", "id": "Saya seorang mahasiswa di kelas ini." },
+          { "en": "She cooks rice for her brother.", "id": "Dia memasak nasi untuk kakaknya." },
+          { "en": "We wake up early on Monday.", "id": "Kami bangun pagi-pagi pada hari Senin." },
+          { "en": "This bag is mine.", "id": "Tas ini milik saya." },
+          { "en": "They are happy with the new teacher.", "id": "Mereka senang dengan guru baru." }
+        ],
+        "negative": [
+          { "en": "He does not understand the lesson.", "id": "Dia tidak mengerti pelajarannya." },
+          { "en": "I am not a cook.", "id": "Saya bukan juru masak." },
+          { "en": "These books are not mine.", "id": "Buku-buku ini bukan milik saya." },
+          { "en": "We don't ask many questions.", "id": "Kami tidak banyak bertanya." },
+          { "en": "The teacher is not angry.", "id": "Guru itu tidak marah." }
+        ],
+        "question": [
+          { "en": "Are you a student?", "id": "Apakah kamu seorang mahasiswa?" },
+          { "en": "Does your brother cook?", "id": "Apakah kakakmu memasak?" },
+          { "en": "Do they wake up at six?", "id": "Apakah mereka bangun jam enam?" },
+          { "en": "Is this book yours?", "id": "Apakah buku ini milikmu?" },
+          { "en": "Do you understand the question?", "id": "Apakah kamu mengerti pertanyaannya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I is a student.", "right": "I am a student.", "whyId": "Untuk I, to be-nya selalu am." },
+        { "wrong": "This books are mine.", "right": "These books are mine.", "whyId": "Books jamak, sehingga penunjuknya these." },
+        { "wrong": "He cook breakfast every day.", "right": "He cooks breakfast every day.", "whyId": "Untuk he, kata kerja mendapat -s." },
+        { "wrong": "Does she likes music?", "right": "Does she like music?", "whyId": "Setelah does, kata kerja kembali ke bentuk dasar." },
+        { "wrong": "The book is my.", "right": "The book is mine.", "whyId": "My harus diikuti kata benda. Tanpa kata benda, gunakan mine." },
+        { "wrong": "I am understand the rule.", "right": "I understand the rule.", "whyId": "Understand kata kerja biasa. Jangan pakai am bersamaan dengan kata kerja biasa." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Rama dan Keluarganya",
+    "text": "My name is Rama. I am a student, and my teacher is kind. I am happy in my English class. Every morning I wake up at six, and I read one short page of my book. The book on my desk is mine, but the grammar book on the shelf belongs to my classmate. My brother Adi is a cook. He works early and cooks breakfast before the sun comes up. Adi does not talk much in the morning, but he always listens carefully to my questions. Sometimes I ask him about English words. He tries to understand them and answers slowly. He says, 'You are a good student, Rama. Keep asking!' I think he is right.",
+    "glossary": [
+      { "en": "belongs", "id": "menjadi milik" },
+      { "en": "shelf", "id": "rak" },
+      { "en": "before", "id": "sebelum" },
+      { "en": "sun", "id": "matahari" },
+      { "en": "tries", "id": "berusaha" },
+      { "en": "carefully", "id": "dengan saksama" },
+      { "en": "classmate", "id": "teman sekelas" },
+      { "en": "answers", "id": "menjawab" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is Rama's job?",
+        "options": [
+          { "id": "A", "text": "a student" },
+          { "id": "B", "text": "a teacher" },
+          { "id": "C", "text": "a cook" },
+          { "id": "D", "text": "a driver" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Rama berkata 'I am a student'. Ia seorang mahasiswa, bukan juru masak.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Guru adalah 'my teacher', bukan Rama." },
+          { "optionId": "C", "reasonId": "Juru masak adalah Adi, kakak Rama." },
+          { "optionId": "D", "reasonId": "Sopir tidak disebut dalam teks." }
+        ],
+        "evidence": "I am a student"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Who is a cook?",
+        "options": [
+          { "id": "A", "text": "Rama" },
+          { "id": "B", "text": "the teacher" },
+          { "id": "C", "text": "Adi" },
+          { "id": "D", "text": "the classmate" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'My brother Adi is a cook'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Rama adalah mahasiswa, bukan juru masak." },
+          { "optionId": "B", "reasonId": "Guru disebut kind, tetapi tidak disebut sebagai juru masak." },
+          { "optionId": "D", "reasonId": "Teman sekelas hanya disebut sebagai pemilik buku di rak." }
+        ],
+        "evidence": "My brother Adi is a cook."
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "When does Rama wake up?",
+        "options": [
+          { "id": "A", "text": "at seven" },
+          { "id": "B", "text": "at noon" },
+          { "id": "C", "text": "at five" },
+          { "id": "D", "text": "at six" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menulis 'Every morning I wake up at six'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Jam tujuh adalah waktu Adi memulai sesuatu, tidak disebut sebagai waktu bangun Rama." },
+          { "optionId": "B", "reasonId": "Tengah hari tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Jam lima tidak disebut dalam teks." }
+        ],
+        "evidence": "Every morning I wake up at six"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which book belongs to Rama?",
+        "options": [
+          { "id": "A", "text": "the grammar book on the shelf" },
+          { "id": "B", "text": "the book on the desk" },
+          { "id": "C", "text": "the book of his classmate" },
+          { "id": "D", "text": "the book of his brother" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'The book on my desk is mine', artinya buku di meja Rama adalah miliknya.",
+        "stepByStep": [
+          "Cari kata mine di teks. Kalimat yang berkaitan: 'The book on my desk is mine, but the grammar book on the shelf belongs to my classmate.'",
+          "Kata mine berarti milik Rama. Buku yang disebut adalah buku di mejanya.",
+          "Grammar book di rak adalah milik teman sekelasnya. Adi tidak disebut punya buku."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Buku tata bahasa di rak adalah milik teman sekelas, bukan Rama." },
+          { "optionId": "C", "reasonId": "Ini justru buku teman sekelas, yang berada di rak. Pilihan ini kebalikan dari teks." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut buku milik Adi." }
+        ],
+        "evidence": "The book on my desk is mine"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does Adi mean when he says 'Keep asking!'?",
+        "options": [
+          { "id": "A", "text": "Rama should stop asking questions." },
+          { "id": "B", "text": "Rama should ask more questions, because asking helps him learn." },
+          { "id": "C", "text": "Adi wants to ask Rama a question." },
+          { "id": "D", "text": "Rama should ask the teacher only once." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Adi memuji Rama sebagai murid yang baik lalu berkata 'Keep asking!', artinya terus bertanya. Ia menganggap bertanya membantu Rama belajar.",
+        "stepByStep": [
+          "Kalimat itu muncul setelah Adi berkata 'You are a good student, Rama'. Jadi ini pujian, bukan teguran.",
+          "Kata keep berarti terus melakukan sesuatu. Keep asking berarti terus bertanya.",
+          "Pilihan A bertentangan dengan 'keep asking'. Pilihan C salah karena Adi tidak bertanya kepada Rama. Pilihan D salah karena keep berarti terus, bukan sekali saja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Keep asking berarti terus bertanya, kebalikan dari berhenti bertanya." },
+          { "optionId": "C", "reasonId": "Adi tidak mengajukan pertanyaan kepada Rama dalam bagian ini. Ia memberi nasihat." },
+          { "optionId": "D", "reasonId": "Keep berarti terus. Pilihan ini membatasi menjadi sekali, yang bertentangan dengan makna keep." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Keep + -ing berarti terus melakukan sesuatu. Dalam kalimat perintah, keep asking adalah dorongan untuk tidak berhenti.",
+          "examples": [
+            { "en": "Keep practicing every day.", "id": "Terus berlatih setiap hari." },
+            { "en": "Keep reading, and you will improve.", "id": "Terus membaca, dan kamu akan meningkat." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah 'keep' yang bisa diartikan simpan. Dalam konteks ini, keep asking berarti terus bertanya. Lihat kalimat sebelumnya untuk memastikan maknanya.",
+        "evidence": "Keep asking!"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "This is ___ bag.",
+        "options": [
+          { "id": "A", "text": "my" },
+          { "id": "B", "text": "mine" },
+          { "id": "C", "text": "me" },
+          { "id": "D", "text": "I" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Bag adalah kata benda, jadi kepemilikannya my.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Mine tidak boleh diikuti kata benda. Di sini ada bag." },
+          { "optionId": "C", "reasonId": "Me adalah kata ganti objek, bukan kepemilikan." },
+          { "optionId": "D", "reasonId": "I adalah kata ganti subjek. Di sini dibutuhkan kepemilikan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Please give the cake to ___.",
+        "options": [
+          { "id": "A", "text": "we" },
+          { "id": "B", "text": "us" },
+          { "id": "C", "text": "our" },
+          { "id": "D", "text": "ours" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Setelah preposisi to, dipakai kata ganti objek us.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "We adalah subjek. Setelah to, gunakan bentuk objek." },
+          { "optionId": "C", "reasonId": "Our harus diikuti kata benda. Di sini tidak ada kata benda." },
+          { "optionId": "D", "reasonId": "Ours adalah kepemilikan mandiri, bukan kata ganti objek." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "She ___ English on Monday.",
+        "options": [
+          { "id": "A", "text": "study" },
+          { "id": "B", "text": "studies" },
+          { "id": "C", "text": "studying" },
+          { "id": "D", "text": "is study" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "She adalah orang ketiga tunggal, jadi kata kerja study menjadi studies.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Study tanpa -ies untuk she. Kata kerjanya harus studies." },
+          { "optionId": "C", "reasonId": "Studying adalah bentuk -ing, bukan simple present." },
+          { "optionId": "D", "reasonId": "Is study tidak benar. Simple present untuk kebiasaan tidak memakai to be." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "This books are new." },
+          { "id": "B", "text": "These book is new." },
+          { "id": "C", "text": "These books are new." },
+          { "id": "D", "text": "This book are new." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Books jamak memakai these dan are. Itu konsisten.",
+        "stepByStep": [
+          "Cek kata benda: books jamak, jadi penunjuknya these, bukan this.",
+          "Kata kerja untuk kata benda jamak adalah are.",
+          "Pilihan A salah karena this untuk tunggal. Pilihan B salah karena book tunggal dengan is, padahal these untuk jamak. Pilihan D salah karena this dan are tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "This tidak cocok dengan books yang jamak." },
+          { "optionId": "B", "reasonId": "These tidak cocok dengan book tunggal, dan is tidak cocok dengan these." },
+          { "optionId": "D", "reasonId": "This tidak cocok dengan are yang jamak." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ you understand the lesson?",
+        "options": [
+          { "id": "A", "text": "Are" },
+          { "id": "B", "text": "Do" },
+          { "id": "C", "text": "Is" },
+          { "id": "D", "text": "Does" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Understand adalah kata kerja biasa, dan subjeknya you. Pertanyaannya memakai do.",
+        "stepByStep": [
+          "Kata kerja utama understand adalah kata kerja biasa, bukan to be.",
+          "Subjek you memakai do dalam pertanyaan.",
+          "Are dan is adalah to be. Does dipakai untuk he, she, it. Ketiganya tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are adalah to be dan tidak cocok dengan kata kerja understand." },
+          { "optionId": "C", "reasonId": "Is adalah to be untuk he, she, it. Kalimat ini memakai kata kerja biasa." },
+          { "optionId": "D", "reasonId": "Does dipakai untuk he, she, it. Subjeknya you." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya seorang guru.",
+        "hint": "Identitas memakai to be. Subjek saya adalah I.",
+        "acceptedAnswers": ["I am a teacher.", "I'm a teacher."],
+        "modelAnswer": "I am a teacher.",
+        "commonErrors": [{ "pattern": "I is a teacher", "feedbackId": "Untuk I, to be-nya selalu am." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Ini buku saya dan buku itu milik dia.",
+        "hint": "Buku saya: my book. Buku itu milik dia tanpa kata benda setelahnya: hers.",
+        "acceptedAnswers": ["This is my book, and that book is hers.", "This is my book and that one is hers."],
+        "modelAnswer": "This is my book, and that book is hers.",
+        "commonErrors": [{ "pattern": "This is my book, and that book is her", "feedbackId": "Her harus diikuti kata benda. Untuk milik dia tanpa kata benda, gunakan hers." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kakak saya bangun jam tujuh setiap hari.",
+        "hint": "Kakak saya adalah my brother, tunggal, sehingga kata kerja wake mendapat -s.",
+        "acceptedAnswers": ["My brother wakes up at seven every day.", "My brother wakes up at 7 every day."],
+        "modelAnswer": "My brother wakes up at seven every day.",
+        "commonErrors": [{ "pattern": "My brother wake up at seven", "feedbackId": "My brother tunggal, sehingga wake mendapat -s." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia memasak sarapan setiap pagi.",
+        "hint": "Dia adalah he atau she. Kata kerja cook mendapat -s.",
+        "acceptedAnswers": ["He cooks breakfast every morning.", "She cooks breakfast every morning."],
+        "modelAnswer": "He cooks breakfast every morning.",
+        "commonErrors": [{ "pattern": "He cook breakfast", "feedbackId": "Untuk he atau she, kata kerja cook mendapat -s." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak mengerti mengapa dia selalu bertanya, tetapi saya senang membantunya.",
+        "hint": "Tidak mengerti: do not understand. Dia selalu bertanya: she always asks. Senang membantu: happy to help.",
+        "acceptedAnswers": [
+          "I do not understand why she always asks questions, but I am happy to help her.",
+          "I don't understand why she always asks questions, but I am happy to help her."
+        ],
+        "modelAnswer": "I do not understand why she always asks questions, but I am happy to help her.",
+        "commonErrors": [
+          { "pattern": "I am not understand", "feedbackId": "Understand kata kerja biasa. Negatifnya memakai do not." },
+          { "pattern": "she always ask", "feedbackId": "Untuk she, ask mendapat -s." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He don't cooks breakfast." },
+          { "id": "B", "text": "He doesn't cook breakfast." },
+          { "id": "C", "text": "He doesn't cooks breakfast." },
+          { "id": "D", "text": "He not cook breakfast." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Untuk he, negatifnya doesn't, dan kata kerja cook kembali ke bentuk dasar.",
+        "stepByStep": [
+          "Subjek he memakai doesn't, bukan don't.",
+          "Setelah doesn't, kata kerja tidak memakai -s dan kembali ke bentuk dasar.",
+          "Pilihan A salah karena don't dan cooks. Pilihan C salah karena dua tanda -s. Pilihan D salah karena tidak ada do atau does."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Don't untuk he salah, dan cooks memakai -s setelah don't." },
+          { "optionId": "C", "reasonId": "Doesn't sudah membawa -s, sehingga cooks tidak boleh memakai -s lagi." },
+          { "optionId": "D", "reasonId": "Negatif kata kerja biasa membutuhkan do atau does. Not saja tidak cukup." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Negatif he, she, it memakai doesn't. Setelahnya kata kerja selalu bentuk dasar, dan -s berpindah ke does.",
+          "examples": [
+            { "en": "She doesn't play the piano.", "id": "Dia tidak bermain piano." },
+            { "en": "It doesn't need water.", "id": "Benda itu tidak butuh air." }
+          ]
+        },
+        "examTrap": "Pilihan A dan C sama-sama mengandung dua kesalahan. Cek satu per satu: pilihan negatif yang tepat, lalu kata kerja setelahnya."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "___ book on the desk is ___.",
+        "options": [
+          { "id": "A", "text": "A / my" },
+          { "id": "B", "text": "The / mine" },
+          { "id": "C", "text": "An / mine" },
+          { "id": "D", "text": "The / me" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Book yang sudah jelas letaknya memakai the. Di akhir kalimat tidak ada kata benda, sehingga memakai mine.",
+        "stepByStep": [
+          "Book di atas meja adalah benda tertentu, jadi artikelnya the.",
+          "Setelah is, tidak ada kata benda, jadi dipakai kepemilikan mandiri mine.",
+          "Pilihan A salah karena a tidak cocok untuk benda tertentu, dan my membutuhkan kata benda. Pilihan C salah karena an dipakai sebelum vokal. Pilihan D salah karena me adalah kata ganti objek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A dipakai untuk benda yang belum jelas. My di akhir kalimat tidak diikuti kata benda." },
+          { "optionId": "C", "reasonId": "An sebelum book salah karena book berbunyi konsonan. Mine sudah benar, tetapi artikelnya salah." },
+          { "optionId": "D", "reasonId": "Me adalah kata ganti objek, tidak menunjukkan kepemilikan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The untuk benda yang jelas bagi pendengar. Mine berdiri sendiri setelah to be ketika kata bendanya sudah jelas.",
+          "examples": [
+            { "en": "The pen is mine.", "id": "Pulpen itu milik saya." },
+            { "en": "The keys are yours.", "id": "Kunci-kunci itu milikmu." }
+          ]
+        },
+        "examTrap": "Pilihan C punya mine yang benar, tetapi artikel An salah karena book tidak berbunyi vokal. Satu kesalahan kecil membuat seluruh pilihan salah."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "The students in my class ___ hungry, so they ___ breakfast early.",
+        "options": [
+          { "id": "A", "text": "is / eats" },
+          { "id": "B", "text": "are / eat" },
+          { "id": "C", "text": "are / eats" },
+          { "id": "D", "text": "is / eat" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "The students jamak, jadi are. They juga jamak, jadi kata kerja eat tanpa -s.",
+        "stepByStep": [
+          "Subjek pertama the students adalah jamak, sehingga kata kerjanya are.",
+          "Subjek kedua they adalah jamak, sehingga kata kerja eat tanpa -s.",
+          "Pilihan A dan D menyalahkan kecocokan. Pilihan C memberi -s pada eats, padahal subjeknya they."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is salah untuk the students jamak. Eats salah untuk they." },
+          { "optionId": "C", "reasonId": "Are benar, tetapi eats salah untuk they." },
+          { "optionId": "D", "reasonId": "Is salah untuk the students, dan eat benar untuk they." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setiap klausa dicek secara terpisah. Untuk they dan kata benda jamak, to be memakai are dan kata kerja biasa memakai bentuk dasar.",
+          "examples": [
+            { "en": "The students are tired, so they sleep early.", "id": "Para mahasiswa lelah, jadi mereka tidur lebih awal." },
+            { "en": "My friends are here, and they eat lunch with me.", "id": "Teman-teman saya ada di sini, dan mereka makan siang bersama saya." }
+          ]
+        },
+        "examTrap": "Pilihan D menggabungkan dua kesalahan kecil yang berlawanan. Cek setiap klausa, bukan hanya salah satunya."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "___ she know where the library is? Yes, she ___.",
+        "options": [
+          { "id": "A", "text": "Does / does" },
+          { "id": "B", "text": "Do / does" },
+          { "id": "C", "text": "Is / do" },
+          { "id": "D", "text": "Does / is" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Know adalah kata kerja biasa, dan subjek she. Pertanyaannya memakai does, dan jawaban singkatnya Yes, she does.",
+        "stepByStep": [
+          "Kata kerja utama know adalah kata kerja biasa. Subjek she memakai does untuk pertanyaan.",
+          "Jawaban singkat mengulang kata kerja pertama sebagai does: Yes, she does.",
+          "Pilihan B memakai do untuk she. Pilihan C dan D memakai is, padahal know bukan to be."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Do dipakai untuk I, you, we, they. Subjek she memakai does." },
+          { "optionId": "C", "reasonId": "Is dan do tidak cocok. Is adalah to be dan know bukan to be." },
+          { "optionId": "D", "reasonId": "Is tidak boleh dipakai dengan kata kerja biasa know." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jawaban singkat untuk pertanyaan Do atau Does memakai do atau does. Bentuknya mengikuti pertanyaan, bukan subjek jawaban.",
+          "examples": [
+            { "en": "Does he cook? Yes, he does.", "id": "Apakah dia memasak? Ya, dia memasak." },
+            { "en": "Do they study? No, they don't.", "id": "Apakah mereka belajar? Tidak, mereka tidak belajar." }
+          ]
+        },
+        "examTrap": "Jawaban singkat 'Yes, she is' terdengar benar karena ada she dan is. Padahal pertanyaannya memakai kata kerja biasa, jadi jawaban yang benar adalah does."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "My brother and me wake up at six." },
+          { "id": "B", "text": "My brother and I wake up at six." },
+          { "id": "C", "text": "My brother and I wakes up at six." },
+          { "id": "D", "text": "My brother and I wake up at sixes." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek gabungan memakai I, bukan me. Dengan subjek I, kata kerja wake tanpa -s.",
+        "stepByStep": [
+          "Cek subjek: my brother and ___. Di posisi subjek, pakai I, bukan me.",
+          "Subjek gabungan my brother and I berarti jamak, sehingga kata kerja wake tanpa -s.",
+          "Pilihan C memakai -s pada wakes. Pilihan D menambahkan -es pada sixes, padahal jamnya six."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Me adalah bentuk objek. Di posisi subjek, pakai I." },
+          { "optionId": "C", "reasonId": "Subjek gabungan jamak memakai wake tanpa -s." },
+          { "optionId": "D", "reasonId": "Jam enam adalah six. Sixes tidak masuk akal, dan wake sudah benar tanpa -s." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam subjek gabungan (A and B), gunakan kata ganti subjek I, we, he, she, atau they. Kata kerja mengikuti jumlah subjek gabungan itu.",
+          "examples": [
+            { "en": "My sister and I study English.", "id": "Kakak perempuan saya dan saya belajar bahasa Inggris." },
+            { "en": "He and I wake up early.", "id": "Dia dan saya bangun pagi-pagi." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah 'me' yang terdengar benar karena letaknya setelah 'and'. Coba hapus 'my brother and' dulu: I wake up benar, me wake up salah."
+      }
+    ]
+  }
+}

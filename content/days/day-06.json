@@ -1,0 +1,575 @@
+{
+  "day": 6,
+  "week": 1,
+  "month": 1,
+  "title": "To Be vs Kata Kerja (Do/Does)",
+  "topic": "Membedakan kalimat dengan to be dari kalimat dengan kata kerja biasa, dan kapan memakai do atau does",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memilih to be (am, is, are) atau kata kerja biasa (do, does) sesuai isi kalimat",
+    "Mengenali kalimat yang tidak boleh memakai to be dan do sekaligus",
+    "Memahami percakapan singkat dan menjawab dengan bukti dari naskah"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "think", "pronunciationId": "THINK (th tajam seperti di 'thin', nk di akhir jelas)", "pos": "Verb", "meaningId": "berpikir, menganggap", "example": "I think the exam is fair.", "exampleId": "Saya rasa ujiannya adil." },
+      { "no": 2, "en": "understand", "pronunciationId": "un-der-STAND (tekanan di stand, d di akhir ringan)", "pos": "Verb", "meaningId": "mengerti, paham", "example": "Do you understand the rule?", "exampleId": "Apakah kamu paham aturannya?" },
+      { "no": 3, "en": "forget", "pronunciationId": "for-GET (tekanan di get, e pendek)", "pos": "Verb", "meaningId": "lupa", "example": "I always forget the rules.", "exampleId": "Saya selalu lupa aturannya." },
+      { "no": 4, "en": "remember", "pronunciationId": "ri-MEM-ber (tekanan di MEM, e pendek)", "pos": "Verb", "meaningId": "ingat", "example": "Do you remember my name?", "exampleId": "Apakah kamu ingat namaku?" },
+      { "no": 5, "en": "answer", "pronunciationId": "AN-ser (a seperti 'ae' di 'bat', r lembut)", "pos": "Verb", "meaningId": "menjawab; jawaban", "example": "She answers every question.", "exampleId": "Dia menjawab setiap pertanyaan." },
+      { "no": 6, "en": "ask", "pronunciationId": "ASK (a seperti 'ae' di 'bat', s tajam)", "pos": "Verb", "meaningId": "bertanya", "example": "Can I ask you something?", "exampleId": "Boleh saya bertanya sesuatu?" },
+      { "no": 7, "en": "listen", "pronunciationId": "LIS-en (t tidak dibunyikan, en samar)", "pos": "Verb", "meaningId": "mendengarkan", "example": "Please listen carefully.", "exampleId": "Tolong dengarkan dengan saksama." },
+      { "no": 8, "en": "speak", "pronunciationId": "SPIK (ee panjang, k di akhir jelas)", "pos": "Verb", "meaningId": "berbicara", "example": "We speak English in class.", "exampleId": "Kami berbicara bahasa Inggris di kelas." },
+      { "no": 9, "en": "call", "pronunciationId": "KAWL (aw panjang seperti 'o' yang dipanjangkan, l gelap)", "pos": "Verb", "meaningId": "menelepon; memanggil", "example": "Please call me tonight.", "exampleId": "Tolong telepon saya malam ini." },
+      { "no": 10, "en": "visit", "pronunciationId": "VIZ-it (s seperti z, i pendek di kedua suku kata)", "pos": "Verb", "meaningId": "mengunjungi", "example": "We visit the library on Tuesday.", "exampleId": "Kami mengunjungi perpustakaan pada hari Selasa." }
+    ],
+    "tip": "Setiap kali kamu mau menulis kalimat, tanya dulu: apakah ada 'sifat' atau 'tempat' yang menjelaskan subjek? Jika ya, pakai to be. Jika yang terjadi adalah tindakan, pakai kata kerja biasa dengan do atau does."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["verb to be or verb English grammar", "do does or to be beginners"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang membandingkan to be dengan kata kerja biasa, dengan banyak contoh kalimat sederhana.",
+      "watchFor": [
+        "Kalimat yang memakai to be untuk sifat, tempat, dan identitas",
+        "Kalimat yang memakai do atau does untuk tindakan",
+        "Contoh kalimat yang salah karena memakai to be dan do sekaligus"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan dua jenis kalimat seperti dua jenis alat. To be itu seperti label yang menjelaskan siapa atau bagaimana sesuatu. Kata kerja biasa itu seperti tombol yang menjalankan tindakan. Kalau kamu memakai dua alat sekaligus untuk satu pekerjaan, hasilnya rusak. Kuncinya: pilih satu.",
+      "sections": [
+        {
+          "heading": "To be untuk keadaan, sifat, dan tempat",
+          "bodyMd": "Gunakan **am, is, are** untuk menjelaskan **siapa** (I am a student), **bagaimana** (She is happy), atau **di mana** (They are at home). Tidak ada do atau does di kalimat seperti ini."
+        },
+        {
+          "heading": "Kata kerja biasa untuk tindakan",
+          "bodyMd": "Gunakan kata kerja seperti **think, understand, ask, listen, speak, call, visit** untuk **apa yang dilakukan**. Negatif dan pertanyaannya memakai **do/does**: I do not understand, Does he speak English?. Di sini tidak ada am, is, atau are."
+        },
+        {
+          "heading": "Satu kalimat, satu sistem",
+          "bodyMd": "Jangan memakai to be dan do sekaligus untuk satu kata kerja. Kalimat **'She is not understand'** salah karena understand adalah kata kerja biasa. Yang benar adalah **'She does not understand'**. Kalimat **'Is she ready?'** benar karena ready adalah sifat, bukan tindakan."
+        }
+      ],
+      "formulas": [
+        { "label": "To be (keadaan)", "pattern": "subjek + am / is / are + sifat, tempat, atau identitas" },
+        { "label": "Kata kerja (tindakan)", "pattern": "subjek + do / does (not) + kata kerja dasar" },
+        { "label": "Tanya to be", "pattern": "Am / Is / Are + subjek + sifat atau tempat?" },
+        { "label": "Tanya kata kerja", "pattern": "Do / Does + subjek + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I am a student.", "id": "Saya seorang mahasiswa." },
+          { "en": "She is ready for the test.", "id": "Dia siap untuk tes." },
+          { "en": "We are at the library.", "id": "Kami ada di perpustakaan." },
+          { "en": "I think you are right.", "id": "Saya rasa kamu benar." },
+          { "en": "He listens to the teacher carefully.", "id": "Dia mendengarkan guru dengan saksama." }
+        ],
+        "negative": [
+          { "en": "I am not tired.", "id": "Saya tidak lelah." },
+          { "en": "I do not understand the question.", "id": "Saya tidak mengerti pertanyaannya." },
+          { "en": "She does not speak Japanese.", "id": "Dia tidak berbicara bahasa Jepang." },
+          { "en": "They are not home now.", "id": "Mereka tidak di rumah sekarang." },
+          { "en": "He doesn't remember my name.", "id": "Dia tidak ingat namaku." }
+        ],
+        "question": [
+          { "en": "Are you ready?", "id": "Apakah kamu siap?" },
+          { "en": "Do you understand the lesson?", "id": "Apakah kamu paham pelajarannya?" },
+          { "en": "Does he call his mother every night?", "id": "Apakah dia menelepon ibunya setiap malam?" },
+          { "en": "Is the library open today?", "id": "Apakah perpustakaan buka hari ini?" },
+          { "en": "Do they visit us on Sunday?", "id": "Apakah mereka mengunjungi kami hari Minggu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She is understand the rule.", "right": "She understands the rule.", "whyId": "Understand adalah kata kerja biasa. Jangan pakai is bersamaan dengan kata kerja biasa." },
+        { "wrong": "Do you are ready?", "right": "Are you ready?", "whyId": "Ready adalah sifat. Untuk sifat, pakai to be dan tanpa do." },
+        { "wrong": "I do not am a teacher.", "right": "I am not a teacher.", "whyId": "Negatif to be memakai am/is/are + not, tanpa do." },
+        { "wrong": "Does he is at home?", "right": "Is he at home?", "whyId": "Tempat (at home) memakai to be. Tanya dengan to be cukup membalik subjek." },
+        { "wrong": "They does ask questions.", "right": "They ask questions.", "whyId": "Untuk they, do/does tidak dipakai dalam kalimat positif kata kerja biasa." },
+        { "wrong": "He remember my name.", "right": "He remembers my name.", "whyId": "Untuk he, kata kerja biasa mendapat -s." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["verb to be or verb English grammar", "do does or to be beginners"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata kerja biasa seperti understand, ask, dan answer",
+        "Kalimat keadaan dengan am, is, dan are"
+      ]
+    },
+    "script": {
+      "title": "Teman sekelas baru",
+      "lines": [
+        { "speaker": "Dina", "text": "Hi, I am Dina. Are you new in this class?" },
+        { "speaker": "Adi", "text": "Yes, I am new. I do not understand the grammar lesson yet. Do you understand it?" },
+        { "speaker": "Dina", "text": "Yes, I do. Our teacher speaks slowly, so you can listen carefully." },
+        { "speaker": "Adi", "text": "Good. Do you think the exam is difficult?" },
+        { "speaker": "Dina", "text": "I think it is not too hard, but I always forget the rules. Do you remember the verb to be?" },
+        { "speaker": "Adi", "text": "I remember am, is, and are. Do you ask the teacher questions?" },
+        { "speaker": "Dina", "text": "Yes, I ask every week. You can also call me tonight if you need notes." },
+        { "speaker": "Adi", "text": "Thanks. Are you free after class? We can visit the library." },
+        { "speaker": "Dina", "text": "I am free on Tuesday. Let's visit the library then." },
+        { "speaker": "Adi", "text": "Great. Do you answer the questions in the book, or only the teacher?" },
+        { "speaker": "Dina", "text": "I answer them at home. The answers are in the back of the book." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada I am new, tekankan am dengan bunyi pendek, dan new dengan bunyi panjang.",
+      "Pada Do you understand, naikkan nada di akhir karena ini pertanyaan.",
+      "Ucapkan forget dan remember berdampingan untuk membedakan bunyi awal kedua kata."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Is Adi new in the class?",
+        "options": [
+          { "id": "A", "text": "No, he is not." },
+          { "id": "B", "text": "He is Dina's brother." },
+          { "id": "C", "text": "He is the teacher." },
+          { "id": "D", "text": "Yes, he is new." }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Adi menjawab 'Yes, I am new', artinya ia memang murid baru di kelas.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Adi tidak mengatakan 'No'. Ia justru menyatakan dirinya baru." },
+          { "optionId": "B", "reasonId": "Dina bukan saudaranya. Hubungan mereka hanya teman sekelas." },
+          { "optionId": "C", "reasonId": "Adi bukan guru. Guru disebut sebagai 'our teacher'." }
+        ],
+        "evidence": "Yes, I am new."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does Adi not understand yet?",
+        "options": [
+          { "id": "A", "text": "the exam" },
+          { "id": "B", "text": "the library" },
+          { "id": "C", "text": "the grammar lesson" },
+          { "id": "D", "text": "the phone number" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Adi berkata 'I do not understand the grammar lesson yet'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Adi menganggap ujian tidak terlalu sulit. Ujian bukan yang belum ia pahami." },
+          { "optionId": "B", "reasonId": "Perpustakaan adalah tempat yang akan mereka kunjungi, bukan sesuatu yang tidak dipahami." },
+          { "optionId": "D", "reasonId": "Nomor telepon tidak disebut dalam bagian ini." }
+        ],
+        "evidence": "I do not understand the grammar lesson yet."
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does Dina do every week?",
+        "options": [
+          { "id": "A", "text": "She calls Adi." },
+          { "id": "B", "text": "She asks the teacher questions." },
+          { "id": "C", "text": "She visits the library." },
+          { "id": "D", "text": "She answers at school." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Adi bertanya 'Do you ask the teacher questions?' dan Dina menjawab 'Yes, I ask every week'. Jadi ia bertanya kepada guru setiap minggu.",
+        "stepByStep": [
+          "Cari frasa every week. Kalimat yang relevan: 'Yes, I ask every week.'",
+          "Kata ask berasal dari pertanyaan Adi: 'Do you ask the teacher questions?'. Jadi yang ditanyakan adalah bertanya kepada guru.",
+          "Pilihan A (call) disebut sebagai tawaran, bukan kebiasaan mingguan. Pilihan C (visit) adalah rencana hari Selasa. Pilihan D (answer) dilakukan di rumah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dina menawarkan 'You can also call me tonight', itu tawaran, bukan kebiasaan mingguan." },
+          { "optionId": "C", "reasonId": "Kunjungan ke perpustakaan direncanakan hari Selasa, bukan setiap minggu." },
+          { "optionId": "D", "reasonId": "Dina menjawab soal di rumah, bukan di sekolah." }
+        ],
+        "evidence": "Yes, I ask every week."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "When will Dina and Adi visit the library?",
+        "options": [
+          { "id": "A", "text": "on Tuesday" },
+          { "id": "B", "text": "tonight" },
+          { "id": "C", "text": "on Monday" },
+          { "id": "D", "text": "after the exam" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Dina berkata 'I am free on Tuesday', dan keduanya akan mengunjungi perpustakaan hari itu.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Dina menawarkan untuk menelepon malam ini, bukan mengunjungi perpustakaan." },
+          { "optionId": "C", "reasonId": "Senin tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Ujian tidak menjadi waktu kunjungan. Ujian hanya disebut sebagai topik." }
+        ],
+        "evidence": "I am free on Tuesday."
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does Dina's answer tell us about how she studies?",
+        "options": [
+          { "id": "A", "text": "She has never read the book." },
+          { "id": "B", "text": "She always answers the teacher's questions in class." },
+          { "id": "C", "text": "She checks her work at home, using the answers at the back of the book." },
+          { "id": "D", "text": "She does not do the exercises." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Dina berkata 'I answer them at home. The answers are in the back of the book', artinya ia mengerjakan soal di rumah dan memeriksa jawabannya di belakang buku.",
+        "stepByStep": [
+          "Adi bertanya tentang soal di buku, bukan soal dari guru. Pertanyaannya: 'the questions in the book, or only the teacher?'.",
+          "Dina menjawab 'I answer them at home', yang berarti soal di buku dikerjakannya di rumah.",
+          "Kalimat 'The answers are in the back of the book' menunjukkan ia memeriksa jawabannya dari buku. Pilihan D bertentangan karena ia mengerjakan soal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dina mengerjakan soal di buku, jadi ia tidak mungkin tidak pernah membacanya." },
+          { "optionId": "B", "reasonId": "Dina tidak menyebut menjawab pertanyaan guru di kelas. Ia menjawab soal di buku di rumah." },
+          { "optionId": "D", "reasonId": "Dina mengatakan 'I answer them', yang berarti ia mengerjakan soal, bukan tidak mengerjakannya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Answer bisa menjadi kata kerja (menjawab) atau kata benda (jawaban). Dalam percakapan ini answer adalah kata kerja, dan answers adalah kata benda jamak.",
+          "examples": [
+            { "en": "Please answer the question.", "id": "Tolong jawab pertanyaannya." },
+            { "en": "The answers are on page ten.", "id": "Jawabannya ada di halaman sepuluh." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah 'answer' yang bisa terdengar seperti tindakan guru di kelas. Dalam konteks ini, Dina menjawab soal dari buku di rumah, bukan menjawab pertanyaan guru.",
+        "evidence": "I answer them at home."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ a teacher.",
+        "options": [
+          { "id": "A", "text": "do" },
+          { "id": "B", "text": "does" },
+          { "id": "C", "text": "am" },
+          { "id": "D", "text": "is" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "A teacher menjelaskan identitas, jadi pakai to be. Untuk she, to be-nya is.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Do adalah kata kerja biasa. Kalimat ini menjelaskan identitas, bukan tindakan." },
+          { "optionId": "B", "reasonId": "Does juga kata kerja biasa. Tidak cocok untuk menjelaskan identitas." },
+          { "optionId": "C", "reasonId": "Am hanya dipakai dengan I." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "We ___ at the library on Friday.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "do" },
+          { "id": "C", "text": "does" },
+          { "id": "D", "text": "am" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "At the library menunjukkan tempat, jadi pakai to be. Untuk we, to be-nya are.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Do adalah kata kerja biasa. Kalimat ini menunjukkan tempat." },
+          { "optionId": "C", "reasonId": "Does dipakai untuk he, she, it dan kata kerja biasa." },
+          { "optionId": "D", "reasonId": "Am hanya dipakai dengan I." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "I ___ not understand the lesson.",
+        "options": [
+          { "id": "A", "text": "am" },
+          { "id": "B", "text": "do" },
+          { "id": "C", "text": "does" },
+          { "id": "D", "text": "is" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Understand adalah kata kerja biasa, jadi negatifnya memakai do not.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Am tidak dipakai di sini karena understand adalah kata kerja biasa." },
+          { "optionId": "C", "reasonId": "Does dipakai untuk he, she, it. Subjek I memakai do." },
+          { "optionId": "D", "reasonId": "Is tidak cocok dengan subjek I dan dengan kata kerja biasa." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He not does know the answer." },
+          { "id": "B", "text": "He does not know the answer." },
+          { "id": "C", "text": "He is not know the answer." },
+          { "id": "D", "text": "He does not knows the answer." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Know adalah kata kerja biasa, negatifnya memakai does not, dan kata kerjanya tetap bentuk dasar.",
+        "stepByStep": [
+          "Cek kata kerja: know adalah kata kerja biasa, bukan to be. Jadi tidak boleh memakai is atau are.",
+          "Untuk he, negatifnya does not, dan kata kerja tetap bentuk dasar know.",
+          "Pilihan A salah karena not harus setelah does. Pilihan C salah karena memakai is dengan kata kerja biasa. Pilihan D salah karena knows memakai -s setelah does not."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Not harus diletakkan setelah does, bukan sebelumnya." },
+          { "optionId": "C", "reasonId": "Is tidak boleh dipakai dengan kata kerja biasa know." },
+          { "optionId": "D", "reasonId": "Setelah does not, kata kerja kembali ke bentuk dasar, tanpa -s." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ you remember my name?",
+        "options": [
+          { "id": "A", "text": "Is" },
+          { "id": "B", "text": "Are" },
+          { "id": "C", "text": "Do" },
+          { "id": "D", "text": "Does" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Remember adalah kata kerja biasa, dan subjeknya you. Pertanyaannya memakai do.",
+        "stepByStep": [
+          "Kata kerja utama remember adalah kata kerja biasa, bukan to be.",
+          "Subjek you memakai do, bukan does.",
+          "Is dan are adalah to be, sehingga tidak cocok dengan remember. Does dipakai untuk he, she, it."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is adalah to be dan tidak cocok dengan kata kerja remember." },
+          { "optionId": "B", "reasonId": "Are adalah to be dan tidak cocok dengan kata kerja remember." },
+          { "optionId": "D", "reasonId": "Does dipakai untuk he, she, it, bukan you." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya seorang siswa.",
+        "hint": "Siswa adalah identitas, jadi gunakan to be.",
+        "acceptedAnswers": ["I am a student.", "I'm a student."],
+        "modelAnswer": "I am a student.",
+        "commonErrors": [{ "pattern": "I do a student", "feedbackId": "Identitas memakai to be, bukan do." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia tidak mengerti pelajaran itu.",
+        "hint": "Mengerti adalah kata kerja biasa. Subjek dia memakai does not.",
+        "acceptedAnswers": ["She does not understand the lesson.", "She doesn't understand the lesson."],
+        "modelAnswer": "She does not understand the lesson.",
+        "commonErrors": [{ "pattern": "She is not understand the lesson", "feedbackId": "Understand adalah kata kerja biasa, jadi negatifnya memakai does not." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apakah kamu ingat nama guru kita?",
+        "hint": "Ingat adalah kata kerja biasa. Untuk pertanyaan dengan you, gunakan do.",
+        "acceptedAnswers": ["Do you remember the name of our teacher?", "Do you remember our teacher's name?"],
+        "modelAnswer": "Do you remember the name of our teacher?",
+        "commonErrors": [{ "pattern": "Are you remember", "feedbackId": "Remember kata kerja biasa. Tanya dengan do, bukan are." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami berbicara dengan guru baru di kelas.",
+        "hint": "Berbicara adalah kata kerja biasa untuk subjek we. Dengan: with atau to.",
+        "acceptedAnswers": ["We speak with the new teacher in class.", "We speak to the new teacher in class."],
+        "modelAnswer": "We speak with the new teacher in class.",
+        "commonErrors": [{ "pattern": "We are speak with", "feedbackId": "Speak kata kerja biasa. Untuk we, jangan pakai are di depannya." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia sangat pintar, tetapi dia tidak pernah menjawab pertanyaan di kelas.",
+        "hint": "Sangat pintar menggunakan to be (is) dengan sifat. Tidak pernah menjawab: never answers. Ingat, jangan memakai is di depan answers.",
+        "acceptedAnswers": [
+          "She is very smart, but she never answers questions in class.",
+          "She is very clever, but she never answers questions in class."
+        ],
+        "modelAnswer": "She is very smart, but she never answers questions in class.",
+        "commonErrors": [
+          { "pattern": "She is very smart, but she is never answers", "feedbackId": "Answers adalah kata kerja biasa. Jangan pakai is di depannya." },
+          { "pattern": "She never answer questions", "feedbackId": "Untuk she, kata kerja answer mendapat -s." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "What ___ you ___ about the exam?",
+        "options": [
+          { "id": "A", "text": "is / think" },
+          { "id": "B", "text": "do / think" },
+          { "id": "C", "text": "are / thinking" },
+          { "id": "D", "text": "does / thinks" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Think adalah kata kerja biasa, dan subjeknya you. Pertanyaannya memakai do dan kata kerja dasar think.",
+        "stepByStep": [
+          "Cari kata kerja utama: think. Kata ini adalah kata kerja biasa, bukan to be.",
+          "Subjek you memakai do dalam pertanyaan, sehingga pola yang benar adalah do you think.",
+          "Pilihan A dan C memakai to be dengan kata kerja biasa. Pilihan D memakai does dan -s, padahal subjeknya you."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak boleh dipakai bersama think. Dan subjek you tidak memakai is." },
+          { "optionId": "C", "reasonId": "Are dan thinking tidak boleh dipakai bersama. Pertanyaan kata kerja memakai dasar." },
+          { "optionId": "D", "reasonId": "Does dan thinks dipakai untuk he, she, it. Subjek you memakai do dan bentuk dasar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jika kalimat punya kata kerja biasa, pertanyaannya memakai do atau does, lalu kata kerja tetap bentuk dasar. Jika kalimat hanya menjelaskan keadaan, pakai to be.",
+          "examples": [
+            { "en": "Do you like music?", "id": "Apakah kamu suka musik?" },
+            { "en": "Are you happy?", "id": "Apakah kamu senang?" }
+          ]
+        },
+        "examTrap": "Pilihan A terasa benar karena 'what is' sering dipakai. Tetapi think adalah kata kerja biasa, sehingga tidak boleh didahului is."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which question is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "Do she is ready?" },
+          { "id": "B", "text": "Is she ready?" },
+          { "id": "C", "text": "Does she ready?" },
+          { "id": "D", "text": "Is she readies?" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Ready adalah sifat, jadi pertanyaannya memakai to be: Is she ready?",
+        "stepByStep": [
+          "Cek kata setelah subjek. Ready adalah sifat, bukan kata kerja.",
+          "Untuk sifat, pertanyaan dibuat dengan membalik to be: Is she ready?",
+          "Pilihan A dan C memakai do atau does, padahal tidak ada kata kerja biasa. Pilihan D menambahkan -s pada sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Do tidak dipakai bersama is. Sifat ready tidak membutuhkan do." },
+          { "optionId": "C", "reasonId": "Does ready bukan kata kerja. Tidak ada kata kerja biasa setelah she." },
+          { "optionId": "D", "reasonId": "Ready adalah sifat, bukan kata kerja. Tidak boleh diberi -s." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan dengan sifat atau tempat memakai to be di depan subjek. Pertanyaan dengan kata kerja biasa memakai do atau does.",
+          "examples": [
+            { "en": "Are they tired?", "id": "Apakah mereka lelah?" },
+            { "en": "Does she work here?", "id": "Apakah dia bekerja di sini?" }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat seperti pertanyaan biasa, tetapi ready adalah sifat. Kalau kamu memakai does, kamu sedang memperlakukan sifat seperti kata kerja."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "We ___ the answer now, and they ___ it too.",
+        "options": [
+          { "id": "A", "text": "know / knows" },
+          { "id": "B", "text": "knows / know" },
+          { "id": "C", "text": "know / know" },
+          { "id": "D", "text": "knows / knows" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "We dan they memakai bentuk dasar know, tanpa -s.",
+        "stepByStep": [
+          "Kalimat pertama: subjek we, sehingga kata kerja know tanpa -s.",
+          "Kalimat kedua: subjek they, juga tanpa -s.",
+          "Pilihan A, B, dan D memakai -s pada salah satu subjek jamak, yang tidak sesuai aturan simple present."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Knows salah untuk they. Subjek they memakai bentuk dasar." },
+          { "optionId": "B", "reasonId": "Knows salah untuk we, dan subjek we memakai bentuk dasar." },
+          { "optionId": "D", "reasonId": "Knows salah untuk we dan they. Kedua subjek ini memakai bentuk dasar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk I, you, we, dan they, kata kerja simple present tetap bentuk dasar. Untuk he, she, dan it, kata kerja mendapat -s.",
+          "examples": [
+            { "en": "They know the rule.", "id": "Mereka tahu aturannya." },
+            { "en": "He knows the rule.", "id": "Dia tahu aturannya." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti versi yang lebih panjang dari pilihan A, tetapi memberi -s pada we, yang seharusnya tanpa -s."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "She ___ at school on Mondays, and she ___ to the market on Sundays.",
+        "options": [
+          { "id": "A", "text": "goes / goes" },
+          { "id": "B", "text": "go / goes" },
+          { "id": "C", "text": "goes / go" },
+          { "id": "D", "text": "go / go" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kedua klausa memakai subjek she, sehingga kata kerja go mendapat -es: goes.",
+        "stepByStep": [
+          "Klausa pertama: she, sehingga kata kerja go menjadi goes.",
+          "Klausa kedua: and she, subjek sama, sehingga kata kerja go juga menjadi goes.",
+          "Pilihan B dan C hanya benar di satu klausa. Pilihan D salah di kedua klausa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Go pertama salah karena subjeknya she. Hanya goes yang benar." },
+          { "optionId": "C", "reasonId": "Go kedua salah karena subjeknya she. Hanya goes yang benar." },
+          { "optionId": "D", "reasonId": "Go di kedua klausa salah karena subjeknya she." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setiap klausa dengan subjek she mendapat -s atau -es pada kata kerja. Go menjadi goes, bukan go.",
+          "examples": [
+            { "en": "She goes to school early.", "id": "Dia pergi ke sekolah lebih awal." },
+            { "en": "He goes to the gym on Tuesday.", "id": "Dia pergi ke gym pada hari Selasa." }
+          ]
+        },
+        "examTrap": "Kata go terlihat seperti bentuk yang benar karena mirip dengan kata kerja untuk we. Subjek she tetap meminta goes di setiap klausa."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "The students ___ quiet, so the teacher ___ happy.",
+        "options": [
+          { "id": "A", "text": "is / is" },
+          { "id": "B", "text": "are / is" },
+          { "id": "C", "text": "are / are" },
+          { "id": "D", "text": "is / are" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Students jamak, sehingga are. Teacher tunggal, sehingga is.",
+        "stepByStep": [
+          "Klausa pertama: the students adalah jamak, sehingga kata kerjanya are.",
+          "Klausa kedua: the teacher adalah tunggal, sehingga kata kerjanya is.",
+          "Pilihan A dan C menyamakan kedua klausa. Pilihan D membalik urutan yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is salah untuk the students (jamak)." },
+          { "optionId": "C", "reasonId": "Are salah untuk the teacher (tunggal)." },
+          { "optionId": "D", "reasonId": "Urutannya terbalik. The students jamak memakai are, dan the teacher tunggal memakai is." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setiap klausa punya subjek sendiri. Cocokkan kata kerja to be dengan jumlah subjek di klausa itu.",
+          "examples": [
+            { "en": "The books are on the table, and the pen is in my bag.", "id": "Buku-buku ada di atas meja, dan pulpen ada di dalam tasku." },
+            { "en": "My friends are tired, but I am happy.", "id": "Teman-teman saya lelah, tetapi saya senang." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah kalimat yang punya dua subjek berbeda jumlahnya. Jangan menyamakan kata kerja kedua dengan kata kerja pertama."
+      }
+    ]
+  }
+}

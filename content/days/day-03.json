@@ -1,0 +1,558 @@
+{
+  "day": 3,
+  "week": 1,
+  "month": 1,
+  "title": "Possessive & Object Pronouns",
+  "topic": "Kata ganti kepemilikan (my, mine, your, yours, his, her, hers, our, ours, their, theirs) dan kata ganti objek (me, him, her, us, them)",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memilih my, your, atau mine sesuai apakah diikuti kata benda atau berdiri sendiri",
+    "Memakai kata ganti objek setelah kata kerja atau preposisi",
+    "Membaca teks keluarga dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "mine", "pronunciationId": "MAIN (ai panjang seperti di 'pain' bahasa Inggris)", "pos": "Other", "meaningId": "milik saya", "example": "The blue bag is mine.", "exampleId": "Tas biru itu milik saya." },
+      { "no": 2, "en": "yours", "pronunciationId": "YORZ (r ringan, s terdengar seperti z)", "pos": "Other", "meaningId": "milik kamu", "example": "Is this pen yours?", "exampleId": "Apakah pulpen ini milikmu?" },
+      { "no": 3, "en": "ours", "pronunciationId": "AURZ (au seperti 'ou' di 'hour', s seperti z)", "pos": "Other", "meaningId": "milik kami", "example": "The big car is ours.", "exampleId": "Mobil besar itu milik kami." },
+      { "no": 4, "en": "theirs", "pronunciationId": "THAIRZ (th lidah di antara gigi, ai seperti 'air', s seperti z)", "pos": "Other", "meaningId": "milik mereka", "example": "These books are theirs.", "exampleId": "Buku-buku ini milik mereka." },
+      { "no": 5, "en": "brother", "pronunciationId": "BRA-ther (th lembut seperti 'dh' bahasa Indonesia)", "pos": "Noun", "meaningId": "saudara laki-laki", "example": "My brother is ten years old.", "exampleId": "Adik laki-laki saya berumur sepuluh tahun." },
+      { "no": 6, "en": "sister", "pronunciationId": "SIS-ter (s tajam, er samar di akhir)", "pos": "Noun", "meaningId": "saudara perempuan", "example": "My sister studies in Bandung.", "exampleId": "Kakak perempuan saya kuliah di Bandung." },
+      { "no": 7, "en": "parent", "pronunciationId": "PAIR-ent (ai seperti 'air', e kedua samar)", "pos": "Noun", "meaningId": "orang tua", "example": "My parents live in Yogyakarta.", "exampleId": "Orang tua saya tinggal di Yogyakarta." },
+      { "no": 8, "en": "cousin", "pronunciationId": "KA-zen (ou seperti 'a', s terdengar seperti z)", "pos": "Noun", "meaningId": "sepupu", "example": "My cousin is a doctor.", "exampleId": "Sepupu saya seorang dokter." },
+      { "no": 9, "en": "family", "pronunciationId": "FAM-li (vokal kedua i pendek, y di akhir seperti i)", "pos": "Noun", "meaningId": "keluarga", "example": "Our family is big and warm.", "exampleId": "Keluarga kami besar dan hangat." },
+      { "no": 10, "en": "grandmother", "pronunciationId": "GRAND-mu-ther (th lembut, mu pendek)", "pos": "Noun", "meaningId": "nenek", "example": "My grandmother loves to cook.", "exampleId": "Nenek saya suka memasak." }
+    ],
+    "tip": "Untuk kata kepemilikan, tanyakan dulu: apakah setelahnya ada kata benda? Jika ya, pakai my, your, our. Jika tidak, pakai mine, yours, ours. Dengan pola ini kamu tidak perlu menghafal semua kasus."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["possessive pronouns English", "object pronouns me him her"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata ganti kepemilikan dan kata ganti objek, dengan contoh keluarga dan benda sehari-hari.",
+      "watchFor": [
+        "Perbedaan my dan mine, your dan yours",
+        "Kata ganti objek me, him, her, us, dan them setelah kata kerja",
+        "Kata ganti objek setelah preposisi seperti for, with, dan to"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu menaruh label nama di barang. Ada dua cara menulis kepemilikan: label yang menempel di depan benda (my book) dan label yang berdiri sendiri karena bendanya sudah jelas (the book is mine). Pola ini sering muncul di tes dan di percakapan.",
+      "sections": [
+        {
+          "heading": "Kepemilikan yang diikuti kata benda",
+          "bodyMd": "**my, your, his, her, its, our, their** diikuti kata benda: **my** book, **your** bag, **our** house. Kata ganti ini tidak bisa berdiri sendiri. Kalimat 'The bag is my' salah, karena harus ada kata benda setelahnya."
+        },
+        {
+          "heading": "Kepemilikan yang berdiri sendiri",
+          "bodyMd": "**mine, yours, hers, ours, theirs** berdiri sendiri, tanpa kata benda setelahnya. Contoh: 'The bag is **mine**.' Kata ini sudah berarti 'my bag'. Untuk **his** dan **its**, bentuk yang sama dipakai baik sebelum maupun tanpa kata benda."
+        },
+        {
+          "heading": "Kata ganti objek",
+          "bodyMd": "Kata ganti objek **me, you, him, her, it, us, them** dipakai setelah kata kerja atau preposisi, bukan sebagai subjek. Contoh: 'Give **her** the pencil', 'Come with **us**'. Kalau kamu ragu, tanyakan: apakah kata ini menerima tindakan? Jika ya, pakai bentuk objek."
+        }
+      ],
+      "formulas": [
+        { "label": "Diikuti kata benda", "pattern": "my / your / our / their + kata benda" },
+        { "label": "Berdiri sendiri", "pattern": "mine / yours / ours / theirs (tanpa kata benda)" },
+        { "label": "Objek", "pattern": "kata kerja / preposisi + me / him / her / us / them" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "This is my book.", "id": "Ini buku saya." },
+          { "en": "The pen is yours.", "id": "Pulpen itu milikmu." },
+          { "en": "Please call us tomorrow.", "id": "Tolong telepon kami besok." },
+          { "en": "Our house is small.", "id": "Rumah kami kecil." },
+          { "en": "I can help them with the bags.", "id": "Saya bisa membantu mereka dengan tas-tas itu." }
+        ],
+        "negative": [
+          { "en": "That bag is not mine.", "id": "Tas itu bukan milik saya." },
+          { "en": "These are not her books.", "id": "Ini bukan buku-bukunya." },
+          { "en": "The car is not theirs.", "id": "Mobil itu bukan milik mereka." },
+          { "en": "Don't give him the keys.", "id": "Jangan berikan kunci itu kepadanya." },
+          { "en": "The phone is not ours.", "id": "Ponsel itu bukan milik kami." }
+        ],
+        "question": [
+          { "en": "Is this your pen?", "id": "Apakah ini pulpenmu?" },
+          { "en": "Whose bag is this? It is hers.", "id": "Ini tas siapa? Itu milik dia." },
+          { "en": "Can you help me?", "id": "Bisakah kamu membantu saya?" },
+          { "en": "Is that cake yours?", "id": "Apakah kue itu milikmu?" },
+          { "en": "Did they call you?", "id": "Apakah mereka menelepon kamu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The bag is my.", "right": "The bag is mine.", "whyId": "Kata my harus diikuti kata benda. Jika tidak ada kata benda, gunakan mine." },
+        { "wrong": "This is mine book.", "right": "This is my book.", "whyId": "Mine tidak boleh diikuti kata benda. Untuk kata benda, pakai my." },
+        { "wrong": "Give the pencil to she.", "right": "Give the pencil to her.", "whyId": "Setelah preposisi to, gunakan bentuk objek her, bukan she." },
+        { "wrong": "They help we every day.", "right": "They help us every day.", "whyId": "Setelah kata kerja help, gunakan bentuk objek us." },
+        { "wrong": "The house is our.", "right": "The house is ours.", "whyId": "Our tidak berdiri sendiri. Bentuk mandiri untuk kami adalah ours." },
+        { "wrong": "Is this you pen?", "right": "Is this your pen?", "whyId": "Kepemilikan you harus your, bukan you, karena diikuti pen." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Foto Keluarga",
+    "text": "This is my family photo. The woman in the middle is my grandmother. She is seventy years old, and she loves to cook. My mother stands on her left, and my father stands on her right. The boy in the blue shirt is my brother. He is ten years old and he likes football. The girl with the red bag is my sister. She studies in another city, so she is not home very often. The tall man next to my father is my cousin. We are very close. Our house is small, but the family is big and warm. The blue bag on the chair is mine. The black phone on the table belongs to my parents, so it is theirs. My cousin asks, 'Is that cake yours?' I say, 'No, the cake is ours.'",
+    "glossary": [
+      { "en": "grandmother", "id": "nenek" },
+      { "en": "cousin", "id": "sepupu" },
+      { "en": "close", "id": "dekat, akrab" },
+      { "en": "belongs", "id": "menjadi milik" },
+      { "en": "studies", "id": "belajar, kuliah" },
+      { "en": "photo", "id": "foto" },
+      { "en": "warm", "id": "hangat" },
+      { "en": "stands", "id": "berdiri" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How old is the grandmother?",
+        "options": [
+          { "id": "A", "text": "seventy" },
+          { "id": "B", "text": "ten" },
+          { "id": "C", "text": "forty" },
+          { "id": "D", "text": "twelve" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'She is seventy years old'. Yang berumur sepuluh tahun adalah adik laki-laki.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Sepuluh tahun adalah umur adik laki-laki (my brother)." },
+          { "optionId": "C", "reasonId": "Empat puluh tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Dua belas tidak disebut dalam teks." }
+        ],
+        "evidence": "She is seventy years old and she loves to cook."
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Who is the tall man next to the father?",
+        "options": [
+          { "id": "A", "text": "the brother" },
+          { "id": "B", "text": "the cousin" },
+          { "id": "C", "text": "the grandfather" },
+          { "id": "D", "text": "the sister" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menyebut pria tinggi di samping ayah sebagai sepupu (cousin) si narator.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Adik laki-laki memakai baju biru, bukan pria tinggi di samping ayah." },
+          { "optionId": "C", "reasonId": "Kakek tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Kakak perempuan memakai tas merah, bukan pria tinggi." }
+        ],
+        "evidence": "The tall man next to my father is my cousin."
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Where does the sister study?",
+        "options": [
+          { "id": "A", "text": "in the same house" },
+          { "id": "B", "text": "in another city" },
+          { "id": "C", "text": "on the table" },
+          { "id": "D", "text": "in the car" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'She studies in another city', artinya ia kuliah di kota lain.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks justru bilang ia tidak sering di rumah, jadi tidak tinggal di rumah yang sama." },
+          { "optionId": "C", "reasonId": "Meja disebut sebagai tempat ponsel, bukan tempat kakak belajar." },
+          { "optionId": "D", "reasonId": "Mobil tidak disebut dalam bagian tentang kakak." }
+        ],
+        "evidence": "She studies in another city, so she is not home very often."
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which item belongs to the parents?",
+        "options": [
+          { "id": "A", "text": "the blue bag" },
+          { "id": "B", "text": "the red bag" },
+          { "id": "C", "text": "the black phone" },
+          { "id": "D", "text": "the small cake" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis bahwa ponsel hitam di atas meja milik orang tua (belongs to my parents).",
+        "stepByStep": [
+          "Cari kata belongs atau parents di teks. Kalimatnya: 'The black phone on the table belongs to my parents, so it is theirs.'",
+          "Kata belongs to my parents menunjukkan kepemilikan langsung oleh orang tua.",
+          "Tas biru adalah milik narator (mine), tas merah milik kakak, dan kue adalah milik keluarga secara umum. Hanya ponsel hitam yang disebut jelas milik orang tua."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tas biru disebut mine, yaitu milik narator, bukan orang tua." },
+          { "optionId": "B", "reasonId": "Tas merah milik kakak perempuan, bukan orang tua." },
+          { "optionId": "D", "reasonId": "Kue tidak disebut milik orang tua. Kue ditanyakan kepemilikannya oleh sepupu." }
+        ],
+        "evidence": "The black phone on the table belongs to my parents, so it is theirs."
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Which statement is best supported by the text?",
+        "options": [
+          { "id": "A", "text": "The cake belongs only to the narrator's cousin." },
+          { "id": "B", "text": "The cake is the narrator's alone." },
+          { "id": "C", "text": "The blue bag belongs to the brother." },
+          { "id": "D", "text": "The cake belongs to the narrator together with other people." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Narator menjawab 'the cake is ours'. Ours berarti milik narator bersama orang lain, bukan milik satu orang saja.",
+        "stepByStep": [
+          "Cari pernyataan kepemilikan kue: 'No, the cake is ours.'",
+          "Ours adalah kata ganti kepemilikan jamak untuk 'we', yaitu narator bersama orang lain.",
+          "Pilihan A dan B terlalu sempit karena hanya satu orang. Pilihan C salah karena tas biru adalah mine, milik narator."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut sepupu sebagai pemilik kue. Sepupu hanya bertanya." },
+          { "optionId": "B", "reasonId": "Ours berarti lebih dari satu orang, jadi kue tidak hanya milik narator." },
+          { "optionId": "C", "reasonId": "Tas biru disebut mine (milik narator), bukan milik saudara laki-laki." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Ours dan theirs mewakili kepemilikan oleh lebih dari satu orang. Jika pembicara menggunakan 'we', maka ours berarti 'milik saya dan orang lain'.",
+          "examples": [
+            { "en": "The house is ours. We live there together.", "id": "Rumah itu milik kami. Kami tinggal di sana bersama." },
+            { "en": "The car is theirs.", "id": "Mobil itu milik mereka." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah menganggap ours hanya milik narator. Ours selalu menunjukkan kepemilikan bersama, jadi pilihan yang 'hanya satu orang' hampir pasti salah.",
+        "evidence": "No, the cake is ours."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "This is ___ book.",
+        "options": [
+          { "id": "A", "text": "me" },
+          { "id": "B", "text": "my" },
+          { "id": "C", "text": "mine" },
+          { "id": "D", "text": "I" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Book adalah kata benda, jadi kepemilikan yang dipakai adalah my, bukan mine.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Me adalah kata ganti objek, bukan kepemilikan." },
+          { "optionId": "C", "reasonId": "Mine tidak boleh diikuti kata benda. Di sini ada book." },
+          { "optionId": "D", "reasonId": "I adalah kata ganti subjek. Di sini dibutuhkan kepemilikan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The bag is ___.",
+        "options": [
+          { "id": "A", "text": "mine" },
+          { "id": "B", "text": "me" },
+          { "id": "C", "text": "my" },
+          { "id": "D", "text": "I" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tidak ada kata benda setelah kata kosong, jadi dipakai bentuk mandiri mine.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Me adalah kata ganti objek, dan tidak bisa menunjukkan kepemilikan." },
+          { "optionId": "C", "reasonId": "My harus diikuti kata benda. Di sini tidak ada kata benda setelahnya." },
+          { "optionId": "D", "reasonId": "I adalah subjek. Di sini dibutuhkan kata ganti kepemilikan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Please give the pencil to ___.",
+        "options": [
+          { "id": "A", "text": "her" },
+          { "id": "B", "text": "she" },
+          { "id": "C", "text": "hers" },
+          { "id": "D", "text": "their" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Setelah preposisi to, dipakai kata ganti objek her.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "She adalah subjek. Setelah to, gunakan bentuk objek." },
+          { "optionId": "C", "reasonId": "Hers adalah kepemilikan mandiri, dan tidak dipakai setelah to di sini." },
+          { "optionId": "D", "reasonId": "Their adalah kepemilikan jamak. Di sini targetnya satu orang perempuan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The house is us." },
+          { "id": "B", "text": "The house is ours." },
+          { "id": "C", "text": "The house is our." },
+          { "id": "D", "text": "The house is ourself." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Untuk 'milik kami' tanpa kata benda setelahnya, bentuk yang benar adalah ours.",
+        "stepByStep": [
+          "Lihat apa yang terjadi setelah is. Tidak ada kata benda, jadi perlu kata ganti kepemilikan mandiri.",
+          "Our tidak bisa berdiri sendiri, sehingga pilihan C salah.",
+          "Ours adalah bentuk mandiri untuk we. Us adalah bentuk objek, dan ourself tidak dipakai dalam kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Us adalah kata ganti objek, tidak menunjukkan kepemilikan." },
+          { "optionId": "C", "reasonId": "Our harus diikuti kata benda. Tanpa kata benda, gunakan ours." },
+          { "optionId": "D", "reasonId": "Ourself bukan bentuk yang dipakai untuk kepemilikan. Gunakan ours." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "My brother and ___ are going to the market.",
+        "options": [
+          { "id": "A", "text": "me" },
+          { "id": "B", "text": "my" },
+          { "id": "C", "text": "mine" },
+          { "id": "D", "text": "I" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Dalam subjek majemuk, kata ganti subjek I dipakai bersama my brother.",
+        "stepByStep": [
+          "Subjek kalimat adalah 'my brother and ___'. Dua orang melakukan tindakan are going.",
+          "Kata ganti subjek untuk diri sendiri adalah I. Me adalah bentuk objek.",
+          "Cek dengan menghapus 'my brother and': 'I am going' benar, sedangkan 'Me am going' salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Me adalah bentuk objek. Di posisi subjek, gunakan I." },
+          { "optionId": "B", "reasonId": "My adalah kepemilikan, dan tidak bisa menjadi bagian dari subjek ini." },
+          { "optionId": "C", "reasonId": "Mine adalah kepemilikan mandiri, tidak cocok sebagai subjek." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Ini buku saya.",
+        "hint": "Gunakan kepemilikan my di depan kata benda book.",
+        "acceptedAnswers": ["This is my book.", "This is my book"],
+        "modelAnswer": "This is my book.",
+        "commonErrors": [{ "pattern": "This is mine book", "feedbackId": "Mine tidak boleh diikuti kata benda. Gunakan my." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tas itu milik dia.",
+        "hint": "Tidak ada kata benda setelah 'milik dia', jadi gunakan bentuk mandiri.",
+        "acceptedAnswers": ["That bag is hers.", "The bag is hers.", "That bag is hers"],
+        "modelAnswer": "That bag is hers.",
+        "commonErrors": [{ "pattern": "That bag is her", "feedbackId": "Her harus diikuti kata benda. Untuk 'milik dia' tanpa kata benda, gunakan hers." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rumah itu milik kami.",
+        "hint": "Tidak ada kata benda setelah 'milik kami', jadi gunakan bentuk mandiri untuk we.",
+        "acceptedAnswers": ["The house is ours.", "That house is ours.", "The house is ours"],
+        "modelAnswer": "The house is ours.",
+        "commonErrors": [{ "pattern": "The house is our", "feedbackId": "Our tidak berdiri sendiri. Gunakan ours." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Buku-buku ini bukan milik mereka.",
+        "hint": "Buku-buku itu jamak. Untuk 'milik mereka' tanpa kata benda, gunakan theirs.",
+        "acceptedAnswers": ["These books are not theirs.", "These books aren't theirs.", "These books are not theirs"],
+        "modelAnswer": "These books are not theirs.",
+        "commonErrors": [{ "pattern": "These books are not their", "feedbackId": "Their harus diikuti kata benda. Di sini tidak ada kata benda, jadi pakai theirs." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kakak laki-laki saya dan saya pergi ke pasar bersama sepupu saya.",
+        "hint": "Subjek gabungan 'saya dan kakak laki-laki' ditulis dengan my brother and I. Sepupu saya adalah my cousin.",
+        "acceptedAnswers": [
+          "My brother and I went to the market with my cousin.",
+          "My brother and I went to the market together with my cousin.",
+          "My brother and I went to the market with my cousin"
+        ],
+        "modelAnswer": "My brother and I went to the market with my cousin.",
+        "commonErrors": [
+          { "pattern": "Me and my brother went", "feedbackId": "Di posisi subjek, gunakan I. Me adalah bentuk objek." },
+          { "pattern": "with me cousin", "feedbackId": "Gunakan my cousin. Kata my tidak diubah menjadi me." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence uses the possessive correctly?",
+        "options": [
+          { "id": "A", "text": "This book is mines." },
+          { "id": "B", "text": "This book is mine." },
+          { "id": "C", "text": "This book is my." },
+          { "id": "D", "text": "This book is me." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mine adalah kata ganti kepemilikan mandiri untuk I. Tidak ada bentuk mines dalam bahasa Inggris.",
+        "stepByStep": [
+          "Tidak ada kata benda setelah kata kerja is, jadi dibutuhkan kata ganti kepemilikan mandiri.",
+          "Bentuk mandiri untuk I adalah mine. Mines dan my tidak tepat di sini.",
+          "Me adalah kata ganti objek, tidak menunjukkan kepemilikan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mines bukan bentuk yang ada dalam bahasa Inggris. Bentuk yang benar adalah mine." },
+          { "optionId": "C", "reasonId": "My harus diikuti kata benda. Di sini tidak ada." },
+          { "optionId": "D", "reasonId": "Me adalah kata ganti objek. Kalimat ini membutuhkan kepemilikan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk tiap kata ganti orang ada dua bentuk kepemilikan: bentuk yang diikuti kata benda (my, your, his, her, our, their) dan bentuk mandiri (mine, yours, his, hers, ours, theirs). Bentuk mandiri untuk I adalah mine.",
+          "examples": [
+            { "en": "The pen is mine, not yours.", "id": "Pulpen itu milik saya, bukan milikmu." },
+            { "en": "This is my desk, and that one is hers.", "id": "Ini meja saya, dan yang itu milik dia." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah mines. Banyak pembelajar menambahkan -s pada mine karena terbiasa dengan akhiran jamak. Bentuk mandiri tidak punya -s."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Choose the correct object pronoun: 'The teacher gave ___ a gift.'",
+        "options": [
+          { "id": "A", "text": "ours" },
+          { "id": "B", "text": "our" },
+          { "id": "C", "text": "us" },
+          { "id": "D", "text": "we" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Gave adalah kata kerja dengan dua objek: penerima (us) dan benda (a gift). Penerima harus berbentuk objek, yaitu us.",
+        "stepByStep": [
+          "Cari kata kerja utama: gave. Sesudahnya ada penerima.",
+          "Penerima harus berbentuk objek, bukan subjek atau kepemilikan.",
+          "Us adalah bentuk objek untuk we. Pilihan lain adalah kepemilikan atau subjek, sehingga tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ours adalah kepemilikan mandiri, tidak bisa menjadi penerima dari kata kerja gave." },
+          { "optionId": "B", "reasonId": "Our adalah kepemilikan yang harus diikuti kata benda. Di sini tidak ada kata benda setelahnya." },
+          { "optionId": "D", "reasonId": "We adalah subjek. Setelah kata kerja, gunakan bentuk objek." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja yang punya dua objek (give, send, show, tell) biasanya diikuti penerima dalam bentuk objek, lalu benda.",
+          "examples": [
+            { "en": "She sent them a message.", "id": "Dia mengirimi mereka sebuah pesan." },
+            { "en": "Can you show me the way?", "id": "Bisakah kamu menunjukkan saya jalannya?" }
+          ]
+        },
+        "examTrap": "Pilihan A (ours) terlihat seperti kata yang benar karena berhubungan dengan 'us'. Padahal kepemilikan tidak bisa menjadi penerima dari kata kerja."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "The pencils on the table ___ mine, and the bag next to them ___ theirs.",
+        "options": [
+          { "id": "A", "text": "is / is" },
+          { "id": "B", "text": "are / is" },
+          { "id": "C", "text": "are / are" },
+          { "id": "D", "text": "is / are" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pencils jamak, jadi kata kerja pertama are. Bag tunggal, jadi kata kerja kedua is.",
+        "stepByStep": [
+          "Kalimat pertama: subjek 'the pencils' jamak, sehingga kata kerjanya are.",
+          "Kalimat kedua: subjek 'the bag' tunggal, sehingga kata kerjanya is.",
+          "Pilihan A dan C menyamakan dua kata kerja. Pilihan D kebalikan dari urutan yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pencils jamak, sehingga kata kerja pertama harus are, bukan is." },
+          { "optionId": "C", "reasonId": "Bag tunggal, sehingga kata kerja kedua harus is, bukan are." },
+          { "optionId": "D", "reasonId": "Urutannya terbalik. Pencils membutuhkan are, dan bag membutuhkan is." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja to be harus sesuai dengan jumlah subjek di setiap klausa, termasuk ketika ada dua klausa dalam satu kalimat.",
+          "examples": [
+            { "en": "The books are on the shelf, and the pen is in the bag.", "id": "Buku-buku ada di rak, dan pulpen ada di dalam tas." },
+            { "en": "My parents are home, but my sister is in another city.", "id": "Orang tua saya ada di rumah, tetapi kakak saya ada di kota lain." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah 'the bag next to them'. Frasa 'next to them' berisi kata ganti jamak, sehingga banyak yang memilih are. Subjek utama tetap the bag."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "___ book on the table is mine, and ___ books on the shelf are theirs.",
+        "options": [
+          { "id": "A", "text": "A / Those" },
+          { "id": "B", "text": "The / These" },
+          { "id": "C", "text": "This / Those" },
+          { "id": "D", "text": "The / Those" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Book tertentu di atas meja adalah the book. Books di rak yang jauh dan jamak adalah those books.",
+        "stepByStep": [
+          "Kalimat pertama menyebut book yang sudah jelas letaknya, jadi artikel the.",
+          "Kalimat kedua: books jamak dan di rak yang jauh dari pembicara, jadi penunjuk those.",
+          "A salah karena a tidak tepat untuk benda yang sudah jelas. B dan C salah karena these dan this tidak cocok dengan jarak atau jumlah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A dipakai untuk benda yang belum diketahui. Book di atas meja sudah jelas." },
+          { "optionId": "B", "reasonId": "These untuk benda dekat. Books di rak dianggap jauh dari pembicara." },
+          { "optionId": "C", "reasonId": "This untuk benda tunggal. Kalimat kedua memakai books jamak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The dipakai untuk benda yang jelas bagi pendengar. Those dipakai untuk benda jamak yang jauh dari pembicara.",
+          "examples": [
+            { "en": "The keys are on the desk.", "id": "Kunci itu ada di atas meja." },
+            { "en": "Those students are from Bali.", "id": "Para mahasiswa itu berasal dari Bali." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah memakai these karena terdengar 'lebih formal'. Padahal jaraknya jauh, sehingga those lebih tepat."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "Give me you pencil, please." },
+          { "id": "B", "text": "Give me your pencil, please." },
+          { "id": "C", "text": "Give me yours pencil, please." },
+          { "id": "D", "text": "Give me you're pencil, please." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pencil adalah kata benda, jadi kepemilikan yang tepat adalah your (bentuk yang diikuti kata benda).",
+        "stepByStep": [
+          "Cari kata benda: pencil. Kata sebelumnya harus kata ganti kepemilikan yang diikuti kata benda.",
+          "Bentuk yang diikuti kata benda untuk you adalah your.",
+          "You adalah kata ganti subjek atau objek, dan 'you're' adalah singkatan dari you are. Yours juga tidak boleh diikuti pencil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "You adalah kata ganti subjek atau objek, tidak menunjukkan kepemilikan sebelum kata benda." },
+          { "optionId": "C", "reasonId": "Yours adalah kepemilikan mandiri. Tidak boleh diikuti kata benda." },
+          { "optionId": "D", "reasonId": "You're berarti you are. Di sini tidak ada kata kerja yang dibutuhkan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Bedakan your (diikuti kata benda), yours (berdiri sendiri), dan you're (you are). Ketiganya sering tertukar.",
+          "examples": [
+            { "en": "Is this your pencil?", "id": "Apakah ini pensilmu?" },
+            { "en": "The pencil is yours.", "id": "Pensil itu milikmu." }
+          ]
+        },
+        "examTrap": "Jebakan utama adalah your, yours, dan you're. Ingat aturannya: your diikuti kata benda, yours berdiri sendiri, dan you're adalah singkatan dari you are."
+      }
+    ]
+  }
+}

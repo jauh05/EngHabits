@@ -1,0 +1,577 @@
+{
+  "day": 2,
+  "week": 1,
+  "month": 1,
+  "title": "Singular, Plural, a/an/the, This/That/These/Those",
+  "topic": "Kata benda tunggal dan jamak, artikel a/an/the, dan penunjuk this/that/these/those",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membedakan kata benda tunggal dan jamak, lalu memberi akhiran -s atau -es dengan benar",
+    "Memilih a, an, atau the sesuai bunyi dan konteks",
+    "Memakai this, that, these, dan those sesuai jarak dan jumlah benda"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "book", "pronunciationId": "BUK (vokal seperti 'u' di 'buku', tetapi lebih panjang)", "pos": "Noun", "meaningId": "buku", "example": "This book is interesting.", "exampleId": "Buku ini menarik." },
+      { "no": 2, "en": "pencil", "pronunciationId": "PEN-sil (e pendek seperti di 'enak', akhiran -il terdengar 'sil')", "pos": "Noun", "meaningId": "pensil", "example": "I have a pencil in my bag.", "exampleId": "Saya punya sebuah pensil di dalam tas." },
+      { "no": 3, "en": "chair", "pronunciationId": "CHAIR (ch seperti 'c' di 'cek', ai seperti 'air' di bahasa Indonesia)", "pos": "Noun", "meaningId": "kursi", "example": "That chair is comfortable.", "exampleId": "Kursi itu nyaman." },
+      { "no": 4, "en": "table", "pronunciationId": "TEI-bel (ei seperti 'ei' di 'lei', b hampir tidak terdengar)", "pos": "Noun", "meaningId": "meja", "example": "These tables are new.", "exampleId": "Meja-meja ini baru." },
+      { "no": 5, "en": "window", "pronunciationId": "WIN-do (i pendek, o seperti 'o' di 'obat' tetapi lebih ringan)", "pos": "Noun", "meaningId": "jendela", "example": "Open the window, please.", "exampleId": "Tolong buka jendelanya." },
+      { "no": 6, "en": "apple", "pronunciationId": "A-pel (a seperti 'e' dalam 'bebek' yang dibuka lebar)", "pos": "Noun", "meaningId": "apel", "example": "I eat an apple every morning.", "exampleId": "Saya makan sebuah apel setiap pagi." },
+      { "no": 7, "en": "banana", "pronunciationId": "be-NA-na (tiga suku kata, tekanan di tengah)", "pos": "Noun", "meaningId": "pisang", "example": "Those bananas are yellow.", "exampleId": "Pisang-pisang itu berwarna kuning." },
+      { "no": 8, "en": "bag", "pronunciationId": "BAG (a seperti 'e' dalam 'bebek' yang dibuka lebar, g di akhir tipis)", "pos": "Noun", "meaningId": "tas", "example": "This bag is heavy.", "exampleId": "Tas ini berat." },
+      { "no": 9, "en": "phone", "pronunciationId": "FON (o panjang seperti 'o' di 'boleh', n di akhir jelas)", "pos": "Noun", "meaningId": "ponsel, telepon", "example": "My phone is on the table.", "exampleId": "Ponsel saya ada di atas meja." },
+      { "no": 10, "en": "flower", "pronunciationId": "FLAU-er (diftong 'au' seperti di 'pulau', er samar di akhir)", "pos": "Noun", "meaningId": "bunga", "example": "That flower is beautiful.", "exampleId": "Bunga itu cantik." }
+    ],
+    "tip": "Setiap kali menyebut satu benda, tambahkan artikelnya di depan: a book, an apple. Jika ada dua atau lebih, langsung tambahkan -s. Kebiasaan kecil ini membuat tata bahasamu jauh lebih rapi sejak awal."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["singular and plural nouns English", "articles a an the explained"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata benda tunggal dan jamak, serta a, an, dan the, dengan contoh benda sehari-hari.",
+      "watchFor": [
+        "Aturan membuat jamak dengan -s dan -es",
+        "Kapan memakai a dan kapan memakai an, berdasarkan bunyi",
+        "Perbedaan this dan that, serta these dan those"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan rak buku di kamarmu. Setiap benda di rak punya 'label jumlah': satu atau lebih dari satu. Bahasa Inggris menandai label itu lewat artikel (a, an, the) dan lewat akhiran -s. Setelah pola ini masuk, kalimat dasarmu akan terasa jauh lebih tepat.",
+      "sections": [
+        {
+          "heading": "Tunggal dan jamak",
+          "bodyMd": "Kata benda yang bisa dihitung punya bentuk **tunggal** (book) dan **jamak** (books). Untuk membuat jamak, biasanya tambahkan **-s**. Jika kata berakhir dengan **-s, -sh, -ch, atau -x**, tambahkan **-es**, misalnya bus menjadi buses, watch menjadi watches, dan box menjadi boxes."
+        },
+        {
+          "heading": "a, an, dan the",
+          "bodyMd": "**a** dipakai sebelum kata benda tunggal yang bunyi awalnya konsonan, seperti a book. **an** dipakai sebelum bunyi vokal, seperti an apple. Ingat, yang dilihat adalah bunyi, bukan huruf. **the** dipakai saat kedua pihak sudah tahu benda yang dimaksud, seperti the window di kelas."
+        },
+        {
+          "heading": "this, that, these, dan those",
+          "bodyMd": "**this** dan **these** dipakai untuk benda yang dekat dengan pembicara. **that** dan **those** dipakai untuk benda yang jauh. **this** dan **that** untuk benda tunggal, sedangkan **these** dan **those** untuk benda jamak."
+        }
+      ],
+      "formulas": [
+        { "label": "Tunggal", "pattern": "a / an + kata benda tunggal" },
+        { "label": "Jamak", "pattern": "kata benda + -s atau -es" },
+        { "label": "Penunjuk", "pattern": "this / that + tunggal;  these / those + jamak" },
+        { "label": "Spesifik", "pattern": "the + kata benda (yang sudah diketahui bersama)" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I have a pencil.", "id": "Saya punya sebuah pensil." },
+          { "en": "She has an apple.", "id": "Dia punya sebuah apel." },
+          { "en": "These chairs are new.", "id": "Kursi-kursi ini baru." },
+          { "en": "The window is open.", "id": "Jendela itu terbuka." },
+          { "en": "That bag is heavy.", "id": "Tas itu berat." }
+        ],
+        "negative": [
+          { "en": "This is not a bag.", "id": "Ini bukan tas." },
+          { "en": "Those flowers are not red.", "id": "Bunga-bunga itu tidak merah." },
+          { "en": "There isn't a chair here.", "id": "Tidak ada kursi di sini." },
+          { "en": "These are not my books.", "id": "Ini bukan buku-buku saya." },
+          { "en": "That is not an apple. It is a banana.", "id": "Itu bukan apel. Itu pisang." }
+        ],
+        "question": [
+          { "en": "Is this your bag?", "id": "Apakah ini tas kamu?" },
+          { "en": "Are these pencils yours?", "id": "Apakah pensil-pensil ini milikmu?" },
+          { "en": "Is that a chair or a table?", "id": "Itu kursi atau meja?" },
+          { "en": "Are there any books on the table?", "id": "Apakah ada buku di atas meja?" },
+          { "en": "Is the window open?", "id": "Apakah jendela itu terbuka?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I have a apple.", "right": "I have an apple.", "whyId": "Bunyi awal apple adalah vokal, jadi pakai an, bukan a." },
+        { "wrong": "These book is new.", "right": "This book is new.", "whyId": "Book tunggal, jadi penunjuknya this. These hanya untuk jamak." },
+        { "wrong": "Those flower are red.", "right": "Those flowers are red.", "whyId": "Setelah those, kata benda harus jamak (flowers), dan kata kerjanya are." },
+        { "wrong": "I want a bags.", "right": "I want a bag.", "whyId": "Artikel a hanya untuk benda tunggal. Jika jamak, tidak perlu a." },
+        { "wrong": "This chairs are comfortable.", "right": "These chairs are comfortable.", "whyId": "This untuk tunggal, these untuk jamak." },
+        { "wrong": "Two bag are on the table.", "right": "Two bags are on the table.", "whyId": "Setelah angka dua, kata benda tetap jamak (bags)." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["singular and plural nouns English", "articles a an the explained"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Cara penjual dan pembeli menyebut benda dengan artikel",
+        "Penunjuk yang dipakai untuk benda dekat dan benda jauh"
+      ]
+    },
+    "script": {
+      "title": "Di toko perlengkapan kuliah",
+      "lines": [
+        { "speaker": "Raka", "text": "Hi. I need a pencil and a book for my English class." },
+        { "speaker": "Dina", "text": "Sure. This pencil is good. Do you want that book on the table?" },
+        { "speaker": "Raka", "text": "Yes, please. Is that book about grammar?" },
+        { "speaker": "Dina", "text": "Yes. It is a grammar book. Those books on the shelf are for TOEFL." },
+        { "speaker": "Raka", "text": "Great. Can I see the bag over there?" },
+        { "speaker": "Dina", "text": "Of course. That bag is very strong. It is a good bag for school." },
+        { "speaker": "Raka", "text": "Oh, the chair next to the window looks nice too." },
+        { "speaker": "Dina", "text": "The chairs are new. This chair is for the library." },
+        { "speaker": "Raka", "text": "Is there a flower on the table?" },
+        { "speaker": "Dina", "text": "There is a flower on the table. It is beautiful." },
+        { "speaker": "Raka", "text": "Yes, it is beautiful. Is the phone on the counter yours?" },
+        { "speaker": "Dina", "text": "No, it is not mine. Maybe it is a student's phone." }
+      ]
+    },
+    "shadowingTips": [
+      "Tekankan bunyi a dan an: a pencil, an apple. Ulangi dua kali sampai terasa otomatis.",
+      "Pada this dan these, tekankan bunyi akhir -s. Bedakan dengan this yang lebih pendek.",
+      "Ucapkan Those books dengan jeda kecil, lalu lanjutkan kalimatnya dengan tenang."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does Raka need for his English class?",
+        "options": [
+          { "id": "A", "text": "a pencil and a book" },
+          { "id": "B", "text": "a bag and a phone" },
+          { "id": "C", "text": "a chair and a table" },
+          { "id": "D", "text": "an apple and a banana" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Raka langsung menyebut kebutuhannya di kalimat pertama: sebuah pensil dan sebuah buku untuk kelas bahasa Inggris.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tas dan ponsel disebut di percakapan, tetapi Raka tidak mencarinya. Ia mencari pensil dan buku." },
+          { "optionId": "C", "reasonId": "Kursi dan meja disebut Dina, bukan barang yang dibutuhkan Raka." },
+          { "optionId": "D", "reasonId": "Apel dan pisang tidak disebut sama sekali dalam percakapan." }
+        ],
+        "evidence": "I need a pencil and a book for my English class."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Where is the book that Dina offers Raka?",
+        "options": [
+          { "id": "A", "text": "on the chair" },
+          { "id": "B", "text": "in the bag" },
+          { "id": "C", "text": "on the table" },
+          { "id": "D", "text": "next to the window" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Dina bertanya apakah Raka mau buku yang ada di atas meja.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kursi disebut di percakapan lain, bukan tempat buku itu." },
+          { "optionId": "B", "reasonId": "Tas disebut, tetapi buku tidak disebut ada di dalam tas." },
+          { "optionId": "D", "reasonId": "Jendela dan kursi di dekatnya disebut, tetapi bukan tempat buku." }
+        ],
+        "evidence": "Do you want that book on the table?"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What kind of book is it?",
+        "options": [
+          { "id": "A", "text": "a story book" },
+          { "id": "B", "text": "a grammar book" },
+          { "id": "C", "text": "a math book" },
+          { "id": "D", "text": "a dictionary" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Dina menjawab langsung: buku itu grammar book, buku tata bahasa.",
+        "stepByStep": [
+          "Raka bertanya tentang isi buku: 'Is that book about grammar?'.",
+          "Dina membenarkan dengan kalimat 'It is a grammar book.'.",
+          "Pilihan lain tidak disebut. Yang dicari adalah jenis buku yang diucapkan Dina."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Story book adalah buku cerita. Kata itu tidak muncul dalam percakapan." },
+          { "optionId": "C", "reasonId": "Math book adalah buku matematika. Tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Dictionary adalah kamus. Dina tidak menyebutnya." }
+        ],
+        "evidence": "It is a grammar book."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "Where is the phone?",
+        "options": [
+          { "id": "A", "text": "on the counter" },
+          { "id": "B", "text": "in the bag" },
+          { "id": "C", "text": "on the chair" },
+          { "id": "D", "text": "next to the window" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Raka bertanya tentang ponsel yang ada di meja kasir (counter).",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tas disebut, tetapi tidak ada ponsel di dalamnya menurut percakapan." },
+          { "optionId": "C", "reasonId": "Kursi disebut, tetapi ponsel tidak disebut di atas kursi." },
+          { "optionId": "D", "reasonId": "Jendela disebut, tetapi bukan tempat ponsel." }
+        ],
+        "evidence": "Is the phone on the counter yours?"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement is true about the phone?",
+        "options": [
+          { "id": "A", "text": "It belongs to Raka." },
+          { "id": "B", "text": "It is not Dina's phone." },
+          { "id": "C", "text": "It belongs to Dina's family." },
+          { "id": "D", "text": "It is on the chair." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Dina menjawab 'No, it is not mine', artinya ponsel itu bukan miliknya. Dina menambahkan bahwa mungkin itu milik seorang mahasiswa.",
+        "stepByStep": [
+          "Raka bertanya 'Is the phone on the counter yours?', yang artinya apakah ponsel itu milik Raka. Pertanyaan itu ditujukan kepadanya, bukan kepada Dina.",
+          "Dina menjawab 'No, it is not mine.' Kata mine berarti 'milik saya', jadi ponsel itu bukan milik Dina.",
+          "Kalimat terakhir 'Maybe it is a student's phone' menunjukkan bahwa pemiliknya belum pasti. Karena itu pilihan A dan C tidak bisa dipastikan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dina tidak mengatakan ponsel itu milik Raka. Ia hanya mengatakan ponsel itu bukan miliknya, dan Raka tidak pernah mengaku memilikinya." },
+          { "optionId": "C", "reasonId": "Dina menyebut kemungkinan milik mahasiswa, bukan keluarganya." },
+          { "optionId": "D", "reasonId": "Ponsel disebut di atas meja (on the counter), bukan di atas kursi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata ganti kepemilikan mine, yours, hers, dan theirs berdiri sendiri. Kata itu mengganti 'my phone', 'your phone', dan seterusnya, sehingga harus dihubungkan kembali ke pembicara yang tepat.",
+          "examples": [
+            { "en": "This pen is mine, not yours.", "id": "Pulpen ini punya saya, bukan punyamu." },
+            { "en": "The bag is hers. The book is theirs.", "id": "Tas itu punya dia. Buku itu punya mereka." }
+          ]
+        },
+        "examTrap": "Jebakan di sini adalah mengira kata 'yours' di pertanyaan Raka menjadi jawaban 'milik Raka'. Padahal pembicara yang menjawab adalah Dina, yang menyangkal kepemilikan dirinya. Selalu cek siapa 'I' dan siapa 'you' dalam setiap kalimat.",
+        "evidence": "No, it is not mine."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I have ___ apple in my bag.",
+        "options": [
+          { "id": "A", "text": "a" },
+          { "id": "B", "text": "an" },
+          { "id": "C", "text": "the" },
+          { "id": "D", "text": "is" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Apple dimulai dengan bunyi vokal, jadi artikelnya an.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A dipakai sebelum bunyi konsonan. Apple berbunyi vokal, jadi tidak tepat." },
+          { "optionId": "C", "reasonId": "The dipakai saat benda sudah diketahui bersama. Di sini apel baru pertama kali disebut." },
+          { "optionId": "D", "reasonId": "Is adalah kata kerja, bukan artikel." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Look at ___ flowers. They are beautiful.",
+        "options": [
+          { "id": "A", "text": "this" },
+          { "id": "B", "text": "that" },
+          { "id": "C", "text": "these" },
+          { "id": "D", "text": "a" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Flowers itu jamak dan dekat dengan pembicara, jadi penunjuknya these.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "This dipakai untuk benda tunggal, sedangkan flowers jamak." },
+          { "optionId": "B", "reasonId": "That juga untuk benda tunggal dan jauh. Flowers di sini jamak." },
+          { "optionId": "D", "reasonId": "A hanya untuk benda tunggal, dan tidak bisa dipakai bersama flowers." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "She bought two ___ at the market.",
+        "options": [
+          { "id": "A", "text": "many pencil" },
+          { "id": "B", "text": "pencil" },
+          { "id": "C", "text": "a pencils" },
+          { "id": "D", "text": "pencils" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Setelah angka dua, kata benda harus jamak: pencils.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tanda apostrof menunjukkan kepemilikan, bukan jamak." },
+          { "optionId": "B", "reasonId": "Setelah two, kata benda harus jamak. Pencil masih tunggal." },
+          { "optionId": "C", "reasonId": "Artikel a tidak bisa dipakai bersama angka two. Pencils sudah jamak." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "A chair is next to the window." },
+          { "id": "B", "text": "An chair is next to the window." },
+          { "id": "C", "text": "The chairs is next to the window." },
+          { "id": "D", "text": "Chair is next to the window." }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Chair tunggal dan dimulai dengan bunyi konsonan /tʃ/, jadi artikelnya a. Kata kerja is juga cocok dengan subjek tunggal.",
+        "stepByStep": [
+          "Cek jumlah benda. 'Chair' tunggal, jadi kalimatnya membutuhkan artikel tunggal.",
+          "Cek bunyi awal. 'Chair' dimulai dengan bunyi konsonan /tʃ/, bukan vokal, sehingga artikelnya a, bukan an.",
+          "Cek kata kerja. Subjek tunggal memakai is. Pilihan C salah karena chairs jamak tetapi memakai is."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "An dipakai sebelum bunyi vokal. Chair berbunyi konsonan, jadi artikel an salah." },
+          { "optionId": "C", "reasonId": "Chairs itu jamak, sehingga kata kerjanya harus are, bukan is." },
+          { "optionId": "D", "reasonId": "Dalam bahasa Inggris, kata benda tunggal hampir selalu butuh artikel atau penunjuk." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Choose the best word: ___ pencils are on my desk.",
+        "options": [
+          { "id": "A", "text": "A" },
+          { "id": "B", "text": "An" },
+          { "id": "C", "text": "These" },
+          { "id": "D", "text": "This" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Pencils jamak dan letaknya di dekat pembicara (on my desk), jadi penunjuknya these.",
+        "stepByStep": [
+          "Lihat kata benda: 'pencils' jamak.",
+          "Cari penunjuk yang untuk jamak: these atau those. Benda di atas meja sendiri dianggap dekat, jadi these.",
+          "This untuk tunggal, sedangkan A dan B hanya artikel yang tidak cocok dengan pencils jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A hanya untuk benda tunggal. Pencils jamak." },
+          { "optionId": "B", "reasonId": "An hanya untuk benda tunggal yang berbunyi vokal." },
+          { "optionId": "D", "reasonId": "This untuk benda tunggal. Pencils jamak, jadi harus these." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Ini buku saya.",
+        "hint": "Gunakan this untuk benda tunggal yang dekat. Ingat kata ganti kepemilikan my.",
+        "acceptedAnswers": ["This is my book.", "This is my book"],
+        "modelAnswer": "This is my book.",
+        "commonErrors": [{ "pattern": "These is my book", "feedbackId": "Book tunggal, jadi penunjuknya this." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tas itu berat.",
+        "hint": "Tas itu jauh dari pembicara, jadi penunjuknya that.",
+        "acceptedAnswers": ["That bag is heavy.", "That bag is heavy", "That bag is very heavy."],
+        "modelAnswer": "That bag is heavy.",
+        "commonErrors": [{ "pattern": "This bag is heavy (untuk benda jauh)", "feedbackId": "Untuk benda yang jauh, gunakan that." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya punya dua pensil di dalam tas.",
+        "hint": "Dua itu jamak, jadi kata benda pensil harus jamak. Gunakan in untuk di dalam.",
+        "acceptedAnswers": ["I have two pencils in my bag.", "I have two pencils in the bag.", "I've got two pencils in my bag."],
+        "modelAnswer": "I have two pencils in my bag.",
+        "commonErrors": [{ "pattern": "I have two pencil in my bag", "feedbackId": "Setelah two, kata benda harus jamak: pencils." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya makan sebuah apel setiap pagi.",
+        "hint": "Apel dimulai dengan bunyi vokal, jadi gunakan an. Setiap pagi: every morning.",
+        "acceptedAnswers": ["I eat an apple every morning.", "I eat an apple each morning."],
+        "modelAnswer": "I eat an apple every morning.",
+        "commonErrors": [{ "pattern": "I eat a apple", "feedbackId": "Apple berbunyi vokal, jadi pakai an." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Jendela di ruang kelas itu terbuka, tetapi bunga-bunga di meja itu layu.",
+        "hint": "Jendela di ruang kelas itu adalah benda tertentu, jadi gunakan the. Bunga-bunga itu jamak, dan layu adalah wilted.",
+        "acceptedAnswers": [
+          "The window in that classroom is open, but the flowers on that table are wilted.",
+          "The window in that classroom is open but the flowers on that table are wilted.",
+          "The window in that classroom is open, but those flowers on the table are wilted."
+        ],
+        "modelAnswer": "The window in that classroom is open, but the flowers on that table are wilted.",
+        "commonErrors": [
+          { "pattern": "The window is open, but the flower is wilted", "feedbackId": "Bunga-bunga itu jamak, jadi flowers dan are." },
+          { "pattern": "This window", "feedbackId": "Jendela di ruang kelas tadi sudah jelas, jadi the atau that sudah cukup. This terlalu dekat." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct article: ___ hour-long meeting starts at nine.",
+        "options": [
+          { "id": "A", "text": "A" },
+          { "id": "B", "text": "An" },
+          { "id": "C", "text": "The" },
+          { "id": "D", "text": "Some" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Hour dimulai dengan huruf h, tetapi huruf h itu diam. Bunyi pertamanya vokal /aʊ/, sehingga artikelnya an.",
+        "stepByStep": [
+          "Cari kata benda yang diikuti artikel: hour-long meeting. Kata pertama yang menentukan artikel adalah hour.",
+          "Dalam hour, huruf h tidak dibunyikan. Bunyi pertamanya adalah vokal /aʊ/.",
+          "Karena bunyinya vokal, pakai an. Pilihan the dan some tidak cocok untuk benda tunggal yang baru disebut pertama kali."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A dipakai sebelum bunyi konsonan. Hour berbunyi vokal, jadi a salah." },
+          { "optionId": "C", "reasonId": "The untuk benda yang sudah diketahui bersama. Di sini rapat baru pertama kali disebut." },
+          { "optionId": "D", "reasonId": "Some tidak dipakai sebagai artikel tunggal di depan benda tunggal yang dihitung." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pilih a atau an berdasarkan bunyi, bukan huruf. Beberapa kata yang dimulai huruf vokal berbunyi konsonan (university), dan beberapa yang dimulai huruf konsonan berbunyi vokal (hour).",
+          "examples": [
+            { "en": "She is a university student.", "id": "Dia mahasiswa universitas." },
+            { "en": "He is an honest man.", "id": "Dia orang yang jujur." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah huruf pertama. Hour terlihat seperti kata dengan konsonan h, sehingga banyak yang memilih a. Padahal h-nya diam, jadi bunyinya vokal dan artikelnya an."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence uses this, that, these, or those correctly?",
+        "options": [
+          { "id": "A", "text": "Those book is on my desk." },
+          { "id": "B", "text": "These book are new." },
+          { "id": "C", "text": "Those books on the shelf are old." },
+          { "id": "D", "text": "This books is cheap." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Those dipakai untuk benda jamak yang jauh, dan kata benda books jamak dengan kata kerja are. Itu sudah benar.",
+        "stepByStep": [
+          "Cek jumlah benda di setiap kalimat. Pilihan A dan B memakai book tunggal dengan penunjuk jamak, atau sebaliknya, sehingga salah.",
+          "Pilihan D memakai books jamak tetapi kata kerjanya is, dan penunjuknya this (tunggal). Dua kesalahan sekaligus.",
+          "Pilihan C konsisten: those (jamak, jauh), books (jamak), are (cocok dengan jamak)."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Those untuk jamak, tetapi book tunggal. Pasangan yang benar: that book atau this book." },
+          { "optionId": "B", "reasonId": "These untuk jamak, tetapi book tunggal. Kata kerja are juga tidak cocok dengan kata benda tunggal." },
+          { "optionId": "D", "reasonId": "This untuk tunggal, tetapi books jamak. Kata kerjanya is juga tidak cocok dengan books." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Penunjuk harus cocok dengan jumlah benda, dan kata kerja harus cocok dengan jumlah benda juga. Dalam kalimat dengan these atau those, kata benda dan kata kerja harus jamak.",
+          "examples": [
+            { "en": "These pens are mine.", "id": "Pulpen-pulpen ini milik saya." },
+            { "en": "That bag is heavy.", "id": "Tas itu berat." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah pilihan yang 'hampir benar', yaitu penunjuk jamak yang disertai kata benda tunggal. Cek dua hal sekaligus: penunjuk dan kata benda harus sama jumlahnya."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Neither the pencils nor the book ___ on the table.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Pada pola neither-nor, kata kerja mengikuti subjek yang paling dekat dengannya, yaitu the book (tunggal). Jadi pilihannya is.",
+        "stepByStep": [
+          "Pola neither A nor B berarti 'tidak A dan tidak B'.",
+          "Subjek yang paling dekat dengan kata kerja adalah the book, tunggal.",
+          "Tunggal berpasangan dengan is. Was adalah bentuk lampau, dan be tidak bisa berdiri sendiri sebagai kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are mengikuti the pencils (jamak), padahal subjek terdekat adalah the book (tunggal)." },
+          { "optionId": "C", "reasonId": "Was adalah bentuk lampau. Kalimat ini menggambarkan keadaan sekarang di atas meja." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di kalimat ini tanpa subjek yang jelas." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada pola neither-nor atau either-or, kata kerja mengikuti subjek yang paling dekat dengannya.",
+          "examples": [
+            { "en": "Neither my sister nor my brothers are here.", "id": "Adik perempuan saya maupun saudara laki-laki saya tidak ada di sini." },
+            { "en": "Neither the teacher nor the students are late.", "id": "Guru maupun para siswa tidak terlambat." }
+          ]
+        },
+        "examTrap": "Jebakan utamanya adalah subjek pertama yang jamak (pencils). Padahal kata kerja harus mengikuti the book yang lebih dekat dengan kata kerja."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Everyone in my class ___ happy today.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "am" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Everyone adalah kata ganti tunggal walaupun maknanya banyak orang. Jadi kata kerjanya is.",
+        "stepByStep": [
+          "Subjek kalimat adalah everyone, bukan my class.",
+          "Everyone adalah kata ganti tunggal, meskipun maknanya banyak orang.",
+          "Kata ganti tunggal berpasangan dengan is. Am hanya untuk I, dan be tidak cocok dengan subjek ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are mengikuti makna 'banyak orang', tetapi subjek everyone secara tata bahasa tetap tunggal." },
+          { "optionId": "C", "reasonId": "Am hanya dipakai dengan I." },
+          { "optionId": "D", "reasonId": "Be tidak bisa dipakai sebagai kata kerja utama di kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata ganti everyone, everybody, everything, dan nobody selalu tunggal dalam tata bahasa, meskipun maknanya jamak.",
+          "examples": [
+            { "en": "Everybody is ready.", "id": "Semua orang sudah siap." },
+            { "en": "Everything is fine.", "id": "Semuanya baik-baik saja." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah makna 'banyak orang' yang membuat pembelajar memilih are. Ingat aturan tata bahasa, bukan makna."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "I like these bag." },
+          { "id": "B", "text": "I like this bags." },
+          { "id": "C", "text": "I like this bag." },
+          { "id": "D", "text": "I likes this bag." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "This dipakai untuk satu benda, bag tunggal, dan I like memakai bentuk kata kerja tanpa -s.",
+        "stepByStep": [
+          "Subjek I memakai kata kerja like tanpa -s.",
+          "Penunjuk this cocok dengan benda tunggal bag.",
+          "Pilihan A memakai these dengan bag tunggal. Pilihan B memakai this dengan bags jamak. Pilihan D memakai likes padahal subjeknya I."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "These untuk jamak, tetapi bag tunggal." },
+          { "optionId": "B", "reasonId": "This untuk tunggal, tetapi bags jamak." },
+          { "optionId": "D", "reasonId": "Likes adalah bentuk untuk he, she, it. Subjek I memakai like." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Penunjuk, kata benda, dan kata kerja harus sesuai jumlah dan subjeknya. Subjek I tidak memakai -s pada kata kerja.",
+          "examples": [
+            { "en": "I like these bags.", "id": "Saya suka tas-tas ini." },
+            { "en": "She likes this bag.", "id": "Dia suka tas ini." }
+          ]
+        },
+        "examTrap": "Pilihan D mirip dengan pilihan C, tetapi memakai likes. Jebakan ini menguji dua hal sekaligus: penunjuk dan bentuk kata kerja."
+      }
+    ]
+  }
+}

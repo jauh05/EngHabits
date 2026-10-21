@@ -192,3 +192,25 @@ export type ProductionTask = z.infer<typeof productionTaskSchema>;
 export type ReadingBlock = z.infer<typeof readingBlockSchema>;
 export type ListeningBlock = z.infer<typeof listeningBlockSchema>;
 export type Day = z.infer<typeof daySchema>;
+
+/** Soal bank Hard: sama dengan soal inti, ditambah minggu dan tag topik. */
+export const bankQuestionSchema = z.object({
+  id: z.string().regex(/^W\d{2}-\d{3}$/, 'id bank harus berformat Wnn-nnn'),
+  week: z.number().int().min(1).max(12),
+  topicTag: text,
+  type: z.enum(QUESTION_TYPES),
+  prompt: text,
+  options: z.array(optionSchema).min(2),
+  difficulty: z.enum(DIFFICULTIES),
+  correct: text,
+  explanationId: text,
+  stepByStep: z.array(text).min(1),
+  whyOthersWrong: z.array(z.object({ optionId: z.enum(OPTION_IDS), reasonId: text })),
+  ruleAndExamples: z.object({
+    rule: text,
+    examples: z.array(pair).min(2),
+  }),
+  examTrap: text,
+});
+
+export type BankQuestion = z.infer<typeof bankQuestionSchema>;

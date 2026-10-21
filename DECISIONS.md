@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 3 (konten hari 1-7 dan bank minggu 1)
+
+1. **Standar setiap hari.** 15 soal inti (5 blok 3, 5 Bagian A, 5 Bagian B) dengan komposisi 8 mudah, 5 sedang, 2 sulit sesuai target minggu 1. Hard Challenge 5 soal, semuanya sulit, dengan 2 soal dari topik hari, 2 soal campuran dari hari sebelumnya, dan 1 jebakan ujian. Semua soal sulit punya 4 lapis penjelasan dan examTrap.
+2. **Pola skill mengikuti kurikulum.** Hari 1, 3, 5 membaca (reading). Hari 2, 4, 6 mendengarkan (listening, dengan naskah 11 baris). Hari 7 review.
+3. **Validator diperketat.** Ditambahkan dua pemeriksaan: (a) `evidence` wajib untuk setiap soal blok 3 dan harus muncul di teks atau naskah, (b) minimal 7 dari 10 kosakata hari harus muncul di teks atau naskah (kecuali hari review). Hari 1 dan 2 sempat gagal dan sudah diperbaiki.
+4. **Bank minggu 1.** `content/bank/week-01.json` berisi 30 soal sulit dengan 4 lapis penjelasan. Validator memeriksa jumlah minimal 30 soal sulit, id, jawaban benar, whyOthersWrong, examTrap, dan distribusi jawaban benar.
+5. **Tidak menyalin materi luar.** Semua teks, dialog, dan soal ditulis sendiri. Tidak ada kutipan dari ETS atau IELTS.
+6. **Batas kualitas.** Saya memeriksa struktur dan aturan validator, serta satu halaman sesi di browser. Saya belum melakukan audit grammar manual setiap kalimat. Audit mutu acak dijadwalkan di Fase 12, dan persetujuanmu atas hari 1 sampai 7 tetap diperlukan.
+
 ## 2026-10-21: Fase 2 (kurikulum 90 hari)
 
 1. **Generator sekali pakai, hasil di-commit.** `content/curriculum.json` dibuat dari data yang ditulis langsung (judul, kosakata, ringkasan, kata kunci YouTube per hari). Generator tidak disimpan di repositori. Hasil JSON-nya yang menjadi sumber kebenaran, dan bisa diedit langsung.

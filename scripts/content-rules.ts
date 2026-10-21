@@ -1,4 +1,6 @@
+import { z } from 'zod';
 import {
+  bankQuestionSchema,
   daySchema,
   monthOfWeek,
   OPTION_IDS,
@@ -175,6 +177,24 @@ export function validateDay(raw: unknown, fileDay: number, previous: Day[]): Day
   if (day.skillFocus === 'listening' && block3.type !== 'listening') {
     issues.push('hari listening harus punya block3 bertipe listening (dengan script)');
   }
+  // Bukti jawaban harus ada di teks atau naskah, dan kosakata harus muncul di sana.
+  const sourceText =
+    block3.type === "reading" ? block3.text : block3.script.lines.map((line) => line.text).join(" ");
+  const normalizedSource = normalizeAnswer(sourceText);
+  for (const question of block3.questions) {
+    if (!question.evidence) {
+      issues.push(`soal ${question.id}: evidence wajib untuk soal pemahaman`);
+    } else if (!normalizedSource.includes(normalizeAnswer(question.evidence))) {
+      issues.push(`soal ${question.id}: evidence tidak ditemukan di teks atau naskah`);
+    }
+  }
+  if (day.skillFocus !== "review") {
+    const padded = ` ${normalizedSource} `;
+    const inText = vocab.filter((item) => padded.includes(` ${normalizeAnswer(item.en)} `));
+    if (inText.length < 7) {
+      issues.push(`kosakata hanya ${inText.length} dari 10 muncul di teks atau naskah (minimal 7)`);
+    }
+  }
   if (block3.questions.length !== 5) issues.push(`block3 harus tepat 5 soal (ditemukan ${block3.questions.length})`);
   checkSequence(
     block3.questions.map((q) => q.id),
@@ -241,4 +261,51 @@ export function validateDay(raw: unknown, fileDay: number, previous: Day[]): Day
   }
 
   return { day: fileDay, issues, parsed: day };
+}
+
+/** Validasi satu file bank minggu. Minimal 30 soal Hard per minggu yang sudah dikerjakan. */
+export function validateBank(raw: unknown, week: number): string[] {
+  const issues: string[] = [];
+  const parsed = z.array(bankQuestionSchema).safeParse(raw);
+  if (!parsed.success) {
+    for (const issue of parsed.error.issues) {
+      issues.push(`${issue.path.join('.') || '(root)'}: ${issue.message}`);
+    }
+    return issues;
+  }
+  const items = parsed.data;
+  const hard = items.filter((item) => item.difficulty === 'hard');
+  if (hard.length < 30) issues.push(`bank minggu ${week}: hanya ${hard.length} soal hard (minimal 30)`);
+
+  const ids = items.map((item) => item.id);
+  const duplicates = ids.filter((id, index) => ids.indexOf(id) !== index);
+  if (duplicates.length > 0) issues.push(`bank minggu ${week}: id duplikat ${[...new Set(duplicates)].join(', ')}`);
+
+  for (const item of items) {
+    const where = `bank ${item.id}`;
+    if (item.week !== week) issues.push(`${where}: week ${item.week} tidak sama dengan file minggu ${week}`);
+    if (item.difficulty !== 'hard') issues.push(`${where}: bank minggu ini hanya boleh difficulty hard`);
+    const ids2 = item.options.map((option) => option.id);
+    if (!ids2.includes(item.correct as (typeof OPTION_IDS)[number])) {
+      issues.push(`${where}: correct "${item.correct}" tidak ada di opsi`);
+    }
+    const covered = new Set(item.whyOthersWrong.map((entry) => entry.optionId));
+    const missing = ids2.filter((id) => id !== item.correct && !covered.has(id));
+    if (missing.length > 0) issues.push(`${where}: whyOthersWrong belum mencakup opsi ${missing.join(', ')}`);
+    if (!item.examTrap.trim()) issues.push(`${where}: examTrap wajib`);
+    const strings: Array<[string, string]> = [];
+    collectStrings(item, '', strings);
+    for (const [path, value] of strings) {
+      if (PLACEHOLDER.test(value)) issues.push(`${where}: placeholder di ${path}`);
+    }
+  }
+
+  if (items.length >= 5) {
+    const counts = new Map<string, number>();
+    for (const item of items) counts.set(item.correct, (counts.get(item.correct) ?? 0) + 1);
+    if (counts.size === 1) issues.push(`bank minggu ${week}: jawaban benar sama semua`);
+    const largest = Math.max(...counts.values());
+    if (largest / items.length > 0.6) issues.push(`bank minggu ${week}: distribusi jawaban benar tidak seimbang`);
+  }
+  return issues;
 }
