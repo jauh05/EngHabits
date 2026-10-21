@@ -1,0 +1,554 @@
+{
+  "day": 14,
+  "week": 2,
+  "month": 1,
+  "title": "Evaluasi & Mini Test Minggu 2",
+  "topic": "Review minggu 2: present continuous, preposisi, was/were, simple past beraturan dan tidak beraturan",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang present continuous, preposisi waktu dan tempat, was/were, dan simple past",
+    "Membedakan bentuk sekarang dan lampau dalam satu teks",
+    "Mengukur kesiapan sebelum masuk minggu 3 dengan mini test"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "waiting", "pronunciationId": "WEI-ting (ei panjang, ing di akhir)", "pos": "Verb", "meaningId": "sedang menunggu", "example": "I am waiting for the bus now.", "exampleId": "Saya sedang menunggu bus sekarang." },
+      { "no": 2, "en": "in", "pronunciationId": "IN (i pendek, n di akhir jelas)", "pos": "Prep", "meaningId": "di dalam; pada (bulan, bagian hari)", "example": "She read in the library.", "exampleId": "Dia membaca di perpustakaan." },
+      { "no": 3, "en": "yesterday", "pronunciationId": "YES-ter-dei (ye seperti 'yes')", "pos": "Adv", "meaningId": "kemarin", "example": "We went out yesterday.", "exampleId": "Kami pergi keluar kemarin." },
+      { "no": 4, "en": "played", "pronunciationId": "PLEID (ai panjang, ed terdengar 'd')", "pos": "Verb", "meaningId": "bermain", "example": "The team played well.", "exampleId": "Tim itu bermain dengan baik." },
+      { "no": 5, "en": "went", "pronunciationId": "WENT (e pendek, nt di akhir jelas)", "pos": "Verb", "meaningId": "pergi (lampau dari go)", "example": "He went to the market.", "exampleId": "Dia pergi ke pasar." },
+      { "no": 6, "en": "ate", "pronunciationId": "EIT (ei panjang, t di akhir)", "pos": "Verb", "meaningId": "makan (lampau dari eat)", "example": "They ate grilled fish.", "exampleId": "Mereka makan ikan bakar." },
+      { "no": 7, "en": "story", "pronunciationId": "STOR-i (o panjang, y di akhir seperti i)", "pos": "Noun", "meaningId": "cerita", "example": "The story was interesting.", "exampleId": "Ceritanya menarik." },
+      { "no": 8, "en": "beach", "pronunciationId": "BEECH (ee panjang, ch di akhir)", "pos": "Noun", "meaningId": "pantai", "example": "The beach was crowded.", "exampleId": "Pantainya ramai." },
+      { "no": 9, "en": "mountain", "pronunciationId": "MOUN-ten (ou seperti 'au', tain samar)", "pos": "Noun", "meaningId": "gunung", "example": "The mountain is high.", "exampleId": "Gunung itu tinggi." },
+      { "no": 10, "en": "bought", "pronunciationId": "BOT (o panjang, gh tidak dibunyikan)", "pos": "Verb", "meaningId": "membeli (lampau dari buy)", "example": "I bought a notebook.", "exampleId": "Saya membeli sebuah buku catatan." }
+    ],
+    "tip": "Hari evaluasi adalah kesempatan untuk melihat pola yang masih salah. Setiap soal yang salah biasanya menunjukkan satu kebiasaan: lupa -ing, salah preposisi, atau lupa bentuk lampau. Catat kebiasaan itu, lalu cek lagi di hari berikutnya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["past tense English test", "prepositions English quiz"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum present continuous, preposisi, dan simple past untuk pemula. Tonton sebelum mengerjakan mini test.",
+      "watchFor": [
+        "Penanda waktu yang membedakan present continuous dan simple past",
+        "Preposisi at, in, on untuk waktu dan tempat",
+        "Daftar kata kerja tidak beraturan yang sering dipakai"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu ini kamu belajar menceritakan apa yang sedang terjadi dan apa yang sudah terjadi. Hari ini kamu akan menguji dua hal itu sekaligus: bentuk kata kerja yang tepat, dan preposisi yang tepat. Anggap ini latihan sebelum minggu 3, yang berisi masa depan dan present perfect.",
+      "sections": [
+        {
+          "heading": "Peta cepat minggu 2",
+          "bodyMd": "**Present continuous**: am/is/are + V-ing untuk aksi sekarang. **Was/were**: bentuk lampau to be. **Simple past**: kata kerja-ed atau bentuk tidak beraturan untuk kejadian selesai. **Negatif dan tanya lampau**: did + bentuk dasar. **Preposisi**: at untuk jam dan titik, on untuk hari, in untuk bulan dan bagian hari."
+        },
+        {
+          "heading": "Cara memeriksa jawaban",
+          "bodyMd": "Sebelum memilih, cek tiga hal: (1) apakah ada penanda waktu seperti right now, yesterday, atau at six, (2) apakah kata kerjanya sesuai bentuk untuk penanda itu, (3) apakah preposisi memakai pola at, on, atau in dengan benar."
+        }
+      ],
+      "formulas": [
+        { "label": "Present continuous", "pattern": "am / is / are + V-ing (right now, at the moment)" },
+        { "label": "Simple past", "pattern": "V-ed / bentuk tidak beraturan (yesterday, last week, ago)" },
+        { "label": "Was / were", "pattern": "I / he / she / it + was; you / we / they + were" },
+        { "label": "Preposisi", "pattern": "at + jam; on + hari; in + bulan atau bagian hari" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I am waiting for the bus right now.", "id": "Saya sedang menunggu bus sekarang." },
+          { "en": "She went to the library yesterday.", "id": "Dia pergi ke perpustakaan kemarin." },
+          { "en": "We were at the beach last Sunday.", "id": "Kami berada di pantai hari Minggu lalu." },
+          { "en": "They played football in the morning.", "id": "Mereka bermain sepak bola pada pagi hari." },
+          { "en": "He bought a book on Monday.", "id": "Dia membeli buku pada hari Senin." }
+        ],
+        "negative": [
+          { "en": "I am not waiting for you.", "id": "Saya tidak sedang menunggu kamu." },
+          { "en": "She didn't eat breakfast.", "id": "Dia tidak sarapan." },
+          { "en": "They were not in the mountains.", "id": "Mereka tidak berada di gunung." },
+          { "en": "He did not go to the market yesterday.", "id": "Dia tidak pergi ke pasar kemarin." },
+          { "en": "The story was not long.", "id": "Ceritanya tidak panjang." }
+        ],
+        "question": [
+          { "en": "Where were you yesterday?", "id": "Kamu di mana kemarin?" },
+          { "en": "Are you waiting for someone right now?", "id": "Apakah kamu sedang menunggu seseorang sekarang?" },
+          { "en": "Did they play tennis last week?", "id": "Apakah mereka bermain tenis minggu lalu?" },
+          { "en": "What did you buy at the market?", "id": "Apa yang kamu beli di pasar?" },
+          { "en": "Was the beach crowded this morning?", "id": "Apakah pantainya ramai pagi ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I am go to the beach right now.", "right": "I am going to the beach right now.", "whyId": "Right now menuntut present continuous, dan go berubah menjadi going." },
+        { "wrong": "She went to school yesterday, and she is going home.", "right": "She went to school yesterday, and she is going home now.", "whyId": "Penanda waktu harus konsisten dengan bentuk kata kerja di setiap klausa." },
+        { "wrong": "We was at the park last night.", "right": "We were at the park last night.", "whyId": "Untuk we di masa lalu, gunakan were." },
+        { "wrong": "They play at the beach on Sunday yesterday.", "right": "They played at the beach on Sunday.", "whyId": "Penanda waktu lampau menuntut bentuk lampau played, dan jangan menggabungkan dua penanda hari." },
+        { "wrong": "I bought in the market on Monday.", "right": "I bought it at the market on Monday.", "whyId": "Setelah bought, sering ada objek. Tanpa objek, kalimat ini membingungkan." },
+        { "wrong": "He is ate lunch at noon yesterday.", "right": "He ate lunch at noon yesterday.", "whyId": "Simple past tidak memakai to be. Cukup ate." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Minggu Sibuk Ani",
+    "text": "Last week was busy for Ani. On Monday she was waiting for the bus in the rain. In the afternoon she went to the library and read a story about a girl who lived in the mountains. On Wednesday her friends played volleyball at the beach, and Ani ate grilled fish with them. On Thursday she bought a new notebook for her English class. Yesterday, her teacher asked the class to write about their week. Ani wrote about the beach, the mountain, and the rain. Her teacher smiled and said, 'Good work, Ani.' Ani felt proud of her small progress.",
+    "glossary": [
+      { "en": "busy", "id": "sibuk" },
+      { "en": "grilled", "id": "dibakar" },
+      { "en": "proud", "id": "bangga" },
+      { "en": "progress", "id": "kemajuan" },
+      { "en": "volleyball", "id": "bola voli" },
+      { "en": "notebook", "id": "buku catatan" },
+      { "en": "rain", "id": "hujan" },
+      { "en": "smiled", "id": "tersenyum" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Where was Ani waiting on Monday?",
+        "options": [
+          { "id": "A", "text": "at the beach" },
+          { "id": "B", "text": "in the library" },
+          { "id": "C", "text": "for the bus in the rain" },
+          { "id": "D", "text": "at the market" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'On Monday she was waiting for the bus in the rain', artinya Ani menunggu bus dalam hujan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pantai disebut pada hari Rabu, bukan Senin." },
+          { "optionId": "B", "reasonId": "Perpustakaan disebut pada hari Senin sore, tetapi Ani di sana membaca, bukan menunggu bus." },
+          { "optionId": "D", "reasonId": "Pasar tidak disebut dalam teks." }
+        ],
+        "evidence": "she was waiting for the bus in the rain"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What did Ani eat on Wednesday?",
+        "options": [
+          { "id": "A", "text": "fried rice" },
+          { "id": "B", "text": "grilled fish" },
+          { "id": "C", "text": "noodles" },
+          { "id": "D", "text": "bread" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Ani ate grilled fish with them' pada hari Rabu.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Nasi goreng tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Mi tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Roti tidak disebut dalam teks." }
+        ],
+        "evidence": "Ani ate grilled fish with them"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What did Ani buy on Thursday?",
+        "options": [
+          { "id": "A", "text": "a bag" },
+          { "id": "B", "text": "a new notebook" },
+          { "id": "C", "text": "a phone" },
+          { "id": "D", "text": "a story book" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'On Thursday she bought a new notebook'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tas tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Ponsel tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Buku cerita tidak dibeli. Ani membaca cerita di perpustakaan." }
+        ],
+        "evidence": "she bought a new notebook"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What was the story Ani read in the library about?",
+        "options": [
+          { "id": "A", "text": "a boy who lived by the sea" },
+          { "id": "B", "text": "a teacher who played volleyball" },
+          { "id": "C", "text": "a man who bought a notebook" },
+          { "id": "D", "text": "a girl who lived in the mountains" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'read a story about a girl who lived in the mountains'.",
+        "stepByStep": [
+          "Cari kata story di teks. Kalimatnya: 'she went to the library and read a story about a girl who lived in the mountains.'",
+          "Subjek yang dibicarakan dalam cerita adalah a girl, dan tempatnya the mountains.",
+          "Laut, guru voli, dan pria pembeli buku tidak disebut sebagai isi cerita di perpustakaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Anak laki-laki dan laut tidak disebut dalam cerita di perpustakaan." },
+          { "optionId": "B", "reasonId": "Guru voli tidak disebut. Voli dimainkan teman-teman Ani di pantai." },
+          { "optionId": "C", "reasonId": "Pria pembeli buku tidak disebut. Ani sendiri yang membeli buku catatan." }
+        ],
+        "evidence": "read a story about a girl who lived in the mountains"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the teacher's reaction suggest about Ani's writing?",
+        "options": [
+          { "id": "A", "text": "The teacher was disappointed with Ani's writing." },
+          { "id": "B", "text": "The teacher wanted Ani to stop writing." },
+          { "id": "C", "text": "The teacher thought Ani's writing was good and encouraging." },
+          { "id": "D", "text": "The teacher did not read Ani's writing." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Guru tersenyum dan berkata 'Good work, Ani', yang menunjukkan bahwa tulisan Ani bagus dan memberi semangat.",
+        "stepByStep": [
+          "Cari reaksi guru di teks: 'Her teacher smiled and said, Good work, Ani.'",
+          "Senyum dan pujian langsung menunjukkan penilaian positif.",
+          "Pilihan A dan B bertentangan dengan pujian. Pilihan D bertentangan dengan fakta bahwa guru memberi komentar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kecewa bertentangan dengan senyum dan pujian guru." },
+          { "optionId": "B", "reasonId": "Guru tidak meminta Ani berhenti menulis. Ia memberi pujian." },
+          { "optionId": "D", "reasonId": "Guru memberi pujian, yang menunjukkan ia membaca tulisan Ani." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reaksi orang dalam cerita, seperti tersenyum atau memuji, sering menunjukkan penilaian mereka terhadap sesuatu.",
+          "examples": [
+            { "en": "She smiled and said, 'Well done!'", "id": "Dia tersenyum dan berkata, 'Bagus sekali!'" },
+            { "en": "He frowned and shook his head.", "id": "Dia mengerutkan dahi dan menggelengkan kepala." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti jawaban yang masuk akal jika kamu hanya membaca kata 'write about their week'. Tetapi reaksi guru sebenarnya positif.",
+        "evidence": "Good work, Ani."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I ___ a letter to my grandmother last week.",
+        "options": [
+          { "id": "A", "text": "write" },
+          { "id": "B", "text": "wrote" },
+          { "id": "C", "text": "writing" },
+          { "id": "D", "text": "writes" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Last week menandakan masa lalu. Bentuk lampau dari write adalah wrote.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Write adalah bentuk dasar atau sekarang, tidak cocok dengan last week." },
+          { "optionId": "C", "reasonId": "Writing adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Writes adalah bentuk sekarang untuk he, she, it." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She ___ at home at six yesterday.",
+        "options": [
+          { "id": "A", "text": "was" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "were" },
+          { "id": "D", "text": "are" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Yesterday menandakan masa lalu. Untuk she, to be lampaunya was.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "C", "reasonId": "Were dipakai untuk you, we, they." },
+          { "optionId": "D", "reasonId": "Are adalah bentuk sekarang untuk you, we, they." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The children ___ football in the field last week.",
+        "options": [
+          { "id": "A", "text": "play" },
+          { "id": "B", "text": "playing" },
+          { "id": "C", "text": "plays" },
+          { "id": "D", "text": "played" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Last week menandakan masa lalu. Play beraturan menjadi played.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Play adalah bentuk sekarang atau dasar, tidak cocok dengan last week." },
+          { "optionId": "B", "reasonId": "Playing adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." },
+          { "optionId": "C", "reasonId": "Plays adalah bentuk sekarang untuk he, she, it." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I am waiting for the bus now." },
+          { "id": "B", "text": "I was wait for the bus yesterday." },
+          { "id": "C", "text": "I waited for the bus yesterday." },
+          { "id": "D", "text": "I waiting for the bus yesterday." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Yesterday menandakan masa lalu. Wait beraturan menjadi waited.",
+        "stepByStep": [
+          "Penanda yesterday menunjukkan masa lalu, sehingga kalimat memakai bentuk lampau.",
+          "Wait adalah kata kerja beraturan, lampaunya waited.",
+          "Pilihan A memakai present continuous yang tidak cocok dengan yesterday. Pilihan B mencampur was dengan wait. Pilihan D memakai -ing tanpa to be."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Am waiting adalah aksi sekarang, sedangkan yesterday menunjukkan masa lalu." },
+          { "optionId": "B", "reasonId": "Was wait mencampur to be lampau dengan kata kerja dasar. Gunakan waited." },
+          { "optionId": "D", "reasonId": "Waiting tanpa to be tidak membentuk kalimat yang lengkap." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ you buy a new bag last week?",
+        "options": [
+          { "id": "A", "text": "Did" },
+          { "id": "B", "text": "Do" },
+          { "id": "C", "text": "Were" },
+          { "id": "D", "text": "Does" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Last week menandakan masa lalu, dan buy adalah kata kerja tidak beraturan. Pertanyaan memakai did, dan kata kerja kembali ke bentuk dasar buy.",
+        "stepByStep": [
+          "Penanda last week menunjukkan masa lalu.",
+          "Buy adalah kata kerja tidak beraturan. Dalam pertanyaan, pakai did dengan bentuk dasar buy.",
+          "Do dan does adalah bentuk sekarang. Were adalah to be dan tidak cocok dengan buy."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Do adalah bentuk sekarang untuk pertanyaan." },
+          { "optionId": "C", "reasonId": "Were adalah to be dan tidak cocok dengan kata kerja buy." },
+          { "optionId": "D", "reasonId": "Does adalah bentuk sekarang untuk he, she, it." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya menunggu bus di depan sekolah.",
+        "hint": "Sedang menunggu: am waiting. Di depan sekolah: in front of the school.",
+        "acceptedAnswers": ["I am waiting for the bus in front of the school.", "I'm waiting for the bus in front of the school."],
+        "modelAnswer": "I am waiting for the bus in front of the school.",
+        "commonErrors": [{ "pattern": "I wait for the bus in front of the school", "feedbackId": "Saya menunggu sekarang, jadi gunakan present continuous: am waiting." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kemarin kami pergi ke pantai.",
+        "hint": "Kemarin: yesterday. Pergi: went.",
+        "acceptedAnswers": ["Yesterday we went to the beach.", "We went to the beach yesterday."],
+        "modelAnswer": "Yesterday we went to the beach.",
+        "commonErrors": [{ "pattern": "Yesterday we go to the beach", "feedbackId": "Yesterday menuntut bentuk lampau: went." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia makan nasi goreng dan membeli sebuah cerita pendek.",
+        "hint": "Makan: ate. Membeli: bought. Cerita pendek: a short story.",
+        "acceptedAnswers": ["He ate fried rice and bought a short story.", "He ate fried rice and bought a short story book."],
+        "modelAnswer": "He ate fried rice and bought a short story.",
+        "commonErrors": [{ "pattern": "He eat fried rice and buy a short story", "feedbackId": "Dalam cerita lampau, kedua kata kerja memakai bentuk lampau: ate dan bought." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Mereka bermain voli di gunung tahun lalu.",
+        "hint": "Bermain: played. Tahun lalu: last year. Di gunung: in the mountains atau on the mountain.",
+        "acceptedAnswers": ["They played volleyball on the mountain last year.", "They played volleyball in the mountains last year."],
+        "modelAnswer": "They played volleyball on the mountain last year.",
+        "commonErrors": [{ "pattern": "They play volleyball last year", "feedbackId": "Penanda last year menuntut bentuk lampau: played." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak sedang menunggu kamu, saya sedang menunggu bus.",
+        "hint": "Tidak sedang: am not waiting. Menunggu bus: waiting for the bus.",
+        "acceptedAnswers": [
+          "I am not waiting for you. I am waiting for the bus.",
+          "I'm not waiting for you, I'm waiting for the bus."
+        ],
+        "modelAnswer": "I am not waiting for you. I am waiting for the bus.",
+        "commonErrors": [
+          { "pattern": "I do not wait for you", "feedbackId": "Aksi yang sedang berlangsung memakai present continuous: am not waiting." },
+          { "pattern": "I am waiting for you, I am waiting for the bus", "feedbackId": "Gunakan not untuk menyatakan bahwa kamu tidak sedang menunggu orang itu." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "She ___ a new book last month, and she ___ it yesterday.",
+        "options": [
+          { "id": "A", "text": "bought / finished" },
+          { "id": "B", "text": "buys / finish" },
+          { "id": "C", "text": "buy / finished" },
+          { "id": "D", "text": "bought / finish" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Last month dan yesterday menandakan masa lalu. Buy menjadi bought, dan finish beraturan menjadi finished.",
+        "stepByStep": [
+          "Kedua penanda waktu menunjukkan masa lalu.",
+          "Buy adalah kata kerja tidak beraturan, lampaunya bought.",
+          "Finish adalah kata kerja beraturan, lampaunya finished. Pilihan D memakai finish tanpa -ed."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Buys dan finish adalah bentuk sekarang atau dasar, tidak cocok dengan penanda masa lalu." },
+          { "optionId": "C", "reasonId": "Buy tidak sesuai dengan bentuk lampau bought." },
+          { "optionId": "D", "reasonId": "Finish tanpa -ed tidak tepat untuk penanda yesterday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setiap klausa dengan penanda masa lalu memakai bentuk lampau. Kata kerja beraturan memakai -ed, dan kata kerja tidak beraturan memakai bentuk khusus.",
+          "examples": [
+            { "en": "I bought a ticket and I finished the trip.", "id": "Saya membeli tiket dan saya menyelesaikan perjalanannya." },
+            { "en": "We cleaned the room and we ate dinner.", "id": "Kami membersihkan ruangan dan kami makan malam." }
+          ]
+        },
+        "examTrap": "Kedua klausa memakai penanda masa lalu yang berbeda, tetapi keduanya harus lampau. Jangan hanya mengecek klausa pertama."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I am ate lunch now." },
+          { "id": "B", "text": "I am eating lunch now, and I ate lunch yesterday." },
+          { "id": "C", "text": "I eating lunch now and I eat lunch yesterday." },
+          { "id": "D", "text": "I am eat lunch now and I ate lunch yesterday." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Now menuntut present continuous: am eating. Yesterday menuntut bentuk lampau: ate.",
+        "stepByStep": [
+          "Klausa pertama memakai now, sehingga present continuous: am eating.",
+          "Klausa kedua memakai yesterday, sehingga simple past: ate.",
+          "Pilihan A memakai ate setelah am. Pilihan C tidak punya to be dan memakai eat untuk yesterday. Pilihan D memakai eat setelah am."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ate setelah am tidak benar. Present continuous memakai -ing." },
+          { "optionId": "C", "reasonId": "Eating tanpa to be tidak membentuk kalimat yang lengkap, dan eat untuk yesterday salah." },
+          { "optionId": "D", "reasonId": "Eat setelah am salah. Gunakan eating." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Now menandakan present continuous. Yesterday menandakan simple past. Keduanya bisa ada dalam satu kalimat.",
+          "examples": [
+            { "en": "I am reading now, and I finished the book yesterday.", "id": "Saya sedang membaca sekarang, dan saya menyelesaikan buku itu kemarin." },
+            { "en": "She is cooking now, and she cooked rice last night.", "id": "Dia sedang memasak sekarang, dan dia memasak nasi tadi malam." }
+          ]
+        },
+        "examTrap": "Pilihan A mengandung am dan ate, dua bentuk yang sering tertukar. Setelah am, kata kerja harus -ing."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "The beach was crowded yesterday, but the mountains ___ quiet.",
+        "options": [
+          { "id": "A", "text": "was" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "were" },
+          { "id": "D", "text": "are" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Yesterday menandakan masa lalu. The mountains jamak, sehingga were.",
+        "stepByStep": [
+          "Penanda yesterday menunjukkan masa lalu.",
+          "The mountains adalah jamak, sehingga memakai were.",
+          "Was tunggal, sedangkan mountains jamak. Is dan are adalah bentuk sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Was untuk subjek tunggal. The mountains jamak." },
+          { "optionId": "B", "reasonId": "Is adalah bentuk sekarang untuk tunggal." },
+          { "optionId": "D", "reasonId": "Are adalah bentuk sekarang untuk jamak, dan tidak cocok dengan yesterday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk to be lampau, kata benda jamak memakai were, dan kata benda tunggal memakai was.",
+          "examples": [
+            { "en": "The shops were closed yesterday.", "id": "Toko-toko itu tutup kemarin." },
+            { "en": "The shop was closed yesterday.", "id": "Toko itu tutup kemarin." }
+          ]
+        },
+        "examTrap": "Klausa pertama memakai was, sehingga banyak yang mengikutinya di klausa kedua. Cek jumlah subjek di setiap klausa."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "I did my homework ___ the morning, and I went to the beach ___ noon.",
+        "options": [
+          { "id": "A", "text": "in / at" },
+          { "id": "B", "text": "at / in" },
+          { "id": "C", "text": "on / at" },
+          { "id": "D", "text": "at / on" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "In the morning untuk bagian hari. At noon untuk jam tertentu.",
+        "stepByStep": [
+          "Cek bagian hari: the morning, sehingga in.",
+          "Cek jam tertentu: noon, sehingga at.",
+          "Pilihan B membalik pola. Pilihan C dan D memakai on, yang tidak cocok untuk bagian hari atau jam."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "At the morning salah. Morning memakai in. In noon salah. Noon memakai at." },
+          { "optionId": "C", "reasonId": "On the morning salah untuk bagian hari, dan on noon salah untuk jam." },
+          { "optionId": "D", "reasonId": "At the morning salah untuk bagian hari, dan on noon salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "In untuk bagian hari (in the morning, in the evening). At untuk jam atau titik waktu tertentu (at noon, at six).",
+          "examples": [
+            { "en": "We study in the evening.", "id": "Kami belajar pada malam hari." },
+            { "en": "The bus leaves at noon.", "id": "Bus berangkat tengah hari." }
+          ]
+        },
+        "examTrap": "At night dipakai untuk malam, tetapi in the evening dan in the morning dipakai untuk sore dan pagi. Ini sering membingungkan."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which question is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "Did you went to the museum yesterday?" },
+          { "id": "B", "text": "Did you go to the museum yesterday?" },
+          { "id": "C", "text": "Do you went to the museum yesterday?" },
+          { "id": "D", "text": "Were you go to the museum yesterday?" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pertanyaan lampau dengan kata kerja tidak beraturan memakai did dan kata kerja dasar go.",
+        "stepByStep": [
+          "Penanda yesterday menunjukkan masa lalu, sehingga pertanyaannya memakai did.",
+          "Setelah did, kata kerja kembali ke bentuk dasar: go.",
+          "Pilihan A memakai went setelah did. Pilihan C memakai do, bentuk sekarang. Pilihan D memakai were dan go, keduanya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Went setelah did salah. Gunakan go." },
+          { "optionId": "C", "reasonId": "Do adalah bentuk sekarang, sedangkan penanda yesterday menuntut did." },
+          { "optionId": "D", "reasonId": "Were adalah to be. Kalimat ini memakai kata kerja biasa go, dan go tidak cocok setelah were." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan lampau dengan kata kerja biasa: Did + subjek + kata kerja dasar. Ini berlaku untuk kata kerja beraturan maupun tidak beraturan.",
+          "examples": [
+            { "en": "Did they visit the museum?", "id": "Apakah mereka mengunjungi museum?" },
+            { "en": "Did she buy the ticket?", "id": "Apakah dia membeli tiketnya?" }
+          ]
+        },
+        "examTrap": "Pilihan A memakai went, bentuk lampau yang benar, tetapi setelah did kata kerjanya harus kembali ke bentuk dasar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,573 @@
+{
+  "day": 8,
+  "week": 2,
+  "month": 1,
+  "title": "Present Continuous",
+  "topic": "Present continuous (am/is/are + V-ing) untuk kejadian yang sedang berlangsung, dan kata kerja yang tidak dipakai dalam bentuk -ing",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membentuk kalimat present continuous positif, negatif, dan tanya dengan am, is, atau are",
+    "Menambahkan -ing pada kata kerja dengan aturan ejaan yang benar",
+    "Mengenali kata kerja yang jarang dipakai dalam bentuk -ing"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "waiting", "pronunciationId": "WEI-ting (ei panjang, t pendek, ing di akhir)", "pos": "Verb", "meaningId": "sedang menunggu", "example": "I am waiting for the bus.", "exampleId": "Saya sedang menunggu bus." },
+      { "no": 2, "en": "raining", "pronunciationId": "REI-ning (ai seperti 'ei', ing di akhir)", "pos": "Verb", "meaningId": "sedang turun hujan", "example": "It is raining outside.", "exampleId": "Di luar sedang turun hujan." },
+      { "no": 3, "en": "shopping", "pronunciationId": "SHA-ping (sh tajam, a pendek)", "pos": "Verb", "meaningId": "sedang berbelanja", "example": "My mother is shopping now.", "exampleId": "Ibu saya sedang berbelanja sekarang." },
+      { "no": 4, "en": "typing", "pronunciationId": "TAI-ping (ai panjang, ing di akhir)", "pos": "Verb", "meaningId": "sedang mengetik", "example": "She is typing an email.", "exampleId": "Dia sedang mengetik email." },
+      { "no": 5, "en": "cleaning", "pronunciationId": "KLEE-ning (ee panjang, ing di akhir)", "pos": "Verb", "meaningId": "sedang membersihkan", "example": "We are cleaning the kitchen.", "exampleId": "Kami sedang membersihkan dapur." },
+      { "no": 6, "en": "dancing", "pronunciationId": "DAN-sing (a pendek, c seperti 's')", "pos": "Verb", "meaningId": "sedang menari", "example": "The children are dancing.", "exampleId": "Anak-anak sedang menari." },
+      { "no": 7, "en": "driving", "pronunciationId": "DRAI-ving (ai panjang, v terdengar jelas)", "pos": "Verb", "meaningId": "sedang mengemudi", "example": "He is driving to work.", "exampleId": "Dia sedang mengemudi ke tempat kerja." },
+      { "no": 8, "en": "laughing", "pronunciationId": "LAF-ing (gh tidak dibunyikan)", "pos": "Verb", "meaningId": "sedang tertawa", "example": "They are laughing at the joke.", "exampleId": "Mereka sedang tertawa karena lelucon itu." },
+      { "no": 9, "en": "sitting", "pronunciationId": "SI-ting (i pendek, tt seperti satu t)", "pos": "Verb", "meaningId": "sedang duduk", "example": "The cat is sitting on the sofa.", "exampleId": "Kucing itu sedang duduk di sofa." },
+      { "no": 10, "en": "smiling", "pronunciationId": "SMAI-ling (ai panjang, l ringan)", "pos": "Verb", "meaningId": "sedang tersenyum", "example": "She is smiling at her phone.", "exampleId": "Dia sedang tersenyum ke ponselnya." }
+    ],
+    "tip": "Saat mengingat kata dengan -ing, bayangkan gambar aksinya lalu ucapkan dengan am, is, atau are di depannya. Contoh: a dancing child, sebuah gambar anak yang sedang menari."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["present continuous tense English", "ing verb spelling English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang present continuous, dengan contoh aksi yang sedang terjadi dan aturan penulisan -ing.",
+      "watchFor": [
+        "Pola am, is, are ditambah V-ing",
+        "Aturan menghapus e pada write menjadi writing, dan menggandakan huruf pada run menjadi running",
+        "Kata kerja yang tidak dipakai dalam bentuk -ing, seperti know dan like"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamera yang merekam sesuatu saat ini juga. Present continuous adalah kalimat yang menangkap momen itu: sesuatu sedang terjadi, belum selesai. Kuncinya ada dua: to be yang tepat, dan kata kerja yang berakhiran -ing.",
+      "sections": [
+        {
+          "heading": "Pola dasar",
+          "bodyMd": "Gunakan **am, is, atau are** diikuti kata kerja berakhiran **-ing**: **I am reading**, **She is cooking**, **They are playing**. Pilih to be sesuai subjek: I memakai am, he/she/it memakai is, dan you/we/they memakai are."
+        },
+        {
+          "heading": "Ejaan -ing",
+          "bodyMd": "Jika kata kerja berakhiran **-e** dan diikuti vokal, hapus e: **write** menjadi **writing**, **drive** menjadi **driving**. Jika kata kerja satu suku kata berakhiran satu vokal lalu satu konsonan, gandakan konsonan itu: **run** menjadi **running**, **sit** menjadi **sitting**. Kata kerja yang berakhiran -ie menjadi -ying: **lie** menjadi **lying**."
+        },
+        {
+          "heading": "Kata kerja yang tidak dipakai dalam bentuk -ing",
+          "bodyMd": "Beberapa kata kerja menyatakan keadaan atau pikiran, bukan aksi: **know, understand, like, love, want, need**. Kata ini biasanya memakai bentuk biasa (simple present): **I know the answer**, bukan **I am knowing the answer**."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "subjek + am / is / are + kata kerja-ing" },
+        { "label": "Negatif", "pattern": "subjek + am / is / are + not + kata kerja-ing" },
+        { "label": "Tanya", "pattern": "Am / Is / Are + subjek + kata kerja-ing?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I am studying English now.", "id": "Saya sedang belajar bahasa Inggris sekarang." },
+          { "en": "She is cooking dinner.", "id": "Dia sedang memasak makan malam." },
+          { "en": "We are waiting for the teacher.", "id": "Kami sedang menunggu guru." },
+          { "en": "They are running in the park.", "id": "Mereka sedang berlari di taman." },
+          { "en": "It is raining outside.", "id": "Di luar sedang hujan." }
+        ],
+        "negative": [
+          { "en": "I am not sleeping right now.", "id": "Saya tidak sedang tidur sekarang." },
+          { "en": "He is not driving today.", "id": "Dia tidak sedang mengemudi hari ini." },
+          { "en": "They aren't laughing at us.", "id": "Mereka tidak sedang menertawakan kami." },
+          { "en": "She is not typing the report.", "id": "Dia tidak sedang mengetik laporan." },
+          { "en": "The children are not dancing.", "id": "Anak-anak itu tidak sedang menari." }
+        ],
+        "question": [
+          { "en": "Are you waiting for me?", "id": "Apakah kamu sedang menungguku?" },
+          { "en": "Is it raining now?", "id": "Apakah sekarang sedang hujan?" },
+          { "en": "Is she writing a letter?", "id": "Apakah dia sedang menulis surat?" },
+          { "en": "Are the students sitting in the library?", "id": "Apakah para mahasiswa sedang duduk di perpustakaan?" },
+          { "en": "What are you doing?", "id": "Kamu sedang apa?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I am write a letter.", "right": "I am writing a letter.", "whyId": "Setelah am, is, are, kata kerja harus berakhiran -ing." },
+        { "wrong": "She is run fast.", "right": "She is running fast.", "whyId": "Run perlu -ning. Huruf n digandakan karena pola satu vokal dan satu konsonan." },
+        { "wrong": "He is driveing.", "right": "He is driving.", "whyId": "Drive kehilangan e sebelum -ing." },
+        { "wrong": "They are knowing the answer.", "right": "They know the answer.", "whyId": "Know menyatakan pengetahuan, bukan aksi yang sedang berlangsung." },
+        { "wrong": "Is she go to school now?", "right": "Is she going to school now?", "whyId": "Setelah is, kata kerja harus -ing." },
+        { "wrong": "We are sitting in the room. We are sit in the room.", "right": "We are sitting in the room.", "whyId": "Dalam satu kalimat cukup satu kata kerja utama dalam bentuk -ing." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["present continuous tense English", "ing verb spelling English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kalimat aksi yang sedang berlangsung dengan am, is, are",
+        "Kata yang menunjukkan aksi seperti typing dan cleaning"
+      ]
+    },
+    "script": {
+      "title": "Telepon dari rumah",
+      "lines": [
+        { "speaker": "Sari", "text": "Hi Budi, where are you? I am waiting at the station." },
+        { "speaker": "Budi", "text": "I am still at home. It is raining hard, so I am sitting by the window." },
+        { "speaker": "Sari", "text": "Oh, is your mom cleaning the kitchen?" },
+        { "speaker": "Budi", "text": "Yes, she is cleaning. My sister is typing her essay in the next room." },
+        { "speaker": "Sari", "text": "And your dad? Is he driving to the market?" },
+        { "speaker": "Budi", "text": "No, he is shopping online. He is smiling at his phone right now." },
+        { "speaker": "Sari", "text": "Really? I hear music. Is someone dancing?" },
+        { "speaker": "Budi", "text": "My little brother is dancing in the living room. He is laughing so loudly." },
+        { "speaker": "Sari", "text": "Haha, that sounds fun. Are you coming to the station soon?" },
+        { "speaker": "Budi", "text": "Yes, the rain is stopping now. I am putting on my shoes." }
+      ]
+    },
+    "shadowingTips": [
+      "Tekankan bunyi -ing di akhir kata: sitting, waiting. Lidah berhenti di langit-langit mulut, lalu bunyi ng keluar.",
+      "Pada is dan are, bunyi pendek. Hubungkan dengan kata kerja: is cleaning, are typing.",
+      "Ucapkan kalimat dengan ritme pelan lalu cepat. Pola am, is, are biasanya tidak terdengar jelas dalam percakapan cepat."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Where is Sari right now?",
+        "options": [
+          { "id": "A", "text": "at home" },
+          { "id": "B", "text": "at the station" },
+          { "id": "C", "text": "in the market" },
+          { "id": "D", "text": "in the kitchen" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Sari berkata 'I am waiting at the station', artinya ia sedang menunggu di stasiun.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Budi yang berada di rumah, bukan Sari." },
+          { "optionId": "C", "reasonId": "Pasar disebut sebagai tempat ayah Budi berbelanja online, bukan tempat Sari." },
+          { "optionId": "D", "reasonId": "Dapur disebut tempat ibu Budi membersihkan, bukan tempat Sari." }
+        ],
+        "evidence": "I am waiting at the station."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the weather like at Budi's home?",
+        "options": [
+          { "id": "A", "text": "It is sunny." },
+          { "id": "B", "text": "It is windy." },
+          { "id": "C", "text": "It is raining hard." },
+          { "id": "D", "text": "It is snowing." }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Budi berkata 'It is raining hard', artinya hujannya deras.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Cerah tidak disebut. Budi menyebut hujan." },
+          { "optionId": "B", "reasonId": "Angin tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Salju tidak disebut dalam percakapan." }
+        ],
+        "evidence": "It is raining hard"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What is Budi's sister doing?",
+        "options": [
+          { "id": "A", "text": "She is cleaning the kitchen." },
+          { "id": "B", "text": "She is dancing." },
+          { "id": "C", "text": "She is typing her essay." },
+          { "id": "D", "text": "She is driving." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Budi berkata 'My sister is typing her essay in the next room'.",
+        "stepByStep": [
+          "Cari subjek 'sister' di naskah. Kalimatnya: 'My sister is typing her essay in the next room.'",
+          "Kata kerja yang dipakai adalah typing, sehingga aksinya mengetik esai.",
+          "Cleaning dilakukan ibu, dancing dilakukan adik laki-laki, dan driving hanya rencana ayah yang akhirnya diganti dengan belanja online. Ketiga pilihan itu milik orang lain dalam percakapan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ibu Budi yang sedang membersihkan dapur, bukan kakaknya." },
+          { "optionId": "B", "reasonId": "Adik laki-laki yang sedang menari, bukan kakak perempuan." },
+          { "optionId": "D", "reasonId": "Ayah disebut akan mengemudi ke pasar, tetapi ternyata ia berbelanja online." }
+        ],
+        "evidence": "My sister is typing her essay in the next room."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is Budi's dad doing?",
+        "options": [
+          { "id": "A", "text": "shopping online" },
+          { "id": "B", "text": "driving to the market" },
+          { "id": "C", "text": "cleaning the house" },
+          { "id": "D", "text": "sleeping" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Budi berkata 'No, he is shopping online', artinya ayahnya sedang berbelanja online.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Sari bertanya apakah ayah mengemudi ke pasar, dan Budi menjawab tidak." },
+          { "optionId": "C", "reasonId": "Ibu yang sedang membersihkan dapur, bukan ayah." },
+          { "optionId": "D", "reasonId": "Tidur tidak disebut dalam percakapan." }
+        ],
+        "evidence": "he is shopping online"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement is most likely true at the moment Budi speaks?",
+        "options": [
+          { "id": "A", "text": "Budi's mother has finished cleaning." },
+          { "id": "B", "text": "Budi is already at the station." },
+          { "id": "C", "text": "Budi's brother has stopped dancing." },
+          { "id": "D", "text": "The rain is stopping, and Budi is getting ready to leave." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Budi berkata 'the rain is stopping now' dan 'I am putting on my shoes', artinya ia bersiap-siap berangkat saat hujan mulai berhenti.",
+        "stepByStep": [
+          "Present continuous menggambarkan aksi yang sedang berlangsung. Cek setiap pilihan terhadap aksi yang sedang terjadi saat ini.",
+          "Budi berkata 'the rain is stopping now' dan 'I am putting on my shoes', yang berarti ia bersiap pergi.",
+          "Pilihan A bertentangan dengan 'she is cleaning' yang masih berlangsung. Pilihan B salah karena Budi masih di rumah. Pilihan C salah karena adik 'is dancing' saat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ibu Budi masih membersihkan. Ia belum selesai, jadi bukan sudah selesai." },
+          { "optionId": "B", "reasonId": "Budi masih di rumah dan baru akan berangkat." },
+          { "optionId": "C", "reasonId": "Adiknya masih menari saat percakapan. Tidak ada tanda ia sudah berhenti." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Present continuous menggambarkan aksi yang sedang berlangsung. Untuk menyatakan selesai, gunakan bentuk lain, bukan present continuous.",
+          "examples": [
+            { "en": "The rain is stopping now.", "id": "Hujan sedang berhenti sekarang." },
+            { "en": "I am putting on my shoes.", "id": "Saya sedang memakai sepatu." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah pilihan yang memakai has finished atau has stopped. Itu menyatakan aksi sudah selesai, bukan yang sedang berlangsung.",
+        "evidence": "Yes, the rain is stopping now."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "They ___ dinner right now.",
+        "options": [
+          { "id": "A", "text": "eat" },
+          { "id": "B", "text": "are eating" },
+          { "id": "C", "text": "eats" },
+          { "id": "D", "text": "is eating" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Right now menunjukkan aksi yang sedang berlangsung. Untuk they, pakai are dan eating.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Eat adalah bentuk sederhana, tidak menyatakan aksi yang sedang berlangsung." },
+          { "optionId": "C", "reasonId": "Eats untuk he, she, it dan tidak menyatakan aksi sekarang." },
+          { "optionId": "D", "reasonId": "Is untuk he, she, it. Subjek they memakai are." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She ___ to music at the moment.",
+        "options": [
+          { "id": "A", "text": "is listening" },
+          { "id": "B", "text": "listens" },
+          { "id": "C", "text": "are listening" },
+          { "id": "D", "text": "listening" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "At the moment menunjukkan aksi sekarang. Untuk she, pakai is dan listening.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Listens adalah bentuk sederhana untuk kebiasaan, bukan aksi sekarang." },
+          { "optionId": "C", "reasonId": "Are untuk you, we, they. Subjek she memakai is." },
+          { "optionId": "D", "reasonId": "Listening tanpa to be tidak membentuk kalimat yang lengkap." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "I ___ my homework now.",
+        "options": [
+          { "id": "A", "text": "do" },
+          { "id": "B", "text": "does" },
+          { "id": "C", "text": "is doing" },
+          { "id": "D", "text": "am doing" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Untuk I, pakai am. Aksi sekarang memakai doing.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Do adalah bentuk sederhana. Di sini aksinya sedang berlangsung." },
+          { "optionId": "B", "reasonId": "Does untuk he, she, it." },
+          { "optionId": "C", "reasonId": "Is untuk he, she, it. Subjek I memakai am." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He is runing to the bus stop." },
+          { "id": "B", "text": "He is running to the bus stop." },
+          { "id": "C", "text": "He running to the bus stop." },
+          { "id": "D", "text": "He is run to the bus stop." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Run menjadi running karena huruf n digandakan sebelum -ing.",
+        "stepByStep": [
+          "Subjek he memakai is, jadi bentuk to be-nya sudah benar.",
+          "Run adalah kata kerja satu suku kata dengan pola satu vokal dan satu konsonan, sehingga huruf n digandakan.",
+          "Pilihan A salah karena runing tidak menggandakan n. Pilihan C tidak punya to be. Pilihan D memakai run tanpa -ing."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Runing tidak menggandakan huruf n. Ejaannya salah." },
+          { "optionId": "C", "reasonId": "Tidak ada am, is, atau are. Kalimat ini tidak lengkap." },
+          { "optionId": "D", "reasonId": "Run tanpa -ing tidak membentuk present continuous." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Look! The children ___ in the park.",
+        "options": [
+          { "id": "A", "text": "is playing" },
+          { "id": "B", "text": "play" },
+          { "id": "C", "text": "are playing" },
+          { "id": "D", "text": "plays" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Kata seru Look! menunjukkan aksi yang sedang terjadi. Subjek the children jamak, sehingga are playing.",
+        "stepByStep": [
+          "Kata Look! menunjukkan aksi yang sedang berlangsung.",
+          "Subjek the children adalah jamak, sehingga memakai are.",
+          "Is playing salah karena is untuk tunggal. Play dan plays bukan present continuous."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is untuk subjek tunggal. The children jamak." },
+          { "optionId": "B", "reasonId": "Play adalah bentuk sederhana, tidak menyatakan aksi sekarang." },
+          { "optionId": "D", "reasonId": "Plays untuk tunggal dan bentuk sederhana." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kami sedang makan malam sekarang.",
+        "hint": "Sekarang: now. Gunakan are untuk we dan bentuk -ing dari eat.",
+        "acceptedAnswers": ["We are having dinner now.", "We are eating dinner now.", "We're having dinner now."],
+        "modelAnswer": "We are eating dinner now.",
+        "commonErrors": [{ "pattern": "We eating dinner now", "feedbackId": "Setelah are, kata kerja harus berakhiran -ing, dan to be-nya harus ada." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Hujan sedang turun di luar.",
+        "hint": "Hujan turun adalah rain. Gunakan is untuk it.",
+        "acceptedAnswers": ["It is raining outside.", "It's raining outside."],
+        "modelAnswer": "It is raining outside.",
+        "commonErrors": [{ "pattern": "It rain outside", "feedbackId": "Aksi yang sedang berlangsung memakai is dan rain-ing." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia tidak sedang belajar, dia sedang menonton TV.",
+        "hint": "Untuk negatif, letakkan not setelah is. Menonton: watching.",
+        "acceptedAnswers": ["She is not studying; she is watching TV.", "She is not studying. She is watching TV.", "She is not studying, she is watching TV."],
+        "modelAnswer": "She is not studying; she is watching TV.",
+        "commonErrors": [{ "pattern": "She not studying", "feedbackId": "Negatif present continuous memakai is not, lalu kata kerja -ing." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Mereka sedang berjalan ke stasiun sekarang.",
+        "hint": "Berjalan: walk. Walk tidak berubah saat ditambah -ing.",
+        "acceptedAnswers": ["They are walking to the station now.", "They're walking to the station now."],
+        "modelAnswer": "They are walking to the station now.",
+        "commonErrors": [{ "pattern": "They are walk to the station", "feedbackId": "Setelah are, kata kerja harus berakhiran -ing." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sekarang adik saya sedang tidur, tetapi ayah saya masih sedang memasak.",
+        "hint": "Adik saya adalah my little brother, subjek tunggal. Masih: still. Memasak: cooking.",
+        "acceptedAnswers": [
+          "My younger brother is sleeping now, but my father is still cooking.",
+          "My little brother is sleeping now, but my father is still cooking."
+        ],
+        "modelAnswer": "My younger brother is sleeping now, but my father is still cooking.",
+        "commonErrors": [
+          { "pattern": "My brother are sleeping", "feedbackId": "Subjek my brother tunggal, sehingga memakai is." },
+          { "pattern": "is still cook", "feedbackId": "Setelah is, kata kerja harus berakhiran -ing: cooking." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Look! It ___ outside, so take an umbrella.",
+        "options": [
+          { "id": "A", "text": "rains" },
+          { "id": "B", "text": "is rain" },
+          { "id": "C", "text": "is raining" },
+          { "id": "D", "text": "raining" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Look! menunjukkan aksi yang sedang berlangsung. Untuk it, pakai is dan raining.",
+        "stepByStep": [
+          "Look! menandakan aksi yang sedang terjadi.",
+          "Subjek it memakai is. Rain berubah menjadi raining.",
+          "Rains menyatakan kebiasaan. Is rain salah karena rain belum berakhiran -ing. Raining tanpa to be tidak lengkap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Rains adalah bentuk sederhana, dipakai untuk kebiasaan atau keadaan umum, bukan kejadian saat ini." },
+          { "optionId": "B", "reasonId": "Rain belum berakhiran -ing. Bentuk yang benar adalah raining." },
+          { "optionId": "D", "reasonId": "Raining tidak punya to be di depannya. Kalimat ini tidak lengkap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata Look!, Listen!, dan Right now biasanya menandakan present continuous. Pola: is + raining.",
+          "examples": [
+            { "en": "Listen! Someone is singing.", "id": "Dengar! Seseorang sedang bernyanyi." },
+            { "en": "Look! The dog is swimming.", "id": "Lihat! Anjing itu sedang berenang." }
+          ]
+        },
+        "examTrap": "Pilihan A (rains) terlihat benar karena subjeknya tunggal, tetapi kata Look! mengubah maknanya menjadi aksi sekarang."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I know the answer." },
+          { "id": "B", "text": "I am knowing the answer." },
+          { "id": "C", "text": "I am understanding the answer." },
+          { "id": "D", "text": "I am liking this song." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Know menyatakan pengetahuan, bukan aksi. Kata ini biasanya tidak dipakai dalam present continuous.",
+        "stepByStep": [
+          "Cek jenis kata kerja: know, understand, dan like menyatakan keadaan atau pikiran.",
+          "Kata kerja jenis ini biasanya tidak dipakai dalam bentuk -ing untuk menyatakan keadaan sekarang.",
+          "Pilihan A memakai bentuk biasa, sehingga benar. Pilihan B, C, dan D memakai -ing untuk kata keadaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Know menyatakan pengetahuan, bukan aksi yang sedang berlangsung." },
+          { "optionId": "C", "reasonId": "Understand menyatakan pemahaman, dan biasanya memakai bentuk biasa." },
+          { "optionId": "D", "reasonId": "Like menyatakan perasaan, dan biasanya memakai bentuk biasa." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja keadaan (know, understand, like, love, want, need, believe) biasanya memakai bentuk biasa, bukan -ing.",
+          "examples": [
+            { "en": "I want a new phone.", "id": "Saya ingin ponsel baru." },
+            { "en": "She needs help now.", "id": "Dia butuh bantuan sekarang." }
+          ]
+        },
+        "examTrap": "Frasa 'right now' membuat banyak pembelajar memakai -ing untuk semua kata kerja. Untuk kata keadaan, tetap gunakan bentuk biasa."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "___ children are playing near the river, and ___ boy ___ shouting.",
+        "options": [
+          { "id": "A", "text": "The / the / is" },
+          { "id": "B", "text": "The / a / are" },
+          { "id": "C", "text": "Those / the / are" },
+          { "id": "D", "text": "A / the / is" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "The children sudah jelas, sehingga the. The boy juga jelas dalam cerita, sehingga the. Subjek boy tunggal, jadi is.",
+        "stepByStep": [
+          "Kalimat pertama: children yang sudah diketahui bersama, jadi the. Kata kerja jamak: are playing.",
+          "Kalimat kedua: boy yang sudah disebut, jadi the. Boy tunggal, sehingga is shouting.",
+          "Pilihan B memakai a untuk benda yang sudah jelas dan are untuk boy. Pilihan C memakai those dan are. Pilihan D memakai a untuk children yang sudah jelas."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "A tidak cocok untuk benda yang sudah jelas, dan are salah untuk subjek boy tunggal." },
+          { "optionId": "C", "reasonId": "Those berarti benda yang jauh, dan are salah untuk boy." },
+          { "optionId": "D", "reasonId": "A dipakai untuk benda yang belum disebut, sedangkan children sudah jelas." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The dipakai untuk benda yang jelas bagi pendengar. Subjek tunggal memakai is dan kata kerja -ing.",
+          "examples": [
+            { "en": "The boy is reading.", "id": "Anak laki-laki itu sedang membaca." },
+            { "en": "The girls are singing.", "id": "Anak-anak perempuan itu sedang bernyanyi." }
+          ]
+        },
+        "examTrap": "Subjek boy tunggal berada di tengah kalimat, sehingga banyak yang memilih are. Ingat untuk mengecek setiap klausa."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The dog is running toward ___, and it wants ___ attention.",
+        "options": [
+          { "id": "A", "text": "us / our" },
+          { "id": "B", "text": "we / ours" },
+          { "id": "C", "text": "us / ours" },
+          { "id": "D", "text": "our / us" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Toward adalah preposisi, sehingga butuh objek us. Attention butuh kepemilikan our karena diikuti kata benda.",
+        "stepByStep": [
+          "Kata toward adalah preposisi. Sesudahnya harus bentuk objek: us.",
+          "Attention adalah kata benda, sehingga kepemilikannya our, bukan ours.",
+          "Pilihan B memakai we sebagai objek, salah. Pilihan C memakai ours sebelum kata benda, salah. Pilihan D membalik bentuknya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "We adalah subjek. Setelah preposisi, gunakan us. Ours juga tidak boleh diikuti attention." },
+          { "optionId": "C", "reasonId": "Ours tidak boleh diikuti kata benda. Gunakan our attention." },
+          { "optionId": "D", "reasonId": "Our untuk tempat yang salah dan us untuk kepemilikan salah. Urutannya terbalik." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah preposisi (toward, to, for) gunakan bentuk objek. Sebelum kata benda gunakan kepemilikan my, your, our, dan seterusnya.",
+          "examples": [
+            { "en": "The bus is coming toward us.", "id": "Bus itu datang ke arah kami." },
+            { "en": "We need our bags now.", "id": "Kami butuh tas kami sekarang." }
+          ]
+        },
+        "examTrap": "Pilihan B memakai we dan ours, dua bentuk yang terlihat sama-sama benar. Cek posisi sebelum memilih."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "They ___ at the moment, but they usually ___ at home.",
+        "options": [
+          { "id": "A", "text": "are working / work" },
+          { "id": "B", "text": "work / are working" },
+          { "id": "C", "text": "are working / works" },
+          { "id": "D", "text": "is working / work" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "At the moment menunjukkan aksi sekarang, sehingga are working. Usually menunjukkan kebiasaan, sehingga work.",
+        "stepByStep": [
+          "Klausa pertama: at the moment adalah tanda present continuous. Untuk they, pakai are working.",
+          "Klausa kedua: usually adalah tanda kebiasaan. Untuk they, pakai bentuk sederhana work.",
+          "Pilihan B membalik peran. Pilihan C memakai works untuk they. Pilihan D memakai is untuk they."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Work untuk aksi sekarang tidak tepat, dan are working untuk kebiasaan juga tidak tepat." },
+          { "optionId": "C", "reasonId": "Works untuk subjek they salah. Bentuk yang tepat adalah work." },
+          { "optionId": "D", "reasonId": "Is untuk subjek they salah. Subjek they memakai are." }
+        ],
+        "ruleAndExamples": {
+          "rule": "At the moment, now, dan right now menunjukkan aksi sekarang. Usually, always, dan every day menunjukkan kebiasaan.",
+          "examples": [
+            { "en": "I am studying now, but I usually study at night.", "id": "Saya sedang belajar sekarang, tetapi saya biasanya belajar di malam hari." },
+            { "en": "She is cooking now, but she usually cooks in the morning.", "id": "Dia sedang memasak sekarang, tetapi dia biasanya memasak di pagi hari." }
+          ]
+        },
+        "examTrap": "Kata usually membuat pembelajar memilih kebiasaan, tetapi at the moment adalah kata yang menentukan aksi sekarang. Cek keduanya dalam setiap klausa."
+      }
+    ]
+  }
+}

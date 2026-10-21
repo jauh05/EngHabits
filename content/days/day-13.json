@@ -1,0 +1,560 @@
+{
+  "day": 13,
+  "week": 2,
+  "month": 1,
+  "title": "Menyusun Cerita Pengalaman Masa Lalu",
+  "topic": "Menyusun cerita pengalaman masa lalu dengan urutan waktu, memakai kata kerja lampau beraturan dan tidak beraturan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menyusun cerita pendek dengan urutan waktu: first, then, after that, finally",
+    "Memakai campuran kata kerja lampau dalam satu cerita yang runtut",
+    "Membaca cerita pengalaman dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "story", "pronunciationId": "STOR-i (o panjang, y di akhir seperti i)", "pos": "Noun", "meaningId": "cerita", "example": "She wrote a short story.", "exampleId": "Dia menulis cerita pendek." },
+      { "no": 2, "en": "experience", "pronunciationId": "ik-SPIR-ee-ens (tekanan di SPIR)", "pos": "Noun", "meaningId": "pengalaman", "example": "It was a good experience.", "exampleId": "Itu pengalaman yang bagus." },
+      { "no": 3, "en": "journey", "pronunciationId": "JUR-nee (u seperti 'er' pendek, y di akhir)", "pos": "Noun", "meaningId": "perjalanan (jarak jauh)", "example": "The journey took three hours.", "exampleId": "Perjalanan itu memakan waktu tiga jam." },
+      { "no": 4, "en": "memory", "pronunciationId": "MEM-ree (e pendek, tekanan di MEM)", "pos": "Noun", "meaningId": "kenangan, ingatan", "example": "It is a happy memory.", "exampleId": "Itu kenangan yang menyenangkan." },
+      { "no": 5, "en": "adventure", "pronunciationId": "ad-VEN-cher (tekanan di VEN, ch seperti 'c')", "pos": "Noun", "meaningId": "petualangan", "example": "We had an adventure in the forest.", "exampleId": "Kami mengalami petualangan di hutan." },
+      { "no": 6, "en": "beach", "pronunciationId": "BEECH (ee panjang, ch di akhir)", "pos": "Noun", "meaningId": "pantai", "example": "We walked along the beach.", "exampleId": "Kami berjalan di sepanjang pantai." },
+      { "no": 7, "en": "mountain", "pronunciationId": "MOUN-ten (ou seperti 'au', tain samar)", "pos": "Noun", "meaningId": "gunung", "example": "The mountain was covered in fog.", "exampleId": "Gunung itu tertutup kabut." },
+      { "no": 8, "en": "festival", "pronunciationId": "FES-ti-vel (e pendek, tekanan di FES)", "pos": "Noun", "meaningId": "festival, perayaan", "example": "The festival was very crowded.", "exampleId": "Festival itu sangat ramai." },
+      { "no": 9, "en": "market", "pronunciationId": "MAR-ket (a panjang, et di akhir)", "pos": "Noun", "meaningId": "pasar", "example": "We bought fruit at the market.", "exampleId": "Kami membeli buah di pasar." },
+      { "no": 10, "en": "museum", "pronunciationId": "myu-ZEE-em (tekanan di ZEE, u seperti 'yu')", "pos": "Noun", "meaningId": "museum", "example": "The museum opens at nine.", "exampleId": "Museum itu buka pukul sembilan." }
+    ],
+    "tip": "Saat menyusun cerita, pakai tiga kata penghubung waktu: first, then, dan finally. Tambahkan after that atau later untuk jeda waktu. Cerita pendek yang runtut lebih mudah diingat daripada daftar kalimat yang lepas."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["telling a story in English past tense", "English storytelling beginners"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara bercerita pengalaman masa lalu dengan urutan waktu dan kata penghubung.",
+      "watchFor": [
+        "Kata penghubung first, then, after that, dan finally",
+        "Campuran kata kerja beraturan dan tidak beraturan dalam satu cerita",
+        "Cara membuka dan menutup cerita dengan kalimat singkat"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu sedang menceritakan pengalaman kepada teman sambil membuka foto. Kamu tidak mau menceritakan semua hal sekaligus. Kamu bercerita satu per satu, sesuai urutan, dan setiap bagian bersambung ke bagian berikutnya. Itulah inti cerita pengalaman.",
+      "sections": [
+        {
+          "heading": "Urutan waktu",
+          "bodyMd": "Gunakan kata penghubung untuk menunjukkan urutan: **first** (pertama), **then** (lalu), **after that** (setelah itu), **later** (nanti), dan **finally** (akhirnya). Satu kata penghubung di awal setiap kalimat membuat cerita terasa jelas."
+        },
+        {
+          "heading": "Campuran kata kerja lampau",
+          "bodyMd": "Dalam cerita pengalaman, kamu akan memakai kata kerja beraturan seperti **walked**, **visited**, dan **danced**, dan kata kerja tidak beraturan seperti **went**, **ate**, dan **took**. Pakai bentuk lampau untuk semua kejadian yang sudah selesai, dan jangan campur dengan bentuk sekarang."
+        },
+        {
+          "heading": "Membuka dan menutup cerita",
+          "bodyMd": "Mulai dengan kalimat pembuka seperti **Last year, I went on a trip**. Tutup dengan kesan singkat seperti **It was the best day of my year**. Pembuka dan penutup membuat cerita punya awal dan akhir."
+        }
+      ],
+      "formulas": [
+        { "label": "Urutan", "pattern": "First + kalimat; then + kalimat; after that + kalimat; finally + kalimat" },
+        { "label": "Kejadian lampau", "pattern": "subjek + kata kerja lampau (-ed atau tidak beraturan) + keterangan waktu" },
+        { "label": "Kesan", "pattern": "It was + sifat + experience / memory / trip" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "First, we walked to the beach.", "id": "Pertama, kami berjalan ke pantai." },
+          { "en": "Then, we ate fish at the market.", "id": "Lalu, kami makan ikan di pasar." },
+          { "en": "After that, we visited the museum.", "id": "Setelah itu, kami mengunjungi museum." },
+          { "en": "Later, we took photos on the mountain.", "id": "Nanti, kami mengambil foto di gunung." },
+          { "en": "Finally, we went home.", "id": "Akhirnya, kami pulang." }
+        ],
+        "negative": [
+          { "en": "We did not take the car.", "id": "Kami tidak naik mobil." },
+          { "en": "It was not a long journey.", "id": "Itu bukan perjalanan yang panjang." },
+          { "en": "They didn't visit the mountain.", "id": "Mereka tidak mengunjungi gunung itu." },
+          { "en": "The museum was not open on Monday.", "id": "Museum itu tidak buka hari Senin." },
+          { "en": "I didn't write the story.", "id": "Saya tidak menulis cerita itu." }
+        ],
+        "question": [
+          { "en": "Where did you go last year?", "id": "Ke mana kamu pergi tahun lalu?" },
+          { "en": "Did you enjoy the festival?", "id": "Apakah kamu menikmati festival itu?" },
+          { "en": "What did you buy at the market?", "id": "Apa yang kamu beli di pasar?" },
+          { "en": "Was the journey long?", "id": "Apakah perjalanannya panjang?" },
+          { "en": "Did you write about your adventure?", "id": "Apakah kamu menulis tentang petualanganmu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "First, we go to the beach.", "right": "First, we went to the beach.", "whyId": "Cerita lampau memakai bentuk lampau di setiap kalimat." },
+        { "wrong": "Then, we eated lunch.", "right": "Then, we ate lunch.", "whyId": "Eat menjadi ate. Ini kata kerja tidak beraturan." },
+        { "wrong": "After that, we visiteds the museum.", "right": "After that, we visited the museum.", "whyId": "Visit menjadi visited, dengan satu -ed saja." },
+        { "wrong": "Finally, we did went home.", "right": "Finally, we went home.", "whyId": "Did tidak dipakai dalam kalimat positif lampau." },
+        { "wrong": "It was a good experience. It is very fun.", "right": "It was a good experience. It was very fun.", "whyId": "Dalam cerita lampau, semua kalimat kesan memakai was atau were." },
+        { "wrong": "Later, we are happy.", "right": "Later, we were happy.", "whyId": "Cerita lampau memakai were untuk we, bukan are." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Perjalanan ke Pulau Seberang",
+    "text": "Last year I went on a long journey with my best friend. We planned a short adventure to the mountain, but the road was closed, so we took a different path. It was a difficult experience, but it was also fun. In the morning we walked through a small market, where we bought fresh fruit. At noon we visited a museum about old tools. In the evening we joined a local festival near the beach, and we danced until late. That night I wrote in my journal, and I still remember the sound of the waves. It was the best memory of my school years.",
+    "glossary": [
+      { "en": "journal", "id": "buku harian" },
+      { "en": "waves", "id": "ombak" },
+      { "en": "closed", "id": "ditutup" },
+      { "en": "path", "id": "jalan kecil" },
+      { "en": "local", "id": "setempat" },
+      { "en": "tools", "id": "alat-alat" },
+      { "en": "noon", "id": "tengah hari" },
+      { "en": "difficult", "id": "sulit" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Where did the narrator and the friend plan to go first?",
+        "options": [
+          { "id": "A", "text": "to the beach" },
+          { "id": "B", "text": "to the mountain" },
+          { "id": "C", "text": "to the museum" },
+          { "id": "D", "text": "to a festival" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'We planned a short adventure to the mountain'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pantai disebut sebagai tempat festival, bukan tujuan pertama." },
+          { "optionId": "C", "reasonId": "Museum dikunjungi di siang hari, bukan rencana pertama." },
+          { "optionId": "D", "reasonId": "Festival dikunjungi di malam hari, bukan tujuan pertama." }
+        ],
+        "evidence": "We planned a short adventure to the mountain"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Why did they take a different path?",
+        "options": [
+          { "id": "A", "text": "The road was closed." },
+          { "id": "B", "text": "They were lost in the city." },
+          { "id": "C", "text": "The bus was late." },
+          { "id": "D", "text": "They wanted to see the sea." }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'the road was closed, so we took a different path'.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tersesat di kota tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Bus terlambat tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Melihat laut tidak disebut sebagai alasan mereka mengambil jalan lain." }
+        ],
+        "evidence": "the road was closed, so we took a different path"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What did they buy at the market?",
+        "options": [
+          { "id": "A", "text": "fresh fruit" },
+          { "id": "B", "text": "books" },
+          { "id": "C", "text": "clothes" },
+          { "id": "D", "text": "tools" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'where we bought fresh fruit'.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Buku tidak disebut dibeli di pasar." },
+          { "optionId": "C", "reasonId": "Pakaian tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Alat-alat ada di museum, bukan dibeli di pasar." }
+        ],
+        "evidence": "where we bought fresh fruit"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What did the narrator do that night?",
+        "options": [
+          { "id": "A", "text": "visited a museum" },
+          { "id": "B", "text": "wrote in a journal" },
+          { "id": "C", "text": "walked to the market" },
+          { "id": "D", "text": "climbed the mountain" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'That night I wrote in my journal', artinya malam itu narator menulis di buku hariannya.",
+        "stepByStep": [
+          "Cari kata night di teks. Kalimat: 'That night I wrote in my journal.'",
+          "Kata that night berarti malam itu, yaitu setelah kegiatan festival.",
+          "Museum dikunjungi di siang hari (noon), pasar di pagi hari, dan gunung tidak pernah didaki, karena jalannya ditutup."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Museum dikunjungi pada siang hari, bukan malam itu." },
+          { "optionId": "C", "reasonId": "Pasar dikunjungi di pagi hari." },
+          { "optionId": "D", "reasonId": "Gunung tidak didaki, karena jalannya ditutup." }
+        ],
+        "evidence": "That night I wrote in my journal"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the narrator mean by 'the best memory of my school years'?",
+        "options": [
+          { "id": "A", "text": "The trip was the most expensive one they had." },
+          { "id": "B", "text": "The narrator forgot the trip because it was boring." },
+          { "id": "C", "text": "The narrator wants to repeat the trip every year." },
+          { "id": "D", "text": "The trip is the event the narrator will remember most fondly from school." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Best memory berarti kenangan paling menyenangkan. Narator akan mengingat perjalanan itu paling baik dari masa sekolahnya.",
+        "stepByStep": [
+          "Cari frasa best memory di teks: 'It was the best memory of my school years.'",
+          "Best memory adalah kenangan terbaik. Ini menunjukkan perasaan positif, bukan biaya atau kebosanan.",
+          "Pilihan B bertentangan dengan 'best'. Pilihan A tidak disebut. Pilihan C tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Biaya tidak disebut dalam teks. Best memory berbicara tentang kenangan." },
+          { "optionId": "B", "reasonId": "Best memory menunjukkan bahwa narator tidak melupakannya, dan perjalanan tidak membosankan." },
+          { "optionId": "C", "reasonId": "Keinginan untuk mengulang setiap tahun tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa best + kata benda (best memory, best day, best friend) menunjukkan penilaian positif tertinggi dari pembicara.",
+          "examples": [
+            { "en": "It was the best day of my life.", "id": "Itu hari terbaik dalam hidup saya." },
+            { "en": "She is my best friend.", "id": "Dia sahabat terbaik saya." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat masuk akal karena narator tampak senang, tetapi teks tidak menyebut ingin mengulang setiap tahun.",
+        "evidence": "It was the best memory of my school years."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Last week we ___ a new restaurant.",
+        "options": [
+          { "id": "A", "text": "visit" },
+          { "id": "B", "text": "visited" },
+          { "id": "C", "text": "visiting" },
+          { "id": "D", "text": "visits" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Last week menandakan masa lalu. Visit beraturan menjadi visited.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Visit adalah bentuk dasar atau sekarang, tidak cocok dengan last week." },
+          { "optionId": "C", "reasonId": "Visiting adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Visits adalah bentuk sekarang untuk he, she, it." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "He ___ his keys at home yesterday.",
+        "options": [
+          { "id": "A", "text": "left" },
+          { "id": "B", "text": "leaves" },
+          { "id": "C", "text": "leaving" },
+          { "id": "D", "text": "leave" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Yesterday menandakan masa lalu. Bentuk lampau dari leave adalah left.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Leaves adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "C", "reasonId": "Leaving adalah bentuk -ing, tidak cocok sebagai kata kerja utama di masa lalu." },
+          { "optionId": "D", "reasonId": "Leave adalah bentuk dasar, tidak cocok untuk masa lalu." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "They ___ a funny movie last night.",
+        "options": [
+          { "id": "A", "text": "watch" },
+          { "id": "B", "text": "watched" },
+          { "id": "C", "text": "watching" },
+          { "id": "D", "text": "watches" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Last night menandakan masa lalu. Watch beraturan menjadi watched.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Watch adalah bentuk dasar atau sekarang, tidak cocok dengan last night." },
+          { "optionId": "C", "reasonId": "Watching adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Watches adalah bentuk sekarang untuk he, she, it." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She didn't went to school." },
+          { "id": "B", "text": "She did not goes to school." },
+          { "id": "C", "text": "She didn't go to school." },
+          { "id": "D", "text": "She not went to school." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Setelah didn't, kata kerja kembali ke bentuk dasar: go.",
+        "stepByStep": [
+          "Negatif lampau memakai didn't, dan kata kerja utama kembali ke bentuk dasar.",
+          "Bentuk dasar dari went adalah go.",
+          "Pilihan A memakai went setelah didn't. Pilihan B memakai goes. Pilihan D tidak punya did."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Went setelah didn't salah. Gunakan go." },
+          { "optionId": "B", "reasonId": "Goes setelah did not salah. Gunakan go." },
+          { "optionId": "D", "reasonId": "Negatif lampau memerlukan did not atau didn't." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ the children enjoy the festival?",
+        "options": [
+          { "id": "A", "text": "Did" },
+          { "id": "B", "text": "Do" },
+          { "id": "C", "text": "Does" },
+          { "id": "D", "text": "Were" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Pertanyaan lampau dengan kata kerja biasa enjoy memakai did.",
+        "stepByStep": [
+          "Pertanyaannya tentang kegiatan masa lalu, yaitu festival.",
+          "Enjoy adalah kata kerja biasa, sehingga memakai did.",
+          "Do dan does adalah bentuk sekarang. Were adalah to be dan tidak cocok dengan enjoy."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Do adalah bentuk sekarang untuk pertanyaan." },
+          { "optionId": "C", "reasonId": "Does adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "D", "reasonId": "Were adalah to be dan tidak cocok dengan kata kerja enjoy." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kami pergi ke pantai minggu lalu.",
+        "hint": "Pergi: go, bentuk lampaunya went. Minggu lalu: last week.",
+        "acceptedAnswers": ["We went to the beach last week.", "We went to the beach last week"],
+        "modelAnswer": "We went to the beach last week.",
+        "commonErrors": [{ "pattern": "We go to the beach last week", "feedbackId": "Last week menuntut bentuk lampau: went." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya menulis cerita tentang perjalanan itu.",
+        "hint": "Menulis: write, bentuk lampaunya wrote. Perjalanan itu: that journey.",
+        "acceptedAnswers": ["I wrote a story about the journey.", "I wrote a story about that journey."],
+        "modelAnswer": "I wrote a story about the journey.",
+        "commonErrors": [{ "pattern": "I writed a story", "feedbackId": "Write menjadi wrote, bukan writed." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami tidak mengunjungi gunung itu tahun lalu.",
+        "hint": "Negatif lampau: did not. Setelahnya kata kerja visit dalam bentuk dasar.",
+        "acceptedAnswers": ["We did not visit that mountain last year.", "We didn't visit that mountain last year."],
+        "modelAnswer": "We did not visit that mountain last year.",
+        "commonErrors": [{ "pattern": "We did not visited that mountain", "feedbackId": "Setelah did not, kata kerja kembali ke bentuk dasar: visit." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Festival itu sangat ramai, dan orang-orang menari di pasar.",
+        "hint": "Sangat ramai: very crowded. Menari: danced. Di pasar: in the market.",
+        "acceptedAnswers": [
+          "The festival was very crowded, and people danced in the market.",
+          "The festival was very crowded and people danced in the market."
+        ],
+        "modelAnswer": "The festival was very crowded, and people danced in the market.",
+        "commonErrors": [{ "pattern": "The festival is very crowded", "feedbackId": "Dalam cerita lampau, to be memakai was." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Pengalaman itu sulit, tetapi kenangan itu sangat berharga bagi saya.",
+        "hint": "Pengalaman: experience. Sulit: difficult. Kenangan: memory. Berharga: valuable.",
+        "acceptedAnswers": [
+          "The experience was difficult, but the memory was very valuable to me.",
+          "The experience was difficult but the memory was very valuable to me."
+        ],
+        "modelAnswer": "The experience was difficult, but the memory was very valuable to me.",
+        "commonErrors": [
+          { "pattern": "The experience is difficult", "feedbackId": "Cerita lampau memakai was untuk subjek tunggal." },
+          { "pattern": "valuable for me", "feedbackId": "Gunakan valuable to me untuk menyatakan berharga bagi saya." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "The ___ to the island took three hours by boat.",
+        "options": [
+          { "id": "A", "text": "journey" },
+          { "id": "B", "text": "memory" },
+          { "id": "C", "text": "festival" },
+          { "id": "D", "text": "museum" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Journey berarti perjalanan jauh. Perjalanan ke pulau dengan kapal selama tiga jam sesuai dengan kata ini.",
+        "stepByStep": [
+          "Cari kata benda yang berarti perjalanan. Journey adalah perjalanan jarak jauh.",
+          "Kalimat menyebut waktu tiga jam dengan kapal, yang menunjukkan perjalanan.",
+          "Memory berarti kenangan, festival berarti perayaan, museum berarti tempat pameran. Ketiganya tidak cocok dengan waktu tempuh."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Memory adalah kenangan, bukan perjalanan." },
+          { "optionId": "C", "reasonId": "Festival adalah perayaan, tidak menunjukkan waktu tempuh." },
+          { "optionId": "D", "reasonId": "Museum adalah tempat pameran, tidak menunjukkan perjalanan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Journey dipakai untuk perjalanan jauh. Trip dipakai untuk perjalanan singkat atau pulang pergi.",
+          "examples": [
+            { "en": "The journey to Bali is long.", "id": "Perjalanan ke Bali itu panjang." },
+            { "en": "We went on a short trip.", "id": "Kami pergi dalam perjalanan singkat." }
+          ]
+        },
+        "examTrap": "Trip dan journey sering dianggap sama. Journey lebih cocok untuk perjalanan panjang dengan jarak atau waktu yang jelas."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "We visited the museum yesterday, and we are enjoyed it." },
+          { "id": "B", "text": "We visited the museum yesterday, and we enjoyed it." },
+          { "id": "C", "text": "We visited the museum yesterday and we enjoy it." },
+          { "id": "D", "text": "We visits the museum yesterday, and we enjoyed it." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kedua klausa memakai bentuk lampau: visited dan enjoyed. Bentuk ini sudah benar.",
+        "stepByStep": [
+          "Cek penanda: yesterday menunjukkan masa lalu.",
+          "Klausa pertama: we visited. Klausa kedua: we enjoyed, bentuk lampau beraturan.",
+          "Pilihan A memakai are dan enjoyed, campuran dua waktu. Pilihan C memakai enjoy di masa lalu. Pilihan D memakai visits."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are enjoyed mencampur bentuk sekarang dengan lampau. Gunakan enjoyed." },
+          { "optionId": "C", "reasonId": "Enjoy adalah bentuk sekarang. Klausa kedua harus lampau." },
+          { "optionId": "D", "reasonId": "Visits untuk he, she, it dan bentuk sekarang. Subjek we memakai visited." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam cerita lampau, setiap klausa memakai bentuk lampau, termasuk klausa kedua yang dihubungkan dengan and.",
+          "examples": [
+            { "en": "We walked to the market, and we bought bread.", "id": "Kami berjalan ke pasar, dan kami membeli roti." },
+            { "en": "She cooked dinner, and she washed the dishes.", "id": "Dia memasak makan malam, dan dia mencuci piring." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat lengkap, tetapi are enjoyed salah karena mencampur dua waktu."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "The market ___ crowded last Sunday, and the fruit ___ fresh.",
+        "options": [
+          { "id": "A", "text": "was / was" },
+          { "id": "B", "text": "were / was" },
+          { "id": "C", "text": "was / were" },
+          { "id": "D", "text": "is / was" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Last Sunday menandakan masa lalu. The market dan the fruit keduanya benda tunggal, sehingga was untuk keduanya.",
+        "stepByStep": [
+          "Penanda last Sunday menunjukkan masa lalu.",
+          "The market adalah tunggal, sehingga was. The fruit juga tunggal dalam kalimat ini, sehingga was.",
+          "Pilihan B memakai were untuk market tunggal. Pilihan C memakai were untuk fruit. Pilihan D memakai is, bentuk sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Were salah untuk the market yang tunggal." },
+          { "optionId": "C", "reasonId": "Were salah untuk the fruit, yang dipandang sebagai kata benda tunggal atau tidak dapat dihitung di sini." },
+          { "optionId": "D", "reasonId": "Is adalah bentuk sekarang, tidak cocok dengan last Sunday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk to be lampau, subjek tunggal dan kata benda yang tidak dihitung memakai was. Subjek jamak memakai were.",
+          "examples": [
+            { "en": "The bread was fresh this morning.", "id": "Roti itu segar tadi pagi." },
+            { "en": "The students were tired last night.", "id": "Para mahasiswa lelah tadi malam." }
+          ]
+        },
+        "examTrap": "Fruit sering dianggap jamak karena berisi banyak buah. Dalam kalimat ini, fruit adalah kata benda tidak dihitung, sehingga was."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The old museum is ___ the market, and the mountain is ___ the town.",
+        "options": [
+          { "id": "A", "text": "next to / above" },
+          { "id": "B", "text": "inside / under" },
+          { "id": "C", "text": "at / in" },
+          { "id": "D", "text": "on / at" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Next to menunjukkan posisi di samping pasar. Above menunjukkan posisi di atas kota, karena gunung berada di atasnya.",
+        "stepByStep": [
+          "Museum berdekatan dengan pasar, sehingga next to.",
+          "Gunung berada di atas kota, sehingga above.",
+          "Pilihan B memakai inside dan under yang tidak cocok dengan posisi di samping atau di atas. Pilihan C dan D memakai preposisi yang tidak tepat untuk posisi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Inside berarti di dalam, dan under berarti di bawah. Keduanya tidak menggambarkan posisi museum atau gunung." },
+          { "optionId": "C", "reasonId": "At dan in tidak tepat untuk menunjukkan posisi berdekatan atau di atas." },
+          { "optionId": "D", "reasonId": "On dan at tidak tepat untuk posisi museum dan gunung ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Next to menunjukkan posisi di samping. Above menunjukkan posisi di atas tanpa menyentuh.",
+          "examples": [
+            { "en": "The bank is next to the school.", "id": "Bank itu di samping sekolah." },
+            { "en": "The bird is above the house.", "id": "Burung itu di atas rumah." }
+          ]
+        },
+        "examTrap": "Pilihan A dan B sama-sama memakai dua preposisi. Pastikan setiap preposisi cocok dengan posisi yang dimaksud."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I wrote the story last night, but I didn't wrote the title." },
+          { "id": "B", "text": "I wrote the story last night, but I didn't write the title." },
+          { "id": "C", "text": "I write the story last night, but I didn't write the title." },
+          { "id": "D", "text": "I wrote the story last night, but I did not wrote the title." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah didn't, kata kerja kembali ke bentuk dasar: write. Klausa pertama memakai wrote.",
+        "stepByStep": [
+          "Klausa pertama: wrote adalah bentuk lampau yang benar.",
+          "Klausa kedua: didn't menandakan negatif lampau, sehingga kata kerja harus write.",
+          "Pilihan A dan D memakai wrote setelah did. Pilihan C memakai write untuk klausa pertama yang seharusnya lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Wrote setelah didn't salah. Gunakan write." },
+          { "optionId": "C", "reasonId": "Write untuk klausa pertama salah. Penanda last night menuntut wrote." },
+          { "optionId": "D", "reasonId": "Wrote setelah did not salah. Gunakan write." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah did, didn't, atau did not, kata kerja selalu bentuk dasar. Klausa positif lampau memakai bentuk lampau.",
+          "examples": [
+            { "en": "I wrote a letter, but I didn't send it.", "id": "Saya menulis surat, tetapi saya tidak mengirimkannya." },
+            { "en": "She sang well, but she did not dance.", "id": "Dia menyanyi dengan baik, tetapi dia tidak menari." }
+          ]
+        },
+        "examTrap": "Pilihan A dan D terlihat benar karena keduanya memakai wrote, bentuk lampau yang benar. Tetapi setelah did, kata kerja tidak boleh lampau."
+      }
+    ]
+  }
+}

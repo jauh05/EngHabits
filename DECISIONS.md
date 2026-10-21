@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 4 (konten hari 8-14 dan bank minggu 2)
+
+1. **Pola sama dengan Fase 3.** Komposisi 8 mudah, 5 sedang, 2 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit dengan jebakan ujian. Hari 8, 10, 12 mendengarkan (listening), hari 9, 11, 13 membaca (reading), hari 14 review. Hari 8 sampai 13 memakai topik minggu 2 secara bertahap, dan hari 14 mengulang seluruh minggu 2.
+2. **Bank minggu 2:** 30 soal sulit, dengan campuran topik minggu 2 dan soal campuran dari minggu 1 (tag `interleave-minggu-1`).
+3. **Validator menangkap kesalahan ketik.** Lima kesalahan ditemukan saat validasi: tiga placeholder titik tiga, satu teks bacaan terlalu pendek (78 kata, batas minimal 90), dan satu soal bank yang memakai titik tiga. Semuanya sudah diperbaiki sebelum commit.
+4. **Batas kualitas tetap sama dengan Fase 3.** Validator dan pengecekan browser memastikan struktur dan alur, tetapi belum ada audit grammar kalimat per kalimat.
+
 ## 2026-10-21: Fase 3 (konten hari 1-7 dan bank minggu 1)
 
 1. **Standar setiap hari.** 15 soal inti (5 blok 3, 5 Bagian A, 5 Bagian B) dengan komposisi 8 mudah, 5 sedang, 2 sulit sesuai target minggu 1. Hard Challenge 5 soal, semuanya sulit, dengan 2 soal dari topik hari, 2 soal campuran dari hari sebelumnya, dan 1 jebakan ujian. Semua soal sulit punya 4 lapis penjelasan dan examTrap.

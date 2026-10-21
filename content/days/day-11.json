@@ -1,0 +1,554 @@
+{
+  "day": 11,
+  "week": 2,
+  "month": 1,
+  "title": "Simple Past 1: -ed dan did",
+  "topic": "Simple past untuk kata kerja beraturan (-ed), serta negatif dan tanya dengan did",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membentuk simple past kata kerja beraturan dengan -ed",
+    "Membuat negatif dan tanya dengan did dan bentuk dasar kata kerja",
+    "Membaca cerita lampau dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "started", "pronunciationId": "STAR-tid (tekanan di START, ed terdengar 'tid')", "pos": "Verb", "meaningId": "mulai", "example": "The class started at seven.", "exampleId": "Kelas dimulai pukul tujuh." },
+      { "no": 2, "en": "played", "pronunciationId": "PLEID (ai panjang, ed terdengar 'd')", "pos": "Verb", "meaningId": "bermain; memainkan", "example": "She played the piano last night.", "exampleId": "Dia memainkan piano tadi malam." },
+      { "no": 3, "en": "cleaned", "pronunciationId": "KLEEND (ee panjang, ed terdengar 'd')", "pos": "Verb", "meaningId": "membersihkan", "example": "We cleaned the room.", "exampleId": "Kami membersihkan ruangan." },
+      { "no": 4, "en": "walked", "pronunciationId": "WAWKT (l tidak dibunyikan, ed terdengar 't')", "pos": "Verb", "meaningId": "berjalan kaki", "example": "I walked home after school.", "exampleId": "Saya berjalan pulang setelah sekolah." },
+      { "no": 5, "en": "opened", "pronunciationId": "O-pend (o panjang, ed terdengar 'nd')", "pos": "Verb", "meaningId": "membuka", "example": "He opened the window.", "exampleId": "Dia membuka jendela." },
+      { "no": 6, "en": "closed", "pronunciationId": "KLOHZD (o panjang, s seperti 'z', ed terdengar 'd')", "pos": "Verb", "meaningId": "menutup", "example": "She closed the door.", "exampleId": "Dia menutup pintu." },
+      { "no": 7, "en": "danced", "pronunciationId": "DANSD (a pendek, ed terdengar 'st' ringan)", "pos": "Verb", "meaningId": "menari", "example": "They danced all night.", "exampleId": "Mereka menari sepanjang malam." },
+      { "no": 8, "en": "finished", "pronunciationId": "FI-nisht (ed terdengar 't' karena huruf sh)", "pos": "Verb", "meaningId": "selesai, menyelesaikan", "example": "I finished my homework.", "exampleId": "Saya menyelesaikan pekerjaan rumah saya." },
+      { "no": 9, "en": "arrived", "pronunciationId": "a-RAIVD (ai panjang, ed terdengar 'd')", "pos": "Verb", "meaningId": "tiba", "example": "The guests arrived at noon.", "exampleId": "Para tamu tiba pada tengah hari." },
+      { "no": 10, "en": "stopped", "pronunciationId": "STOPT (o pendek, ed terdengar 't')", "pos": "Verb", "meaningId": "berhenti", "example": "The rain stopped.", "exampleId": "Hujan berhenti." }
+    ],
+    "tip": "Ucapkan akhiran -ed dengan tiga bunyi: /t/ setelah bunyi tak bersuara seperti k, p, s, sh (walked, stopped). /d/ setelah bunyi bersuara atau vokal (played, cleaned). /id/ setelah t atau d (started, wanted). Dengarkan lidahmu, bukan hanya ejaan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["regular past tense ed English", "did did not questions English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang simple past untuk kata kerja beraturan, cara membaca -ed, dan pertanyaan dengan did.",
+      "watchFor": [
+        "Aturan menambahkan -ed dan -d pada kata kerja yang berakhiran e",
+        "Tiga bunyi akhiran -ed: /t/, /d/, dan /id/",
+        "Negatif dan tanya dengan did, lalu kata kerja kembali ke bentuk dasar"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan buku catatan harianmu. Setiap kejadian yang sudah selesai ditandai dengan satu tanda kecil di akhir kata kerja, yaitu -ed. Bahasa Inggris menyebut kata kerja seperti ini beraturan, karena polanya hampir selalu sama.",
+      "sections": [
+        {
+          "heading": "Membuat simple past beraturan",
+          "bodyMd": "Untuk kebanyakan kata kerja, tambahkan **-ed**: **walk** menjadi **walked**, **play** menjadi **played**. Jika kata kerja berakhiran **-e**, tambahkan **-d** saja: **arrive** menjadi **arrived**. Jika berakhiran **konsonan + y**, ubah y menjadi **-ied**: **study** menjadi **studied**."
+        },
+        {
+          "heading": "Negatif dan tanya dengan did",
+          "bodyMd": "Untuk negatif dan pertanyaan, gunakan **did**. Akhiran -ed berpindah ke did, sehingga kata kerja utama kembali ke **bentuk dasar**: **I did not walk** (bukan did not walked). Untuk pertanyaan: **Did you clean the room?** Jawaban singkatnya **Yes, I did** atau **No, I didn't**."
+        },
+        {
+          "heading": "Penanda waktu",
+          "bodyMd": "Kata seperti **yesterday**, **last night**, **two days ago**, dan **in 2024** menandakan kejadian yang sudah selesai. Gunakan simple past dengan penanda ini."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "subjek + kata kerja-ed" },
+        { "label": "Negatif", "pattern": "subjek + did not (didn't) + kata kerja dasar" },
+        { "label": "Tanya", "pattern": "Did + subjek + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "We cleaned the classroom yesterday.", "id": "Kami membersihkan kelas kemarin." },
+          { "en": "She opened the window at seven.", "id": "Dia membuka jendela pukul tujuh." },
+          { "en": "He arrived late last night.", "id": "Dia tiba terlambat tadi malam." },
+          { "en": "The students finished the test early.", "id": "Para mahasiswa menyelesaikan tes lebih awal." },
+          { "en": "They danced at the party.", "id": "Mereka menari di pesta itu." }
+        ],
+        "negative": [
+          { "en": "I did not finish my homework.", "id": "Saya tidak menyelesaikan pekerjaan rumah saya." },
+          { "en": "She didn't close the door.", "id": "Dia tidak menutup pintu." },
+          { "en": "We did not walk to school yesterday.", "id": "Kami tidak berjalan ke sekolah kemarin." },
+          { "en": "He didn't play football on Sunday.", "id": "Dia tidak bermain sepak bola hari Minggu." },
+          { "en": "The rain didn't stop until night.", "id": "Hujan tidak berhenti sampai malam." }
+        ],
+        "question": [
+          { "en": "Did you clean your room?", "id": "Apakah kamu membersihkan kamarmu?" },
+          { "en": "Did she walk home alone?", "id": "Apakah dia berjalan pulang sendirian?" },
+          { "en": "Did they play music at the festival?", "id": "Apakah mereka memainkan musik di festival?" },
+          { "en": "Did the store open early today?", "id": "Apakah toko itu buka lebih awal hari ini?" },
+          { "en": "When did the meeting start?", "id": "Kapan rapat itu dimulai?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I walk to school yesterday.", "right": "I walked to school yesterday.", "whyId": "Penanda yesterday membutuhkan simple past: walked." },
+        { "wrong": "She didn't closed the door.", "right": "She didn't close the door.", "whyId": "Setelah did not atau didn't, kata kerja kembali ke bentuk dasar." },
+        { "wrong": "Did you cleaned the room?", "right": "Did you clean the room?", "whyId": "Dalam pertanyaan dengan did, kata kerja tidak memakai -ed." },
+        { "wrong": "They stoped the car.", "right": "They stopped the car.", "whyId": "Kata kerja yang berakhiran satu vokal dan satu konsonan mendapat konsonan ganda: stopped." },
+        { "wrong": "He studyed English.", "right": "He studied English.", "whyId": "Konsonan + y berubah menjadi -ied." },
+        { "wrong": "We didn't arrived on time.", "right": "We didn't arrive on time.", "whyId": "Setelah didn't, kata kerja tetap bentuk dasar tanpa -ed." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Festival Sekolah",
+    "text": "Last Saturday, our class started early at seven. We cleaned the classroom and opened the windows. Rina played music from her phone, and Dimas walked around with the decorations. At noon the guests arrived, and the event finished at four. Many people danced in the yard. After lunch, we played simple games in the yard, and then we washed the cups in the kitchen. Before we closed the gate, we stopped to take photos. Our teacher did not stop smiling all day. My friend asked, 'Did you enjoy it?' I said yes, because I really did.",
+    "glossary": [
+      { "en": "decorations", "id": "dekorasi, hiasan" },
+      { "en": "guests", "id": "para tamu" },
+      { "en": "yard", "id": "halaman" },
+      { "en": "gate", "id": "gerbang" },
+      { "en": "enjoy", "id": "menikmati" },
+      { "en": "event", "id": "acara" },
+      { "en": "noon", "id": "tengah hari" },
+      { "en": "really", "id": "benar-benar" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "When did the class start?",
+        "options": [
+          { "id": "A", "text": "at noon" },
+          { "id": "B", "text": "at four" },
+          { "id": "C", "text": "at seven" },
+          { "id": "D", "text": "at night" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'our class started early at seven', artinya kelas dimulai pukul tujuh.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tengah hari adalah waktu tamu datang, bukan waktu mulai kelas." },
+          { "optionId": "B", "reasonId": "Pukul empat adalah waktu acara selesai." },
+          { "optionId": "D", "reasonId": "Malam tidak disebut dalam teks." }
+        ],
+        "evidence": "our class started early at seven"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Who played music?",
+        "options": [
+          { "id": "A", "text": "Dimas" },
+          { "id": "B", "text": "the teacher" },
+          { "id": "C", "text": "the guests" },
+          { "id": "D", "text": "Rina" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menulis 'Rina played music from her phone'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dimas berjalan membawa dekorasi, bukan memainkan musik." },
+          { "optionId": "B", "reasonId": "Guru disebut tersenyum sepanjang hari, bukan memainkan musik." },
+          { "optionId": "C", "reasonId": "Tamu tiba dan menari, tetapi tidak disebut memainkan musik." }
+        ],
+        "evidence": "Rina played music from her phone"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What did the students do before they closed the gate?",
+        "options": [
+          { "id": "A", "text": "They cleaned the classroom." },
+          { "id": "B", "text": "They stopped to take photos." },
+          { "id": "C", "text": "They danced in the yard." },
+          { "id": "D", "text": "They opened the windows." }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Before we closed the gate, we stopped to take photos'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Membersihkan kelas dilakukan di awal, bukan sebelum menutup gerbang." },
+          { "optionId": "C", "reasonId": "Menari terjadi di halaman, tetapi tidak disebut sebagai aksi sebelum gerbang ditutup." },
+          { "optionId": "D", "reasonId": "Membuka jendela dilakukan di awal acara." }
+        ],
+        "evidence": "Before we closed the gate, we stopped to take photos."
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What did the students do at the start of the day?",
+        "options": [
+          { "id": "A", "text": "they danced" },
+          { "id": "B", "text": "they took photos" },
+          { "id": "C", "text": "they cleaned and opened the windows" },
+          { "id": "D", "text": "they went home" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'our class started early at seven. We cleaned the classroom and opened the windows'.",
+        "stepByStep": [
+          "Pertanyaan meminta kegiatan di awal hari. Cari kata started di teks.",
+          "Kalimat setelah started menyebut kegiatan pertama: 'We cleaned the classroom and opened the windows.'",
+          "Menari dan foto terjadi di tengah atau akhir acara. Pulang tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menari terjadi di halaman, tetapi tidak di awal hari." },
+          { "optionId": "B", "reasonId": "Foto diambil sebelum gerbang ditutup, di akhir acara." },
+          { "optionId": "D", "reasonId": "Pulang tidak disebut dalam teks." }
+        ],
+        "evidence": "We cleaned the classroom and opened the windows."
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the detail 'Our teacher did not stop smiling all day' suggest?",
+        "options": [
+          { "id": "A", "text": "The teacher was very happy with the event." },
+          { "id": "B", "text": "The teacher was angry." },
+          { "id": "C", "text": "The teacher was bored and wanted to leave." },
+          { "id": "D", "text": "The teacher was not at school." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Guru tidak berhenti tersenyum sepanjang hari, yang menunjukkan ia senang dengan acara itu.",
+        "stepByStep": [
+          "Cari kalimat tentang guru: 'Our teacher did not stop smiling all day.'",
+          "Senyum yang terus-menerus menunjukkan perasaan positif terhadap acara.",
+          "Pilihan B dan C bertentangan dengan senyum. Pilihan D bertentangan dengan fakta bahwa guru berada di acara."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Marah bertentangan dengan guru yang terus tersenyum." },
+          { "optionId": "C", "reasonId": "Bosan dan ingin pulang bertentangan dengan senyum sepanjang hari." },
+          { "optionId": "D", "reasonId": "Guru berada di acara dan tersenyum, sehingga ia tidak absen." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kalimat seperti did not stop + kata kerja -ing menunjukkan kebiasaan yang terus berlangsung. Ini memberi petunjuk tentang perasaan seseorang.",
+          "examples": [
+            { "en": "He did not stop talking during the meeting.", "id": "Dia terus berbicara selama rapat." },
+            { "en": "She did not stop laughing at the joke.", "id": "Dia terus tertawa karena lelucon itu." }
+          ]
+        },
+        "examTrap": "Pilihan C (bored) bisa tampak masuk akal jika kamu hanya melihat kata 'all day'. Tetapi perhatikan kata smiling, yang menunjukkan perasaan positif.",
+        "evidence": "Our teacher did not stop smiling all day."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "We ___ the classroom yesterday.",
+        "options": [
+          { "id": "A", "text": "clean" },
+          { "id": "B", "text": "cleans" },
+          { "id": "C", "text": "cleaned" },
+          { "id": "D", "text": "cleaning" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Yesterday menandakan masa lalu. Kata kerja beraturan clean menjadi cleaned.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Clean adalah bentuk sekarang, tidak cocok dengan yesterday." },
+          { "optionId": "B", "reasonId": "Cleans adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "D", "reasonId": "Cleaning adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She ___ the door at nine.",
+        "options": [
+          { "id": "A", "text": "opens" },
+          { "id": "B", "text": "opened" },
+          { "id": "C", "text": "opening" },
+          { "id": "D", "text": "open" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "At nine di masa lalu, kata kerja open menjadi opened.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Opens adalah bentuk sekarang untuk she." },
+          { "optionId": "C", "reasonId": "Opening adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Open adalah bentuk dasar, tidak cocok untuk masa lalu." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "They ___ at the station at six o'clock.",
+        "options": [
+          { "id": "A", "text": "arrive" },
+          { "id": "B", "text": "arrives" },
+          { "id": "C", "text": "arriving" },
+          { "id": "D", "text": "arrived" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Kejadian pukul enam itu sudah lewat, jadi memakai bentuk lampau arrived.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Arrive adalah bentuk sekarang atau dasar, tidak cocok untuk kejadian yang sudah lewat." },
+          { "optionId": "B", "reasonId": "Arrives adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "C", "reasonId": "Arriving adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He didn't finished the report." },
+          { "id": "B", "text": "He didn't finish the report." },
+          { "id": "C", "text": "He did not finishes the report." },
+          { "id": "D", "text": "He not finished the report." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Setelah didn't, kata kerja kembali ke bentuk dasar: finish.",
+        "stepByStep": [
+          "Cek kata bantu: didn't adalah bentuk negatif lampau, sehingga kata kerja utama harus bentuk dasar.",
+          "Bentuk dasar dari finished adalah finish.",
+          "Pilihan A memakai finished setelah didn't. Pilihan C memakai finishes. Pilihan D tidak punya did."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah didn't, kata kerja tidak memakai -ed." },
+          { "optionId": "C", "reasonId": "Finishes memakai -es untuk he, she, it dan bentuk sekarang. Setelah did not, kata kerja dasar." },
+          { "optionId": "D", "reasonId": "Negatif lampau memerlukan did not atau didn't." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ you walk to school yesterday?",
+        "options": [
+          { "id": "A", "text": "Did" },
+          { "id": "B", "text": "Do" },
+          { "id": "C", "text": "Does" },
+          { "id": "D", "text": "Were" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Pertanyaan lampau dengan kata kerja biasa memakai did.",
+        "stepByStep": [
+          "Penanda yesterday menunjukkan masa lalu.",
+          "Walk adalah kata kerja biasa, sehingga pertanyaannya memakai did.",
+          "Do dan does adalah bentuk sekarang. Were adalah to be, tidak cocok dengan walk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Do adalah bentuk sekarang untuk pertanyaan." },
+          { "optionId": "C", "reasonId": "Does adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "D", "reasonId": "Were adalah to be lampau, dan tidak cocok dengan kata kerja walk." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kami membersihkan kelas kemarin.",
+        "hint": "Membersihkan: clean. Bentuk lampau dengan -ed.",
+        "acceptedAnswers": ["We cleaned the classroom yesterday.", "We cleaned our classroom yesterday."],
+        "modelAnswer": "We cleaned the classroom yesterday.",
+        "commonErrors": [{ "pattern": "We clean the classroom yesterday", "feedbackId": "Penanda yesterday menuntut bentuk lampau: cleaned." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia bermain gitar di pesta itu.",
+        "hint": "Bermain alat musik: play the guitar. Bentuk lampau play menjadi played.",
+        "acceptedAnswers": ["She played the guitar at the party.", "She played guitar at the party."],
+        "modelAnswer": "She played the guitar at the party.",
+        "commonErrors": [{ "pattern": "She plays the guitar at the party", "feedbackId": "Peristiwa di pesta sudah lewat. Gunakan played." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak menyelesaikan pekerjaan rumah saya tadi malam.",
+        "hint": "Negatif lampau dengan did not. Setelahnya kata kerja finish dalam bentuk dasar.",
+        "acceptedAnswers": ["I did not finish my homework last night.", "I didn't finish my homework last night."],
+        "modelAnswer": "I did not finish my homework last night.",
+        "commonErrors": [{ "pattern": "I did not finished my homework", "feedbackId": "Setelah did not, kata kerja kembali ke bentuk dasar." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apakah kamu berjalan pulang setelah kelas?",
+        "hint": "Pertanyaan lampau memakai did. Berjalan pulang: walk home.",
+        "acceptedAnswers": ["Did you walk home after class?", "Did you walk back home after class?"],
+        "modelAnswer": "Did you walk home after class?",
+        "commonErrors": [{ "pattern": "Did you walked home", "feedbackId": "Setelah did, kata kerja kembali ke bentuk dasar." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kemarin, kami berhenti di toko, lalu tiba di rumah pukul enam.",
+        "hint": "Berhenti: stop, bentuk lampau stopped. Tiba: arrive, bentuk lampau arrived. Pukul enam: at six.",
+        "acceptedAnswers": ["Yesterday, we stopped at the shop and arrived home at six.", "Yesterday we stopped at the shop and arrived home at six."],
+        "modelAnswer": "Yesterday, we stopped at the shop and arrived home at six.",
+        "commonErrors": [
+          { "pattern": "we stop at the shop", "feedbackId": "Penanda yesterday menuntut bentuk lampau: stopped." },
+          { "pattern": "arrive home at six", "feedbackId": "Kedua kata kerja dalam kalimat ini harus lampau: stopped dan arrived." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Last night I ___ my room before I went to bed.",
+        "options": [
+          { "id": "A", "text": "clean" },
+          { "id": "B", "text": "cleaned" },
+          { "id": "C", "text": "cleaning" },
+          { "id": "D", "text": "cleanned" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Last night menandakan masa lalu. Clean menjadi cleaned, dengan satu n.",
+        "stepByStep": [
+          "Penanda last night menunjukkan masa lalu.",
+          "Kata kerja clean adalah beraturan, sehingga ditambah -ed: cleaned.",
+          "Cleanned memakai dua n, tidak benar. Clean dan cleaning tidak cocok untuk masa lalu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Clean adalah bentuk sekarang atau dasar, tidak cocok dengan last night." },
+          { "optionId": "C", "reasonId": "Cleaning adalah bentuk -ing, tidak cocok sebagai kata kerja utama di masa lalu." },
+          { "optionId": "D", "reasonId": "Cleanned salah ejaan. Akhiran -ed cukup ditambahkan sekali pada clean." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja beraturan yang berakhiran e cukup ditambah d, dan yang berakhiran konsonan biasa ditambah ed.",
+          "examples": [
+            { "en": "I cleaned the car last night.", "id": "Saya membersihkan mobil tadi malam." },
+            { "en": "We stayed home last night.", "id": "Kami tinggal di rumah tadi malam." }
+          ]
+        },
+        "examTrap": "Pilihan D (cleanned) terlihat seperti versi lampau yang benar, tetapi ejaannya salah. Akhiran -ed hanya ditambah sekali pada clean."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She didn't stopped the car." },
+          { "id": "B", "text": "She didn't stop the car." },
+          { "id": "C", "text": "She did not stops the car." },
+          { "id": "D", "text": "She not stopped the car." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah didn't, kata kerja kembali ke bentuk dasar: stop.",
+        "stepByStep": [
+          "Kata kerja setelah didn't adalah bentuk dasar, tanpa -ed atau -s.",
+          "Stop adalah bentuk dasar dari stopped.",
+          "Pilihan A dan C memakai bentuk yang salah setelah did. Pilihan D tidak punya did."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Stopped setelah didn't salah. Gunakan stop." },
+          { "optionId": "C", "reasonId": "Stops setelah did not salah. Gunakan stop." },
+          { "optionId": "D", "reasonId": "Negatif lampau butuh did not atau didn't." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah did, didn't, atau did not, kata kerja selalu bentuk dasar.",
+          "examples": [
+            { "en": "He didn't call me yesterday.", "id": "Dia tidak menelepon saya kemarin." },
+            { "en": "They did not visit the museum.", "id": "Mereka tidak mengunjungi museum itu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat negatif lampau yang lengkap, tetapi memakai dua penanda lampau sekaligus."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Look! The children ___ a song, and their teacher ___ the piano.",
+        "options": [
+          { "id": "A", "text": "are singing / is playing" },
+          { "id": "B", "text": "sing / plays" },
+          { "id": "C", "text": "are singing / plays" },
+          { "id": "D", "text": "is singing / play" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Look! menunjukkan aksi sekarang, sehingga present continuous untuk the children (are singing) dan the teacher (is playing).",
+        "stepByStep": [
+          "Look! menandakan aksi yang sedang berlangsung. Subjek the children jamak, sehingga are singing.",
+          "Subjek their teacher tunggal, sehingga is playing.",
+          "Pilihan B dan C memakai bentuk sederhana untuk aksi sekarang. Pilihan D menyamakan bentuk yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bentuk sederhana tidak menyatakan aksi sekarang. Look! menuntut present continuous." },
+          { "optionId": "C", "reasonId": "Plays untuk teacher benar, tetapi bentuk sederhana tidak cocok dengan Look!." },
+          { "optionId": "D", "reasonId": "Is singing salah untuk the children jamak, dan play salah untuk teacher tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Look!, listen!, dan right now menandakan present continuous. Subjek jamak memakai are, tunggal memakai is.",
+          "examples": [
+            { "en": "Look! The birds are flying.", "id": "Lihat! Burung-burung sedang terbang." },
+            { "en": "Listen! My father is singing.", "id": "Dengar! Ayah saya sedang bernyanyi." }
+          ]
+        },
+        "examTrap": "Pilihan C punya bagian yang benar (plays), tetapi bentuk sederhana tidak cocok untuk kejadian yang sedang terjadi."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Yesterday the festival ___ at seven, and the music ___ loud.",
+        "options": [
+          { "id": "A", "text": "started / was" },
+          { "id": "B", "text": "start / were" },
+          { "id": "C", "text": "started / were" },
+          { "id": "D", "text": "starts / is" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Yesterday menandakan masa lalu. Started adalah lampau beraturan. The music adalah benda tunggal, sehingga was.",
+        "stepByStep": [
+          "Penanda yesterday menunjukkan masa lalu. Start menjadi started.",
+          "Subjek the music tunggal, jadi to be lampaunya was.",
+          "Pilihan B dan C memakai were untuk music yang tunggal. Pilihan D memakai bentuk sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Start bentuk dasar, tidak cocok untuk yesterday. Were salah untuk music." },
+          { "optionId": "C", "reasonId": "Were salah untuk the music yang tunggal." },
+          { "optionId": "D", "reasonId": "Starts dan is adalah bentuk sekarang, tidak cocok dengan yesterday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Penanda masa lalu seperti yesterday menuntut bentuk lampau. Untuk to be lampau, subjek tunggal memakai was.",
+          "examples": [
+            { "en": "The class started at eight yesterday.", "id": "Kelas dimulai pukul delapan kemarin." },
+            { "en": "The music was loud last night.", "id": "Musiknya keras tadi malam." }
+          ]
+        },
+        "examTrap": "Pilihan C (started / were) hanya salah di bagian kedua. Cek setiap klausa secara terpisah."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which question is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "Did she closed the door?" },
+          { "id": "B", "text": "Did she close the door?" },
+          { "id": "C", "text": "Did she closes the door?" },
+          { "id": "D", "text": "Does she closed the door?" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pertanyaan dengan did memakai kata kerja dasar: close.",
+        "stepByStep": [
+          "Pertanyaan lampau dengan kata kerja biasa memakai did.",
+          "Setelah did, kata kerja tetap bentuk dasar, yaitu close.",
+          "Pilihan A memakai closed setelah did. Pilihan C memakai closes. Pilihan D memakai does dan closed, keduanya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Closed setelah did salah. Gunakan bentuk dasar close." },
+          { "optionId": "C", "reasonId": "Closes setelah did salah. Did membawa penanda lampau, dan kata kerjanya dasar." },
+          { "optionId": "D", "reasonId": "Does adalah bentuk sekarang untuk he, she, it. Pertanyaan ini lampau, sehingga memakai did." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan lampau: Did + subjek + kata kerja dasar?",
+          "examples": [
+            { "en": "Did they open the gate?", "id": "Apakah mereka membuka gerbang?" },
+            { "en": "Did you finish the test?", "id": "Apakah kamu menyelesaikan tes itu?" }
+          ]
+        },
+        "examTrap": "Pilihan A (closed) terasa benar karena ada kata lampau. Tetapi did sudah menandai masa lalu, sehingga kata kerjanya kembali ke bentuk dasar."
+      }
+    ]
+  }
+}

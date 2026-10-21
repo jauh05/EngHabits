@@ -1,0 +1,575 @@
+{
+  "day": 10,
+  "week": 2,
+  "month": 1,
+  "title": "To Be Masa Lalu (was/were)",
+  "topic": "Bentuk lampau to be: was untuk I, he, she, it dan were untuk you, we, they, serta penanda waktu lampau",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memilih was atau were sesuai subjek",
+    "Membuat kalimat negatif dan tanya dengan was dan were",
+    "Mengenali penanda waktu lampau seperti yesterday, last, dan ago"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "yesterday", "pronunciationId": "YES-ter-dei (ye seperti 'yes', akhiran day terdengar 'dei')", "pos": "Adv", "meaningId": "kemarin", "example": "I was at school yesterday.", "exampleId": "Saya di sekolah kemarin." },
+      { "no": 2, "en": "last", "pronunciationId": "LAST (a pendek, st di akhir jelas)", "pos": "Adj", "meaningId": "terakhir, lalu", "example": "We were at the beach last Sunday.", "exampleId": "Kami berada di pantai hari Minggu lalu." },
+      { "no": 3, "en": "ago", "pronunciationId": "a-GOH (a lemah, o panjang)", "pos": "Adv", "meaningId": "yang lalu (dihitung dari sekarang)", "example": "It was two days ago.", "exampleId": "Itu dua hari yang lalu." },
+      { "no": 4, "en": "weekend", "pronunciationId": "WEEK-end (tekanan di WEEK, end terdengar 'end')", "pos": "Noun", "meaningId": "akhir pekan", "example": "The weekend was relaxing.", "exampleId": "Akhir pekan itu santai." },
+      { "no": 5, "en": "holiday", "pronunciationId": "HO-li-dei (o panjang, akhiran day terdengar 'dei')", "pos": "Noun", "meaningId": "libur, hari libur", "example": "The holiday was short.", "exampleId": "Liburannya singkat." },
+      { "no": 6, "en": "morning", "pronunciationId": "MOR-ning (or panjang, ng di akhir)", "pos": "Noun", "meaningId": "pagi", "example": "It was sunny in the morning.", "exampleId": "Pagi tadi cerah." },
+      { "no": 7, "en": "evening", "pronunciationId": "EEV-ning (ee panjang, v terdengar jelas)", "pos": "Noun", "meaningId": "sore, malam (sebelum tidur)", "example": "It was cold in the evening.", "exampleId": "Sore tadi dingin." },
+      { "no": 8, "en": "tonight", "pronunciationId": "tu-NAIT (tekanan di NAIT, ai panjang)", "pos": "Adv", "meaningId": "malam ini", "example": "Are you free tonight?", "exampleId": "Apakah kamu senggang malam ini?" },
+      { "no": 9, "en": "once", "pronunciationId": "WUNS (w di awal, o pendek, ce seperti 's')", "pos": "Adv", "meaningId": "sekali; begitu (setelah)", "example": "Call me once you arrive.", "exampleId": "Telepon saya begitu kamu sampai." },
+      { "no": 10, "en": "already", "pronunciationId": "all-RE-di (a pertama lemah, tekanan di RE)", "pos": "Adv", "meaningId": "sudah (menunjukkan sesuatu sudah terjadi)", "example": "I already ate dinner.", "exampleId": "Saya sudah makan malam." }
+    ],
+    "tip": "Setiap kali menulis kalimat lampau dengan to be, cek subjeknya. I, he, she, dan it memakai was. You, we, dan they memakai were. Jika ada penanda seperti yesterday atau ago, itu tanda kuat bahwa kamu harus memakai bentuk lampau."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["was and were English beginners", "past tense to be English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang was dan were, dengan contoh kejadian kemarin dan pengalaman lampau.",
+      "watchFor": [
+        "Pasangan was untuk I, he, she, it dan were untuk you, we, they",
+        "Negatif dengan was not dan were not",
+        "Penanda waktu lampau seperti yesterday, last week, dan two days ago"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu menulis buku harian. Setiap entri dimulai dengan 'kemarin, saya pergi'. Untuk menulis dengan to be di masa lalu, kamu hanya perlu memilih satu dari dua bentuk: was atau were. Pilihannya tergantung pada siapa yang bercerita.",
+      "sections": [
+        {
+          "heading": "Was dan were",
+          "bodyMd": "**Was** dipakai untuk **I, he, she, dan it**: **I was**, **she was**, **it was**. **Were** dipakai untuk **you, we, dan they**: **you were**, **we were**, **they were**. Bentuk ini hanya berubah sekali untuk waktu lampau, sehingga relatif mudah diingat."
+        },
+        {
+          "heading": "Negatif dan tanya",
+          "bodyMd": "Untuk negatif, tambahkan **not** setelah was atau were: **was not** (**wasn't**), **were not** (**weren't**). Untuk pertanyaan, pindahkan was atau were ke depan subjek: **Was she tired?** dan **Were you at home?**. Jawaban singkatnya adalah **Yes, I was** atau **No, I wasn't**."
+        },
+        {
+          "heading": "Penanda waktu lampau",
+          "bodyMd": "Kata seperti **yesterday**, **last week**, **two days ago**, dan **last night** menandakan bahwa kejadiannya sudah selesai. Gunakan was atau were ketika ada penanda seperti ini."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "I / he / she / it + was; you / we / they + were" },
+        { "label": "Negatif", "pattern": "subjek + was not (wasn't) / were not (weren't)" },
+        { "label": "Tanya", "pattern": "Was / Were + subjek + keterangan?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I was at school yesterday.", "id": "Saya di sekolah kemarin." },
+          { "en": "She was very happy last night.", "id": "Dia sangat senang tadi malam." },
+          { "en": "It was cold in the morning.", "id": "Pagi tadi dingin." },
+          { "en": "We were at the beach two days ago.", "id": "Kami berada di pantai dua hari yang lalu." },
+          { "en": "They were tired after the trip.", "id": "Mereka lelah setelah perjalanan." }
+        ],
+        "negative": [
+          { "en": "I was not ready for the test.", "id": "Saya belum siap untuk tes itu." },
+          { "en": "He wasn't at home last night.", "id": "Dia tidak di rumah tadi malam." },
+          { "en": "It was not a good day.", "id": "Itu bukan hari yang baik." },
+          { "en": "You were not late for class.", "id": "Kamu tidak terlambat masuk kelas." },
+          { "en": "They weren't in the library on Sunday.", "id": "Mereka tidak di perpustakaan hari Minggu." }
+        ],
+        "question": [
+          { "en": "Were you at the party last night?", "id": "Apakah kamu di pesta tadi malam?" },
+          { "en": "Was the weather good yesterday?", "id": "Apakah cuacanya bagus kemarin?" },
+          { "en": "Where were they last weekend?", "id": "Di mana mereka akhir pekan lalu?" },
+          { "en": "Was your brother home in the evening?", "id": "Apakah adikmu di rumah pada sore hari?" },
+          { "en": "Were we late this morning?", "id": "Apakah kita terlambat pagi ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I were at school yesterday.", "right": "I was at school yesterday.", "whyId": "Untuk I, bentuk lampau to be adalah was." },
+        { "wrong": "They was happy last week.", "right": "They were happy last week.", "whyId": "Untuk they, bentuk lampau to be adalah were." },
+        { "wrong": "She not was at home.", "right": "She was not at home.", "whyId": "Not diletakkan setelah was." },
+        { "wrong": "Was you tired last night?", "right": "Were you tired last night?", "whyId": "Untuk you, pertanyaan lampau memakai were." },
+        { "wrong": "I was go to school yesterday.", "right": "I went to school yesterday.", "whyId": "Was tidak diikuti kata kerja biasa. Untuk pergi di masa lalu, gunakan went." },
+        { "wrong": "We was in the mountains two days ago.", "right": "We were in the mountains two days ago.", "whyId": "Untuk we, bentuk lampau to be adalah were." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["was and were English beginners", "past tense to be English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Penggunaan was dan were dalam percakapan santai",
+        "Penanda waktu seperti yesterday, last weekend, dan two days ago"
+      ]
+    },
+    "script": {
+      "title": "Cerita akhir pekan",
+      "lines": [
+        { "speaker": "Lia", "text": "Hi Rama, where were you yesterday? I called you twice." },
+        { "speaker": "Rama", "text": "I was at my grandmother's house. We were there for the holiday." },
+        { "speaker": "Lia", "text": "Oh, nice. Was the weather good?" },
+        { "speaker": "Rama", "text": "It was sunny in the morning, but it was cold in the evening." },
+        { "speaker": "Lia", "text": "Were your cousins there too?" },
+        { "speaker": "Rama", "text": "Yes, they were there. Last weekend we were in the mountains, and it was amazing." },
+        { "speaker": "Lia", "text": "That sounds great. How long was the trip?" },
+        { "speaker": "Rama", "text": "It was long, but it was worth it. We left two days ago." },
+        { "speaker": "Lia", "text": "Were you tired when you came back?" },
+        { "speaker": "Rama", "text": "Yes, I was. I already finished my homework, so I can relax now." },
+        { "speaker": "Lia", "text": "Are we meeting tonight, or was the plan cancelled?" },
+        { "speaker": "Rama", "text": "The plan is still on. We can meet once you finish dinner." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada was, bunyi a pendek dan s lembut. Ucapkan was it dengan ritme yang cepat.",
+      "Pada were, bunyi r lembut dan tidak terlalu jelas. Tekankan bunyi w di awal.",
+      "Ucapkan kalimat tanya Were you dengan naik nada di akhir, lalu jawab I was dengan nada turun."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Where was Rama yesterday?",
+        "options": [
+          { "id": "A", "text": "at school" },
+          { "id": "B", "text": "at his grandmother's house" },
+          { "id": "C", "text": "in the mountains" },
+          { "id": "D", "text": "at a friend's house" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Rama berkata 'I was at my grandmother's house', artinya ia berada di rumah neneknya kemarin.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sekolah tidak disebut sebagai tempat Rama kemarin." },
+          { "optionId": "C", "reasonId": "Pegunungan adalah tempat mereka akhir pekan lalu, bukan kemarin." },
+          { "optionId": "D", "reasonId": "Rumah teman tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I was at my grandmother's house."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What was the weather like in the morning?",
+        "options": [
+          { "id": "A", "text": "cold" },
+          { "id": "B", "text": "rainy" },
+          { "id": "C", "text": "sunny" },
+          { "id": "D", "text": "windy" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Rama berkata 'It was sunny in the morning', artinya cerah di pagi hari.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dingin disebut untuk sore hari, bukan pagi." },
+          { "optionId": "B", "reasonId": "Hujan tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Angin tidak disebut dalam percakapan." }
+        ],
+        "evidence": "It was sunny in the morning"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "When did Rama and his family leave for the trip?",
+        "options": [
+          { "id": "A", "text": "yesterday" },
+          { "id": "B", "text": "tonight" },
+          { "id": "C", "text": "last week" },
+          { "id": "D", "text": "two days ago" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Rama berkata 'We left two days ago', artinya mereka berangkat dua hari yang lalu.",
+        "stepByStep": [
+          "Cari kata left di naskah. Kalimatnya: 'We left two days ago.'",
+          "Ago berarti dihitung dari sekarang. Two days ago berarti dua hari yang lalu.",
+          "Yesterday dan tonight tidak tepat karena keberangkatannya dua hari lalu. Last week juga tidak tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kemarin adalah saat Rama berada di rumah nenek, bukan saat berangkat." },
+          { "optionId": "B", "reasonId": "Malam ini adalah waktu rencana bertemu, bukan saat berangkat." },
+          { "optionId": "C", "reasonId": "Minggu lalu tidak disebut sebagai waktu keberangkatan. Yang disebut adalah dua hari yang lalu." }
+        ],
+        "evidence": "We left two days ago."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "Was Rama tired when he came back?",
+        "options": [
+          { "id": "A", "text": "Yes, he was tired." },
+          { "id": "B", "text": "No, he was not tired." },
+          { "id": "C", "text": "He was in the mountains." },
+          { "id": "D", "text": "He was sick." }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Lia bertanya 'Were you tired when you came back?' dan Rama menjawab 'Yes, I was.'",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Rama menjawab 'Yes, I was', jadi jawabannya ya, bukan tidak." },
+          { "optionId": "C", "reasonId": "Jawaban ini tidak menjawab pertanyaan tentang kelelahan." },
+          { "optionId": "D", "reasonId": "Sakit tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Yes, I was."
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What can we infer about the plan for tonight?",
+        "options": [
+          { "id": "A", "text": "It was cancelled." },
+          { "id": "B", "text": "Rama already went to bed." },
+          { "id": "C", "text": "Lia has not called Rama yet." },
+          { "id": "D", "text": "It is still on, but Rama must wait until dinner is finished." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Rama berkata 'The plan is still on. We can meet once you finish dinner', artinya rencananya tetap jalan, tetapi mereka bertemu setelah Lia selesai makan malam.",
+        "stepByStep": [
+          "Lia bertanya apakah rencananya dibatalkan. Rama menjawab 'The plan is still on', artinya tidak dibatalkan.",
+          "Kata once berarti begitu atau setelah. Rama mengatakan mereka bisa bertemu setelah Lia selesai makan malam.",
+          "Pilihan A bertentangan dengan 'still on'. Pilihan B dan C tidak disebut dalam percakapan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Rama menyebut rencananya tetap berjalan (still on), bukan dibatalkan." },
+          { "optionId": "B", "reasonId": "Rama tidak mengatakan ia sudah tidur. Ia mengatakan sudah menyelesaikan pekerjaan rumah." },
+          { "optionId": "C", "reasonId": "Lia yang menelepon Rama dua kali kemarin. Pilihan ini bertentangan dengan percakapan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Once berarti setelah atau begitu. Ia menunjukkan bahwa suatu kejadian terjadi setelah kejadian lain selesai.",
+          "examples": [
+            { "en": "Call me once you arrive.", "id": "Telepon saya begitu kamu sampai." },
+            { "en": "We can start once everyone is here.", "id": "Kita bisa mulai setelah semua orang datang." }
+          ]
+        },
+        "examTrap": "Pilihan A (It was cancelled) menyerupai jawaban yang benar karena membahas rencana, tetapi Rama justru mengatakan rencananya masih berjalan.",
+        "evidence": "The plan is still on. We can meet once you finish dinner."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I ___ at school yesterday.",
+        "options": [
+          { "id": "A", "text": "was" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "am" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Untuk I di masa lalu, bentuk to be-nya was.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "C", "reasonId": "Am adalah bentuk sekarang untuk I. Kalimat ini membutuhkan masa lalu." },
+          { "optionId": "D", "reasonId": "Were dipakai untuk you, we, they, bukan I." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "They ___ at the beach last Sunday.",
+        "options": [
+          { "id": "A", "text": "was" },
+          { "id": "B", "text": "were" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "is" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Untuk they di masa lalu, bentuk to be-nya were.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Was dipakai untuk I, he, she, it." },
+          { "optionId": "C", "reasonId": "Are adalah bentuk sekarang. Kalimat ini membutuhkan masa lalu." },
+          { "optionId": "D", "reasonId": "Is adalah bentuk sekarang untuk he, she, it." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "It ___ very cold last night.",
+        "options": [
+          { "id": "A", "text": "were" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Untuk it di masa lalu, bentuk to be-nya was.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Were dipakai untuk you, we, they." },
+          { "optionId": "B", "reasonId": "Is adalah bentuk sekarang. Penanda last night menunjukkan masa lalu." },
+          { "optionId": "D", "reasonId": "Be adalah bentuk dasar, tidak cocok sebagai kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "We was happy at the party." },
+          { "id": "B", "text": "We is happy at the party." },
+          { "id": "C", "text": "We were happy at the party." },
+          { "id": "D", "text": "We are happy yesterday." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Untuk we di masa lalu, bentuk to be-nya were. Kalimat dengan penanda masa lalu harus memakai bentuk lampau.",
+        "stepByStep": [
+          "Subjek we memakai were di masa lalu.",
+          "Party tidak menandakan waktu, tetapi kalimat ini tetap menceritakan kejadian masa lalu.",
+          "Pilihan A memakai was untuk we, pilihan B memakai is, dan pilihan D memakai are dengan yesterday."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Was untuk we salah. Gunakan were." },
+          { "optionId": "B", "reasonId": "Is untuk we salah, dan bentuk sekarang." },
+          { "optionId": "D", "reasonId": "Are dipakai untuk bentuk sekarang, tidak cocok dengan yesterday." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Where ___ you two days ago?",
+        "options": [
+          { "id": "A", "text": "was" },
+          { "id": "B", "text": "were" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "is" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Untuk pertanyaan dengan you di masa lalu, bentuk to be-nya were.",
+        "stepByStep": [
+          "Penanda two days ago menunjukkan masa lalu.",
+          "Subjek you memakai were di masa lalu.",
+          "Was salah untuk you. Are dan is adalah bentuk sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Was dipakai untuk I, he, she, it, bukan you." },
+          { "optionId": "C", "reasonId": "Are adalah bentuk sekarang, sedangkan penanda two days ago adalah masa lalu." },
+          { "optionId": "D", "reasonId": "Is adalah bentuk sekarang untuk he, she, it." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya di rumah kemarin.",
+        "hint": "Kemarin: yesterday. Untuk saya, gunakan was.",
+        "acceptedAnswers": ["I was at home yesterday.", "I was home yesterday."],
+        "modelAnswer": "I was at home yesterday.",
+        "commonErrors": [{ "pattern": "I were at home yesterday", "feedbackId": "Untuk I di masa lalu, gunakan was." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Mereka sangat lelah minggu lalu.",
+        "hint": "Minggu lalu: last week. Untuk they, gunakan were.",
+        "acceptedAnswers": ["They were very tired last week.", "They were so tired last week."],
+        "modelAnswer": "They were very tired last week.",
+        "commonErrors": [{ "pattern": "They was very tired", "feedbackId": "Untuk they di masa lalu, gunakan were." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Cuacanya dingin tadi malam.",
+        "hint": "Cuaca: it was. Tadi malam: last night.",
+        "acceptedAnswers": ["It was cold last night.", "It was cold yesterday night."],
+        "modelAnswer": "It was cold last night.",
+        "commonErrors": [{ "pattern": "It is cold last night", "feedbackId": "Penanda last night menunjukkan masa lalu, gunakan was." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dua hari yang lalu, kami berada di pantai.",
+        "hint": "Dua hari yang lalu: two days ago. Untuk we, gunakan were.",
+        "acceptedAnswers": ["Two days ago, we were at the beach.", "We were at the beach two days ago."],
+        "modelAnswer": "Two days ago, we were at the beach.",
+        "commonErrors": [{ "pattern": "Two days ago, we are at the beach", "feedbackId": "Two days ago menunjukkan masa lalu. Gunakan were." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia sangat senang kemarin sore, karena nilainya bagus.",
+        "hint": "Dia adalah she, untuk masa lalu gunakan was. Kemarin sore: yesterday evening. Nilai bagus: her score was good.",
+        "acceptedAnswers": [
+          "She was very happy yesterday evening because her score was good.",
+          "She was so happy yesterday evening because her score was good."
+        ],
+        "modelAnswer": "She was very happy yesterday evening because her score was good.",
+        "commonErrors": [
+          { "pattern": "She is very happy yesterday", "feedbackId": "Penanda yesterday menunjukkan masa lalu, gunakan was." },
+          { "pattern": "because her score is good", "feedbackId": "Dalam cerita masa lalu, kalimat sebab juga memakai was." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Where ___ you ___ last night?",
+        "options": [
+          { "id": "A", "text": "were / are" },
+          { "id": "B", "text": "was / were" },
+          { "id": "C", "text": "were / were" },
+          { "id": "D", "text": "are / was" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Pertanyaan dengan you di masa lalu memakai were, dan jawabannya juga memakai were untuk you.",
+        "stepByStep": [
+          "Penanda last night menunjukkan masa lalu.",
+          "Subjek you memakai were, bukan was.",
+          "Pilihan A dan D memakai are, bentuk sekarang. Pilihan B memakai was untuk you."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are adalah bentuk sekarang, dan tidak cocok dengan last night." },
+          { "optionId": "B", "reasonId": "Was salah untuk you. Gunakan were." },
+          { "optionId": "D", "reasonId": "Are dan was tidak cocok dengan pertanyaan masa lalu untuk you." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam pertanyaan lampau, to be dipindah ke depan subjek. Untuk you, bentuknya were.",
+          "examples": [
+            { "en": "Were you at school yesterday?", "id": "Apakah kamu di sekolah kemarin?" },
+            { "en": "Was he at home last night?", "id": "Apakah dia di rumah tadi malam?" }
+          ]
+        },
+        "examTrap": "Pilihan B (was / were) tampak seperti campuran yang benar karena ada was dan were, tetapi was di sini salah untuk you."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "There was two students in the room." },
+          { "id": "B", "text": "There were two students in the room." },
+          { "id": "C", "text": "There are two students in the room yesterday." },
+          { "id": "D", "text": "There were two student in the room." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah there, bentuk to be mengikuti kata benda yang jamak. Two students jamak, sehingga were.",
+        "stepByStep": [
+          "Pola there + to be + kata benda. Jumlah kata benda menentukan to be.",
+          "Two students adalah jamak, sehingga memakai were.",
+          "Pilihan A memakai was untuk jamak. Pilihan C memakai are untuk masa lalu. Pilihan D salah karena student tidak diberi -s."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Was salah untuk two students yang jamak." },
+          { "optionId": "C", "reasonId": "Are adalah bentuk sekarang, sedangkan yesterday menunjukkan masa lalu." },
+          { "optionId": "D", "reasonId": "Setelah two, kata benda harus jamak: students, bukan student." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola there was untuk benda tunggal, dan there were untuk benda jamak di masa lalu.",
+          "examples": [
+            { "en": "There was a party last night.", "id": "Ada pesta tadi malam." },
+            { "en": "There were many people at the market.", "id": "Ada banyak orang di pasar." }
+          ]
+        },
+        "examTrap": "Pilihan A terasa benar karena ada 'there was', tetapi kata benda yang mengikuti jamak, sehingga were."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Right now my brother ___ a book, but yesterday he ___ a movie.",
+        "options": [
+          { "id": "A", "text": "is reading / was watching" },
+          { "id": "B", "text": "reads / was watch" },
+          { "id": "C", "text": "was reading / is watching" },
+          { "id": "D", "text": "reading / watching" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Right now menunjukkan aksi sekarang: is reading. Yesterday menunjukkan masa lalu: was watching.",
+        "stepByStep": [
+          "Right now menandakan present continuous: is reading untuk subjek tunggal my brother.",
+          "Yesterday menandakan masa lalu: was untuk he. Lalu kata kerja -ing menunjukkan aksi yang sedang berlangsung di masa lalu: was watching.",
+          "Pilihan B memakai reads dan was watch, yang tidak benar. Pilihan C membalik peran waktu. Pilihan D tidak punya to be."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Reads adalah bentuk sederhana, tidak cocok dengan right now. Was watch bukan bentuk yang benar." },
+          { "optionId": "C", "reasonId": "Was reading dan is watching membalik waktu: keduanya tidak cocok dengan right now dan yesterday." },
+          { "optionId": "D", "reasonId": "Tidak ada to be, sehingga kalimat ini tidak lengkap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Right now memakai present continuous. Yesterday memakai bentuk lampau: was atau were, atau kata kerja lampau.",
+          "examples": [
+            { "en": "I am cooking right now.", "id": "Saya sedang memasak sekarang." },
+            { "en": "He was sleeping yesterday at noon.", "id": "Dia sedang tidur kemarin siang." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak seperti kebalikan yang masuk akal, tetapi kedua waktu tertukar. Cek penanda waktu di setiap klausa."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Yesterday we were ___ the park ___ the morning, and in the evening we were ___ home.",
+        "options": [
+          { "id": "A", "text": "at / in / at" },
+          { "id": "B", "text": "in / on / in" },
+          { "id": "C", "text": "at / on / at" },
+          { "id": "D", "text": "on / at / in" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "At the park untuk tempat titik. In the morning untuk bagian hari. At home untuk tempat tinggal.",
+        "stepByStep": [
+          "Cek the park: titik tempat, jadi at.",
+          "Cek the morning: bagian hari, jadi in.",
+          "Cek home: tempat tinggal, jadi at. Pilihan B dan D memakai in atau on untuk tempat yang seharusnya at."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "In the park dan on home tidak lazim untuk tempat tinggal dan tempat umum seperti taman." },
+          { "optionId": "C", "reasonId": "On the morning salah untuk bagian hari. Gunakan in the morning." },
+          { "optionId": "D", "reasonId": "On the park dan in home tidak tepat untuk konteks ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "At untuk tempat dan titik tertentu, at home untuk rumah, dan in untuk bagian hari.",
+          "examples": [
+            { "en": "We met at the park in the afternoon.", "id": "Kami bertemu di taman pada sore hari." },
+            { "en": "She stayed at home all evening.", "id": "Dia tinggal di rumah sepanjang malam." }
+          ]
+        },
+        "examTrap": "Frasa at home sering keliru menjadi in home. Dalam bahasa Inggris, rumah memakai at."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is the best answer to 'Were you at school on Monday?'",
+        "options": [
+          { "id": "A", "text": "Yes, I was." },
+          { "id": "B", "text": "Yes, I am." },
+          { "id": "C", "text": "Yes, I were." },
+          { "id": "D", "text": "Yes, I did." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Pertanyaannya memakai were, sehingga jawaban singkatnya memakai was untuk I.",
+        "stepByStep": [
+          "Pertanyaan memakai were dan merujuk ke masa lalu (on Monday).",
+          "Jawaban singkat mengikuti bentuk to be di pertanyaan dan subjek jawaban, yaitu I. Untuk I di masa lalu, bentuknya was.",
+          "Pilihan B memakai am, bentuk sekarang. Pilihan C memakai were untuk I. Pilihan D memakai did, padahal pertanyaannya bukan kata kerja biasa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Am adalah bentuk sekarang, tidak cocok dengan on Monday yang sudah lewat." },
+          { "optionId": "C", "reasonId": "Were dipakai untuk you, we, they. Untuk I di masa lalu, gunakan was." },
+          { "optionId": "D", "reasonId": "Did dipakai untuk kata kerja biasa. Pertanyaan ini memakai to be." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jawaban singkat mengikuti bentuk to be di pertanyaan, tetapi subjeknya sesuai orang yang menjawab.",
+          "examples": [
+            { "en": "Were they tired? Yes, they were.", "id": "Apakah mereka lelah? Ya, mereka lelah." },
+            { "en": "Was she late? No, she wasn't.", "id": "Apakah dia terlambat? Tidak, dia tidak terlambat." }
+          ]
+        },
+        "examTrap": "Pertanyaan memakai you, tetapi jawabannya tentang diri sendiri (I). Ubah subjeknya, tetapi pertahankan waktunya."
+      }
+    ]
+  }
+}

@@ -1,0 +1,574 @@
+{
+  "day": 12,
+  "week": 2,
+  "month": 1,
+  "title": "Simple Past 2: Kata Kerja Tidak Beraturan",
+  "topic": "Simple past untuk kata kerja tidak beraturan yang paling sering dipakai, serta negatif dan tanya dengan did",
+  "skillFocus": "listening",
+  "objectives": [
+    "Mengingat bentuk lampau dari kata kerja tidak beraturan yang paling sering dipakai",
+    "Membedakan kata kerja tidak beraturan dari kata kerja beraturan dalam kalimat",
+    "Memahami percakapan tentang pengalaman lampau dan menjawab dengan bukti dari naskah"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "went", "pronunciationId": "WENT (e pendek, nt di akhir jelas)", "pos": "Verb", "meaningId": "pergi (lampau dari go)", "example": "I went to the market yesterday.", "exampleId": "Saya pergi ke pasar kemarin." },
+      { "no": 2, "en": "ate", "pronunciationId": "EIT (ei panjang, t di akhir)", "pos": "Verb", "meaningId": "makan (lampau dari eat)", "example": "We ate fish for lunch.", "exampleId": "Kami makan ikan untuk makan siang." },
+      { "no": 3, "en": "bought", "pronunciationId": "BOT (o panjang, gh tidak dibunyikan)", "pos": "Verb", "meaningId": "membeli (lampau dari buy)", "example": "She bought a new bag.", "exampleId": "Dia membeli tas baru." },
+      { "no": 4, "en": "saw", "pronunciationId": "SO (o panjang, w tidak dibunyikan)", "pos": "Verb", "meaningId": "melihat (lampau dari see)", "example": "I saw a rainbow this morning.", "exampleId": "Saya melihat pelangi tadi pagi." },
+      { "no": 5, "en": "took", "pronunciationId": "TUK (u pendek, k di akhir)", "pos": "Verb", "meaningId": "mengambil; membawa; memotret (lampau dari take)", "example": "He took many photos.", "exampleId": "Dia mengambil banyak foto." },
+      { "no": 6, "en": "made", "pronunciationId": "MEID (ei panjang, d di akhir ringan)", "pos": "Verb", "meaningId": "membuat (lampau dari make)", "example": "My mother made a cake.", "exampleId": "Ibu saya membuat kue." },
+      { "no": 7, "en": "got", "pronunciationId": "GOT (o pendek, t di akhir jelas)", "pos": "Verb", "meaningId": "mendapatkan; tiba (lampau dari get)", "example": "We got home late.", "exampleId": "Kami tiba di rumah terlambat." },
+      { "no": 8, "en": "came", "pronunciationId": "KEIM (ei panjang, m di akhir)", "pos": "Verb", "meaningId": "datang (lampau dari come)", "example": "The bus came on time.", "exampleId": "Bus itu datang tepat waktu." },
+      { "no": 9, "en": "drank", "pronunciationId": "DRANK (a pendek, nk jelas)", "pos": "Verb", "meaningId": "minum (lampau dari drink)", "example": "They drank coconut water.", "exampleId": "Mereka minum air kelapa." },
+      { "no": 10, "en": "ran", "pronunciationId": "RAN (a pendek, n di akhir)", "pos": "Verb", "meaningId": "berlari (lampau dari run)", "example": "He ran to the station.", "exampleId": "Dia berlari ke stasiun." }
+    ],
+    "tip": "Kata kerja tidak beraturan tidak bisa ditebak dari ejaannya. Kelompokkan berdasarkan pasangan: go dan went, eat dan ate, buy dan bought. Hafalkan dua atau tiga kata dalam satu kalimat cerita, bukan satu per satu."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["irregular verbs past tense English", "irregular verbs list"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata kerja tidak beraturan, dengan daftar yang sering dipakai dan contoh kalimat cerita.",
+      "watchFor": [
+        "Kata kerja yang berubah total, seperti go menjadi went",
+        "Kata kerja yang tetap sama bentuknya, seperti put dan cut",
+        "Negatif dan tanya dengan did, lalu kata kerja kembali ke bentuk dasar"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu berjalan di jalan lama. Beberapa jalan sudah berubah, tetapi tetap bisa dikenali. Kata kerja tidak beraturan juga begitu: bentuk lampaunya berubah, tidak mengikuti -ed. Kabar baiknya, kata yang sering dipakai jumlahnya terbatas.",
+      "sections": [
+        {
+          "heading": "Bentuk lampau yang berubah",
+          "bodyMd": "Beberapa kata kerja punya bentuk lampau sendiri: **go** menjadi **went**, **eat** menjadi **ate**, **buy** menjadi **bought**, **see** menjadi **saw**, **take** menjadi **took**, **make** menjadi **made**, **get** menjadi **got**, **come** menjadi **came**, **drink** menjadi **drank**, **run** menjadi **ran**. Bentuk ini tidak perlu ditambah -ed."
+        },
+        {
+          "heading": "Negatif dan tanya tetap memakai did",
+          "bodyMd": "Untuk negatif dan pertanyaan, pakai **did** dan kembalikan kata kerja ke **bentuk dasar**: **I did not go**, **Did you buy it?**. Jangan menulis **did not went** atau **did you bought**."
+        },
+        {
+          "heading": "Kata kerja yang tidak berubah",
+          "bodyMd": "Beberapa kata kerja punya bentuk lampau yang sama dengan bentuk dasar, seperti **put** dan **cut**. Sebelum menulis, cek daftar agar tidak salah menambahkan -ed."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "subjek + bentuk lampau tidak beraturan (went, ate, bought, saw)" },
+        { "label": "Negatif", "pattern": "subjek + did not (didn't) + kata kerja dasar" },
+        { "label": "Tanya", "pattern": "Did + subjek + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I went to the library yesterday.", "id": "Saya pergi ke perpustakaan kemarin." },
+          { "en": "We ate lunch at noon.", "id": "Kami makan siang pada tengah hari." },
+          { "en": "She bought a new notebook.", "id": "Dia membeli buku catatan baru." },
+          { "en": "He saw his friends at the mall.", "id": "Dia melihat teman-temannya di mal." },
+          { "en": "They came home at nine.", "id": "Mereka pulang ke rumah pukul sembilan." }
+        ],
+        "negative": [
+          { "en": "I did not see the movie.", "id": "Saya tidak menonton film itu." },
+          { "en": "She didn't take the bus.", "id": "Dia tidak naik bus." },
+          { "en": "We did not drink coffee last night.", "id": "Kami tidak minum kopi tadi malam." },
+          { "en": "He didn't make breakfast this morning.", "id": "Dia tidak membuat sarapan pagi ini." },
+          { "en": "They didn't get the tickets.", "id": "Mereka tidak mendapatkan tiketnya." }
+        ],
+        "question": [
+          { "en": "Did you go to school yesterday?", "id": "Apakah kamu pergi ke sekolah kemarin?" },
+          { "en": "What did she buy at the market?", "id": "Apa yang dia beli di pasar?" },
+          { "en": "Did he run in the park?", "id": "Apakah dia berlari di taman?" },
+          { "en": "Did they eat rice for dinner?", "id": "Apakah mereka makan nasi untuk makan malam?" },
+          { "en": "Where did you see her?", "id": "Di mana kamu melihatnya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I goed to the market.", "right": "I went to the market.", "whyId": "Go adalah kata kerja tidak beraturan. Bentuk lampaunya went." },
+        { "wrong": "She eated lunch at noon.", "right": "She ate lunch at noon.", "whyId": "Eat menjadi ate, bukan eated." },
+        { "wrong": "He didn't went to school.", "right": "He didn't go to school.", "whyId": "Setelah did, kata kerja kembali ke bentuk dasar: go." },
+        { "wrong": "Did you buyed the book?", "right": "Did you buy the book?", "whyId": "Dalam pertanyaan dengan did, kata kerja dasar buy, bukan bought atau buyed." },
+        { "wrong": "They runned to the station.", "right": "They ran to the station.", "whyId": "Run menjadi ran, bukan runned." },
+        { "wrong": "We seed a rainbow.", "right": "We saw a rainbow.", "whyId": "See menjadi saw. Bentuknya tidak mengikuti aturan -ed." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["irregular verbs past tense English", "irregular verbs list"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata kerja lampau yang tidak beraturan dalam cerita percakapan",
+        "Penanda waktu seperti last weekend dan this morning"
+      ]
+    },
+    "script": {
+      "title": "Akhir pekan yang seru",
+      "lines": [
+        { "speaker": "Dina", "text": "Hi Fajar! How was your weekend? I went to the new museum on Saturday." },
+        { "speaker": "Fajar", "text": "Nice! I went to the beach with my cousins. We ate fish and drank coconut water." },
+        { "speaker": "Dina", "text": "Did you take many photos?" },
+        { "speaker": "Fajar", "text": "Yes, I took a lot of photos, and I saw dolphins in the sea!" },
+        { "speaker": "Dina", "text": "Wow! What did you buy there?" },
+        { "speaker": "Fajar", "text": "I bought a small shell necklace for my mother." },
+        { "speaker": "Dina", "text": "That is sweet. How did you get there?" },
+        { "speaker": "Fajar", "text": "We got there by bus, and then we came back by train." },
+        { "speaker": "Dina", "text": "Did you make any friends?" },
+        { "speaker": "Fajar", "text": "Yes, I made two new friends. One of them ran to the water first!" },
+        { "speaker": "Dina", "text": "Haha, that sounds like fun. I just stayed home and cleaned my room." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada went, ate, dan bought, ucapkan bunyi vokal dengan jelas. Pendengar sering salah dengar ate dan eight.",
+      "Pada saw, bunyi w tidak terdengar. Ucapkan so dengan bibir sedikit membulat.",
+      "Pada came dan came back, perhatikan bunyi ei yang panjang, lalu bunyi k yang lembut."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Where did Dina go on Saturday?",
+        "options": [
+          { "id": "A", "text": "to the beach" },
+          { "id": "B", "text": "to the new museum" },
+          { "id": "C", "text": "to the market" },
+          { "id": "D", "text": "to the train station" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Dina berkata 'I went to the new museum on Saturday'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pantai adalah tempat Fajar pergi bersama sepupunya." },
+          { "optionId": "C", "reasonId": "Pasar tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Stasiun kereta disebut sebagai tempat Fajar kembali, bukan tempat Dina." }
+        ],
+        "evidence": "I went to the new museum on Saturday."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What did Fajar and his cousins eat?",
+        "options": [
+          { "id": "A", "text": "rice and chicken" },
+          { "id": "B", "text": "noodles" },
+          { "id": "C", "text": "fish" },
+          { "id": "D", "text": "bread" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Fajar berkata 'We ate fish and drank coconut water'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Nasi dan ayam tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Mi tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Roti tidak disebut dalam percakapan." }
+        ],
+        "evidence": "We ate fish and drank coconut water."
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What did Fajar buy for his mother?",
+        "options": [
+          { "id": "A", "text": "a camera" },
+          { "id": "B", "text": "a hat" },
+          { "id": "C", "text": "a book" },
+          { "id": "D", "text": "a shell necklace" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Fajar berkata 'I bought a small shell necklace for my mother'.",
+        "stepByStep": [
+          "Cari kata bought di naskah. Kalimat: 'I bought a small shell necklace for my mother.'",
+          "Kata bought adalah lampau dari buy. Benda yang dibeli adalah kalung kerang.",
+          "Fajar mengambil banyak foto (took), tetapi foto bukan yang dibeli. Kamera dan topi tidak disebut sebagai pembelian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Fajar mengambil foto dengan took, tetapi kamera tidak disebut dibeli." },
+          { "optionId": "B", "reasonId": "Topi tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Buku tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I bought a small shell necklace for my mother."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "How did Fajar get to the beach and come back?",
+        "options": [
+          { "id": "A", "text": "by car" },
+          { "id": "B", "text": "by bike" },
+          { "id": "C", "text": "by bus and by train" },
+          { "id": "D", "text": "on foot" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Fajar berkata 'We got there by bus, and then we came back by train'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mobil tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Sepeda tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Berjalan kaki tidak disebut dalam percakapan." }
+        ],
+        "evidence": "We got there by bus, and then we came back by train."
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement is best supported by the conversation?",
+        "options": [
+          { "id": "A", "text": "Fajar saw dolphins but did not take any photos." },
+          { "id": "B", "text": "Fajar made two new friends, and one of them ran to the water first." },
+          { "id": "C", "text": "Dina went to the beach with Fajar." },
+          { "id": "D", "text": "Dina bought a necklace at the museum." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Fajar berkata 'I made two new friends. One of them ran to the water first!', artinya ia mendapat dua teman baru dan salah satunya berlari ke air lebih dulu.",
+        "stepByStep": [
+          "Cari made dan ran di naskah. Made adalah lampau dari make, ran adalah lampau dari run.",
+          "Kalimat yang relevan: 'Yes, I made two new friends. One of them ran to the water first!'",
+          "Pilihan A salah karena Fajar mengambil foto (took a lot of photos). Pilihan C salah karena Dina tidak ke pantai. Pilihan D salah karena kalung dibeli Fajar, bukan Dina."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Fajar justru berkata 'I took a lot of photos', jadi pilihan ini bertentangan dengan naskah." },
+          { "optionId": "C", "reasonId": "Dina pergi ke museum, bukan ke pantai bersama Fajar." },
+          { "optionId": "D", "reasonId": "Kalung kerang dibeli Fajar untuk ibunya, bukan Dina di museum." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam cerita lampau, kata kerja tidak beraturan menunjukkan siapa melakukan apa. Cocokkan subjek dengan kata kerja yang tepat.",
+          "examples": [
+            { "en": "My brother made a cake, and I ate it.", "id": "Kakak saya membuat kue, dan saya memakannya." },
+            { "en": "She ran fast, and she won the race.", "id": "Dia berlari cepat, dan dia memenangkan lomba." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena menyebut melihat lumba-lumba, tetapi bagian 'did not take any photos' bertentangan dengan 'I took a lot of photos'.",
+        "evidence": "I made two new friends."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Yesterday I ___ to the market with my mother.",
+        "options": [
+          { "id": "A", "text": "go" },
+          { "id": "B", "text": "went" },
+          { "id": "C", "text": "goes" },
+          { "id": "D", "text": "going" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Yesterday menandakan masa lalu. Bentuk lampau dari go adalah went.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Go adalah bentuk dasar atau sekarang, tidak cocok dengan yesterday." },
+          { "optionId": "C", "reasonId": "Goes adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "D", "reasonId": "Going adalah bentuk -ing, tidak cocok sebagai kata kerja utama di masa lalu." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She ___ a cake for her birthday.",
+        "options": [
+          { "id": "A", "text": "makes" },
+          { "id": "B", "text": "make" },
+          { "id": "C", "text": "made" },
+          { "id": "D", "text": "making" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Untuk peristiwa di masa lalu, bentuk lampau dari make adalah made.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Makes adalah bentuk sekarang untuk he, she, it." },
+          { "optionId": "B", "reasonId": "Make adalah bentuk dasar, tidak cocok untuk masa lalu." },
+          { "optionId": "D", "reasonId": "Making adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "We ___ breakfast at seven this morning.",
+        "options": [
+          { "id": "A", "text": "ate" },
+          { "id": "B", "text": "eat" },
+          { "id": "C", "text": "eaten" },
+          { "id": "D", "text": "eats" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "This morning menandakan masa lalu. Bentuk lampau dari eat adalah ate.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Eat adalah bentuk sekarang atau dasar, tidak cocok dengan masa lalu." },
+          { "optionId": "C", "reasonId": "Eaten adalah bentuk partisipel. Tanpa have atau be, tidak dipakai di sini." },
+          { "optionId": "D", "reasonId": "Eats untuk he, she, it dan bentuk sekarang." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He goed to school." },
+          { "id": "B", "text": "He went to school." },
+          { "id": "C", "text": "He go to school yesterday." },
+          { "id": "D", "text": "He gone to school yesterday." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Bentuk lampau dari go adalah went. Kalimat ini punya penanda masa lalu implisit, jadi memakai went.",
+        "stepByStep": [
+          "Go adalah kata kerja tidak beraturan. Bentuk lampaunya went, bukan goed.",
+          "Kalimat sederhana ini menceritakan kejadian yang sudah terjadi, jadi memakai bentuk lampau.",
+          "Pilihan C memakai go di masa lalu, dan D memakai gone tanpa have atau been."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Goed adalah bentuk yang tidak benar. Bentuk lampau go adalah went." },
+          { "optionId": "C", "reasonId": "Go tidak cocok dengan yesterday. Gunakan went." },
+          { "optionId": "D", "reasonId": "Gone membutuhkan have atau has. Kalimat ini hanya memakai kata kerja lampau." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Did you ___ the bus this morning?",
+        "options": [
+          { "id": "A", "text": "take" },
+          { "id": "B", "text": "took" },
+          { "id": "C", "text": "taken" },
+          { "id": "D", "text": "taking" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Setelah did, kata kerja kembali ke bentuk dasar: take.",
+        "stepByStep": [
+          "Pertanyaan memakai did, sehingga kata kerja utama harus bentuk dasar.",
+          "Bentuk dasar dari took adalah take.",
+          "Took dan taken tidak cocok setelah did. Taking juga tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Took setelah did salah. Kata kerja harus bentuk dasar." },
+          { "optionId": "C", "reasonId": "Taken adalah partisipel, tidak dipakai setelah did." },
+          { "optionId": "D", "reasonId": "Taking adalah bentuk -ing, tidak cocok setelah did." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya pergi ke pasar kemarin.",
+        "hint": "Pergi: go, bentuk lampaunya went.",
+        "acceptedAnswers": ["I went to the market yesterday.", "I went to the market yesterday"],
+        "modelAnswer": "I went to the market yesterday.",
+        "commonErrors": [{ "pattern": "I goed to the market", "feedbackId": "Go adalah kata kerja tidak beraturan: went." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia minum jus jeruk tadi pagi.",
+        "hint": "Minum: drink, bentuk lampaunya drank. Tadi pagi: this morning.",
+        "acceptedAnswers": ["She drank orange juice this morning.", "She drank orange juice in the morning."],
+        "modelAnswer": "She drank orange juice this morning.",
+        "commonErrors": [{ "pattern": "She drinked orange juice", "feedbackId": "Drink menjadi drank, tidak diberi -ed." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami melihat pelangi setelah hujan.",
+        "hint": "Melihat: see, bentuk lampaunya saw. Pelangi: a rainbow atau the rainbow.",
+        "acceptedAnswers": ["We saw a rainbow after the rain.", "We saw the rainbow after the rain."],
+        "modelAnswer": "We saw a rainbow after the rain.",
+        "commonErrors": [{ "pattern": "We seed a rainbow", "feedbackId": "See menjadi saw. Bentuknya tidak mengikuti -ed." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Mereka membeli tiket di stasiun.",
+        "hint": "Membeli: buy, bentuk lampaunya bought. Di stasiun: at the station.",
+        "acceptedAnswers": ["They bought tickets at the station.", "They bought the tickets at the station."],
+        "modelAnswer": "They bought tickets at the station.",
+        "commonErrors": [{ "pattern": "They buyed tickets", "feedbackId": "Buy menjadi bought, bukan buyed." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Ibu saya membuat kue dan membawanya ke rumah nenek, tetapi dia lupa membawa pisau.",
+        "hint": "Membuat: make, bentuk lampaunya made. Membawa: take, bentuk lampaunya took. Lupa: forgot.",
+        "acceptedAnswers": [
+          "My mother made a cake and took it to my grandmother's house, but she forgot to bring a knife.",
+          "My mother made a cake and took it to my grandmother's house but she forgot to bring a knife."
+        ],
+        "modelAnswer": "My mother made a cake and took it to my grandmother's house, but she forgot to bring a knife.",
+        "commonErrors": [
+          { "pattern": "My mother make a cake", "feedbackId": "Peristiwa lampau memakai made." },
+          { "pattern": "she forget to bring", "feedbackId": "Forget menjadi forgot dalam bentuk lampau." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Yesterday the children ___ their lunch in the garden.",
+        "options": [
+          { "id": "A", "text": "eat" },
+          { "id": "B", "text": "ate" },
+          { "id": "C", "text": "eated" },
+          { "id": "D", "text": "eaten" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Yesterday menandakan masa lalu. Bentuk lampau dari eat adalah ate.",
+        "stepByStep": [
+          "Penanda yesterday menunjukkan masa lalu.",
+          "Eat adalah kata kerja tidak beraturan, lampaunya ate.",
+          "Eated tidak benar. Eaten adalah partisipel, tanpa have atau be tidak dipakai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Eat adalah bentuk dasar atau sekarang, tidak cocok dengan yesterday." },
+          { "optionId": "C", "reasonId": "Eated salah ejaan. Bentuk lampau eat adalah ate." },
+          { "optionId": "D", "reasonId": "Eaten adalah partisipel dan harus didahului have atau has." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Bentuk lampau eat adalah ate. Eaten dipakai dengan have atau has dalam kalimat perfect, yang akan dipelajari minggu 3.",
+          "examples": [
+            { "en": "We ate pizza last night.", "id": "Kami makan pizza tadi malam." },
+            { "en": "The children ate their lunch quickly.", "id": "Anak-anak itu makan siang mereka dengan cepat." }
+          ]
+        },
+        "examTrap": "Pilihan D (eaten) terlihat seperti bentuk lampau yang benar, tetapi partisipel tidak dipakai langsung setelah subjek di simple past."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I didn't saw the movie." },
+          { "id": "B", "text": "I didn't see the movie." },
+          { "id": "C", "text": "I did not sees the movie." },
+          { "id": "D", "text": "I not saw the movie." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah didn't, kata kerja kembali ke bentuk dasar: see.",
+        "stepByStep": [
+          "Didn't menandakan negatif lampau. Kata kerja utama harus bentuk dasar.",
+          "Bentuk dasar dari saw adalah see.",
+          "Pilihan A memakai saw setelah didn't. Pilihan C memakai sees. Pilihan D tidak punya did."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Saw setelah didn't salah. Gunakan bentuk dasar see." },
+          { "optionId": "C", "reasonId": "Sees memakai -s dan tidak boleh dipakai setelah did." },
+          { "optionId": "D", "reasonId": "Negatif lampau memerlukan did not atau didn't." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Negatif dan pertanyaan lampau dengan did selalu memakai bentuk dasar, termasuk untuk kata kerja tidak beraturan.",
+          "examples": [
+            { "en": "They didn't see the sunset.", "id": "Mereka tidak melihat matahari terbenam." },
+            { "en": "Did she take the train?", "id": "Apakah dia naik kereta?" }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat lengkap karena ada didn't dan saw, dua penanda yang biasa berdampingan. Tetapi didn't sudah membawa penanda lampau."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "We ___ the bus at the station, and then we ___ to the park.",
+        "options": [
+          { "id": "A", "text": "took / went" },
+          { "id": "B", "text": "take / went" },
+          { "id": "C", "text": "took / go" },
+          { "id": "D", "text": "taken / went" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kedua kejadian sudah lewat, sehingga took (lampau dari take) dan went (lampau dari go).",
+        "stepByStep": [
+          "Kedua kalimat menceritakan kejadian lampau, sehingga memakai bentuk lampau.",
+          "Take menjadi took, dan go menjadi went.",
+          "Pilihan B tetap memakai bentuk dasar take. Pilihan C memakai go yang belum lampau. Pilihan D memakai taken yang partisipel."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Take bentuk dasar, tidak cocok dengan kejadian lampau." },
+          { "optionId": "C", "reasonId": "Go adalah bentuk dasar. Kedua kejadian sudah lewat, jadi went." },
+          { "optionId": "D", "reasonId": "Taken adalah partisipel, tidak dipakai langsung setelah subjek di simple past." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam cerita lampau, setiap kata kerja memakai bentuk lampau, termasuk dalam klausa kedua.",
+          "examples": [
+            { "en": "I took the bus, and I went home.", "id": "Saya naik bus, lalu saya pulang." },
+            { "en": "She made tea and drank it quickly.", "id": "Dia membuat teh dan meminumnya dengan cepat." }
+          ]
+        },
+        "examTrap": "Klausa kedua mudah terlewat. Pilihan B terlihat benar di klausa pertama, tetapi bentuk dasar take tidak cocok untuk masa lalu."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Right now, she ___ a letter, but yesterday she ___ a photo.",
+        "options": [
+          { "id": "A", "text": "is writing / took" },
+          { "id": "B", "text": "writes / took" },
+          { "id": "C", "text": "is writing / takes" },
+          { "id": "D", "text": "wrote / is taking" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Right now memakai present continuous: is writing. Yesterday memakai bentuk lampau: took.",
+        "stepByStep": [
+          "Right now menunjukkan aksi sekarang, sehingga is writing.",
+          "Yesterday menunjukkan masa lalu, sehingga took.",
+          "Pilihan B dan C memakai bentuk sederhana yang tidak cocok dengan right now atau yesterday. Pilihan D membalik waktu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Writes adalah bentuk sederhana. Right now menuntut present continuous." },
+          { "optionId": "C", "reasonId": "Takes adalah bentuk sekarang. Yesterday menuntut bentuk lampau." },
+          { "optionId": "D", "reasonId": "Wrote tidak cocok dengan right now, dan is taking tidak cocok dengan yesterday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Right now menuntut present continuous. Yesterday menuntut simple past.",
+          "examples": [
+            { "en": "I am cooking right now.", "id": "Saya sedang memasak sekarang." },
+            { "en": "I cooked dinner yesterday.", "id": "Saya memasak makan malam kemarin." }
+          ]
+        },
+        "examTrap": "Pilihan D memakai wrote, bentuk lampau yang benar, tetapi tidak cocok dengan right now. Cek setiap penanda waktu."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She ran fastly." },
+          { "id": "B", "text": "She ran fast." },
+          { "id": "C", "text": "She runned fast." },
+          { "id": "D", "text": "She run fast." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Bentuk lampau run adalah ran, dan fast adalah kata sifat yang juga berfungsi sebagai kata keterangan.",
+        "stepByStep": [
+          "Kata kerja run menjadi ran, bentuk tidak beraturan.",
+          "Fast sudah berfungsi sebagai kata keterangan tanpa -ly. Fastly tidak ada.",
+          "Pilihan C memakai runned yang salah. Pilihan D memakai bentuk dasar untuk masa lalu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Fastly tidak ada. Fast sudah menjadi kata keterangan." },
+          { "optionId": "C", "reasonId": "Runned salah. Bentuk lampau run adalah ran." },
+          { "optionId": "D", "reasonId": "Run adalah bentuk dasar. Kalimat ini menceritakan kejadian lampau, sehingga ran." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata fast, hard, dan early dipakai sebagai kata sifat maupun kata keterangan, tanpa -ly.",
+          "examples": [
+            { "en": "He works hard.", "id": "Dia bekerja keras." },
+            { "en": "She woke up early.", "id": "Dia bangun pagi-pagi." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kata keterangan yang benar dengan akhiran -ly. Padahal fast tidak berubah, dan fastly tidak ada."
+      }
+    ]
+  }
+}

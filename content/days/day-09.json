@@ -1,0 +1,558 @@
+{
+  "day": 9,
+  "week": 2,
+  "month": 1,
+  "title": "Preposisi Waktu & Tempat",
+  "topic": "Preposisi in, on, at untuk waktu dan tempat, serta preposisi posisi seperti under, between, next to, behind, near, above, dan inside",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memilih in, on, atau at untuk waktu dan tempat dengan benar",
+    "Menggunakan preposisi posisi untuk menunjukkan letak benda",
+    "Membaca deskripsi ruangan dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "in", "pronunciationId": "IN (i pendek, n di akhir jelas)", "pos": "Prep", "meaningId": "di dalam; pada (bulan, tahun, waktu sore)", "example": "The book is in the bag.", "exampleId": "Buku itu ada di dalam tas." },
+      { "no": 2, "en": "on", "pronunciationId": "ON (o pendek, n di akhir jelas)", "pos": "Prep", "meaningId": "di atas; pada (hari)", "example": "The phone is on the desk.", "exampleId": "Ponsel itu ada di atas meja." },
+      { "no": 3, "en": "at", "pronunciationId": "AT (a pendek seperti 'at' di 'atas')", "pos": "Prep", "meaningId": "di; pada (jam, lokasi tertentu)", "example": "I wake up at six.", "exampleId": "Saya bangun pada jam enam." },
+      { "no": 4, "en": "under", "pronunciationId": "AN-der (a pendek, r ringan di akhir)", "pos": "Prep", "meaningId": "di bawah", "example": "The cat is under the table.", "exampleId": "Kucing itu ada di bawah meja." },
+      { "no": 5, "en": "between", "pronunciationId": "bi-TWEEN (tw seperti 'tw' di 'twin')", "pos": "Prep", "meaningId": "di antara (dua hal)", "example": "The shop is between the school and the bank.", "exampleId": "Toko itu ada di antara sekolah dan bank." },
+      { "no": 6, "en": "next to", "pronunciationId": "NEKST tu (t di akhir next lembut, to seperti 'tu')", "pos": "Prep", "meaningId": "di samping", "example": "She sits next to me.", "exampleId": "Dia duduk di samping saya." },
+      { "no": 7, "en": "behind", "pronunciationId": "bi-HAIND (h ringan, ai panjang)", "pos": "Prep", "meaningId": "di belakang", "example": "The bag is behind the door.", "exampleId": "Tas itu ada di belakang pintu." },
+      { "no": 8, "en": "near", "pronunciationId": "NIR (i panjang, r ringan di akhir)", "pos": "Prep", "meaningId": "dekat", "example": "The bus stop is near my house.", "exampleId": "Halte bus dekat rumah saya." },
+      { "no": 9, "en": "above", "pronunciationId": "a-BUV (a lemah, v terdengar jelas)", "pos": "Prep", "meaningId": "di atas (tidak menyentuh)", "example": "The lamp is above the table.", "exampleId": "Lampu itu ada di atas meja." },
+      { "no": 10, "en": "inside", "pronunciationId": "in-SAID (i pendek lalu ai panjang)", "pos": "Prep", "meaningId": "di dalam (sebuah ruang atau wadah)", "example": "Keep the keys inside the box.", "exampleId": "Simpan kunci di dalam kotak." }
+    ],
+    "tip": "Untuk membedakan in, on, dan at, bayangkan kotak. In berarti di dalam kotak, on berarti di atas permukaan, dan at berarti di satu titik tertentu. Untuk waktu, pakai at untuk jam, on untuk hari, dan in untuk bulan atau tahun."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["prepositions of time and place English", "in on at explained"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang preposisi waktu dan tempat, dengan contoh gambar ruangan dan kalender.",
+      "watchFor": [
+        "Perbedaan in, on, at untuk waktu: at six, on Monday, in June",
+        "Perbedaan in, on, at untuk tempat: in the box, on the table, at the station",
+        "Posisi under, behind, above, dan between dalam gambar"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamar tidurmu. Setiap benda punya tempatnya: di bawah ranjang, di belakang pintu, di atas meja. Preposisi adalah kata kecil yang menunjukkan di mana sesuatu berada, dan kapan sesuatu terjadi. Pilihan kata yang tepat membuat deskripsimu jelas.",
+      "sections": [
+        {
+          "heading": "Waktu: at, on, in",
+          "bodyMd": "Pakai **at** untuk jam dan waktu tertentu: **at six**, **at night**, **at noon**. Pakai **on** untuk hari dan tanggal: **on Monday**, **on 5 May**. Pakai **in** untuk bulan, tahun, dan bagian hari seperti pagi, sore, malam: **in June**, **in 2026**, **in the morning**. Pengecualian: **at night** dipakai untuk malam, tetapi **in the morning** dan **in the evening** dipakai untuk pagi dan sore."
+        },
+        {
+          "heading": "Tempat: at, on, in",
+          "bodyMd": "Pakai **in** untuk sesuatu yang berada di dalam ruang atau wadah: **in the room**, **in the box**. Pakai **on** untuk permukaan: **on the table**, **on the wall**. Pakai **at** untuk titik tertentu atau tempat aktivitas: **at the station**, **at school**, **at home**."
+        },
+        {
+          "heading": "Posisi benda",
+          "bodyMd": "**Under** berarti di bawah. **Above** berarti di atas tanpa menyentuh. **Between** dipakai untuk dua benda atau lebih dengan **and**. **Next to** berarti di samping. **Behind** berarti di belakang. **Near** berarti dekat, dan **inside** berarti di dalam sebuah ruang atau wadah."
+        }
+      ],
+      "formulas": [
+        { "label": "Waktu", "pattern": "at + jam / on + hari / in + bulan, tahun, atau bagian hari" },
+        { "label": "Tempat", "pattern": "in + ruang atau wadah / on + permukaan / at + titik tertentu" },
+        { "label": "Posisi", "pattern": "subjek + to be + under / above / behind / next to / near / inside + kata benda" },
+        { "label": "Di antara", "pattern": "between + benda A + and + benda B" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The class starts at eight.", "id": "Kelas dimulai pukul delapan." },
+          { "en": "We have a test on Friday.", "id": "Kami ada ujian pada hari Jumat." },
+          { "en": "The keys are in my bag.", "id": "Kuncinya ada di dalam tas saya." },
+          { "en": "The cat is under the bed.", "id": "Kucingnya ada di bawah ranjang." },
+          { "en": "The lamp is above the desk.", "id": "Lampunya ada di atas meja belajar." }
+        ],
+        "negative": [
+          { "en": "The bus does not stop at night.", "id": "Bus itu tidak berhenti pada malam hari." },
+          { "en": "My book is not on the shelf.", "id": "Buku saya tidak ada di rak." },
+          { "en": "The shop is not near the station.", "id": "Toko itu tidak dekat stasiun." },
+          { "en": "He is not inside the house.", "id": "Dia tidak berada di dalam rumah." },
+          { "en": "The dog is not behind the door.", "id": "Anjing itu tidak ada di belakang pintu." }
+        ],
+        "question": [
+          { "en": "What time does the class start?", "id": "Pukul berapa kelas dimulai?" },
+          { "en": "Is your phone on the table?", "id": "Apakah ponselmu ada di atas meja?" },
+          { "en": "Where is the library?", "id": "Di mana perpustakaannya?" },
+          { "en": "Are you at home in the evening?", "id": "Apakah kamu di rumah pada sore hari?" },
+          { "en": "Is the cat under the chair?", "id": "Apakah kucing itu ada di bawah kursi?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The class starts in eight.", "right": "The class starts at eight.", "whyId": "Untuk jam tertentu, pakai at." },
+        { "wrong": "I have a test in Friday.", "right": "I have a test on Friday.", "whyId": "Untuk hari, pakai on." },
+        { "wrong": "The keys are on my bag.", "right": "The keys are in my bag.", "whyId": "Benda di dalam tas memakai in." },
+        { "wrong": "She lives at Jakarta.", "right": "She lives in Jakarta.", "whyId": "Untuk kota dan wilayah yang luas, pakai in." },
+        { "wrong": "He is sitting beside me, between his friend.", "right": "He is sitting between me and his friend.", "whyId": "Between membutuhkan dua benda atau orang dengan and." },
+        { "wrong": "The lamp is under the desk above.", "right": "The lamp is above the desk.", "whyId": "Above dan under tidak dipakai bersama untuk posisi yang sama." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Kamar Sari",
+    "text": "Sari's room is small but cozy. Her desk is near the window, and her laptop is on the desk. The lamp is above the desk, and her bag is under the chair. Her bed is next to the wall. Between the bed and the bookshelf there is a soft rug. Her cat sleeps behind the door every afternoon. Sari studies in the room at night. Her class starts at eight in the morning, so she goes to bed at ten. Her roommate's room is across the hall, but their bathroom is inside the same apartment.",
+    "glossary": [
+      { "en": "cozy", "id": "nyaman dan hangat" },
+      { "en": "rug", "id": "karpet kecil" },
+      { "en": "bookshelf", "id": "rak buku" },
+      { "en": "across", "id": "di seberang" },
+      { "en": "roommate", "id": "teman sekamar" },
+      { "en": "apartment", "id": "apartemen" },
+      { "en": "bathroom", "id": "kamar mandi" },
+      { "en": "lamp", "id": "lampu meja" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Where is Sari's laptop?",
+        "options": [
+          { "id": "A", "text": "under the chair" },
+          { "id": "B", "text": "on the desk" },
+          { "id": "C", "text": "behind the door" },
+          { "id": "D", "text": "inside the bag" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'her laptop is on the desk', artinya laptopnya ada di atas meja.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Di bawah kursi adalah tempat tas Sari, bukan laptopnya." },
+          { "optionId": "C", "reasonId": "Kucingnya tidur di belakang pintu, bukan laptop." },
+          { "optionId": "D", "reasonId": "Tas tidak disebut berisi laptop dalam teks." }
+        ],
+        "evidence": "her laptop is on the desk"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Where does the cat sleep?",
+        "options": [
+          { "id": "A", "text": "behind the door" },
+          { "id": "B", "text": "under the bed" },
+          { "id": "C", "text": "above the lamp" },
+          { "id": "D", "text": "next to the window" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Her cat sleeps behind the door every afternoon'.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Ranjang disebut sebagai tempat dinding, bukan tempat kucing tidur." },
+          { "optionId": "C", "reasonId": "Lampu ada di atas meja, bukan tempat kucing." },
+          { "optionId": "D", "reasonId": "Meja dekat jendela. Kucing tidak disebut tidur di sana." }
+        ],
+        "evidence": "Her cat sleeps behind the door every afternoon."
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What time does Sari's class start?",
+        "options": [
+          { "id": "A", "text": "at ten" },
+          { "id": "B", "text": "at night" },
+          { "id": "C", "text": "at eight in the morning" },
+          { "id": "D", "text": "on Monday" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Her class starts at eight in the morning'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pukul sepuluh adalah waktu Sari tidur, bukan waktu kelas dimulai." },
+          { "optionId": "B", "reasonId": "Sari belajar di malam hari, tetapi kelas tidak dimulai malam." },
+          { "optionId": "D", "reasonId": "Hari tidak disebut dalam teks." }
+        ],
+        "evidence": "Her class starts at eight in the morning"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What is between the bed and the bookshelf?",
+        "options": [
+          { "id": "A", "text": "the lamp" },
+          { "id": "B", "text": "a soft rug" },
+          { "id": "C", "text": "the cat" },
+          { "id": "D", "text": "Sari's bag" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Between the bed and the bookshelf there is a soft rug', artinya karpet lembut berada di antara ranjang dan rak buku.",
+        "stepByStep": [
+          "Cari kata between di teks. Kalimatnya: 'Between the bed and the bookshelf there is a soft rug.'",
+          "Between dipakai untuk dua benda, yaitu the bed dan the bookshelf. Benda yang di antara keduanya adalah a soft rug.",
+          "Lampu ada di atas meja, kucing tidur di belakang pintu, dan tas ada di bawah kursi. Tidak ada yang disebut di antara ranjang dan rak buku."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Lampu berada di atas meja, bukan di antara ranjang dan rak buku." },
+          { "optionId": "C", "reasonId": "Kucing tidur di belakang pintu, bukan di antara ranjang dan rak buku." },
+          { "optionId": "D", "reasonId": "Tas Sari berada di bawah kursi, tidak di antara ranjang dan rak buku." }
+        ],
+        "evidence": "Between the bed and the bookshelf there is a soft rug."
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "If Sari is sitting at her desk, where can she find her bag?",
+        "options": [
+          { "id": "A", "text": "on the desk" },
+          { "id": "B", "text": "inside the wardrobe" },
+          { "id": "C", "text": "behind the door" },
+          { "id": "D", "text": "under the chair" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menulis 'her bag is under the chair'. Karena Sari duduk di meja, kursinya ada di dekat, dan tasnya ada di bawah kursi itu.",
+        "stepByStep": [
+          "Cari kata bag di teks. Kalimatnya: 'her bag is under the chair.'",
+          "Sari duduk di meja. Kursi tempat ia duduk ada di dekat meja, jadi tas di bawah kursi itu juga dekat.",
+          "Laptop ada di atas meja, bukan tas. Lemari dan pintu tidak disebut sebagai tempat tas."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Di atas meja adalah tempat laptop, bukan tas." },
+          { "optionId": "B", "reasonId": "Lemari tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Kucing tidur di belakang pintu. Tas tidak disebut di sana." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Under dan next to sering dipakai bersama untuk menjelaskan benda yang dekat dengan satu titik. Jawaban yang tepat selalu harus kembali ke kalimat asli.",
+          "examples": [
+            { "en": "The shoes are under the bed.", "id": "Sepatunya ada di bawah ranjang." },
+            { "en": "She sits next to the window.", "id": "Dia duduk di samping jendela." }
+          ]
+        },
+        "examTrap": "Pilihan A (on the desk) terasa benar karena Sari duduk di meja. Tetapi teks menyebut bag, bukan laptop, berada di bawah kursi.",
+        "evidence": "her bag is under the chair"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The meeting is ___ Monday morning.",
+        "options": [
+          { "id": "A", "text": "on" },
+          { "id": "B", "text": "in" },
+          { "id": "C", "text": "at" },
+          { "id": "D", "text": "under" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Hari dalam minggu memakai on: on Monday. Morning di sini menjadi bagian dari hari itu.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "In dipakai untuk bulan, tahun, atau bagian hari seperti in the morning, bukan untuk hari." },
+          { "optionId": "C", "reasonId": "At dipakai untuk jam tertentu, bukan untuk hari." },
+          { "optionId": "D", "reasonId": "Under berarti di bawah, dan tidak cocok untuk waktu." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "We will wait for you ___ the station.",
+        "options": [
+          { "id": "A", "text": "in" },
+          { "id": "B", "text": "on" },
+          { "id": "C", "text": "at" },
+          { "id": "D", "text": "between" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Stasiun adalah titik tertentu, jadi memakai at: at the station.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "In dipakai untuk ruang atau wadah. Stasiun di sini dianggap titik." },
+          { "optionId": "B", "reasonId": "On dipakai untuk permukaan, bukan lokasi titik seperti stasiun." },
+          { "optionId": "D", "reasonId": "Between membutuhkan dua benda dengan and." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The cat is hiding ___ the table.",
+        "options": [
+          { "id": "A", "text": "above" },
+          { "id": "B", "text": "under" },
+          { "id": "C", "text": "between" },
+          { "id": "D", "text": "inside" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Kucing bersembunyi di bawah meja, jadi under.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Above berarti di atas, dan kucing tidak berada di atas meja." },
+          { "optionId": "C", "reasonId": "Between membutuhkan dua benda atau lebih." },
+          { "optionId": "D", "reasonId": "Inside berarti di dalam ruang atau wadah. Meja tidak berongga untuk kucing." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I will meet you at the morning." },
+          { "id": "B", "text": "I will meet you in the morning." },
+          { "id": "C", "text": "I will meet you on the morning." },
+          { "id": "D", "text": "I will meet you at morning." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Untuk bagian hari seperti pagi, sore, dan malam, gunakan in the morning.",
+        "stepByStep": [
+          "Cek kata 'morning', yaitu bagian dari hari.",
+          "Untuk bagian hari, pola yang dipakai adalah in the morning.",
+          "At the morning dan on the morning salah. At morning tanpa the juga salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "At dipakai untuk jam tertentu, bukan bagian hari. Morning memakai in." },
+          { "optionId": "C", "reasonId": "On dipakai untuk hari dan tanggal, bukan bagian hari." },
+          { "optionId": "D", "reasonId": "Morning biasanya memakai the: in the morning." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The bank is ___ the post office and the school.",
+        "options": [
+          { "id": "A", "text": "behind" },
+          { "id": "B", "text": "among" },
+          { "id": "C", "text": "between" },
+          { "id": "D", "text": "inside" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Between dipakai untuk dua tempat yang disebut dengan and: between the post office and the school.",
+        "stepByStep": [
+          "Cari pola: and menghubungkan dua tempat.",
+          "Between dipakai ketika ada dua hal yang disebut dengan and.",
+          "Behind berarti di belakang, among untuk banyak benda, dan inside untuk di dalam. Ketiganya tidak cocok dengan dua tempat yang dihubungkan and."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Behind berarti di belakang, dan tidak cocok untuk dua tempat." },
+          { "optionId": "B", "reasonId": "Among dipakai untuk lebih dari dua benda atau kelompok, bukan dua tempat." },
+          { "optionId": "D", "reasonId": "Inside berarti di dalam, dan bank tidak berada di dalam sekolah atau kantor pos." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Buku itu ada di atas meja.",
+        "hint": "Di atas permukaan: on. Meja adalah permukaan.",
+        "acceptedAnswers": ["The book is on the table.", "The book is on the table"],
+        "modelAnswer": "The book is on the table.",
+        "commonErrors": [{ "pattern": "The book is in the table", "feedbackId": "Permukaan meja memakai on, bukan in." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kunci saya ada di dalam tas.",
+        "hint": "Di dalam wadah: in. Kunci adalah jamak, sehingga memakai are atau my key untuk tunggal.",
+        "acceptedAnswers": ["My keys are inside the bag.", "The keys are inside the bag.", "My key is inside the bag."],
+        "modelAnswer": "My keys are inside the bag.",
+        "commonErrors": [{ "pattern": "My keys is in the bag", "feedbackId": "Keys jamak memakai are. Di dalam wadah bisa in atau inside." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami bertemu di depan bioskop pada pukul tujuh.",
+        "hint": "Depan bioskop: in front of the cinema. Pukul tujuh: at seven.",
+        "acceptedAnswers": ["We meet in front of the cinema at seven.", "We meet in front of the cinema at seven o'clock."],
+        "modelAnswer": "We meet in front of the cinema at seven.",
+        "commonErrors": [{ "pattern": "We meet on seven", "feedbackId": "Untuk jam, gunakan at." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kucing itu tidur di bawah kursi, dekat jendela.",
+        "hint": "Di bawah: under. Dekat: near. Kucing adalah the cat.",
+        "acceptedAnswers": ["The cat sleeps under the chair, near the window.", "The cat sleeps under the chair near the window."],
+        "modelAnswer": "The cat sleeps under the chair, near the window.",
+        "commonErrors": [{ "pattern": "The cat sleeps under the window", "feedbackId": "Kursi adalah tempat kucing berada, jendela adalah posisi dekat, bukan di bawah." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Di antara dua pohon besar itu, ada sebuah rumah kecil yang berwarna putih.",
+        "hint": "Di antara dua pohon: between two big trees. Ada sebuah rumah: there is a small house. Berwarna putih: white.",
+        "acceptedAnswers": [
+          "Between the two big trees, there is a small white house.",
+          "Between the two big trees there is a small white house."
+        ],
+        "modelAnswer": "Between the two big trees, there is a small white house.",
+        "commonErrors": [
+          { "pattern": "In the two big trees", "feedbackId": "Untuk dua benda, gunakan between." },
+          { "pattern": "there are a small house", "feedbackId": "Rumah tunggal memakai there is." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "The train arrives ___ 6:30 ___ Monday.",
+        "options": [
+          { "id": "A", "text": "at / in" },
+          { "id": "B", "text": "in / on" },
+          { "id": "C", "text": "at / on" },
+          { "id": "D", "text": "on / at" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Jam 6:30 memakai at, dan hari Monday memakai on.",
+        "stepByStep": [
+          "Cek bagian pertama: 6:30 adalah jam tertentu, jadi at.",
+          "Cek bagian kedua: Monday adalah hari, jadi on.",
+          "In dipakai untuk bulan, tahun, dan bagian hari. Pilihan A dan D membalik pola yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "In tidak dipakai untuk jam atau hari tertentu seperti Monday." },
+          { "optionId": "B", "reasonId": "In salah untuk jam 6:30, dan in salah untuk hari Monday." },
+          { "optionId": "D", "reasonId": "On salah untuk jam, dan at salah untuk hari." }
+        ],
+        "ruleAndExamples": {
+          "rule": "At untuk jam, on untuk hari dan tanggal, dan in untuk bulan, tahun, serta bagian hari.",
+          "examples": [
+            { "en": "The shop opens at nine on Sunday.", "id": "Toko itu buka pukul sembilan pada hari Minggu." },
+            { "en": "We celebrate it in December.", "id": "Kami merayakannya pada bulan Desember." }
+          ]
+        },
+        "examTrap": "Pilihan D (on / at) memakai pola kebalikan. Hafalkan urutan at untuk jam dan on untuk hari."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I live in the fifth floor." },
+          { "id": "B", "text": "I live on the fifth floor." },
+          { "id": "C", "text": "I live at the fifth floor." },
+          { "id": "D", "text": "I live in fifth floor." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Untuk lantai, bahasa Inggris memakai on the fifth floor.",
+        "stepByStep": [
+          "Cari pola untuk lantai dalam gedung: on the + nomor lantai + floor.",
+          "Pilihan A dan D memakai in, yang tidak cocok untuk lantai.",
+          "Pilihan C memakai at, yang biasanya untuk titik atau alamat, bukan lantai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "In tidak dipakai untuk lantai. Gunakan on the fifth floor." },
+          { "optionId": "C", "reasonId": "At dipakai untuk titik atau alamat, bukan lantai." },
+          { "optionId": "D", "reasonId": "Kalimat ini kehilangan the sebelum fifth, dan tetap memakai in yang salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk lantai gedung, gunakan on the + nomor + floor.",
+          "examples": [
+            { "en": "The office is on the third floor.", "id": "Kantornya ada di lantai tiga." },
+            { "en": "Our class is on the first floor.", "id": "Kelas kami ada di lantai satu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena in sering dipakai untuk tempat. Tetapi lantai adalah permukaan lantai, sehingga on."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Right now, Ana ___ on the sofa, and her brother ___ behind the door.",
+        "options": [
+          { "id": "A", "text": "is sitting / is hiding" },
+          { "id": "B", "text": "sits / hides" },
+          { "id": "C", "text": "are sitting / hide" },
+          { "id": "D", "text": "is sit / is hiding" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Right now menunjukkan aksi sekarang, sehingga present continuous: is sitting dan is hiding untuk subjek tunggal.",
+        "stepByStep": [
+          "Right now menandakan present continuous.",
+          "Ana dan brother adalah subjek tunggal, sehingga memakai is.",
+          "Sit menjadi sitting, dan hide kehilangan e menjadi hiding. Pilihan B dan C memakai bentuk sederhana atau jamak yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bentuk sederhana tidak menyatakan aksi sekarang, dan right now menunjukkan aksi sekarang." },
+          { "optionId": "C", "reasonId": "Are untuk subjek jamak. Ana dan brother adalah tunggal." },
+          { "optionId": "D", "reasonId": "Sit tanpa -ting salah. Bentuknya harus sitting." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Right now menandakan present continuous. Untuk subjek tunggal memakai is dan kata kerja -ing.",
+          "examples": [
+            { "en": "He is reading in the garden right now.", "id": "Dia sedang membaca di taman sekarang." },
+            { "en": "The cat is hiding under the bed.", "id": "Kucing itu sedang bersembunyi di bawah ranjang." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti pilihan A, tetapi sit tanpa -ting sudah salah. Perhatikan ejaan -ing."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The cat is ___ the box, and the dog is ___ the sofa.",
+        "options": [
+          { "id": "A", "text": "under / in" },
+          { "id": "B", "text": "in / on" },
+          { "id": "C", "text": "on / under" },
+          { "id": "D", "text": "in / under" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kucing berada di dalam kotak, jadi in. Anjing berada di permukaan sofa, jadi on.",
+        "stepByStep": [
+          "Cari tempat kucing: the box. Kotak adalah wadah, jadi in.",
+          "Cari tempat anjing: the sofa. Sofa adalah permukaan tempat duduk, jadi on.",
+          "Pilihan A dan D memakai under untuk sofa, dan pilihan C membalik pola."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Under berarti di bawah. Kucing ada di dalam kotak, bukan di bawahnya." },
+          { "optionId": "C", "reasonId": "On untuk kotak tidak tepat jika kucing berada di dalamnya. Under untuk sofa tidak sesuai." },
+          { "optionId": "D", "reasonId": "Under untuk anjing di sofa tidak tepat, karena anjing berada di atas sofa." }
+        ],
+        "ruleAndExamples": {
+          "rule": "In untuk ruang atau wadah tertutup seperti kotak. On untuk permukaan seperti sofa atau meja.",
+          "examples": [
+            { "en": "The keys are in the drawer.", "id": "Kuncinya ada di dalam laci." },
+            { "en": "The book is on the sofa.", "id": "Bukunya ada di atas sofa." }
+          ]
+        },
+        "examTrap": "Sofa sering membuat pembelajar memilih in karena terlihat seperti ruang. Tetapi sofa adalah permukaan tempat duduk, sehingga on."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The gift is between the five boxes." },
+          { "id": "B", "text": "The gift is among the five boxes." },
+          { "id": "C", "text": "The gift is at the five boxes." },
+          { "id": "D", "text": "The gift is in between the box." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Between dipakai untuk dua benda. Untuk lebih dari dua benda, pakai among.",
+        "stepByStep": [
+          "Hitung jumlah benda: five boxes lebih dari dua.",
+          "Between dipakai untuk dua benda, sedangkan among untuk tiga atau lebih.",
+          "Pilihan C memakai at, yang tidak cocok untuk posisi di antara. Pilihan D memakai in between yang tidak lazim."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Between dipakai untuk dua benda. Five boxes berarti lebih dari dua." },
+          { "optionId": "C", "reasonId": "At tidak menunjukkan posisi di antara benda-benda." },
+          { "optionId": "D", "reasonId": "In between bukan pola yang tepat, dan box tunggal tidak cocok dengan posisi di antara." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Between untuk dua benda. Among untuk tiga benda atau lebih.",
+          "examples": [
+            { "en": "The park is between the school and the market.", "id": "Taman itu ada di antara sekolah dan pasar." },
+            { "en": "She is among the best students in the class.", "id": "Dia termasuk di antara mahasiswa terbaik di kelas." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena between sering dipakai untuk posisi. Tetapi jumlah benda lebih dari dua, sehingga among."
+      }
+    ]
+  }
+}
