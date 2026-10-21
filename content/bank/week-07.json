@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W07-001",
+    "week": 7,
+    "topicTag": "paralel",
+    "type": "mcq",
+    "prompt": "She enjoys hiking, swimming, and ___.",
+    "options": [
+      { "id": "A", "text": "to cycle" },
+      { "id": "B", "text": "cycle" },
+      { "id": "C", "text": "cycling" },
+      { "id": "D", "text": "cycled" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Hiking dan swimming berbentuk -ing, sehingga item ketiga juga harus cycling agar daftar sejajar.",
+    "stepByStep": [
+      "Dua item pertama, hiking dan swimming, berbentuk -ing.",
+      "Item ketiga harus berbentuk -ing: cycling.",
+      "To cycle berbentuk infinitif, cycle bentuk dasar, dan cycled bentuk lampau, sehingga tidak sejajar."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "To cycle berbentuk infinitif, tidak sejajar dengan dua item -ing." },
+      { "optionId": "B", "reasonId": "Cycle bentuk dasar, tidak sejajar dengan hiking dan swimming." },
+      { "optionId": "D", "reasonId": "Cycled bentuk lampau, tidak sejajar dengan dua item -ing." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Item dalam daftar harus memakai bentuk kata yang sama.",
+      "examples": [
+        { "en": "He likes running, reading, and singing.", "id": "Dia suka berlari, membaca, dan bernyanyi." },
+        { "en": "They enjoy cooking, cleaning, and gardening.", "id": "Mereka menikmati memasak, membersihkan, dan berkebun." }
+      ]
+    },
+    "examTrap": "Pilihan A to cycle terlihat benar secara makna, tetapi bentuk infinitifnya tidak sejajar dengan dua item -ing."
+  },
+  {
+    "id": "W07-002",
+    "week": 7,
+    "topicTag": "paralel",
+    "type": "mcq",
+    "prompt": "The manager asked us to plan the event, to book the hall, and ___ the guests.",
+    "options": [
+      { "id": "A", "text": "invite" },
+      { "id": "B", "text": "inviting" },
+      { "id": "C", "text": "invited" },
+      { "id": "D", "text": "to invite" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Dua item pertama memakai to plan dan to book, sehingga item ketiga juga harus to invite.",
+    "stepByStep": [
+      "Item pertama dan kedua memakai to plan dan to book.",
+      "Agar sejajar, item ketiga harus memakai to invite.",
+      "Invite, inviting, dan invited tidak memakai to di awal seperti dua item sebelumnya."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Invite bentuk dasar, tidak sejajar dengan to plan dan to book." },
+      { "optionId": "B", "reasonId": "Inviting bentuk -ing, tidak sejajar dengan dua infinitif." },
+      { "optionId": "C", "reasonId": "Invited bentuk lampau, tidak sejajar dengan dua infinitif." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Jika dua item pertama berbentuk infinitif dengan to, item berikutnya juga harus berbentuk infinitif.",
+      "examples": [
+        { "en": "She wants to read, to write, and to speak.", "id": "Dia ingin membaca, menulis, dan berbicara." },
+        { "en": "We need to plan, to prepare, and to practice.", "id": "Kami perlu merencanakan, menyiapkan, dan berlatih." }
+      ]
+    },
+    "examTrap": "Pilihan B inviting terlihat cocok karena ada banyak kegiatan, tetapi dua item sebelumnya memakai to, sehingga item ketiga juga harus to invite."
+  },
+  {
+    "id": "W07-003",
+    "week": 7,
+    "topicTag": "paralel",
+    "type": "mcq",
+    "prompt": "The new phone is fast, light, and ___.",
+    "options": [
+      { "id": "A", "text": "durable" },
+      { "id": "B", "text": "it has a long battery" },
+      { "id": "C", "text": "durably" },
+      { "id": "D", "text": "durability" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Fast dan light adalah kata sifat, sehingga item ketiga juga harus kata sifat: durable.",
+    "stepByStep": [
+      "Fast dan light adalah kata sifat.",
+      "Item ketiga harus kata sifat: durable.",
+      "It has a long battery adalah klausa, durably kata keterangan, dan durability kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Klausa it has a long battery tidak sejajar dengan kata sifat." },
+      { "optionId": "C", "reasonId": "Durably adalah kata keterangan, tidak sejajar dengan kata sifat." },
+      { "optionId": "D", "reasonId": "Durability kata benda, tidak sejajar dengan kata sifat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat dalam daftar harus memakai bentuk kata sifat yang sama.",
+      "examples": [
+        { "en": "The bag is light, strong, and cheap.", "id": "Tas itu ringan, kuat, dan murah." },
+        { "en": "She is calm, careful, and patient.", "id": "Dia tenang, teliti, dan sabar." }
+      ]
+    },
+    "examTrap": "Pilihan C durably terlihat mirip dengan durable, tetapi bentuk keterangan tidak sejajar dengan dua kata sifat sebelumnya."
+  },
+  {
+    "id": "W07-004",
+    "week": 7,
+    "topicTag": "paralel",
+    "type": "mcq",
+    "prompt": "Students should read carefully, take notes, and ___ the main idea.",
+    "options": [
+      { "id": "A", "text": "to summarize" },
+      { "id": "B", "text": "summarize" },
+      { "id": "C", "text": "summarizing" },
+      { "id": "D", "text": "summary" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Setelah should, dua kata kerja pertama berbentuk dasar: read dan take, sehingga item ketiga juga summarize.",
+    "stepByStep": [
+      "Setelah should, kata kerja berbentuk dasar: read dan take.",
+      "Item ketiga juga harus berbentuk dasar: summarize.",
+      "To summarize, summarizing, dan summary tidak sejajar dengan read dan take."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "To summarize berbentuk infinitif, tidak sejajar dengan read dan take setelah should." },
+      { "optionId": "C", "reasonId": "Summarizing berbentuk -ing, tidak sejajar dengan kata kerja dasar." },
+      { "optionId": "D", "reasonId": "Summary kata benda, tidak sejajar dengan kata kerja dasar." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah modal seperti should, semua kata kerja dalam daftar memakai bentuk dasar.",
+      "examples": [
+        { "en": "You should listen, speak, and write every day.", "id": "Kamu sebaiknya mendengarkan, berbicara, dan menulis setiap hari." },
+        { "en": "We must check, sign, and send the form.", "id": "Kami harus memeriksa, menandatangani, dan mengirim formulir itu." }
+      ]
+    },
+    "examTrap": "Pilihan A to summarize terlihat cocok karena artinya benar, tetapi setelah should semua kata kerja memakai bentuk dasar."
+  },
+  {
+    "id": "W07-005",
+    "week": 7,
+    "topicTag": "paralel",
+    "type": "mcq",
+    "prompt": "She is smart, hardworking, and ___.",
+    "options": [
+      { "id": "A", "text": "she never gives up" },
+      { "id": "B", "text": "patience" },
+      { "id": "C", "text": "patiently" },
+      { "id": "D", "text": "patient" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Smart dan hardworking adalah kata sifat, sehingga item ketiga juga patient.",
+    "stepByStep": [
+      "Smart dan hardworking adalah kata sifat.",
+      "Item ketiga harus kata sifat: patient.",
+      "She never gives up adalah klausa, patience kata benda, dan patiently kata keterangan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Klausa she never gives up tidak sejajar dengan kata sifat." },
+      { "optionId": "B", "reasonId": "Patience kata benda, tidak sejajar dengan kata sifat." },
+      { "optionId": "C", "reasonId": "Patiently kata keterangan, tidak sejajar dengan kata sifat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Dalam daftar sifat, setiap item harus berupa kata sifat.",
+      "examples": [
+        { "en": "The teacher is kind, clear, and fair.", "id": "Guru itu baik, jelas, dan adil." },
+        { "en": "The room is quiet, bright, and clean.", "id": "Ruangan itu tenang, terang, dan bersih." }
+      ]
+    },
+    "examTrap": "Pilihan B patience terlihat cocok karena berhubungan dengan sifat sabar, tetapi bentuk kata bendanya tidak sejajar dengan smart dan hardworking."
+  },
+  {
+    "id": "W07-006",
+    "week": 7,
+    "topicTag": "paralel",
+    "type": "mcq",
+    "prompt": "Our goal is to improve listening, to build confidence, and ___ grammar.",
+    "options": [
+      { "id": "A", "text": "mastering" },
+      { "id": "B", "text": "mastered" },
+      { "id": "C", "text": "to master" },
+      { "id": "D", "text": "master" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Dua item pertama memakai to improve dan to build, sehingga item ketiga juga to master.",
+    "stepByStep": [
+      "Item pertama dan kedua memakai to improve dan to build.",
+      "Item ketiga harus memakai to master agar sejajar.",
+      "Mastering -ing, mastered bentuk lampau, dan master bentuk dasar tidak sejajar."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Mastering berbentuk -ing, tidak sejajar dengan dua infinitif." },
+      { "optionId": "B", "reasonId": "Mastered bentuk lampau, tidak sejajar dengan dua infinitif." },
+      { "optionId": "D", "reasonId": "Master bentuk dasar, tidak memakai to seperti dua item sebelumnya." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Jika daftar dimulai dengan to + kata kerja, semua item berikutnya juga memakai to.",
+      "examples": [
+        { "en": "Her plan is to save money, to rest, and to travel.", "id": "Rencananya adalah menabung, beristirahat, dan bepergian." },
+        { "en": "The school wants to teach, to guide, and to support students.", "id": "Sekolah itu ingin mengajar, membimbing, dan mendukung siswa." }
+      ]
+    },
+    "examTrap": "Pilihan A mastering terlihat cocok karena pola kegiatan lain berbentuk -ing, tetapi dua item sebelumnya memakai to."
+  },
+  {
+    "id": "W07-007",
+    "week": 7,
+    "topicTag": "bentuk-kata",
+    "type": "mcq",
+    "prompt": "The team made a ___ decision after reviewing the data.",
+    "options": [
+      { "id": "A", "text": "decisive" },
+      { "id": "B", "text": "decisively" },
+      { "id": "C", "text": "decision" },
+      { "id": "D", "text": "decide" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Setelah a dan sebelum kata benda decision, dibutuhkan kata sifat: decisive.",
+    "stepByStep": [
+      "Posisi ini berada di antara a dan kata benda decision.",
+      "Bentuk yang dibutuhkan adalah kata sifat: decisive.",
+      "Decisively kata keterangan, decision kata benda, dan decide kata kerja tidak cocok di posisi ini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Decisively kata keterangan, tidak bisa langsung menerangkan kata benda." },
+      { "optionId": "C", "reasonId": "Decision sudah menjadi kata benda, sehingga tidak bisa berdiri sebelum kata benda lain." },
+      { "optionId": "D", "reasonId": "Decide kata kerja, tidak cocok di posisi kata sifat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat ditempatkan sebelum kata benda yang diterangkannya.",
+      "examples": [
+        { "en": "They made a bold decision.", "id": "Mereka membuat keputusan yang berani." },
+        { "en": "She gave a decisive answer.", "id": "Dia memberi jawaban yang tegas." }
+      ]
+    },
+    "examTrap": "Pilihan B decisively terlihat seperti jawaban karena menyangkut cara membuat keputusan, tetapi posisinya sebelum kata benda."
+  },
+  {
+    "id": "W07-008",
+    "week": 7,
+    "topicTag": "bentuk-kata",
+    "type": "mcq",
+    "prompt": "The ___ of the new law took three years.",
+    "options": [
+      { "id": "A", "text": "legislate" },
+      { "id": "B", "text": "legislative" },
+      { "id": "C", "text": "legislatively" },
+      { "id": "D", "text": "legislation" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Setelah the dan sebelum of the new law, dibutuhkan kata benda sebagai subjek: legislation.",
+    "stepByStep": [
+      "Setelah the, bentuk yang dibutuhkan adalah kata benda.",
+      "Legislation adalah kata benda yang berarti pembuatan undang-undang.",
+      "Legislate kata kerja, legislative kata sifat, dan legislatively kata keterangan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Legislate kata kerja, tidak cocok sebagai subjek setelah the." },
+      { "optionId": "B", "reasonId": "Legislative kata sifat, tidak cocok sebagai subjek kalimat." },
+      { "optionId": "C", "reasonId": "Legislatively kata keterangan, tidak cocok sebagai subjek kalimat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah the dan sebelum of, biasanya dibutuhkan kata benda.",
+      "examples": [
+        { "en": "The creation of the report took a week.", "id": "Pembuatan laporan itu memakan waktu seminggu." },
+        { "en": "The development of the plan was slow.", "id": "Pengembangan rencana itu berjalan lambat." }
+      ]
+    },
+    "examTrap": "Pilihan B legislative terlihat terkait dengan undang-undang, tetapi bentuk kata sifat tidak bisa menjadi subjek kalimat ini."
+  },
+  {
+    "id": "W07-009",
+    "week": 7,
+    "topicTag": "bentuk-kata",
+    "type": "mcq",
+    "prompt": "She gave a very ___ answer to the question.",
+    "options": [
+      { "id": "A", "text": "clearly" },
+      { "id": "B", "text": "clear" },
+      { "id": "C", "text": "clearness" },
+      { "id": "D", "text": "clearing" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Setelah very dan sebelum kata benda answer, dibutuhkan kata sifat: clear.",
+    "stepByStep": [
+      "Kata answer adalah kata benda, sehingga kata sebelumnya harus kata sifat.",
+      "Kata sifat yang tepat adalah clear.",
+      "Clearly kata keterangan, clearness kata benda, dan clearing bentuk -ing yang tidak cocok di posisi ini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Clearly kata keterangan, tidak bisa langsung menerangkan kata benda answer." },
+      { "optionId": "C", "reasonId": "Clearness kata benda, tidak cocok di antara very dan answer." },
+      { "optionId": "D", "reasonId": "Clearing tidak cocok sebagai kata sifat untuk answer dalam kalimat ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat berada di antara kata penguat seperti very dan kata benda yang diterangkan.",
+      "examples": [
+        { "en": "He gave a very short reply.", "id": "Dia memberi jawaban yang sangat singkat." },
+        { "en": "It was a very useful tip.", "id": "Itu adalah tips yang sangat berguna." }
+      ]
+    },
+    "examTrap": "Pilihan A clearly terlihat cocok karena berhubungan dengan cara menjawab, tetapi posisinya menerangkan kata benda answer, sehingga harus kata sifat."
+  },
+  {
+    "id": "W07-010",
+    "week": 7,
+    "topicTag": "bentuk-kata",
+    "type": "mcq",
+    "prompt": "The ___ approach to learning helps students remember more.",
+    "options": [
+      { "id": "A", "text": "creatively" },
+      { "id": "B", "text": "creativity" },
+      { "id": "C", "text": "creative" },
+      { "id": "D", "text": "create" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Setelah The dan sebelum kata benda approach, dibutuhkan kata sifat: creative.",
+    "stepByStep": [
+      "Kata approach adalah kata benda yang diterangkan.",
+      "Kata sifat sebelum kata benda: creative.",
+      "Creatively kata keterangan, creativity kata benda, dan create kata kerja tidak cocok di posisi ini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Creatively kata keterangan, tidak cocok sebelum kata benda approach." },
+      { "optionId": "B", "reasonId": "Creativity kata benda, tidak cocok sebelum kata benda approach." },
+      { "optionId": "D", "reasonId": "Create kata kerja, tidak cocok di posisi kata sifat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat ditempatkan sebelum kata benda untuk menerangkan kata benda itu.",
+      "examples": [
+        { "en": "A creative idea can change a class.", "id": "Ide kreatif dapat mengubah sebuah kelas." },
+        { "en": "The team uses a practical method.", "id": "Tim itu memakai metode yang praktis." }
+      ]
+    },
+    "examTrap": "Pilihan B creativity terlihat cocok karena topiknya kreativitas, tetapi kata benda tidak bisa berdiri sebelum kata benda approach."
+  },
+  {
+    "id": "W07-011",
+    "week": 7,
+    "topicTag": "bentuk-kata",
+    "type": "mcq",
+    "prompt": "The results were ___ important for the project.",
+    "options": [
+      { "id": "A", "text": "extremely" },
+      { "id": "B", "text": "extreme" },
+      { "id": "C", "text": "extremity" },
+      { "id": "D", "text": "extremist" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Di antara were dan kata sifat important dibutuhkan kata keterangan: extremely.",
+    "stepByStep": [
+      "Kata important adalah kata sifat yang diterangkan.",
+      "Kata yang menerangkan kata sifat harus kata keterangan: extremely.",
+      "Extreme kata sifat, extremity dan extremist kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Extreme kata sifat, tidak bisa menerangkan kata sifat important." },
+      { "optionId": "C", "reasonId": "Extremity kata benda, tidak cocok di posisi ini." },
+      { "optionId": "D", "reasonId": "Extremist kata benda untuk orang, tidak cocok di posisi ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata keterangan dipakai untuk menerangkan kata sifat, seperti very, really, dan extremely.",
+      "examples": [
+        { "en": "The plan was extremely useful.", "id": "Rencana itu sangat berguna." },
+        { "en": "The test was really difficult.", "id": "Tesnya benar-benar sulit." }
+      ]
+    },
+    "examTrap": "Pilihan B extreme terlihat cocok karena berhubungan dengan kata extremely, tetapi ini kata sifat dan tidak bisa menerangkan important."
+  },
+  {
+    "id": "W07-012",
+    "week": 7,
+    "topicTag": "bentuk-kata",
+    "type": "mcq",
+    "prompt": "The ___ of the report surprised everyone.",
+    "options": [
+      { "id": "A", "text": "concluded" },
+      { "id": "B", "text": "conclusive" },
+      { "id": "C", "text": "conclude" },
+      { "id": "D", "text": "conclusion" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Setelah the dan sebelum of the report, dibutuhkan kata benda sebagai subjek: conclusion.",
+    "stepByStep": [
+      "Setelah the, bentuk yang dibutuhkan adalah kata benda.",
+      "Conclusion adalah kata benda yang berarti kesimpulan.",
+      "Concluded bentuk lampau, conclusive kata sifat, dan conclude kata kerja."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Concluded bentuk lampau, tidak cocok sebagai subjek setelah the." },
+      { "optionId": "B", "reasonId": "Conclusive kata sifat, tidak cocok sebagai subjek kalimat." },
+      { "optionId": "C", "reasonId": "Conclude kata kerja, tidak cocok sebagai subjek setelah the." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah the, kata benda biasanya menjadi subjek atau objek kalimat.",
+      "examples": [
+        { "en": "The decision of the judge was fair.", "id": "Keputusan hakim itu adil." },
+        { "en": "The result of the test was good.", "id": "Hasil tes itu bagus." }
+      ]
+    },
+    "examTrap": "Pilihan B conclusive terlihat cocok karena berhubungan dengan kesimpulan, tetapi bentuk kata sifat tidak bisa menjadi subjek."
+  },
+  {
+    "id": "W07-013",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "Students need to think ___ before they answer.",
+    "options": [
+      { "id": "A", "text": "critical" },
+      { "id": "B", "text": "critically" },
+      { "id": "C", "text": "criticism" },
+      { "id": "D", "text": "criticize" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Setelah kata kerja think, dibutuhkan kata keterangan: critically.",
+    "stepByStep": [
+      "Think adalah kata kerja, sehingga yang menerangkannya harus kata keterangan.",
+      "Kata keterangan yang berakhiran -ly adalah critically.",
+      "Critical kata sifat, criticism kata benda, dan criticize kata kerja."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Critical kata sifat, tidak menerangkan kata kerja think." },
+      { "optionId": "C", "reasonId": "Criticism kata benda, tidak cocok di posisi ini." },
+      { "optionId": "D", "reasonId": "Criticize kata kerja lain, tidak cocok sebagai keterangan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata keterangan dengan akhiran -ly menerangkan kata kerja, seperti think critically.",
+      "examples": [
+        { "en": "She reads carefully before she writes.", "id": "Dia membaca dengan teliti sebelum menulis." },
+        { "en": "They worked quickly to finish the task.", "id": "Mereka bekerja dengan cepat untuk menyelesaikan tugas itu." }
+      ]
+    },
+    "examTrap": "Pilihan A critical terlihat cocok karena dekat dengan critically, tetapi bentuk sifat tidak bisa menerangkan kata kerja."
+  },
+  {
+    "id": "W07-014",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "The ___ evidence supports the thesis.",
+    "options": [
+      { "id": "A", "text": "effectively" },
+      { "id": "B", "text": "effect" },
+      { "id": "C", "text": "effective" },
+      { "id": "D", "text": "effectiveness" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Sebelum kata benda evidence dibutuhkan kata sifat: effective.",
+    "stepByStep": [
+      "Kata evidence adalah kata benda yang diterangkan.",
+      "Kata sifat sebelum kata benda: effective.",
+      "Effectively kata keterangan, effect dan effectiveness kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Effectively kata keterangan, tidak bisa langsung menerangkan kata benda evidence." },
+      { "optionId": "B", "reasonId": "Effect kata benda, tidak cocok sebelum kata benda evidence." },
+      { "optionId": "D", "reasonId": "Effectiveness kata benda, tidak cocok sebelum kata benda evidence." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Akhiran -ive membentuk kata sifat yang dipakai sebelum kata benda.",
+      "examples": [
+        { "en": "The new method is effective for readers.", "id": "Metode baru ini efektif untuk pembaca." },
+        { "en": "An active reader asks questions.", "id": "Pembaca yang aktif mengajukan pertanyaan." }
+      ]
+    },
+    "examTrap": "Pilihan A effectively terlihat cocok karena berhubungan dengan efektivitas, tetapi posisinya sebelum kata benda, sehingga harus kata sifat."
+  },
+  {
+    "id": "W07-015",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "The ___ reason for the delay was the storm.",
+    "options": [
+      { "id": "A", "text": "primary" },
+      { "id": "B", "text": "primarily" },
+      { "id": "C", "text": "primacy" },
+      { "id": "D", "text": "primate" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Sebelum kata benda reason dibutuhkan kata sifat: primary, yang berarti utama.",
+    "stepByStep": [
+      "Kata reason adalah kata benda yang diterangkan.",
+      "Kata sifat yang berarti utama adalah primary.",
+      "Primarily kata keterangan, primacy kata benda, dan primate kata benda dengan arti lain."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Primarily kata keterangan, tidak bisa langsung menerangkan kata benda reason." },
+      { "optionId": "C", "reasonId": "Primacy kata benda berarti keunggulan, tidak cocok sebelum kata benda reason." },
+      { "optionId": "D", "reasonId": "Primate kata benda untuk kelompok hewan, tidak cocok di posisi ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat primary berarti utama dan dipakai sebelum kata benda.",
+      "examples": [
+        { "en": "The primary goal is to learn.", "id": "Tujuan utamanya adalah belajar." },
+        { "en": "Her primary concern was the cost.", "id": "Kekhawatiran utamanya adalah biayanya." }
+      ]
+    },
+    "examTrap": "Pilihan B primarily terlihat cocok karena berarti sebagian besar, tetapi posisinya sebelum kata benda reason sehingga harus kata sifat."
+  },
+  {
+    "id": "W07-016",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "The school's ___ program helps new students adjust.",
+    "options": [
+      { "id": "A", "text": "orient" },
+      { "id": "B", "text": "oriental" },
+      { "id": "C", "text": "orientally" },
+      { "id": "D", "text": "orientation" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Setelah The school's dan sebelum kata benda program, dibutuhkan kata benda yang berfungsi sebagai penerang: orientation.",
+    "stepByStep": [
+      "Kata program adalah kata benda, dan kata sebelumnya menerangkannya.",
+      "Kata benda orientation berarti pengenalan atau orientasi.",
+      "Orient kata kerja, oriental kata sifat dengan arti berbeda, dan orientally kata keterangan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Orient kata kerja, tidak cocok di posisi sebelum kata benda program." },
+      { "optionId": "B", "reasonId": "Oriental berarti bersifat Timur, tidak sesuai dengan makna program pengenalan." },
+      { "optionId": "C", "reasonId": "Orientally kata keterangan, tidak cocok di posisi ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata benda bisa menerangkan kata benda lain, seperti orientation program.",
+      "examples": [
+        { "en": "The training course is for new staff.", "id": "Kursus pelatihan itu untuk staf baru." },
+        { "en": "The library tour helps first-year students.", "id": "Tur perpustakaan membantu mahasiswa tahun pertama." }
+      ]
+    },
+    "examTrap": "Pilihan B oriental terlihat mirip dengan orientation, tetapi artinya berbeda dan tidak sesuai dengan program pengenalan."
+  },
+  {
+    "id": "W07-017",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "He spoke ___ about the risks of the plan, which made everyone listen.",
+    "options": [
+      { "id": "A", "text": "persuasive" },
+      { "id": "B", "text": "persuasively" },
+      { "id": "C", "text": "persuasion" },
+      { "id": "D", "text": "persuade" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Kata spoke adalah kata kerja, sehingga yang menerangkannya harus kata keterangan: persuasively.",
+    "stepByStep": [
+      "Spoke adalah kata kerja yang diterangkan.",
+      "Kata keterangan dari persuasive adalah persuasively.",
+      "Persuasive kata sifat, persuasion kata benda, dan persuade kata kerja."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Persuasive kata sifat, tidak menerangkan kata kerja spoke." },
+      { "optionId": "C", "reasonId": "Persuasion kata benda, tidak cocok di posisi ini." },
+      { "optionId": "D", "reasonId": "Persuade kata kerja, tidak cocok sebagai keterangan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata keterangan berakhiran -ly menerangkan cara suatu tindakan dilakukan.",
+      "examples": [
+        { "en": "She explained the rule clearly.", "id": "Dia menjelaskan aturannya dengan jelas." },
+        { "en": "The speaker answered calmly.", "id": "Pembicara itu menjawab dengan tenang." }
+      ]
+    },
+    "examTrap": "Pilihan A persuasive terlihat cocok karena berhubungan dengan membujuk, tetapi kata sifat tidak bisa menerangkan kata kerja spoke."
+  },
+  {
+    "id": "W07-018",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "The ___ rules of the game are easy to follow.",
+    "options": [
+      { "id": "A", "text": "basically" },
+      { "id": "B", "text": "basis" },
+      { "id": "C", "text": "basic" },
+      { "id": "D", "text": "base" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Sebelum kata benda rules dibutuhkan kata sifat: basic.",
+    "stepByStep": [
+      "Kata rules adalah kata benda yang diterangkan.",
+      "Kata sifat yang berarti dasar adalah basic.",
+      "Basically kata keterangan, basis dan base kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Basically kata keterangan, tidak bisa langsung menerangkan kata benda rules." },
+      { "optionId": "B", "reasonId": "Basis kata benda, tidak cocok sebelum kata benda rules." },
+      { "optionId": "D", "reasonId": "Base kata benda, tidak cocok sebelum kata benda rules." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat basic berarti dasar atau sederhana dan ditempatkan sebelum kata benda.",
+      "examples": [
+        { "en": "The basic idea is simple.", "id": "Ide dasarnya sederhana." },
+        { "en": "She learned the basic grammar first.", "id": "Dia mempelajari tata bahasa dasar lebih dulu." }
+      ]
+    },
+    "examTrap": "Pilihan A basically terlihat cocok karena berhubungan dengan dasar, tetapi bentuk keterangan tidak bisa menerangkan kata benda rules."
+  },
+  {
+    "id": "W07-019",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "The new medicine had a ___ effect on the patients.",
+    "options": [
+      { "id": "A", "text": "positive" },
+      { "id": "B", "text": "positively" },
+      { "id": "C", "text": "positivity" },
+      { "id": "D", "text": "position" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Sebelum kata benda effect dibutuhkan kata sifat: positive.",
+    "stepByStep": [
+      "Kata effect adalah kata benda yang diterangkan.",
+      "Kata sifat yang tepat adalah positive.",
+      "Positively kata keterangan, positivity kata benda, dan position kata benda dengan arti lain."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Positively kata keterangan, tidak bisa langsung menerangkan kata benda effect." },
+      { "optionId": "C", "reasonId": "Positivity kata benda, tidak cocok sebelum kata benda effect." },
+      { "optionId": "D", "reasonId": "Position berarti posisi atau letak, tidak sesuai dengan efek pada pasien." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat positive berarti baik atau menguntungkan dan ditempatkan sebelum kata benda.",
+      "examples": [
+        { "en": "The feedback had a positive effect.", "id": "Umpan balik itu memberi efek positif." },
+        { "en": "Her answer was positive and clear.", "id": "Jawabannya positif dan jelas." }
+      ]
+    },
+    "examTrap": "Pilihan B positively terlihat cocok karena berhubungan dengan efek baik, tetapi posisinya sebelum kata benda effect."
+  },
+  {
+    "id": "W07-020",
+    "week": 7,
+    "topicTag": "akhiran-sifat-keterangan",
+    "type": "mcq",
+    "prompt": "The ___ tone of the letter made the reader feel welcome.",
+    "options": [
+      { "id": "A", "text": "friendliness" },
+      { "id": "B", "text": "friendship" },
+      { "id": "C", "text": "friend" },
+      { "id": "D", "text": "friendly" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Sebelum kata benda tone dibutuhkan kata sifat: friendly.",
+    "stepByStep": [
+      "Kata tone adalah kata benda yang diterangkan.",
+      "Kata sifat yang tepat adalah friendly.",
+      "Friendliness, friendship, dan friend adalah kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Friendliness kata benda, tidak cocok sebelum kata benda tone." },
+      { "optionId": "B", "reasonId": "Friendship kata benda untuk hubungan, tidak cocok sebelum kata benda tone." },
+      { "optionId": "C", "reasonId": "Friend kata benda untuk orang, tidak cocok sebelum kata benda tone." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat friendly menerangkan kata benda dan ditempatkan sebelum kata benda itu.",
+      "examples": [
+        { "en": "The staff have a friendly smile.", "id": "Staf itu punya senyum yang ramah." },
+        { "en": "He gave a friendly reply.", "id": "Dia memberi balasan yang ramah." }
+      ]
+    },
+    "examTrap": "Pilihan A friendliness terlihat cocok karena berhubungan dengan sikap ramah, tetapi kata benda tidak bisa menerangkan kata benda tone."
+  },
+  {
+    "id": "W07-021",
+    "week": 7,
+    "topicTag": "inversi",
+    "type": "mcq",
+    "prompt": "Rarely ___ such a clear explanation.",
+    "options": [
+      { "id": "A", "text": "we have heard" },
+      { "id": "B", "text": "heard we" },
+      { "id": "C", "text": "have we heard" },
+      { "id": "D", "text": "we heard" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Setelah rarely di awal kalimat, kata bantu have dipindah ke depan subjek we: have we heard.",
+    "stepByStep": [
+      "Rarely di awal kalimat memicu inversi.",
+      "Kata bantu have dipindah ke depan subjek we.",
+      "We have heard tanpa inversi, heard we salah urutan, dan we heard tidak memakai inversi."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "We have heard tidak memakai inversi setelah rarely." },
+      { "optionId": "B", "reasonId": "Heard we adalah urutan kata yang salah." },
+      { "optionId": "D", "reasonId": "We heard tidak memakai inversi dan bentuk kata kerjanya kurang tepat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah rarely, never, atau seldom di awal kalimat, kata bantu dipindah ke depan subjek.",
+      "examples": [
+        { "en": "Rarely have we seen such a clear plan.", "id": "Jarang sekali kami melihat rencana yang sejelas itu." },
+        { "en": "Seldom do students finish the test early.", "id": "Jarang sekali siswa menyelesaikan tes lebih awal." }
+      ]
+    },
+    "examTrap": "Pilihan A we have heard terlihat benar karena bentuknya lengkap, tetapi setelah rarely harus ada inversi."
+  },
+  {
+    "id": "W07-022",
+    "week": 7,
+    "topicTag": "inversi",
+    "type": "mcq",
+    "prompt": "Never ___ so many students at the library.",
+    "options": [
+      { "id": "A", "text": "have I seen" },
+      { "id": "B", "text": "I have seen" },
+      { "id": "C", "text": "I seen" },
+      { "id": "D", "text": "seen I have" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Setelah never di awal kalimat, kata bantu have dipindah ke depan subjek I: have I seen.",
+    "stepByStep": [
+      "Never di awal kalimat memicu inversi.",
+      "Kata bantu have dipindah ke depan subjek I.",
+      "I have seen tanpa inversi, I seen bentuk salah, dan seen I have urutannya salah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "I have seen tidak memakai inversi setelah never." },
+      { "optionId": "C", "reasonId": "I seen adalah bentuk yang salah karena tidak memakai have." },
+      { "optionId": "D", "reasonId": "Seen I have adalah urutan kata yang salah." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah never di awal kalimat, kata bantu dipindah ke depan subjek.",
+      "examples": [
+        { "en": "Never have I heard such good news.", "id": "Tidak pernah saya mendengar kabar baik seperti itu." },
+        { "en": "Never did they give up on the project.", "id": "Tidak pernah mereka menyerah pada proyek itu." }
+      ]
+    },
+    "examTrap": "Pilihan B I have seen terlihat benar secara makna, tetapi tanpa inversi kalimat ini salah setelah never."
+  },
+  {
+    "id": "W07-023",
+    "week": 7,
+    "topicTag": "inversi",
+    "type": "mcq",
+    "prompt": "Not only ___ the grammar, but also the vocabulary.",
+    "options": [
+      { "id": "A", "text": "she studied" },
+      { "id": "B", "text": "studied she" },
+      { "id": "C", "text": "she studies" },
+      { "id": "D", "text": "did she study" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Setelah not only di awal kalimat, kata bantu did dipindah ke depan subjek she: did she study.",
+    "stepByStep": [
+      "Not only di awal kalimat memicu inversi.",
+      "Kata bantu did dipindah ke depan subjek she.",
+      "She studied dan she studies tidak memakai inversi, dan studied she salah urutan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "She studied tidak memakai inversi setelah not only." },
+      { "optionId": "B", "reasonId": "Studied she adalah urutan kata yang salah." },
+      { "optionId": "C", "reasonId": "She studies tidak memakai inversi dan bentuk kata kerjanya tidak sesuai." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah not only di awal kalimat, kata bantu dipindah ke depan subjek.",
+      "examples": [
+        { "en": "Not only did the team win, but they also set a record.", "id": "Tim itu tidak hanya menang, tetapi juga memecahkan rekor." },
+        { "en": "Not only does the plan save money, but it also saves time.", "id": "Rencana itu tidak hanya menghemat uang, tetapi juga menghemat waktu." }
+      ]
+    },
+    "examTrap": "Pilihan A she studied terlihat cocok karena bentuk lampaunya benar, tetapi setelah not only harus ada inversi dengan did."
+  },
+  {
+    "id": "W07-024",
+    "week": 7,
+    "topicTag": "inversi",
+    "type": "mcq",
+    "prompt": "Under no circumstances ___ the answer sheet.",
+    "options": [
+      { "id": "A", "text": "students should open" },
+      { "id": "B", "text": "should students open" },
+      { "id": "C", "text": "open students should" },
+      { "id": "D", "text": "should open students" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Setelah under no circumstances di awal kalimat, kata bantu should dipindah ke depan subjek students: should students open.",
+    "stepByStep": [
+      "Under no circumstances di awal kalimat memicu inversi.",
+      "Kata bantu should dipindah ke depan subjek students.",
+      "Students should open tanpa inversi, open students should salah, dan should open students salah urutan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Students should open tidak memakai inversi setelah under no circumstances." },
+      { "optionId": "C", "reasonId": "Open students should adalah urutan kata yang salah." },
+      { "optionId": "D", "reasonId": "Should open students salah karena subjek harus setelah kata bantu." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah under no circumstances di awal kalimat, kata bantu dipindah ke depan subjek.",
+      "examples": [
+        { "en": "Under no circumstances should you share your password.", "id": "Dalam keadaan apa pun kamu tidak boleh membagikan kata sandimu." },
+        { "en": "Under no circumstances can the door be left open.", "id": "Dalam keadaan apa pun pintu tidak boleh dibiarkan terbuka." }
+      ]
+    },
+    "examTrap": "Pilihan A students should open terlihat benar secara makna, tetapi kalimat dengan under no circumstances harus memakai inversi."
+  },
+  {
+    "id": "W07-025",
+    "week": 7,
+    "topicTag": "skimming-scanning",
+    "type": "mcq",
+    "prompt": "To find the exact opening time of the library, you should ___ the page.",
+    "options": [
+      { "id": "A", "text": "scan" },
+      { "id": "B", "text": "highlight" },
+      { "id": "C", "text": "outline" },
+      { "id": "D", "text": "skim" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Mencari jam buka yang tepat adalah informasi spesifik, sehingga strategi yang tepat adalah scan.",
+    "stepByStep": [
+      "Tujuannya mencari jam buka yang tepat, yaitu informasi spesifik.",
+      "Strategi untuk informasi spesifik adalah scan.",
+      "Highlight dan outline bukan strategi mencari informasi, dan skim untuk gambaran umum."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Highlight berarti menandai, bukan strategi mencari jam buka." },
+      { "optionId": "C", "reasonId": "Outline berarti kerangka, bukan strategi mencari informasi spesifik." },
+      { "optionId": "D", "reasonId": "Skim dipakai untuk gambaran umum, bukan informasi spesifik seperti jam." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Scan dipakai untuk mencari informasi spesifik seperti jam, tanggal, atau nama.",
+      "examples": [
+        { "en": "Scan the timetable for the train at nine.", "id": "Pindailah jadwal untuk kereta jam sembilan." },
+        { "en": "I scanned the list for my name.", "id": "Saya memindai daftar untuk mencari namaku." }
+      ]
+    },
+    "examTrap": "Pilihan D skim terlihat cocok karena juga membaca cepat, tetapi skim untuk gambaran umum, bukan jam yang tepat."
+  },
+  {
+    "id": "W07-026",
+    "week": 7,
+    "topicTag": "skimming-scanning",
+    "type": "mcq",
+    "prompt": "When you want a quick overview of a long article, the best strategy is to ___.",
+    "options": [
+      { "id": "A", "text": "scan for numbers" },
+      { "id": "B", "text": "translate every word" },
+      { "id": "C", "text": "skim the headings and first paragraphs" },
+      { "id": "D", "text": "read every sentence aloud" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Untuk gambaran umum, strategi terbaik adalah skim judul dan paragraf pertama.",
+    "stepByStep": [
+      "Kalimat meminta gambaran umum dari artikel panjang.",
+      "Gambaran umum didapat dengan skimming judul dan paragraf awal.",
+      "Mencari angka adalah scanning, sedangkan menerjemahkan dan membaca keras tidak efisien untuk gambaran umum."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Scan for numbers untuk informasi spesifik, bukan gambaran umum." },
+      { "optionId": "B", "reasonId": "Menerjemahkan setiap kata lambat dan tidak sesuai untuk gambaran umum." },
+      { "optionId": "D", "reasonId": "Membaca setiap kalimat keras-keras tidak sesuai untuk gambaran umum yang cepat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Untuk gambaran umum, skim judul, subjudul, dan paragraf awal.",
+      "examples": [
+        { "en": "Skim the headings before you read the details.", "id": "Bacalah sekilas subjudul sebelum membaca detailnya." },
+        { "en": "A quick skim tells you the topic of the article.", "id": "Membaca sekilas memberi tahu topik artikelnya." }
+      ]
+    },
+    "examTrap": "Pilihan A scan for numbers terlihat cocok karena ada banyak angka di artikel, tetapi tujuannya gambaran umum, bukan angka tertentu."
+  },
+  {
+    "id": "W07-027",
+    "week": 7,
+    "topicTag": "skimming-scanning",
+    "type": "mcq",
+    "prompt": "The student ___ the reading passage to understand its main structure before answering the questions.",
+    "options": [
+      { "id": "A", "text": "scanned" },
+      { "id": "B", "text": "memorized" },
+      { "id": "C", "text": "translated" },
+      { "id": "D", "text": "skimmed" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Memahami struktur utama sebelum menjawab adalah tujuan skimming, sehingga kata kerja yang tepat adalah skimmed.",
+    "stepByStep": [
+      "Tujuannya memahami struktur utama bacaan, yaitu gambaran umum.",
+      "Gambaran umum didapat dengan skimmed.",
+      "Scanned untuk informasi spesifik, memorized untuk menghafal, dan translated untuk menerjemahkan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Scanned dipakai untuk mencari informasi spesifik, bukan struktur utama." },
+      { "optionId": "B", "reasonId": "Memorized berarti menghafal, tidak sesuai dengan memahami struktur." },
+      { "optionId": "C", "reasonId": "Translated berarti menerjemahkan, tidak sesuai dengan tujuan memahami struktur." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Skimmed dipakai untuk membaca sekilas demi memahami gambaran umum.",
+      "examples": [
+        { "en": "I skimmed the chapter to see its structure.", "id": "Saya membaca sekilas bab itu untuk melihat strukturnya." },
+        { "en": "She skimmed the report before the meeting.", "id": "Dia membaca sekilas laporan itu sebelum rapat." }
+      ]
+    },
+    "examTrap": "Pilihan A scanned terlihat cocok karena juga membaca cepat, tetapi scanning untuk informasi tertentu, bukan struktur utama."
+  },
+  {
+    "id": "W07-028",
+    "week": 7,
+    "topicTag": "skimming-scanning",
+    "type": "mcq",
+    "prompt": "Which search technique is best for finding a person's name in a long report?",
+    "options": [
+      { "id": "A", "text": "skimming" },
+      { "id": "B", "text": "scanning" },
+      { "id": "C", "text": "glancing at the title" },
+      { "id": "D", "text": "reading aloud" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Mencari nama seseorang dalam laporan panjang adalah informasi spesifik, sehingga teknik yang tepat adalah scanning.",
+    "stepByStep": [
+      "Nama seseorang adalah informasi spesifik.",
+      "Teknik untuk mencari informasi spesifik dengan cepat adalah scanning.",
+      "Skimming untuk gambaran umum, glancing at the title hanya melihat judul, dan reading aloud tidak efisien."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Skimming untuk gambaran umum, bukan mencari nama tertentu." },
+      { "optionId": "C", "reasonId": "Melihat judul tidak cukup untuk menemukan nama di dalam laporan." },
+      { "optionId": "D", "reasonId": "Membaca keras tidak efisien untuk mencari satu nama dalam laporan panjang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Scanning dipakai untuk mencari nama, angka, atau tanggal dalam teks panjang.",
+      "examples": [
+        { "en": "Scan the report for the manager's name.", "id": "Pindailah laporan itu untuk mencari nama manajernya." },
+        { "en": "I scanned the page for the deadline.", "id": "Saya memindai halaman itu untuk mencari batas waktunya." }
+      ]
+    },
+    "examTrap": "Pilihan A skimming terlihat cocok karena teks panjang, tetapi skimming tidak cukup teliti untuk menemukan satu nama tertentu."
+  },
+  {
+    "id": "W07-029",
+    "week": 7,
+    "topicTag": "ide-utama",
+    "type": "mcq",
+    "prompt": "Which sentence best states the main idea of a passage?",
+    "options": [
+      { "id": "A", "text": "a single example from the second paragraph" },
+      { "id": "B", "text": "a question from the end of the passage" },
+      { "id": "C", "text": "the thesis that the author wants to prove" },
+      { "id": "D", "text": "a list of dates in the reference section" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Ide utama adalah tesis, yaitu pernyataan utama yang ingin dibuktikan penulis.",
+    "stepByStep": [
+      "Ide utama dalam teks adalah pernyataan yang ingin dibuktikan penulis.",
+      "Pernyataan itu disebut thesis.",
+      "Satu contoh, sebuah pertanyaan, dan daftar tanggal adalah detail, bukan ide utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Satu contoh adalah detail pendukung, bukan ide utama." },
+      { "optionId": "B", "reasonId": "Pertanyaan di akhir teks tidak menyatakan ide utama." },
+      { "optionId": "D", "reasonId": "Daftar tanggal adalah detail referensi, bukan ide utama." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ide utama dinyatakan sebagai tesis, dan detail pendukung menjelaskannya.",
+      "examples": [
+        { "en": "The thesis of the essay is that reading daily improves English.", "id": "Tesis esai itu adalah membaca setiap hari meningkatkan bahasa Inggris." },
+        { "en": "The main claim is supported by three examples.", "id": "Klaim utama itu didukung oleh tiga contoh." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti ide utama karena berisi contoh yang jelas, tetapi contoh hanya detail pendukung."
+  },
+  {
+    "id": "W07-030",
+    "week": 7,
+    "topicTag": "ide-utama",
+    "type": "mcq",
+    "prompt": "In a reading passage, where is the thesis most often introduced?",
+    "options": [
+      { "id": "A", "text": "in the first paragraph" },
+      { "id": "B", "text": "in the references at the end" },
+      { "id": "C", "text": "in the middle of the third example" },
+      { "id": "D", "text": "in a footnote in small print" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Tesis biasanya diperkenalkan di paragraf pertama, lalu didukung oleh detail sepanjang teks.",
+    "stepByStep": [
+      "Tesis adalah pernyataan utama penulis.",
+      "Pernyataan utama biasanya diperkenalkan di paragraf pertama.",
+      "Referensi, tengah contoh ketiga, dan catatan kaki bukan tempat utama tesis."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Referensi di akhir berisi sumber, bukan tesis penulis." },
+      { "optionId": "C", "reasonId": "Bagian tengah contoh adalah detail pendukung, bukan tempat tesis diperkenalkan." },
+      { "optionId": "D", "reasonId": "Catatan kaki berisi keterangan tambahan, bukan tesis utama." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tesis biasanya ada di paragraf pertama dan diperkuat oleh detail di paragraf berikutnya.",
+      "examples": [
+        { "en": "The first paragraph states the thesis clearly.", "id": "Paragraf pertama menyatakan tesisnya dengan jelas." },
+        { "en": "The conclusion restates the thesis in new words.", "id": "Kesimpulan mengulang tesis dengan kata-kata baru." }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat penting karena berisi contoh yang detail, tetapi tesis biasanya ada di paragraf pertama, bukan di tengah contoh."
+  }
+]

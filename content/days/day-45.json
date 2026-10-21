@@ -1,0 +1,599 @@
+{
+  "day": 45,
+  "week": 7,
+  "month": 2,
+  "title": "Parallel Structure",
+  "topic": "Bentuk kata yang sejajar dalam daftar dan perbandingan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menyamakan bentuk kata dalam daftar dengan tiga item atau lebih",
+    "Menyamakan bentuk kata setelah pasangan not only ___ but also dan both ___ and",
+    "Mengenali bentuk yang tidak sejajar dalam kalimat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "parallel", "pronunciationId": "PA-ra-lel (tekanan di PA)", "pos": "Adj", "meaningId": "sejajar, paralel", "example": "The two lines are parallel.", "exampleId": "Kedua garis itu sejajar." },
+      { "no": 2, "en": "balance", "pronunciationId": "BA-lens (tekanan di BA)", "pos": "Noun", "meaningId": "keseimbangan", "example": "Keep a good balance in your sentences.", "exampleId": "Jagalah keseimbangan dalam kalimatmu." },
+      { "no": 3, "en": "consistent", "pronunciationId": "kon-SIS-tent (tekanan di SIS)", "pos": "Adj", "meaningId": "konsisten, tetap sama", "example": "Her answers are consistent.", "exampleId": "Jawabannya konsisten." },
+      { "no": 4, "en": "similar", "pronunciationId": "SIM-i-ler (tekanan di SIM)", "pos": "Adj", "meaningId": "serupa, mirip", "example": "The two words have a similar form.", "exampleId": "Kedua kata itu punya bentuk yang serupa." },
+      { "no": 5, "en": "match", "pronunciationId": "MACH (a pendek, ch jelas)", "pos": "Verb", "meaningId": "cocok, sesuai", "example": "The verb must match the subject.", "exampleId": "Kata kerja harus sesuai dengan subjek." },
+      { "no": 6, "en": "equal", "pronunciationId": "I-kwel (tekanan di I)", "pos": "Adj", "meaningId": "sama, setara", "example": "Both parts have equal weight.", "exampleId": "Kedua bagian punya bobot yang sama." },
+      { "no": 7, "en": "pattern", "pronunciationId": "PAT-ern (tekanan di PAT)", "pos": "Noun", "meaningId": "pola", "example": "The sentence follows a clear pattern.", "exampleId": "Kalimat itu mengikuti pola yang jelas." },
+      { "no": 8, "en": "sequence", "pronunciationId": "SEE-kwens (tekanan di SEE)", "pos": "Noun", "meaningId": "urutan", "example": "Follow the sequence of the steps.", "exampleId": "Ikuti urutan langkah-langkahnya." },
+      { "no": 9, "en": "list", "pronunciationId": "LIST (i pendek, t di akhir)", "pos": "Noun", "meaningId": "daftar", "example": "The list has five items.", "exampleId": "Daftar itu punya lima item." },
+      { "no": 10, "en": "symmetry", "pronunciationId": "SIM-i-tri (tekanan di SIM)", "pos": "Noun", "meaningId": "simetri, keseimbangan bentuk", "example": "The design shows perfect symmetry.", "exampleId": "Desain itu menunjukkan simetri yang sempurna." }
+    ],
+    "tip": "Setiap item dalam daftar harus memakai bentuk kata yang sama: semua kata kerja -ing, semua infinitif, atau semua kata benda. Periksa dengan membaca daftar itu keras-keras."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["parallel structure English", "parallelism TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang bentuk sejajar dalam daftar dan pasangan not only ___ but also.",
+      "watchFor": [
+        "Semua item dalam daftar memakai bentuk yang sama",
+        "Not only ___ but also memakai bentuk yang sama",
+        "Both ___ and memakai bentuk yang sama"
+      ]
+    },
+    "lesson": {
+      "intro": "Bentuk sejajar (parallel structure) berarti bagian-bagian yang setara dalam kalimat memakai bentuk kata yang sama. Pola ini membuat daftar terdengar rapi dan membantu pembaca memprediksi apa yang datang berikutnya.",
+      "sections": [
+        {
+          "heading": "Daftar dengan tiga item",
+          "bodyMd": "Dalam daftar, semua item harus memakai bentuk yang sama. **She likes reading, writing, and drawing.** Semua item berbentuk -ing. Kalimat **She likes reading, to write, and drawing** tidak sejajar, karena item kedua memakai infinitif."
+        },
+        {
+          "heading": "Pasangan not only ___ but also dan both ___ and",
+          "bodyMd": "Setelah **not only** dan **but also**, bentuknya harus sama: **He not only sings but also dances.** Setelah **both ___ and**, kedua bagian juga harus sama: **Both the teachers and the students arrive early.**"
+        },
+        {
+          "heading": "Perbandingan",
+          "bodyMd": "Hal yang dibandingkan harus memakai bentuk yang sama: **The tasks in unit one are easy, and the tasks in unit two are hard.** Jangan membandingkan kata benda dengan kata kerja atau kata sifat."
+        }
+      ],
+      "formulas": [
+        { "label": "Daftar", "pattern": "item 1, item 2, and item 3 (bentuk yang sama)" },
+        { "label": "Not only", "pattern": "not only + bentuk A + but also + bentuk A" },
+        { "label": "Both", "pattern": "both + bentuk A + and + bentuk A" },
+        { "label": "Perbandingan", "pattern": "A + bentuk X, B + bentuk X" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The job requires patience, skill, and creativity.", "id": "Pekerjaan itu butuh kesabaran, keterampilan, dan kreativitas." },
+          { "en": "She likes swimming, cycling, and hiking.", "id": "Dia suka berenang, bersepeda, dan mendaki." },
+          { "en": "He is not only smart but also kind.", "id": "Dia tidak hanya pintar tetapi juga baik hati." },
+          { "en": "The plan is simple, clear, and effective.", "id": "Rencananya sederhana, jelas, dan efektif." },
+          { "en": "Both the coach and the players are ready.", "id": "Baik pelatih maupun para pemain sudah siap." }
+        ],
+        "negative": [
+          { "en": "She likes swimming, to cycle, and hiking.", "id": "Dia suka berenang, bersepeda, dan mendaki." },
+          { "en": "The plan is simple, clear, and it is effective.", "id": "Rencananya sederhana, jelas, dan dia efektif." },
+          { "en": "He is not only smart but kind.", "id": "Dia tidak hanya pintar tetapi baik hati." },
+          { "en": "The room is quiet, peaceful, and to relax.", "id": "Ruangannya tenang, damai, dan untuk bersantai." },
+          { "en": "Both the teacher and students are late.", "id": "Baik guru maupun siswa terlambat." }
+        ],
+        "question": [
+          { "en": "Is every item in the list in the same form?", "id": "Apakah setiap item dalam daftar memakai bentuk yang sama?" },
+          { "en": "Does the sentence use not only ___ but also correctly?", "id": "Apakah kalimat itu memakai not only ___ but also dengan benar?" },
+          { "en": "Are both parts of the comparison in the same form?", "id": "Apakah kedua bagian perbandingan itu memakai bentuk yang sama?" },
+          { "en": "What form should the verbs in the list take?", "id": "Bentuk apa yang harus dimiliki kata kerja dalam daftar itu?" },
+          { "en": "Which item breaks the parallel form?", "id": "Item mana yang merusak bentuk sejajar?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She likes reading, to write, and drawing.", "right": "She likes reading, writing, and drawing.", "whyId": "Semua item harus berbentuk -ing." },
+        { "wrong": "He is not only smart but kind.", "right": "He is not only smart but also kind.", "whyId": "Pasangan not only ___ but also memakai also untuk menyambung dengan bentuk yang sama." },
+        { "wrong": "Both the teacher and students are late.", "right": "Both the teacher and the students are late.", "whyId": "Kedua bagian dalam pasangan both ___ and harus sama-sama memakai the." },
+        { "wrong": "The plan is simple, clear, and it is effective.", "right": "The plan is simple, clear, and effective.", "whyId": "Semua sifat dalam daftar harus berbentuk kata sifat, bukan klausa." },
+        { "wrong": "The job needs patience, skill, and to be creative.", "right": "The job needs patience, skill, and creativity.", "whyId": "Semua item harus berbentuk kata benda." },
+        { "wrong": "The room is quiet, peaceful, and relaxing to relax.", "right": "The room is quiet, peaceful, and relaxing.", "whyId": "Semua item harus berbentuk kata sifat dengan bentuk yang sama." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Mengapa Kesejajaran Penting",
+    "text": "Good writers keep a good balance in their sentences. When a list contains several items, each item should have a similar form. This principle is called parallel structure. For example, the sentence She likes reading, writing, and drawing is consistent, because each activity ends in -ing. The sentence She likes reading, to write, and drawing breaks the pattern and sounds awkward.\n\nParallel structure also matters in comparisons. Two things that are compared should match in form. The sentence The tasks in the first unit are as easy as the tasks in the second unit is clear and equal in weight. A sentence that says The tasks in the first unit are easy, but the second unit is more difficult for the students is less balanced, because the two parts do not follow the same sequence of ideas.\n\nMany learners think that parallel structure is only about grammar, but it also helps readers follow the main point. When a writer uses the same grammatical pattern for each idea, the reader can predict what comes next. This makes the text easier to read and gives the writing a sense of symmetry.\n\nParallel structure also appears in paired expressions. Words such as both, either, and neither are often followed by items that must match. For example, both the teacher and the students need to arrive early. The two parts of the pair must have the same grammatical form, so the sentence looks similar on both sides of the connector.\n\nTo check your work, read the sentence aloud and listen for an uneven rhythm. Then compare each item in the list. If one item is a noun and another is a verb, rewrite the list so that every item has the same form. A short check like this takes only a minute, but it can make a long essay much more professional.",
+    "glossary": [
+      { "en": "awkward", "id": "terdengar janggal" },
+      { "en": "rhythm", "id": "irama" },
+      { "en": "professional", "id": "profesional" },
+      { "en": "paired", "id": "berpasangan" },
+      { "en": "predict", "id": "memprediksi" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What does the passage call the principle of matching forms in a list?",
+        "options": [
+          { "id": "A", "text": "parallel structure" },
+          { "id": "B", "text": "symmetry in design" },
+          { "id": "C", "text": "paired expressions" },
+          { "id": "D", "text": "a reading pattern" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'This principle is called parallel structure', artinya prinsip itu disebut parallel structure.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Symmetry in design tidak disebut sebagai nama prinsip ini." },
+          { "optionId": "C", "reasonId": "Paired expressions disebut sebagai contoh, bukan nama prinsip." },
+          { "optionId": "D", "reasonId": "Pola bacaan tidak disebut sebagai nama prinsip ini." }
+        ],
+        "evidence": "This principle is called parallel structure"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Why is the sentence 'She likes reading, writing, and drawing' consistent?",
+        "options": [
+          { "id": "A", "text": "it is short" },
+          { "id": "B", "text": "it uses the word to" },
+          { "id": "C", "text": "it has a question" },
+          { "id": "D", "text": "each activity ends in -ing" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'because each activity ends in -ing', artinya setiap kegiatan berakhiran -ing.",
+        "stepByStep": [
+          "Cari consistent di teks: 'She likes reading, writing, and drawing is consistent.'",
+          "Teks menjelaskan alasannya: setiap kegiatan berakhiran -ing.",
+          "Panjang kalimat, kata to, dan pertanyaan tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Panjang kalimat tidak disebut sebagai alasan." },
+          { "optionId": "B", "reasonId": "Kata to tidak ada dalam kalimat yang konsisten ini." },
+          { "optionId": "C", "reasonId": "Kalimat itu bukan pertanyaan." }
+        ],
+        "evidence": "because each activity ends in -ing"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why is the sentence about the two units less balanced?",
+        "options": [
+          { "id": "A", "text": "the sentence is too long" },
+          { "id": "B", "text": "it has no verbs" },
+          { "id": "C", "text": "the two parts do not follow the same sequence of ideas" },
+          { "id": "D", "text": "it uses too many adjectives" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'the two parts do not follow the same sequence of ideas', artinya kedua bagian tidak mengikuti urutan ide yang sama.",
+        "stepByStep": [
+          "Cari less balanced di teks.",
+          "Teks menjelaskan bahwa kedua bagian kalimat tidak mengikuti urutan ide yang sama.",
+          "Panjang kalimat, tidak adanya kata kerja, dan banyak kata sifat tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Panjang kalimat tidak disebut sebagai alasan." },
+          { "optionId": "B", "reasonId": "Kalimat itu punya kata kerja, dan tidak ada yang hilang." },
+          { "optionId": "D", "reasonId": "Jumlah kata sifat tidak disebut sebagai alasan." }
+        ],
+        "evidence": "the two parts do not follow the same sequence of ideas"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the passage, why does parallel structure help readers?",
+        "options": [
+          { "id": "A", "text": "it makes the sentence shorter" },
+          { "id": "B", "text": "the reader can predict what comes next" },
+          { "id": "C", "text": "it removes the need for punctuation" },
+          { "id": "D", "text": "it replaces all verbs" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'the reader can predict what comes next', artinya pembaca bisa memprediksi apa yang datang berikutnya.",
+        "stepByStep": [
+          "Cari readers di teks: 'the reader can predict what comes next.'",
+          "Teks menyebut pola yang sama membuat pembaca bisa memprediksi kelanjutannya.",
+          "Kalimat yang lebih pendek, tanpa tanda baca, dan penggantian kata kerja tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut kalimatnya menjadi lebih pendek." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut tanda baca dihapus." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut kata kerja diganti semua." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola yang sama dalam setiap item membuat pembaca bisa menebak bentuk berikutnya, sehingga teks lebih mudah diikuti.",
+          "examples": [
+            { "en": "She likes running, swimming, and cycling; the next item will also end in -ing.", "id": "Dia suka berlari, berenang, dan bersepeda; item berikutnya juga akan berakhiran -ing." },
+            { "en": "He works to earn money, to learn skills, and to help others.", "id": "Dia bekerja untuk mendapat uang, belajar keterampilan, dan membantu orang lain." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena parallel structure sering membuat kalimat rapi, tetapi teks menekankan prediksi pembaca, bukan panjang kalimat.",
+        "evidence": "the reader can predict what comes next"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the passage suggest a writer should do when one list item is a noun and another is a verb?",
+        "options": [
+          { "id": "A", "text": "add more nouns" },
+          { "id": "B", "text": "remove the verb" },
+          { "id": "C", "text": "rewrite the list so that every item has the same form" },
+          { "id": "D", "text": "read the sentence silently" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menyarankan 'rewrite the list so that every item has the same form', artinya tulis ulang daftarnya agar bentuknya sama.",
+        "stepByStep": [
+          "Cari noun dan verb di paragraf terakhir.",
+          "Teks menyarankan menulis ulang daftar agar setiap item memakai bentuk yang sama.",
+          "Menambah kata benda, menghapus kata kerja, dan membaca diam-diam tidak disebut sebagai solusi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menambah kata benda tidak disebut sebagai solusi." },
+          { "optionId": "B", "reasonId": "Menghapus kata kerja tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Membaca diam-diam tidak disebut sebagai solusi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jika item daftar tidak sejajar, tulis ulang semua item dalam bentuk yang sama.",
+          "examples": [
+            { "en": "Change 'reading, to write, and drawing' into 'reading, writing, and drawing'.", "id": "Ubah 'reading, to write, and drawing' menjadi 'reading, writing, and drawing'." },
+            { "en": "Change 'the cost, quick, and safe' into 'low cost, quick, and safe'.", "id": "Ubah 'the cost, quick, and safe' menjadi 'low cost, quick, and safe'." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti cara menambah isi, tetapi teks menyarankan menyamakan bentuk, bukan menambah kata benda.",
+        "evidence": "rewrite the list so that every item has the same form"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She enjoys swimming, cycling, and ___.",
+        "options": [
+          { "id": "A", "text": "hiking" },
+          { "id": "B", "text": "to hike" },
+          { "id": "C", "text": "hike" },
+          { "id": "D", "text": "hiked" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Swimming dan cycling berbentuk -ing, sehingga item ketiga juga hiking.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "To hike adalah infinitif, tidak sejajar dengan swimming dan cycling." },
+          { "optionId": "C", "reasonId": "Hike adalah bentuk dasar, tidak sejajar dengan dua item sebelumnya." },
+          { "optionId": "D", "reasonId": "Hiked adalah bentuk lampau, tidak sejajar dengan dua item sebelumnya." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The job requires patience, skill, and ___.",
+        "options": [
+          { "id": "A", "text": "to be creative" },
+          { "id": "B", "text": "creativity" },
+          { "id": "C", "text": "creating" },
+          { "id": "D", "text": "creative" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Patience dan skill adalah kata benda, sehingga item ketiga juga kata benda: creativity.",
+        "stepByStep": [
+          "Dua item pertama adalah kata benda: patience dan skill.",
+          "Item ketiga harus kata benda agar sejajar: creativity.",
+          "To be creative infinitif, creating bentuk -ing, dan creative adalah kata sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "To be creative adalah infinitif, tidak sejajar dengan kata benda." },
+          { "optionId": "C", "reasonId": "Creating adalah bentuk -ing, tidak sejajar dengan kata benda." },
+          { "optionId": "D", "reasonId": "Creative adalah kata sifat, tidak sejajar dengan kata benda." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The report was clear, short, and ___.",
+        "options": [
+          { "id": "A", "text": "accurate" },
+          { "id": "B", "text": "accuracy" },
+          { "id": "C", "text": "accurately" },
+          { "id": "D", "text": "to be accurate" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Clear dan short adalah kata sifat, sehingga item ketiga juga kata sifat: accurate.",
+        "stepByStep": [
+          "Clear dan short adalah kata sifat.",
+          "Item ketiga harus kata sifat agar sejajar: accurate.",
+          "Accuracy kata benda, accurately kata keterangan, dan to be accurate infinitif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Accuracy adalah kata benda, tidak sejajar dengan kata sifat." },
+          { "optionId": "C", "reasonId": "Accurately adalah kata keterangan, tidak sejajar dengan kata sifat." },
+          { "optionId": "D", "reasonId": "To be accurate adalah infinitif, tidak sejajar dengan kata sifat." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "She wanted not only to learn English but also ___ French.",
+        "options": [
+          { "id": "A", "text": "to speak" },
+          { "id": "B", "text": "speaking" },
+          { "id": "C", "text": "speak" },
+          { "id": "D", "text": "spoke" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah not only ___ to learn, bagian but also harus memakai bentuk yang sama: to speak.",
+        "stepByStep": [
+          "Bagian pertama memakai infinitif: to learn English.",
+          "Bagian kedua setelah but also juga harus infinitif: to speak French.",
+          "Speaking, speak, dan spoke tidak sejajar dengan to learn."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Speaking tidak sejajar dengan to learn." },
+          { "optionId": "C", "reasonId": "Speak adalah bentuk dasar, tidak sejajar dengan to learn." },
+          { "optionId": "D", "reasonId": "Spoke adalah bentuk lampau, tidak sejajar dengan to learn." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah not only dan but also, bentuk kata yang mengikutinya harus sama.",
+          "examples": [
+            { "en": "He wants not only to travel but also to study abroad.", "id": "Dia ingin tidak hanya bepergian tetapi juga belajar di luar negeri." },
+            { "en": "She is not only clever but also hardworking.", "id": "Dia tidak hanya pintar tetapi juga pekerja keras." }
+          ]
+        },
+        "examTrap": "Pilihan B speaking terlihat benar karena French disebut kedua, tetapi not only ___ but also menuntut bentuk yang sama dengan to learn."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Both the coach and the players ___ the rules.",
+        "options": [
+          { "id": "A", "text": "knows" },
+          { "id": "B", "text": "know" },
+          { "id": "C", "text": "knowing" },
+          { "id": "D", "text": "known" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Both ___ and menggabungkan dua subjek, sehingga kata kerjanya jamak: know.",
+        "stepByStep": [
+          "Both ___ and menggabungkan dua subjek menjadi jamak.",
+          "Kata kerja jamak present untuk know adalah know.",
+          "Knows tunggal, knowing dan known bukan kata kerja utama yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Knows tunggal, tidak cocok dengan dua subjek yang digabung." },
+          { "optionId": "C", "reasonId": "Knowing tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Known tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Both ___ and menggabungkan dua subjek sehingga kata kerjanya jamak.",
+          "examples": [
+            { "en": "Both the teacher and the students are ready.", "id": "Baik guru maupun para siswa sudah siap." },
+            { "en": "Both the bus and the train arrive at noon.", "id": "Bus maupun kereta tiba pada siang hari." }
+          ]
+        },
+        "examTrap": "Pilihan A knows terlihat benar karena coach tunggal, tetapi both ___ and menggabung dua subjek sehingga jamak."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia suka membaca, menulis, dan menggambar.",
+        "hint": "Membaca, menulis, menggambar: reading, writing, drawing.",
+        "acceptedAnswers": ["She likes reading, writing, and drawing.", "She likes reading, writing and drawing."],
+        "modelAnswer": "She likes reading, writing, and drawing.",
+        "commonErrors": [{ "pattern": "She likes reading, to write, and drawing", "feedbackId": "Semua item harus berbentuk -ing." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rencana itu cepat, murah, dan aman.",
+        "hint": "Cepat, murah, aman: fast, cheap, safe.",
+        "acceptedAnswers": ["The plan is fast, cheap, and safe.", "The plan is fast, cheap and safe."],
+        "modelAnswer": "The plan is fast, cheap, and safe.",
+        "commonErrors": [{ "pattern": "The plan is fast, cheap, and it is safe", "feedbackId": "Semua sifat dalam daftar harus berbentuk kata sifat." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia ingin bekerja di kota atau pindah ke luar negeri.",
+        "hint": "Ingin bekerja: to work. Pindah: to move.",
+        "acceptedAnswers": ["She wants to work in the city or to move abroad.", "She wants to work in the city or move abroad."],
+        "modelAnswer": "She wants to work in the city or to move abroad.",
+        "commonErrors": [{ "pattern": "She wants to work in the city or moving abroad", "feedbackId": "Setelah to work, bagian kedua juga memakai infinitif." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kami tidak hanya belajar tata bahasa, tetapi juga berlatih berbicara.",
+        "hint": "Tidak hanya ___ tetapi juga: not only ___ but also. Belajar dan berlatih harus sejajar.",
+        "acceptedAnswers": [
+          "We not only study grammar but also practice speaking.",
+          "We not only study grammar but also practice speaking every day."
+        ],
+        "modelAnswer": "We not only study grammar but also practice speaking.",
+        "commonErrors": [{ "pattern": "We not only study grammar but also to practice speaking", "feedbackId": "Setelah not only study, bagian kedua juga memakai kata kerja tanpa to." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Baik para guru maupun para siswa harus datang tepat waktu.",
+        "hint": "Baik ___ maupun: both ___ and. Para guru: the teachers. Para siswa: the students.",
+        "acceptedAnswers": [
+          "Both the teachers and the students must arrive on time.",
+          "Both the teacher and the students must arrive on time."
+        ],
+        "modelAnswer": "Both the teachers and the students must arrive on time.",
+        "commonErrors": [{ "pattern": "Both the teachers and students must arrives", "feedbackId": "Kedua bagian dalam both ___ and memakai bentuk yang sama, dan kata kerja setelah must tetap bentuk dasar." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the parallel form: 'The course teaches reading, writing, and ___.'",
+        "options": [
+          { "id": "A", "text": "to speak" },
+          { "id": "B", "text": "speaking" },
+          { "id": "C", "text": "speak" },
+          { "id": "D", "text": "spoken" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Reading dan writing berbentuk -ing, sehingga item ketiga juga speaking.",
+        "stepByStep": [
+          "Dua item pertama berbentuk -ing: reading dan writing.",
+          "Item ketiga harus berbentuk -ing agar sejajar: speaking.",
+          "To speak infinitif, speak bentuk dasar, dan spoken bentuk V3."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "To speak infinitif, tidak sejajar dengan reading dan writing." },
+          { "optionId": "C", "reasonId": "Speak bentuk dasar, tidak sejajar dengan dua item sebelumnya." },
+          { "optionId": "D", "reasonId": "Spoken bentuk V3, tidak sejajar dengan dua item sebelumnya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam daftar, semua item harus berada dalam bentuk yang sama.",
+          "examples": [
+            { "en": "The students practice listening, speaking, and writing.", "id": "Para siswa berlatih mendengarkan, berbicara, dan menulis." },
+            { "en": "He enjoys running, jumping, and climbing.", "id": "Dia senang berlari, melompat, dan memanjat." }
+          ]
+        },
+        "examTrap": "Pilihan A to speak terlihat seperti tujuan yang masuk akal, tetapi daftar ini harus semuanya -ing."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence has parallel structure?",
+        "options": [
+          { "id": "A", "text": "He is smart, funny, and he is kind." },
+          { "id": "B", "text": "He is smart, funny, and kindness." },
+          { "id": "C", "text": "He is smart, funny, and kind." },
+          { "id": "D", "text": "He is smart, funny, and kindly." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Smart, funny, dan kind adalah kata sifat, sehingga semua item sejajar.",
+        "stepByStep": [
+          "Smart dan funny adalah kata sifat.",
+          "Item ketiga harus kata sifat: kind.",
+          "Pilihan A memakai klausa, B memakai kata benda, dan D memakai kata keterangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "He is kind adalah klausa, tidak sejajar dengan kata sifat." },
+          { "optionId": "B", "reasonId": "Kindness adalah kata benda, tidak sejajar dengan kata sifat." },
+          { "optionId": "D", "reasonId": "Kindly adalah kata keterangan, tidak sejajar dengan kata sifat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat dalam daftar harus memakai bentuk kata sifat yang sama.",
+          "examples": [
+            { "en": "The bag is light, strong, and cheap.", "id": "Tas itu ringan, kuat, dan murah." },
+            { "en": "She is calm, careful, and patient.", "id": "Dia tenang, teliti, dan sabar." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena artinya lengkap, tetapi item ketiga adalah klausa dan tidak sejajar dengan dua sifat sebelumnya."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The team was not only fast but also ___.'",
+        "options": [
+          { "id": "A", "text": "accurate" },
+          { "id": "B", "text": "accuracy" },
+          { "id": "C", "text": "accurately" },
+          { "id": "D", "text": "to be accurate" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Fast adalah kata sifat, sehingga bagian kedua juga kata sifat: accurate.",
+        "stepByStep": [
+          "Fast adalah kata sifat yang diikuti but also.",
+          "Bagian kedua harus kata sifat agar sejajar: accurate.",
+          "Accuracy kata benda, accurately kata keterangan, dan to be accurate infinitif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Accuracy adalah kata benda, tidak sejajar dengan fast." },
+          { "optionId": "C", "reasonId": "Accurately adalah kata keterangan, tidak sejajar dengan fast." },
+          { "optionId": "D", "reasonId": "To be accurate adalah infinitif, tidak sejajar dengan fast." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Bentuk setelah not only ___ but also harus sejajar dengan bentuk sebelumnya.",
+          "examples": [
+            { "en": "She is not only kind but also generous.", "id": "Dia tidak hanya baik hati tetapi juga dermawan." },
+            { "en": "The plan is not only cheap but also safe.", "id": "Rencana itu tidak hanya murah tetapi juga aman." }
+          ]
+        },
+        "examTrap": "Pilihan D to be accurate terlihat seperti kalimat yang lengkap, tetapi bagian sebelumnya adalah kata sifat, bukan infinitif."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence compares two things in parallel form?",
+        "options": [
+          { "id": "A", "text": "The city is busy, and quiet is the village." },
+          { "id": "B", "text": "The city being busy, quiet is the village." },
+          { "id": "C", "text": "Busy is the city, and the village is quiet." },
+          { "id": "D", "text": "The city is busy, and the village is quiet." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Kedua bagian memakai pola yang sama: subjek, kata kerja is, dan kata sifat.",
+        "stepByStep": [
+          "Bagian pertama: the city is busy.",
+          "Bagian kedua: the village is quiet, dengan pola yang sama.",
+          "Pilihan A, B, dan C membalik urutan pola sehingga tidak sejajar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Quiet is the village membalik pola, sehingga tidak sejajar." },
+          { "optionId": "B", "reasonId": "The city being busy memakai bentuk berbeda dari bagian kedua." },
+          { "optionId": "C", "reasonId": "Busy is the city membalik pola, sehingga tidak sejajar dengan bagian kedua." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam perbandingan, kedua bagian harus memakai pola kalimat yang sama.",
+          "examples": [
+            { "en": "The shop is small, and the market is large.", "id": "Tokonya kecil, dan pasarnya besar." },
+            { "en": "The bus is cheap, and the train is fast.", "id": "Bus itu murah, dan kereta itu cepat." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat seperti cara menekankan perbandingan, tetapi pola kalimatnya tidak sama dengan bagian kedua."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which list is consistent in form?",
+        "options": [
+          { "id": "A", "text": "The team needs a leader, a plan, and to work hard." },
+          { "id": "B", "text": "The team needs a leader, a plan, and hard work." },
+          { "id": "C", "text": "The team needs a leader, a plan, and working hard." },
+          { "id": "D", "text": "The team needs a leader, a plan, and it works hard." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "A leader, a plan, dan hard work adalah frasa kata benda yang sejajar.",
+        "stepByStep": [
+          "A leader dan a plan adalah frasa kata benda.",
+          "Item ketiga harus frasa kata benda: hard work.",
+          "To work hard infinitif, working hard bentuk -ing, dan it works hard klausa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "To work hard adalah infinitif, tidak sejajar dengan frasa kata benda." },
+          { "optionId": "C", "reasonId": "Working hard bentuk -ing, tidak sejajar dengan frasa kata benda." },
+          { "optionId": "D", "reasonId": "It works hard adalah klausa, tidak sejajar dengan frasa kata benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Item dalam daftar harus memakai jenis frasa yang sama: kata benda, infinitif, atau -ing.",
+          "examples": [
+            { "en": "The class needs books, pens, and paper.", "id": "Kelas itu butuh buku, pulpen, dan kertas." },
+            { "en": "The team needs courage, time, and hard work.", "id": "Tim itu butuh keberanian, waktu, dan kerja keras." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena to work hard menjelaskan sesuatu yang dibutuhkan, tetapi bentuknya tidak sejajar dengan frasa benda."
+      }
+    ]
+  }
+}

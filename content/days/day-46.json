@@ -1,0 +1,615 @@
+{
+  "day": 46,
+  "week": 7,
+  "month": 2,
+  "title": "Word Form: -tion dan -ment",
+  "topic": "Mengenali kata benda dari kata kerja dengan akhiran -tion dan -ment",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membentuk kata benda dengan akhiran -tion dari kata kerja",
+    "Membentuk kata benda dengan akhiran -ment dari kata kerja",
+    "Memilih bentuk kata benda yang tepat setelah kata sandang atau kata sifat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "celebration", "pronunciationId": "se-le-BRAI-shun (tekanan di BRAI)", "pos": "Noun", "meaningId": "perayaan", "example": "The celebration starts at noon.", "exampleId": "Perayaannya dimulai pukul dua belas siang." },
+      { "no": 2, "en": "invention", "pronunciationId": "in-VEN-shun (tekanan di VEN)", "pos": "Noun", "meaningId": "penemuan, ciptaan", "example": "The invention saved a lot of time.", "exampleId": "Penemuan itu menghemat banyak waktu." },
+      { "no": 3, "en": "contribution", "pronunciationId": "kon-tri-BYOO-shun (tekanan di BYOO)", "pos": "Noun", "meaningId": "kontribusi, sumbangan", "example": "Her contribution was very important.", "exampleId": "Kontribusinya sangat penting." },
+      { "no": 4, "en": "attention", "pronunciationId": "a-TEN-shun (tekanan di TEN)", "pos": "Noun", "meaningId": "perhatian", "example": "Please pay attention to the rules.", "exampleId": "Tolong perhatikan aturannya." },
+      { "no": 5, "en": "solution", "pronunciationId": "so-LOO-shun (tekanan di LOO)", "pos": "Noun", "meaningId": "solusi, jalan keluar", "example": "We found a simple solution.", "exampleId": "Kami menemukan solusi yang sederhana." },
+      { "no": 6, "en": "discussion", "pronunciationId": "dis-KUSH-un (tekanan di KUSH)", "pos": "Noun", "meaningId": "diskusi", "example": "The discussion lasted two hours.", "exampleId": "Diskusinya berlangsung dua jam." },
+      { "no": 7, "en": "performance", "pronunciationId": "per-FOR-mans (tekanan di FOR)", "pos": "Noun", "meaningId": "penampilan, pertunjukan", "example": "The performance was excellent.", "exampleId": "Penampilannya sangat bagus." },
+      { "no": 8, "en": "population", "pronunciationId": "pop-yoo-LAI-shun (tekanan di LAI)", "pos": "Noun", "meaningId": "jumlah penduduk", "example": "The population of the town is growing.", "exampleId": "Jumlah penduduk kota itu bertambah." },
+      { "no": 9, "en": "development", "pronunciationId": "di-VEL-up-ment (tekanan di VEL)", "pos": "Noun", "meaningId": "pengembangan, perkembangan", "example": "The development of the park is complete.", "exampleId": "Pengembangan taman itu sudah selesai." },
+      { "no": 10, "en": "improvement", "pronunciationId": "im-PROOV-ment (tekanan di PROOV)", "pos": "Noun", "meaningId": "peningkatan, perbaikan", "example": "There is an improvement in the results.", "exampleId": "Ada peningkatan pada hasilnya." }
+    ],
+    "tip": "Akhiran -tion dan -ment mengubah kata kerja menjadi kata benda. Setelah a, the, atau her, pilih kata benda, bukan kata kerja."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["word form suffix tion ment", "TOEFL word form"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang akhiran -tion dan -ment untuk membentuk kata benda dari kata kerja.",
+      "watchFor": [
+        "Kata kerja yang berubah menjadi kata benda dengan -tion",
+        "Kata kerja yang berubah menjadi kata benda dengan -ment",
+        "Kata benda setelah the atau her"
+      ]
+    },
+    "lesson": {
+      "intro": "Bentuk kata menentukan fungsi kata dalam kalimat. Banyak kata kerja bisa diubah menjadi kata benda dengan akhiran -tion atau -ment. Kata benda ini sering muncul setelah kata sandang seperti the atau a, dan setelah kata sifat.",
+      "sections": [
+        {
+          "heading": "Akhiran -tion",
+          "bodyMd": "Akhiran **-tion** biasanya mengubah kata kerja menjadi kata benda: **invent** menjadi **invention**, **contribute** menjadi **contribution**, **discuss** menjadi **discussion**. Kata yang berakhiran -ate sering berubah menjadi -ation: **celebrate** menjadi **celebration**."
+        },
+        {
+          "heading": "Akhiran -ment",
+          "bodyMd": "Akhiran **-ment** juga membentuk kata benda: **develop** menjadi **development**, **improve** menjadi **improvement**, **argue** menjadi **argument**. Kata ini sering berada setelah **the**, **its**, atau **their**."
+        },
+        {
+          "heading": "Posisi kata benda",
+          "bodyMd": "Setelah **the**, **a**, **her**, atau **its**, gunakan kata benda: **the improvement of the system**, **her contribution**, **its development**. Jangan memakai kata kerja di posisi ini."
+        }
+      ],
+      "formulas": [
+        { "label": "-tion", "pattern": "kata kerja + -tion / -ation = kata benda" },
+        { "label": "-ment", "pattern": "kata kerja + -ment = kata benda" },
+        { "label": "Posisi", "pattern": "the / her / its + kata benda" },
+        { "label": "Sifat", "pattern": "kata sifat + kata benda" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The celebration of the festival was big.", "id": "Perayaan festival itu besar." },
+          { "en": "Her contribution helped the team.", "id": "Kontribusinya membantu tim." },
+          { "en": "The development of the park is finished.", "id": "Pengembangan taman itu sudah selesai." },
+          { "en": "The discussion gave us a useful solution.", "id": "Diskusinya memberi kami solusi yang berguna." },
+          { "en": "The improvement was clear to everyone.", "id": "Peningkatan itu jelas bagi semua orang." }
+        ],
+        "negative": [
+          { "en": "The celebration was not held this year.", "id": "Perayaan itu tidak diadakan tahun ini." },
+          { "en": "The invention is not ready yet.", "id": "Penemuan itu belum siap." },
+          { "en": "Her contribution was not small.", "id": "Kontribusinya kecil." },
+          { "en": "The development of the park is not slow.", "id": "Pengembangan taman itu lambat." },
+          { "en": "The discussion did not end on time.", "id": "Diskusinya tidak berakhir tepat waktu." }
+        ],
+        "question": [
+          { "en": "What is the celebration for?", "id": "Perayaan itu untuk apa?" },
+          { "en": "Is the population growing?", "id": "Apakah jumlah penduduk bertambah?" },
+          { "en": "What was the solution to the problem?", "id": "Apa solusi untuk masalah itu?" },
+          { "en": "Did the discussion finish on time?", "id": "Apakah diskusinya selesai tepat waktu?" },
+          { "en": "Who made the invention?", "id": "Siapa yang membuat penemuan itu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The celebrate was big.", "right": "The celebration was big.", "whyId": "Setelah the, gunakan kata benda celebration." },
+        { "wrong": "Her contribute helped the team.", "right": "Her contribution helped the team.", "whyId": "Setelah her, gunakan kata benda contribution." },
+        { "wrong": "The develop of the park is finished.", "right": "The development of the park is finished.", "whyId": "Kata benda dengan -ment adalah development." },
+        { "wrong": "The discuss lasted two hours.", "right": "The discussion lasted two hours.", "whyId": "Setelah the, gunakan kata benda discussion." },
+        { "wrong": "The improve of the results was clear.", "right": "The improvement of the results was clear.", "whyId": "Kata benda dari improve adalah improvement." },
+        { "wrong": "The solve is simple.", "right": "The solution is simple.", "whyId": "Kata benda dari solve adalah solution." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["word form suffix tion ment", "town festival planning conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata benda dengan -tion dan -ment dalam percakapan",
+        "Penggunaan the dan kata benda setelahnya"
+      ]
+    },
+    "script": {
+      "title": "Persiapan festival kota",
+      "lines": [
+        { "speaker": "Nia", "text": "Our town's celebration is next month. Did you pay attention to the schedule?" },
+        { "speaker": "Raka", "text": "Yes. The discussion about the performance was long, but the solution is clear." },
+        { "speaker": "Nia", "text": "The population has grown, so the contribution from volunteers matters more." },
+        { "speaker": "Raka", "text": "I read about a new invention for the stage lights. It is an improvement." },
+        { "speaker": "Nia", "text": "Good. The development of the park will also be shown during the event." },
+        { "speaker": "Raka", "text": "Who is responsible for the program? I need a clear plan." },
+        { "speaker": "Nia", "text": "The committee will announce it on Friday." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada celebration, tekanan ada di suku kedua: se-le-BRAI-shun.",
+      "Pada discussion, ucapkan dis-KUSH-un dengan bunyi sh yang jelas.",
+      "Pada development dan improvement, tekanan ada di suku pertama: di-VEL-up-ment, im-PROOV-ment."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "When is the celebration?",
+        "options": [
+          { "id": "A", "text": "next week" },
+          { "id": "B", "text": "next month" },
+          { "id": "C", "text": "last year" },
+          { "id": "D", "text": "tomorrow" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Nia berkata 'Our town's celebration is next month', artinya perayaannya bulan depan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Minggu depan tidak disebut sebagai waktu perayaan." },
+          { "optionId": "C", "reasonId": "Tahun lalu adalah waktu yang sudah lewat, bukan waktu perayaan." },
+          { "optionId": "D", "reasonId": "Besok tidak disebut sebagai waktu perayaan." }
+        ],
+        "evidence": "celebration is next month"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does Raka say about the discussion?",
+        "options": [
+          { "id": "A", "text": "It was short and confusing." },
+          { "id": "B", "text": "It was cancelled." },
+          { "id": "C", "text": "It was long, but the solution is clear." },
+          { "id": "D", "text": "It was held online only." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Raka berkata 'The discussion about the performance was long, but the solution is clear', artinya diskusinya panjang, tetapi solusinya jelas.",
+        "stepByStep": [
+          "Cari discussion di naskah Raka: 'The discussion about the performance was long, but the solution is clear.'",
+          "Raka menyebut diskusinya panjang, tetapi solusinya jelas.",
+          "Singkat dan membingungkan, dibatalkan, dan hanya daring bertentangan dengan kalimat Raka."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Raka menyebut solusinya jelas, bukan membingungkan." },
+          { "optionId": "B", "reasonId": "Diskusi tidak dibatalkan dalam percakapan." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut diskusi hanya daring." }
+        ],
+        "evidence": "the solution is clear"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does Nia say about the population?",
+        "options": [
+          { "id": "A", "text": "The population has shrunk." },
+          { "id": "B", "text": "The population has grown, so volunteers matter more." },
+          { "id": "C", "text": "The volunteers are leaving." },
+          { "id": "D", "text": "The population is unknown." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Nia berkata 'The population has grown, so the contribution from volunteers matters more', artinya penduduk bertambah, sehingga kontribusi relawan semakin penting.",
+        "stepByStep": [
+          "Cari population di naskah Nia.",
+          "Nia menyebut jumlah penduduk sudah bertambah.",
+          "Penduduk menyusut, relawan pergi, dan jumlah penduduk tidak diketahui bertentangan dengan kalimat Nia."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Penduduk menyusut bertentangan dengan has grown." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut relawan pergi." },
+          { "optionId": "D", "reasonId": "Jumlah penduduk disebut dan bertambah, jadi tidak tidak diketahui." }
+        ],
+        "evidence": "The population has grown"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Raka think about the new invention?",
+        "options": [
+          { "id": "A", "text": "It is a problem." },
+          { "id": "B", "text": "It is too expensive." },
+          { "id": "C", "text": "It is unrelated to the event." },
+          { "id": "D", "text": "It is an improvement." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Raka berkata 'It is an improvement', artinya penemuan itu adalah peningkatan.",
+        "stepByStep": [
+          "Cari invention di naskah Raka: 'I read about a new invention for the stage lights. It is an improvement.'",
+          "Kalimat kedua langsung menilai penemuan itu sebagai peningkatan.",
+          "Masalah, mahal, dan tidak berhubungan dengan acara tidak disebut oleh Raka."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Raka menyebutnya peningkatan, bukan masalah." },
+          { "optionId": "B", "reasonId": "Harga tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Raka membicarakan penemuan itu untuk lampu panggung acara." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda improvement berarti perbaikan atau peningkatan, dan biasanya dipakai untuk menilai sesuatu yang lebih baik.",
+          "examples": [
+            { "en": "The new road is a big improvement.", "id": "Jalan baru itu adalah peningkatan yang besar." },
+            { "en": "There is an improvement in the test results.", "id": "Ada peningkatan pada hasil tes." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena penemuan sering dianggap solusi untuk masalah, tetapi Raka menilainya sebagai peningkatan.",
+        "evidence": "It is an improvement"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Who is responsible for the program?",
+        "options": [
+          { "id": "A", "text": "Nia alone" },
+          { "id": "B", "text": "Raka alone" },
+          { "id": "C", "text": "the committee" },
+          { "id": "D", "text": "the volunteers" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Nia berkata 'The committee will announce it on Friday', dan panitia yang akan mengumumkan program.",
+        "stepByStep": [
+          "Raka bertanya siapa yang bertanggung jawab atas program.",
+          "Nia menjawab bahwa panitia akan mengumumkannya pada Jumat.",
+          "Nia sendiri, Raka sendiri, dan relawan tidak disebut sebagai penanggung jawab."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Nia tidak disebut sebagai penanggung jawab." },
+          { "optionId": "B", "reasonId": "Raka justru yang bertanya, bukan penanggung jawab." },
+          { "optionId": "D", "reasonId": "Relawan disebut sebagai kontribusi, tidak sebagai penanggung jawab program." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan who dalam percakapan sering dijawab dengan nama kelompok yang bertanggung jawab.",
+          "examples": [
+            { "en": "Who is responsible for the schedule? The committee is.", "id": "Siapa yang bertanggung jawab atas jadwal? Panitialah." },
+            { "en": "Who announces the winner? The judges do.", "id": "Siapa yang mengumumkan pemenang? Para juri." }
+          ]
+        },
+        "examTrap": "Pilihan D the volunteers terlihat cocok karena relawan disebut dalam percakapan, tetapi teks menyebut mereka sebagai kontribusi, bukan penanggung jawab.",
+        "evidence": "The committee will announce it"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the new bridge took two years.",
+        "options": [
+          { "id": "A", "text": "construct" },
+          { "id": "B", "text": "constructed" },
+          { "id": "C", "text": "construction" },
+          { "id": "D", "text": "constructive" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Setelah the, kata benda construction berarti pembangunan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Construct adalah kata kerja, tidak cocok setelah the." },
+          { "optionId": "B", "reasonId": "Constructed adalah kata kerja lampau, tidak cocok setelah the." },
+          { "optionId": "D", "reasonId": "Constructive adalah kata sifat, tidak cocok sebagai subjek kata benda." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Her ___ to the project was very important.",
+        "options": [
+          { "id": "A", "text": "contribute" },
+          { "id": "B", "text": "contributing" },
+          { "id": "C", "text": "contributes" },
+          { "id": "D", "text": "contribution" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Setelah her, gunakan kata benda: contribution.",
+        "stepByStep": [
+          "Her adalah kata ganti kepemilikan yang harus diikuti kata benda.",
+          "Kata benda dari contribute adalah contribution.",
+          "Contribute dan contributes adalah kata kerja, dan contributing bukan bentuk yang tepat di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Contribute adalah kata kerja, tidak cocok setelah her." },
+          { "optionId": "B", "reasonId": "Contributing bukan kata benda yang tepat di sini." },
+          { "optionId": "C", "reasonId": "Contributes adalah kata kerja, tidak cocok setelah her." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The ___ of the school improved after the new teacher arrived.",
+        "options": [
+          { "id": "A", "text": "develop" },
+          { "id": "B", "text": "developer" },
+          { "id": "C", "text": "development" },
+          { "id": "D", "text": "developing" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Setelah the, kata benda development berarti perkembangan.",
+        "stepByStep": [
+          "Setelah the, gunakan kata benda.",
+          "Kata benda dari develop dengan akhiran -ment adalah development.",
+          "Developer berarti pengembang, orang, bukan perkembangan sekolah. Develop dan developing bukan kata benda yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Develop adalah kata kerja, tidak cocok setelah the." },
+          { "optionId": "B", "reasonId": "Developer berarti orang yang mengembangkan, tidak cocok dengan perkembangan sekolah." },
+          { "optionId": "D", "reasonId": "Developing bukan kata benda yang tepat di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "After the ___, the team agreed on a plan.",
+        "options": [
+          { "id": "A", "text": "discuss" },
+          { "id": "B", "text": "discussion" },
+          { "id": "C", "text": "discussed" },
+          { "id": "D", "text": "discussing" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah the, gunakan kata benda discussion, dan after diikuti kata benda untuk peristiwa.",
+        "stepByStep": [
+          "After diikuti kata benda untuk peristiwa.",
+          "Kata benda dari discuss adalah discussion.",
+          "Discuss adalah kata kerja, discussed adalah lampau, dan discussing bukan kata benda yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Discuss adalah kata kerja, tidak cocok setelah after the." },
+          { "optionId": "C", "reasonId": "Discussed adalah kata kerja lampau, tidak cocok setelah the." },
+          { "optionId": "D", "reasonId": "Discussing bukan kata benda yang tepat di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah after the, gunakan kata benda untuk peristiwa.",
+          "examples": [
+            { "en": "After the meeting, we went home.", "id": "Setelah rapat, kami pulang." },
+            { "en": "After the celebration, the streets were quiet.", "id": "Setelah perayaan, jalanan sepi." }
+          ]
+        },
+        "examTrap": "Pilihan D discussing terlihat seperti bentuk yang cocok setelah kata depan, tetapi di sini dibutuhkan kata benda."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ of the new system was clearly better than before.",
+        "options": [
+          { "id": "A", "text": "improving" },
+          { "id": "B", "text": "improve" },
+          { "id": "C", "text": "improvement" },
+          { "id": "D", "text": "improved" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Setelah the, kata benda improvement berarti peningkatan sistem.",
+        "stepByStep": [
+          "Setelah the, gunakan kata benda.",
+          "Kata benda dari improve dengan akhiran -ment adalah improvement.",
+          "Improving dan improved bukan kata benda yang tepat, dan improve adalah kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Improving bukan kata benda yang tepat di sini." },
+          { "optionId": "B", "reasonId": "Improve adalah kata kerja, tidak cocok setelah the." },
+          { "optionId": "D", "reasonId": "Improved adalah kata sifat atau kata kerja lampau, tidak cocok setelah the." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda dari improve adalah improvement, dengan akhiran -ment.",
+          "examples": [
+            { "en": "The improvement of the road was quick.", "id": "Peningkatan jalan itu cepat." },
+            { "en": "The improvement in the results is clear.", "id": "Peningkatan pada hasil itu jelas." }
+          ]
+        },
+        "examTrap": "Pilihan D improved terlihat seperti kata yang sudah dikenal, tetapi setelah the dibutuhkan kata benda."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Pertunjukan itu sangat bagus.",
+        "hint": "Pertunjukan: performance. Sangat bagus: very good.",
+        "acceptedAnswers": ["The performance was very good.", "The performance was excellent."],
+        "modelAnswer": "The performance was very good.",
+        "commonErrors": [{ "pattern": "The perform was very good", "feedbackId": "Setelah the, gunakan kata benda performance." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penemuan baru itu membantu para petani.",
+        "hint": "Penemuan baru: the new invention. Membantu: helps. Para petani: the farmers.",
+        "acceptedAnswers": ["The new invention helps the farmers.", "The new invention is helping the farmers."],
+        "modelAnswer": "The new invention helps the farmers.",
+        "commonErrors": [{ "pattern": "The new invent helps the farmers", "feedbackId": "Kata benda dari invent adalah invention." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Perayaan itu dihadiri oleh banyak orang.",
+        "hint": "Perayaan: celebration. Dihadiri: was attended by. Banyak orang: many people.",
+        "acceptedAnswers": ["The celebration was attended by many people.", "The celebration was attended by a lot of people."],
+        "modelAnswer": "The celebration was attended by many people.",
+        "commonErrors": [{ "pattern": "The celebrate was attended by many people", "feedbackId": "Setelah the, gunakan kata benda celebration." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Diskusi tentang solusi itu berlangsung lama.",
+        "hint": "Diskusi: discussion. Solusi: solution. Berlangsung lama: lasted a long time.",
+        "acceptedAnswers": [
+          "The discussion about the solution lasted a long time.",
+          "The discussion about the solution went on for a long time."
+        ],
+        "modelAnswer": "The discussion about the solution lasted a long time.",
+        "commonErrors": [{ "pattern": "The discuss about the solve lasted a long time", "feedbackId": "Gunakan kata benda discussion dan solution." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kontribusi dan perhatian para relawan sangat penting bagi pengembangan kota.",
+        "hint": "Kontribusi: contribution. Perhatian: attention. Pengembangan kota: the development of the city.",
+        "acceptedAnswers": [
+          "The contribution and attention of the volunteers are very important for the development of the city.",
+          "The contributions and attention of the volunteers are very important for the city's development."
+        ],
+        "modelAnswer": "The contribution and attention of the volunteers are very important for the development of the city.",
+        "commonErrors": [{ "pattern": "The contribute and attention of the volunteers is important for the develop of the city", "feedbackId": "Gunakan kata benda contribution dan development." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The company announced its ___ in the new software.'",
+        "options": [
+          { "id": "A", "text": "improve" },
+          { "id": "B", "text": "improvement" },
+          { "id": "C", "text": "improving" },
+          { "id": "D", "text": "improved" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah its, gunakan kata benda: improvement.",
+        "stepByStep": [
+          "Its adalah kata ganti kepemilikan yang harus diikuti kata benda.",
+          "Kata benda dari improve adalah improvement.",
+          "Improve kata kerja, improving bentuk -ing, dan improved kata sifat atau lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Improve adalah kata kerja, tidak cocok setelah its." },
+          { "optionId": "C", "reasonId": "Improving bukan kata benda yang tepat setelah its." },
+          { "optionId": "D", "reasonId": "Improved adalah kata sifat atau lampau, tidak cocok setelah its." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah its, their, our, atau her, gunakan kata benda.",
+          "examples": [
+            { "en": "Its development was slow.", "id": "Perkembangannya lambat." },
+            { "en": "Their contribution was clear.", "id": "Kontribusi mereka jelas." }
+          ]
+        },
+        "examTrap": "Pilihan D improved terlihat seperti kata yang sudah berubah, tetapi setelah its harus kata benda."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which word correctly completes: 'The ___ of the town grew rapidly in ten years.'",
+        "options": [
+          { "id": "A", "text": "populate" },
+          { "id": "B", "text": "populous" },
+          { "id": "C", "text": "population" },
+          { "id": "D", "text": "populated" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Setelah the, gunakan kata benda population untuk jumlah penduduk.",
+        "stepByStep": [
+          "The ___ of the town adalah subjek kata benda.",
+          "Kata benda yang berarti jumlah penduduk adalah population.",
+          "Populate kata kerja, populous kata sifat, dan populated kata sifat atau lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Populate adalah kata kerja, tidak cocok setelah the." },
+          { "optionId": "B", "reasonId": "Populous adalah kata sifat, tidak cocok sebagai subjek." },
+          { "optionId": "D", "reasonId": "Populated adalah kata sifat atau lampau, tidak cocok setelah the." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Population adalah kata benda untuk jumlah penduduk, dan dibentuk dari populate.",
+          "examples": [
+            { "en": "The population of the village is small.", "id": "Jumlah penduduk desa itu kecil." },
+            { "en": "The population grew after the new road opened.", "id": "Jumlah penduduk bertambah setelah jalan baru dibuka." }
+          ]
+        },
+        "examTrap": "Pilihan B populous terlihat seperti kata yang sejalan dengan town, tetapi itu kata sifat."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'The team reached a ___ after a long discussion.'",
+        "options": [
+          { "id": "A", "text": "solve" },
+          { "id": "B", "text": "solution" },
+          { "id": "C", "text": "solving" },
+          { "id": "D", "text": "solved" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah a, gunakan kata benda tunggal solution untuk hasil diskusi.",
+        "stepByStep": [
+          "Setelah a, kata benda harus tunggal.",
+          "Kata benda dari solve dengan akhiran -tion adalah solution.",
+          "Solve kata kerja, solving bentuk -ing, dan solved kata sifat atau lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Solve adalah kata kerja, tidak cocok setelah a." },
+          { "optionId": "C", "reasonId": "Solving bukan kata benda yang tepat setelah a." },
+          { "optionId": "D", "reasonId": "Solved adalah kata sifat atau lampau, tidak cocok setelah a." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah a, gunakan kata benda tunggal. Solution adalah kata benda untuk jalan keluar.",
+          "examples": [
+            { "en": "The team found a solution.", "id": "Tim itu menemukan solusi." },
+            { "en": "We need a clear solution for this problem.", "id": "Kami butuh solusi yang jelas untuk masalah ini." }
+          ]
+        },
+        "examTrap": "Pilihan D solved terlihat sesuai dengan makna selesai, tetapi setelah a dibutuhkan kata benda."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence uses the noun form correctly?",
+        "options": [
+          { "id": "A", "text": "The invent of the phone changed daily life." },
+          { "id": "B", "text": "The invented of the phone changed daily life." },
+          { "id": "C", "text": "The inventive of the phone changed daily life." },
+          { "id": "D", "text": "The invention of the phone changed daily life." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Setelah the, kata benda invention berarti penemuan, dan kalimat utama memakai changed.",
+        "stepByStep": [
+          "Setelah the, gunakan kata benda invention.",
+          "Kalimat utama memakai changed, bentuk lampau yang cocok dengan konteks.",
+          "Invent kata kerja, invented bentuk lampau atau sifat, dan inventive kata sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Invent adalah kata kerja, tidak cocok setelah the." },
+          { "optionId": "B", "reasonId": "Invented adalah bentuk lampau atau sifat, tidak cocok setelah the." },
+          { "optionId": "C", "reasonId": "Inventive adalah kata sifat, tidak cocok setelah the." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda dari invent adalah invention, dengan akhiran -tion.",
+          "examples": [
+            { "en": "The invention of the car changed travel.", "id": "Penemuan mobil mengubah cara bepergian." },
+            { "en": "The invention made the work faster.", "id": "Penemuan itu membuat pekerjaan lebih cepat." }
+          ]
+        },
+        "examTrap": "Pilihan C inventive terlihat seperti bentuk yang cocok dengan kata penemuan, tetapi itu kata sifat."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which pair completes the sentence? 'The ___ of the park was a great ___ for the town.'",
+        "options": [
+          { "id": "A", "text": "development / contribution" },
+          { "id": "B", "text": "develop / contribute" },
+          { "id": "C", "text": "developing / contributing" },
+          { "id": "D", "text": "developed / contributed" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah the dan a, gunakan kata benda: development dan contribution.",
+        "stepByStep": [
+          "Setelah the dan a, kedua tempat membutuhkan kata benda.",
+          "Kata benda dari develop adalah development, dan dari contribute adalah contribution.",
+          "Pilihan B, C, dan D memakai kata kerja atau bentuk lampau yang tidak cocok setelah the dan a."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Develop dan contribute adalah kata kerja, tidak cocok setelah the dan a." },
+          { "optionId": "C", "reasonId": "Developing dan contributing bukan kata benda yang tepat di sini." },
+          { "optionId": "D", "reasonId": "Developed dan contributed adalah kata kerja lampau, tidak cocok di posisi ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah the dan a, gunakan kata benda. Akhiran -ment dan -tion membentuk kata benda dari kata kerja.",
+          "examples": [
+            { "en": "The development of the city is slow.", "id": "Pengembangan kota itu lambat." },
+            { "en": "The contribution was a great help.", "id": "Kontribusi itu sangat membantu." }
+          ]
+        },
+        "examTrap": "Pilihan D developed / contributed terlihat seperti pasangan yang sudah selesai, tetapi posisi itu membutuhkan kata benda."
+      }
+    ]
+  }
+}

@@ -1,0 +1,611 @@
+{
+  "day": 51,
+  "week": 7,
+  "month": 2,
+  "title": "Review Minggu 7",
+  "topic": "Review: strategi membaca, bentuk sejajar, dan bentuk kata dalam minggu 7",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang bentuk sejajar dalam daftar",
+    "Meninjau ulang skimming, scanning, dan ide utama",
+    "Meninjau ulang akhiran kata benda, sifat, dan keterangan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "parallel", "pronunciationId": "PA-ra-lel (tekanan di PA)", "pos": "Adj", "meaningId": "sejajar", "example": "Keep the list parallel.", "exampleId": "Jagalah daftar itu tetap sejajar." },
+      { "no": 2, "en": "skim", "pronunciationId": "SKIM (i pendek, m jelas)", "pos": "Verb", "meaningId": "membaca sekilas", "example": "Skim the text first.", "exampleId": "Bacalah teks itu sekilas dulu." },
+      { "no": 3, "en": "scan", "pronunciationId": "SKAN (a pendek, n jelas)", "pos": "Verb", "meaningId": "memindai", "example": "Scan for the date.", "exampleId": "Pindailah untuk mencari tanggalnya." },
+      { "no": 4, "en": "creative", "pronunciationId": "kree-AI-tiv (tekanan di AI)", "pos": "Adj", "meaningId": "kreatif", "example": "A creative idea helps the team.", "exampleId": "Ide kreatif membantu tim." },
+      { "no": 5, "en": "celebration", "pronunciationId": "se-le-BRAI-shun (tekanan di BRAI)", "pos": "Noun", "meaningId": "perayaan", "example": "The celebration was fun.", "exampleId": "Perayaannya menyenangkan." },
+      { "no": 6, "en": "rarely", "pronunciationId": "RAIR-li (tekanan di RAIR)", "pos": "Adv", "meaningId": "jarang sekali", "example": "Rarely do we see such a view.", "exampleId": "Jarang sekali kami melihat pemandangan seperti itu." },
+      { "no": 7, "en": "thesis", "pronunciationId": "THEE-sis (tekanan di THEE)", "pos": "Noun", "meaningId": "tesis, pernyataan utama", "example": "The thesis is stated clearly.", "exampleId": "Tesisnya dinyatakan dengan jelas." },
+      { "no": 8, "en": "reference", "pronunciationId": "REF-rens (tekanan di REF)", "pos": "Noun", "meaningId": "rujukan, referensi", "example": "Use the reference section.", "exampleId": "Gunakan bagian rujukan." },
+      { "no": 9, "en": "context", "pronunciationId": "KON-tekst (tekanan di KON)", "pos": "Noun", "meaningId": "konteks", "example": "The context gives a clue.", "exampleId": "Konteksnya memberi petunjuk." },
+      { "no": 10, "en": "locate", "pronunciationId": "LOH-kayt (tekanan di LOH)", "pos": "Verb", "meaningId": "menemukan lokasi", "example": "Locate the main idea.", "exampleId": "Temukan ide utamanya." }
+    ],
+    "tip": "Di sesi review ini, cek tiga hal: apakah daftar sejajar, apakah kamu memilih strategi membaca yang tepat, dan apakah bentuk kata sesuai posisinya dalam kalimat."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL reading strategies review", "TOEFL written expression review"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum bentuk sejajar, strategi membaca, dan akhiran kata untuk minggu 7.",
+      "watchFor": [
+        "Bentuk sejajar dalam daftar",
+        "Skimming dan scanning untuk tujuan berbeda",
+        "Akhiran -tion, -ment, -ive, -al, dan -ly"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 7 membahas tiga hal: menjaga bentuk sejajar, memilih cara membaca yang tepat, dan mengenali bentuk kata dari akhirannya. Hari ini kamu meninjau semuanya dalam satu sesi.",
+      "sections": [
+        {
+          "heading": "Peta minggu 7",
+          "bodyMd": "**Bentuk sejajar** berarti item dalam daftar memakai bentuk yang sama. **Skimming** untuk gambaran umum, **scanning** untuk informasi tertentu. **Ide utama** dicari dari tesis dan detail pendukung. **Akhiran** -tion dan -ment membentuk kata benda, sedangkan -ive, -al, dan -ly membentuk kata sifat atau keterangan."
+        },
+        {
+          "heading": "Cara memeriksa",
+          "bodyMd": "Tanyakan: (1) apakah semua item dalam daftar sejajar, (2) apakah tujuan membacaku skim atau scan, (3) apakah bentuk kata sudah sesuai posisi setelah the, a, atau her."
+        }
+      ],
+      "formulas": [
+        { "label": "Daftar", "pattern": "item 1, item 2, and item 3 (bentuk yang sama)" },
+        { "label": "Skim", "pattern": "judul + headline + paragraf awal dan akhir" },
+        { "label": "Scan", "pattern": "kata kunci, angka, atau nama + kalimat sekitarnya" },
+        { "label": "Bentuk kata", "pattern": "the / her + kata benda (-tion, -ment); kata sifat (-ive, -al) sebelum kata benda" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "She likes reading, writing, and drawing.", "id": "Dia suka membaca, menulis, dan menggambar." },
+          { "en": "Skim the article, then scan for the date.", "id": "Bacalah artikel itu sekilas, lalu pindai untuk mencari tanggalnya." },
+          { "en": "The thesis is stated in the first paragraph.", "id": "Tesisnya dinyatakan di paragraf pertama." },
+          { "en": "The celebration was a creative success.", "id": "Perayaannya adalah keberhasilan yang kreatif." },
+          { "en": "Rarely do we see such a creative idea.", "id": "Jarang sekali kami melihat ide yang kreatif seperti itu." }
+        ],
+        "negative": [
+          { "en": "She does not like reading, writing, or drawing.", "id": "Dia tidak suka membaca, menulis, atau menggambar." },
+          { "en": "The article is not read by skimming alone.", "id": "Artikel itu tidak dibaca hanya dengan membaca sekilas." },
+          { "en": "The thesis is not stated in the last paragraph.", "id": "Tesisnya tidak dinyatakan di paragraf terakhir." },
+          { "en": "The celebration was not held this week.", "id": "Perayaannya tidak diadakan minggu ini." },
+          { "en": "Rarely do we see such creative work.", "id": "Jarang sekali kami melihat karya yang kreatif seperti itu." }
+        ],
+        "question": [
+          { "en": "Is every item in the list parallel?", "id": "Apakah setiap item dalam daftar sejajar?" },
+          { "en": "Do you skim or scan for the date?", "id": "Apakah kamu membaca sekilas atau memindai untuk mencari tanggalnya?" },
+          { "en": "What is the thesis of the passage?", "id": "Apa tesis teks itu?" },
+          { "en": "Which word form is needed after the?", "id": "Bentuk kata apa yang dibutuhkan setelah the?" },
+          { "en": "Where can you locate the main idea?", "id": "Di mana kamu bisa menemukan ide utama?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She likes reading, to write, and drawing.", "right": "She likes reading, writing, and drawing.", "whyId": "Semua item dalam daftar harus berbentuk -ing." },
+        { "wrong": "I scan the article to get an overview.", "right": "I skim the article to get an overview.", "whyId": "Untuk gambaran umum, gunakan skim." },
+        { "wrong": "The celebrate was fun.", "right": "The celebration was fun.", "whyId": "Setelah the, gunakan kata benda celebration." },
+        { "wrong": "The creatively idea helped the team.", "right": "The creative idea helped the team.", "whyId": "Sebelum kata benda idea, gunakan kata sifat creative." },
+        { "wrong": "Rarely we see such a creative idea.", "right": "Rarely do we see such a creative idea.", "whyId": "Setelah rarely, kata bantu do dipindah ke depan subjek." },
+        { "wrong": "The thesis are stated clearly.", "right": "The thesis is stated clearly.", "whyId": "Thesis adalah kata benda tunggal, jadi memakai is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL reading strategies review", "study session conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Bentuk sejajar dalam percakapan",
+        "Skim, scan, dan locate dalam diskusi"
+      ]
+    },
+    "script": {
+      "title": "Review bersama tutor",
+      "lines": [
+        { "speaker": "Tutor", "text": "Let's review week seven. First, what makes a list parallel?" },
+        { "speaker": "Student", "text": "All items should have the same form, like reading, writing, and drawing." },
+        { "speaker": "Tutor", "text": "Good. When you skim a text, what do you do first?" },
+        { "speaker": "Student", "text": "I look at the title and the first paragraph. Then I scan for specific information." },
+        { "speaker": "Tutor", "text": "Right. And how do you check a word form?" },
+        { "speaker": "Student", "text": "A creative idea is an adjective, and a celebration is a noun." },
+        { "speaker": "Tutor", "text": "Rarely do students forget the suffix rules. Can you use the thesis of an essay in a sentence?" },
+        { "speaker": "Student", "text": "The thesis is the main claim. I should locate it in the first paragraph and check the context." },
+        { "speaker": "Tutor", "text": "Exactly. Use the reference section to find the context of any unfamiliar word." },
+        { "speaker": "Student", "text": "Thanks. I will review every day this week." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada parallel, tekanan ada di suku pertama: PA-ra-lel.",
+      "Pada celebration, tekanan ada di suku kedua: se-le-BRAI-shun.",
+      "Pada context, tekanan ada di suku pertama: KON-tekst."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the tutor ask about first?",
+        "options": [
+          { "id": "A", "text": "the length of the essay" },
+          { "id": "B", "text": "what makes a list parallel" },
+          { "id": "C", "text": "the price of the book" },
+          { "id": "D", "text": "the color of the page" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'First, what makes a list parallel?', artinya pertanyaan pertama adalah apa yang membuat daftar sejajar.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Panjang esai tidak ditanyakan pertama." },
+          { "optionId": "C", "reasonId": "Harga buku tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Warna halaman tidak disebut dalam percakapan." }
+        ],
+        "evidence": "what makes a list parallel"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does the student say about a list like 'reading, writing, and drawing'?",
+        "options": [
+          { "id": "A", "text": "items should be random" },
+          { "id": "B", "text": "the items should have different forms" },
+          { "id": "C", "text": "All items should have the same form" },
+          { "id": "D", "text": "items should be very long" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Siswa berkata 'All items should have the same form', artinya semua item harus berbentuk sama.",
+        "stepByStep": [
+          "Cari list di naskah siswa.",
+          "Siswa menyebut semua item harus memakai bentuk yang sama.",
+          "Acak, bentuk berbeda, dan panjang tidak sesuai dengan penjelasan siswa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Item yang acak bertentangan dengan bentuk sejajar." },
+          { "optionId": "B", "reasonId": "Bentuk yang berbeda bertentangan dengan bentuk sejajar." },
+          { "optionId": "D", "reasonId": "Panjang item tidak disebut sebagai syarat." }
+        ],
+        "evidence": "All items should have the same form"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does the student do first when skimming?",
+        "options": [
+          { "id": "A", "text": "reads every word" },
+          { "id": "B", "text": "translates the text" },
+          { "id": "C", "text": "copies the whole text" },
+          { "id": "D", "text": "looks at the title and the first paragraph" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Siswa berkata 'I look at the title and the first paragraph', artinya ia melihat judul dan paragraf pertama.",
+        "stepByStep": [
+          "Cari skim di naskah tutor, lalu jawaban siswa.",
+          "Siswa menyebut judul dan paragraf pertama.",
+          "Membaca setiap kata, menerjemahkan, dan menyalin tidak sesuai dengan skimming."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Membaca setiap kata bertentangan dengan skimming." },
+          { "optionId": "B", "reasonId": "Menerjemahkan tidak disebut dalam jawaban siswa." },
+          { "optionId": "C", "reasonId": "Menyalin seluruh teks tidak disebut dalam jawaban siswa." }
+        ],
+        "evidence": "I look at the title and the first paragraph"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is the thesis, according to the student?",
+        "options": [
+          { "id": "A", "text": "the main claim" },
+          { "id": "B", "text": "a small detail" },
+          { "id": "C", "text": "a headline" },
+          { "id": "D", "text": "a suffix" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Siswa berkata 'The thesis is the main claim', artinya tesis adalah pernyataan utama.",
+        "stepByStep": [
+          "Cari thesis di naskah siswa: 'The thesis is the main claim.'",
+          "Siswa menjelaskan thesis sebagai pernyataan utama.",
+          "Detail kecil, judul, dan akhiran kata tidak sesuai dengan penjelasan siswa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Detail kecil bukan tesis, menurut siswa." },
+          { "optionId": "C", "reasonId": "Headline adalah judul, bukan tesis." },
+          { "optionId": "D", "reasonId": "Akhiran kata tidak disebut sebagai tesis." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tesis adalah pernyataan utama yang didukung oleh detail sepanjang teks.",
+          "examples": [
+            { "en": "The thesis of the essay is that reading helps learning.", "id": "Tesis esai itu adalah membaca membantu belajar." },
+            { "en": "The main claim is stated at the beginning.", "id": "Pernyataan utama dinyatakan di awal." }
+          ]
+        },
+        "examTrap": "Pilihan B a small detail terlihat masuk akal karena tesis sering dibahas bersama detail, tetapi siswa menyebut tesis sebagai pernyataan utama.",
+        "evidence": "The thesis is the main claim"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the tutor suggest for an unfamiliar word?",
+        "options": [
+          { "id": "A", "text": "guess without reading" },
+          { "id": "B", "text": "skip the word" },
+          { "id": "C", "text": "use the reference section to find the context" },
+          { "id": "D", "text": "ask the student to translate the whole text" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'Use the reference section to find the context of any unfamiliar word', artinya gunakan bagian rujukan untuk mencari konteks kata yang asing.",
+        "stepByStep": [
+          "Cari unfamiliar di naskah tutor.",
+          "Tutor menyarankan bagian rujukan untuk mencari konteks kata.",
+          "Menebak tanpa membaca, melewati kata, dan menerjemahkan seluruh teks tidak disarankan tutor."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menebak tanpa membaca tidak disarankan tutor." },
+          { "optionId": "B", "reasonId": "Melewati kata tidak disarankan tutor." },
+          { "optionId": "D", "reasonId": "Menerjemahkan seluruh teks tidak disarankan tutor." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Konteks membantu memahami kata yang asing, dan bagian rujukan membantu mencarinya.",
+          "examples": [
+            { "en": "Check the context to guess the meaning of the word.", "id": "Periksa konteksnya untuk menebak arti kata itu." },
+            { "en": "The reference section lists the terms used in the book.", "id": "Bagian rujukan mencantumkan istilah yang dipakai dalam buku." }
+          ]
+        },
+        "examTrap": "Pilihan A guess without reading terlihat seperti cara cepat, tetapi tutor menyarankan mencari konteks dengan rujukan.",
+        "evidence": "Use the reference section to find the context"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the essay was clear.",
+        "options": [
+          { "id": "A", "text": "thesis" },
+          { "id": "B", "text": "locate" },
+          { "id": "C", "text": "scan" },
+          { "id": "D", "text": "skim" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Thesis adalah pernyataan utama esai, dan cocok sebagai subjek kalimat ini.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Locate adalah kata kerja, tidak cocok sebagai subjek." },
+          { "optionId": "C", "reasonId": "Scan adalah kata kerja, tidak cocok sebagai subjek." },
+          { "optionId": "D", "reasonId": "Skim adalah kata kerja, tidak cocok sebagai subjek." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Rarely ___ such a creative solution.",
+        "options": [
+          { "id": "A", "text": "we have seen" },
+          { "id": "B", "text": "we seen" },
+          { "id": "C", "text": "have we seen" },
+          { "id": "D", "text": "seen we" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Setelah rarely, kata bantu have dipindah ke depan subjek we: Rarely have we seen.",
+        "stepByStep": [
+          "Rarely adalah kata keterangan negatif di awal kalimat.",
+          "Kata bantu have dipindah ke depan subjek we.",
+          "We have seen tanpa inversi, we seen salah, dan seen we salah urutan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "We have seen tidak memakai inversi setelah rarely." },
+          { "optionId": "B", "reasonId": "We seen adalah bentuk yang salah." },
+          { "optionId": "D", "reasonId": "Seen we adalah urutan kata yang salah." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Please ___ the word in the dictionary using the context.",
+        "options": [
+          { "id": "A", "text": "celebrate" },
+          { "id": "B", "text": "locate" },
+          { "id": "C", "text": "emphasize" },
+          { "id": "D", "text": "imply" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Locate berarti menemukan lokasi kata dalam kamus, dengan bantuan konteks.",
+        "stepByStep": [
+          "Kalimat meminta menemukan kata dalam kamus.",
+          "Kata kerja yang berarti menemukan lokasi adalah locate.",
+          "Celebrate berarti merayakan, emphasize berarti menekankan, dan imply berarti menyiratkan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Celebrate berarti merayakan, tidak cocok dengan mencari kata." },
+          { "optionId": "C", "reasonId": "Emphasize berarti menekankan, tidak cocok dengan mencari kata." },
+          { "optionId": "D", "reasonId": "Imply berarti menyiratkan, tidak cocok dengan mencari kata." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The team agreed on a ___ of tasks: planning, writing, and checking.",
+        "options": [
+          { "id": "A", "text": "listed" },
+          { "id": "B", "text": "lists" },
+          { "id": "C", "text": "listen" },
+          { "id": "D", "text": "list" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Setelah a, gunakan kata benda tunggal list: daftar tugas.",
+        "stepByStep": [
+          "Setelah a, kata benda harus tunggal.",
+          "Kata benda yang berarti daftar adalah list.",
+          "Listed adalah kata kerja lampau, lists tidak cocok setelah a, dan listen berarti mendengarkan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Listed adalah kata kerja lampau, tidak cocok setelah a." },
+          { "optionId": "B", "reasonId": "Lists tidak cocok setelah a, dan jamak tidak sesuai di sini." },
+          { "optionId": "C", "reasonId": "Listen berarti mendengarkan, bukan daftar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah a, gunakan kata benda tunggal. List berarti daftar.",
+          "examples": [
+            { "en": "A list of names is on the desk.", "id": "Daftar nama ada di atas meja." },
+            { "en": "Make a list of the main points.", "id": "Buatlah daftar poin-poin utama." }
+          ]
+        },
+        "examTrap": "Pilihan B lists terlihat cocok karena ada banyak tugas, tetapi setelah a dibutuhkan bentuk tunggal."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The school decided to ___ the students' creative work with a special event.",
+        "options": [
+          { "id": "A", "text": "celebrate" },
+          { "id": "B", "text": "celebration" },
+          { "id": "C", "text": "celebrated" },
+          { "id": "D", "text": "celebrating" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah to, gunakan kata kerja dasar: celebrate.",
+        "stepByStep": [
+          "Kalimat memakai to sebelum kata kerja.",
+          "Setelah to, gunakan bentuk dasar: celebrate.",
+          "Celebration kata benda, celebrated lampau, dan celebrating bentuk -ing tidak tepat setelah to."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Celebration kata benda, tidak cocok setelah to." },
+          { "optionId": "C", "reasonId": "Celebrated adalah lampau, tidak cocok setelah to." },
+          { "optionId": "D", "reasonId": "Celebrating bentuk -ing, tidak cocok setelah to di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah to, gunakan kata kerja dasar.",
+          "examples": [
+            { "en": "The team decided to celebrate the win.", "id": "Tim memutuskan untuk merayakan kemenangan itu." },
+            { "en": "We want to celebrate together.", "id": "Kami ingin merayakan bersama." }
+          ]
+        },
+        "examTrap": "Pilihan B celebration terlihat cocok karena topiknya perayaan, tetapi setelah to dibutuhkan kata kerja dasar."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya suka membaca, menulis, dan menggambar.",
+        "hint": "Membaca, menulis, menggambar: reading, writing, drawing.",
+        "acceptedAnswers": ["I like reading, writing, and drawing.", "I like reading, writing and drawing."],
+        "modelAnswer": "I like reading, writing, and drawing.",
+        "commonErrors": [{ "pattern": "I like reading, to write, and drawing", "feedbackId": "Semua item dalam daftar harus berbentuk -ing." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia membaca sekilas artikel untuk menemukan kata kunci.",
+        "hint": "Membaca sekilas: skim. Kata kunci: keyword.",
+        "acceptedAnswers": ["She skimmed the article to find the keyword.", "She skims the article to find the keyword."],
+        "modelAnswer": "She skimmed the article to find the keyword.",
+        "commonErrors": [{ "pattern": "She scanned the article to get an overview", "feedbackId": "Untuk kata kunci, scan lebih tepat. Untuk gambaran umum, gunakan skim." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Perayaan kreatif itu sangat sukses.",
+        "hint": "Perayaan: celebration. Kreatif: creative. Sangat sukses: very successful.",
+        "acceptedAnswers": ["The creative celebration was very successful.", "The creative celebration was a great success."],
+        "modelAnswer": "The creative celebration was very successful.",
+        "commonErrors": [{ "pattern": "The creatively celebration was very successful", "feedbackId": "Sebelum kata benda celebration, gunakan kata sifat creative." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Jarang sekali kami melihat ide yang kreatif seperti itu.",
+        "hint": "Jarang sekali: rarely. Melihat: do we see. Kreatif: creative.",
+        "acceptedAnswers": ["Rarely do we see such a creative idea.", "Rarely have we seen such a creative idea."],
+        "modelAnswer": "Rarely do we see such a creative idea.",
+        "commonErrors": [{ "pattern": "Rarely we see such a creative idea", "feedbackId": "Setelah rarely, kata bantu do dipindah ke depan subjek we." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tesis penulis dapat ditemukan di paragraf pertama, dan konteksnya jelas.",
+        "hint": "Tesis penulis: the author's thesis. Dapat ditemukan: can be located. Konteksnya: the context.",
+        "acceptedAnswers": [
+          "The author's thesis can be located in the first paragraph, and the context is clear.",
+          "The thesis of the author can be located in the first paragraph, and the context is clear."
+        ],
+        "modelAnswer": "The author's thesis can be located in the first paragraph, and the context is clear.",
+        "commonErrors": [{ "pattern": "The author's thesis can be locate in the first paragraph", "feedbackId": "Setelah can be, gunakan V3: located." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the parallel form: 'She likes to sing, to dance, and ___.'",
+        "options": [
+          { "id": "A", "text": "to paint" },
+          { "id": "B", "text": "painting" },
+          { "id": "C", "text": "paint" },
+          { "id": "D", "text": "painted" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "To sing dan to dance adalah infinitif, sehingga item ketiga juga to paint.",
+        "stepByStep": [
+          "Dua item pertama berbentuk infinitif: to sing dan to dance.",
+          "Item ketiga harus infinitif agar sejajar: to paint.",
+          "Painting bentuk -ing, paint bentuk dasar, dan painted bentuk V3 tidak sejajar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Painting bentuk -ing, tidak sejajar dengan infinitif." },
+          { "optionId": "C", "reasonId": "Paint bentuk dasar, tidak sejajar dengan infinitif yang bertanda to." },
+          { "optionId": "D", "reasonId": "Painted bentuk V3, tidak sejajar dengan infinitif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam daftar, item-item infinitif harus semuanya memakai to.",
+          "examples": [
+            { "en": "He wants to read, to write, and to speak.", "id": "Dia ingin membaca, menulis, dan berbicara." },
+            { "en": "She plans to study, to practice, and to rest.", "id": "Dia berencana belajar, berlatih, dan beristirahat." }
+          ]
+        },
+        "examTrap": "Pilihan B painting terlihat cocok karena dua item lain berakhiran -ing dalam makna, tetapi dua item pertama memakai to."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence has parallel structure?",
+        "options": [
+          { "id": "A", "text": "The plan is simple, clear, and it is effective." },
+          { "id": "B", "text": "The plan is simple, clear, and effective." },
+          { "id": "C", "text": "The plan is simple, clearly, and effective." },
+          { "id": "D", "text": "The plan is simply, clear, and effective." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Simple, clear, dan effective adalah kata sifat yang sejajar.",
+        "stepByStep": [
+          "Simple dan clear adalah kata sifat.",
+          "Item ketiga harus kata sifat: effective.",
+          "Pilihan A memakai klausa, pilihan C memakai kata keterangan, dan pilihan D memakai kata keterangan di awal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "It is effective adalah klausa, tidak sejajar dengan kata sifat." },
+          { "optionId": "C", "reasonId": "Clearly adalah kata keterangan, tidak sejajar dengan kata sifat." },
+          { "optionId": "D", "reasonId": "Simply dan clear tidak sejajar sebagai bentuk daftar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat dalam daftar harus memakai bentuk kata sifat yang sama.",
+          "examples": [
+            { "en": "The bag is light, strong, and cheap.", "id": "Tas itu ringan, kuat, dan murah." },
+            { "en": "She is calm, careful, and patient.", "id": "Dia tenang, teliti, dan sabar." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena artinya lengkap, tetapi item ketiga berupa klausa."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Rarely ___ the thesis stated so clearly in one sentence.'",
+        "options": [
+          { "id": "A", "text": "it is" },
+          { "id": "B", "text": "is it" },
+          { "id": "C", "text": "is" },
+          { "id": "D", "text": "was it" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Setelah rarely, kata be is dipindah ke depan subjek the thesis: Rarely is the thesis stated.",
+        "stepByStep": [
+          "Rarely adalah kata keterangan negatif di awal kalimat.",
+          "Kata be is dipindah ke depan subjek the thesis.",
+          "It is dan is it tidak sesuai dengan subjek the thesis, dan was it memakai bentuk lampau yang tidak sesuai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "It is tidak ada inversi setelah rarely." },
+          { "optionId": "B", "reasonId": "Is it memakai subjek it, bukan the thesis." },
+          { "optionId": "D", "reasonId": "Was it memakai bentuk lampau dan subjek yang salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah rarely, kata be atau kata bantu dipindah ke depan subjek.",
+          "examples": [
+            { "en": "Rarely is the answer so clear.", "id": "Jarang sekali jawabannya sejelas itu." },
+            { "en": "Rarely are the rules explained so well.", "id": "Jarang sekali aturannya dijelaskan sebaik itu." }
+          ]
+        },
+        "examTrap": "Pilihan B is it terlihat seperti inversi, tetapi subjek setelah is harus the thesis."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'to find something quickly in a text'?",
+        "options": [
+          { "id": "A", "text": "skim" },
+          { "id": "B", "text": "celebrate" },
+          { "id": "C", "text": "creative" },
+          { "id": "D", "text": "scan" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Scan berarti memindai teks dengan cepat untuk menemukan informasi tertentu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk mencari sesuatu dengan cepat di dalam teks.",
+          "Scan adalah membaca cepat untuk menemukan informasi tertentu.",
+          "Skim untuk gambaran umum, celebrate berarti merayakan, dan creative berarti kreatif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Skim untuk gambaran umum, bukan mencari sesuatu tertentu." },
+          { "optionId": "B", "reasonId": "Celebrate berarti merayakan, tidak sesuai dengan mencari informasi." },
+          { "optionId": "C", "reasonId": "Creative berarti kreatif, tidak sesuai dengan mencari informasi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Scan berarti membaca cepat untuk mencari informasi tertentu.",
+          "examples": [
+            { "en": "Scan the page for the price.", "id": "Pindailah halaman itu untuk mencari harganya." },
+            { "en": "I scanned the menu for vegetarian dishes.", "id": "Saya memindai menu untuk mencari hidangan vegetarian." }
+          ]
+        },
+        "examTrap": "Pilihan A skim terlihat cocok karena juga membaca cepat, tetapi skim untuk gambaran umum, bukan mencari informasi tertentu."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'context' correctly?",
+        "options": [
+          { "id": "A", "text": "The context of the word help you understand its meaning." },
+          { "id": "B", "text": "The context of the word helps you understand its meaning." },
+          { "id": "C", "text": "The context helps you understand the words meaning in." },
+          { "id": "D", "text": "Context of the words understand you help its meaning." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek the context of the word tunggal, sehingga kata kerjanya helps.",
+        "stepByStep": [
+          "Subjek kalimat adalah the context, yang tunggal.",
+          "Kata kerja tunggal present adalah helps.",
+          "Pilihan A memakai help untuk subjek tunggal. Pilihan C dan D urutan katanya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Help tidak cocok dengan subjek the context yang tunggal." },
+          { "optionId": "C", "reasonId": "Urutan kata salah, dan kalimatnya tidak lengkap." },
+          { "optionId": "D", "reasonId": "Urutan kata salah, dan tidak membentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai kata kerja tunggal, dan frasa of the word tidak mengubah subjek.",
+          "examples": [
+            { "en": "The context of the story helps readers.", "id": "Konteks cerita itu membantu pembaca." },
+            { "en": "The meaning of the word is clear.", "id": "Arti kata itu jelas." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena ada kata word yang dekat dengan help, tetapi subjek kalimat adalah the context."
+      }
+    ]
+  }
+}

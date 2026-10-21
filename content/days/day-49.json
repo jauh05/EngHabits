@@ -1,0 +1,599 @@
+{
+  "day": 49,
+  "week": 7,
+  "month": 2,
+  "title": "Strategi Membaca: Skimming dan Scanning",
+  "topic": "Membaca cepat untuk gambaran umum dan mencari informasi spesifik",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membedakan skimming dari scanning",
+    "Memakai judul, headline, dan paragraf awal untuk mendapat gambaran umum",
+    "Mencari kata kunci dan angka dengan cepat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "skim", "pronunciationId": "SKIM (i pendek, m jelas)", "pos": "Verb", "meaningId": "membaca sekilas untuk gambaran umum", "example": "I skim the news every morning.", "exampleId": "Saya membaca sekilas berita setiap pagi." },
+      { "no": 2, "en": "scan", "pronunciationId": "SKAN (a pendek, n jelas)", "pos": "Verb", "meaningId": "memindai untuk mencari informasi tertentu", "example": "Scan the page for the date.", "exampleId": "Pindailah halaman itu untuk mencari tanggalnya." },
+      { "no": 3, "en": "overview", "pronunciationId": "O-ver-vyoo (tekanan di O)", "pos": "Noun", "meaningId": "gambaran umum", "example": "The chapter gives an overview of the topic.", "exampleId": "Bab itu memberi gambaran umum tentang topiknya." },
+      { "no": 4, "en": "headline", "pronunciationId": "HED-lain (tekanan di HED)", "pos": "Noun", "meaningId": "judul berita utama", "example": "The headline was about the election.", "exampleId": "Judul berita utamanya tentang pemilu." },
+      { "no": 5, "en": "keyword", "pronunciationId": "KEE-wurd (tekanan di KEE)", "pos": "Noun", "meaningId": "kata kunci", "example": "Look for the keyword in the question.", "exampleId": "Carilah kata kunci dalam soal itu." },
+      { "no": 6, "en": "locate", "pronunciationId": "LOH-kayt (tekanan di LOH)", "pos": "Verb", "meaningId": "menemukan lokasi, menemukan", "example": "Can you locate the nearest station?", "exampleId": "Bisakah kamu menemukan stasiun terdekat?" },
+      { "no": 7, "en": "highlight", "pronunciationId": "HAI-lait (tekanan di HAI)", "pos": "Verb", "meaningId": "menggarisbawahi dengan penanda", "example": "Highlight the key sentences.", "exampleId": "Tandailah kalimat-kalimat kuncinya." },
+      { "no": 8, "en": "outline", "pronunciationId": "AUT-lain (tekanan di AUT)", "pos": "Noun", "meaningId": "kerangka, garis besar", "example": "Make an outline before you write.", "exampleId": "Buatlah kerangka sebelum menulis." },
+      { "no": 9, "en": "glance", "pronunciationId": "GLANS (a pendek, ce jelas)", "pos": "Noun", "meaningId": "pandangan sekilas", "example": "A quick glance is enough.", "exampleId": "Pandangan sekilas sudah cukup." },
+      { "no": 10, "en": "speed", "pronunciationId": "SPEED (ee panjang)", "pos": "Noun", "meaningId": "kecepatan", "example": "Your reading speed is improving.", "exampleId": "Kecepatan membacamu semakin baik." }
+    ],
+    "tip": "Skimming untuk gambaran umum: baca judul, headline, dan paragraf pertama dan terakhir. Scanning untuk informasi tertentu: gerakkan mata cepat dan cari kata kunci, angka, atau nama."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["skimming and scanning English", "reading strategies TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang skimming dan scanning, dengan contoh membaca berita dan mencari informasi di jadwal.",
+      "watchFor": [
+        "Skimming untuk gambaran umum",
+        "Scanning untuk informasi tertentu",
+        "Kata kunci dan judul sebagai petunjuk"
+      ]
+    },
+    "lesson": {
+      "intro": "Tidak semua bacaan harus dibaca kata demi kata. Skimming dan scanning membantu kamu membaca lebih cepat dengan tujuan yang jelas: skimming untuk memahami gambaran umum, dan scanning untuk menemukan informasi tertentu.",
+      "sections": [
+        {
+          "heading": "Skimming",
+          "bodyMd": "Saat **skim**, kamu membaca sekilas: judul, **headline**, paragraf pertama, dan paragraf terakhir. Tujuannya mendapat **overview** tentang isi teks. Kamu belum perlu memahami semua detail."
+        },
+        {
+          "heading": "Scanning",
+          "bodyMd": "Saat **scan**, kamu mencari sesuatu yang spesifik: tanggal, nama, angka, atau **keyword**. Mata bergerak cepat sampai kamu bisa **locate** informasi itu, lalu baca kalimat di sekitarnya dengan teliti."
+        },
+        {
+          "heading": "Menandai dan merangkum",
+          "bodyMd": "Gunakan **highlight** untuk kalimat penting, dan buat **outline** untuk urutan ide. Jangan menandai terlalu banyak, karena halaman yang penuh tanda sulit dibaca."
+        }
+      ],
+      "formulas": [
+        { "label": "Skimming", "pattern": "judul + headline + paragraf awal + paragraf akhir" },
+        { "label": "Scanning", "pattern": "cari kata kunci, angka, atau nama, lalu baca kalimat sekitarnya" },
+        { "label": "Menandai", "pattern": "highlight kalimat penting + outline ide utama" },
+        { "label": "Cek", "pattern": "setelah membaca, tanya: apa ide utamanya?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I skim the headlines every morning.", "id": "Saya membaca sekilas judul berita setiap pagi." },
+          { "en": "Scan the table for the departure time.", "id": "Pindailah tabel untuk mencari waktu keberangkatan." },
+          { "en": "The chapter gives a clear overview of the topic.", "id": "Bab itu memberi gambaran umum yang jelas tentang topiknya." },
+          { "en": "Highlight the keywords in the question.", "id": "Tandailah kata kunci dalam soal itu." },
+          { "en": "Make an outline before you start writing.", "id": "Buatlah kerangka sebelum mulai menulis." }
+        ],
+        "negative": [
+          { "en": "I do not read every word when I skim.", "id": "Saya tidak membaca setiap kata saat membaca sekilas." },
+          { "en": "Scanning does not mean reading slowly.", "id": "Memindai tidak berarti membaca dengan lambat." },
+          { "en": "The headline does not tell the whole story.", "id": "Judul berita tidak menceritakan seluruh cerita." },
+          { "en": "Do not highlight every sentence in the text.", "id": "Jangan menandai setiap kalimat dalam teks." },
+          { "en": "A quick glance is not enough for a full answer.", "id": "Pandangan sekilas tidak cukup untuk jawaban yang lengkap." }
+        ],
+        "question": [
+          { "en": "Did you skim the article before reading it?", "id": "Apakah kamu membaca sekilas artikel itu sebelum membacanya?" },
+          { "en": "Can you scan the page for the date?", "id": "Bisakah kamu memindai halaman itu untuk mencari tanggalnya?" },
+          { "en": "What is the main idea of the chapter?", "id": "Apa ide utama bab itu?" },
+          { "en": "Did you highlight the key sentences?", "id": "Apakah kamu menandai kalimat-kalimat kuncinya?" },
+          { "en": "Where can you locate the keyword?", "id": "Di mana kamu bisa menemukan kata kuncinya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I scan the whole book to get the overall idea.", "right": "I skim the whole book to get the overall idea.", "whyId": "Untuk gambaran umum, gunakan skim, bukan scan." },
+        { "wrong": "I skim the page for a phone number.", "right": "I scan the page for a phone number.", "whyId": "Untuk mencari informasi spesifik seperti nomor telepon, gunakan scan." },
+        { "wrong": "Highlight the whole page in yellow.", "right": "Highlight the key sentences in yellow.", "whyId": "Hanya kalimat penting yang perlu ditandai." },
+        { "wrong": "Make a outline before you read.", "right": "Make an outline before you read.", "whyId": "Outline diawali vokal, jadi memakai an." },
+        { "wrong": "The headline is read at the end only.", "right": "Read the headline first.", "whyId": "Dalam skimming, headline dibaca di awal untuk gambaran umum." },
+        { "wrong": "A glance is enough to answer every detail question.", "right": "A glance is not enough to answer every detail question.", "whyId": "Pertanyaan detail membutuhkan pembacaan yang lebih teliti." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Membaca Cepat dengan Tepat",
+    "text": "Reading speed matters when you have a lot of material to cover. Two useful strategies are skimming and scanning. Skimming means that you glance quickly over a text to get an overview of its main ideas. You do not read every word. Instead, you look at the title, the headline, the first paragraph, and the last paragraph. These parts often reveal the purpose of the text.\n\nScanning is different. When you scan, you search for a specific piece of information, such as a date, a name, or a keyword. Your eyes move quickly down the page until you locate the item you need. Once you find it, you read the surrounding sentences carefully to understand its meaning.\n\nGood readers often combine both strategies. They skim first to understand the structure, then use an outline in their notes to organize the main points. A short outline can show the order of the ideas and help the reader return to the important parts later. Some students also highlight key terms with a marker, but they should use this method carefully, because too much highlighting makes the page hard to read.\n\nSpeed alone is not the goal. A reader who moves quickly without understanding will miss important details. For this reason, it is useful to practise on short articles and ask yourself after each reading what the main point was. If you can answer clearly, your skimming is working well. If not, slow down and try again.\n\nMany people use these strategies in everyday life. When you check the news on your phone, you skim the headlines. When you search a train schedule, you scan for the departure time. These habits are simple, but they make reading faster and more useful.",
+    "glossary": [
+      { "en": "structure", "id": "struktur" },
+      { "en": "surrounding", "id": "sekitar" },
+      { "en": "marker", "id": "penanda, spidol" },
+      { "en": "departure", "id": "keberangkatan" },
+      { "en": "practise", "id": "berlatih" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is skimming, according to the passage?",
+        "options": [
+          { "id": "A", "text": "glancing quickly to get an overview" },
+          { "id": "B", "text": "reading every word carefully" },
+          { "id": "C", "text": "copying the text into notes" },
+          { "id": "D", "text": "translating a text word by word" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Skimming means that you glance quickly over a text to get an overview of its main ideas', artinya skimming adalah membaca sekilas untuk gambaran umum.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Membaca setiap kata dengan teliti adalah kebalikan dari skimming." },
+          { "optionId": "C", "reasonId": "Menyalin teks tidak disebut sebagai skimming." },
+          { "optionId": "D", "reasonId": "Menerjemahkan kata demi kata tidak disebut dalam teks." }
+        ],
+        "evidence": "glance quickly over a text to get an overview"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Which parts should you read when skimming?",
+        "options": [
+          { "id": "A", "text": "every sentence in order" },
+          { "id": "B", "text": "only the middle paragraph" },
+          { "id": "C", "text": "the title, the headline, the first and last paragraph" },
+          { "id": "D", "text": "the references at the end" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut 'the title, the headline, the first paragraph, and the last paragraph' sebagai bagian yang dibaca saat skimming.",
+        "stepByStep": [
+          "Cari look at the title di teks.",
+          "Teks menyebut judul, headline, paragraf pertama, dan paragraf terakhir.",
+          "Setiap kalimat, paragraf tengah saja, dan referensi tidak disebut sebagai bagian yang dibaca saat skimming."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Membaca setiap kalimat berurutan bertentangan dengan skimming." },
+          { "optionId": "B", "reasonId": "Hanya paragraf tengah tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Referensi di akhir tidak disebut sebagai bagian yang dibaca saat skimming." }
+        ],
+        "evidence": "the title, the headline, the first paragraph, and the last paragraph"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What is scanning used for?",
+        "options": [
+          { "id": "A", "text": "to understand the main point" },
+          { "id": "B", "text": "to memorize a full text" },
+          { "id": "C", "text": "to write an essay" },
+          { "id": "D", "text": "to search for a specific piece of information" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'you search for a specific piece of information', artinya scanning dipakai untuk mencari informasi tertentu.",
+        "stepByStep": [
+          "Cari scanning di teks: 'When you scan, you search for a specific piece of information.'",
+          "Teks menyebut scanning untuk mencari informasi tertentu.",
+          "Memahami ide utama, menghafal teks, dan menulis esai adalah tujuan skimming atau kegiatan lain."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Memahami ide utama adalah tujuan skimming, bukan scanning." },
+          { "optionId": "B", "reasonId": "Menghafal teks tidak disebut sebagai tujuan scanning." },
+          { "optionId": "C", "reasonId": "Menulis esai tidak disebut sebagai tujuan scanning." }
+        ],
+        "evidence": "you search for a specific piece of information"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why does the passage warn about highlighting?",
+        "options": [
+          { "id": "A", "text": "highlighting is always illegal" },
+          { "id": "B", "text": "too much highlighting makes the page hard to read" },
+          { "id": "C", "text": "highlighting wastes paper" },
+          { "id": "D", "text": "highlighting is only for teachers" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'too much highlighting makes the page hard to read', artinya terlalu banyak tanda membuat halaman sulit dibaca.",
+        "stepByStep": [
+          "Cari highlighting di teks: 'they should use this method carefully, because too much highlighting makes the page hard to read.'",
+          "Teks memberi peringatan karena terlalu banyak tanda membuat halaman sulit dibaca.",
+          "Ilegal, boros kertas, dan hanya untuk guru tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut menandai itu ilegal." },
+          { "optionId": "C", "reasonId": "Pemborosan kertas tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut menandai hanya untuk guru." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Menandai sebaiknya dilakukan secukupnya agar halaman tetap mudah dibaca.",
+          "examples": [
+            { "en": "Highlight only the key terms in each paragraph.", "id": "Tandai hanya istilah kunci di setiap paragraf." },
+            { "en": "Too many marks make the notes confusing.", "id": "Terlalu banyak tanda membuat catatan membingungkan." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat masuk akal karena menandai memakai alat tulis, tetapi teks menyebut kesulitan membaca halaman, bukan kertas.",
+        "evidence": "too much highlighting makes the page hard to read"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "According to the passage, how can a reader check whether skimming works?",
+        "options": [
+          { "id": "A", "text": "count the number of words" },
+          { "id": "B", "text": "read the text again aloud" },
+          { "id": "C", "text": "ask yourself after each reading what the main point was" },
+          { "id": "D", "text": "translate the headline" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'ask yourself after each reading what the main point was', artinya tanyakan pada diri sendiri ide utamanya setelah membaca.",
+        "stepByStep": [
+          "Cari check di teks: 'ask yourself after each reading what the main point was.'",
+          "Jika kamu bisa menjawab ide utama dengan jelas, skimming berhasil.",
+          "Menghitung kata, membaca keras, dan menerjemahkan judul tidak disebut sebagai cara mengecek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menghitung kata tidak disebut sebagai cara mengecek skimming." },
+          { "optionId": "B", "reasonId": "Membaca keras tidak disebut sebagai cara mengecek skimming." },
+          { "optionId": "D", "reasonId": "Menerjemahkan judul tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk mengecek skimming, cek apakah kamu bisa menyebut ide utama setelah membaca.",
+          "examples": [
+            { "en": "After reading, I can say the main point in one sentence.", "id": "Setelah membaca, saya bisa menyebut ide utamanya dalam satu kalimat." },
+            { "en": "If I cannot name the topic, I should read again more slowly.", "id": "Jika saya tidak bisa menyebut topiknya, saya harus membaca ulang dengan lebih lambat." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti cara memastikan pemahaman, tetapi teks menyarankan menanyakan ide utama pada diri sendiri.",
+        "evidence": "ask yourself after each reading what the main point was"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I will ___ the article quickly to see the main idea.",
+        "options": [
+          { "id": "A", "text": "skim" },
+          { "id": "B", "text": "memorize" },
+          { "id": "C", "text": "translate" },
+          { "id": "D", "text": "copy" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Skim berarti membaca sekilas untuk melihat ide utama.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Memorize berarti menghafal, bukan membaca sekilas untuk ide utama." },
+          { "optionId": "C", "reasonId": "Translate berarti menerjemahkan, tidak sesuai dengan tujuan membaca cepat." },
+          { "optionId": "D", "reasonId": "Copy berarti menyalin, tidak sesuai dengan tujuan melihat ide utama." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "To find the date, I will ___ the text for numbers.",
+        "options": [
+          { "id": "A", "text": "skim" },
+          { "id": "B", "text": "glance" },
+          { "id": "C", "text": "scan" },
+          { "id": "D", "text": "translate" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Scan dipakai untuk mencari informasi spesifik seperti angka atau tanggal.",
+        "stepByStep": [
+          "Tujuannya mencari tanggal, yaitu informasi spesifik.",
+          "Scan adalah cara mencari informasi spesifik dengan cepat.",
+          "Skim dan glance untuk gambaran umum, dan translate tidak sesuai dengan tujuan ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Skim dipakai untuk gambaran umum, bukan angka tertentu." },
+          { "optionId": "B", "reasonId": "Glance berarti pandangan sekilas, bukan pencarian informasi tertentu." },
+          { "optionId": "D", "reasonId": "Translate tidak sesuai dengan tujuan mencari tanggal." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The ___ at the top of the page shows the main topic.",
+        "options": [
+          { "id": "A", "text": "speed" },
+          { "id": "B", "text": "headline" },
+          { "id": "C", "text": "keyword" },
+          { "id": "D", "text": "highlight" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Headline adalah judul utama di bagian atas halaman yang menunjukkan topik.",
+        "stepByStep": [
+          "Bagian atas halaman menunjukkan topik utama.",
+          "Judul utama di bagian atas disebut headline.",
+          "Speed berarti kecepatan, keyword kata kunci, dan highlight tanda penanda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Speed berarti kecepatan, tidak menunjukkan topik." },
+          { "optionId": "C", "reasonId": "Keyword adalah kata kunci, bukan judul di bagian atas." },
+          { "optionId": "D", "reasonId": "Highlight berarti penanda, bukan judul di bagian atas." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Before writing the essay, I made an ___ with the main points.",
+        "options": [
+          { "id": "A", "text": "overview" },
+          { "id": "B", "text": "keyword" },
+          { "id": "C", "text": "glance" },
+          { "id": "D", "text": "outline" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Outline adalah kerangka yang berisi poin-poin utama sebelum menulis.",
+        "stepByStep": [
+          "Kalimat menyebut kerangka berisi poin-poin utama.",
+          "Kerangka yang berisi poin-poin utama disebut outline.",
+          "Overview berarti gambaran umum, keyword kata kunci, dan glance pandangan sekilas."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Overview adalah gambaran umum, bukan kerangka poin utama." },
+          { "optionId": "B", "reasonId": "Keyword adalah kata kunci, bukan kerangka." },
+          { "optionId": "C", "reasonId": "Glance adalah pandangan sekilas, bukan kerangka." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Outline dibuat sebelum menulis untuk menyusun urutan ide.",
+          "examples": [
+            { "en": "Make an outline with three main points.", "id": "Buatlah kerangka dengan tiga poin utama." },
+            { "en": "The outline helped me organize the essay.", "id": "Kerangka itu membantu saya menyusun esai." }
+          ]
+        },
+        "examTrap": "Pilihan A overview terlihat mirip karena berhubungan dengan gambaran umum, tetapi kalimat ini menyebut kerangka poin utama."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Please ___ the important sentences with a yellow marker.",
+        "options": [
+          { "id": "A", "text": "locate" },
+          { "id": "B", "text": "highlight" },
+          { "id": "C", "text": "glance" },
+          { "id": "D", "text": "speed" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Highlight berarti menandai kalimat dengan penanda berwarna.",
+        "stepByStep": [
+          "Kalimat meminta penanda warna pada kalimat penting.",
+          "Kata kerja yang berarti menandai dengan penanda adalah highlight.",
+          "Locate berarti menemukan, glance berarti pandangan sekilas, dan speed bukan kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Locate berarti menemukan, bukan menandai dengan penanda." },
+          { "optionId": "C", "reasonId": "Glance berarti pandangan sekilas, bukan menandai." },
+          { "optionId": "D", "reasonId": "Speed adalah kata benda untuk kecepatan, bukan kata kerja menandai." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Highlight berarti menandai dengan warna. Locate berarti menemukan lokasi.",
+          "examples": [
+            { "en": "Highlight the dates in the schedule.", "id": "Tandailah tanggal-tanggal dalam jadwal." },
+            { "en": "Locate the page with the map.", "id": "Temukan halaman dengan peta." }
+          ]
+        },
+        "examTrap": "Pilihan A locate terlihat cocok karena artinya mencari hal penting, tetapi kalimat ini meminta menandai dengan penanda."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya membaca sekilas artikel itu untuk melihat gambaran umum.",
+        "hint": "Membaca sekilas: skim. Gambaran umum: overview.",
+        "acceptedAnswers": ["I skimmed the article to get an overview.", "I skim the article to get an overview."],
+        "modelAnswer": "I skimmed the article to get an overview.",
+        "commonErrors": [{ "pattern": "I scanned the article to get an overview", "feedbackId": "Untuk gambaran umum, gunakan skim, bukan scan." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pindailah teks itu untuk mencari tanggalnya.",
+        "hint": "Pindailah: scan. Mencari tanggal: to find the date.",
+        "acceptedAnswers": ["Scan the text to find the date.", "Scan the text to locate the date."],
+        "modelAnswer": "Scan the text to find the date.",
+        "commonErrors": [{ "pattern": "Skim the text to find the date", "feedbackId": "Untuk informasi tertentu seperti tanggal, gunakan scan." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tulislah kata kunci dari judul artikel.",
+        "hint": "Kata kunci: keyword. Judul artikel: the article headline.",
+        "acceptedAnswers": ["Write down the keyword from the article headline.", "Write the keyword from the headline of the article."],
+        "modelAnswer": "Write down the keyword from the article headline.",
+        "commonErrors": [{ "pattern": "Write down the keywords from the article headlines", "feedbackId": "Gunakan bentuk tunggal keyword untuk satu kata kunci dalam kalimat ini." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Garis bawahi kalimat penting dan buatlah kerangka dari bacaan itu.",
+        "hint": "Garis bawahi: highlight. Kerangka: outline. Bacaan itu: the reading.",
+        "acceptedAnswers": [
+          "Highlight the important sentences and make an outline of the reading.",
+          "Highlight the key sentences and create an outline of the reading."
+        ],
+        "modelAnswer": "Highlight the important sentences and make an outline of the reading.",
+        "commonErrors": [{ "pattern": "Highlight the importance sentences and make a outline", "feedbackId": "Gunakan important sentences dan an outline." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Setelah sekilas melihat teks, saya bisa menemukan ide utamanya dengan cepat.",
+        "hint": "Sekilas melihat: a quick glance. Menemukan: locate. Ide utama: the main idea.",
+        "acceptedAnswers": [
+          "After a quick glance at the text, I could locate the main idea quickly.",
+          "After a glance at the text, I could quickly locate the main idea."
+        ],
+        "modelAnswer": "After a quick glance at the text, I could locate the main idea quickly.",
+        "commonErrors": [{ "pattern": "After a quick glance at the text, I could locates the main idea", "feedbackId": "Setelah could, gunakan kata kerja dasar: locate." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Before reading, take a quick ___ of the chapter to see its structure.'",
+        "options": [
+          { "id": "A", "text": "glance" },
+          { "id": "B", "text": "speed" },
+          { "id": "C", "text": "keyword" },
+          { "id": "D", "text": "headline" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Take a quick glance adalah ungkapan untuk melihat sekilas, dan cocok sebelum membaca bab.",
+        "stepByStep": [
+          "Kalimat meminta melihat sekilas bab sebelum membaca.",
+          "Ungkapan take a quick glance berarti melihat sekilas.",
+          "Speed, keyword, dan headline tidak cocok dengan ungkapan take a quick."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Take a quick speed bukan ungkapan yang benar." },
+          { "optionId": "C", "reasonId": "Take a quick keyword bukan ungkapan yang benar." },
+          { "optionId": "D", "reasonId": "Take a quick headline bukan ungkapan yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Take a quick glance berarti melihat sekilas sebelum membaca lebih lanjut.",
+          "examples": [
+            { "en": "Take a quick glance at the map before the trip.", "id": "Lihatlah peta sekilas sebelum perjalanan." },
+            { "en": "She took a quick glance at the notes.", "id": "Dia melihat catatan itu sekilas." }
+          ]
+        },
+        "examTrap": "Pilihan D headline terlihat seperti bagian dari bab, tetapi ungkapan yang tepat adalah take a quick glance."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'skim' and 'scan' for their purposes?",
+        "options": [
+          { "id": "A", "text": "I scan the book to get the overall idea, and skim the page for a phone number." },
+          { "id": "B", "text": "I skim the book to get the overall idea, and scan the page for a phone number." },
+          { "id": "C", "text": "I skim the phone number and scan the overall idea." },
+          { "id": "D", "text": "I scan the book to memorize it, and skim the page for its date." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Skim untuk gambaran umum, dan scan untuk informasi spesifik seperti nomor telepon.",
+        "stepByStep": [
+          "Gambaran umum buku dicapai dengan skim.",
+          "Nomor telepon adalah informasi spesifik, sehingga dicari dengan scan.",
+          "Pilihan A tertukar, pilihan C tertukar, dan pilihan D memakai scan untuk menghafal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Scan untuk gambaran umum dan skim untuk nomor telepon tertukar." },
+          { "optionId": "C", "reasonId": "Skim untuk nomor telepon dan scan untuk gambaran umum tertukar." },
+          { "optionId": "D", "reasonId": "Scan tidak dipakai untuk menghafal, dan skim tidak untuk tanggal tertentu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Skim untuk gambaran umum. Scan untuk informasi spesifik.",
+          "examples": [
+            { "en": "I skim the news for the main story, and scan for the weather.", "id": "Saya membaca sekilas berita untuk cerita utamanya, dan memindai untuk cuaca." },
+            { "en": "She skims the menu and scans for the price of the soup.", "id": "Dia membaca sekilas menu dan memindai harga sup." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena menyebut kedua strategi, tetapi tujuannya tertukar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The reporter's ___ was clear: the new law helps students.'",
+        "options": [
+          { "id": "A", "text": "speed" },
+          { "id": "B", "text": "glance" },
+          { "id": "C", "text": "headline" },
+          { "id": "D", "text": "locate" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Headline adalah judul berita yang menunjukkan pokok berita, dan kalimat itu menyebut isi judulnya.",
+        "stepByStep": [
+          "Kalimat menyebut pokok berita: the new law helps students.",
+          "Judul berita utama disebut headline.",
+          "Speed, glance, dan locate tidak menunjukkan judul atau pokok berita."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Speed berarti kecepatan, tidak menunjukkan pokok berita." },
+          { "optionId": "B", "reasonId": "Glance berarti pandangan sekilas, tidak menunjukkan pokok berita." },
+          { "optionId": "D", "reasonId": "Locate berarti menemukan, tidak menunjukkan pokok berita." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Headline adalah judul utama yang sering menunjukkan pokok berita.",
+          "examples": [
+            { "en": "The headline was about the new bridge.", "id": "Judul utamanya tentang jembatan baru." },
+            { "en": "Read the headline before the article.", "id": "Bacalah judul utama sebelum artikelnya." }
+          ]
+        },
+        "examTrap": "Pilihan B glance terlihat cocok karena headline dibaca sekilas, tetapi kalimat ini meminta kata yang menunjukkan judul."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word describes finding a specific item quickly by moving your eyes down a list?",
+        "options": [
+          { "id": "A", "text": "skimming" },
+          { "id": "B", "text": "reading aloud" },
+          { "id": "C", "text": "translating" },
+          { "id": "D", "text": "scanning" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Scanning adalah membaca cepat untuk menemukan informasi tertentu dengan menggerakkan mata ke bawah.",
+        "stepByStep": [
+          "Kalimat menyebut menemukan item tertentu dengan menggerakkan mata ke bawah daftar.",
+          "Cara membaca yang mencari item tertentu adalah scanning.",
+          "Skimming untuk gambaran umum, membaca keras, dan menerjemahkan bukan cara mencari item tertentu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Skimming untuk gambaran umum, bukan mencari item tertentu." },
+          { "optionId": "B", "reasonId": "Membaca keras tidak disebut sebagai cara mencari item." },
+          { "optionId": "C", "reasonId": "Menerjemahkan tidak disebut sebagai cara mencari item." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Scanning adalah cara mencari informasi tertentu dengan cepat.",
+          "examples": [
+            { "en": "I scan the timetable for the bus at 7.", "id": "Saya memindai jadwal untuk bus jam 7." },
+            { "en": "Scan the list for your name.", "id": "Pindailah daftar untuk mencari namamu." }
+          ]
+        },
+        "examTrap": "Pilihan A skimming terlihat mirip karena keduanya membaca cepat, tetapi skimming untuk gambaran umum, bukan item tertentu."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Speed of reading matters when you has a lot of text." },
+          { "id": "B", "text": "Speed of reading matter when you have a lot of text." },
+          { "id": "C", "text": "Speed of reading matters when you have a lot of text." },
+          { "id": "D", "text": "Speed of reading matters when you having a lot of text." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Speed sebagai subjek tunggal memakai matters, dan setelah you memakai have.",
+        "stepByStep": [
+          "Subjek speed of reading tunggal, sehingga kata kerjanya matters.",
+          "Setelah subjek you, kata bantu have digunakan.",
+          "Pilihan A memakai has setelah you. Pilihan B memakai matter setelah speed. Pilihan D memakai having sebagai kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Has tidak cocok dengan subjek you." },
+          { "optionId": "B", "reasonId": "Matter tidak cocok dengan subjek speed yang tunggal." },
+          { "optionId": "D", "reasonId": "Having tidak bisa menjadi kata kerja dalam klausa ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai kata kerja tunggal. Subjek you memakai have.",
+          "examples": [
+            { "en": "Speed of reading matters in school.", "id": "Kecepatan membaca penting di sekolah." },
+            { "en": "You have a lot of reading to do.", "id": "Kamu punya banyak bacaan untuk dikerjakan." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena matters diulang dalam konteks, tetapi bagian kedua memakai has setelah you."
+      }
+    ]
+  }
+}

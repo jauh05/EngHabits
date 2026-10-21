@@ -1,0 +1,599 @@
+{
+  "day": 47,
+  "week": 7,
+  "month": 2,
+  "title": "Word Form: -ive, -al, -ly",
+  "topic": "Mengenali kata sifat dan kata keterangan dari akhiran -ive, -al, dan -ly",
+  "skillFocus": "reading",
+  "objectives": [
+    "Mengenali kata sifat yang berakhiran -ive, -al, dan -ly",
+    "Membentuk kata keterangan dengan -ly dari kata sifat",
+    "Memilih bentuk kata sifat atau keterangan sesuai posisinya dalam kalimat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "creative", "pronunciationId": "kree-AI-tiv (tekanan di AI)", "pos": "Adj", "meaningId": "kreatif", "example": "She has a creative mind.", "exampleId": "Dia punya pikiran yang kreatif." },
+      { "no": 2, "en": "effective", "pronunciationId": "i-FEK-tiv (tekanan di FEK)", "pos": "Adj", "meaningId": "efektif, berhasil", "example": "This method is effective.", "exampleId": "Metode ini efektif." },
+      { "no": 3, "en": "positive", "pronunciationId": "POZ-i-tiv (tekanan di POZ)", "pos": "Adj", "meaningId": "positif", "example": "He has a positive attitude.", "exampleId": "Dia punya sikap yang positif." },
+      { "no": 4, "en": "national", "pronunciationId": "NASH-en-al (tekanan di NASH)", "pos": "Adj", "meaningId": "nasional", "example": "It is a national holiday.", "exampleId": "Itu hari libur nasional." },
+      { "no": 5, "en": "global", "pronunciationId": "GLOH-bal (tekanan di GLOH)", "pos": "Adj", "meaningId": "global, seluruh dunia", "example": "The problem has a global effect.", "exampleId": "Masalah itu berdampak global." },
+      { "no": 6, "en": "typical", "pronunciationId": "TIP-i-kal (tekanan di TIP)", "pos": "Adj", "meaningId": "khas, biasa", "example": "This is a typical day at school.", "exampleId": "Ini hari yang khas di sekolah." },
+      { "no": 7, "en": "personal", "pronunciationId": "PUR-so-nal (tekanan di PUR)", "pos": "Adj", "meaningId": "pribadi", "example": "It is a personal decision.", "exampleId": "Itu keputusan pribadi." },
+      { "no": 8, "en": "physical", "pronunciationId": "FIZ-i-kal (tekanan di FIZ)", "pos": "Adj", "meaningId": "fisik, jasmani", "example": "Physical exercise is healthy.", "exampleId": "Olahraga fisik itu sehat." },
+      { "no": 9, "en": "logical", "pronunciationId": "LOJ-i-kal (tekanan di LOJ)", "pos": "Adj", "meaningId": "logis", "example": "The answer is logical.", "exampleId": "Jawabannya logis." },
+      { "no": 10, "en": "critical", "pronunciationId": "KRIT-i-kal (tekanan di KRIT)", "pos": "Adj", "meaningId": "kritis, sangat penting", "example": "The meeting is critical for the project.", "exampleId": "Rapat itu sangat penting bagi proyek." }
+    ],
+    "tip": "Akhiran -ive, -al, dan -ly bisa menunjukkan kata sifat atau kata keterangan. Lihat posisinya: kata sifat menerangkan kata benda, dan kata keterangan menerangkan kata kerja, sifat, atau keterangan lain."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["word form suffix ive al ly", "TOEFL word form adjectives"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang akhiran -ive, -al, dan -ly, dengan contoh kata sifat dan kata keterangan.",
+      "watchFor": [
+        "Kata sifat dengan -ive, -al, dan -ly",
+        "Kata keterangan dengan -ly",
+        "Posisi kata sifat sebelum kata benda"
+      ]
+    },
+    "lesson": {
+      "intro": "Akhiran menentukan jenis kata. Kata sifat menerangkan kata benda, sedangkan kata keterangan menerangkan kata kerja. Akhiran -ly sering dipakai untuk membentuk kata keterangan, tetapi ada juga kata sifat yang berakhiran -ly, seperti friendly.",
+      "sections": [
+        {
+          "heading": "Akhiran -ive dan -al",
+          "bodyMd": "Akhiran **-ive** dan **-al** biasanya membentuk kata sifat: **create** menjadi **creative**, **effect** menjadi **effective**, **person** menjadi **personal**, **globe** menjadi **global**."
+        },
+        {
+          "heading": "Akhiran -ly",
+          "bodyMd": "Akhiran **-ly** mengubah kata sifat menjadi kata keterangan: **quick** menjadi **quickly**, **careful** menjadi **carefully**. Hati-hati: **friendly** adalah kata sifat, bukan kata keterangan."
+        },
+        {
+          "heading": "Posisi yang benar",
+          "bodyMd": "Kata sifat ditaruh sebelum kata benda atau setelah **be**: **a creative idea**, **the idea is creative**. Kata keterangan dengan -ly ditaruh setelah kata kerja: **She speaks positively**."
+        }
+      ],
+      "formulas": [
+        { "label": "Sifat", "pattern": "-ive / -al + kata benda (a creative idea)" },
+        { "label": "Keterangan", "pattern": "kata kerja + -ly (she speaks positively)" },
+        { "label": "Be", "pattern": "be + kata sifat (the plan is effective)" },
+        { "label": "Ly sifat", "pattern": "friendly, lovely, lonely: kata sifat dengan -ly" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "She has a creative mind.", "id": "Dia punya pikiran yang kreatif." },
+          { "en": "The plan is effective and cheap.", "id": "Rencananya efektif dan murah." },
+          { "en": "He speaks positively about the project.", "id": "Dia berbicara positif tentang proyek itu." },
+          { "en": "This is a national holiday.", "id": "Ini adalah hari libur nasional." },
+          { "en": "The meeting is critical for the team.", "id": "Rapat itu sangat penting bagi tim." }
+        ],
+        "negative": [
+          { "en": "The plan is not effective.", "id": "Rencananya tidak efektif." },
+          { "en": "The idea is not logical.", "id": "Idenya tidak logis." },
+          { "en": "She does not speak positively.", "id": "Dia tidak berbicara dengan positif." },
+          { "en": "This is not a typical day.", "id": "Ini bukan hari yang khas." },
+          { "en": "The problem is not personal.", "id": "Masalahnya tidak bersifat pribadi." }
+        ],
+        "question": [
+          { "en": "Is the plan effective?", "id": "Apakah rencananya efektif?" },
+          { "en": "Does she speak positively?", "id": "Apakah dia berbicara dengan positif?" },
+          { "en": "Is this a national holiday?", "id": "Apakah ini hari libur nasional?" },
+          { "en": "Is the answer logical?", "id": "Apakah jawabannya logis?" },
+          { "en": "Is the meeting critical for the team?", "id": "Apakah rapat itu penting bagi tim?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She has a creatively idea.", "right": "She has a creative idea.", "whyId": "Sebelum kata benda, gunakan kata sifat creative." },
+        { "wrong": "The plan is effectively and cheap.", "right": "The plan is effective and cheap.", "whyId": "Setelah be, gunakan kata sifat, bukan kata keterangan." },
+        { "wrong": "She speaks positive about the project.", "right": "She speaks positively about the project.", "whyId": "Kata kerja speaks diikuti kata keterangan." },
+        { "wrong": "This is a typically day.", "right": "This is a typical day.", "whyId": "Sebelum kata benda day, gunakan kata sifat typical." },
+        { "wrong": "The team works logical and hard.", "right": "The team works logically and hard.", "whyId": "Kata kerja works diikuti kata keterangan logically, bukan kata sifat logical." },
+        { "wrong": "The idea is logical, but it works logic.", "right": "The idea is logical, but it works logically.", "whyId": "Kata kerja works diikuti kata keterangan, bukan kata benda." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Mural untuk Kota",
+    "text": "A small town recently launched a creative project that aimed to bring people together. The organizers believed that an effective plan needed to include everyone, so they invited families, students, and local artists. Their positive attitude helped the project grow quickly. Soon the idea attracted attention from a national newspaper, and later, the story was shared by a global website.\n\nThe first meeting was lively. Some participants were shy, which is typical in a new group, but the organizers created a relaxed space. Each person was asked to describe a personal memory of the town. These short stories became the basis of a mural painted on the wall of the old market. The physical work took three weekends, and every volunteer brought a different skill.\n\nNot every idea was accepted. One suggestion was logical but too expensive for the budget, so the team chose a simpler design. A critical part of the discussion focused on the safety of the scaffolding. The leaders invited an engineer to check the structure, and his advice was clear and practical.\n\nLocal shops also helped by donating paint and food. The bakery sent bread every morning, and a family restaurant prepared lunch for the workers. These gifts made the work feel warm and generous. The mayor visited the wall and said the result was both beautiful and meaningful.\n\nToday, the mural is one of the most visited places in the town. The organizers say the success came from a simple habit: they listened carefully to everyone. Their message is that community projects work best when they are inclusive, respectful, and honest about their limits.",
+    "glossary": [
+      { "en": "scaffolding", "id": "perancah, rangka kerja" },
+      { "en": "donating", "id": "menyumbangkan" },
+      { "en": "inclusive", "id": "inklusif, merangkul semua" },
+      { "en": "budget", "id": "anggaran" },
+      { "en": "mural", "id": "lukisan dinding" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Who did the organizers invite to the project?",
+        "options": [
+          { "id": "A", "text": "only tourists" },
+          { "id": "B", "text": "families, students, and local artists" },
+          { "id": "C", "text": "a government team only" },
+          { "id": "D", "text": "the mayor's staff" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'they invited families, students, and local artists', artinya para penyelenggara mengundang keluarga, siswa, dan seniman lokal.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Turis tidak disebut sebagai undangan." },
+          { "optionId": "C", "reasonId": "Tim pemerintah saja tidak disebut." },
+          { "optionId": "D", "reasonId": "Staf walikota tidak disebut sebagai undangan." }
+        ],
+        "evidence": "they invited families, students, and local artists"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What were the short stories used for?",
+        "options": [
+          { "id": "A", "text": "a newspaper article" },
+          { "id": "B", "text": "a school exam" },
+          { "id": "C", "text": "a website" },
+          { "id": "D", "text": "a mural painted on the wall" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'These short stories became the basis of a mural painted on the wall', artinya cerita pendek itu menjadi dasar lukisan dinding.",
+        "stepByStep": [
+          "Cari short stories di teks.",
+          "Teks menyebut cerita itu menjadi dasar mural yang dilukis di dinding.",
+          "Artikel koran, ujian sekolah, dan situs web tidak disebut sebagai tujuan cerita itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Artikel koran tidak disebut sebagai tujuan cerita." },
+          { "optionId": "B", "reasonId": "Ujian sekolah tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Situs web disebut untuk kisah yang lebih luas, bukan cerita pendek ini." }
+        ],
+        "evidence": "These short stories became the basis of a mural"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why was one suggestion not accepted?",
+        "options": [
+          { "id": "A", "text": "it was too expensive for the budget" },
+          { "id": "B", "text": "it was not logical" },
+          { "id": "C", "text": "it was too slow" },
+          { "id": "D", "text": "nobody liked the color" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'logical but too expensive for the budget', artinya usulan itu logis, tetapi terlalu mahal untuk anggaran.",
+        "stepByStep": [
+          "Cari suggestion di teks: 'One suggestion was logical but too expensive for the budget.'",
+          "Usulan itu logis, tetapi alasan tidak diterima adalah biayanya.",
+          "Tidak logis, lambat, dan warna tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut usulan itu logis." },
+          { "optionId": "C", "reasonId": "Kecepatan tidak disebut sebagai alasan." },
+          { "optionId": "D", "reasonId": "Warna tidak disebut dalam teks." }
+        ],
+        "evidence": "too expensive for the budget"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why did the leaders invite an engineer?",
+        "options": [
+          { "id": "A", "text": "to paint the mural" },
+          { "id": "B", "text": "to donate food" },
+          { "id": "C", "text": "to check the safety of the scaffolding" },
+          { "id": "D", "text": "to write the newspaper story" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'A critical part of the discussion focused on the safety of the scaffolding. The leaders invited an engineer to check the structure', artinya insinyur diundang untuk memeriksa keamanan perancah.",
+        "stepByStep": [
+          "Cari engineer di teks.",
+          "Teks menyebut insinyur diundang untuk memeriksa struktur, terkait keamanan perancah.",
+          "Melukis mural, menyumbang makanan, dan menulis berita tidak disebut sebagai tugas insinyur."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Melukis mural tidak disebut sebagai tugas insinyur." },
+          { "optionId": "B", "reasonId": "Menyumbang makanan dilakukan toko lokal, bukan insinyur." },
+          { "optionId": "D", "reasonId": "Menulis berita tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda dengan akhiran -ical atau -ional sering menjelaskan jenis keahlian atau peran.",
+          "examples": [
+            { "en": "The team hired a technical expert for the test.", "id": "Tim itu mempekerjakan ahli teknis untuk tes itu." },
+            { "en": "The committee asked a legal adviser to check the contract.", "id": "Panitia meminta penasihat hukum memeriksa kontrak itu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena insinyur bekerja di proyek mural, tetapi teks menyebut tugas insinyur untuk memeriksa struktur.",
+        "evidence": "focused on the safety of the scaffolding"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the passage suggest about community projects?",
+        "options": [
+          { "id": "A", "text": "they work best when they are inclusive, respectful, and honest about their limits" },
+          { "id": "B", "text": "they work best when only experts decide" },
+          { "id": "C", "text": "they should avoid discussion" },
+          { "id": "D", "text": "they are always too expensive" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menulis 'community projects work best when they are inclusive, respectful, and honest about their limits', artinya proyek komunitas berhasil jika inklusif, menghormati, dan jujur tentang batasnya.",
+        "stepByStep": [
+          "Cari work best di paragraf terakhir.",
+          "Teks menyebut tiga sifat yang membuat proyek komunitas berhasil.",
+          "Hanya ahli yang memutuskan, menghindari diskusi, dan selalu mahal bertentangan dengan pesan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut inklusif, bukan hanya ahli yang memutuskan." },
+          { "optionId": "C", "reasonId": "Teks justru menyebut diskusi sebagai bagian penting proyek." },
+          { "optionId": "D", "reasonId": "Teks menyebut anggaran, tetapi tidak menyebut proyek komunitas selalu mahal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat -ive, -al, dan -ly menerangkan sifat sebuah proyek atau orang secara jelas.",
+          "examples": [
+            { "en": "The project is inclusive and fair.", "id": "Proyek itu inklusif dan adil." },
+            { "en": "The leader is honest about the results.", "id": "Pemimpin itu jujur tentang hasilnya." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti cara membuat proyek efektif, tetapi teks menekankan keterlibatan semua orang, bukan hanya ahli.",
+        "evidence": "they are inclusive, respectful, and honest about their limits"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ idea helped the team solve the problem.",
+        "options": [
+          { "id": "A", "text": "creative" },
+          { "id": "B", "text": "creatively" },
+          { "id": "C", "text": "creation" },
+          { "id": "D", "text": "creator" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Sebelum kata benda idea, gunakan kata sifat creative.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Creatively adalah kata keterangan, tidak cocok sebelum kata benda." },
+          { "optionId": "C", "reasonId": "Creation adalah kata benda, tidak cocok sebelum kata benda lain." },
+          { "optionId": "D", "reasonId": "Creator adalah orang, tidak cocok sebagai kata sifat." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The plan was ___ and cheap.",
+        "options": [
+          { "id": "A", "text": "effectively" },
+          { "id": "B", "text": "effective" },
+          { "id": "C", "text": "effect" },
+          { "id": "D", "text": "effecting" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Setelah was, gunakan kata sifat effective, dan sejajar dengan cheap.",
+        "stepByStep": [
+          "Setelah was, gunakan kata sifat.",
+          "Cheap juga kata sifat, jadi item pertama harus kata sifat: effective.",
+          "Effectively kata keterangan, effect kata benda, dan effecting bukan kata sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Effectively kata keterangan, tidak cocok setelah was." },
+          { "optionId": "C", "reasonId": "Effect kata benda, tidak cocok setelah was dan sejajar dengan cheap." },
+          { "optionId": "D", "reasonId": "Effecting bukan kata sifat yang tepat di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "She speaks ___ about her work.",
+        "options": [
+          { "id": "A", "text": "positive" },
+          { "id": "B", "text": "positively" },
+          { "id": "C", "text": "positivity" },
+          { "id": "D", "text": "positiveness" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Speaks adalah kata kerja, sehingga butuh kata keterangan positively.",
+        "stepByStep": [
+          "Speaks adalah kata kerja yang butuh kata keterangan.",
+          "Kata keterangan dari positive adalah positively.",
+          "Positive kata sifat, positivity dan positiveness kata benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Positive kata sifat, tidak cocok menerangkan kata kerja speaks." },
+          { "optionId": "C", "reasonId": "Positivity kata benda, tidak cocok menerangkan kata kerja." },
+          { "optionId": "D", "reasonId": "Positiveness kata benda, tidak cocok menerangkan kata kerja." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The ___ health of the workers is a priority.",
+        "options": [
+          { "id": "A", "text": "physical" },
+          { "id": "B", "text": "physically" },
+          { "id": "C", "text": "physics" },
+          { "id": "D", "text": "physic" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Sebelum kata benda health, gunakan kata sifat physical: kesehatan fisik.",
+        "stepByStep": [
+          "Kata health adalah kata benda yang diterangkan.",
+          "Kata sifat sebelum kata benda: physical.",
+          "Physically kata keterangan, physics kata benda ilmu, dan physic bukan bentuk yang tepat di posisi ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Physically kata keterangan, tidak cocok sebelum kata benda health." },
+          { "optionId": "C", "reasonId": "Physics adalah nama ilmu, tidak cocok sebagai kata sifat." },
+          { "optionId": "D", "reasonId": "Physic bukan kata sifat yang umum dipakai di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sebelum kata benda, gunakan kata sifat. Physical adalah kata sifat untuk fisik atau jasmani.",
+          "examples": [
+            { "en": "Physical exercise is good for your heart.", "id": "Olahraga fisik baik untuk jantungmu." },
+            { "en": "The physical changes were clear.", "id": "Perubahan fisik itu jelas." }
+          ]
+        },
+        "examTrap": "Pilihan C physics terlihat mirip dengan physical, tetapi physics adalah nama ilmu, bukan kata sifat."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ analysis showed that the plan had a clear weakness.",
+        "options": [
+          { "id": "A", "text": "logically" },
+          { "id": "B", "text": "logician" },
+          { "id": "C", "text": "logical" },
+          { "id": "D", "text": "logistics" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Sebelum kata benda analysis, gunakan kata sifat logical.",
+        "stepByStep": [
+          "Analysis adalah kata benda, sehingga sebelumnya butuh kata sifat.",
+          "Kata sifat dari logic adalah logical.",
+          "Logically kata keterangan, logician adalah orang, dan logistics adalah bidang kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Logically kata keterangan, tidak cocok sebelum kata benda." },
+          { "optionId": "B", "reasonId": "Logician adalah orang yang ahli logika, bukan kata sifat." },
+          { "optionId": "D", "reasonId": "Logistics adalah bidang pengelolaan barang, tidak cocok sebagai kata sifat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sebelum kata benda, gunakan kata sifat seperti logical.",
+          "examples": [
+            { "en": "The logical reason is clear.", "id": "Alasan yang logis itu jelas." },
+            { "en": "A logical solution helps the team.", "id": "Solusi yang logis membantu tim." }
+          ]
+        },
+        "examTrap": "Pilihan A logically terlihat seperti versi lain dari logical, tetapi sebelum kata benda harus kata sifat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Ini adalah ide yang kreatif.",
+        "hint": "Kreatif: creative. Ide: idea.",
+        "acceptedAnswers": ["This is a creative idea.", "This idea is creative."],
+        "modelAnswer": "This is a creative idea.",
+        "commonErrors": [{ "pattern": "This is a creatively idea", "feedbackId": "Sebelum kata benda, gunakan kata sifat creative." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rencana itu efektif dan murah.",
+        "hint": "Efektif: effective. Murah: cheap.",
+        "acceptedAnswers": ["The plan is effective and cheap.", "The plan is cheap and effective."],
+        "modelAnswer": "The plan is effective and cheap.",
+        "commonErrors": [{ "pattern": "The plan is effectively and cheap", "feedbackId": "Setelah be, gunakan kata sifat effective." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia berbicara dengan nada yang positif tentang proyek itu.",
+        "hint": "Berbicara: speaks. Dengan nada positif: positively.",
+        "acceptedAnswers": ["She speaks positively about the project.", "She speaks in a positive way about the project."],
+        "modelAnswer": "She speaks positively about the project.",
+        "commonErrors": [{ "pattern": "She speaks positive about the project", "feedbackId": "Kata kerja speaks diikuti kata keterangan positively." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kesehatan fisik para pekerja adalah prioritas utama.",
+        "hint": "Kesehatan fisik: physical health. Prioritas utama: the main priority.",
+        "acceptedAnswers": [
+          "The physical health of the workers is the main priority.",
+          "The physical health of the workers is a top priority."
+        ],
+        "modelAnswer": "The physical health of the workers is the main priority.",
+        "commonErrors": [{ "pattern": "The physically health of the workers is the main priority", "feedbackId": "Sebelum kata benda health, gunakan kata sifat physical." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Analisis yang logis menunjukkan bahwa rencana itu penting secara global.",
+        "hint": "Analisis yang logis: a logical analysis. Penting secara global: globally important.",
+        "acceptedAnswers": [
+          "The logical analysis shows that the plan is globally important.",
+          "A logical analysis shows that the plan is important globally."
+        ],
+        "modelAnswer": "The logical analysis shows that the plan is globally important.",
+        "commonErrors": [{ "pattern": "The logically analysis shows", "feedbackId": "Sebelum kata benda analysis, gunakan kata sifat logical." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The team made a ___ decision after reading the report.'",
+        "options": [
+          { "id": "A", "text": "logic" },
+          { "id": "B", "text": "logically" },
+          { "id": "C", "text": "logician" },
+          { "id": "D", "text": "logical" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Sebelum kata benda decision, gunakan kata sifat logical.",
+        "stepByStep": [
+          "Decision adalah kata benda, sehingga sebelumnya butuh kata sifat.",
+          "Kata sifat dari logic adalah logical.",
+          "Logic kata benda, logically kata keterangan, dan logician adalah orang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Logic kata benda, tidak cocok sebelum kata benda lain." },
+          { "optionId": "B", "reasonId": "Logically kata keterangan, tidak cocok sebelum kata benda." },
+          { "optionId": "C", "reasonId": "Logician adalah orang yang ahli logika, bukan kata sifat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat -al dipakai sebelum kata benda untuk menerangkan sifatnya.",
+          "examples": [
+            { "en": "The logical choice was clear.", "id": "Pilihan yang logis itu jelas." },
+            { "en": "A logical plan saves time.", "id": "Rencana yang logis menghemat waktu." }
+          ]
+        },
+        "examTrap": "Pilihan B logically terlihat seperti kata yang cocok dengan report, tetapi sebelum kata benda harus kata sifat."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence uses -ly correctly?",
+        "options": [
+          { "id": "A", "text": "She answered quick the question." },
+          { "id": "B", "text": "She answered the question quick." },
+          { "id": "C", "text": "She answered the question quickness." },
+          { "id": "D", "text": "She answered the question quickly." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Answered adalah kata kerja, sehingga butuh kata keterangan quickly.",
+        "stepByStep": [
+          "Answered adalah kata kerja yang butuh kata keterangan.",
+          "Kata keterangan dari quick adalah quickly.",
+          "Quick kata sifat, dan quickness kata benda, sehingga tidak cocok menerangkan kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Quick kata sifat, dan posisinya salah setelah quick the question." },
+          { "optionId": "B", "reasonId": "Quick kata sifat, tidak cocok menerangkan kata kerja answered." },
+          { "optionId": "C", "reasonId": "Quickness kata benda, tidak cocok menerangkan kata kerja answered." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata keterangan dengan -ly menerangkan kata kerja.",
+          "examples": [
+            { "en": "He finished the test quickly.", "id": "Dia menyelesaikan tes dengan cepat." },
+            { "en": "She explained the rule clearly.", "id": "Dia menjelaskan aturan itu dengan jelas." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak benar karena kata quick sederhana, tetapi kata sifat tidak menerangkan kata kerja."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'This is a ___ issue for the whole country.'",
+        "options": [
+          { "id": "A", "text": "national" },
+          { "id": "B", "text": "nation" },
+          { "id": "C", "text": "nationally" },
+          { "id": "D", "text": "nationalize" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Sebelum kata benda issue, gunakan kata sifat national.",
+        "stepByStep": [
+          "Issue adalah kata benda, sehingga sebelumnya butuh kata sifat.",
+          "Kata sifat dari nation adalah national.",
+          "Nation kata benda, nationally kata keterangan, dan nationalize kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Nation kata benda, tidak cocok sebelum kata benda lain." },
+          { "optionId": "C", "reasonId": "Nationally kata keterangan, tidak cocok sebelum kata benda." },
+          { "optionId": "D", "reasonId": "Nationalize kata kerja, tidak cocok sebelum kata benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "National adalah kata sifat yang menerangkan sesuatu yang berhubungan dengan negara.",
+          "examples": [
+            { "en": "It is a national holiday.", "id": "Ini adalah hari libur nasional." },
+            { "en": "The national team won the match.", "id": "Tim nasional memenangkan pertandingan." }
+          ]
+        },
+        "examTrap": "Pilihan C nationally terlihat seperti bentuk yang terkait dengan negara, tetapi itu kata keterangan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The festival attracts ___ attention.'",
+        "options": [
+          { "id": "A", "text": "globally" },
+          { "id": "B", "text": "global" },
+          { "id": "C", "text": "globe" },
+          { "id": "D", "text": "glob" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Sebelum kata benda attention, gunakan kata sifat global.",
+        "stepByStep": [
+          "Attention adalah kata benda, sehingga sebelumnya butuh kata sifat.",
+          "Kata sifat yang berarti seluruh dunia adalah global.",
+          "Globally kata keterangan, globe kata benda, dan glob bukan kata yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Globally kata keterangan, tidak cocok sebelum kata benda attention." },
+          { "optionId": "C", "reasonId": "Globe kata benda, tidak cocok sebagai kata sifat." },
+          { "optionId": "D", "reasonId": "Glob bukan kata sifat yang tepat di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Global adalah kata sifat yang menerangkan sesuatu di seluruh dunia.",
+          "examples": [
+            { "en": "The problem has a global effect.", "id": "Masalah itu berdampak global." },
+            { "en": "The company has global customers.", "id": "Perusahaan itu punya pelanggan global." }
+          ]
+        },
+        "examTrap": "Pilihan A globally terlihat seperti versi yang benar, tetapi sebelum kata benda harus kata sifat."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The typical student arrive early." },
+          { "id": "B", "text": "The typically student arrives early." },
+          { "id": "C", "text": "The typical student arrives early." },
+          { "id": "D", "text": "The typical students arrives early." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Typical adalah kata sifat sebelum student, dan student tunggal memakai arrives.",
+        "stepByStep": [
+          "Student kata benda tunggal, jadi kata kerjanya arrives.",
+          "Sebelum kata benda student, gunakan kata sifat typical.",
+          "Pilihan A memakai arrive untuk student tunggal. Pilihan B memakai typically. Pilihan D memakai students dengan arrives."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Arrive tidak cocok dengan student yang tunggal." },
+          { "optionId": "B", "reasonId": "Typically kata keterangan, tidak cocok sebelum kata benda." },
+          { "optionId": "D", "reasonId": "Students jamak tidak cocok dengan arrives." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Typical adalah kata sifat, dan kata benda tunggal memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "The typical student arrives early.", "id": "Siswa yang khas datang lebih awal." },
+            { "en": "This is a typical day at school.", "id": "Ini adalah hari yang khas di sekolah." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena typical sudah tepat, tetapi arrive tidak cocok dengan student yang tunggal."
+      }
+    ]
+  }
+}

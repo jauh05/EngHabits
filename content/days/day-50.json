@@ -1,0 +1,617 @@
+{
+  "day": 50,
+  "week": 7,
+  "month": 2,
+  "title": "Main Idea dan Supporting Detail",
+  "topic": "Menemukan ide utama dan detail pendukung dalam teks",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membedakan ide utama (thesis) dari detail pendukung",
+    "Mengenali tujuan, contoh, dan kesimpulan dalam sebuah teks",
+    "Memahami makna yang tersirat dari sebuah pernyataan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "theme", "pronunciationId": "THEEM (ee panjang, m jelas)", "pos": "Noun", "meaningId": "tema", "example": "The theme of the story is friendship.", "exampleId": "Tema cerita itu adalah persahabatan." },
+      { "no": 2, "en": "thesis", "pronunciationId": "THEE-sis (tekanan di THEE)", "pos": "Noun", "meaningId": "tesis, pernyataan utama", "example": "The thesis is stated in the first paragraph.", "exampleId": "Tesis dinyatakan di paragraf pertama." },
+      { "no": 3, "en": "argument", "pronunciationId": "AR-gyu-ment (tekanan di AR)", "pos": "Noun", "meaningId": "argumen, alasan", "example": "His argument is convincing.", "exampleId": "Argumennya meyakinkan." },
+      { "no": 4, "en": "purpose", "pronunciationId": "PUR-pos (tekanan di PUR)", "pos": "Noun", "meaningId": "tujuan", "example": "The purpose of the letter is to thank you.", "exampleId": "Tujuan surat itu adalah untuk berterima kasih." },
+      { "no": 5, "en": "conclusion", "pronunciationId": "kon-KLOO-zhun (tekanan di KLOO)", "pos": "Noun", "meaningId": "kesimpulan", "example": "The conclusion summarizes the main points.", "exampleId": "Kesimpulan merangkum poin-poin utama." },
+      { "no": 6, "en": "example", "pronunciationId": "ig-ZAM-pel (tekanan di ZAM)", "pos": "Noun", "meaningId": "contoh", "example": "Give one example from your life.", "exampleId": "Berikan satu contoh dari hidupmu." },
+      { "no": 7, "en": "illustrate", "pronunciationId": "IL-us-trait (tekanan di IL)", "pos": "Verb", "meaningId": "menggambarkan dengan contoh", "example": "The chart illustrates the growth.", "exampleId": "Grafik itu menggambarkan pertumbuhannya." },
+      { "no": 8, "en": "emphasize", "pronunciationId": "EM-fa-saiz (tekanan di EM)", "pos": "Verb", "meaningId": "menekankan", "example": "She wants to emphasize safety.", "exampleId": "Dia ingin menekankan keselamatan." },
+      { "no": 9, "en": "imply", "pronunciationId": "im-PLAI (tekanan di PLAI)", "pos": "Verb", "meaningId": "mengisyaratkan, menyiratkan", "example": "His silence may imply agreement.", "exampleId": "Diamnya mungkin menyiratkan persetujuan." },
+      { "no": 10, "en": "support", "pronunciationId": "se-PORT (tekanan di PORT)", "pos": "Verb", "meaningId": "mendukung", "example": "The data supports our plan.", "exampleId": "Data itu mendukung rencana kami." }
+    ],
+    "tip": "Ide utama (thesis) biasanya ada di awal atau akhir. Detail pendukung menjelaskan, memberi contoh, atau membuktikan ide utama itu."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["main idea and supporting details", "TOEFL main idea"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang ide utama dan detail pendukung, dengan contoh tema, tesis, dan kesimpulan.",
+      "watchFor": [
+        "Tesis sebagai ide utama",
+        "Contoh sebagai detail pendukung",
+        "Kesimpulan yang merangkum ide utama"
+      ]
+    },
+    "lesson": {
+      "intro": "Setiap teks biasanya punya satu ide utama, yaitu tesis atau tema. Penulis mendukung ide itu dengan contoh, argumen, dan detail. Dengan mengenali bagian-bagian ini, kamu bisa memahami teks dengan lebih cepat dan tepat.",
+      "sections": [
+        {
+          "heading": "Tesis dan tema",
+          "bodyMd": "**Tesis** adalah pernyataan utama yang ingin dibuktikan penulis. **Tema** adalah gagasan besar yang muncul dalam cerita atau teks. Contohnya: **The thesis is that kindness can change a community.**"
+        },
+        {
+          "heading": "Contoh, argumen, dan tujuan",
+          "bodyMd": "Penulis memakai **example** untuk memberi contoh, **argument** untuk menyusun alasan, dan **illustrate** untuk menggambarkan ide dengan contoh konkret. **Purpose** menjelaskan mengapa penulis menulis teks itu."
+        },
+        {
+          "heading": "Kesimpulan dan makna tersirat",
+          "bodyMd": "**Conclusion** merangkum ide utama di akhir. Penulis bisa **emphasize** sesuatu dengan mengulanginya, atau **imply** sesuatu tanpa mengatakannya langsung. **Support** berarti detail itu memperkuat ide utama."
+        }
+      ],
+      "formulas": [
+        { "label": "Ide utama", "pattern": "tesis atau tema + detail yang mendukung" },
+        { "label": "Contoh", "pattern": "ide utama + for example / for instance + contoh" },
+        { "label": "Kesimpulan", "pattern": "conclusion merangkum tesis dengan kata lain" },
+        { "label": "Tersirat", "pattern": "penulis imply sesuatu, pembaca menyimpulkannya" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The theme of the novel is courage.", "id": "Tema novel itu adalah keberanian." },
+          { "en": "The thesis is that reading daily improves English.", "id": "Tesisnya adalah membaca setiap hari meningkatkan bahasa Inggris." },
+          { "en": "The example illustrates the main point clearly.", "id": "Contoh itu menggambarkan poin utama dengan jelas." },
+          { "en": "The conclusion supports the author's argument.", "id": "Kesimpulan itu mendukung argumen penulis." },
+          { "en": "The author emphasizes the importance of safety.", "id": "Penulis menekankan pentingnya keselamatan." }
+        ],
+        "negative": [
+          { "en": "The example is not the main idea of the text.", "id": "Contoh itu bukan ide utama teks." },
+          { "en": "The conclusion does not repeat the thesis.", "id": "Kesimpulan itu tidak mengulang tesisnya." },
+          { "en": "The detail does not support the main point.", "id": "Detail itu tidak mendukung poin utama." },
+          { "en": "The purpose of the article is not clear to me.", "id": "Tujuan artikel itu tidak jelas bagi saya." },
+          { "en": "The author does not imply that the plan failed.", "id": "Penulis tidak menyiratkan bahwa rencana itu gagal." }
+        ],
+        "question": [
+          { "en": "What is the thesis of the passage?", "id": "Apa tesis teks itu?" },
+          { "en": "Which example supports the main idea?", "id": "Contoh mana yang mendukung ide utama?" },
+          { "en": "What is the purpose of the author?", "id": "Apa tujuan penulis?" },
+          { "en": "Does the conclusion summarize the main idea?", "id": "Apakah kesimpulan itu merangkum ide utama?" },
+          { "en": "What does the author imply about the plan?", "id": "Apa yang tersirat dari penulis tentang rencana itu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The thesis are that kindness matters.", "right": "The thesis is that kindness matters.", "whyId": "Thesis adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The author emphasize the main point.", "right": "The author emphasizes the main point.", "whyId": "Subjek author tunggal, sehingga kata kerjanya emphasizes." },
+        { "wrong": "The example illustrate the idea clearly.", "right": "The example illustrates the idea clearly.", "whyId": "Subjek example tunggal, sehingga kata kerjanya illustrates." },
+        { "wrong": "The conclusion support the thesis.", "right": "The conclusion supports the thesis.", "whyId": "Subjek conclusion tunggal, sehingga kata kerjanya supports." },
+        { "wrong": "The author imply that the plan failed.", "right": "The author implies that the plan failed.", "whyId": "Subjek author tunggal, sehingga kata kerjanya implies." },
+        { "wrong": "The purpose of the text are to inform readers.", "right": "The purpose of the text is to inform readers.", "whyId": "Subjek purpose tunggal, sehingga memakai is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["main idea and supporting details", "classroom discussion English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Tema, tesis, dan contoh dalam penjelasan guru",
+        "Kata emphasize dan imply dalam diskusi"
+      ]
+    },
+    "script": {
+      "title": "Membahas ide utama",
+      "lines": [
+        { "speaker": "Teacher", "text": "Today we will discuss the theme of the novel: courage in difficult times." },
+        { "speaker": "Student", "text": "What is the thesis of the author?" },
+        { "speaker": "Teacher", "text": "The thesis is that small acts of kindness can change a community. The argument is built on three examples." },
+        { "speaker": "Student", "text": "Can you give an example?" },
+        { "speaker": "Teacher", "text": "Yes. The first example illustrates how neighbors shared food. The purpose is to show that help can be simple." },
+        { "speaker": "Student", "text": "Does the author emphasize one kind of help, or many?" },
+        { "speaker": "Teacher", "text": "Many. The author seems to imply that everyone can support others. The conclusion comes at the end, and it can support the main idea." },
+        { "speaker": "Student", "text": "So the main idea is kindness, and the details support it?" },
+        { "speaker": "Teacher", "text": "Exactly. Write the main idea in one sentence, then list the details below it." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada thesis dan theme, bunyi th di awal dan akhir tetap jelas: THEE-sis, THEEM.",
+      "Pada illustrate, tekanan ada di suku pertama: IL-us-trait.",
+      "Pada emphasize, ucapkan EM-fa-saiz dengan tekanan di EM."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is the theme of the novel?",
+        "options": [
+          { "id": "A", "text": "money and power" },
+          { "id": "B", "text": "courage in difficult times" },
+          { "id": "C", "text": "the history of a city" },
+          { "id": "D", "text": "travel and food" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Guru berkata 'the theme of the novel: courage in difficult times', artinya tema novel itu adalah keberanian di masa sulit.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Uang dan kekuasaan tidak disebut sebagai tema." },
+          { "optionId": "C", "reasonId": "Sejarah kota tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Perjalanan dan makanan tidak disebut sebagai tema." }
+        ],
+        "evidence": "courage in difficult times"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the author's thesis, according to the teacher?",
+        "options": [
+          { "id": "A", "text": "only rich people can help" },
+          { "id": "B", "text": "communities never change" },
+          { "id": "C", "text": "small acts of kindness can change a community" },
+          { "id": "D", "text": "kindness is expensive" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Guru berkata 'The thesis is that small acts of kindness can change a community', artinya tesisnya adalah tindakan kecil yang baik dapat mengubah komunitas.",
+        "stepByStep": [
+          "Cari thesis di naskah guru: 'The thesis is that small acts of kindness can change a community.'",
+          "Tesis itu adalah pernyataan utama penulis.",
+          "Hanya orang kaya yang bisa membantu, komunitas tidak pernah berubah, dan kebaikan itu mahal bertentangan dengan tesis."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut tindakan kecil yang baik, bukan hanya orang kaya." },
+          { "optionId": "B", "reasonId": "Tesisnya justru menyatakan komunitas bisa berubah." },
+          { "optionId": "D", "reasonId": "Mahalnya kebaikan tidak disebut sebagai tesis." }
+        ],
+        "evidence": "small acts of kindness can change a community"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What is the purpose of the first example?",
+        "options": [
+          { "id": "A", "text": "to show that help is expensive" },
+          { "id": "B", "text": "to show that the neighbors were angry" },
+          { "id": "C", "text": "to show that help can be simple" },
+          { "id": "D", "text": "to show that the novel is long" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Guru berkata 'The purpose is to show that help can be simple', artinya contoh itu menunjukkan bahwa bantuan bisa sederhana.",
+        "stepByStep": [
+          "Cari purpose di naskah guru: 'The purpose is to show that help can be simple.'",
+          "Tujuan contoh pertama adalah menunjukkan bahwa bantuan bisa sederhana.",
+          "Bantuan yang mahal, tetangga yang marah, dan novel yang panjang tidak disebut sebagai tujuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut bantuan bisa sederhana, bukan mahal." },
+          { "optionId": "B", "reasonId": "Tetangga yang marah tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Panjang novel tidak disebut sebagai tujuan contoh." }
+        ],
+        "evidence": "The purpose is to show that help can be simple"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the teacher imply about everyone?",
+        "options": [
+          { "id": "A", "text": "everyone should stay home" },
+          { "id": "B", "text": "everyone can support others" },
+          { "id": "C", "text": "no one can help" },
+          { "id": "D", "text": "only teachers can help" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Guru berkata 'The author seems to imply that everyone can support others', artinya penulis menyiratkan bahwa semua orang bisa mendukung orang lain.",
+        "stepByStep": [
+          "Cari imply di naskah guru: 'The author seems to imply that everyone can support others.'",
+          "Imply berarti menyiratkan sesuatu tanpa mengatakannya langsung.",
+          "Semua harus di rumah, tidak ada yang bisa membantu, dan hanya guru yang bisa membantu bertentangan dengan pesan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut semua orang bisa mendukung, bukan harus di rumah." },
+          { "optionId": "C", "reasonId": "Teks menyebut semua orang bisa membantu, bertentangan dengan tidak ada yang bisa membantu." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut hanya guru yang bisa membantu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Imply berarti penulis atau pembicara menyiratkan sesuatu tanpa menyebutnya langsung.",
+          "examples": [
+            { "en": "His silence may imply that he agrees.", "id": "Diamnya mungkin menyiratkan bahwa dia setuju." },
+            { "en": "The data implies that the plan can work.", "id": "Data itu menyiratkan bahwa rencana itu bisa berhasil." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kesimpulan yang masuk akal karena guru sedang mengajar, tetapi teks tidak menyebut hanya guru.",
+        "evidence": "everyone can support others"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement best describes the conclusion?",
+        "options": [
+          { "id": "A", "text": "The conclusion is not related to the main idea." },
+          { "id": "B", "text": "The conclusion comes at the start and states a new topic." },
+          { "id": "C", "text": "The conclusion contradicts the thesis." },
+          { "id": "D", "text": "The conclusion comes at the end and supports the main idea." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Guru berkata 'The conclusion comes at the end, and it can support the main idea', artinya kesimpulan berada di akhir dan mendukung ide utama.",
+        "stepByStep": [
+          "Cari conclusion di naskah guru: 'The conclusion comes at the end, and it can support the main idea.'",
+          "Kesimpulan berada di akhir dan mendukung ide utama.",
+          "Tidak berhubungan, di awal dengan topik baru, dan bertentangan dengan tesis tidak sesuai dengan kalimat guru."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut kesimpulan mendukung ide utama, jadi tidak berhubungan." },
+          { "optionId": "B", "reasonId": "Teks menyebut kesimpulan berada di akhir, bukan di awal." },
+          { "optionId": "C", "reasonId": "Teks menyebut kesimpulan mendukung tesis, bukan bertentangan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kesimpulan biasanya berada di akhir teks dan merangkum atau mendukung ide utama.",
+          "examples": [
+            { "en": "In conclusion, the evidence supports the main idea.", "id": "Sebagai kesimpulan, bukti mendukung ide utama." },
+            { "en": "The last paragraph summarizes the author's thesis.", "id": "Paragraf terakhir merangkum tesis penulis." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat seperti kesimpulan yang tajam, tetapi guru menyebut kesimpulan mendukung ide utama.",
+        "evidence": "The conclusion comes at the end"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the article is to inform readers about recycling.",
+        "options": [
+          { "id": "A", "text": "purpose" },
+          { "id": "B", "text": "pattern" },
+          { "id": "C", "text": "balance" },
+          { "id": "D", "text": "list" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Purpose adalah tujuan penulis menulis artikel.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pattern berarti pola, bukan tujuan artikel." },
+          { "optionId": "C", "reasonId": "Balance berarti keseimbangan, bukan tujuan artikel." },
+          { "optionId": "D", "reasonId": "List berarti daftar, bukan tujuan artikel." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The writer uses a short story to ___ her point.",
+        "options": [
+          { "id": "A", "text": "conclude" },
+          { "id": "B", "text": "outline" },
+          { "id": "C", "text": "illustrate" },
+          { "id": "D", "text": "locate" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Illustrate berarti menggambarkan ide dengan contoh, dan cerita pendek dipakai sebagai contoh.",
+        "stepByStep": [
+          "Cerita pendek dipakai sebagai contoh untuk poin penulis.",
+          "Kata kerja yang berarti menggambarkan ide dengan contoh adalah illustrate.",
+          "Conclude berarti menyimpulkan, outline berarti kerangka, dan locate berarti menemukan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Conclude berarti menyimpulkan, bukan memberi contoh." },
+          { "optionId": "B", "reasonId": "Outline berarti kerangka, bukan memberi contoh." },
+          { "optionId": "D", "reasonId": "Locate berarti menemukan, bukan memberi contoh." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The writer's main ___ is that schools should teach kindness.",
+        "options": [
+          { "id": "A", "text": "headline" },
+          { "id": "B", "text": "thesis" },
+          { "id": "C", "text": "glance" },
+          { "id": "D", "text": "keyword" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Thesis adalah pernyataan utama penulis yang ingin dibuktikan.",
+        "stepByStep": [
+          "Kalimat menyebut pernyataan utama penulis.",
+          "Pernyataan utama yang ingin dibuktikan disebut thesis.",
+          "Headline judul, glance pandangan sekilas, dan keyword kata kunci."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Headline adalah judul, bukan pernyataan utama." },
+          { "optionId": "C", "reasonId": "Glance adalah pandangan sekilas, bukan pernyataan utama." },
+          { "optionId": "D", "reasonId": "Keyword adalah kata kunci, bukan pernyataan utama." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The final paragraph is a ___ that summarizes the argument.",
+        "options": [
+          { "id": "A", "text": "theme" },
+          { "id": "B", "text": "example" },
+          { "id": "C", "text": "conclusion" },
+          { "id": "D", "text": "purpose" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Conclusion adalah bagian akhir yang merangkum argumen.",
+        "stepByStep": [
+          "Paragraf terakhir yang merangkum argumen disebut conclusion.",
+          "Theme adalah tema, example adalah contoh, dan purpose adalah tujuan, tidak merangkum argumen.",
+          "Hanya conclusion yang tepat untuk paragraf terakhir."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Theme adalah tema, bukan bagian yang merangkum argumen." },
+          { "optionId": "B", "reasonId": "Example adalah contoh, bukan bagian yang merangkum argumen." },
+          { "optionId": "D", "reasonId": "Purpose adalah tujuan, bukan bagian yang merangkum argumen." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Conclusion adalah bagian akhir yang merangkum atau menguatkan argumen.",
+          "examples": [
+            { "en": "The conclusion repeats the main argument in new words.", "id": "Kesimpulan mengulang argumen utama dengan kata-kata baru." },
+            { "en": "A strong conclusion makes the thesis clear.", "id": "Kesimpulan yang kuat membuat tesis menjadi jelas." }
+          ]
+        },
+        "examTrap": "Pilihan D purpose terlihat seperti bagian penting di akhir teks, tetapi purpose menjelaskan tujuan, bukan merangkum argumen."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The speaker wants to ___ the importance of safety, so she repeats it three times.",
+        "options": [
+          { "id": "A", "text": "imply" },
+          { "id": "B", "text": "emphasize" },
+          { "id": "C", "text": "support" },
+          { "id": "D", "text": "illustrate" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Emphasize berarti menekankan, dan pengulangan tiga kali menunjukkan penekanan.",
+        "stepByStep": [
+          "Pembicara mengulang kalimat tiga kali, itu tanda penekanan.",
+          "Kata kerja yang berarti menekankan adalah emphasize.",
+          "Imply berarti menyiratkan, support berarti mendukung, dan illustrate berarti menggambarkan dengan contoh."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Imply berarti menyiratkan, tidak cocok dengan pengulangan yang tegas." },
+          { "optionId": "C", "reasonId": "Support berarti mendukung, tidak cocok dengan makna penekanan ini." },
+          { "optionId": "D", "reasonId": "Illustrate berarti memberi contoh, tidak cocok dengan pengulangan ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Emphasize berarti menekankan sesuatu, sering dengan pengulangan atau kata yang kuat.",
+          "examples": [
+            { "en": "The coach emphasized the need for rest.", "id": "Pelatih menekankan pentingnya istirahat." },
+            { "en": "The teacher emphasized the rules again.", "id": "Guru itu menekankan aturannya sekali lagi." }
+          ]
+        },
+        "examTrap": "Pilihan A imply terlihat cocok karena pembicara ingin mengatakan sesuatu, tetapi kalimat ini menyebut pengulangan yang tegas."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tema cerita ini adalah persahabatan.",
+        "hint": "Tema: theme. Persahabatan: friendship.",
+        "acceptedAnswers": ["The theme of this story is friendship.", "The theme of the story is friendship."],
+        "modelAnswer": "The theme of this story is friendship.",
+        "commonErrors": [{ "pattern": "The theme of this story are friendship", "feedbackId": "Subjek theme tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tujuan artikel ini adalah untuk memberi contoh.",
+        "hint": "Tujuan: purpose. Memberi contoh: to give an example.",
+        "acceptedAnswers": ["The purpose of this article is to give an example.", "The purpose of the article is to give an example."],
+        "modelAnswer": "The purpose of this article is to give an example.",
+        "commonErrors": [{ "pattern": "The purpose of this article are to give an example", "feedbackId": "Subjek purpose tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kesimpulannya mendukung argumen penulis.",
+        "hint": "Kesimpulan: the conclusion. Mendukung: supports. Argumen penulis: the author's argument.",
+        "acceptedAnswers": ["The conclusion supports the author's argument.", "The conclusion supports the argument of the author."],
+        "modelAnswer": "The conclusion supports the author's argument.",
+        "commonErrors": [{ "pattern": "The conclusion support the author's argument", "feedbackId": "Subjek conclusion tunggal, sehingga memakai supports." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penulis menekankan bahwa pendidikan menyiapkan siswa untuk masa depan.",
+        "hint": "Menekankan: emphasizes. Pendidikan: education. Menyiapkan: prepares.",
+        "acceptedAnswers": [
+          "The author emphasizes that education prepares students for the future.",
+          "The author emphasizes that education helps students prepare for the future."
+        ],
+        "modelAnswer": "The author emphasizes that education prepares students for the future.",
+        "commonErrors": [{ "pattern": "The author emphasize that education prepare students", "feedbackId": "Subjek author tunggal, sehingga kata kerjanya emphasizes, dan education prepares." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Contoh ini menggambarkan bahwa kerja sama dapat menyelesaikan masalah besar.",
+        "hint": "Contoh ini: this example. Menggambarkan: illustrates. Kerja sama: cooperation.",
+        "acceptedAnswers": [
+          "This example illustrates that cooperation can solve big problems.",
+          "This example illustrates that cooperation can solve large problems."
+        ],
+        "modelAnswer": "This example illustrates that cooperation can solve big problems.",
+        "commonErrors": [{ "pattern": "This example illustrate that cooperation can solve big problems", "feedbackId": "Subjek example tunggal, sehingga kata kerjanya illustrates." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The ___ of the novel is that freedom must be protected.'",
+        "options": [
+          { "id": "A", "text": "thesis" },
+          { "id": "B", "text": "speed" },
+          { "id": "C", "text": "locate" },
+          { "id": "D", "text": "scan" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Thesis adalah pernyataan utama novel, dan kalimat itu menyatakan pesan utama.",
+        "stepByStep": [
+          "Kalimat menyebut pesan utama: freedom must be protected.",
+          "Pernyataan utama yang ingin disampaikan penulis disebut thesis.",
+          "Speed, locate, dan scan tidak menunjukkan pernyataan utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Speed berarti kecepatan, tidak menunjukkan pernyataan utama." },
+          { "optionId": "C", "reasonId": "Locate berarti menemukan, tidak menunjukkan pernyataan utama." },
+          { "optionId": "D", "reasonId": "Scan berarti memindai, tidak menunjukkan pernyataan utama." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Thesis adalah pernyataan utama yang ingin dibuktikan penulis sepanjang teks.",
+          "examples": [
+            { "en": "The thesis of the essay is that cities need more parks.", "id": "Tesis esai itu adalah kota membutuhkan lebih banyak taman." },
+            { "en": "Her thesis is clear in the first paragraph.", "id": "Tesisnya jelas di paragraf pertama." }
+          ]
+        },
+        "examTrap": "Pilihan C locate terlihat cocok karena pesan utama harus dicari, tetapi kalimat ini menyatakan pesan utama novel."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'imply' correctly?",
+        "options": [
+          { "id": "A", "text": "The writer imply that the city needs more parks." },
+          { "id": "B", "text": "The writer implies that the city needs more parks." },
+          { "id": "C", "text": "The writer implied to the city that more parks." },
+          { "id": "D", "text": "The writer implies the city needs more parks that." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek writer tunggal, sehingga kata kerjanya implies, dengan that-clause setelahnya.",
+        "stepByStep": [
+          "Subjek writer tunggal, sehingga kata kerjanya implies.",
+          "Imply diikuti anak kalimat dengan that.",
+          "Pilihan A tidak memakai -s. Pilihan C memakai to dengan cara yang salah. Pilihan D meletakkan that di akhir."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Subjek writer tunggal, sehingga harus memakai implies." },
+          { "optionId": "C", "reasonId": "Implied to the city tidak membentuk pola imply yang benar." },
+          { "optionId": "D", "reasonId": "That diletakkan di akhir kalimat, sehingga urutannya salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Imply diikuti anak kalimat dengan that, dan kata kerja mengikuti subjek tunggal.",
+          "examples": [
+            { "en": "The report implies that the plan is working.", "id": "Laporan itu menyiratkan bahwa rencananya berjalan." },
+            { "en": "Her answer implies that she is tired.", "id": "Jawabannya menyiratkan bahwa dia lelah." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena artinya jelas, tetapi writer tunggal harus memakai implies."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Each story ___ a different point, but all of them ___ the same theme.'",
+        "options": [
+          { "id": "A", "text": "conclude / emphasize" },
+          { "id": "B", "text": "illustrate / support" },
+          { "id": "C", "text": "imply / locate" },
+          { "id": "D", "text": "scan / highlight" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setiap cerita menggambarkan poin yang berbeda, dan semuanya mendukung tema yang sama.",
+        "stepByStep": [
+          "Setiap cerita memberi contoh untuk poin yang berbeda: illustrate.",
+          "Semuanya mendukung tema yang sama: support.",
+          "Conclude, emphasize, imply, locate, scan, dan highlight tidak sesuai dengan kedua bagian kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Conclude berarti menyimpulkan, tidak sesuai dengan cerita yang memberi contoh." },
+          { "optionId": "C", "reasonId": "Imply dan locate tidak sesuai dengan kedua bagian kalimat ini." },
+          { "optionId": "D", "reasonId": "Scan dan highlight tidak sesuai dengan kedua bagian kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Illustrate untuk memberi contoh, dan support untuk mendukung ide yang lebih besar.",
+          "examples": [
+            { "en": "Each example illustrates a different skill.", "id": "Setiap contoh menggambarkan keterampilan yang berbeda." },
+            { "en": "All the data supports the same conclusion.", "id": "Semua data mendukung kesimpulan yang sama." }
+          ]
+        },
+        "examTrap": "Pilihan A conclude / emphasize terlihat cocok karena ada penekanan, tetapi kalimat ini butuh kata untuk contoh dan dukungan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'to stress something strongly'?",
+        "options": [
+          { "id": "A", "text": "imply" },
+          { "id": "B", "text": "outline" },
+          { "id": "C", "text": "emphasize" },
+          { "id": "D", "text": "argument" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Emphasize berarti menekankan sesuatu dengan kuat.",
+        "stepByStep": [
+          "Kalimat meminta kata yang berarti menekankan dengan kuat.",
+          "Kata kerja yang berarti menekankan adalah emphasize.",
+          "Imply berarti menyiratkan, outline berarti kerangka, dan argument berarti argumen."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Imply berarti menyiratkan, bukan menekankan dengan kuat." },
+          { "optionId": "B", "reasonId": "Outline berarti kerangka, bukan menekankan." },
+          { "optionId": "D", "reasonId": "Argument adalah kata benda, bukan kata kerja yang berarti menekankan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Emphasize berarti memberi penekanan agar sesuatu lebih diperhatikan.",
+          "examples": [
+            { "en": "The coach emphasized teamwork.", "id": "Pelatih menekankan kerja sama tim." },
+            { "en": "She emphasized the need for clear notes.", "id": "Dia menekankan perlunya catatan yang jelas." }
+          ]
+        },
+        "examTrap": "Pilihan A imply terlihat dekat dengan menekankan, tetapi imply berarti menyiratkan tanpa mengatakannya langsung."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The conclusion are clear, and the examples supports it." },
+          { "id": "B", "text": "The conclusion is clear, and the examples supports it." },
+          { "id": "C", "text": "The conclusion are clear, and the examples support it." },
+          { "id": "D", "text": "The conclusion is clear, and the examples support it." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek conclusion tunggal memakai is, dan examples jamak memakai support.",
+        "stepByStep": [
+          "Subjek conclusion tunggal, sehingga kata kerjanya is.",
+          "Subjek examples jamak, sehingga kata kerjanya support.",
+          "Pilihan A dan C salah pada conclusion, dan pilihan B salah pada examples."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Conclusion tunggal tidak cocok dengan are, dan examples jamak tidak cocok dengan supports." },
+          { "optionId": "B", "reasonId": "Examples jamak tidak cocok dengan supports." },
+          { "optionId": "C", "reasonId": "Conclusion tunggal tidak cocok dengan are." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setiap klausa memakai kata kerja yang cocok dengan subjeknya masing-masing.",
+          "examples": [
+            { "en": "The plan is simple, and the steps are clear.", "id": "Rencananya sederhana, dan langkah-langkahnya jelas." },
+            { "en": "The story is short, and the characters support the theme.", "id": "Ceritanya pendek, dan tokoh-tokohnya mendukung tema." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak benar karena conclusion tunggal sudah tepat, tetapi examples jamak tidak cocok dengan supports."
+      }
+    ]
+  }
+}

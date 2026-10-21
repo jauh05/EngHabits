@@ -1,0 +1,625 @@
+{
+  "day": 48,
+  "week": 7,
+  "month": 2,
+  "title": "Inversion Dasar",
+  "topic": "Membalik urutan subjek dan kata kerja setelah kata keterangan negatif",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membalik subjek dan kata kerja setelah kata keterangan negatif seperti rarely dan seldom",
+    "Memakai pola no sooner ___ than, scarcely ___ when, dan barely ___ when",
+    "Memakai pola not only ___ but also dan only then dengan inversi"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "rarely", "pronunciationId": "RAIR-li (tekanan di RAIR)", "pos": "Adv", "meaningId": "jarang sekali", "example": "Rarely do we see such kindness.", "exampleId": "Jarang sekali kami melihat kebaikan seperti itu." },
+      { "no": 2, "en": "seldom", "pronunciationId": "SEL-dem (tekanan di SEL)", "pos": "Adv", "meaningId": "jarang", "example": "Seldom have I seen such a crowd.", "exampleId": "Jarang sekali saya melihat kerumunan seperti itu." },
+      { "no": 3, "en": "hardly", "pronunciationId": "HARD-li (tekanan di HARD)", "pos": "Adv", "meaningId": "hampir tidak", "example": "Hardly anyone came to the party.", "exampleId": "Hampir tidak ada yang datang ke pesta itu." },
+      { "no": 4, "en": "scarcely", "pronunciationId": "SKAIRS-li (tekanan di SKAIRS)", "pos": "Adv", "meaningId": "hampir tidak, baru saja", "example": "Scarcely had we arrived when it rained.", "exampleId": "Kami baru saja tiba ketika hujan turun." },
+      { "no": 5, "en": "barely", "pronunciationId": "BAIR-li (tekanan di BAIR)", "pos": "Adv", "meaningId": "hampir tidak, baru saja", "example": "Barely had I sat down when the phone rang.", "exampleId": "Saya baru saja duduk ketika telepon berdering." },
+      { "no": 6, "en": "nowhere", "pronunciationId": "NOH-wair (tekanan di NOH)", "pos": "Adv", "meaningId": "tidak di mana pun", "example": "Nowhere else can you find such a view.", "exampleId": "Tidak ada tempat lain yang punya pemandangan seperti itu." },
+      { "no": 7, "en": "not only", "pronunciationId": "NOT ON-lee (tekanan di NOT)", "pos": "Conj", "meaningId": "tidak hanya", "example": "Not only did she sing, but she also danced.", "exampleId": "Dia tidak hanya bernyanyi, tetapi juga menari." },
+      { "no": 8, "en": "only then", "pronunciationId": "ON-lee THEN (tekanan di ON)", "pos": "Adv", "meaningId": "baru pada saat itu", "example": "Only then did I understand the rule.", "exampleId": "Baru pada saat itu saya mengerti aturannya." },
+      { "no": 9, "en": "no sooner", "pronunciationId": "NOH SOO-ner (tekanan di SOO)", "pos": "Adv", "meaningId": "belum lama setelah", "example": "No sooner had he left than it stopped raining.", "exampleId": "Belum lama dia pergi, hujan berhenti." },
+      { "no": 10, "en": "little", "pronunciationId": "LIT-l (tekanan di LIT)", "pos": "Adv", "meaningId": "sedikit sekali", "example": "Little did they know about the plan.", "exampleId": "Mereka sedikit sekali tahu tentang rencana itu." }
+    ],
+    "tip": "Setelah kata keterangan negatif di awal kalimat, urutan kata dibalik: kata bantu atau kata kerja to be ditaruh sebelum subjek. Contoh: Rarely do we see such a view, bukan Rarely we see such a view."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["inversion in English", "negative inversion TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang inversi setelah kata keterangan negatif, dengan contoh rarely, seldom, no sooner, dan not only.",
+      "watchFor": [
+        "Kata bantu dipindah ke depan subjek",
+        "No sooner ___ than dan scarcely ___ when",
+        "Not only dan only then"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam bahasa Inggris tulisan formal, kata keterangan negatif di awal kalimat sering diikuti inversi: kata bantu atau kata kerja to be berpindah ke depan subjek. Pola ini membuat kalimat terdengar lebih kuat dan lebih formal.",
+      "sections": [
+        {
+          "heading": "Kata keterangan negatif",
+          "bodyMd": "Setelah **rarely**, **seldom**, **hardly**, atau **little** di awal kalimat, kata bantu dipindah ke depan subjek: **Rarely do we see such kindness.** **Seldom have I seen such a crowd.** Jika kalimat memakai to be, kata be yang dipindah: **Rarely is the train late.**"
+        },
+        {
+          "heading": "No sooner, scarcely, dan barely",
+          "bodyMd": "**No sooner** diikuti **had** plus subjek dan V3, lalu **than**: **No sooner had he left than it stopped raining.** **Scarcely** dan **barely** memakai pola yang sama dengan **when**: **Scarcely had we arrived when it rained.**"
+        },
+        {
+          "heading": "Not only dan only then",
+          "bodyMd": "Setelah **not only** di awal, kata bantu dipindah: **Not only did she sing, but she also danced.** Setelah **only then**, kata bantu juga dipindah: **Only then did I realize the mistake.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Rarely / seldom", "pattern": "rarely / seldom + do / does / did / have / is + subjek + kata kerja" },
+        { "label": "No sooner", "pattern": "no sooner + had + subjek + V3 + than + klausa" },
+        { "label": "Scarcely / barely", "pattern": "scarcely / barely + had + subjek + V3 + when + klausa" },
+        { "label": "Not only / only then", "pattern": "not only / only then + kata bantu + subjek + kata kerja" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Rarely do we see such kindness.", "id": "Jarang sekali kami melihat kebaikan seperti itu." },
+          { "en": "Seldom have I seen such a crowded station.", "id": "Jarang sekali saya melihat stasiun yang sepadat itu." },
+          { "en": "No sooner had she sat down than the bus started.", "id": "Belum lama dia duduk, bus sudah berangkat." },
+          { "en": "Not only did the driver wave, but he also helped us.", "id": "Sopir itu tidak hanya melambai, tetapi juga membantu kami." },
+          { "en": "Only then did I realize that I was wrong.", "id": "Baru pada saat itu saya sadar bahwa saya salah." }
+        ],
+        "negative": [
+          { "en": "We do not see such kindness very often.", "id": "Kami tidak sering melihat kebaikan seperti itu." },
+          { "en": "I do not see such kindness very often.", "id": "Saya tidak sering melihat kebaikan seperti itu." },
+          { "en": "I have not seen such a crowd before.", "id": "Saya belum pernah melihat kerumunan seperti itu." },
+          { "en": "I did not realize the mistake until later.", "id": "Saya tidak menyadari kesalahan itu sampai nanti." },
+          { "en": "She had not sat down when the bus started.", "id": "Dia belum duduk ketika bus berangkat." }
+        ],
+        "question": [
+          { "en": "Rarely do we see such kindness?", "id": "Jarang sekali kami melihat kebaikan seperti itu?" },
+          { "en": "Had the bell rung when the students ran out?", "id": "Apakah bel sudah berbunyi ketika para siswa berlari keluar?" },
+          { "en": "Did you realize the mistake only then?", "id": "Apakah kamu menyadari kesalahan itu baru pada saat itu?" },
+          { "en": "Have you ever seen such a crowd?", "id": "Pernahkah kamu melihat kerumunan seperti itu?" },
+          { "en": "Did she sing, but also dance?", "id": "Apakah dia bernyanyi, tetapi juga menari?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Rarely we see such kindness.", "right": "Rarely do we see such kindness.", "whyId": "Setelah rarely, kata bantu do dipindah ke depan subjek." },
+        { "wrong": "Seldom I have seen such a crowd.", "right": "Seldom have I seen such a crowd.", "whyId": "Kata bantu have dipindah ke depan subjek I." },
+        { "wrong": "No sooner she had sat down than the bus started.", "right": "No sooner had she sat down than the bus started.", "whyId": "Setelah no sooner, had dipindah sebelum subjek." },
+        { "wrong": "Only then I realized the mistake.", "right": "Only then did I realize the mistake.", "whyId": "Setelah only then, kata bantu did dipindah ke depan subjek." },
+        { "wrong": "Not only she sang, but also she danced.", "right": "Not only did she sing, but she also danced.", "whyId": "Setelah not only, kata bantu dipindah ke depan subjek." },
+        { "wrong": "Scarcely had we arrived when it has rained.", "right": "Scarcely had we arrived when it rained.", "whyId": "Dalam klausa when untuk kejadian lampau, gunakan simple past." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["inversion in English", "bus station conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Rarely, seldom, dan hardly dalam percakapan",
+        "No sooner dan scarcely dalam cerita"
+      ]
+    },
+    "script": {
+      "title": "Ketinggalan bus",
+      "lines": [
+        { "speaker": "Lia", "text": "Rarely do the buses arrive on time in the morning." },
+        { "speaker": "Tomi", "text": "Seldom have I seen such a crowded station. Hardly anyone was waiting near the gate." },
+        { "speaker": "Lia", "text": "Scarcely had we reached the platform when the train left." },
+        { "speaker": "Tomi", "text": "Barely had I bought the ticket when the announcement began." },
+        { "speaker": "Lia", "text": "Nowhere else can you find such a friendly driver." },
+        { "speaker": "Tomi", "text": "Not only did the driver wave, but he also helped us with the bags." },
+        { "speaker": "Lia", "text": "Only then did I realize that we had the wrong schedule." },
+        { "speaker": "Tomi", "text": "No sooner had she sat down than the bus started." },
+        { "speaker": "Lia", "text": "Little did we know that the next bus was early." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada rarely dan seldom, tekanan ada di suku pertama: RAIR-li, SEL-dem.",
+      "Pada scarcely dan barely, ucapkan suku pertama dengan jelas: SKAIRS-li, BAIR-li.",
+      "Pada nowhere dan only then, jaga bunyi w dan th tetap jelas: NOH-wair, ON-lee THEN."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "According to Lia, how often do the buses arrive on time in the morning?",
+        "options": [
+          { "id": "A", "text": "always" },
+          { "id": "B", "text": "rarely" },
+          { "id": "C", "text": "every hour" },
+          { "id": "D", "text": "never on weekends" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Lia berkata 'Rarely do the buses arrive on time in the morning', artinya bus jarang tiba tepat waktu di pagi hari.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Selalu bertentangan dengan rarely." },
+          { "optionId": "C", "reasonId": "Setiap jam tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Akhir pekan tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Rarely do the buses arrive on time in the morning"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does Tomi say about the station?",
+        "options": [
+          { "id": "A", "text": "It was empty." },
+          { "id": "B", "text": "It was closed." },
+          { "id": "C", "text": "It was a crowded station." },
+          { "id": "D", "text": "It had a new platform." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tomi berkata 'Seldom have I seen such a crowded station', artinya stasiunnya sangat padat.",
+        "stepByStep": [
+          "Cari seldom di naskah Tomi: 'Seldom have I seen such a crowded station.'",
+          "Kalimat itu menyebut stasiun yang sangat padat.",
+          "Kosong, tutup, dan peron baru tidak disebut oleh Tomi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Stasiun itu padat, bukan kosong." },
+          { "optionId": "B", "reasonId": "Stasiun itu tidak disebut tutup." },
+          { "optionId": "D", "reasonId": "Peron baru tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Seldom have I seen such a crowded station"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What happened when Lia reached the platform?",
+        "options": [
+          { "id": "A", "text": "The train waited for them." },
+          { "id": "B", "text": "The train left just as they arrived." },
+          { "id": "C", "text": "They missed the platform entirely." },
+          { "id": "D", "text": "They took a taxi instead." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Lia berkata 'Scarcely had we reached the platform when the train left', artinya kereta berangkat tepat ketika mereka baru sampai.",
+        "stepByStep": [
+          "Cari scarcely di naskah Lia: 'Scarcely had we reached the platform when the train left.'",
+          "Pola scarcely ___ when berarti sesuatu terjadi tepat ketika kejadian lain baru selesai.",
+          "Kereta menunggu, mereka melewatkan peron, dan naik taksi tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kereta berangkat, tidak menunggu." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut mereka melewatkan peron." },
+          { "optionId": "D", "reasonId": "Naik taksi tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Scarcely had we reached the platform when the train left"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What did Tomi do before the announcement began?",
+        "options": [
+          { "id": "A", "text": "He had just bought the ticket." },
+          { "id": "B", "text": "He missed the announcement." },
+          { "id": "C", "text": "He forgot his bag." },
+          { "id": "D", "text": "He had already left the station." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tomi berkata 'Barely had I bought the ticket when the announcement began', artinya ia baru saja membeli tiket ketika pengumuman dimulai.",
+        "stepByStep": [
+          "Cari barely di naskah Tomi: 'Barely had I bought the ticket when the announcement began.'",
+          "Kalimat itu berarti Tomi baru saja membeli tiket.",
+          "Melewatkan pengumuman, lupa tas, dan sudah meninggalkan stasiun tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tomi tidak melewatkan pengumuman." },
+          { "optionId": "C", "reasonId": "Tas yang tertinggal tidak disebut." },
+          { "optionId": "D", "reasonId": "Tomi tidak disebut sudah meninggalkan stasiun." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Barely had ___ when menyatakan bahwa sesuatu baru saja terjadi sebelum kejadian lain.",
+          "examples": [
+            { "en": "Barely had she opened the door when the phone rang.", "id": "Dia baru saja membuka pintu ketika telepon berdering." },
+            { "en": "Barely had we started when the rain began.", "id": "Kami baru saja mulai ketika hujan turun." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena ada pengumuman, tetapi Tomi justru baru saja membeli tiket sebelum pengumuman.",
+        "evidence": "Barely had I bought the ticket"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What did Lia realize, and when?",
+        "options": [
+          { "id": "A", "text": "She realized the schedule was right, after the bus left." },
+          { "id": "B", "text": "She never realized the mistake." },
+          { "id": "C", "text": "She realized it at the beginning." },
+          { "id": "D", "text": "She realized, only after waiting, that they had the wrong schedule." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Lia berkata 'Only then did I realize that we had the wrong schedule', artinya ia baru menyadari setelah menunggu bahwa jadwalnya salah.",
+        "stepByStep": [
+          "Cari only then di naskah Lia: 'Only then did I realize that we had the wrong schedule.'",
+          "Only then menunjukkan bahwa kesadaran itu datang setelah kejadian sebelumnya.",
+          "Jadwal yang benar, tidak pernah menyadari, dan menyadari sejak awal bertentangan dengan kalimat Lia."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Jadwalnya salah, bukan benar." },
+          { "optionId": "B", "reasonId": "Lia menyadari kesalahan itu, jadi tidak pernah menyadari bertentangan dengan teks." },
+          { "optionId": "C", "reasonId": "Lia menyadarinya setelah kejadian, bukan di awal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Only then did I realize menyatakan bahwa kesadaran itu datang baru setelah kejadian tertentu.",
+          "examples": [
+            { "en": "Only then did we see the mistake in the plan.", "id": "Baru pada saat itu kami melihat kesalahan dalam rencana." },
+            { "en": "Only after the test did she understand the lesson.", "id": "Baru setelah tes, dia memahami pelajarannya." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat masuk akal karena menyadari kesalahan terdengar cepat, tetapi only then menunjukkan kesadaran datang setelah menunggu.",
+        "evidence": "Only then did I realize that we had the wrong schedule"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Rarely ___ the train late in summer.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "the train is" },
+          { "id": "C", "text": "it is" },
+          { "id": "D", "text": "was it" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Setelah rarely, kata be is dipindah ke depan subjek the train: Rarely is the train late.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "The train is tidak ada inversi, sehingga tidak tepat setelah rarely." },
+          { "optionId": "C", "reasonId": "It is tidak ada inversi dan tidak merujuk pada kereta." },
+          { "optionId": "D", "reasonId": "Was it memakai bentuk lampau dan subjek yang salah." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Seldom ___ such a beautiful view.",
+        "options": [
+          { "id": "A", "text": "I have seen" },
+          { "id": "B", "text": "have I seen" },
+          { "id": "C", "text": "I saw" },
+          { "id": "D", "text": "saw I" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Setelah seldom, kata bantu have dipindah ke depan subjek I: Seldom have I seen.",
+        "stepByStep": [
+          "Seldom adalah kata keterangan negatif di awal kalimat.",
+          "Kata bantu have dipindah ke depan subjek I.",
+          "I have seen tanpa inversi, I saw tidak memakai inversi, dan saw I salah urutan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "I have seen tidak memakai inversi setelah seldom." },
+          { "optionId": "C", "reasonId": "I saw tidak memakai inversi setelah seldom." },
+          { "optionId": "D", "reasonId": "Saw I adalah urutan kata yang salah." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "No sooner ___ the door than the phone rang.",
+        "options": [
+          { "id": "A", "text": "had I closed" },
+          { "id": "B", "text": "I had closed" },
+          { "id": "C", "text": "closed I" },
+          { "id": "D", "text": "I closed" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Setelah no sooner, had dipindah sebelum subjek I: No sooner had I closed the door than the phone rang.",
+        "stepByStep": [
+          "No sooner diikuti had dan subjek I, lalu V3 closed.",
+          "Pola no sooner ___ than menyatakan dua kejadian berurutan.",
+          "I had closed tidak memakai inversi, closed I salah, dan I closed tidak memakai had."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "I had closed tidak memakai inversi setelah no sooner." },
+          { "optionId": "C", "reasonId": "Closed I adalah urutan kata yang salah." },
+          { "optionId": "D", "reasonId": "I closed tidak memakai had dan tidak ada inversi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "No sooner had + subjek + V3 + than menyatakan kejadian kedua terjadi segera setelah yang pertama.",
+          "examples": [
+            { "en": "No sooner had she sat down than the bus started.", "id": "Belum lama dia duduk, bus sudah berangkat." },
+            { "en": "No sooner had we arrived than the rain began.", "id": "Belum lama kami tiba, hujan mulai turun." }
+          ]
+        },
+        "examTrap": "Pilihan B I had closed terlihat seperti kalimat lengkap, tetapi tanpa inversi pola no sooner tidak benar."
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Not only ___ the team win the match, but they also set a record.",
+        "options": [
+          { "id": "A", "text": "did" },
+          { "id": "B", "text": "does" },
+          { "id": "C", "text": "the team did" },
+          { "id": "D", "text": "they did" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah not only, kata bantu did dipindah ke depan subjek the team: Not only did the team win.",
+        "stepByStep": [
+          "Kalimat menyatakan kejadian lampau: the team win the match.",
+          "Setelah not only, kata bantu lampau did dipindah ke depan subjek.",
+          "Does memakai bentuk sekarang, sedangkan the team did dan they did tidak memakai inversi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Does adalah bentuk sekarang, tidak cocok dengan kejadian lampau." },
+          { "optionId": "C", "reasonId": "The team did tidak memakai inversi setelah not only." },
+          { "optionId": "D", "reasonId": "They did tidak memakai inversi dan tidak sesuai dengan subjek the team." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah not only di awal kalimat, kata bantu dipindah ke depan subjek.",
+          "examples": [
+            { "en": "Not only did she sing, but she also danced.", "id": "Dia tidak hanya bernyanyi, tetapi juga menari." },
+            { "en": "Not only does he study, but he also teaches.", "id": "Dia tidak hanya belajar, tetapi juga mengajar." }
+          ]
+        },
+        "examTrap": "Pilihan B does terlihat cocok karena ada not only, tetapi kejadian lampau memakai did."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Nowhere ___ such a friendly place.",
+        "options": [
+          { "id": "A", "text": "I have found" },
+          { "id": "B", "text": "found I" },
+          { "id": "C", "text": "have I found" },
+          { "id": "D", "text": "I found" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Setelah nowhere, kata bantu have dipindah ke depan subjek I: Nowhere have I found such a friendly place.",
+        "stepByStep": [
+          "Nowhere adalah kata keterangan negatif di awal kalimat.",
+          "Kata bantu have dipindah ke depan subjek I.",
+          "I have found tidak memakai inversi, found I salah, dan I found tidak memakai inversi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "I have found tidak memakai inversi setelah nowhere." },
+          { "optionId": "B", "reasonId": "Found I adalah urutan kata yang salah." },
+          { "optionId": "D", "reasonId": "I found tidak memakai inversi setelah nowhere." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah nowhere, gunakan inversi dengan kata bantu di depan subjek.",
+          "examples": [
+            { "en": "Nowhere have we seen such a view.", "id": "Tidak ada tempat yang pernah kami lihat dengan pemandangan seperti itu." },
+            { "en": "Nowhere else can you find such a bargain.", "id": "Tidak ada tempat lain tempat kamu bisa menemukan penawaran seperti itu." }
+          ]
+        },
+        "examTrap": "Pilihan A I have found terlihat benar karena artinya sudah tepat, tetapi nowhere harus diikuti inversi."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya jarang sekali melihat hal seperti itu.",
+        "hint": "Jarang sekali: rarely atau seldom. Melihat: have seen.",
+        "acceptedAnswers": ["Rarely have I seen such a thing.", "Seldom have I seen such a thing."],
+        "modelAnswer": "Rarely have I seen such a thing.",
+        "commonErrors": [{ "pattern": "Rarely I have seen such a thing", "feedbackId": "Setelah rarely, kata bantu have dipindah ke depan subjek I." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Hampir tidak ada orang di stasiun saat itu.",
+        "hint": "Hampir tidak ada orang: hardly anyone. Di stasiun: at the station.",
+        "acceptedAnswers": ["Hardly anyone was at the station at that time.", "Hardly anyone was at the station then."],
+        "modelAnswer": "Hardly anyone was at the station at that time.",
+        "commonErrors": [{ "pattern": "Hardly was anyone at the station at that time", "feedbackId": "Hardly tidak memakai inversi di sini, sehingga urutan subjek tetap." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Baru saja saya sampai, bus sudah berangkat.",
+        "hint": "Baru saja: barely. Sudah berangkat: left.",
+        "acceptedAnswers": ["Barely had I arrived when the bus left.", "Barely had I arrived before the bus left."],
+        "modelAnswer": "Barely had I arrived when the bus left.",
+        "commonErrors": [{ "pattern": "Barely I had arrived when the bus left", "feedbackId": "Setelah barely, had dipindah sebelum subjek I." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tidak hanya dia menyelesaikan tugasnya, tetapi juga membantu temannya.",
+        "hint": "Tidak hanya: not only. Menyelesaikan: did ___ finish.",
+        "acceptedAnswers": [
+          "Not only did he finish his task, but he also helped his friend.",
+          "Not only did he finish his work, but he also helped his friend."
+        ],
+        "modelAnswer": "Not only did he finish his task, but he also helped his friend.",
+        "commonErrors": [{ "pattern": "Not only he finished his task", "feedbackId": "Setelah not only, kata bantu did dipindah ke depan subjek." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Baru pada saat itu saya sadar bahwa kami salah jadwal.",
+        "hint": "Baru pada saat itu: only then. Menyadari: realize. Salah jadwal: the wrong schedule.",
+        "acceptedAnswers": [
+          "Only then did I realize that we had the wrong schedule.",
+          "Only then did I realise that we had the wrong schedule."
+        ],
+        "modelAnswer": "Only then did I realize that we had the wrong schedule.",
+        "commonErrors": [{ "pattern": "Only then I realized that we had the wrong schedule", "feedbackId": "Setelah only then, kata bantu did dipindah ke depan subjek." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct phrase: 'No sooner ___ than the students ran out.'",
+        "options": [
+          { "id": "A", "text": "had the bell rung" },
+          { "id": "B", "text": "the bell had rung" },
+          { "id": "C", "text": "rang the bell" },
+          { "id": "D", "text": "the bell rang" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah no sooner, had dipindah ke depan subjek the bell: No sooner had the bell rung than the students ran out.",
+        "stepByStep": [
+          "No sooner diikuti had dan subjek the bell, lalu V3 rung.",
+          "Pola no sooner ___ than menyatakan kejadian yang berurutan.",
+          "The bell had rung tidak memakai inversi, rang the bell tidak tepat, dan the bell rang tidak memakai had."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "The bell had rung tidak memakai inversi setelah no sooner." },
+          { "optionId": "C", "reasonId": "Rang the bell adalah urutan kata yang salah." },
+          { "optionId": "D", "reasonId": "The bell rang tidak memakai had dan tidak ada inversi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "No sooner had + subjek + V3 + than menyatakan kejadian kedua yang segera terjadi setelah yang pertama.",
+          "examples": [
+            { "en": "No sooner had the train left than it started to rain.", "id": "Belum lama kereta berangkat, hujan mulai turun." },
+            { "en": "No sooner had I finished than the phone rang.", "id": "Belum lama saya selesai, telepon berdering." }
+          ]
+        },
+        "examTrap": "Pilihan D the bell rang terlihat paling sederhana, tetapi pola no sooner membutuhkan had di depan subjek."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses inversion?",
+        "options": [
+          { "id": "A", "text": "Rarely we see such kindness." },
+          { "id": "B", "text": "Rarely do we see such kindness." },
+          { "id": "C", "text": "Rarely we do see such kindness." },
+          { "id": "D", "text": "Rarely see we such kindness." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah rarely, kata bantu do dipindah ke depan subjek we, dan kata kerja tetap bentuk dasar see.",
+        "stepByStep": [
+          "Rarely adalah kata keterangan negatif di awal kalimat.",
+          "Kata bantu do dipindah ke depan subjek we, dan kata kerja tetap bentuk dasar see.",
+          "Pilihan A tanpa inversi, pilihan C tanpa inversi yang benar, dan pilihan D memindahkan kata kerja yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tanpa inversi, kalimat tidak memakai pola rarely yang benar." },
+          { "optionId": "C", "reasonId": "Subjek tetap di depan kata bantu, sehingga inversinya salah." },
+          { "optionId": "D", "reasonId": "Urutan kata salah. Kata bantu harus di depan subjek, bukan kata kerja." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah rarely dan seldom, kata bantu ditaruh sebelum subjek.",
+          "examples": [
+            { "en": "Rarely does he complain about the food.", "id": "Jarang sekali dia mengeluh tentang makanan." },
+            { "en": "Seldom did they visit the old town.", "id": "Jarang sekali mereka mengunjungi kota tua itu." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak benar karena ada do, tetapi subjek we masih berada sebelum do, sehingga inversinya tidak benar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Scarcely ___ the meeting started when the power went out.'",
+        "options": [
+          { "id": "A", "text": "did" },
+          { "id": "B", "text": "was" },
+          { "id": "C", "text": "had" },
+          { "id": "D", "text": "has" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Scarcely had the meeting started ___ adalah pola inversi dengan had.",
+        "stepByStep": [
+          "Pola scarcely ___ when memakai had dan subjek sebelum V3 started.",
+          "Had dipindah ke depan subjek the meeting.",
+          "Did, was, dan has tidak tepat untuk pola had dengan V3 started."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Did tidak cocok dengan V3 started dalam pola ini." },
+          { "optionId": "B", "reasonId": "Was tidak cocok dengan V3 started dalam pola ini." },
+          { "optionId": "D", "reasonId": "Has tidak cocok dengan kejadian lampau dalam pola scarcely." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Scarcely had + subjek + V3 + when menyatakan dua kejadian yang hampir bersamaan.",
+          "examples": [
+            { "en": "Scarcely had the bus left when it began to rain.", "id": "Bus baru saja berangkat ketika hujan mulai turun." },
+            { "en": "Scarcely had we eaten when the guests arrived.", "id": "Kami baru saja makan ketika tamu datang." }
+          ]
+        },
+        "examTrap": "Pilihan D has terlihat seperti kata bantu yang sering dipakai, tetapi kejadian ini lampau dan memakai had."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Little ___ they know about the test yesterday.'",
+        "options": [
+          { "id": "A", "text": "do" },
+          { "id": "B", "text": "does" },
+          { "id": "C", "text": "have" },
+          { "id": "D", "text": "did" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Yesterday menunjukkan lampau, sehingga kata bantu did dipindah ke depan subjek they.",
+        "stepByStep": [
+          "Yesterday menunjukkan waktu lampau.",
+          "Little diikuti kata bantu did dan subjek they, lalu bentuk dasar know.",
+          "Do dan does memakai bentuk sekarang, dan have tidak cocok dengan inversi ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Do memakai bentuk sekarang, tidak cocok dengan yesterday." },
+          { "optionId": "B", "reasonId": "Does memakai bentuk sekarang, tidak cocok dengan yesterday." },
+          { "optionId": "C", "reasonId": "Have tidak cocok sebagai kata bantu inversi untuk kejadian lampau ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Little di awal kalimat diikuti inversi. Kata bantu mengikuti waktu kalimat.",
+          "examples": [
+            { "en": "Little did we know about the plan last week.", "id": "Kami sedikit sekali tahu tentang rencana itu minggu lalu." },
+            { "en": "Little does she realize how hard it is.", "id": "Dia sedikit sekali menyadari betapa sulitnya itu." }
+          ]
+        },
+        "examTrap": "Pilihan B does terlihat cocok karena ada subjek tunggal, tetapi yesterday menuntut bentuk lampau."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Only then I realized my mistake." },
+          { "id": "B", "text": "Only then did I realize my mistake." },
+          { "id": "C", "text": "Only then realized I my mistake." },
+          { "id": "D", "text": "Only then I did realize my mistake." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah only then, kata bantu did dipindah ke depan subjek I, dan kata kerja tetap bentuk dasar realize.",
+        "stepByStep": [
+          "Only then adalah kata keterangan di awal kalimat.",
+          "Kata bantu did dipindah ke depan subjek I, dan kata kerja tetap realize.",
+          "Pilihan A tanpa inversi, C menaruh objek di tempat yang salah, dan D memakai did setelah subjek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tanpa inversi, kalimat tidak memakai pola only then yang benar." },
+          { "optionId": "C", "reasonId": "Urutan kata salah, dan kata bantu tidak berada di depan subjek." },
+          { "optionId": "D", "reasonId": "Kata bantu did berada setelah subjek, sehingga inversinya salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah only then di awal kalimat, kata bantu dipindah ke depan subjek.",
+          "examples": [
+            { "en": "Only then did she understand the lesson.", "id": "Baru pada saat itu dia memahami pelajarannya." },
+            { "en": "Only then did we see the problem clearly.", "id": "Baru pada saat itu kami melihat masalahnya dengan jelas." }
+          ]
+        },
+        "examTrap": "Pilihan D tampak benar karena ada did, tetapi did harus berada sebelum subjek I, bukan setelahnya."
+      }
+    ]
+  }
+}

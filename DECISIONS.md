@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 9 (konten hari 45-51 dan bank minggu 7)
+
+1. **Pola minggu 7.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit. Hari 45, 47, 49 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 46, 48, 50 mendengarkan. Hari 51 review dengan naskah.
+2. **Topik minggu 7.** Bentuk sejajar, bentuk kata dan akhiran (-tion, -ment, -ive, -al, -ly), inversi setelah kata keterangan negatif, skimming dan scanning, serta ide utama. Semua teks, naskah, dan soal ditulis sendiri. Tidak ada soal resmi yang disalin.
+3. **Kalimat negatif di contoh.** Contoh negatif (`negative`) harus berupa kalimat negatif yang benar. Beberapa contoh di hari 46 sampai 48 sempat berisi kalimat yang salah dengan sengaja, dan hari 51 sempat memuat daftar yang tidak sejajar. Semuanya sudah diperbaiki.
+4. **Validator menangkap empat masalah.** Tanda titik tiga di hari 45, 48, dan bank (diganti dengan garis bawah). Hari 47 A4 yang sulit belum punya stepByStep. Hari 48 tip memakai `see...`. Di bank, W07-015 sempat menaruh kunci jawaban di huruf yang salah. Semuanya sudah diperbaiki.
+5. **Bank minggu 7 sudah lolos validator.** 30 soal sulit. Jawaban benar tersebar: A 8, B 6, C 8, D 8. Topik: paralel, bentuk-kata, akhiran-sifat-keterangan, inversi, skimming-scanning, dan ide-utama.
+6. **Batas kualitas tetap sama.** Validator lolos, tetapi audit kalimat per kalimat belum dilakukan. Pengecoh dengan `whether`, `whenever`, dan `as soon as` perlu dibaca ulang saat audit mutu di Fase 12.
+
 ## 2026-10-21: Fase 8 (konten hari 38-44 dan bank minggu 6)
 
 1. **Pola minggu 6.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit. Hari 39, 41, 43 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 38, 40, 42 mendengarkan. Hari 44 review dengan naskah.
