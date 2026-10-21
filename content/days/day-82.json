@@ -1,0 +1,1282 @@
+{
+  "day": 82,
+  "week": 12,
+  "month": 3,
+  "title": "Speaking Part 1: Topik Akrab",
+  "topic": "Menjawab pertanyaan tentang diri sendiri dengan jawaban yang jelas dan natural",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menjawab pertanyaan tentang kampung halaman, hobi, dan rutinitas",
+    "Memberi jawaban yang cukup panjang tanpa menghafal",
+    "Memakai kata yang akrab untuk topik sehari-hari"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "hobby",
+        "pronunciationId": "HOB-ee (tekanan di HOB)",
+        "pos": "Noun",
+        "meaningId": "hobi",
+        "example": "My hobby is painting.",
+        "exampleId": "Hobi saya melukis."
+      },
+      {
+        "no": 2,
+        "en": "hometown",
+        "pronunciationId": "HOHM-town (tekanan di HOHM)",
+        "pos": "Noun",
+        "meaningId": "kampung halaman",
+        "example": "My hometown is quiet.",
+        "exampleId": "Kampung halaman saya tenang."
+      },
+      {
+        "no": 3,
+        "en": "routine",
+        "pronunciationId": "roo-TEEN (tekanan di TEEN)",
+        "pos": "Noun",
+        "meaningId": "rutinitas",
+        "example": "My routine starts at six.",
+        "exampleId": "Rutinitas saya dimulai pukul enam."
+      },
+      {
+        "no": 4,
+        "en": "favourite",
+        "pronunciationId": "FAY-vur-it (tekanan di FAY)",
+        "pos": "Adj",
+        "meaningId": "favorit",
+        "example": "My favourite food is rice.",
+        "exampleId": "Makanan favorit saya adalah nasi."
+      },
+      {
+        "no": 5,
+        "en": "pastime",
+        "pronunciationId": "PAST-tyme (tekanan di PAST)",
+        "pos": "Noun",
+        "meaningId": "kegiatan santai",
+        "example": "Reading is my pastime.",
+        "exampleId": "Membaca adalah kegiatan santai saya."
+      },
+      {
+        "no": 6,
+        "en": "commute",
+        "pronunciationId": "kuh-MYOOT (tekanan di MYOOT)",
+        "pos": "Noun",
+        "meaningId": "perjalanan pulang pergi kerja",
+        "example": "My commute takes an hour.",
+        "exampleId": "Perjalanan kerja saya memakan waktu satu jam."
+      },
+      {
+        "no": 7,
+        "en": "neighbourhood",
+        "pronunciationId": "NAY-bur-hood (tekanan di NAY)",
+        "pos": "Noun",
+        "meaningId": "lingkungan, kawasan",
+        "example": "The neighbourhood is friendly.",
+        "exampleId": "Lingkungannya ramah."
+      },
+      {
+        "no": 8,
+        "en": "childhood",
+        "pronunciationId": "CHAHYLD-hood (tekanan di CHAHYLD)",
+        "pos": "Noun",
+        "meaningId": "masa kecil",
+        "example": "In my childhood, I loved the sea.",
+        "exampleId": "Di masa kecil saya, saya suka laut."
+      },
+      {
+        "no": 9,
+        "en": "housework",
+        "pronunciationId": "HOWS-wurk (tekanan di HOWS)",
+        "pos": "Noun",
+        "meaningId": "pekerjaan rumah tangga",
+        "example": "I help with housework on Sundays.",
+        "exampleId": "Saya membantu pekerjaan rumah tangga pada hari Minggu."
+      },
+      {
+        "no": 10,
+        "en": "weather",
+        "pronunciationId": "WETH-er (tekanan di WETH)",
+        "pos": "Noun",
+        "meaningId": "cuaca",
+        "example": "The weather is warm today.",
+        "exampleId": "Cuacanya hangat hari ini."
+      }
+    ],
+    "tip": "Pada Speaking Part 1, jawab dengan dua atau tiga kalimat. Berikan satu alasan atau contoh pribadi agar jawabanmu terasa natural."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS speaking part 1",
+        "IELTS speaking part 1 tips"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menjawab pertanyaan Speaking Part 1, dengan contoh jawaban singkat yang berisi alasan.",
+      "watchFor": [
+        "Jawaban yang lebih dari satu kata",
+        "Alasan atau contoh pribadi",
+        "Kata penghubung yang natural"
+      ]
+    },
+    "lesson": {
+      "intro": "Speaking Part 1 membahas topik akrab seperti kampung halaman, hobi, dan rutinitas. Tujuannya melihat kemampuanmu berbicara secara natural. Jawab dengan jelas, lalu tambahkan satu alasan atau contoh.",
+      "sections": [
+        {
+          "heading": "Kampung halaman dan lingkungan",
+          "bodyMd": "Saat ditanya tentang **hometown**, sebut lokasi dan satu ciri khas. Gunakan **neighbourhood** untuk menjelaskan lingkungan tempat tinggalmu."
+        },
+        {
+          "heading": "Hobi dan rutinitas",
+          "bodyMd": "Sebut **hobby** atau **favourite** kegiatan, lalu jelaskan kapan kamu melakukannya. Untuk **routine**, sebut kegiatan harian secara berurutan."
+        },
+        {
+          "heading": "Masa kecil dan cuaca",
+          "bodyMd": "Untuk **childhood**, ceritakan satu kenangan singkat. **Housework** dan **weather** adalah topik sehari-hari yang bisa dijawab dengan contoh nyata."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Lokasi",
+          "pattern": "My hometown is a X city / village in Y"
+        },
+        {
+          "label": "Hobi",
+          "pattern": "My favourite hobby is X, because Y"
+        },
+        {
+          "label": "Rutinitas",
+          "pattern": "On a normal day, I X, then Y"
+        },
+        {
+          "label": "Kenangan",
+          "pattern": "When I was a child, I used to X"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "My hometown is a small city by the sea.",
+            "id": "Kampung halaman saya adalah kota kecil di tepi laut."
+          },
+          {
+            "en": "My favourite hobby is cooking, because it relaxes me.",
+            "id": "Hobi favorit saya memasak, karena itu membuat saya rileks."
+          },
+          {
+            "en": "My commute takes about forty minutes by train.",
+            "id": "Perjalanan kerja saya sekitar empat puluh menit dengan kereta."
+          },
+          {
+            "en": "When I was a child, I used to play outside every day.",
+            "id": "Ketika saya kecil, saya biasanya bermain di luar setiap hari."
+          },
+          {
+            "en": "The weather is warm for most of the year.",
+            "id": "Cuacanya hangat untuk sebagian besar tahun."
+          }
+        ],
+        "negative": [
+          {
+            "en": "I do not have a hobby that takes much time.",
+            "id": "Saya tidak punya hobi yang memakan banyak waktu."
+          },
+          {
+            "en": "My neighbourhood is not very noisy at night.",
+            "id": "Lingkungan saya tidak terlalu berisik pada malam hari."
+          },
+          {
+            "en": "I did not enjoy housework when I was young.",
+            "id": "Saya tidak menikmati pekerjaan rumah ketika masih muda."
+          },
+          {
+            "en": "The weather is not always warm in my hometown.",
+            "id": "Cuacanya tidak selalu hangat di kampung halaman saya."
+          },
+          {
+            "en": "My routine does not change on weekends.",
+            "id": "Rutinitas saya tidak berubah pada akhir pekan."
+          }
+        ],
+        "question": [
+          {
+            "en": "Where is your hometown?",
+            "id": "Di mana kampung halamanmu?"
+          },
+          {
+            "en": "What is your favourite hobby?",
+            "id": "Apa hobi favoritmu?"
+          },
+          {
+            "en": "How long is your commute?",
+            "id": "Berapa lama perjalanan kerjamu?"
+          },
+          {
+            "en": "What was your childhood like?",
+            "id": "Seperti apa masa kecilmu?"
+          },
+          {
+            "en": "What is the weather like in your city?",
+            "id": "Bagaimana cuaca di kotamu?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "My hometown are a small city.",
+          "right": "My hometown is a small city.",
+          "whyId": "Hometown adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "My favourite hobby are cooking.",
+          "right": "My favourite hobby is cooking.",
+          "whyId": "Hobby tunggal memakai is."
+        },
+        {
+          "wrong": "I commute to work by train every days.",
+          "right": "I commute to work by train every day.",
+          "whyId": "Every diikuti kata benda tunggal day."
+        },
+        {
+          "wrong": "When I was child, I played outside.",
+          "right": "When I was a child, I played outside.",
+          "whyId": "Child dalam frasa ini memerlukan artikel a."
+        },
+        {
+          "wrong": "The housework are my job.",
+          "right": "Housework is my job.",
+          "whyId": "Housework adalah kata benda tak hitung dan memakai is."
+        },
+        {
+          "wrong": "The weather is very warmly.",
+          "right": "The weather is very warm.",
+          "whyId": "Setelah is, pakai kata sifat warm."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS speaking part 1 sample",
+        "IELTS speaking examiner questions English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Pertanyaan pemeriksa tentang topik akrab",
+        "Jawaban kandidat yang memberi alasan"
+      ]
+    },
+    "script": {
+      "title": "Speaking Part 1: Topik akrab",
+      "lines": [
+        {
+          "speaker": "Examiner",
+          "text": "Let's talk about your hometown. Where is it, and what is it like?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "My hometown is a small city by the sea. The neighbourhood where I grew up is quiet, with many small shops."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "Do you have a hobby?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "Yes, my favourite hobby is cooking. It is also my pastime on weekends."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "What is your daily routine like?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "My routine is simple. I wake up early, have breakfast, and then commute to work by train."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "How long is your commute?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "It takes about forty minutes. I use the time to read."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "What was your childhood like?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "In my childhood I loved playing outside. We also helped with housework on Sundays."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "How is the weather in your hometown?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "The weather is warm for most of the year, and the rain usually comes in the evening."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada neighbourhood, tekanan ada di suku pertama: NAY-bur-hood.",
+      "Pada favourite, tekanan ada di suku pertama: FAY-vur-it.",
+      "Pada commute, tekanan ada di suku kedua: kuh-MYOOT."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Where is the candidate's hometown?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a small city by the sea"
+          },
+          {
+            "id": "B",
+            "text": "a large mountain village"
+          },
+          {
+            "id": "C",
+            "text": "the capital city"
+          },
+          {
+            "id": "D",
+            "text": "an island in the north"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Kandidat berkata kampung halamannya adalah kota kecil di tepi laut.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Desa pegunungan tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ibu kota tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pulau di utara tidak disebut oleh kandidat."
+          }
+        ],
+        "evidence": "My hometown is a small city by the sea"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the candidate's favourite hobby?",
+        "options": [
+          {
+            "id": "A",
+            "text": "reading"
+          },
+          {
+            "id": "B",
+            "text": "running"
+          },
+          {
+            "id": "C",
+            "text": "painting"
+          },
+          {
+            "id": "D",
+            "text": "cooking"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Kandidat berkata hobi favoritnya adalah memasak.",
+        "stepByStep": [
+          "Cari favourite hobby di naskah kandidat.",
+          "Kandidat menyebut my favourite hobby is cooking.",
+          "Membaca, berlari, dan melukis disebut bukan sebagai hobi favorit."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Membaca disebut sebagai kegiatan saat perjalanan, bukan hobi favorit."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Berlari tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Melukis tidak disebut oleh kandidat."
+          }
+        ],
+        "evidence": "my favourite hobby is cooking"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "How does the candidate commute to work?",
+        "options": [
+          {
+            "id": "A",
+            "text": "by bus"
+          },
+          {
+            "id": "B",
+            "text": "by car"
+          },
+          {
+            "id": "C",
+            "text": "by train"
+          },
+          {
+            "id": "D",
+            "text": "on foot"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Kandidat berkata ia pergi bekerja dengan kereta.",
+        "stepByStep": [
+          "Cari commute di naskah kandidat.",
+          "Kandidat menyebut commute to work by train.",
+          "Bus, mobil, dan jalan kaki tidak disebut oleh kandidat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Bus tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Mobil tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Jalan kaki tidak disebut oleh kandidat."
+          }
+        ],
+        "evidence": "commute to work by train"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the candidate do during the commute?",
+        "options": [
+          {
+            "id": "A",
+            "text": "sleeps"
+          },
+          {
+            "id": "B",
+            "text": "reads"
+          },
+          {
+            "id": "C",
+            "text": "works on a laptop"
+          },
+          {
+            "id": "D",
+            "text": "talks on the phone"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kandidat berkata ia menggunakan waktu perjalanan untuk membaca.",
+        "stepByStep": [
+          "Cari commute dan time di naskah kandidat.",
+          "Kandidat menyebut I use the time to read.",
+          "Tidur, bekerja dengan laptop, dan menelepon tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Tidur tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Bekerja dengan laptop tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Menelepon tidak disebut oleh kandidat."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada Speaking, jawaban yang baik menyebut kegiatan spesifik dengan kata kerja yang tepat.",
+          "examples": [
+            {
+              "en": "I use the time to read the news.",
+              "id": "Saya memakai waktu itu untuk membaca berita."
+            },
+            {
+              "en": "I spend the journey listening to music.",
+              "id": "Saya menghabiskan perjalanan dengan mendengarkan musik."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C bekerja dengan laptop terlihat masuk akal untuk perjalanan kerja, tetapi kandidat tidak menyebutnya.",
+        "evidence": "I use the time to read"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "How does the candidate describe the weather?",
+        "options": [
+          {
+            "id": "A",
+            "text": "warm for most of the year, with rain usually in the evening"
+          },
+          {
+            "id": "B",
+            "text": "cold for most of the year"
+          },
+          {
+            "id": "C",
+            "text": "dry and windy all year"
+          },
+          {
+            "id": "D",
+            "text": "snowy in winter"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kandidat berkata cuacanya hangat untuk sebagian besar tahun, dan hujan biasanya datang pada sore hari.",
+        "stepByStep": [
+          "Cari weather di naskah kandidat.",
+          "Kandidat menyebut hangat untuk sebagian besar tahun dan hujan biasanya sore hari.",
+          "Dingin, kering dan berangin sepanjang tahun, serta bersalju tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Kandidat menyebut cuacanya hangat, bukan dingin."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Kandidat tidak menyebut kering dan berangin sepanjang tahun."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Salju tidak disebut oleh kandidat."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Menjelaskan cuaca dalam Speaking cukup dengan sifat utama dan waktu terjadinya.",
+          "examples": [
+            {
+              "en": "The weather is cool in the mornings.",
+              "id": "Cuacanya sejuk di pagi hari."
+            },
+            {
+              "en": "It usually rains in the afternoon.",
+              "id": "Biasanya hujan di sore hari."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B cold terlihat sebagai kebalikan yang masuk akal dari hangat, tetapi kandidat menyebut cuaca hangat.",
+        "evidence": "The weather is warm for most of the year"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "On weekends I enjoy my ___, which is painting.",
+        "options": [
+          {
+            "id": "A",
+            "text": "hobby"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Hobby adalah kegiatan yang dilakukan untuk kesenangan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan kegiatan kesenangan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan kegiatan kesenangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan kegiatan kesenangan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Every morning, my ___ includes a short walk and a cup of tea.",
+        "options": [
+          {
+            "id": "A",
+            "text": "weather"
+          },
+          {
+            "id": "B",
+            "text": "routine"
+          },
+          {
+            "id": "C",
+            "text": "pastime"
+          },
+          {
+            "id": "D",
+            "text": "housework"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Routine adalah kebiasaan harian yang diulang setiap hari.",
+        "stepByStep": [
+          "Kalimat menyebut kegiatan yang diulang setiap pagi.",
+          "Kebiasaan harian yang diulang disebut routine.",
+          "Weather, pastime, dan housework tidak berarti kebiasaan harian."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Weather berarti cuaca, bukan kebiasaan harian."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pastime berarti kegiatan santai, bukan kebiasaan harian."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Housework berarti pekerjaan rumah tangga, bukan kebiasaan harian."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "It takes an hour to ___ to the city centre by bus.",
+        "options": [
+          {
+            "id": "A",
+            "text": "childhood"
+          },
+          {
+            "id": "B",
+            "text": "neighbourhood"
+          },
+          {
+            "id": "C",
+            "text": "commute"
+          },
+          {
+            "id": "D",
+            "text": "favourite"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Commute adalah kata kerja perjalanan pulang pergi kerja, dan kalimat ini menyebut perjalanan ke pusat kota.",
+        "stepByStep": [
+          "Kalimat menyebut perjalanan ke pusat kota dengan bus.",
+          "Perjalanan rutin ke tempat kerja disebut commute.",
+          "Childhood, neighbourhood, dan favourite tidak berarti perjalanan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Childhood berarti masa kecil, bukan perjalanan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Neighbourhood berarti lingkungan, bukan perjalanan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Favourite berarti favorit, bukan perjalanan."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "In my ___, we spent summers at the beach with our grandparents.",
+        "options": [
+          {
+            "id": "A",
+            "text": "housework"
+          },
+          {
+            "id": "B",
+            "text": "childhood"
+          },
+          {
+            "id": "C",
+            "text": "weather"
+          },
+          {
+            "id": "D",
+            "text": "pastime"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Childhood adalah masa kecil, dan kalimat ini menceritakan kenangan liburan saat kecil.",
+        "stepByStep": [
+          "Kalimat menceritakan liburan musim panas saat kecil.",
+          "Masa kecil disebut childhood.",
+          "Housework, weather, dan pastime tidak berarti masa kecil."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Housework berarti pekerjaan rumah tangga, bukan masa kecil."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Weather berarti cuaca, bukan masa kecil."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pastime berarti kegiatan santai, bukan masa kecil."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Childhood dipakai untuk masa kecil, sering dalam kalimat dengan In my childhood.",
+          "examples": [
+            {
+              "en": "In my childhood, we lived near the river.",
+              "id": "Di masa kecil saya, kami tinggal di dekat sungai."
+            },
+            {
+              "en": "Her childhood was spent in a small town.",
+              "id": "Masa kecilnya dihabiskan di kota kecil."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C weather terlihat cocok karena liburan sering dikaitkan dengan cuaca, tetapi kalimat ini meminta masa kecil."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Cooking is my favourite ___ because it is relaxing and creative.",
+        "options": [
+          {
+            "id": "A",
+            "text": "neighbourhood"
+          },
+          {
+            "id": "B",
+            "text": "hometown"
+          },
+          {
+            "id": "C",
+            "text": "weather"
+          },
+          {
+            "id": "D",
+            "text": "pastime"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Pastime adalah kegiatan santai yang dilakukan di waktu luang.",
+        "stepByStep": [
+          "Kalimat menyebut memasak sebagai kegiatan yang menenangkan dan kreatif.",
+          "Kegiatan santai di waktu luang disebut pastime.",
+          "Neighbourhood, hometown, dan weather tidak berarti kegiatan santai."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Neighbourhood berarti lingkungan, bukan kegiatan santai."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Hometown berarti kampung halaman, bukan kegiatan santai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Weather berarti cuaca, bukan kegiatan santai."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pastime adalah kegiatan yang dilakukan untuk bersantai di waktu luang.",
+          "examples": [
+            {
+              "en": "Reading is a quiet pastime for many people.",
+              "id": "Membaca adalah kegiatan santai yang tenang bagi banyak orang."
+            },
+            {
+              "en": "Gardening is my favourite pastime.",
+              "id": "Berkebun adalah kegiatan santai favorit saya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B hometown terlihat cocok karena topiknya tentang kehidupan pribadi, tetapi kalimat ini meminta kegiatan santai."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kampung halaman saya ada di pinggir laut.",
+        "hint": "Kampung halaman saya: my hometown. Ada di pinggir laut: is on the edge of the sea.",
+        "acceptedAnswers": [
+          "My hometown is on the edge of the sea.",
+          "My hometown is by the sea."
+        ],
+        "modelAnswer": "My hometown is on the edge of the sea.",
+        "commonErrors": [
+          {
+            "pattern": "My hometown are on the edge of the sea",
+            "feedbackId": "Hometown adalah kata benda tunggal, jadi memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya biasanya membantu pekerjaan rumah pada akhir pekan.",
+        "hint": "Biasanya: usually. Membantu: I help with. Pekerjaan rumah: housework. Akhir pekan: at the weekend.",
+        "acceptedAnswers": [
+          "I usually help with housework at the weekend.",
+          "I usually help with the housework on weekends."
+        ],
+        "modelAnswer": "I usually help with housework at the weekend.",
+        "commonErrors": [
+          {
+            "pattern": "I usually helps with housework at weekend",
+            "feedbackId": "Subjek I memakai help, dan gunakan the weekend."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Cuacanya cerah sepanjang musim panas.",
+        "hint": "Cuacanya: the weather. Cerah: sunny. Sepanjang musim panas: throughout the summer.",
+        "acceptedAnswers": [
+          "The weather is sunny throughout the summer.",
+          "The weather is sunny all through the summer."
+        ],
+        "modelAnswer": "The weather is sunny throughout the summer.",
+        "commonErrors": [
+          {
+            "pattern": "The weather are sunny throughout summer",
+            "feedbackId": "Weather memakai is, dan gunakan the summer."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Perjalanan saya ke kantor memakan waktu sekitar satu jam setiap hari.",
+        "hint": "Perjalanan saya ke kantor: my commute to the office. Memakan waktu: takes. Sekitar satu jam: about one hour. Setiap hari: every day.",
+        "acceptedAnswers": [
+          "My commute to the office takes about one hour every day.",
+          "My commute to the office takes around an hour each day."
+        ],
+        "modelAnswer": "My commute to the office takes about one hour every day.",
+        "commonErrors": [
+          {
+            "pattern": "My commute to office take about one hour every days",
+            "feedbackId": "Subjek commute tunggal memakai takes, dan every day tunggal."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Rutinitas harian saya berubah sejak saya pindah ke lingkungan baru.",
+        "hint": "Rutinitas harian: my daily routine. Berubah: has changed. Sejak: since. Pindah ke lingkungan baru: I moved to a new neighbourhood.",
+        "acceptedAnswers": [
+          "My daily routine has changed since I moved to a new neighbourhood.",
+          "My daily routine has changed since I moved into a new neighbourhood."
+        ],
+        "modelAnswer": "My daily routine has changed since I moved to a new neighbourhood.",
+        "commonErrors": [
+          {
+            "pattern": "My daily routine change since I move to new neighbourhood",
+            "feedbackId": "Gunakan has changed dan moved, serta a new neighbourhood."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means a leisure activity you do for fun?",
+        "options": [
+          {
+            "id": "A",
+            "text": "routine"
+          },
+          {
+            "id": "B",
+            "text": "pastime"
+          },
+          {
+            "id": "C",
+            "text": "commute"
+          },
+          {
+            "id": "D",
+            "text": "weather"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pastime adalah kegiatan santai yang dilakukan untuk kesenangan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kegiatan santai yang menyenangkan.",
+          "Kegiatan seperti itu disebut pastime.",
+          "Routine, commute, dan weather tidak berarti kegiatan santai."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Routine berarti kebiasaan harian, bukan kegiatan santai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Commute berarti perjalanan kerja, bukan kegiatan santai."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Weather berarti cuaca, bukan kegiatan santai."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pastime adalah kegiatan di waktu luang yang dilakukan untuk bersenang-senang.",
+          "examples": [
+            {
+              "en": "Walking the dog is my favourite pastime.",
+              "id": "Mengajak anjing jalan-jalan adalah kegiatan santai favorit saya."
+            },
+            {
+              "en": "Many people have a pastime after work.",
+              "id": "Banyak orang punya kegiatan santai setelah bekerja."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A routine terlihat cocok karena kegiatan santai sering dilakukan secara rutin, tetapi routine berarti kebiasaan harian."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'neighbourhood'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The neighbourhood are quiet at night."
+          },
+          {
+            "id": "B",
+            "text": "The neighbourhood quiet is at night."
+          },
+          {
+            "id": "C",
+            "text": "The neighbourhoods is quiet at night."
+          },
+          {
+            "id": "D",
+            "text": "The neighbourhood is quiet at night."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Neighbourhood adalah subjek tunggal, sehingga memakai is, dan urutan kata sudah benar.",
+        "stepByStep": [
+          "Neighbourhood adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa quiet at night menjelaskan keadaan lingkungan.",
+          "Pilihan A memakai are, pilihan B urutannya salah, dan pilihan C memakai neighbourhoods dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal neighbourhood."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Neighbourhoods jamak tidak cocok dengan is untuk satu lingkungan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Neighbourhood adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The neighbourhood was quiet last year.",
+              "id": "Lingkungannya tenang tahun lalu."
+            },
+            {
+              "en": "My neighbourhood is friendly.",
+              "id": "Lingkungan saya ramah."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak tetangga disebut jamak, tetapi subjek kalimat ini satu lingkungan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means to travel regularly between home and work?",
+        "options": [
+          {
+            "id": "A",
+            "text": "commute"
+          },
+          {
+            "id": "B",
+            "text": "routine"
+          },
+          {
+            "id": "C",
+            "text": "pastime"
+          },
+          {
+            "id": "D",
+            "text": "childhood"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Commute berarti perjalanan rutin antara rumah dan tempat kerja.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk perjalanan rutin rumah-kerja.",
+          "Perjalanan rutin seperti itu disebut commute.",
+          "Routine, pastime, dan childhood tidak berarti perjalanan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Routine berarti kebiasaan harian, bukan perjalanan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pastime berarti kegiatan santai, bukan perjalanan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Childhood berarti masa kecil, bukan perjalanan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Commute adalah kata benda dan kata kerja untuk perjalanan rutin ke tempat kerja atau kuliah.",
+          "examples": [
+            {
+              "en": "My commute is long.",
+              "id": "Perjalanan kerja saya panjang."
+            },
+            {
+              "en": "I commute by bus every day.",
+              "id": "Saya pergi kerja dengan bus setiap hari."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B routine terlihat cocok karena perjalanan kerja sering menjadi bagian rutinitas, tetapi kata yang diminta adalah perjalanannya."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'In my ___, I learned to cook with my grandmother.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "weather"
+          },
+          {
+            "id": "B",
+            "text": "pastime"
+          },
+          {
+            "id": "C",
+            "text": "childhood"
+          },
+          {
+            "id": "D",
+            "text": "commute"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Childhood adalah masa kecil, dan kalimat ini menceritakan belajar memasak saat kecil.",
+        "stepByStep": [
+          "Kalimat menceritakan belajar memasak bersama nenek saat kecil.",
+          "Masa kecil disebut childhood.",
+          "Weather, pastime, dan commute tidak berarti masa kecil."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Weather berarti cuaca, bukan masa kecil."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Pastime berarti kegiatan santai, bukan masa kecil."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Commute berarti perjalanan kerja, bukan masa kecil."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "In my childhood adalah pola umum untuk menceritakan kenangan masa kecil.",
+          "examples": [
+            {
+              "en": "In my childhood, I lived in a village.",
+              "id": "Di masa kecil saya, saya tinggal di desa."
+            },
+            {
+              "en": "My childhood was full of stories.",
+              "id": "Masa kecil saya penuh cerita."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B pastime terlihat cocok karena memasak bisa menjadi kegiatan santai, tetapi kalimat ini meminta masa kecil."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The housework are my job at home."
+          },
+          {
+            "id": "B",
+            "text": "The housework is my job at home."
+          },
+          {
+            "id": "C",
+            "text": "The housework were my job at home."
+          },
+          {
+            "id": "D",
+            "text": "The housework's are my job at home."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Housework adalah kata benda tak hitung yang memakai is.",
+        "stepByStep": [
+          "Housework adalah kata benda tak hitung, sehingga memakai is.",
+          "Frasa my job at home menjelaskan peran pekerjaan rumah.",
+          "Pilihan A dan C memakai bentuk jamak yang salah, dan pilihan D memakai kepemilikan yang tidak tepat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan kata benda tak hitung housework."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Were tidak cocok dengan housework dalam bentuk ini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Housework's are bukan bentuk yang benar."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Housework adalah kata benda tak hitung dan memakai is atau was.",
+          "examples": [
+            {
+              "en": "The housework was done in the morning.",
+              "id": "Pekerjaan rumah dikerjakan di pagi hari."
+            },
+            {
+              "en": "Housework is shared in our family.",
+              "id": "Pekerjaan rumah dibagi di keluarga kami."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena pekerjaan sering dibicarakan jamak, tetapi housework adalah kata benda tak hitung."
+      }
+    ]
+  }
+}

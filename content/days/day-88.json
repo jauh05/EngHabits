@@ -1,0 +1,597 @@
+{
+  "day": 88,
+  "week": 12,
+  "month": 3,
+  "title": "Simulasi Penuh IELTS: Listening dan Reading",
+  "topic": "Menjalankan simulasi penuh, membaca hasilnya, dan memperbaiki kelemahan",
+  "skillFocus": "exam",
+  "objectives": [
+    "Mengatur waktu dan ritme saat mengerjakan simulasi penuh",
+    "Membaca hasil simulasi untuk menemukan pola kesalahan",
+    "Menggunakan kosakata tentang ujian dengan tepat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "band", "pronunciationId": "BAND (tekanan di BAND)", "pos": "Noun", "meaningId": "tingkat skor dalam laporan resmi", "example": "My target band is six.", "exampleId": "Target band saya adalah enam." },
+      { "no": 2, "en": "mock", "pronunciationId": "MOK (tekanan di MOK)", "pos": "Noun", "meaningId": "ujian latihan", "example": "I took a mock test on Sunday.", "exampleId": "Saya mengikuti ujian latihan pada hari Minggu." },
+      { "no": 3, "en": "sections", "pronunciationId": "SEK-shuns (tekanan di SEK)", "pos": "Noun", "meaningId": "bagian-bagian dalam ujian", "example": "The test has four sections.", "exampleId": "Tes itu memiliki empat bagian." },
+      { "no": 4, "en": "timing", "pronunciationId": "TAHY-ming (tekanan di TAHY)", "pos": "Noun", "meaningId": "pengaturan waktu", "example": "Good timing helps you finish on time.", "exampleId": "Pengaturan waktu yang baik membantumu selesai tepat waktu." },
+      { "no": 5, "en": "accuracy", "pronunciationId": "AK-yuh-ruh-see (tekanan di AK)", "pos": "Noun", "meaningId": "ketepatan", "example": "Accuracy matters more than speed.", "exampleId": "Ketepatan lebih penting daripada kecepatan." },
+      { "no": 6, "en": "pressure", "pronunciationId": "PRESH-ur (tekanan di PRESH)", "pos": "Noun", "meaningId": "tekanan", "example": "The pressure of the clock made me nervous.", "exampleId": "Tekanan dari jam membuat saya gugup." },
+      { "no": 7, "en": "endurance", "pronunciationId": "en-DUR-uns (tekanan di DUR)", "pos": "Noun", "meaningId": "daya tahan", "example": "Long tests need endurance.", "exampleId": "Tes panjang membutuhkan daya tahan." },
+      { "no": 8, "en": "calibration", "pronunciationId": "kal-uh-BRAY-shun (tekanan di BRAY)", "pos": "Noun", "meaningId": "penyesuaian agar sesuai kenyataan", "example": "Calibration helps you judge your level.", "exampleId": "Penyesuaian membantumu menilai level kamu." },
+      { "no": 9, "en": "feedback", "pronunciationId": "FEED-bak (tekanan di FEED)", "pos": "Noun", "meaningId": "umpan balik", "example": "The teacher gave clear feedback.", "exampleId": "Guru memberi umpan balik yang jelas." },
+      { "no": 10, "en": "stamina", "pronunciationId": "STAM-uh-nuh (tekanan di STAM)", "pos": "Noun", "meaningId": "stamina, tenaga untuk bertahan", "example": "Build stamina with full practice tests.", "exampleId": "Bangun stamina dengan tes latihan penuh." }
+    ],
+    "tip": "Saat simulasi penuh, catat skor per bagian, waktu yang terpakai, dan jenis kesalahan. Data ini lebih berguna daripada skor akhir saja."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS full mock test strategy", "IELTS reading timing tips"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menjalankan simulasi penuh dan membaca hasilnya untuk merencanakan latihan berikutnya.",
+      "watchFor": [
+        "Cara mengatur timer untuk setiap bagian",
+        "Cara mencatat jenis kesalahan setelah simulasi",
+        "Cara memilih latihan berikutnya dari hasil simulasi"
+      ]
+    },
+    "lesson": {
+      "intro": "Simulasi penuh adalah latihan yang paling dekat dengan ujian sungguhan. Kamu belajar ritme, daya tahan, dan cara membaca hasilmu dengan jujur.",
+      "sections": [
+        {
+          "heading": "Menjalankan simulasi",
+          "bodyMd": "Ikuti **sections** dan **timing** seperti ujian sungguhan. Jangan berhenti di tengah, dan kerjakan dalam satu sesi agar **endurance** kamu terlatih."
+        },
+        {
+          "heading": "Menghadapi tekanan",
+          "bodyMd": "**Pressure** wajar muncul saat jam berjalan. Latih diri dengan ruang tenang, lalu bangun **stamina** lewat beberapa simulasi penuh."
+        },
+        {
+          "heading": "Membaca hasil",
+          "bodyMd": "Gunakan **feedback** dari setiap jawaban yang salah. Catat apakah kesalahan itu karena **accuracy** yang kurang atau karena waktu yang tidak cukup."
+        },
+        {
+          "heading": "Menyesuaikan target",
+          "bodyMd": "Gunakan **calibration** untuk membandingkan perasaanmu dengan hasil **mock** dan **band** yang kamu dapat. Dari sana, tentukan latihan berikutnya."
+        }
+      ],
+      "formulas": [
+        { "label": "Catatan kesalahan", "pattern": "I lost marks in X because Y" },
+        { "label": "Target", "pattern": "My target band for X is Y" },
+        { "label": "Latihan berikutnya", "pattern": "Next week I will practise X for Y minutes" },
+        { "label": "Refleksi", "pattern": "The mock showed that X is my weakest section" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I finished the reading section within the time limit.", "id": "Saya menyelesaikan bagian reading dalam batas waktu." },
+          { "en": "My accuracy improved after I checked each answer.", "id": "Ketepatan saya meningkat setelah saya memeriksa setiap jawaban." },
+          { "en": "The feedback showed that timing is my main problem.", "id": "Umpan balik menunjukkan bahwa pengaturan waktu adalah masalah utama saya." },
+          { "en": "My stamina is better after three full mock tests.", "id": "Stamina saya lebih baik setelah tiga tes latihan penuh." },
+          { "en": "My calibration is improving because my scores match my feelings.", "id": "Kalibrasi saya membaik karena skor saya sesuai dengan perasaan saya." }
+        ],
+        "negative": [
+          { "en": "I stopped the mock test halfway because I was tired.", "id": "Saya berhenti di tengah tes latihan karena lelah." },
+          { "en": "I did not check my wrong answers at all.", "id": "Saya sama sekali tidak memeriksa jawaban yang salah." },
+          { "en": "The pressure did not affect me, so I do not need practice.", "id": "Tekanan tidak memengaruhi saya, jadi saya tidak perlu berlatih." },
+          { "en": "My band is high, so I never need feedback.", "id": "Band saya tinggi, jadi saya tidak pernah butuh umpan balik." },
+          { "en": "Accuracy is not important if I answer quickly.", "id": "Ketepatan tidak penting jika saya menjawab dengan cepat." }
+        ],
+        "question": [
+          { "en": "How many sections does your mock test have?", "id": "Berapa bagian yang ada dalam tes latihanmu?" },
+          { "en": "Which section needs the most timing practice?", "id": "Bagian mana yang paling membutuhkan latihan pengaturan waktu?" },
+          { "en": "What feedback did you get from your last mock?", "id": "Umpan balik apa yang kamu dapat dari tes latihan terakhirmu?" },
+          { "en": "Do you feel pressure during a long test?", "id": "Apakah kamu merasa tertekan saat tes yang panjang?" },
+          { "en": "What is your target band?", "id": "Apa target band kamu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The test have four sections.", "right": "The test has four sections.", "whyId": "Test tunggal memakai has." },
+        { "wrong": "My accuracy are better now.", "right": "My accuracy is better now.", "whyId": "Accuracy tunggal memakai is." },
+        { "wrong": "I need more feedbacks.", "right": "I need more feedback.", "whyId": "Feedback adalah kata benda tak terhitung dan tidak dijamakkan." },
+        { "wrong": "The pressure make me slow.", "right": "The pressure makes me slow.", "whyId": "Pressure tunggal memakai makes." },
+        { "wrong": "I build my stamina by practice once.", "right": "I build my stamina by practising often.", "whyId": "Membangun stamina butuh latihan berulang, bukan sekali." },
+        { "wrong": "My calibrations is good.", "right": "My calibration is good.", "whyId": "Calibration tunggal memakai is dan tidak perlu dijamakkan di sini." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Mengapa Simulasi Penuh Penting",
+    "text": "Taking a full mock test is one of the most useful ways to prepare for an English exam. A mock test is a practice exam that follows the same format as the real one. It shows your current level, which is often called your band in official score reports. The goal is not only to get a high score, but also to learn how your performance changes under real conditions.\n\nThe test is divided into sections, and each section has its own timing. Many candidates feel confident at the start, but they lose accuracy when time becomes short. A good practice habit is to set a timer for each section and to stop when the time ends, even if the last question is unfinished. This builds the discipline that the real exam requires.\n\nPressure is another part of the experience. Some students become nervous when they hear a clock or see a long text. Practising in a quiet room with no phone nearby helps the mind become used to this feeling. Over time, pressure becomes less surprising, and the brain can focus on the task rather than on fear.\n\nEndurance matters because the reading and listening papers together take a long time. Concentration can drop after an hour, which is why a short break is not a sign of weakness. Stamina is the ability to keep working well until the last minute. Candidates build stamina through several full practice sessions, not only through short exercises.\n\nAfter each mock test, the most valuable step is feedback. Look at every wrong answer and ask why it happened. Was the question misread, was a keyword missed, or was the time too short? Writing down these reasons helps you find patterns. Many learners discover that they lose more marks from careless errors than from lack of knowledge.\n\nCalibration is the process of checking whether your self-assessment matches your real results. Some learners think they are at band six, but their mock scores show band five. Calibration helps them adjust their expectations and choose the right study plan. It is better to know the truth early than to be surprised on exam day.\n\nA useful schedule might include one full mock test each week during the final month. Between tests, focus on the sections where your accuracy is lowest. For example, if true, false, and not given questions cause problems, practise only that question type for twenty minutes each day. Then return to a full test to check whether the improvement lasts under pressure.\n\nFinally, remember that a mock test is a tool, not a judgement of your value. A low score in one practice session does not mean you cannot succeed. It means you have useful information about what to study next. Used carefully, each mock test turns uncertainty into a clear plan.",
+    "glossary": [
+      { "en": "candidate", "id": "peserta ujian" },
+      { "en": "divided", "id": "dibagi" },
+      { "en": "careless", "id": "ceroboh" },
+      { "en": "judgement", "id": "penilaian" },
+      { "en": "uncertainty", "id": "ketidakpastian" },
+      { "en": "discipline", "id": "disiplin" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "A mock test follows the same format as the real exam.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut mock test adalah ujian latihan yang mengikuti format ujian sungguhan.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyatakan mock test mengikuti format yang sama dengan ujian sungguhan." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "evidence": "a practice exam that follows the same format as the real one"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "According to the text, what is a good practice habit during a mock test?",
+        "options": [
+          { "id": "A", "text": "finishing every section late" },
+          { "id": "B", "text": "skipping the hardest questions" },
+          { "id": "C", "text": "using a phone to check the time" },
+          { "id": "D", "text": "stopping when the time ends" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menyebut kebiasaan latihan yang baik adalah mengatur timer untuk setiap bagian dan berhenti saat waktu habis.",
+        "stepByStep": [
+          "Cari practice habit di paragraf kedua.",
+          "Teks menyebut set a timer for each section and to stop when the time ends.",
+          "Selesai terlambat, melewati soal sulit, dan memakai ponsel tidak disebut sebagai kebiasaan yang baik."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut menyelesaikan bagian dengan terlambat sebagai kebiasaan baik." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut melewati soal sulit sebagai kebiasaan baik." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut penggunaan ponsel sebagai kebiasaan baik." }
+        ],
+        "evidence": "to stop when the time ends"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Students never feel nervous during mock tests.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyebut sebagian siswa menjadi gugup ketika mendengar jam atau melihat teks panjang.",
+        "stepByStep": [
+          "Cari nervous di paragraf ketiga.",
+          "Teks menyebut Some students become nervous when they hear a clock or see a long text.",
+          "Pernyataan soal berlawanan dengan itu, sehingga False."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut sebagian siswa menjadi gugup, sehingga pernyataan 'never' tidak benar." },
+          { "optionId": "C", "reasonId": "Teks memberi informasi langsung yang bertentangan dengan pernyataan ini." }
+        ],
+        "evidence": "Some students become nervous when they hear a clock or see a long text"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the text, why is a short break not a sign of weakness?",
+        "options": [
+          { "id": "A", "text": "because the exam has no breaks" },
+          { "id": "B", "text": "because feedback is optional" },
+          { "id": "C", "text": "because concentration can drop after an hour" },
+          { "id": "D", "text": "because stamina is not needed" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menyebut konsentrasi bisa turun setelah satu jam, sehingga istirahat singkat wajar.",
+        "stepByStep": [
+          "Cari break dan weakness di paragraf keempat.",
+          "Teks menyebut Concentration can drop after an hour, which is why a short break is not a sign of weakness.",
+          "Tidak ada break, umpan balik opsional, dan stamina tidak diperlukan tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyatakan bahwa ujian tidak memiliki istirahat." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut umpan balik sebagai pilihan opsional." },
+          { "optionId": "D", "reasonId": "Teks justru menyebut stamina sebagai kemampuan penting." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan why sering dijawab dengan klausa yang mengikuti kata which is why dalam teks.",
+          "examples": [
+            { "en": "The road was closed, which is why we took the train.", "id": "Jalan itu ditutup, itulah sebabnya kami naik kereta." },
+            { "en": "The test is long, which is why breaks are useful.", "id": "Tesnya panjang, itulah sebabnya istirahat itu berguna." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat cocok karena teks membahas daya tahan, tetapi teks justru menyebut stamina sebagai kemampuan yang harus dibangun.",
+        "evidence": "Concentration can drop after an hour"
+      },
+      {
+        "id": "R5",
+        "type": "yes_no_not_given",
+        "prompt": "The writer says a mock test is a judgement of a learner's value.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyatakan mock test adalah alat, bukan penilaian atas nilai seseorang.",
+        "stepByStep": [
+          "Cari judgement di paragraf terakhir.",
+          "Teks menyebut a mock test is a tool, not a judgement of your value.",
+          "Pernyataan soal berlawanan dengan itu, sehingga No."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyatakan kebalikannya, yaitu mock test bukan penilaian atas nilai seseorang." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola not a X, but Y berarti pernyataan pertama dibantah dan Y yang benar.",
+          "examples": [
+            { "en": "A test is a tool, not a punishment.", "id": "Tes adalah alat, bukan hukuman." },
+            { "en": "Feedback is a guide, not a final verdict.", "id": "Umpan balik adalah panduan, bukan vonis akhir." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena mock test memang memberi informasi tentang kemampuan, tetapi teks menolak bahwa mock test adalah penilaian nilai seseorang.",
+        "evidence": "a mock test is a tool, not a judgement of your value"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Before the real exam, do a full ___ to check your current level.",
+        "options": [
+          { "id": "A", "text": "pressure" },
+          { "id": "B", "text": "accuracy" },
+          { "id": "C", "text": "mock" },
+          { "id": "D", "text": "stamina" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Mock berarti ujian latihan, dan kalimat ini meminta latihan penuh sebelum ujian sungguhan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pressure berarti tekanan, bukan ujian latihan." },
+          { "optionId": "B", "reasonId": "Accuracy berarti ketepatan, bukan ujian latihan." },
+          { "optionId": "D", "reasonId": "Stamina berarti tenaga untuk bertahan, bukan ujian latihan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The exam has four ___, and each one has its own time limit.",
+        "options": [
+          { "id": "A", "text": "sections" },
+          { "id": "B", "text": "bands" },
+          { "id": "C", "text": "feedback" },
+          { "id": "D", "text": "endurance" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Sections adalah bagian-bagian dalam ujian, dan setiap bagian punya batas waktu sendiri.",
+        "stepByStep": [
+          "Kalimat menyebut empat bagian yang masing-masing punya batas waktu.",
+          "Bagian-bagian dalam ujian disebut sections.",
+          "Bands, feedback, dan endurance tidak berarti bagian ujian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bands berarti tingkat skor, bukan bagian ujian." },
+          { "optionId": "C", "reasonId": "Feedback berarti umpan balik, bukan bagian ujian." },
+          { "optionId": "D", "reasonId": "Endurance berarti daya tahan, bukan bagian ujian." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "After the test, read the ___ carefully to learn from your mistakes.",
+        "options": [
+          { "id": "A", "text": "pressure" },
+          { "id": "B", "text": "timing" },
+          { "id": "C", "text": "stamina" },
+          { "id": "D", "text": "feedback" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Feedback berarti umpan balik yang membantu kita belajar dari kesalahan.",
+        "stepByStep": [
+          "Kalimat meminta kita membaca sesuatu untuk belajar dari kesalahan.",
+          "Informasi yang membantu belajar dari kesalahan disebut feedback.",
+          "Pressure, timing, dan stamina tidak berarti informasi tentang kesalahan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pressure berarti tekanan, bukan informasi tentang kesalahan." },
+          { "optionId": "B", "reasonId": "Timing berarti pengaturan waktu, bukan informasi tentang kesalahan." },
+          { "optionId": "C", "reasonId": "Stamina berarti tenaga untuk bertahan, bukan informasi tentang kesalahan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Her ___ improved because she stopped guessing and checked every answer carefully.",
+        "options": [
+          { "id": "A", "text": "pressure" },
+          { "id": "B", "text": "accuracy" },
+          { "id": "C", "text": "endurance" },
+          { "id": "D", "text": "timing" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Accuracy berarti ketepatan, dan kalimat ini menjelaskan perbaikan karena jawaban diperiksa dengan teliti.",
+        "stepByStep": [
+          "Kalimat menyebut perbaikan karena berhenti menebak dan memeriksa jawaban.",
+          "Ketepatan jawaban disebut accuracy.",
+          "Pressure, endurance, dan timing tidak menggambarkan ketepatan jawaban."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pressure berarti tekanan, bukan ketepatan jawaban." },
+          { "optionId": "C", "reasonId": "Endurance berarti daya tahan, bukan ketepatan jawaban." },
+          { "optionId": "D", "reasonId": "Timing berarti pengaturan waktu, bukan ketepatan jawaban." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Accuracy adalah kata benda untuk ketepatan jawaban, sedangkan speed adalah kecepatan.",
+          "examples": [
+            { "en": "Accuracy matters more than speed in this section.", "id": "Ketepatan lebih penting daripada kecepatan di bagian ini." },
+            { "en": "Her accuracy in grammar is high.", "id": "Ketepatannya dalam tata bahasa tinggi." }
+          ]
+        },
+        "examTrap": "Pilihan D timing terlihat cocok karena pengecekan jawaban memakan waktu, tetapi kalimat ini menggambarkan ketepatan jawaban, bukan pengaturan waktu."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Learners who practise ___ compare their self-assessment with their real mock scores.",
+        "options": [
+          { "id": "A", "text": "stamina" },
+          { "id": "B", "text": "pressure" },
+          { "id": "C", "text": "calibration" },
+          { "id": "D", "text": "timing" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Calibration berarti penyesuaian agar penilaian diri sesuai dengan hasil nyata.",
+        "stepByStep": [
+          "Kalimat menyebut membandingkan penilaian diri dengan skor nyata.",
+          "Proses menyesuaikan penilaian diri dengan hasil nyata disebut calibration.",
+          "Stamina, pressure, dan timing tidak menggambarkan proses penyesuaian itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Stamina berarti tenaga untuk bertahan, bukan penyesuaian penilaian diri." },
+          { "optionId": "B", "reasonId": "Pressure berarti tekanan, bukan penyesuaian penilaian diri." },
+          { "optionId": "D", "reasonId": "Timing berarti pengaturan waktu, bukan penyesuaian penilaian diri." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Calibration dipakai untuk menyesuaikan alat ukur atau penilaian agar sesuai dengan kenyataan.",
+          "examples": [
+            { "en": "Calibration helps you judge your level.", "id": "Penyesuaian membantumu menilai level kamu." },
+            { "en": "The teacher checked the calibration of her scores.", "id": "Guru itu memeriksa penyesuaian skornya." }
+          ]
+        },
+        "examTrap": "Pilihan A stamina terlihat cocok karena latihan penuh membangun daya tahan, tetapi kalimat ini meminta proses membandingkan penilaian diri dengan hasil nyata."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin menyelesaikan simulasi penuh minggu ini.",
+        "hint": "Saya ingin: I want to. Menyelesaikan: finish. Simulasi penuh: a full mock test. Minggu ini: this week.",
+        "acceptedAnswers": ["I want to finish a full mock test this week.", "I would like to finish a full mock test this week."],
+        "modelAnswer": "I want to finish a full mock test this week.",
+        "commonErrors": [{ "pattern": "I want finish a full mock tests this weeks", "feedbackId": "Setelah want to, pakai kata kerja dasar finish, dan mock test tunggal dengan a." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya perlu melatih stamina saya sebelum ujian.",
+        "hint": "Saya perlu: I need to. Melatih stamina: build stamina. Sebelum ujian: before the exam.",
+        "acceptedAnswers": ["I need to build my stamina before the exam.", "I need to build my stamina before the test."],
+        "modelAnswer": "I need to build my stamina before the exam.",
+        "commonErrors": [{ "pattern": "I need build my staminas before exam", "feedbackId": "Setelah need to, pakai kata kerja dasar build, dan stamina tidak dijamakkan." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Umpan balik dari tes latihan membantu saya memperbaiki kesalahan.",
+        "hint": "Umpan balik: feedback. Dari tes latihan: from the practice test. Memperbaiki kesalahan: correct my mistakes.",
+        "acceptedAnswers": ["Feedback from the practice test helps me correct my mistakes.", "The feedback from the practice test helps me correct my mistakes."],
+        "modelAnswer": "Feedback from the practice test helps me correct my mistakes.",
+        "commonErrors": [{ "pattern": "Feedbacks from practice test help me corrects my mistake", "feedbackId": "Feedback tidak dijamakkan, dan setelah help me memakai kata kerja dasar correct." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Akurasi saya turun ketika tekanan waktu semakin besar.",
+        "hint": "Akurasi saya: my accuracy. Turun: drops. Ketika tekanan waktu semakin besar: when the time pressure increases.",
+        "acceptedAnswers": ["My accuracy drops when the time pressure increases.", "My accuracy decreases when the pressure of time increases."],
+        "modelAnswer": "My accuracy drops when the time pressure increases.",
+        "commonErrors": [{ "pattern": "My accuracies drop when time pressures increase", "feedbackId": "Accuracy tidak dijamakkan, dan drops memakai bentuk tunggal sesuai subjek accuracy." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kalibrasi nilai membantu saya memahami band yang realistis.",
+        "hint": "Kalibrasi nilai: calibration. Membantu saya memahami: helps me understand. Band yang realistis: a realistic band.",
+        "acceptedAnswers": ["Calibration helps me understand a realistic band.", "Calibration helps me understand a realistic band score."],
+        "modelAnswer": "Calibration helps me understand a realistic band.",
+        "commonErrors": [{ "pattern": "Calibrations help me understands realistic bands", "feedbackId": "Calibration tidak dijamakkan, help me memakai kata kerja dasar understand, dan band tunggal dengan a realistic." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means the ability to keep working well for a long time?",
+        "options": [
+          { "id": "A", "text": "pressure" },
+          { "id": "B", "text": "stamina" },
+          { "id": "C", "text": "timing" },
+          { "id": "D", "text": "feedback" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Stamina berarti tenaga atau kemampuan untuk tetap bekerja baik dalam waktu lama.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kemampuan bekerja baik dalam waktu lama.",
+          "Kemampuan itu disebut stamina.",
+          "Pressure, timing, dan feedback tidak berarti kemampuan bertahan dalam waktu lama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pressure berarti tekanan, bukan kemampuan bertahan." },
+          { "optionId": "C", "reasonId": "Timing berarti pengaturan waktu, bukan kemampuan bertahan." },
+          { "optionId": "D", "reasonId": "Feedback berarti umpan balik, bukan kemampuan bertahan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Stamina dipakai untuk tenaga atau daya tahan yang membuat seseorang tetap fokus dalam waktu lama.",
+          "examples": [
+            { "en": "Build stamina with full practice tests.", "id": "Bangun stamina dengan tes latihan penuh." },
+            { "en": "Her stamina helped her finish the long listening test.", "id": "Stamina-nya membantunya menyelesaikan tes listening yang panjang." }
+          ]
+        },
+        "examTrap": "Pilihan A pressure terlihat cocok karena tes panjang terasa menekan, tetapi kalimat ini meminta kemampuan bertahan dalam waktu lama."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'sections'?",
+        "options": [
+          { "id": "A", "text": "The sections is three in this test." },
+          { "id": "B", "text": "The section are long for each candidate." },
+          { "id": "C", "text": "The sections has its own timing." },
+          { "id": "D", "text": "The test has three sections, and each has its own timing." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Test tunggal memakai has, sections jamak memakai bentuk three sections, dan each has tunggal sesuai subjek each.",
+        "stepByStep": [
+          "Subjek the test tunggal memakai has.",
+          "Sections dijamakkan setelah three.",
+          "Pilihan A dan B memakai kata kerja yang tidak sesuai, pilihan C memakai has dengan sections jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sections jamak tidak cocok dengan is untuk kalimat ini." },
+          { "optionId": "B", "reasonId": "Section tunggal tidak cocok dengan are." },
+          { "optionId": "C", "reasonId": "Sections jamak memakai have, bukan has." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sections adalah kata benda jamak, dan kata kerjanya memakai have atau are.",
+          "examples": [
+            { "en": "The exam has three sections.", "id": "Ujian itu memiliki tiga bagian." },
+            { "en": "The sections are short and clear.", "id": "Bagian-bagiannya pendek dan jelas." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena kalimat ini menyebut bagian ujian dengan has, tetapi sections jamak harus memakai have."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means the level of score shown in an official report?",
+        "options": [
+          { "id": "A", "text": "band" },
+          { "id": "B", "text": "mock" },
+          { "id": "C", "text": "accuracy" },
+          { "id": "D", "text": "pressure" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Band adalah tingkat skor yang ditampilkan dalam laporan resmi.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk tingkat skor di laporan resmi.",
+          "Tingkat skor itu disebut band.",
+          "Mock, accuracy, dan pressure tidak berarti tingkat skor resmi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Mock berarti ujian latihan, bukan tingkat skor resmi." },
+          { "optionId": "C", "reasonId": "Accuracy berarti ketepatan, bukan tingkat skor resmi." },
+          { "optionId": "D", "reasonId": "Pressure berarti tekanan, bukan tingkat skor resmi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Band dipakai untuk menyebut tingkat kemampuan yang dilaporkan dalam skor ujian.",
+          "examples": [
+            { "en": "My target band is six.", "id": "Target band saya adalah enam." },
+            { "en": "The official band was lower than my mock result.", "id": "Band resmi lebih rendah daripada hasil latihan saya." }
+          ]
+        },
+        "examTrap": "Pilihan B mock terlihat cocok karena skor berasal dari tes latihan, tetapi kalimat ini meminta tingkat skor dalam laporan resmi."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word describes checking whether your self-assessment matches your real results?",
+        "options": [
+          { "id": "A", "text": "mock" },
+          { "id": "B", "text": "pressure" },
+          { "id": "C", "text": "calibration" },
+          { "id": "D", "text": "accuracy" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Calibration adalah proses menyesuaikan penilaian diri dengan hasil yang nyata.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk memeriksa kesesuaian penilaian diri dengan hasil nyata.",
+          "Proses itu disebut calibration.",
+          "Mock, pressure, dan accuracy tidak menggambarkan proses penyesuaian penilaian diri."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mock berarti ujian latihan, bukan proses penyesuaian penilaian diri." },
+          { "optionId": "B", "reasonId": "Pressure berarti tekanan, bukan proses penyesuaian penilaian diri." },
+          { "optionId": "D", "reasonId": "Accuracy berarti ketepatan jawaban, bukan proses penyesuaian penilaian diri." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Calibration dipakai untuk penyesuaian antara perkiraan dan kenyataan.",
+          "examples": [
+            { "en": "Calibration helps learners avoid overconfidence.", "id": "Penyesuaian membantu pembelajar menghindari rasa terlalu percaya diri." },
+            { "en": "Good calibration makes your study plan realistic.", "id": "Penyesuaian yang baik membuat rencana belajarmu realistis." }
+          ]
+        },
+        "examTrap": "Pilihan D accuracy terlihat cocok karena penilaian diri harus akurat, tetapi kalimat ini meminta proses penyesuaiannya, bukan ketepatan jawaban."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means information given after your performance to help you improve?",
+        "options": [
+          { "id": "A", "text": "timing" },
+          { "id": "B", "text": "feedback" },
+          { "id": "C", "text": "band" },
+          { "id": "D", "text": "endurance" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Feedback adalah umpan balik yang diberikan setelah performa untuk membantu perbaikan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk informasi setelah performa yang membantu perbaikan.",
+          "Informasi seperti itu disebut feedback.",
+          "Timing, band, dan endurance tidak berarti informasi setelah performa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Timing berarti pengaturan waktu, bukan informasi setelah performa." },
+          { "optionId": "C", "reasonId": "Band berarti tingkat skor, bukan informasi untuk perbaikan." },
+          { "optionId": "D", "reasonId": "Endurance berarti daya tahan, bukan informasi setelah performa." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Feedback adalah kata benda tak terhitung, sehingga tidak dijamakkan.",
+          "examples": [
+            { "en": "The coach gave useful feedback after the match.", "id": "Pelatih memberi umpan balik yang berguna setelah pertandingan." },
+            { "en": "Written feedback helps students see their mistakes.", "id": "Umpan balik tertulis membantu siswa melihat kesalahan mereka." }
+          ]
+        },
+        "examTrap": "Pilihan C band terlihat cocok karena skor sering dipakai untuk menilai perbaikan, tetapi kalimat ini meminta informasi yang diberikan setelah performa."
+      }
+    ]
+  }
+}

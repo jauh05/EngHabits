@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W10-001",
+    "week": 10,
+    "topicTag": "grafik-garis",
+    "type": "mcq",
+    "prompt": "Which word describes a sudden and sharp fall in a line graph?",
+    "options": [
+      { "id": "A", "text": "plunge" },
+      { "id": "B", "text": "steady" },
+      { "id": "C", "text": "trend" },
+      { "id": "D", "text": "axis" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Plunge berarti anjlok tajam, yaitu penurunan yang cepat dan besar.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk penurunan yang cepat dan tajam.",
+      "Penurunan tajam disebut plunge.",
+      "Steady berarti stabil, trend berarti arah umum, dan axis berarti sumbu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Steady berarti stabil, bukan penurunan tajam." },
+      { "optionId": "C", "reasonId": "Trend berarti arah umum, bukan penurunan tajam." },
+      { "optionId": "D", "reasonId": "Axis berarti sumbu grafik, bukan penurunan tajam." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Plunge dipakai untuk penurunan tajam yang terjadi dalam waktu singkat.",
+      "examples": [
+        { "en": "The price plunged in May.", "id": "Harganya anjlok pada bulan Mei." },
+        { "en": "The figures plunged after the closure.", "id": "Angkanya anjlok setelah penutupan." }
+      ]
+    },
+    "examTrap": "Pilihan C trend terlihat cocok karena grafik membahas perubahan, tetapi trend adalah arah umum, bukan penurunan tajam."
+  },
+  {
+    "id": "W10-002",
+    "week": 10,
+    "topicTag": "grafik-garis",
+    "type": "mcq",
+    "prompt": "Which word describes a gradual increase over time?",
+    "options": [
+      { "id": "A", "text": "plunge" },
+      { "id": "B", "text": "peak" },
+      { "id": "C", "text": "rise" },
+      { "id": "D", "text": "axis" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Rise berarti kenaikan, dan dapat bertahap ketika dipakai dengan gradual.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk kenaikan bertahap.",
+      "Kenaikan dalam grafik disebut rise.",
+      "Plunge berarti anjlok, peak berarti puncak, dan axis berarti sumbu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Plunge berarti penurunan tajam, bukan kenaikan bertahap." },
+      { "optionId": "B", "reasonId": "Peak berarti titik tertinggi, bukan kenaikan bertahap." },
+      { "optionId": "D", "reasonId": "Axis berarti sumbu, bukan kenaikan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Rise menyatakan kenaikan, dan gradual menunjukkan bahwa kenaikan itu pelan.",
+      "examples": [
+        { "en": "The rise was gradual over five years.", "id": "Kenaikannya bertahap selama lima tahun." },
+        { "en": "There was a steady rise in demand.", "id": "Ada kenaikan permintaan yang stabil." }
+      ]
+    },
+    "examTrap": "Pilihan A plunge terlihat cocok karena juga berkaitan dengan perubahan, tetapi plunge berarti turun tajam, bukan naik bertahap."
+  },
+  {
+    "id": "W10-003",
+    "week": 10,
+    "topicTag": "grafik-garis",
+    "type": "mcq",
+    "prompt": "Which description fits a value that stays the same for several months?",
+    "options": [
+      { "id": "A", "text": "fluctuate" },
+      { "id": "B", "text": "remain steady" },
+      { "id": "C", "text": "surge" },
+      { "id": "D", "text": "decline" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Remain steady berarti tetap stabil dan tidak banyak berubah dalam beberapa bulan.",
+    "stepByStep": [
+      "Kalimat menyebut nilai yang tetap selama beberapa bulan.",
+      "Keadaan tetap disebut remain steady.",
+      "Fluctuate berarti naik turun, surge berarti lonjakan, dan decline berarti penurunan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Fluctuate berarti naik turun, bertentangan dengan tetap stabil." },
+      { "optionId": "C", "reasonId": "Surge berarti lonjakan, bertentangan dengan tetap stabil." },
+      { "optionId": "D", "reasonId": "Decline berarti penurunan, bertentangan dengan tetap stabil." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Remain steady menunjukkan nilai yang tidak berubah banyak dari waktu ke waktu.",
+      "examples": [
+        { "en": "The rate remained steady all year.", "id": "Angkanya tetap stabil sepanjang tahun." },
+        { "en": "Prices remained steady for three months.", "id": "Harga tetap stabil selama tiga bulan." }
+      ]
+    },
+    "examTrap": "Pilihan A fluctuate terlihat cocok karena grafik sering berubah, tetapi kalimat ini meminta nilai yang tetap."
+  },
+  {
+    "id": "W10-004",
+    "week": 10,
+    "topicTag": "grafik-garis",
+    "type": "mcq",
+    "prompt": "Which phrase best describes the highest point on a line graph?",
+    "options": [
+      { "id": "A", "text": "the axis" },
+      { "id": "B", "text": "the trend" },
+      { "id": "C", "text": "the slice" },
+      { "id": "D", "text": "the peak" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Peak adalah titik tertinggi pada sebuah grafik garis.",
+    "stepByStep": [
+      "Kalimat meminta frasa untuk titik tertinggi.",
+      "Titik tertinggi pada grafik disebut peak.",
+      "Axis adalah sumbu, trend adalah arah umum, dan slice adalah irisan pie chart."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Axis adalah sumbu, bukan titik tertinggi." },
+      { "optionId": "B", "reasonId": "Trend adalah arah umum, bukan titik tertinggi." },
+      { "optionId": "C", "reasonId": "Slice adalah irisan pie chart, bukan titik tertinggi." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Peak adalah titik tertinggi, sering disebut dengan waktu atau nilainya.",
+      "examples": [
+        { "en": "The peak was in June.", "id": "Puncaknya terjadi pada bulan Juni." },
+        { "en": "The peak reached 60 thousand.", "id": "Puncaknya mencapai 60 ribu." }
+      ]
+    },
+    "examTrap": "Pilihan B trend terlihat cocok karena grafik membahas titik puncak dan arah, tetapi trend bukan titik tertinggi."
+  },
+  {
+    "id": "W10-005",
+    "week": 10,
+    "topicTag": "grafik-garis",
+    "type": "mcq",
+    "prompt": "Which expression is correct?",
+    "options": [
+      { "id": "A", "text": "The line graph shows an upward trend." },
+      { "id": "B", "text": "The line graph show an upward trend." },
+      { "id": "C", "text": "The line graphs shows an upward trend." },
+      { "id": "D", "text": "The line graph shows an upward trends." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek line graph tunggal memakai shows, dan trend tunggal dengan upward tepat.",
+    "stepByStep": [
+      "Subjek line graph tunggal, sehingga kata kerjanya shows.",
+      "Frasa an upward trend memakai trend tunggal dengan an.",
+      "Pilihan B memakai show, pilihan C memakai graphs dengan shows, dan pilihan D memakai trends tunggal yang salah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Show tidak cocok dengan subjek tunggal line graph." },
+      { "optionId": "C", "reasonId": "Graphs jamak tidak cocok dengan shows dalam kalimat satu grafik." },
+      { "optionId": "D", "reasonId": "Trends jamak tidak tepat setelah an upward trend untuk satu tren." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Subjek tunggal memakai shows, dan an upward trend memakai bentuk tunggal.",
+      "examples": [
+        { "en": "The chart shows a downward trend.", "id": "Grafik itu menunjukkan tren menurun." },
+        { "en": "The table shows a steady pattern.", "id": "Tabel itu menunjukkan pola yang stabil." }
+      ]
+    },
+    "examTrap": "Pilihan C tampak benar karena banyak grafik disebut jamak, tetapi subjek line graph dalam kalimat ini tunggal."
+  },
+  {
+    "id": "W10-006",
+    "week": 10,
+    "topicTag": "bar-chart",
+    "type": "mcq",
+    "prompt": "Which word means a sizeable difference between two groups?",
+    "options": [
+      { "id": "A", "text": "slight" },
+      { "id": "B", "text": "gradual" },
+      { "id": "C", "text": "substantial" },
+      { "id": "D", "text": "fraction" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Substantial berarti besar atau cukup berarti, dan cocok untuk selisih yang sizeable.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk selisih yang besar.",
+      "Kata sifat yang berarti besar adalah substantial.",
+      "Slight berarti kecil, gradual berarti bertahap, dan fraction berarti pecahan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Slight berarti kecil, bertentangan dengan sizeable." },
+      { "optionId": "B", "reasonId": "Gradual berarti bertahap, bukan besarnya selisih." },
+      { "optionId": "D", "reasonId": "Fraction berarti pecahan, bukan besarnya selisih." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Substantial dipakai untuk perbedaan atau perubahan yang cukup besar.",
+      "examples": [
+        { "en": "There was a substantial gap between the groups.", "id": "Ada selisih besar antara kedua kelompok." },
+        { "en": "The increase was substantial.", "id": "Kenaikannya cukup besar." }
+      ]
+    },
+    "examTrap": "Pilihan A slight terlihat dekat karena sama-sama menyangkut selisih, tetapi slight berarti kecil."
+  },
+  {
+    "id": "W10-007",
+    "week": 10,
+    "topicTag": "bar-chart",
+    "type": "mcq",
+    "prompt": "Which word best describes a small difference?",
+    "options": [
+      { "id": "A", "text": "significant" },
+      { "id": "B", "text": "slight" },
+      { "id": "C", "text": "outperform" },
+      { "id": "D", "text": "proportion" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Slight berarti kecil, dan cocok untuk menggambarkan selisih yang sedikit.",
+    "stepByStep": [
+      "Kalimat meminta kata sifat untuk selisih kecil.",
+      "Kata yang berarti kecil adalah slight.",
+      "Significant berarti besar, outperform adalah kata kerja, dan proportion adalah kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Significant berarti berarti besar, bukan kecil." },
+      { "optionId": "C", "reasonId": "Outperform adalah kata kerja, bukan kata sifat selisih kecil." },
+      { "optionId": "D", "reasonId": "Proportion adalah kata benda, bukan kata sifat selisih kecil." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Slight menggambarkan perubahan atau selisih yang kecil.",
+      "examples": [
+        { "en": "The difference was slight.", "id": "Selisihnya kecil." },
+        { "en": "There was a slight increase in sales.", "id": "Ada kenaikan penjualan yang kecil." }
+      ]
+    },
+    "examTrap": "Pilihan A significant terlihat cocok karena sering dipakai dalam perbandingan, tetapi significant menunjukkan selisih yang besar."
+  },
+  {
+    "id": "W10-008",
+    "week": 10,
+    "topicTag": "bar-chart",
+    "type": "mcq",
+    "prompt": "Which word means to be clearly better than another group?",
+    "options": [
+      { "id": "A", "text": "decline" },
+      { "id": "B", "text": "fluctuate" },
+      { "id": "C", "text": "constitute" },
+      { "id": "D", "text": "outperform" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Outperform berarti mengungguli, yaitu lebih baik daripada kelompok lain.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk lebih baik daripada kelompok lain.",
+      "Kata kerja yang tepat adalah outperform.",
+      "Decline berarti menurun, fluctuate berarti naik turun, dan constitute berarti merupakan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Decline berarti menurun, bukan lebih baik." },
+      { "optionId": "B", "reasonId": "Fluctuate berarti naik turun, bukan lebih baik." },
+      { "optionId": "C", "reasonId": "Constitute berarti merupakan, bukan lebih baik." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Outperform dipakai saat satu hal melampaui hal lain dalam hasil atau performa.",
+      "examples": [
+        { "en": "Buses outperformed cycling in punctuality.", "id": "Bus mengungguli sepeda dalam ketepatan waktu." },
+        { "en": "The new team outperformed the old one.", "id": "Tim baru mengungguli tim lama." }
+      ]
+    },
+    "examTrap": "Pilihan A decline terlihat cocok karena sama-sama perbandingan, tetapi decline berarti turun, bukan lebih baik."
+  },
+  {
+    "id": "W10-009",
+    "week": 10,
+    "topicTag": "bar-chart",
+    "type": "mcq",
+    "prompt": "Which word refers to a group of items that share a feature in a bar chart?",
+    "options": [
+      { "id": "A", "text": "category" },
+      { "id": "B", "text": "peak" },
+      { "id": "C", "text": "plunge" },
+      { "id": "D", "text": "heading" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Category adalah kelompok dalam grafik yang memiliki ciri bersama.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk kelompok dengan ciri bersama dalam grafik.",
+      "Kelompok seperti itu disebut category.",
+      "Peak adalah titik tertinggi, plunge adalah penurunan tajam, dan heading adalah judul."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Peak adalah titik tertinggi, bukan kelompok." },
+      { "optionId": "C", "reasonId": "Plunge adalah penurunan tajam, bukan kelompok." },
+      { "optionId": "D", "reasonId": "Heading adalah judul, bukan kelompok data." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Category adalah pengelompokan data dalam bar chart atau tabel.",
+      "examples": [
+        { "en": "Each category has its own bar.", "id": "Setiap kategori punya batangnya sendiri." },
+        { "en": "Three categories are shown in the chart.", "id": "Tiga kategori ditampilkan dalam grafik." }
+      ]
+    },
+    "examTrap": "Pilihan D heading terlihat cocok karena muncul di bagian atas grafik, tetapi heading adalah judul, bukan kelompok data."
+  },
+  {
+    "id": "W10-010",
+    "week": 10,
+    "topicTag": "bar-chart",
+    "type": "mcq",
+    "prompt": "Which expression is correct?",
+    "options": [
+      { "id": "A", "text": "The categories is three." },
+      { "id": "B", "text": "The category are three." },
+      { "id": "C", "text": "There are three categories in the chart." },
+      { "id": "D", "text": "There is three categories in the chart." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "There are dipakai dengan subjek jamak categories, dan three categories sudah benar.",
+    "stepByStep": [
+      "Subjek categories jamak, sehingga memakai there are.",
+      "Setelah angka three, kata benda memakai bentuk jamak.",
+      "Pilihan A dan B salah karena kata kerja atau bentuk katanya tidak sesuai, pilihan D memakai is untuk jamak."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Categories jamak tidak cocok dengan is." },
+      { "optionId": "B", "reasonId": "Category tunggal tidak cocok dengan are untuk tiga kelompok." },
+      { "optionId": "D", "reasonId": "Is tidak cocok dengan categories jamak." }
+    ],
+    "ruleAndExamples": {
+      "rule": "There are + kata benda jamak untuk menyatakan jumlah kelompok.",
+      "examples": [
+        { "en": "There are four bars in the chart.", "id": "Ada empat batang dalam grafik itu." },
+        { "en": "There are two categories in the table.", "id": "Ada dua kategori dalam tabel itu." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat mirip dengan pilihan benar, tetapi is tidak cocok dengan kata benda jamak setelah there."
+  },
+  {
+    "id": "W10-011",
+    "week": 10,
+    "topicTag": "pie-tabel",
+    "type": "mcq",
+    "prompt": "Which word refers to a part of a pie chart?",
+    "options": [
+      { "id": "A", "text": "trend" },
+      { "id": "B", "text": "slice" },
+      { "id": "C", "text": "axis" },
+      { "id": "D", "text": "peak" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Slice adalah irisan atau bagian lingkaran pada pie chart.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk bagian lingkaran pie chart.",
+      "Bagian lingkaran disebut slice.",
+      "Trend, axis, dan peak tidak berarti bagian lingkaran."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Trend berarti arah umum, bukan bagian pie chart." },
+      { "optionId": "C", "reasonId": "Axis berarti sumbu grafik, bukan bagian pie chart." },
+      { "optionId": "D", "reasonId": "Peak berarti titik tertinggi, bukan bagian pie chart." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Slice adalah bagian dari lingkaran yang mewakili satu kategori.",
+      "examples": [
+        { "en": "The largest slice is electricity.", "id": "Irisan terbesar adalah listrik." },
+        { "en": "Each slice shows a share of the total.", "id": "Setiap irisan menunjukkan bagian dari total." }
+      ]
+    },
+    "examTrap": "Pilihan A trend terlihat cocok karena pie chart juga menunjukkan proporsi, tetapi trend bukan bagian lingkaran."
+  },
+  {
+    "id": "W10-012",
+    "week": 10,
+    "topicTag": "pie-tabel",
+    "type": "mcq",
+    "prompt": "Which word means a part compared with the whole?",
+    "options": [
+      { "id": "A", "text": "ratio" },
+      { "id": "B", "text": "breakdown" },
+      { "id": "C", "text": "total" },
+      { "id": "D", "text": "fraction" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Fraction adalah bagian dari keseluruhan yang dinyatakan sebagai pecahan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk bagian dibandingkan keseluruhan.",
+      "Bagian dari keseluruhan disebut fraction.",
+      "Ratio membandingkan dua nilai, breakdown adalah rincian, dan total adalah keseluruhan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Ratio membandingkan dua nilai, bukan bagian terhadap keseluruhan." },
+      { "optionId": "B", "reasonId": "Breakdown adalah rincian, bukan bagian dari keseluruhan." },
+      { "optionId": "C", "reasonId": "Total adalah keseluruhan, bukan bagian dari keseluruhan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Fraction menyatakan bagian dari keseluruhan, misalnya satu per empat.",
+      "examples": [
+        { "en": "One quarter is a common fraction.", "id": "Seperempat adalah pecahan yang umum." },
+        { "en": "Each slice is a fraction of the total.", "id": "Setiap irisan adalah bagian dari total." }
+      ]
+    },
+    "examTrap": "Pilihan A ratio terlihat cocok karena juga menyatakan proporsi, tetapi ratio membandingkan dua nilai, bukan bagian dari total."
+  },
+  {
+    "id": "W10-013",
+    "week": 10,
+    "topicTag": "pie-tabel",
+    "type": "mcq",
+    "prompt": "Which word means to make up or form a part of a whole?",
+    "options": [
+      { "id": "A", "text": "constitute" },
+      { "id": "B", "text": "fluctuate" },
+      { "id": "C", "text": "decline" },
+      { "id": "D", "text": "figure" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Constitute berarti merupakan atau membentuk bagian dari keseluruhan.",
+    "stepByStep": [
+      "Kalimat meminta kata kerja untuk membentuk bagian dari keseluruhan.",
+      "Kata kerja yang tepat adalah constitute.",
+      "Fluctuate, decline, dan figure tidak berarti membentuk bagian dari keseluruhan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Fluctuate berarti naik turun, bukan membentuk bagian." },
+      { "optionId": "C", "reasonId": "Decline berarti menurun, bukan membentuk bagian." },
+      { "optionId": "D", "reasonId": "Figure berarti angka, bukan kata kerja membentuk bagian." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Constitute dipakai untuk menyatakan bahwa sesuatu merupakan bagian dari keseluruhan.",
+      "examples": [
+        { "en": "Students constitute most of the audience.", "id": "Mahasiswa merupakan sebagian besar hadirin." },
+        { "en": "Rent constitutes a large share of the budget.", "id": "Sewa merupakan porsi besar dari anggaran." }
+      ]
+    },
+    "examTrap": "Pilihan D figure terlihat cocok karena pie chart sering memuat angka, tetapi figure adalah angka, bukan kata kerja."
+  },
+  {
+    "id": "W10-014",
+    "week": 10,
+    "topicTag": "pie-tabel",
+    "type": "mcq",
+    "prompt": "Which phrase means that one item is the biggest share in a chart?",
+    "options": [
+      { "id": "A", "text": "fluctuate" },
+      { "id": "B", "text": "plunge" },
+      { "id": "C", "text": "dominate" },
+      { "id": "D", "text": "tabulate" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Dominate berarti menguasai, yaitu menjadi bagian yang paling besar.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk bagian yang paling besar.",
+      "Menguasai sebagian besar grafik disebut dominate.",
+      "Fluctuate, plunge, dan tabulate tidak berarti bagian terbesar."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Fluctuate berarti naik turun, bukan menguasai." },
+      { "optionId": "B", "reasonId": "Plunge berarti anjlok, bukan menguasai." },
+      { "optionId": "D", "reasonId": "Tabulate berarti menyusun tabel, bukan menguasai." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Dominate dipakai untuk bagian yang paling besar atau paling berpengaruh.",
+      "examples": [
+        { "en": "Electricity dominates the budget.", "id": "Listrik mendominasi anggaran." },
+        { "en": "One category dominates the chart.", "id": "Satu kategori mendominasi grafik." }
+      ]
+    },
+    "examTrap": "Pilihan D tabulate terlihat cocok karena pie chart sering dibuat dari tabel, tetapi tabulate berarti menyusun data, bukan menguasai."
+  },
+  {
+    "id": "W10-015",
+    "week": 10,
+    "topicTag": "pie-tabel",
+    "type": "mcq",
+    "prompt": "Which word describes a comparison of two numbers?",
+    "options": [
+      { "id": "A", "text": "breakdown" },
+      { "id": "B", "text": "ratio" },
+      { "id": "C", "text": "slice" },
+      { "id": "D", "text": "total" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Ratio adalah perbandingan dua angka, misalnya tiga banding satu.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk perbandingan dua angka.",
+      "Perbandingan dua angka disebut ratio.",
+      "Breakdown, slice, dan total tidak berarti perbandingan dua angka."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Breakdown adalah rincian per kategori, bukan perbandingan dua angka." },
+      { "optionId": "C", "reasonId": "Slice adalah irisan, bukan perbandingan dua angka." },
+      { "optionId": "D", "reasonId": "Total adalah jumlah keseluruhan, bukan perbandingan dua angka." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ratio dinyatakan dengan to, misalnya three to one.",
+      "examples": [
+        { "en": "The ratio is three to one.", "id": "Rasionya tiga banding satu." },
+        { "en": "The ratio of cars to bikes is two to one.", "id": "Rasio mobil terhadap sepeda adalah dua banding satu." }
+      ]
+    },
+    "examTrap": "Pilihan A breakdown terlihat cocok karena tabel sering memuat perbandingan, tetapi breakdown adalah rincian, bukan rasio."
+  },
+  {
+    "id": "W10-016",
+    "week": 10,
+    "topicTag": "pie-tabel",
+    "type": "mcq",
+    "prompt": "Which expression is correct?",
+    "options": [
+      { "id": "A", "text": "The ratio of rent to income are one to four." },
+      { "id": "B", "text": "The ratios of rent to income is one to four." },
+      { "id": "C", "text": "The ratio of rent to income is one to fours." },
+      { "id": "D", "text": "The ratio of rent to income is one to four." }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Subjek ratio tunggal memakai is, dan one to four adalah pola rasio yang benar.",
+    "stepByStep": [
+      "Subjek ratio tunggal, sehingga memakai is.",
+      "Pola one to four adalah bentuk rasio yang tepat.",
+      "Pilihan A memakai are untuk subjek tunggal, pilihan B memakai ratios, dan pilihan C menulis fours yang salah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal ratio." },
+      { "optionId": "B", "reasonId": "Ratios jamak tidak cocok dengan is untuk satu rasio." },
+      { "optionId": "C", "reasonId": "Fours bukan bentuk yang tepat dalam pola rasio." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ratio tunggal memakai is, dan angka dalam pola to tidak diberi akhiran.",
+      "examples": [
+        { "en": "The ratio is two to one.", "id": "Rasionya dua banding satu." },
+        { "en": "The ratio of students to teachers is ten to one.", "id": "Rasio siswa terhadap guru adalah sepuluh banding satu." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena rasio sering dibicarakan jamak, tetapi kalimat ini menyebut satu rasio dengan subjek tunggal."
+  },
+  {
+    "id": "W10-017",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word means 'after that, at a later time'?",
+    "options": [
+      { "id": "A", "text": "subsequently" },
+      { "id": "B", "text": "generate" },
+      { "id": "C", "text": "procedure" },
+      { "id": "D", "text": "stage" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subsequently berarti kemudian, setelah langkah sebelumnya.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk setelah itu pada waktu berikutnya.",
+      "Kata keterangan yang tepat adalah subsequently.",
+      "Generate, procedure, dan stage tidak berarti setelah itu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Generate berarti menghasilkan, bukan urutan waktu." },
+      { "optionId": "C", "reasonId": "Procedure berarti tata cara, bukan urutan waktu." },
+      { "optionId": "D", "reasonId": "Stage berarti tahap, bukan kata keterangan waktu." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Subsequently dipakai untuk langkah yang muncul setelah langkah sebelumnya.",
+      "examples": [
+        { "en": "Subsequently, the paper was dried.", "id": "Setelah itu, kertasnya dikeringkan." },
+        { "en": "The team reviewed the plan and subsequently changed it.", "id": "Tim meninjau rencana dan setelah itu mengubahnya." }
+      ]
+    },
+    "examTrap": "Pilihan D stage terlihat cocok karena diagram proses memuat tahap, tetapi stage adalah tahap, bukan keterangan waktu."
+  },
+  {
+    "id": "W10-018",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word means to change something into a different form?",
+    "options": [
+      { "id": "A", "text": "generate" },
+      { "id": "B", "text": "stage" },
+      { "id": "C", "text": "transform" },
+      { "id": "D", "text": "cycle" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Transform berarti mengubah bentuk atau sifat sesuatu.",
+    "stepByStep": [
+      "Kalimat meminta kata kerja untuk mengubah bentuk.",
+      "Kata kerja yang tepat adalah transform.",
+      "Generate berarti menghasilkan, stage adalah tahap, dan cycle adalah siklus."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Generate berarti menghasilkan, bukan mengubah bentuk." },
+      { "optionId": "B", "reasonId": "Stage adalah tahap, bukan kata kerja mengubah." },
+      { "optionId": "D", "reasonId": "Cycle adalah siklus, bukan kata kerja mengubah." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Transform menggambarkan perubahan bentuk, sifat, atau fungsi sesuatu.",
+      "examples": [
+        { "en": "Heat can transform water into steam.", "id": "Panas dapat mengubah air menjadi uap." },
+        { "en": "The project transformed the old factory.", "id": "Proyek itu mengubah pabrik lama." }
+      ]
+    },
+    "examTrap": "Pilihan A generate terlihat dekat karena proses juga menghasilkan produk, tetapi kata yang diminta berarti mengubah bentuk."
+  },
+  {
+    "id": "W10-019",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word describes a repeating sequence that returns to its start?",
+    "options": [
+      { "id": "A", "text": "phase" },
+      { "id": "B", "text": "cycle" },
+      { "id": "C", "text": "procedure" },
+      { "id": "D", "text": "convert" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Cycle adalah siklus, yaitu urutan yang berulang dan kembali ke titik awal.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk urutan yang berulang dan kembali ke awal.",
+      "Urutan seperti itu disebut cycle.",
+      "Phase, procedure, dan convert tidak berarti urutan berulang."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Phase berarti fase, bukan urutan berulang." },
+      { "optionId": "C", "reasonId": "Procedure berarti tata cara, bukan urutan berulang." },
+      { "optionId": "D", "reasonId": "Convert berarti mengubah, bukan urutan berulang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Cycle menggambarkan proses yang kembali ke awal setelah tahap terakhir.",
+      "examples": [
+        { "en": "The water cycle repeats every year.", "id": "Siklus air berulang setiap tahun." },
+        { "en": "The cycle starts again after the final stage.", "id": "Siklusnya dimulai lagi setelah tahap terakhir." }
+      ]
+    },
+    "examTrap": "Pilihan A phase terlihat cocok karena proses memuat fase, tetapi phase tidak selalu kembali ke titik awal."
+  },
+  {
+    "id": "W10-020",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word means to produce something new?",
+    "options": [
+      { "id": "A", "text": "finally" },
+      { "id": "B", "text": "transform" },
+      { "id": "C", "text": "phase" },
+      { "id": "D", "text": "generate" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Generate berarti menghasilkan sesuatu yang baru, seperti listrik atau data.",
+    "stepByStep": [
+      "Kalimat meminta kata kerja untuk menghasilkan sesuatu yang baru.",
+      "Kata kerja yang tepat adalah generate.",
+      "Finally adalah kata keterangan, transform berarti mengubah bentuk, dan phase adalah fase."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Finally adalah kata keterangan urutan, bukan kata kerja menghasilkan." },
+      { "optionId": "B", "reasonId": "Transform berarti mengubah bentuk, bukan menghasilkan sesuatu yang baru." },
+      { "optionId": "C", "reasonId": "Phase adalah fase, bukan kata kerja menghasilkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Generate berarti menghasilkan sesuatu seperti energi, data, atau ide.",
+      "examples": [
+        { "en": "The plant generates clean power.", "id": "Pabrik itu menghasilkan listrik bersih." },
+        { "en": "The survey generated many ideas.", "id": "Survei itu menghasilkan banyak ide." }
+      ]
+    },
+    "examTrap": "Pilihan B transform terlihat cocok karena produk baru juga hasil perubahan, tetapi kata yang diminta berarti menghasilkan."
+  },
+  {
+    "id": "W10-021",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which expression is correct?",
+    "options": [
+      { "id": "A", "text": "The process has three stages." },
+      { "id": "B", "text": "The process have three stage." },
+      { "id": "C", "text": "The processes has three stage." },
+      { "id": "D", "text": "The process has three stage." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek process tunggal memakai has, dan three stages memakai bentuk jamak.",
+    "stepByStep": [
+      "Subjek process tunggal, sehingga memakai has.",
+      "Setelah angka tiga, kata benda memakai bentuk jamak stages.",
+      "Pilihan B memakai have, pilihan C memakai processes dengan has, dan pilihan D memakai stage tunggal setelah tiga."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Have tidak cocok dengan subjek tunggal process, dan stage harus jamak." },
+      { "optionId": "C", "reasonId": "Processes jamak tidak cocok dengan has untuk satu proses." },
+      { "optionId": "D", "reasonId": "Stage tunggal setelah tiga harus jamak." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah angka lebih dari satu, kata benda memakai bentuk jamak.",
+      "examples": [
+        { "en": "The process has two stages.", "id": "Proses itu punya dua tahap." },
+        { "en": "The project has four phases.", "id": "Proyek itu punya empat fase." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat hampir sama dengan pilihan benar, tetapi stage tunggal setelah angka tiga tidak tepat."
+  },
+  {
+    "id": "W10-022",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word means the last step in a process?",
+    "options": [
+      { "id": "A", "text": "subsequently" },
+      { "id": "B", "text": "procedure" },
+      { "id": "C", "text": "finally" },
+      { "id": "D", "text": "cycle" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Finally berarti akhirnya, dan dipakai untuk tahap terakhir dalam sebuah proses.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk tahap terakhir.",
+      "Kata keterangan untuk tahap terakhir adalah finally.",
+      "Subsequently berarti kemudian, procedure adalah tata cara, dan cycle adalah siklus."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Subsequently berarti kemudian, bukan tahap terakhir." },
+      { "optionId": "B", "reasonId": "Procedure berarti tata cara, bukan tahap terakhir." },
+      { "optionId": "D", "reasonId": "Cycle berarti siklus, bukan tahap terakhir." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Finally menandai langkah terakhir dalam urutan proses atau penjelasan.",
+      "examples": [
+        { "en": "Finally, the paper is packed.", "id": "Akhirnya, kertas itu dikemas." },
+        { "en": "Finally, the results were published.", "id": "Akhirnya, hasilnya dipublikasikan." }
+      ]
+    },
+    "examTrap": "Pilihan A subsequently terlihat cocok karena juga menunjukkan urutan, tetapi kata itu untuk langkah berikutnya, bukan langkah terakhir."
+  },
+  {
+    "id": "W10-023",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word refers to a set of steps to follow?",
+    "options": [
+      { "id": "A", "text": "phase" },
+      { "id": "B", "text": "procedure" },
+      { "id": "C", "text": "generate" },
+      { "id": "D", "text": "transform" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Procedure adalah tata cara atau serangkaian langkah yang harus diikuti.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk serangkaian langkah yang harus diikuti.",
+      "Tata cara seperti itu disebut procedure.",
+      "Phase, generate, dan transform tidak berarti serangkaian langkah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Phase berarti fase, bukan serangkaian langkah." },
+      { "optionId": "C", "reasonId": "Generate berarti menghasilkan, bukan serangkaian langkah." },
+      { "optionId": "D", "reasonId": "Transform berarti mengubah bentuk, bukan serangkaian langkah." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Procedure adalah cara resmi melakukan sesuatu langkah demi langkah.",
+      "examples": [
+        { "en": "Follow the safety procedure.", "id": "Ikuti prosedur keselamatan." },
+        { "en": "The procedure is simple and clear.", "id": "Prosedurnya sederhana dan jelas." }
+      ]
+    },
+    "examTrap": "Pilihan A phase terlihat dekat karena sama-sama bagian dari proses, tetapi phase adalah fase, bukan tata cara."
+  },
+  {
+    "id": "W10-024",
+    "week": 10,
+    "topicTag": "proses",
+    "type": "mcq",
+    "prompt": "Which word refers to a part of a larger process?",
+    "options": [
+      { "id": "A", "text": "cycle" },
+      { "id": "B", "text": "procedure" },
+      { "id": "C", "text": "finally" },
+      { "id": "D", "text": "stage" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Stage adalah tahap, yaitu bagian dari proses yang lebih besar.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk bagian dari proses yang lebih besar.",
+      "Bagian seperti itu disebut stage.",
+      "Cycle adalah siklus, procedure adalah tata cara, dan finally adalah kata keterangan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Cycle adalah siklus, bukan bagian dari proses." },
+      { "optionId": "B", "reasonId": "Procedure adalah tata cara, bukan bagian dari proses." },
+      { "optionId": "C", "reasonId": "Finally adalah kata keterangan, bukan bagian dari proses." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Stage menunjukkan tahap dalam proses yang berurutan.",
+      "examples": [
+        { "en": "The first stage is collection.", "id": "Tahap pertama adalah pengumpulan." },
+        { "en": "Each stage has a clear output.", "id": "Setiap tahap punya keluaran yang jelas." }
+      ]
+    },
+    "examTrap": "Pilihan A cycle terlihat cocok karena proses juga bisa berulang, tetapi kata yang diminta menunjukkan bagian dari proses."
+  },
+  {
+    "id": "W10-025",
+    "week": 10,
+    "topicTag": "peta",
+    "type": "mcq",
+    "prompt": "Which word describes the arrangement of buildings and roads on a map?",
+    "options": [
+      { "id": "A", "text": "layout" },
+      { "id": "B", "text": "trend" },
+      { "id": "C", "text": "slice" },
+      { "id": "D", "text": "outperform" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Layout adalah tata letak, yaitu susunan bangunan, jalan, dan ruang pada sebuah peta.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk susunan bangunan dan jalan.",
+      "Susunan seperti itu disebut layout.",
+      "Trend, slice, dan outperform tidak berarti susunan peta."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Trend berarti arah umum, bukan susunan peta." },
+      { "optionId": "C", "reasonId": "Slice adalah irisan pie chart, bukan susunan peta." },
+      { "optionId": "D", "reasonId": "Outperform berarti mengungguli, bukan susunan peta." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Layout menggambarkan tata letak elemen dalam sebuah area, seperti peta atau desain.",
+      "examples": [
+        { "en": "The layout of the town changed after 2010.", "id": "Tata letak kota berubah setelah 2010." },
+        { "en": "The map shows the original layout.", "id": "Peta itu menunjukkan tata letak aslinya." }
+      ]
+    },
+    "examTrap": "Pilihan B trend terlihat cocok karena peta juga menunjukkan perubahan, tetapi trend bukan susunan bangunan dan jalan."
+  },
+  {
+    "id": "W10-026",
+    "week": 10,
+    "topicTag": "peta",
+    "type": "mcq",
+    "prompt": "Which word means to tear down a building?",
+    "options": [
+      { "id": "A", "text": "construct" },
+      { "id": "B", "text": "relocate" },
+      { "id": "C", "text": "demolish" },
+      { "id": "D", "text": "surround" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Demolish berarti merobohkan atau meruntuhkan bangunan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk merobohkan bangunan.",
+      "Kata kerja yang tepat adalah demolish.",
+      "Construct berarti membangun, relocate berarti memindahkan, dan surround berarti mengelilingi."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Construct berarti membangun, kebalikan dari merobohkan." },
+      { "optionId": "B", "reasonId": "Relocate berarti memindahkan lokasi, bukan merobohkan." },
+      { "optionId": "D", "reasonId": "Surround berarti mengelilingi, bukan merobohkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Demolish dipakai untuk bangunan yang dirobohkan dengan sengaja.",
+      "examples": [
+        { "en": "The old stadium will be demolished.", "id": "Stadion lama itu akan dirobohkan." },
+        { "en": "They demolished the wall.", "id": "Mereka merobohkan dinding itu." }
+      ]
+    },
+    "examTrap": "Pilihan A construct terlihat cocok karena topiknya pembangunan, tetapi construct berarti membangun, bukan merobohkan."
+  },
+  {
+    "id": "W10-027",
+    "week": 10,
+    "topicTag": "peta",
+    "type": "mcq",
+    "prompt": "Which word means to move a business to another place?",
+    "options": [
+      { "id": "A", "text": "construct" },
+      { "id": "B", "text": "relocate" },
+      { "id": "C", "text": "map" },
+      { "id": "D", "text": "north" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Relocate berarti memindahkan lokasi usaha atau bangunan ke tempat lain.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk memindahkan usaha ke tempat lain.",
+      "Kata kerja yang tepat adalah relocate.",
+      "Construct berarti membangun, map adalah peta, dan north adalah arah utara."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Construct berarti membangun, bukan memindahkan." },
+      { "optionId": "C", "reasonId": "Map adalah peta, bukan kata kerja memindahkan." },
+      { "optionId": "D", "reasonId": "North adalah arah utara, bukan kata kerja memindahkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Relocate dipakai untuk usaha, sekolah, atau bangunan yang pindah lokasi.",
+      "examples": [
+        { "en": "The shop will relocate next year.", "id": "Toko itu akan pindah tahun depan." },
+        { "en": "The school relocated to a larger building.", "id": "Sekolah itu pindah ke gedung yang lebih besar." }
+      ]
+    },
+    "examTrap": "Pilihan A construct terlihat cocok karena pindah lokasi sering disertai pembangunan, tetapi construct berarti membangun."
+  },
+  {
+    "id": "W10-028",
+    "week": 10,
+    "topicTag": "peta",
+    "type": "mcq",
+    "prompt": "Which word means the area close to something?",
+    "options": [
+      { "id": "A", "text": "residential" },
+      { "id": "B", "text": "original" },
+      { "id": "C", "text": "layout" },
+      { "id": "D", "text": "surrounding" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Surrounding berarti sekitar, yaitu area di dekat sesuatu.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk area di sekitar sesuatu.",
+      "Kata sifat untuk sekitar adalah surrounding.",
+      "Residential berarti perumahan, original berarti asli, dan layout berarti tata letak."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Residential berarti perumahan, bukan area sekitar." },
+      { "optionId": "B", "reasonId": "Original berarti asli, bukan area sekitar." },
+      { "optionId": "C", "reasonId": "Layout berarti tata letak, bukan area sekitar." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Surrounding dipakai untuk area atau hal yang berada di sekeliling sesuatu.",
+      "examples": [
+        { "en": "The surrounding streets are quiet.", "id": "Jalan-jalan di sekitarnya sepi." },
+        { "en": "The park and its surrounding area were redeveloped.", "id": "Taman dan area sekitarnya dibangun ulang." }
+      ]
+    },
+    "examTrap": "Pilihan A residential terlihat cocok karena peta sering menunjukkan kawasan tinggal, tetapi kata itu berarti perumahan, bukan area sekitar."
+  },
+  {
+    "id": "W10-029",
+    "week": 10,
+    "topicTag": "peta",
+    "type": "mcq",
+    "prompt": "Which sentence correctly describes a change to the centre?",
+    "options": [
+      { "id": "A", "text": "The centre was redeveloped in 2019." },
+      { "id": "B", "text": "The centre redevelop in 2019." },
+      { "id": "C", "text": "The centres was redeveloped in 2019." },
+      { "id": "D", "text": "The centre were redeveloped in 2019." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Pasif was redeveloped dengan subjek tunggal centre dan keterangan tahun lampau sudah tepat.",
+    "stepByStep": [
+      "Subjek centre tunggal, sehingga memakai was.",
+      "Perubahan yang sudah terjadi memakai bentuk pasif redeveloped.",
+      "Pilihan B tidak memakai bentuk lampau, pilihan C memakai centres dengan was, dan pilihan D memakai were untuk subjek tunggal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Redevelop tanpa bentuk lampau tidak cocok dengan kejadian tahun 2019." },
+      { "optionId": "C", "reasonId": "Centres jamak tidak cocok dengan was untuk satu pusat." },
+      { "optionId": "D", "reasonId": "Were tidak cocok dengan subjek tunggal centre." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Perubahan yang sudah selesai dalam masa lampau memakai was atau were dan V3.",
+      "examples": [
+        { "en": "The park was redeveloped in 2018.", "id": "Taman itu dibangun ulang pada 2018." },
+        { "en": "The building was demolished last year.", "id": "Bangunan itu dirobohkan tahun lalu." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena kata redevelop muncul, tetapi kalimat dengan 2019 memerlukan bentuk pasif lampau."
+  },
+  {
+    "id": "W10-030",
+    "week": 10,
+    "topicTag": "gambaran-umum",
+    "type": "mcq",
+    "prompt": "Which word introduces the general pattern of a chart in an overview?",
+    "options": [
+      { "id": "A", "text": "significant" },
+      { "id": "B", "text": "slight" },
+      { "id": "C", "text": "overall" },
+      { "id": "D", "text": "prominent" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Overall adalah pembuka yang menyatakan gambaran umum atau pola keseluruhan.",
+    "stepByStep": [
+      "Overview membutuhkan pembuka untuk pola umum.",
+      "Pembuka yang menyatakan keseluruhan adalah overall.",
+      "Significant dan prominent adalah kata sifat, dan slight berarti kecil."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Significant adalah kata sifat yang berarti besar, bukan pembuka pola umum." },
+      { "optionId": "B", "reasonId": "Slight berarti kecil, bukan pembuka pola umum." },
+      { "optionId": "D", "reasonId": "Prominent adalah kata sifat yang berarti menonjol, bukan pembuka pola umum." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Overall dipakai di awal paragraf overview untuk menyebut pola umum.",
+      "examples": [
+        { "en": "Overall, the numbers rose.", "id": "Secara keseluruhan, angkanya naik." },
+        { "en": "Overall, the chart shows a clear trend.", "id": "Secara keseluruhan, grafik itu menunjukkan tren yang jelas." }
+      ]
+    },
+    "examTrap": "Pilihan D prominent terlihat cocok karena overview sering menyebut titik yang menonjol, tetapi kata itu tidak membuka pola umum."
+  }
+]

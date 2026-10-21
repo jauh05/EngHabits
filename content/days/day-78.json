@@ -1,0 +1,617 @@
+{
+  "day": 78,
+  "week": 11,
+  "month": 3,
+  "title": "Writing Task 2: Advantages dan Disadvantages",
+  "topic": "Menimbang kelebihan dan kekurangan dengan kata yang tepat",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menyebut kelebihan dan kekurangan dengan kata yang sesuai",
+    "Membedakan risiko, bahaya, dan akibat",
+    "Menjelaskan pertukaran antara dua pilihan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "advantage", "pronunciationId": "ad-VAN-tij (tekanan di VAN)", "pos": "Noun", "meaningId": "keunggulan, kelebihan", "example": "The main advantage is speed.", "exampleId": "Keunggulan utamanya adalah kecepatan." },
+      { "no": 2, "en": "disadvantage", "pronunciationId": "dis-ad-VAN-tij (tekanan di VAN)", "pos": "Noun", "meaningId": "kekurangan, kerugian", "example": "The disadvantage is the cost.", "exampleId": "Kekurangannya adalah biayanya." },
+      { "no": 3, "en": "benefit", "pronunciationId": "BEN-i-fit (tekanan di BEN)", "pos": "Noun", "meaningId": "manfaat", "example": "The benefit is clear.", "exampleId": "Manfaatnya jelas." },
+      { "no": 4, "en": "risk", "pronunciationId": "RISK (i pendek, sk jelas)", "pos": "Noun", "meaningId": "risiko", "example": "There is a risk of delay.", "exampleId": "Ada risiko keterlambatan." },
+      { "no": 5, "en": "hazard", "pronunciationId": "HAZ-urd (tekanan di HAZ)", "pos": "Noun", "meaningId": "bahaya", "example": "The road is a hazard in rain.", "exampleId": "Jalan itu berbahaya saat hujan." },
+      { "no": 6, "en": "downside", "pronunciationId": "DOWN-said (tekanan di DOWN)", "pos": "Noun", "meaningId": "sisi negatif", "example": "The downside is the price.", "exampleId": "Sisi negatifnya adalah harga." },
+      { "no": 7, "en": "upside", "pronunciationId": "UP-said (tekanan di UP)", "pos": "Noun", "meaningId": "sisi positif", "example": "The upside is the saving.", "exampleId": "Sisi positifnya adalah penghematan." },
+      { "no": 8, "en": "trade-off", "pronunciationId": "TRAYD-of (tekanan di TRAYD)", "pos": "Noun", "meaningId": "pertukaran, tawar-menawar", "example": "There is a trade-off between cost and quality.", "exampleId": "Ada pertukaran antara biaya dan kualitas." },
+      { "no": 9, "en": "consequence", "pronunciationId": "KON-si-kwens (tekanan di KON)", "pos": "Noun", "meaningId": "akibat, konsekuensi", "example": "The consequence was a delay.", "exampleId": "Akibatnya adalah keterlambatan." },
+      { "no": 10, "en": "impact", "pronunciationId": "IM-pakt (tekanan di IM)", "pos": "Noun", "meaningId": "dampak", "example": "The impact was large.", "exampleId": "Dampaknya besar." }
+    ],
+    "tip": "Gunakan advantage dan disadvantage untuk perbandingan formal. Gunakan upside dan downside untuk sisi positif dan negatif yang lebih santai."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS writing task 2 advantages disadvantages", "IELTS advantages and disadvantages essay"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang esai advantages and disadvantages, dengan contoh kelebihan, kekurangan, dan pertukaran antarpilihan.",
+      "watchFor": [
+        "Kelebihan dan kekurangan yang dipisahkan jelas",
+        "Risiko dan akibat yang tidak sama",
+        "Pertukaran antara dua pilihan"
+      ]
+    },
+    "lesson": {
+      "intro": "Esai advantages and disadvantages menimbang sisi positif dan negatif sebuah pilihan. Kamu perlu menyebut kelebihan dan kekurangan dengan kata yang tepat, lalu menjelaskan pertukaran di antara keduanya.",
+      "sections": [
+        {
+          "heading": "Kelebihan dan kekurangan",
+          "bodyMd": "Gunakan **advantage** dan **disadvantage** untuk perbandingan formal. Sebut **benefit** untuk manfaat yang nyata. Sisi positif dan negatif yang lebih santai bisa memakai **upside** dan **downside**."
+        },
+        {
+          "heading": "Risiko, bahaya, dan akibat",
+          "bodyMd": "**Risk** adalah kemungkinan buruk. **Hazard** adalah sumber bahaya yang nyata. **Consequence** adalah akibat dari suatu tindakan. **Impact** adalah dampak yang lebih luas."
+        },
+        {
+          "heading": "Pertukaran",
+          "bodyMd": "Jika kelebihan satu pilihan datang bersama kekurangannya, sebut ada **trade-off**. Pertukaran yang jelas membuat esaimu lebih seimbang."
+        }
+      ],
+      "formulas": [
+        { "label": "Kelebihan", "pattern": "The main advantage of X is Y" },
+        { "label": "Kekurangan", "pattern": "The main disadvantage of X is Y" },
+        { "label": "Risiko", "pattern": "There is a risk / hazard of X" },
+        { "label": "Pertukaran", "pattern": "There is a trade-off between X and Y" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The main advantage of online study is flexibility.", "id": "Kelebihan utama belajar daring adalah fleksibilitas." },
+          { "en": "The disadvantage is the high cost of the device.", "id": "Kekurangannya adalah biaya perangkat yang tinggi." },
+          { "en": "There is a risk of delay in the first month.", "id": "Ada risiko keterlambatan pada bulan pertama." },
+          { "en": "The main consequence is less face-to-face feedback.", "id": "Akibat utamanya adalah umpan balik tatap muka yang berkurang." },
+          { "en": "There is a trade-off between speed and accuracy.", "id": "Ada pertukaran antara kecepatan dan ketelitian." }
+        ],
+        "negative": [
+          { "en": "The plan does not have a clear downside.", "id": "Rencana itu tidak punya sisi negatif yang jelas." },
+          { "en": "This road is not a serious hazard in summer.", "id": "Jalan ini bukan bahaya serius pada musim panas." },
+          { "en": "The impact of the policy is not yet known.", "id": "Dampak kebijakan itu belum diketahui." },
+          { "en": "The benefit does not outweigh the cost.", "id": "Manfaatnya tidak lebih besar daripada biayanya." },
+          { "en": "The upside is not always visible at first.", "id": "Sisi positifnya tidak selalu terlihat pada awalnya." }
+        ],
+        "question": [
+          { "en": "What is the main advantage?", "id": "Apa kelebihan utamanya?" },
+          { "en": "What is the main disadvantage?", "id": "Apa kekurangan utamanya?" },
+          { "en": "What is the biggest risk?", "id": "Apa risiko terbesarnya?" },
+          { "en": "What is the consequence of the change?", "id": "Apa akibat dari perubahan itu?" },
+          { "en": "Is there a trade-off in this choice?", "id": "Apakah ada pertukaran dalam pilihan ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The advantage of the plan are speed.", "right": "The advantage of the plan is speed.", "whyId": "Advantage adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The disadvantages is the cost.", "right": "The disadvantage is the cost.", "whyId": "Dalam kalimat ini hanya satu kekurangan, jadi bentuk tunggal disadvantage." },
+        { "wrong": "There is a risk of accident in rain.", "right": "There is a risk of accidents in rain.", "whyId": "Accidents jamak setelah risk of, karena banyak kejadian." },
+        { "wrong": "The consequence are serious for families.", "right": "The consequence is serious for families.", "whyId": "Consequence adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "There is a trade-off between speed and accurate.", "right": "There is a trade-off between speed and accuracy.", "whyId": "Setelah between, pakai kata benda accuracy." },
+        { "wrong": "The impact of the policy were large.", "right": "The impact of the policy was large.", "whyId": "Impact tunggal memakai was." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["IELTS writing task 2 advantages disadvantages", "tutor discusses online learning English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kelebihan dan kekurangan belajar daring",
+        "Penjelasan tentang risiko dan dampak"
+      ]
+    },
+    "script": {
+      "title": "Belajar daring: sisi positif dan negatif",
+      "lines": [
+        { "speaker": "Tutor", "text": "Let's consider online learning. What is the main advantage?" },
+        { "speaker": "Student", "text": "Flexibility. Students can study at any time, which is a clear benefit for working adults." },
+        { "speaker": "Tutor", "text": "And the disadvantage?" },
+        { "speaker": "Student", "text": "Some students feel isolated. That is the downside, and it can affect motivation." },
+        { "speaker": "Tutor", "text": "Good. What about the risk of cheating?" },
+        { "speaker": "Student", "text": "That is a risk, though I would not call it a hazard. The biggest consequence is weaker feedback from teachers." },
+        { "speaker": "Tutor", "text": "What is the impact on exam results?" },
+        { "speaker": "Student", "text": "The impact is still debated. The upside is that students keep learning even during a flood or an illness." },
+        { "speaker": "Tutor", "text": "So there is a trade-off between flexibility and direct support." },
+        { "speaker": "Student", "text": "Yes. I will write both sides in my essay." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada advantage, tekanan ada di suku kedua: ad-VAN-tij.",
+      "Pada consequence, tekanan ada di suku pertama: KON-si-kwens.",
+      "Pada trade-off, tekanan ada di suku pertama: TRAYD-of."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is the main advantage of online learning, according to the student?",
+        "options": [
+          { "id": "A", "text": "flexibility" },
+          { "id": "B", "text": "lower prices" },
+          { "id": "C", "text": "more homework" },
+          { "id": "D", "text": "fewer teachers" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mahasiswa berkata kelebihannya adalah fleksibilitas, karena siswa bisa belajar kapan saja.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Harga yang lebih rendah tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Pekerjaan rumah yang lebih banyak tidak disebut sebagai kelebihan." },
+          { "optionId": "D", "reasonId": "Jumlah guru yang lebih sedikit tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Flexibility"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the downside the student mentions?",
+        "options": [
+          { "id": "A", "text": "the classes are too short" },
+          { "id": "B", "text": "the fees are high" },
+          { "id": "C", "text": "students feel isolated" },
+          { "id": "D", "text": "the teachers are absent" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Mahasiswa berkata 'Some students feel isolated. That is the downside', artinya sebagian siswa merasa terisolasi.",
+        "stepByStep": [
+          "Cari downside di naskah mahasiswa.",
+          "Mahasiswa menyebut siswa merasa terisolasi sebagai sisi negatif.",
+          "Kelas yang pendek, biaya yang tinggi, dan guru yang absen tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Durasi kelas tidak disebut sebagai sisi negatif." },
+          { "optionId": "B", "reasonId": "Biaya yang tinggi tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Guru yang absen tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Some students feel isolated"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Which word does the student use for cheating?",
+        "options": [
+          { "id": "A", "text": "a hazard" },
+          { "id": "B", "text": "a risk" },
+          { "id": "C", "text": "a benefit" },
+          { "id": "D", "text": "an upside" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mahasiswa berkata 'That is a risk, though I would not call it a hazard', artinya ia menyebut kecurangan sebagai risiko.",
+        "stepByStep": [
+          "Cari cheating di naskah mahasiswa.",
+          "Mahasiswa menyebutnya a risk, dan menolak menyebutnya a hazard.",
+          "Benefit dan upside tidak sesuai dengan kecurangan sebagai sesuatu yang negatif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mahasiswa menolak menyebut kecurangan sebagai hazard." },
+          { "optionId": "C", "reasonId": "Kecurangan bukan manfaat." },
+          { "optionId": "D", "reasonId": "Kecurangan bukan sisi positif." }
+        ],
+        "evidence": "That is a risk, though I would not call it a hazard"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the student say about the impact on exam results?",
+        "options": [
+          { "id": "A", "text": "it is clearly positive" },
+          { "id": "B", "text": "it is still debated" },
+          { "id": "C", "text": "it is not mentioned" },
+          { "id": "D", "text": "it is clearly negative" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mahasiswa berkata 'The impact is still debated', artinya dampaknya masih diperdebatkan.",
+        "stepByStep": [
+          "Cari impact di naskah mahasiswa.",
+          "Mahasiswa menyebut dampaknya masih diperdebatkan.",
+          "Positif jelas, negatif jelas, dan tidak disebut tidak sesuai dengan kalimat itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mahasiswa tidak menyebut dampaknya jelas positif." },
+          { "optionId": "C", "reasonId": "Dampak disebut secara langsung dalam percakapan." },
+          { "optionId": "D", "reasonId": "Mahasiswa tidak menyebut dampaknya jelas negatif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Still debated berarti hasilnya belum disepakati dan masih menjadi perdebatan.",
+          "examples": [
+            { "en": "The effect is still debated among experts.", "id": "Dampaknya masih diperdebatkan di antara para ahli." },
+            { "en": "The cause remains debated.", "id": "Penyebabnya masih diperdebatkan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena mahasiswa menyebut upside, tetapi dampak pada nilai ujian tetap diperdebatkan.",
+        "evidence": "The impact is still debated"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the tutor say about flexibility and direct support?",
+        "options": [
+          { "id": "A", "text": "they are always equal" },
+          { "id": "B", "text": "they are the same thing" },
+          { "id": "C", "text": "there is a trade-off between them" },
+          { "id": "D", "text": "only flexibility matters" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'there is a trade-off between flexibility and direct support', artinya keduanya saling mengimbangi.",
+        "stepByStep": [
+          "Cari trade-off di naskah tutor.",
+          "Tutor menyebut ada pertukaran antara fleksibilitas dan dukungan langsung.",
+          "Selalu setara, sama saja, dan hanya fleksibilitas yang penting tidak sesuai dengan kalimat itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tutor menyebut ada pertukaran, bukan kesetaraan." },
+          { "optionId": "B", "reasonId": "Tutor membedakan fleksibilitas dan dukungan langsung." },
+          { "optionId": "D", "reasonId": "Tutor tidak menyebut hanya fleksibilitas yang penting." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Trade-off berarti memperoleh satu hal dengan mengorbankan hal lain.",
+          "examples": [
+            { "en": "There is a trade-off between cost and quality.", "id": "Ada pertukaran antara biaya dan kualitas." },
+            { "en": "Speed often involves a trade-off with accuracy.", "id": "Kecepatan sering melibatkan pertukaran dengan ketelitian." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kesimpulan yang aman, tetapi tutor menyebut pertukaran, yang berarti keduanya tidak selalu seimbang.",
+        "evidence": "there is a trade-off between flexibility and direct support"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The main ___ of the new road is faster travel for everyone.",
+        "options": [
+          { "id": "A", "text": "advantage" },
+          { "id": "B", "text": "garden" },
+          { "id": "C", "text": "bridge" },
+          { "id": "D", "text": "ticket" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Advantage adalah kelebihan atau keunggulan dari sesuatu.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Garden berarti taman, bukan kelebihan." },
+          { "optionId": "C", "reasonId": "Bridge berarti jembatan, bukan kelebihan." },
+          { "optionId": "D", "reasonId": "Ticket berarti tiket, bukan kelebihan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The ___ of the plan is that it costs a lot of money.",
+        "options": [
+          { "id": "A", "text": "upside" },
+          { "id": "B", "text": "downside" },
+          { "id": "C", "text": "impact" },
+          { "id": "D", "text": "benefit" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Downside adalah sisi negatif, dan kalimat ini menyebut biaya yang besar sebagai kerugian.",
+        "stepByStep": [
+          "Kalimat menyebut biaya besar sebagai sisi negatif.",
+          "Sisi negatif yang santai disebut downside.",
+          "Upside dan benefit adalah sisi positif, dan impact adalah dampak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Upside adalah sisi positif, bertentangan dengan biaya yang besar." },
+          { "optionId": "C", "reasonId": "Impact adalah dampak, bukan sisi negatif yang spesifik." },
+          { "optionId": "D", "reasonId": "Benefit adalah manfaat, bertentangan dengan kalimat ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The new policy had a big ___ on local shops.",
+        "options": [
+          { "id": "A", "text": "trade-off" },
+          { "id": "B", "text": "garden" },
+          { "id": "C", "text": "impact" },
+          { "id": "D", "text": "bridge" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Impact adalah dampak yang ditimbulkan suatu kebijakan terhadap pihak lain.",
+        "stepByStep": [
+          "Kalimat menyebut dampak kebijakan pada toko lokal.",
+          "Dampak yang ditimbulkan disebut impact.",
+          "Trade-off, garden, dan bridge tidak berarti dampak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Trade-off berarti pertukaran, bukan dampak langsung." },
+          { "optionId": "B", "reasonId": "Garden berarti taman, bukan dampak." },
+          { "optionId": "D", "reasonId": "Bridge berarti jembatan, bukan dampak." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Working at night carries a serious ___ to health.",
+        "options": [
+          { "id": "A", "text": "benefit" },
+          { "id": "B", "text": "upside" },
+          { "id": "C", "text": "garden" },
+          { "id": "D", "text": "hazard" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Hazard adalah sumber bahaya yang nyata, dan kalimat ini menyebut bahaya bagi kesehatan.",
+        "stepByStep": [
+          "Kalimat menyebut bahaya bagi kesehatan.",
+          "Sumber bahaya yang nyata disebut hazard.",
+          "Benefit dan upside adalah sisi positif, dan garden tidak berarti bahaya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Benefit adalah manfaat, bukan bahaya." },
+          { "optionId": "B", "reasonId": "Upside adalah sisi positif, bukan bahaya." },
+          { "optionId": "C", "reasonId": "Garden berarti taman, bukan bahaya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Hazard adalah sesuatu yang dapat menyebabkan bahaya langsung, sering dipakai untuk kesehatan dan keselamatan.",
+          "examples": [
+            { "en": "Chemicals are a hazard in the lab.", "id": "Bahan kimia adalah bahaya di laboratorium." },
+            { "en": "The icy road is a serious hazard.", "id": "Jalan yang berlapis es adalah bahaya serius." }
+          ]
+        },
+        "examTrap": "Pilihan B upside terlihat dekat karena sama-sama sisi dari sesuatu, tetapi upside adalah sisi positif, bukan bahaya."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Every decision involves a ___ between cost and quality.",
+        "options": [
+          { "id": "A", "text": "consequence" },
+          { "id": "B", "text": "disadvantage" },
+          { "id": "C", "text": "trade-off" },
+          { "id": "D", "text": "upside" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Trade-off adalah pertukaran antara dua hal yang saling mengorbankan.",
+        "stepByStep": [
+          "Kalimat menyebut pertukaran antara biaya dan kualitas.",
+          "Pertukaran yang saling mengorbankan disebut trade-off.",
+          "Consequence adalah akibat, disadvantage adalah kekurangan, dan upside adalah sisi positif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Consequence adalah akibat, bukan pertukaran." },
+          { "optionId": "B", "reasonId": "Disadvantage adalah kekurangan, bukan pertukaran dua hal." },
+          { "optionId": "D", "reasonId": "Upside adalah sisi positif, bukan pertukaran dua hal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Trade-off dipakai saat mendapatkan satu hal berarti mengorbankan hal lain.",
+          "examples": [
+            { "en": "There is a trade-off between speed and safety.", "id": "Ada pertukaran antara kecepatan dan keselamatan." },
+            { "en": "Every plan has a trade-off.", "id": "Setiap rencana punya pertukaran." }
+          ]
+        },
+        "examTrap": "Pilihan B disadvantage terlihat cocok karena membahas kerugian, tetapi kalimat ini meminta pertukaran antara dua hal."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kelebihan utama rencana ini adalah fleksibilitas.",
+        "hint": "Kelebihan utama: the main advantage. Rencana ini: of this plan. Fleksibilitas: flexibility.",
+        "acceptedAnswers": ["The main advantage of this plan is flexibility.", "The main advantage of this plan is its flexibility."],
+        "modelAnswer": "The main advantage of this plan is flexibility.",
+        "commonErrors": [{ "pattern": "The main advantage of this plan are flexibility", "feedbackId": "Advantage adalah kata benda tunggal, jadi memakai is." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kekurangannya adalah biaya yang tinggi.",
+        "hint": "Kekurangannya: the disadvantage. Adalah: is. Biaya yang tinggi: the high cost.",
+        "acceptedAnswers": ["The disadvantage is the high cost.", "The main disadvantage is the high cost."],
+        "modelAnswer": "The disadvantage is the high cost.",
+        "commonErrors": [{ "pattern": "The disadvantages is the high cost", "feedbackId": "Dalam kalimat ini hanya satu kekurangan, jadi memakai disadvantage tunggal." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Risiko kecelakaan tetap ada meskipun ada peraturan baru.",
+        "hint": "Risiko kecelakaan: the risk of accidents. Tetap ada: remains. Meskipun: even with. Peraturan baru: the new rules.",
+        "acceptedAnswers": ["The risk of accidents remains even with the new rules.", "The risk of accidents remains even with the new regulations."],
+        "modelAnswer": "The risk of accidents remains even with the new rules.",
+        "commonErrors": [{ "pattern": "The risk of accident remain even with new rules", "feedbackId": "Gunakan accidents jamak, dan subjek risk tunggal memakai remains." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Akibat dari keputusan itu belum dapat diperkirakan.",
+        "hint": "Akibat: the consequences. Dari keputusan itu: of that decision. Belum dapat diperkirakan: cannot yet be estimated.",
+        "acceptedAnswers": ["The consequences of that decision cannot yet be estimated.", "The consequence of that decision cannot yet be estimated."],
+        "modelAnswer": "The consequences of that decision cannot yet be estimated.",
+        "commonErrors": [{ "pattern": "The consequences of that decision can not yet estimated", "feedbackId": "Setelah cannot be, pakai bentuk V3 estimated." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Ada pertukaran antara kecepatan dan ketelitian dalam setiap pilihan.",
+        "hint": "Ada pertukaran: there is a trade-off. Antara kecepatan dan ketelitian: between speed and accuracy. Dalam setiap pilihan: in every choice.",
+        "acceptedAnswers": ["There is a trade-off between speed and accuracy in every choice.", "There is a trade-off between speed and accuracy in each choice."],
+        "modelAnswer": "There is a trade-off between speed and accuracy in every choice.",
+        "commonErrors": [{ "pattern": "There are a trade-off between speed and accurate in every choices", "feedbackId": "Gunakan there is untuk satu trade-off, accuracy kata benda, dan every choice tunggal." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a positive side of something'?",
+        "options": [
+          { "id": "A", "text": "downside" },
+          { "id": "B", "text": "upside" },
+          { "id": "C", "text": "hazard" },
+          { "id": "D", "text": "consequence" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Upside adalah sisi positif dari sesuatu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk sisi positif.",
+          "Sisi positif yang santai disebut upside.",
+          "Downside adalah sisi negatif, hazard adalah bahaya, dan consequence adalah akibat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Downside adalah sisi negatif, kebalikan dari upside." },
+          { "optionId": "C", "reasonId": "Hazard adalah bahaya, bukan sisi positif." },
+          { "optionId": "D", "reasonId": "Consequence adalah akibat, bukan sisi positif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Upside dan downside dipakai sebagai pasangan untuk sisi positif dan negatif.",
+          "examples": [
+            { "en": "The upside is the lower price.", "id": "Sisi positifnya adalah harga yang lebih rendah." },
+            { "en": "The downside is the longer wait.", "id": "Sisi negatifnya adalah waktu tunggu yang lebih lama." }
+          ]
+        },
+        "examTrap": "Pilihan A downside terlihat cocok karena pasangannya, tetapi downside adalah sisi negatif, bukan positif."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'benefit'?",
+        "options": [
+          { "id": "A", "text": "The benefits is clear for the team." },
+          { "id": "B", "text": "Benefit the clear is for team." },
+          { "id": "C", "text": "The benefit are clear for the team." },
+          { "id": "D", "text": "The benefit of the plan is clear." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek the benefit of the plan tunggal memakai is, dan urutan kata sudah benar.",
+        "stepByStep": [
+          "Subjek the benefit tunggal, sehingga memakai is.",
+          "Frasa of the plan menjelaskan manfaat dari rencana.",
+          "Pilihan A memakai benefits dengan is, pilihan B dan C memiliki urutan atau bentuk yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Benefits jamak tidak cocok dengan is untuk satu manfaat." },
+          { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini salah." },
+          { "optionId": "C", "reasonId": "Are tidak cocok dengan subjek tunggal benefit." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan frasa of the menjelaskan asal manfaat.",
+          "examples": [
+            { "en": "The benefit of exercise is clear.", "id": "Manfaat olahraga itu jelas." },
+            { "en": "The benefit for families was large.", "id": "Manfaat bagi keluarga itu besar." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak manfaat dibicarakan jamak, tetapi kalimat ini menyebut satu manfaat."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'the result of an action or decision'?",
+        "options": [
+          { "id": "A", "text": "consequence" },
+          { "id": "B", "text": "hazard" },
+          { "id": "C", "text": "upside" },
+          { "id": "D", "text": "trade-off" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Consequence adalah akibat yang muncul dari suatu tindakan atau keputusan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk hasil dari sebuah tindakan.",
+          "Hasil yang muncul dari tindakan disebut consequence.",
+          "Hazard adalah bahaya, upside adalah sisi positif, dan trade-off adalah pertukaran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Hazard adalah bahaya, bukan hasil tindakan." },
+          { "optionId": "C", "reasonId": "Upside adalah sisi positif, bukan hasil tindakan." },
+          { "optionId": "D", "reasonId": "Trade-off adalah pertukaran, bukan hasil tindakan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Consequence adalah akibat dari suatu tindakan, sering dipakai dengan of atau for.",
+          "examples": [
+            { "en": "The consequence of the delay was a fine.", "id": "Akibat keterlambatan itu adalah denda." },
+            { "en": "Every choice has consequences for families.", "id": "Setiap pilihan punya akibat bagi keluarga." }
+          ]
+        },
+        "examTrap": "Pilihan D trade-off terlihat cocok karena pilihan sering punya akibat, tetapi trade-off berarti pertukaran."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Each choice has a ___, so we must weigh the pros and cons.'",
+        "options": [
+          { "id": "A", "text": "hazard" },
+          { "id": "B", "text": "benefit" },
+          { "id": "C", "text": "trade-off" },
+          { "id": "D", "text": "upside" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Trade-off berarti pertukaran, dan kalimat ini meminta menimbang pro dan kontra dari setiap pilihan.",
+        "stepByStep": [
+          "Kalimat meminta menimbang pro dan kontra.",
+          "Pertukaran antara pro dan kontra disebut trade-off.",
+          "Hazard, benefit, dan upside hanya menyebut satu sisi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Hazard hanya menyebut bahaya, bukan pertukaran." },
+          { "optionId": "B", "reasonId": "Benefit hanya menyebut manfaat, bukan pertukaran." },
+          { "optionId": "D", "reasonId": "Upside hanya menyebut sisi positif, bukan pertukaran." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Trade-off mencakup dua sisi yang saling mengorbankan, sehingga cocok dengan pro dan kontra.",
+          "examples": [
+            { "en": "Every option involves a trade-off.", "id": "Setiap pilihan melibatkan pertukaran." },
+            { "en": "The trade-off between price and quality is clear.", "id": "Pertukaran antara harga dan kualitas itu jelas." }
+          ]
+        },
+        "examTrap": "Pilihan D upside terlihat cocok karena pro sering disebut lebih dulu, tetapi kalimat ini meminta kata untuk dua sisi sekaligus."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The risk are high in winter." },
+          { "id": "B", "text": "The risk is high in winter." },
+          { "id": "C", "text": "The risks is high in winter." },
+          { "id": "D", "text": "The risk were high in winter." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Risk adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Risk adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa high in winter menjelaskan tingkat risikonya.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, dan pilihan C memakai risks dengan is."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal risk." },
+          { "optionId": "C", "reasonId": "Risks jamak tidak cocok dengan is untuk satu risiko." },
+          { "optionId": "D", "reasonId": "Were tidak cocok dengan subjek tunggal risk." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Risk adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            { "en": "The risk was small last year.", "id": "Risikonya kecil tahun lalu." },
+            { "en": "This risk is serious for drivers.", "id": "Risiko ini serius bagi pengemudi." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena risiko sering dibicarakan jamak, tetapi kalimat ini memakai subjek tunggal risk."
+      }
+    ]
+  }
+}

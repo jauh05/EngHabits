@@ -1,0 +1,597 @@
+{
+  "day": 90,
+  "week": 12,
+  "month": 3,
+  "title": "Rencana Aksi Akhir",
+  "topic": "Menyusun rencana belajar lanjutan setelah program selesai",
+  "skillFocus": "exam",
+  "objectives": [
+    "Menyusun komitmen dan prioritas belajar setelah program selesai",
+    "Membuat ritme tinjauan mingguan agar kebiasaan tetap berjalan",
+    "Menggunakan kosakata rencana aksi dengan tepat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "commitment", "pronunciationId": "kuh-MIT-muhnt (tekanan di MIT)", "pos": "Noun", "meaningId": "komitmen, janji pada diri sendiri", "example": "My commitment is to study every morning.", "exampleId": "Komitmen saya adalah belajar setiap pagi." },
+      { "no": 2, "en": "discipline", "pronunciationId": "DIS-uh-plin (tekanan di DIS)", "pos": "Noun", "meaningId": "disiplin", "example": "Discipline keeps the habit alive.", "exampleId": "Disiplin menjaga kebiasaan tetap hidup." },
+      { "no": 3, "en": "priority", "pronunciationId": "prahy-OR-i-tee (tekanan di OR)", "pos": "Noun", "meaningId": "prioritas", "example": "Speaking is my top priority.", "exampleId": "Berbicara adalah prioritas utama saya." },
+      { "no": 4, "en": "sustain", "pronunciationId": "suh-STEYN (tekanan di STEYN)", "pos": "Verb", "meaningId": "mempertahankan, menjaga agar tetap berjalan", "example": "I want to sustain my progress.", "exampleId": "Saya ingin mempertahankan kemajuan saya." },
+      { "no": 5, "en": "checkpoint", "pronunciationId": "CHEK-point (tekanan di CHEK)", "pos": "Noun", "meaningId": "titik pemeriksaan kemajuan", "example": "Each week is a checkpoint.", "exampleId": "Setiap minggu adalah titik pemeriksaan." },
+      { "no": 6, "en": "reminder", "pronunciationId": "ri-MAHYN-dur (tekanan di MAHYN)", "pos": "Noun", "meaningId": "pengingat", "example": "A short reminder helps me focus.", "exampleId": "Pengingat singkat membantu saya fokus." },
+      { "no": 7, "en": "accountable", "pronunciationId": "uh-KOUN-tuh-buhl (tekanan di KOUN)", "pos": "Adj", "meaningId": "bertanggung jawab", "example": "I feel accountable to my study group.", "exampleId": "Saya merasa bertanggung jawab kepada kelompok belajar saya." },
+      { "no": 8, "en": "celebrate", "pronunciationId": "SEL-uh-brayt (tekanan di SEL)", "pos": "Verb", "meaningId": "merayakan", "example": "Let's celebrate the first milestone.", "exampleId": "Mari rayakan tonggak pertama." },
+      { "no": 9, "en": "pledge", "pronunciationId": "PLEJ (tekanan di PLEJ)", "pos": "Noun", "meaningId": "janji yang diucapkan atau ditulis", "example": "She made a pledge to practise daily.", "exampleId": "Dia membuat janji untuk berlatih setiap hari." },
+      { "no": 10, "en": "continuity", "pronunciationId": "kon-tuh-NOO-i-tee (tekanan di NOO)", "pos": "Noun", "meaningId": "kesinambungan", "example": "Continuity matters more than speed.", "exampleId": "Kesinambungan lebih penting daripada kecepatan." }
+    ],
+    "tip": "Di akhir program, tulis satu komitmen yang bisa diukur, satu prioritas, dan satu tanggal tinjauan. Rencana yang sederhana lebih mudah dijalankan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["how to build a study habit after a course", "language learning habits long term"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menjaga kebiasaan belajar bahasa Inggris setelah program selesai.",
+      "watchFor": [
+        "Cara membuat komitmen yang bisa diukur",
+        "Cara menjaga disiplin ketika semangat menurun",
+        "Cara meninjau kemajuan setiap minggu"
+      ]
+    },
+    "lesson": {
+      "intro": "Hari terakhir bukan akhir dari belajar. Ini saatnya menyusun rencana yang bisa kamu jalankan sendiri, dengan prioritas yang jelas dan tinjauan rutin.",
+      "sections": [
+        {
+          "heading": "Menulis komitmen",
+          "bodyMd": "Buat **commitment** yang spesifik, misalnya belajar 20 menit setiap pagi. Tulis dengan kalimat sederhana dan letakkan di tempat yang sering kamu lihat."
+        },
+        {
+          "heading": "Menentukan prioritas",
+          "bodyMd": "Pilih satu atau dua **priority** untuk bulan berikutnya. Dengan begitu energi belajarmu tidak terpecah ke terlalu banyak tujuan."
+        },
+        {
+          "heading": "Menjaga kebiasaan",
+          "bodyMd": "**Discipline** berarti kembali ke kebiasaan dengan cepat setelah hari yang terlewat. Gunakan **reminder** untuk membantu kamu mengingatnya."
+        },
+        {
+          "heading": "Meninjau dan merayakan",
+          "bodyMd": "Setiap minggu, gunakan **checkpoint** untuk melihat kemajuan. Jika kamu merasa **accountable** kepada orang lain, tinjauan akan lebih mudah dijalankan. Jangan lupa **celebrate** pencapaian kecil."
+        }
+      ],
+      "formulas": [
+        { "label": "Komitmen", "pattern": "For the next month, I will X every Y" },
+        { "label": "Prioritas", "pattern": "My main priority is X, and I will review it on Y" },
+        { "label": "Tinjauan", "pattern": "At each checkpoint, I will ask myself X" },
+        { "label": "Pledge", "pattern": "I pledge to keep X going for Y" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "My commitment is to study for twenty minutes each morning.", "id": "Komitmen saya adalah belajar dua puluh menit setiap pagi." },
+          { "en": "Speaking is my priority for the next month.", "id": "Berbicara adalah prioritas saya untuk bulan berikutnya." },
+          { "en": "I will sustain this routine by reviewing it every Sunday.", "id": "Saya akan mempertahankan rutinitas ini dengan meninjaunya setiap Minggu." },
+          { "en": "I will celebrate each finished week.", "id": "Saya akan merayakan setiap minggu yang selesai." },
+          { "en": "Continuity is the goal, not perfection.", "id": "Kesinambungan adalah tujuannya, bukan kesempurnaan." }
+        ],
+        "negative": [
+          { "en": "I will study more someday.", "id": "Saya akan belajar lebih banyak suatu hari nanti." },
+          { "en": "I have no priority, so I study everything at once.", "id": "Saya tidak punya prioritas, jadi saya belajar semuanya sekaligus." },
+          { "en": "I will never check my progress.", "id": "Saya tidak akan pernah memeriksa kemajuan saya." },
+          { "en": "I do not need a reminder because I never forget.", "id": "Saya tidak perlu pengingat karena saya tidak pernah lupa." },
+          { "en": "The programme ended, so my learning is finished.", "id": "Program sudah selesai, jadi belajar saya juga sudah selesai." }
+        ],
+        "question": [
+          { "en": "What is your main commitment for next month?", "id": "Apa komitmen utamamu untuk bulan depan?" },
+          { "en": "What is your top priority now?", "id": "Apa prioritas utamamu sekarang?" },
+          { "en": "When is your next checkpoint?", "id": "Kapan titik pemeriksaan kemajuanmu berikutnya?" },
+          { "en": "Who can keep you accountable?", "id": "Siapa yang bisa membuatmu tetap bertanggung jawab?" },
+          { "en": "How will you celebrate your progress?", "id": "Bagaimana kamu akan merayakan kemajuanmu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "My commitment are to study daily.", "right": "My commitment is to study daily.", "whyId": "Commitment tunggal memakai is." },
+        { "wrong": "Discipline keep me going.", "right": "Discipline keeps me going.", "whyId": "Discipline tunggal memakai keeps." },
+        { "wrong": "I sustain my habit yesterday.", "right": "I sustained my habit yesterday.", "whyId": "Yesterday memakai bentuk lampau sustained." },
+        { "wrong": "The priority are speaking and reading.", "right": "My priorities are speaking and reading.", "whyId": "Priority tunggal tidak cocok untuk dua hal, sehingga memakai priorities." },
+        { "wrong": "I need a reminders every day.", "right": "I need a reminder every day.", "whyId": "Setelah a, kata benda memakai bentuk tunggal." },
+        { "wrong": "I will celebrate it when I am accountable.", "right": "I will celebrate when I feel accountable.", "whyId": "Accountable adalah kata sifat, sehingga memakai feel, bukan dilekatkan langsung seperti kata kerja." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Merencanakan Langkah Setelah Program",
+    "text": "Ending a learning programme is a good moment to look back and plan forward. The final day is not the end of progress. It is a checkpoint, a place to review what you have achieved and to decide how you will sustain your habits. Many learners stop when the programme ends, so a clear plan matters.\n\nCommitment is the first ingredient. A commitment is a promise you make to yourself about a specific action, such as studying for twenty minutes every morning. Write it down in simple words, and place it where you will see it each day. A vague goal like 'speak better' is hard to measure, while a clear commitment can be checked.\n\nDiscipline is what keeps the commitment alive on difficult days. Discipline does not mean never missing a session. It means returning to the habit quickly after a missed day. Learners who show discipline often plan small routines, such as reviewing vocabulary during a coffee break.\n\nSetting priority is equally important. Not every skill needs the same attention. A learner who wants to pass an exam may place speaking first, while a learner who reads English for work may focus on reading. Choose two or three priorities and keep the rest for later, so that your energy is not spread too thin.\n\nTo sustain progress, build a simple weekly review. Every seven days, check your notes, count completed sessions, and identify one area that needs more time. A reminder on your phone can help, but the most useful reminder is a short note that asks what you learned this week. This keeps the habit visible and honest.\n\nBeing accountable also helps. You can share your plan with a friend, a teacher, or a study group, and ask them to check your progress. When someone else knows your goal, it becomes easier to follow through. Accountability is not about judgement. It is about support and honest feedback.\n\nSmall wins deserve attention too. When you finish a difficult week, take time to celebrate. Celebrating does not need to be expensive. It can be a short walk, a favourite meal, or simply a moment of pride in your work. Positive feelings make the next cycle of learning more enjoyable.\n\nFinally, write a pledge for the next stage. A pledge is a short statement that combines your priorities, your routine, and your review date. For example, 'For the next month, I will practise speaking three times a week, and I will review my progress every Sunday.' This statement gives you a clear direction.\n\nThe most important goal is continuity. A learner who keeps a modest routine for a long time usually makes more progress than someone who studies intensely for a few days and then stops. Continuity turns learning into a lasting habit, and that habit is the real result of this programme.",
+    "glossary": [
+      { "en": "ingredient", "id": "unsur, bagian penting" },
+      { "en": "measure", "id": "mengukur" },
+      { "en": "intensely", "id": "dengan sangat serius" },
+      { "en": "favourite", "id": "favorit" },
+      { "en": "lasting", "id": "bertahan lama" },
+      { "en": "visible", "id": "terlihat" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "The final day of a programme can be a checkpoint for reviewing what you have achieved.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut hari terakhir adalah checkpoint untuk meninjau pencapaian dan merencanakan langkah berikutnya.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut hari terakhir sebagai checkpoint, sehingga pernyataan ini benar." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "evidence": "a place to review what you have achieved"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "According to the text, what is a commitment?",
+        "options": [
+          { "id": "A", "text": "a long list of tasks for one day" },
+          { "id": "B", "text": "a vague goal such as speak better" },
+          { "id": "C", "text": "a promise you make to yourself about a specific action" },
+          { "id": "D", "text": "a test you take at the end of a course" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut commitment adalah janji pada diri sendiri tentang tindakan yang spesifik.",
+        "stepByStep": [
+          "Cari commitment di paragraf kedua.",
+          "Teks menyebut A commitment is a promise you make to yourself about a specific action.",
+          "Daftar tugas, tujuan yang samar, dan tes akhir tidak disebut sebagai definisi commitment."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Daftar tugas untuk satu hari tidak disebut sebagai commitment." },
+          { "optionId": "B", "reasonId": "Teks menyebut tujuan yang samar sulit diukur, bukan definisi commitment." },
+          { "optionId": "D", "reasonId": "Tes akhir tidak disebut dalam teks." }
+        ],
+        "evidence": "A commitment is a promise you make to yourself about a specific action"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Discipline means never missing a single study session.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyatakan disiplin bukan berarti tidak pernah melewatkan sesi, tetapi kembali ke kebiasaan dengan cepat.",
+        "stepByStep": [
+          "Cari discipline di paragraf ketiga.",
+          "Teks menyebut Discipline does not mean never missing a session.",
+          "Pernyataan soal berlawanan dengan itu, sehingga False."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyatakan disiplin tidak berarti tidak pernah melewatkan sesi." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung yang bertentangan dengan soal." }
+        ],
+        "evidence": "Discipline does not mean never missing a session"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the text, why is accountability helpful?",
+        "options": [
+          { "id": "A", "text": "because it removes all difficulty" },
+          { "id": "B", "text": "because it replaces the need for a plan" },
+          { "id": "C", "text": "because it makes exams easier" },
+          { "id": "D", "text": "because someone else knows the goal and can check progress" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menyebut ketika orang lain mengetahui tujuan kita, tindak lanjut menjadi lebih mudah.",
+        "stepByStep": [
+          "Cari accountability di paragraf keenam.",
+          "Teks menyebut When someone else knows your goal, it becomes easier to follow through.",
+          "Menghilangkan kesulitan, menggantikan rencana, dan membuat ujian lebih mudah tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyatakan bahwa accountability menghilangkan semua kesulitan." },
+          { "optionId": "B", "reasonId": "Teks tidak menyatakan bahwa accountability menggantikan rencana." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut hubungan accountability dengan kemudahan ujian." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan why sering dijawab dengan klausa yang mengikuti kata becomes atau helps dalam teks.",
+          "examples": [
+            { "en": "A reminder helps you stay on track.", "id": "Pengingat membantu kamu tetap di jalur." },
+            { "en": "A short plan makes the work easier to start.", "id": "Rencana singkat membuat pekerjaan lebih mudah dimulai." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena teman bisa membantu membuat rencana, tetapi teks menyebut accountability membantu tindak lanjut, bukan menggantikan rencana.",
+        "evidence": "When someone else knows your goal, it becomes easier to follow through."
+      },
+      {
+        "id": "R5",
+        "type": "yes_no_not_given",
+        "prompt": "The writer says that a learner who keeps a modest routine for a long time usually makes more progress than someone who studies intensely for a few days.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menyatakan bahwa rutinitas sederhana yang konsisten biasanya menghasilkan kemajuan lebih banyak daripada belajar intens dalam beberapa hari.",
+        "stepByStep": [
+          "Cari continuity di paragraf terakhir.",
+          "Teks menyebut a learner who keeps a modest routine for a long time usually makes more progress than someone who studies intensely for a few days.",
+          "Pernyataan soal sama dengan teks, sehingga Yes."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyatakan kebalikannya, yaitu rutinitas konsisten lebih efektif." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Perbandingan dengan than menunjukkan mana yang lebih besar atau lebih baik dalam teks.",
+          "examples": [
+            { "en": "A short daily routine works better than one long session each month.", "id": "Rutinitas harian yang singkat bekerja lebih baik daripada satu sesi panjang setiap bulan." },
+            { "en": "Steady practice is more useful than cramming.", "id": "Latihan yang stabil lebih berguna daripada belajar kilat." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat cocok karena belajar intens juga tampak efektif, tetapi teks justru menyatakan rutinitas yang konsisten lebih banyak membawa kemajuan.",
+        "evidence": "a learner who keeps a modest routine for a long time usually makes more progress than someone who studies intensely for a few days"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Before you finish, write one clear ___ to yourself about a daily habit.",
+        "options": [
+          { "id": "A", "text": "reminder" },
+          { "id": "B", "text": "checkpoint" },
+          { "id": "C", "text": "commitment" },
+          { "id": "D", "text": "celebrate" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Commitment adalah janji pada diri sendiri tentang tindakan yang spesifik, dan kalimat ini meminta satu janji untuk kebiasaan harian.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Reminder berarti pengingat, bukan janji pada diri sendiri." },
+          { "optionId": "B", "reasonId": "Checkpoint berarti titik pemeriksaan, bukan janji pada diri sendiri." },
+          { "optionId": "D", "reasonId": "Celebrate berarti merayakan, bukan janji pada diri sendiri." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Choose one main ___ for the next month, so your energy is not spread too thin.",
+        "options": [
+          { "id": "A", "text": "accountable" },
+          { "id": "B", "text": "sustain" },
+          { "id": "C", "text": "continuity" },
+          { "id": "D", "text": "priority" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Priority berarti hal yang paling penting untuk didahulukan, dan kalimat ini meminta satu fokus utama.",
+        "stepByStep": [
+          "Kalimat meminta satu fokus utama agar energi tidak terpecah.",
+          "Hal yang didahulukan karena paling penting disebut priority.",
+          "Accountable, sustain, dan continuity tidak berarti fokus utama yang didahulukan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Accountable berarti bertanggung jawab, bukan fokus utama." },
+          { "optionId": "B", "reasonId": "Sustain berarti mempertahankan, bukan fokus utama." },
+          { "optionId": "C", "reasonId": "Continuity berarti kesinambungan, bukan fokus utama." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Set a weekly ___ on your phone so you remember to review your notes.",
+        "options": [
+          { "id": "A", "text": "discipline" },
+          { "id": "B", "text": "reminder" },
+          { "id": "C", "text": "pledge" },
+          { "id": "D", "text": "continuity" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Reminder berarti pengingat, dan kalimat ini meminta pengingat di ponsel agar ingat meninjau catatan.",
+        "stepByStep": [
+          "Kalimat meminta sesuatu di ponsel agar kamu ingat meninjau catatan.",
+          "Sesuatu yang membantu mengingat disebut reminder.",
+          "Discipline, pledge, dan continuity tidak berarti pengingat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Discipline berarti disiplin, bukan pengingat di ponsel." },
+          { "optionId": "C", "reasonId": "Pledge berarti janji, bukan pengingat di ponsel." },
+          { "optionId": "D", "reasonId": "Continuity berarti kesinambungan, bukan pengingat di ponsel." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Her ___ helped her keep studying even when she felt tired.",
+        "options": [
+          { "id": "A", "text": "discipline" },
+          { "id": "B", "text": "accountable" },
+          { "id": "C", "text": "celebrate" },
+          { "id": "D", "text": "sustain" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Discipline adalah kemampuan untuk tetap menjalankan kebiasaan, meskipun sedang lelah.",
+        "stepByStep": [
+          "Kalimat menyebut kemampuan tetap belajar saat lelah.",
+          "Kemampuan menjalankan kebiasaan meski lelah disebut discipline.",
+          "Accountable, celebrate, dan sustain tidak menggambarkan kemampuan itu sebagai kata benda yang membantu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Accountable berarti bertanggung jawab, dan kata sifat ini tidak bisa menjadi subjek yang membantu." },
+          { "optionId": "C", "reasonId": "Celebrate berarti merayakan, bukan kemampuan untuk tetap belajar." },
+          { "optionId": "D", "reasonId": "Sustain adalah kata kerja, sedangkan kalimat ini meminta kata benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda discipline menunjuk pada kemampuan menjaga kebiasaan, bukan tindakan merayakan.",
+          "examples": [
+            { "en": "Discipline keeps the habit alive.", "id": "Disiplin menjaga kebiasaan tetap hidup." },
+            { "en": "Her discipline impressed the whole class.", "id": "Disiplinnya mengesankan seluruh kelas." }
+          ]
+        },
+        "examTrap": "Pilihan D sustain terlihat cocok karena kalimat membahas menjaga kebiasaan, tetapi sustain adalah kata kerja, sedangkan kalimat ini meminta kata benda."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Ask a friend to check your progress, because being ___ makes follow-through easier.",
+        "options": [
+          { "id": "A", "text": "priority" },
+          { "id": "B", "text": "celebrate" },
+          { "id": "C", "text": "accountable" },
+          { "id": "D", "text": "continuity" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Accountable berarti bertanggung jawab kepada orang lain, sehingga tindak lanjut menjadi lebih mudah.",
+        "stepByStep": [
+          "Kalimat menyebut teman yang memeriksa kemajuan dan membuat tindak lanjut lebih mudah.",
+          "Keadaan bertanggung jawab kepada orang lain disebut accountable.",
+          "Priority, celebrate, dan continuity tidak berarti keadaan bertanggung jawab kepada orang lain."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Priority berarti prioritas, bukan keadaan bertanggung jawab." },
+          { "optionId": "B", "reasonId": "Celebrate berarti merayakan, bukan keadaan bertanggung jawab." },
+          { "optionId": "D", "reasonId": "Continuity berarti kesinambungan, bukan keadaan bertanggung jawab." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Accountable adalah kata sifat yang biasanya diikuti preposisi to, seperti accountable to someone.",
+          "examples": [
+            { "en": "I feel accountable to my study group.", "id": "Saya merasa bertanggung jawab kepada kelompok belajar saya." },
+            { "en": "Teachers are accountable to the school.", "id": "Guru bertanggung jawab kepada sekolah." }
+          ]
+        },
+        "examTrap": "Pilihan D continuity terlihat cocok karena teman membantu kesinambungan, tetapi kalimat ini meminta keadaan bertanggung jawab kepada orang lain."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin membuat komitmen harian yang jelas.",
+        "hint": "Saya ingin: I want to. Membuat: make. Komitmen harian: a daily commitment. Yang jelas: clear.",
+        "acceptedAnswers": ["I want to make a clear daily commitment.", "I would like to make a clear daily commitment."],
+        "modelAnswer": "I want to make a clear daily commitment.",
+        "commonErrors": [{ "pattern": "I want make a clear daily commitments", "feedbackId": "Setelah want to, pakai kata kerja dasar make, dan commitment tunggal dengan a." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya akan merayakan setiap pencapaian kecil.",
+        "hint": "Saya akan merayakan: I will celebrate. Setiap pencapaian kecil: every small achievement.",
+        "acceptedAnswers": ["I will celebrate every small achievement.", "I will celebrate each small achievement."],
+        "modelAnswer": "I will celebrate every small achievement.",
+        "commonErrors": [{ "pattern": "I will celebrates every small achievements", "feedbackId": "Setelah will, pakai kata kerja dasar celebrate, dan every diikuti kata benda tunggal." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Disiplin membantu saya menjaga rutinitas belajar.",
+        "hint": "Disiplin: discipline. Membantu saya: helps me. Menjaga rutinitas belajar: sustain my study routine.",
+        "acceptedAnswers": ["Discipline helps me sustain my study routine.", "Discipline helps me keep my study routine going."],
+        "modelAnswer": "Discipline helps me sustain my study routine.",
+        "commonErrors": [{ "pattern": "Disciplines help me sustains my study routines", "feedbackId": "Discipline tidak dijamakkan, help me memakai kata kerja dasar sustain, dan routine tunggal dengan my." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya merasa bertanggung jawab kepada teman belajar saya untuk menjaga target.",
+        "hint": "Saya merasa bertanggung jawab kepada: I feel accountable to. Teman belajar saya: my study partner. Menjaga target: keeping my goal.",
+        "acceptedAnswers": ["I feel accountable to my study partner for keeping my goal.", "I am accountable to my study partner for keeping my goal."],
+        "modelAnswer": "I feel accountable to my study partner for keeping my goal.",
+        "commonErrors": [{ "pattern": "I feel accountables to my study partners for keep my goals", "feedbackId": "Accountable adalah kata sifat, tidak dijamakkan, dan setelah for memakai bentuk -ing, yaitu keeping." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kesinambungan belajar lebih penting daripada semangat yang hanya sebentar.",
+        "hint": "Kesinambungan belajar: continuity in learning. Lebih penting daripada: is more important than. Semangat yang hanya sebentar: short bursts of enthusiasm.",
+        "acceptedAnswers": ["Continuity in learning is more important than short bursts of enthusiasm.", "Continuity in studying is more important than short bursts of enthusiasm."],
+        "modelAnswer": "Continuity in learning is more important than short bursts of enthusiasm.",
+        "commonErrors": [{ "pattern": "Continuities in learning are more important than short burst of enthusiasms", "feedbackId": "Continuity tidak dijamakkan, subjek tunggal memakai is, dan burst dijamakkan karena short bursts." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means something that helps you remember a task?",
+        "options": [
+          { "id": "A", "text": "pledge" },
+          { "id": "B", "text": "priority" },
+          { "id": "C", "text": "sustain" },
+          { "id": "D", "text": "reminder" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Reminder adalah sesuatu yang membantu kita mengingat tugas atau janji.",
+        "stepByStep": [
+          "Kalimat meminta sesuatu yang membantu mengingat tugas.",
+          "Sesuatu yang membantu mengingat disebut reminder.",
+          "Pledge, priority, dan sustain tidak berarti sesuatu yang membantu mengingat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pledge berarti janji, bukan sesuatu yang membantu mengingat." },
+          { "optionId": "B", "reasonId": "Priority berarti prioritas, bukan sesuatu yang membantu mengingat." },
+          { "optionId": "C", "reasonId": "Sustain berarti mempertahankan, bukan sesuatu yang membantu mengingat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reminder adalah kata benda yang sering dipakai untuk pengingat di ponsel, catatan, atau jadwal.",
+          "examples": [
+            { "en": "Set a reminder for your weekly review.", "id": "Pasang pengingat untuk tinjauan mingguanmu." },
+            { "en": "A sticky note is a good reminder.", "id": "Catatan tempel adalah pengingat yang baik." }
+          ]
+        },
+        "examTrap": "Pilihan A pledge terlihat cocok karena janji sering diingat, tetapi kalimat ini meminta sesuatu yang membantu mengingat, bukan janji itu sendiri."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'sustain'?",
+        "options": [
+          { "id": "A", "text": "I sustains my habit every week." },
+          { "id": "B", "text": "I can sustain my habit if I keep a simple routine." },
+          { "id": "C", "text": "I sustain my habit yesterday." },
+          { "id": "D", "text": "Sustain my habit is good." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Sustain adalah kata kerja dasar yang dipakai setelah can, dan kalimat ini memakai bentuk yang tepat.",
+        "stepByStep": [
+          "Setelah can, kata kerja memakai bentuk dasar sustain.",
+          "Kalimat ini menyebut kebiasaan yang dijaga dengan rutinitas sederhana.",
+          "Pilihan A memakai sustains dengan I, pilihan C memakai bentuk sekarang untuk kejadian kemarin, dan pilihan D tidak memiliki subjek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Subjek I tidak memakai sustains." },
+          { "optionId": "C", "reasonId": "Yesterday memakai bentuk lampau sustained, bukan sustain." },
+          { "optionId": "D", "reasonId": "Kalimat ini tidak memiliki subjek yang jelas untuk kata kerja sustain." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah modal seperti can, kata kerja memakai bentuk dasar.",
+          "examples": [
+            { "en": "I can keep the routine for months.", "id": "Saya bisa menjaga rutinitas itu selama berbulan-bulan." },
+            { "en": "We can sustain our progress with reviews.", "id": "Kami bisa mempertahankan kemajuan dengan tinjauan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena kalimat ini membahas kebiasaan mingguan, tetapi subjek I memakai kata kerja tanpa -s."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means a moment to check your progress before you continue?",
+        "options": [
+          { "id": "A", "text": "celebrate" },
+          { "id": "B", "text": "accountable" },
+          { "id": "C", "text": "checkpoint" },
+          { "id": "D", "text": "priority" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Checkpoint adalah titik pemeriksaan untuk melihat kemajuan sebelum melanjutkan.",
+        "stepByStep": [
+          "Kalimat meminta momen untuk memeriksa kemajuan sebelum melanjutkan.",
+          "Momen pemeriksaan seperti itu disebut checkpoint.",
+          "Celebrate, accountable, dan priority tidak berarti momen pemeriksaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Celebrate berarti merayakan, bukan momen pemeriksaan." },
+          { "optionId": "B", "reasonId": "Accountable berarti bertanggung jawab, bukan momen pemeriksaan." },
+          { "optionId": "D", "reasonId": "Priority berarti prioritas, bukan momen pemeriksaan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Checkpoint adalah kata benda untuk titik berhenti sejenak guna memeriksa sesuatu.",
+          "examples": [
+            { "en": "The first checkpoint is after one week.", "id": "Titik pemeriksaan pertama ada setelah satu minggu." },
+            { "en": "Use each checkpoint to plan the next step.", "id": "Gunakan setiap titik pemeriksaan untuk merencanakan langkah berikutnya." }
+          ]
+        },
+        "examTrap": "Pilihan D priority terlihat cocok karena pemeriksaan sering dilakukan untuk prioritas, tetapi kalimat ini meminta momen pemeriksaan itu sendiri."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Keeping a small routine for years shows real ___.'",
+        "options": [
+          { "id": "A", "text": "continuity" },
+          { "id": "B", "text": "celebrate" },
+          { "id": "C", "text": "pledge" },
+          { "id": "D", "text": "priority" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Continuity berarti kesinambungan, dan kalimat ini menggambarkan rutinitas kecil yang bertahan bertahun-tahun.",
+        "stepByStep": [
+          "Kalimat menyebut rutinitas kecil yang bertahan bertahun-tahun.",
+          "Kesinambungan yang bertahan lama disebut continuity.",
+          "Celebrate, pledge, dan priority tidak berarti kesinambungan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Celebrate berarti merayakan, bukan kesinambungan." },
+          { "optionId": "C", "reasonId": "Pledge berarti janji, bukan kesinambungan." },
+          { "optionId": "D", "reasonId": "Priority berarti prioritas, bukan kesinambungan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Continuity dipakai untuk menggambarkan kebiasaan yang berlanjut dalam waktu lama.",
+          "examples": [
+            { "en": "Continuity matters more than speed.", "id": "Kesinambungan lebih penting daripada kecepatan." },
+            { "en": "Her continuity in reading built her vocabulary.", "id": "Kesinambungannya dalam membaca membangun kosakatanya." }
+          ]
+        },
+        "examTrap": "Pilihan C pledge terlihat cocok karena rutinitas dimulai dari janji, tetapi kalimat ini menggambarkan kebiasaan yang bertahan lama."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word describes a clear promise written down to keep a goal?",
+        "options": [
+          { "id": "A", "text": "reminder" },
+          { "id": "B", "text": "priority" },
+          { "id": "C", "text": "continuity" },
+          { "id": "D", "text": "pledge" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Pledge adalah janji yang diucapkan atau ditulis untuk menjaga sebuah tujuan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk janji tertulis demi menjaga tujuan.",
+          "Janji yang diucapkan atau ditulis disebut pledge.",
+          "Reminder, priority, dan continuity tidak berarti janji tertulis."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Reminder berarti pengingat, bukan janji tertulis." },
+          { "optionId": "B", "reasonId": "Priority berarti prioritas, bukan janji tertulis." },
+          { "optionId": "C", "reasonId": "Continuity berarti kesinambungan, bukan janji tertulis." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pledge adalah kata benda untuk janji yang sungguh-sungguh diberikan kepada diri sendiri atau orang lain.",
+          "examples": [
+            { "en": "She made a pledge to practise every day.", "id": "Dia membuat janji untuk berlatih setiap hari." },
+            { "en": "Write your pledge on the first page of your notebook.", "id": "Tulis janjimu di halaman pertama buku catatanmu." }
+          ]
+        },
+        "examTrap": "Pilihan A reminder terlihat cocok karena janji tertulis sering dijadikan pengingat, tetapi kalimat ini meminta janji itu sendiri."
+      }
+    ]
+  }
+}

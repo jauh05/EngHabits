@@ -1,0 +1,617 @@
+{
+  "day": 67,
+  "week": 9,
+  "month": 3,
+  "title": "Review Minggu 9",
+  "topic": "Review: IELTS Reading & Listening",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang True, False, Not Given, dan Yes, No, Not Given",
+    "Meninjau ulang matching headings dan summary completion",
+    "Meninjau ulang koreksi, ejaan, dan angka dalam rekaman"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "statement", "pronunciationId": "STAYT-ment (tekanan di STAYT)", "pos": "Noun", "meaningId": "pernyataan", "example": "The statement is clear.", "exampleId": "Pernyataan itu jelas." },
+      { "no": 2, "en": "opinion", "pronunciationId": "uh-PIN-yun (tekanan di PIN)", "pos": "Noun", "meaningId": "pendapat", "example": "In my opinion, it works.", "exampleId": "Menurut pendapat saya, itu berhasil." },
+      { "no": 3, "en": "heading", "pronunciationId": "HED-ing (tekanan di HED)", "pos": "Noun", "meaningId": "judul bagian", "example": "The heading is short.", "exampleId": "Judulnya pendek." },
+      { "no": 4, "en": "gap", "pronunciationId": "GAP (a pendek, p jelas)", "pos": "Noun", "meaningId": "celah", "example": "Fill the gap.", "exampleId": "Isilah celahnya." },
+      { "no": 5, "en": "correction", "pronunciationId": "ku-REK-shun (tekanan di REK)", "pos": "Noun", "meaningId": "koreksi", "example": "The correction is clear.", "exampleId": "Koreksinya jelas." },
+      { "no": 6, "en": "spelling", "pronunciationId": "SPEL-ing (tekanan di SPEL)", "pos": "Noun", "meaningId": "ejaan", "example": "Check the spelling.", "exampleId": "Periksa ejaannya." },
+      { "no": 7, "en": "claim", "pronunciationId": "KLAYM (tekanan di KLAYM)", "pos": "Noun", "meaningId": "klaim", "example": "The claim is strong.", "exampleId": "Klaimnya kuat." },
+      { "no": 8, "en": "writer", "pronunciationId": "RAI-ter (tekanan di RAI)", "pos": "Noun", "meaningId": "penulis", "example": "The writer is honest.", "exampleId": "Penulisnya jujur." },
+      { "no": 9, "en": "summary", "pronunciationId": "SUM-uh-ree (tekanan di SUM)", "pos": "Noun", "meaningId": "ringkasan", "example": "Read the summary first.", "exampleId": "Bacalah ringkasannya dulu." },
+      { "no": 10, "en": "actually", "pronunciationId": "AK-choo-uh-lee (tekanan di AK)", "pos": "Adv", "meaningId": "sebenarnya", "example": "Actually, it was Monday.", "exampleId": "Sebenarnya, itu hari Senin." }
+    ],
+    "tip": "Dalam review, tanyakan tiga hal: apakah pernyataan sejalan dengan teks, apakah ada koreksi, dan apakah ejaan atau angka sudah dicek."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS listening practice", "IELTS reading practice"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum True / False / Not Given, Yes / No / Not Given, matching headings, summary completion, dan ejaan angka dari minggu 9.",
+      "watchFor": [
+        "Perbedaan True, False, dan Not Given",
+        "Penanda koreksi dalam teks",
+        "Batas jumlah kata dan ejaan"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 9 melatih format IELTS Reading dan Listening yang paling sering muncul: pernyataan benar atau salah, sikap penulis, judul paragraf, dan mengisi celah. Sesi review ini mengulang semuanya dalam satu percakapan.",
+      "sections": [
+        {
+          "heading": "Pernyataan dan sikap",
+          "bodyMd": "Untuk **statement**, cari bukti di teks. Untuk **opinion** penulis atau pembicara, tentukan apakah sikapnya disetujui, ditolak, atau tidak disebutkan."
+        },
+        {
+          "heading": "Judul dan celah",
+          "bodyMd": "Judul yang tepat menangkap seluruh paragraf. Dalam mengisi celah, periksa **gap** dan batas kata. Setelah selesai, baca ulang **summary** untuk memastikan jawabanmu masuk akal."
+        },
+        {
+          "heading": "Koreksi dan ejaan",
+          "bodyMd": "Jika ada **correction**, ikuti versi yang terbaru. Untuk nama dan kode, periksa **spelling** setiap huruf dan angka. Kata **claim** harus dibuktikan, bukan langsung diterima."
+        }
+      ],
+      "formulas": [
+        { "label": "Statement", "pattern": "sejalan = True; berlawanan = False; tidak disebut = Not Given" },
+        { "label": "Opinion", "pattern": "setuju = Yes; menolak = No; tidak disebut = Not Given" },
+        { "label": "Judul", "pattern": "gagasan utama seluruh paragraf, bukan satu contoh" },
+        { "label": "Ejaan", "pattern": "huruf demi huruf, angka demi angka" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The writer's claim is supported by the data.", "id": "Klaim penulis didukung oleh data." },
+          { "en": "The speaker's opinion is clear from the talk.", "id": "Pendapat pembicara jelas dari ceramah itu." },
+          { "en": "The heading covers the whole paragraph.", "id": "Judul itu mencakup seluruh paragraf." },
+          { "en": "Fill the gap with the exact word from the recording.", "id": "Isilah celah dengan kata yang tepat dari rekaman." },
+          { "en": "Actually, the correction changes the date.", "id": "Sebenarnya, koreksi itu mengubah tanggalnya." }
+        ],
+        "negative": [
+          { "en": "The statement is not true according to the text.", "id": "Pernyataan itu tidak benar menurut teks." },
+          { "en": "The speaker does not agree with the claim.", "id": "Pembicara tidak setuju dengan klaim itu." },
+          { "en": "The summary does not mention the price.", "id": "Ringkasan itu tidak menyebut harganya." },
+          { "en": "The writer does not repeat the old mistake.", "id": "Penulis tidak mengulang kesalahan lama." },
+          { "en": "The spelling is not checked yet.", "id": "Ejaannya belum diperiksa." }
+        ],
+        "question": [
+          { "en": "Is the statement true or false?", "id": "Apakah pernyataan itu benar atau salah?" },
+          { "en": "Does the speaker agree with the writer?", "id": "Apakah pembicara setuju dengan penulis?" },
+          { "en": "Which heading fits this paragraph?", "id": "Judul mana yang cocok untuk paragraf ini?" },
+          { "en": "What word fills the gap?", "id": "Kata apa yang mengisi celah?" },
+          { "en": "What is the correct spelling of the name?", "id": "Apa ejaan yang benar untuk nama itu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The statement are not true.", "right": "The statement is not true.", "whyId": "Statement adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The writer claim the data is wrong.", "right": "The writer claims the data is wrong.", "whyId": "Subjek writer tunggal memakai claims." },
+        { "wrong": "The headings is in the first paragraph.", "right": "The heading is in the first paragraph.", "whyId": "Dalam kalimat ini hanya satu judul, jadi memakai heading dengan is." },
+        { "wrong": "Fill the gap with two words, not three word.", "right": "Fill the gap with two words, not three words.", "whyId": "Setelah angka lebih dari satu, kata benda memakai bentuk jamak words." },
+        { "wrong": "The correction are clear.", "right": "The correction is clear.", "whyId": "Correction adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The spelling of the name are wrong.", "right": "The spelling of the name is wrong.", "whyId": "Spelling adalah kata benda tunggal, jadi memakai is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["IELTS listening practice", "study group conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Dua mahasiswa mengulang format minggu 9",
+        "Koreksi dan ejaan yang disebut"
+      ]
+    },
+    "script": {
+      "title": "Mengulang minggu 9",
+      "lines": [
+        { "speaker": "Student A", "text": "Let's review week nine. Is the statement in the first question true, false, or not given?" },
+        { "speaker": "Student B", "text": "We need the text. The writer argues one thing, but the statement claims something else, so it is false." },
+        { "speaker": "Student A", "text": "And for yes or no questions, what do we do when the speaker says nothing about the topic?" },
+        { "speaker": "Student B", "text": "That is not given. The speaker's opinion must be clear before we choose yes or no." },
+        { "speaker": "Student A", "text": "For the heading question, how do I pick the right one?" },
+        { "speaker": "Student B", "text": "Read the summary of the paragraph. The best heading covers the whole paragraph, not one example." },
+        { "speaker": "Student A", "text": "What about the gap? Actually, I always forget the word limit." },
+        { "speaker": "Student B", "text": "Check the instructions. If it says one word, do not write two, even if the spelling looks right." },
+        { "speaker": "Student A", "text": "And the correction in the article? It changed the date, so we follow the newer version." },
+        { "speaker": "Student B", "text": "Exactly. Spell every name and check each digit. Then the answer is correct." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada statement, tekanan ada di suku pertama: STAYT-ment.",
+      "Pada correction, tekanan ada di suku kedua: ku-REK-shun.",
+      "Pada summary, tekanan ada di suku pertama: SUM-uh-ree."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "How should the first student's statement be answered if the writer argues the opposite?",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" },
+          { "id": "D", "text": "Yes" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata pernyataan itu False karena penulis berargumen sebaliknya.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pernyataan itu bertentangan dengan teks, jadi bukan True." },
+          { "optionId": "C", "reasonId": "Teks membahas sikap penulis secara langsung, jadi bukan Not Given." },
+          { "optionId": "D", "reasonId": "Yes dipakai untuk pertanyaan sikap, bukan untuk pernyataan benar atau salah." }
+        ],
+        "evidence": "The writer argues one thing"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "When the speaker says nothing about the topic, which answer is correct for a yes or no question?",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" },
+          { "id": "D", "text": "True" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Mahasiswa B berkata 'That is not given' ketika pembicara tidak menyebut topik itu.",
+        "stepByStep": [
+          "Cari bagian tentang topik yang tidak disebut.",
+          "Mahasiswa B menyatakan bahwa itu not given.",
+          "Yes, No, dan True tidak sesuai karena sikap pembicara tidak disebutkan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Yes memerlukan sikap setuju yang disebut dalam teks." },
+          { "optionId": "B", "reasonId": "No memerlukan sikap menolak yang disebut dalam teks." },
+          { "optionId": "D", "reasonId": "True dipakai untuk pernyataan, bukan untuk pertanyaan sikap." }
+        ],
+        "evidence": "That is not given"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "How should a student pick the right heading for a paragraph?",
+        "options": [
+          { "id": "A", "text": "Choose the heading that repeats one example." },
+          { "id": "B", "text": "Choose the heading that covers the whole paragraph." },
+          { "id": "C", "text": "Choose the longest heading." },
+          { "id": "D", "text": "Choose the heading with the most numbers." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata judul terbaik mencakup seluruh paragraf, bukan satu contoh.",
+        "stepByStep": [
+          "Cari bagian tentang heading di percakapan.",
+          "Mahasiswa B menyebut judul harus mencakup seluruh paragraf.",
+          "Judul dengan satu contoh, judul terpanjang, dan judul dengan banyak angka tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Judul yang hanya mengulang satu contoh terlalu sempit." },
+          { "optionId": "C", "reasonId": "Panjang judul tidak menentukan ketepatannya." },
+          { "optionId": "D", "reasonId": "Angka dalam judul tidak disebut sebagai kriteria." }
+        ],
+        "evidence": "The best heading covers the whole paragraph"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is the main reason the second student says to check the instructions for a gap?",
+        "options": [
+          { "id": "A", "text": "to find the correct spelling of the writer's name" },
+          { "id": "B", "text": "to see the word limit" },
+          { "id": "C", "text": "to choose a heading" },
+          { "id": "D", "text": "to find the speaker's opinion" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata 'If it says one word, do not write two', artinya instruksi memberi batas jumlah kata.",
+        "stepByStep": [
+          "Cari bagian tentang instruksi di naskah.",
+          "Mahasiswa B menyebut instruksi satu kata dan jangan menulis dua kata.",
+          "Ejaan nama penulis, judul, dan opini pembicara tidak disebut sebagai alasan memeriksa instruksi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ejaan nama penulis tidak disebut sebagai alasan memeriksa instruksi." },
+          { "optionId": "C", "reasonId": "Judul tidak disebut dalam konteks instruksi celah." },
+          { "optionId": "D", "reasonId": "Opini pembicara tidak disebut dalam konteks instruksi celah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Instruksi celah menentukan batas jumlah kata, dan jawaban tidak boleh melampauinya.",
+          "examples": [
+            { "en": "Write no more than two words.", "id": "Tulis tidak lebih dari dua kata." },
+            { "en": "Check the word limit before you write.", "id": "Periksa batas jumlah kata sebelum menulis." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena ejaan sering dibicarakan di akhir percakapan, tetapi alasan memeriksa instruksi adalah batas kata.",
+        "evidence": "If it says one word, do not write two"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the second student say about the correction in the article?",
+        "options": [
+          { "id": "A", "text": "Ignore the correction." },
+          { "id": "B", "text": "Follow the newer version." },
+          { "id": "C", "text": "Use the older date." },
+          { "id": "D", "text": "Write both dates." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pembicara menyebut koreksi mengubah tanggal, sehingga versi yang lebih baru yang diikuti.",
+        "stepByStep": [
+          "Cari bagian tentang correction di naskah.",
+          "Mahasiswa A bertanya tentang koreksi, dan mahasiswa B menjawab dengan versi yang lebih baru.",
+          "Mengabaikan koreksi, memakai tanggal lama, dan menulis keduanya tidak sesuai dengan jawaban itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Koreksi tidak diabaikan, karena itu mengubah tanggal." },
+          { "optionId": "C", "reasonId": "Tanggal lama sudah digantikan oleh versi yang lebih baru." },
+          { "optionId": "D", "reasonId": "Menulis dua tanggal tidak disebut dalam percakapan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jika ada koreksi, versi terbaru yang berlaku.",
+          "examples": [
+            { "en": "The newer version replaces the old one.", "id": "Versi baru menggantikan versi lama." },
+            { "en": "Use the corrected date in your answer.", "id": "Gunakan tanggal yang sudah dikoreksi dalam jawabanmu." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat masuk akal karena tanggal lama sudah dikenal, tetapi koreksi berarti versi yang lebih baru yang dipakai.",
+        "evidence": "we follow the newer version"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the article is written in one short paragraph before the main text.",
+        "options": [
+          { "id": "A", "text": "summary" },
+          { "id": "B", "text": "lane" },
+          { "id": "C", "text": "ticket" },
+          { "id": "D", "text": "bridge" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Summary adalah ringkasan singkat yang berisi inti artikel.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Lane berarti jalur, bukan ringkasan." },
+          { "optionId": "C", "reasonId": "Ticket berarti tiket, bukan ringkasan." },
+          { "optionId": "D", "reasonId": "Bridge berarti jembatan, bukan ringkasan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Please check the ___ of every name on the form before you submit it.",
+        "options": [
+          { "id": "A", "text": "spelling" },
+          { "id": "B", "text": "gap" },
+          { "id": "C", "text": "claim" },
+          { "id": "D", "text": "opinion" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Spelling adalah ejaan, dan formulir perlu diperiksa ejaan namanya sebelum dikirim.",
+        "stepByStep": [
+          "Kalimat meminta pemeriksaan nama di formulir.",
+          "Ejaan nama disebut spelling.",
+          "Gap, claim, dan opinion tidak berarti ejaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Gap berarti celah, bukan ejaan." },
+          { "optionId": "C", "reasonId": "Claim berarti klaim, bukan ejaan." },
+          { "optionId": "D", "reasonId": "Opinion berarti pendapat, bukan ejaan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The writer's ___ is that the new library hours help students most.",
+        "options": [
+          { "id": "A", "text": "claim" },
+          { "id": "B", "text": "heading" },
+          { "id": "C", "text": "gap" },
+          { "id": "D", "text": "correction" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Claim adalah pernyataan yang diajukan penulis sebagai kebenaran.",
+        "stepByStep": [
+          "Kalimat menyebut pernyataan penulis tentang jam perpustakaan.",
+          "Pernyataan yang diajukan sebagai kebenaran disebut claim.",
+          "Heading, gap, dan correction tidak berarti pernyataan penulis."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Heading adalah judul, bukan pernyataan penulis." },
+          { "optionId": "C", "reasonId": "Gap adalah celah, bukan pernyataan penulis." },
+          { "optionId": "D", "reasonId": "Correction adalah koreksi, bukan pernyataan utama." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Each paragraph has its own ___, so choose the one that covers the whole paragraph.",
+        "options": [
+          { "id": "A", "text": "heading" },
+          { "id": "B", "text": "decimal" },
+          { "id": "C", "text": "postcode" },
+          { "id": "D", "text": "abbreviation" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Heading adalah judul bagian atau paragraf yang harus mencakup seluruh isinya.",
+        "stepByStep": [
+          "Kalimat meminta judul yang mencakup seluruh paragraf.",
+          "Judul paragraf disebut heading.",
+          "Decimal, postcode, dan abbreviation tidak berarti judul paragraf."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Decimal berarti desimal, bukan judul." },
+          { "optionId": "C", "reasonId": "Postcode berarti kode pos, bukan judul." },
+          { "optionId": "D", "reasonId": "Abbreviation berarti singkatan, bukan judul." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Heading adalah judul yang menangkap gagasan utama bagian atau paragraf.",
+          "examples": [
+            { "en": "The heading names the topic of the section.", "id": "Judul itu menyebut topik bagiannya." },
+            { "en": "A good heading covers the whole paragraph.", "id": "Judul yang baik mencakup seluruh paragraf." }
+          ]
+        },
+        "examTrap": "Pilihan D abbreviation terlihat seperti istilah formal dalam dokumen, tetapi kalimat ini meminta judul yang mencakup paragraf."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The speaker's ___ is clear: the plan is worth trying, but it needs more time.",
+        "options": [
+          { "id": "A", "text": "opinion" },
+          { "id": "B", "text": "digit" },
+          { "id": "C", "text": "surname" },
+          { "id": "D", "text": "alphabet" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Opinion adalah pendapat pembicara tentang rencana itu.",
+        "stepByStep": [
+          "Kalimat menyebut penilaian pembicara tentang rencana.",
+          "Penilaian pribadi disebut opinion.",
+          "Digit, surname, dan alphabet tidak berarti penilaian pribadi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Digit adalah angka, bukan penilaian pribadi." },
+          { "optionId": "C", "reasonId": "Surname adalah nama belakang, bukan penilaian pribadi." },
+          { "optionId": "D", "reasonId": "Alphabet adalah abjad, bukan penilaian pribadi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Opinion adalah pendapat pribadi seseorang tentang sesuatu.",
+          "examples": [
+            { "en": "My opinion is that we should wait.", "id": "Pendapat saya adalah kita harus menunggu." },
+            { "en": "The writer's opinion differs from the critic's.", "id": "Pendapat penulis berbeda dengan kritikus." }
+          ]
+        },
+        "examTrap": "Pilihan C surname terlihat cocok karena kalimat membahas pembicara, tetapi kalimat ini meminta penilaian pribadinya."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Pernyataan itu tidak benar menurut teks.",
+        "hint": "Pernyataan itu: the statement. Tidak benar: is not true. Menurut teks: according to the text.",
+        "acceptedAnswers": ["The statement is not true according to the text.", "According to the text, the statement is not true."],
+        "modelAnswer": "The statement is not true according to the text.",
+        "commonErrors": [{ "pattern": "The statement are not true according to text", "feedbackId": "Statement tunggal memakai is, dan gunakan the text." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penulis itu mengklaim bahwa data tersebut salah.",
+        "hint": "Penulis itu: the writer. Mengklaim: claims. Data tersebut: the data. Salah: is wrong.",
+        "acceptedAnswers": ["The writer claims that the data is wrong.", "The writer claims the data is wrong."],
+        "modelAnswer": "The writer claims that the data is wrong.",
+        "commonErrors": [{ "pattern": "The writer claim that the data is wrong", "feedbackId": "Subjek writer tunggal memakai claims." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Judul itu mencakup seluruh paragraf.",
+        "hint": "Judul itu: the heading. Mencakup: covers. Seluruh paragraf: the whole paragraph.",
+        "acceptedAnswers": ["The heading covers the whole paragraph.", "The heading covers the entire paragraph."],
+        "modelAnswer": "The heading covers the whole paragraph.",
+        "commonErrors": [{ "pattern": "The heading cover the whole paragraph", "feedbackId": "Subjek heading tunggal memakai covers." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Isilah celah itu dengan kata yang sesuai dengan batas jumlah kata.",
+        "hint": "Isilah celah itu: fill the gap. Kata yang sesuai: the right word. Batas jumlah kata: the word limit.",
+        "acceptedAnswers": ["Fill the gap with the right word within the word limit.", "Fill the gap with the correct word within the word limit."],
+        "modelAnswer": "Fill the gap with the right word within the word limit.",
+        "commonErrors": [{ "pattern": "Fills the gap with the right word within word limit", "feedbackId": "Instruksi memakai kata kerja dasar fill, dan gunakan the word limit." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sebenarnya, koreksi itu mengubah tanggal yang dicetak di halaman depan.",
+        "hint": "Sebenarnya: actually. Koreksi itu: the correction. Mengubah: changes. Tanggal yang dicetak: the printed date. Di halaman depan: on the front page.",
+        "acceptedAnswers": ["Actually, the correction changes the printed date on the front page.", "Actually, the correction changes the date printed on the front page."],
+        "modelAnswer": "Actually, the correction changes the printed date on the front page.",
+        "commonErrors": [{ "pattern": "Actually the correction change the printed date in front page", "feedbackId": "Subjek correction tunggal memakai changes, dan gunakan the front page." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence is a correct summary of a claim that the writer later rejects?",
+        "options": [
+          { "id": "A", "text": "The writer still believes the old claim." },
+          { "id": "B", "text": "The writer has retracted the old claim." },
+          { "id": "C", "text": "The writer has never made any claim." },
+          { "id": "D", "text": "The writer repeated the claim in the summary." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Jika penulis menolak klaim lamanya, berarti ia menarik kembali klaim itu.",
+        "stepByStep": [
+          "Klaim yang ditolak penulis berarti tidak lagi dipegang.",
+          "Menarik kembali klaim disebut retract.",
+          "Pilihan A, C, dan D bertentangan dengan penolakan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Penulis masih memegang klaim lama, bertentangan dengan penolakan." },
+          { "optionId": "C", "reasonId": "Kalimat ini menyatakan penulis tidak pernah membuat klaim, padahal ada klaim lama." },
+          { "optionId": "D", "reasonId": "Mengulang klaim dalam ringkasan bertentangan dengan penolakan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jika penulis menolak klaim lamanya, klaim itu tidak lagi berlaku.",
+          "examples": [
+            { "en": "The author retracted the earlier claim.", "id": "Penulis itu menarik kembali klaim sebelumnya." },
+            { "en": "The retracted claim is no longer valid.", "id": "Klaim yang ditarik kembali tidak lagi berlaku." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat masuk akal karena ringkasan sering mengulang isi teks, tetapi klaim yang ditarik tidak boleh diulang sebagai kebenaran."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'heading'?",
+        "options": [
+          { "id": "A", "text": "The headings is placed above the paragraph." },
+          { "id": "B", "text": "The heading is placed above the paragraph." },
+          { "id": "C", "text": "Heading the paragraph is above placed." },
+          { "id": "D", "text": "The heading placed above is the paragraph." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Heading adalah subjek tunggal, sehingga memakai is, dan frasa placed above the paragraph sudah benar.",
+        "stepByStep": [
+          "Heading adalah subjek tunggal, sehingga memakai is.",
+          "Frasa placed above the paragraph menunjukkan posisi judul.",
+          "Pilihan A memakai headings dengan is, pilihan C dan D urutannya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Headings jamak tidak cocok dengan is untuk satu judul." },
+          { "optionId": "C", "reasonId": "Urutan kata dalam kalimat ini salah." },
+          { "optionId": "D", "reasonId": "Kalimat ini menyatakan judul adalah paragraf, yang tidak sesuai dengan makna." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan frasa placed above menunjukkan posisi.",
+          "examples": [
+            { "en": "The heading is above the chart.", "id": "Judul itu ada di atas grafik." },
+            { "en": "The summary is placed at the end.", "id": "Ringkasan itu diletakkan di akhir." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena headings adalah bentuk jamak yang sah, tetapi kalimat ini menyebut satu judul."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The student left a ___ in the answer because the word was unclear.'",
+        "options": [
+          { "id": "A", "text": "gap" },
+          { "id": "B", "text": "claim" },
+          { "id": "C", "text": "correction" },
+          { "id": "D", "text": "opinion" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Gap berarti celah yang dibiarkan kosong, sesuai dengan jawaban yang tidak jelas.",
+        "stepByStep": [
+          "Kalimat menyebut bagian jawaban yang dibiarkan karena tidak jelas.",
+          "Bagian kosong dalam jawaban disebut gap.",
+          "Claim, correction, dan opinion tidak berarti bagian kosong."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Claim berarti klaim, bukan bagian kosong." },
+          { "optionId": "C", "reasonId": "Correction berarti koreksi, bukan bagian kosong." },
+          { "optionId": "D", "reasonId": "Opinion berarti pendapat, bukan bagian kosong." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gap adalah bagian yang dibiarkan kosong untuk diisi dengan kata yang tepat.",
+          "examples": [
+            { "en": "Fill the gap in the sentence.", "id": "Isilah celah dalam kalimat itu." },
+            { "en": "There is a gap in the notes.", "id": "Ada celah dalam catatannya." }
+          ]
+        },
+        "examTrap": "Pilihan C correction terlihat cocok karena berkaitan dengan jawaban yang salah, tetapi kalimat ini meminta bagian yang dibiarkan kosong."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'a personal judgment about something, not necessarily based on facts'?",
+        "options": [
+          { "id": "A", "text": "opinion" },
+          { "id": "B", "text": "spelling" },
+          { "id": "C", "text": "summary" },
+          { "id": "D", "text": "gap" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Opinion adalah penilaian pribadi yang tidak selalu berdasarkan fakta.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk penilaian pribadi.",
+          "Penilaian pribadi yang tidak harus berdasarkan fakta disebut opinion.",
+          "Spelling, summary, dan gap tidak berarti penilaian pribadi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Spelling berarti ejaan, bukan penilaian pribadi." },
+          { "optionId": "C", "reasonId": "Summary berarti ringkasan, bukan penilaian pribadi." },
+          { "optionId": "D", "reasonId": "Gap berarti celah, bukan penilaian pribadi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Opinion adalah pendapat seseorang, yang bisa berbeda dari fakta.",
+          "examples": [
+            { "en": "Her opinion on the film was mixed.", "id": "Pendapatnya tentang film itu beragam." },
+            { "en": "This is only my opinion, not a fact.", "id": "Ini hanya pendapat saya, bukan fakta." }
+          ]
+        },
+        "examTrap": "Pilihan C summary terlihat cocok karena berkaitan dengan isi teks, tetapi summary adalah ringkasan, bukan penilaian pribadi."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The spelling of the names are checked." },
+          { "id": "B", "text": "The spelling of the names is checked." },
+          { "id": "C", "text": "The spellings of the names is checked." },
+          { "id": "D", "text": "The spelling of the name are checked." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek spelling tunggal memakai is, dan frasa of the names menerangkan apa yang diperiksa.",
+        "stepByStep": [
+          "Subjek spelling tunggal, sehingga kata kerjanya is.",
+          "Frasa of the names menerangkan apa yang dicek.",
+          "Pilihan A memakai are untuk subjek tunggal, pilihan C memakai spellings dengan is, dan pilihan D memakai name dengan are."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal spelling." },
+          { "optionId": "C", "reasonId": "Spellings jamak tidak cocok dengan is di sini." },
+          { "optionId": "D", "reasonId": "Are tidak cocok dengan subjek tunggal spelling." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, meskipun ada frasa of yang berbentuk jamak.",
+          "examples": [
+            { "en": "The spelling of the words is correct.", "id": "Ejaan kata-kata itu benar." },
+            { "en": "The order of the steps is clear.", "id": "Urutan langkah-langkah itu jelas." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena names jamak, tetapi subjek utama kalimat adalah spelling yang tunggal."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1274 @@
+{
+  "day": 70,
+  "week": 10,
+  "month": 3,
+  "title": "Writing Task 1: Pie Chart dan Table",
+  "topic": "Mendeskripsikan bagian dari keseluruhan dan data tabel",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membaca pie chart sebagai bagian dari total",
+    "Menyebut proporsi dan rasio dengan benar",
+    "Merangkum tabel menjadi perbandingan yang jelas"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "slice",
+        "pronunciationId": "SLAIS (tekanan di SLAIS)",
+        "pos": "Noun",
+        "meaningId": "irisan, potongan",
+        "example": "Each slice is one expense.",
+        "exampleId": "Setiap irisan adalah satu pengeluaran."
+      },
+      {
+        "no": 2,
+        "en": "fraction",
+        "pronunciationId": "FRAK-shun (tekanan di FRAK)",
+        "pos": "Noun",
+        "meaningId": "pecahan, bagian",
+        "example": "A fraction of the budget went to rent.",
+        "exampleId": "Sebagian kecil anggaran digunakan untuk sewa."
+      },
+      {
+        "no": 3,
+        "en": "total",
+        "pronunciationId": "TOH-tul (tekanan di TOH)",
+        "pos": "Noun",
+        "meaningId": "total, jumlah keseluruhan",
+        "example": "The total is 100 percent.",
+        "exampleId": "Totalnya 100 persen."
+      },
+      {
+        "no": 4,
+        "en": "dominate",
+        "pronunciationId": "DOM-i-nayt (tekanan di DOM)",
+        "pos": "Verb",
+        "meaningId": "mendominasi",
+        "example": "Rent can dominate the budget.",
+        "exampleId": "Sewa bisa mendominasi anggaran."
+      },
+      {
+        "no": 5,
+        "en": "constitute",
+        "pronunciationId": "KON-sti-toot (tekanan di KON)",
+        "pos": "Verb",
+        "meaningId": "merupakan, membentuk",
+        "example": "Women constitute half of the group.",
+        "exampleId": "Perempuan merupakan separuh kelompok."
+      },
+      {
+        "no": 6,
+        "en": "breakdown",
+        "pronunciationId": "BREK-down (tekanan di BREK)",
+        "pos": "Noun",
+        "meaningId": "rincian",
+        "example": "The breakdown shows each cost.",
+        "exampleId": "Rincian itu menunjukkan setiap biaya."
+      },
+      {
+        "no": 7,
+        "en": "ratio",
+        "pronunciationId": "RAY-shoh (tekanan di RAY)",
+        "pos": "Noun",
+        "meaningId": "rasio, perbandingan",
+        "example": "The ratio is two to one.",
+        "exampleId": "Rasionya dua banding satu."
+      },
+      {
+        "no": 8,
+        "en": "account",
+        "pronunciationId": "uh-KOWNT (tekanan di KOWNT)",
+        "pos": "Verb",
+        "meaningId": "menyumbang, menjelaskan",
+        "example": "Water accounts for one tenth.",
+        "exampleId": "Air menyumbang sepersepuluh."
+      },
+      {
+        "no": 9,
+        "en": "tabulate",
+        "pronunciationId": "TAB-yoo-layt (tekanan di TAB)",
+        "pos": "Verb",
+        "meaningId": "menyusun dalam tabel",
+        "example": "The data is tabulated by region.",
+        "exampleId": "Datanya disusun dalam tabel menurut wilayah."
+      },
+      {
+        "no": 10,
+        "en": "figure",
+        "pronunciationId": "FIG-yer (tekanan di FIG)",
+        "pos": "Noun",
+        "meaningId": "angka, nilai",
+        "example": "The figure is clear.",
+        "exampleId": "Angkanya jelas."
+      }
+    ],
+    "tip": "Pada pie chart, selalu sebut bagian terbesar dan kaitkan dengan total. Pada tabel, pilih dua atau tiga angka yang paling penting, lalu bandingkan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 pie chart",
+        "IELTS table description"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membaca pie chart dan tabel, dengan contoh bagian dari total dan rasio.",
+      "watchFor": [
+        "Bagian terbesar dalam pie chart",
+        "Rasio dari dua angka",
+        "Rincian data dalam tabel"
+      ]
+    },
+    "lesson": {
+      "intro": "Pie chart menunjukkan bagian dari satu total. Tabel menyusun data dalam baris dan kolom. Keduanya meminta kamu memilih angka penting dan membandingkannya, bukan menyalin semua angka.",
+      "sections": [
+        {
+          "heading": "Bagian dari total",
+          "bodyMd": "Setiap **slice** adalah **fraction** dari **total**. Jika satu bagian **dominate** grafik, sebut angkanya. Gunakan **constitute** untuk menyatakan bahwa sesuatu merupakan bagian dari keseluruhan."
+        },
+        {
+          "heading": "Rasio dan rincian",
+          "bodyMd": "**Ratio** membandingkan dua angka. **Breakdown** adalah rincian per kategori. Jika bagian kecil, gunakan **account for** untuk menyebut sumbangannya."
+        },
+        {
+          "heading": "Tabel",
+          "bodyMd": "Sebuah tabel biasanya sudah **tabulate** data menurut kelompok. Pilih satu atau dua **figure** yang paling menonjol, lalu bandingkan dengan kelompok lain."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Bagian",
+          "pattern": "X accounts for / constitutes about A% of the total"
+        },
+        {
+          "label": "Dominasi",
+          "pattern": "X dominates the chart, at A%"
+        },
+        {
+          "label": "Rasio",
+          "pattern": "the ratio of X to Y is A to B"
+        },
+        {
+          "label": "Tabel",
+          "pattern": "the table breaks down / tabulates the data by Z"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "Each slice shows a fraction of the total.",
+            "id": "Setiap irisan menunjukkan bagian dari total."
+          },
+          {
+            "en": "Electricity constitutes almost half of the spending.",
+            "id": "Listrik merupakan hampir separuh pengeluaran."
+          },
+          {
+            "en": "Rent dominates the budget.",
+            "id": "Sewa mendominasi anggaran."
+          },
+          {
+            "en": "The ratio of rent to income is one to four.",
+            "id": "Rasio sewa terhadap pendapatan adalah satu banding empat."
+          },
+          {
+            "en": "The table tabulates the data by region.",
+            "id": "Tabel itu menyusun data menurut wilayah."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The pie chart does not show the total income.",
+            "id": "Diagram lingkaran itu tidak menunjukkan total pendapatan."
+          },
+          {
+            "en": "Water does not dominate the budget.",
+            "id": "Air tidak mendominasi anggaran."
+          },
+          {
+            "en": "The breakdown is not given for each year.",
+            "id": "Rincian tidak diberikan untuk setiap tahun."
+          },
+          {
+            "en": "The figure is not accurate for the rural areas.",
+            "id": "Angkanya tidak akurat untuk daerah pedesaan."
+          },
+          {
+            "en": "The ratio is not equal to one.",
+            "id": "Rasionya tidak sama dengan satu."
+          }
+        ],
+        "question": [
+          {
+            "en": "Which slice is the largest?",
+            "id": "Irisan mana yang paling besar?"
+          },
+          {
+            "en": "What is the total?",
+            "id": "Berapa totalnya?"
+          },
+          {
+            "en": "What is the ratio between the two groups?",
+            "id": "Berapa rasio antara kedua kelompok itu?"
+          },
+          {
+            "en": "Does the table show the breakdown by region?",
+            "id": "Apakah tabel itu menunjukkan rincian menurut wilayah?"
+          },
+          {
+            "en": "How much does water account for?",
+            "id": "Berapa bagian yang disumbang air?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The electricity constitute half of the total.",
+          "right": "Electricity constitutes half of the total.",
+          "whyId": "Subjek electricity tunggal memakai constitutes."
+        },
+        {
+          "wrong": "Each slices is a fraction of the total.",
+          "right": "Each slice is a fraction of the total.",
+          "whyId": "Setelah each, kata benda memakai bentuk tunggal slice."
+        },
+        {
+          "wrong": "The ratio are one to three.",
+          "right": "The ratio is one to three.",
+          "whyId": "Ratio adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "Water accounts for a one tenth.",
+          "right": "Water accounts for one tenth.",
+          "whyId": "Pecahan one tenth tidak memakai a."
+        },
+        {
+          "wrong": "The table tabulate the data by region.",
+          "right": "The table tabulates the data by region.",
+          "whyId": "Subjek table tunggal memakai tabulates."
+        },
+        {
+          "wrong": "The breakdowns is clear.",
+          "right": "The breakdown is clear.",
+          "whyId": "Breakdown adalah kata benda tunggal, jadi memakai is."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 pie chart",
+        "tutor explains chart English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Penjelasan tutor tentang bagian dalam pie chart",
+        "Rasio dan tabel yang disebut"
+      ]
+    },
+    "script": {
+      "title": "Membaca pie chart dan tabel",
+      "lines": [
+        {
+          "speaker": "Tutor",
+          "text": "Look at this pie chart first. The whole circle is the total number of households surveyed, and each slice is a fraction of that total."
+        },
+        {
+          "speaker": "Student",
+          "text": "Which slice is the biggest?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Electricity is the largest slice. It constitutes almost half of the total spending, so it seems to dominate the household budget."
+        },
+        {
+          "speaker": "Student",
+          "text": "What about the breakdown in the table?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "The table tabulates the same data by region. The ratio between electricity and water is about three to one."
+        },
+        {
+          "speaker": "Student",
+          "text": "What does water account for?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Water accounts for only one tenth of the total. The figure is small, but it is still useful for comparison."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is there a surprise in the chart?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Yes. Gas is smaller than most people expect. Its slice is only a small share of the total."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thank you. That helps me describe the data."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada constitutes, tekanan ada di suku pertama: KON-sti-toot.",
+      "Pada tabulate, tekanan ada di suku pertama: TAB-yoo-layt.",
+      "Pada dominate, tekanan ada di suku pertama: DOM-i-nayt."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the whole circle in the pie chart represent?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the total number of households surveyed"
+          },
+          {
+            "id": "B",
+            "text": "the price of electricity"
+          },
+          {
+            "id": "C",
+            "text": "the number of regions"
+          },
+          {
+            "id": "D",
+            "text": "the cost of water"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata lingkaran penuh adalah total rumah tangga yang disurvei.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Harga listrik adalah salah satu irisan, bukan keseluruhan lingkaran."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Jumlah wilayah tidak disebut sebagai lingkaran penuh."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Biaya air adalah satu irisan, bukan keseluruhan."
+          }
+        ],
+        "evidence": "The whole circle is the total number of households surveyed"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Which expense is the largest slice?",
+        "options": [
+          {
+            "id": "A",
+            "text": "water"
+          },
+          {
+            "id": "B",
+            "text": "gas"
+          },
+          {
+            "id": "C",
+            "text": "electricity"
+          },
+          {
+            "id": "D",
+            "text": "heating"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'Electricity is the largest slice', artinya listrik adalah irisan terbesar.",
+        "stepByStep": [
+          "Cari largest slice di naskah tutor.",
+          "Tutor menyebut electricity sebagai irisan terbesar.",
+          "Air, gas, dan pemanasan tidak disebut sebagai irisan terbesar."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Air disebut sebagai bagian kecil, bukan irisan terbesar."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Gas disebut lebih kecil dari yang diharapkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pemanasan tidak disebut sebagai irisan terbesar."
+          }
+        ],
+        "evidence": "Electricity is the largest slice"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What share of the total does electricity constitute?",
+        "options": [
+          {
+            "id": "A",
+            "text": "about one tenth"
+          },
+          {
+            "id": "B",
+            "text": "almost half"
+          },
+          {
+            "id": "C",
+            "text": "about one quarter"
+          },
+          {
+            "id": "D",
+            "text": "about three quarters"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata listrik 'constitutes almost half of the total spending', artinya hampir separuh.",
+        "stepByStep": [
+          "Cari constitutes di naskah tutor.",
+          "Tutor menyebut almost half of the total spending.",
+          "Sepersepuluh, seperempat, dan tiga perempat tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Sepersepuluh adalah porsi air, bukan listrik."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Seperempat tidak disebut untuk listrik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tiga perempat tidak disebut untuk listrik."
+          }
+        ],
+        "evidence": "It constitutes almost half of the total spending"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is the approximate ratio between electricity and water?",
+        "options": [
+          {
+            "id": "A",
+            "text": "one to three"
+          },
+          {
+            "id": "B",
+            "text": "three to one"
+          },
+          {
+            "id": "C",
+            "text": "one to one"
+          },
+          {
+            "id": "D",
+            "text": "three to two"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'The ratio between electricity and water is about three to one', artinya rasionya sekitar tiga banding satu.",
+        "stepByStep": [
+          "Cari ratio di naskah tutor.",
+          "Tutor menyebut rasio listrik dan air sekitar tiga banding satu.",
+          "Satu banding tiga tertukar, dan satu banding satu serta tiga banding dua tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Satu banding tiga adalah kebalikan dari rasio yang disebut."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Satu banding satu berarti sama besar, tidak sesuai dengan naskah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tiga banding dua tidak disebut dalam naskah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rasio membandingkan dua angka, dan urutan dalam rasio mengikuti urutan yang disebut.",
+          "examples": [
+            {
+              "en": "The ratio of cars to bikes is two to one.",
+              "id": "Rasio mobil terhadap sepeda adalah dua banding satu."
+            },
+            {
+              "en": "The ratio is about three to one.",
+              "id": "Rasionya sekitar tiga banding satu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A one to three terlihat cocok karena angkanya sama, tetapi urutannya dibalik dari yang disebut tutor.",
+        "evidence": "The ratio between electricity and water is about three to one"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the tutor say about gas?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It is larger than most people expect."
+          },
+          {
+            "id": "B",
+            "text": "It is the same as heating costs."
+          },
+          {
+            "id": "C",
+            "text": "It is cheaper than water in every region."
+          },
+          {
+            "id": "D",
+            "text": "It is a small slice."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Tutor berkata gas lebih kecil dari yang diharapkan, dan irisannya hanya sebagian kecil dari total.",
+        "stepByStep": [
+          "Cari gas di naskah tutor.",
+          "Tutor menyebut gas lebih kecil dari perkiraan orang dan irisannya kecil.",
+          "Pernyataan bahwa gas lebih besar, sama dengan pemanasan, atau lebih murah di setiap wilayah tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Tutor menyebut gas lebih kecil dari perkiraan, bukan lebih besar."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Biaya pemanasan tidak disamakan dengan gas dalam naskah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Perbandingan murah di setiap wilayah tidak disebut dalam naskah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Small slice berarti bagian kecil dari total, dan sering dipakai untuk menyatakan kontribusi yang rendah.",
+          "examples": [
+            {
+              "en": "The slice for gas is small.",
+              "id": "Irisan untuk gas kecil."
+            },
+            {
+              "en": "Heating is a small share of the budget.",
+              "id": "Pemanasan adalah bagian kecil dari anggaran."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat sebagai kebalikan yang masuk akal, tetapi tutor menyebut gas lebih kecil dari yang diharapkan orang.",
+        "evidence": "Its slice is only a small share of the total"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Each ___ of the pie chart shows one expense.",
+        "options": [
+          {
+            "id": "A",
+            "text": "slice"
+          },
+          {
+            "id": "B",
+            "text": "tunnel"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Slice adalah irisan dalam pie chart, dan setiap irisan menunjukkan satu pengeluaran.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Tunnel berarti terowongan, bukan irisan grafik."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan irisan grafik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan irisan grafik."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The table will ___ the data by region so it is easy to compare.",
+        "options": [
+          {
+            "id": "A",
+            "text": "dominate"
+          },
+          {
+            "id": "B",
+            "text": "constitute"
+          },
+          {
+            "id": "C",
+            "text": "tabulate"
+          },
+          {
+            "id": "D",
+            "text": "account"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tabulate berarti menyusun data dalam bentuk tabel, dan kalimat ini menyebut tabel menurut wilayah.",
+        "stepByStep": [
+          "Kalimat menyebut data disusun dalam tabel menurut wilayah.",
+          "Menyusun data dalam tabel disebut tabulate.",
+          "Dominate, constitute, dan account tidak berarti menyusun data dalam tabel."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Dominate berarti mendominasi, bukan menyusun tabel."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Constitute berarti merupakan, bukan menyusun tabel."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Account berarti menyumbang, bukan menyusun tabel."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Electricity will ___ the budget if the prices keep rising.",
+        "options": [
+          {
+            "id": "A",
+            "text": "constitute"
+          },
+          {
+            "id": "B",
+            "text": "dominate"
+          },
+          {
+            "id": "C",
+            "text": "ratio"
+          },
+          {
+            "id": "D",
+            "text": "account"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Dominate berarti menguasai atau mendominasi, dan kalimat ini menyebut listrik akan menguasai anggaran.",
+        "stepByStep": [
+          "Kalimat menyebut listrik menguasai anggaran jika harga naik.",
+          "Menguasai sebagian besar disebut dominate.",
+          "Constitute, ratio, dan account tidak berarti menguasai anggaran."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Constitute berarti merupakan, bukan menguasai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ratio adalah kata benda, tidak bisa menjadi kata kerja di sini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Account berarti menyumbang, tidak cocok dengan konteks menguasai."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Fuel and food together ___ almost two thirds of the total spending.",
+        "options": [
+          {
+            "id": "A",
+            "text": "tabulate"
+          },
+          {
+            "id": "B",
+            "text": "figure"
+          },
+          {
+            "id": "C",
+            "text": "fraction"
+          },
+          {
+            "id": "D",
+            "text": "constitute"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Constitute berarti merupakan, dan kalimat ini menyatakan bahwa bahan bakar dan makanan merupakan hampir dua pertiga total.",
+        "stepByStep": [
+          "Kalimat menyatakan bahan bakar dan makanan merupakan bagian dari total.",
+          "Kata kerja yang berarti merupakan adalah constitute.",
+          "Tabulate, figure, dan fraction tidak tepat sebagai kata kerja di sini."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Tabulate berarti menyusun tabel, bukan merupakan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Figure adalah angka, bukan kata kerja di sini."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Fraction adalah pecahan, bukan kata kerja di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Constitute berarti merupakan atau membentuk, dan dipakai untuk menyatakan bagian dari keseluruhan.",
+          "examples": [
+            {
+              "en": "Students constitute most of the audience.",
+              "id": "Mahasiswa merupakan sebagian besar hadirin."
+            },
+            {
+              "en": "Rent constitutes a large share of costs.",
+              "id": "Sewa merupakan porsi besar dari biaya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C fraction terlihat cocok karena menyangkut bagian dari total, tetapi fraction adalah kata benda, bukan kata kerja."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ of rent to income is one to four for most families.",
+        "options": [
+          {
+            "id": "A",
+            "text": "total"
+          },
+          {
+            "id": "B",
+            "text": "ratio"
+          },
+          {
+            "id": "C",
+            "text": "breakdown"
+          },
+          {
+            "id": "D",
+            "text": "slice"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Ratio adalah perbandingan dua angka, dan kalimat ini menyebut satu banding empat.",
+        "stepByStep": [
+          "Kalimat menyebut perbandingan sewa dan pendapatan.",
+          "Perbandingan dua angka disebut ratio.",
+          "Total, breakdown, dan slice tidak berarti perbandingan dua angka."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Total berarti jumlah keseluruhan, bukan perbandingan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Breakdown adalah rincian, bukan perbandingan dua angka."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Slice adalah irisan, bukan perbandingan dua angka."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Ratio membandingkan dua nilai dan ditulis dengan to, misalnya one to four.",
+          "examples": [
+            {
+              "en": "The ratio of teachers to students is one to ten.",
+              "id": "Rasio guru terhadap siswa adalah satu banding sepuluh."
+            },
+            {
+              "en": "The ratio is easy to compare.",
+              "id": "Rasio itu mudah dibandingkan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C breakdown terlihat cocok karena membahas data keluarga, tetapi kalimat ini meminta perbandingan dua angka."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Irisan terbesar mewakili pengeluaran listrik.",
+        "hint": "Irisan terbesar: the largest slice. Mewakili: represents. Pengeluaran listrik: electricity spending.",
+        "acceptedAnswers": [
+          "The largest slice represents electricity spending.",
+          "The biggest slice represents the electricity spending."
+        ],
+        "modelAnswer": "The largest slice represents electricity spending.",
+        "commonErrors": [
+          {
+            "pattern": "The largest slice represent electricity spending",
+            "feedbackId": "Subjek slice tunggal memakai represents."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Total pengeluaran keluarga itu lebih dari 100 ribu.",
+        "hint": "Total pengeluaran keluarga: the total household spending. Lebih dari: more than. 100 ribu: 100 thousand.",
+        "acceptedAnswers": [
+          "The total household spending is more than 100 thousand.",
+          "Total household spending is more than 100 thousand."
+        ],
+        "modelAnswer": "The total household spending is more than 100 thousand.",
+        "commonErrors": [
+          {
+            "pattern": "The total household spending are more than 100 thousand",
+            "feedbackId": "Subjek spending tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Listrik mencakup hampir separuh dari total.",
+        "hint": "Listrik: electricity. Mencakup: constitutes atau accounts for. Hampir separuh: almost half. Dari total: of the total.",
+        "acceptedAnswers": [
+          "Electricity constitutes almost half of the total.",
+          "Electricity accounts for almost half of the total."
+        ],
+        "modelAnswer": "Electricity constitutes almost half of the total.",
+        "commonErrors": [
+          {
+            "pattern": "Electricity constitute almost half of total",
+            "feedbackId": "Subjek electricity tunggal memakai constitutes, dan gunakan the total."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Rasio antara listrik dan air adalah tiga banding satu.",
+        "hint": "Rasio: the ratio. Antara listrik dan air: between electricity and water. Tiga banding satu: three to one.",
+        "acceptedAnswers": [
+          "The ratio between electricity and water is three to one.",
+          "The ratio of electricity to water is three to one."
+        ],
+        "modelAnswer": "The ratio between electricity and water is three to one.",
+        "commonErrors": [
+          {
+            "pattern": "The ratio between electricity and water are three to one",
+            "feedbackId": "Subjek ratio tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tabel itu merinci data menurut wilayah.",
+        "hint": "Tabel itu: the table. Merinci: breaks down. Data menurut wilayah: the data by region.",
+        "acceptedAnswers": [
+          "The table breaks down the data by region.",
+          "The table tabulates the data by region."
+        ],
+        "modelAnswer": "The table breaks down the data by region.",
+        "commonErrors": [
+          {
+            "pattern": "The table break down the data by regions",
+            "feedbackId": "Subjek table tunggal memakai breaks, dan region tunggal dengan by."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to be the most powerful or largest part'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "fraction"
+          },
+          {
+            "id": "B",
+            "text": "dominate"
+          },
+          {
+            "id": "C",
+            "text": "tabulate"
+          },
+          {
+            "id": "D",
+            "text": "total"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Dominate berarti menguasai atau menjadi bagian yang paling besar.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk bagian paling besar atau paling kuat.",
+          "Kata kerja yang berarti menguasai adalah dominate.",
+          "Fraction berarti pecahan, tabulate berarti menyusun tabel, dan total berarti jumlah keseluruhan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Fraction berarti pecahan, bukan menguasai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tabulate berarti menyusun tabel, bukan menguasai."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Total berarti jumlah keseluruhan, bukan menguasai."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dominate dipakai untuk bagian yang paling besar atau paling berpengaruh.",
+          "examples": [
+            {
+              "en": "Rent dominates the family budget.",
+              "id": "Sewa mendominasi anggaran keluarga."
+            },
+            {
+              "en": "One colour dominates the chart.",
+              "id": "Satu warna mendominasi grafik."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D total terlihat cocok karena berkaitan dengan keseluruhan, tetapi total adalah jumlah keseluruhan, bukan bagian yang paling besar."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'fraction'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Each slice is a fraction of the total."
+          },
+          {
+            "id": "B",
+            "text": "Each slice are fraction of the total."
+          },
+          {
+            "id": "C",
+            "text": "Fraction the total each slice is of."
+          },
+          {
+            "id": "D",
+            "text": "Each fractions is the total slice."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Each slice adalah subjek tunggal dengan is, dan a fraction of the total menjelaskan bagiannya.",
+        "stepByStep": [
+          "Each slice adalah subjek tunggal, sehingga memakai is.",
+          "Frasa a fraction of the total menjelaskan bahwa irisan adalah bagian dari total.",
+          "Pilihan B memakai are dan tanpa a, pilihan C dan D urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Are tidak cocok dengan subjek tunggal each slice, dan fraction memerlukan a."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Fractions jamak tidak cocok dengan each, dan urutannya salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Each diikuti kata benda tunggal, dan fraction of the total menjelaskan bagian dari keseluruhan.",
+          "examples": [
+            {
+              "en": "Each bar is a fraction of the total.",
+              "id": "Setiap batang adalah bagian dari total."
+            },
+            {
+              "en": "The fraction is one quarter.",
+              "id": "Pecahannya seperempat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat dekat karena menyebut fraction, tetapi subjek each slice tunggal tidak cocok dengan are."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ of electricity to gas is four to one.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "dominate"
+          },
+          {
+            "id": "B",
+            "text": "constitute"
+          },
+          {
+            "id": "C",
+            "text": "ratio"
+          },
+          {
+            "id": "D",
+            "text": "figure"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Ratio adalah perbandingan dua angka, dan kalimat ini menyebut rasio listrik terhadap gas.",
+        "stepByStep": [
+          "Kalimat menyebut perbandingan dua angka: four to one.",
+          "Perbandingan dua angka disebut ratio.",
+          "Dominate dan constitute adalah kata kerja, figure adalah angka tunggal."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Dominate adalah kata kerja, tidak cocok sebagai subjek perbandingan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Constitute adalah kata kerja, tidak cocok sebagai subjek perbandingan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Figure berarti angka tunggal, bukan perbandingan dua angka."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Ratio dipakai untuk membandingkan dua nilai, sering dengan to.",
+          "examples": [
+            {
+              "en": "The ratio of cars to buses is two to one.",
+              "id": "Rasio mobil terhadap bus adalah dua banding satu."
+            },
+            {
+              "en": "The ratio is about one to ten.",
+              "id": "Rasionya sekitar satu banding sepuluh."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D figure terlihat cocok karena kalimat berisi angka, tetapi figure hanya satu angka, bukan perbandingan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'to organise data in a table'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "account"
+          },
+          {
+            "id": "B",
+            "text": "constitute"
+          },
+          {
+            "id": "C",
+            "text": "figure"
+          },
+          {
+            "id": "D",
+            "text": "tabulate"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Tabulate berarti menyusun data dalam bentuk tabel.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk menyusun data dalam tabel.",
+          "Kata kerja yang tepat adalah tabulate.",
+          "Account, constitute, dan figure tidak berarti menyusun tabel."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Account berarti menyumbang atau menjelaskan, bukan menyusun tabel."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Constitute berarti merupakan, bukan menyusun tabel."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Figure berarti angka, bukan kata kerja menyusun tabel."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tabulate berarti menyusun data dalam bentuk tabel agar mudah dibandingkan.",
+          "examples": [
+            {
+              "en": "The survey data was tabulated by age.",
+              "id": "Data survei disusun dalam tabel menurut usia."
+            },
+            {
+              "en": "We tabulate the results every month.",
+              "id": "Kami menyusun hasil dalam tabel setiap bulan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A account terlihat cocok karena sering dipakai dalam konteks data, tetapi account berarti menyumbang."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The breakdown are useful for the report."
+          },
+          {
+            "id": "B",
+            "text": "The breakdown is useful for the report."
+          },
+          {
+            "id": "C",
+            "text": "The breakdowns is useful for the report."
+          },
+          {
+            "id": "D",
+            "text": "The breakdown were useful for the report."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Breakdown adalah kata benda tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Breakdown adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa useful for the report menjelaskan manfaatnya.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, pilihan C memakai breakdowns dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal breakdown."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Breakdowns jamak tidak cocok dengan is untuk satu rincian."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Were tidak cocok dengan subjek tunggal breakdown."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Breakdown adalah kata benda tunggal yang dipakai dengan is atau was.",
+          "examples": [
+            {
+              "en": "The breakdown was clear.",
+              "id": "Rincian itu jelas."
+            },
+            {
+              "en": "This breakdown is detailed.",
+              "id": "Rincian ini terperinci."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena rincian sering dibicarakan jamak, tetapi subjek kalimat ini tunggal."
+      }
+    ]
+  }
+}

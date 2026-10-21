@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W11-001",
+    "week": 11,
+    "topicTag": "esai-opini",
+    "type": "mcq",
+    "prompt": "Which word describes a strong, firmly held belief?",
+    "options": [
+      { "id": "A", "text": "conviction" },
+      { "id": "B", "text": "bridge" },
+      { "id": "C", "text": "garden" },
+      { "id": "D", "text": "ticket" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Conviction adalah keyakinan yang kuat dan dipegang teguh.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk keyakinan yang kuat.",
+      "Keyakinan yang dipegang teguh disebut conviction.",
+      "Bridge, garden, dan ticket tidak berarti keyakinan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Bridge berarti jembatan, bukan keyakinan." },
+      { "optionId": "C", "reasonId": "Garden berarti taman, bukan keyakinan." },
+      { "optionId": "D", "reasonId": "Ticket berarti tiket, bukan keyakinan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Conviction menunjukkan keyakinan kuat yang mendorong seseorang untuk membela pandangannya.",
+      "examples": [
+        { "en": "Her conviction about the policy was strong.", "id": "Keyakinannya tentang kebijakan itu kuat." },
+        { "en": "He wrote with great conviction.", "id": "Dia menulis dengan keyakinan yang besar." }
+      ]
+    },
+    "examTrap": "Pilihan B bridge terlihat seperti kata yang bisa dipakai dalam esai, tetapi bridge tidak berarti keyakinan."
+  },
+  {
+    "id": "W11-002",
+    "week": 11,
+    "topicTag": "esai-opini",
+    "type": "mcq",
+    "prompt": "Which word means a position or point of view someone takes on an issue?",
+    "options": [
+      { "id": "A", "text": "transition" },
+      { "id": "B", "text": "mitigate" },
+      { "id": "C", "text": "standpoint" },
+      { "id": "D", "text": "cohesion" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Standpoint berarti posisi atau sudut pandang seseorang terhadap suatu isu.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk posisi terhadap isu.",
+      "Posisi seseorang terhadap isu disebut standpoint.",
+      "Transition, mitigate, dan cohesion tidak berarti posisi."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Transition berarti transisi antarbagian, bukan posisi." },
+      { "optionId": "B", "reasonId": "Mitigate berarti mengurangi dampak, bukan posisi." },
+      { "optionId": "D", "reasonId": "Cohesion berarti keterikatan, bukan posisi." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Standpoint adalah posisi yang diambil penulis atau pembicara dalam sebuah isu.",
+      "examples": [
+        { "en": "My standpoint is that schools should start later.", "id": "Posisi saya adalah sekolah sebaiknya dimulai lebih siang." },
+        { "en": "The writer's standpoint is clearly stated.", "id": "Posisi penulis dinyatakan dengan jelas." }
+      ]
+    },
+    "examTrap": "Pilihan D cohesion terlihat dekat dengan kata cohesive, tetapi cohesion berarti keterikatan, bukan posisi."
+  },
+  {
+    "id": "W11-003",
+    "week": 11,
+    "topicTag": "esai-opini",
+    "type": "mcq",
+    "prompt": "Which word means able to convince people through good reasons?",
+    "options": [
+      { "id": "A", "text": "debatable" },
+      { "id": "B", "text": "persuasive" },
+      { "id": "C", "text": "credible" },
+      { "id": "D", "text": "contention" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Persuasive berarti mampu meyakinkan orang melalui alasan yang baik.",
+    "stepByStep": [
+      "Kalimat meminta kata sifat untuk mampu meyakinkan.",
+      "Kata sifat yang tepat adalah persuasive.",
+      "Debatable berarti dapat diperdebatkan, credible berarti dapat dipercaya, dan contention berarti pendapat yang dipertahankan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Debatable berarti dapat diperdebatkan, bukan meyakinkan." },
+      { "optionId": "C", "reasonId": "Credible berarti dapat dipercaya, bukan meyakinkan." },
+      { "optionId": "D", "reasonId": "Contention adalah pendapat yang dipertahankan, bukan kata sifat meyakinkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Persuasive adalah kata sifat untuk argumen atau tulisan yang meyakinkan pembaca.",
+      "examples": [
+        { "en": "The essay is persuasive because it uses clear evidence.", "id": "Esai itu meyakinkan karena memakai bukti yang jelas." },
+        { "en": "A persuasive speech moves the audience.", "id": "Pidato yang meyakinkan menggerakkan hadirin." }
+      ]
+    },
+    "examTrap": "Pilihan C credible terlihat cocok karena argumen yang meyakinkan biasanya juga kredibel, tetapi kata yang diminta menunjukkan kemampuan meyakinkan."
+  },
+  {
+    "id": "W11-004",
+    "week": 11,
+    "topicTag": "esai-opini",
+    "type": "mcq",
+    "prompt": "Which word means open to argument or disagreement?",
+    "options": [
+      { "id": "A", "text": "credible" },
+      { "id": "B", "text": "persuasive" },
+      { "id": "C", "text": "reasonable" },
+      { "id": "D", "text": "debatable" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Debatable berarti dapat diperdebatkan, yaitu masih terbuka untuk perbedaan pendapat.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk sesuatu yang masih terbuka pada perbedaan pendapat.",
+      "Kata sifat yang tepat adalah debatable.",
+      "Credible, persuasive, dan reasonable tidak berarti terbuka untuk diperdebatkan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Credible berarti dapat dipercaya, bukan terbuka untuk diperdebatkan." },
+      { "optionId": "B", "reasonId": "Persuasive berarti meyakinkan, bukan terbuka untuk diperdebatkan." },
+      { "optionId": "C", "reasonId": "Reasonable berarti masuk akal, bukan terbuka untuk diperdebatkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Debatable dipakai untuk isu yang belum disepakati semua pihak.",
+      "examples": [
+        { "en": "Whether homework helps is debatable.", "id": "Apakah pekerjaan rumah membantu itu dapat diperdebatkan." },
+        { "en": "The result is debatable.", "id": "Hasilnya dapat diperdebatkan." }
+      ]
+    },
+    "examTrap": "Pilihan C reasonable terlihat dekat karena sama-sama positif dan sering dipakai dalam esai, tetapi reasonable berarti masuk akal."
+  },
+  {
+    "id": "W11-005",
+    "week": 11,
+    "topicTag": "esai-opini",
+    "type": "mcq",
+    "prompt": "Which expression is correct?",
+    "options": [
+      { "id": "A", "text": "The argument is reasonable." },
+      { "id": "B", "text": "The argument are reasonable." },
+      { "id": "C", "text": "The argument is reasonably." },
+      { "id": "D", "text": "The arguments is reasonable." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek argument tunggal memakai is, dan reasonable adalah kata sifat yang tepat.",
+    "stepByStep": [
+      "Argument adalah subjek tunggal, sehingga memakai is.",
+      "Reasonable adalah kata sifat setelah is.",
+      "Pilihan B memakai are, pilihan C memakai kata keterangan, dan pilihan D memakai arguments dengan is."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Are tidak cocok dengan subjek tunggal argument." },
+      { "optionId": "C", "reasonId": "Reasonably adalah kata keterangan, tidak cocok setelah is." },
+      { "optionId": "D", "reasonId": "Arguments jamak tidak cocok dengan is untuk satu argumen." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah is, gunakan kata sifat, bukan kata keterangan.",
+      "examples": [
+        { "en": "The plan is reasonable.", "id": "Rencana itu masuk akal." },
+        { "en": "The result is clear.", "id": "Hasilnya jelas." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat benar karena argumen sering dibicarakan jamak, tetapi subjek kalimat ini satu argumen."
+  },
+  {
+    "id": "W11-006",
+    "week": 11,
+    "topicTag": "esai-opini",
+    "type": "mcq",
+    "prompt": "Which word means to show good reasons why a position is right?",
+    "options": [
+      { "id": "A", "text": "weigh" },
+      { "id": "B", "text": "debate" },
+      { "id": "C", "text": "justify" },
+      { "id": "D", "text": "concede" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Justify berarti membenarkan posisi dengan alasan yang baik.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk membenarkan posisi dengan alasan.",
+      "Kata kerja yang tepat adalah justify.",
+      "Weigh berarti menimbang, debate berarti berdebat, dan concede berarti mengakui."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Weigh berarti menimbang, bukan membenarkan." },
+      { "optionId": "B", "reasonId": "Debate berarti berdebat, bukan membenarkan." },
+      { "optionId": "D", "reasonId": "Concede berarti mengakui, bukan membenarkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Justify menunjukkan alasan yang membuat pandangan dapat diterima.",
+      "examples": [
+        { "en": "Justify your answer with two examples.", "id": "Benarkan jawabanmu dengan dua contoh." },
+        { "en": "The data justifies the decision.", "id": "Data itu membenarkan keputusan tersebut." }
+      ]
+    },
+    "examTrap": "Pilihan D concede terlihat dekat karena argumen sering mengakui sisi lain, tetapi kata yang diminta berarti membenarkan."
+  },
+  {
+    "id": "W11-007",
+    "week": 11,
+    "topicTag": "esai-diskusi",
+    "type": "mcq",
+    "prompt": "Which word means a point made against an argument?",
+    "options": [
+      { "id": "A", "text": "merit" },
+      { "id": "B", "text": "counterargument" },
+      { "id": "C", "text": "transition" },
+      { "id": "D", "text": "essence" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Counterargument adalah argumen yang menentang atau melawan argumen lain.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk argumen yang menentang.",
+      "Argumen yang menentang disebut counterargument.",
+      "Merit, transition, dan essence tidak berarti argumen tandingan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Merit berarti kelebihan, bukan argumen yang menentang." },
+      { "optionId": "C", "reasonId": "Transition berarti transisi, bukan argumen tandingan." },
+      { "optionId": "D", "reasonId": "Essence berarti inti, bukan argumen tandingan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Counterargument perlu dijawab agar esai tetap kuat dan seimbang.",
+      "examples": [
+        { "en": "A strong counterargument deserves a careful answer.", "id": "Argumen tandingan yang kuat layak dijawab dengan cermat." },
+        { "en": "The writer answered the counterargument with data.", "id": "Penulis menjawab argumen tandingan itu dengan data." }
+      ]
+    },
+    "examTrap": "Pilihan A merit terlihat cocok karena esai juga membahas nilai pandangan, tetapi merit adalah kelebihan, bukan argumen yang menentang."
+  },
+  {
+    "id": "W11-008",
+    "week": 11,
+    "topicTag": "esai-diskusi",
+    "type": "mcq",
+    "prompt": "Which word means an admission that the other side has some truth?",
+    "options": [
+      { "id": "A", "text": "counterpoint" },
+      { "id": "B", "text": "perspective" },
+      { "id": "C", "text": "drawback" },
+      { "id": "D", "text": "concession" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Concession adalah pengakuan bahwa sisi lain memiliki kebenaran.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk pengakuan atas kebenaran sisi lain.",
+      "Pengakuan seperti itu disebut concession.",
+      "Counterpoint, perspective, dan drawback tidak berarti pengakuan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Counterpoint adalah poin tandingan, bukan pengakuan." },
+      { "optionId": "B", "reasonId": "Perspective adalah sudut pandang, bukan pengakuan." },
+      { "optionId": "C", "reasonId": "Drawback adalah kelemahan, bukan pengakuan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Concession membuat esai terlihat adil dengan mengakui sisi lawan, lalu tetap mempertahankan posisi.",
+      "examples": [
+        { "en": "It is true that the policy costs more, but it helps families.", "id": "Memang benar kebijakan itu lebih mahal, tetapi membantu keluarga." },
+        { "en": "Her concession made the essay fairer.", "id": "Pengakuannya membuat esainya lebih adil." }
+      ]
+    },
+    "examTrap": "Pilihan A counterpoint terlihat dekat karena berkaitan dengan sisi lawan, tetapi counterpoint adalah poin tandingan, bukan pengakuan."
+  },
+  {
+    "id": "W11-009",
+    "week": 11,
+    "topicTag": "esai-diskusi",
+    "type": "mcq",
+    "prompt": "Which word means a strength or good quality of a proposal?",
+    "options": [
+      { "id": "A", "text": "merit" },
+      { "id": "B", "text": "drawback" },
+      { "id": "C", "text": "risk" },
+      { "id": "D", "text": "hazard" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Merit berarti kelebihan atau nilai positif dari sebuah usulan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk kelebihan usulan.",
+      "Kelebihan atau nilai positif disebut merit.",
+      "Drawback, risk, dan hazard menunjukkan sisi negatif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Drawback adalah kelemahan, bukan kelebihan." },
+      { "optionId": "C", "reasonId": "Risk adalah risiko, bukan kelebihan." },
+      { "optionId": "D", "reasonId": "Hazard adalah bahaya, bukan kelebihan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Merit menunjukkan nilai positif yang layak dipertimbangkan dalam sebuah usulan.",
+      "examples": [
+        { "en": "The proposal has clear merit.", "id": "Usulan itu punya kelebihan yang jelas." },
+        { "en": "Each option has its own merits.", "id": "Setiap pilihan punya kelebihannya sendiri." }
+      ]
+    },
+    "examTrap": "Pilihan B drawback terlihat cocok karena esai diskusi juga membahas kekurangan, tetapi kata yang diminta menunjukkan kelebihan."
+  },
+  {
+    "id": "W11-010",
+    "week": 11,
+    "topicTag": "esai-diskusi",
+    "type": "mcq",
+    "prompt": "Which word means to consider something closely and critically?",
+    "options": [
+      { "id": "A", "text": "reconcile" },
+      { "id": "B", "text": "debate" },
+      { "id": "C", "text": "scrutinize" },
+      { "id": "D", "text": "merit" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Scrutinize berarti memeriksa sesuatu dengan cermat dan kritis.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk memeriksa secara cermat dan kritis.",
+      "Kata kerja yang tepat adalah scrutinize.",
+      "Reconcile berarti menyatukan, debate berarti berdebat, dan merit berarti kelebihan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Reconcile berarti menyatukan pandangan, bukan memeriksa." },
+      { "optionId": "B", "reasonId": "Debate berarti berdebat, bukan memeriksa dengan cermat." },
+      { "optionId": "D", "reasonId": "Merit berarti kelebihan, bukan memeriksa." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Scrutinize dipakai untuk pemeriksaan yang teliti terhadap bukti, data, atau argumen.",
+      "examples": [
+        { "en": "Scrutinize the evidence before you accept it.", "id": "Periksa buktinya dengan cermat sebelum kamu menerimanya." },
+        { "en": "The committee scrutinized the budget.", "id": "Komite itu memeriksa anggaran dengan cermat." }
+      ]
+    },
+    "examTrap": "Pilihan B debate terlihat cocok karena esai diskusi membahas perdebatan, tetapi debate tidak berarti pemeriksaan teliti."
+  },
+  {
+    "id": "W11-011",
+    "week": 11,
+    "topicTag": "problem-solusi",
+    "type": "mcq",
+    "prompt": "Which word means the thing that brings about a result?",
+    "options": [
+      { "id": "A", "text": "effect" },
+      { "id": "B", "text": "cause" },
+      { "id": "C", "text": "remedy" },
+      { "id": "D", "text": "impact" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Cause adalah penyebab yang membuat sesuatu terjadi.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk hal yang menghasilkan sebuah akibat.",
+      "Hal yang menyebabkan sesuatu disebut cause.",
+      "Effect dan impact adalah akibat, sedangkan remedy adalah solusi."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Effect adalah akibat, kebalikan dari penyebab." },
+      { "optionId": "C", "reasonId": "Remedy adalah solusi, bukan penyebab." },
+      { "optionId": "D", "reasonId": "Impact adalah dampak atau akibat, bukan penyebab." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Cause adalah penyebab, sedangkan effect adalah akibat.",
+      "examples": [
+        { "en": "The cause of the flood was heavy rain.", "id": "Penyebab banjir itu hujan lebat." },
+        { "en": "The effect was damage to homes.", "id": "Akibatnya adalah kerusakan rumah." }
+      ]
+    },
+    "examTrap": "Pilihan A effect terlihat cocok karena sebab dan akibat sering dibahas bersama, tetapi effect adalah akibat, bukan penyebab."
+  },
+  {
+    "id": "W11-012",
+    "week": 11,
+    "topicTag": "problem-solusi",
+    "type": "mcq",
+    "prompt": "Which word means to deal with a difficult issue directly?",
+    "options": [
+      { "id": "A", "text": "prevent" },
+      { "id": "B", "text": "mitigate" },
+      { "id": "C", "text": "address" },
+      { "id": "D", "text": "tackle" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Tackle berarti menangani masalah yang sulit secara langsung.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk menangani masalah sulit secara langsung.",
+      "Kata kerja yang tepat adalah tackle.",
+      "Prevent berarti mencegah, mitigate berarti mengurangi, dan address berarti menanggapi."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Prevent berarti mencegah sebelum terjadi, bukan menangani langsung." },
+      { "optionId": "B", "reasonId": "Mitigate berarti mengurangi dampak, bukan menangani langsung." },
+      { "optionId": "C", "reasonId": "Address berarti menanggapi, dan bisa lebih umum daripada menangani langsung." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tackle dipakai untuk menghadapi masalah yang sulit dengan tindakan nyata.",
+      "examples": [
+        { "en": "The council must tackle the traffic problem.", "id": "Dewan kota harus menangani masalah lalu lintas." },
+        { "en": "We need to tackle the cause, not the symptom.", "id": "Kita harus menangani penyebabnya, bukan gejalanya." }
+      ]
+    },
+    "examTrap": "Pilihan C address terlihat cocok karena juga berarti menangani, tetapi address lebih umum, sedangkan tackle menekankan tindakan langsung terhadap masalah sulit."
+  },
+  {
+    "id": "W11-013",
+    "week": 11,
+    "topicTag": "problem-solusi",
+    "type": "mcq",
+    "prompt": "Which word means to stop something from happening?",
+    "options": [
+      { "id": "A", "text": "prevent" },
+      { "id": "B", "text": "tackle" },
+      { "id": "C", "text": "mitigate" },
+      { "id": "D", "text": "fix" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Prevent berarti mencegah sesuatu terjadi sebelumnya.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk menghentikan sesuatu sebelum terjadi.",
+      "Mencegah sesuatu terjadi disebut prevent.",
+      "Tackle dan fix menangani masalah yang sudah ada, sedangkan mitigate mengurangi dampak."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Tackle berarti menangani masalah yang sudah ada." },
+      { "optionId": "C", "reasonId": "Mitigate berarti mengurangi dampak, bukan mencegah terjadinya." },
+      { "optionId": "D", "reasonId": "Fix berarti memperbaiki, bukan mencegah terjadinya." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Prevent dipakai untuk tindakan yang menghentikan kejadian sebelum muncul.",
+      "examples": [
+        { "en": "Walls prevent the water from entering homes.", "id": "Tanggul mencegah air masuk ke rumah." },
+        { "en": "Regular checks prevent breakdowns.", "id": "Pemeriksaan rutin mencegah kerusakan." }
+      ]
+    },
+    "examTrap": "Pilihan D fix terlihat cocok karena solusi sering dipakai untuk memperbaiki, tetapi fix tidak berarti mencegah kejadian."
+  },
+  {
+    "id": "W11-014",
+    "week": 11,
+    "topicTag": "problem-solusi",
+    "type": "mcq",
+    "prompt": "Which word means a solution or cure for a problem?",
+    "options": [
+      { "id": "A", "text": "initiative" },
+      { "id": "B", "text": "cause" },
+      { "id": "C", "text": "remedy" },
+      { "id": "D", "text": "effect" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Remedy berarti obat atau solusi untuk memperbaiki masalah.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk solusi atau obat masalah.",
+      "Solusi yang memperbaiki masalah disebut remedy.",
+      "Initiative adalah program, cause adalah penyebab, dan effect adalah akibat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Initiative adalah inisiatif atau program, bukan solusi langsung." },
+      { "optionId": "B", "reasonId": "Cause adalah penyebab, bukan solusi." },
+      { "optionId": "D", "reasonId": "Effect adalah akibat, bukan solusi." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Remedy menunjukkan cara atau obat untuk memperbaiki masalah.",
+      "examples": [
+        { "en": "There is no quick remedy for traffic jams.", "id": "Tidak ada solusi cepat untuk kemacetan." },
+        { "en": "The best remedy is better planning.", "id": "Solusi terbaiknya adalah perencanaan yang lebih baik." }
+      ]
+    },
+    "examTrap": "Pilihan A initiative terlihat cocok karena sering dipakai untuk program solusi, tetapi kata yang diminta adalah solusi itu sendiri."
+  },
+  {
+    "id": "W11-015",
+    "week": 11,
+    "topicTag": "problem-solusi",
+    "type": "mcq",
+    "prompt": "Which expression is correct?",
+    "options": [
+      { "id": "A", "text": "The problem are the cause." },
+      { "id": "B", "text": "The problem is the lack of rain." },
+      { "id": "C", "text": "The problems is the lack of rain." },
+      { "id": "D", "text": "The problem were the lack of rain." }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Subjek problem tunggal memakai is, dan the lack of rain adalah penjelasan yang tepat.",
+    "stepByStep": [
+      "Problem adalah subjek tunggal, sehingga memakai is.",
+      "Frasa the lack of rain menjelaskan masalah itu.",
+      "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, pilihan C memakai problems dengan is."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal problem." },
+      { "optionId": "C", "reasonId": "Problems jamak tidak cocok dengan is untuk satu masalah." },
+      { "optionId": "D", "reasonId": "Were tidak cocok dengan subjek tunggal problem." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Problem tunggal memakai is, dan frasa the lack of menjelaskan apa masalahnya.",
+      "examples": [
+        { "en": "The problem is the traffic.", "id": "Masalahnya adalah lalu lintas." },
+        { "en": "The problem was the high cost.", "id": "Masalahnya adalah biaya yang tinggi." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena kalimat menyebut penyebab yang banyak, tetapi subjek kalimat ini problem yang tunggal."
+  },
+  {
+    "id": "W11-016",
+    "week": 11,
+    "topicTag": "adv-disadv",
+    "type": "mcq",
+    "prompt": "Which word means a positive feature of an option?",
+    "options": [
+      { "id": "A", "text": "downside" },
+      { "id": "B", "text": "hazard" },
+      { "id": "C", "text": "risk" },
+      { "id": "D", "text": "upside" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Upside adalah sisi positif dari sebuah pilihan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk sisi positif.",
+      "Sisi positif yang santai disebut upside.",
+      "Downside adalah sisi negatif, hazard dan risk adalah bahaya atau risiko."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Downside adalah sisi negatif, kebalikan dari upside." },
+      { "optionId": "B", "reasonId": "Hazard adalah bahaya, bukan sisi positif." },
+      { "optionId": "C", "reasonId": "Risk adalah risiko, bukan sisi positif." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Upside dan downside dipakai sebagai pasangan untuk sisi positif dan negatif.",
+      "examples": [
+        { "en": "The upside is the saving in time.", "id": "Sisi positifnya adalah penghematan waktu." },
+        { "en": "The downside is the higher price.", "id": "Sisi negatifnya adalah harga yang lebih tinggi." }
+      ]
+    },
+    "examTrap": "Pilihan A downside terlihat cocok karena pasangannya, tetapi downside adalah sisi negatif, bukan positif."
+  },
+  {
+    "id": "W11-017",
+    "week": 11,
+    "topicTag": "adv-disadv",
+    "type": "mcq",
+    "prompt": "Which word means a negative feature of an option?",
+    "options": [
+      { "id": "A", "text": "downside" },
+      { "id": "B", "text": "upside" },
+      { "id": "C", "text": "benefit" },
+      { "id": "D", "text": "advantage" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Downside adalah sisi negatif dari sebuah pilihan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk sisi negatif.",
+      "Sisi negatif yang santai disebut downside.",
+      "Upside, benefit, dan advantage menunjukkan sisi positif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Upside adalah sisi positif, kebalikan dari downside." },
+      { "optionId": "C", "reasonId": "Benefit adalah manfaat, bukan sisi negatif." },
+      { "optionId": "D", "reasonId": "Advantage adalah keunggulan, bukan sisi negatif." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Downside adalah kelemahan atau sisi buruk yang perlu dipertimbangkan.",
+      "examples": [
+        { "en": "The downside is that the trip takes longer.", "id": "Sisi negatifnya adalah perjalanan itu lebih lama." },
+        { "en": "One downside is the cost.", "id": "Salah satu sisi negatifnya adalah biaya." }
+      ]
+    },
+    "examTrap": "Pilihan D advantage terlihat sebagai lawan dari disadvantage, tetapi advantage adalah sisi positif."
+  },
+  {
+    "id": "W11-018",
+    "week": 11,
+    "topicTag": "adv-disadv",
+    "type": "mcq",
+    "prompt": "Which word means a possible danger that is not certain to happen?",
+    "options": [
+      { "id": "A", "text": "hazard" },
+      { "id": "B", "text": "effect" },
+      { "id": "C", "text": "risk" },
+      { "id": "D", "text": "impact" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Risk adalah kemungkinan buruk yang belum tentu terjadi.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk kemungkinan bahaya yang belum pasti.",
+      "Kemungkinan buruk yang belum pasti disebut risk.",
+      "Hazard adalah sumber bahaya nyata, effect dan impact adalah akibat atau dampak."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Hazard adalah sumber bahaya nyata, bukan kemungkinan yang belum pasti." },
+      { "optionId": "B", "reasonId": "Effect adalah akibat, bukan kemungkinan buruk." },
+      { "optionId": "D", "reasonId": "Impact adalah dampak, bukan kemungkinan buruk yang belum pasti." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Risk dipakai untuk kemungkinan kerugian yang belum tentu terjadi.",
+      "examples": [
+        { "en": "There is a risk of delay in the rain.", "id": "Ada risiko keterlambatan saat hujan." },
+        { "en": "The risk of injury is low.", "id": "Risiko cedera rendah." }
+      ]
+    },
+    "examTrap": "Pilihan A hazard terlihat cocok karena juga berarti bahaya, tetapi hazard adalah sumber bahaya yang nyata."
+  },
+  {
+    "id": "W11-019",
+    "week": 11,
+    "topicTag": "adv-disadv",
+    "type": "mcq",
+    "prompt": "Which word means a result of a decision or action?",
+    "options": [
+      { "id": "A", "text": "upside" },
+      { "id": "B", "text": "consequence" },
+      { "id": "C", "text": "benefit" },
+      { "id": "D", "text": "trade-off" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Consequence adalah akibat yang muncul dari suatu keputusan atau tindakan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk hasil dari keputusan.",
+      "Hasil yang muncul dari tindakan disebut consequence.",
+      "Upside dan benefit adalah sisi positif, dan trade-off adalah pertukaran."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Upside adalah sisi positif, bukan akibat secara umum." },
+      { "optionId": "C", "reasonId": "Benefit adalah manfaat, bukan akibat secara umum." },
+      { "optionId": "D", "reasonId": "Trade-off adalah pertukaran, bukan akibat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Consequence adalah akibat dari suatu tindakan, sering dipakai dengan of atau for.",
+      "examples": [
+        { "en": "The consequence of the delay was a fine.", "id": "Akibat keterlambatan itu adalah denda." },
+        { "en": "Every choice has consequences.", "id": "Setiap pilihan punya akibat." }
+      ]
+    },
+    "examTrap": "Pilihan C benefit terlihat cocok karena keputusan sering membawa manfaat, tetapi kata yang diminta adalah akibat secara umum."
+  },
+  {
+    "id": "W11-020",
+    "week": 11,
+    "topicTag": "adv-disadv",
+    "type": "mcq",
+    "prompt": "Which word describes a choice that gives up one good thing to gain another?",
+    "options": [
+      { "id": "A", "text": "upside" },
+      { "id": "B", "text": "benefit" },
+      { "id": "C", "text": "risk" },
+      { "id": "D", "text": "trade-off" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Trade-off adalah pertukaran, yaitu mendapatkan satu hal dengan mengorbankan hal lain.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk mengorbankan satu hal demi hal lain.",
+      "Pertukaran seperti itu disebut trade-off.",
+      "Upside dan benefit adalah sisi positif, risk adalah kemungkinan buruk."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Upside adalah sisi positif, bukan pertukaran dua hal." },
+      { "optionId": "B", "reasonId": "Benefit adalah manfaat, bukan pertukaran." },
+      { "optionId": "C", "reasonId": "Risk adalah kemungkinan buruk, bukan pertukaran." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Trade-off dipakai saat memilih satu opsi berarti melepas opsi lain.",
+      "examples": [
+        { "en": "There is a trade-off between speed and quality.", "id": "Ada pertukaran antara kecepatan dan kualitas." },
+        { "en": "Every plan involves a trade-off.", "id": "Setiap rencana melibatkan pertukaran." }
+      ]
+    },
+    "examTrap": "Pilihan C risk terlihat cocok karena pilihan yang dikorbankan sering berisiko, tetapi kata yang diminta menunjukkan pertukaran."
+  },
+  {
+    "id": "W11-021",
+    "week": 11,
+    "topicTag": "tesis",
+    "type": "mcq",
+    "prompt": "Which word means the main claim of an essay?",
+    "options": [
+      { "id": "A", "text": "thesis" },
+      { "id": "B", "text": "transition" },
+      { "id": "C", "text": "remedy" },
+      { "id": "D", "text": "tackle" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Thesis adalah klaim utama esai yang didukung seluruh isi.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk klaim utama esai.",
+      "Klaim utama yang didukung seluruh isi disebut thesis.",
+      "Transition, remedy, dan tackle tidak berarti klaim utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Transition berarti penghubung, bukan klaim utama." },
+      { "optionId": "C", "reasonId": "Remedy berarti solusi, bukan klaim utama." },
+      { "optionId": "D", "reasonId": "Tackle berarti menangani, bukan klaim utama." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Thesis adalah klaim utama yang didukung oleh seluruh isi esai.",
+      "examples": [
+        { "en": "The thesis is stated in the introduction.", "id": "Tesisnya dinyatakan dalam pengantar." },
+        { "en": "Every paragraph supports the thesis.", "id": "Setiap paragraf mendukung tesis." }
+      ]
+    },
+    "examTrap": "Pilihan B transition terlihat cocok karena tesis dan transisi sama-sama penting di esai, tetapi transition menghubungkan gagasan, bukan klaim utama."
+  },
+  {
+    "id": "W11-022",
+    "week": 11,
+    "topicTag": "tesis",
+    "type": "mcq",
+    "prompt": "Which word means the central idea on which the whole essay is built?",
+    "options": [
+      { "id": "A", "text": "transition" },
+      { "id": "B", "text": "effect" },
+      { "id": "C", "text": "cornerstone" },
+      { "id": "D", "text": "initiative" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Cornerstone adalah dasar utama tempat seluruh esai dibangun.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk dasar utama esai.",
+      "Dasar utama yang menopang seluruh esai disebut cornerstone.",
+      "Transition, effect, dan initiative tidak berarti dasar utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Transition adalah penghubung, bukan dasar utama." },
+      { "optionId": "B", "reasonId": "Effect adalah akibat, bukan dasar utama." },
+      { "optionId": "D", "reasonId": "Initiative adalah inisiatif, bukan dasar utama." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Cornerstone adalah bagian terpenting yang menopang keseluruhan.",
+      "examples": [
+        { "en": "The thesis is the cornerstone of the essay.", "id": "Tesis adalah dasar utama esai." },
+        { "en": "Trust is the cornerstone of the partnership.", "id": "Kepercayaan adalah dasar utama kemitraan itu." }
+      ]
+    },
+    "examTrap": "Pilihan A transition terlihat cocok karena esai juga memerlukan penghubung, tetapi yang diminta adalah dasar utama."
+  },
+  {
+    "id": "W11-023",
+    "week": 11,
+    "topicTag": "tesis",
+    "type": "mcq",
+    "prompt": "Which word refers to a basic statement from which an argument starts?",
+    "options": [
+      { "id": "A", "text": "consequence" },
+      { "id": "B", "text": "premise" },
+      { "id": "C", "text": "upside" },
+      { "id": "D", "text": "fix" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Premise adalah pernyataan dasar tempat sebuah argumen dimulai.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk pernyataan dasar awal argumen.",
+      "Pernyataan dasar yang menjadi awal argumen disebut premise.",
+      "Consequence adalah akibat, upside adalah sisi positif, dan fix berarti memperbaiki."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Consequence adalah akibat, bukan pernyataan dasar." },
+      { "optionId": "C", "reasonId": "Upside adalah sisi positif, bukan pernyataan dasar." },
+      { "optionId": "D", "reasonId": "Fix berarti memperbaiki, bukan pernyataan dasar." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Premise adalah dasar yang dijadikan titik awal kesimpulan dalam argumen.",
+      "examples": [
+        { "en": "The premise is that all students need sleep.", "id": "Premisnya adalah semua siswa butuh tidur." },
+        { "en": "If the premise is false, the argument fails.", "id": "Jika premisnya salah, argumennya gagal." }
+      ]
+    },
+    "examTrap": "Pilihan A consequence terlihat cocok karena argumen sering berujung pada akibat, tetapi premise adalah titik awal, bukan akhir."
+  },
+  {
+    "id": "W11-024",
+    "week": 11,
+    "topicTag": "tesis",
+    "type": "mcq",
+    "prompt": "Which word means the direction in which an argument moves?",
+    "options": [
+      { "id": "A", "text": "premise" },
+      { "id": "B", "text": "risk" },
+      { "id": "C", "text": "consequence" },
+      { "id": "D", "text": "direction" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Direction berarti arah atau tujuan yang dituju sebuah argumen.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk arah yang dituju argumen.",
+      "Arah yang dituju disebut direction.",
+      "Premise, risk, dan consequence tidak berarti arah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Premise adalah dasar pemikiran, bukan arah." },
+      { "optionId": "B", "reasonId": "Risk adalah risiko, bukan arah." },
+      { "optionId": "C", "reasonId": "Consequence adalah akibat, bukan arah." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Direction menunjukkan ke mana sebuah argumen atau rencana bergerak.",
+      "examples": [
+        { "en": "The essay gives a clear direction.", "id": "Esai itu memberi arah yang jelas." },
+        { "en": "The policy moves in a new direction.", "id": "Kebijakan itu bergerak ke arah baru." }
+      ]
+    },
+    "examTrap": "Pilihan A premise terlihat cocok karena berkaitan dengan dasar argumen, tetapi kata yang diminta menunjukkan arah."
+  },
+  {
+    "id": "W11-025",
+    "week": 11,
+    "topicTag": "tesis",
+    "type": "mcq",
+    "prompt": "Which sentence states a strong thesis?",
+    "options": [
+      { "id": "A", "text": "Cities should expand bicycle lanes to reduce traffic deaths." },
+      { "id": "B", "text": "Cities have roads." },
+      { "id": "C", "text": "Bicycles are interesting." },
+      { "id": "D", "text": "Traffic is important." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Kalimat A adalah klaim yang spesifik dan dapat diperdebatkan, sehingga cocok sebagai tesis.",
+    "stepByStep": [
+      "Tesis yang kuat adalah klaim yang spesifik dan dapat diperdebatkan.",
+      "Kalimat A menyebut tindakan jelas dan tujuan yang spesifik.",
+      "Pilihan B, C, dan D adalah fakta atau pernyataan umum tanpa klaim yang bisa diperdebatkan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Kota memiliki jalan adalah fakta, bukan tesis." },
+      { "optionId": "C", "reasonId": "Sepeda menarik adalah pernyataan umum yang tidak menjadi klaim." },
+      { "optionId": "D", "reasonId": "Lalu lintas penting adalah pernyataan umum tanpa klaim spesifik." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tesis yang kuat menyebut klaim spesifik yang dapat diperdebatkan dan didukung bukti.",
+      "examples": [
+        { "en": "Schools should start later to improve sleep.", "id": "Sekolah sebaiknya dimulai lebih siang untuk memperbaiki tidur." },
+        { "en": "Cities have roads is a fact, not a thesis.", "id": "Kota memiliki jalan adalah fakta, bukan tesis." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat seperti klaim karena menyebut hal penting, tetapi pernyataan itu terlalu umum dan tidak spesifik."
+  },
+  {
+    "id": "W11-026",
+    "week": 11,
+    "topicTag": "paragraf",
+    "type": "mcq",
+    "prompt": "Which phrase means the sentence that introduces the main idea of a paragraph?",
+    "options": [
+      { "id": "A", "text": "bridge" },
+      { "id": "B", "text": "digression" },
+      { "id": "C", "text": "topic sentence" },
+      { "id": "D", "text": "conclusion" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Topic sentence adalah kalimat yang menyebut gagasan utama paragraf.",
+    "stepByStep": [
+      "Kalimat meminta istilah untuk kalimat yang memperkenalkan gagasan utama paragraf.",
+      "Kalimat seperti itu disebut topic sentence.",
+      "Bridge, digression, dan conclusion tidak berarti kalimat pembuka gagasan utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Bridge adalah penghubung, bukan kalimat yang memperkenalkan gagasan utama." },
+      { "optionId": "B", "reasonId": "Digression adalah penyimpangan, bukan kalimat pembuka." },
+      { "optionId": "D", "reasonId": "Conclusion adalah kesimpulan, biasanya di akhir esai." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Topic sentence biasanya berada di awal paragraf dan menyebut gagasan utamanya.",
+      "examples": [
+        { "en": "The topic sentence names the main idea.", "id": "Kalimat topik menyebut gagasan utama." },
+        { "en": "Each paragraph begins with a topic sentence.", "id": "Setiap paragraf dimulai dengan kalimat topik." }
+      ]
+    },
+    "examTrap": "Pilihan D conclusion terlihat cocok karena kalimat penting sering ada di akhir, tetapi kalimat yang diminta berada di awal paragraf."
+  },
+  {
+    "id": "W11-027",
+    "week": 11,
+    "topicTag": "paragraf",
+    "type": "mcq",
+    "prompt": "Which word describes an irrelevant side topic within a paragraph?",
+    "options": [
+      { "id": "A", "text": "progression" },
+      { "id": "B", "text": "digression" },
+      { "id": "C", "text": "coherence" },
+      { "id": "D", "text": "logic" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Digression adalah penyimpangan ke topik sampingan yang tidak relevan.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk topik sampingan yang tidak relevan.",
+      "Penyimpangan seperti itu disebut digression.",
+      "Progression, coherence, dan logic adalah hal yang membuat paragraf runtut."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Progression adalah perkembangan gagasan yang runtut, kebalikan dari penyimpangan." },
+      { "optionId": "C", "reasonId": "Coherence adalah keruntutan, kebalikan dari penyimpangan." },
+      { "optionId": "D", "reasonId": "Logic adalah logika, bukan topik sampingan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Digression mengganggu alur utama paragraf dan sebaiknya dihapus.",
+      "examples": [
+        { "en": "The story about the weather was a digression.", "id": "Cerita tentang cuaca itu penyimpangan." },
+        { "en": "Remove the digression from the paragraph.", "id": "Hapus penyimpangan dari paragraf." }
+      ]
+    },
+    "examTrap": "Pilihan D logic terlihat cocok karena penyimpangan sering dianggap tidak logis, tetapi kata yang diminta menunjukkan topik sampingan."
+  },
+  {
+    "id": "W11-028",
+    "week": 11,
+    "topicTag": "paragraf",
+    "type": "mcq",
+    "prompt": "Which word means a link that connects two ideas smoothly?",
+    "options": [
+      { "id": "A", "text": "digression" },
+      { "id": "B", "text": "reasoning" },
+      { "id": "C", "text": "elaborate" },
+      { "id": "D", "text": "transition" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Transition adalah penghubung yang membuat dua gagasan tersambung dengan lancar.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk penghubung dua gagasan.",
+      "Penghubung yang lancar disebut transition.",
+      "Digression memutus alur, reasoning adalah penalaran, dan elaborate adalah menjelaskan lebih rinci."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Digression memutus hubungan, bukan menghubungkan." },
+      { "optionId": "B", "reasonId": "Reasoning adalah penalaran, bukan penghubung gagasan." },
+      { "optionId": "C", "reasonId": "Elaborate berarti menjelaskan lebih rinci, bukan menghubungkan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Transition menghubungkan gagasan agar pembaca mengikuti alur dengan mudah.",
+      "examples": [
+        { "en": "However, the second method is cheaper.", "id": "Namun, metode kedua lebih murah." },
+        { "en": "A clear transition helps readers follow the argument.", "id": "Transisi yang jelas membantu pembaca mengikuti argumen." }
+      ]
+    },
+    "examTrap": "Pilihan C elaborate terlihat cocok karena paragraf perlu diperluas, tetapi elaborate tidak berarti menghubungkan dua gagasan."
+  },
+  {
+    "id": "W11-029",
+    "week": 11,
+    "topicTag": "paragraf",
+    "type": "mcq",
+    "prompt": "Which word means to develop a claim with more detail and examples?",
+    "options": [
+      { "id": "A", "text": "elaborate" },
+      { "id": "B", "text": "digress" },
+      { "id": "C", "text": "concede" },
+      { "id": "D", "text": "remedy" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Elaborate berarti menjelaskan atau mengembangkan klaim dengan lebih rinci.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk mengembangkan klaim dengan rincian.",
+      "Mengembangkan dengan rincian disebut elaborate.",
+      "Digress berarti menyimpang, concede berarti mengakui, dan remedy berarti solusi."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Digress berarti menyimpang, bukan mengembangkan klaim." },
+      { "optionId": "C", "reasonId": "Concede berarti mengakui, bukan mengembangkan klaim." },
+      { "optionId": "D", "reasonId": "Remedy berarti solusi, bukan mengembangkan klaim." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Elaborate menambah rincian, contoh, atau penjelasan untuk memperkuat klaim.",
+      "examples": [
+        { "en": "Elaborate on the example with a real case.", "id": "Jelaskan lebih rinci contoh itu dengan kasus nyata." },
+        { "en": "She elaborated her point with data.", "id": "Dia menjelaskan poinnya lebih rinci dengan data." }
+      ]
+    },
+    "examTrap": "Pilihan B digress terlihat dekat karena sama-sama berhubungan dengan cara menulis paragraf, tetapi digress berarti menyimpang dari topik."
+  },
+  {
+    "id": "W11-030",
+    "week": 11,
+    "topicTag": "paragraf",
+    "type": "mcq",
+    "prompt": "Which sentence correctly uses 'cohesive'?",
+    "options": [
+      { "id": "A", "text": "The cohesive are the paragraphs." },
+      { "id": "B", "text": "Cohesive the paragraph is." },
+      { "id": "C", "text": "The paragraph is cohesive, and each idea links to the next." },
+      { "id": "D", "text": "The cohesives is the paragraph." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Cohesive adalah kata sifat setelah is, dan kalimat ini menjelaskan keterhubungan antargagasan.",
+    "stepByStep": [
+      "Cohesive adalah kata sifat yang diletakkan setelah is.",
+      "Frasa each idea links to the next menjelaskan keterhubungan.",
+      "Pilihan A, B, dan D memiliki urutan kata atau bentuk yang salah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Cohesive adalah kata sifat, tidak bisa menjadi subjek." },
+      { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini salah." },
+      { "optionId": "D", "reasonId": "Cohesives bukan bentuk kata yang benar." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Cohesive adalah kata sifat yang berarti saling terikat dan terhubung dengan baik.",
+      "examples": [
+        { "en": "The essay is cohesive from start to finish.", "id": "Esai itu saling terikat dari awal sampai akhir." },
+        { "en": "A cohesive text is easy to follow.", "id": "Teks yang kohesif mudah diikuti." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena paragraf sering dibicarakan jamak, tetapi cohesive adalah kata sifat, bukan kata benda."
+  }
+]

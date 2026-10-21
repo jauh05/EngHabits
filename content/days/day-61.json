@@ -1,0 +1,1194 @@
+{
+  "day": 61,
+  "week": 9,
+  "month": 3,
+  "title": "Format IELTS: True / False / Not Given",
+  "topic": "Membedakan pernyataan yang benar, salah, atau tidak disebutkan dalam teks",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membedakan True, False, dan Not Given dengan dasar teks",
+    "Mengenali pernyataan yang bertentangan dengan teks",
+    "Tidak menebak informasi yang tidak disebut"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "statement",
+        "pronunciationId": "STAYT-ment (tekanan di STAYT)",
+        "pos": "Noun",
+        "meaningId": "pernyataan",
+        "example": "The statement was short.",
+        "exampleId": "Pernyataan itu singkat."
+      },
+      {
+        "no": 2,
+        "en": "claim",
+        "pronunciationId": "KLAYM (tekanan di KLAYM)",
+        "pos": "Noun",
+        "meaningId": "klaim, tuntutan kebenaran",
+        "example": "The claim needs evidence.",
+        "exampleId": "Klaim itu membutuhkan bukti."
+      },
+      {
+        "no": 3,
+        "en": "contradict",
+        "pronunciationId": "kon-tra-DIKT (tekanan di DIKT)",
+        "pos": "Verb",
+        "meaningId": "bertentangan dengan",
+        "example": "The result may contradict the theory.",
+        "exampleId": "Hasil itu mungkin bertentangan dengan teori."
+      },
+      {
+        "no": 4,
+        "en": "unstated",
+        "pronunciationId": "un-STAY-tid (tekanan di STAY)",
+        "pos": "Adj",
+        "meaningId": "tidak dinyatakan",
+        "example": "The reason was unstated.",
+        "exampleId": "Alasannya tidak dinyatakan."
+      },
+      {
+        "no": 5,
+        "en": "assumption",
+        "pronunciationId": "uh-SUMP-shun (tekanan di SUMP)",
+        "pos": "Noun",
+        "meaningId": "asumsi, anggapan",
+        "example": "Our assumption was wrong.",
+        "exampleId": "Asumsi kami keliru."
+      },
+      {
+        "no": 6,
+        "en": "distort",
+        "pronunciationId": "dis-TORT (tekanan di TORT)",
+        "pos": "Verb",
+        "meaningId": "memutarbalikkan",
+        "example": "Do not distort the facts.",
+        "exampleId": "Jangan memutarbalikkan fakta."
+      },
+      {
+        "no": 7,
+        "en": "verify",
+        "pronunciationId": "VER-i-fai (tekanan di VER)",
+        "pos": "Verb",
+        "meaningId": "memverifikasi, memastikan",
+        "example": "Please verify the date.",
+        "exampleId": "Tolong verifikasi tanggalnya."
+      },
+      {
+        "no": 8,
+        "en": "exaggerate",
+        "pronunciationId": "ig-ZAJ-uh-rayt (tekanan di ZAJ)",
+        "pos": "Verb",
+        "meaningId": "melebih-lebihkan",
+        "example": "Do not exaggerate the risk.",
+        "exampleId": "Jangan melebih-lebihkan risikonya."
+      },
+      {
+        "no": 9,
+        "en": "mislead",
+        "pronunciationId": "mis-LEED (tekanan di LEED)",
+        "pos": "Verb",
+        "meaningId": "menyesatkan",
+        "example": "A partial figure can mislead readers.",
+        "exampleId": "Angka sebagian bisa menyesatkan pembaca."
+      },
+      {
+        "no": 10,
+        "en": "valid",
+        "pronunciationId": "VAL-id (tekanan di VAL)",
+        "pos": "Adj",
+        "meaningId": "sah, valid",
+        "example": "The argument is valid.",
+        "exampleId": "Argumen itu valid."
+      }
+    ],
+    "tip": "True berarti teks mengatakan hal yang sama. False berarti teks mengatakan kebalikannya. Not Given berarti teks tidak menyebutkannya sama sekali."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS true false not given",
+        "IELTS reading strategies"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membedakan True, False, dan Not Given, dengan contoh pernyataan yang dekat dengan teks tetapi tetap salah.",
+      "watchFor": [
+        "Pernyataan yang sama maknanya dengan teks",
+        "Pernyataan yang bertentangan dengan teks",
+        "Informasi yang tidak disebut sama sekali"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam soal True, False, Not Given, kamu hanya boleh memakai informasi dari teks. Jangan memakai pengetahuanmu sendiri, dan jangan menebak apa yang mungkin benar.",
+      "sections": [
+        {
+          "heading": "True dan False",
+          "bodyMd": "Jawab **True** jika pernyataan sejalan dengan teks. Jawab **False** jika pernyataan **contradict** isi teks. Perhatikan kata seperti only, all, dan always, karena sering membuat pernyataan menjadi salah."
+        },
+        {
+          "heading": "Not Given",
+          "bodyMd": "Pilih **Not Given** jika teks tidak menyebut hal itu. Pernyataan yang masuk akal belum tentu ada di teks. Jika teks hanya menyebut topiknya, itu belum cukup untuk **True**."
+        },
+        {
+          "heading": "Hati-hati dengan klaim dan asumsi",
+          "bodyMd": "Sebuah **claim** harus diperiksa. Jika teks memberi **assumption** yang belum diuji, pernyataan yang bergantung padanya bisa menjadi **Not Given**. Gunakan kata kerja **verify** dalam pikiranmu: apa buktinya di teks?"
+        }
+      ],
+      "formulas": [
+        {
+          "label": "True",
+          "pattern": "pernyataan = isi teks dengan kata yang berbeda"
+        },
+        {
+          "label": "False",
+          "pattern": "pernyataan = kebalikan isi teks"
+        },
+        {
+          "label": "Not Given",
+          "pattern": "teks tidak menyebut hal itu sama sekali"
+        },
+        {
+          "label": "Cek",
+          "pattern": "temukan kalimat bukti, lalu bandingkan maknanya"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The statement is true if the text says the same thing.",
+            "id": "Pernyataan itu benar jika teks mengatakan hal yang sama."
+          },
+          {
+            "en": "The writer's claim contradicts the earlier report.",
+            "id": "Klaim penulis bertentangan dengan laporan sebelumnya."
+          },
+          {
+            "en": "The reason is unstated in the article.",
+            "id": "Alasannya tidak dinyatakan dalam artikel."
+          },
+          {
+            "en": "We must verify the source before we trust it.",
+            "id": "Kita harus memverifikasi sumbernya sebelum mempercayainya."
+          },
+          {
+            "en": "A partial result can mislead the reader.",
+            "id": "Hasil sebagian bisa menyesatkan pembaca."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The text does not say that the project failed.",
+            "id": "Teks itu tidak mengatakan bahwa proyek itu gagal."
+          },
+          {
+            "en": "The report is not based on a single assumption.",
+            "id": "Laporan itu tidak didasarkan pada satu asumsi."
+          },
+          {
+            "en": "The writer does not claim that the plan is perfect.",
+            "id": "Penulis tidak mengklaim bahwa rencana itu sempurna."
+          },
+          {
+            "en": "This statement is not supported by the data.",
+            "id": "Pernyataan ini tidak didukung oleh data."
+          },
+          {
+            "en": "The article does not exaggerate the results.",
+            "id": "Artikel itu tidak melebih-lebihkan hasilnya."
+          }
+        ],
+        "question": [
+          {
+            "en": "Is the statement true according to the text?",
+            "id": "Apakah pernyataan itu benar menurut teks?"
+          },
+          {
+            "en": "Does the claim contradict the report?",
+            "id": "Apakah klaim itu bertentangan dengan laporan?"
+          },
+          {
+            "en": "Is the reason stated anywhere?",
+            "id": "Apakah alasannya dinyatakan di mana pun?"
+          },
+          {
+            "en": "Can you verify this figure?",
+            "id": "Bisakah kamu memverifikasi angka ini?"
+          },
+          {
+            "en": "Is the argument valid?",
+            "id": "Apakah argumennya valid?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The statement are true.",
+          "right": "The statement is true.",
+          "whyId": "Statement adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The claim contradict the report.",
+          "right": "The claim contradicts the report.",
+          "whyId": "Subjek claim tunggal memakai contradicts."
+        },
+        {
+          "wrong": "The reason is unstate in the text.",
+          "right": "The reason is unstated in the text.",
+          "whyId": "Setelah is, pakai bentuk V3 unstated."
+        },
+        {
+          "wrong": "We must verifies the source.",
+          "right": "We must verify the source.",
+          "whyId": "Setelah must, pakai kata kerja dasar verify."
+        },
+        {
+          "wrong": "A partial figure can misled readers.",
+          "right": "A partial figure can mislead readers.",
+          "whyId": "Setelah can, pakai kata kerja dasar mislead."
+        },
+        {
+          "wrong": "The argument is a valid.",
+          "right": "The argument is valid.",
+          "whyId": "Valid adalah kata sifat, tidak perlu a."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Perdebatan Jalur Sepeda",
+    "text": "The city council published a statement about the new bicycle lanes on Hill Street. According to the statement, the lanes reduced accidents by forty percent in one year. The mayor repeated this claim in a television interview, and many newspapers printed it the next day.\n\nHowever, a local researcher said the claim would contradict the traffic reports she had reviewed. Her team counted accidents for two years, before and after the lanes were built. They found a smaller drop, closer to fifteen percent. The researcher argued that the council had not explained how the forty percent figure was calculated.\n\nThe council's official reply was that the figure used a different time period. This explanation is possible, but the council did not publish the data. Without the full data, it is difficult to verify which number is correct. Readers should be careful, because a partial figure can mislead people even when it is not false.\n\nSome critics went further. They claimed that the council wanted to distort the results to win support for its next project. Other people believed the lanes were a clear success, because cyclists now use the street every morning. Both views rely on assumptions that were never tested. The assumption that more cyclists means fewer accidents is valid in some cities, but it does not automatically hold everywhere.\n\nThe researcher did not say that the lanes were a failure. Her report stated only that the reduction was smaller than the council had claimed, and she warned that her sample covered only one district. She also noted that the number of cyclists had grown by a third, which may have added risk at busy corners. This detail was unstated in the council's announcement.\n\nJournalists sometimes exaggerate good news, and this story was no exception. A headline that said 'Bike lanes save lives' was not supported by the evidence in the report. A more careful headline would have said that accidents fell, but by less than first reported.\n\nIn the end, the council agreed to publish the full dataset next month. Until then, the debate remains open, and the claim cannot be fully confirmed by the public. Several residents have also asked for an open meeting, where the figures can be discussed in detail with local experts.",
+    "glossary": [
+      {
+        "en": "lane",
+        "id": "jalur"
+      },
+      {
+        "en": "calculated",
+        "id": "dihitung"
+      },
+      {
+        "en": "critic",
+        "id": "pengkritik"
+      },
+      {
+        "en": "dataset",
+        "id": "kumpulan data"
+      },
+      {
+        "en": "corner",
+        "id": "tikungan, persimpangan"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "The city council said that the lanes reduced accidents by forty percent in one year.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut bahwa pernyataan dewan kota menyatakan jalur itu mengurangi kecelakaan sebesar empat puluh persen.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Pernyataan ini sesuai dengan isi pernyataan dewan kota."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut langsung pernyataan ini."
+          }
+        ],
+        "evidence": "the lanes reduced accidents by forty percent in one year"
+      },
+      {
+        "id": "R2",
+        "type": "true_false_not_given",
+        "prompt": "The council published the full data behind its figures at the time of the statement.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyebut bahwa dewan kota tidak mempublikasikan data, sehingga pernyataan ini bertentangan dengan teks.",
+        "stepByStep": [
+          "Cari bagian tentang data di paragraf ketiga.",
+          "Teks menyebut the council did not publish the data.",
+          "Pernyataan itu bertentangan langsung dengan kalimat tersebut, sehingga jawabannya False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyatakan dewan tidak mempublikasikan data."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas data secara langsung, jadi jawabannya bukan Not Given."
+          }
+        ],
+        "evidence": "the council did not publish the data"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "The researcher's team counted accidents for two years.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut tim peneliti menghitung kecelakaan selama dua tahun, sebelum dan sesudah jalur dibangun.",
+        "stepByStep": [
+          "Cari bagian tentang tim peneliti di paragraf kedua.",
+          "Teks menyebut counted accidents for two years.",
+          "Pernyataan itu sejalan dengan teks, sehingga jawabannya True."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut dua tahun, bukan kurang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut jangka waktu ini secara langsung."
+          }
+        ],
+        "evidence": "counted accidents for two years"
+      },
+      {
+        "id": "R4",
+        "type": "true_false_not_given",
+        "prompt": "The mayor plans to build a new bridge next year.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menyebut wali kota mengulang klaim dalam wawancara, tetapi tidak menyebut rencana jembatan baru sama sekali.",
+        "stepByStep": [
+          "Cari mayor di teks: the mayor repeated this claim in a television interview.",
+          "Teks tidak menyebut rencana membangun jembatan.",
+          "Karena topiknya tidak disebut, jawabannya Not Given, bukan True atau False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks tidak menyebut rencana jembatan, jadi tidak bisa True."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Teks juga tidak menyatakan wali kota tidak akan membangun jembatan, jadi bukan False."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Not Given berarti teks tidak menyebut informasi itu, meskipun pernyataannya masuk akal.",
+          "examples": [
+            {
+              "en": "The text does not mention the bridge at all.",
+              "id": "Teks itu tidak menyebut jembatan sama sekali."
+            },
+            {
+              "en": "The article mentions the mayor but not the bridge.",
+              "id": "Artikel itu menyebut wali kota tetapi tidak jembatannya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B False terlihat masuk akal karena wali kota tidak disebut merencanakan apa pun, tetapi itu belum berarti pernyataan itu salah.",
+        "evidence": "The mayor repeated this claim"
+      },
+      {
+        "id": "R5",
+        "type": "true_false_not_given",
+        "prompt": "The researcher thinks the bicycle lanes were a complete failure.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyebut peneliti tidak mengatakan bahwa jalur itu gagal, jadi pernyataan ini bertentangan dengan teks.",
+        "stepByStep": [
+          "Cari pendapat peneliti di paragraf keempat.",
+          "Teks menyebut the researcher did not say that the lanes were a failure.",
+          "Pernyataan bahwa jalur itu gagal total bertentangan dengan teks, sehingga jawabannya False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks secara tegas menyatakan peneliti tidak mengatakan jalur itu gagal."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas pendapat peneliti secara langsung, jadi tidak Not Given."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pernyataan yang melebih-lebihkan isi teks, seperti complete failure, dinilai False jika teks menyatakan kebalikannya.",
+          "examples": [
+            {
+              "en": "The text says the plan was partly successful, not a complete failure.",
+              "id": "Teks menyebut rencana itu sebagian berhasil, bukan gagal total."
+            },
+            {
+              "en": "The report did not say the method was useless.",
+              "id": "Laporan itu tidak mengatakan metodenya tidak berguna."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C Not Given terlihat cocok karena teks tidak memakai kata complete failure, tetapi pendapat peneliti sudah dijelaskan dengan jelas.",
+        "evidence": "The researcher did not say that the lanes were a failure"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "A formal sentence that says something is true is a ___.",
+        "options": [
+          {
+            "id": "A",
+            "text": "lane"
+          },
+          {
+            "id": "B",
+            "text": "hill"
+          },
+          {
+            "id": "C",
+            "text": "statement"
+          },
+          {
+            "id": "D",
+            "text": "valid"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Statement adalah pernyataan formal yang menyatakan sesuatu.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Lane adalah jalur, bukan pernyataan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Hill adalah bukit, bukan pernyataan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Valid adalah kata sifat, bukan kata benda pernyataan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The company's ___ that its product is safe needs evidence.",
+        "options": [
+          {
+            "id": "A",
+            "text": "claim"
+          },
+          {
+            "id": "B",
+            "text": "lane"
+          },
+          {
+            "id": "C",
+            "text": "hill"
+          },
+          {
+            "id": "D",
+            "text": "corner"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Claim adalah klaim atau tuntutan kebenaran, dan kalimat ini meminta bukti.",
+        "stepByStep": [
+          "Kalimat menyebut klaim perusahaan yang membutuhkan bukti.",
+          "Pernyataan yang diajukan sebagai kebenaran disebut claim.",
+          "Lane, hill, dan corner tidak berarti klaim."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Lane berarti jalur, bukan klaim."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Hill berarti bukit, bukan klaim."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Corner berarti sudut atau tikungan, bukan klaim."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "A story can ___ readers if it gives only part of the facts.",
+        "options": [
+          {
+            "id": "A",
+            "text": "verify"
+          },
+          {
+            "id": "B",
+            "text": "mislead"
+          },
+          {
+            "id": "C",
+            "text": "exaggerate"
+          },
+          {
+            "id": "D",
+            "text": "lack"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mislead berarti menyesatkan, dan cocok dengan cerita yang hanya memberi sebagian fakta.",
+        "stepByStep": [
+          "Kalimat menyebut cerita yang hanya memberi sebagian fakta.",
+          "Akibatnya pembaca tersesat, yaitu mislead.",
+          "Verify berarti memverifikasi, exaggerate berarti melebih-lebihkan, dan lack berarti kekurangan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Verify berarti memastikan kebenaran, bukan membuat pembaca tersesat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Exaggerate berarti melebih-lebihkan, bukan memberi sebagian fakta."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Lack berarti kekurangan, tidak menggambarkan akibat bagi pembaca."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The results ___ the earlier study, so we cannot accept both.",
+        "options": [
+          {
+            "id": "A",
+            "text": "verify"
+          },
+          {
+            "id": "B",
+            "text": "assume"
+          },
+          {
+            "id": "C",
+            "text": "stretch"
+          },
+          {
+            "id": "D",
+            "text": "contradict"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Contradict berarti bertentangan dengan, dan kalimat ini menyebut kedua hasil tidak bisa sama-sama diterima.",
+        "stepByStep": [
+          "Kalimat menyebut dua hasil yang tidak bisa sama-sama diterima.",
+          "Hasil yang berlawanan satu sama lain disebut contradict.",
+          "Verify, assume, dan stretch tidak menggambarkan pertentangan dua hasil."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Verify berarti memastikan, bukan menunjukkan pertentangan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Assume berarti menganggap, bukan bertentangan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Stretch berarti meregangkan, tidak sesuai dengan makna ini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Contradict dipakai jika dua hal tidak bisa benar bersamaan.",
+          "examples": [
+            {
+              "en": "This finding contradicts the first report.",
+              "id": "Temuan ini bertentangan dengan laporan pertama."
+            },
+            {
+              "en": "Her answer contradicts what she said earlier.",
+              "id": "Jawabannya bertentangan dengan yang dia katakan sebelumnya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B assume terlihat cocok karena kalimat membahas dua hasil, tetapi assume berarti menganggap, bukan bertentangan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "He made an ___ that everyone would agree, but nobody had asked them.",
+        "options": [
+          {
+            "id": "A",
+            "text": "assumption"
+          },
+          {
+            "id": "B",
+            "text": "statement"
+          },
+          {
+            "id": "C",
+            "text": "valid"
+          },
+          {
+            "id": "D",
+            "text": "exaggerate"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Assumption adalah anggapan yang diterima tanpa dibuktikan, dan kalimat ini menyebut orang belum ditanya.",
+        "stepByStep": [
+          "Kalimat menyebut anggapan bahwa semua orang akan setuju.",
+          "Anggapan yang belum dibuktikan disebut assumption.",
+          "Statement berarti pernyataan, valid berarti sah, dan exaggerate berarti melebih-lebihkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Statement berarti pernyataan, bukan anggapan yang belum dibuktikan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Valid adalah kata sifat, tidak bisa menjadi kata benda dalam posisi ini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Exaggerate adalah kata kerja, tidak cocok di posisi kata benda."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Assumption adalah anggapan yang diterima begitu saja tanpa bukti.",
+          "examples": [
+            {
+              "en": "Our plan rests on one assumption.",
+              "id": "Rencana kami bertumpu pada satu asumsi."
+            },
+            {
+              "en": "The assumption was never tested.",
+              "id": "Asumsi itu tidak pernah diuji."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B statement terlihat cocok karena berkaitan dengan ucapan, tetapi yang dibutuhkan adalah anggapan yang belum diuji."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Pernyataan itu benar.",
+        "hint": "Pernyataan: the statement. Benar: true.",
+        "acceptedAnswers": [
+          "The statement is true.",
+          "That statement is true."
+        ],
+        "modelAnswer": "The statement is true.",
+        "commonErrors": [
+          {
+            "pattern": "The statement are true",
+            "feedbackId": "Statement adalah kata benda tunggal, jadi memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Klaim itu tidak sesuai dengan data.",
+        "hint": "Klaim: the claim. Tidak sesuai dengan: does not match.",
+        "acceptedAnswers": [
+          "The claim does not match the data.",
+          "The claim does not fit the data."
+        ],
+        "modelAnswer": "The claim does not match the data.",
+        "commonErrors": [
+          {
+            "pattern": "The claim not match the data",
+            "feedbackId": "Setelah does not, pakai kata kerja dasar match."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Peneliti itu ingin memverifikasi asumsinya.",
+        "hint": "Peneliti: the researcher. Ingin memverifikasi: wants to verify. Asumsinya: her assumption.",
+        "acceptedAnswers": [
+          "The researcher wants to verify her assumption.",
+          "The researcher wants to verify the assumption."
+        ],
+        "modelAnswer": "The researcher wants to verify her assumption.",
+        "commonErrors": [
+          {
+            "pattern": "The researcher want verify her assumption",
+            "feedbackId": "Subjek researcher tunggal memakai wants."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Angka itu mungkin menyesatkan pembaca.",
+        "hint": "Angka: the figure. Mungkin: may. Menyesatkan: mislead. Pembaca: readers.",
+        "acceptedAnswers": [
+          "The figure may mislead readers.",
+          "The figure might mislead readers."
+        ],
+        "modelAnswer": "The figure may mislead readers.",
+        "commonErrors": [
+          {
+            "pattern": "The figure may misleads readers",
+            "feedbackId": "Setelah may, pakai kata kerja dasar mislead."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Data itu belum dipublikasikan, sehingga klaim belum bisa diverifikasi.",
+        "hint": "Data itu: the data. Belum dipublikasikan: has not been published. Klaim: the claim. Belum bisa diverifikasi: cannot be verified yet.",
+        "acceptedAnswers": [
+          "The data has not been published, so the claim cannot be verified yet.",
+          "The data has not been published, so the claim cannot be verified yet."
+        ],
+        "modelAnswer": "The data has not been published, so the claim cannot be verified yet.",
+        "commonErrors": [
+          {
+            "pattern": "The data has not publish, so the claim cannot verified yet",
+            "feedbackId": "Setelah has not been, pakai bentuk V3 published. Setelah cannot be, pakai V3 verified."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'valid'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The argue valid is evidence."
+          },
+          {
+            "id": "B",
+            "text": "The argument is valid because the evidence supports it."
+          },
+          {
+            "id": "C",
+            "text": "The valid argument supports is evidence."
+          },
+          {
+            "id": "D",
+            "text": "Valid the argument because evidence."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pola the argument is valid because diikuti penjelasan adalah pola yang benar dengan valid sebagai kata sifat.",
+        "stepByStep": [
+          "Valid adalah kata sifat yang dipakai setelah is.",
+          "Pilihan B memakai urutan kata yang benar dengan because.",
+          "Pilihan A, C, dan D memiliki urutan kata yang salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kalimat ini tidak memiliki kata kerja utama yang benar."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Valid adalah kata sifat yang dipakai setelah is atau sebelum kata benda.",
+          "examples": [
+            {
+              "en": "The ticket is valid until Friday.",
+              "id": "Tiket itu berlaku sampai hari Jumat."
+            },
+            {
+              "en": "This is a valid point.",
+              "id": "Ini adalah poin yang valid."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C tampak benar karena memakai valid sebelum kata benda argument, tetapi urutan kata sesudahnya rusak."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The headline ___ the good news by saying every street is safe.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "verifies"
+          },
+          {
+            "id": "B",
+            "text": "assumes"
+          },
+          {
+            "id": "C",
+            "text": "validates"
+          },
+          {
+            "id": "D",
+            "text": "exaggerates"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Exaggerates berarti melebih-lebihkan, dan 'every street is safe' menggambarkan klaim yang terlalu jauh.",
+        "stepByStep": [
+          "Kalimat menyebut klaim bahwa setiap jalan aman.",
+          "Membesar-besarkan kabar baik disebut exaggerate.",
+          "Verifies, assumes, dan validates tidak menggambarkan melebih-lebihkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Verifies berarti memastikan, bukan melebih-lebihkan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Assumes berarti menganggap, bukan melebih-lebihkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Validates berarti mengesahkan, bukan melebih-lebihkan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Exaggerate dipakai saat sesuatu dibuat lebih besar atau lebih baik daripada kenyataannya.",
+          "examples": [
+            {
+              "en": "Do not exaggerate the size of the audience.",
+              "id": "Jangan melebih-lebihkan jumlah penontonnya."
+            },
+            {
+              "en": "The advert exaggerated the benefits.",
+              "id": "Iklan itu melebih-lebihkan manfaatnya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C validates terlihat cocok karena menyangkut kebenaran, tetapi kalimat ini menggambarkan pernyataan yang terlalu jauh."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to make something appear different from how it really is'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "distort"
+          },
+          {
+            "id": "B",
+            "text": "verify"
+          },
+          {
+            "id": "C",
+            "text": "statement"
+          },
+          {
+            "id": "D",
+            "text": "valid"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Distort berarti memutarbalikkan, sehingga sesuatu tampak berbeda dari kenyataannya.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk membuat sesuatu tampak berbeda dari kenyataannya.",
+          "Kata yang tepat adalah distort.",
+          "Verify, statement, dan valid tidak berarti memutarbalikkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Verify berarti memastikan, bukan membuat tampak berbeda."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Statement berarti pernyataan, bukan tindakan memutarbalikkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Valid berarti sah, bukan memutarbalikkan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Distort berarti mengubah bentuk atau makna sesuatu sehingga tidak sesuai dengan kenyataan.",
+          "examples": [
+            {
+              "en": "The mirror distorted the image.",
+              "id": "Cermin itu memutarbalikkan bayangan."
+            },
+            {
+              "en": "Never distort the facts in your report.",
+              "id": "Jangan pernah memutarbalikkan fakta dalam laporanmu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B verify terlihat dekat karena berkaitan dengan kebenaran, tetapi verify berarti memastikan, bukan membelokkan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word refers to a point that is not said directly but is still implied?",
+        "options": [
+          {
+            "id": "A",
+            "text": "statement"
+          },
+          {
+            "id": "B",
+            "text": "claim"
+          },
+          {
+            "id": "C",
+            "text": "unstated"
+          },
+          {
+            "id": "D",
+            "text": "valid"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Unstated berarti tidak dinyatakan secara langsung, tetapi bisa tersirat.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk hal yang tidak dinyatakan langsung.",
+          "Kata yang berarti tidak dinyatakan adalah unstated.",
+          "Statement dan claim adalah pernyataan yang dinyatakan langsung, dan valid berarti sah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Statement adalah pernyataan yang dinyatakan langsung."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Claim adalah klaim yang dinyatakan secara jelas."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Valid berarti sah, tidak menjelaskan hal yang tersirat."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Unstated berarti tidak disebutkan secara eksplisit, sehingga pembaca harus menyimpulkan sendiri.",
+          "examples": [
+            {
+              "en": "The reason was unstated but clear.",
+              "id": "Alasannya tidak dinyatakan tetapi jelas."
+            },
+            {
+              "en": "An unstated rule can cause confusion.",
+              "id": "Aturan yang tidak dinyatakan bisa menimbulkan kebingungan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B claim terlihat cocok karena ada hal yang disampaikan, tetapi claim sudah dinyatakan secara jelas."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "What does 'contradict' mean?",
+        "options": [
+          {
+            "id": "A",
+            "text": "to agree completely"
+          },
+          {
+            "id": "B",
+            "text": "to say the opposite of"
+          },
+          {
+            "id": "C",
+            "text": "to repeat exactly"
+          },
+          {
+            "id": "D",
+            "text": "to measure carefully"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Contradict berarti menyatakan kebalikan atau bertentangan dengan sesuatu.",
+        "stepByStep": [
+          "Contradict berarti bertentangan.",
+          "Bertentangan berarti menyatakan kebalikan dari sesuatu.",
+          "Setuju sepenuhnya, mengulang persis, dan mengukur dengan cermat tidak sesuai dengan makna itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Setuju sepenuhnya adalah kebalikan dari contradict."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Mengulang persis tidak berarti bertentangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Mengukur dengan cermat tidak berarti bertentangan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Contradict dipakai saat dua pernyataan tidak bisa sama-sama benar.",
+          "examples": [
+            {
+              "en": "The data contradicts the first claim.",
+              "id": "Data itu bertentangan dengan klaim pertama."
+            },
+            {
+              "en": "Her story contradicts the witness.",
+              "id": "Ceritanya bertentangan dengan saksi."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A agree completely terlihat seperti makna yang dekat karena kedua kata berhubungan dengan pendapat, tetapi itu kebalikannya."
+      }
+    ]
+  }
+}

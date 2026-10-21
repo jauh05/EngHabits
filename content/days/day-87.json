@@ -1,0 +1,597 @@
+{
+  "day": 87,
+  "week": 12,
+  "month": 3,
+  "title": "Speaking Part 3: Membandingkan dan Spekulasi",
+  "topic": "Membandingkan dua ide dan menyatakan dugaan dengan hati-hati",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membaca teks tentang kata penanda dugaan dan tingkat keyakinan",
+    "Membedakan kata yang menyatakan kemungkinan, kepastian, dan informasi yang didengar",
+    "Menjawab soal bacaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "speculate", "pronunciationId": "SPEK-yuh-leyt (tekanan di SPEK)", "pos": "Verb", "meaningId": "menduga, berspekulasi", "example": "Let's not speculate before we have the facts.", "exampleId": "Jangan berspekulasi dulu sebelum kita punya faktanya." },
+      { "no": 2, "en": "probably", "pronunciationId": "PROB-uh-blee (tekanan di PROB)", "pos": "Adv", "meaningId": "kemungkinan besar", "example": "It will probably rain this evening.", "exampleId": "Kemungkinan besar akan hujan malam ini." },
+      { "no": 3, "en": "possibly", "pronunciationId": "POS-uh-blee (tekanan di POS)", "pos": "Adv", "meaningId": "mungkin saja", "example": "The bus could possibly be late.", "exampleId": "Bus itu mungkin saja terlambat." },
+      { "no": 4, "en": "presumably", "pronunciationId": "pri-ZOO-muh-blee (tekanan di ZOO)", "pos": "Adv", "meaningId": "agaknya, tampaknya dari bukti yang ada", "example": "Presumably, she is still at work.", "exampleId": "Agaknya, dia masih di tempat kerja." },
+      { "no": 5, "en": "arguably", "pronunciationId": "AR-gyoo-uh-blee (tekanan di AR)", "pos": "Adv", "meaningId": "bisa dibilang", "example": "This is arguably the best plan.", "exampleId": "Ini bisa dibilang rencana terbaik." },
+      { "no": 6, "en": "conceivably", "pronunciationId": "kun-SEE-vuh-blee (tekanan di SEE)", "pos": "Adv", "meaningId": "secara teori bisa terjadi", "example": "It is conceivably the cheapest option.", "exampleId": "Secara teori, itu bisa jadi pilihan termurah." },
+      { "no": 7, "en": "doubtless", "pronunciationId": "DOUT-lis (tekanan di DOUT)", "pos": "Adv", "meaningId": "tidak diragukan lagi", "example": "Doubtless, the team will be ready.", "exampleId": "Tidak diragukan lagi, tim itu akan siap." },
+      { "no": 8, "en": "undoubtedly", "pronunciationId": "un-DOUT-id-lee (tekanan di DOUT)", "pos": "Adv", "meaningId": "pasti, tanpa keraguan", "example": "She is undoubtedly the best speaker here.", "exampleId": "Dia pasti pembicara terbaik di sini." },
+      { "no": 9, "en": "apparently", "pronunciationId": "uh-PAIR-uhnt-lee (tekanan di PAIR)", "pos": "Adv", "meaningId": "menurut kabar yang didengar", "example": "Apparently, the library opens late today.", "exampleId": "Menurut kabar yang didengar, perpustakaan buka terlambat hari ini." },
+      { "no": 10, "en": "seemingly", "pronunciationId": "SEEM-ing-lee (tekanan di SEEM)", "pos": "Adv", "meaningId": "tampaknya, sepintas lalu", "example": "A seemingly simple task can take hours.", "exampleId": "Tugas yang tampaknya sederhana bisa memakan waktu berjam-jam." }
+    ],
+    "tip": "Saat membandingkan dua ide, gunakan satu kata penanda tingkat keyakinan agar jawabanmu terdengar hati-hati, bukan menebak tanpa dasar."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS speaking part 3 speculation", "IELTS speaking part 3 comparing ideas"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membandingkan ide dan menyatakan dugaan dengan kata seperti probably dan arguably.",
+      "watchFor": [
+        "Cara membedakan probably dan possibly",
+        "Contoh penggunaan arguably untuk pendapat yang bisa diperdebatkan",
+        "Cara menutup perbandingan dengan ringkasan singkat"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam Part 3, pemeriksa ingin melihat cara kamu bernalar. Kamu boleh menduga, asalkan dugaan itu jelas, beralasan, dan tidak dilebih-lebihkan.",
+      "sections": [
+        {
+          "heading": "Menyatakan dugaan",
+          "bodyMd": "Gunakan **speculate** saat kamu menduga sesuatu yang belum pasti. Pakai **probably** untuk kemungkinan besar dan **possibly** untuk kemungkinan kecil."
+        },
+        {
+          "heading": "Menyatakan alasan dugaan",
+          "bodyMd": "**Presumably** dipakai saat dugaan berasal dari bukti yang sudah ada. **Apparently** dan **seemingly** dipakai saat kamu merujuk pada kabar atau kesan yang kamu dapat."
+        },
+        {
+          "heading": "Menyatakan pendapat yang bisa diperdebatkan",
+          "bodyMd": "Pakai **arguably** untuk pendapat yang tidak semua orang setujui. **Conceivably** dipakai untuk sesuatu yang mungkin secara teori."
+        },
+        {
+          "heading": "Menyatakan keyakinan kuat",
+          "bodyMd": "**Doubtless** dan **undoubtedly** menunjukkan keyakinan kuat. Gunakan keduanya hanya jika kamu punya bukti yang kuat."
+        }
+      ],
+      "formulas": [
+        { "label": "Dugaan", "pattern": "X will probably Y" },
+        { "label": "Bukti", "pattern": "Presumably, X because Y" },
+        { "label": "Perbandingan", "pattern": "X probably offers A, but Y arguably offers B" },
+        { "label": "Kesan", "pattern": "Apparently, X" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The plan will probably work if we start early.", "id": "Rencana itu kemungkinan besar akan berhasil jika kita mulai lebih awal." },
+          { "en": "Presumably, the shop is closed because the lights are off.", "id": "Agaknya tokonya tutup karena lampunya mati." },
+          { "en": "This is arguably the most useful option.", "id": "Ini bisa dibilang pilihan yang paling berguna." },
+          { "en": "Apparently, the exam date has changed.", "id": "Menurut kabar yang didengar, tanggal ujian sudah berubah." },
+          { "en": "Undoubtedly, practice improves fluency.", "id": "Tanpa diragukan lagi, latihan meningkatkan kelancaran." }
+        ],
+        "negative": [
+          { "en": "It is undoubtedly true because I think so.", "id": "Itu pasti benar karena saya rasa begitu." },
+          { "en": "The answer is certainly correct, and nobody can disagree.", "id": "Jawabannya pasti benar, dan tidak ada yang bisa tidak setuju." },
+          { "en": "Apparently, I know everything about this topic.", "id": "Tampaknya saya tahu segalanya tentang topik ini." },
+          { "en": "The result is doubtless, so there is no need to check.", "id": "Hasilnya tidak diragukan, jadi tidak perlu diperiksa." },
+          { "en": "This seemingly simple task is always easy.", "id": "Tugas yang tampaknya sederhana ini selalu mudah." }
+        ],
+        "question": [
+          { "en": "Do you think the price will probably rise?", "id": "Menurutmu, apakah harganya kemungkinan besar akan naik?" },
+          { "en": "What evidence makes you think that presumably is true?", "id": "Bukti apa yang membuatmu berpikir bahwa itu agaknya benar?" },
+          { "en": "Is this arguably the best solution?", "id": "Apakah ini bisa dibilang solusi terbaik?" },
+          { "en": "What did you hear apparently about the new rule?", "id": "Apa yang kamu dengar, menurut kabar, tentang aturan baru itu?" },
+          { "en": "Why would you speculate about the future?", "id": "Mengapa kamu berspekulasi tentang masa depan?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "It will probable rain tomorrow.", "right": "It will probably rain tomorrow.", "whyId": "Setelah will, kata sifat diubah menjadi kata keterangan probably." },
+        { "wrong": "Presumably the bus are late.", "right": "Presumably the bus is late.", "whyId": "Bus tunggal memakai is." },
+        { "wrong": "Undoubtedly, I am sure that is correct.", "right": "Undoubtedly, that is correct.", "whyId": "Undoubtedly sudah menyatakan keyakinan, sehingga kata sure berlebihan." },
+        { "wrong": "Apparently, I speculate the answer.", "right": "Apparently, the answer is simple.", "whyId": "Apparently merujuk pada kabar, bukan pada tindakan menduga pembicara." },
+        { "wrong": "This is arguable best solution.", "right": "This is arguably the best solution.", "whyId": "Kata keterangan arguably memerlukan the best, bukan bentuk sifat arguable." },
+        { "wrong": "Seemingly, the task is easy, but it take hours.", "right": "Seemingly, the task is easy, but it takes hours.", "whyId": "Subjek it tunggal memakai takes." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Berspekulasi dengan Hati-hati",
+    "text": "In a Part 3 discussion, examiners often ask questions that have no single correct answer. They want to hear how you reason, and one useful skill is to speculate carefully. To speculate means to form a view about something that is not certain. A good speaker does not claim too much, so they use hedging language.\n\nHedging words help a speaker sound thoughtful. Probably shows that something is likely but not guaranteed. For example, 'Prices will probably rise next year' is a reasonable prediction. Possibly is weaker, because it means that something might happen. 'The project could possibly finish early' suggests a small chance, not a strong expectation.\n\nPresumably is used when a speaker makes a logical guess from known facts. If the bus is late and the road is closed, a speaker might say, 'Presumably there was an accident.' The word signals that the guess is based on evidence, though it may still be wrong. Arguably is different. It introduces an opinion that many people might accept, but not everyone. A speaker can say, 'This is arguably the best solution,' to show that a point is debatable.\n\nConceivably is useful when a speaker talks about something that is possible in theory. 'It is conceivably the cheapest option' means that people could imagine it being cheapest, though no one has proved it. Doubtless and undoubtedly are the opposite. They express strong confidence. A speaker might say, 'Doubtless, many students will find this helpful,' or 'Undoubtedly, learning a language takes time.' Use these words only when the evidence is strong, otherwise the answer sounds exaggerated.\n\nApparently and seemingly describe what seems true from what someone has observed or heard. 'Apparently, the library will open late today' reports information that the speaker has heard, but the speaker may not have checked it. Seemingly is similar, as in 'Seemingly simple tasks can take longer than expected.' The writer's point is that appearances may differ from reality.\n\nWhen comparing two ideas, a good speaker combines these words with clear structure. First, state the comparison. Second, give a reason. Third, use one hedging word to show care. Fourth, close with a short summary. For example, a speaker could say, 'Cities probably offer more jobs, but villages arguably offer a calmer life, so the choice depends on personal priorities.'\n\nFinally, speculation should not become guesswork without support. Examiners reward answers that connect ideas to reasons and examples. Hedging is a tool for honesty, not a way to avoid answering the question. A clear answer that says what is likely, what is uncertain, and why, often scores better than a confident answer with no reasoning.",
+    "glossary": [
+      { "en": "hedging", "id": "pemakaian kata yang melunakkan pernyataan" },
+      { "en": "guaranteed", "id": "dijamin" },
+      { "en": "debatable", "id": "masih bisa diperdebatkan" },
+      { "en": "exaggerated", "id": "dilebih-lebihkan" },
+      { "en": "appearance", "id": "kesan, penampilan luar" },
+      { "en": "priority", "id": "prioritas" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Speculating means claiming that something is certain.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menyebut speculate berarti membentuk pandangan tentang sesuatu yang belum pasti, bukan menyatakan kepastian.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyatakan speculate berkaitan dengan hal yang belum pasti, sehingga tidak berarti menyatakan kepastian." },
+          { "optionId": "C", "reasonId": "Teks memberi definisi langsung tentang speculate." }
+        ],
+        "evidence": "To speculate means to form a view about something that is not certain."
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "According to the text, when is 'presumably' used?",
+        "options": [
+          { "id": "A", "text": "when a speaker is completely sure" },
+          { "id": "B", "text": "when a speaker repeats a fact" },
+          { "id": "C", "text": "when a speaker makes a logical guess from known facts" },
+          { "id": "D", "text": "when a speaker reports only a rumour" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut presumably dipakai saat pembicara membuat tebakan logis dari fakta yang diketahui.",
+        "stepByStep": [
+          "Cari presumably di paragraf ketiga.",
+          "Teks menyebut Presumably is used when a speaker makes a logical guess from known facts.",
+          "Kepastian penuh, mengulang fakta, dan rumor tidak sesuai dengan definisi itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Presumably tidak dipakai untuk kepastian penuh." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut presumably untuk mengulang fakta." },
+          { "optionId": "D", "reasonId": "Rumor disebut dalam konteks apparently, bukan presumably." }
+        ],
+        "evidence": "Presumably is used when a speaker makes a logical guess from known facts."
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Doubtless and undoubtedly express strong confidence.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyatakan doubtless dan undoubtedly menunjukkan keyakinan kuat.",
+        "stepByStep": [
+          "Cari doubtless di paragraf keempat.",
+          "Teks menyebut Doubtless and undoubtedly are the opposite. They express strong confidence.",
+          "Pernyataan soal sama dengan teks, sehingga True."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyatakan keduanya menunjukkan keyakinan kuat, bukan lemah." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "evidence": "They express strong confidence."
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the text, what does 'arguably' show?",
+        "options": [
+          { "id": "A", "text": "that a fact is proven" },
+          { "id": "B", "text": "that a speaker is angry" },
+          { "id": "C", "text": "that a rule must be followed" },
+          { "id": "D", "text": "that a point is debatable" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menyebut arguably dipakai untuk menunjukkan bahwa suatu poin masih bisa diperdebatkan.",
+        "stepByStep": [
+          "Cari arguably di paragraf ketiga.",
+          "Teks menyebut arguably untuk show that a point is debatable.",
+          "Fakta terbukti, kemarahan, dan aturan wajib tidak disebut sebagai arti arguably."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut arguably untuk fakta yang sudah terbukti." },
+          { "optionId": "B", "reasonId": "Kemarahan pembicara tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Aturan yang harus diikuti tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Arguably dipakai untuk opini yang banyak orang bisa terima, tetapi tidak semua orang setuju.",
+          "examples": [
+            { "en": "This is arguably the best city to live in.", "id": "Ini bisa dibilang kota terbaik untuk ditinggali." },
+            { "en": "The film is arguably the most important of the year.", "id": "Film ini bisa dibilang yang paling penting tahun ini." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena kata arguably sering dipakai dalam argumen, tetapi teks menyebut arguably untuk poin yang bisa diperdebatkan, bukan fakta yang terbukti.",
+        "evidence": "to show that a point is debatable"
+      },
+      {
+        "id": "R5",
+        "type": "yes_no_not_given",
+        "prompt": "The writer says that hedging is a way to avoid answering the question.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyatakan hedging adalah alat untuk kejujuran, bukan cara untuk menghindari pertanyaan.",
+        "stepByStep": [
+          "Cari hedging di paragraf terakhir.",
+          "Teks menyebut Hedging is a tool for honesty, not a way to avoid answering the question.",
+          "Pernyataan soal berlawanan dengan itu, sehingga No."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyatakan kebalikannya, yaitu hedging bukan cara menghindari pertanyaan." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kalimat dengan not a way to berarti menolak pernyataan yang mengikutinya.",
+          "examples": [
+            { "en": "Practice is not a way to waste time.", "id": "Latihan bukan cara membuang waktu." },
+            { "en": "Honesty is not a way to make people angry.", "id": "Kejujuran bukan cara untuk membuat orang marah." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena teks membahas hedging dengan panjang lebar, tetapi teks justru menolak bahwa hedging adalah cara menghindari pertanyaan.",
+        "evidence": "Hedging is a tool for honesty, not a way to avoid answering the question."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She is ___ the best candidate for the job, based on her experience.",
+        "options": [
+          { "id": "A", "text": "arguably" },
+          { "id": "B", "text": "mirror" },
+          { "id": "C", "text": "ladder" },
+          { "id": "D", "text": "cupboard" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Arguably dipakai untuk pendapat yang bisa diterima banyak orang, dan kalimat ini menyatakan opini tentang kandidat terbaik.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Mirror berarti cermin, bukan kata keterangan." },
+          { "optionId": "C", "reasonId": "Ladder berarti tangga, bukan kata keterangan." },
+          { "optionId": "D", "reasonId": "Cupboard berarti lemari, bukan kata keterangan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The sky is dark and heavy, so it will ___ rain later today.",
+        "options": [
+          { "id": "A", "text": "apparently" },
+          { "id": "B", "text": "seemingly" },
+          { "id": "C", "text": "undoubtedly" },
+          { "id": "D", "text": "probably" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Probably menunjukkan kemungkinan besar tetapi belum pasti, dan kalimat ini hanya berupa prediksi dari tanda cuaca.",
+        "stepByStep": [
+          "Kalimat memprediksi hujan dari tanda langit yang gelap.",
+          "Prediksi dengan kemungkinan besar tetapi belum pasti disebut probably.",
+          "Apparently dan seemingly merujuk pada kabar atau kesan, dan undoubtedly menyatakan kepastian penuh."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Apparently merujuk pada kabar yang didengar, bukan prediksi dari tanda cuaca." },
+          { "optionId": "B", "reasonId": "Seemingly merujuk pada kesan sepintas, bukan prediksi berdasarkan tanda cuaca." },
+          { "optionId": "C", "reasonId": "Undoubtedly menyatakan kepastian penuh, sedangkan kalimat ini hanya prediksi." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "He ___ forgot the meeting, because he did not reply to any messages.",
+        "options": [
+          { "id": "A", "text": "arguably" },
+          { "id": "B", "text": "conceivably" },
+          { "id": "C", "text": "presumably" },
+          { "id": "D", "text": "doubtless" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Presumably dipakai untuk dugaan logis dari bukti yang ada, yaitu dia tidak membalas pesan.",
+        "stepByStep": [
+          "Kalimat menyebut bukti: dia tidak membalas pesan.",
+          "Dugaan logis dari bukti itu disebut presumably.",
+          "Arguably, conceivably, dan doubtless tidak sesuai dengan dugaan logis dari bukti."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Arguably dipakai untuk opini yang bisa diperdebatkan, bukan dugaan dari bukti." },
+          { "optionId": "B", "reasonId": "Conceivably dipakai untuk kemungkinan secara teori, bukan dugaan dari bukti." },
+          { "optionId": "D", "reasonId": "Doubtless menyatakan keyakinan kuat, sedangkan kalimat ini hanya dugaan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "I heard from a friend that the museum is ___ closed for repairs.",
+        "options": [
+          { "id": "A", "text": "conceivably" },
+          { "id": "B", "text": "apparently" },
+          { "id": "C", "text": "doubtless" },
+          { "id": "D", "text": "arguably" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Apparently dipakai untuk menyatakan kabar yang didengar tetapi belum diperiksa sendiri.",
+        "stepByStep": [
+          "Kalimat menyebut sumber informasi: dari seorang teman.",
+          "Informasi yang didengar tetapi belum diperiksa disebut apparently.",
+          "Conceivably, doubtless, dan arguably tidak menyatakan sumber kabar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Conceivably menyatakan kemungkinan secara teori, bukan sumber kabar." },
+          { "optionId": "C", "reasonId": "Doubtless menyatakan keyakinan kuat, bukan sumber kabar." },
+          { "optionId": "D", "reasonId": "Arguably dipakai untuk opini yang bisa diperdebatkan, bukan sumber kabar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Apparently dipakai saat pembicara menyampaikan informasi yang didengar atau dibaca, tanpa memastikan kebenarannya.",
+          "examples": [
+            { "en": "Apparently, the train has been delayed.", "id": "Menurut kabar, kereta itu tertunda." },
+            { "en": "The shop is apparently open on Sundays.", "id": "Menurut kabar, toko itu buka pada hari Minggu." }
+          ]
+        },
+        "examTrap": "Pilihan A conceivably terlihat cocok karena museum bisa saja tutup, tetapi kalimat ini menyebut sumber kabar dari teman."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "It is ___ possible to finish the project in one week, but it is unlikely.",
+        "options": [
+          { "id": "A", "text": "conceivably" },
+          { "id": "B", "text": "doubtless" },
+          { "id": "C", "text": "apparently" },
+          { "id": "D", "text": "presumably" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Conceivably dipakai untuk sesuatu yang mungkin secara teori, meskipun tidak mungkin terjadi dalam praktik.",
+        "stepByStep": [
+          "Kalimat menyebut sesuatu yang mungkin secara teori tetapi tidak mungkin dalam praktik.",
+          "Kemungkinan secara teori disebut conceivably.",
+          "Doubtless, apparently, dan presumably tidak menyatakan kemungkinan teoretis."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Doubtless menyatakan keyakinan kuat, sedangkan kalimat ini menyebut kemungkinan yang kecil." },
+          { "optionId": "C", "reasonId": "Apparently merujuk pada kabar, bukan kemungkinan teoretis." },
+          { "optionId": "D", "reasonId": "Presumably merujuk pada dugaan dari bukti, bukan kemungkinan teoretis." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Conceivably dipakai untuk menyatakan sesuatu yang bisa dibayangkan atau mungkin secara teori.",
+          "examples": [
+            { "en": "It is conceivably a good idea, but it is hard to test.", "id": "Secara teori, itu bisa jadi ide yang bagus, tetapi sulit diuji." },
+            { "en": "The plan is conceivably possible with more money.", "id": "Secara teori, rencana itu mungkin dilakukan dengan lebih banyak uang." }
+          ]
+        },
+        "examTrap": "Pilihan B doubtless terlihat cocok karena kata possible sering dipakai bersama keyakinan, tetapi kalimat ini justru menyatakan kemungkinan yang kecil."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Harga rumah mungkin akan naik tahun depan.",
+        "hint": "Harga rumah: house prices. Kemungkinan besar akan naik: will probably rise. Tahun depan: next year.",
+        "acceptedAnswers": ["House prices will probably rise next year.", "House prices will probably increase next year."],
+        "modelAnswer": "House prices will probably rise next year.",
+        "commonErrors": [{ "pattern": "House price will probable rise next year", "feedbackId": "Setelah will, pakai probably, bukan probable, dan house prices dijamakkan." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia tampaknya lelah setelah bekerja seharian.",
+        "hint": "Dia tampaknya: seemingly atau apparently. Lelah: tired. Setelah bekerja seharian: after working all day.",
+        "acceptedAnswers": ["She seemingly feels tired after working all day.", "She apparently feels tired after working all day.", "She seems tired after working all day."],
+        "modelAnswer": "She seemingly feels tired after working all day.",
+        "commonErrors": [{ "pattern": "She seeming tired after work all day", "feedbackId": "Seemingly adalah kata keterangan, dan setelah after working memakai bentuk -ing." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tanpa keraguan, pendidikan adalah kunci masa depan.",
+        "hint": "Tanpa keraguan: undoubtedly. Pendidikan: education. Kunci masa depan: the key to the future.",
+        "acceptedAnswers": ["Undoubtedly, education is the key to the future.", "Doubtless, education is the key to the future."],
+        "modelAnswer": "Undoubtedly, education is the key to the future.",
+        "commonErrors": [{ "pattern": "Undoubtedly education are key to future", "feedbackId": "Education tunggal memakai is, dan the key to the future adalah frasa lengkap." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Ini bisa dibilang pilihan terbaik.",
+        "hint": "Bisa dibilang: arguably. Pilihan terbaik: the best choice.",
+        "acceptedAnswers": ["This is arguably the best choice.", "This is arguably the best option."],
+        "modelAnswer": "This is arguably the best choice.",
+        "commonErrors": [{ "pattern": "This is arguable best choice", "feedbackId": "Arguably adalah kata keterangan, dan superlatif memakai the best." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Secara teori, rencana itu masih mungkin dijalankan.",
+        "hint": "Secara teori: conceivably. Rencana itu: the plan. Masih mungkin dijalankan: is still possible to carry out.",
+        "acceptedAnswers": ["The plan is conceivably still possible to carry out.", "The plan is conceivably still feasible."],
+        "modelAnswer": "The plan is conceivably still possible to carry out.",
+        "commonErrors": [{ "pattern": "The plan conceivable still possible to carry out", "feedbackId": "Conceivably adalah kata keterangan yang diletakkan sebelum still possible, dan plan memakai is." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'possible in theory, though not proven'?",
+        "options": [
+          { "id": "A", "text": "apparently" },
+          { "id": "B", "text": "undoubtedly" },
+          { "id": "C", "text": "conceivably" },
+          { "id": "D", "text": "presumably" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Conceivably berarti secara teori bisa terjadi, meskipun belum terbukti.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kemungkinan yang secara teori bisa terjadi.",
+          "Kemungkinan teoretis yang belum terbukti disebut conceivably.",
+          "Apparently, undoubtedly, dan presumably tidak berarti kemungkinan teoretis."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Apparently merujuk pada kabar yang didengar, bukan kemungkinan teoretis." },
+          { "optionId": "B", "reasonId": "Undoubtedly menyatakan kepastian penuh, bukan kemungkinan teoretis." },
+          { "optionId": "D", "reasonId": "Presumably merujuk pada dugaan dari bukti, bukan kemungkinan teoretis." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Conceivably dipakai untuk sesuatu yang bisa dibayangkan atau mungkin, tanpa bukti kuat.",
+          "examples": [
+            { "en": "It is conceivably the best route, but no one has tested it.", "id": "Secara teori, itu bisa jadi rute terbaik, tetapi belum ada yang mengujinya." },
+            { "en": "A new method is conceivably faster.", "id": "Metode baru secara teori bisa jadi lebih cepat." }
+          ]
+        },
+        "examTrap": "Pilihan D presumably terlihat cocok karena kalimat tentang kemungkinan sering memakai dugaan, tetapi presumably didasarkan pada bukti, bukan kemungkinan teoretis."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'undoubtedly'?",
+        "options": [
+          { "id": "A", "text": "Undoubtedly are students who worry about exams." },
+          { "id": "B", "text": "Undoubtedly, the students is tired after the exam." },
+          { "id": "C", "text": "The students undoubtedly is tired after the exam." },
+          { "id": "D", "text": "The students are undoubtedly tired after the exam." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Undoubtedly ditempatkan sebelum kata sifat tired, dan subjek jamak students memakai are.",
+        "stepByStep": [
+          "Subjek the students adalah jamak, sehingga memakai are.",
+          "Undoubtedly diletakkan sebelum kata sifat tired untuk menguatkan kata itu.",
+          "Pilihan A tidak punya subjek, pilihan B dan C memakai is dengan subjek jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kalimat ini tidak memiliki subjek dan kata kerja yang jelas." },
+          { "optionId": "B", "reasonId": "Subjek the students jamak, sehingga tidak memakai is." },
+          { "optionId": "C", "reasonId": "Subjek the students jamak, sehingga tidak memakai is." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata keterangan undoubtedly biasanya diletakkan sebelum kata sifat atau di antara subjek dan kata kerja bantu.",
+          "examples": [
+            { "en": "The results are undoubtedly positive.", "id": "Hasilnya pasti positif." },
+            { "en": "They have undoubtedly improved their English.", "id": "Mereka pasti sudah memperbaiki bahasa Inggris mereka." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena undoubtedly diletakkan setelah subjek, tetapi kata kerjanya harus sesuai dengan subjek jamak students."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to form an opinion about something uncertain without enough proof'?",
+        "options": [
+          { "id": "A", "text": "speculate" },
+          { "id": "B", "text": "apparently" },
+          { "id": "C", "text": "arguably" },
+          { "id": "D", "text": "probably" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Speculate berarti menduga sesuatu yang belum pasti, tanpa bukti yang cukup.",
+        "stepByStep": [
+          "Kalimat meminta kata kerja untuk menduga sesuatu yang belum pasti.",
+          "Menduga sesuatu yang belum pasti disebut speculate.",
+          "Apparently, arguably, dan probably bukan kata kerja untuk menduga."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Apparently adalah kata keterangan untuk kabar yang didengar, bukan kata kerja." },
+          { "optionId": "C", "reasonId": "Arguably adalah kata keterangan untuk opini yang bisa diperdebatkan, bukan kata kerja." },
+          { "optionId": "D", "reasonId": "Probably adalah kata keterangan untuk kemungkinan besar, bukan kata kerja." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Speculate adalah kata kerja, sehingga diikuti objek atau preposisi seperti about.",
+          "examples": [
+            { "en": "Do not speculate about the result yet.", "id": "Jangan berspekulasi tentang hasilnya dulu." },
+            { "en": "They speculated about the cause of the delay.", "id": "Mereka menduga-duga penyebab keterlambatan itu." }
+          ]
+        },
+        "examTrap": "Pilihan D probably terlihat cocok karena artinya berkaitan dengan dugaan, tetapi probably adalah kata keterangan, bukan kata kerja untuk menduga."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The report is ___ wrong, because the data clearly shows a different result.'",
+        "options": [
+          { "id": "A", "text": "possibly" },
+          { "id": "B", "text": "undoubtedly" },
+          { "id": "C", "text": "apparently" },
+          { "id": "D", "text": "arguably" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Undoubtedly menyatakan keyakinan penuh, dan data yang jelas membuat pernyataan ini pasti.",
+        "stepByStep": [
+          "Kalimat menyebut data yang jelas menunjukkan hasil berbeda.",
+          "Keyakinan penuh yang didukung bukti disebut undoubtedly.",
+          "Possibly, apparently, dan arguably tidak menyatakan keyakinan penuh."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Possibly menyatakan kemungkinan kecil, sedangkan data menunjukkan dengan jelas." },
+          { "optionId": "C", "reasonId": "Apparently merujuk pada kabar atau kesan, bukan bukti data." },
+          { "optionId": "D", "reasonId": "Arguably dipakai untuk opini yang bisa diperdebatkan, bukan fakta data." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Undoubtedly dipakai ketika bukti sudah kuat dan tidak ada keraguan.",
+          "examples": [
+            { "en": "The answer is undoubtedly correct.", "id": "Jawabannya pasti benar." },
+            { "en": "This method is undoubtedly faster.", "id": "Metode ini pasti lebih cepat." }
+          ]
+        },
+        "examTrap": "Pilihan A possibly terlihat aman untuk pembicara yang berhati-hati, tetapi kalimat ini menyebut data yang jelas, sehingga keyakinan penuh lebih sesuai."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word reports information that a speaker has heard but has not checked?",
+        "options": [
+          { "id": "A", "text": "undoubtedly" },
+          { "id": "B", "text": "conceivably" },
+          { "id": "C", "text": "apparently" },
+          { "id": "D", "text": "arguably" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Apparently dipakai untuk menyampaikan kabar yang didengar tetapi belum diperiksa.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kabar yang didengar tetapi belum diperiksa.",
+          "Kabar yang didengar tanpa pemeriksaan disebut apparently.",
+          "Undoubtedly, conceivably, dan arguably tidak menyatakan sumber kabar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Undoubtedly menyatakan keyakinan penuh, bukan kabar yang didengar." },
+          { "optionId": "B", "reasonId": "Conceivably menyatakan kemungkinan teoretis, bukan kabar yang didengar." },
+          { "optionId": "D", "reasonId": "Arguably dipakai untuk opini yang bisa diperdebatkan, bukan kabar yang didengar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Apparently dipakai untuk melaporkan kabar tanpa memastikan kebenarannya.",
+          "examples": [
+            { "en": "Apparently, the concert is cancelled.", "id": "Menurut kabar, konsernya dibatalkan." },
+            { "en": "She apparently moved to another city.", "id": "Menurut kabar, dia pindah ke kota lain." }
+          ]
+        },
+        "examTrap": "Pilihan A undoubtedly terlihat cocok karena kabar sering dianggap pasti, tetapi kalimat ini meminta kata untuk kabar yang belum diperiksa."
+      }
+    ]
+  }
+}

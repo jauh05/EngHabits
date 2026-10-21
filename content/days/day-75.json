@@ -1,0 +1,1213 @@
+{
+  "day": 75,
+  "week": 11,
+  "month": 3,
+  "title": "Writing Task 2: Opinion Essay",
+  "topic": "Menulis esai opini dengan posisi, alasan, dan pertimbangan yang jelas",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menyatakan posisi (standpoint) dengan jelas di awal esai",
+    "Membenarkan posisi dengan alasan yang masuk akal",
+    "Menimbang keberatan dengan adil"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "conviction",
+        "pronunciationId": "kun-VIK-shun (tekanan di VIK)",
+        "pos": "Noun",
+        "meaningId": "keyakinan kuat",
+        "example": "Her conviction was strong.",
+        "exampleId": "Keyakinannya kuat."
+      },
+      {
+        "no": 2,
+        "en": "standpoint",
+        "pronunciationId": "STAND-point (tekanan di STAND)",
+        "pos": "Noun",
+        "meaningId": "sudut pandang, posisi",
+        "example": "My standpoint is clear.",
+        "exampleId": "Posisi saya jelas."
+      },
+      {
+        "no": 3,
+        "en": "persuasive",
+        "pronunciationId": "per-SWAY-siv (tekanan di SWAY)",
+        "pos": "Adj",
+        "meaningId": "meyakinkan",
+        "example": "The argument is persuasive.",
+        "exampleId": "Argumennya meyakinkan."
+      },
+      {
+        "no": 4,
+        "en": "justify",
+        "pronunciationId": "JUS-ti-fai (tekanan di JUS)",
+        "pos": "Verb",
+        "meaningId": "membenarkan, memberi alasan",
+        "example": "Justify your answer.",
+        "exampleId": "Benarkan jawabanmu."
+      },
+      {
+        "no": 5,
+        "en": "reasonable",
+        "pronunciationId": "REE-zun-uh-bul (tekanan di REE)",
+        "pos": "Adj",
+        "meaningId": "masuk akal",
+        "example": "That is a reasonable idea.",
+        "exampleId": "Itu ide yang masuk akal."
+      },
+      {
+        "no": 6,
+        "en": "debatable",
+        "pronunciationId": "di-BAY-tuh-bul (tekanan di BAY)",
+        "pos": "Adj",
+        "meaningId": "dapat diperdebatkan",
+        "example": "The question is debatable.",
+        "exampleId": "Pertanyaannya dapat diperdebatkan."
+      },
+      {
+        "no": 7,
+        "en": "contention",
+        "pronunciationId": "kun-TEN-shun (tekanan di TEN)",
+        "pos": "Noun",
+        "meaningId": "pendapat yang dipertahankan",
+        "example": "Her contention is clear.",
+        "exampleId": "Pendapatnya yang dipertahankan jelas."
+      },
+      {
+        "no": 8,
+        "en": "rationale",
+        "pronunciationId": "rash-uh-NAL (tekanan di NAL)",
+        "pos": "Noun",
+        "meaningId": "alasan dasar",
+        "example": "The rationale is simple.",
+        "exampleId": "Alasan dasarnya sederhana."
+      },
+      {
+        "no": 9,
+        "en": "credible",
+        "pronunciationId": "KRED-i-bul (tekanan di KRED)",
+        "pos": "Adj",
+        "meaningId": "dapat dipercaya",
+        "example": "The source is credible.",
+        "exampleId": "Sumbernya dapat dipercaya."
+      },
+      {
+        "no": 10,
+        "en": "weigh",
+        "pronunciationId": "WAY (tekanan di WAY)",
+        "pos": "Verb",
+        "meaningId": "menimbang",
+        "example": "Weigh both sides carefully.",
+        "exampleId": "Timbanglah kedua sisi dengan cermat."
+      }
+    ],
+    "tip": "Esai opini yang baik menyatakan posisi di awal, membenarkannya dengan alasan, lalu menimbang keberatan sebelum menutup dengan kesimpulan yang kuat."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 2 opinion essay",
+        "IELTS opinion essay structure"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang struktur esai opini, dari posisi awal sampai pertimbangan keberatan.",
+      "watchFor": [
+        "Posisi yang jelas di paragraf pertama",
+        "Alasan yang didukung contoh",
+        "Pertimbangan keberatan secara adil"
+      ]
+    },
+    "lesson": {
+      "intro": "Esai opini meminta kamu menyatakan posisi tentang sebuah isu, lalu membenarkannya. Kekuatan esai ini ada pada alasan yang jelas dan sikap yang adil terhadap pandangan yang berbeda.",
+      "sections": [
+        {
+          "heading": "Posisi",
+          "bodyMd": "Nyatakan **standpoint** dengan jelas di awal. Jika kamu yakin, tunjukkan **conviction** melalui kata yang tegas, tanpa berlebihan."
+        },
+        {
+          "heading": "Alasan",
+          "bodyMd": "Setiap alasan perlu **rationale** yang jelas. Gunakan contoh untuk **justify** posisimu. Sumber yang kamu pakai harus **credible**."
+        },
+        {
+          "heading": "Keberatan",
+          "bodyMd": "Akui bahwa isu ini **debatable**, lalu **weigh** kedua sisi. Keberatan yang dijelaskan dengan adil membuat esaimu lebih **persuasive** dan **reasonable**."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Posisi",
+          "pattern": "In my view / I strongly believe that X should Y"
+        },
+        {
+          "label": "Alasan",
+          "pattern": "The first reason is that"
+        },
+        {
+          "label": "Keberatan",
+          "pattern": "Some argue that X. However, Y"
+        },
+        {
+          "label": "Kesimpulan",
+          "pattern": "For these reasons, X is the more reasonable position"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "My standpoint is that schools should start later.",
+            "id": "Posisi saya adalah sekolah sebaiknya dimulai lebih siang."
+          },
+          {
+            "en": "The essay will justify this view with two reasons.",
+            "id": "Esai ini akan membenarkan pandangan ini dengan dua alasan."
+          },
+          {
+            "en": "Some critics argue that the policy is too costly.",
+            "id": "Sebagian kritikus berargumen bahwa kebijakan itu terlalu mahal."
+          },
+          {
+            "en": "The argument is persuasive and reasonable.",
+            "id": "Argumennya meyakinkan dan masuk akal."
+          },
+          {
+            "en": "We should weigh the benefits and the costs.",
+            "id": "Kita harus menimbang manfaat dan biayanya."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The essay does not ignore the other side.",
+            "id": "Esai itu tidak mengabaikan sisi lain."
+          },
+          {
+            "en": "The claim is not credible without evidence.",
+            "id": "Klaim itu tidak dapat dipercaya tanpa bukti."
+          },
+          {
+            "en": "This is not a simple question.",
+            "id": "Ini bukan pertanyaan yang sederhana."
+          },
+          {
+            "en": "The rationale does not depend on rumours.",
+            "id": "Alasan itu tidak bergantung pada rumor."
+          },
+          {
+            "en": "The writer is not neutral on this issue.",
+            "id": "Penulis tidak netral dalam isu ini."
+          }
+        ],
+        "question": [
+          {
+            "en": "What is the writer's standpoint?",
+            "id": "Apa posisi penulis?"
+          },
+          {
+            "en": "Why does the writer think the issue is debatable?",
+            "id": "Mengapa penulis berpikir isu ini dapat diperdebatkan?"
+          },
+          {
+            "en": "Is the source credible?",
+            "id": "Apakah sumbernya dapat dipercaya?"
+          },
+          {
+            "en": "What is the main rationale?",
+            "id": "Apa alasan dasar utamanya?"
+          },
+          {
+            "en": "How does the writer weigh the counterargument?",
+            "id": "Bagaimana penulis menimbang argumen tandingan?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "My standpoint are that homework is bad.",
+          "right": "My standpoint is that homework is bad.",
+          "whyId": "Standpoint adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The argument is persuade for parents.",
+          "right": "The argument is persuasive for parents.",
+          "whyId": "Setelah is, pakai kata sifat persuasive."
+        },
+        {
+          "wrong": "I justify my answer with two reason.",
+          "right": "I justify my answer with two reasons.",
+          "whyId": "Setelah angka two, kata benda memakai bentuk jamak."
+        },
+        {
+          "wrong": "The claim is debatables.",
+          "right": "The claim is debatable.",
+          "whyId": "Debatable adalah kata sifat, tidak perlu akhiran -s."
+        },
+        {
+          "wrong": "We must weighs both sides.",
+          "right": "We must weigh both sides.",
+          "whyId": "Setelah must, pakai kata kerja dasar weigh."
+        },
+        {
+          "wrong": "This source is not credibly.",
+          "right": "This source is not credible.",
+          "whyId": "Credible adalah kata sifat, bukan kata keterangan."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Esai Opini: Pekerjaan Rumah untuk Anak Kecil",
+    "text": "Should schools limit homework for young children? My standpoint is clear: they should. This essay will justify that position using three points, and it will weigh the main objections fairly.\n\nThe first argument is about rest. Children who work for hours after school have less time to play, sleep, and relax. Many teachers would agree that a tired child learns less during the day. This is a reasonable concern, and it is not limited to one country. The rationale is simple: learning needs energy, and energy needs rest.\n\nThe second argument concerns family life. When homework fills every evening, parents become teachers instead of guardians. Arguments about tasks can damage the relationship between a child and a parent. A short, focused assignment can support learning without turning the home into a second classroom.\n\nCritics offer a strong contention. They argue that homework builds discipline, and that without it children will struggle later. This is a debatable claim, and I accept that some practice helps. However, the research that is most credible suggests that quality matters more than quantity. Ten focused minutes can be more useful than an hour of repeated exercises.\n\nThe third argument is about fairness. Children from homes with quiet study spaces and internet access can finish tasks quickly. Others cannot. A heavy workload therefore widens the gap between students, even when they have equal ability. Limiting the amount of homework reduces that unfair advantage.\n\nMy conviction grows from these points, but I do not claim the issue is simple. Some children enjoy extra practice, and some families want more structure. A school policy should therefore allow teachers to set optional tasks for those who want them.\n\nIn the end, the aim of education is to build curiosity, not fatigue. A policy that protects rest, family time, and fairness is persuasive because it serves the whole child. It is a view that many parents, teachers, and students can accept. Schools that adopt such a policy can also review it each year, using feedback from families and pupils to decide whether the limit should be adjusted. This kind of open review shows that the school is willing to listen, which makes the policy more credible and easier to defend.",
+    "glossary": [
+      {
+        "en": "guardian",
+        "id": "wali, pengasuh"
+      },
+      {
+        "en": "discipline",
+        "id": "disiplin"
+      },
+      {
+        "en": "exercise",
+        "id": "latihan"
+      },
+      {
+        "en": "advantage",
+        "id": "keuntungan"
+      },
+      {
+        "en": "structure",
+        "id": "struktur, keteraturan"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "The writer believes that schools should limit homework for young children.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Penulis menyatakan posisinya dengan jelas bahwa sekolah sebaiknya membatasi pekerjaan rumah.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Penulis menyatakan posisi yang sejalan dengan pernyataan, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Posisi penulis disebut secara langsung di paragraf pertama."
+          }
+        ],
+        "evidence": "My standpoint is clear: they should"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What is the first argument about?",
+        "options": [
+          {
+            "id": "A",
+            "text": "fairness between students"
+          },
+          {
+            "id": "B",
+            "text": "family conflicts"
+          },
+          {
+            "id": "C",
+            "text": "rest and sleep for children"
+          },
+          {
+            "id": "D",
+            "text": "discipline in class"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Argumen pertama membahas istirahat, tidur, dan waktu bermain anak.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Keadilan antarsiswa adalah argumen ketiga."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Konflik keluarga adalah argumen kedua."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Disiplin di kelas disebut dalam keberatan kritikus."
+          }
+        ],
+        "evidence": "The first argument is about rest"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "The writer says that homework has no value at all.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Penulis mengakui bahwa latihan tertentu membantu, sehingga pernyataan 'tidak ada nilai sama sekali' bertentangan dengan teks.",
+        "stepByStep": [
+          "Cari bagian tentang latihan di paragraf keempat.",
+          "Penulis menyatakan bahwa beberapa latihan membantu.",
+          "Karena penulis mengakui nilai latihan, pernyataan itu False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Penulis mengakui bahwa beberapa latihan membantu, bukan tidak bernilai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas nilai pekerjaan rumah secara langsung."
+          }
+        ],
+        "evidence": "I accept that some practice helps"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What does the writer say about the most credible research?",
+        "options": [
+          {
+            "id": "A",
+            "text": "quantity matters more than quality"
+          },
+          {
+            "id": "B",
+            "text": "it is not mentioned"
+          },
+          {
+            "id": "C",
+            "text": "it was written by parents"
+          },
+          {
+            "id": "D",
+            "text": "quality matters more than quantity"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menulis bahwa penelitian yang paling kredibel menunjukkan kualitas lebih penting daripada kuantitas.",
+        "stepByStep": [
+          "Cari credible di paragraf keempat.",
+          "Teks menyebut penelitian yang paling kredibel menyatakan quality matters more than quantity.",
+          "Kuantitas lebih penting, tidak disebut, dan ditulis orang tua tidak sesuai dengan teks."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyatakan kebalikannya, yaitu kualitas lebih penting."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut penelitian itu secara langsung."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks tidak menyebut penelitian itu ditulis oleh orang tua."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Credible menunjukkan sumber yang dapat dipercaya, dan penulis esai sering memakainya untuk memperkuat alasan.",
+          "examples": [
+            {
+              "en": "The credible study found that rest improves memory.",
+              "id": "Studi yang kredibel menemukan bahwa istirahat meningkatkan ingatan."
+            },
+            {
+              "en": "Use a credible source for every claim.",
+              "id": "Gunakan sumber yang kredibel untuk setiap klaim."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kesimpulan yang masuk akal karena latihan memang penting, tetapi teks menyatakan kebalikannya.",
+        "evidence": "quality matters more than quantity"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Why does the writer suggest allowing optional tasks?",
+        "options": [
+          {
+            "id": "A",
+            "text": "because some children enjoy extra practice and some families want more structure"
+          },
+          {
+            "id": "B",
+            "text": "to satisfy all parents"
+          },
+          {
+            "id": "C",
+            "text": "because the school requires them"
+          },
+          {
+            "id": "D",
+            "text": "to increase the amount of homework"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Penulis menyebut sebagian anak menikmati latihan tambahan dan sebagian keluarga ingin lebih banyak struktur.",
+        "stepByStep": [
+          "Cari optional tasks di paragraf keenam.",
+          "Penulis menjelaskan alasan kebijakan itu dengan minat anak dan kebutuhan keluarga.",
+          "Memuaskan semua orang tua, wajib dari sekolah, dan menambah pekerjaan tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Penulis tidak menyebut tujuan memuaskan semua orang tua."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks tidak menyebut tugas itu diwajibkan sekolah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tujuan penulis adalah membatasi, bukan menambah pekerjaan rumah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pendapat yang seimbang sering mengakui kebutuhan kelompok yang berbeda.",
+          "examples": [
+            {
+              "en": "Some students want more challenge, so optional work helps them.",
+              "id": "Sebagian siswa ingin tantangan lebih, jadi tugas opsional membantu mereka."
+            },
+            {
+              "en": "Some families prefer a clear routine.",
+              "id": "Sebagian keluarga lebih suka rutinitas yang jelas."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat cocok karena penulis memikirkan keluarga, tetapi teks tidak menyebut tujuan memuaskan semua orang tua.",
+        "evidence": "Some children enjoy extra practice, and some families want more structure"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She has a strong ___ that schools should start later in the morning.",
+        "options": [
+          {
+            "id": "A",
+            "text": "conviction"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Conviction adalah keyakinan yang kuat terhadap sebuah pandangan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan keyakinan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan keyakinan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan keyakinan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The writer's ___ is that cities should invest in public transport.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "standpoint"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Standpoint adalah posisi atau sudut pandang yang dinyatakan penulis.",
+        "stepByStep": [
+          "Kalimat menyebut posisi penulis tentang transportasi umum.",
+          "Posisi yang dinyatakan penulis disebut standpoint.",
+          "Garden, bridge, dan ticket tidak berarti posisi."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan posisi."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan posisi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan posisi."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Please ___ your answer with two examples from daily life.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "justify"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Justify berarti membenarkan atau memberi alasan agar jawaban dapat diterima.",
+        "stepByStep": [
+          "Kalimat meminta jawaban diberi alasan dengan contoh.",
+          "Memberi alasan untuk membenarkan jawaban disebut justify.",
+          "Garden, ticket, dan bridge tidak berarti memberi alasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan memberi alasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan memberi alasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan memberi alasan."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The idea is ___, because many people disagree with it.",
+        "options": [
+          {
+            "id": "A",
+            "text": "credible"
+          },
+          {
+            "id": "B",
+            "text": "persuasive"
+          },
+          {
+            "id": "C",
+            "text": "reasonable"
+          },
+          {
+            "id": "D",
+            "text": "debatable"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Debatable berarti dapat diperdebatkan, dan kalimat ini menyebut banyak orang tidak setuju.",
+        "stepByStep": [
+          "Kalimat menyebut banyak orang tidak setuju dengan ide itu.",
+          "Ide yang masih bisa diperdebatkan disebut debatable.",
+          "Credible, persuasive, dan reasonable tidak menggambarkan ketidaksetujuan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Credible berarti dapat dipercaya, bukan dapat diperdebatkan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Persuasive berarti meyakinkan, bukan dapat diperdebatkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Reasonable berarti masuk akal, bertentangan dengan ketidaksetujuan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Debatable dipakai untuk isu yang masih menimbulkan perbedaan pendapat.",
+          "examples": [
+            {
+              "en": "Whether homework helps is debatable.",
+              "id": "Apakah pekerjaan rumah membantu itu dapat diperdebatkan."
+            },
+            {
+              "en": "The result is debatable because the sample was small.",
+              "id": "Hasilnya dapat diperdebatkan karena sampelnya kecil."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C reasonable terlihat cocok karena esai sering memakai kata masuk akal, tetapi kalimat ini menyebut ketidaksetujuan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The writer's ___ for the policy is based on fairness and health.",
+        "options": [
+          {
+            "id": "A",
+            "text": "contention"
+          },
+          {
+            "id": "B",
+            "text": "rationale"
+          },
+          {
+            "id": "C",
+            "text": "weigh"
+          },
+          {
+            "id": "D",
+            "text": "credible"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Rationale adalah alasan dasar di balik sebuah kebijakan atau keputusan.",
+        "stepByStep": [
+          "Kalimat menyebut alasan dasar kebijakan: keadilan dan kesehatan.",
+          "Alasan dasar di balik keputusan disebut rationale.",
+          "Contention berarti pendapat yang dipertahankan, weigh adalah kata kerja, dan credible adalah kata sifat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Contention berarti pendapat yang dipertahankan, bukan alasan dasar."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Weigh adalah kata kerja menimbang, bukan kata benda alasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Credible adalah kata sifat, tidak bisa menjadi kata benda alasan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rationale adalah alasan yang mendasari sebuah keputusan atau kebijakan.",
+          "examples": [
+            {
+              "en": "The rationale for the change is clear.",
+              "id": "Alasan dasar perubahan itu jelas."
+            },
+            {
+              "en": "Explain the rationale behind your choice.",
+              "id": "Jelaskan alasan dasar di balik pilihanmu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A contention terlihat cocok karena juga berkaitan dengan pendapat, tetapi kalimat ini meminta alasan dasar kebijakan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya setuju dengan pendapat itu.",
+        "hint": "Saya setuju: I agree. Pendapat itu: that view.",
+        "acceptedAnswers": [
+          "I agree with that view.",
+          "I agree with the view."
+        ],
+        "modelAnswer": "I agree with that view.",
+        "commonErrors": [
+          {
+            "pattern": "I agree that view",
+            "feedbackId": "Setelah agree with, gunakan that view."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pendapat ini perlu dibenarkan dengan bukti.",
+        "hint": "Pendapat ini: this standpoint. Perlu dibenarkan: needs to be justified. Dengan bukti: with evidence.",
+        "acceptedAnswers": [
+          "This standpoint needs to be justified with evidence.",
+          "This view needs to be justified with evidence."
+        ],
+        "modelAnswer": "This standpoint needs to be justified with evidence.",
+        "commonErrors": [
+          {
+            "pattern": "This standpoint need to justify with evidence",
+            "feedbackId": "Subjek standpoint tunggal memakai needs, dan setelah be memakai justified."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Argumen itu sangat meyakinkan dan masuk akal.",
+        "hint": "Argumen itu: the argument. Sangat meyakinkan: very persuasive. Masuk akal: reasonable.",
+        "acceptedAnswers": [
+          "The argument is very persuasive and reasonable.",
+          "The argument is highly persuasive and reasonable."
+        ],
+        "modelAnswer": "The argument is very persuasive and reasonable.",
+        "commonErrors": [
+          {
+            "pattern": "The argument are very persuasive and reasonables",
+            "feedbackId": "Subjek argument tunggal memakai is, dan reasonable tidak berakhiran -s."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Klaim itu masih bisa diperdebatkan, dan sumbernya kredibel.",
+        "hint": "Klaim itu: the claim. Masih bisa diperdebatkan: is still debatable. Sumbernya: its source. Kredibel: credible.",
+        "acceptedAnswers": [
+          "The claim is still debatable, and its source is credible.",
+          "The claim is still debatable, and the source is credible."
+        ],
+        "modelAnswer": "The claim is still debatable, and its source is credible.",
+        "commonErrors": [
+          {
+            "pattern": "The claim still debatables and the source credibly",
+            "feedbackId": "Gunakan is debatable dan kata sifat credible, bukan kata keterangan."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Alasan di balik kebijakan itu harus kuat dan jelas.",
+        "hint": "Alasan di balik kebijakan itu: the rationale behind the policy. Harus kuat dan jelas: must be strong and clear.",
+        "acceptedAnswers": [
+          "The rationale behind the policy must be strong and clear.",
+          "The rationale for the policy must be strong and clear."
+        ],
+        "modelAnswer": "The rationale behind the policy must be strong and clear.",
+        "commonErrors": [
+          {
+            "pattern": "The rationale behind the policy must strong and clear",
+            "feedbackId": "Setelah must be, gunakan kata sifat strong dan clear."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'able to be believed because it is trustworthy'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "debatable"
+          },
+          {
+            "id": "B",
+            "text": "credible"
+          },
+          {
+            "id": "C",
+            "text": "persuasive"
+          },
+          {
+            "id": "D",
+            "text": "reasonable"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Credible berarti dapat dipercaya karena berasal dari sumber yang layak dipercaya.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk sesuatu yang layak dipercaya.",
+          "Kata sifat yang tepat adalah credible.",
+          "Debatable, persuasive, dan reasonable tidak berarti dapat dipercaya."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Debatable berarti dapat diperdebatkan, bukan dapat dipercaya."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Persuasive berarti meyakinkan, bukan dapat dipercaya."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Reasonable berarti masuk akal, bukan dapat dipercaya."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Credible dipakai untuk sumber, bukti, atau informasi yang layak dipercaya.",
+          "examples": [
+            {
+              "en": "The data came from a credible survey.",
+              "id": "Data itu berasal dari survei yang kredibel."
+            },
+            {
+              "en": "A credible source improves your essay.",
+              "id": "Sumber yang kredibel memperbaiki esaimu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D reasonable terlihat dekat karena sama-sama positif, tetapi reasonable berarti masuk akal, bukan layak dipercaya."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'contention'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The contention are weak."
+          },
+          {
+            "id": "B",
+            "text": "The contentions is weak in the essay."
+          },
+          {
+            "id": "C",
+            "text": "Contention the weak is essay."
+          },
+          {
+            "id": "D",
+            "text": "The contention of the writer is weak."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Contention adalah subjek tunggal, sehingga memakai is, dan frasa of the writer menjelaskan pemilik pendapat.",
+        "stepByStep": [
+          "Contention adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa of the writer menjelaskan siapa yang berpendapat.",
+          "Pilihan A memakai are, pilihan B memakai contentions dengan is, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal contention."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Contentions jamak tidak cocok dengan is di sini."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Contention adalah kata benda tunggal yang berarti pendapat yang dipertahankan.",
+          "examples": [
+            {
+              "en": "The main contention of the essay is clear.",
+              "id": "Pendapat utama yang dipertahankan esai itu jelas."
+            },
+            {
+              "en": "Her contention is supported by data.",
+              "id": "Pendapatnya didukung oleh data."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena banyak pendapat disebut jamak, tetapi kalimat ini memakai satu pendapat utama."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to think carefully about the importance of things before deciding'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "weigh"
+          },
+          {
+            "id": "B",
+            "text": "justify"
+          },
+          {
+            "id": "C",
+            "text": "convince"
+          },
+          {
+            "id": "D",
+            "text": "endorse"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Weigh berarti menimbang dengan cermat sebelum memutuskan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk menimbang sebelum memutuskan.",
+          "Kata kerja yang tepat adalah weigh.",
+          "Justify berarti membenarkan, convince berarti meyakinkan, dan endorse berarti mendukung."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Justify berarti membenarkan, bukan menimbang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Convince berarti meyakinkan, bukan menimbang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Endorse berarti mendukung, bukan menimbang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Weigh dipakai untuk menimbang keuntungan dan kerugian sebelum mengambil keputusan.",
+          "examples": [
+            {
+              "en": "Weigh the costs and benefits carefully.",
+              "id": "Timbanglah biaya dan manfaatnya dengan cermat."
+            },
+            {
+              "en": "The judge weighed the evidence.",
+              "id": "Hakim menimbang buktinya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B justify terlihat dekat karena esai memakai alasan, tetapi justify berarti membenarkan, bukan menimbang."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The writer ___ that homework should be limited for young children.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "weighs"
+          },
+          {
+            "id": "B",
+            "text": "justifies"
+          },
+          {
+            "id": "C",
+            "text": "argues"
+          },
+          {
+            "id": "D",
+            "text": "disputes"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Argues that adalah pola yang tepat untuk menyatakan pendapat yang dipertahankan penulis.",
+        "stepByStep": [
+          "Kalimat menyebut pendapat yang dipertahankan penulis.",
+          "Pola argues that menyatakan pendapat yang dipertahankan.",
+          "Weighs, justifies, dan disputes tidak menyatakan pendapat yang dipertahankan dalam pola ini."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Weighs berarti menimbang, tidak diikuti langsung oleh that sebagai pendapat utama."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Justifies berarti membenarkan, tidak menyatakan pendapat dalam pola ini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Disputes berarti membantah, bertentangan dengan posisi penulis."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Argue that diikuti klausa menyatakan pendapat yang dipertahankan.",
+          "examples": [
+            {
+              "en": "The writer argues that schools should start later.",
+              "id": "Penulis berargumen bahwa sekolah sebaiknya dimulai lebih siang."
+            },
+            {
+              "en": "Parents argue that homework is too long.",
+              "id": "Orang tua berargumen bahwa pekerjaan rumah terlalu panjang."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D disputes terlihat cocok karena esai membahas perdebatan, tetapi penulis mempertahankan posisinya, bukan membantahnya."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The rationale are clear for the policy."
+          },
+          {
+            "id": "B",
+            "text": "The rationale is clear for the policy."
+          },
+          {
+            "id": "C",
+            "text": "The rationales is clear for the policy."
+          },
+          {
+            "id": "D",
+            "text": "The rationale were clear for the policy."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Rationale adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Rationale adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa for the policy menjelaskan kebijakan yang dimaksud.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, dan pilihan C memakai rationales dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal rationale."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Rationales jamak tidak cocok dengan is untuk satu alasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Were tidak cocok dengan subjek tunggal rationale."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rationale adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The rationale was simple.",
+              "id": "Alasan dasarnya sederhana."
+            },
+            {
+              "en": "This rationale is strong.",
+              "id": "Alasan dasar ini kuat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena alasan biasanya lebih dari satu, tetapi subjek kalimat ini tunggal."
+      }
+    ]
+  }
+}

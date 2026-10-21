@@ -1,0 +1,1270 @@
+{
+  "day": 64,
+  "week": 9,
+  "month": 3,
+  "title": "Summary Completion",
+  "topic": "Mengisi celah ringkasan dengan kata dari rekaman",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menemukan kata yang tepat untuk mengisi celah ringkasan",
+    "Mematuhi batas jumlah kata dalam jawaban",
+    "Mengenali kata yang diparafrasekan dalam rekaman"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "gap",
+        "pronunciationId": "GAP (a pendek, p jelas)",
+        "pos": "Noun",
+        "meaningId": "celah, bagian kosong",
+        "example": "Fill the gap in the sentence.",
+        "exampleId": "Isilah celah dalam kalimat itu."
+      },
+      {
+        "no": 2,
+        "en": "blank",
+        "pronunciationId": "BLANGK (a pendek, nk jelas)",
+        "pos": "Noun",
+        "meaningId": "bagian kosong, kolom kosong",
+        "example": "Write your name in the blank.",
+        "exampleId": "Tulis namamu di kolom kosong."
+      },
+      {
+        "no": 3,
+        "en": "notes",
+        "pronunciationId": "NOHTS (tekanan di NOHTS)",
+        "pos": "Noun",
+        "meaningId": "catatan",
+        "example": "Take short notes during the talk.",
+        "exampleId": "Buatlah catatan singkat selama ceramah."
+      },
+      {
+        "no": 4,
+        "en": "wording",
+        "pronunciationId": "WUR-ding (tekanan di WUR)",
+        "pos": "Noun",
+        "meaningId": "pilihan kata, rumusan",
+        "example": "Check the wording of the question.",
+        "exampleId": "Periksa rumusan pertanyaannya."
+      },
+      {
+        "no": 5,
+        "en": "extract",
+        "pronunciationId": "ik-STRAKT (tekanan di STRAKT)",
+        "pos": "Verb",
+        "meaningId": "mengambil, mengekstrak",
+        "example": "Extract the key words from the talk.",
+        "exampleId": "Ambil kata kunci dari ceramah itu."
+      },
+      {
+        "no": 6,
+        "en": "fill",
+        "pronunciationId": "FIL (i pendek, l jelas)",
+        "pos": "Verb",
+        "meaningId": "mengisi",
+        "example": "Fill in the form.",
+        "exampleId": "Isilah formulirnya."
+      },
+      {
+        "no": 7,
+        "en": "finish",
+        "pronunciationId": "FIN-ish (tekanan di FIN)",
+        "pos": "Verb",
+        "meaningId": "menyelesaikan",
+        "example": "Finish the task on time.",
+        "exampleId": "Selesaikan tugas tepat waktu."
+      },
+      {
+        "no": 8,
+        "en": "excerpt",
+        "pronunciationId": "EK-serpt (tekanan di EK)",
+        "pos": "Noun",
+        "meaningId": "kutipan, petikan",
+        "example": "Read the excerpt aloud.",
+        "exampleId": "Bacalah kutipan itu dengan keras."
+      },
+      {
+        "no": 9,
+        "en": "transfer",
+        "pronunciationId": "trans-FUR (tekanan di FUR)",
+        "pos": "Verb",
+        "meaningId": "memindahkan, mengalihkan",
+        "example": "Transfer the answer to the sheet.",
+        "exampleId": "Pindahkan jawabannya ke lembar jawaban."
+      },
+      {
+        "no": 10,
+        "en": "limit",
+        "pronunciationId": "LIM-it (tekanan di LIM)",
+        "pos": "Noun",
+        "meaningId": "batas",
+        "example": "Keep your answer within the limit.",
+        "exampleId": "Jagalah jawabanmu tetap dalam batas."
+      }
+    ],
+    "tip": "Dalam summary completion, dengarkan kata yang sinonim dengan celah, lalu periksa batas jumlah kata yang diminta instruksi."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS summary completion",
+        "IELTS listening strategies"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang mengisi ringkasan dari rekaman, dengan contoh batas jumlah kata dan parafrasa.",
+      "watchFor": [
+        "Kata yang diparafrasekan dalam rekaman",
+        "Batas jumlah kata dalam instruksi",
+        "Mengecek bentuk kata di celah"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam summary completion, kamu mendengar rekaman lalu mengisi celah dalam ringkasan. Jawaban biasanya ada di rekaman, tetapi sering dengan kata yang berbeda. Perhatikan juga batas jumlah kata.",
+      "sections": [
+        {
+          "heading": "Mencari celah",
+          "bodyMd": "Baca ringkasan sebelum rekaman dimulai. Perhatikan **gap** dan **blank**, lalu tebak jenis kata yang dibutuhkan: kata benda, kata kerja, atau kata sifat."
+        },
+        {
+          "heading": "Menangkap jawaban",
+          "bodyMd": "Dengarkan kata yang dipakai pembicara. Jawabannya sering kali dalam **wording** yang sedikit berbeda. Kamu harus **extract** inti maknanya, bukan menyalin kalimat panjang."
+        },
+        {
+          "heading": "Mematuhi batas",
+          "bodyMd": "Periksa **limit** jumlah kata di instruksi. Jika instruksinya satu kata, jangan menulis dua kata. Setelah selesai, **finish** dengan memeriksa ejaan dan bentuk kata."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Celah",
+          "pattern": "jenis kata yang dibutuhkan + makna dari kalimat sekitar"
+        },
+        {
+          "label": "Rekaman",
+          "pattern": "kata di rekaman ≈ kata di celah (sinonim atau parafrasa)"
+        },
+        {
+          "label": "Batas",
+          "pattern": "jumlah kata sesuai instruksi, tanpa tambahan"
+        },
+        {
+          "label": "Cek",
+          "pattern": "baca ulang ringkasan yang sudah terisi, apakah masuk akal?"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "Fill the gap with one word from the recording.",
+            "id": "Isilah celah dengan satu kata dari rekaman."
+          },
+          {
+            "en": "The notes use different wording from the talk.",
+            "id": "Catatan itu memakai rumusan yang berbeda dari ceramah."
+          },
+          {
+            "en": "Extract the main idea, not every word.",
+            "id": "Ambil ide utamanya, bukan setiap kata."
+          },
+          {
+            "en": "Keep your answer within the word limit.",
+            "id": "Jagalah jawabanmu tetap dalam batas jumlah kata."
+          },
+          {
+            "en": "The excerpt explains the transfer of skills.",
+            "id": "Kutipan itu menjelaskan pengalihan keterampilan."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The blank does not need a full sentence.",
+            "id": "Celah itu tidak membutuhkan kalimat lengkap."
+          },
+          {
+            "en": "You should not write more than the limit.",
+            "id": "Kamu tidak boleh menulis lebih dari batas."
+          },
+          {
+            "en": "The notes are not complete yet.",
+            "id": "Catatan itu belum lengkap."
+          },
+          {
+            "en": "The answer is not always the exact wording.",
+            "id": "Jawabannya tidak selalu rumusan yang persis sama."
+          },
+          {
+            "en": "Do not fill the gap with a guess.",
+            "id": "Jangan mengisi celah dengan tebakan."
+          }
+        ],
+        "question": [
+          {
+            "en": "What kind of word fits this gap?",
+            "id": "Jenis kata apa yang cocok untuk celah ini?"
+          },
+          {
+            "en": "How many words are allowed?",
+            "id": "Berapa kata yang diperbolehkan?"
+          },
+          {
+            "en": "Did you finish the summary?",
+            "id": "Apakah kamu sudah menyelesaikan ringkasannya?"
+          },
+          {
+            "en": "Which word does the speaker use instead?",
+            "id": "Kata apa yang digunakan pembicara sebagai gantinya?"
+          },
+          {
+            "en": "Where did you find the excerpt?",
+            "id": "Di mana kamu menemukan kutipan itu?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The gap are filled with two words.",
+          "right": "The gap is filled with two words.",
+          "whyId": "Gap adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "She finish the notes yesterday.",
+          "right": "She finished the notes yesterday.",
+          "whyId": "Yesterday memakai bentuk lampau finished."
+        },
+        {
+          "wrong": "The limit are three words.",
+          "right": "The limit is three words.",
+          "whyId": "Limit adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "We must extracts the key words.",
+          "right": "We must extract the key words.",
+          "whyId": "Setelah must, pakai kata kerja dasar extract."
+        },
+        {
+          "wrong": "The wording of the question are unclear.",
+          "right": "The wording of the question is unclear.",
+          "whyId": "Wording adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "Transfer the answer in the blank form.",
+          "right": "Transfer the answer to the blank form.",
+          "whyId": "Transfer ke kolom memakai to."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS summary completion",
+        "academic lecture English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Penjelasan tentang celah dan batas kata",
+        "Kata yang diucapkan pembicara sebagai jawaban"
+      ]
+    },
+    "script": {
+      "title": "Penggunaan perpustakaan dan latihan ringkasan",
+      "lines": [
+        {
+          "speaker": "Tutor",
+          "text": "Today we practise summary completion. You will hear a short talk and fill the gap in the notes."
+        },
+        {
+          "speaker": "Student",
+          "text": "Do I need to copy the exact wording from the recording?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Usually not. Listen for the key idea, then extract the words that fit the gap. Do not write more than the limit."
+        },
+        {
+          "speaker": "Student",
+          "text": "What is the limit for each answer?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "The instructions say one or two words. Check them before you finish."
+        },
+        {
+          "speaker": "Speaker",
+          "text": "The excerpt I will read comes from a study on library use. In the first part, the researchers gave each student a blank form to record their visits."
+        },
+        {
+          "speaker": "Speaker",
+          "text": "The form had a gap for the time of day, and most students left it empty. The researchers then compared the forms with the library logs."
+        },
+        {
+          "speaker": "Speaker",
+          "text": "The second part of the study examined the transfer of learning, meaning how skills moved from one task to another."
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Good. Now read the summary and fill each gap with a word from the talk."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada excerpt, tekanan ada di suku pertama: EK-serpt.",
+      "Pada transfer, tekanan ada di suku kedua: trans-FUR.",
+      "Pada limit, tekanan ada di suku pertama: LIM-it."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Students had to record their visits on a ___ form.",
+        "options": [
+          {
+            "id": "A",
+            "text": "bridge"
+          },
+          {
+            "id": "B",
+            "text": "ladder"
+          },
+          {
+            "id": "C",
+            "text": "blank"
+          },
+          {
+            "id": "D",
+            "text": "silver"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Pembicara berkata 'gave each student a blank form to record their visits', jadi kata yang tepat adalah blank.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Bridge tidak disebut dalam rekaman."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ladder tidak disebut dalam rekaman."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Silver tidak disebut dalam rekaman."
+          }
+        ],
+        "evidence": "gave each student a blank form"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "The form had a ___ for the time of day.",
+        "options": [
+          {
+            "id": "A",
+            "text": "gap"
+          },
+          {
+            "id": "B",
+            "text": "speaker"
+          },
+          {
+            "id": "C",
+            "text": "limit"
+          },
+          {
+            "id": "D",
+            "text": "wording"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Pembicara berkata 'The form had a gap for the time of day', jadi kata yang tepat adalah gap.",
+        "stepByStep": [
+          "Cari kalimat tentang formulir dan waktu.",
+          "Pembicara menyebut formulir itu memiliki gap untuk waktu.",
+          "Speaker, limit, dan wording tidak disebut untuk bagian kosong waktu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Speaker adalah pembicara, bukan bagian kosong pada formulir."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Limit adalah batas kata, bukan bagian kosong."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Wording adalah rumusan, bukan bagian kosong pada formulir."
+          }
+        ],
+        "evidence": "The form had a gap for the time of day"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "The study examined how skills ___ from one task to another.",
+        "options": [
+          {
+            "id": "A",
+            "text": "finish"
+          },
+          {
+            "id": "B",
+            "text": "excerpt"
+          },
+          {
+            "id": "C",
+            "text": "limit"
+          },
+          {
+            "id": "D",
+            "text": "transfer"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Pembicara menjelaskan transfer of learning sebagai cara keterampilan berpindah dari satu tugas ke tugas lain.",
+        "stepByStep": [
+          "Cari transfer di rekaman: the transfer of learning.",
+          "Pembicara menjelaskan artinya: how skills moved from one task to another.",
+          "Finish, excerpt, dan limit tidak menggambarkan perpindahan keterampilan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Finish berarti menyelesaikan, bukan berpindah."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Excerpt adalah kutipan, bukan perpindahan keterampilan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Limit berarti batas, bukan perpindahan keterampilan."
+          }
+        ],
+        "evidence": "examined the transfer of learning"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "Most students did not ___ the form, so the researchers counted the empty ones.",
+        "options": [
+          {
+            "id": "A",
+            "text": "extract"
+          },
+          {
+            "id": "B",
+            "text": "fill"
+          },
+          {
+            "id": "C",
+            "text": "limit"
+          },
+          {
+            "id": "D",
+            "text": "excerpt"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Rekaman menyebut most students left it empty, artinya sebagian besar siswa tidak mengisi bagian itu. Kata yang tepat adalah fill.",
+        "stepByStep": [
+          "Rekaman menyebut most students left it empty.",
+          "Left it empty berarti tidak mengisinya, dan kata kerja yang tepat adalah fill.",
+          "Extract, limit, dan excerpt tidak berarti mengisi formulir."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Extract berarti mengambil, bukan mengisi."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Limit berarti batas, bukan kata kerja mengisi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Excerpt adalah kutipan, bukan tindakan mengisi."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Parafrasa dalam rekaman, seperti left it empty, sering menjadi kata kerja pada celah ringkasan.",
+          "examples": [
+            {
+              "en": "Students left the box empty.",
+              "id": "Siswa membiarkan kotak itu kosong."
+            },
+            {
+              "en": "Please fill the box with your name.",
+              "id": "Tolong isi kotak itu dengan namamu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A extract terlihat cocok karena berkaitan dengan mengambil informasi, tetapi pembicara menyebut bagian yang tidak diisi.",
+        "evidence": "most students left it empty"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "The answer must follow the ___ given in the instructions.",
+        "options": [
+          {
+            "id": "A",
+            "text": "limit"
+          },
+          {
+            "id": "B",
+            "text": "gap"
+          },
+          {
+            "id": "C",
+            "text": "notes"
+          },
+          {
+            "id": "D",
+            "text": "transfer"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tutor berkata 'Do not write more than the limit', artinya jawaban harus mengikuti batas jumlah kata.",
+        "stepByStep": [
+          "Cari instruksi tentang jumlah kata di naskah tutor.",
+          "Tutor menyebut jangan menulis lebih dari batas.",
+          "Gap, notes, dan transfer tidak menggambarkan batas jumlah kata."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Gap adalah celah, bukan batas jumlah kata."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Notes adalah catatan, bukan batas jumlah kata."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Transfer berarti pengalihan, bukan batas jumlah kata."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Limit dalam soal menunjukkan batas maksimum jumlah kata yang boleh ditulis.",
+          "examples": [
+            {
+              "en": "Write no more than two words within the limit.",
+              "id": "Tulis tidak lebih dari dua kata sesuai batas."
+            },
+            {
+              "en": "The word limit is printed above the table.",
+              "id": "Batas jumlah kata tercetak di atas tabel."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B gap terlihat cocok karena kalimat ini membahas celah yang harus diisi, tetapi yang diminta adalah batas jumlah kata.",
+        "evidence": "Do not write more than the limit"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Please leave the ___ in the form empty if you do not know the answer.",
+        "options": [
+          {
+            "id": "A",
+            "text": "blank"
+          },
+          {
+            "id": "B",
+            "text": "wording"
+          },
+          {
+            "id": "C",
+            "text": "excerpt"
+          },
+          {
+            "id": "D",
+            "text": "finish"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Blank adalah bagian kosong yang dibiarkan atau diisi di formulir.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Wording berarti rumusan, bukan bagian kosong."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Excerpt berarti kutipan, bukan bagian kosong."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Finish berarti menyelesaikan, bukan bagian kosong."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Please ___ the answer to the answer sheet before the time is up.",
+        "options": [
+          {
+            "id": "A",
+            "text": "transfer"
+          },
+          {
+            "id": "B",
+            "text": "gap"
+          },
+          {
+            "id": "C",
+            "text": "limit"
+          },
+          {
+            "id": "D",
+            "text": "notes"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Transfer berarti memindahkan jawaban ke lembar jawaban.",
+        "stepByStep": [
+          "Kalimat meminta jawaban dipindahkan ke lembar jawaban.",
+          "Memindahkan jawaban disebut transfer.",
+          "Gap, limit, dan notes tidak berarti memindahkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Gap berarti celah, bukan memindahkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Limit berarti batas, bukan memindahkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Notes berarti catatan, bukan memindahkan."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Take short ___ during the lecture so you can review them later.",
+        "options": [
+          {
+            "id": "A",
+            "text": "notes"
+          },
+          {
+            "id": "B",
+            "text": "limit"
+          },
+          {
+            "id": "C",
+            "text": "fill"
+          },
+          {
+            "id": "D",
+            "text": "gap"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Notes adalah catatan yang dibuat selama kuliah untuk ditinjau nanti.",
+        "stepByStep": [
+          "Kalimat meminta catatan singkat selama kuliah.",
+          "Catatan yang dibuat selama kuliah disebut notes.",
+          "Limit, fill, dan gap tidak berarti catatan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Limit berarti batas, bukan catatan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Fill berarti mengisi, bukan catatan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Gap berarti celah, bukan catatan."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Read the ___ from the article to find the exact date.",
+        "options": [
+          {
+            "id": "A",
+            "text": "excerpt"
+          },
+          {
+            "id": "B",
+            "text": "blank"
+          },
+          {
+            "id": "C",
+            "text": "wording"
+          },
+          {
+            "id": "D",
+            "text": "limit"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Excerpt adalah kutipan atau petikan dari artikel yang dibaca untuk mencari informasi tertentu.",
+        "stepByStep": [
+          "Kalimat meminta membaca bagian dari artikel untuk mencari tanggal.",
+          "Bagian kecil dari artikel disebut excerpt.",
+          "Blank, wording, dan limit tidak berarti bagian dari artikel."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Blank berarti bagian kosong, bukan kutipan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Wording berarti rumusan, bukan kutipan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Limit berarti batas, bukan kutipan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Excerpt adalah bagian kecil yang diambil dari teks yang lebih panjang.",
+          "examples": [
+            {
+              "en": "The excerpt shows the first chapter.",
+              "id": "Kutipan itu menunjukkan bab pertama."
+            },
+            {
+              "en": "Read the excerpt before the test.",
+              "id": "Bacalah kutipan itu sebelum tes."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C wording terlihat cocok karena berkaitan dengan teks, tetapi kalimat ini meminta bagian kecil yang diambil dari artikel."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Please ___ the key words from the talk before you write the summary.",
+        "options": [
+          {
+            "id": "A",
+            "text": "extract"
+          },
+          {
+            "id": "B",
+            "text": "limit"
+          },
+          {
+            "id": "C",
+            "text": "gap"
+          },
+          {
+            "id": "D",
+            "text": "notes"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Extract berarti mengambil inti atau kata kunci dari sebuah teks atau ceramah.",
+        "stepByStep": [
+          "Kalimat meminta mengambil kata kunci dari ceramah.",
+          "Mengambil inti dari teks disebut extract.",
+          "Limit, gap, dan notes tidak berarti mengambil."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Limit berarti batas, bukan mengambil."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Gap berarti celah, bukan mengambil."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Notes berarti catatan, bukan mengambil."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Extract berarti mengambil inti atau bagian penting dari sebuah teks.",
+          "examples": [
+            {
+              "en": "Extract the main points from the reading.",
+              "id": "Ambil poin-poin utama dari bacaan itu."
+            },
+            {
+              "en": "She extracted the data from the report.",
+              "id": "Dia mengambil data dari laporan itu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D notes terlihat cocok karena berkaitan dengan ceramah, tetapi kalimat ini meminta tindakan mengambil kata kunci."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Isilah celah itu dengan satu kata.",
+        "hint": "Isilah: fill. Celah: the gap. Satu kata: one word.",
+        "acceptedAnswers": [
+          "Fill the gap with one word.",
+          "Fill in the gap with one word."
+        ],
+        "modelAnswer": "Fill the gap with one word.",
+        "commonErrors": [
+          {
+            "pattern": "Filled the gap with one word",
+            "feedbackId": "Instruksi memakai kata kerja dasar fill, bukan bentuk lampau."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Jawaban itu harus sesuai dengan batas jumlah kata.",
+        "hint": "Jawaban itu: the answer. Harus sesuai dengan: must follow. Batas jumlah kata: the word limit.",
+        "acceptedAnswers": [
+          "The answer must follow the word limit.",
+          "The answer must match the word limit."
+        ],
+        "modelAnswer": "The answer must follow the word limit.",
+        "commonErrors": [
+          {
+            "pattern": "The answer must follows the word limit",
+            "feedbackId": "Setelah must, pakai kata kerja dasar follow."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penulis itu memakai rumusan yang berbeda dari rekaman.",
+        "hint": "Penulis: the writer. Memakai: uses. Rumusan: different wording. Dari rekaman: from the recording.",
+        "acceptedAnswers": [
+          "The writer uses different wording from the recording.",
+          "The writer uses wording that differs from the recording."
+        ],
+        "modelAnswer": "The writer uses different wording from the recording.",
+        "commonErrors": [
+          {
+            "pattern": "The writer use different wording from recording",
+            "feedbackId": "Subjek writer tunggal memakai uses, dan gunakan the recording."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kutipan itu menjelaskan bagaimana keterampilan dipindahkan dari satu tugas ke tugas lain.",
+        "hint": "Kutipan itu: the excerpt. Menjelaskan: explains. Bagaimana keterampilan dipindahkan: how skills are transferred. Dari satu tugas ke tugas lain: from one task to another.",
+        "acceptedAnswers": [
+          "The excerpt explains how skills are transferred from one task to another.",
+          "The excerpt explains how skills transfer from one task to another."
+        ],
+        "modelAnswer": "The excerpt explains how skills are transferred from one task to another.",
+        "commonErrors": [
+          {
+            "pattern": "The excerpt explain how skills transfer from one task to other",
+            "feedbackId": "Subjek excerpt tunggal memakai explains, dan gunakan another."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Formulir itu memiliki celah untuk waktu, dan sebagian besar siswa membiarkannya kosong.",
+        "hint": "Formulir itu: the form. Memiliki celah: had a gap. Untuk waktu: for the time. Sebagian besar siswa: most students. Membiarkannya kosong: left it empty.",
+        "acceptedAnswers": [
+          "The form had a gap for the time, and most students left it empty.",
+          "The form had a gap for the time, and most students left it blank."
+        ],
+        "modelAnswer": "The form had a gap for the time, and most students left it empty.",
+        "commonErrors": [
+          {
+            "pattern": "The form has a gap for time and most students leave it empty",
+            "feedbackId": "Gunakan bentuk lampau had dan left, sesuai konteks rekaman."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Please write your answer in the ___ on the sheet.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "blank"
+          },
+          {
+            "id": "B",
+            "text": "transfer"
+          },
+          {
+            "id": "C",
+            "text": "limit"
+          },
+          {
+            "id": "D",
+            "text": "finish"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Blank adalah kolom kosong tempat jawaban ditulis.",
+        "stepByStep": [
+          "Kalimat meminta menulis jawaban di kolom kosong.",
+          "Kolom kosong disebut blank.",
+          "Transfer, limit, dan finish tidak berarti kolom kosong."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Transfer berarti memindahkan, bukan kolom kosong."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Limit berarti batas, bukan kolom kosong."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Finish berarti menyelesaikan, bukan kolom kosong."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Blank adalah bagian kosong yang disediakan untuk diisi.",
+          "examples": [
+            {
+              "en": "Fill each blank with a number.",
+              "id": "Isilah setiap kolom kosong dengan angka."
+            },
+            {
+              "en": "There is a blank at the end of the form.",
+              "id": "Ada kolom kosong di akhir formulir."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B transfer terlihat cocok karena jawaban harus dipindahkan, tetapi kalimat ini meminta kolom tempat jawaban ditulis."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'excerpt'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The excerpt are from the first chapter."
+          },
+          {
+            "id": "B",
+            "text": "The excerpt is from the first chapter."
+          },
+          {
+            "id": "C",
+            "text": "Excerpt the first chapter is from."
+          },
+          {
+            "id": "D",
+            "text": "The excerpts is the chapter first from."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Excerpt adalah subjek tunggal, sehingga memakai is, dan from the first chapter menjelaskan asalnya.",
+        "stepByStep": [
+          "Excerpt adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa from the first chapter menunjukkan asal kutipan.",
+          "Pilihan A memakai are untuk subjek tunggal, pilihan C dan D urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal excerpt."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Excerpts jamak tidak cocok dengan is, dan urutannya salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan from menunjukkan asal sesuatu.",
+          "examples": [
+            {
+              "en": "The text is from a magazine.",
+              "id": "Teks itu berasal dari sebuah majalah."
+            },
+            {
+              "en": "The excerpt is from the report.",
+              "id": "Kutipan itu berasal dari laporan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena artinya jelas, tetapi subjek excerpt tunggal tidak cocok dengan are."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'the way a sentence is phrased'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "wording"
+          },
+          {
+            "id": "B",
+            "text": "gap"
+          },
+          {
+            "id": "C",
+            "text": "fill"
+          },
+          {
+            "id": "D",
+            "text": "limit"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Wording berarti rumusan atau cara sebuah kalimat disusun.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk cara sebuah kalimat disusun.",
+          "Rumusan kalimat disebut wording.",
+          "Gap, fill, dan limit tidak berarti rumusan kalimat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Gap berarti celah, bukan rumusan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Fill berarti mengisi, bukan rumusan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Limit berarti batas, bukan rumusan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Wording adalah pilihan kata dan cara menyusun kalimat.",
+          "examples": [
+            {
+              "en": "The wording of the rule is unclear.",
+              "id": "Rumusan aturan itu tidak jelas."
+            },
+            {
+              "en": "Change the wording to make it simpler.",
+              "id": "Ubah rumusannya agar lebih sederhana."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B gap terlihat cocok karena berkaitan dengan kalimat yang belum lengkap, tetapi gap berarti celah, bukan rumusan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'a maximum amount that you must not go beyond'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "extract"
+          },
+          {
+            "id": "B",
+            "text": "limit"
+          },
+          {
+            "id": "C",
+            "text": "notes"
+          },
+          {
+            "id": "D",
+            "text": "transfer"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Limit adalah batas maksimum yang tidak boleh dilampaui.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk batas maksimum yang tidak boleh dilampaui.",
+          "Batas maksimum itu disebut limit.",
+          "Extract, notes, dan transfer tidak berarti batas maksimum."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Extract berarti mengambil, bukan batas maksimum."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Notes berarti catatan, bukan batas maksimum."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Transfer berarti memindahkan, bukan batas maksimum."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Limit adalah batas yang tidak boleh dilampaui, misalnya jumlah kata atau waktu.",
+          "examples": [
+            {
+              "en": "There is a time limit for each section.",
+              "id": "Ada batas waktu untuk setiap bagian."
+            },
+            {
+              "en": "Keep your answer within the word limit.",
+              "id": "Jagalah jawabanmu dalam batas jumlah kata."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A extract terlihat cocok karena berkaitan dengan teks, tetapi extract berarti mengambil, bukan batas maksimum."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The notes is finished before the talk end."
+          },
+          {
+            "id": "B",
+            "text": "The notes were finished before the talk ended."
+          },
+          {
+            "id": "C",
+            "text": "The notes was finish before the talk ended."
+          },
+          {
+            "id": "D",
+            "text": "The notes were finishing before talk end."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Notes jamak memakai were, dan finished serta ended adalah bentuk lampau yang sesuai.",
+        "stepByStep": [
+          "Notes jamak, sehingga memakai were.",
+          "Finished dan ended adalah bentuk lampau yang sejalan dengan konteks.",
+          "Pilihan A memakai is untuk jamak dan talk end tanpa lampau, pilihan C memakai was untuk jamak, dan pilihan D memakai finishing dan end yang salah bentuk."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Is tidak cocok dengan notes jamak, dan bentuk waktunya tidak konsisten."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Was tidak cocok dengan notes jamak, dan finish seharusnya bentuk lampau."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Finishing dan end tidak membentuk kalimat lampau yang benar."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek jamak memakai were, dan dalam kalimat lampau kata kerja memakai bentuk V2.",
+          "examples": [
+            {
+              "en": "The notes were clear and short.",
+              "id": "Catatannya jelas dan singkat."
+            },
+            {
+              "en": "The talk ended before noon.",
+              "id": "Ceramah itu berakhir sebelum tengah hari."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena waktu kalimat sederhana, tetapi notes jamak tidak cocok dengan is."
+      }
+    ]
+  }
+}

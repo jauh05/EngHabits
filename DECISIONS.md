@@ -2,6 +2,16 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Fase 10b (konten hari 61-90 dan bank minggu 9-12)
+
+1. **Pola minggu 9 sampai 12.** Setiap hari lolos validator dengan 15 soal inti (blok 3, Bagian A, dan Bagian B) dalam rentang kesulitan: mudah 2 sampai 4, sedang 3 sampai 7, sulit 6 sampai 10. Target minggu 9 sampai 12 adalah 2 mudah, 5 sedang, 8 sulit, dengan toleransi 2. Hard Challenge 5 soal sulit dengan jebakan ujian.
+2. **Hari simulasi dan rencana.** Hari 88 dan 89 bertipe `exam` dengan blok 3 berupa bacaan (topik simulasi dan kriteria penilaian). Hari 90 adalah rencana aksi akhir. Semua teks ditulis sendiri. Hari simulasi tidak disalin dari soal resmi dan tidak mengklaim sebagai soal resmi ETS, IELTS, atau TOEFL.
+3. **Topik bank minggu 9 sampai 12.** Minggu 9: TFNG, yes-no-not-given, judul paragraf, celah batas kata, ejaan dan angka, koreksi. Minggu 10: proses, pie dan tabel, grafik garis, bar chart, peta, gambaran umum. Minggu 11: esai opini, problem-solusi, adv-disadv, tesis, paragraf, esai diskusi. Minggu 12: simulasi listening, simulasi reading, simulasi writing, speaking, kriteria, rencana.
+4. **Kosakata hari 63 diganti.** Kata `section` sudah dipakai di hari 59, dan `paragraph` sudah dipakai di hari 29, sehingga validator kurikulum menolak keduanya. Kosakata hari 63 sekarang `draft`, dengan satu kalimat berisi `draft` di naskah. `content/curriculum.json` ikut diperbarui.
+5. **Validator menangkap masalah berikut.** Tanda titik tiga pada formula hari 84 (diganti dengan X dan Y). Hari 85 memiliki 10 dari 15 kunci huruf A (H1 dan H3 diurutkan ulang). Hari 86 L4 belum punya `evidence`. Di bank minggu 12, contoh `ruleAndExamples` sempat berisi teks Inggris di kolom `id`; sudah diganti dengan terjemahan Indonesia. Validator tidak menangkap yang terakhir, jadi pengecekan itu dilakukan manual.
+6. **Distribusi jawaban bank.** Minggu 9: A 8, B 7, C 8, D 7. Minggu 10: A 8, B 7, C 8, D 7. Minggu 11: A 8, B 7, C 8, D 7. Minggu 12: A 8, B 8, C 7, D 7. Tidak ada huruf yang melebihi 60 persen.
+7. **Batas kualitas tetap sama.** Validator, tes, dan pemeriksaan tipe lolos, tetapi audit kalimat per kalimat belum dilakukan. Pengecoh dengan `whether`, `whenever`, dan `as soon as` dan opsi yang hanya berbeda pada bentuk kata perlu dibaca ulang saat audit mutu di Fase 12.
+
 ## 2026-10-21: Fase 10 (konten hari 52-60 dan bank minggu 8)
 
 1. **Pola minggu 8.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti, sesuai target minggu 8. Hari 52, 54, 56 mendengarkan. Hari 53, 55, 57 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 58 review dengan naskah. Hari 59 dan 60 adalah simulasi. Hari 59 memakai naskah dan pola structure. Hari 60 memakai teks bacaan.

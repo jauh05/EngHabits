@@ -1,0 +1,1223 @@
+{
+  "day": 73,
+  "week": 10,
+  "month": 3,
+  "title": "Writing Task 1: Overview Paragraph",
+  "topic": "Menulis paragraf gambaran umum yang merangkum pola utama",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menulis gambaran umum sebelum menyebut angka rinci",
+    "Memilih kata untuk menyatakan pola utama",
+    "Membedakan detail dari gambaran umum"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "overall",
+        "pronunciationId": "OH-ver-ol (tekanan di OH)",
+        "pos": "Adv",
+        "meaningId": "secara keseluruhan",
+        "example": "Overall, sales increased.",
+        "exampleId": "Secara keseluruhan, penjualan meningkat."
+      },
+      {
+        "no": 2,
+        "en": "generally",
+        "pronunciationId": "JEN-er-ul-lee (tekanan di JEN)",
+        "pos": "Adv",
+        "meaningId": "pada umumnya",
+        "example": "Generally, prices were stable.",
+        "exampleId": "Pada umumnya, harga stabil."
+      },
+      {
+        "no": 3,
+        "en": "broadly",
+        "pronunciationId": "BRAWD-lee (tekanan di BRAWD)",
+        "pos": "Adv",
+        "meaningId": "secara garis besar",
+        "example": "Broadly, the plan works.",
+        "exampleId": "Secara garis besar, rencana itu berhasil."
+      },
+      {
+        "no": 4,
+        "en": "notably",
+        "pronunciationId": "NOH-tuh-blee (tekanan di NOH)",
+        "pos": "Adv",
+        "meaningId": "terutama, mencolok",
+        "example": "Notably, the rise was sharp.",
+        "exampleId": "Terutama, kenaikannya tajam."
+      },
+      {
+        "no": 5,
+        "en": "chiefly",
+        "pronunciationId": "CHEEF-lee (tekanan di CHEEF)",
+        "pos": "Adv",
+        "meaningId": "terutama, sebagian besar",
+        "example": "Visitors came chiefly in summer.",
+        "exampleId": "Pengunjung datang terutama pada musim panas."
+      },
+      {
+        "no": 6,
+        "en": "primarily",
+        "pronunciationId": "prai-MER-uh-lee (tekanan di MER)",
+        "pos": "Adv",
+        "meaningId": "terutama, pada dasarnya",
+        "example": "The rise was primarily due to demand.",
+        "exampleId": "Kenaikannya terutama karena permintaan."
+      },
+      {
+        "no": 7,
+        "en": "mainly",
+        "pronunciationId": "MAYN-lee (tekanan di MAYN)",
+        "pos": "Adv",
+        "meaningId": "sebagian besar, utamanya",
+        "example": "The users are mainly students.",
+        "exampleId": "Penggunanya sebagian besar mahasiswa."
+      },
+      {
+        "no": 8,
+        "en": "key",
+        "pronunciationId": "KEE (tekanan di KEE)",
+        "pos": "Adj",
+        "meaningId": "kunci, utama",
+        "example": "This is the key point.",
+        "exampleId": "Ini adalah poin kunci."
+      },
+      {
+        "no": 9,
+        "en": "prominent",
+        "pronunciationId": "PROM-i-nent (tekanan di PROM)",
+        "pos": "Adj",
+        "meaningId": "menonjol",
+        "example": "The peak is prominent.",
+        "exampleId": "Puncaknya menonjol."
+      },
+      {
+        "no": 10,
+        "en": "noticeable",
+        "pronunciationId": "NOH-tis-uh-bul (tekanan di NOH)",
+        "pos": "Adj",
+        "meaningId": "mudah terlihat",
+        "example": "The change is noticeable.",
+        "exampleId": "Perubahannya mudah terlihat."
+      }
+    ],
+    "tip": "Paragraf gambaran umum tidak memuat angka rinci. Tulis pola utama dengan kata seperti overall atau generally, lalu sebut satu atau dua titik yang paling menonjol."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 overview",
+        "IELTS overview paragraph"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menulis overview untuk grafik, dengan contoh pola utama dan kata pembuka yang tepat.",
+      "watchFor": [
+        "Kalimat overview tanpa angka rinci",
+        "Pola utama dan titik yang menonjol",
+        "Kata keterangan untuk merangkum"
+      ]
+    },
+    "lesson": {
+      "intro": "Overview adalah paragraf singkat yang merangkum pola utama sebuah grafik. Tulis tanpa detail angka, dan fokus pada arah umum, perbedaan utama, dan titik paling menonjol.",
+      "sections": [
+        {
+          "heading": "Pembuka",
+          "bodyMd": "Mulai dengan **overall** atau **generally** untuk menyatakan pola umum. Gunakan **broadly** jika ada beberapa pengecualian kecil."
+        },
+        {
+          "heading": "Titik utama",
+          "bodyMd": "Sebut **key** pattern dengan **notably** atau **prominent** jika ada titik yang sangat jelas. **Noticeable** dipakai untuk perubahan yang mudah dilihat."
+        },
+        {
+          "heading": "Penyebab dan kelompok",
+          "bodyMd": "**Chiefly**, **primarily**, dan **mainly** dipakai untuk menyebut bagian terbesar atau alasan utama. Jangan memakai detail yang belum diminta."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Pembuka",
+          "pattern": "Overall, X increased / decreased over the period"
+        },
+        {
+          "label": "Pola",
+          "pattern": "Generally, X was higher than Y"
+        },
+        {
+          "label": "Titik",
+          "pattern": "Notably, the peak was in A"
+        },
+        {
+          "label": "Penyebab",
+          "pattern": "The change was primarily / mainly due to X"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "Overall, the number of visitors increased.",
+            "id": "Secara keseluruhan, jumlah pengunjung meningkat."
+          },
+          {
+            "en": "Generally, tourists came in the summer.",
+            "id": "Pada umumnya, wisatawan datang pada musim panas."
+          },
+          {
+            "en": "Notably, the rise was sharp in 2017.",
+            "id": "Terutama, kenaikannya tajam pada 2017."
+          },
+          {
+            "en": "The change was primarily due to new routes.",
+            "id": "Perubahannya terutama karena rute baru."
+          },
+          {
+            "en": "The key pattern is a steady increase.",
+            "id": "Pola kuncinya adalah kenaikan yang stabil."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The overview does not list every number.",
+            "id": "Overview itu tidak mencantumkan setiap angka."
+          },
+          {
+            "en": "The change was not noticeable in the first year.",
+            "id": "Perubahannya tidak terlihat pada tahun pertama."
+          },
+          {
+            "en": "The peak is not prominent in the earlier data.",
+            "id": "Puncaknya tidak menonjol dalam data sebelumnya."
+          },
+          {
+            "en": "The growth was not primarily caused by prices.",
+            "id": "Pertumbuhannya tidak terutama disebabkan oleh harga."
+          },
+          {
+            "en": "The users are not mainly adults.",
+            "id": "Penggunanya tidak sebagian besar orang dewasa."
+          }
+        ],
+        "question": [
+          {
+            "en": "What is the overall pattern?",
+            "id": "Apa pola secara keseluruhan?"
+          },
+          {
+            "en": "Which point is the most prominent?",
+            "id": "Titik mana yang paling menonjol?"
+          },
+          {
+            "en": "Is the change noticeable?",
+            "id": "Apakah perubahannya mudah terlihat?"
+          },
+          {
+            "en": "What was the change primarily due to?",
+            "id": "Perubahannya terutama disebabkan oleh apa?"
+          },
+          {
+            "en": "Which group is the key group?",
+            "id": "Kelompok mana yang menjadi kelompok kunci?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "Overall the numbers is high.",
+          "right": "Overall the numbers are high.",
+          "whyId": "Numbers adalah kata benda jamak, jadi memakai are."
+        },
+        {
+          "wrong": "Generally, the visitors comes in summer.",
+          "right": "Generally, the visitors come in summer.",
+          "whyId": "Subjek visitors jamak memakai come."
+        },
+        {
+          "wrong": "The most prominent point are the drop.",
+          "right": "The most prominent point is the drop.",
+          "whyId": "Point adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The change was noticeably in 2020.",
+          "right": "The change was noticeable in 2020.",
+          "whyId": "Setelah was, pakai kata sifat noticeable."
+        },
+        {
+          "wrong": "It is mainly because the price.",
+          "right": "It is mainly because of the price.",
+          "whyId": "Because diikuti of sebelum kata benda."
+        },
+        {
+          "wrong": "Chiefly visitors came in summer.",
+          "right": "Chiefly, visitors came in summer.",
+          "whyId": "Kata keterangan pembuka biasanya diikuti koma."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Gambaran Umum Kunjungan Wisata",
+    "text": "The chart illustrates the number of tourists who visited a coastal region between 2015 and 2020. Overall, the figures show a steady increase, although there was a clear interruption in one year. The overview below highlights the key patterns without repeating every value.\n\nGenerally speaking, visitors came from three main sources: domestic travellers, regional visitors, and international tourists. Broadly, domestic travellers made up the largest group in every year. Notably, their numbers rose most sharply between 2016 and 2018, when new ferry routes opened to the islands.\n\nInternational tourists were a smaller group, but their share grew faster than any other category. Their arrivals came chiefly in the summer months, and this pattern was consistent across all five years. The increase was primarily driven by better flight connections and a stronger marketing campaign.\n\nRegional visitors remained relatively stable. Their number changed only slightly from year to year, and the category was mainly used for short trips and weekend stays. Although this group was not the largest, it was a noticeable part of local hotel income.\n\nThe most prominent feature of the chart is the sharp drop in 2020. In that year, arrivals fell in every category, and the decline was most severe for international tourists. This is the only point where the trend clearly reversed, and it stands out against the earlier growth.\n\nTaken together, the figures suggest that tourism in the region depends heavily on domestic demand. The key lesson for planners is that a diversified market is less exposed to shocks. A region that relies on one group of visitors may suffer when that group reduces its travel.\n\nIt is also worth noting that the chart does not show spending per visitor. As a result, the overview describes the number of visits rather than the economic value of tourism. A fuller report would need additional data on income and length of stay before it could judge the total impact. Readers should also keep in mind that the figures were collected by the regional tourism office, which updates the data each year. The pattern in the last two years was therefore shaped by external factors rather than by changes in the region's attractions.",
+    "glossary": [
+      {
+        "en": "coastal",
+        "id": "pesisir"
+      },
+      {
+        "en": "interruption",
+        "id": "gangguan, jeda"
+      },
+      {
+        "en": "diversified",
+        "id": "beragam"
+      },
+      {
+        "en": "shock",
+        "id": "guncangan"
+      },
+      {
+        "en": "reversed",
+        "id": "berbalik arah"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "The number of tourists increased steadily over the whole period.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyebut kenaikan yang stabil, tetapi juga ada gangguan yang jelas pada satu tahun, sehingga pernyataan 'steadily over the whole period' bertentangan.",
+        "stepByStep": [
+          "Cari steady di paragraf pertama.",
+          "Teks menyebut ada gangguan yang jelas pada satu tahun.",
+          "Karena kenaikan tidak stabil sepanjang periode, pernyataan itu False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyebut gangguan pada satu tahun, jadi tidak sepenuhnya stabil."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas pola kenaikan secara langsung."
+          }
+        ],
+        "evidence": "although there was a clear interruption in one year"
+      },
+      {
+        "id": "R2",
+        "type": "true_false_not_given",
+        "prompt": "Domestic travellers were the largest group in each year.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut wisatawan domestik membentuk kelompok terbesar di setiap tahun.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut domestik sebagai kelompok terbesar, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut hal ini secara langsung."
+          }
+        ],
+        "evidence": "domestic travellers made up the largest group in every year",
+        "stepByStep": [
+          "Cari domestic travellers di paragraf kedua.",
+          "Teks menyebut domestic travellers made up the largest group in every year.",
+          "Pernyataan itu sejalan dengan teks, sehingga True."
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "According to the passage, which category grew fastest?",
+        "options": [
+          {
+            "id": "A",
+            "text": "regional visitors"
+          },
+          {
+            "id": "B",
+            "text": "domestic travellers"
+          },
+          {
+            "id": "C",
+            "text": "international tourists"
+          },
+          {
+            "id": "D",
+            "text": "day trippers"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut bahwa turis internasional memiliki pertumbuhan porsi yang lebih cepat daripada kategori lain.",
+        "stepByStep": [
+          "Cari grew faster di paragraf ketiga.",
+          "Teks menyebut turis internasional tumbuh lebih cepat daripada kategori lain.",
+          "Pengunjung regional stabil, wisatawan domestik terbesar, dan day trippers tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Pengunjung regional disebut relatif stabil."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Wisatawan domestik disebut terbesar, bukan tercepat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Day trippers tidak disebut dalam teks."
+          }
+        ],
+        "evidence": "their share grew faster than any other category"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What is the most prominent feature of the chart?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the steady rise of regional visitors"
+          },
+          {
+            "id": "B",
+            "text": "the sharp drop in 2020"
+          },
+          {
+            "id": "C",
+            "text": "the summer peak of domestic travellers"
+          },
+          {
+            "id": "D",
+            "text": "the new ferry routes"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyebut bahwa fitur paling menonjol adalah penurunan tajam pada 2020.",
+        "stepByStep": [
+          "Cari prominent di paragraf kelima.",
+          "Teks menyebut fitur paling menonjol adalah penurunan tajam pada 2020.",
+          "Kenaikan pengunjung regional, puncak musim panas, dan rute feri disebut sebagai hal lain."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Pengunjung regional disebut relatif stabil, bukan fitur paling menonjol."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Puncak musim panas disebut untuk turis internasional, bukan fitur utama."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Rute feri disebut sebagai penyebab kenaikan, bukan fitur paling menonjol."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Prominent berarti paling mudah dilihat dan menarik perhatian dalam sebuah grafik.",
+          "examples": [
+            {
+              "en": "The most prominent feature is the drop.",
+              "id": "Fitur yang paling menonjol adalah penurunan."
+            },
+            {
+              "en": "The peak is prominent in the chart.",
+              "id": "Puncaknya menonjol dalam grafik."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat penting karena disebut sebagai penyebab kenaikan, tetapi teks menyebut penurunan 2020 sebagai fitur paling menonjol.",
+        "evidence": "The most prominent feature of the chart is the sharp drop in 2020"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Why can the chart not show the economic value of tourism?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It shows only the number of visits, not spending."
+          },
+          {
+            "id": "B",
+            "text": "It has no data on visitors."
+          },
+          {
+            "id": "C",
+            "text": "It is missing the year 2018."
+          },
+          {
+            "id": "D",
+            "text": "It describes only international tourists."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menyebut grafik tidak menunjukkan pengeluaran per pengunjung, sehingga hanya menggambarkan jumlah kunjungan.",
+        "stepByStep": [
+          "Cari economic value di paragraf terakhir.",
+          "Teks menyebut grafik tidak menunjukkan pengeluaran per pengunjung.",
+          "Grafik punya data pengunjung, tidak kehilangan tahun 2018, dan tidak hanya menggambarkan turis internasional."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Grafik memiliki data jumlah pengunjung."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tahun 2018 termasuk dalam periode grafik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Grafik mencakup semua kategori pengunjung."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Jumlah kunjungan dan nilai ekonomi adalah dua hal berbeda, dan grafik sering hanya menunjukkan salah satunya.",
+          "examples": [
+            {
+              "en": "The chart shows visits, not revenue.",
+              "id": "Grafik itu menunjukkan kunjungan, bukan pendapatan."
+            },
+            {
+              "en": "The data does not include spending.",
+              "id": "Data itu tidak mencakup pengeluaran."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena grafik tidak menunjukkan nilai ekonomi, tetapi grafik itu sebenarnya memuat data kunjungan.",
+        "evidence": "the chart does not show spending per visitor"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ message of the chart is that the numbers rose in most years.",
+        "options": [
+          {
+            "id": "A",
+            "text": "overall"
+          },
+          {
+            "id": "B",
+            "text": "pilot"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Overall message adalah pesan keseluruhan dari grafik, dan kalimat ini meringkas pola utamanya.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Pilot berarti percobaan, bukan pesan keseluruhan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan pesan keseluruhan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan pesan keseluruhan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The team will ___ focus on the coastal areas in the next report.",
+        "options": [
+          {
+            "id": "A",
+            "text": "bridge"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "chiefly"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Chiefly berarti terutama, dan kalimat ini menyebut fokus utama laporan.",
+        "stepByStep": [
+          "Kalimat menyebut fokus utama laporan.",
+          "Kata keterangan yang berarti terutama adalah chiefly.",
+          "Bridge, ticket, dan garden adalah kata benda, bukan kata keterangan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Bridge adalah kata benda, bukan kata keterangan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket adalah kata benda, bukan kata keterangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden adalah kata benda, bukan kata keterangan."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The ___ point in the graph is the peak in 2018.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "key"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Key point adalah poin kunci atau paling penting, dan kalimat ini menyebut puncak 2018.",
+        "stepByStep": [
+          "Kalimat menyebut poin paling penting dalam grafik.",
+          "Kata sifat untuk paling penting adalah key.",
+          "Garden, bridge, dan ticket adalah kata benda, bukan kata sifat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan kata sifat."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan kata sifat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan kata sifat."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The difference is clearly ___ in the second half of the chart.",
+        "options": [
+          {
+            "id": "A",
+            "text": "generally"
+          },
+          {
+            "id": "B",
+            "text": "prominent"
+          },
+          {
+            "id": "C",
+            "text": "chiefly"
+          },
+          {
+            "id": "D",
+            "text": "broadly"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Prominent berarti menonjol atau mudah terlihat, dan kata ini cocok dengan kata sifat setelah clearly is.",
+        "stepByStep": [
+          "Pola is clearly ___ membutuhkan kata sifat.",
+          "Kata sifat yang berarti menonjol adalah prominent.",
+          "Generally, chiefly, dan broadly adalah kata keterangan, bukan kata sifat di posisi ini."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Generally adalah kata keterangan, tidak cocok setelah is clearly."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Chiefly adalah kata keterangan, tidak cocok di posisi kata sifat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Broadly adalah kata keterangan, tidak cocok di posisi kata sifat."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Prominent adalah kata sifat yang berarti menonjol atau paling terlihat.",
+          "examples": [
+            {
+              "en": "The peak is prominent on the graph.",
+              "id": "Puncaknya menonjol pada grafik."
+            },
+            {
+              "en": "A prominent drop appears in 2020.",
+              "id": "Penurunan yang menonjol muncul pada 2020."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A generally terlihat cocok karena sering dipakai dalam overview, tetapi posisinya setelah is clearly harus kata sifat."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___, the visitors came in the summer months and stayed for a week.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Generally"
+          },
+          {
+            "id": "B",
+            "text": "Garden"
+          },
+          {
+            "id": "C",
+            "text": "Ticket"
+          },
+          {
+            "id": "D",
+            "text": "Bridge"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Generally di awal kalimat menyatakan pola umum, dan cocok untuk gambaran umum tentang musim dan lama tinggal.",
+        "stepByStep": [
+          "Kalimat menyatakan pola umum tentang musim dan lama tinggal.",
+          "Kata keterangan pembuka yang berarti pada umumnya adalah generally.",
+          "Garden, ticket, dan bridge adalah kata benda, tidak bisa menjadi pembuka kalimat ini."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden adalah kata benda, tidak cocok sebagai kata pembuka."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket adalah kata benda, tidak cocok sebagai kata pembuka."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge adalah kata benda, tidak cocok sebagai kata pembuka."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Generally di awal kalimat menandai pola yang berlaku pada umumnya.",
+          "examples": [
+            {
+              "en": "Generally, the weather is warm in June.",
+              "id": "Pada umumnya, cuacanya hangat pada bulan Juni."
+            },
+            {
+              "en": "Generally, students prefer short courses.",
+              "id": "Pada umumnya, mahasiswa lebih suka kursus singkat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D bridge terlihat cocok karena kata itu sering muncul di grafik, tetapi kata benda tidak bisa membuka kalimat ini sebagai keterangan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Secara keseluruhan, jumlah pengunjung meningkat.",
+        "hint": "Secara keseluruhan: overall. Jumlah pengunjung: the number of visitors. Meningkat: increased.",
+        "acceptedAnswers": [
+          "Overall, the number of visitors increased.",
+          "Overall, the number of visitors rose."
+        ],
+        "modelAnswer": "Overall, the number of visitors increased.",
+        "commonErrors": [
+          {
+            "pattern": "Overall the number of visitors increase",
+            "feedbackId": "Gunakan bentuk lampau increased untuk perubahan yang sudah terjadi."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pada umumnya, wisatawan datang pada musim panas.",
+        "hint": "Pada umumnya: generally. Wisatawan: tourists. Datang: came atau arrived. Musim panas: in the summer.",
+        "acceptedAnswers": [
+          "Generally, tourists came in the summer.",
+          "Generally, tourists arrived in the summer."
+        ],
+        "modelAnswer": "Generally, tourists came in the summer.",
+        "commonErrors": [
+          {
+            "pattern": "Generally tourists comes in summer",
+            "feedbackId": "Subjek tourists jamak memakai come, dan gunakan the summer."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Poin yang paling menonjol adalah penurunan tajam.",
+        "hint": "Poin yang paling menonjol: the most prominent point. Penurunan tajam: the sharp decline.",
+        "acceptedAnswers": [
+          "The most prominent point is the sharp decline.",
+          "The most prominent feature is the sharp decline."
+        ],
+        "modelAnswer": "The most prominent point is the sharp decline.",
+        "commonErrors": [
+          {
+            "pattern": "The most prominent point are the sharp decline",
+            "feedbackId": "Point adalah kata benda tunggal, jadi memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kenaikan itu terutama didorong oleh koneksi penerbangan.",
+        "hint": "Kenaikan itu: the increase. Terutama: primarily. Didorong oleh: was driven by. Koneksi penerbangan: flight connections.",
+        "acceptedAnswers": [
+          "The increase was primarily driven by flight connections.",
+          "The rise was mainly driven by flight connections."
+        ],
+        "modelAnswer": "The increase was primarily driven by flight connections.",
+        "commonErrors": [
+          {
+            "pattern": "The increase primarily drive by flight connection",
+            "feedbackId": "Gunakan was driven dan jamak connections."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Grafik ini tidak menunjukkan nilai ekonomi dari pariwisata.",
+        "hint": "Grafik ini: this chart. Tidak menunjukkan: does not show. Nilai ekonomi: the economic value. Pariwisata: tourism.",
+        "acceptedAnswers": [
+          "The chart does not show the economic value of tourism.",
+          "This chart does not show the economic value of tourism."
+        ],
+        "modelAnswer": "The chart does not show the economic value of tourism.",
+        "commonErrors": [
+          {
+            "pattern": "The chart does not shows the economic value of tourism",
+            "feedbackId": "Setelah does not, pakai kata kerja dasar show."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'in most cases, but not always'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "notably"
+          },
+          {
+            "id": "B",
+            "text": "generally"
+          },
+          {
+            "id": "C",
+            "text": "chiefly"
+          },
+          {
+            "id": "D",
+            "text": "prominent"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Generally berarti pada umumnya, yaitu dalam sebagian besar kasus tetapi tidak selalu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk sebagian besar kasus tetapi tidak selalu.",
+          "Kata keterangan yang berarti pada umumnya adalah generally.",
+          "Notably, chiefly, dan prominent tidak berarti pada umumnya."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Notably berarti terutama atau mencolok, bukan pada umumnya."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Chiefly berarti terutama, bukan pada umumnya."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Prominent berarti menonjol, bukan pada umumnya."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Generally dipakai untuk pola yang berlaku pada sebagian besar keadaan.",
+          "examples": [
+            {
+              "en": "Generally, the trend is upward.",
+              "id": "Pada umumnya, tren itu naik."
+            },
+            {
+              "en": "Prices are generally stable in spring.",
+              "id": "Harga pada umumnya stabil di musim semi."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A notably terlihat cocok karena sering dipakai dalam overview, tetapi notably menyorot titik yang mencolok, bukan pola umum."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'noticeable'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The noticeable are the changes in 2020."
+          },
+          {
+            "id": "B",
+            "text": "The noticeables is the change in 2020."
+          },
+          {
+            "id": "C",
+            "text": "Noticeable the change 2020 is."
+          },
+          {
+            "id": "D",
+            "text": "The change in 2020 is noticeable."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Noticeable adalah kata sifat yang diletakkan setelah is, dan urutan the change in 2020 is noticeable sudah benar.",
+        "stepByStep": [
+          "Subjek the change tunggal, sehingga memakai is.",
+          "Noticeable adalah kata sifat yang diletakkan setelah is.",
+          "Pilihan A, B, dan C memakai bentuk kata benda atau urutan yang salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Noticeable adalah kata sifat, tidak bisa menjadi subjek dengan are."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Noticeables bukan bentuk yang benar."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Noticeable adalah kata sifat yang berarti mudah dilihat, dan dipakai setelah is atau sebelum kata benda.",
+          "examples": [
+            {
+              "en": "The difference is noticeable.",
+              "id": "Perbedaannya mudah terlihat."
+            },
+            {
+              "en": "A noticeable rise appeared in 2018.",
+              "id": "Kenaikan yang mudah terlihat muncul pada 2018."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak perubahan disebut jamak, tetapi kata noticeable tidak bisa menjadi subjek."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ reason for the rise was the new ferry route.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "main"
+          },
+          {
+            "id": "B",
+            "text": "generally"
+          },
+          {
+            "id": "C",
+            "text": "broadly"
+          },
+          {
+            "id": "D",
+            "text": "prominent"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Main reason berarti alasan utama, dan kata sifat main cocok sebelum kata benda reason.",
+        "stepByStep": [
+          "Kata reason adalah kata benda yang perlu kata sifat di depannya.",
+          "Kata sifat yang berarti utama adalah main.",
+          "Generally dan broadly adalah kata keterangan, dan prominent tidak berarti utama."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Generally adalah kata keterangan, tidak cocok sebelum kata benda reason."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Broadly adalah kata keterangan, tidak cocok sebelum kata benda reason."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Prominent berarti menonjol, tidak sepenuhnya berarti utama dalam pola ini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Main sebagai kata sifat berarti utama dan diletakkan sebelum kata benda.",
+          "examples": [
+            {
+              "en": "The main goal is clear.",
+              "id": "Tujuan utamanya jelas."
+            },
+            {
+              "en": "The main reason was the price.",
+              "id": "Alasan utamanya adalah harga."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D prominent terlihat cocok karena alasan itu mencolok, tetapi kata yang diminta menunjukkan bagian utama dari sebuah alasan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'especially or mainly'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "generally"
+          },
+          {
+            "id": "B",
+            "text": "noticeable"
+          },
+          {
+            "id": "C",
+            "text": "primarily"
+          },
+          {
+            "id": "D",
+            "text": "prominent"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Primarily berarti terutama atau pada dasarnya, sesuai dengan makna especially or mainly.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk terutama atau sebagian besar.",
+          "Kata keterangan yang tepat adalah primarily.",
+          "Generally berarti pada umumnya, noticeable dan prominent adalah kata sifat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Generally berarti pada umumnya, bukan terutama."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Noticeable adalah kata sifat yang berarti mudah dilihat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Prominent adalah kata sifat yang berarti menonjol."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Primarily menekankan faktor utama dari sesuatu.",
+          "examples": [
+            {
+              "en": "The growth is primarily due to tourism.",
+              "id": "Pertumbuhan itu terutama karena pariwisata."
+            },
+            {
+              "en": "The plan was primarily a cost saving.",
+              "id": "Rencana itu pada dasarnya penghematan biaya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A generally terlihat cocok karena artinya dekat dengan terutama, tetapi generally berarti pada umumnya."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The overall are positive for the region."
+          },
+          {
+            "id": "B",
+            "text": "The overall picture is positive for the region."
+          },
+          {
+            "id": "C",
+            "text": "The overalls is positive for the region."
+          },
+          {
+            "id": "D",
+            "text": "The overall picture are positive for the region."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek the overall picture tunggal memakai is, dan overall di sini adalah kata sifat.",
+        "stepByStep": [
+          "Subjek the overall picture tunggal, sehingga memakai is.",
+          "Overall di sini menerangkan picture sebagai kata sifat.",
+          "Pilihan A memakai are untuk subjek tunggal, pilihan C memakai overalls, dan pilihan D memakai are untuk picture tunggal."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal overall."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Overalls bukan bentuk yang benar di sini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Are tidak cocok dengan subjek tunggal picture."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan overall sebagai kata sifat menerangkan kata benda setelahnya.",
+          "examples": [
+            {
+              "en": "The overall picture is clear.",
+              "id": "Gambaran keseluruhannya jelas."
+            },
+            {
+              "en": "The overall result is good.",
+              "id": "Hasil keseluruhannya bagus."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat benar karena banyak hal disebut jamak, tetapi subjek the overall picture tetap tunggal."
+      }
+    ]
+  }
+}

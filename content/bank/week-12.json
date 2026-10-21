@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "W12-001",
+    "week": 12,
+    "topicTag": "simulasi-listening",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence about a listening section.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Each listening section has its own timing, so I must track it."
+      },
+      {
+        "id": "B",
+        "text": "Each listening section have its own timing, so I must track it."
+      },
+      {
+        "id": "C",
+        "text": "Each listening sections has its own timing, so I must track it."
+      },
+      {
+        "id": "D",
+        "text": "Each listening section has their own timing, so I must tracks it."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Each diikuti kata benda tunggal dan kata kerjanya has, sedangkan kata ganti it dipakai untuk merujuk pada section.",
+    "stepByStep": [
+      "Subjek each memakai kata benda tunggal dan kata kerja tunggal has.",
+      "Setelah must, kata kerja memakai bentuk dasar track.",
+      "Pilihan yang benar hanya yang memenuhi kedua aturan itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Subjek each dan section tunggal memakai has, bukan have."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Sections jamak tidak cocok dengan each yang tunggal dan has."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Their tidak sesuai dengan section tunggal, dan tracks salah setelah must."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Each diikuti kata benda tunggal dan kata kerja tunggal.",
+      "examples": [
+        {
+          "en": "Each section has a timer.",
+          "id": "Setiap bagian memiliki pengatur waktu."
+        },
+        {
+          "en": "Each question needs careful reading.",
+          "id": "Setiap soal membutuhkan pembacaan yang teliti."
+        }
+      ]
+    },
+    "examTrap": "Pilihan sections has terlihat seperti versi jamak yang benar, tetapi subjek each tetap tunggal."
+  },
+  {
+    "id": "W12-002",
+    "week": 12,
+    "topicTag": "simulasi-listening",
+    "type": "mcq",
+    "prompt": "Which word means the ability to stay focused for a long listening test?",
+    "options": [
+      {
+        "id": "A",
+        "text": "band"
+      },
+      {
+        "id": "B",
+        "text": "endurance"
+      },
+      {
+        "id": "C",
+        "text": "feedback"
+      },
+      {
+        "id": "D",
+        "text": "mock"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Endurance berarti daya tahan untuk tetap fokus dalam waktu lama.",
+    "stepByStep": [
+      "Kalimat meminta kemampuan fokus dalam tes yang panjang.",
+      "Kemampuan bertahan dalam waktu lama disebut endurance.",
+      "Band, feedback, dan mock tidak menggambarkan daya tahan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Band berarti tingkat skor, bukan kemampuan bertahan fokus."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Feedback berarti umpan balik, bukan kemampuan bertahan fokus."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Mock berarti ujian latihan, bukan kemampuan bertahan fokus."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Endurance adalah kata benda untuk daya tahan dalam aktivitas yang panjang.",
+      "examples": [
+        {
+          "en": "Long tests build endurance.",
+          "id": "Tes yang panjang membangun daya tahan."
+        },
+        {
+          "en": "Her endurance improved after three practice sessions.",
+          "id": "Daya tahannya meningkat setelah tiga sesi latihan."
+        }
+      ]
+    },
+    "examTrap": "Feedback terlihat cocok karena fokus sering dilatih dengan umpan balik, tetapi kalimat ini meminta daya tahan."
+  },
+  {
+    "id": "W12-003",
+    "week": 12,
+    "topicTag": "simulasi-listening",
+    "type": "mcq",
+    "prompt": "Students often lose marks when they ___ the question before listening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "misreads"
+      },
+      {
+        "id": "B",
+        "text": "misreading"
+      },
+      {
+        "id": "C",
+        "text": "misread"
+      },
+      {
+        "id": "D",
+        "text": "misreaded"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Setelah subjek jamak they, kata kerja memakai bentuk dasar misread.",
+    "stepByStep": [
+      "Subjek students dan they bersifat jamak.",
+      "Kata kerja setelah they memakai bentuk dasar.",
+      "Pilihan yang benar adalah bentuk dasar misread."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Misreads memakai -s, tidak cocok dengan subjek jamak they."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Misreading adalah bentuk -ing, tidak cocok sebagai kata kerja utama setelah they."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Misreaded bukan bentuk lampau yang benar dari misread."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah subjek jamak seperti they, kata kerja memakai bentuk dasar.",
+      "examples": [
+        {
+          "en": "They read the question twice.",
+          "id": "Mereka membaca soal itu dua kali."
+        },
+        {
+          "en": "Students check the answer carefully.",
+          "id": "Siswa memeriksa jawaban dengan teliti."
+        }
+      ]
+    },
+    "examTrap": "Misreading terlihat cocok karena kalimat membahas kesalahan, tetapi setelah they harus ada kata kerja dasar."
+  },
+  {
+    "id": "W12-004",
+    "week": 12,
+    "topicTag": "simulasi-listening",
+    "type": "mcq",
+    "prompt": "Which word means the quality of answers that are correct and exact?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pressure"
+      },
+      {
+        "id": "B",
+        "text": "stamina"
+      },
+      {
+        "id": "C",
+        "text": "sections"
+      },
+      {
+        "id": "D",
+        "text": "accuracy"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Accuracy berarti ketepatan, yaitu jawaban yang benar dan tepat.",
+    "stepByStep": [
+      "Kalimat meminta kualitas jawaban yang benar dan tepat.",
+      "Kualitas itu disebut accuracy.",
+      "Pressure, stamina, dan sections tidak berarti ketepatan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Pressure berarti tekanan, bukan kualitas jawaban yang tepat."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Stamina berarti tenaga untuk bertahan, bukan kualitas jawaban."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Sections berarti bagian ujian, bukan kualitas jawaban."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Accuracy adalah kata benda untuk ketepatan jawaban.",
+      "examples": [
+        {
+          "en": "Accuracy matters in listening.",
+          "id": "Ketepatan penting dalam listening."
+        },
+        {
+          "en": "Check your spelling for accuracy.",
+          "id": "Periksa ejaanmu demi ketepatan."
+        }
+      ]
+    },
+    "examTrap": "Pressure terlihat cocok karena listening sering menegangkan, tetapi kalimat ini meminta ketepatan jawaban."
+  },
+  {
+    "id": "W12-005",
+    "week": 12,
+    "topicTag": "simulasi-listening",
+    "type": "mcq",
+    "prompt": "Which sentence uses 'timing' correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Good timing helps you finish every section on time."
+      },
+      {
+        "id": "B",
+        "text": "The timing are good for every section today."
+      },
+      {
+        "id": "C",
+        "text": "The timing helps you finishing every section."
+      },
+      {
+        "id": "D",
+        "text": "Timing help you finishes every sections."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Good timing adalah subjek tunggal, dan helps you diikuti kata kerja dasar.",
+    "stepByStep": [
+      "Subjek good timing bersifat tunggal.",
+      "Setelah helps you, kata kerja memakai bentuk dasar.",
+      "Kalimat yang benar memenuhi kedua aturan itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Timing dalam makna ini tunggal, sehingga memakai is, bukan are."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Setelah helps you, kata kerja memakai bentuk dasar finish."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Helps you tidak cocok dengan finishes, dan sections perlu bentuk jamak yang sesuai."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah helps you, kata kerja memakai bentuk dasar.",
+      "examples": [
+        {
+          "en": "Practice helps you finish on time.",
+          "id": "Latihan membantumu selesai tepat waktu."
+        },
+        {
+          "en": "This habit helps you focus.",
+          "id": "Kebiasaan ini membantumu fokus."
+        }
+      ]
+    },
+    "examTrap": "Pilihan the timing are terlihat masuk akal karena kata benda sering dijamakkan, tetapi timing di sini tunggal."
+  },
+  {
+    "id": "W12-006",
+    "week": 12,
+    "topicTag": "simulasi-reading",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence about skimming.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Skimming help you finds the main idea quick."
+      },
+      {
+        "id": "B",
+        "text": "Skimming helps you find the main idea quickly."
+      },
+      {
+        "id": "C",
+        "text": "Skimming helps you finding the main ideas quickly."
+      },
+      {
+        "id": "D",
+        "text": "Skimmings help you find the main idea quickly."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Skimming adalah kata benda tunggal, dan helps you diikuti kata kerja dasar.",
+    "stepByStep": [
+      "Subjek skimming bersifat tunggal, sehingga memakai helps.",
+      "Setelah helps you, kata kerja memakai bentuk dasar.",
+      "Keterangan quickly memakai bentuk -ly."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Setelah helps you, kata kerja memakai bentuk dasar, dan quick harus quickly."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Setelah helps you, kata kerja tidak memakai bentuk -ing."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Skimmings tidak dipakai sebagai kata benda untuk teknik membaca ini."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah helps you, kata kerja memakai bentuk dasar, dan keterangan cara memakai -ly.",
+      "examples": [
+        {
+          "en": "Scanning helps you find dates quickly.",
+          "id": "Scanning membantumu menemukan tanggal dengan cepat."
+        },
+        {
+          "en": "Reading helps you learn new words.",
+          "id": "Membaca membantumu mempelajari kata-kata baru."
+        }
+      ]
+    },
+    "examTrap": "Helps you finding terlihat masuk akal karena -ing sering dipakai setelah kata kerja, tetapi pola helps you memakai bentuk dasar."
+  },
+  {
+    "id": "W12-007",
+    "week": 12,
+    "topicTag": "simulasi-reading",
+    "type": "mcq",
+    "prompt": "Which word means the context that helps you understand why something matters?",
+    "options": [
+      {
+        "id": "A",
+        "text": "limit"
+      },
+      {
+        "id": "B",
+        "text": "insight"
+      },
+      {
+        "id": "C",
+        "text": "background"
+      },
+      {
+        "id": "D",
+        "text": "nostalgia"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Background berarti latar belakang atau konteks yang membantu memahami sesuatu.",
+    "stepByStep": [
+      "Kalimat meminta konteks yang membantu memahami mengapa sesuatu penting.",
+      "Konteks seperti itu disebut background.",
+      "Limit, insight, dan nostalgia tidak berarti konteks."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Limit berarti membatasi, bukan konteks."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Insight berarti wawasan, bukan konteks yang membantu memahami latar."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Nostalgia berarti rasa rindu, bukan konteks."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Background dipakai untuk konteks yang membantu pembaca memahami isi teks.",
+      "examples": [
+        {
+          "en": "Read the background before the main passage.",
+          "id": "Baca latar belakangnya sebelum bagian utama bacaan."
+        },
+        {
+          "en": "The writer gives some background about the city.",
+          "id": "Penulis memberi sedikit latar belakang tentang kota itu."
+        }
+      ]
+    },
+    "examTrap": "Insight terlihat cocok karena konteks sering membuka wawasan, tetapi kalimat ini meminta latar atau konteksnya."
+  },
+  {
+    "id": "W12-008",
+    "week": 12,
+    "topicTag": "simulasi-reading",
+    "type": "mcq",
+    "prompt": "Choose the best word: 'The passage is ___ than the previous one, so it needs more time.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "more long"
+      },
+      {
+        "id": "B",
+        "text": "longest"
+      },
+      {
+        "id": "C",
+        "text": "most longer"
+      },
+      {
+        "id": "D",
+        "text": "longer"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Longer adalah bentuk perbandingan yang dipakai bersama than.",
+    "stepByStep": [
+      "Kalimat membandingkan dua teks dengan than.",
+      "Bentuk perbandingan dengan than memakai -er.",
+      "Longest dan bentuk ganda tidak tepat untuk kalimat ini."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "More long adalah bentuk ganda yang salah; cukup pakai longer."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Longest adalah superlatif, tidak cocok dengan than."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Most longer adalah bentuk ganda yang salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Perbandingan dua hal memakai bentuk -er atau more, diikuti than.",
+      "examples": [
+        {
+          "en": "This test is longer than the last one.",
+          "id": "Tes ini lebih panjang daripada yang terakhir."
+        },
+        {
+          "en": "The second text is easier than the first.",
+          "id": "Teks kedua lebih mudah daripada yang pertama."
+        }
+      ]
+    },
+    "examTrap": "Longest terlihat cocok karena kalimat berbicara tentang perbedaan panjang, tetapi longest adalah superlatif untuk tiga hal atau lebih."
+  },
+  {
+    "id": "W12-009",
+    "week": 12,
+    "topicTag": "simulasi-reading",
+    "type": "mcq",
+    "prompt": "Which word means finding a specific fact quickly by moving your eyes over the text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "scanning"
+      },
+      {
+        "id": "B",
+        "text": "translating"
+      },
+      {
+        "id": "C",
+        "text": "memorising"
+      },
+      {
+        "id": "D",
+        "text": "guessing"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Scanning adalah teknik membaca cepat untuk menemukan informasi spesifik seperti angka atau nama.",
+    "stepByStep": [
+      "Kalimat meminta teknik mencari fakta spesifik dengan cepat.",
+      "Teknik itu disebut scanning.",
+      "Translating, memorising, dan guessing tidak sesuai dengan teknik itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Translating berarti menerjemahkan, bukan mencari fakta dengan cepat."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Memorising berarti menghafal, bukan membaca cepat untuk fakta."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Guessing berarti menebak, bukan mencari fakta di teks."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Scanning dipakai untuk mencari informasi spesifik seperti tanggal, angka, atau nama.",
+      "examples": [
+        {
+          "en": "Scan the text for dates.",
+          "id": "Pindai teks untuk mencari tanggal."
+        },
+        {
+          "en": "Scanning helps you find numbers fast.",
+          "id": "Scanning membantumu menemukan angka dengan cepat."
+        }
+      ]
+    },
+    "examTrap": "Skimming terlihat mirip, tetapi skimming dipakai untuk ide utama, sedangkan kalimat ini meminta fakta spesifik."
+  },
+  {
+    "id": "W12-010",
+    "week": 12,
+    "topicTag": "simulasi-reading",
+    "type": "mcq",
+    "prompt": "Which sentence correctly uses the passive voice?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The question answered by the candidate."
+      },
+      {
+        "id": "B",
+        "text": "The question was answered by the candidate."
+      },
+      {
+        "id": "C",
+        "text": "The candidate was answer the question."
+      },
+      {
+        "id": "D",
+        "text": "The question has answer by the candidate."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Pasif memakai be ditambah partisipel lampau, sehingga was answered benar.",
+    "stepByStep": [
+      "Pasif memakai be ditambah partisipel lampau.",
+      "Subjek the question menerima tindakan, sehingga memakai was answered.",
+      "Pilihan yang benar memakai was dan answered."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Tidak ada kata kerja bantu was atau were dalam bentuk pasif."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Was answer salah; bentuk partisipel answered dibutuhkan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Has answer salah; bentuk yang benar adalah has been answered."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pasif memakai be ditambah partisipel lampau.",
+      "examples": [
+        {
+          "en": "The text was read twice.",
+          "id": "Teks itu dibaca dua kali."
+        },
+        {
+          "en": "The answers were checked carefully.",
+          "id": "Jawaban-jawaban itu diperiksa dengan teliti."
+        }
+      ]
+    },
+    "examTrap": "Pilihan has answer terlihat seperti bentuk perfect, tetapi pasifnya membutuhkan has been answered."
+  },
+  {
+    "id": "W12-011",
+    "week": 12,
+    "topicTag": "simulasi-writing",
+    "type": "mcq",
+    "prompt": "Choose the best linking word: 'The plan was expensive; ___, it was worth the cost.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "for example"
+      },
+      {
+        "id": "B",
+        "text": "first"
+      },
+      {
+        "id": "C",
+        "text": "however"
+      },
+      {
+        "id": "D",
+        "text": "similarly"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "However menunjukkan pertentangan: meskipun mahal, rencana itu tetap layak.",
+    "stepByStep": [
+      "Kalimat pertama menyebut sesuatu yang mahal.",
+      "Kalimat kedua menyebut hal yang bertentangan: tetap layak.",
+      "Penghubung pertentangan yang tepat adalah however."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "For example memperkenalkan contoh, bukan pertentangan."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "First menunjukkan urutan, bukan pertentangan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Similarly menunjukkan kesamaan, bukan pertentangan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "However dipakai untuk menunjukkan pertentangan antara dua kalimat.",
+      "examples": [
+        {
+          "en": "It was difficult; however, we finished.",
+          "id": "Itu sulit; namun, kami berhasil menyelesaikannya."
+        },
+        {
+          "en": "The task was simple; however, it took time.",
+          "id": "Tugasnya sederhana; namun, butuh waktu."
+        }
+      ]
+    },
+    "examTrap": "For example terlihat cocok karena kalimat berikutnya memberi alasan, tetapi penghubung contoh tidak sesuai dengan pertentangan."
+  },
+  {
+    "id": "W12-012",
+    "week": 12,
+    "topicTag": "simulasi-writing",
+    "type": "mcq",
+    "prompt": "Which word means a paragraph that develops one main idea from start to end?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fluency"
+      },
+      {
+        "id": "B",
+        "text": "criteria"
+      },
+      {
+        "id": "C",
+        "text": "versatility"
+      },
+      {
+        "id": "D",
+        "text": "unity"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Unity berarti kesatuan ide, yaitu satu paragraf berkembang dari satu gagasan utama.",
+    "stepByStep": [
+      "Kalimat meminta istilah untuk paragraf yang berfokus pada satu gagasan.",
+      "Kesatuan gagasan dalam paragraf disebut unity.",
+      "Fluency, criteria, dan versatility tidak menggambarkan kesatuan gagasan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Fluency berarti kelancaran berbicara, bukan kesatuan ide dalam paragraf."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Criteria berarti kriteria penilaian, bukan kesatuan paragraf."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Versatility berarti keberagaman struktur, bukan kesatuan ide."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Unity dipakai untuk paragraf yang fokus pada satu gagasan utama.",
+      "examples": [
+        {
+          "en": "Each paragraph should show unity.",
+          "id": "Setiap paragraf harus menunjukkan kesatuan ide."
+        },
+        {
+          "en": "The essay has unity because every paragraph supports the thesis.",
+          "id": "Esai itu punya kesatuan ide karena setiap paragraf mendukung tesisnya."
+        }
+      ]
+    },
+    "examTrap": "Versatility terlihat cocok karena paragraf yang baik juga bervariasi, tetapi kalimat ini meminta fokus pada satu gagasan."
+  },
+  {
+    "id": "W12-013",
+    "week": 12,
+    "topicTag": "simulasi-writing",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence in a Writing task.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Despite the rain, the team finished the report on time."
+      },
+      {
+        "id": "B",
+        "text": "Despite of the rain, the team finished the report on time."
+      },
+      {
+        "id": "C",
+        "text": "Despite the rain the team finish the report on time."
+      },
+      {
+        "id": "D",
+        "text": "Despite the raining, the team finished the report on time."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Despite diikuti kata benda atau frasa benda, dan kalimat utama memakai finished.",
+    "stepByStep": [
+      "Despite diikuti the rain tanpa of.",
+      "Subjek the team memakai kata kerja lampau finished.",
+      "Kalimat yang benar memenuhi kedua aturan itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Despite tidak diikuti of; cukup despite the rain."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Setelah lampau finished, kata kerja tidak boleh finish."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Despite the raining bukan bentuk yang benar; pakai the rain."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Despite diikuti kata benda atau frasa benda tanpa of.",
+      "examples": [
+        {
+          "en": "Despite the delay, we finished on time.",
+          "id": "Meskipun ada penundaan, kami selesai tepat waktu."
+        },
+        {
+          "en": "Despite the heat, she kept writing.",
+          "id": "Meskipun panas, dia terus menulis."
+        }
+      ]
+    },
+    "examTrap": "Despite of terlihat seperti in spite of, tetapi despite tidak memakai of."
+  },
+  {
+    "id": "W12-014",
+    "week": 12,
+    "topicTag": "simulasi-writing",
+    "type": "mcq",
+    "prompt": "Which word means to state a clear point and support it with reasons?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ignore"
+      },
+      {
+        "id": "B",
+        "text": "argue"
+      },
+      {
+        "id": "C",
+        "text": "summarise"
+      },
+      {
+        "id": "D",
+        "text": "copy"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Argue berarti menyatakan pendapat dan mendukungnya dengan alasan atau bukti.",
+    "stepByStep": [
+      "Kalimat meminta kata kerja untuk menyatakan pendapat dengan alasan.",
+      "Kata kerja itu adalah argue.",
+      "Ignore, summarise, dan copy tidak berarti menyatakan pendapat."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Ignore berarti mengabaikan, bukan menyatakan pendapat dengan alasan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Summarise berarti meringkas, bukan menyatakan pendapat."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Copy berarti menyalin, bukan menyatakan pendapat."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Argue dipakai dalam esai untuk menyatakan pendapat yang didukung bukti.",
+      "examples": [
+        {
+          "en": "The essay argues that schools need more funding.",
+          "id": "Esai itu berpendapat bahwa sekolah membutuhkan lebih banyak dana."
+        },
+        {
+          "en": "Each paragraph should argue one clear point.",
+          "id": "Setiap paragraf harus menyampaikan satu poin yang jelas."
+        }
+      ]
+    },
+    "examTrap": "Summarise terlihat cocok karena esai sering meringkas topik, tetapi kalimat ini meminta menyatakan pendapat."
+  },
+  {
+    "id": "W12-015",
+    "week": 12,
+    "topicTag": "simulasi-writing",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Students who revises regularly usually feel more confident."
+      },
+      {
+        "id": "B",
+        "text": "Students which revise regularly usually feel more confident."
+      },
+      {
+        "id": "C",
+        "text": "Students who revise regularly usually feel more confident."
+      },
+      {
+        "id": "D",
+        "text": "Students who revise regularly usually feels more confident."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Who dipakai untuk orang, students jamak memakai revise dan feel.",
+    "stepByStep": [
+      "Students adalah orang dan jamak.",
+      "Who dipakai untuk orang dalam klausa relatif.",
+      "Kata kerja revise dan feel memakai bentuk jamak."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Students jamak tidak cocok dengan revises."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Which dipakai untuk benda; who dipakai untuk orang."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Students jamak memakai feel, bukan feels."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Who dipakai untuk orang, dan kata kerja mengikuti subjek jamak.",
+      "examples": [
+        {
+          "en": "People who read daily improve faster.",
+          "id": "Orang yang membaca setiap hari berkembang lebih cepat."
+        },
+        {
+          "en": "Teachers who listen carefully help students.",
+          "id": "Guru yang mendengarkan dengan saksama membantu siswa."
+        }
+      ]
+    },
+    "examTrap": "Which terlihat cocok karena kalimat relatif sering memakai which, tetapi which dipakai untuk benda, bukan orang."
+  },
+  {
+    "id": "W12-016",
+    "week": 12,
+    "topicTag": "speaking",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence to describe a past trip.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I visit the market last Sunday, and I buy some fresh fruit."
+      },
+      {
+        "id": "B",
+        "text": "I visited the market last Sunday, and I buying some fresh fruit."
+      },
+      {
+        "id": "C",
+        "text": "I have visit the market last Sunday, and I bought some fresh fruit."
+      },
+      {
+        "id": "D",
+        "text": "I visited the market last Sunday, and I bought some fresh fruit."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Keterangan last Sunday menunjukkan waktu lampau, sehingga visited dan bought dipakai.",
+    "stepByStep": [
+      "Keterangan waktu last Sunday menunjukkan kejadian lampau.",
+      "Kata kerja lampau yang benar adalah visited dan bought.",
+      "Pilihan itu memakai bentuk lampau secara konsisten."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Last Sunday adalah waktu lampau, sehingga memakai visited dan buy tidak tepat."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Setelah and I, kata kerja memakai bentuk lampau bought, bukan buying."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Have visit salah; last Sunday tidak cocok dengan present perfect."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Keterangan waktu lampau seperti last Sunday memakai bentuk lampau.",
+      "examples": [
+        {
+          "en": "I started learning last year.",
+          "id": "Saya mulai belajar tahun lalu."
+        },
+        {
+          "en": "We walked to school yesterday.",
+          "id": "Kami berjalan kaki ke sekolah kemarin."
+        }
+      ]
+    },
+    "examTrap": "I have visit terlihat seperti cerita pengalaman, tetapi last Sunday menuntut bentuk lampau sederhana."
+  },
+  {
+    "id": "W12-017",
+    "week": 12,
+    "topicTag": "speaking",
+    "type": "mcq",
+    "prompt": "Which word means to talk about something briefly and clearly, without extra details?",
+    "options": [
+      {
+        "id": "A",
+        "text": "summarise"
+      },
+      {
+        "id": "B",
+        "text": "exaggerate"
+      },
+      {
+        "id": "C",
+        "text": "interrupt"
+      },
+      {
+        "id": "D",
+        "text": "hesitate"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Summarise berarti menyampaikan inti secara singkat dan jelas.",
+    "stepByStep": [
+      "Kalimat meminta cara menyampaikan inti tanpa detail tambahan.",
+      "Menyampaikan inti secara singkat disebut summarise.",
+      "Exaggerate, interrupt, dan hesitate tidak sesuai dengan makna itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Exaggerate berarti melebih-lebihkan, bukan menyampaikan secara ringkas."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Interrupt berarti memotong pembicaraan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Hesitate berarti ragu-ragu atau berhenti sejenak."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Summarise dipakai saat menyampaikan inti pembicaraan tanpa detail panjang.",
+      "examples": [
+        {
+          "en": "Summarise your answer in one sentence.",
+          "id": "Ringkaslah jawabanmu dalam satu kalimat."
+        },
+        {
+          "en": "She summarised the story quickly.",
+          "id": "Dia meringkas ceritanya dengan cepat."
+        }
+      ]
+    },
+    "examTrap": "Hesitate terlihat cocok karena pembicara sering berhenti sebentar saat meringkas, tetapi kalimat ini meminta inti yang singkat."
+  },
+  {
+    "id": "W12-018",
+    "week": 12,
+    "topicTag": "speaking",
+    "type": "mcq",
+    "prompt": "Which question form is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Why you did choose this topic?"
+      },
+      {
+        "id": "B",
+        "text": "Why did you choose this topic?"
+      },
+      {
+        "id": "C",
+        "text": "Why did you chose this topic?"
+      },
+      {
+        "id": "D",
+        "text": "Why you chose this topic did?"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Pertanyaan dengan did memakai subjek di antara did dan kata kerja dasar.",
+    "stepByStep": [
+      "Pertanyaan lampau memakai did.",
+      "Kata kerja setelah subjek memakai bentuk dasar choose.",
+      "Susunan Why did you choose benar."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Setelah did, kata kerja memakai bentuk dasar, dan you tidak didahului do."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Setelah did, kata kerja tidak memakai bentuk lampau chose."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Susunan kata pertanyaan itu salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pertanyaan dengan did memakai kata kerja bentuk dasar.",
+      "examples": [
+        {
+          "en": "Did you enjoy the trip?",
+          "id": "Apakah kamu menikmati perjalanannya?"
+        },
+        {
+          "en": "Why did she move to the city?",
+          "id": "Mengapa dia pindah ke kota?"
+        }
+      ]
+    },
+    "examTrap": "Why did you chose terlihat masuk akal karena kalimatnya membahas masa lalu, tetapi setelah did kata kerja tetap dasar."
+  },
+  {
+    "id": "W12-019",
+    "week": 12,
+    "topicTag": "speaking",
+    "type": "mcq",
+    "prompt": "Choose the best word: 'I need to ___ my ideas before I start speaking.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "ignore"
+      },
+      {
+        "id": "B",
+        "text": "cancel"
+      },
+      {
+        "id": "C",
+        "text": "organise"
+      },
+      {
+        "id": "D",
+        "text": "delete"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Organise berarti menyusun sesuatu secara teratur, dan kalimat ini meminta menyusun ide sebelum berbicara.",
+    "stepByStep": [
+      "Kalimat meminta tindakan menyusun ide sebelum berbicara.",
+      "Menyusun sesuatu secara teratur disebut organise.",
+      "Ignore, cancel, dan delete tidak berarti menyusun."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Ignore berarti mengabaikan, bukan menyusun ide."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Cancel berarti membatalkan, bukan menyusun ide."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Delete berarti menghapus, bukan menyusun ide."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Organise dipakai untuk menyusun sesuatu secara teratur.",
+      "examples": [
+        {
+          "en": "Organise your notes before the test.",
+          "id": "Susunlah catatanmu sebelum tes."
+        },
+        {
+          "en": "She organised her ideas clearly.",
+          "id": "Dia menyusun ide-idenya dengan jelas."
+        }
+      ]
+    },
+    "examTrap": "Delete terlihat cocok jika ide terlalu banyak, tetapi kalimat ini meminta menyusun, bukan menghapus."
+  },
+  {
+    "id": "W12-020",
+    "week": 12,
+    "topicTag": "speaking",
+    "type": "mcq",
+    "prompt": "Which word means a short pause that shows you are thinking?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pronunciation"
+      },
+      {
+        "id": "B",
+        "text": "descriptor"
+      },
+      {
+        "id": "C",
+        "text": "accuracy"
+      },
+      {
+        "id": "D",
+        "text": "hesitation"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Hesitation adalah jeda singkat karena ragu atau sedang berpikir saat berbicara.",
+    "stepByStep": [
+      "Kalimat meminta jeda singkat saat berpikir.",
+      "Jeda seperti itu disebut hesitation.",
+      "Pronunciation, descriptor, dan accuracy tidak berarti jeda."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Pronunciation berarti pelafalan, bukan jeda berpikir."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Descriptor berarti uraian tingkat kemampuan, bukan jeda."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Accuracy berarti ketepatan, bukan jeda."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Hesitation adalah kata benda untuk jeda ragu saat berbicara.",
+      "examples": [
+        {
+          "en": "A short hesitation is normal.",
+          "id": "Jeda ragu yang singkat itu wajar."
+        },
+        {
+          "en": "She answered without hesitation.",
+          "id": "Dia menjawab tanpa ragu."
+        }
+      ]
+    },
+    "examTrap": "Pronunciation terlihat cocok karena jeda sering memengaruhi pelafalan, tetapi kalimat ini meminta jeda itu sendiri."
+  },
+  {
+    "id": "W12-021",
+    "week": 12,
+    "topicTag": "kriteria",
+    "type": "mcq",
+    "prompt": "Which word means able to adjust easily to different situations?",
+    "options": [
+      {
+        "id": "A",
+        "text": "adaptable"
+      },
+      {
+        "id": "B",
+        "text": "reluctant"
+      },
+      {
+        "id": "C",
+        "text": "careless"
+      },
+      {
+        "id": "D",
+        "text": "rigid"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Adaptable berarti mudah menyesuaikan diri dengan situasi atau kebutuhan yang berbeda.",
+    "stepByStep": [
+      "Kalimat meminta sifat mudah menyesuaikan diri.",
+      "Sifat itu disebut adaptable.",
+      "Reluctant, careless, dan rigid tidak berarti mudah menyesuaikan diri."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Reluctant berarti enggan, bukan mudah menyesuaikan diri."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Careless berarti ceroboh, bukan mudah menyesuaikan diri."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Rigid berarti kaku, kebalikan dari mudah menyesuaikan diri."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Adaptable dipakai untuk orang atau pendekatan yang mudah beradaptasi.",
+      "examples": [
+        {
+          "en": "A good speaker is adaptable.",
+          "id": "Pembicara yang baik mudah beradaptasi."
+        },
+        {
+          "en": "The plan must be adaptable to changes.",
+          "id": "Rencana itu harus mudah disesuaikan dengan perubahan."
+        }
+      ]
+    },
+    "examTrap": "Rigid terlihat seperti lawan kata yang sering dibandingkan, tetapi kalimat ini meminta sifat yang positif untuk menyesuaikan diri."
+  },
+  {
+    "id": "W12-022",
+    "week": 12,
+    "topicTag": "kriteria",
+    "type": "mcq",
+    "prompt": "Which sentence correctly uses 'fewer'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Less mistakes appear when I check my answers."
+      },
+      {
+        "id": "B",
+        "text": "Fewer mistakes appear when I check my answers."
+      },
+      {
+        "id": "C",
+        "text": "Fewer mistake appears when I check my answers."
+      },
+      {
+        "id": "D",
+        "text": "Fewer mistakes appears when I check my answers."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Fewer dipakai untuk benda yang bisa dihitung, dan mistakes jamak memakai appear.",
+    "stepByStep": [
+      "Mistakes adalah benda yang bisa dihitung dan jamak.",
+      "Fewer dipakai untuk benda jamak yang bisa dihitung.",
+      "Kata kerja jamak appear sesuai subjek mistakes."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Less tidak dipakai untuk benda yang bisa dihitung seperti mistakes."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Mistake tunggal tidak cocok dengan fewer, dan appears tidak cocok dengan subjek awal."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Mistakes jamak memakai appear, bukan appears."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Fewer dipakai untuk benda yang bisa dihitung dan jamak.",
+      "examples": [
+        {
+          "en": "Fewer errors mean a higher score.",
+          "id": "Lebih sedikit kesalahan berarti skor yang lebih tinggi."
+        },
+        {
+          "en": "There are fewer students in the morning class.",
+          "id": "Ada lebih sedikit siswa di kelas pagi."
+        }
+      ]
+    },
+    "examTrap": "Less terlihat cocok karena artinya sama dengan lebih sedikit, tetapi less dipakai untuk benda yang tidak dihitung."
+  },
+  {
+    "id": "W12-023",
+    "week": 12,
+    "topicTag": "kriteria",
+    "type": "mcq",
+    "prompt": "Which word means something that can be measured or checked against a standard?",
+    "options": [
+      {
+        "id": "A",
+        "text": "vague"
+      },
+      {
+        "id": "B",
+        "text": "casual"
+      },
+      {
+        "id": "C",
+        "text": "measurable"
+      },
+      {
+        "id": "D",
+        "text": "random"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Measurable berarti dapat diukur atau diperiksa terhadap standar tertentu.",
+    "stepByStep": [
+      "Kalimat meminta sifat yang bisa diukur.",
+      "Sifat itu disebut measurable.",
+      "Vague, casual, dan random tidak berarti bisa diukur."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Vague berarti samar, bukan bisa diukur."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Casual berarti santai, bukan bisa diukur."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Random berarti acak, bukan bisa diukur."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Measurable dipakai untuk tujuan atau hasil yang bisa diukur.",
+      "examples": [
+        {
+          "en": "Set measurable goals.",
+          "id": "Tetapkan tujuan yang dapat diukur."
+        },
+        {
+          "en": "A measurable target helps you track progress.",
+          "id": "Target yang dapat diukur membantumu memantau kemajuan."
+        }
+      ]
+    },
+    "examTrap": "Vague terlihat berlawanan dengan measurable, sehingga bisa mengecoh, tetapi kalimat ini meminta sifat yang dapat diukur."
+  },
+  {
+    "id": "W12-024",
+    "week": 12,
+    "topicTag": "kriteria",
+    "type": "mcq",
+    "prompt": "Choose the correct phrase: 'The examiner judged the answer ___ its clarity.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "based in"
+      },
+      {
+        "id": "B",
+        "text": "based at"
+      },
+      {
+        "id": "C",
+        "text": "based by"
+      },
+      {
+        "id": "D",
+        "text": "based on"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Based on berarti berdasarkan, dan kalimat ini menyebut dasar penilaian.",
+    "stepByStep": [
+      "Kalimat menyebut dasar penilaian, yaitu kejelasan jawaban.",
+      "Frasa dasar penilaian memakai based on.",
+      "Based in, based at, dan based by tidak memakai preposisi yang tepat."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Based in berarti berbasis di tempat, bukan dasar penilaian."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Based at tidak tepat untuk dasar penilaian."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Based by tidak tepat; penilaian memakai based on."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Based on dipakai untuk menyatakan dasar atau alasan sebuah penilaian.",
+      "examples": [
+        {
+          "en": "The decision is based on evidence.",
+          "id": "Keputusan itu didasarkan pada bukti."
+        },
+        {
+          "en": "Her score was based on three criteria.",
+          "id": "Skornya didasarkan pada tiga kriteria."
+        }
+      ]
+    },
+    "examTrap": "Based in terlihat cocok karena kalimat berbicara tentang penilaian di satu tempat, tetapi frasa itu tidak menyatakan dasar penilaian."
+  },
+  {
+    "id": "W12-025",
+    "week": 12,
+    "topicTag": "kriteria",
+    "type": "mcq",
+    "prompt": "Which word means clear, easy to follow, and well expressed?",
+    "options": [
+      {
+        "id": "A",
+        "text": "lucid"
+      },
+      {
+        "id": "B",
+        "text": "obscure"
+      },
+      {
+        "id": "C",
+        "text": "awkward"
+      },
+      {
+        "id": "D",
+        "text": "hidden"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Lucid berarti jernih, mudah dipahami, dan diungkapkan dengan baik.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk penjelasan yang jernih dan mudah diikuti.",
+      "Kata yang tepat adalah lucid.",
+      "Obscure, awkward, dan hidden tidak berarti jernih."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Obscure berarti sulit dipahami, kebalikan dari jernih."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Awkward berarti canggung, bukan jernih."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Hidden berarti tersembunyi, bukan jernih."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Lucid dipakai untuk penjelasan atau tulisan yang jernih dan mudah diikuti.",
+      "examples": [
+        {
+          "en": "A lucid explanation helps the examiner.",
+          "id": "Penjelasan yang jernih membantu pemeriksa."
+        },
+        {
+          "en": "Her answer was lucid and well organised.",
+          "id": "Jawabannya jernih dan tersusun dengan baik."
+        }
+      ]
+    },
+    "examTrap": "Obscure terlihat cocok karena kata itu sering dipakai untuk tulisan, tetapi maknanya kebalikan dari jernih."
+  },
+  {
+    "id": "W12-026",
+    "week": 12,
+    "topicTag": "rencana",
+    "type": "mcq",
+    "prompt": "Which statement is the strongest study commitment?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I will practise speaking someday."
+      },
+      {
+        "id": "B",
+        "text": "I will practise speaking for twenty minutes every weekday for the next four weeks."
+      },
+      {
+        "id": "C",
+        "text": "I want to be good at English."
+      },
+      {
+        "id": "D",
+        "text": "I will try hard."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Komitmen yang kuat menyebut tindakan, durasi, frekuensi, dan jangka waktu.",
+    "stepByStep": [
+      "Komitmen yang baik menyebut tindakan yang spesifik.",
+      "Komitmen yang baik juga menyebut jumlah, frekuensi, dan waktu.",
+      "Pilihan yang benar memenuhi semua unsur itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Tidak ada waktu atau jumlah yang jelas, sehingga sulit diperiksa."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Tujuan yang samar sulit diukur."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Tidak ada tindakan dan ukuran yang jelas."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Komitmen yang baik menyebut tindakan, jumlah, dan waktu.",
+      "examples": [
+        {
+          "en": "I will read one article each day.",
+          "id": "Saya akan membaca satu artikel setiap hari."
+        },
+        {
+          "en": "I will review my notes every Friday.",
+          "id": "Saya akan meninjau catatan saya setiap Jumat."
+        }
+      ]
+    },
+    "examTrap": "I will try hard terdengar bersungguh-sungguh, tetapi tidak menyebut tindakan atau ukuran yang bisa diperiksa."
+  },
+  {
+    "id": "W12-027",
+    "week": 12,
+    "topicTag": "rencana",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence about future plans.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I going to reviews my progress every Sunday."
+      },
+      {
+        "id": "B",
+        "text": "I am go to review my progress every Sunday."
+      },
+      {
+        "id": "C",
+        "text": "I am going to review my progress every Sunday."
+      },
+      {
+        "id": "D",
+        "text": "I going review my progress every Sunday."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Going to dengan am menyatakan rencana, dan review tetap bentuk dasar setelah to.",
+    "stepByStep": [
+      "Rencana masa depan memakai am going to.",
+      "Setelah to, kata kerja memakai bentuk dasar.",
+      "Pilihan yang benar memenuhi kedua aturan itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Going to memerlukan be yang tepat, dan setelah to memakai bentuk dasar review."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Setelah to, kata kerja memakai bentuk dasar go, bukan going."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Going to memerlukan am dan bentuk dasar review."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Going to menyatakan rencana, dengan be yang sesuai subjek dan kata kerja dasar.",
+      "examples": [
+        {
+          "en": "I am going to start tomorrow.",
+          "id": "Saya akan mulai besok."
+        },
+        {
+          "en": "She is going to join the group.",
+          "id": "Dia akan bergabung dengan kelompok itu."
+        }
+      ]
+    },
+    "examTrap": "I going review terlihat ringkas, tetapi going to membutuhkan be dan kata kerja dasar setelah to."
+  },
+  {
+    "id": "W12-028",
+    "week": 12,
+    "topicTag": "rencana",
+    "type": "mcq",
+    "prompt": "Which word means to keep something going at the same level over time?",
+    "options": [
+      {
+        "id": "A",
+        "text": "abandon"
+      },
+      {
+        "id": "B",
+        "text": "postpone"
+      },
+      {
+        "id": "C",
+        "text": "forget"
+      },
+      {
+        "id": "D",
+        "text": "maintain"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Maintain berarti menjaga agar sesuatu tetap berjalan pada tingkat yang sama.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk menjaga agar tetap berjalan.",
+      "Kata yang tepat adalah maintain.",
+      "Abandon, postpone, dan forget tidak berarti menjaga."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Abandon berarti meninggalkan, kebalikan dari menjaga."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Postpone berarti menunda, bukan menjaga."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Forget berarti melupakan, bukan menjaga."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Maintain dipakai untuk menjaga kebiasaan atau tingkat kinerja tetap stabil.",
+      "examples": [
+        {
+          "en": "Maintain a steady routine.",
+          "id": "Pertahankan rutinitas yang stabil."
+        },
+        {
+          "en": "She maintained her progress for a year.",
+          "id": "Dia mempertahankan kemajuannya selama setahun."
+        }
+      ]
+    },
+    "examTrap": "Abandon terlihat seperti lawan kata yang tepat, tetapi kalimat ini meminta menjaga, bukan meninggalkan."
+  },
+  {
+    "id": "W12-029",
+    "week": 12,
+    "topicTag": "rencana",
+    "type": "mcq",
+    "prompt": "Choose the best word: 'After the course, I will ___ a weekly review to check my habits.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "schedule"
+      },
+      {
+        "id": "B",
+        "text": "ignore"
+      },
+      {
+        "id": "C",
+        "text": "delete"
+      },
+      {
+        "id": "D",
+        "text": "forget"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Schedule sebagai kata kerja berarti menjadwalkan sesuatu pada waktu tertentu.",
+    "stepByStep": [
+      "Kalimat meminta tindakan menetapkan waktu untuk tinjauan.",
+      "Tindakan itu disebut schedule.",
+      "Ignore, delete, dan forget tidak berarti menetapkan jadwal."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Ignore berarti mengabaikan, bukan menjadwalkan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Delete berarti menghapus, bukan menjadwalkan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Forget berarti melupakan, bukan menjadwalkan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Schedule sebagai kata kerja berarti menetapkan waktu untuk suatu kegiatan.",
+      "examples": [
+        {
+          "en": "Schedule a review every Sunday.",
+          "id": "Jadwalkan tinjauan setiap Minggu."
+        },
+        {
+          "en": "I scheduled my practice for the morning.",
+          "id": "Saya menjadwalkan latihan saya untuk pagi hari."
+        }
+      ]
+    },
+    "examTrap": "Forget terlihat berlawanan dengan tinjauan rutin, tetapi kalimat ini meminta tindakan menjadwalkan."
+  },
+  {
+    "id": "W12-030",
+    "week": 12,
+    "topicTag": "rencana",
+    "type": "mcq",
+    "prompt": "Choose the correct sentence: 'If I ___ my plan every week, I will notice my progress.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "will review"
+      },
+      {
+        "id": "B",
+        "text": "review"
+      },
+      {
+        "id": "C",
+        "text": "am reviewing"
+      },
+      {
+        "id": "D",
+        "text": "reviewing"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Klausa if untuk kondisi nyata memakai present simple, dan will ada di klausa utama.",
+    "stepByStep": [
+      "Kalimat memakai pola if untuk kondisi nyata di masa depan.",
+      "Klausa if memakai present simple, yaitu review.",
+      "Klausa utama memakai will notice."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Klausa if tidak memakai will; will ada di klausa utama."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Am reviewing tidak cocok dalam klausa if untuk kondisi nyata."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Reviewing tanpa kata kerja bantu tidak cocok sebagai predikat klausa if."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pada klausa if untuk kondisi nyata, pakai present simple; will ada di klausa utama.",
+      "examples": [
+        {
+          "en": "If you practise daily, you will improve.",
+          "id": "Jika kamu berlatih setiap hari, kamu akan berkembang."
+        },
+        {
+          "en": "If I rest, I feel better.",
+          "id": "Jika saya istirahat, saya merasa lebih baik."
+        }
+      ]
+    },
+    "examTrap": "Will review terlihat benar karena kalimat membahas masa depan, tetapi will tidak dipakai di klausa if."
+  }
+]

@@ -1,0 +1,597 @@
+{
+  "day": 89,
+  "week": 12,
+  "month": 3,
+  "title": "Simulasi Penuh IELTS: Writing dan Speaking",
+  "topic": "Memahami kriteria penilaian dan menilai hasil simulasi Writing dan Speaking",
+  "skillFocus": "exam",
+  "objectives": [
+    "Memahami kriteria penilaian Writing dan Speaking",
+    "Menilai hasil simulasi dengan descriptor dan catatan yang konsisten",
+    "Menggunakan kosakata penilaian dengan tepat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "coherence", "pronunciationId": "koh-HIR-uhns (tekanan di HIR)", "pos": "Noun", "meaningId": "keterpaduan, alur logis ide", "example": "Your answer needs coherence.", "exampleId": "Jawabanmu membutuhkan keterpaduan." },
+      { "no": 2, "en": "cohesion", "pronunciationId": "koh-HEE-zhun (tekanan di HEE)", "pos": "Noun", "meaningId": "kohesi, keterkaitan antar kalimat", "example": "Linking words improve cohesion.", "exampleId": "Kata penghubung meningkatkan kohesi." },
+      { "no": 3, "en": "fluency", "pronunciationId": "FLOO-uhn-see (tekanan di FLOO)", "pos": "Noun", "meaningId": "kelancaran berbicara", "example": "Her fluency impressed the examiner.", "exampleId": "Kelancarannya mengesankan pemeriksa." },
+      { "no": 4, "en": "pronunciation", "pronunciationId": "pruh-nun-see-AY-shun (tekanan di AY)", "pos": "Noun", "meaningId": "pelafalan", "example": "Clear pronunciation helps the listener.", "exampleId": "Pelafalan yang jelas membantu pendengar." },
+      { "no": 5, "en": "criteria", "pronunciationId": "kruy-TEER-ee-uh (tekanan di TEER)", "pos": "Noun", "meaningId": "kriteria penilaian", "example": "Read the criteria before you write.", "exampleId": "Baca kriteria penilaian sebelum menulis." },
+      { "no": 6, "en": "examiner", "pronunciationId": "ig-ZAM-uh-nur (tekanan di ZAM)", "pos": "Noun", "meaningId": "pemeriksa ujian", "example": "The examiner asked a follow-up question.", "exampleId": "Pemeriksa mengajukan pertanyaan lanjutan." },
+      { "no": 7, "en": "descriptor", "pronunciationId": "dih-SKRIP-tur (tekanan di SKRIP)", "pos": "Noun", "meaningId": "deskriptor, uraian tingkat kemampuan", "example": "The descriptor explains the band.", "exampleId": "Deskriptor menjelaskan tingkat band tersebut." },
+      { "no": 8, "en": "consistency", "pronunciationId": "kun-SIS-tun-see (tekanan di SIS)", "pos": "Noun", "meaningId": "konsistensi", "example": "Consistency matters in every part.", "exampleId": "Konsistensi penting di setiap bagian." },
+      { "no": 9, "en": "precision", "pronunciationId": "pri-SIZH-un (tekanan di SIZH)", "pos": "Noun", "meaningId": "ketepatan pilihan kata", "example": "Precision makes your meaning clear.", "exampleId": "Ketepatan membuat maksudmu jelas." },
+      { "no": 10, "en": "versatility", "pronunciationId": "vur-suh-TIL-i-tee (tekanan di TIL)", "pos": "Noun", "meaningId": "keberagaman dalam pemakaian bahasa", "example": "Versatility means using many structures.", "exampleId": "Keberagaman berarti memakai banyak struktur kalimat." }
+    ],
+    "tip": "Saat meninjau simulasi Writing dan Speaking, nilai setiap jawaban dengan criteria dan descriptor, lalu catat satu kelemahan utama untuk latihan berikutnya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS writing and speaking band descriptors", "IELTS speaking fluency and coherence explained"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kriteria penilaian Writing dan Speaking, dengan contoh cara membaca descriptor.",
+      "watchFor": [
+        "Penjelasan perbedaan coherence dan cohesion",
+        "Cara membaca descriptor untuk satu band",
+        "Contoh jawaban yang konsisten dari awal sampai akhir"
+      ]
+    },
+    "lesson": {
+      "intro": "Simulasi Writing dan Speaking dinilai oleh manusia dengan kriteria tertentu. Memahami kriteria membuatmu tahu apa yang perlu diperbaiki, bukan sekadar merasa kurang bagus.",
+      "sections": [
+        {
+          "heading": "Memahami kriteria",
+          "bodyMd": "Baca **criteria** sebelum latihan. Setiap kriteria punya **descriptor** yang menjelaskan performa pada tiap band."
+        },
+        {
+          "heading": "Alur dan keterkaitan",
+          "bodyMd": "**Coherence** adalah alur logis ide, sedangkan **cohesion** adalah kata penghubung yang menyambungkan kalimat. Keduanya perlu dilatih bersama."
+        },
+        {
+          "heading": "Kelancaran dan pelafalan",
+          "bodyMd": "**Fluency** berarti berbicara dengan ritme yang stabil. **Pronunciation** yang jelas membantu **examiner** memahami maksudmu tanpa usaha berlebihan."
+        },
+        {
+          "heading": "Ketepatan dan keberagaman",
+          "bodyMd": "Gunakan **precision** untuk memilih kata yang tepat, dan **versatility** untuk memakai struktur yang beragam. Jaga **consistency** dari awal hingga akhir tes."
+        }
+      ],
+      "formulas": [
+        { "label": "Penilaian diri", "pattern": "My weakest criterion is X because Y" },
+        { "label": "Coherence", "pattern": "First, X. Then, Y. Finally, Z." },
+        { "label": "Precision", "pattern": "Instead of X, I can use the more exact word Y" },
+        { "label": "Latihan", "pattern": "This week I will focus on X by doing Y" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The descriptor shows what band six looks like.", "id": "Deskriptor itu menunjukkan seperti apa band enam." },
+          { "en": "Your cohesion improves when you use linking words.", "id": "Kohesi kamu membaik ketika kamu memakai kata penghubung." },
+          { "en": "Her fluency was steady from start to finish.", "id": "Kelancarannya stabil dari awal sampai akhir." },
+          { "en": "Precision helps the examiner understand you quickly.", "id": "Ketepatan membantu pemeriksa memahami kamu dengan cepat." },
+          { "en": "Consistency is more important than one perfect paragraph.", "id": "Konsistensi lebih penting daripada satu paragraf yang sempurna." }
+        ],
+        "negative": [
+          { "en": "I did not read the criteria, so I guess the score.", "id": "Saya tidak membaca kriteria, jadi saya menebak skornya." },
+          { "en": "My pronunciation is perfect, so I do not need practice.", "id": "Pelafalan saya sempurna, jadi saya tidak perlu latihan." },
+          { "en": "Coherence is the same as memorising a text.", "id": "Koherensi sama dengan menghafal teks." },
+          { "en": "I use the same sentence pattern in every answer.", "id": "Saya memakai pola kalimat yang sama di setiap jawaban." },
+          { "en": "The examiner only cares about speed.", "id": "Pemeriksa hanya memedulikan kecepatan." }
+        ],
+        "question": [
+          { "en": "Which criteria are hardest for you?", "id": "Kriteria mana yang paling sulit bagimu?" },
+          { "en": "Can you explain the difference between coherence and cohesion?", "id": "Bisakah kamu menjelaskan perbedaan koherensi dan kohesi?" },
+          { "en": "What does the descriptor for band seven say?", "id": "Apa yang dikatakan deskriptor untuk band tujuh?" },
+          { "en": "How can you show more versatility in your sentences?", "id": "Bagaimana kamu bisa menunjukkan keberagaman yang lebih dalam kalimatmu?" },
+          { "en": "Why is consistency important across the whole test?", "id": "Mengapa konsistensi penting di seluruh tes?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The criteria is very clear.", "right": "The criteria are very clear.", "whyId": "Criteria jamak dari criterion, sehingga memakai are." },
+        { "wrong": "Her fluencies is good.", "right": "Her fluency is good.", "whyId": "Fluency tidak dijamakkan dalam makna ini." },
+        { "wrong": "The examiner ask me a question.", "right": "The examiner asks me a question.", "whyId": "Examiner tunggal memakai asks." },
+        { "wrong": "Coherence and cohesion is the same thing.", "right": "Coherence and cohesion are different things.", "whyId": "Dua kata benda yang dihubungkan and memakai are, dan keduanya berbeda." },
+        { "wrong": "The descriptors explains the band.", "right": "The descriptor explains the band.", "whyId": "Dalam kalimat ini, subjek tunggal memakai explains dan descriptor tidak dijamakkan." },
+        { "wrong": "My pronunciation are good now.", "right": "My pronunciation is good now.", "whyId": "Pronunciation tunggal memakai is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Memahami Kriteria Penilaian",
+    "text": "A full simulation of the Writing and Speaking tests gives you a clear picture of how your English performs under pressure. Unlike a reading test, these tasks are judged by people, usually examiners who use written criteria. Understanding those criteria is the first step toward better results.\n\nMost official assessments look at four main areas. The first is fluency, which describes how smoothly you speak or write without long pauses or confusing repetition. Fluency does not mean speaking very fast. It means keeping a steady rhythm that helps the listener follow your ideas.\n\nThe second area is coherence, the logical flow of ideas from one sentence to the next. A coherent answer has a clear beginning, development, and ending. Cohesion is related but different. Cohesion refers to the linking words and reference words that connect sentences, such as however, therefore, and this. Good cohesion makes the text easy to read, while good coherence makes the argument easy to follow.\n\nPronunciation is the third area. The examiner does not expect a native accent. The examiner listens for clear sounds, correct word stress, and natural intonation. A speaker who mispronounces a few words can still score well if the meaning remains clear and the listener does not struggle to understand.\n\nThe fourth area concerns vocabulary and grammar, which is often described through range and accuracy. Versatility means using a variety of sentence structures and words rather than repeating the same pattern. Precision means choosing the exact word for the meaning, so that the message is not vague.\n\nEach official criterion usually has a descriptor, which is a short statement that explains what performance at a certain band looks like. Reading descriptors carefully helps you understand the gap between your current level and your target. Consistency is also important. A strong answer in one paragraph but a weak answer in the next can lower the overall impression. Examiners prefer steady performance across the whole task.\n\nDuring your simulation, record your performance in these areas. After the Writing test, check whether each paragraph has one main idea and whether linking words are used naturally. After the Speaking test, listen to the recording and note where pauses appear, which sounds need practice, and which answers feel complete.\n\nA practical routine is to focus on one criterion each week. In the first week, work on coherence by planning each answer before speaking or writing. In the second week, focus on precision by replacing vague words with exact ones. Over several weeks, these small steps produce consistent improvement across all criteria.\n\nFinally, remember that examiners assess what you communicate, not whether you know every rule. A clear and organised answer, with fair accuracy, often earns better marks than a long answer that is difficult to follow.",
+    "glossary": [
+      { "en": "unlike", "id": "berbeda dengan" },
+      { "en": "pauses", "id": "jeda" },
+      { "en": "intonation", "id": "intonasi" },
+      { "en": "vague", "id": "samar, tidak jelas" },
+      { "en": "organised", "id": "tertata" },
+      { "en": "impression", "id": "kesan" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Coherence refers to the logical flow of ideas from one sentence to the next.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut coherence sebagai alur logis ide dari satu kalimat ke kalimat berikutnya.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyatakan coherence memang alur logis ide, sehingga pernyataan ini benar." },
+          { "optionId": "C", "reasonId": "Teks memberi definisi langsung tentang coherence." }
+        ],
+        "evidence": "the logical flow of ideas from one sentence to the next"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "According to the text, what does cohesion refer to?",
+        "options": [
+          { "id": "A", "text": "the speed of speaking" },
+          { "id": "B", "text": "the accent of the speaker" },
+          { "id": "C", "text": "the number of paragraphs" },
+          { "id": "D", "text": "the linking words and reference words that connect sentences" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menyebut cohesion merujuk pada kata penghubung dan kata rujukan yang menyambung kalimat.",
+        "stepByStep": [
+          "Cari cohesion di paragraf ketiga.",
+          "Teks menyebut Cohesion refers to the linking words and reference words that connect sentences.",
+          "Kecepatan bicara, aksen, dan jumlah paragraf tidak disebut sebagai arti cohesion."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kecepatan bicara dibahas pada fluency, bukan cohesion." },
+          { "optionId": "B", "reasonId": "Aksen tidak disebut sebagai arti cohesion." },
+          { "optionId": "C", "reasonId": "Jumlah paragraf tidak disebut dalam teks." }
+        ],
+        "evidence": "the linking words and reference words that connect sentences"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Examiners always give the same score to every candidate.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks membahas kriteria penilaian, tetapi tidak menyatakan bahwa semua kandidat selalu mendapat skor yang sama.",
+        "stepByStep": [
+          "Cari score dan candidate dalam teks.",
+          "Teks membahas kriteria dan descriptor, tetapi tidak membahas pemberian skor yang selalu sama.",
+          "Karena teks tidak menyebut hal ini, jawabannya Not Given."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyatakan bahwa semua kandidat selalu mendapat skor sama." },
+          { "optionId": "B", "reasonId": "Teks tidak menyatakan kebalikannya secara langsung." }
+        ],
+        "evidence": "Examiners prefer steady performance across the whole task."
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the text, what does precision mean?",
+        "options": [
+          { "id": "A", "text": "speaking very fast" },
+          { "id": "B", "text": "keeping a steady rhythm" },
+          { "id": "C", "text": "choosing the exact word for the meaning" },
+          { "id": "D", "text": "repeating the same pattern" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menyebut precision berarti memilih kata yang tepat untuk makna, sehingga pesan tidak samar.",
+        "stepByStep": [
+          "Cari precision di paragraf keempat.",
+          "Teks menyebut Precision means choosing the exact word for the meaning, so that the message is not vague.",
+          "Bicara cepat dan ritme stabil berkaitan dengan fluency, sedangkan mengulang pola berkaitan dengan versatility yang kurang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bicara cepat tidak disebut sebagai arti precision, dan teks justru menyebut fluency bukan kecepatan." },
+          { "optionId": "B", "reasonId": "Ritme stabil disebut dalam arti fluency, bukan precision." },
+          { "optionId": "D", "reasonId": "Mengulang pola bertentangan dengan versatility yang dianjurkan teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan tentang arti biasanya dijawab dengan frasa yang mengikuti kata means dalam teks.",
+          "examples": [
+            { "en": "Precision means using the exact word.", "id": "Ketepatan berarti memakai kata yang tepat." },
+            { "en": "Fluency means speaking with a steady rhythm.", "id": "Kelancaran berarti berbicara dengan ritme yang stabil." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena kelancaran sering dikaitkan dengan kecepatan, tetapi teks menyebut precision sebagai pemilihan kata yang tepat.",
+        "evidence": "choosing the exact word for the meaning"
+      },
+      {
+        "id": "R5",
+        "type": "yes_no_not_given",
+        "prompt": "The writer says that examiners assess whether you know every rule.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyatakan examiner menilai apa yang kamu sampaikan, bukan apakah kamu tahu setiap aturan.",
+        "stepByStep": [
+          "Cari examiners assess di paragraf terakhir.",
+          "Teks menyebut examiners assess what you communicate, not whether you know every rule.",
+          "Pernyataan soal berlawanan dengan itu, sehingga No."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyatakan kebalikannya, yaitu examiner tidak menilai apakah kamu tahu setiap aturan." },
+          { "optionId": "C", "reasonId": "Teks memberi pernyataan langsung tentang hal ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola not X, but Y menolak X dan menegaskan Y.",
+          "examples": [
+            { "en": "The test measures ideas, not memory.", "id": "Tes itu mengukur ide, bukan hafalan." },
+            { "en": "Speaking is about communication, not perfect grammar.", "id": "Berbicara adalah tentang komunikasi, bukan tata bahasa yang sempurna." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena teks membahas aturan dan akurasi, tetapi teks menolak bahwa examiner menilai pengetahuan setiap aturan.",
+        "evidence": "examiners assess what you communicate, not whether you know every rule"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Read the ___ carefully, because it explains what each band looks like.",
+        "options": [
+          { "id": "A", "text": "pronunciation" },
+          { "id": "B", "text": "cohesion" },
+          { "id": "C", "text": "versatility" },
+          { "id": "D", "text": "descriptor" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Descriptor adalah uraian yang menjelaskan performa pada tiap band.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pronunciation berarti pelafalan, bukan uraian tiap band." },
+          { "optionId": "B", "reasonId": "Cohesion berarti keterkaitan antarkalimat, bukan uraian tiap band." },
+          { "optionId": "C", "reasonId": "Versatility berarti keberagaman bahasa, bukan uraian tiap band." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Her ___ was impressive, because she spoke smoothly with few pauses.",
+        "options": [
+          { "id": "A", "text": "fluency" },
+          { "id": "B", "text": "precision" },
+          { "id": "C", "text": "criteria" },
+          { "id": "D", "text": "examiner" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Fluency berarti kelancaran berbicara, dan kalimat ini menyebut bicara yang lancar dengan sedikit jeda.",
+        "stepByStep": [
+          "Kalimat menyebut bicara yang lancar dengan sedikit jeda.",
+          "Kelancaran berbicara disebut fluency.",
+          "Precision, criteria, dan examiner tidak berarti kelancaran berbicara."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Precision berarti ketepatan pilihan kata, bukan kelancaran." },
+          { "optionId": "C", "reasonId": "Criteria berarti kriteria penilaian, bukan kelancaran." },
+          { "optionId": "D", "reasonId": "Examiner berarti pemeriksa, bukan kelancaran." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The official ___ of the test are published online for every candidate.",
+        "options": [
+          { "id": "A", "text": "descriptor" },
+          { "id": "B", "text": "examiner" },
+          { "id": "C", "text": "criteria" },
+          { "id": "D", "text": "pronunciation" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Criteria adalah bentuk jamak dari criterion, yaitu kriteria penilaian, dan kalimat ini memakai are.",
+        "stepByStep": [
+          "Kalimat memakai kata kerja are, sehingga subjeknya jamak.",
+          "Bentuk jamak dari kriteria penilaian adalah criteria.",
+          "Descriptor, examiner, dan pronunciation tidak berarti kriteria penilaian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Descriptor berarti uraian tingkat kemampuan, bukan kriteria penilaian jamak." },
+          { "optionId": "B", "reasonId": "Examiner berarti pemeriksa, bukan kriteria penilaian." },
+          { "optionId": "D", "reasonId": "Pronunciation berarti pelafalan, bukan kriteria penilaian." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The ___ of your answer depends on how well your sentences connect with words such as however and therefore.",
+        "options": [
+          { "id": "A", "text": "fluency" },
+          { "id": "B", "text": "cohesion" },
+          { "id": "C", "text": "pronunciation" },
+          { "id": "D", "text": "examiner" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Cohesion adalah keterkaitan antarkalimat yang dibangun dengan kata penghubung.",
+        "stepByStep": [
+          "Kalimat menyebut kata penghubung seperti however dan therefore.",
+          "Keterkaitan antarkalimat yang dibangun dengan kata penghubung disebut cohesion.",
+          "Fluency, pronunciation, dan examiner tidak berarti keterkaitan antarkalimat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Fluency berarti kelancaran berbicara, bukan kata penghubung." },
+          { "optionId": "C", "reasonId": "Pronunciation berarti pelafalan, bukan kata penghubung." },
+          { "optionId": "D", "reasonId": "Examiner berarti pemeriksa, bukan keterkaitan antarkalimat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cohesion dipakai untuk menggambarkan hubungan antarkalimat yang dibantu kata penghubung dan kata rujukan.",
+          "examples": [
+            { "en": "Therefore, the plan needs more time.", "id": "Oleh karena itu, rencana itu butuh lebih banyak waktu." },
+            { "en": "This result shows that the plan works.", "id": "Hasil ini menunjukkan bahwa rencana itu berhasil." }
+          ]
+        },
+        "examTrap": "Pilihan A fluency terlihat cocok karena jawaban yang mengalir sering dikaitkan dengan kelancaran, tetapi kalimat ini menyebut kata penghubung antarkalimat."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Try to use a wider ___ of structures so that your answer does not sound repetitive.",
+        "options": [
+          { "id": "A", "text": "consistency" },
+          { "id": "B", "text": "criteria" },
+          { "id": "C", "text": "fluency" },
+          { "id": "D", "text": "versatility" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Versatility berarti keberagaman struktur dan kata, sehingga jawaban tidak terdengar berulang.",
+        "stepByStep": [
+          "Kalimat meminta keberagaman struktur agar jawaban tidak berulang.",
+          "Keberagaman struktur dan kata disebut versatility.",
+          "Consistency, criteria, dan fluency tidak berarti keberagaman struktur."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Consistency berarti konsistensi performa, bukan keberagaman struktur." },
+          { "optionId": "B", "reasonId": "Criteria berarti kriteria penilaian, bukan keberagaman struktur." },
+          { "optionId": "C", "reasonId": "Fluency berarti kelancaran, bukan keberagaman struktur." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Versatility dipakai untuk menggambarkan kemampuan memakai banyak bentuk kalimat dan kosakata.",
+          "examples": [
+            { "en": "Her versatility shows in many sentence types.", "id": "Keberagamannya terlihat pada banyak jenis kalimat." },
+            { "en": "Build versatility by mixing simple and complex sentences.", "id": "Bangun keberagaman dengan memadukan kalimat sederhana dan kompleks." }
+          ]
+        },
+        "examTrap": "Pilihan A consistency terlihat cocok karena jawaban yang berulang terasa kurang konsisten, tetapi kalimat ini meminta keberagaman struktur."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Deskriptor itu menjelaskan band yang saya targetkan.",
+        "hint": "Deskriptor itu: the descriptor. Menjelaskan: explains. Band yang saya targetkan: the band I am aiming for.",
+        "acceptedAnswers": ["The descriptor explains the band I am aiming for.", "The descriptor explains the band that I am aiming for."],
+        "modelAnswer": "The descriptor explains the band I am aiming for.",
+        "commonErrors": [{ "pattern": "The descriptors explain the band I aim for", "feedbackId": "Descriptor tunggal memakai explains, dan aiming for memakai bentuk -ing setelah am." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kelancaran saya membaik setelah banyak berlatih berbicara.",
+        "hint": "Kelancaran saya: my fluency. Membaik: has improved. Setelah banyak berlatih berbicara: after practising speaking a lot.",
+        "acceptedAnswers": ["My fluency has improved after practising speaking a lot.", "My fluency improved after practising speaking a lot."],
+        "modelAnswer": "My fluency has improved after practising speaking a lot.",
+        "commonErrors": [{ "pattern": "My fluencies has improve after practice speak a lot", "feedbackId": "Fluency tidak dijamakkan, has improved memakai bentuk lampau partisipel, dan setelah after memakai -ing." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pemeriksa menilai kohesi dari kata penghubung yang saya pakai.",
+        "hint": "Pemeriksa: the examiner. Menilai kohesi: assesses cohesion. Dari kata penghubung yang saya pakai: from the linking words I use.",
+        "acceptedAnswers": ["The examiner assesses cohesion from the linking words I use.", "The examiner judges cohesion from the linking words I use."],
+        "modelAnswer": "The examiner assesses cohesion from the linking words I use.",
+        "commonErrors": [{ "pattern": "The examiners assess cohesions from linking word I uses", "feedbackId": "Examiner tunggal memakai assesses, cohesion tidak dijamakkan, dan linking words jamak." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Ketepatan pilihan kata membuat maksud saya jelas, bukan samar.",
+        "hint": "Ketepatan pilihan kata: precision in word choice. Membuat maksud saya jelas: makes my meaning clear. Bukan samar: not vague.",
+        "acceptedAnswers": ["Precision in word choice makes my meaning clear, not vague.", "Precision in my word choice makes my meaning clear, not vague."],
+        "modelAnswer": "Precision in word choice makes my meaning clear, not vague.",
+        "commonErrors": [{ "pattern": "Precisions in word choices make my meaning clears, not vagues", "feedbackId": "Precision tidak dijamakkan, make memakai bentuk dasar, dan clear serta vague adalah kata sifat tanpa -s." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Konsistensi dari awal sampai akhir tes lebih penting daripada satu jawaban yang sempurna.",
+        "hint": "Konsistensi dari awal sampai akhir: consistency from start to finish. Lebih penting daripada: is more important than. Satu jawaban yang sempurna: one perfect answer.",
+        "acceptedAnswers": ["Consistency from start to finish is more important than one perfect answer.", "Consistency from the start to the end of the test is more important than one perfect answer."],
+        "modelAnswer": "Consistency from start to finish is more important than one perfect answer.",
+        "commonErrors": [{ "pattern": "Consistencies from start to finish are more important than one perfect answers", "feedbackId": "Consistency tidak dijamakkan, subjek tunggal memakai is, dan answer tunggal setelah one." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means choosing the exact word so the meaning is clear?",
+        "options": [
+          { "id": "A", "text": "precision" },
+          { "id": "B", "text": "pronunciation" },
+          { "id": "C", "text": "consistency" },
+          { "id": "D", "text": "criteria" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Precision berarti ketepatan dalam memilih kata agar maksud jelas.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk ketepatan memilih kata agar maksud jelas.",
+          "Ketepatan memilih kata disebut precision.",
+          "Pronunciation, consistency, dan criteria tidak berarti ketepatan memilih kata."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pronunciation berarti pelafalan, bukan pemilihan kata." },
+          { "optionId": "C", "reasonId": "Consistency berarti konsistensi performa, bukan pemilihan kata." },
+          { "optionId": "D", "reasonId": "Criteria berarti kriteria penilaian, bukan pemilihan kata." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Precision dipakai untuk menggambarkan pilihan kata yang tepat dan tidak samar.",
+          "examples": [
+            { "en": "Precision matters in academic writing.", "id": "Ketepatan penting dalam penulisan akademik." },
+            { "en": "Use a precise word instead of a vague one.", "id": "Gunakan kata yang tepat, bukan kata yang samar." }
+          ]
+        },
+        "examTrap": "Pilihan C consistency terlihat cocok karena pemilihan kata yang tepat sering dijaga dari awal sampai akhir, tetapi kalimat ini meminta ketepatan pilihan kata."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'criteria'?",
+        "options": [
+          { "id": "A", "text": "The criteria is clear for every candidate." },
+          { "id": "B", "text": "The criterion are clear for every candidate." },
+          { "id": "C", "text": "The criteria are clear for every candidate." },
+          { "id": "D", "text": "The criteria clear is every candidate." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Criteria adalah bentuk jamak dari criterion, sehingga memakai are dan urutan kalimatnya benar.",
+        "stepByStep": [
+          "Criteria adalah bentuk jamak dari criterion.",
+          "Bentuk jamak memakai are.",
+          "Pilihan A memakai is dengan subjek jamak, pilihan B memakai criterion tunggal dengan are, dan pilihan D urutan katanya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak cocok dengan criteria yang jamak." },
+          { "optionId": "B", "reasonId": "Criterion tunggal tidak cocok dengan are." },
+          { "optionId": "D", "reasonId": "Urutan kata dalam kalimat ini tidak benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Criteria adalah bentuk jamak, sedangkan criterion adalah bentuk tunggal.",
+          "examples": [
+            { "en": "One criterion is coherence.", "id": "Satu kriteria adalah koherensi." },
+            { "en": "The criteria are published before the test.", "id": "Kriteria diumumkan sebelum tes." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena criteria sering dianggap satu hal, tetapi bentuk jamak itu memakai are."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means a short statement that explains what performance at a band looks like?",
+        "options": [
+          { "id": "A", "text": "examiner" },
+          { "id": "B", "text": "descriptor" },
+          { "id": "C", "text": "fluency" },
+          { "id": "D", "text": "criteria" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Descriptor adalah uraian singkat yang menjelaskan performa pada suatu band.",
+        "stepByStep": [
+          "Kalimat meminta uraian singkat tentang performa pada satu band.",
+          "Uraian itu disebut descriptor.",
+          "Examiner, fluency, dan criteria tidak berarti uraian performa pada band."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Examiner berarti pemeriksa, bukan uraian performa." },
+          { "optionId": "C", "reasonId": "Fluency berarti kelancaran, bukan uraian performa." },
+          { "optionId": "D", "reasonId": "Criteria berarti kriteria penilaian secara umum, bukan uraian singkat untuk satu band." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Descriptor dipakai untuk uraian yang menjelaskan tingkat kemampuan tertentu.",
+          "examples": [
+            { "en": "The descriptor for band seven is clear.", "id": "Deskriptor untuk band tujuh itu jelas." },
+            { "en": "Read each descriptor before you practise.", "id": "Baca setiap deskriptor sebelum berlatih." }
+          ]
+        },
+        "examTrap": "Pilihan D criteria terlihat cocok karena deskriptor memang bagian dari kriteria, tetapi kalimat ini meminta uraian singkat untuk satu band."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Her steady performance and ___ across all parts of the test made the examiner trust her scores.'",
+        "options": [
+          { "id": "A", "text": "pronunciation" },
+          { "id": "B", "text": "fluency" },
+          { "id": "C", "text": "versatility" },
+          { "id": "D", "text": "consistency" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Consistency berarti performa yang tetap stabil di seluruh bagian tes, sehingga pemeriksa percaya pada skor.",
+        "stepByStep": [
+          "Kalimat menyebut performa yang stabil di seluruh bagian tes.",
+          "Kestabilan performa di seluruh bagian disebut consistency.",
+          "Pronunciation, fluency, dan versatility tidak berarti kestabilan di seluruh bagian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pronunciation berarti pelafalan, bukan kestabilan performa." },
+          { "optionId": "B", "reasonId": "Fluency berarti kelancaran berbicara, bukan kestabilan di seluruh bagian." },
+          { "optionId": "C", "reasonId": "Versatility berarti keberagaman struktur, bukan kestabilan di seluruh bagian." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Consistency dipakai untuk menggambarkan performa yang sama baiknya dari awal sampai akhir.",
+          "examples": [
+            { "en": "Consistency is key in a long test.", "id": "Konsistensi adalah kunci dalam tes yang panjang." },
+            { "en": "Her consistency across the essays was impressive.", "id": "Konsistensinya di seluruh esai sangat mengesankan." }
+          ]
+        },
+        "examTrap": "Pilihan B fluency terlihat cocok karena performa yang stabil sering terdengar lancar, tetapi kalimat ini meminta kestabilan di seluruh bagian tes."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word refers to the person who listens to and scores your speaking test?",
+        "options": [
+          { "id": "A", "text": "examiner" },
+          { "id": "B", "text": "coherence" },
+          { "id": "C", "text": "cohesion" },
+          { "id": "D", "text": "pronunciation" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Examiner adalah pemeriksa yang mendengarkan dan menilai tes speaking.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk orang yang mendengarkan dan menilai tes speaking.",
+          "Orang seperti itu disebut examiner.",
+          "Coherence, cohesion, dan pronunciation adalah kriteria atau kemampuan, bukan orangnya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Coherence berarti alur logis ide, bukan orang yang menilai." },
+          { "optionId": "C", "reasonId": "Cohesion berarti keterkaitan antarkalimat, bukan orang yang menilai." },
+          { "optionId": "D", "reasonId": "Pronunciation berarti pelafalan, bukan orang yang menilai." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Examiner adalah kata benda untuk orang yang bertugas memeriksa atau menilai.",
+          "examples": [
+            { "en": "The examiner asked a follow-up question.", "id": "Pemeriksa mengajukan pertanyaan lanjutan." },
+            { "en": "Thank the examiner at the end of the test.", "id": "Ucapkan terima kasih kepada pemeriksa di akhir tes." }
+          ]
+        },
+        "examTrap": "Pilihan B coherence terlihat cocok karena pemeriksa menilai alur ide, tetapi kalimat ini meminta orangnya, bukan kriterianya."
+      }
+    ]
+  }
+}

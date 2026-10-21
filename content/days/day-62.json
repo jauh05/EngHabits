@@ -1,0 +1,590 @@
+{
+  "day": 62,
+  "week": 9,
+  "month": 3,
+  "title": "Yes / No / Not Given",
+  "topic": "Membedakan pendapat penulis yang disetujui, ditolak, atau tidak disebutkan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membedakan Yes, No, dan Not Given untuk pendapat penulis",
+    "Mengenali sikap pembicara terhadap pendapat orang lain",
+    "Tidak menyimpulkan sikap yang tidak disebutkan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "opinion", "pronunciationId": "uh-PIN-yun (tekanan di PIN)", "pos": "Noun", "meaningId": "pendapat", "example": "In my opinion, the plan is fair.", "exampleId": "Menurut pendapat saya, rencana itu adil." },
+      { "no": 2, "en": "viewpoint", "pronunciationId": "VYOO-point (tekanan di VYOO)", "pos": "Noun", "meaningId": "sudut pandang", "example": "Her viewpoint is clear.", "exampleId": "Sudut pandangnya jelas." },
+      { "no": 3, "en": "writer", "pronunciationId": "RAI-ter (tekanan di RAI)", "pos": "Noun", "meaningId": "penulis", "example": "The writer explains the idea well.", "exampleId": "Penulis itu menjelaskan ide dengan baik." },
+      { "no": 4, "en": "argue", "pronunciationId": "AR-gyoo (tekanan di AR)", "pos": "Verb", "meaningId": "berargumen", "example": "Some people argue that cities need parks.", "exampleId": "Sebagian orang berargumen bahwa kota butuh taman." },
+      { "no": 5, "en": "dispute", "pronunciationId": "dis-PYOOT (tekanan di PYOOT)", "pos": "Verb", "meaningId": "membantah, memperdebatkan", "example": "Scientists dispute the result.", "exampleId": "Para ilmuwan memperdebatkan hasil itu." },
+      { "no": 6, "en": "endorse", "pronunciationId": "en-DORS (tekanan di DORS)", "pos": "Verb", "meaningId": "mendukung secara terbuka", "example": "The board will endorse the plan.", "exampleId": "Dewan akan mendukung rencana itu secara terbuka." },
+      { "no": 7, "en": "criticize", "pronunciationId": "KRIT-i-sahiz (tekanan di KRIT)", "pos": "Verb", "meaningId": "mengkritik", "example": "The critic criticized the film.", "exampleId": "Kritikus itu mengkritik filmnya." },
+      { "no": 8, "en": "belief", "pronunciationId": "bi-LEEF (tekanan di LEEF)", "pos": "Noun", "meaningId": "keyakinan", "example": "Her belief is strong.", "exampleId": "Keyakinannya kuat." },
+      { "no": 9, "en": "stance", "pronunciationId": "STANS (a pendek, ns jelas)", "pos": "Noun", "meaningId": "sikap, posisi", "example": "What is your stance on this?", "exampleId": "Apa sikapmu tentang ini?" },
+      { "no": 10, "en": "persuade", "pronunciationId": "per-SWAID (tekanan di SWAID)", "pos": "Verb", "meaningId": "membujuk, meyakinkan", "example": "She tried to persuade us.", "exampleId": "Dia berusaha meyakinkan kami." }
+    ],
+    "tip": "Yes berarti pembicara setuju dengan pendapat penulis. No berarti pembicara menolaknya. Not Given berarti pembicara tidak menyatakan sikapnya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS yes no not given", "IELTS listening strategies"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membedakan pendapat penulis yang disetujui, ditolak, dan tidak disebutkan dalam percakapan.",
+      "watchFor": [
+        "Sikap yang dinyatakan secara langsung",
+        "Pendapat yang ditolak pembicara",
+        "Hal yang tidak dibahas sama sekali"
+      ]
+    },
+    "lesson": {
+      "intro": "Soal Yes, No, Not Given menanyakan apakah pendapat penulis atau pembicara sejalan dengan pernyataan. Yang diukur adalah sikap, bukan fakta. Karena itu, cari siapa yang berpendapat dan apa sikapnya.",
+      "sections": [
+        {
+          "heading": "Yes dan No",
+          "bodyMd": "Pilih **Yes** jika pembicara setuju, misalnya dengan **endorse** atau dengan kalimat yang sejalan. Pilih **No** jika pembicara menolak, misalnya dengan **criticize** atau **dispute**."
+        },
+        {
+          "heading": "Not Given",
+          "bodyMd": "Pilih **Not Given** jika sikap itu tidak disebutkan. Kehadiran sebuah **opinion** tentang topik lain tidak berarti sikap yang kamu tanyakan sudah jelas."
+        },
+        {
+          "heading": "Membedakan sikap",
+          "bodyMd": "Perhatikan kata kerja sikap. **Argue** dan **persuade** menunjukkan usaha meyakinkan. **Belief** dan **stance** menunjukkan posisi pembicara. **Viewpoint** adalah sudut pandang yang lebih luas."
+        }
+      ],
+      "formulas": [
+        { "label": "Setuju", "pattern": "endorse / agree with / I agree that → Yes" },
+        { "label": "Menolak", "pattern": "criticize / dispute / does not agree → No" },
+        { "label": "Tidak disebut", "pattern": "tidak ada kata sikap untuk hal itu → Not Given" },
+        { "label": "Sikap", "pattern": "stance / belief / viewpoint + tentang topik" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The writer argues that remote work helps families.", "id": "Penulis berargumen bahwa kerja jarak jauh membantu keluarga." },
+          { "en": "I agree with that belief.", "id": "Saya setuju dengan keyakinan itu." },
+          { "en": "The speaker endorses the new policy.", "id": "Pembicara itu mendukung kebijakan baru secara terbuka." },
+          { "en": "Her stance on the issue is clear.", "id": "Sikapnya tentang isu itu jelas." },
+          { "en": "The article tries to persuade readers.", "id": "Artikel itu berusaha meyakinkan pembaca." }
+        ],
+        "negative": [
+          { "en": "The speaker does not endorse the plan.", "id": "Pembicara itu tidak mendukung rencana itu." },
+          { "en": "The critic does not agree with the writer.", "id": "Kritikus itu tidak setuju dengan penulis." },
+          { "en": "The guest did not dispute the data.", "id": "Tamu itu tidak membantah datanya." },
+          { "en": "The writer's belief is not shared by everyone.", "id": "Keyakinan penulis tidak dimiliki semua orang." },
+          { "en": "The talk does not criticize the survey method.", "id": "Pembicaraan itu tidak mengkritik metode survei." }
+        ],
+        "question": [
+          { "en": "Does the speaker agree with the writer?", "id": "Apakah pembicara setuju dengan penulis?" },
+          { "en": "Does the guest endorse the plan?", "id": "Apakah tamu itu mendukung rencana itu?" },
+          { "en": "Is the stance of the speaker clear?", "id": "Apakah sikap pembicara jelas?" },
+          { "en": "Does the writer criticize managers?", "id": "Apakah penulis mengkritik para manajer?" },
+          { "en": "Who funded the survey?", "id": "Siapa yang mendanai survei itu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The writer argue that the plan fail.", "right": "The writer argues that the plan fails.", "whyId": "Subjek writer tunggal memakai argues, dan subjek plan tunggal memakai fails." },
+        { "wrong": "She endorse the idea yesterday.", "right": "She endorsed the idea yesterday.", "whyId": "Yesterday memakai bentuk lampau endorsed." },
+        { "wrong": "His belief are strong.", "right": "His belief is strong.", "whyId": "Belief adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "They criticized to the report.", "right": "They criticized the report.", "whyId": "Criticize langsung diikuti objek, tanpa to." },
+        { "wrong": "The speaker persuaded us to agreed.", "right": "The speaker persuaded us to agree.", "whyId": "Setelah to, pakai kata kerja dasar agree." },
+        { "wrong": "Her stance are clear.", "right": "Her stance is clear.", "whyId": "Stance adalah kata benda tunggal, jadi memakai is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["IELTS yes no not given", "panel discussion English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Sikap tamu terhadap pendapat penulis",
+        "Hal yang tidak disebut dalam diskusi"
+      ]
+    },
+    "script": {
+      "title": "Diskusi tentang kerja jarak jauh",
+      "lines": [
+        { "speaker": "Host", "text": "Welcome back. Today we discuss an article in which the writer argues that remote work improves productivity." },
+        { "speaker": "Guest A", "text": "In my opinion, the writer's argument is persuasive, but the viewpoint is narrow." },
+        { "speaker": "Host", "text": "What is your stance on this?" },
+        { "speaker": "Guest B", "text": "I think the writer makes a fair point, although some people in the study dispute the results." },
+        { "speaker": "Guest A", "text": "The writer does criticize managers who measure only hours, and I agree with that belief." },
+        { "speaker": "Host", "text": "Does the writer endorse a full return to the office?" },
+        { "speaker": "Guest B", "text": "No. The writer does not endorse that. The article suggests a mixed model instead." },
+        { "speaker": "Guest A", "text": "The author tries to persuade readers that flexibility matters more than location." },
+        { "speaker": "Host", "text": "Did the writer conduct the survey herself?" },
+        { "speaker": "Guest B", "text": "The article does not say who funded the survey, so we cannot tell." },
+        { "speaker": "Guest A", "text": "Another critic argued that the sample was too small, and I find that concern reasonable." },
+        { "speaker": "Host", "text": "So the writer's view is strong, but it is not universal." },
+        { "speaker": "Guest A", "text": "Exactly. Readers should weigh both sides before they decide." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada endorse, tekanan ada di suku kedua: en-DORS.",
+      "Pada viewpoint, tekanan ada di suku pertama: VYOO-point.",
+      "Pada persuade, tekanan ada di suku kedua: per-SWAID."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "yes_no_not_given",
+        "prompt": "The writer believes that remote work improves productivity.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Pembawa acara menyebut bahwa penulis berargumen kerja jarak jauh meningkatkan produktivitas, jadi jawabannya Yes.",
+        "evidence": "the writer argues that remote work improves productivity"
+      },
+      {
+        "id": "L2",
+        "type": "yes_no_not_given",
+        "prompt": "The writer endorses a full return to the office.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tamu kedua berkata 'The writer does not endorse that', artinya penulis tidak mendukung kembali penuh ke kantor.",
+        "stepByStep": [
+          "Cari endorse di naskah.",
+          "Tamu kedua menyatakan penulis does not endorse that.",
+          "Karena sikap penulis ditolak secara langsung, jawabannya No."
+        ],
+        "evidence": "The writer does not endorse that"
+      },
+      {
+        "id": "L3",
+        "type": "yes_no_not_given",
+        "prompt": "The survey was funded by a technology company.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tamu kedua berkata artikel tidak menyebut siapa yang mendanai survei, jadi informasi ini tidak disebutkan.",
+        "stepByStep": [
+          "Cari funded di naskah.",
+          "Tamu kedua menyebut artikel does not say who funded the survey.",
+          "Karena tidak disebutkan, jawabannya Not Given, bukan No."
+        ],
+        "evidence": "does not say who funded the survey"
+      },
+      {
+        "id": "L4",
+        "type": "yes_no_not_given",
+        "prompt": "Some critics think that the sample in the study was too small.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tamu pertama menyebut kritikus lain berargumen bahwa sampelnya terlalu kecil, dan tamu itu menganggap keberatan itu masuk akal.",
+        "stepByStep": [
+          "Cari sample di naskah.",
+          "Kritikus lain berargumen bahwa sampelnya terlalu kecil.",
+          "Pernyataan itu sejalan dengan naskah, sehingga jawabannya Yes."
+        ],
+        "ruleAndExamples": {
+          "rule": "Jika pembicara menyatakan setuju dengan keberatan orang lain, jawabannya Yes.",
+          "examples": [
+            { "en": "I find that concern reasonable.", "id": "Saya menganggap keberatan itu masuk akal." },
+            { "en": "I agree with that belief.", "id": "Saya setuju dengan keyakinan itu." }
+          ]
+        },
+        "examTrap": "Pilihan C Not Given terlihat cocok karena kritikus itu bukan penulis, tetapi tamu itu menyatakan setuju dengan keberatan tersebut.",
+        "evidence": "the sample was too small"
+      },
+      {
+        "id": "L5",
+        "type": "yes_no_not_given",
+        "prompt": "The guest believes that managers should measure only working hours.",
+        "options": [
+          { "id": "A", "text": "Yes" },
+          { "id": "B", "text": "No" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tamu pertama setuju dengan kritik penulis terhadap manajer yang hanya mengukur jam kerja, sehingga pernyataan itu ditolak.",
+        "stepByStep": [
+          "Cari managers di naskah.",
+          "Penulis mengkritik manajer yang hanya mengukur jam, dan tamu pertama setuju dengan kritik itu.",
+          "Karena tamu menolak mengukur hanya jam kerja, jawabannya No."
+        ],
+        "ruleAndExamples": {
+          "rule": "Jika pembicara setuju dengan kritik terhadap suatu cara, ia menolak cara itu.",
+          "examples": [
+            { "en": "I agree with the criticism of that method.", "id": "Saya setuju dengan kritik terhadap metode itu." },
+            { "en": "I do not support the old rule.", "id": "Saya tidak mendukung aturan lama itu." }
+          ]
+        },
+        "examTrap": "Pilihan C Not Given terlihat cocok karena tamu tidak mengatakan 'saya menolak' secara langsung, tetapi sikapnya terlihat jelas dari kalimat 'I agree with that belief'.",
+        "evidence": "managers who measure only hours"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Her ___ is that the new policy is fair to all workers.",
+        "options": [
+          { "id": "A", "text": "opinion" },
+          { "id": "B", "text": "blackout" },
+          { "id": "C", "text": "tunnel" },
+          { "id": "D", "text": "ladder" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Opinion adalah pendapat seseorang tentang sesuatu.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Blackout berarti pemadaman, tidak berarti pendapat." },
+          { "optionId": "C", "reasonId": "Tunnel berarti terowongan, tidak berarti pendapat." },
+          { "optionId": "D", "reasonId": "Ladder berarti tangga, tidak berarti pendapat." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The teams began to ___ over the rules of the game.",
+        "options": [
+          { "id": "A", "text": "gather" },
+          { "id": "B", "text": "shelve" },
+          { "id": "C", "text": "argue" },
+          { "id": "D", "text": "pilot" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Argue over berarti berdebat tentang sesuatu, dan cocok dengan perselisihan aturan.",
+        "stepByStep": [
+          "Kalimat menyebut perselisihan tentang aturan.",
+          "Berdebat tentang sesuatu disebut argue over.",
+          "Gather, shelve, dan pilot tidak berarti berdebat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Gather berarti berkumpul, bukan berdebat." },
+          { "optionId": "B", "reasonId": "Shelve berarti menunda atau menyimpan, bukan berdebat." },
+          { "optionId": "D", "reasonId": "Pilot berarti percobaan, bukan berdebat." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The minister will publicly ___ the plan at the meeting, so the project can start.",
+        "options": [
+          { "id": "A", "text": "argue" },
+          { "id": "B", "text": "endorse" },
+          { "id": "C", "text": "dispute" },
+          { "id": "D", "text": "belief" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Endorse berarti mendukung secara terbuka, dan itu membuat proyek bisa dimulai.",
+        "stepByStep": [
+          "Kalimat menyebut dukungan terbuka agar proyek bisa dimulai.",
+          "Mendukung secara terbuka disebut endorse.",
+          "Argue dan dispute berarti berdebat, dan belief adalah kata benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Argue berarti berdebat, tidak menunjukkan dukungan." },
+          { "optionId": "C", "reasonId": "Dispute berarti membantah, bukan mendukung." },
+          { "optionId": "D", "reasonId": "Belief adalah kata benda, tidak cocok di posisi kata kerja." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The lawyer tried to ___ the jury that the evidence was strong.",
+        "options": [
+          { "id": "A", "text": "argue" },
+          { "id": "B", "text": "belief" },
+          { "id": "C", "text": "viewpoint" },
+          { "id": "D", "text": "persuade" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Persuade the jury that berarti meyakinkan juri bahwa, dan pola ini benar.",
+        "stepByStep": [
+          "Pola persuade + objek + that menyatakan usaha meyakinkan.",
+          "Kata kerja yang tepat di posisi ini adalah persuade.",
+          "Argue butuh that setelahnya, belief dan viewpoint adalah kata benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Argue tidak diikuti langsung oleh objek orang seperti the jury." },
+          { "optionId": "B", "reasonId": "Belief adalah kata benda, tidak bisa menjadi kata kerja di sini." },
+          { "optionId": "C", "reasonId": "Viewpoint adalah kata benda, tidak bisa menjadi kata kerja di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Persuade + orang + that menyatakan usaha membuat seseorang yakin pada sesuatu.",
+          "examples": [
+            { "en": "She persuaded the team that the plan would work.", "id": "Dia meyakinkan tim bahwa rencana itu akan berhasil." },
+            { "en": "The ad persuaded customers that the product was safe.", "id": "Iklan itu meyakinkan pelanggan bahwa produknya aman." }
+          ]
+        },
+        "examTrap": "Pilihan A argue terlihat cocok karena artinya berdebat, tetapi tanpa to atau that, pola argue the jury tidak benar."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Her ___ is that every child deserves a fair chance at school.",
+        "options": [
+          { "id": "A", "text": "criticize" },
+          { "id": "B", "text": "belief" },
+          { "id": "C", "text": "dispute" },
+          { "id": "D", "text": "writer" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Belief adalah keyakinan, dan kalimat ini menyebut keyakinan bahwa setiap anak berhak mendapat kesempatan.",
+        "stepByStep": [
+          "Kalimat menyatakan keyakinan pribadi tentang hak anak.",
+          "Keyakinan pribadi disebut belief.",
+          "Criticize dan dispute adalah kata kerja, dan writer adalah penulis, bukan keyakinan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Criticize adalah kata kerja, tidak cocok di posisi kata benda." },
+          { "optionId": "C", "reasonId": "Dispute adalah kata kerja, tidak cocok di posisi kata benda." },
+          { "optionId": "D", "reasonId": "Writer berarti penulis, bukan keyakinan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Belief adalah keyakinan yang dipegang seseorang, sering diikuti that.",
+          "examples": [
+            { "en": "His belief that people can change is strong.", "id": "Keyakinannya bahwa orang bisa berubah itu kuat." },
+            { "en": "Our belief is based on evidence.", "id": "Keyakinan kami didasarkan pada bukti." }
+          ]
+        },
+        "examTrap": "Pilihan D writer terlihat cocok karena berkaitan dengan pendapat, tetapi writer berarti penulis, bukan keyakinan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Pendapat saya berbeda dengan penulis itu.",
+        "hint": "Pendapat saya: my opinion. Berbeda dengan: differs from. Penulis itu: the writer.",
+        "acceptedAnswers": ["My opinion differs from the writer's.", "My opinion is different from the writer's."],
+        "modelAnswer": "My opinion differs from the writer's.",
+        "commonErrors": [{ "pattern": "My opinion differ from the writer", "feedbackId": "Subjek opinion tunggal memakai differs." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia menolak sudut pandang itu dan mengkritiknya.",
+        "hint": "Menolak: rejected. Sudut pandang itu: that viewpoint. Mengkritiknya: criticized it.",
+        "acceptedAnswers": ["He rejected that viewpoint and criticized it.", "He rejected the viewpoint and criticized it."],
+        "modelAnswer": "He rejected that viewpoint and criticized it.",
+        "commonErrors": [{ "pattern": "He reject that viewpoint and criticize it", "feedbackId": "Gunakan bentuk lampau rejected dan criticized." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penulis itu berusaha meyakinkan pembaca.",
+        "hint": "Penulis itu: the writer. Berusaha meyakinkan: tries to persuade. Pembaca: readers.",
+        "acceptedAnswers": ["The writer tries to persuade readers.", "The writer tries to persuade the readers."],
+        "modelAnswer": "The writer tries to persuade readers.",
+        "commonErrors": [{ "pattern": "The writer try to persuades readers", "feedbackId": "Subjek writer tunggal memakai tries, dan setelah to memakai persuade." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Keyakinan mereka tidak didukung oleh data.",
+        "hint": "Keyakinan mereka: their belief. Tidak didukung: is not supported. Data: the data.",
+        "acceptedAnswers": ["Their belief is not supported by the data.", "Their beliefs are not supported by the data."],
+        "modelAnswer": "Their belief is not supported by the data.",
+        "commonErrors": [{ "pattern": "Their belief are not support by the data", "feedbackId": "Subjek belief tunggal memakai is, dan setelah is memakai supported." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sikap pemerintah itu didukung oleh banyak warga.",
+        "hint": "Sikap pemerintah: the government's stance. Didukung: is supported. Oleh banyak warga: by many residents.",
+        "acceptedAnswers": ["The government's stance is supported by many residents.", "The government's stance is endorsed by many residents."],
+        "modelAnswer": "The government's stance is supported by many residents.",
+        "commonErrors": [{ "pattern": "The government's stance are support by many residents", "feedbackId": "Subjek stance tunggal memakai is, dan setelah is memakai supported." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to say that something is wrong or bad'?",
+        "options": [
+          { "id": "A", "text": "endorse" },
+          { "id": "B", "text": "criticize" },
+          { "id": "C", "text": "belief" },
+          { "id": "D", "text": "stance" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Criticize berarti mengkritik, yaitu menyatakan bahwa sesuatu salah atau kurang baik.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk menyatakan sesuatu salah atau buruk.",
+          "Kata kerja yang tepat adalah criticize.",
+          "Endorse berarti mendukung, belief adalah keyakinan, dan stance adalah sikap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Endorse berarti mendukung, kebalikan dari mengkritik." },
+          { "optionId": "C", "reasonId": "Belief adalah keyakinan, bukan tindakan menyatakan kesalahan." },
+          { "optionId": "D", "reasonId": "Stance adalah sikap, bukan tindakan menyatakan kesalahan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Criticize berarti menilai sesuatu dengan menyebut kelemahannya.",
+          "examples": [
+            { "en": "The article criticized the plan for its cost.", "id": "Artikel itu mengkritik rencana itu karena biayanya." },
+            { "en": "Do not criticize the idea without reasons.", "id": "Jangan mengkritik ide itu tanpa alasan." }
+          ]
+        },
+        "examTrap": "Pilihan A endorse terlihat cocok karena berkaitan dengan penilaian, tetapi endorse berarti mendukung, bukan menyalahkan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The two writers ___ about whether the law is fair.'",
+        "options": [
+          { "id": "A", "text": "endorse" },
+          { "id": "B", "text": "viewpoint" },
+          { "id": "C", "text": "belief" },
+          { "id": "D", "text": "dispute" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Dispute berarti memperdebatkan atau membantah, dan kalimat ini menyebut perbedaan pendapat dua penulis.",
+        "stepByStep": [
+          "Kalimat menyebut dua penulis yang berbeda pendapat.",
+          "Memperdebatkan sesuatu disebut dispute.",
+          "Endorse, viewpoint, dan belief tidak berarti memperdebatkan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Endorse berarti mendukung, bukan memperdebatkan." },
+          { "optionId": "B", "reasonId": "Viewpoint adalah kata benda, tidak bisa menjadi kata kerja di sini." },
+          { "optionId": "C", "reasonId": "Belief adalah kata benda, tidak bisa menjadi kata kerja di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dispute about berarti memperdebatkan sesuatu dengan pihak lain.",
+          "examples": [
+            { "en": "Scientists dispute the cause of the problem.", "id": "Para ilmuwan memperdebatkan penyebab masalah itu." },
+            { "en": "The two parties dispute the new budget.", "id": "Kedua pihak memperdebatkan anggaran baru." }
+          ]
+        },
+        "examTrap": "Pilihan B viewpoint terlihat cocok karena dua penulis punya pandangan berbeda, tetapi kata itu kata benda, bukan kata kerja."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word refers to a personal view on a topic?",
+        "options": [
+          { "id": "A", "text": "viewpoint" },
+          { "id": "B", "text": "criticize" },
+          { "id": "C", "text": "endorse" },
+          { "id": "D", "text": "dispute" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Viewpoint berarti sudut pandang atau pandangan pribadi tentang suatu topik.",
+        "stepByStep": [
+          "Kalimat meminta kata benda untuk pandangan pribadi.",
+          "Pandangan pribadi tentang suatu topik disebut viewpoint.",
+          "Criticize, endorse, dan dispute adalah kata kerja, bukan kata benda pandangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Criticize adalah kata kerja, bukan pandangan pribadi." },
+          { "optionId": "C", "reasonId": "Endorse adalah kata kerja, bukan pandangan pribadi." },
+          { "optionId": "D", "reasonId": "Dispute adalah kata kerja, bukan pandangan pribadi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Viewpoint adalah cara seseorang memandang suatu hal, sering dipakai dalam tulisan atau diskusi.",
+          "examples": [
+            { "en": "Her viewpoint on the city plan is clear.", "id": "Sudut pandangnya tentang rencana kota itu jelas." },
+            { "en": "We should hear every viewpoint.", "id": "Kita harus mendengar setiap sudut pandang." }
+          ]
+        },
+        "examTrap": "Pilihan D dispute terlihat dekat karena berkaitan dengan pandangan yang berbeda, tetapi dispute adalah kata kerja."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'persuade'?",
+        "options": [
+          { "id": "A", "text": "She persuaded that the idea." },
+          { "id": "B", "text": "She persuade the team the idea works." },
+          { "id": "C", "text": "She persuaded the team that the idea works." },
+          { "id": "D", "text": "She persuaded the team the idea works that." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Pola persuade + orang + that + klausa adalah pola yang benar.",
+        "stepByStep": [
+          "Subjek she memakai bentuk lampau persuaded.",
+          "Pola persuade + the team + that + klausa membentuk makna yang benar.",
+          "Pilihan A kehilangan objek orang, pilihan B memakai persuade tanpa -d, dan pilihan D menaruh that di akhir."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kalimat ini kehilangan objek orang yang diyakinkan." },
+          { "optionId": "B", "reasonId": "Bentuk persuade tidak sesuai untuk subjek she yang lampau." },
+          { "optionId": "D", "reasonId": "That harus berada sebelum klausa, bukan di akhir kalimat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Persuade + orang + that + klausa menyatakan usaha meyakinkan seseorang.",
+          "examples": [
+            { "en": "He persuaded us that the trip was safe.", "id": "Dia meyakinkan kami bahwa perjalanan itu aman." },
+            { "en": "They persuaded the board that the plan was realistic.", "id": "Mereka meyakinkan dewan bahwa rencana itu realistis." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat ringkas, tetapi objek orang yang diyakinkan hilang sehingga kalimat tidak lengkap."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means 'to publicly support a plan or person'?",
+        "options": [
+          { "id": "A", "text": "dispute" },
+          { "id": "B", "text": "endorse" },
+          { "id": "C", "text": "argue" },
+          { "id": "D", "text": "criticize" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Endorse berarti mendukung secara terbuka sebuah rencana atau seseorang.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk mendukung secara terbuka.",
+          "Kata kerja yang tepat adalah endorse.",
+          "Dispute dan criticize berarti menolak atau menyalahkan, argue berarti berdebat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dispute berarti membantah, bukan mendukung." },
+          { "optionId": "C", "reasonId": "Argue berarti berdebat, bukan mendukung." },
+          { "optionId": "D", "reasonId": "Criticize berarti mengkritik, bukan mendukung." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Endorse berarti memberi dukungan resmi atau terbuka kepada sesuatu.",
+          "examples": [
+            { "en": "The union endorsed the new contract.", "id": "Serikat pekerja mendukung kontrak baru itu." },
+            { "en": "A famous scientist endorsed the product.", "id": "Seorang ilmuwan terkenal mendukung produk itu." }
+          ]
+        },
+        "examTrap": "Pilihan D criticize terlihat dekat karena sama-sama menilai, tetapi kata itu berarti mengkritik, sebaliknya dari mendukung."
+      }
+    ]
+  }
+}

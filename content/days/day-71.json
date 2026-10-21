@@ -1,0 +1,1218 @@
+{
+  "day": 71,
+  "week": 10,
+  "month": 3,
+  "title": "Writing Task 1: Process",
+  "topic": "Menjelaskan diagram proses dengan urutan tahap yang jelas",
+  "skillFocus": "reading",
+  "objectives": [
+    "Mengenali tahap dan urutan dalam diagram proses",
+    "Memakai kata penghubung urutan dengan tepat",
+    "Menjelaskan perubahan bahan dari satu bentuk ke bentuk lain"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "process",
+        "pronunciationId": "PROS-es (tekanan di PROS)",
+        "pos": "Noun",
+        "meaningId": "proses",
+        "example": "The process takes three days.",
+        "exampleId": "Prosesnya memakan waktu tiga hari."
+      },
+      {
+        "no": 2,
+        "en": "stage",
+        "pronunciationId": "STAYJ (tekanan di STAYJ)",
+        "pos": "Noun",
+        "meaningId": "tahap",
+        "example": "The first stage is quick.",
+        "exampleId": "Tahap pertama cepat."
+      },
+      {
+        "no": 3,
+        "en": "phase",
+        "pronunciationId": "FAYZ (tekanan di FAYZ)",
+        "pos": "Noun",
+        "meaningId": "fase, masa",
+        "example": "The project is in its final phase.",
+        "exampleId": "Proyek itu memasuki fase akhir."
+      },
+      {
+        "no": 4,
+        "en": "procedure",
+        "pronunciationId": "pro-SEE-jer (tekanan di SEE)",
+        "pos": "Noun",
+        "meaningId": "prosedur, tata cara",
+        "example": "Follow the procedure carefully.",
+        "exampleId": "Ikuti prosedurnya dengan teliti."
+      },
+      {
+        "no": 5,
+        "en": "transform",
+        "pronunciationId": "trans-FORM (tekanan di FORM)",
+        "pos": "Verb",
+        "meaningId": "mengubah bentuk",
+        "example": "Heat can transform water into steam.",
+        "exampleId": "Panas dapat mengubah air menjadi uap."
+      },
+      {
+        "no": 6,
+        "en": "convert",
+        "pronunciationId": "kon-VURT (tekanan di VURT)",
+        "pos": "Verb",
+        "meaningId": "mengubah, mengonversi",
+        "example": "Convert the file to PDF.",
+        "exampleId": "Ubahlah berkas itu menjadi PDF."
+      },
+      {
+        "no": 7,
+        "en": "generate",
+        "pronunciationId": "JEN-uh-rayt (tekanan di JEN)",
+        "pos": "Verb",
+        "meaningId": "menghasilkan",
+        "example": "The plant generates power.",
+        "exampleId": "Pabrik itu menghasilkan listrik."
+      },
+      {
+        "no": 8,
+        "en": "cycle",
+        "pronunciationId": "SAI-kul (tekanan di SAI)",
+        "pos": "Noun",
+        "meaningId": "siklus, daur",
+        "example": "The cycle repeats every year.",
+        "exampleId": "Siklusnya berulang setiap tahun."
+      },
+      {
+        "no": 9,
+        "en": "subsequently",
+        "pronunciationId": "SUB-si-kwunt-lee (tekanan di SUB)",
+        "pos": "Adv",
+        "meaningId": "kemudian, setelah itu",
+        "example": "Subsequently, the team met again.",
+        "exampleId": "Setelah itu, tim bertemu lagi."
+      },
+      {
+        "no": 10,
+        "en": "finally",
+        "pronunciationId": "FAI-nuh-lee (tekanan di FAI)",
+        "pos": "Adv",
+        "meaningId": "akhirnya",
+        "example": "Finally, the paper is packed.",
+        "exampleId": "Akhirnya, kertas itu dikemas."
+      }
+    ],
+    "tip": "Pada diagram proses, tandai setiap tahap dengan kata urutan seperti first, subsequently, dan finally. Pastikan urutannya tidak terbalik."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 process diagram",
+        "IELTS process description"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menjelaskan diagram proses dari awal sampai akhir, dengan kata penghubung urutan dan bentuk pasif.",
+      "watchFor": [
+        "Kata penanda urutan",
+        "Bentuk pasif untuk proses",
+        "Tahap yang berulang dalam siklus"
+      ]
+    },
+    "lesson": {
+      "intro": "Diagram proses menunjukkan bagaimana sesuatu dibuat atau diubah melalui beberapa tahap. Kunci menulisnya adalah urutan yang jelas dan bentuk pasif untuk menyebut tindakan tanpa menyebut pelaku.",
+      "sections": [
+        {
+          "heading": "Tahap dan fase",
+          "bodyMd": "Setiap **stage** diberi kata urutan. **Phase** dipakai untuk bagian yang lebih besar. Jika proses dimulai lagi, sebut itu sebagai **cycle**."
+        },
+        {
+          "heading": "Prosedur dan perubahan",
+          "bodyMd": "**Procedure** menjelaskan cara melakukan tahap. Gunakan **transform** atau **convert** untuk perubahan bentuk bahan, dan **generate** untuk sesuatu yang dihasilkan."
+        },
+        {
+          "heading": "Urutan",
+          "bodyMd": "Pakai **subsequently** untuk langkah berikutnya dan **finally** untuk tahap terakhir. Jangan menaruh tahap terakhir di awal kalimat."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Urutan",
+          "pattern": "first, then, subsequently, finally"
+        },
+        {
+          "label": "Pasif",
+          "pattern": "X is / are + V3 + by / in / into"
+        },
+        {
+          "label": "Perubahan",
+          "pattern": "X is transformed / converted into Y"
+        },
+        {
+          "label": "Siklus",
+          "pattern": "the cycle begins / repeats / ends with"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The process has four main stages.",
+            "id": "Proses itu punya empat tahap utama."
+          },
+          {
+            "en": "Paper is collected first.",
+            "id": "Kertas dikumpulkan lebih dulu."
+          },
+          {
+            "en": "The pulp is transformed into sheets.",
+            "id": "Bubur kertas diubah menjadi lembaran."
+          },
+          {
+            "en": "Subsequently, the sheets are dried.",
+            "id": "Setelah itu, lembaran dikeringkan."
+          },
+          {
+            "en": "Finally, the paper is packed.",
+            "id": "Akhirnya, kertas dikemas."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The paper is not sorted after it is packed.",
+            "id": "Kertas tidak dipilah setelah dikemas."
+          },
+          {
+            "en": "The process does not end at the second stage.",
+            "id": "Proses itu tidak berakhir pada tahap kedua."
+          },
+          {
+            "en": "The machine does not generate heat in the first phase.",
+            "id": "Mesin tidak menghasilkan panas pada fase pertama."
+          },
+          {
+            "en": "This cycle is not repeated every week.",
+            "id": "Siklus ini tidak diulang setiap minggu."
+          },
+          {
+            "en": "The procedure is not complicated.",
+            "id": "Prosedurnya tidak rumit."
+          }
+        ],
+        "question": [
+          {
+            "en": "How many stages does the process have?",
+            "id": "Berapa tahap yang dimiliki proses itu?"
+          },
+          {
+            "en": "What happens first?",
+            "id": "Apa yang terjadi lebih dulu?"
+          },
+          {
+            "en": "What is transformed into sheets?",
+            "id": "Apa yang diubah menjadi lembaran?"
+          },
+          {
+            "en": "Is the process a cycle?",
+            "id": "Apakah prosesnya berupa siklus?"
+          },
+          {
+            "en": "What happens finally?",
+            "id": "Apa yang terjadi akhirnya?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The paper are collected first.",
+          "right": "The paper is collected first.",
+          "whyId": "Paper dalam konteks ini kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "Subsequently, the pulp dried.",
+          "right": "Subsequently, the pulp was dried.",
+          "whyId": "Kalimat pasif memakai was dan V3 dried."
+        },
+        {
+          "wrong": "The process has four stage.",
+          "right": "The process has four stages.",
+          "whyId": "Setelah angka lebih dari satu, kata benda memakai bentuk jamak."
+        },
+        {
+          "wrong": "Finally, the paper packed.",
+          "right": "Finally, the paper is packed.",
+          "whyId": "Bentuk pasif memerlukan is dan V3 packed."
+        },
+        {
+          "wrong": "The waste convert into paper.",
+          "right": "The waste is converted into paper.",
+          "whyId": "Dalam konteks ini, bahan diubah, jadi pakai pasif is converted."
+        },
+        {
+          "wrong": "The procedure generate heat.",
+          "right": "The procedure generates heat.",
+          "whyId": "Subjek procedure tunggal memakai generates."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Proses Daur Ulang Kertas",
+    "text": "The diagram describes the process of turning waste paper into new paper. The process has four main stages, and each stage is part of a longer cycle. Understanding each phase helps readers see how the final product is made, and why each step matters.\n\nIn the first stage, used paper is collected from offices, schools, and households. Workers sort the paper by type and remove plastic covers, staples, and tape. This procedure is important because contaminated paper is difficult to transform into a useful product.\n\nIn the second stage, the sorted paper is mixed with water and broken down into pulp. The pulp is a thick liquid that contains small fibres. Machines then clean the pulp and remove ink, which is the main challenge for recycling. Some plants use a special chemical to help convert the ink into a form that can be filtered out.\n\nThe third phase is the forming stage. The clean pulp is spread across a wide mesh belt, where water drains away and a thin sheet begins to form. The sheet is pressed between rollers, and this step helps generate a smooth surface. Heat is then applied to dry the paper completely. This drying phase is closely monitored, because uneven moisture can weaken the final sheet and cause tearing during printing.\n\nSubsequently, the dry paper is cut into rolls or sheets and checked for quality. Samples are tested for strength and brightness, and any defective batch is returned to the start of the cycle. This loop allows the factory to reuse material again and again, which reduces waste and saves water.\n\nFinally, the finished paper is packed and sent to printers, shops, and publishers. The whole process can take several days, depending on the machines and the weather. Many factories now record data at each stage, so they can improve the procedure over time and report their results clearly. Readers who compare this diagram with a similar process for glass or metal will notice that the stages are broadly alike. The main difference lies in the second stage, where chemicals are used to remove colour or other contaminants. Overall, the diagram shows a clear and repeatable process that any trained operator can follow from the first step to the last.",
+    "glossary": [
+      {
+        "en": "fibre",
+        "id": "serat"
+      },
+      {
+        "en": "pulp",
+        "id": "bubur kertas"
+      },
+      {
+        "en": "contaminated",
+        "id": "tercemar"
+      },
+      {
+        "en": "defective",
+        "id": "cacat, tidak sesuai"
+      },
+      {
+        "en": "mesh",
+        "id": "anyaman kawat, jaring"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Used paper is collected from offices, schools, and households.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut kertas bekas dikumpulkan dari kantor, sekolah, dan rumah tangga.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut sumber kertas bekas itu, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut sumber kertas secara langsung."
+          }
+        ],
+        "evidence": "used paper is collected from offices, schools, and households"
+      },
+      {
+        "id": "R2",
+        "type": "true_false_not_given",
+        "prompt": "The factory uses only one stage to make paper.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyebut proses itu memiliki empat tahap utama, sehingga pernyataan satu tahap saja bertentangan.",
+        "stepByStep": [
+          "Cari stages di teks.",
+          "Teks menyebut proses memiliki empat tahap utama.",
+          "Pernyataan bahwa hanya satu tahap bertentangan dengan teks, sehingga False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyebut empat tahap, bukan satu."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Jumlah tahap disebut secara langsung dalam teks."
+          }
+        ],
+        "evidence": "The process has four main stages"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What is the purpose of the sorting procedure?",
+        "options": [
+          {
+            "id": "A",
+            "text": "to make the pulp thicker"
+          },
+          {
+            "id": "B",
+            "text": "to dry the paper"
+          },
+          {
+            "id": "C",
+            "text": "to remove plastic covers, staples, and tape"
+          },
+          {
+            "id": "D",
+            "text": "to print the final product"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut pekerja memilah kertas dan menghilangkan sampul plastik, staples, dan selotip.",
+        "stepByStep": [
+          "Cari sort di paragraf kedua.",
+          "Teks menyebut pekerja memilah dan melepas plastik, staples, dan selotip.",
+          "Membuat bubur lebih kental, mengeringkan kertas, dan mencetak produk tidak disebut sebagai tujuan memilah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Membuat bubur lebih kental terjadi di tahap lain."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Mengeringkan kertas adalah tahap berikutnya, bukan tujuan memilah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Mencetak produk tidak disebut sebagai tujuan memilah."
+          }
+        ],
+        "evidence": "remove plastic covers, staples, and tape"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the passage, what happens to a defective batch?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It is sold at a lower price."
+          },
+          {
+            "id": "B",
+            "text": "It is burned immediately."
+          },
+          {
+            "id": "C",
+            "text": "It is sent directly to printers."
+          },
+          {
+            "id": "D",
+            "text": "It is returned to the start of the cycle."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menulis 'any defective batch is returned to the start of the cycle', artinya batch cacat dikembalikan ke awal siklus.",
+        "stepByStep": [
+          "Cari defective di paragraf kelima.",
+          "Teks menyebut batch cacat dikembalikan ke awal siklus.",
+          "Dijual murah, dibakar, dan dikirim langsung ke percetakan tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks tidak menyebut batch cacat dijual dengan harga lebih rendah."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Teks tidak menyebut batch cacat dibakar."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Batch cacat tidak dikirim langsung ke percetakan menurut teks."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam proses berulang, bahan yang tidak lolos sering dikembalikan ke tahap awal.",
+          "examples": [
+            {
+              "en": "The rejected items return to the first step.",
+              "id": "Barang yang ditolak kembali ke langkah pertama."
+            },
+            {
+              "en": "A faulty batch goes back to production.",
+              "id": "Batch yang rusak kembali ke produksi."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat masuk akal karena kertas memang dikirim ke percetakan, tetapi batch cacat tidak dikirim ke sana menurut teks.",
+        "evidence": "any defective batch is returned to the start of the cycle"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the passage say about the time needed for the whole process?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It takes several days and depends on conditions."
+          },
+          {
+            "id": "B",
+            "text": "It takes exactly one week."
+          },
+          {
+            "id": "C",
+            "text": "It takes several hours only."
+          },
+          {
+            "id": "D",
+            "text": "It is not mentioned."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menyebut proses bisa memakan waktu beberapa hari, tergantung mesin dan cuaca.",
+        "stepByStep": [
+          "Cari whole process di paragraf terakhir.",
+          "Teks menyebut beberapa hari dan bergantung pada mesin dan cuaca.",
+          "Tepat satu minggu dan beberapa jam saja tidak disebut, dan teks tidak diam tentang waktunya."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks tidak menyebut tepat satu minggu."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut beberapa hari, bukan beberapa jam saja."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Teks menyebut waktunya secara jelas."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan tentang waktu sering menguji frasa yang menyatakan rentang atau ketergantungan.",
+          "examples": [
+            {
+              "en": "The process can take several days.",
+              "id": "Proses itu bisa memakan beberapa hari."
+            },
+            {
+              "en": "The time depends on the weather.",
+              "id": "Waktunya bergantung pada cuaca."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat cocok karena beberapa jam terdengar cepat, tetapi teks menyebut beberapa hari.",
+        "evidence": "The whole process can take several days, depending on the machines and the weather"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The first ___ of the process is collecting used paper.",
+        "options": [
+          {
+            "id": "A",
+            "text": "stage"
+          },
+          {
+            "id": "B",
+            "text": "pulp"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Stage adalah tahap dalam sebuah proses.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Pulp adalah bubur kertas, bukan tahap proses."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan tahap proses."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan tahap proses."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Each ___ of the job requires a different machine.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "phase"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Phase adalah fase atau bagian dari sebuah pekerjaan yang lebih besar.",
+        "stepByStep": [
+          "Kalimat menyebut bagian dari pekerjaan yang membutuhkan mesin berbeda.",
+          "Bagian dari sebuah pekerjaan yang lebih besar disebut phase.",
+          "Garden, ticket, dan bridge tidak berarti bagian pekerjaan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan bagian pekerjaan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan bagian pekerjaan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan bagian pekerjaan."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Please follow the ___ carefully to avoid mistakes.",
+        "options": [
+          {
+            "id": "A",
+            "text": "pulp"
+          },
+          {
+            "id": "B",
+            "text": "fibre"
+          },
+          {
+            "id": "C",
+            "text": "procedure"
+          },
+          {
+            "id": "D",
+            "text": "cycle"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Procedure adalah tata cara langkah demi langkah yang harus diikuti.",
+        "stepByStep": [
+          "Kalimat meminta mengikuti langkah yang benar.",
+          "Tata cara langkah demi langkah disebut procedure.",
+          "Pulp dan fibre adalah bahan, dan cycle adalah siklus."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Pulp adalah bahan bubur kertas, bukan tata cara."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Fibre adalah serat, bukan tata cara."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Cycle adalah siklus, bukan tata cara langkah demi langkah."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The factory can ___ electricity from the heat that the machines release.",
+        "options": [
+          {
+            "id": "A",
+            "text": "finally"
+          },
+          {
+            "id": "B",
+            "text": "subsequently"
+          },
+          {
+            "id": "C",
+            "text": "generate"
+          },
+          {
+            "id": "D",
+            "text": "cycle"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Generate berarti menghasilkan, dan kalimat ini menyebut listrik yang dihasilkan dari panas.",
+        "stepByStep": [
+          "Kalimat menyebut listrik dihasilkan dari panas mesin.",
+          "Kata kerja yang berarti menghasilkan adalah generate.",
+          "Finally dan subsequently adalah kata keterangan urutan, dan cycle adalah kata benda."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Finally adalah kata keterangan urutan, bukan kata kerja."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Subsequently adalah kata keterangan urutan, bukan kata kerja."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Cycle adalah kata benda, bukan kata kerja di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Generate berarti menghasilkan sesuatu seperti listrik, energi, atau data.",
+          "examples": [
+            {
+              "en": "The plant generates clean power.",
+              "id": "Pabrik itu menghasilkan listrik bersih."
+            },
+            {
+              "en": "The survey generated many ideas.",
+              "id": "Survei itu menghasilkan banyak ide."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D cycle terlihat cocok karena proses sering disebut siklus, tetapi kalimat ini meminta kata kerja untuk menghasilkan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Workers ___ the plastic into small pellets, which can then be reused.",
+        "options": [
+          {
+            "id": "A",
+            "text": "convert"
+          },
+          {
+            "id": "B",
+            "text": "generate"
+          },
+          {
+            "id": "C",
+            "text": "cycle"
+          },
+          {
+            "id": "D",
+            "text": "finally"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Convert berarti mengubah bentuk, dan kalimat ini menyebut plastik diubah menjadi butiran kecil.",
+        "stepByStep": [
+          "Kalimat menyebut plastik diubah menjadi butiran kecil.",
+          "Mengubah bentuk sesuatu ke bentuk lain disebut convert.",
+          "Generate berarti menghasilkan, cycle adalah siklus, dan finally adalah kata keterangan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Generate berarti menghasilkan, bukan mengubah bentuk plastik."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Cycle adalah siklus, bukan kata kerja mengubah bentuk."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Finally adalah kata keterangan, tidak bisa menjadi kata kerja."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Convert dipakai untuk mengubah sesuatu dari satu bentuk ke bentuk lain.",
+          "examples": [
+            {
+              "en": "Convert the file to PDF.",
+              "id": "Ubahlah berkas itu menjadi PDF."
+            },
+            {
+              "en": "The machine converts waste into fuel.",
+              "id": "Mesin itu mengubah limbah menjadi bahan bakar."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B generate terlihat cocok karena pabrik juga menghasilkan produk, tetapi kalimat ini meminta perubahan bentuk plastik."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Proses ini memiliki empat tahap utama.",
+        "hint": "Proses ini: this process. Memiliki: has. Empat tahap utama: four main stages.",
+        "acceptedAnswers": [
+          "This process has four main stages.",
+          "The process has four main stages."
+        ],
+        "modelAnswer": "This process has four main stages.",
+        "commonErrors": [
+          {
+            "pattern": "This process have four main stages",
+            "feedbackId": "Subjek process tunggal memakai has."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tahap kedua mengubah bubur kertas menjadi lembaran.",
+        "hint": "Tahap kedua: the second stage. Mengubah: transforms atau converts. Bubur kertas: the pulp. Menjadi lembaran: into sheets.",
+        "acceptedAnswers": [
+          "The second stage transforms the pulp into sheets.",
+          "The second stage converts the pulp into sheets."
+        ],
+        "modelAnswer": "The second stage transforms the pulp into sheets.",
+        "commonErrors": [
+          {
+            "pattern": "The second stage transform the pulp to sheet",
+            "feedbackId": "Subjek stage tunggal memakai transforms, dan sheets jamak."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Setelah itu, kertas kering dipotong dan diperiksa.",
+        "hint": "Setelah itu: subsequently. Kertas kering: the dry paper. Dipotong: is cut. Diperiksa: is checked.",
+        "acceptedAnswers": [
+          "Subsequently, the dry paper is cut and checked.",
+          "Subsequently, the dry paper is cut and then checked."
+        ],
+        "modelAnswer": "Subsequently, the dry paper is cut and checked.",
+        "commonErrors": [
+          {
+            "pattern": "Subsequently, the dry paper cut and checked",
+            "feedbackId": "Gunakan bentuk pasif is cut dan is checked."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Siklus ini memungkinkan pabrik menggunakan ulang bahan.",
+        "hint": "Siklus ini: this cycle. Memungkinkan: allows. Menggunakan ulang: to reuse. Bahan: the material.",
+        "acceptedAnswers": [
+          "This cycle allows the factory to reuse the material.",
+          "This cycle allows the factory to reuse materials."
+        ],
+        "modelAnswer": "This cycle allows the factory to reuse the material.",
+        "commonErrors": [
+          {
+            "pattern": "This cycle allow the factory reuse the material",
+            "feedbackId": "Subjek cycle tunggal memakai allows, dan setelah to memakai reuse."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Setiap tahap merupakan bagian dari prosedur yang lebih besar.",
+        "hint": "Setiap tahap: each stage. Merupakan bagian dari: is part of. Prosedur yang lebih besar: a larger procedure.",
+        "acceptedAnswers": [
+          "Each stage is part of a larger procedure.",
+          "Each stage forms part of a larger procedure."
+        ],
+        "modelAnswer": "Each stage is part of a larger procedure.",
+        "commonErrors": [
+          {
+            "pattern": "Each stages are part of larger procedure",
+            "feedbackId": "Setelah each, kata benda memakai bentuk tunggal stage, dan gunakan a larger procedure."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'after something else, at a later time'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "finally"
+          },
+          {
+            "id": "B",
+            "text": "subsequently"
+          },
+          {
+            "id": "C",
+            "text": "phase"
+          },
+          {
+            "id": "D",
+            "text": "generate"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subsequently berarti kemudian, setelah sesuatu yang lain terjadi.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk setelah sesuatu terjadi.",
+          "Kata keterangan waktu yang berarti kemudian adalah subsequently.",
+          "Finally berarti akhirnya, phase berarti fase, dan generate berarti menghasilkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Finally berarti akhirnya, lebih tepat untuk tahap terakhir."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Phase adalah fase, bukan kata keterangan waktu."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Generate berarti menghasilkan, bukan kata keterangan waktu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subsequently dipakai untuk urutan langkah yang muncul setelah langkah sebelumnya.",
+          "examples": [
+            {
+              "en": "Subsequently, the team reviewed the data.",
+              "id": "Setelah itu, tim meninjau datanya."
+            },
+            {
+              "en": "The steps were completed, and subsequently the report was printed.",
+              "id": "Langkah-langkahnya selesai, dan setelah itu laporannya dicetak."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A finally terlihat cocok karena juga menunjukkan urutan, tetapi finally berarti tahap akhir, bukan langkah berikutnya."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'phase'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The phase are two in the process."
+          },
+          {
+            "id": "B",
+            "text": "The phases is two in process."
+          },
+          {
+            "id": "C",
+            "text": "Phase the process two has."
+          },
+          {
+            "id": "D",
+            "text": "The process has two phases."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Pola the process has two phases memakai bentuk jamak phases setelah angka dua.",
+        "stepByStep": [
+          "Setelah angka dua, kata benda memakai bentuk jamak phases.",
+          "Subjek process tunggal memakai has.",
+          "Pilihan A dan B memakai bentuk yang salah, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Phase tunggal setelah angka dua tidak tepat, dan are tidak cocok dengan subjek tunggal."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Phases dengan is tidak cocok, dan process tanpa the tidak sesuai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah angka lebih dari satu, kata benda memakai bentuk jamak.",
+          "examples": [
+            {
+              "en": "The project has three phases.",
+              "id": "Proyek itu punya tiga fase."
+            },
+            {
+              "en": "The course has two stages.",
+              "id": "Kursus itu punya dua tahap."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena phase adalah kata yang benar, tetapi bentuk tunggalnya tidak cocok dengan dua fase."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to change something into a different form'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "transform"
+          },
+          {
+            "id": "B",
+            "text": "fibre"
+          },
+          {
+            "id": "C",
+            "text": "cycle"
+          },
+          {
+            "id": "D",
+            "text": "pulp"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Transform berarti mengubah bentuk atau sifat sesuatu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk mengubah sesuatu ke bentuk lain.",
+          "Kata kerja yang tepat adalah transform.",
+          "Fibre dan pulp adalah bahan, dan cycle adalah siklus."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Fibre adalah serat, bukan kata kerja."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Cycle adalah siklus, bukan kata kerja mengubah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pulp adalah bubur kertas, bukan kata kerja."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Transform menggambarkan perubahan bentuk atau karakter sesuatu.",
+          "examples": [
+            {
+              "en": "Heat can transform ice into water.",
+              "id": "Panas dapat mengubah es menjadi air."
+            },
+            {
+              "en": "The project transformed the town.",
+              "id": "Proyek itu mengubah kota tersebut."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D pulp terlihat cocok karena muncul dalam konteks pengubahan bahan, tetapi pulp adalah bahan, bukan kata kerja."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Once the sheets are dried, the factory will ___ them into rolls.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "generate"
+          },
+          {
+            "id": "B",
+            "text": "cycle"
+          },
+          {
+            "id": "C",
+            "text": "convert"
+          },
+          {
+            "id": "D",
+            "text": "procedure"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Convert them into rolls berarti mengubah lembaran menjadi gulungan.",
+        "stepByStep": [
+          "Kalimat menyebut lembaran diubah menjadi gulungan.",
+          "Mengubah bentuk ke bentuk lain disebut convert.",
+          "Generate berarti menghasilkan, cycle adalah siklus, dan procedure adalah tata cara."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Generate berarti menghasilkan, bukan mengubah lembaran menjadi gulungan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Cycle adalah siklus, bukan kata kerja mengubah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Procedure adalah tata cara, bukan kata kerja."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola convert + objek + into menyatakan perubahan dari satu bentuk ke bentuk lain.",
+          "examples": [
+            {
+              "en": "The mill converts logs into planks.",
+              "id": "Pabrik kayu itu mengubah balok menjadi papan."
+            },
+            {
+              "en": "We converted the notes into a report.",
+              "id": "Kami mengubah catatan menjadi laporan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A generate terlihat cocok karena pabrik juga menghasilkan gulungan, tetapi kalimat ini meminta perubahan bentuk lembaran."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The procedure are important for quality."
+          },
+          {
+            "id": "B",
+            "text": "The procedure is important for quality."
+          },
+          {
+            "id": "C",
+            "text": "The procedures is important for quality."
+          },
+          {
+            "id": "D",
+            "text": "The procedure were important for quality."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Procedure adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Procedure adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa important for quality menjelaskan manfaatnya.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, pilihan C memakai procedures dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal procedure."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Procedures jamak tidak cocok dengan is untuk satu prosedur."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Were tidak cocok dengan subjek tunggal procedure."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Procedure adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The procedure is simple.",
+              "id": "Prosedurnya sederhana."
+            },
+            {
+              "en": "The procedure was changed last year.",
+              "id": "Prosedurnya diubah tahun lalu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena prosedur sering dibicarakan jamak, tetapi subjek kalimat ini tunggal."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1266 @@
+{
+  "day": 80,
+  "week": 11,
+  "month": 3,
+  "title": "Writing Task 2: Topic Sentence dan Pengembangan Argumen",
+  "topic": "Menyusun paragraf dengan kalimat topik, alasan, dan contoh yang koheren",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menulis kalimat topik yang menyebut gagasan utama paragraf",
+    "Mengembangkan klaim dengan alasan dan contoh",
+    "Menghubungkan paragraf dengan transisi yang jelas"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "elaborate",
+        "pronunciationId": "i-LAB-uh-rayt (tekanan di LAB)",
+        "pos": "Verb",
+        "meaningId": "menjelaskan lebih rinci",
+        "example": "Elaborate on your main point.",
+        "exampleId": "Jelaskan lebih rinci poin utamamu."
+      },
+      {
+        "no": 2,
+        "en": "reasoning",
+        "pronunciationId": "REE-zun-ing (tekanan di REE)",
+        "pos": "Noun",
+        "meaningId": "penalaran, alasan",
+        "example": "Your reasoning is clear.",
+        "exampleId": "Penalaranmu jelas."
+      },
+      {
+        "no": 3,
+        "en": "substantiate",
+        "pronunciationId": "sub-STAN-shee-ayt (tekanan di STAN)",
+        "pos": "Verb",
+        "meaningId": "membuktikan dengan bukti",
+        "example": "Substantiate the claim with data.",
+        "exampleId": "Buktikan klaim itu dengan data."
+      },
+      {
+        "no": 4,
+        "en": "logic",
+        "pronunciationId": "LOJ-ik (tekanan di LOJ)",
+        "pos": "Noun",
+        "meaningId": "logika",
+        "example": "The logic is sound.",
+        "exampleId": "Logikanya kuat."
+      },
+      {
+        "no": 5,
+        "en": "coherent",
+        "pronunciationId": "koh-HEER-unt (tekanan di HEER)",
+        "pos": "Adj",
+        "meaningId": "koheren, runtut",
+        "example": "The paragraph is coherent.",
+        "exampleId": "Paragrafnya runtut."
+      },
+      {
+        "no": 6,
+        "en": "cohesive",
+        "pronunciationId": "koh-HEE-siv (tekanan di HEE)",
+        "pos": "Adj",
+        "meaningId": "kohesif, saling terikat",
+        "example": "The essay is cohesive.",
+        "exampleId": "Esainya saling terikat."
+      },
+      {
+        "no": 7,
+        "en": "progression",
+        "pronunciationId": "pro-GRESH-un (tekanan di GRESH)",
+        "pos": "Noun",
+        "meaningId": "urutan, perkembangan",
+        "example": "The progression of ideas is clear.",
+        "exampleId": "Urutan gagasannya jelas."
+      },
+      {
+        "no": 8,
+        "en": "digression",
+        "pronunciationId": "dy-GRESH-un (tekanan di GRESH)",
+        "pos": "Noun",
+        "meaningId": "penyimpangan dari topik",
+        "example": "The digression confused the reader.",
+        "exampleId": "Penyimpangan itu membingungkan pembaca."
+      },
+      {
+        "no": 9,
+        "en": "transition",
+        "pronunciationId": "tran-ZISH-un (tekanan di ZISH)",
+        "pos": "Noun",
+        "meaningId": "transisi, peralihan",
+        "example": "Use a transition between paragraphs.",
+        "exampleId": "Gunakan transisi antarparagraf."
+      },
+      {
+        "no": 10,
+        "en": "bridge",
+        "pronunciationId": "BRIJ (tekanan di BRIJ)",
+        "pos": "Noun",
+        "meaningId": "jembatan, penghubung",
+        "example": "A short sentence is a bridge.",
+        "exampleId": "Kalimat pendek adalah penghubung."
+      }
+    ],
+    "tip": "Kalimat topik menyebut gagasan utama, lalu alasan dan contoh mengembangkannya. Setiap kalimat harus terhubung dengan kalimat sebelumnya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS topic sentence",
+        "IELTS paragraph development"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang kalimat topik, pengembangan argumen, dan transisi antarparagraf dalam esai Writing Task 2.",
+      "watchFor": [
+        "Kalimat topik yang jelas",
+        "Alasan dan contoh yang menguatkan klaim",
+        "Transisi yang menjaga alur"
+      ]
+    },
+    "lesson": {
+      "intro": "Paragraf tubuh esai dibangun dari kalimat topik, alasan, dan contoh. Kunci paragraf yang baik adalah alur yang runtut: setiap kalimat harus membantu pembaca bergerak dari gagasan utama ke bukti.",
+      "sections": [
+        {
+          "heading": "Kalimat topik",
+          "bodyMd": "Kalimat topik menyebut gagasan utama paragraf. Ia harus cukup spesifik agar pembaca tahu apa yang akan dibahas, tanpa menjelaskan semua detail."
+        },
+        {
+          "heading": "Mengembangkan argumen",
+          "bodyMd": "Gunakan **reasoning** untuk menjelaskan mengapa klaim itu benar. Gunakan **elaborate** untuk menambah contoh, dan **substantiate** untuk memberi data. **Logic** paragraf harus jelas."
+        },
+        {
+          "heading": "Menjaga alur",
+          "bodyMd": "Paragraf yang **coherent** dan **cohesive** memiliki **progression** ide yang jelas. Hindari **digression**. Gunakan **transition** atau kalimat **bridge** untuk menghubungkan dua gagasan."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Kalimat topik",
+          "pattern": "Topic + controlling idea"
+        },
+        {
+          "label": "Alasan",
+          "pattern": "This is because / The reason is"
+        },
+        {
+          "label": "Contoh",
+          "pattern": "For example, add a concrete case / To elaborate, add detail"
+        },
+        {
+          "label": "Transisi",
+          "pattern": "However, / As a result, / In contrast, / Moreover,"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The topic sentence names the main idea of the paragraph.",
+            "id": "Kalimat topik menyebut gagasan utama paragraf."
+          },
+          {
+            "en": "The reasoning is clear and based on evidence.",
+            "id": "Penalarannya jelas dan berdasarkan bukti."
+          },
+          {
+            "en": "I will elaborate with a real example.",
+            "id": "Saya akan menjelaskan lebih rinci dengan contoh nyata."
+          },
+          {
+            "en": "The logic of the paragraph is sound.",
+            "id": "Logika paragraf itu kuat."
+          },
+          {
+            "en": "A short sentence can serve as a bridge.",
+            "id": "Kalimat pendek bisa berfungsi sebagai penghubung."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The paragraph does not contain a digression.",
+            "id": "Paragraf itu tidak memuat penyimpangan."
+          },
+          {
+            "en": "The claim is not substantiated yet.",
+            "id": "Klaim itu belum dibuktikan."
+          },
+          {
+            "en": "The sentences are not connected by any transition.",
+            "id": "Kalimat-kalimat itu tidak dihubungkan oleh transisi apa pun."
+          },
+          {
+            "en": "This topic sentence is not coherent with the paragraph.",
+            "id": "Kalimat topik ini tidak koheren dengan paragrafnya."
+          },
+          {
+            "en": "The essay is not cohesive without a clear structure.",
+            "id": "Esai itu tidak kohesif tanpa struktur yang jelas."
+          }
+        ],
+        "question": [
+          {
+            "en": "What does the topic sentence name?",
+            "id": "Apa yang disebut oleh kalimat topik?"
+          },
+          {
+            "en": "Is the reasoning clear?",
+            "id": "Apakah penalarannya jelas?"
+          },
+          {
+            "en": "Which example will you elaborate on?",
+            "id": "Contoh mana yang akan kamu jelaskan lebih rinci?"
+          },
+          {
+            "en": "Is there a digression in the paragraph?",
+            "id": "Apakah ada penyimpangan dalam paragraf itu?"
+          },
+          {
+            "en": "What transition connects the two ideas?",
+            "id": "Transisi apa yang menghubungkan kedua gagasan itu?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The topic sentence are about cities.",
+          "right": "The topic sentence is about cities.",
+          "whyId": "Topic sentence adalah subjek tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The logic of the essay are weak.",
+          "right": "The logic of the essay is weak.",
+          "whyId": "Logic adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "We elaborates the idea with examples.",
+          "right": "We elaborate the idea with examples.",
+          "whyId": "Subjek we memakai kata kerja dasar elaborate."
+        },
+        {
+          "wrong": "The paragraph is more coherent than the another.",
+          "right": "The paragraph is more coherent than the other.",
+          "whyId": "Pembanding the other tanpa another."
+        },
+        {
+          "wrong": "The digression are a problem.",
+          "right": "The digression is a problem.",
+          "whyId": "Digression adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "Use transition between the paragraph.",
+          "right": "Use a transition between the paragraphs.",
+          "whyId": "Transition butuh a, dan dua paragraf memakai bentuk jamak."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS topic sentence",
+        "study group writing English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Penjelasan tutor tentang kalimat topik",
+        "Alasan, contoh, dan transisi yang disebut"
+      ]
+    },
+    "script": {
+      "title": "Membangun paragraf yang runtut",
+      "lines": [
+        {
+          "speaker": "Tutor",
+          "text": "Let's work on the topic sentence. Its job is to name the main idea of the paragraph."
+        },
+        {
+          "speaker": "Student",
+          "text": "Should it contain the reasoning too?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Usually, the reasoning comes next. Then you elaborate with an example, so that each claim is substantiated."
+        },
+        {
+          "speaker": "Student",
+          "text": "How do I keep the logic clear?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Make sure every sentence is coherent with the one before it. A cohesive paragraph has a visible progression of ideas."
+        },
+        {
+          "speaker": "Student",
+          "text": "What about a digression? I sometimes add a fact that is interesting but not relevant."
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Avoid that. A digression breaks the flow. If you need a link between two ideas, use a transition, or build a bridge with a short sentence."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks. My paragraphs felt disconnected, so I will check each sentence now."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada substantiate, tekanan ada di suku kedua: sub-STAN-shee-ayt.",
+      "Pada digression, tekanan ada di suku kedua: dy-GRESH-un.",
+      "Pada coherent, tekanan ada di suku kedua: koh-HEER-unt."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is the job of the topic sentence, according to the tutor?",
+        "options": [
+          {
+            "id": "A",
+            "text": "to name the main idea of the paragraph"
+          },
+          {
+            "id": "B",
+            "text": "to write the author's name"
+          },
+          {
+            "id": "C",
+            "text": "to state the conclusion of the essay"
+          },
+          {
+            "id": "D",
+            "text": "to list the references"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata tugas kalimat topik adalah menyebut gagasan utama paragraf.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Nama penulis tidak disebut sebagai tugas kalimat topik."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Kesimpulan esai tidak disebut sebagai tugas kalimat topik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Daftar referensi tidak disebut dalam penjelasan tutor."
+          }
+        ],
+        "evidence": "name the main idea of the paragraph"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What usually comes after the topic sentence?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the conclusion"
+          },
+          {
+            "id": "B",
+            "text": "the title"
+          },
+          {
+            "id": "C",
+            "text": "the reasoning"
+          },
+          {
+            "id": "D",
+            "text": "the bibliography"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata alasan biasanya datang setelah kalimat topik.",
+        "stepByStep": [
+          "Cari bagian tentang urutan setelah topic sentence di naskah tutor.",
+          "Tutor menyebut reasoning comes next.",
+          "Kesimpulan, judul, dan daftar pustaka tidak disebut sebagai urutan setelah kalimat topik."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Kesimpulan biasanya muncul di akhir esai, bukan setelah kalimat topik."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Judul tidak disebut sebagai bagian setelah kalimat topik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Daftar pustaka tidak disebut dalam urutan paragraf."
+          }
+        ],
+        "evidence": "the reasoning comes next"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does the tutor suggest to elaborate a claim?",
+        "options": [
+          {
+            "id": "A",
+            "text": "delete the claim"
+          },
+          {
+            "id": "B",
+            "text": "add an example"
+          },
+          {
+            "id": "C",
+            "text": "add a joke"
+          },
+          {
+            "id": "D",
+            "text": "change the topic"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata untuk mengembangkan klaim, tambahkan contoh.",
+        "stepByStep": [
+          "Cari elaborate di naskah tutor.",
+          "Tutor menyebut elaborate with an example.",
+          "Menghapus klaim, menambah lelucon, dan mengganti topik tidak disebut sebagai cara mengembangkan klaim."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Menghapus klaim bertentangan dengan tujuan mengembangkannya."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Lelucon tidak disebut sebagai cara mengembangkan klaim."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Mengganti topik tidak disebut sebagai cara mengembangkan klaim."
+          }
+        ],
+        "evidence": "Then you elaborate with an example"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is a digression, according to the second student?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a link between two ideas"
+          },
+          {
+            "id": "B",
+            "text": "a fact that is interesting but not relevant"
+          },
+          {
+            "id": "C",
+            "text": "the main idea of the paragraph"
+          },
+          {
+            "id": "D",
+            "text": "a short conclusion"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mahasiswa kedua menjelaskan digression sebagai fakta yang menarik tetapi tidak relevan.",
+        "stepByStep": [
+          "Cari digression di naskah mahasiswa kedua.",
+          "Mahasiswa menyebut add a fact that is interesting but not relevant.",
+          "Penghubung antargagasan, gagasan utama, dan kesimpulan singkat tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Penghubung antargagasan adalah transisi atau bridge, bukan digression."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Gagasan utama adalah kalimat topik, bukan penyimpangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kesimpulan singkat tidak disebut sebagai digression."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Digression adalah penyimpangan dari topik yang memutus alur paragraf.",
+          "examples": [
+            {
+              "en": "The story about his holiday was a digression from the topic.",
+              "id": "Cerita tentang liburannya adalah penyimpangan dari topik."
+            },
+            {
+              "en": "Remove the digression to keep the paragraph focused.",
+              "id": "Hapus penyimpangan itu agar paragrafnya tetap fokus."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena paragraf juga butuh penghubung, tetapi digression justru memutus hubungan dan alur.",
+        "evidence": "add a fact that is interesting but not relevant"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "How can the student connect two ideas, according to the tutor?",
+        "options": [
+          {
+            "id": "A",
+            "text": "remove one of the ideas"
+          },
+          {
+            "id": "B",
+            "text": "start a new essay"
+          },
+          {
+            "id": "C",
+            "text": "repeat the topic sentence"
+          },
+          {
+            "id": "D",
+            "text": "use a transition or a short bridge sentence"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Tutor berkata gunakan transisi atau kalimat penghubung pendek untuk menghubungkan dua gagasan.",
+        "stepByStep": [
+          "Cari transition dan bridge di naskah tutor.",
+          "Tutor menyebut transition atau build a bridge with a short sentence.",
+          "Menghapus gagasan, memulai esai baru, dan mengulang kalimat topik tidak menghubungkan dua gagasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Menghapus salah satu gagasan tidak menghubungkan kedua gagasan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Memulai esai baru tidak disebut sebagai cara menghubungkan gagasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Mengulang kalimat topik tidak menghubungkan dua gagasan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Transisi dan kalimat penghubung membantu pembaca melihat hubungan antara dua gagasan.",
+          "examples": [
+            {
+              "en": "However, the second method is cheaper.",
+              "id": "Namun, metode kedua lebih murah."
+            },
+            {
+              "en": "A short sentence can serve as a bridge between paragraphs.",
+              "id": "Kalimat pendek dapat menjadi penghubung antarparagraf."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat cocok karena kalimat topik juga menghubungkan paragraf, tetapi tutor meminta transisi untuk dua gagasan.",
+        "evidence": "use a transition, or build a bridge with a short sentence"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Please ___ the example with one more fact from the report.",
+        "options": [
+          {
+            "id": "A",
+            "text": "elaborate"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Elaborate berarti menjelaskan lebih rinci, dan kalimat ini meminta menambah fakta.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan menjelaskan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan menjelaskan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan menjelaskan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The writer's ___ is clear: each step follows from the one before.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "logic"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Logic adalah urutan penalaran yang masuk akal, dan kalimat ini menyebut setiap langkah mengikuti yang sebelumnya.",
+        "stepByStep": [
+          "Kalimat menyebut setiap langkah mengikuti langkah sebelumnya.",
+          "Urutan penalaran yang masuk akal disebut logic.",
+          "Garden, ticket, dan bridge tidak berarti penalaran."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan penalaran."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan penalaran."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan penalaran."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Your essay will be more ___ if every paragraph links to the thesis.",
+        "options": [
+          {
+            "id": "A",
+            "text": "coherent"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "digression"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Coherent berarti runtut dan saling terhubung, sesuai dengan paragraf yang terhubung ke tesis.",
+        "stepByStep": [
+          "Kalimat menyebut keterhubungan setiap paragraf dengan tesis.",
+          "Keadaan runtut dan saling terhubung disebut coherent.",
+          "Ticket, garden, dan digression tidak sesuai dengan keterhubungan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan sifat runtut."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan sifat runtut."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Digression adalah penyimpangan, kebalikan dari runtut."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Good writing shows a clear ___ of ideas from the introduction to the conclusion.",
+        "options": [
+          {
+            "id": "A",
+            "text": "digression"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "progression"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Progression adalah urutan perkembangan gagasan dari awal sampai akhir.",
+        "stepByStep": [
+          "Kalimat menyebut perkembangan gagasan dari pengantar ke kesimpulan.",
+          "Urutan perkembangan itu disebut progression.",
+          "Digression, ticket, dan garden tidak berarti urutan perkembangan gagasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Digression adalah penyimpangan, bukan perkembangan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan perkembangan gagasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan perkembangan gagasan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Progression menunjukkan bagaimana gagasan berkembang dari satu bagian ke bagian berikutnya.",
+          "examples": [
+            {
+              "en": "The progression of the argument is logical.",
+              "id": "Perkembangan argumen itu logis."
+            },
+            {
+              "en": "Each paragraph adds a new step to the progression.",
+              "id": "Setiap paragraf menambah langkah baru dalam perkembangan itu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A digression terlihat cocok karena topiknya tentang gagasan dalam esai, tetapi digression adalah penyimpangan, bukan perkembangan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ between the two paragraphs was weak, so the reader was confused.",
+        "options": [
+          {
+            "id": "A",
+            "text": "reasoning"
+          },
+          {
+            "id": "B",
+            "text": "transition"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Transition adalah penghubung antarparagraf, dan kalimat ini menyebut penghubung yang lemah.",
+        "stepByStep": [
+          "Kalimat menyebut penghubung antarparagraf yang lemah.",
+          "Penghubung antara dua paragraf disebut transition.",
+          "Reasoning adalah penalaran, sedangkan garden dan ticket tidak berkaitan dengan paragraf."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Reasoning adalah penalaran, bukan penghubung antarparagraf."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan penghubung paragraf."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan penghubung paragraf."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Transition menghubungkan dua paragraf atau dua gagasan agar alur tetap jelas.",
+          "examples": [
+            {
+              "en": "A clear transition helps the reader move to the next idea.",
+              "id": "Transisi yang jelas membantu pembaca berpindah ke gagasan berikutnya."
+            },
+            {
+              "en": "The transition between sections is smooth.",
+              "id": "Transisi antarbagian itu lancar."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A reasoning terlihat cocok karena paragraf perlu penalaran, tetapi kalimat ini menyebut penghubung antarparagraf yang lemah."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kalimat topik menyebut ide utama paragraf.",
+        "hint": "Kalimat topik: the topic sentence. Menyebut: names. Ide utama paragraf: the main idea of the paragraph.",
+        "acceptedAnswers": [
+          "The topic sentence names the main idea of the paragraph.",
+          "A topic sentence names the main idea of the paragraph."
+        ],
+        "modelAnswer": "The topic sentence names the main idea of the paragraph.",
+        "commonErrors": [
+          {
+            "pattern": "The topic sentence name the main idea of paragraph",
+            "feedbackId": "Subjek topic sentence tunggal memakai names, dan gunakan the paragraph."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Alasan itu perlu dikembangkan dengan contoh.",
+        "hint": "Alasan itu: the reasoning. Perlu dikembangkan: needs to be elaborated. Dengan contoh: with an example.",
+        "acceptedAnswers": [
+          "The reasoning needs to be elaborated with an example.",
+          "The reasoning must be elaborated with an example."
+        ],
+        "modelAnswer": "The reasoning needs to be elaborated with an example.",
+        "commonErrors": [
+          {
+            "pattern": "The reasoning need to elaborate with example",
+            "feedbackId": "Subjek reasoning tunggal memakai needs, dan setelah be memakai elaborated."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Paragraf ini tidak koheren karena ada penyimpangan.",
+        "hint": "Paragraf ini: this paragraph. Tidak koheren: is not coherent. Karena ada penyimpangan: because of a digression.",
+        "acceptedAnswers": [
+          "This paragraph is not coherent because of a digression.",
+          "This paragraph is incoherent because of a digression."
+        ],
+        "modelAnswer": "This paragraph is not coherent because of a digression.",
+        "commonErrors": [
+          {
+            "pattern": "This paragraph are not coherent because of digression",
+            "feedbackId": "Subjek paragraph tunggal memakai is, dan gunakan a digression."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kalimat penghubung ini membangun jembatan antara dua gagasan.",
+        "hint": "Kalimat penghubung ini: this linking sentence. Membangun jembatan: builds a bridge. Antara dua gagasan: between two ideas.",
+        "acceptedAnswers": [
+          "This linking sentence builds a bridge between the two ideas.",
+          "This sentence builds a bridge between the two ideas."
+        ],
+        "modelAnswer": "This linking sentence builds a bridge between the two ideas.",
+        "commonErrors": [
+          {
+            "pattern": "This linking sentence build a bridge between two idea",
+            "feedbackId": "Subjek sentence tunggal memakai builds, dan gunakan the two ideas."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Argumen itu harus dibuktikan dengan data yang kredibel.",
+        "hint": "Argumen itu: the argument. Harus dibuktikan: must be substantiated. Dengan data: with data. Yang kredibel: credible.",
+        "acceptedAnswers": [
+          "The argument must be substantiated with credible data.",
+          "The argument must be supported with credible data."
+        ],
+        "modelAnswer": "The argument must be substantiated with credible data.",
+        "commonErrors": [
+          {
+            "pattern": "The argument must substantiates with credible datas",
+            "feedbackId": "Setelah must be, pakai V3 substantiated; data tetap bentuk kata benda."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'an unnecessary side topic that interrupts the main line of thought'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "progression"
+          },
+          {
+            "id": "B",
+            "text": "digression"
+          },
+          {
+            "id": "C",
+            "text": "logic"
+          },
+          {
+            "id": "D",
+            "text": "reasoning"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Digression adalah penyimpangan dari topik utama yang memutus alur pikir.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk topik sampingan yang memutus alur.",
+          "Penyimpangan seperti itu disebut digression.",
+          "Progression, logic, dan reasoning tidak berarti penyimpangan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Progression adalah perkembangan gagasan, kebalikan dari penyimpangan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Logic adalah logika, bukan penyimpangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Reasoning adalah penalaran, bukan penyimpangan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Digression adalah penyimpangan dari topik yang menyela alur utama.",
+          "examples": [
+            {
+              "en": "A long digression about the weather spoiled the essay.",
+              "id": "Penyimpangan panjang tentang cuaca merusak esainya."
+            },
+            {
+              "en": "Keep the paragraph free of digression.",
+              "id": "Jaga agar paragraf bebas dari penyimpangan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C logic terlihat cocok karena penyimpangan sering dianggap tidak logis, tetapi kata yang diminta menunjukkan topik sampingan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'cohesive'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The cohesive are the ideas in the paragraph."
+          },
+          {
+            "id": "B",
+            "text": "The cohesives is the paragraph's structure."
+          },
+          {
+            "id": "C",
+            "text": "Cohesive the paragraph ideas are."
+          },
+          {
+            "id": "D",
+            "text": "The paragraph is cohesive, and each idea links to the next."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Cohesive adalah kata sifat setelah is, dan kalimat ini menjelaskan keterhubungan antargagasan.",
+        "stepByStep": [
+          "Cohesive adalah kata sifat yang diletakkan setelah is.",
+          "Frasa each idea links to the next menjelaskan keterhubungan.",
+          "Pilihan A, B, dan C memiliki bentuk atau urutan kata yang salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Cohesive adalah kata sifat, tidak bisa menjadi subjek dengan are."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Cohesives bukan bentuk kata yang benar."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cohesive adalah kata sifat yang berarti saling terikat dan terhubung dengan baik.",
+          "examples": [
+            {
+              "en": "The essay is cohesive from start to finish.",
+              "id": "Esai itu saling terikat dari awal sampai akhir."
+            },
+            {
+              "en": "A cohesive text is easy to follow.",
+              "id": "Teks yang kohesif mudah diikuti."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena ide sering dibicarakan jamak, tetapi cohesive adalah kata sifat, bukan kata benda."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to support a claim with evidence'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "substantiate"
+          },
+          {
+            "id": "B",
+            "text": "elaborate"
+          },
+          {
+            "id": "C",
+            "text": "digress"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Substantiate berarti membuktikan sebuah klaim dengan bukti yang nyata.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk membuktikan klaim dengan bukti.",
+          "Kata kerja yang tepat adalah substantiate.",
+          "Elaborate berarti menjelaskan lebih rinci, digress berarti menyimpang, dan bridge berarti penghubung."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Elaborate berarti menjelaskan lebih rinci, bukan membuktikan dengan bukti."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Digress berarti menyimpang dari topik, bukan membuktikan klaim."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti penghubung, bukan membuktikan klaim."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Substantiate berarti memberi bukti yang membuat klaim lebih kuat.",
+          "examples": [
+            {
+              "en": "Substantiate the claim with two studies.",
+              "id": "Buktikan klaim itu dengan dua studi."
+            },
+            {
+              "en": "The data substantiated the argument.",
+              "id": "Data itu membuktikan argumen tersebut."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B elaborate terlihat cocok karena pengembangan argumen juga memakai contoh, tetapi kata yang diminta berarti membuktikan dengan bukti."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ in the argument is sound, because each step follows logically.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "digression"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "reasoning"
+          },
+          {
+            "id": "D",
+            "text": "elaborate"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Reasoning berarti penalaran, dan kalimat ini menyebut langkah-langkah yang mengikuti secara logis.",
+        "stepByStep": [
+          "Kalimat menyebut setiap langkah mengikuti secara logis.",
+          "Penalaran yang mendasari argumen disebut reasoning.",
+          "Digression, bridge, dan elaborate tidak sesuai dengan penalaran yang sehat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Digression adalah penyimpangan, bukan penalaran yang sehat."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Bridge adalah penghubung, bukan penalaran."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Elaborate adalah kata kerja, tidak bisa menjadi kata benda penalaran."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reasoning adalah cara berpikir yang menghubungkan bukti dengan kesimpulan.",
+          "examples": [
+            {
+              "en": "The reasoning behind the plan is clear.",
+              "id": "Penalaran di balik rencana itu jelas."
+            },
+            {
+              "en": "Good reasoning connects evidence to the claim.",
+              "id": "Penalaran yang baik menghubungkan bukti dengan klaim."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D elaborate terlihat cocok karena kalimat membahas pengembangan, tetapi kata yang diminta adalah kata benda penalaran."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The logic are sound in this paragraph."
+          },
+          {
+            "id": "B",
+            "text": "The logic is sound in this paragraph."
+          },
+          {
+            "id": "C",
+            "text": "The logics is sound in this paragraph."
+          },
+          {
+            "id": "D",
+            "text": "The logic were sound in this paragraph."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Logic adalah kata benda tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Logic adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Sound menjelaskan bahwa logikanya kuat.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, dan pilihan C memakai logics dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal logic."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Logics bukan bentuk kata benda yang tepat di sini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Were tidak cocok dengan subjek tunggal logic."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Logic adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The logic was clear.",
+              "id": "Logikanya jelas."
+            },
+            {
+              "en": "This logic is sound.",
+              "id": "Logika ini kuat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena argumen sering dibicarakan jamak, tetapi kalimat ini memakai logic tunggal."
+      }
+    ]
+  }
+}

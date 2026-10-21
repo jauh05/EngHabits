@@ -1,0 +1,1274 @@
+{
+  "day": 76,
+  "week": 11,
+  "month": 3,
+  "title": "Writing Task 2: Discussion Essay",
+  "topic": "Menyajikan dua sudut pandang lalu menyatukannya dengan seimbang",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menyajikan dua perspektif secara adil",
+    "Menyebut kelebihan dan kelemahan setiap pandangan",
+    "Menyatukan pandangan dalam kesimpulan yang seimbang"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "perspective",
+        "pronunciationId": "per-SPEK-tiv (tekanan di SPEK)",
+        "pos": "Noun",
+        "meaningId": "sudut pandang",
+        "example": "Each perspective has value.",
+        "exampleId": "Setiap sudut pandang punya nilai."
+      },
+      {
+        "no": 2,
+        "en": "counterpoint",
+        "pronunciationId": "KOWN-ter-point (tekanan di KOWN)",
+        "pos": "Noun",
+        "meaningId": "poin tandingan",
+        "example": "The counterpoint is worth noting.",
+        "exampleId": "Poin tandingan itu layak diperhatikan."
+      },
+      {
+        "no": 3,
+        "en": "merit",
+        "pronunciationId": "MER-it (tekanan di MER)",
+        "pos": "Noun",
+        "meaningId": "kelebihan, nilai",
+        "example": "The plan has clear merit.",
+        "exampleId": "Rencana itu punya kelebihan yang jelas."
+      },
+      {
+        "no": 4,
+        "en": "drawback",
+        "pronunciationId": "DRAW-bak (tekanan di DRAW)",
+        "pos": "Noun",
+        "meaningId": "kelemahan, kekurangan",
+        "example": "The main drawback is cost.",
+        "exampleId": "Kelemahan utamanya adalah biaya."
+      },
+      {
+        "no": 5,
+        "en": "counterargument",
+        "pronunciationId": "KOWN-ter-AR-gyoo-ment (tekanan di KOWN)",
+        "pos": "Noun",
+        "meaningId": "argumen tandingan",
+        "example": "A counterargument must be answered.",
+        "exampleId": "Argumen tandingan harus dijawab."
+      },
+      {
+        "no": 6,
+        "en": "concession",
+        "pronunciationId": "kun-SESH-un (tekanan di SESH)",
+        "pos": "Noun",
+        "meaningId": "pengakuan, konsesi",
+        "example": "The concession makes the essay fair.",
+        "exampleId": "Pengakuan itu membuat esainya adil."
+      },
+      {
+        "no": 7,
+        "en": "alternatively",
+        "pronunciationId": "awl-TUR-nuh-tiv-lee (tekanan di TUR)",
+        "pos": "Adv",
+        "meaningId": "sebagai alternatif",
+        "example": "Alternatively, we could walk.",
+        "exampleId": "Sebagai alternatif, kita bisa berjalan kaki."
+      },
+      {
+        "no": 8,
+        "en": "debate",
+        "pronunciationId": "di-BAYT (tekanan di BAYT)",
+        "pos": "Noun",
+        "meaningId": "perdebatan",
+        "example": "The debate continues.",
+        "exampleId": "Perdebatannya terus berlanjut."
+      },
+      {
+        "no": 9,
+        "en": "scrutinize",
+        "pronunciationId": "SKROO-ti-nyz (tekanan di SKROO)",
+        "pos": "Verb",
+        "meaningId": "memeriksa dengan cermat",
+        "example": "Scrutinize the data first.",
+        "exampleId": "Periksa datanya dengan cermat lebih dulu."
+      },
+      {
+        "no": 10,
+        "en": "reconcile",
+        "pronunciationId": "REK-un-sail (tekanan di REK)",
+        "pos": "Verb",
+        "meaningId": "menyatukan, mendamaikan",
+        "example": "We can reconcile the views.",
+        "exampleId": "Kita bisa menyatukan pandangan itu."
+      }
+    ],
+    "tip": "Dalam discussion essay, sajikan dua sisi dengan adil, lalu nyatakan posisi sendiri dan satukan kedua sisi dalam kesimpulan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 2 discussion essay",
+        "IELTS discussion essay structure"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang discussion essay, dengan contoh cara menyajikan dua sisi dan menyatukannya dalam kesimpulan.",
+      "watchFor": [
+        "Dua sisi dijelaskan dengan adil",
+        "Kata penghubung untuk pandangan berlawanan",
+        "Kesimpulan yang menyatukan kedua sisi"
+      ]
+    },
+    "lesson": {
+      "intro": "Discussion essay menyajikan dua sudut pandang tentang sebuah isu, lalu meminta kamu menilai atau menyatukannya. Kunci keberhasilannya adalah keseimbangan: kedua sisi harus dijelaskan dengan adil sebelum kamu memberi pandanganmu sendiri.",
+      "sections": [
+        {
+          "heading": "Dua sudut pandang",
+          "bodyMd": "Jelaskan setiap **perspective** dengan **merit** dan **drawback**-nya. Jangan memberi porsi yang terlalu berbeda untuk kedua sisi."
+        },
+        {
+          "heading": "Argumen tandingan",
+          "bodyMd": "Sebut **counterpoint** atau **counterargument** dengan jelas. Gunakan **concession** untuk mengakui bahwa sisi lain punya kebenaran, lalu tetap jelaskan posisimu."
+        },
+        {
+          "heading": "Kesimpulan",
+          "bodyMd": "Gunakan **alternatively** untuk menawarkan jalan lain. **Scrutinize** bukti sebelum menulis, lalu **reconcile** kedua pandangan dalam kesimpulan yang seimbang."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Sudut pandang",
+          "pattern": "Some people believe that X. Others argue that Y."
+        },
+        {
+          "label": "Kelebihan",
+          "pattern": "The main merit of X is its strength, while the drawback is its weakness"
+        },
+        {
+          "label": "Konsesi",
+          "pattern": "It is true that X, but Y"
+        },
+        {
+          "label": "Kesimpulan",
+          "pattern": "Both views have value, so a balanced approach is best"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "Some people believe that cities should limit cars.",
+            "id": "Sebagian orang percaya bahwa kota sebaiknya membatasi mobil."
+          },
+          {
+            "en": "The main merit of this plan is its low cost.",
+            "id": "Kelebihan utama rencana ini adalah biayanya yang rendah."
+          },
+          {
+            "en": "It is true that the policy is costly, but it helps the poor.",
+            "id": "Memang benar kebijakan itu mahal, tetapi membantu orang miskin."
+          },
+          {
+            "en": "Alternatively, the city could build more bus lanes.",
+            "id": "Sebagai alternatif, kota bisa membangun lebih banyak jalur bus."
+          },
+          {
+            "en": "Both views have value, so a balanced approach is best.",
+            "id": "Kedua pandangan punya nilai, jadi pendekatan seimbang paling baik."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The counterargument does not destroy the main claim.",
+            "id": "Argumen tandingan itu tidak menghancurkan klaim utama."
+          },
+          {
+            "en": "The plan has no drawback at all.",
+            "id": "Rencana itu sama sekali tidak punya kelemahan."
+          },
+          {
+            "en": "The essay does not ignore the other perspective.",
+            "id": "Esai itu tidak mengabaikan sudut pandang lain."
+          },
+          {
+            "en": "The debate is not yet settled.",
+            "id": "Perdebatannya belum selesai."
+          },
+          {
+            "en": "The conclusion does not favour only one side.",
+            "id": "Kesimpulan itu tidak memihak hanya pada satu sisi."
+          }
+        ],
+        "question": [
+          {
+            "en": "What are the two perspectives?",
+            "id": "Apa dua sudut pandangnya?"
+          },
+          {
+            "en": "What is the main merit?",
+            "id": "Apa kelebihan utamanya?"
+          },
+          {
+            "en": "Is there a concession in the essay?",
+            "id": "Apakah ada pengakuan dalam esai itu?"
+          },
+          {
+            "en": "Can the views be reconciled?",
+            "id": "Apakah kedua pandangan itu bisa disatukan?"
+          },
+          {
+            "en": "Has the evidence been scrutinized?",
+            "id": "Apakah buktinya sudah diperiksa dengan cermat?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The perspective are different.",
+          "right": "The perspectives are different.",
+          "whyId": "Dua sudut pandang memakai bentuk jamak perspectives dengan are."
+        },
+        {
+          "wrong": "The main merit of the plan are its cost.",
+          "right": "The main merit of the plan is its cost.",
+          "whyId": "Merit tunggal memakai is."
+        },
+        {
+          "wrong": "Alternatively, we can to walk.",
+          "right": "Alternatively, we can walk.",
+          "whyId": "Setelah can, pakai kata kerja dasar tanpa to."
+        },
+        {
+          "wrong": "The counterpoint is reasonably.",
+          "right": "The counterpoint is reasonable.",
+          "whyId": "Setelah is, pakai kata sifat reasonable."
+        },
+        {
+          "wrong": "We must scrutinizes the data.",
+          "right": "We must scrutinize the data.",
+          "whyId": "Setelah must, pakai kata kerja dasar scrutinize."
+        },
+        {
+          "wrong": "They reconcile the view yesterday.",
+          "right": "They reconciled the views yesterday.",
+          "whyId": "Yesterday memakai bentuk lampau reconciled, dan views jamak."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 2 discussion essay",
+        "tutor explains essay structure English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Penjelasan tutor tentang dua sudut pandang",
+        "Konsesi dan kesimpulan yang seimbang"
+      ]
+    },
+    "script": {
+      "title": "Menyusun discussion essay",
+      "lines": [
+        {
+          "speaker": "Tutor",
+          "text": "Today's topic is the discussion essay. You must present two perspectives on a question, then give your own view."
+        },
+        {
+          "speaker": "Student",
+          "text": "What is the best way to start?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Begin with a short introduction, then present the merit of one view and its drawback."
+        },
+        {
+          "speaker": "Student",
+          "text": "Should I include a counterpoint?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Yes. A counterargument makes your essay stronger. You can add a concession, such as admitting that the other side has some truth."
+        },
+        {
+          "speaker": "Student",
+          "text": "Can I use the word alternatively?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Of course. Alternatively, you may propose a different solution. Also, scrutinize your evidence before you write."
+        },
+        {
+          "speaker": "Student",
+          "text": "What if the two sides cannot agree?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "You can reconcile them by finding a middle position. Many people debate this topic, so your conclusion should be balanced."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks. I will reconcile both views in the last paragraph."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada perspective, tekanan ada di suku pertama: per-SPEK-tiv.",
+      "Pada counterargument, tekanan ada di suku pertama: KOWN-ter-AR-gyoo-ment.",
+      "Pada scrutinize, tekanan ada di suku pertama: SKROO-ti-nyz."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What must a discussion essay present?",
+        "options": [
+          {
+            "id": "A",
+            "text": "two perspectives on a question"
+          },
+          {
+            "id": "B",
+            "text": "one view only"
+          },
+          {
+            "id": "C",
+            "text": "a list of references"
+          },
+          {
+            "id": "D",
+            "text": "a timeline of events"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata discussion essay harus menyajikan dua sudut pandang tentang sebuah pertanyaan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Satu pandangan saja tidak sesuai dengan discussion essay."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Daftar referensi tidak disebut sebagai kewajiban utama."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garis waktu tidak disebut dalam penjelasan tutor."
+          }
+        ],
+        "evidence": "present two perspectives on a question"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does a concession do in an essay?",
+        "options": [
+          {
+            "id": "A",
+            "text": "it attacks the other side"
+          },
+          {
+            "id": "B",
+            "text": "it admits that the other side has some truth"
+          },
+          {
+            "id": "C",
+            "text": "it ends the essay"
+          },
+          {
+            "id": "D",
+            "text": "it lists the references"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata konsesi mengakui bahwa sisi lain punya kebenaran.",
+        "stepByStep": [
+          "Cari concession di naskah tutor.",
+          "Tutor menyebut konsesi sebagai pengakuan bahwa sisi lain punya kebenaran.",
+          "Menyerang sisi lain, mengakhiri esai, dan mendaftar referensi tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Menyerang sisi lain bertentangan dengan konsesi."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Konsesi tidak mengakhiri esai."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Referensi tidak berkaitan dengan konsesi."
+          }
+        ],
+        "evidence": "admitting that the other side has some truth"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "How can the student reconcile two views?",
+        "options": [
+          {
+            "id": "A",
+            "text": "ignore one of them"
+          },
+          {
+            "id": "B",
+            "text": "repeat the first view"
+          },
+          {
+            "id": "C",
+            "text": "find a middle position"
+          },
+          {
+            "id": "D",
+            "text": "omit the conclusion"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata mahasiswa bisa menyatukan pandangan dengan mencari posisi tengah.",
+        "stepByStep": [
+          "Cari reconcile di naskah tutor.",
+          "Tutor menyarankan mencari posisi tengah.",
+          "Mengabaikan salah satu, mengulang pandangan pertama, dan menghilangkan kesimpulan tidak sesuai dengan saran itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Mengabaikan salah satu pandangan bertentangan dengan keseimbangan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Mengulang pandangan pertama tidak menyatukan kedua sisi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Menghilangkan kesimpulan tidak membantu menyatukan pandangan."
+          }
+        ],
+        "evidence": "finding a middle position"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "According to the tutor, what should the student do before writing?",
+        "options": [
+          {
+            "id": "A",
+            "text": "scrutinize the evidence"
+          },
+          {
+            "id": "B",
+            "text": "skip the introduction"
+          },
+          {
+            "id": "C",
+            "text": "choose only one side"
+          },
+          {
+            "id": "D",
+            "text": "count the paragraphs"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tutor berkata 'scrutinize your evidence before you write', artinya bukti harus diperiksa dengan cermat sebelum menulis.",
+        "stepByStep": [
+          "Cari before you write di naskah tutor.",
+          "Tutor menyarankan memeriksa bukti dengan cermat.",
+          "Melewatkan pembukaan, memilih satu sisi, dan menghitung paragraf tidak disebut sebagai langkah awal."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Tutor menyarankan pembukaan singkat, bukan melewatkannya."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tutor meminta dua sisi, bukan hanya satu."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Menghitung paragraf tidak disebut dalam saran tutor."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Scrutinize berarti memeriksa dengan cermat untuk memastikan kebenaran dan kekuatan bukti.",
+          "examples": [
+            {
+              "en": "Scrutinize the source before you cite it.",
+              "id": "Periksa sumbernya dengan cermat sebelum kamu mengutipnya."
+            },
+            {
+              "en": "The editor scrutinized every claim.",
+              "id": "Editor itu memeriksa setiap klaim dengan cermat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D count the paragraphs terlihat seperti persiapan yang masuk akal, tetapi tutor menyebut pemeriksaan bukti.",
+        "evidence": "scrutinize your evidence before you write"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What is the tutor's advice about the conclusion?",
+        "options": [
+          {
+            "id": "A",
+            "text": "it should be one-sided"
+          },
+          {
+            "id": "B",
+            "text": "it should be balanced"
+          },
+          {
+            "id": "C",
+            "text": "it should attack the counterpoint"
+          },
+          {
+            "id": "D",
+            "text": "it should be left out"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tutor berkata kesimpulan harus seimbang karena banyak orang memperdebatkan topik ini.",
+        "stepByStep": [
+          "Cari conclusion atau balanced di naskah tutor.",
+          "Tutor menyebut kesimpulan harus seimbang.",
+          "Searah, menyerang sisi lain, dan dihilangkan tidak sesuai dengan saran tutor."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Kesimpulan satu sisi bertentangan dengan saran tutor."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Menyerang sisi lain bertentangan dengan keseimbangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kesimpulan tidak dihilangkan dalam saran tutor."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kesimpulan discussion essay harus menimbang kedua sisi dan tidak memihak secara berlebihan.",
+          "examples": [
+            {
+              "en": "Both views have merit, so the conclusion is balanced.",
+              "id": "Kedua pandangan punya kelebihan, jadi kesimpulannya seimbang."
+            },
+            {
+              "en": "A balanced conclusion reflects both sides.",
+              "id": "Kesimpulan yang seimbang mencerminkan kedua sisi."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat meyakinkan karena esai sering memihak, tetapi tutor meminta kesimpulan yang seimbang.",
+        "evidence": "your conclusion should be balanced"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "A good essay should consider both sides of the ___.",
+        "options": [
+          {
+            "id": "A",
+            "text": "debate"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Debate berarti perdebatan, yaitu pertukaran pandangan tentang suatu isu.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan perdebatan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan perdebatan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan perdebatan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The writer gave a clear ___ of the policy's benefits and risks.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "perspective"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Perspective adalah sudut pandang yang menjelaskan cara melihat isu.",
+        "stepByStep": [
+          "Kalimat menyebut penjelasan dari sudut pandang tentang manfaat dan risiko.",
+          "Cara melihat suatu isu disebut perspective.",
+          "Garden, bridge, dan ticket tidak berarti sudut pandang."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan sudut pandang."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan sudut pandang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan sudut pandang."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Every idea has a ___, so we must weigh the costs carefully.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "merit"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Merit adalah kelebihan atau nilai positif dari sebuah ide.",
+        "stepByStep": [
+          "Kalimat menyebut nilai positif yang dimiliki setiap ide.",
+          "Nilai positif sebuah ide disebut merit.",
+          "Garden, ticket, dan bridge tidak berarti nilai positif."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan nilai positif."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan nilai positif."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan nilai positif."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The main ___ of this plan is that it is very expensive.",
+        "options": [
+          {
+            "id": "A",
+            "text": "concession"
+          },
+          {
+            "id": "B",
+            "text": "merit"
+          },
+          {
+            "id": "C",
+            "text": "drawback"
+          },
+          {
+            "id": "D",
+            "text": "counterpoint"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Drawback adalah kelemahan atau kekurangan, dan kalimat ini menyebut biaya yang mahal.",
+        "stepByStep": [
+          "Kalimat menyebut kekurangan utama rencana: biaya yang mahal.",
+          "Kekurangan atau kelemahan disebut drawback.",
+          "Concession adalah pengakuan, merit adalah kelebihan, dan counterpoint adalah poin tandingan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Concession adalah pengakuan, bukan kelemahan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Merit adalah kelebihan, bertentangan dengan kalimat ini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Counterpoint adalah poin tandingan, bukan kelemahan rencana."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Drawback adalah kelemahan yang perlu dipertimbangkan dalam sebuah rencana atau pilihan.",
+          "examples": [
+            {
+              "en": "The drawback of the bus lane is the traffic jam.",
+              "id": "Kelemahan jalur bus adalah kemacetan."
+            },
+            {
+              "en": "A major drawback is the cost.",
+              "id": "Kelemahan besarnya adalah biaya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B merit terlihat cocok karena juga membahas nilai rencana, tetapi kalimat ini menyebut kekurangan yang utama."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "We should ___ the report carefully before we accept its conclusions.",
+        "options": [
+          {
+            "id": "A",
+            "text": "reconcile"
+          },
+          {
+            "id": "B",
+            "text": "debate"
+          },
+          {
+            "id": "C",
+            "text": "alternatively"
+          },
+          {
+            "id": "D",
+            "text": "scrutinize"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Scrutinize berarti memeriksa dengan cermat sebelum menerima kesimpulan.",
+        "stepByStep": [
+          "Kalimat meminta pemeriksaan sebelum menerima kesimpulan.",
+          "Memeriksa dengan cermat disebut scrutinize.",
+          "Reconcile berarti menyatukan, debate berarti berdebat, dan alternatively berarti sebagai alternatif."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Reconcile berarti menyatukan pandangan, bukan memeriksa."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Debate berarti berdebat, bukan memeriksa dengan cermat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Alternatively adalah kata keterangan, tidak bisa menjadi kata kerja di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Scrutinize dipakai saat sesuatu perlu diperiksa dengan teliti sebelum dipercaya.",
+          "examples": [
+            {
+              "en": "Scrutinize the figures before you publish them.",
+              "id": "Periksa angkanya dengan teliti sebelum kamu menerbitkannya."
+            },
+            {
+              "en": "The panel scrutinized the proposal.",
+              "id": "Panel itu memeriksa usulan itu dengan cermat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A reconcile terlihat cocok karena kesimpulan sering menyatukan pandangan, tetapi kalimat ini meminta pemeriksaan sebelum menerima."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kedua sudut pandang ini layak dipertimbangkan.",
+        "hint": "Kedua sudut pandang: both perspectives. Layak dipertimbangkan: deserve consideration.",
+        "acceptedAnswers": [
+          "Both perspectives deserve consideration.",
+          "Both views deserve consideration."
+        ],
+        "modelAnswer": "Both perspectives deserve consideration.",
+        "commonErrors": [
+          {
+            "pattern": "Both perspective deserves consideration",
+            "feedbackId": "Gunakan perspectives jamak untuk dua sudut pandang dengan deserve."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Argumen tandingan ini perlu dijawab dengan bukti.",
+        "hint": "Argumen tandingan ini: this counterargument. Perlu dijawab: needs to be answered. Dengan bukti: with evidence.",
+        "acceptedAnswers": [
+          "This counterargument needs to be answered with evidence.",
+          "This counterargument must be answered with evidence."
+        ],
+        "modelAnswer": "This counterargument needs to be answered with evidence.",
+        "commonErrors": [
+          {
+            "pattern": "This counterargument need to answer with evidence",
+            "feedbackId": "Subjek counterargument tunggal memakai needs, dan setelah be memakai answered."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kelebihan kebijakan ini adalah biayanya yang rendah.",
+        "hint": "Kelebihan: the merit. Kebijakan ini: of this policy. Biayanya yang rendah: its low cost.",
+        "acceptedAnswers": [
+          "The merit of this policy is its low cost.",
+          "The main merit of this policy is its low cost."
+        ],
+        "modelAnswer": "The merit of this policy is its low cost.",
+        "commonErrors": [
+          {
+            "pattern": "The merit of this policy are its low cost",
+            "feedbackId": "Subjek merit tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penulis mengakui kelemahan itu, tetapi tetap mendukung kebijakan.",
+        "hint": "Penulis: the writer. Mengakui: makes a concession about. Kelemahan itu: the drawback. Tetap mendukung: still supports. Kebijakan: the policy.",
+        "acceptedAnswers": [
+          "The writer makes a concession about the drawback, but still supports the policy.",
+          "The writer concedes the drawback, but still supports the policy."
+        ],
+        "modelAnswer": "The writer makes a concession about the drawback, but still supports the policy.",
+        "commonErrors": [
+          {
+            "pattern": "The writer make a concession about the drawback but still support the policy",
+            "feedbackId": "Subjek writer tunggal memakai makes dan supports."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kita perlu menyatukan kedua pandangan itu dalam kesimpulan.",
+        "hint": "Kita perlu: we need to. Menyatukan: reconcile. Kedua pandangan: the two views. Dalam kesimpulan: in the conclusion.",
+        "acceptedAnswers": [
+          "We need to reconcile both views in the conclusion.",
+          "We need to reconcile the two views in the conclusion."
+        ],
+        "modelAnswer": "We need to reconcile both views in the conclusion.",
+        "commonErrors": [
+          {
+            "pattern": "We need reconcile both views in conclusion",
+            "feedbackId": "Setelah need to, pakai kata kerja dasar reconcile, dan gunakan the conclusion."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to examine something very carefully'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "debate"
+          },
+          {
+            "id": "B",
+            "text": "scrutinize"
+          },
+          {
+            "id": "C",
+            "text": "merit"
+          },
+          {
+            "id": "D",
+            "text": "concession"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Scrutinize berarti memeriksa sesuatu dengan sangat cermat.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk memeriksa dengan sangat cermat.",
+          "Kata kerja yang tepat adalah scrutinize.",
+          "Debate berarti berdebat, merit berarti kelebihan, dan concession berarti pengakuan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Debate berarti berdebat, bukan memeriksa dengan cermat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Merit berarti kelebihan, bukan memeriksa."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Concession berarti pengakuan, bukan memeriksa."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Scrutinize dipakai untuk pemeriksaan yang teliti terhadap bukti, data, atau argumen.",
+          "examples": [
+            {
+              "en": "Scrutinize the argument for weak points.",
+              "id": "Periksa argumen itu dengan cermat untuk mencari titik lemah."
+            },
+            {
+              "en": "Editors scrutinize every submission.",
+              "id": "Editor memeriksa setiap naskah dengan cermat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A debate terlihat cocok karena esai membahas perdebatan, tetapi debate tidak berarti pemeriksaan teliti."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'alternatively'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Alternatively are the options two."
+          },
+          {
+            "id": "B",
+            "text": "The alternatively option is two."
+          },
+          {
+            "id": "C",
+            "text": "Alternatively the option the is."
+          },
+          {
+            "id": "D",
+            "text": "Alternatively, we could build a new park instead."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Alternatively diletakkan di awal kalimat dengan koma, lalu diikuti klausa yang lengkap.",
+        "stepByStep": [
+          "Alternatively dipakai sebagai kata keterangan pembuka dengan koma.",
+          "Klausa we could build a new park instead sudah lengkap.",
+          "Pilihan A, B, dan C memiliki urutan kata yang salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Alternatively bukan kata sifat untuk option."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Alternatively adalah kata keterangan yang menawarkan pilihan lain, biasanya di awal kalimat dengan koma.",
+          "examples": [
+            {
+              "en": "Alternatively, the city could use buses.",
+              "id": "Sebagai alternatif, kota bisa memakai bus."
+            },
+            {
+              "en": "Alternatively, we can meet online.",
+              "id": "Sebagai alternatif, kita bisa bertemu daring."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti bentuk yang benar karena kata alternatif dipakai sebagai sifat, tetapi alternatively adalah kata keterangan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to bring two opposing ideas into agreement'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "reconcile"
+          },
+          {
+            "id": "B",
+            "text": "debate"
+          },
+          {
+            "id": "C",
+            "text": "drawback"
+          },
+          {
+            "id": "D",
+            "text": "perspective"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Reconcile berarti menyatukan dua pandangan yang bertentangan agar sejalan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk menyatukan pandangan yang bertentangan.",
+          "Kata kerja yang tepat adalah reconcile.",
+          "Debate, drawback, dan perspective tidak berarti menyatukan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Debate berarti berdebat, bukan menyatukan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Drawback berarti kelemahan, bukan menyatukan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Perspective berarti sudut pandang, bukan tindakan menyatukan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reconcile dipakai untuk menyatukan gagasan, pihak, atau catatan yang berbeda.",
+          "examples": [
+            {
+              "en": "The two teams reconciled their plans.",
+              "id": "Kedua tim menyatukan rencana mereka."
+            },
+            {
+              "en": "We need to reconcile the data sources.",
+              "id": "Kita perlu menyatukan sumber data itu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B debate terlihat dekat karena dua pandangan memang saling berdebat, tetapi kata yang diminta berarti menyatukan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ of the plan is that it takes too long.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "merit"
+          },
+          {
+            "id": "B",
+            "text": "concession"
+          },
+          {
+            "id": "C",
+            "text": "drawback"
+          },
+          {
+            "id": "D",
+            "text": "counterargument"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Drawback adalah kelemahan, dan kalimat ini menyebut rencana yang memakan waktu terlalu lama.",
+        "stepByStep": [
+          "Kalimat menyebut kelemahan rencana, yaitu waktu yang terlalu lama.",
+          "Kelemahan disebut drawback.",
+          "Merit adalah kelebihan, concession adalah pengakuan, dan counterargument adalah argumen tandingan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Merit adalah kelebihan, bertentangan dengan kelemahan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Concession adalah pengakuan, bukan kelemahan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Counterargument adalah argumen tandingan, bukan kelemahan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Drawback menyatakan kelemahan atau efek negatif dari sebuah pilihan.",
+          "examples": [
+            {
+              "en": "The drawback of this method is its slowness.",
+              "id": "Kelemahan metode ini adalah kelambatannya."
+            },
+            {
+              "en": "One drawback is the high cost.",
+              "id": "Salah satu kelemahannya adalah biaya yang tinggi."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D counterargument terlihat cocok karena menyangkut kritik terhadap rencana, tetapi kata yang diminta menunjukkan kelemahan rencana."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The perspectives is different in the debate."
+          },
+          {
+            "id": "B",
+            "text": "The perspectives are different in the debate."
+          },
+          {
+            "id": "C",
+            "text": "The perspective are different in the debate."
+          },
+          {
+            "id": "D",
+            "text": "The perspectives was different in the debate."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek perspectives jamak memakai are, dan different menjelaskan perbedaannya.",
+        "stepByStep": [
+          "Subjek perspectives jamak, sehingga memakai are.",
+          "Different menjelaskan keadaan kedua sudut pandang.",
+          "Pilihan A dan D memakai is atau was untuk jamak, dan pilihan C memakai perspective tunggal dengan are."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Is tidak cocok dengan subjek jamak perspectives."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Perspective tunggal tidak cocok dengan are untuk dua sudut pandang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Was tidak cocok dengan subjek jamak perspectives."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek jamak memakai are atau were, dan kata sifat menjelaskan keadaannya.",
+          "examples": [
+            {
+              "en": "The views are different on this issue.",
+              "id": "Pandangan-pandangan itu berbeda dalam isu ini."
+            },
+            {
+              "en": "The perspectives were different last year.",
+              "id": "Sudut pandang itu berbeda tahun lalu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena perspectives sering dibicarakan tunggal, tetapi subjek kalimat ini jamak."
+      }
+    ]
+  }
+}

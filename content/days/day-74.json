@@ -1,0 +1,1274 @@
+{
+  "day": 74,
+  "week": 10,
+  "month": 3,
+  "title": "Review Minggu 10",
+  "topic": "Review: IELTS Writing Task 1",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang tren, bar chart, dan pie chart",
+    "Meninjau ulang proses, peta, dan gambaran umum",
+    "Meninjau ulang kata untuk perubahan dan selisih"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "trend",
+        "pronunciationId": "TREND (tekanan di TREND)",
+        "pos": "Noun",
+        "meaningId": "tren",
+        "example": "The trend is clear.",
+        "exampleId": "Trennya jelas."
+      },
+      {
+        "no": 2,
+        "en": "bar chart",
+        "pronunciationId": "BAR CHART (tekanan di BAR)",
+        "pos": "Noun",
+        "meaningId": "diagram batang",
+        "example": "The bar chart is easy to read.",
+        "exampleId": "Diagram batang itu mudah dibaca."
+      },
+      {
+        "no": 3,
+        "en": "slice",
+        "pronunciationId": "SLAIS (tekanan di SLAIS)",
+        "pos": "Noun",
+        "meaningId": "irisan",
+        "example": "The largest slice is blue.",
+        "exampleId": "Irisan terbesar berwarna biru."
+      },
+      {
+        "no": 4,
+        "en": "cycle",
+        "pronunciationId": "SAI-kul (tekanan di SAI)",
+        "pos": "Noun",
+        "meaningId": "siklus",
+        "example": "The cycle repeats every year.",
+        "exampleId": "Siklusnya berulang setiap tahun."
+      },
+      {
+        "no": 5,
+        "en": "redevelop",
+        "pronunciationId": "ree-di-VEL-up (tekanan di VEL)",
+        "pos": "Verb",
+        "meaningId": "membangun ulang",
+        "example": "They will redevelop the park.",
+        "exampleId": "Mereka akan membangun ulang taman itu."
+      },
+      {
+        "no": 6,
+        "en": "overall",
+        "pronunciationId": "OH-ver-ol (tekanan di OH)",
+        "pos": "Adv",
+        "meaningId": "secara keseluruhan",
+        "example": "Overall, the numbers rose.",
+        "exampleId": "Secara keseluruhan, angkanya naik."
+      },
+      {
+        "no": 7,
+        "en": "rise",
+        "pronunciationId": "RAIZ (tekanan di RAIZ)",
+        "pos": "Noun",
+        "meaningId": "kenaikan",
+        "example": "The rise was gradual.",
+        "exampleId": "Kenaikannya bertahap."
+      },
+      {
+        "no": 8,
+        "en": "significant",
+        "pronunciationId": "sig-NIF-i-kunt (tekanan di NIF)",
+        "pos": "Adj",
+        "meaningId": "berarti besar",
+        "example": "The change is significant.",
+        "exampleId": "Perubahannya berarti besar."
+      },
+      {
+        "no": 9,
+        "en": "breakdown",
+        "pronunciationId": "BREK-down (tekanan di BREK)",
+        "pos": "Noun",
+        "meaningId": "rincian",
+        "example": "The breakdown is useful.",
+        "exampleId": "Rincian itu berguna."
+      },
+      {
+        "no": 10,
+        "en": "notably",
+        "pronunciationId": "NOH-tuh-blee (tekanan di NOH)",
+        "pos": "Adv",
+        "meaningId": "terutama, mencolok",
+        "example": "Notably, the peak was in June.",
+        "exampleId": "Terutama, puncaknya pada bulan Juni."
+      }
+    ],
+    "tip": "Dalam review, cek tiga hal: apakah kamu menyebut arah umum, apakah selisihnya dijelaskan dengan kata yang tepat, dan apakah kamu memakai bentuk kata yang benar."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 practice",
+        "IELTS writing task 1 tips"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum cara menulis tren, bar chart, pie chart, proses, dan peta untuk Writing Task 1.",
+      "watchFor": [
+        "Kalimat pembuka yang merangkum",
+        "Kata untuk selisih besar dan kecil",
+        "Bentuk kata benda dan kata kerja yang benar"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 10 membahas cara menulis Writing Task 1 dari berbagai jenis grafik. Sesi review ini menyatukan pola, kosakata, dan bentuk kata dalam satu percakapan.",
+      "sections": [
+        {
+          "heading": "Tren dan rincian",
+          "bodyMd": "Sebutkan **trend** secara **overall**. Gunakan **rise** untuk kenaikan dan **breakdown** untuk rincian per kategori."
+        },
+        {
+          "heading": "Selisih dan titik penting",
+          "bodyMd": "Gunakan **significant** untuk selisih besar dan **notably** untuk titik yang mencolok. Jika bagian lingkaran terbesar, sebut **slice** itu."
+        },
+        {
+          "heading": "Proses, peta, dan siklus",
+          "bodyMd": "Dalam diagram proses, **cycle** menunjukkan pengulangan. Dalam peta, pilih kata yang tepat untuk **redevelop** dan perubahan lainnya."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Pembuka",
+          "pattern": "Overall, X rose / fell over the period"
+        },
+        {
+          "label": "Rincian",
+          "pattern": "the breakdown shows X, Y, and Z"
+        },
+        {
+          "label": "Titik",
+          "pattern": "Notably, the peak was in A"
+        },
+        {
+          "label": "Selisih",
+          "pattern": "X was significantly higher than Y"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The trend is upward for most of the period.",
+            "id": "Tren naik untuk sebagian besar periode."
+          },
+          {
+            "en": "The largest slice belongs to electricity.",
+            "id": "Irisan terbesar milik listrik."
+          },
+          {
+            "en": "Notably, the rise was sharp in 2018.",
+            "id": "Terutama, kenaikannya tajam pada 2018."
+          },
+          {
+            "en": "The breakdown shows three categories.",
+            "id": "Rincian itu menunjukkan tiga kategori."
+          },
+          {
+            "en": "The town will redevelop the centre.",
+            "id": "Kota itu akan membangun ulang pusatnya."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The trend does not change in the last year.",
+            "id": "Tren itu tidak berubah pada tahun terakhir."
+          },
+          {
+            "en": "The difference is not significant.",
+            "id": "Selisihnya tidak berarti besar."
+          },
+          {
+            "en": "The bar chart does not show the price.",
+            "id": "Diagram batang itu tidak menunjukkan harga."
+          },
+          {
+            "en": "The cycle is not repeated every month.",
+            "id": "Siklusnya tidak diulang setiap bulan."
+          },
+          {
+            "en": "The breakdown is not given for each region.",
+            "id": "Rincian tidak diberikan untuk setiap wilayah."
+          }
+        ],
+        "question": [
+          {
+            "en": "What is the overall trend?",
+            "id": "Apa tren secara keseluruhan?"
+          },
+          {
+            "en": "Which slice is the largest?",
+            "id": "Irisan mana yang paling besar?"
+          },
+          {
+            "en": "Is the difference significant?",
+            "id": "Apakah selisihnya berarti besar?"
+          },
+          {
+            "en": "What does the breakdown show?",
+            "id": "Apa yang ditunjukkan rincian itu?"
+          },
+          {
+            "en": "Was the area redeveloped?",
+            "id": "Apakah kawasan itu dibangun ulang?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The trend are upward.",
+          "right": "The trend is upward.",
+          "whyId": "Trend adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The largest slice are blue.",
+          "right": "The largest slice is blue.",
+          "whyId": "Slice tunggal memakai is."
+        },
+        {
+          "wrong": "The breakdown show three categories.",
+          "right": "The breakdown shows three categories.",
+          "whyId": "Subjek breakdown tunggal memakai shows."
+        },
+        {
+          "wrong": "The rise were gradual.",
+          "right": "The rise was gradual.",
+          "whyId": "Rise tunggal memakai was."
+        },
+        {
+          "wrong": "The town redevelop the centre last year.",
+          "right": "The town redeveloped the centre last year.",
+          "whyId": "Keterangan waktu lampau memakai bentuk lampau redeveloped."
+        },
+        {
+          "wrong": "A significant difference are shown.",
+          "right": "A significant difference is shown.",
+          "whyId": "Difference tunggal memakai is."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 practice",
+        "study group writing English"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Dua mahasiswa mengulang tren, rincian, dan selisih",
+        "Kata untuk perubahan dan titik penting"
+      ]
+    },
+    "script": {
+      "title": "Mengulang Writing Task 1",
+      "lines": [
+        {
+          "speaker": "Student A",
+          "text": "Let's review week ten. Describe the trend in this bar chart for me."
+        },
+        {
+          "speaker": "Student B",
+          "text": "Overall, the trend is upward. The rise was steady, and notably the peak came in the last year."
+        },
+        {
+          "speaker": "Student A",
+          "text": "Good. What about the pie chart? Which slice is the biggest?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "The largest slice is the first category. The breakdown shows that it accounts for almost half of the total."
+        },
+        {
+          "speaker": "Student A",
+          "text": "And the difference between the categories?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "The difference is significant, not slight. Be careful, though, because the figures in the table are not the same as the chart."
+        },
+        {
+          "speaker": "Student A",
+          "text": "For the process diagram, how do I describe the cycle?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "Say that the process repeats. The water is reused, so the cycle starts again after the final stage."
+        },
+        {
+          "speaker": "Student A",
+          "text": "And the map? Did the council redevelop the centre?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "Yes, the centre was redeveloped, but the river layout did not change. Describe that clearly in your answer."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada significant, tekanan ada di suku kedua: sig-NIF-i-kunt.",
+      "Pada redevelop, ucapkan awalan re- dengan jelas: ree-di-VEL-up.",
+      "Pada breakdown, tekanan ada di suku pertama: BREK-down."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "How does the first student describe the overall trend?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The trend is downward."
+          },
+          {
+            "id": "B",
+            "text": "The trend is upward."
+          },
+          {
+            "id": "C",
+            "text": "The trend is flat."
+          },
+          {
+            "id": "D",
+            "text": "The trend is unclear."
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata 'Overall, the trend is upward', artinya tren keseluruhannya naik.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Tren menurun tidak disebut dalam percakapan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tren datar tidak disebut dalam percakapan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tren disebut jelas, yaitu naik."
+          }
+        ],
+        "evidence": "Overall, the trend is upward"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does the breakdown show about the first category?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It is the smallest category."
+          },
+          {
+            "id": "B",
+            "text": "It accounts for almost half of the total."
+          },
+          {
+            "id": "C",
+            "text": "It is not in the chart."
+          },
+          {
+            "id": "D",
+            "text": "It is the same size as the others."
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata breakdown menunjukkan bahwa kategori itu menyumbang hampir separuh total.",
+        "stepByStep": [
+          "Cari breakdown di naskah.",
+          "Mahasiswa B menyebut accounts for almost half of the total.",
+          "Kategori terkecil, tidak ada di diagram, dan sama besar tidak sesuai dengan penjelasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Kategori itu disebut sebagai bagian terbesar, bukan terkecil."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Kategori itu jelas ada dalam diagram."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kategori itu disebut lebih besar dari yang lain."
+          }
+        ],
+        "evidence": "accounts for almost half of the total"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "How does the second student describe the difference between the categories?",
+        "options": [
+          {
+            "id": "A",
+            "text": "not significant"
+          },
+          {
+            "id": "B",
+            "text": "significant, not slight"
+          },
+          {
+            "id": "C",
+            "text": "unchanged"
+          },
+          {
+            "id": "D",
+            "text": "gradual"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata 'The difference is significant, not slight', artinya selisihnya besar, bukan kecil.",
+        "stepByStep": [
+          "Cari difference di naskah.",
+          "Mahasiswa B menyebut significant, not slight.",
+          "Tidak signifikan, tetap, dan bertahap tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Mahasiswa B menyebut selisihnya signifikan, bukan tidak signifikan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Selisih tidak disebut tetap."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Selisih tidak disebut bertahap dalam bagian ini."
+          }
+        ],
+        "evidence": "The difference is significant, not slight"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the second student say about the cycle in the process diagram?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The cycle does not repeat."
+          },
+          {
+            "id": "B",
+            "text": "The process repeats, and the cycle starts again after the final stage."
+          },
+          {
+            "id": "C",
+            "text": "The cycle ends with the first stage."
+          },
+          {
+            "id": "D",
+            "text": "The cycle is only in the map."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata 'the process repeats and the cycle starts again after the final stage', artinya prosesnya berulang.",
+        "stepByStep": [
+          "Cari cycle di naskah mahasiswa B.",
+          "Mahasiswa B menyebut proses berulang dan siklus dimulai lagi setelah tahap akhir.",
+          "Siklus tidak berulang, berakhir pada tahap pertama, dan hanya ada di peta tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Mahasiswa B menyebut proses berulang, bukan tidak berulang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Siklus dimulai lagi setelah tahap akhir, bukan berakhir pada tahap pertama."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Siklus disebut untuk diagram proses, bukan peta."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cycle menunjukkan proses yang berulang dari awal setelah tahap akhir.",
+          "examples": [
+            {
+              "en": "The cycle repeats every year.",
+              "id": "Siklusnya berulang setiap tahun."
+            },
+            {
+              "en": "The process starts again after the last stage.",
+              "id": "Prosesnya dimulai lagi setelah tahap terakhir."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat masuk akal karena proses sering berakhir di tahap terakhir, tetapi mahasiswa B menjelaskan bahwa siklus dimulai lagi.",
+        "evidence": "the cycle starts again after the final stage"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the second student say about the river layout on the map?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It was redeveloped."
+          },
+          {
+            "id": "B",
+            "text": "It was demolished."
+          },
+          {
+            "id": "C",
+            "text": "It did not change."
+          },
+          {
+            "id": "D",
+            "text": "It was relocated to the north."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Mahasiswa B berkata 'the river layout did not change', artinya tata letak sungai tidak berubah.",
+        "stepByStep": [
+          "Cari river di naskah mahasiswa B.",
+          "Mahasiswa B menyebut tata letak sungai tidak berubah.",
+          "Dibangun ulang, dirobohkan, dan dipindahkan tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Kawasan pusat dibangun ulang, bukan sungainya."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Sungai tidak disebut dirobohkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Sungai tidak disebut dipindahkan ke utara."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Did not change berarti bagian itu tetap sama dan perlu disebut secara jelas dalam jawaban.",
+          "examples": [
+            {
+              "en": "The river layout did not change.",
+              "id": "Tata letak sungai tidak berubah."
+            },
+            {
+              "en": "The main road remained the same.",
+              "id": "Jalan utama tetap sama."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena pusat kota memang dibangun ulang, tetapi mahasiswa B menyebut sungainya tidak berubah.",
+        "evidence": "the river layout did not change"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the chart is upward, so the numbers rose each year.",
+        "options": [
+          {
+            "id": "A",
+            "text": "trend"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "bridge"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Trend adalah arah umum perubahan dalam grafik.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan arah umum grafik."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Bridge berarti jembatan, bukan arah umum grafik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan arah umum grafik."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The ___ of the budget shows how each cost adds up to the total.",
+        "options": [
+          {
+            "id": "A",
+            "text": "breakdown"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Breakdown adalah rincian yang menunjukkan setiap biaya dalam total.",
+        "stepByStep": [
+          "Kalimat menyebut rincian setiap biaya.",
+          "Rincian yang menyusun total disebut breakdown.",
+          "Bridge, garden, dan ticket tidak berarti rincian."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan rincian."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan rincian."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan rincian."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The council plans to ___ the old square into a new public park.",
+        "options": [
+          {
+            "id": "A",
+            "text": "redevelop"
+          },
+          {
+            "id": "B",
+            "text": "slice"
+          },
+          {
+            "id": "C",
+            "text": "cycle"
+          },
+          {
+            "id": "D",
+            "text": "rise"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Redevelop berarti membangun ulang kawasan, dan kalimat ini menyebut alun-alun lama menjadi taman baru.",
+        "stepByStep": [
+          "Kalimat menyebut alun-alun lama diubah menjadi taman baru.",
+          "Membangun ulang kawasan disebut redevelop.",
+          "Slice, cycle, dan rise tidak berarti membangun ulang."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Slice berarti irisan, bukan membangun ulang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Cycle berarti siklus, bukan membangun ulang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Rise berarti kenaikan, bukan membangun ulang."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The increase in sales was ___, with a clear jump after the new product launch.",
+        "options": [
+          {
+            "id": "A",
+            "text": "notably"
+          },
+          {
+            "id": "B",
+            "text": "slice"
+          },
+          {
+            "id": "C",
+            "text": "cycle"
+          },
+          {
+            "id": "D",
+            "text": "trend"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Notably berarti terutama atau mencolok, dan cocok untuk lonjakan yang jelas setelah peluncuran produk.",
+        "stepByStep": [
+          "Kalimat menyebut lonjakan yang jelas setelah peluncuran.",
+          "Kata keterangan yang berarti mencolok adalah notably.",
+          "Slice, cycle, dan trend adalah kata benda, bukan kata keterangan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Slice adalah kata benda, bukan kata keterangan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Cycle adalah kata benda, bukan kata keterangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Trend adalah kata benda, bukan kata keterangan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Notably menyoroti titik yang mencolok atau penting dalam penjelasan.",
+          "examples": [
+            {
+              "en": "Notably, the peak was in June.",
+              "id": "Terutama, puncaknya terjadi pada bulan Juni."
+            },
+            {
+              "en": "Sales rose, notably in the second quarter.",
+              "id": "Penjualan naik, terutama pada kuartal kedua."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D trend terlihat cocok karena kalimat membahas kenaikan, tetapi trend adalah kata benda, bukan kata keterangan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The largest ___ of the pie chart belongs to the category of food.",
+        "options": [
+          {
+            "id": "A",
+            "text": "slice"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Slice adalah irisan pie chart, dan irisan terbesar milik kategori makanan.",
+        "stepByStep": [
+          "Kalimat menyebut bagian terbesar dari pie chart.",
+          "Bagian lingkaran dalam pie chart disebut slice.",
+          "Bridge, ticket, dan garden tidak berarti bagian lingkaran."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan bagian lingkaran."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan bagian lingkaran."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan bagian lingkaran."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Slice adalah bagian lingkaran pada pie chart yang mewakili satu kategori.",
+          "examples": [
+            {
+              "en": "Each slice represents one category.",
+              "id": "Setiap irisan mewakili satu kategori."
+            },
+            {
+              "en": "The smallest slice is the bottom one.",
+              "id": "Irisan terkecil adalah yang paling bawah."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B bridge terlihat cocok karena grafik sering dipakai dalam kalimat teknis, tetapi bridge tidak berarti bagian pie chart."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tren keseluruhan naik selama periode itu.",
+        "hint": "Tren keseluruhan: the overall trend. Naik: is upward. Selama periode itu: over the period.",
+        "acceptedAnswers": [
+          "The overall trend is upward over the period.",
+          "The overall trend is upward during the period."
+        ],
+        "modelAnswer": "The overall trend is upward over the period.",
+        "commonErrors": [
+          {
+            "pattern": "The overall trend are upward over the period",
+            "feedbackId": "Subjek trend tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rincian itu menunjukkan tiga kategori utama.",
+        "hint": "Rincian itu: the breakdown. Menunjukkan: shows. Tiga kategori utama: three main categories.",
+        "acceptedAnswers": [
+          "The breakdown shows three main categories.",
+          "The breakdown shows three major categories."
+        ],
+        "modelAnswer": "The breakdown shows three main categories.",
+        "commonErrors": [
+          {
+            "pattern": "The breakdown show three main category",
+            "feedbackId": "Subjek breakdown tunggal memakai shows, dan setelah three gunakan categories."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Selisih itu berarti besar, bukan kecil.",
+        "hint": "Selisih itu: the difference. Berarti besar: significant. Bukan kecil: not slight.",
+        "acceptedAnswers": [
+          "The difference is significant, not slight.",
+          "The difference is significant rather than slight."
+        ],
+        "modelAnswer": "The difference is significant, not slight.",
+        "commonErrors": [
+          {
+            "pattern": "The difference are significant, not slight",
+            "feedbackId": "Subjek difference tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Proses itu berulang, dan siklusnya dimulai lagi setelah tahap terakhir.",
+        "hint": "Proses itu: the process. Berulang: repeats. Siklusnya: the cycle. Dimulai lagi: starts again. Setelah tahap terakhir: after the final stage.",
+        "acceptedAnswers": [
+          "The process repeats, and the cycle starts again after the final stage.",
+          "The process repeats, and the cycle begins again after the final stage."
+        ],
+        "modelAnswer": "The process repeats, and the cycle starts again after the final stage.",
+        "commonErrors": [
+          {
+            "pattern": "The process repeat and the cycle start again after final stage",
+            "feedbackId": "Subjek process tunggal memakai repeats dan cycle starts; gunakan the final stage."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Pusat kota dibangun ulang, tetapi tata letak sungai tidak berubah.",
+        "hint": "Pusat kota: the town centre. Dibangun ulang: was redeveloped. Tata letak sungai: the river layout. Tidak berubah: did not change.",
+        "acceptedAnswers": [
+          "The town centre was redeveloped, but the river layout did not change.",
+          "The town centre was redeveloped, yet the river layout did not change."
+        ],
+        "modelAnswer": "The town centre was redeveloped, but the river layout did not change.",
+        "commonErrors": [
+          {
+            "pattern": "The town centre redeveloped but the river layout not change",
+            "feedbackId": "Gunakan pasif was redeveloped dan did not change."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a repeated pattern that returns to its start'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "cycle"
+          },
+          {
+            "id": "B",
+            "text": "slice"
+          },
+          {
+            "id": "C",
+            "text": "rise"
+          },
+          {
+            "id": "D",
+            "text": "trend"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Cycle berarti siklus, yaitu pola yang berulang dan kembali ke titik awal.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk pola berulang yang kembali ke awal.",
+          "Pola berulang seperti itu disebut cycle.",
+          "Slice, rise, dan trend tidak berarti pola yang berulang."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Slice berarti irisan, bukan pola berulang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Rise berarti kenaikan, bukan pola berulang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Trend berarti arah umum, bukan pola yang kembali ke awal."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cycle menggambarkan urutan kejadian yang berulang dari awal.",
+          "examples": [
+            {
+              "en": "The life cycle of a plant repeats each year.",
+              "id": "Siklus hidup tanaman berulang setiap tahun."
+            },
+            {
+              "en": "The cycle begins again after the final stage.",
+              "id": "Siklusnya dimulai lagi setelah tahap terakhir."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D trend terlihat cocok karena pola grafik juga dibahas, tetapi trend tidak selalu kembali ke titik awal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'significant'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The significant are the changes in the chart."
+          },
+          {
+            "id": "B",
+            "text": "The significants is the change in the chart."
+          },
+          {
+            "id": "C",
+            "text": "Significant the change chart is."
+          },
+          {
+            "id": "D",
+            "text": "The change in the chart is significant."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Significant adalah kata sifat yang diletakkan setelah is, dan subjek the change tunggal memakai is.",
+        "stepByStep": [
+          "Subjek the change tunggal, sehingga memakai is.",
+          "Significant adalah kata sifat yang diletakkan setelah is.",
+          "Pilihan A, B, dan C memakai kata yang salah bentuk atau urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Significant adalah kata sifat, tidak bisa menjadi subjek."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Significants bukan bentuk yang benar."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Significant adalah kata sifat yang berarti berarti besar atau penting.",
+          "examples": [
+            {
+              "en": "The difference is significant.",
+              "id": "Selisihnya berarti besar."
+            },
+            {
+              "en": "A significant change appeared in 2019.",
+              "id": "Perubahan yang berarti besar muncul pada 2019."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena perubahan disebut jamak, tetapi significant adalah kata sifat yang tidak bisa menjadi subjek."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ of the sales was rising over three years.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "rise"
+          },
+          {
+            "id": "B",
+            "text": "cycle"
+          },
+          {
+            "id": "C",
+            "text": "slice"
+          },
+          {
+            "id": "D",
+            "text": "redevelop"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Rise berarti kenaikan, dan kalimat ini menyebut penjualan yang naik selama tiga tahun.",
+        "stepByStep": [
+          "Kalimat menyebut kenaikan penjualan selama tiga tahun.",
+          "Kenaikan disebut rise.",
+          "Cycle, slice, dan redevelop tidak berarti kenaikan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Cycle berarti siklus, bukan kenaikan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Slice berarti irisan, bukan kenaikan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Redevelop berarti membangun ulang, bukan kenaikan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rise adalah kenaikan, sering dipakai bersama gradual atau sharp.",
+          "examples": [
+            {
+              "en": "The rise was gradual over three years.",
+              "id": "Kenaikannya bertahap selama tiga tahun."
+            },
+            {
+              "en": "There was a sharp rise in prices.",
+              "id": "Ada kenaikan harga yang tajam."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D redevelop terlihat cocok karena penjualan bisa berubah, tetapi kata itu berarti membangun ulang kawasan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'a detailed list of each part of the total'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "breakdown"
+          },
+          {
+            "id": "B",
+            "text": "overall"
+          },
+          {
+            "id": "C",
+            "text": "notably"
+          },
+          {
+            "id": "D",
+            "text": "trend"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Breakdown adalah rincian dari setiap bagian yang menyusun total.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk daftar rinci setiap bagian dari total.",
+          "Rincian yang menyusun total disebut breakdown.",
+          "Overall, notably, dan trend tidak berarti daftar rinci."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Overall berarti secara keseluruhan, bukan rincian."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Notably berarti terutama atau mencolok, bukan rincian."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Trend berarti arah umum, bukan rincian."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Breakdown menunjukkan bagaimana sebuah total dibagi ke dalam kategori.",
+          "examples": [
+            {
+              "en": "The breakdown of costs is in the table.",
+              "id": "Rincian biaya ada dalam tabel."
+            },
+            {
+              "en": "A breakdown by age is useful.",
+              "id": "Rincian menurut usia itu berguna."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B overall terlihat cocok karena berkaitan dengan total, tetapi overall menyatakan gambaran umum, bukan rincian."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The trends is downward after 2019."
+          },
+          {
+            "id": "B",
+            "text": "The trend is downward after 2019."
+          },
+          {
+            "id": "C",
+            "text": "The trend are downward after 2019."
+          },
+          {
+            "id": "D",
+            "text": "The trend be downward after 2019."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek trend tunggal memakai is, dan downward menjelaskan arah setelah 2019.",
+        "stepByStep": [
+          "Trend adalah subjek tunggal, sehingga memakai is.",
+          "Downward menjelaskan arah tren setelah 2019.",
+          "Pilihan A memakai trends dengan is, pilihan C memakai are, dan pilihan D memakai be yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Trends jamak tidak cocok dengan is untuk satu tren."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Are tidak cocok dengan subjek tunggal trend."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Be tidak cocok sebagai kata kerja dengan subjek trend di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan downward atau upward menjelaskan arah tren.",
+          "examples": [
+            {
+              "en": "The trend is upward for two years.",
+              "id": "Tren naik selama dua tahun."
+            },
+            {
+              "en": "The overall trend is clear.",
+              "id": "Tren keseluruhannya jelas."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak tren disebut jamak, tetapi subjek kalimat ini tetap satu tren."
+      }
+    ]
+  }
+}

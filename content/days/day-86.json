@@ -1,0 +1,622 @@
+{
+  "day": 86,
+  "week": 12,
+  "month": 3,
+  "title": "Speaking Part 3: Diskusi Abstrak",
+  "topic": "Menjawab pertanyaan abstrak tentang masyarakat, teknologi, dan perubahan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memahami pertanyaan abstrak tentang masyarakat dan perubahan",
+    "Menyusun pendapat dengan alasan dan contoh dalam Part 3",
+    "Menggunakan kosakata topik sosial dan ekonomi dengan tepat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "society", "pronunciationId": "suh-SAHY-uh-tee (tekanan di SAHY)", "pos": "Noun", "meaningId": "masyarakat", "example": "Society changes as people change.", "exampleId": "Masyarakat berubah seiring perubahan orang-orangnya." },
+      { "no": 2, "en": "generation", "pronunciationId": "jen-uh-RAY-shun (tekanan di RAY)", "pos": "Noun", "meaningId": "generasi", "example": "Each generation has its own values.", "exampleId": "Setiap generasi memiliki nilai sendiri." },
+      { "no": 3, "en": "technology", "pronunciationId": "tek-NOL-uh-jee (tekanan di NOL)", "pos": "Noun", "meaningId": "teknologi", "example": "Technology makes many tasks faster.", "exampleId": "Teknologi membuat banyak pekerjaan lebih cepat." },
+      { "no": 4, "en": "influence", "pronunciationId": "IN-floo-uhns (tekanan di IN)", "pos": "Noun", "meaningId": "pengaruh", "example": "Friends have a strong influence on us.", "exampleId": "Teman memiliki pengaruh yang kuat pada kita." },
+      { "no": 5, "en": "economy", "pronunciationId": "ih-KON-uh-mee (tekanan di KON)", "pos": "Noun", "meaningId": "ekonomi", "example": "The economy of the town depends on tourism.", "exampleId": "Ekonomi kota itu bergantung pada pariwisata." },
+      { "no": 6, "en": "globalisation", "pronunciationId": "gloh-buh-lahy-ZAY-shun (tekanan di ZAY)", "pos": "Noun", "meaningId": "globalisasi", "example": "Globalisation connects markets across countries.", "exampleId": "Globalisasi menghubungkan pasar antarnegara." },
+      { "no": 7, "en": "urbanisation", "pronunciationId": "ur-buh-nuh-ZAY-shun (tekanan di ZAY)", "pos": "Noun", "meaningId": "urbanisasi, perpindahan penduduk ke kota", "example": "Urbanisation brings new jobs to cities.", "exampleId": "Urbanisasi membawa lapangan kerja baru ke kota." },
+      { "no": 8, "en": "tradition", "pronunciationId": "truh-DISH-un (tekanan di DISH)", "pos": "Noun", "meaningId": "tradisi", "example": "Every tradition has its own history.", "exampleId": "Setiap tradisi memiliki sejarahnya sendiri." },
+      { "no": 9, "en": "innovation", "pronunciationId": "in-uh-VAY-shun (tekanan di VAY)", "pos": "Noun", "meaningId": "inovasi", "example": "Innovation can solve old problems.", "exampleId": "Inovasi dapat memecahkan masalah lama." },
+      { "no": 10, "en": "sustainability", "pronunciationId": "suh-stay-nuh-BIL-i-tee (tekanan di BIL)", "pos": "Noun", "meaningId": "keberlanjutan", "example": "Sustainability protects resources for the future.", "exampleId": "Keberlanjutan melindungi sumber daya untuk masa depan." }
+    ],
+    "tip": "Di Speaking Part 3, jawab pertanyaan umum dengan pendapat, alasan, dan contoh dari masyarakat. Tidak perlu cerita pribadi yang panjang."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS speaking part 3 abstract questions", "IELTS speaking part 3 society and technology"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menjawab pertanyaan abstrak di Part 3, dengan contoh pendapat yang seimbang.",
+      "watchFor": [
+        "Cara membuka jawaban dengan pendapat yang jelas",
+        "Contoh umum tentang masyarakat dan teknologi",
+        "Cara menutup jawaban dengan pandangan yang seimbang"
+      ]
+    },
+    "lesson": {
+      "intro": "Part 3 berisi pertanyaan yang lebih luas daripada cerita pribadi. Kamu diminta menjelaskan pendapat, membandingkan, dan memberi alasan tentang masyarakat dan perubahan.",
+      "sections": [
+        {
+          "heading": "Membuka dengan pendapat",
+          "bodyMd": "Mulai jawaban dengan pendapat yang jelas. Gunakan kata seperti **society** atau **generation** untuk menunjukkan siapa yang kamu bicarakan."
+        },
+        {
+          "heading": "Memberi alasan dan contoh",
+          "bodyMd": "Pakai **technology** atau **economy** sebagai contoh. Jelaskan **influence** yang nyata, misalnya pada pekerjaan atau kebiasaan sehari-hari."
+        },
+        {
+          "heading": "Membahas perubahan besar",
+          "bodyMd": "Untuk topik seperti **globalisation** dan **urbanisation**, sebutkan manfaat dan risikonya. Pakai **innovation** dan **sustainability** untuk menutup dengan pandangan yang seimbang."
+        },
+        {
+          "heading": "Menjaga kebiasaan dan nilai",
+          "bodyMd": "Saat membahas **tradition**, jelaskan apa yang perlu dipertahankan dan apa yang bisa berubah. Pandangan yang seimbang biasanya lebih kuat daripada jawaban yang terlalu tegas."
+        }
+      ],
+      "formulas": [
+        { "label": "Pendapat", "pattern": "I think X" },
+        { "label": "Alasan", "pattern": "This is because Y" },
+        { "label": "Manfaat dan risiko", "pattern": "X brings benefits, but it can also Y" },
+        { "label": "Penutup seimbang", "pattern": "Overall, X is useful when Y" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I think society values education more than before.", "id": "Menurut saya masyarakat lebih menghargai pendidikan daripada dulu." },
+          { "en": "Technology has had a big influence on how we study.", "id": "Teknologi memberi pengaruh besar pada cara kita belajar." },
+          { "en": "Urbanisation brings jobs, but it can also create pressure on housing.", "id": "Urbanisasi membawa lapangan kerja, tetapi juga bisa menekan perumahan." },
+          { "en": "Innovation is useful when it supports sustainability.", "id": "Inovasi bermanfaat ketika mendukung keberlanjutan." },
+          { "en": "Every tradition has value, but some can change over time.", "id": "Setiap tradisi memiliki nilai, tetapi beberapa bisa berubah seiring waktu." }
+        ],
+        "negative": [
+          { "en": "Society is always the same, and nothing changes.", "id": "Masyarakat selalu sama, dan tidak ada yang berubah." },
+          { "en": "Technology has no influence on any job.", "id": "Teknologi tidak memberi pengaruh pada pekerjaan apa pun." },
+          { "en": "The economy is not related to people at all.", "id": "Ekonomi sama sekali tidak berhubungan dengan orang." },
+          { "en": "Globalisation is bad, and that is the end of it.", "id": "Globalisasi itu buruk, dan selesai sampai di situ." },
+          { "en": "Sustainability is not important for the future.", "id": "Keberlanjutan tidak penting untuk masa depan." }
+        ],
+        "question": [
+          { "en": "Do you think society changes quickly?", "id": "Menurutmu, apakah masyarakat berubah dengan cepat?" },
+          { "en": "How has technology influenced your work or study?", "id": "Bagaimana teknologi memengaruhi pekerjaan atau belajarmu?" },
+          { "en": "What are the benefits and risks of globalisation?", "id": "Apa manfaat dan risiko globalisasi?" },
+          { "en": "Should governments support innovation in every area?", "id": "Apakah pemerintah harus mendukung inovasi di setiap bidang?" },
+          { "en": "What tradition should be protected for the next generation?", "id": "Tradisi apa yang sebaiknya dilindungi untuk generasi berikutnya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Society are changing very fast.", "right": "Society is changing very fast.", "whyId": "Society tunggal memakai is." },
+        { "wrong": "Technology have a big influences on jobs.", "right": "Technology has a big influence on jobs.", "whyId": "Technology tunggal memakai has, dan influence tidak dijamakkan di sini." },
+        { "wrong": "The economys of the town is growing.", "right": "The economy of the town is growing.", "whyId": "Economy tidak dijamakkan dalam kalimat ini, dan subjeknya tunggal." },
+        { "wrong": "Globalisation help many people.", "right": "Globalisation helps many people.", "whyId": "Globalisation tunggal memakai helps." },
+        { "wrong": "Every traditions are important.", "right": "Every tradition is important.", "whyId": "Setelah every, kata benda memakai bentuk tunggal." },
+        { "wrong": "The innovation can solve a problem of sustainability.", "right": "Innovation can solve problems of sustainability.", "whyId": "Dalam makna umum, innovation tidak perlu didahului the, dan problems dijamakkan dengan benar." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["IELTS speaking part 3 abstract questions", "IELTS speaking examiner discussion"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Pertanyaan abstrak dari pemeriksa",
+        "Pendapat kandidat yang disertai alasan dan contoh"
+      ]
+    },
+    "script": {
+      "title": "Speaking Part 3: Masyarakat dan perubahan",
+      "lines": [
+        { "speaker": "Examiner", "text": "Let's move on to some more abstract questions about society." },
+        { "speaker": "Candidate", "text": "Sure. I think society changes faster now than it did for my parents' generation." },
+        { "speaker": "Examiner", "text": "In what ways has technology changed the way people work?" },
+        { "speaker": "Candidate", "text": "Technology has had a big influence on almost every job. Many people now work remotely, and that has changed the economy of cities." },
+        { "speaker": "Examiner", "text": "Do you think globalisation has had a positive effect?" },
+        { "speaker": "Candidate", "text": "Mostly, yes. Globalisation makes it easier to share ideas, but it can also weaken local traditions. Every tradition has its own value, so we should protect it." },
+        { "speaker": "Examiner", "text": "What about urbanisation? Is it a problem?" },
+        { "speaker": "Candidate", "text": "It can be. Urbanisation brings jobs, but it also creates traffic and pressure on housing." },
+        { "speaker": "Examiner", "text": "Should governments support innovation in every area?" },
+        { "speaker": "Candidate", "text": "Not necessarily. Innovation is valuable, but it should also support sustainability, or it creates new problems." },
+        { "speaker": "Examiner", "text": "Thank you. Your answers show a clear view of these issues." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada society, tekanan ada di suku pertama: SAHY pada suku pertama.",
+      "Pada generation, tekanan ada di suku kedua: jen-uh-RAY-shun.",
+      "Pada globalisation, tekanan ada di suku ketiga: gloh-buh-lahy-ZAY-shun."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the candidate think about the speed of social change?",
+        "options": [
+          { "id": "A", "text": "Society changes more slowly than before." },
+          { "id": "B", "text": "Society has not changed at all." },
+          { "id": "C", "text": "Society changes faster than it did before." },
+          { "id": "D", "text": "Society only changes in cities." }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Kandidat berkata masyarakat berubah lebih cepat sekarang dibanding generasi orang tuanya.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kandidat menyebut perubahan justru lebih cepat, bukan lebih lambat." },
+          { "optionId": "B", "reasonId": "Kandidat menyatakan masyarakat berubah, sehingga pernyataan ini tidak sesuai." },
+          { "optionId": "D", "reasonId": "Kandidat tidak mengatakan perubahan hanya terjadi di kota." }
+        ],
+        "evidence": "society changes faster now than it did for my parents' generation"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "According to the candidate, what is one way technology has affected work?",
+        "options": [
+          { "id": "A", "text": "people work remotely more often" },
+          { "id": "B", "text": "schools are closing everywhere" },
+          { "id": "C", "text": "food prices have fallen" },
+          { "id": "D", "text": "cities have no traffic at all" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Kandidat menyebut banyak orang sekarang bekerja secara remote, dan ini berkat teknologi.",
+        "stepByStep": [
+          "Cari work dan technology dalam jawaban kandidat.",
+          "Kandidat menyebut Many people now work remotely.",
+          "Sekolah, harga makanan, dan lalu lintas tidak disebut sebagai dampak pada pekerjaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Penutupan sekolah tidak disebut dalam jawaban kandidat." },
+          { "optionId": "C", "reasonId": "Harga makanan tidak disebut dalam jawaban kandidat." },
+          { "optionId": "D", "reasonId": "Kandidat menyebut tekanan lalu lintas di kota, bukan tidak ada lalu lintas sama sekali." }
+        ],
+        "evidence": "Many people now work remotely"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does the candidate say globalisation can weaken?",
+        "options": [
+          { "id": "A", "text": "public transport" },
+          { "id": "B", "text": "tax rates" },
+          { "id": "C", "text": "school timetables" },
+          { "id": "D", "text": "local traditions" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Kandidat berkata globalisasi juga bisa melemahkan tradisi lokal.",
+        "stepByStep": [
+          "Cari weaken dalam jawaban kandidat.",
+          "Kandidat menyebut it can also weaken local traditions.",
+          "Transportasi, pajak, dan jadwal sekolah tidak disebut sebagai hal yang melemah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Transportasi umum tidak disebut dalam jawaban ini." },
+          { "optionId": "B", "reasonId": "Tarif pajak tidak disebut dalam jawaban ini." },
+          { "optionId": "C", "reasonId": "Jadwal sekolah tidak disebut dalam jawaban ini." }
+        ],
+        "evidence": "it can also weaken local traditions"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What problem does the candidate link to urbanisation?",
+        "options": [
+          { "id": "A", "text": "a lack of rain" },
+          { "id": "B", "text": "traffic and pressure on housing" },
+          { "id": "C", "text": "too few hospitals in villages" },
+          { "id": "D", "text": "smaller and quieter cities" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kandidat menyebut urbanisasi menciptakan kemacetan dan tekanan pada perumahan.",
+        "stepByStep": [
+          "Cari urbanisation dalam jawaban kandidat.",
+          "Kandidat menyebut it also creates traffic and pressure on housing.",
+          "Kurangnya hujan, rumah sakit di desa, dan kota yang lebih kecil tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kekurangan hujan tidak disebut dalam jawaban kandidat." },
+          { "optionId": "C", "reasonId": "Rumah sakit di desa tidak disebut dalam jawaban kandidat." },
+          { "optionId": "D", "reasonId": "Kandidat tidak menyebut kota menjadi lebih kecil atau lebih tenang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam jawaban Part 3, kandidat sering menyebut manfaat dan risiko dalam satu kalimat yang dihubungkan dengan but.",
+          "examples": [
+            { "en": "Tourism brings money, but it can also damage nature.", "id": "Pariwisata membawa uang, tetapi juga bisa merusak alam." },
+            { "en": "The new road helps drivers, but it creates noise.", "id": "Jalan baru membantu pengendara, tetapi juga menimbulkan kebisingan." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kebalikan dari kemacetan, tetapi kandidat tidak pernah menyebut kota menjadi lebih tenang.",
+        "evidence": "it also creates traffic and pressure on housing"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Why does the candidate say innovation should support sustainability?",
+        "options": [
+          { "id": "A", "text": "to avoid creating new problems" },
+          { "id": "B", "text": "to make innovation slower" },
+          { "id": "C", "text": "to reduce all jobs" },
+          { "id": "D", "text": "to stop globalisation" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kandidat berkata inovasi harus mendukung keberlanjutan agar tidak menciptakan masalah baru.",
+        "stepByStep": [
+          "Cari sustainability dalam jawaban kandidat.",
+          "Kandidat menyebut it should also support sustainability, or it creates new problems.",
+          "Memperlambat inovasi, mengurangi semua pekerjaan, dan menghentikan globalisasi tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Kandidat tidak mengatakan inovasi harus diperlambat." },
+          { "optionId": "C", "reasonId": "Kandidat tidak menyebut pengurangan semua pekerjaan." },
+          { "optionId": "D", "reasonId": "Kandidat tidak menyebut penghentian globalisasi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan why sering dijawab dengan frasa yang mengikuti kata penghubung or atau so that dalam teks.",
+          "examples": [
+            { "en": "Save water, or the river will dry up.", "id": "Hemat air, atau sungainya akan kering." },
+            { "en": "Plan early so that the project stays on time.", "id": "Rencanakan lebih awal agar proyeknya tetap tepat waktu." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena inovasi sering dikritik, tetapi kandidat tidak menyebut inovasi harus diperlambat.",
+        "evidence": "it should also support sustainability, or it creates new problems"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Many people think that ___ is changing how we communicate every day.",
+        "options": [
+          { "id": "A", "text": "tradition" },
+          { "id": "B", "text": "technology" },
+          { "id": "C", "text": "furniture" },
+          { "id": "D", "text": "weather" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Technology adalah kata benda yang tepat untuk sesuatu yang mengubah cara kita berkomunikasi.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tradition berarti tradisi, dan kalimat ini membicarakan perubahan cara berkomunikasi." },
+          { "optionId": "C", "reasonId": "Furniture berarti perabot, tidak berhubungan dengan komunikasi." },
+          { "optionId": "D", "reasonId": "Weather berarti cuaca, tidak mengubah cara berkomunikasi." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Our ___ depends on tourism, farming, and small businesses.",
+        "options": [
+          { "id": "A", "text": "generation" },
+          { "id": "B", "text": "influence" },
+          { "id": "C", "text": "economy" },
+          { "id": "D", "text": "urbanisation" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Economy berarti ekonomi, dan kalimat ini menyebut pariwisata, pertanian, dan usaha kecil sebagai penopangnya.",
+        "stepByStep": [
+          "Kalimat menyebut tiga sektor: pariwisata, pertanian, dan usaha kecil.",
+          "Sistem keuangan dan produksi suatu wilayah disebut economy.",
+          "Generation, influence, dan urbanisation tidak berarti sistem ekonomi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Generation berarti generasi, bukan sistem ekonomi." },
+          { "optionId": "B", "reasonId": "Influence berarti pengaruh, bukan sistem ekonomi." },
+          { "optionId": "D", "reasonId": "Urbanisation berarti perpindahan penduduk ke kota, bukan sistem ekonomi." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The new ___ grew up with smartphones and social media.",
+        "options": [
+          { "id": "A", "text": "tradition" },
+          { "id": "B", "text": "economy" },
+          { "id": "C", "text": "influence" },
+          { "id": "D", "text": "generation" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Generation berarti sekelompok orang yang lahir dan tumbuh di masa yang sama.",
+        "stepByStep": [
+          "Kalimat menyebut kelompok yang tumbuh dengan smartphone.",
+          "Kelompok orang yang lahir di masa yang sama disebut generation.",
+          "Tradition, economy, dan influence tidak berarti kelompok orang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tradition berarti tradisi, bukan kelompok orang." },
+          { "optionId": "B", "reasonId": "Economy berarti ekonomi, bukan kelompok orang." },
+          { "optionId": "C", "reasonId": "Influence berarti pengaruh, bukan kelompok orang." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Many cities face fast ___, with more people moving from villages.",
+        "options": [
+          { "id": "A", "text": "urbanisation" },
+          { "id": "B", "text": "globalisation" },
+          { "id": "C", "text": "innovation" },
+          { "id": "D", "text": "sustainability" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Urbanisation berarti perpindahan penduduk dari desa ke kota.",
+        "stepByStep": [
+          "Kalimat menyebut orang pindah dari desa ke kota.",
+          "Perpindahan penduduk ke kota disebut urbanisation.",
+          "Globalisation, innovation, dan sustainability tidak berarti perpindahan ke kota."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Globalisation berarti keterhubungan antarnegara, bukan perpindahan ke kota." },
+          { "optionId": "C", "reasonId": "Innovation berarti inovasi, bukan perpindahan ke kota." },
+          { "optionId": "D", "reasonId": "Sustainability berarti keberlanjutan, bukan perpindahan ke kota." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Urbanisation dipakai untuk menggambarkan pertumbuhan kota karena penduduk pindah dari desa.",
+          "examples": [
+            { "en": "Urbanisation has changed the shape of the region.", "id": "Urbanisasi telah mengubah bentuk wilayah itu." },
+            { "en": "Rapid urbanisation creates new housing needs.", "id": "Urbanisasi yang cepat menciptakan kebutuhan perumahan baru." }
+          ]
+        },
+        "examTrap": "Pilihan B globalisation terlihat cocok karena perpindahan sering dikaitkan dengan dunia yang saling terhubung, tetapi kalimat ini menyebut perpindahan dari desa ke kota."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The school wants to teach ___ so that today's choices do not harm the future.",
+        "options": [
+          { "id": "A", "text": "innovation" },
+          { "id": "B", "text": "globalisation" },
+          { "id": "C", "text": "sustainability" },
+          { "id": "D", "text": "tradition" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Sustainability berarti keberlanjutan, yaitu pilihan hari ini tidak merusak masa depan.",
+        "stepByStep": [
+          "Kalimat menyebut pilihan hari ini yang tidak merusak masa depan.",
+          "Konsep keberlanjutan untuk masa depan disebut sustainability.",
+          "Innovation, globalisation, dan tradition tidak berarti menjaga masa depan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Innovation berarti inovasi, bukan menjaga masa depan." },
+          { "optionId": "B", "reasonId": "Globalisation berarti keterhubungan dunia, bukan menjaga masa depan." },
+          { "optionId": "D", "reasonId": "Tradition berarti tradisi, bukan menjaga masa depan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sustainability dipakai untuk menggambarkan cara menggunakan sumber daya tanpa merugikan generasi mendatang.",
+          "examples": [
+            { "en": "Sustainability means protecting resources for the future.", "id": "Keberlanjutan berarti melindungi sumber daya untuk masa depan." },
+            { "en": "The company promotes sustainability in every project.", "id": "Perusahaan itu mendorong keberlanjutan dalam setiap proyek." }
+          ]
+        },
+        "examTrap": "Pilihan A innovation terlihat cocok karena pengembangan sering dikaitkan dengan masa depan, tetapi kalimat ini meminta konsep menjaga sumber daya untuk masa depan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Masyarakat berubah dengan cepat.",
+        "hint": "Masyarakat: society. Berubah dengan cepat: changes quickly.",
+        "acceptedAnswers": ["Society changes quickly.", "Society is changing quickly."],
+        "modelAnswer": "Society changes quickly.",
+        "commonErrors": [{ "pattern": "Society change quick", "feedbackId": "Society tunggal memakai changes, dan quickly memakai bentuk -ly." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Teknologi memengaruhi cara kita belajar.",
+        "hint": "Teknologi: technology. Memengaruhi: influences. Cara kita belajar: how we learn.",
+        "acceptedAnswers": ["Technology influences how we learn.", "Technology has influenced how we learn."],
+        "modelAnswer": "Technology influences how we learn.",
+        "commonErrors": [{ "pattern": "Technology influence how we learns", "feedbackId": "Technology tunggal memakai influences, dan setelah how we memakai kata kerja dasar learn." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Ekonomi kota itu tumbuh karena inovasi.",
+        "hint": "Ekonomi kota itu: the city's economy. Tumbuh karena: grows because of. Inovasi: innovation.",
+        "acceptedAnswers": ["The city's economy grows because of innovation.", "The economy of the city grows because of innovation."],
+        "modelAnswer": "The city's economy grows because of innovation.",
+        "commonErrors": [{ "pattern": "The citys economy grow because innovations", "feedbackId": "Economy tunggal memakai grows, dan innovation tidak dijamakkan dalam makna ini." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Globalisasi dan urbanisasi membawa peluang sekaligus tantangan.",
+        "hint": "Globalisasi dan urbanisasi: globalisation and urbanisation. Membawa peluang sekaligus tantangan: bring both opportunities and challenges.",
+        "acceptedAnswers": ["Globalisation and urbanisation bring both opportunities and challenges.", "Globalisation and urbanisation bring opportunities as well as challenges."],
+        "modelAnswer": "Globalisation and urbanisation bring both opportunities and challenges.",
+        "commonErrors": [{ "pattern": "Globalisation and urbanisation brings opportunity and challenge both", "feedbackId": "Dua subjek dijoin dengan and memakai bring, dan both diletakkan sebelum opportunities and challenges." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tradisi keluarga itu harus dijaga demi keberlanjutan budaya.",
+        "hint": "Tradisi keluarga: family traditions. Harus dijaga: must be preserved. Demi keberlanjutan budaya: for the sustainability of culture.",
+        "acceptedAnswers": ["Family traditions must be kept for the sustainability of culture.", "Family traditions must be preserved for the sustainability of culture."],
+        "modelAnswer": "Family traditions must be kept for the sustainability of culture.",
+        "commonErrors": [{ "pattern": "Family tradition must keeps for sustainable of culture", "feedbackId": "Setelah must memakai kata kerja dasar keep, dan sustainability adalah kata benda." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means the ability to create new ideas and methods?",
+        "options": [
+          { "id": "A", "text": "tradition" },
+          { "id": "B", "text": "society" },
+          { "id": "C", "text": "urbanisation" },
+          { "id": "D", "text": "innovation" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Innovation berarti inovasi, yaitu penciptaan ide dan cara baru.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kemampuan menciptakan ide dan cara baru.",
+          "Penciptaan ide dan cara baru disebut innovation.",
+          "Tradition, society, dan urbanisation tidak berarti penciptaan ide baru."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tradition berarti tradisi, yaitu kebiasaan yang diwariskan, bukan ide baru." },
+          { "optionId": "B", "reasonId": "Society berarti masyarakat, bukan kemampuan menciptakan ide." },
+          { "optionId": "C", "reasonId": "Urbanisation berarti perpindahan ke kota, bukan kemampuan menciptakan ide." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Innovation adalah kata benda yang menggambarkan ide, produk, atau cara baru yang bermanfaat.",
+          "examples": [
+            { "en": "Innovation helped the school save energy.", "id": "Inovasi membantu sekolah menghemat energi." },
+            { "en": "The team showed innovation in every project.", "id": "Tim itu menunjukkan inovasi di setiap proyek." }
+          ]
+        },
+        "examTrap": "Pilihan A tradition terlihat cocok karena topiknya membahas perubahan dan kebiasaan, tetapi kalimat ini meminta kemampuan menciptakan ide baru."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'influence'?",
+        "options": [
+          { "id": "A", "text": "The influence are strong on young people." },
+          { "id": "B", "text": "Social media has a strong influence on young people." },
+          { "id": "C", "text": "Social media has a strong influences on young people." },
+          { "id": "D", "text": "The influence of young people are strong." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Influence adalah kata benda, dan pola a strong influence on sudah benar untuk menyatakan pengaruh.",
+        "stepByStep": [
+          "Influence adalah kata benda, sehingga didahului a strong.",
+          "Pola a strong influence on dipakai untuk menyebut pengaruh pada seseorang.",
+          "Pilihan A memakai are dengan subjek tunggal, pilihan C memakai influences setelah a, dan pilihan D memakai are dengan subjek tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal influence." },
+          { "optionId": "C", "reasonId": "Setelah a, kata benda memakai bentuk tunggal influence." },
+          { "optionId": "D", "reasonId": "Subjek kalimat adalah influence, sehingga kata kerjanya tidak memakai are." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Influence adalah kata benda tunggal yang sering memakai pola a strong influence on atau a big influence on.",
+          "examples": [
+            { "en": "Her teacher had a big influence on her career.", "id": "Gurunya memberi pengaruh besar pada kariernya." },
+            { "en": "The movie had a strong influence on the class.", "id": "Film itu memberi pengaruh kuat pada kelas." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat benar karena kata young people dijamakkan, tetapi subjek kalimat yang benar adalah influence yang tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means a group of people born in about the same period?",
+        "options": [
+          { "id": "A", "text": "generation" },
+          { "id": "B", "text": "economy" },
+          { "id": "C", "text": "sustainability" },
+          { "id": "D", "text": "globalisation" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Generation berarti kelompok orang yang lahir dan tumbuh pada masa yang kurang lebih sama.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kelompok orang yang lahir di masa yang sama.",
+          "Kelompok seperti itu disebut generation.",
+          "Economy, sustainability, dan globalisation tidak berarti kelompok orang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Economy berarti ekonomi, bukan kelompok orang." },
+          { "optionId": "C", "reasonId": "Sustainability berarti keberlanjutan, bukan kelompok orang." },
+          { "optionId": "D", "reasonId": "Globalisation berarti keterhubungan dunia, bukan kelompok orang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Generation dipakai untuk menyebut sekelompok orang dengan usia atau pengalaman hidup yang serupa.",
+          "examples": [
+            { "en": "Each generation has its own music.", "id": "Setiap generasi memiliki musiknya sendiri." },
+            { "en": "The older generation remembers the old town.", "id": "Generasi yang lebih tua mengingat kota lama itu." }
+          ]
+        },
+        "examTrap": "Pilihan B economy terlihat cocok karena generasi sering dibahas dalam konteks ekonomi, tetapi kalimat ini meminta nama kelompok orang."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word describes meeting today's needs without harming the future?",
+        "options": [
+          { "id": "A", "text": "tradition" },
+          { "id": "B", "text": "innovation" },
+          { "id": "C", "text": "sustainability" },
+          { "id": "D", "text": "urbanisation" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Sustainability berarti memenuhi kebutuhan sekarang tanpa merugikan generasi mendatang.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk memenuhi kebutuhan sekarang tanpa merugikan masa depan.",
+          "Konsep itu disebut sustainability.",
+          "Tradition, innovation, dan urbanisation tidak berarti menjaga masa depan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tradition berarti tradisi, bukan konsep menjaga masa depan." },
+          { "optionId": "B", "reasonId": "Innovation berarti inovasi, bukan konsep menjaga masa depan." },
+          { "optionId": "D", "reasonId": "Urbanisation berarti perpindahan ke kota, bukan konsep menjaga masa depan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sustainability dipakai untuk pembangunan yang menjaga sumber daya bagi generasi berikutnya.",
+          "examples": [
+            { "en": "Sustainability is a key goal for the city.", "id": "Keberlanjutan adalah tujuan utama bagi kota itu." },
+            { "en": "The farm uses sustainability methods to protect the soil.", "id": "Peternakan itu memakai metode berkelanjutan untuk melindungi tanah." }
+          ]
+        },
+        "examTrap": "Pilihan B innovation terlihat cocok karena konsep masa depan sering dikaitkan dengan inovasi, tetapi kalimat ini meminta konsep menjaga keseimbangan untuk masa depan."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means customs or ways of life passed down over time?",
+        "options": [
+          { "id": "A", "text": "innovation" },
+          { "id": "B", "text": "tradition" },
+          { "id": "C", "text": "influence" },
+          { "id": "D", "text": "economy" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tradition berarti tradisi, yaitu kebiasaan atau cara hidup yang diwariskan dari generasi ke generasi.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kebiasaan yang diwariskan.",
+          "Kebiasaan yang diwariskan disebut tradition.",
+          "Innovation, influence, dan economy tidak berarti kebiasaan yang diwariskan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Innovation berarti inovasi, yaitu hal baru, bukan warisan." },
+          { "optionId": "C", "reasonId": "Influence berarti pengaruh, bukan kebiasaan yang diwariskan." },
+          { "optionId": "D", "reasonId": "Economy berarti ekonomi, bukan kebiasaan yang diwariskan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tradition dipakai untuk kebiasaan, cerita, atau cara melakukan sesuatu yang diwariskan.",
+          "examples": [
+            { "en": "The family keeps the tradition of cooking together.", "id": "Keluarga itu menjaga tradisi memasak bersama." },
+            { "en": "Every tradition has a history behind it.", "id": "Setiap tradisi memiliki sejarah di belakangnya." }
+          ]
+        },
+        "examTrap": "Pilihan C influence terlihat cocok karena tradisi bisa memberi pengaruh pada generasi, tetapi kalimat ini meminta nama kebiasaan yang diwariskan."
+      }
+    ]
+  }
+}

@@ -1,0 +1,592 @@
+{
+  "day": 69,
+  "week": 10,
+  "month": 3,
+  "title": "Writing Task 1: Bar Chart",
+  "topic": "Membandingkan kategori pada diagram batang dengan kosakata yang tepat",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membandingkan kategori dan proporsi pada bar chart",
+    "Menjelaskan selisih yang besar, sedang, dan kecil",
+    "Menyebut kategori yang paling dominan dalam sebuah grafik"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "bar chart", "pronunciationId": "BAR CHART (tekanan di BAR)", "pos": "Noun", "meaningId": "diagram batang", "example": "The bar chart shows three cities.", "exampleId": "Diagram batang itu menunjukkan tiga kota." },
+      { "no": 2, "en": "comparison", "pronunciationId": "kum-PAR-i-sun (tekanan di PAR)", "pos": "Noun", "meaningId": "perbandingan", "example": "The comparison is clear.", "exampleId": "Perbandingannya jelas." },
+      { "no": 3, "en": "proportion", "pronunciationId": "pro-POR-shun (tekanan di POR)", "pos": "Noun", "meaningId": "proporsi, bagian dari keseluruhan", "example": "The proportion of cyclists is high.", "exampleId": "Proporsi pesepeda tinggi." },
+      { "no": 4, "en": "category", "pronunciationId": "KAT-uh-gor-ee (tekanan di KAT)", "pos": "Noun", "meaningId": "kategori", "example": "Each category has a bar.", "exampleId": "Setiap kategori punya satu batang." },
+      { "no": 5, "en": "segment", "pronunciationId": "SEG-ment (tekanan di SEG)", "pos": "Noun", "meaningId": "bagian, segmen", "example": "This segment is the largest.", "exampleId": "Segmen ini paling besar." },
+      { "no": 6, "en": "outperform", "pronunciationId": "owt-per-FORM (tekanan di FORM)", "pos": "Verb", "meaningId": "mengungguli", "example": "Buses outperform bicycles here.", "exampleId": "Bus mengungguli sepeda di sini." },
+      { "no": 7, "en": "significant", "pronunciationId": "sig-NIF-i-kunt (tekanan di NIF)", "pos": "Adj", "meaningId": "berarti, besar", "example": "The gap is significant.", "exampleId": "Selisihnya berarti besar." },
+      { "no": 8, "en": "substantial", "pronunciationId": "sub-STAN-shul (tekanan di STAN)", "pos": "Adj", "meaningId": "besar, substansial", "example": "A substantial rise is visible.", "exampleId": "Kenaikan yang besar terlihat jelas." },
+      { "no": 9, "en": "slight", "pronunciationId": "SLAIT (tekanan di SLAIT)", "pos": "Adj", "meaningId": "sedikit, kecil", "example": "A slight change occurred.", "exampleId": "Terjadi perubahan kecil." },
+      { "no": 10, "en": "gradual", "pronunciationId": "GRAJ-oo-ul (tekanan di GRAJ)", "pos": "Adj", "meaningId": "bertahap", "example": "The change was gradual.", "exampleId": "Perubahannya bertahap." }
+    ],
+    "tip": "Pada bar chart, sebutkan kategori terbesar dan terkecil, lalu bandingkan selisihnya dengan kata significant, substantial, atau slight."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS writing task 1 bar chart", "IELTS bar chart comparison"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membandingkan kategori pada bar chart, dengan contoh proporsi dan selisih yang besar atau kecil.",
+      "watchFor": [
+        "Kategori terbesar dan terkecil",
+        "Kata untuk selisih besar dan kecil",
+        "Perbandingan antara dua grup"
+      ]
+    },
+    "lesson": {
+      "intro": "Bar chart membandingkan nilai antarkategori pada satu waktu atau antara beberapa tempat. Tugasmu adalah memilih kategori yang penting, lalu menjelaskan selisihnya dengan kata yang tepat.",
+      "sections": [
+        {
+          "heading": "Kategori dan proporsi",
+          "bodyMd": "Setiap **category** punya batang sendiri. **Proportion** menunjukkan bagian dari keseluruhan. Jika satu **segment** menguasai grafik, pakai kata **dominate** atau sebut angkanya."
+        },
+        {
+          "heading": "Selisih",
+          "bodyMd": "Gunakan **significant** atau **substantial** untuk selisih besar. Gunakan **slight** untuk selisih kecil. Jika perubahannya bertahap, pakai **gradual**."
+        },
+        {
+          "heading": "Membandingkan",
+          "bodyMd": "Sebuah **comparison** harus jelas. Jika satu kategori **outperform** kategori lain, sebutkan selisihnya. Jangan hanya menulis bahwa keduanya berbeda."
+        }
+      ],
+      "formulas": [
+        { "label": "Dominan", "pattern": "X was the dominant category, at A%" },
+        { "label": "Selisih besar", "pattern": "X outperformed Y by a significant / substantial margin" },
+        { "label": "Selisih kecil", "pattern": "X was only slightly higher than Y" },
+        { "label": "Proporsi", "pattern": "the proportion of X was about A%" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The bar chart compares three cities.", "id": "Diagram batang itu membandingkan tiga kota." },
+          { "en": "The proportion of cyclists is the highest.", "id": "Proporsi pesepeda paling tinggi." },
+          { "en": "Buses outperformed bicycles by a substantial margin.", "id": "Bus mengungguli sepeda dengan selisih yang besar." },
+          { "en": "The difference was slight in the first year.", "id": "Selisihnya kecil pada tahun pertama." },
+          { "en": "This category grew gradually over five years.", "id": "Kategori ini tumbuh bertahap selama lima tahun." }
+        ],
+        "negative": [
+          { "en": "The chart does not show the price of the buses.", "id": "Diagram itu tidak menunjukkan harga bus." },
+          { "en": "The gap is not significant in the third city.", "id": "Selisihnya tidak besar di kota ketiga." },
+          { "en": "This category did not outperform the others.", "id": "Kategori ini tidak mengungguli kategori lain." },
+          { "en": "The change was not sudden.", "id": "Perubahannya tidak mendadak." },
+          { "en": "The bars are not equal in height.", "id": "Batang-batangnya tidak sama tinggi." }
+        ],
+        "question": [
+          { "en": "Which category is the largest?", "id": "Kategori mana yang paling besar?" },
+          { "en": "How large is the difference?", "id": "Seberapa besar selisihnya?" },
+          { "en": "Did the category outperform the others?", "id": "Apakah kategori itu mengungguli yang lain?" },
+          { "en": "What is the proportion of cars?", "id": "Berapa proporsi mobil?" },
+          { "en": "Was the change gradual?", "id": "Apakah perubahannya bertahap?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The proportion of buses are high.", "right": "The proportion of buses is high.", "whyId": "Proportion adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "Cycling outperform buses in 2022.", "right": "Cycling outperformed buses in 2022.", "whyId": "Keterangan tahun lampau memakai bentuk lampau outperformed." },
+        { "wrong": "The bar chart compare three cities.", "right": "The bar chart compares three cities.", "whyId": "Subjek bar chart tunggal memakai compares." },
+        { "wrong": "There is a slight difference between the category.", "right": "There is a slight difference between the categories.", "whyId": "Between dua hal memakai bentuk jamak categories." },
+        { "wrong": "The change was gradually.", "right": "The change was gradual.", "whyId": "Setelah was, pakai kata sifat gradual." },
+        { "wrong": "A significantly difference was shown.", "right": "A significant difference was shown.", "whyId": "Difference adalah kata benda, jadi kata sifatnya significant." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Cara Siswa Pergi ke Sekolah",
+    "text": "The bar chart compares how students travelled to school in three cities in 2022. Each bar represents one city, and each category shows a different mode of transport: walking, cycling, buses, and private cars. The chart allows a clear comparison between the cities and makes it easy to see the proportion of students in each category at a glance.\n\nIn the first city, buses were the most popular choice. Almost half of the students travelled by bus, while cycling accounted for about one fifth. Walking was less common, and only a small share of students came by private car. This pattern reflects a city with a dense network of bus routes, which gives most families a reliable option.\n\nThe second city shows a different picture. Cycling was the dominant category, and in this city it did outperform buses by a significant margin. The difference was substantial, because the city has built many bike lanes over the last five years. Walking was also popular, and the number of private cars was lower than in the other two cities.\n\nThe third city has the highest proportion of private cars. More than a third of students were driven to school, which is a large share compared with the others. Buses carried a smaller share, and the figure for cycling was only a slight part of the total. The chart suggests that distance and road safety may explain these results, although the report does not test this directly.\n\nTwo other comparisons stand out. First, the gap between walking and cycling is small in the first city, but it is much wider in the second. Second, the change in car use over time is gradual rather than sudden, according to the earlier data in the report. The category of private cars did not change much in two years, which means the trend is slow.\n\nOverall, the chart shows that transport choices depend strongly on local conditions. Where cycling infrastructure is strong, cycling is the main category. Where bus services are reliable, buses dominate. The segment of students who drive is largest where schools are farther from home, and this segment is the main target for future policy.",
+    "glossary": [
+      { "en": "mode of transport", "id": "moda transportasi" },
+      { "en": "margin", "id": "selisih, jarak" },
+      { "en": "dense", "id": "padat, rapat" },
+      { "en": "infrastructure", "id": "infrastruktur" },
+      { "en": "target", "id": "sasaran" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Buses were the most popular choice in the first city.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut bus adalah pilihan paling populer di kota pertama.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyatakan bus paling populer, jadi tidak False." },
+          { "optionId": "C", "reasonId": "Teks menyebut hal ini secara langsung." }
+        ],
+        "evidence": "buses were the most popular choice"
+      },
+      {
+        "id": "R2",
+        "type": "true_false_not_given",
+        "prompt": "The chart shows the number of schools in each city.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut diagram membandingkan cara siswa pergi ke sekolah, tetapi tidak menyebut jumlah sekolah.",
+        "stepByStep": [
+          "Cari school di teks.",
+          "Teks membahas cara siswa pergi ke sekolah, bukan jumlah sekolah.",
+          "Karena jumlah sekolah tidak disebut, jawabannya Not Given."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut jumlah sekolah." },
+          { "optionId": "B", "reasonId": "Teks tidak menyatakan jumlah sekolah itu berbeda." }
+        ],
+        "evidence": "Each bar represents one city"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Cycling was more popular than buses in the second city.",
+        "options": [
+          { "id": "A", "text": "True" },
+          { "id": "B", "text": "False" },
+          { "id": "C", "text": "Not Given" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut bahwa di kota kedua sepeda mengungguli bus dengan selisih yang besar.",
+        "stepByStep": [
+          "Cari kota kedua di paragraf ketiga.",
+          "Teks menyebut sepeda did outperform buses by a significant margin.",
+          "Pernyataan itu sejalan dengan teks, sehingga True."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut sepeda lebih unggul dari bus, jadi tidak False." },
+          { "optionId": "C", "reasonId": "Teks membahas perbandingan ini secara langsung." }
+        ],
+        "evidence": "it did outperform buses by a significant margin"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which description best matches the third city?",
+        "options": [
+          { "id": "A", "text": "Cycling was the main category." },
+          { "id": "B", "text": "Private cars had the highest proportion." },
+          { "id": "C", "text": "Walking was the most common." },
+          { "id": "D", "text": "Buses carried the largest share." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyebut kota ketiga memiliki proporsi mobil pribadi tertinggi.",
+        "stepByStep": [
+          "Cari third city di paragraf keempat.",
+          "Teks menyebut proporsi mobil pribadi paling tinggi.",
+          "Sepeda, jalan kaki, dan bus tidak menjadi kategori utama di kota ketiga."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sepeda menjadi kategori utama di kota kedua, bukan kota ketiga." },
+          { "optionId": "C", "reasonId": "Jalan kaki tidak disebut sebagai kategori paling umum di kota ketiga." },
+          { "optionId": "D", "reasonId": "Bus membawa porsi yang lebih kecil di kota ketiga." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada soal deskripsi, cocokkan kota dengan kategori yang paling menonjol dalam paragrafnya.",
+          "examples": [
+            { "en": "The highest proportion was in the third city.", "id": "Proporsi tertinggi berada di kota ketiga." },
+            { "en": "The second city had the largest share of cyclists.", "id": "Kota kedua memiliki porsi pesepeda terbesar." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat cocok karena bus disebut di paragraf keempat, tetapi bus membawa porsi yang lebih kecil.",
+        "evidence": "The third city has the highest proportion of private cars"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "According to the passage, why did the change in car use appear slow?",
+        "options": [
+          { "id": "A", "text": "The chart shows only one year." },
+          { "id": "B", "text": "The category did not change much in two years." },
+          { "id": "C", "text": "Cars were banned in all three cities." },
+          { "id": "D", "text": "Bus fares increased sharply." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyebut kategori mobil pribadi tidak banyak berubah dalam dua tahun, sehingga tren terlihat lambat.",
+        "stepByStep": [
+          "Cari kata slow atau trend di paragraf kelima.",
+          "Teks menyebut kategori mobil pribadi tidak banyak berubah dalam dua tahun.",
+          "Grafik satu tahun, larangan mobil, dan kenaikan tarif tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut grafik hanya satu tahun." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut larangan mobil di kota mana pun." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut kenaikan tarif bus." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Perubahan yang kecil selama beberapa waktu menunjukkan tren yang lambat.",
+          "examples": [
+            { "en": "The number changed very little over two years.", "id": "Angkanya berubah sangat sedikit selama dua tahun." },
+            { "en": "The trend is slow because the change is gradual.", "id": "Tren itu lambat karena perubahannya bertahap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena grafik sering menunjukkan satu tahun, tetapi teks menyebut perubahan dalam dua tahun.",
+        "evidence": "The category of private cars did not change much in two years"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "A ___ compares the number of items in different groups.",
+        "options": [
+          { "id": "A", "text": "bar chart" },
+          { "id": "B", "text": "bridge" },
+          { "id": "C", "text": "ticket" },
+          { "id": "D", "text": "garden" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Bar chart adalah diagram batang yang membandingkan jumlah antarkelompok.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bridge berarti jembatan, bukan diagram." },
+          { "optionId": "C", "reasonId": "Ticket berarti tiket, bukan diagram." },
+          { "optionId": "D", "reasonId": "Garden berarti taman, bukan diagram." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The ___ of students who walked was about one quarter of the total.",
+        "options": [
+          { "id": "A", "text": "garden" },
+          { "id": "B", "text": "proportion" },
+          { "id": "C", "text": "bridge" },
+          { "id": "D", "text": "ticket" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Proportion adalah bagian dari keseluruhan, dan kalimat ini menyebut seperempat dari total.",
+        "stepByStep": [
+          "Kalimat menyebut bagian dari keseluruhan.",
+          "Bagian dari total disebut proportion.",
+          "Garden, bridge, dan ticket tidak berarti bagian dari total."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Garden berarti taman, bukan bagian dari total." },
+          { "optionId": "C", "reasonId": "Bridge berarti jembatan, bukan bagian dari total." },
+          { "optionId": "D", "reasonId": "Ticket berarti tiket, bukan bagian dari total." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Each ___ of the chart represents a different type of transport.",
+        "options": [
+          { "id": "A", "text": "garden" },
+          { "id": "B", "text": "ticket" },
+          { "id": "C", "text": "category" },
+          { "id": "D", "text": "bridge" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Category adalah kelompok dalam grafik, dan setiap kelompok menunjukkan jenis transportasi.",
+        "stepByStep": [
+          "Kalimat menyebut kelompok yang mewakili jenis transportasi.",
+          "Kelompok dalam grafik disebut category.",
+          "Garden, ticket, dan bridge tidak berarti kelompok dalam grafik."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Garden berarti taman, bukan kelompok dalam grafik." },
+          { "optionId": "B", "reasonId": "Ticket berarti tiket, bukan kelompok dalam grafik." },
+          { "optionId": "D", "reasonId": "Bridge berarti jembatan, bukan kelompok dalam grafik." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The new bus route ___ the old route in punctuality.",
+        "options": [
+          { "id": "A", "text": "declined" },
+          { "id": "B", "text": "steadied" },
+          { "id": "C", "text": "plunged" },
+          { "id": "D", "text": "outperformed" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Outperformed berarti mengungguli, dan kalimat ini menyatakan rute baru lebih baik dalam ketepatan waktu.",
+        "stepByStep": [
+          "Kalimat menyebut rute baru lebih baik dari rute lama.",
+          "Mengungguli sesuatu disebut outperform.",
+          "Declined, steadied, dan plunged tidak menyatakan keunggulan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Declined berarti menurun, bukan lebih baik." },
+          { "optionId": "B", "reasonId": "Steadied berarti menjadi stabil, bukan lebih baik." },
+          { "optionId": "C", "reasonId": "Plunged berarti anjlok, bukan lebih baik." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Outperform berarti mengungguli, melebihi hasil sesuatu yang lain.",
+          "examples": [
+            { "en": "The second team outperformed the first.", "id": "Tim kedua mengungguli tim pertama." },
+            { "en": "The new method outperformed the old one.", "id": "Metode baru mengungguli metode lama." }
+          ]
+        },
+        "examTrap": "Pilihan C plunged terlihat cocok karena menyangkut perbandingan performa, tetapi plunged berarti anjlok, bukan lebih baik."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The improvement was ___, a small change that many people did not notice.",
+        "options": [
+          { "id": "A", "text": "substantial" },
+          { "id": "B", "text": "slight" },
+          { "id": "C", "text": "significant" },
+          { "id": "D", "text": "dominant" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Slight berarti kecil atau sedikit, dan kalimat ini menyebut perubahan kecil yang tidak disadari banyak orang.",
+        "stepByStep": [
+          "Kalimat menyebut perubahan kecil yang tidak disadari.",
+          "Kata sifat untuk perubahan kecil adalah slight.",
+          "Substantial dan significant berarti besar, dan dominant berarti menguasai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Substantial berarti besar, bertentangan dengan perubahan kecil." },
+          { "optionId": "C", "reasonId": "Significant berarti berarti besar, bertentangan dengan perubahan kecil." },
+          { "optionId": "D", "reasonId": "Dominant berarti menguasai, tidak menjelaskan besarnya perubahan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Slight menggambarkan perubahan yang kecil atau hampir tidak terlihat.",
+          "examples": [
+            { "en": "There was a slight rise in prices.", "id": "Ada kenaikan harga yang kecil." },
+            { "en": "The difference is slight.", "id": "Selisihnya kecil." }
+          ]
+        },
+        "examTrap": "Pilihan C significant terlihat cocok karena sering dipakai dalam perbandingan, tetapi significant menunjukkan perubahan yang besar."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Diagram batang ini membandingkan tiga kota.",
+        "hint": "Diagram batang: the bar chart. Membandingkan: compares. Tiga kota: three cities.",
+        "acceptedAnswers": ["This bar chart compares three cities.", "The bar chart compares three cities."],
+        "modelAnswer": "This bar chart compares three cities.",
+        "commonErrors": [{ "pattern": "This bar chart compare three cities", "feedbackId": "Subjek bar chart tunggal memakai compares." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Segmen ini mewakili siswa yang naik sepeda.",
+        "hint": "Segmen ini: this segment. Mewakili: represents. Siswa yang naik sepeda: students who cycle.",
+        "acceptedAnswers": ["This segment represents students who cycle.", "This segment represents the students who cycle."],
+        "modelAnswer": "This segment represents students who cycle.",
+        "commonErrors": [{ "pattern": "This segment represent students who cycles", "feedbackId": "Subjek segment tunggal memakai represents, dan students who cycle tetap jamak." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Perbedaannya cukup besar, bukan kecil.",
+        "hint": "Perbedaannya: the difference. Cukup besar: substantial. Bukan kecil: not slight.",
+        "acceptedAnswers": ["The difference is substantial, not slight.", "The difference is substantial rather than slight."],
+        "modelAnswer": "The difference is substantial, not slight.",
+        "commonErrors": [{ "pattern": "The difference are substantial, not slight", "feedbackId": "Subjek difference tunggal memakai is." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penggunaan mobil pribadi berubah secara bertahap selama dua tahun.",
+        "hint": "Penggunaan mobil pribadi: the use of private cars. Berubah: changed. Secara bertahap: gradually. Selama dua tahun: over two years.",
+        "acceptedAnswers": ["The use of private cars changed gradually over two years.", "The use of private cars changed gradually over the two years."],
+        "modelAnswer": "The use of private cars changed gradually over two years.",
+        "commonErrors": [{ "pattern": "The use of private cars change gradual over two years", "feedbackId": "Gunakan bentuk lampau changed dan keterangan gradually." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Bus mengungguli sepeda dalam hal ketepatan waktu.",
+        "hint": "Bus: buses. Mengungguli: outperform. Sepeda: bicycles. Dalam hal ketepatan waktu: in punctuality.",
+        "acceptedAnswers": ["Buses outperform bicycles in punctuality.", "Buses outperform cycling in punctuality."],
+        "modelAnswer": "Buses outperform bicycles in punctuality.",
+        "commonErrors": [{ "pattern": "Buses outperforms bicycles in punctuality", "feedbackId": "Subjek buses jamak memakai outperform." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a group of items that share common features'?",
+        "options": [
+          { "id": "A", "text": "segment" },
+          { "id": "B", "text": "category" },
+          { "id": "C", "text": "proportion" },
+          { "id": "D", "text": "margin" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Category adalah kelompok hal yang memiliki ciri bersama.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kelompok dengan ciri yang sama.",
+          "Kelompok seperti itu disebut category.",
+          "Segment berarti bagian, proportion berarti bagian dari total, dan margin berarti selisih."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Segment adalah bagian dari sesuatu, bukan kelompok berciri sama." },
+          { "optionId": "C", "reasonId": "Proportion adalah bagian dari keseluruhan, bukan kelompok." },
+          { "optionId": "D", "reasonId": "Margin berarti selisih, bukan kelompok." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Category adalah kelompok dalam klasifikasi atau grafik.",
+          "examples": [
+            { "en": "Each category has its own bar.", "id": "Setiap kategori punya batangnya sendiri." },
+            { "en": "Walking is one transport category.", "id": "Jalan kaki adalah salah satu kategori transportasi." }
+          ]
+        },
+        "examTrap": "Pilihan A segment terlihat dekat karena juga berarti bagian, tetapi segment adalah bagian, bukan kelompok berciri sama."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'proportion'?",
+        "options": [
+          { "id": "A", "text": "The proportion are high in the chart." },
+          { "id": "B", "text": "The proportions is high in the chart." },
+          { "id": "C", "text": "Proportion the high chart is." },
+          { "id": "D", "text": "The proportion of cyclists is high." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Proportion adalah subjek tunggal, sehingga memakai is, dan frasa of cyclists menjelaskan bagiannya.",
+        "stepByStep": [
+          "Proportion adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa of cyclists menunjukkan proporsi pesepeda.",
+          "Pilihan A memakai are, pilihan B memakai proportions dengan is, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal proportion." },
+          { "optionId": "B", "reasonId": "Proportions jamak tidak cocok dengan is di sini." },
+          { "optionId": "C", "reasonId": "Urutan kata dalam kalimat ini salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Proportion adalah kata benda tunggal, dan frasa of menjelaskan bagian yang dimaksud.",
+          "examples": [
+            { "en": "The proportion of students by bus is high.", "id": "Proporsi siswa yang naik bus itu tinggi." },
+            { "en": "The proportion of adults is small.", "id": "Proporsi orang dewasa itu kecil." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena kata high dekat dengan chart, tetapi subjek utama kalimat adalah proportion yang tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to be clearly better than something else'?",
+        "options": [
+          { "id": "A", "text": "outperform" },
+          { "id": "B", "text": "fluctuate" },
+          { "id": "C", "text": "decline" },
+          { "id": "D", "text": "plunge" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Outperform berarti mengungguli, lebih baik daripada sesuatu yang lain.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk lebih baik daripada yang lain.",
+          "Kata yang tepat adalah outperform.",
+          "Fluctuate, decline, dan plunge menggambarkan naik turun atau penurunan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Fluctuate berarti naik turun, bukan lebih baik." },
+          { "optionId": "C", "reasonId": "Decline berarti menurun, bukan lebih baik." },
+          { "optionId": "D", "reasonId": "Plunge berarti anjlok, bukan lebih baik." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Outperform menyatakan keunggulan atas sesuatu dalam performa atau hasil.",
+          "examples": [
+            { "en": "The bus outperformed the train on time.", "id": "Bus mengungguli kereta dalam ketepatan waktu." },
+            { "en": "Our team outperformed the others.", "id": "Tim kami mengungguli tim lain." }
+          ]
+        },
+        "examTrap": "Pilihan C decline terlihat cocok karena sering dipakai untuk perbandingan, tetapi decline berarti penurunan, bukan keunggulan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The change was ___, so it is not important to the study.'",
+        "options": [
+          { "id": "A", "text": "significant" },
+          { "id": "B", "text": "substantial" },
+          { "id": "C", "text": "slight" },
+          { "id": "D", "text": "dominant" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Slight berarti kecil, dan kalimat ini menyatakan perubahan itu tidak penting bagi penelitian.",
+        "stepByStep": [
+          "Kalimat menyatakan perubahan itu tidak penting.",
+          "Perubahan kecil yang tidak penting disebut slight.",
+          "Significant dan substantial menunjukkan perubahan besar, dan dominant berarti menguasai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Significant berarti berarti besar, bertentangan dengan tidak penting." },
+          { "optionId": "B", "reasonId": "Substantial berarti besar, bertentangan dengan tidak penting." },
+          { "optionId": "D", "reasonId": "Dominant berarti menguasai, tidak menjelaskan besarnya perubahan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Slight menunjukkan perubahan yang kecil, sehingga sering dipakai untuk menyatakan kurang penting.",
+          "examples": [
+            { "en": "The effect was slight.", "id": "Efeknya kecil." },
+            { "en": "There was only a slight improvement.", "id": "Hanya ada peningkatan yang kecil." }
+          ]
+        },
+        "examTrap": "Pilihan A significant terlihat cocok karena sering dipakai dalam tulisan ilmiah, tetapi kalimat ini menyatakan perubahan yang tidak penting."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The bar charts shows three category." },
+          { "id": "B", "text": "The bar chart shows three categories." },
+          { "id": "C", "text": "The bar chart show three category." },
+          { "id": "D", "text": "The bar chart shows three category." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek bar chart tunggal memakai shows, dan three categories memakai bentuk jamak setelah angka tiga.",
+        "stepByStep": [
+          "Subjek bar chart tunggal, sehingga kata kerjanya shows.",
+          "Setelah angka tiga, kata benda memakai bentuk jamak categories.",
+          "Pilihan A dan D memakai category tunggal, dan pilihan C memakai show untuk subjek tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Subjek bar charts jamak tidak cocok dengan subjek tunggal yang dimaksud, dan category harus jamak." },
+          { "optionId": "C", "reasonId": "Show tidak cocok dengan subjek tunggal bar chart, dan category harus jamak." },
+          { "optionId": "D", "reasonId": "Category setelah angka tiga harus jamak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah angka lebih dari satu, kata benda memakai bentuk jamak.",
+          "examples": [
+            { "en": "The chart shows two categories.", "id": "Diagram itu menunjukkan dua kategori." },
+            { "en": "The chart shows four segments.", "id": "Diagram itu menunjukkan empat segmen." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat benar karena subjek dan kata kerjanya sudah tunggal, tetapi kata category setelah angka tiga harus jamak."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "W09-001",
+    "week": 9,
+    "topicTag": "tfng",
+    "type": "mcq",
+    "prompt": "The text says a hotel opened in 1990. The statement says the hotel opened in 1980. What is the correct answer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "False"
+      },
+      {
+        "id": "B",
+        "text": "True"
+      },
+      {
+        "id": "C",
+        "text": "Not Given"
+      },
+      {
+        "id": "D",
+        "text": "Yes"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Teks menyebut tahun 1990, sehingga pernyataan 1980 bertentangan dengan teks dan jawabannya False.",
+    "stepByStep": [
+      "Cari tahun pembukaan hotel di teks: 1990.",
+      "Pernyataan menyebut 1980, yang berbeda dengan teks.",
+      "Karena teks menyebut tahun yang berbeda, jawabannya False, bukan Not Given."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "True berarti sejalan dengan teks, sedangkan tahun pembukaan berbeda."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Teks menyebut tahun pembukaan secara langsung, jadi bukan Not Given."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Yes dipakai untuk pertanyaan sikap, bukan pernyataan fakta."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Jika teks menyebut informasi yang bertentangan dengan pernyataan, jawabannya False.",
+      "examples": [
+        {
+          "en": "The text says the bridge opened in May, not June.",
+          "id": "Teks menyebut jembatan dibuka pada Mei, bukan Juni."
+        },
+        {
+          "en": "The price was higher than the statement claims.",
+          "id": "Harganya lebih tinggi daripada yang diklaim pernyataan."
+        }
+      ]
+    },
+    "examTrap": "Pilihan C Not Given terlihat cocok karena pernyataan memakai tahun yang tidak sama, tetapi teks sudah menyebut tahun yang bertentangan."
+  },
+  {
+    "id": "W09-002",
+    "week": 9,
+    "topicTag": "yes-no-ng",
+    "type": "mcq",
+    "prompt": "The text does not mention the writer's view on the policy. The question asks whether the writer supports the policy. What is the answer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes"
+      },
+      {
+        "id": "B",
+        "text": "No"
+      },
+      {
+        "id": "C",
+        "text": "Not Given"
+      },
+      {
+        "id": "D",
+        "text": "True"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Jika teks tidak menyebut sikap penulis terhadap kebijakan itu, jawabannya Not Given.",
+    "stepByStep": [
+      "Cari sikap penulis terhadap kebijakan di teks.",
+      "Teks tidak menyebut sikap itu.",
+      "Yes dan No membutuhkan sikap yang disebut, sedangkan True tidak dipakai untuk pertanyaan sikap."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Yes membutuhkan sikap setuju yang disebut dalam teks."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "No membutuhkan sikap menolak yang disebut dalam teks."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "True dipakai untuk pernyataan fakta, bukan pertanyaan sikap."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Not Given dipakai jika sikap atau informasi tidak disebutkan dalam teks.",
+      "examples": [
+        {
+          "en": "The writer does not state an opinion on the plan.",
+          "id": "Penulis tidak menyatakan pendapat tentang rencana itu."
+        },
+        {
+          "en": "The speaker never mentions the cost.",
+          "id": "Pembicara tidak pernah menyebut biayanya."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B No terlihat masuk akal karena penulis tidak terlihat mendukung, tetapi tidak disebut menolak juga."
+  },
+  {
+    "id": "W09-003",
+    "week": 9,
+    "topicTag": "tfng",
+    "type": "mcq",
+    "prompt": "The text states that the project was expensive, but the statement claims it was cheap. What is the answer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not Given"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Yes"
+      },
+      {
+        "id": "D",
+        "text": "True"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Teks menyebut proyek itu mahal, yang bertentangan dengan pernyataan bahwa proyek itu murah.",
+    "stepByStep": [
+      "Teks menyebut proyek itu mahal.",
+      "Pernyataan menyebut proyek itu murah.",
+      "Pernyataan itu berlawanan dengan teks, jadi jawabannya False."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Teks membahas biaya proyek secara langsung."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Yes bukan jawaban untuk pernyataan fakta."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "True berarti sejalan dengan teks, padahal teks bertentangan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pernyataan dengan kata sifat yang berlawanan dari teks dinilai False.",
+      "examples": [
+        {
+          "en": "The text says the room was large, not small.",
+          "id": "Teks menyebut ruangannya besar, bukan kecil."
+        },
+        {
+          "en": "The writer says the risk is high, not low.",
+          "id": "Penulis menyebut risikonya tinggi, bukan rendah."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A Not Given terlihat cocok karena pernyataan tentang biaya memang disebut, tetapi tidak perlu tebakan karena teks sudah jelas bertentangan."
+  },
+  {
+    "id": "W09-004",
+    "week": 9,
+    "topicTag": "judul-paragraf",
+    "type": "mcq",
+    "prompt": "A paragraph explains three causes of traffic delays. Which heading fits best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A single delayed bus"
+      },
+      {
+        "id": "B",
+        "text": "The history of the bus company"
+      },
+      {
+        "id": "C",
+        "text": "Weather forecasts for next week"
+      },
+      {
+        "id": "D",
+        "text": "Three causes of traffic delays"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Judul yang tepat menangkap seluruh isi paragraf, yaitu tiga penyebab keterlambatan lalu lintas.",
+    "stepByStep": [
+      "Paragraf menjelaskan tiga penyebab keterlambatan.",
+      "Judul yang mencakup seluruh isi paragraf harus menyebut penyebab keterlambatan.",
+      "Satu bus, sejarah perusahaan, dan cuaca tidak mencakup isi paragraf."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Satu bus terlalu sempit, sedangkan paragraf membahas tiga penyebab."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Sejarah perusahaan tidak dibahas dalam paragraf itu."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Ramalan cuaca tidak dibahas dalam paragraf itu."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Judul paragraf harus menyebut gagasan utama yang mencakup semua poin di dalamnya.",
+      "examples": [
+        {
+          "en": "The heading names the main idea of the paragraph.",
+          "id": "Judul itu menyebut gagasan utama paragraf."
+        },
+        {
+          "en": "A good heading covers every point in the paragraph.",
+          "id": "Judul yang baik mencakup setiap poin dalam paragraf."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat cocok karena paragraf itu menyebut bus, tetapi judul itu hanya menyebut satu contoh."
+  },
+  {
+    "id": "W09-005",
+    "week": 9,
+    "topicTag": "judul-paragraf",
+    "type": "mcq",
+    "prompt": "Which heading is too narrow for a paragraph about the whole city plan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "One street on Hill Road"
+      },
+      {
+        "id": "B",
+        "text": "The purpose of the city plan"
+      },
+      {
+        "id": "C",
+        "text": "The cost of the city plan"
+      },
+      {
+        "id": "D",
+        "text": "Why the plan was written"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Satu jalan hanya menyebut bagian kecil dari rencana kota, sehingga terlalu sempit untuk paragraf tentang seluruh rencana.",
+    "stepByStep": [
+      "Paragraf membahas seluruh rencana kota.",
+      "Judul yang hanya menyebut satu jalan mencakup bagian yang sangat kecil.",
+      "Tujuan, biaya, dan alasan penulisan rencana masih berkaitan dengan seluruh rencana."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Tujuan rencana kota mencakup seluruh rencana."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Biaya rencana kota juga bagian dari seluruh rencana."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Alasan penulisan rencana juga mencakup seluruh rencana."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Judul yang terlalu sempit hanya menyebut satu contoh atau satu bagian kecil dari paragraf.",
+      "examples": [
+        {
+          "en": "A heading about one shop is too narrow for a market report.",
+          "id": "Judul tentang satu toko terlalu sempit untuk laporan pasar."
+        },
+        {
+          "en": "A heading about the whole market fits the paragraph.",
+          "id": "Judul tentang seluruh pasar cocok dengan paragraf itu."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat umum dan luas, sehingga sering disalahpahami sebagai judul sempit, tetapi justru mencakup seluruh paragraf."
+  },
+  {
+    "id": "W09-006",
+    "week": 9,
+    "topicTag": "celah-batas-kata",
+    "type": "mcq",
+    "prompt": "Instruction: write NO MORE THAN TWO WORDS. The sentence says 'Students should bring their ___.' The recording says 'student card'. Which answer is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "student card with photo"
+      },
+      {
+        "id": "B",
+        "text": "card"
+      },
+      {
+        "id": "C",
+        "text": "student card"
+      },
+      {
+        "id": "D",
+        "text": "a student card"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Student card terdiri dari dua kata, sesuai batas dua kata, dan sama dengan yang disebut rekaman.",
+    "stepByStep": [
+      "Instruksi membatasi jawaban maksimal dua kata.",
+      "Rekaman menyebut student card, yaitu dua kata.",
+      "Student card with photo melebihi batas, card kehilangan kata student, dan a student card berisi tiga kata."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Jawaban ini berisi empat kata, melebihi batas dua kata."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Card saja tidak sama dengan jawaban dari rekaman."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "A student card berisi tiga kata, melebihi batas dua kata."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Jawaban harus tepat sesuai batas kata, dan artikel a atau the ikut dihitung sebagai kata.",
+      "examples": [
+        {
+          "en": "Write no more than two words: student card.",
+          "id": "Tulis tidak lebih dari dua kata: student card."
+        },
+        {
+          "en": "A student card is three words.",
+          "id": "A student card adalah tiga kata."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat benar secara isi, tetapi artikel a menambah kata dan membuat jawaban melampaui batas."
+  },
+  {
+    "id": "W09-007",
+    "week": 9,
+    "topicTag": "celah-batas-kata",
+    "type": "mcq",
+    "prompt": "Instruction: write ONE WORD ONLY. The sentence says 'The result was ___ by the second test.' Which word fits?",
+    "options": [
+      {
+        "id": "A",
+        "text": "confirming"
+      },
+      {
+        "id": "B",
+        "text": "confirmed"
+      },
+      {
+        "id": "C",
+        "text": "confirm"
+      },
+      {
+        "id": "D",
+        "text": "confirmation"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Was confirmed adalah bentuk pasif lampau, sehingga cocok dengan kalimat 'The result was ___ by the second test'.",
+    "stepByStep": [
+      "Pola was ___ by menuntut bentuk V3 dari kata kerja.",
+      "Bentuk V3 dari confirm adalah confirmed.",
+      "Confirming, confirm, dan confirmation tidak membentuk pola pasif yang benar."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Confirming tidak cocok setelah was dalam pola pasif."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Confirm adalah bentuk dasar, tidak cocok dalam pola pasif."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Confirmation adalah kata benda, tidak cocok setelah was ___ by."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pola was + V3 + by menyatakan tindakan yang diterima subjek.",
+      "examples": [
+        {
+          "en": "The plan was approved by the council.",
+          "id": "Rencana itu disetujui oleh dewan."
+        },
+        {
+          "en": "The results were checked by two experts.",
+          "id": "Hasilnya diperiksa oleh dua ahli."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D confirmation terlihat seperti kata yang sesuai dengan makna, tetapi kalimat ini butuh bentuk kata kerja pasif."
+  },
+  {
+    "id": "W09-008",
+    "week": 9,
+    "topicTag": "koreksi",
+    "type": "mcq",
+    "prompt": "An article says 'the bridge opened in May'. A correction says 'Actually, the bridge opened in June.' Which is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "May"
+      },
+      {
+        "id": "B",
+        "text": "Both May and June"
+      },
+      {
+        "id": "C",
+        "text": "Neither month"
+      },
+      {
+        "id": "D",
+        "text": "June"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Koreksi menyatakan bahwa tanggal yang benar adalah Juni, sehingga versi baru berlaku.",
+    "stepByStep": [
+      "Artikel awal menyebut Mei.",
+      "Koreksi dimulai dengan actually dan menyebut Juni sebagai tanggal yang benar.",
+      "Versi lama tidak berlaku lagi, sehingga jawabannya June."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Mei adalah versi lama yang sudah dikoreksi."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Teks tidak menyatakan kedua bulan benar."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Koreksi menyebut bulan Juni, jadi bukan tidak ada bulan yang benar."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Dalam koreksi, versi terbaru menggantikan versi lama.",
+      "examples": [
+        {
+          "en": "Actually, the meeting was moved to Tuesday.",
+          "id": "Sebenarnya, rapat itu dipindah ke hari Selasa."
+        },
+        {
+          "en": "The correction replaces the earlier date.",
+          "id": "Koreksi itu menggantikan tanggal sebelumnya."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat menarik karena versi pertama sering dipercaya, tetapi koreksi berarti versi yang baru yang dipakai."
+  },
+  {
+    "id": "W09-009",
+    "week": 9,
+    "topicTag": "koreksi",
+    "type": "mcq",
+    "prompt": "Which word usually signals a correction in a text?",
+    "options": [
+      {
+        "id": "A",
+        "text": "actually"
+      },
+      {
+        "id": "B",
+        "text": "because"
+      },
+      {
+        "id": "C",
+        "text": "therefore"
+      },
+      {
+        "id": "D",
+        "text": "however"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Actually sering menandai koreksi atau pembetulan terhadap pernyataan sebelumnya.",
+    "stepByStep": [
+      "Penanda koreksi memberi tahu pembaca bahwa informasi sebelumnya diperbaiki.",
+      "Actually sering dipakai untuk koreksi.",
+      "Because, therefore, dan however menunjukkan sebab, akibat, atau kontras, bukan koreksi."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Because menunjukkan sebab, bukan koreksi."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Therefore menunjukkan akibat, bukan koreksi."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "However menunjukkan kontras, bukan koreksi."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Penanda koreksi seperti actually atau rather menandai perbaikan informasi.",
+      "examples": [
+        {
+          "en": "Actually, the figure is lower than we thought.",
+          "id": "Sebenarnya, angkanya lebih rendah dari yang kita kira."
+        },
+        {
+          "en": "It was rather a different date.",
+          "id": "Itu tanggal yang cukup berbeda."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D however terlihat seperti penanda yang kuat, tetapi however menunjukkan kontras, bukan pembetulan informasi."
+  },
+  {
+    "id": "W09-010",
+    "week": 9,
+    "topicTag": "koreksi",
+    "type": "mcq",
+    "prompt": "Which word means 'to take back a statement that was made earlier'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "amend"
+      },
+      {
+        "id": "B",
+        "text": "update"
+      },
+      {
+        "id": "C",
+        "text": "retract"
+      },
+      {
+        "id": "D",
+        "text": "distort"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Retract berarti menarik kembali pernyataan yang sudah dibuat sebelumnya.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk menarik kembali pernyataan.",
+      "Menarik kembali pernyataan disebut retract.",
+      "Amend dan update berarti memperbaiki atau memperbarui, sedangkan distort berarti memutarbalikkan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Amend berarti memperbaiki isi, bukan menarik kembali pernyataan."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Update berarti memperbarui, bukan menarik kembali pernyataan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Distort berarti memutarbalikkan fakta, bukan menarik kembali."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Retract dipakai untuk menarik kembali klaim, pernyataan, atau artikel.",
+      "examples": [
+        {
+          "en": "The journal retracted the paper.",
+          "id": "Jurnal itu menarik kembali makalah itu."
+        },
+        {
+          "en": "She retracted her claim after the test.",
+          "id": "Dia menarik kembali klaimnya setelah tes."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A amend terlihat dekat karena sama-sama mengubah isi, tetapi amend berarti memperbaiki, bukan menarik kembali."
+  },
+  {
+    "id": "W09-011",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "A listener hears the letters O-R-L-A-N-D-O for a name. Which spelling is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Orlanda"
+      },
+      {
+        "id": "B",
+        "text": "Orlando"
+      },
+      {
+        "id": "C",
+        "text": "Orlandoo"
+      },
+      {
+        "id": "D",
+        "text": "Orlaned"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Huruf O-R-L-A-N-D-O membentuk ejaan Orlando.",
+    "stepByStep": [
+      "Gabungkan huruf satu per satu: O, R, L, A, N, D, O.",
+      "Hasilnya Orlando.",
+      "Orlanda, Orlandoo, dan Orlaned memiliki huruf yang tidak sesuai dengan urutan yang dieja."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Huruf terakhir seharusnya O, bukan A."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Huruf O terakhir hanya satu, bukan dua."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Huruf keempat setelah D seharusnya O, bukan E."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ejaan dibentuk dengan menggabungkan huruf sesuai urutan yang diucapkan.",
+      "examples": [
+        {
+          "en": "The name is spelled S-M-I-T-H.",
+          "id": "Nama itu dieja S-M-I-T-H."
+        },
+        {
+          "en": "Please write each letter in capitals.",
+          "id": "Tolong tulis setiap huruf dengan kapital."
+        }
+      ]
+    },
+    "examTrap": "Pilihan C Orlandoo terlihat seperti ejaan yang sah, tetapi huruf O terakhir hanya satu di urutan yang didengar."
+  },
+  {
+    "id": "W09-012",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "Which is the correct spelling of the word meaning 'family name'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sirname"
+      },
+      {
+        "id": "B",
+        "text": "surnam"
+      },
+      {
+        "id": "C",
+        "text": "surnme"
+      },
+      {
+        "id": "D",
+        "text": "surname"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Ejaan yang benar untuk nama keluarga adalah surname.",
+    "stepByStep": [
+      "Kata yang berarti nama keluarga adalah surname.",
+      "Huruf yang benar: s-u-r-n-a-m-e.",
+      "Sirname, surnam, dan surnme memiliki huruf yang hilang atau salah."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Huruf u hilang, sehingga ejaan menjadi salah."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Huruf e terakhir hilang, sehingga ejaan menjadi salah."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Huruf a hilang, sehingga ejaan menjadi salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ejaan kata harus lengkap dan sesuai urutan huruf standar.",
+      "examples": [
+        {
+          "en": "Write your surname in capital letters.",
+          "id": "Tulislah nama belakangmu dengan huruf kapital."
+        },
+        {
+          "en": "The surname is on the form.",
+          "id": "Nama belakang ada di formulir."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A sirname terlihat mirip karena hanya beda satu huruf, tetapi itu tetap salah dan harus diperiksa huruf per huruf."
+  },
+  {
+    "id": "W09-013",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "The price is four point five pounds. Which written form is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4.5"
+      },
+      {
+        "id": "B",
+        "text": "45"
+      },
+      {
+        "id": "C",
+        "text": "4.05"
+      },
+      {
+        "id": "D",
+        "text": "5.4"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Four point five ditulis 4.5, dengan tanda desimal setelah angka empat.",
+    "stepByStep": [
+      "Four adalah bagian bulat, sehingga ditulis 4.",
+      "Point five adalah bagian desimal, sehingga ditulis 5 setelah titik.",
+      "45, 4.05, dan 5.4 tidak sesuai dengan urutan yang diucapkan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Tanda desimal hilang, sehingga nilainya berbeda."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Digit 5 dan 0 tertukar dengan urutan yang salah."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Digit 4 dan 5 tertukar, sehingga nilainya berbeda."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Point menandai tanda desimal, dan digit setelahnya menjadi bagian pecahan.",
+      "examples": [
+        {
+          "en": "Two point five is written 2.5.",
+          "id": "Two point five ditulis 2.5."
+        },
+        {
+          "en": "Zero point one is written 0.1.",
+          "id": "Zero point one ditulis 0.1."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B 45 terlihat seperti gabungan dua digit, tetapi point berarti tanda desimal, bukan dihilangkan."
+  },
+  {
+    "id": "W09-014",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "The digits are three, nine, and two, in that order. Which number is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "329"
+      },
+      {
+        "id": "B",
+        "text": "923"
+      },
+      {
+        "id": "C",
+        "text": "392"
+      },
+      {
+        "id": "D",
+        "text": "239"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Digit yang diucapkan tiga, sembilan, dan dua membentuk angka 392.",
+    "stepByStep": [
+      "Urutan digit yang diucapkan: tiga, sembilan, dua.",
+      "Angka yang dibentuk dari urutan itu adalah 392.",
+      "329, 923, dan 239 memiliki urutan digit yang berbeda."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Urutan dua dan sembilan tertukar."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Digit tiga dipindah ke belakang, sehingga urutannya salah."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Digit sembilan dan dua tertukar, sehingga urutannya salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setiap digit ditulis sesuai urutan yang diucapkan, dan tidak boleh tertukar.",
+      "examples": [
+        {
+          "en": "The code is one, four, seven.",
+          "id": "Kodenya satu, empat, tujuh."
+        },
+        {
+          "en": "Read each digit back to check it.",
+          "id": "Bacakan setiap digit kembali untuk memeriksanya."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A 329 terlihat mirip karena digit yang sama muncul, tetapi urutannya dibalik dari yang diucapkan."
+  },
+  {
+    "id": "W09-015",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "What does 'abbreviation' mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a long version of a word"
+      },
+      {
+        "id": "B",
+        "text": "a short form of a word"
+      },
+      {
+        "id": "C",
+        "text": "a number with a decimal point"
+      },
+      {
+        "id": "D",
+        "text": "a capital letter"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Abbreviation adalah bentuk pendek dari sebuah kata atau frasa.",
+    "stepByStep": [
+      "Kata abbreviation berkaitan dengan bentuk singkat.",
+      "Bentuk singkat sebuah kata disebut abbreviation.",
+      "Versi panjang, angka desimal, dan huruf kapital tidak sesuai dengan makna abbreviation."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Versi panjang adalah kebalikan dari abbreviation."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Angka desimal adalah decimal, bukan abbreviation."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Huruf kapital adalah capital, bukan abbreviation."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Abbreviation adalah bentuk singkat yang mewakili kata atau frasa lengkap.",
+      "examples": [
+        {
+          "en": "Dr is an abbreviation for doctor.",
+          "id": "Dr adalah singkatan dari doctor."
+        },
+        {
+          "en": "MEM is short for membership.",
+          "id": "MEM adalah singkatan dari membership."
+        }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat dekat karena decimal juga ada di topik angka, tetapi kata yang diminta berarti bentuk singkat."
+  },
+  {
+    "id": "W09-016",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "Which phrase means 'the point that separates whole numbers from fractions'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "postcode"
+      },
+      {
+        "id": "B",
+        "text": "capital"
+      },
+      {
+        "id": "C",
+        "text": "initial"
+      },
+      {
+        "id": "D",
+        "text": "decimal point"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Decimal point adalah tanda yang memisahkan bagian bulat dan pecahan dalam angka.",
+    "stepByStep": [
+      "Frasa itu menyebut tanda pemisah bagian bulat dan pecahan.",
+      "Tanda itu disebut decimal point.",
+      "Postcode, capital, dan initial tidak sesuai dengan pemisah angka."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Postcode adalah kode pos, bukan tanda pemisah."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Capital adalah huruf besar, bukan tanda pemisah."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Initial adalah huruf awal, bukan tanda pemisah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Decimal point memisahkan bagian bulat dari bagian pecahan dalam angka.",
+      "examples": [
+        {
+          "en": "The decimal point is after the first digit.",
+          "id": "Tanda desimal berada setelah digit pertama."
+        },
+        {
+          "en": "Write the decimal point clearly.",
+          "id": "Tulislah tanda desimal dengan jelas."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A postcode terlihat cocok karena berkaitan dengan angka dan kode, tetapi kode pos bukan tanda pemisah pecahan."
+  },
+  {
+    "id": "W09-017",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "Which of these is a capital letter in the alphabet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "M"
+      },
+      {
+        "id": "B",
+        "text": "q"
+      },
+      {
+        "id": "C",
+        "text": "7"
+      },
+      {
+        "id": "D",
+        "text": "@"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "M adalah huruf kapital dalam abjad, sedangkan q adalah huruf kecil.",
+    "stepByStep": [
+      "Huruf kapital adalah huruf besar dalam abjad.",
+      "M adalah huruf besar.",
+      "q adalah huruf kecil, 7 adalah angka, dan @ adalah simbol."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "q adalah huruf kecil, bukan kapital."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Tujuh adalah angka, bukan huruf."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "At sign adalah simbol, bukan huruf."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Huruf kapital ditulis dengan bentuk besar dari huruf abjad.",
+      "examples": [
+        {
+          "en": "Write the name with a capital letter at the start.",
+          "id": "Tulis nama itu dengan huruf kapital di awal."
+        },
+        {
+          "en": "The small letter m is different from capital M.",
+          "id": "Huruf kecil m berbeda dari huruf kapital M."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B q terlihat seperti huruf yang asing, tetapi bentuk kecil itu bukan huruf kapital."
+  },
+  {
+    "id": "W09-018",
+    "week": 9,
+    "topicTag": "ejaan-angka",
+    "type": "mcq",
+    "prompt": "A customer says, 'My initial is J.' What is the customer's initial?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jones"
+      },
+      {
+        "id": "B",
+        "text": "John"
+      },
+      {
+        "id": "C",
+        "text": "J"
+      },
+      {
+        "id": "D",
+        "text": "Joan"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Initial adalah huruf awal nama, dan pelanggan menyebut huruf J.",
+    "stepByStep": [
+      "Initial adalah satu huruf awal dari nama.",
+      "Pelanggan menyebut my initial is J.",
+      "Jones, John, dan Joan adalah nama lengkap atau nama depan, bukan satu huruf."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Jones adalah nama belakang, bukan huruf awal."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "John adalah nama depan, bukan satu huruf."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Joan adalah nama depan, bukan satu huruf."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Initial adalah satu huruf yang mewakili huruf awal sebuah nama.",
+      "examples": [
+        {
+          "en": "My initial is R, as in Rachel.",
+          "id": "Huruf awal namaku R, seperti Rachel."
+        },
+        {
+          "en": "Write your initial and surname.",
+          "id": "Tulislah huruf awal dan nama belakangmu."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B John terlihat cocok karena dimulai dengan huruf J, tetapi initial hanya satu huruf, bukan nama lengkap."
+  },
+  {
+    "id": "W09-019",
+    "week": 9,
+    "topicTag": "celah-batas-kata",
+    "type": "mcq",
+    "prompt": "In summary completion, the answer must follow which rule?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the size of the gap on the page"
+      },
+      {
+        "id": "B",
+        "text": "the word limit in the instructions"
+      },
+      {
+        "id": "C",
+        "text": "the tone of the speaker"
+      },
+      {
+        "id": "D",
+        "text": "the title of the text"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Jawaban harus mengikuti batas jumlah kata yang tertulis dalam instruksi.",
+    "stepByStep": [
+      "Instruksi menentukan jumlah kata yang boleh ditulis.",
+      "Jawaban yang melebihi batas dianggap salah.",
+      "Ukuran celah, nada pembicara, dan judul teks tidak menentukan jumlah kata."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Ukuran celah di halaman tidak menentukan jumlah kata."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Nada pembicara tidak menentukan jumlah kata."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Judul teks tidak menentukan jumlah kata."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Batas kata dari instruksi harus diikuti tanpa menambah kata.",
+      "examples": [
+        {
+          "en": "Write no more than three words.",
+          "id": "Tulis tidak lebih dari tiga kata."
+        },
+        {
+          "en": "The limit is one word only.",
+          "id": "Batasnya hanya satu kata."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat masuk akal karena celah memang tampak seperti tempat untuk menulis, tetapi jumlah kata diatur oleh instruksi."
+  },
+  {
+    "id": "W09-020",
+    "week": 9,
+    "topicTag": "celah-batas-kata",
+    "type": "mcq",
+    "prompt": "Which word is the closest synonym of 'extract' when it means taking out the key points?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fill"
+      },
+      {
+        "id": "B",
+        "text": "transfer"
+      },
+      {
+        "id": "C",
+        "text": "finish"
+      },
+      {
+        "id": "D",
+        "text": "select"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Select berarti memilih bagian penting, dan itu makna terdekat dengan extract dalam konteks ini.",
+    "stepByStep": [
+      "Extract dalam konteks ini berarti mengambil poin penting.",
+      "Memilih bagian penting disebut select.",
+      "Fill, transfer, dan finish tidak berarti memilih poin penting."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Fill berarti mengisi, bukan mengambil poin penting."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Transfer berarti memindahkan, bukan memilih poin penting."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Finish berarti menyelesaikan, bukan memilih poin penting."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Sinonim harus cocok dengan konteks kalimat, bukan hanya mirip secara umum.",
+      "examples": [
+        {
+          "en": "Select the main points from the talk.",
+          "id": "Pilihlah poin-poin utama dari ceramah."
+        },
+        {
+          "en": "She extracted the key figures from the report.",
+          "id": "Dia mengambil angka-angka kunci dari laporan."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B transfer terlihat dekat karena sama-sama berhubungan dengan pemindahan informasi, tetapi maknanya berbeda."
+  },
+  {
+    "id": "W09-021",
+    "week": 9,
+    "topicTag": "celah-batas-kata",
+    "type": "mcq",
+    "prompt": "A recording says 'most people did not complete the form'. Which word fits the gap in 'people did not ___ the form'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "complete"
+      },
+      {
+        "id": "B",
+        "text": "transfer"
+      },
+      {
+        "id": "C",
+        "text": "limit"
+      },
+      {
+        "id": "D",
+        "text": "excerpt"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Rekaman menyebut complete the form, dan kata itu cocok dengan celah yang sama maknanya.",
+    "stepByStep": [
+      "Rekaman menyebut did not complete the form.",
+      "Kalimat ringkasan memakai pola did not ___ the form dengan makna yang sama.",
+      "Transfer, limit, dan excerpt tidak berarti menyelesaikan formulir."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Transfer berarti memindahkan, tidak sesuai dengan menyelesaikan formulir."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Limit berarti batas, tidak sesuai dengan tindakan pada formulir."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Excerpt adalah kutipan, tidak sesuai dengan tindakan pada formulir."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata dalam celah sering sama dengan kata yang dipakai dalam rekaman, bukan kata yang berbeda makna.",
+      "examples": [
+        {
+          "en": "Most people did not complete the survey.",
+          "id": "Kebanyakan orang tidak menyelesaikan survei."
+        },
+        {
+          "en": "Please complete the form before Friday.",
+          "id": "Tolong selesaikan formulir sebelum Jumat."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B transfer terlihat seperti kata yang berkaitan dengan formulir, tetapi makna dalam rekaman adalah menyelesaikan."
+  },
+  {
+    "id": "W09-022",
+    "week": 9,
+    "topicTag": "celah-batas-kata",
+    "type": "mcq",
+    "prompt": "Which word fits the gap in: 'The team had to ___ the findings to a new sheet.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "excerpt"
+      },
+      {
+        "id": "B",
+        "text": "limit"
+      },
+      {
+        "id": "C",
+        "text": "transfer"
+      },
+      {
+        "id": "D",
+        "text": "finish"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Transfer berarti memindahkan temuan ke lembar baru, dan cocok dengan kalimat ini.",
+    "stepByStep": [
+      "Kalimat menyebut memindahkan temuan ke lembar baru.",
+      "Memindahkan informasi dari satu tempat ke tempat lain disebut transfer.",
+      "Excerpt, limit, dan finish tidak berarti memindahkan informasi."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Excerpt berarti kutipan, bukan memindahkan."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Limit berarti batas, bukan memindahkan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Finish berarti menyelesaikan, bukan memindahkan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Transfer berarti memindahkan sesuatu dari satu tempat atau bentuk ke yang lain.",
+      "examples": [
+        {
+          "en": "Transfer the data to the spreadsheet.",
+          "id": "Pindahkan datanya ke spreadsheet."
+        },
+        {
+          "en": "The skills were transferred to a new task.",
+          "id": "Keterampilan itu dialihkan ke tugas baru."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D finish terlihat cocok karena tim menyelesaikan pekerjaannya, tetapi kalimat itu meminta tindakan memindahkan."
+  },
+  {
+    "id": "W09-023",
+    "week": 9,
+    "topicTag": "judul-paragraf",
+    "type": "mcq",
+    "prompt": "Paragraph four discusses how skills move between tasks. Which heading fits best?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The price of learning materials"
+      },
+      {
+        "id": "B",
+        "text": "Transfer of skills between tasks"
+      },
+      {
+        "id": "C",
+        "text": "Library opening hours"
+      },
+      {
+        "id": "D",
+        "text": "A list of references"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Paragraf keempat membahas perpindahan keterampilan antartugas, dan judul B menangkap inti itu.",
+    "stepByStep": [
+      "Paragraf membahas keterampilan yang berpindah antartugas.",
+      "Judul yang menangkap inti itu menyebut transfer of skills between tasks.",
+      "Harga bahan belajar, jam buka perpustakaan, dan daftar referensi tidak membahas inti paragraf."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Harga bahan belajar tidak dibahas dalam paragraf itu."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Jam buka perpustakaan tidak dibahas dalam paragraf itu."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Daftar referensi tidak dibahas dalam paragraf itu."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Judul yang baik menyebut gagasan utama paragraf dengan kata yang sesuai.",
+      "examples": [
+        {
+          "en": "The heading names the main idea of the paragraph.",
+          "id": "Judul itu menyebut gagasan utama paragraf."
+        },
+        {
+          "en": "Skills can transfer between different tasks.",
+          "id": "Keterampilan dapat berpindah antartugas yang berbeda."
+        }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat seperti judul yang sah karena topiknya tentang tempat belajar, tetapi paragraf itu tidak membahasnya."
+  },
+  {
+    "id": "W09-024",
+    "week": 9,
+    "topicTag": "judul-paragraf",
+    "type": "mcq",
+    "prompt": "The best heading for a paragraph is one that:",
+    "options": [
+      {
+        "id": "A",
+        "text": "repeats one example word for word"
+      },
+      {
+        "id": "B",
+        "text": "is the longest sentence in the paragraph"
+      },
+      {
+        "id": "C",
+        "text": "matches the title of the text exactly"
+      },
+      {
+        "id": "D",
+        "text": "covers the main idea of the whole paragraph"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Judul yang tepat menangkap gagasan utama seluruh paragraf, bukan satu contoh atau kalimat tertentu.",
+    "stepByStep": [
+      "Judul harus mencakup seluruh isi paragraf.",
+      "Pilihan D menyebut gagasan utama seluruh paragraf.",
+      "Mengulang satu contoh, memakai kalimat terpanjang, atau menyamai judul teks tidak menjamin ketepatan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Mengulang satu contoh membuat judul terlalu sempit."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Kalimat terpanjang belum tentu menangkap seluruh paragraf."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Judul paragraf tidak harus sama dengan judul teks."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Judul paragraf harus menangkap gagasan utama, bukan detail kecil.",
+      "examples": [
+        {
+          "en": "A heading should cover the whole argument.",
+          "id": "Judul harus mencakup seluruh argumen."
+        },
+        {
+          "en": "One example is not enough for a heading.",
+          "id": "Satu contoh tidak cukup untuk dijadikan judul."
+        }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat rapi karena konsisten dengan judul besar, tetapi judul paragraf harus menangkap gagasan paragraf itu sendiri."
+  },
+  {
+    "id": "W09-025",
+    "week": 9,
+    "topicTag": "tfng",
+    "type": "mcq",
+    "prompt": "What does 'Not Given' mean in a True / False / Not Given question?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The text does not mention the information."
+      },
+      {
+        "id": "B",
+        "text": "The statement is false."
+      },
+      {
+        "id": "C",
+        "text": "The statement is true."
+      },
+      {
+        "id": "D",
+        "text": "The writer disagrees with the statement."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Not Given berarti teks tidak menyebut informasi yang ditanyakan, sehingga tidak bisa dinilai benar atau salah.",
+    "stepByStep": [
+      "Not Given berarti informasi itu tidak ada dalam teks.",
+      "Jika teks tidak menyebutnya, kamu tidak boleh menilainya True atau False.",
+      "Pernyataan salah dan benar dipakai saat teks menyebut informasi itu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "False berarti teks menyebut informasi yang bertentangan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "True berarti teks menyebut informasi yang sejalan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Penulis yang tidak setuju berarti sikap ditulis, bukan Not Given."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Not Given berarti informasi tidak disebutkan, meskipun masuk akal.",
+      "examples": [
+        {
+          "en": "The text does not mention the bridge.",
+          "id": "Teks tidak menyebut jembatan itu."
+        },
+        {
+          "en": "The writer never talks about the cost.",
+          "id": "Penulis tidak pernah membahas biayanya."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat seperti makna Not Given karena penulis tidak setuju, tetapi Not Given hanya berarti tidak disebut."
+  },
+  {
+    "id": "W09-026",
+    "week": 9,
+    "topicTag": "yes-no-ng",
+    "type": "mcq",
+    "prompt": "What does 'No' mean in a Yes / No / Not Given question about a writer's view?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The writer agrees."
+      },
+      {
+        "id": "B",
+        "text": "The writer says nothing."
+      },
+      {
+        "id": "C",
+        "text": "The writer rejects the view."
+      },
+      {
+        "id": "D",
+        "text": "The writer is unknown."
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "No berarti penulis menolak pandangan yang ditanyakan, bukan sekadar diam.",
+    "stepByStep": [
+      "Yes berarti penulis setuju dengan pandangan.",
+      "No berarti penulis menolak pandangan itu secara jelas.",
+      "Penulis diam dipakai untuk Not Given, bukan No."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Setuju adalah makna Yes, bukan No."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Penulis diam adalah makna Not Given."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Penulis tidak dikenal tidak menjadi kriteria No."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "No menunjukkan penolakan jelas terhadap pandangan yang ditanyakan.",
+      "examples": [
+        {
+          "en": "The writer does not endorse the plan.",
+          "id": "Penulis tidak mendukung rencana itu."
+        },
+        {
+          "en": "The critic disagrees with the claim.",
+          "id": "Kritikus tidak setuju dengan klaim itu."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat masuk akal karena No dan diam sama-sama tidak menyatakan dukungan, tetapi No memerlukan penolakan yang jelas."
+  },
+  {
+    "id": "W09-027",
+    "week": 9,
+    "topicTag": "tfng",
+    "type": "mcq",
+    "prompt": "A statement says 'all students passed'. The text says 'most students passed'. What is the answer?",
+    "options": [
+      {
+        "id": "A",
+        "text": "True"
+      },
+      {
+        "id": "B",
+        "text": "False"
+      },
+      {
+        "id": "C",
+        "text": "Not Given"
+      },
+      {
+        "id": "D",
+        "text": "Yes"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Teks menyebut most students, bukan all students, sehingga pernyataan 'all students passed' bertentangan dengan teks.",
+    "stepByStep": [
+      "Teks menyebut most students passed.",
+      "Pernyataan menyebut all students passed.",
+      "Most dan all tidak sama, dan pernyataan itu bertentangan dengan teks."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "True berarti sejalan, sedangkan all dan most tidak sama."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Teks menyebut jumlah siswa yang lulus, jadi bukan Not Given."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Yes bukan jawaban untuk pernyataan fakta."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata seperti all, always, dan only sering membuat pernyataan menjadi False jika teks menyebut yang lebih lunak.",
+      "examples": [
+        {
+          "en": "The text says most people agreed, not all people.",
+          "id": "Teks menyebut sebagian besar orang setuju, bukan semua orang."
+        },
+        {
+          "en": "The writer says the plan is often useful, not always.",
+          "id": "Penulis menyebut rencana itu sering berguna, bukan selalu."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A True terlihat masuk akal karena sebagian besar siswa juga lulus, tetapi pernyataan all berlawanan dengan most."
+  },
+  {
+    "id": "W09-028",
+    "week": 9,
+    "topicTag": "yes-no-ng",
+    "type": "mcq",
+    "prompt": "A guest says, 'I find that concern reasonable.' Does the guest agree with the concern?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Not Given"
+      },
+      {
+        "id": "B",
+        "text": "No"
+      },
+      {
+        "id": "C",
+        "text": "True"
+      },
+      {
+        "id": "D",
+        "text": "Yes"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Frasa I find that concern reasonable menunjukkan bahwa tamu setuju bahwa keberatan itu masuk akal.",
+    "stepByStep": [
+      "Frasa itu menyatakan keberatan itu masuk akal.",
+      "Menganggap sesuatu masuk akal berarti setuju dengannya.",
+      "Not Given dan No tidak sesuai, dan True dipakai untuk pernyataan, bukan sikap."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Sikap tamu sudah disebut dengan jelas."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "No berarti menolak, sedangkan tamu menyatakan keberatan masuk akal."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "True dipakai untuk pernyataan fakta, bukan sikap."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ungkapan seperti reasonable, fair, atau I agree menunjukkan persetujuan dengan pandangan lain.",
+      "examples": [
+        {
+          "en": "That is a fair point, I agree.",
+          "id": "Itu poin yang adil, saya setuju."
+        },
+        {
+          "en": "The concern is reasonable.",
+          "id": "Keberatan itu masuk akal."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A Not Given terlihat cocok karena pembicara tidak memakai kata agree, tetapi frasa reasonable sudah menunjukkan sikap setuju."
+  },
+  {
+    "id": "W09-029",
+    "week": 9,
+    "topicTag": "koreksi",
+    "type": "mcq",
+    "prompt": "A correction changes the date of an event. Which version should you follow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the newer corrected version"
+      },
+      {
+        "id": "B",
+        "text": "the first version"
+      },
+      {
+        "id": "C",
+        "text": "the version with more pages"
+      },
+      {
+        "id": "D",
+        "text": "both versions equally"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Koreksi berarti versi terbaru menggantikan versi lama yang keliru.",
+    "stepByStep": [
+      "Koreksi memperbaiki informasi yang keliru.",
+      "Versi yang dikoreksi adalah versi yang berlaku.",
+      "Versi pertama, versi dengan lebih banyak halaman, dan kedua versi sama tidak sesuai dengan makna koreksi."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Versi pertama adalah versi yang sudah dikoreksi."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Jumlah halaman tidak menentukan versi yang benar."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Kedua versi tidak berlaku sama karena salah satunya sudah diperbaiki."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Versi yang dikoreksi atau direvisi menggantikan versi lama.",
+      "examples": [
+        {
+          "en": "The revised guide replaces the old one.",
+          "id": "Panduan yang direvisi menggantikan yang lama."
+        },
+        {
+          "en": "Use the corrected date in your answer.",
+          "id": "Gunakan tanggal yang sudah dikoreksi dalam jawabanmu."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat wajar karena versi pertama sering dipercaya, tetapi koreksi berarti versi yang lebih baru yang dipakai."
+  },
+  {
+    "id": "W09-030",
+    "week": 9,
+    "topicTag": "koreksi",
+    "type": "mcq",
+    "prompt": "The writer amended the report. What did the writer do?",
+    "options": [
+      {
+        "id": "A",
+        "text": "deleted the report"
+      },
+      {
+        "id": "B",
+        "text": "wrote a new title only"
+      },
+      {
+        "id": "C",
+        "text": "changed the report to improve it"
+      },
+      {
+        "id": "D",
+        "text": "sent the report to the editor only"
+      }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Amend berarti memperbaiki atau mengubah isi agar lebih akurat atau lebih baik.",
+    "stepByStep": [
+      "Kata amend berarti memperbaiki atau mengubah isi.",
+      "Pilihan C menyebut perubahan isi laporan untuk memperbaikinya.",
+      "Menghapus laporan, hanya menulis judul baru, dan hanya mengirim laporan tidak sesuai dengan amend."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Menghapus laporan tidak sesuai dengan amend."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Hanya mengganti judul tidak sepenuhnya sesuai dengan amend."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Mengirim laporan saja tidak mengubah isinya."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Amend berarti memperbaiki atau mengubah isi dokumen agar lebih tepat.",
+      "examples": [
+        {
+          "en": "We will amend the form to add the new address.",
+          "id": "Kami akan memperbaiki formulir untuk menambahkan alamat baru."
+        },
+        {
+          "en": "The author amended the first chapter.",
+          "id": "Penulis memperbaiki bab pertama."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat mungkin karena judul sering diubah, tetapi amend berarti memperbaiki isi, bukan sekadar judul."
+  }
+]

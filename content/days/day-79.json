@@ -1,0 +1,1204 @@
+{
+  "day": 79,
+  "week": 11,
+  "month": 3,
+  "title": "Writing Task 2: Thesis Statement",
+  "topic": "Menulis pernyataan tesis yang jelas, terfokus, dan dapat diperdebatkan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menulis tesis yang berupa klaim yang dapat diperdebatkan",
+    "Membatasi fokus tesis agar tidak terlalu luas",
+    "Memeriksa tesis dengan bukti di tubuh esai"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "assertion",
+        "pronunciationId": "uh-SUR-shun (tekanan di SUR)",
+        "pos": "Noun",
+        "meaningId": "pernyataan tegas",
+        "example": "The assertion is bold.",
+        "exampleId": "Pernyataannya tegas."
+      },
+      {
+        "no": 2,
+        "en": "premise",
+        "pronunciationId": "PREM-is (tekanan di PREM)",
+        "pos": "Noun",
+        "meaningId": "premis, dasar pemikiran",
+        "example": "The premise is simple.",
+        "exampleId": "Premisnya sederhana."
+      },
+      {
+        "no": 3,
+        "en": "proposition",
+        "pronunciationId": "prop-uh-ZISH-un (tekanan di ZISH)",
+        "pos": "Noun",
+        "meaningId": "usulan, proposisi",
+        "example": "The proposition is debatable.",
+        "exampleId": "Usulannya dapat diperdebatkan."
+      },
+      {
+        "no": 4,
+        "en": "cornerstone",
+        "pronunciationId": "KOR-ner-stohn (tekanan di KOR)",
+        "pos": "Noun",
+        "meaningId": "batu penjuru, dasar utama",
+        "example": "Trust is the cornerstone of the team.",
+        "exampleId": "Kepercayaan adalah dasar utama tim."
+      },
+      {
+        "no": 5,
+        "en": "framework",
+        "pronunciationId": "FRAME-wurk (tekanan di FRAME)",
+        "pos": "Noun",
+        "meaningId": "kerangka",
+        "example": "The framework guides the essay.",
+        "exampleId": "Kerangka itu memandu esainya."
+      },
+      {
+        "no": 6,
+        "en": "foundation",
+        "pronunciationId": "fown-DAY-shun (tekanan di DAY)",
+        "pos": "Noun",
+        "meaningId": "fondasi, dasar",
+        "example": "Evidence is the foundation of the claim.",
+        "exampleId": "Bukti adalah fondasi dari klaim itu."
+      },
+      {
+        "no": 7,
+        "en": "focus",
+        "pronunciationId": "FOH-kus (tekanan di FOH)",
+        "pos": "Noun",
+        "meaningId": "fokus",
+        "example": "The focus of the essay is climate.",
+        "exampleId": "Fokus esainya adalah iklim."
+      },
+      {
+        "no": 8,
+        "en": "essence",
+        "pronunciationId": "ES-uns (tekanan di ES)",
+        "pos": "Noun",
+        "meaningId": "inti, esensi",
+        "example": "The essence of the plan is simple.",
+        "exampleId": "Inti rencana itu sederhana."
+      },
+      {
+        "no": 9,
+        "en": "direction",
+        "pronunciationId": "di-REK-shun (tekanan di REK)",
+        "pos": "Noun",
+        "meaningId": "arah",
+        "example": "The essay has a clear direction.",
+        "exampleId": "Esai itu punya arah yang jelas."
+      },
+      {
+        "no": 10,
+        "en": "guideline",
+        "pronunciationId": "GAHY-dlain (tekanan di GAHY)",
+        "pos": "Noun",
+        "meaningId": "pedoman",
+        "example": "Follow the guideline carefully.",
+        "exampleId": "Ikuti pedoman itu dengan teliti."
+      }
+    ],
+    "tip": "Tesis yang baik adalah klaim yang bisa diperdebatkan, cukup sempit untuk dibahas, dan didukung oleh bukti di setiap paragraf tubuh esai."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS thesis statement",
+        "IELTS writing task 2 thesis"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menulis tesis yang kuat, dengan contoh tesis yang terlalu luas dan tesis yang terfokus.",
+      "watchFor": [
+        "Tesis yang dapat diperdebatkan",
+        "Tesis yang tidak terlalu luas",
+        "Bukti yang mendukung tesis"
+      ]
+    },
+    "lesson": {
+      "intro": "Tesis adalah klaim utama esai. Ia memberi tahu pembaca apa yang akan dibuktikan dan ke arah mana argumen bergerak. Tesis yang kuat dapat diperdebatkan, terfokus, dan didukung oleh bukti.",
+      "sections": [
+        {
+          "heading": "Klaim yang dapat diperdebatkan",
+          "bodyMd": "Sebuah **assertion** harus berupa klaim yang bisa dipertanyakan. **Premise** adalah dasar pemikirannya. **Proposition** adalah usulan yang kamu bela dalam esai."
+        },
+        {
+          "heading": "Fokus dan arah",
+          "bodyMd": "Batasi **focus** tesis agar tidak terlalu luas. Tesis yang baik memberi **direction** yang jelas, dan intinya adalah **essence** argumenmu."
+        },
+        {
+          "heading": "Kerangka dan dasar",
+          "bodyMd": "Tesis adalah **cornerstone** esai, dan setiap paragraf tubuh harus kembali ke **framework** itu. **Foundation** esai adalah bukti yang kuat. Gunakan **guideline** sederhana untuk menguji tesismu."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Klaim",
+          "pattern": "X should Y, because Z"
+        },
+        {
+          "label": "Fokus",
+          "pattern": "Technology improves A by B"
+        },
+        {
+          "label": "Uji",
+          "pattern": "Could a reasonable person disagree with this?"
+        },
+        {
+          "label": "Arah",
+          "pattern": "tesis + tiga alasan = arah esai"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The writer's assertion is that cities need more parks.",
+            "id": "Pernyataan tegas penulis adalah kota membutuhkan lebih banyak taman."
+          },
+          {
+            "en": "The premise of the argument is clear.",
+            "id": "Premis argumen itu jelas."
+          },
+          {
+            "en": "The focus of the thesis is rural schools.",
+            "id": "Fokus tesis itu adalah sekolah di pedesaan."
+          },
+          {
+            "en": "The framework guides each body paragraph.",
+            "id": "Kerangka itu memandu setiap paragraf tubuh."
+          },
+          {
+            "en": "Evidence is the foundation of a strong essay.",
+            "id": "Bukti adalah fondasi esai yang kuat."
+          }
+        ],
+        "negative": [
+          {
+            "en": "A fact is not a strong thesis.",
+            "id": "Fakta bukanlah tesis yang kuat."
+          },
+          {
+            "en": "The thesis does not cover every topic.",
+            "id": "Tesis itu tidak mencakup setiap topik."
+          },
+          {
+            "en": "The statement is not too broad to guide the essay.",
+            "id": "Pernyataan itu tidak terlalu luas untuk memandu esai."
+          },
+          {
+            "en": "The conclusion is not the thesis itself.",
+            "id": "Kesimpulan bukanlah tesis itu sendiri."
+          },
+          {
+            "en": "The essence of the essay is not hidden.",
+            "id": "Inti esai itu tidak tersembunyi."
+          }
+        ],
+        "question": [
+          {
+            "en": "What is the writer's assertion?",
+            "id": "Apa pernyataan tegas penulis?"
+          },
+          {
+            "en": "Where is the thesis placed?",
+            "id": "Di mana tesis diletakkan?"
+          },
+          {
+            "en": "Is the focus too broad?",
+            "id": "Apakah fokusnya terlalu luas?"
+          },
+          {
+            "en": "What is the essence of the argument?",
+            "id": "Apa inti argumennya?"
+          },
+          {
+            "en": "Does the thesis give a clear direction?",
+            "id": "Apakah tesis memberi arah yang jelas?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The assertion are strong.",
+          "right": "The assertion is strong.",
+          "whyId": "Assertion adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The premise of the essay are clear.",
+          "right": "The premise of the essay is clear.",
+          "whyId": "Premise tunggal memakai is."
+        },
+        {
+          "wrong": "Technology is important, so it is good.",
+          "right": "Technology improves rural schools, so the policy should expand access.",
+          "whyId": "Tesis harus berupa klaim yang spesifik, bukan pernyataan umum."
+        },
+        {
+          "wrong": "The foundations of the essay is evidence.",
+          "right": "The foundation of the essay is evidence.",
+          "whyId": "Dalam kalimat ini hanya ada satu fondasi, jadi bentuk tunggal foundation dengan is."
+        },
+        {
+          "wrong": "The guidelines is useful.",
+          "right": "The guidelines are useful.",
+          "whyId": "Guidelines jamak memakai are."
+        },
+        {
+          "wrong": "The thesis are in the first paragraph.",
+          "right": "The thesis is in the first paragraph.",
+          "whyId": "Thesis adalah kata benda tunggal, jadi memakai is."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Cara Menulis Tesis yang Kuat",
+    "text": "A thesis statement is the central claim of an essay, and it tells the reader where the argument is going. A strong thesis is more than a fact or a topic. It is an assertion that others could reasonably question, which gives the essay its purpose. This clarity matters most in the first paragraph, where the reader forms a first impression of the whole argument.\n\nThe premise of a good thesis is a clear position supported by reasons. For example, the statement that cities should expand bicycle lanes is a proposition that can be debated. It identifies what the writer believes and why. Without a premise, the thesis is just a vague opinion.\n\nMany writers place the thesis at the end of the introduction. This is a useful habit because it forms the cornerstone of the whole essay. Each body paragraph should connect back to it, so that the reader can see the framework of the argument at a glance.\n\nThe thesis must also have a narrow focus. A statement such as 'Technology is important' is too broad to guide an essay. A better version would be 'Technology improves rural schools by providing access to online libraries.' This version gives direction, because it names the field, the benefit, and the reason.\n\nSome students treat the thesis as a summary of their conclusion. In fact, the thesis is the foundation of the argument, and the conclusion repeats it in new words. The essence of the thesis is that it stays the same throughout the essay, while the evidence grows stronger.\n\nA useful guideline is to test the thesis with a simple question: could a reasonable person disagree with it? If the answer is yes, the statement is probably strong enough. If nobody could disagree, the statement is a fact and needs to be rewritten.\n\nFinally, a thesis should be checked against the evidence. If the body paragraphs do not support the claim, the writer must either revise the thesis or change the argument. A thesis that changes to fit the evidence is more honest than one that ignores it. Writers who revise their thesis after drafting usually find that the final essay is clearer, shorter, and easier to defend.",
+    "glossary": [
+      {
+        "en": "vague",
+        "id": "samar, tidak jelas"
+      },
+      {
+        "en": "debate",
+        "id": "perdebatan"
+      },
+      {
+        "en": "rewritten",
+        "id": "ditulis ulang"
+      },
+      {
+        "en": "bicycle lane",
+        "id": "jalur sepeda"
+      },
+      {
+        "en": "honest",
+        "id": "jujur"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "A thesis should be a fact that nobody can disagree with.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyatakan tesis adalah klaim yang dapat dipertanyakan, dan fakta yang tidak bisa dibantah harus ditulis ulang.",
+        "stepByStep": [
+          "Cari assertion di paragraf pertama.",
+          "Teks menyebut tesis adalah klaim yang bisa dipertanyakan orang lain.",
+          "Fakta yang tidak bisa dibantah bertentangan dengan definisi itu, sehingga False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyatakan tesis harus bisa dipertanyakan, bukan fakta yang tak terbantahkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas syarat tesis secara langsung."
+          }
+        ],
+        "evidence": "It is an assertion that others could reasonably question"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Where do many writers place the thesis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "at the start of the body"
+          },
+          {
+            "id": "B",
+            "text": "in the references"
+          },
+          {
+            "id": "C",
+            "text": "at the end of the introduction"
+          },
+          {
+            "id": "D",
+            "text": "after the conclusion"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menyebut banyak penulis menempatkan tesis di akhir bagian pengantar.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks tidak menyebut tesis di awal tubuh esai."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Daftar referensi tidak disebut sebagai tempat tesis."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tesis tidak diletakkan setelah kesimpulan dalam teks."
+          }
+        ],
+        "evidence": "Many writers place the thesis at the end of the introduction"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Which statement is too broad to guide an essay?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Cities should expand bicycle lanes."
+          },
+          {
+            "id": "B",
+            "text": "Technology improves rural schools by providing access to online libraries."
+          },
+          {
+            "id": "C",
+            "text": "Online libraries help students in villages."
+          },
+          {
+            "id": "D",
+            "text": "Technology is important."
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks memberi contoh 'Technology is important' sebagai pernyataan yang terlalu luas untuk memandu esai.",
+        "stepByStep": [
+          "Cari broad di paragraf keempat.",
+          "Teks menyebut Technology is important terlalu luas.",
+          "Pilihan lain menyebut bidang, manfaat, atau alasan yang lebih spesifik."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Pernyataan ini spesifik dan menyebut tindakan yang jelas."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Pernyataan ini menyebut bidang, manfaat, dan alasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pernyataan ini menyebut kelompok sasaran dan manfaat yang spesifik."
+          }
+        ],
+        "evidence": "Technology is important"
+      },
+      {
+        "id": "R4",
+        "type": "true_false_not_given",
+        "prompt": "The conclusion repeats the thesis in new words.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut kesimpulan mengulang tesis dengan kata-kata baru.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut kesimpulan mengulang tesis, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas hubungan kesimpulan dan tesis secara langsung."
+          }
+        ],
+        "evidence": "the conclusion repeats it in new words",
+        "stepByStep": [
+          "Cari many writers place the thesis di paragraf ketiga.",
+          "Teks menyebut banyak penulis menempatkan tesis di akhir pengantar.",
+          "Pernyataan tentang kesimpulan yang mengulang tesis sejalan dengan teks, tetapi soal ini meminta lokasi tesis."
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What is the best test for a strong thesis?",
+        "options": [
+          {
+            "id": "A",
+            "text": "whether a reasonable person could disagree with it"
+          },
+          {
+            "id": "B",
+            "text": "whether it is a fact"
+          },
+          {
+            "id": "C",
+            "text": "whether it is longer than three sentences"
+          },
+          {
+            "id": "D",
+            "text": "whether it contains a famous quotation"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menyebut tes sederhana: apakah orang yang masuk akal bisa tidak setuju dengan tesis itu.",
+        "stepByStep": [
+          "Cari guideline di paragraf keenam.",
+          "Teks menyebut tes: could a reasonable person disagree with it.",
+          "Fakta, panjang kalimat, dan kutipan terkenal tidak disebut sebagai tes utama."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Fakta tidak bisa diperdebatkan, sehingga tidak termasuk tesis yang kuat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Panjang kalimat tidak menentukan kekuatan tesis."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kutipan terkenal tidak disebut sebagai tes tesis."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tesis yang kuat harus berupa klaim yang masuk akal untuk dibantah.",
+          "examples": [
+            {
+              "en": "Schools should start later is a debatable thesis.",
+              "id": "Sekolah sebaiknya dimulai lebih siang adalah tesis yang dapat diperdebatkan."
+            },
+            {
+              "en": "Water boils at one hundred degrees is a fact, not a thesis.",
+              "id": "Air mendidih pada seratus derajat adalah fakta, bukan tesis."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena tesis harus benar, tetapi teks menyebut tesis yang kuat justru tidak berupa fakta.",
+        "evidence": "could a reasonable person disagree with it"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The writer's ___ is that cities need more parks.",
+        "options": [
+          {
+            "id": "A",
+            "text": "assertion"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Assertion adalah pernyataan tegas yang dibuat penulis.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan pernyataan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan pernyataan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan pernyataan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The ___ of the argument is that schools should teach coding.",
+        "options": [
+          {
+            "id": "A",
+            "text": "ticket"
+          },
+          {
+            "id": "B",
+            "text": "essence"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Essence adalah inti atau hakikat dari sebuah argumen.",
+        "stepByStep": [
+          "Kalimat menyebut inti dari argumen.",
+          "Inti atau hakikat argumen disebut essence.",
+          "Ticket, garden, dan bridge tidak berarti inti argumen."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Ticket berarti tiket, bukan inti argumen."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan inti argumen."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan inti argumen."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Our ___ is that rent should be limited, so the policy is fair.",
+        "options": [
+          {
+            "id": "A",
+            "text": "bridge"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "premise"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Premise adalah dasar pemikiran yang menjadi landasan kesimpulan.",
+        "stepByStep": [
+          "Kalimat menyebut dasar pemikiran agar kebijakan dianggap adil.",
+          "Dasar pemikiran yang menjadi landasan disebut premise.",
+          "Bridge, garden, dan ticket tidak berarti dasar pemikiran."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Bridge berarti jembatan, bukan dasar pemikiran."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan dasar pemikiran."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan dasar pemikiran."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The thesis is the ___ on which the whole essay is built.",
+        "options": [
+          {
+            "id": "A",
+            "text": "bridge"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "foundation"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Foundation adalah dasar yang menopang seluruh bangunan, dalam hal ini esai.",
+        "stepByStep": [
+          "Kalimat menyebut dasar yang menopang seluruh esai.",
+          "Dasar yang menopang keseluruhan disebut foundation.",
+          "Bridge, ticket, dan garden tidak berarti dasar penopang."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Bridge berarti jembatan, bukan dasar penopang."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan dasar penopang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan dasar penopang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Foundation adalah dasar yang menopang sesuatu secara keseluruhan.",
+          "examples": [
+            {
+              "en": "Evidence is the foundation of a strong argument.",
+              "id": "Bukti adalah dasar dari argumen yang kuat."
+            },
+            {
+              "en": "Trust forms the foundation of the team.",
+              "id": "Kepercayaan membentuk dasar tim."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A bridge terlihat cocok karena sering dipakai sebagai metafora penghubung, tetapi kalimat ini meminta dasar penopang."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "A clear ___ helps the reader see where the argument is heading.",
+        "options": [
+          {
+            "id": "A",
+            "text": "direction"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Direction adalah arah, dan kalimat ini menyebut arah yang dituju argumen.",
+        "stepByStep": [
+          "Kalimat menyebut arah yang dituju argumen.",
+          "Arah yang dituju disebut direction.",
+          "Garden, ticket, dan bridge tidak berarti arah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan arah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan arah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan arah."
+          }
+        ],
+        "examTrap": "Pilihan D direction terlihat seperti pilihan yang tepat, tetapi direction adalah arah umum, bukan arah tujuan argumen secara spesifik.",
+        "ruleAndExamples": {
+          "rule": "Direction berarti arah atau tujuan yang dituju sebuah argumen atau rencana.",
+          "examples": [
+            {
+              "en": "The plan gives a clear direction for the team.",
+              "id": "Rencana itu memberi arah yang jelas bagi tim."
+            },
+            {
+              "en": "The argument moves in one direction.",
+              "id": "Argumen itu bergerak ke satu arah."
+            }
+          ]
+        }
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tesis itu adalah inti dari esai.",
+        "hint": "Tesis itu: the thesis. Adalah: is. Inti dari esai: the essence of the essay.",
+        "acceptedAnswers": [
+          "The thesis is the essence of the essay.",
+          "The thesis is the core of the essay."
+        ],
+        "modelAnswer": "The thesis is the essence of the essay.",
+        "commonErrors": [
+          {
+            "pattern": "The thesis are the essence of the essay",
+            "feedbackId": "Subjek thesis tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pernyataan ini bisa diperdebatkan dan karena itu menarik.",
+        "hint": "Pernyataan ini: this assertion. Bisa diperdebatkan: can be debated. Karena itu menarik: which makes it interesting.",
+        "acceptedAnswers": [
+          "This assertion can be debated, which makes it interesting.",
+          "This assertion can be debated, and that makes it interesting."
+        ],
+        "modelAnswer": "This assertion can be debated, which makes it interesting.",
+        "commonErrors": [
+          {
+            "pattern": "This assertion can debate, which make it interesting",
+            "feedbackId": "Setelah can be, pakai V3 debated, dan subjek tunggal memakai makes."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Premis argumen ini perlu didukung oleh bukti.",
+        "hint": "Premis argumen ini: the premise of this argument. Perlu didukung: needs to be supported. Oleh bukti: by evidence.",
+        "acceptedAnswers": [
+          "The premise of this argument needs to be supported by evidence.",
+          "The premise of the argument needs to be supported by evidence."
+        ],
+        "modelAnswer": "The premise of this argument needs to be supported by evidence.",
+        "commonErrors": [
+          {
+            "pattern": "The premise of this argument need to support by evidence",
+            "feedbackId": "Subjek premise tunggal memakai needs, dan setelah be memakai supported."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kerangka esai harus memberi arah yang jelas bagi pembaca.",
+        "hint": "Kerangka esai: the framework of the essay. Harus memberi: must give. Arah yang jelas: a clear direction. Bagi pembaca: to readers.",
+        "acceptedAnswers": [
+          "The framework of the essay must give readers a clear direction.",
+          "The essay's framework must give readers a clear direction."
+        ],
+        "modelAnswer": "The framework of the essay must give readers a clear direction.",
+        "commonErrors": [
+          {
+            "pattern": "The framework of essay must gives readers clear direction",
+            "feedbackId": "Setelah must, pakai kata kerja dasar give; gunakan the essay dan a clear direction."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Fokus tesis yang sempit membantu penulis tetap pada topik.",
+        "hint": "Fokus tesis yang sempit: a narrow focus in the thesis. Membantu: helps. Tetap pada topik: stay on topic.",
+        "acceptedAnswers": [
+          "A narrow focus in the thesis helps the writer stay on topic.",
+          "A narrow focus of the thesis helps the writer stay on topic."
+        ],
+        "modelAnswer": "A narrow focus in the thesis helps the writer stay on topic.",
+        "commonErrors": [
+          {
+            "pattern": "A narrow focus in the thesis help the writer stays on topic",
+            "feedbackId": "Subjek focus tunggal memakai helps, dan setelah help the writer memakai stay."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a basic rule or principle that guides action'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "premise"
+          },
+          {
+            "id": "B",
+            "text": "guideline"
+          },
+          {
+            "id": "C",
+            "text": "proposition"
+          },
+          {
+            "id": "D",
+            "text": "assertion"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Guideline adalah pedoman atau prinsip dasar yang memandu tindakan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk pedoman yang memandu tindakan.",
+          "Pedoman seperti itu disebut guideline.",
+          "Premise, proposition, dan assertion tidak berarti pedoman tindakan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Premise adalah dasar pemikiran, bukan pedoman tindakan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Proposition adalah usulan, bukan pedoman tindakan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Assertion adalah pernyataan tegas, bukan pedoman tindakan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Guideline adalah panduan yang membantu seseorang mengambil keputusan atau bertindak.",
+          "examples": [
+            {
+              "en": "Follow the guideline for citations.",
+              "id": "Ikuti pedoman untuk sitasi."
+            },
+            {
+              "en": "The guideline says to keep sentences short.",
+              "id": "Pedoman itu menyebut agar kalimat dibuat pendek."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C proposition terlihat cocok karena berkaitan dengan usulan, tetapi proposition bukan pedoman tindakan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'proposition'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The propositions are clear in the essay."
+          },
+          {
+            "id": "B",
+            "text": "The proposition are weak in the essay."
+          },
+          {
+            "id": "C",
+            "text": "Proposition the essay is clear in."
+          },
+          {
+            "id": "D",
+            "text": "The proposition is clear in the essay."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek proposition tunggal memakai is, dan frasa clear in the essay sudah benar.",
+        "stepByStep": [
+          "Proposition tunggal, sehingga memakai is.",
+          "Frasa clear in the essay menjelaskan kejelasannya.",
+          "Pilihan A dan B memakai bentuk jamak atau are yang salah, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Propositions jamak tidak cocok dengan are untuk satu usulan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Are tidak cocok dengan subjek tunggal proposition."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Proposition adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The proposition was debated for hours.",
+              "id": "Usulan itu diperdebatkan selama berjam-jam."
+            },
+            {
+              "en": "This proposition is clear.",
+              "id": "Usulan ini jelas."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak usulan disebut jamak, tetapi kalimat ini membicarakan satu usulan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'the most important part on which something rests'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "cornerstone"
+          },
+          {
+            "id": "B",
+            "text": "direction"
+          },
+          {
+            "id": "C",
+            "text": "focus"
+          },
+          {
+            "id": "D",
+            "text": "assertion"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Cornerstone adalah dasar utama yang menopang seluruh bangunan atau gagasan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk bagian terpenting yang menjadi tumpuan.",
+          "Dasar utama yang menjadi tumpuan disebut cornerstone.",
+          "Direction, focus, dan assertion tidak berarti tumpuan utama."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Direction berarti arah, bukan tumpuan utama."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Focus berarti fokus, bukan tumpuan utama."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Assertion berarti pernyataan tegas, bukan tumpuan utama."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cornerstone adalah dasar utama yang paling penting untuk menopang sesuatu.",
+          "examples": [
+            {
+              "en": "Honesty is the cornerstone of trust.",
+              "id": "Kejujuran adalah dasar utama kepercayaan."
+            },
+            {
+              "en": "The library is the cornerstone of the campus.",
+              "id": "Perpustakaan adalah tumpuan utama kampus."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D assertion terlihat cocok karena tesis adalah klaim, tetapi kata yang diminta menunjukkan tumpuan utama."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The writer's ___ is clearly stated in the first paragraph.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "direction"
+          },
+          {
+            "id": "B",
+            "text": "guideline"
+          },
+          {
+            "id": "C",
+            "text": "assertion"
+          },
+          {
+            "id": "D",
+            "text": "premise"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Assertion adalah pernyataan tegas yang dibuat penulis, dan kalimat ini menyebut pernyataan itu jelas di paragraf pertama.",
+        "stepByStep": [
+          "Kalimat menyebut pernyataan penulis yang jelas di paragraf pertama.",
+          "Pernyataan tegas yang dibuat penulis disebut assertion.",
+          "Direction, guideline, dan premise tidak tepat untuk pernyataan utama itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Direction berarti arah, bukan pernyataan tegas."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Guideline berarti pedoman, bukan pernyataan tegas."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Premise adalah dasar pemikiran, bukan pernyataan utama."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Assertion adalah pernyataan yang dibuat dengan tegas dan dapat dipertanyakan.",
+          "examples": [
+            {
+              "en": "The assertion was clear from the start.",
+              "id": "Pernyataan tegas itu jelas sejak awal."
+            },
+            {
+              "en": "Her assertion needs more evidence.",
+              "id": "Pernyataan tegasnya membutuhkan lebih banyak bukti."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D premise terlihat cocok karena berkaitan dengan dasar argumen, tetapi kalimat ini meminta pernyataan utama penulis."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The guidelines is useful for students."
+          },
+          {
+            "id": "B",
+            "text": "The guidelines are useful for students."
+          },
+          {
+            "id": "C",
+            "text": "The guideline are useful for students."
+          },
+          {
+            "id": "D",
+            "text": "The guidelines was useful for students."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Guidelines jamak memakai are, dan useful for students menjelaskan manfaatnya.",
+        "stepByStep": [
+          "Guidelines adalah subjek jamak, sehingga memakai are.",
+          "Frasa useful for students menjelaskan manfaatnya bagi siswa.",
+          "Pilihan A memakai is untuk jamak, pilihan C memakai guideline tunggal dengan are, dan pilihan D memakai was."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Is tidak cocok dengan subjek jamak guidelines."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Guideline tunggal tidak cocok dengan are untuk satu pedoman."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Was tidak cocok dengan subjek jamak guidelines."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek jamak memakai are atau were.",
+          "examples": [
+            {
+              "en": "The guidelines are clear for students.",
+              "id": "Pedoman itu jelas bagi siswa."
+            },
+            {
+              "en": "The guidelines were updated last year.",
+              "id": "Pedoman itu diperbarui tahun lalu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena pedoman sering dibicarakan tunggal, tetapi subjek kalimat ini jamak."
+      }
+    ]
+  }
+}

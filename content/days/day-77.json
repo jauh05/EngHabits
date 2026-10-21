@@ -1,0 +1,1218 @@
+{
+  "day": 77,
+  "week": 11,
+  "month": 3,
+  "title": "Writing Task 2: Problem and Solution",
+  "topic": "Menjelaskan masalah, penyebab, akibat, dan solusi yang realistis",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menjelaskan penyebab dan akibat dari sebuah masalah",
+    "Menilai solusi dengan kata yang tepat",
+    "Membedakan solusi yang menangani gejala dan penyebab"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "problem",
+        "pronunciationId": "PROB-lum (tekanan di PROB)",
+        "pos": "Noun",
+        "meaningId": "masalah",
+        "example": "The problem is serious.",
+        "exampleId": "Masalahnya serius."
+      },
+      {
+        "no": 2,
+        "en": "fix",
+        "pronunciationId": "FIKS (i pendek, x jelas)",
+        "pos": "Verb",
+        "meaningId": "memperbaiki",
+        "example": "We can fix the leak.",
+        "exampleId": "Kita bisa memperbaiki kebocoran itu."
+      },
+      {
+        "no": 3,
+        "en": "cause",
+        "pronunciationId": "KAWZ (tekanan di KAWZ)",
+        "pos": "Noun",
+        "meaningId": "penyebab",
+        "example": "The cause is unclear.",
+        "exampleId": "Penyebabnya belum jelas."
+      },
+      {
+        "no": 4,
+        "en": "effect",
+        "pronunciationId": "i-FEKT (tekanan di FEKT)",
+        "pos": "Noun",
+        "meaningId": "akibat, pengaruh",
+        "example": "The effect was large.",
+        "exampleId": "Akibatnya besar."
+      },
+      {
+        "no": 5,
+        "en": "tackle",
+        "pronunciationId": "TAK-ul (tekanan di TAK)",
+        "pos": "Verb",
+        "meaningId": "menangani",
+        "example": "We must tackle the issue.",
+        "exampleId": "Kita harus menangani isu itu."
+      },
+      {
+        "no": 6,
+        "en": "address",
+        "pronunciationId": "uh-DRES (tekanan di DRES)",
+        "pos": "Verb",
+        "meaningId": "menanggapi, menangani",
+        "example": "The plan will address the need.",
+        "exampleId": "Rencana itu akan menanggapi kebutuhan tersebut."
+      },
+      {
+        "no": 7,
+        "en": "mitigate",
+        "pronunciationId": "MIT-i-gayt (tekanan di MIT)",
+        "pos": "Verb",
+        "meaningId": "mengurangi dampak",
+        "example": "Trees mitigate the heat.",
+        "exampleId": "Pohon mengurangi panas."
+      },
+      {
+        "no": 8,
+        "en": "prevent",
+        "pronunciationId": "pri-VENT (tekanan di VENT)",
+        "pos": "Verb",
+        "meaningId": "mencegah",
+        "example": "Walls prevent flooding.",
+        "exampleId": "Tanggul mencegah banjir."
+      },
+      {
+        "no": 9,
+        "en": "remedy",
+        "pronunciationId": "REM-i-dee (tekanan di REM)",
+        "pos": "Noun",
+        "meaningId": "obat, solusi",
+        "example": "It is not an easy remedy.",
+        "exampleId": "Itu bukan solusi yang mudah."
+      },
+      {
+        "no": 10,
+        "en": "initiative",
+        "pronunciationId": "i-NISH-uh-tiv (tekanan di NISH)",
+        "pos": "Noun",
+        "meaningId": "inisiatif, program",
+        "example": "The initiative helped residents.",
+        "exampleId": "Inisiatif itu membantu warga."
+      }
+    ],
+    "tip": "Dalam problem and solution, pisahkan penyebab dari akibat. Solusi yang baik menangani penyebab, bukan hanya gejala yang terlihat."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 2 problem solution essay",
+        "IELTS problem and solution structure"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang esai problem and solution, dengan contoh penyebab, akibat, dan solusi yang saling berkaitan.",
+      "watchFor": [
+        "Penyebab dan akibat yang dibedakan",
+        "Solusi yang menangani sumber masalah",
+        "Kata untuk mengurangi dan mencegah"
+      ]
+    },
+    "lesson": {
+      "intro": "Esai problem and solution menjelaskan masalah, menganalisis penyebab dan akibatnya, lalu mengusulkan solusi. Solusi yang kuat menangani sumber masalah dan menyebut bagaimana hasilnya bisa diukur.",
+      "sections": [
+        {
+          "heading": "Masalah dan penyebab",
+          "bodyMd": "Jelaskan **problem** dengan jelas, lalu sebut **cause** utamanya. Pisahkan penyebab dari **effect** agar pembaca tidak bingung."
+        },
+        {
+          "heading": "Solusi",
+          "bodyMd": "Gunakan **tackle** atau **address** untuk menangani masalah. Gunakan **prevent** untuk mencegah dan **mitigate** untuk mengurangi dampak. Sebut **initiative** jika ada program nyata."
+        },
+        {
+          "heading": "Keterbatasan",
+          "bodyMd": "Akui bahwa tidak ada satu solusi yang sempurna. Gunakan kata **remedy** untuk menunjukkan obat atau perbaikan, dan **fix** untuk hal yang bisa diperbaiki langsung."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Masalah",
+          "pattern": "The problem is that X, which leads to Y"
+        },
+        {
+          "label": "Penyebab",
+          "pattern": "The main cause of X is Y"
+        },
+        {
+          "label": "Solusi",
+          "pattern": "One way to tackle X is to Y"
+        },
+        {
+          "label": "Dampak",
+          "pattern": "This measure can mitigate / prevent X"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The problem is that the roads flood every spring.",
+            "id": "Masalahnya adalah jalan-jalan banjir setiap musim semi."
+          },
+          {
+            "en": "The main cause is the loss of green space.",
+            "id": "Penyebab utamanya adalah hilangnya ruang hijau."
+          },
+          {
+            "en": "The effect is long delays for drivers.",
+            "id": "Akibatnya adalah keterlambatan panjang bagi pengemudi."
+          },
+          {
+            "en": "Trees can mitigate the heat in the city.",
+            "id": "Pohon dapat mengurangi panas di kota."
+          },
+          {
+            "en": "The council launched a new initiative.",
+            "id": "Dewan kota meluncurkan inisiatif baru."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The fix does not address the cause.",
+            "id": "Perbaikan itu tidak menangani penyebabnya."
+          },
+          {
+            "en": "A wider drain will not prevent every flood.",
+            "id": "Saluran yang lebih lebar tidak akan mencegah setiap banjir."
+          },
+          {
+            "en": "There is no single remedy for the problem.",
+            "id": "Tidak ada satu solusi tunggal untuk masalah itu."
+          },
+          {
+            "en": "The plan does not tackle the traffic issue.",
+            "id": "Rencana itu tidak menangani masalah lalu lintas."
+          },
+          {
+            "en": "The cause was not clear at first.",
+            "id": "Penyebabnya tidak jelas pada awalnya."
+          }
+        ],
+        "question": [
+          {
+            "en": "What is the main problem?",
+            "id": "Apa masalah utamanya?"
+          },
+          {
+            "en": "What is the cause of the problem?",
+            "id": "Apa penyebab masalahnya?"
+          },
+          {
+            "en": "What is the effect on residents?",
+            "id": "Apa akibatnya bagi warga?"
+          },
+          {
+            "en": "Which solution can prevent the damage?",
+            "id": "Solusi mana yang dapat mencegah kerusakan?"
+          },
+          {
+            "en": "Is there a remedy for the problem?",
+            "id": "Apakah ada solusi untuk masalah itu?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The problem are the drains.",
+          "right": "The problem is the drains.",
+          "whyId": "Problem adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The main cause of floods are the rain.",
+          "right": "The main cause of floods is the rain.",
+          "whyId": "Subjek cause tunggal memakai is."
+        },
+        {
+          "wrong": "Trees prevents flooding for every street.",
+          "right": "Trees prevent flooding in every street.",
+          "whyId": "Subjek trees jamak memakai prevent."
+        },
+        {
+          "wrong": "The council tackle the problem last year.",
+          "right": "The council tackled the problem last year.",
+          "whyId": "Last year memakai bentuk lampau tackled."
+        },
+        {
+          "wrong": "This is a remedy for the problems.",
+          "right": "This is a remedy for the problem.",
+          "whyId": "Dalam konteks ini, masalah yang dimaksud tunggal."
+        },
+        {
+          "wrong": "The initiative are useful for residents.",
+          "right": "The initiative is useful for residents.",
+          "whyId": "Initiative adalah kata benda tunggal, jadi memakai is."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Banjir di Kawasan Bawah Kota",
+    "text": "Every year, heavy rain causes serious flooding in the lower part of the city. The problem is not new, but it has grown worse over the last decade. Residents report damaged homes, closed schools, and long delays on the main road. Understanding the causes is the first step toward a real fix.\n\nThe main cause is the loss of open land. Many fields near the river have been covered with concrete, so rainwater cannot soak into the ground. Instead, water flows quickly into the drains, which are often too narrow for the volume. The effect is a sudden rise in water levels within a few hours.\n\nSome people argue that the drains alone should be enlarged. This would address one symptom, but it would not tackle the underlying problem. Larger drains only move the water faster, and the water then floods the next neighbourhood downstream. A better approach must reduce the amount of runoff at its source.\n\nSeveral solutions have been proposed. Planting trees and restoring wetlands can help to mitigate the impact of storms by absorbing water. Green roofs and permeable pavements can also prevent some runoff from reaching the drains. In addition, the council has launched a community initiative in which schools and volunteers create small rain gardens.\n\nExperts agree that no single measure is a complete remedy. The most effective strategy combines new drainage with natural solutions. The drains can handle extreme events, while the green areas reduce the everyday pressure on the system. Such a combination is more costly at first, but it reduces long-term damage.\n\nThe council should begin with the most flood-prone streets, where the risk is highest. A clear plan with measurable targets would help residents follow the progress. If the city acts now, it can prevent the worst effects of the next storm season and restore confidence in its infrastructure.\n\nResidents also have a role to play. Households can collect rainwater in barrels, clear leaves from drains, and avoid covering gardens with paving. These small actions add up, especially when many people take part in them together. Schools that join the programme can also teach pupils how water moves through a neighbourhood, so that the next generation understands the problem and helps to prevent it.",
+    "glossary": [
+      {
+        "en": "runoff",
+        "id": "air limpasan"
+      },
+      {
+        "en": "permeable",
+        "id": "dapat ditembus air"
+      },
+      {
+        "en": "wetland",
+        "id": "lahan basah"
+      },
+      {
+        "en": "downstream",
+        "id": "hilir"
+      },
+      {
+        "en": "infrastructure",
+        "id": "infrastruktur"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Flooding in the lower part of the city happens only once every ten years.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyebut banjir terjadi setiap tahun, sehingga pernyataan 'hanya sekali dalam sepuluh tahun' bertentangan.",
+        "stepByStep": [
+          "Cari flooding di paragraf pertama.",
+          "Teks menyebut banjir terjadi setiap tahun.",
+          "Pernyataan yang menyebut sekali dalam sepuluh tahun bertentangan dengan teks, sehingga False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyebut banjir terjadi setiap tahun, bukan sekali dalam sepuluh tahun."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas frekuensi banjir secara langsung."
+          }
+        ],
+        "evidence": "Every year, heavy rain causes serious flooding"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What is the main cause of the flooding?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the loss of open land"
+          },
+          {
+            "id": "B",
+            "text": "the lack of schools"
+          },
+          {
+            "id": "C",
+            "text": "heavy traffic"
+          },
+          {
+            "id": "D",
+            "text": "old bridges"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut penyebab utama adalah hilangnya lahan terbuka.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Kurangnya sekolah tidak disebut sebagai penyebab banjir."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Lalu lintas padat tidak disebut sebagai penyebab banjir."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Jembatan lama tidak disebut sebagai penyebab banjir."
+          }
+        ],
+        "evidence": "The main cause is the loss of open land"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "The council has launched a community initiative with schools and volunteers.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut dewan kota telah meluncurkan inisiatif komunitas dengan sekolah dan relawan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut inisiatif itu sudah diluncurkan, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut inisiatif ini secara langsung."
+          }
+        ],
+        "evidence": "the council has launched a community initiative",
+        "stepByStep": [
+          "Cari council dan initiative di paragraf keempat.",
+          "Teks menyebut dewan kota telah meluncurkan inisiatif komunitas.",
+          "Pernyataan itu sejalan dengan teks, sehingga True."
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why does the writer reject simply enlarging the drains?",
+        "options": [
+          {
+            "id": "A",
+            "text": "it is too expensive"
+          },
+          {
+            "id": "B",
+            "text": "it only moves the water to the next neighbourhood"
+          },
+          {
+            "id": "C",
+            "text": "drains cannot be enlarged"
+          },
+          {
+            "id": "D",
+            "text": "it would increase rainfall"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menjelaskan bahwa saluran yang lebih besar hanya memindahkan air lebih cepat ke lingkungan berikutnya.",
+        "stepByStep": [
+          "Cari enlarged atau drains di paragraf ketiga.",
+          "Teks menyebut air hanya dipindahkan dan membanjiri lingkungan hilir.",
+          "Biaya, ketidakmungkinan memperbesar saluran, dan curah hujan tidak disebut sebagai alasan utama."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Biaya tidak disebut sebagai alasan penolakan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks tidak menyebut saluran tidak bisa diperbesar."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Teks tidak menyebut solusi ini menambah curah hujan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Solusi yang hanya memindahkan masalah ke tempat lain tidak menangani penyebab.",
+          "examples": [
+            {
+              "en": "The fix only moved the problem to another street.",
+              "id": "Perbaikan itu hanya memindahkan masalah ke jalan lain."
+            },
+            {
+              "en": "A larger tank does not stop the leak.",
+              "id": "Tangki yang lebih besar tidak menghentikan kebocoran."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena perbaikan infrastruktur sering mahal, tetapi teks menolak solusi itu karena alasan teknis.",
+        "evidence": "the water then floods the next neighbourhood downstream"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "According to the writer, what is the most effective strategy?",
+        "options": [
+          {
+            "id": "A",
+            "text": "enlarge the drains only"
+          },
+          {
+            "id": "B",
+            "text": "plant trees only"
+          },
+          {
+            "id": "C",
+            "text": "combine new drainage with natural solutions"
+          },
+          {
+            "id": "D",
+            "text": "ignore the problem"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis bahwa strategi paling efektif menggabungkan drainase baru dengan solusi alami.",
+        "stepByStep": [
+          "Cari effective strategy di paragraf kelima.",
+          "Teks menyebut strategi paling efektif menggabungkan drainase baru dan solusi alami.",
+          "Memperbesar saluran saja, menanam pohon saja, dan mengabaikan masalah tidak sesuai dengan teks."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Memperbesar saluran saja dikritik oleh penulis."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Menanam pohon saja tidak cukup menurut teks."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Mengabaikan masalah bertentangan dengan seluruh argumen."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Solusi yang paling efektif sering menggabungkan langkah teknis dan langkah alami.",
+          "examples": [
+            {
+              "en": "The best plan combines new roads with public transport.",
+              "id": "Rencana terbaik menggabungkan jalan baru dengan transportasi umum."
+            },
+            {
+              "en": "A mix of solutions works better than one measure.",
+              "id": "Campuran solusi bekerja lebih baik daripada satu tindakan saja."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti solusi yang paling langsung, tetapi penulis menyebut saluran saja tidak cukup.",
+        "evidence": "The most effective strategy combines new drainage with natural solutions"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The main ___ of the traffic jam was the closed bridge.",
+        "options": [
+          {
+            "id": "A",
+            "text": "cause"
+          },
+          {
+            "id": "B",
+            "text": "tile"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Cause adalah penyebab sesuatu terjadi.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Tile berarti ubin, bukan penyebab."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan penyebab."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan penyebab."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The flood had a serious ___ on schools and homes.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "effect"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Effect adalah akibat yang ditimbulkan oleh sebuah kejadian.",
+        "stepByStep": [
+          "Kalimat menyebut akibat banjir pada sekolah dan rumah.",
+          "Akibat yang ditimbulkan oleh suatu kejadian disebut effect.",
+          "Garden, ticket, dan bridge tidak berarti akibat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan akibat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan akibat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan akibat."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "We need to ___ the problem, not just hide its symptoms.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "tackle"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tackle berarti menangani masalah secara langsung.",
+        "stepByStep": [
+          "Kalimat meminta penanganan masalah, bukan menyembunyikan gejalanya.",
+          "Menangani masalah secara langsung disebut tackle.",
+          "Garden, bridge, dan ticket tidak berarti menangani masalah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan menangani."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan menangani."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan menangani."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The new rules will ___ accidents on the road.",
+        "options": [
+          {
+            "id": "A",
+            "text": "fix"
+          },
+          {
+            "id": "B",
+            "text": "remedy"
+          },
+          {
+            "id": "C",
+            "text": "address"
+          },
+          {
+            "id": "D",
+            "text": "prevent"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Prevent berarti mencegah, dan kalimat ini menyebut aturan untuk mencegah kecelakaan.",
+        "stepByStep": [
+          "Kalimat menyebut aturan untuk mencegah terjadinya kecelakaan.",
+          "Kata kerja yang berarti mencegah adalah prevent.",
+          "Fix, remedy, dan address tidak berarti mencegah terjadinya sesuatu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Fix berarti memperbaiki, bukan mencegah kejadian."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Remedy berarti obat atau solusi, bukan kata kerja mencegah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Address berarti menanggapi, bukan mencegah kejadian."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Prevent berarti menghentikan sesuatu sebelum terjadi.",
+          "examples": [
+            {
+              "en": "Walls prevent the water from entering homes.",
+              "id": "Tanggul mencegah air masuk ke rumah."
+            },
+            {
+              "en": "Good planning can prevent delays.",
+              "id": "Perencanaan yang baik dapat mencegah keterlambatan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A fix terlihat cocok karena aturan sering dipakai untuk memperbaiki, tetapi kalimat ini meminta pencegahan kecelakaan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Planting trees can ___ the damage caused by storms.",
+        "options": [
+          {
+            "id": "A",
+            "text": "construct"
+          },
+          {
+            "id": "B",
+            "text": "mitigate"
+          },
+          {
+            "id": "C",
+            "text": "cycle"
+          },
+          {
+            "id": "D",
+            "text": "generate"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mitigate berarti mengurangi dampak atau tingkat keparahan sesuatu.",
+        "stepByStep": [
+          "Kalimat menyebut pohon mengurangi kerusakan akibat badai.",
+          "Mengurangi tingkat keparahan disebut mitigate.",
+          "Construct berarti membangun, cycle adalah siklus, dan generate berarti menghasilkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Construct berarti membangun, bukan mengurangi dampak."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Cycle adalah siklus, bukan kata kerja mengurangi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Generate berarti menghasilkan, bukan mengurangi dampak."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Mitigate dipakai untuk membuat dampak negatif lebih kecil, bukan menghilangkannya sepenuhnya.",
+          "examples": [
+            {
+              "en": "Insurance can mitigate the financial loss.",
+              "id": "Asuransi dapat mengurangi kerugian finansial."
+            },
+            {
+              "en": "The wall mitigates the force of the waves.",
+              "id": "Tanggul itu mengurangi kekuatan ombak."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D generate terlihat cocok karena pohon menghasilkan oksigen, tetapi kalimat ini meminta kata yang berarti mengurangi dampak."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Masalah itu harus segera diperbaiki.",
+        "hint": "Masalah itu: the problem. Harus segera diperbaiki: must be fixed quickly.",
+        "acceptedAnswers": [
+          "The problem must be fixed quickly.",
+          "This problem must be fixed quickly."
+        ],
+        "modelAnswer": "The problem must be fixed quickly.",
+        "commonErrors": [
+          {
+            "pattern": "The problem must fixes quickly",
+            "feedbackId": "Setelah must be, pakai bentuk V3 fixed."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penyebab utama banjir adalah hilangnya lahan terbuka.",
+        "hint": "Penyebab utama: the main cause. Banjir: of the flooding. Hilangnya lahan terbuka: the loss of open land.",
+        "acceptedAnswers": [
+          "The main cause of the flooding is the loss of open land.",
+          "The main cause of the floods is the loss of open land."
+        ],
+        "modelAnswer": "The main cause of the flooding is the loss of open land.",
+        "commonErrors": [
+          {
+            "pattern": "The main cause of the flooding are the loss of open land",
+            "feedbackId": "Subjek cause tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pemerintah ingin menangani masalah ini secara menyeluruh.",
+        "hint": "Pemerintah: the government. Ingin menangani: wants to tackle. Masalah ini: this problem. Secara menyeluruh: thoroughly.",
+        "acceptedAnswers": [
+          "The government wants to tackle this problem thoroughly.",
+          "The government wants to tackle this problem comprehensively."
+        ],
+        "modelAnswer": "The government wants to tackle this problem thoroughly.",
+        "commonErrors": [
+          {
+            "pattern": "The government want tackle this problem thoroughly",
+            "feedbackId": "Subjek government tunggal memakai wants, dan setelah to memakai tackle."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penanaman pohon dapat mengurangi dampak banjir.",
+        "hint": "Penanaman pohon: planting trees. Dapat mengurangi: can mitigate. Dampak banjir: the impact of flooding.",
+        "acceptedAnswers": [
+          "Planting trees can mitigate the impact of flooding.",
+          "Planting trees can reduce the impact of flooding."
+        ],
+        "modelAnswer": "Planting trees can mitigate the impact of flooding.",
+        "commonErrors": [
+          {
+            "pattern": "Planting trees can mitigates the impact of flood",
+            "feedbackId": "Setelah can, pakai kata kerja dasar mitigate, dan gunakan flooding."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tidak ada satu tindakan pun yang menjadi obat yang sempurna.",
+        "hint": "Tidak ada satu tindakan pun: no single measure. Obat yang sempurna: a complete remedy.",
+        "acceptedAnswers": [
+          "No single measure is a complete remedy.",
+          "No single measure is a full remedy."
+        ],
+        "modelAnswer": "No single measure is a complete remedy.",
+        "commonErrors": [
+          {
+            "pattern": "No single measure are a complete remedy",
+            "feedbackId": "Subjek measure tunggal memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'the thing that makes something happen'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "effect"
+          },
+          {
+            "id": "B",
+            "text": "cause"
+          },
+          {
+            "id": "C",
+            "text": "remedy"
+          },
+          {
+            "id": "D",
+            "text": "initiative"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Cause adalah penyebab yang membuat sesuatu terjadi.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk penyebab sesuatu terjadi.",
+          "Penyebab itu disebut cause.",
+          "Effect adalah akibat, remedy adalah solusi, dan initiative adalah inisiatif."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Effect adalah akibat, bukan penyebab."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Remedy adalah solusi, bukan penyebab."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Initiative adalah inisiatif, bukan penyebab."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cause adalah penyebab, sedangkan effect adalah akibat.",
+          "examples": [
+            {
+              "en": "The cause of the delay was the storm.",
+              "id": "Penyebab keterlambatan itu adalah badai."
+            },
+            {
+              "en": "The effect of the storm was a power cut.",
+              "id": "Akibat badai itu adalah pemadaman listrik."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A effect terlihat cocok karena berkaitan dengan sebab dan akibat, tetapi effect adalah akibat, bukan penyebab."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'initiative'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The initiative are useful for students."
+          },
+          {
+            "id": "B",
+            "text": "The initiatives is useful for the school."
+          },
+          {
+            "id": "C",
+            "text": "Initiative the useful is for schools."
+          },
+          {
+            "id": "D",
+            "text": "The initiative is useful for the school."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Initiative adalah subjek tunggal, sehingga memakai is, dan frasa useful for the school sudah benar.",
+        "stepByStep": [
+          "Initiative adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa useful for the school menjelaskan manfaatnya.",
+          "Pilihan A memakai are, pilihan B memakai initiatives dengan is, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal initiative."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Initiatives jamak tidak cocok dengan is untuk satu inisiatif."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Initiative adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The initiative was successful.",
+              "id": "Inisiatif itu berhasil."
+            },
+            {
+              "en": "This initiative helps local families.",
+              "id": "Inisiatif ini membantu keluarga setempat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat dekat karena initiative sering dibicarakan jamak, tetapi kalimat ini menyebut satu inisiatif."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to reduce how serious something is'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "mitigate"
+          },
+          {
+            "id": "B",
+            "text": "prevent"
+          },
+          {
+            "id": "C",
+            "text": "address"
+          },
+          {
+            "id": "D",
+            "text": "tackle"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Mitigate berarti mengurangi tingkat keparahan atau dampak sesuatu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk mengurangi keparahan.",
+          "Kata kerja yang tepat adalah mitigate.",
+          "Prevent berarti mencegah, address berarti menanggapi, dan tackle berarti menangani langsung."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Prevent berarti mencegah sebelum terjadi, bukan mengurangi keparahan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Address berarti menanggapi, bukan secara khusus mengurangi keparahan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tackle berarti menangani langsung, bukan secara khusus mengurangi keparahan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Mitigate menekankan pengurangan dampak yang sudah atau mungkin terjadi.",
+          "examples": [
+            {
+              "en": "The barrier mitigates the damage from waves.",
+              "id": "Penghalang itu mengurangi kerusakan akibat ombak."
+            },
+            {
+              "en": "Steps were taken to mitigate the risk.",
+              "id": "Langkah-langkah diambil untuk mengurangi risiko."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B prevent terlihat cocok karena juga berkaitan dengan risiko, tetapi prevent berarti mencegah, bukan mengurangi."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'A new drainage system will ___ floods from the streets.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "cause"
+          },
+          {
+            "id": "B",
+            "text": "remedy"
+          },
+          {
+            "id": "C",
+            "text": "prevent"
+          },
+          {
+            "id": "D",
+            "text": "tackle"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Prevent berarti mencegah banjir terjadi di jalan, sesuai dengan fungsi sistem drainase.",
+        "stepByStep": [
+          "Kalimat menyebut fungsi sistem drainase untuk banjir.",
+          "Menghentikan sesuatu sebelum terjadi disebut prevent.",
+          "Cause berarti menyebabkan, yang berlawanan dengan maksud kalimat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Cause berarti menyebabkan, berlawanan dengan fungsi drainase."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Remedy adalah solusi, bukan kata kerja mencegah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tackle berarti menangani, tidak secara langsung berarti mencegah banjir."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Prevent dipakai untuk menjelaskan fungsi yang menghentikan kejadian sebelum terjadi.",
+          "examples": [
+            {
+              "en": "The fence prevents cars from entering the park.",
+              "id": "Pagar itu mencegah mobil masuk ke taman."
+            },
+            {
+              "en": "Regular checks prevent breakdowns.",
+              "id": "Pemeriksaan rutin mencegah kerusakan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D tackle terlihat cocok karena sistem drainase menangani banjir, tetapi kalimat ini meminta kata yang secara langsung berarti mencegah."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The causes of the problem is clear."
+          },
+          {
+            "id": "B",
+            "text": "The causes of the problem are clear."
+          },
+          {
+            "id": "C",
+            "text": "The cause of the problems are clear."
+          },
+          {
+            "id": "D",
+            "text": "The causes of the problem was clear."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek causes jamak memakai are, dan problem tunggal dipakai setelah of the.",
+        "stepByStep": [
+          "Subjek causes jamak, sehingga memakai are.",
+          "Frasa of the problem menjelaskan masalah yang dimaksud.",
+          "Pilihan A dan D memakai is untuk jamak, dan pilihan C memakai cause tunggal dengan are."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Is tidak cocok dengan subjek jamak causes."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Cause tunggal tidak cocok dengan are, dan problems tidak sesuai dengan satu masalah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Is tidak cocok dengan subjek jamak causes."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek jamak memakai are, meskipun ada frasa of yang tunggal di dalamnya.",
+          "examples": [
+            {
+              "en": "The causes of the delay are clear.",
+              "id": "Penyebab keterlambatan itu jelas."
+            },
+            {
+              "en": "The effects of the storm were severe.",
+              "id": "Akibat badai itu parah."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena masalahnya tunggal, tetapi subjek kalimat ini causes yang jamak."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1218 @@
+{
+  "day": 85,
+  "week": 12,
+  "month": 3,
+  "title": "Speaking Part 2: Memperluas Ide",
+  "topic": "Mengembangkan jawaban singkat menjadi jawaban yang lengkap dan seimbang",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memperluas jawaban dengan alasan, latar belakang, dan contoh",
+    "Menggunakan kata untuk emosi, makna, dan sudut pandang",
+    "Membaca teks panjang dan menjawab soal dengan bukti yang jelas"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "extend",
+        "pronunciationId": "ik-STEND (tekanan di STEND)",
+        "pos": "Verb",
+        "meaningId": "memperpanjang, memperluas",
+        "example": "Please extend your answer with a reason.",
+        "exampleId": "Tolong perluas jawabanmu dengan satu alasan."
+      },
+      {
+        "no": 2,
+        "en": "expand",
+        "pronunciationId": "ik-SPAND (tekanan di SPAND)",
+        "pos": "Verb",
+        "meaningId": "memperluas, mengembangkan",
+        "example": "She expanded her idea with a clear example.",
+        "exampleId": "Dia mengembangkan idenya dengan contoh yang jelas."
+      },
+      {
+        "no": 3,
+        "en": "background",
+        "pronunciationId": "BAK-grownd (tekanan di BAK)",
+        "pos": "Noun",
+        "meaningId": "latar belakang",
+        "example": "Give some background before you answer.",
+        "exampleId": "Berikan sedikit latar belakang sebelum menjawab."
+      },
+      {
+        "no": 4,
+        "en": "insight",
+        "pronunciationId": "IN-sahyt (tekanan di IN)",
+        "pos": "Noun",
+        "meaningId": "wawasan, pemahaman yang tajam",
+        "example": "His answer gave a useful insight.",
+        "exampleId": "Jawabannya memberikan wawasan yang berguna."
+      },
+      {
+        "no": 5,
+        "en": "emotion",
+        "pronunciationId": "ih-MOH-shun (tekanan di MOH)",
+        "pos": "Noun",
+        "meaningId": "emosi, perasaan",
+        "example": "Her voice showed strong emotion.",
+        "exampleId": "Suaranya menunjukkan emosi yang kuat."
+      },
+      {
+        "no": 6,
+        "en": "significance",
+        "pronunciationId": "sig-NIF-i-kuns (tekanan di NIF)",
+        "pos": "Noun",
+        "meaningId": "makna penting",
+        "example": "The significance of the event is clear.",
+        "exampleId": "Makna penting dari peristiwa itu sudah jelas."
+      },
+      {
+        "no": 7,
+        "en": "vantage",
+        "pronunciationId": "VAN-tij (tekanan di VAN)",
+        "pos": "Noun",
+        "meaningId": "sudut pandang, posisi melihat",
+        "example": "From this vantage point, the city looks calm.",
+        "exampleId": "Dari sudut pandang ini, kota itu tampak tenang."
+      },
+      {
+        "no": 8,
+        "en": "nostalgia",
+        "pronunciationId": "nuh-STAL-juh (tekanan di STAL)",
+        "pos": "Noun",
+        "meaningId": "rasa rindu pada masa lalu",
+        "example": "Old photos bring a feeling of nostalgia.",
+        "exampleId": "Foto lama menghadirkan rasa rindu pada masa lalu."
+      },
+      {
+        "no": 9,
+        "en": "gratitude",
+        "pronunciationId": "GRAT-i-tood (tekanan di GRAT)",
+        "pos": "Noun",
+        "meaningId": "rasa syukur, terima kasih",
+        "example": "I felt gratitude for her help.",
+        "exampleId": "Saya merasa bersyukur atas bantuannya."
+      },
+      {
+        "no": 10,
+        "en": "pride",
+        "pronunciationId": "PRAHYD (tekanan di PRAHYD)",
+        "pos": "Noun",
+        "meaningId": "rasa bangga",
+        "example": "He spoke with pride about his team.",
+        "exampleId": "Dia berbicara dengan bangga tentang timnya."
+      }
+    ],
+    "tip": "Saat menjawab Speaking Part 2, mulai dengan satu kalimat jawaban, lalu tambahkan alasan, latar belakang, dan satu kalimat penutup yang menjelaskan maknanya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS speaking part 2 extend your answer",
+        "IELTS speaking how to give more detail"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara memperluas jawaban Speaking dengan alasan, contoh, dan refleksi singkat.",
+      "watchFor": [
+        "Cara menambahkan alasan setelah jawaban pertama",
+        "Contoh latar belakang yang singkat dan relevan",
+        "Kalimat penutup yang menjelaskan makna pengalaman"
+      ]
+    },
+    "lesson": {
+      "intro": "Jawaban Speaking yang baik tidak berhenti di satu kalimat. Tambahkan alasan, latar belakang, dan wawasan agar pendengar memahami mengapa jawabanmu penting.",
+      "sections": [
+        {
+          "heading": "Menambah alasan",
+          "bodyMd": "Setelah menjawab, gunakan **extend** untuk menambahkan satu alasan. Dengan begitu jawabanmu terasa lebih lengkap dan tidak berhenti terlalu cepat."
+        },
+        {
+          "heading": "Memberi latar belakang",
+          "bodyMd": "Gunakan **background** untuk menjelaskan konteks singkat. Kamu juga bisa **expand** jawaban dengan contoh yang nyata dan mudah dibayangkan."
+        },
+        {
+          "heading": "Menambah wawasan dan makna",
+          "bodyMd": "Tambahkan **insight** untuk menunjukkan apa yang kamu pelajari. Jelaskan **significance** dari pengalaman itu agar jawabanmu punya penutup yang jelas."
+        },
+        {
+          "heading": "Emosi dan sudut pandang",
+          "bodyMd": "Sebutkan **emotion** atau **pride** jika memang sesuai. Pilih **vantage** yang konsisten, dan gunakan **nostalgia** atau **gratitude** dengan wajar."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Alasan",
+          "pattern": "I think this because X"
+        },
+        {
+          "label": "Latar belakang",
+          "pattern": "Some background is that X"
+        },
+        {
+          "label": "Wawasan",
+          "pattern": "The insight I gained is that X"
+        },
+        {
+          "label": "Makna",
+          "pattern": "This matters because X"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "I want to extend my answer with one reason.",
+            "id": "Saya ingin memperluas jawaban saya dengan satu alasan."
+          },
+          {
+            "en": "Some background is that I moved to a new city last year.",
+            "id": "Sedikit latar belakangnya, saya pindah ke kota baru tahun lalu."
+          },
+          {
+            "en": "The insight I gained is that small habits matter.",
+            "id": "Wawasan yang saya dapat adalah kebiasaan kecil itu penting."
+          },
+          {
+            "en": "I felt pride when I finished the project.",
+            "id": "Saya merasa bangga ketika menyelesaikan proyek itu."
+          },
+          {
+            "en": "From my vantage point, the change was positive.",
+            "id": "Dari sudut pandang saya, perubahan itu positif."
+          }
+        ],
+        "negative": [
+          {
+            "en": "I like it. It is good. That is all.",
+            "id": "Saya suka. Itu bagus. Hanya itu."
+          },
+          {
+            "en": "The background is not needed for this answer.",
+            "id": "Latar belakang tidak diperlukan untuk jawaban ini."
+          },
+          {
+            "en": "The story has no clear emotion at all.",
+            "id": "Cerita itu sama sekali tidak punya emosi yang jelas."
+          },
+          {
+            "en": "I do not feel any nostalgia about that place.",
+            "id": "Saya tidak merasakan rasa rindu apa pun pada tempat itu."
+          },
+          {
+            "en": "The result has little significance for me.",
+            "id": "Hasilnya tidak terlalu bermakna bagi saya."
+          }
+        ],
+        "question": [
+          {
+            "en": "Can you extend your answer with a reason?",
+            "id": "Bisakah kamu memperluas jawabanmu dengan alasan?"
+          },
+          {
+            "en": "What background would help the listener?",
+            "id": "Latar belakang apa yang akan membantu pendengar?"
+          },
+          {
+            "en": "What insight did you gain from the experience?",
+            "id": "Wawasan apa yang kamu dapat dari pengalaman itu?"
+          },
+          {
+            "en": "Why does this experience matter to you?",
+            "id": "Mengapa pengalaman ini penting bagimu?"
+          },
+          {
+            "en": "What gratitude do you feel toward your teacher?",
+            "id": "Rasa syukur apa yang kamu rasakan terhadap guru kamu?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "I extend the answer yesterday.",
+          "right": "I extended the answer yesterday.",
+          "whyId": "Yesterday memakai bentuk lampau extended."
+        },
+        {
+          "wrong": "The significance are clear.",
+          "right": "The significance is clear.",
+          "whyId": "Significance tunggal memakai is."
+        },
+        {
+          "wrong": "She feel proud of her work.",
+          "right": "She feels proud of her work.",
+          "whyId": "Subjek she tunggal memakai feels."
+        },
+        {
+          "wrong": "I have a gratitude for her.",
+          "right": "I feel gratitude for her.",
+          "whyId": "Gratitude adalah kata benda abstrak, dan pola yang umum adalah feel gratitude."
+        },
+        {
+          "wrong": "The insight give me new idea.",
+          "right": "The insight gives me a new idea.",
+          "whyId": "Subjek insight tunggal memakai gives, dan new idea memakai a."
+        },
+        {
+          "wrong": "From my vantage, I see it.",
+          "right": "From my vantage point, I see it.",
+          "whyId": "Vantage point adalah frasa yang utuh dan perlu dilengkapi point."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Memperluas Jawaban dalam Speaking",
+    "text": "When people first practise speaking English, they often give very short answers. A typical reply might be one sentence long, and then the speaker waits for the next question. In an exam, this habit can limit the score, because the examiner needs evidence of range and control. Learning to extend an idea is therefore an important skill.\n\nThe simplest way to extend an idea is to add a reason. Instead of saying 'I like the city', a speaker can say 'I like the city because it has a lively atmosphere.' The second part gives the listener a clearer picture. A second method is to add background. Background means the context that helps the listener understand why something matters. For example, a speaker might explain that they moved to a new city for work, and that they had never lived far from their family before.\n\nAnother method is to share an insight. An insight is a short observation that shows what the speaker has learned. A speaker who says 'I learned that small habits make a big difference' is offering more than a simple fact. This kind of sentence signals thought and reflection, which examiners often look for.\n\nEmotion also plays a role. When a speaker explains how they felt, the answer becomes personal and vivid. Saying 'I felt nervous at first, but then I felt proud' adds emotion and makes the story easier to remember. Some speakers worry that emotion sounds childish, but in everyday conversation it is natural and expected.\n\nThe significance of an idea is the reason it matters. Many students forget to explain significance. They describe an event but do not say why it was important. A useful habit is to finish each answer with one sentence that begins with 'This matters because' and then gives the main reason. This pattern gives the answer a clear ending.\n\nSpeakers can also choose a particular vantage point. A vantage point is a position from which something is seen, and in speaking it means the perspective the speaker chooses. For example, a speaker can describe a city as a visitor or as a resident. Choosing one perspective and keeping it consistent makes the answer easier to follow.\n\nSome topics bring a feeling of nostalgia. Nostalgia is a warm feeling about the past. A speaker who describes a childhood street may feel nostalgia while speaking, and that feeling can make the answer sound natural. However, nostalgia should not replace clear explanation. The listener still needs to understand what happened and why it matters.\n\nFinally, gratitude and pride often appear in the best answers. A speaker who thanks a teacher, or who feels pride in a small achievement, shows warmth and confidence. Such feelings should be genuine. Examiners do not expect dramatic stories, only honest and clear ones.\n\nTo expand an answer in practice, try this routine. First, answer the question in one sentence. Second, add a reason. Third, add background or an example. Fourth, close with an insight or a sentence about significance. With practice, this routine becomes automatic, and the answer grows naturally from a short reply into a complete and balanced response.",
+    "glossary": [
+      {
+        "en": "limit",
+        "id": "membatasi"
+      },
+      {
+        "en": "lively",
+        "id": "hidup, penuh energi"
+      },
+      {
+        "en": "observation",
+        "id": "pengamatan"
+      },
+      {
+        "en": "perspective",
+        "id": "perspektif, cara pandang"
+      },
+      {
+        "en": "achievement",
+        "id": "pencapaian"
+      },
+      {
+        "en": "genuine",
+        "id": "tulus, sungguh-sungguh"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Learning to extend an idea is an important skill for students in exams.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyatakan bahwa memperluas ide adalah keterampilan yang penting.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut keterampilan ini penting, sehingga pernyataan itu tidak salah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks secara langsung menyebut bahwa keterampilan ini penting."
+          }
+        ],
+        "evidence": "Learning to extend an idea is therefore an important skill."
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "According to the text, what is the simplest way to extend an idea?",
+        "options": [
+          {
+            "id": "A",
+            "text": "add a reason"
+          },
+          {
+            "id": "B",
+            "text": "speak more slowly"
+          },
+          {
+            "id": "C",
+            "text": "use rare words"
+          },
+          {
+            "id": "D",
+            "text": "ask a question"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut cara paling sederhana adalah menambahkan alasan.",
+        "stepByStep": [
+          "Cari kata simplest dalam paragraf kedua.",
+          "Teks menyebut the simplest way to extend an idea is to add a reason.",
+          "Berbicara lebih lambat, kata langka, dan bertanya tidak disebut sebagai cara paling sederhana."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Berbicara lebih lambat tidak disebut dalam teks."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Kata langka tidak disebut sebagai cara memperluas ide."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bertanya tidak disebut sebagai cara memperluas ide."
+          }
+        ],
+        "evidence": "The simplest way to extend an idea is to add a reason."
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Emotion makes an answer sound unnatural in everyday conversation.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyatakan emosi itu alami dan diharapkan dalam percakapan sehari-hari.",
+        "stepByStep": [
+          "Cari emotion di paragraf keempat.",
+          "Teks menyebut dalam percakapan sehari-hari emosi itu natural and expected.",
+          "Pernyataan soal berlawanan dengan itu, sehingga False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyebut emosi itu alami, bukan tidak alami."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks memberi penjelasan langsung tentang hal ini."
+          }
+        ],
+        "evidence": "but in everyday conversation it is natural and expected"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the text, what makes an answer easier to follow when a speaker uses a vantage point?",
+        "options": [
+          {
+            "id": "A",
+            "text": "keeping one perspective consistent"
+          },
+          {
+            "id": "B",
+            "text": "speaking without any examples"
+          },
+          {
+            "id": "C",
+            "text": "using only longer sentences"
+          },
+          {
+            "id": "D",
+            "text": "changing the perspective often"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menyebut memilih satu perspektif dan menjaganya tetap konsisten membuat jawaban lebih mudah diikuti.",
+        "stepByStep": [
+          "Cari vantage point di paragraf kelima.",
+          "Teks menyebut choosing one perspective and keeping it consistent makes the answer easier to follow.",
+          "Tanpa contoh, kalimat panjang, dan mengganti perspektif berulang tidak disebut sebagai pembuat jawaban mudah diikuti."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks tidak menyebut tanpa contoh sebagai cara membuat jawaban mudah diikuti."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Kalimat yang lebih panjang tidak disebut dalam teks."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Teks menyarankan perspektif yang konsisten, bukan sering berganti."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan tentang sebab biasanya dijawab dengan frasa yang langsung mengikuti kata penghubung makes atau helps di dalam teks.",
+          "examples": [
+            {
+              "en": "Keeping one idea clear makes the answer stronger.",
+              "id": "Menjaga satu gagasan tetap jelas membuat jawaban lebih kuat."
+            },
+            {
+              "en": "A short example helps the listener follow.",
+              "id": "Contoh singkat membantu pendengar mengikuti."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti cara memperkaya jawaban, tetapi teks justru menyarankan perspektif yang konsisten, bukan sering berganti.",
+        "evidence": "Choosing one perspective and keeping it consistent makes the answer easier to follow."
+      },
+      {
+        "id": "R5",
+        "type": "yes_no_not_given",
+        "prompt": "The writer says nostalgia should replace clear explanation.",
+        "options": [
+          {
+            "id": "A",
+            "text": "Yes"
+          },
+          {
+            "id": "B",
+            "text": "No"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyatakan nostalgia tidak boleh menggantikan penjelasan yang jelas.",
+        "stepByStep": [
+          "Cari nostalgia di paragraf keenam.",
+          "Teks menyebut nostalgia should not replace clear explanation.",
+          "Pernyataan soal berlawanan dengan itu, sehingga No."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyatakan kebalikannya, yaitu nostalgia tidak boleh menggantikan penjelasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks memberi pernyataan langsung tentang hal ini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata negatif seperti should not membalik pernyataan yang sejenis dengan should.",
+          "examples": [
+            {
+              "en": "The answer should not be too short.",
+              "id": "Jawaban itu tidak boleh terlalu pendek."
+            },
+            {
+              "en": "A speaker should not hide the main reason.",
+              "id": "Pembicara tidak boleh menyembunyikan alasan utama."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena nostalgia memang disebut dalam teks, tetapi teks menyatakan nostalgia tidak boleh menggantikan penjelasan.",
+        "evidence": "However, nostalgia should not replace clear explanation."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Please ___ your answer by adding one clear reason.",
+        "options": [
+          {
+            "id": "A",
+            "text": "extend"
+          },
+          {
+            "id": "B",
+            "text": "shrink"
+          },
+          {
+            "id": "C",
+            "text": "hide"
+          },
+          {
+            "id": "D",
+            "text": "skip"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Extend berarti memperluas atau memperpanjang sesuatu, dan kalimat ini meminta menambah alasan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Shrink berarti mengecil, sedangkan kalimat meminta menambah alasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Hide berarti menyembunyikan, bukan menambah alasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Skip berarti melewati, bukan memperluas jawaban."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The teacher asked us to ___ the idea with a clear example.",
+        "options": [
+          {
+            "id": "A",
+            "text": "forget"
+          },
+          {
+            "id": "B",
+            "text": "expand"
+          },
+          {
+            "id": "C",
+            "text": "borrow"
+          },
+          {
+            "id": "D",
+            "text": "cancel"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Expand berarti mengembangkan ide, dan kalimat ini meminta contoh yang jelas untuk memperluasnya.",
+        "stepByStep": [
+          "Kalimat meminta kami mengembangkan ide dengan contoh.",
+          "Mengembangkan ide disebut expand.",
+          "Forget, borrow, dan cancel tidak berarti mengembangkan ide."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Forget berarti melupakan, bukan mengembangkan ide."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Borrow berarti meminjam, bukan mengembangkan ide."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Cancel berarti membatalkan, bukan mengembangkan ide."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "She felt ___ when her team won the competition.",
+        "options": [
+          {
+            "id": "A",
+            "text": "pride"
+          },
+          {
+            "id": "B",
+            "text": "vantage"
+          },
+          {
+            "id": "C",
+            "text": "insight"
+          },
+          {
+            "id": "D",
+            "text": "background"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Pride berarti rasa bangga, dan kalimat ini menggambarkan perasaan setelah timnya menang.",
+        "stepByStep": [
+          "Kalimat menyebut perasaan setelah timnya menang.",
+          "Perasaan bangga disebut pride.",
+          "Vantage, insight, dan background bukan perasaan bangga."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Vantage berarti sudut pandang, bukan perasaan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Insight berarti wawasan, bukan perasaan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Background berarti latar belakang, bukan perasaan."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Looking at the old photos gave him a warm sense of ___ for the past.",
+        "options": [
+          {
+            "id": "A",
+            "text": "vantage"
+          },
+          {
+            "id": "B",
+            "text": "background"
+          },
+          {
+            "id": "C",
+            "text": "insight"
+          },
+          {
+            "id": "D",
+            "text": "nostalgia"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Nostalgia berarti rasa rindu pada masa lalu, dan kalimat ini menggambarkan perasaan hangat tentang masa lalu.",
+        "stepByStep": [
+          "Kalimat menyebut perasaan hangat tentang masa lalu.",
+          "Perasaan rindu pada masa lalu disebut nostalgia.",
+          "Vantage, background, dan insight tidak berarti perasaan rindu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Vantage berarti sudut pandang, bukan perasaan rindu."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Background berarti latar belakang, bukan perasaan rindu."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Insight berarti wawasan, bukan perasaan rindu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nostalgia dipakai untuk perasaan rindu yang hangat terhadap masa lalu.",
+          "examples": [
+            {
+              "en": "The song filled her with nostalgia.",
+              "id": "Lagu itu memenuhinya dengan rasa rindu."
+            },
+            {
+              "en": "He felt nostalgia when he returned to his school.",
+              "id": "Dia merasa rindu saat kembali ke sekolahnya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A vantage terlihat cocok karena photos dilihat dari sudut tertentu, tetapi kalimat ini meminta nama perasaan hangat terhadap masa lalu."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The judge explained the ___ of the new law for young workers.",
+        "options": [
+          {
+            "id": "A",
+            "text": "significance"
+          },
+          {
+            "id": "B",
+            "text": "pride"
+          },
+          {
+            "id": "C",
+            "text": "gratitude"
+          },
+          {
+            "id": "D",
+            "text": "background"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Significance berarti makna penting, dan kalimat ini meminta penjelasan mengapa hukum itu penting.",
+        "stepByStep": [
+          "Kalimat meminta penjelasan mengapa hukum baru itu penting.",
+          "Makna penting dari sesuatu disebut significance.",
+          "Pride, gratitude, dan background tidak berarti makna penting."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Pride berarti rasa bangga, bukan makna penting."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Gratitude berarti rasa syukur, bukan makna penting."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Background berarti latar belakang, bukan makna penting."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Significance dipakai untuk menyebut alasan mengapa sesuatu penting.",
+          "examples": [
+            {
+              "en": "The significance of the rule is clear.",
+              "id": "Makna penting dari aturan itu jelas."
+            },
+            {
+              "en": "Explain the significance of your choice.",
+              "id": "Jelaskan makna penting dari pilihanmu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D background terlihat cocok karena penjelasan sering memakai latar belakang, tetapi kalimat ini meminta makna penting dari hukum itu."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin memperluas jawaban saya dengan satu alasan.",
+        "hint": "Saya ingin: I want to. Memperluas: extend. Dengan satu alasan: with one reason.",
+        "acceptedAnswers": [
+          "I want to extend my answer with one reason.",
+          "I would like to extend my answer with one reason."
+        ],
+        "modelAnswer": "I want to extend my answer with one reason.",
+        "commonErrors": [
+          {
+            "pattern": "I want extend my answers with one reasons",
+            "feedbackId": "Setelah want to, pakai kata kerja dasar extend, dan answer serta reason tunggal."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia merasa bangga atas hasil kerjanya.",
+        "hint": "Dia merasa: she feels. Bangga atas: proud of. Hasil kerjanya: her work.",
+        "acceptedAnswers": [
+          "She feels proud of her work.",
+          "She feels pride in her work."
+        ],
+        "modelAnswer": "She feels proud of her work.",
+        "commonErrors": [
+          {
+            "pattern": "She feel proud of her works",
+            "feedbackId": "Subjek she tunggal memakai feels, dan work tidak dijamakkan."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Makna penting dari ide ini adalah membantu pendengar memahami alasan kita.",
+        "hint": "Makna penting: the significance. Membantu pendengar: helps the listeners. Memahami alasan kita: understand our reasons.",
+        "acceptedAnswers": [
+          "The significance of this idea is that it helps listeners understand our reasons.",
+          "The significance of this idea is that it helps the listener understand our reason."
+        ],
+        "modelAnswer": "The significance of this idea is that it helps listeners understand our reasons.",
+        "commonErrors": [
+          {
+            "pattern": "The significances of this idea is it help listener understand our reason",
+            "feedbackId": "Significance tunggal memakai is, dan helps memakai bentuk -s untuk subjek it."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Setiap jawaban yang baik perlu memberikan wawasan singkat tentang pengalaman itu.",
+        "hint": "Setiap jawaban yang baik: every good answer. Perlu memberikan: needs to give. Wawasan singkat: a short insight.",
+        "acceptedAnswers": [
+          "Every good answer needs to give a short insight about that experience.",
+          "Every good answer needs to offer a short insight about that experience."
+        ],
+        "modelAnswer": "Every good answer needs to give a short insight about that experience.",
+        "commonErrors": [
+          {
+            "pattern": "Every good answers need give a short insights about the experience",
+            "feedbackId": "Every good answer memakai bentuk tunggal, dan insight tunggal dengan a short."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dari sudut pandang saya, rasa syukur membuat cerita terasa hangat.",
+        "hint": "Dari sudut pandang saya: from my vantage point. Rasa syukur: gratitude. Membuat cerita terasa hangat: makes the story feel warm.",
+        "acceptedAnswers": [
+          "From my vantage point, gratitude makes the story feel warm.",
+          "From my vantage point, gratitude makes the story feel warmer."
+        ],
+        "modelAnswer": "From my vantage point, gratitude makes the story feel warm.",
+        "commonErrors": [
+          {
+            "pattern": "From my vantage, gratitudes make the story feels warm",
+            "feedbackId": "Vantage point adalah frasa utuh, gratitude tidak dijamakkan, dan setelah make the story memakai feel."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means a warm feeling about the past?",
+        "options": [
+          {
+            "id": "A",
+            "text": "vantage"
+          },
+          {
+            "id": "B",
+            "text": "significance"
+          },
+          {
+            "id": "C",
+            "text": "insight"
+          },
+          {
+            "id": "D",
+            "text": "nostalgia"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Nostalgia adalah rasa rindu yang hangat terhadap masa lalu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk perasaan hangat tentang masa lalu.",
+          "Perasaan itu disebut nostalgia.",
+          "Vantage, significance, dan insight tidak berarti perasaan rindu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Vantage berarti sudut pandang, bukan perasaan rindu."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Significance berarti makna penting, bukan perasaan rindu."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Insight berarti wawasan, bukan perasaan rindu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nostalgia adalah kata benda untuk rasa rindu terhadap masa lalu.",
+          "examples": [
+            {
+              "en": "Her letters bring back a sense of nostalgia.",
+              "id": "Surat-suratnya membawa kembali rasa rindu."
+            },
+            {
+              "en": "Nostalgia can be sweet and painful at the same time.",
+              "id": "Rasa rindu bisa manis sekaligus menyakitkan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D insight terlihat cocok karena cerita nostalgia sering memberi wawasan, tetapi yang diminta adalah nama perasaan hangat tentang masa lalu."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'gratitude'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "I show gratitudes to my teacher for her patience."
+          },
+          {
+            "id": "B",
+            "text": "I show gratitude to my teacher for her patience."
+          },
+          {
+            "id": "C",
+            "text": "I shows gratitude to my teacher for her patience."
+          },
+          {
+            "id": "D",
+            "text": "I show gratitude to my teacher for her patiences."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Gratitude adalah kata benda abstrak yang tidak dijamakkan, dan subjek I memakai show tanpa -s.",
+        "stepByStep": [
+          "Gratitude adalah kata benda abstrak, sehingga tidak memakai bentuk jamak.",
+          "Subjek I memakai kata kerja show tanpa -s.",
+          "Pilihan A memakai gratitudes, pilihan C memakai shows, dan pilihan D memakai patiences."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Gratitudes adalah bentuk jamak yang tidak lazim untuk kata abstrak ini."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Subjek I tidak memakai shows."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Patience adalah kata benda abstrak yang tidak dijamakkan dalam kalimat ini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gratitude adalah kata benda abstrak yang biasanya tidak dijamakkan.",
+          "examples": [
+            {
+              "en": "She showed gratitude for the support.",
+              "id": "Dia menunjukkan rasa syukur atas dukungan itu."
+            },
+            {
+              "en": "I feel gratitude every morning.",
+              "id": "Saya merasa bersyukur setiap pagi."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena kata benda sering dijamakkan dengan -s, tetapi gratitude adalah kata benda abstrak yang tidak dijamakkan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means a short observation that shows what you have learned?",
+        "options": [
+          {
+            "id": "A",
+            "text": "pride"
+          },
+          {
+            "id": "B",
+            "text": "background"
+          },
+          {
+            "id": "C",
+            "text": "insight"
+          },
+          {
+            "id": "D",
+            "text": "emotion"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Insight adalah wawasan atau pemahaman tajam yang muncul dari pengalaman.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk pengamatan singkat tentang apa yang sudah dipelajari.",
+          "Pengamatan singkat yang menunjukkan pemahaman disebut insight.",
+          "Pride, background, dan emotion tidak berarti pengamatan atau pemahaman."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Pride berarti rasa bangga, bukan pengamatan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Background berarti latar belakang, bukan pengamatan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Emotion berarti emosi, bukan pengamatan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Insight dipakai untuk pemahaman yang muncul setelah memikirkan sebuah pengalaman.",
+          "examples": [
+            {
+              "en": "The essay gave a clear insight into her life.",
+              "id": "Esai itu memberikan wawasan yang jelas tentang hidupnya."
+            },
+            {
+              "en": "His insight helped the team solve the problem.",
+              "id": "Wawasannya membantu tim memecahkan masalah."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D emotion terlihat cocok karena pengalaman sering menimbulkan perasaan, tetapi kalimat ini meminta pengamatan yang menunjukkan pemahaman."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ of the story is that small kindness can change a life.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "significance"
+          },
+          {
+            "id": "B",
+            "text": "pride"
+          },
+          {
+            "id": "C",
+            "text": "vantage"
+          },
+          {
+            "id": "D",
+            "text": "nostalgia"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Significance berarti makna penting, dan kalimat ini menjelaskan pesan utama dari cerita.",
+        "stepByStep": [
+          "Kalimat menyebut pesan utama dari sebuah cerita.",
+          "Makna penting dari sesuatu disebut significance.",
+          "Pride, vantage, dan nostalgia tidak berarti pesan utama."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Pride berarti rasa bangga, bukan pesan utama cerita."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Vantage berarti sudut pandang, bukan pesan utama cerita."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Nostalgia berarti rasa rindu, bukan pesan utama cerita."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Significance dipakai untuk menyebut makna penting dari sebuah peristiwa atau cerita.",
+          "examples": [
+            {
+              "en": "The significance of the event is clear.",
+              "id": "Makna penting dari peristiwa itu jelas."
+            },
+            {
+              "en": "Tell us the significance of this moment.",
+              "id": "Ceritakan makna penting dari momen ini."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D nostalgia terlihat cocok karena cerita sering membangkitkan rasa rindu, tetapi kalimat ini meminta makna penting dari cerita."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means the position from which something is seen, or the perspective you choose?",
+        "options": [
+          {
+            "id": "A",
+            "text": "vantage"
+          },
+          {
+            "id": "B",
+            "text": "nostalgia"
+          },
+          {
+            "id": "C",
+            "text": "pride"
+          },
+          {
+            "id": "D",
+            "text": "emotion"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Vantage berarti posisi melihat sesuatu, atau sudut pandang yang dipilih dalam berbicara.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk posisi melihat atau sudut pandang.",
+          "Posisi melihat atau sudut pandang disebut vantage.",
+          "Nostalgia, pride, dan emotion tidak berarti sudut pandang."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Nostalgia berarti rasa rindu, bukan sudut pandang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pride berarti rasa bangga, bukan sudut pandang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Emotion berarti emosi, bukan sudut pandang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Vantage dipakai untuk posisi atau sudut pandang ketika sesuatu dilihat.",
+          "examples": [
+            {
+              "en": "From this vantage point, the valley looks green.",
+              "id": "Dari sudut pandang ini, lembah itu tampak hijau."
+            },
+            {
+              "en": "Choose a clear vantage point for your argument.",
+              "id": "Pilih sudut pandang yang jelas untuk argumenmu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D emotion terlihat cocok karena cerita sering menyentuh perasaan, tetapi kalimat ini meminta posisi atau sudut pandang."
+      }
+    ]
+  }
+}

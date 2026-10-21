@@ -1,0 +1,1270 @@
+{
+  "day": 81,
+  "week": 11,
+  "month": 3,
+  "title": "Review Minggu 11",
+  "topic": "Review: Writing Task 2 (opini, diskusi, problem and solution, tesis, paragraf)",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang cara membenarkan posisi dan menimbang keberatan",
+    "Meninjau ulang tesis, kalimat topik, dan transisi",
+    "Meninjau ulang kata untuk penalaran, manfaat, dan mitigasi"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "justify",
+        "pronunciationId": "JUS-ti-fai (tekanan di JUS)",
+        "pos": "Verb",
+        "meaningId": "membenarkan",
+        "example": "Justify your answer.",
+        "exampleId": "Benarkan jawabanmu."
+      },
+      {
+        "no": 2,
+        "en": "merit",
+        "pronunciationId": "MER-it (tekanan di MER)",
+        "pos": "Noun",
+        "meaningId": "kelebihan, nilai",
+        "example": "The plan has merit.",
+        "exampleId": "Rencana itu punya kelebihan."
+      },
+      {
+        "no": 3,
+        "en": "cause",
+        "pronunciationId": "KAWZ (tekanan di KAWZ)",
+        "pos": "Noun",
+        "meaningId": "penyebab",
+        "example": "The cause is clear.",
+        "exampleId": "Penyebabnya jelas."
+      },
+      {
+        "no": 4,
+        "en": "benefit",
+        "pronunciationId": "BEN-i-fit (tekanan di BEN)",
+        "pos": "Noun",
+        "meaningId": "manfaat",
+        "example": "The benefit is clear.",
+        "exampleId": "Manfaatnya jelas."
+      },
+      {
+        "no": 5,
+        "en": "cohesive",
+        "pronunciationId": "koh-HEE-siv (tekanan di HEE)",
+        "pos": "Adj",
+        "meaningId": "kohesif, saling terikat",
+        "example": "The essay is cohesive.",
+        "exampleId": "Esainya kohesif."
+      },
+      {
+        "no": 6,
+        "en": "transition",
+        "pronunciationId": "tran-ZISH-un (tekanan di ZISH)",
+        "pos": "Noun",
+        "meaningId": "transisi",
+        "example": "Use a transition.",
+        "exampleId": "Gunakan transisi."
+      },
+      {
+        "no": 7,
+        "en": "perspective",
+        "pronunciationId": "per-SPEK-tiv (tekanan di SPEK)",
+        "pos": "Noun",
+        "meaningId": "sudut pandang",
+        "example": "Consider each perspective.",
+        "exampleId": "Pertimbangkan setiap sudut pandang."
+      },
+      {
+        "no": 8,
+        "en": "mitigate",
+        "pronunciationId": "MIT-i-gayt (tekanan di MIT)",
+        "pos": "Verb",
+        "meaningId": "mengurangi dampak",
+        "example": "Mitigate the risk.",
+        "exampleId": "Kurangi risikonya."
+      },
+      {
+        "no": 9,
+        "en": "reasoning",
+        "pronunciationId": "REE-zun-ing (tekanan di REE)",
+        "pos": "Noun",
+        "meaningId": "penalaran",
+        "example": "The reasoning is sound.",
+        "exampleId": "Penalarannya kuat."
+      },
+      {
+        "no": 10,
+        "en": "thesis",
+        "pronunciationId": "THEE-sis (tekanan di THEE)",
+        "pos": "Noun",
+        "meaningId": "tesis",
+        "example": "The thesis is clear.",
+        "exampleId": "Tesisnya jelas."
+      }
+    ],
+    "tip": "Dalam review Writing Task 2, cek tiga hal: apakah posisimu jelas, apakah setiap paragraf punya penalaran, dan apakah transisimu menjaga alur."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 2 practice",
+        "IELTS writing task 2 tips"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum esai opini, diskusi, problem and solution, tesis, dan paragraf untuk Writing Task 2.",
+      "watchFor": [
+        "Posisi yang jelas di awal esai",
+        "Penalaran yang didukung contoh",
+        "Transisi yang menjaga alur"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 11 membahas Writing Task 2: esai opini, esai diskusi, problem and solution, advantages dan disadvantages, tesis, dan pengembangan paragraf. Review ini menyatukan semuanya dalam satu percakapan.",
+      "sections": [
+        {
+          "heading": "Membenarkan posisi",
+          "bodyMd": "Gunakan **justify** untuk membenarkan posisi dengan alasan. Sebut **merit** pandangan yang kamu dukung, lalu bandingkan dengan **perspective** lain."
+        },
+        {
+          "heading": "Penalaran dan tesis",
+          "bodyMd": "Setiap klaim butuh **reasoning** yang jelas. **Thesis** adalah klaim utama, dan semua paragraf harus mendukungnya. **Cause** dan **benefit** perlu dijelaskan dengan contoh."
+        },
+        {
+          "heading": "Transisi dan keberatan",
+          "bodyMd": "Gunakan **transition** untuk berpindah ke ide berikutnya dan jaga esai tetap **cohesive**. Untuk argumen lawan yang kuat, **mitigate** dengan pengakuan yang adil, bukan dengan penolakan."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Posisi",
+          "pattern": "X should be supported because Y"
+        },
+        {
+          "label": "Penalaran",
+          "pattern": "claim + reasoning + example"
+        },
+        {
+          "label": "Transisi",
+          "pattern": "However / In addition / As a result"
+        },
+        {
+          "label": "Keberatan",
+          "pattern": "Although X has merit, Y can mitigate its drawback"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "I justify this position with two clear reasons.",
+            "id": "Saya membenarkan posisi ini dengan dua alasan yang jelas."
+          },
+          {
+            "en": "The main merit of the plan is its low cost.",
+            "id": "Kelebihan utama rencana itu adalah biayanya yang rendah."
+          },
+          {
+            "en": "The thesis is stated in the first paragraph.",
+            "id": "Tesisnya dinyatakan di paragraf pertama."
+          },
+          {
+            "en": "A transition connects the two ideas.",
+            "id": "Transisi menghubungkan kedua gagasan itu."
+          },
+          {
+            "en": "We can mitigate the risk with a simple rule.",
+            "id": "Kita bisa mengurangi risiko dengan aturan sederhana."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The argument does not justify the conclusion.",
+            "id": "Argumen itu tidak membenarkan kesimpulan itu."
+          },
+          {
+            "en": "The essay is not cohesive without transitions.",
+            "id": "Esai itu tidak kohesif tanpa transisi."
+          },
+          {
+            "en": "The reasoning is not complete yet.",
+            "id": "Penalarannya belum lengkap."
+          },
+          {
+            "en": "The cause of the problem is not obvious.",
+            "id": "Penyebab masalah itu tidak jelas."
+          },
+          {
+            "en": "The benefit does not outweigh the risk here.",
+            "id": "Manfaatnya tidak lebih besar daripada risikonya di sini."
+          }
+        ],
+        "question": [
+          {
+            "en": "How do you justify your position?",
+            "id": "Bagaimana kamu membenarkan posisimu?"
+          },
+          {
+            "en": "What is the thesis?",
+            "id": "Apa tesisnya?"
+          },
+          {
+            "en": "Where is the transition?",
+            "id": "Di mana transisinya?"
+          },
+          {
+            "en": "What is the cause of the weak argument?",
+            "id": "Apa penyebab argumen yang lemah?"
+          },
+          {
+            "en": "Can the risk be mitigated?",
+            "id": "Apakah risikonya bisa dikurangi?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The thesis are in the introduction.",
+          "right": "The thesis is in the introduction.",
+          "whyId": "Thesis adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The reasoning are weak in two paragraph.",
+          "right": "The reasoning is weak in two paragraphs.",
+          "whyId": "Reasoning tunggal memakai is, dan paragraphs jamak setelah two."
+        },
+        {
+          "wrong": "I justifies my answer with examples.",
+          "right": "I justify my answer with examples.",
+          "whyId": "Subjek I memakai kata kerja dasar justify."
+        },
+        {
+          "wrong": "The merit of the plan are its cost.",
+          "right": "The merit of the plan is its cost.",
+          "whyId": "Merit tunggal memakai is."
+        },
+        {
+          "wrong": "Mitigate the risk yesterday was hard.",
+          "right": "Mitigating the risk was hard yesterday.",
+          "whyId": "Frasa sebagai subjek memakai bentuk -ing."
+        },
+        {
+          "wrong": "The essay is cohesion.",
+          "right": "The essay is cohesive.",
+          "whyId": "Setelah is, pakai kata sifat cohesive."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 2 practice",
+        "study group writing English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Dua mahasiswa mengulang penalaran dan tesis",
+        "Transisi dan keberatan yang disebut"
+      ]
+    },
+    "script": {
+      "title": "Mengulang Writing Task 2",
+      "lines": [
+        {
+          "speaker": "Student A",
+          "text": "Let's review week eleven. How do I justify a position in an essay?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "Give reasons, and show the merit of your view. Then compare it with another perspective."
+        },
+        {
+          "speaker": "Student A",
+          "text": "What is the cause of a weak argument?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "Usually the reasoning is missing. Each claim needs a benefit or an example, and the paragraphs need to be cohesive."
+        },
+        {
+          "speaker": "Student A",
+          "text": "What about the transition between paragraphs?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "Use one to move from one idea to the next. If the other side is strong, mitigate it with a concession, not a dismissal."
+        },
+        {
+          "speaker": "Student A",
+          "text": "What should the thesis do?"
+        },
+        {
+          "speaker": "Student B",
+          "text": "The thesis states the main claim. Everything else supports it, so check it before you write."
+        },
+        {
+          "speaker": "Student A",
+          "text": "Thanks. I will check my reasoning in every paragraph."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada cohesive, tekanan ada di suku kedua: koh-HEE-siv.",
+      "Pada mitigate, tekanan ada di suku pertama: MIT-i-gayt.",
+      "Pada perspective, tekanan ada di suku pertama: per-SPEK-tiv."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "How should a student justify a position, according to the first student's question?",
+        "options": [
+          {
+            "id": "A",
+            "text": "by ignoring other views"
+          },
+          {
+            "id": "B",
+            "text": "by copying a quotation"
+          },
+          {
+            "id": "C",
+            "text": "by giving reasons and showing the merit of the view"
+          },
+          {
+            "id": "D",
+            "text": "by writing a short title"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Mahasiswa B berkata untuk membenarkan posisi, berikan alasan dan tunjukkan kelebihan pandangan itu.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Mengabaikan pandangan lain bertentangan dengan saran mahasiswa B."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Mengutip kalimat orang lain tidak disebut sebagai cara membenarkan posisi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Menulis judul singkat tidak disebut dalam saran itu."
+          }
+        ],
+        "evidence": "Give reasons, and show the merit of your view"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is usually the cause of a weak argument, according to the student?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a missing reasoning"
+          },
+          {
+            "id": "B",
+            "text": "a long introduction"
+          },
+          {
+            "id": "C",
+            "text": "too many references"
+          },
+          {
+            "id": "D",
+            "text": "the wrong font"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Mahasiswa B berkata biasanya penalaran tidak ada sehingga argumen menjadi lemah.",
+        "stepByStep": [
+          "Cari cause di naskah mahasiswa.",
+          "Mahasiswa B menyebut the reasoning is missing.",
+          "Pengantar panjang, referensi banyak, dan font tidak disebut sebagai penyebab."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Pengantar panjang tidak disebut sebagai penyebab argumen lemah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Banyak referensi tidak disebut sebagai penyebab."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Font tidak disebut dalam percakapan."
+          }
+        ],
+        "evidence": "the reasoning is missing"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What should the writer use to move from one idea to the next?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a digression"
+          },
+          {
+            "id": "B",
+            "text": "a title"
+          },
+          {
+            "id": "C",
+            "text": "a quotation"
+          },
+          {
+            "id": "D",
+            "text": "a transition"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Mahasiswa B berkata 'Use one to move from one idea to the next', yaitu transisi.",
+        "stepByStep": [
+          "Cari move from one idea to the next di naskah mahasiswa B.",
+          "Kata yang dimaksud adalah transition.",
+          "Digression, title, dan quotation tidak berfungsi sebagai penghubung ide."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Digression memutus alur, kebalikan dari perpindahan ide yang mulus."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Judul tidak berfungsi sebagai penghubung antargagasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Kutipan tidak berfungsi sebagai penghubung antargagasan."
+          }
+        ],
+        "evidence": "move from one idea to the next"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "How should a strong opposing argument be handled, according to the second student?",
+        "options": [
+          {
+            "id": "A",
+            "text": "dismiss it completely"
+          },
+          {
+            "id": "B",
+            "text": "mitigate it with a concession"
+          },
+          {
+            "id": "C",
+            "text": "ignore it"
+          },
+          {
+            "id": "D",
+            "text": "repeat it in the title"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mahasiswa B berkata untuk memitigasi argumen kuat dengan konsesi, bukan dengan penolakan total.",
+        "stepByStep": [
+          "Cari strong di naskah mahasiswa B.",
+          "Mahasiswa B menyebut mitigate it with a concession, not a dismissal.",
+          "Menolak sepenuhnya, mengabaikan, dan mengulang di judul tidak sesuai dengan saran itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Menolak sepenuhnya bertentangan dengan saran mengakui sisi lawan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Mengabaikan argumen kuat tidak disebut sebagai cara yang tepat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Mengulang argumen di judul tidak disebut dalam saran itu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Mitigate dengan konsesi berarti mengakui sisi lawan secara adil, lalu tetap menjelaskan posisi sendiri.",
+          "examples": [
+            {
+              "en": "It is true that the cost is high, but the policy still helps families.",
+              "id": "Memang benar biayanya tinggi, tetapi kebijakan itu tetap membantu keluarga."
+            },
+            {
+              "en": "A concession can reduce the force of the counterargument.",
+              "id": "Konsesi dapat mengurangi kekuatan argumen tandingan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A dismiss it completely terlihat seperti cara yang tegas, tetapi saran mahasiswa B justru menolak penolakan total.",
+        "evidence": "mitigate it with a concession, not a dismissal"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the thesis do, according to the second student?",
+        "options": [
+          {
+            "id": "A",
+            "text": "it states the main claim that everything else supports"
+          },
+          {
+            "id": "B",
+            "text": "it lists the references"
+          },
+          {
+            "id": "C",
+            "text": "it summarises the bibliography"
+          },
+          {
+            "id": "D",
+            "text": "it replaces the conclusion"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Mahasiswa B berkata tesis menyatakan klaim utama, dan semua bagian lain mendukungnya.",
+        "stepByStep": [
+          "Cari thesis di naskah mahasiswa B.",
+          "Mahasiswa B menyebut the thesis states the main claim, dan everything else supports it.",
+          "Daftar referensi, ringkasan daftar pustaka, dan pengganti kesimpulan tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Daftar referensi bukan fungsi tesis."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ringkasan daftar pustaka bukan fungsi tesis."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Tesis tidak menggantikan kesimpulan menurut penjelasan itu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tesis adalah klaim utama yang didukung oleh seluruh isi esai.",
+          "examples": [
+            {
+              "en": "The thesis is the main claim of the essay.",
+              "id": "Tesis adalah klaim utama esai."
+            },
+            {
+              "en": "Every paragraph supports the thesis.",
+              "id": "Setiap paragraf mendukung tesis."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D replaces the conclusion terlihat masuk akal karena tesis dan kesimpulan sering berhubungan, tetapi tesis bukan pengganti kesimpulan.",
+        "evidence": "The thesis states the main claim"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the essay is one clear sentence that states the main claim.",
+        "options": [
+          {
+            "id": "A",
+            "text": "thesis"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Thesis adalah kalimat yang menyatakan klaim utama esai.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan klaim utama."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan klaim utama."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan klaim utama."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Every claim needs a clear ___ before it can convince the reader.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "reasoning"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Reasoning adalah penalaran yang menghubungkan klaim dengan bukti.",
+        "stepByStep": [
+          "Kalimat menyebut penalaran agar klaim dapat meyakinkan pembaca.",
+          "Penalaran yang menghubungkan klaim dengan bukti disebut reasoning.",
+          "Garden, ticket, dan bridge tidak berarti penalaran."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan penalaran."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan penalaran."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan penalaran."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The writer will ___ the risk by offering a small concession.",
+        "options": [
+          {
+            "id": "A",
+            "text": "cause"
+          },
+          {
+            "id": "B",
+            "text": "mitigate"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mitigate berarti mengurangi dampak atau tingkat keparahan sesuatu.",
+        "stepByStep": [
+          "Kalimat menyebut usaha mengurangi risiko dengan konsesi.",
+          "Mengurangi dampak sesuatu disebut mitigate.",
+          "Cause berarti penyebab, dan garden serta ticket tidak berarti mengurangi."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Cause berarti penyebab, bukan mengurangi dampak."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan mengurangi dampak."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan mengurangi dampak."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The essay is ___ because each paragraph links clearly to the next.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "bridge"
+          },
+          {
+            "id": "D",
+            "text": "cohesive"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Cohesive berarti saling terikat, dan kalimat ini menjelaskan hubungan antarparagraf.",
+        "stepByStep": [
+          "Kalimat menyebut hubungan jelas antarparagraf.",
+          "Keadaan saling terikat disebut cohesive.",
+          "Garden, ticket, dan bridge tidak menggambarkan keadaan esai."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan keadaan esai."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan keadaan esai."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Bridge adalah penghubung, bukan kata sifat untuk keadaan esai."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cohesive adalah kata sifat yang berarti saling terikat dan mengalir dari satu bagian ke bagian berikutnya.",
+          "examples": [
+            {
+              "en": "A cohesive essay is easy to follow.",
+              "id": "Esai yang kohesif mudah diikuti."
+            },
+            {
+              "en": "The paragraphs are cohesive and well linked.",
+              "id": "Paragraf-paragrafnya kohesif dan terhubung dengan baik."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C bridge terlihat cocok karena kalimat membahas penghubung antarparagraf, tetapi bridge adalah kata benda, bukan kata sifat."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Before you disagree, you must understand the other ___ fully.",
+        "options": [
+          {
+            "id": "A",
+            "text": "merit"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "perspective"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Perspective adalah sudut pandang, dan kalimat ini meminta pemahaman sudut pandang lawan.",
+        "stepByStep": [
+          "Kalimat meminta pemahaman penuh terhadap pandangan lawan.",
+          "Sudut pandang lawan disebut perspective.",
+          "Merit berarti kelebihan, ticket berarti tiket, dan garden berarti taman."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Merit berarti kelebihan, bukan sudut pandang lawan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan sudut pandang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan sudut pandang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Perspective adalah cara seseorang memandang suatu isu, sering dipakai dalam esai diskusi.",
+          "examples": [
+            {
+              "en": "Consider each perspective before you decide.",
+              "id": "Pertimbangkan setiap sudut pandang sebelum kamu memutuskan."
+            },
+            {
+              "en": "The perspective of the workers is different.",
+              "id": "Sudut pandang para pekerja itu berbeda."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A merit terlihat cocok karena sering dibahas dalam perbandingan pandangan, tetapi kalimat ini meminta sudut pandang lawan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tesis harus menyebut klaim utama esai.",
+        "hint": "Tesis: the thesis. Harus menyebut: must state. Klaim utama: the main claim. Esai: the essay.",
+        "acceptedAnswers": [
+          "The thesis must state the main claim of the essay.",
+          "The thesis should state the main claim of the essay."
+        ],
+        "modelAnswer": "The thesis must state the main claim of the essay.",
+        "commonErrors": [
+          {
+            "pattern": "The thesis must states the main claim of essay",
+            "feedbackId": "Setelah must, pakai kata kerja dasar state, dan gunakan the essay."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Alasan ini membenarkan posisi saya.",
+        "hint": "Alasan ini: this reasoning. Membenarkan: justifies. Posisi saya: my position.",
+        "acceptedAnswers": [
+          "This reasoning justifies my position.",
+          "This reasoning justifies my standpoint."
+        ],
+        "modelAnswer": "This reasoning justifies my position.",
+        "commonErrors": [
+          {
+            "pattern": "This reasoning justify my position",
+            "feedbackId": "Subjek reasoning tunggal memakai justifies."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kelebihan pendekatan ini adalah dapat mengurangi risiko.",
+        "hint": "Kelebihan: the merit. Pendekatan ini: of this approach. Dapat mengurangi: can mitigate. Risiko: the risk.",
+        "acceptedAnswers": [
+          "The merit of this approach is that it can mitigate the risk.",
+          "The merit of this approach is that it can reduce the risk."
+        ],
+        "modelAnswer": "The merit of this approach is that it can mitigate the risk.",
+        "commonErrors": [
+          {
+            "pattern": "The merit of this approach are that it can mitigates the risk",
+            "feedbackId": "Merit tunggal memakai is, dan setelah can memakai kata kerja dasar mitigate."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Transisi yang lemah membuat pembaca kehilangan alur esai.",
+        "hint": "Transisi yang lemah: a weak transition. Membuat: makes. Pembaca kehilangan alur: the reader lose the flow. Esai: of the essay.",
+        "acceptedAnswers": [
+          "A weak transition makes the reader lose the flow of the essay.",
+          "A weak transition causes the reader to lose the flow of the essay."
+        ],
+        "modelAnswer": "A weak transition makes the reader lose the flow of the essay.",
+        "commonErrors": [
+          {
+            "pattern": "A weak transition make the reader loses the flow of essay",
+            "feedbackId": "Subjek transition tunggal memakai makes, dan setelah make the reader memakai lose."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penyebab utama lemahnya argumen adalah kurangnya penalaran.",
+        "hint": "Penyebab utama: the main cause. Lemahnya argumen: of the weak argument. Adalah: is. Kurangnya penalaran: a lack of reasoning.",
+        "acceptedAnswers": [
+          "The main cause of the weak argument is a lack of reasoning.",
+          "The main cause of a weak argument is the lack of reasoning."
+        ],
+        "modelAnswer": "The main cause of the weak argument is a lack of reasoning.",
+        "commonErrors": [
+          {
+            "pattern": "The main cause of the weak argument are lack of reasoning",
+            "feedbackId": "Subjek cause tunggal memakai is, dan gunakan a lack of reasoning."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to show good reasons why a decision or view is right'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "mitigate"
+          },
+          {
+            "id": "B",
+            "text": "justify"
+          },
+          {
+            "id": "C",
+            "text": "benefit"
+          },
+          {
+            "id": "D",
+            "text": "cause"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Justify berarti membenarkan sebuah keputusan atau pandangan dengan alasan yang baik.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk membenarkan keputusan dengan alasan.",
+          "Kata kerja yang tepat adalah justify.",
+          "Mitigate berarti mengurangi, benefit berarti manfaat, dan cause berarti penyebab."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Mitigate berarti mengurangi dampak, bukan membenarkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Benefit berarti manfaat, bukan membenarkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Cause berarti penyebab, bukan membenarkan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Justify berarti memberi alasan yang kuat agar keputusan atau pandangan dapat diterima.",
+          "examples": [
+            {
+              "en": "The data justifies the decision.",
+              "id": "Data itu membenarkan keputusan tersebut."
+            },
+            {
+              "en": "You must justify each claim with evidence.",
+              "id": "Kamu harus membenarkan setiap klaim dengan bukti."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A mitigate terlihat cocok karena esai juga memakai kata itu untuk keberatan, tetapi mitigate berarti mengurangi dampak, bukan membenarkan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'thesis'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The thesis are clear in the essay."
+          },
+          {
+            "id": "B",
+            "text": "Thesis the clear is in essay."
+          },
+          {
+            "id": "C",
+            "text": "The theses is clear in the essay."
+          },
+          {
+            "id": "D",
+            "text": "The thesis is clear in the essay."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Thesis adalah kata benda tunggal, sehingga memakai is, dan urutan kata sudah benar.",
+        "stepByStep": [
+          "Thesis adalah subjek tunggal, sehingga memakai is.",
+          "Frasa clear in the essay menjelaskan kejelasan tesis.",
+          "Pilihan A memakai are, pilihan B urutannya salah, dan pilihan C memakai theses dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal thesis."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Theses jamak tidak cocok dengan is untuk satu tesis."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Thesis adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The thesis was clear from the start.",
+              "id": "Tesisnya jelas sejak awal."
+            },
+            {
+              "en": "This thesis is strong and specific.",
+              "id": "Tesis ini kuat dan spesifik."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena tesis sering dibicarakan jamak dalam konteks esai, tetapi kalimat ini menyebut satu tesis."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to lessen the severity of something'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "mitigate"
+          },
+          {
+            "id": "B",
+            "text": "justify"
+          },
+          {
+            "id": "C",
+            "text": "perspective"
+          },
+          {
+            "id": "D",
+            "text": "transition"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Mitigate berarti mengurangi tingkat keparahan atau dampak sesuatu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk mengurangi keparahan.",
+          "Kata kerja yang tepat adalah mitigate.",
+          "Justify, perspective, dan transition tidak berarti mengurangi keparahan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Justify berarti membenarkan, bukan mengurangi keparahan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Perspective berarti sudut pandang, bukan mengurangi keparahan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Transition berarti transisi, bukan mengurangi keparahan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Mitigate berarti membuat akibat negatif menjadi lebih ringan.",
+          "examples": [
+            {
+              "en": "Insurance can mitigate the loss.",
+              "id": "Asuransi dapat mengurangi kerugian."
+            },
+            {
+              "en": "The policy mitigates the impact on the poor.",
+              "id": "Kebijakan itu mengurangi dampak bagi orang miskin."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B justify terlihat cocok karena esai juga membenarkan posisi, tetapi kata yang diminta berarti mengurangi keparahan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The essay's ___ between the two paragraphs was smooth.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "reasoning"
+          },
+          {
+            "id": "B",
+            "text": "merit"
+          },
+          {
+            "id": "C",
+            "text": "transition"
+          },
+          {
+            "id": "D",
+            "text": "cause"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Transition adalah penghubung antarparagraf, dan kalimat ini menyebut penghubung yang lancar.",
+        "stepByStep": [
+          "Kalimat menyebut penghubung antarparagraf yang lancar.",
+          "Penghubung antarparagraf disebut transition.",
+          "Reasoning, merit, dan cause tidak berarti penghubung antarparagraf."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Reasoning adalah penalaran, bukan penghubung antarparagraf."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Merit adalah kelebihan, bukan penghubung antarparagraf."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Cause adalah penyebab, bukan penghubung antarparagraf."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Transition menghubungkan dua paragraf atau dua gagasan dengan lancar.",
+          "examples": [
+            {
+              "en": "A smooth transition keeps the reader engaged.",
+              "id": "Transisi yang lancar menjaga minat pembaca."
+            },
+            {
+              "en": "Use a transition before the second argument.",
+              "id": "Gunakan transisi sebelum argumen kedua."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A reasoning terlihat cocok karena paragraf biasanya memuat penalaran, tetapi kalimat ini menyebut penghubung antarparagraf."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The merit of the plan are clear."
+          },
+          {
+            "id": "B",
+            "text": "The merit of the plan is clear."
+          },
+          {
+            "id": "C",
+            "text": "The merits of the plan is clear."
+          },
+          {
+            "id": "D",
+            "text": "The merit of the plan were clear."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Merit adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Merit adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa of the plan menjelaskan rencana yang dimaksud.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, dan pilihan C memakai merits dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal merit."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Merits jamak tidak cocok dengan is di sini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Were tidak cocok dengan subjek tunggal merit."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Merit sebagai kata benda tunggal memakai is atau was.",
+          "examples": [
+            {
+              "en": "The merit of the idea is simple.",
+              "id": "Kelebihan ide itu sederhana."
+            },
+            {
+              "en": "The merit was clear to everyone.",
+              "id": "Kelebihannya jelas bagi semua orang."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena merit sering dibicarakan jamak sebagai merits, tetapi kalimat ini memakai satu kelebihan."
+      }
+    ]
+  }
+}

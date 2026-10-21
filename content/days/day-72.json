@@ -1,0 +1,1274 @@
+{
+  "day": 72,
+  "week": 10,
+  "month": 3,
+  "title": "Writing Task 1: Map",
+  "topic": "Membandingkan dua peta sebelum dan sesudah perubahan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membandingkan tata letak peta sebelum dan sesudah perubahan",
+    "Menyebut arah dan lokasi dengan kata yang tepat",
+    "Mengenali bagian yang berubah dan bagian yang tetap"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "map",
+        "pronunciationId": "MAP (a pendek, p jelas)",
+        "pos": "Noun",
+        "meaningId": "peta",
+        "example": "The map shows the town.",
+        "exampleId": "Peta itu menunjukkan kota."
+      },
+      {
+        "no": 2,
+        "en": "layout",
+        "pronunciationId": "LAY-owt (tekanan di LAY)",
+        "pos": "Noun",
+        "meaningId": "tata letak",
+        "example": "The layout of the park is simple.",
+        "exampleId": "Tata letak taman itu sederhana."
+      },
+      {
+        "no": 3,
+        "en": "original",
+        "pronunciationId": "uh-RIJ-i-nul (tekanan di RIJ)",
+        "pos": "Adj",
+        "meaningId": "asli, awal",
+        "example": "The original plan was simpler.",
+        "exampleId": "Rencana aslinya lebih sederhana."
+      },
+      {
+        "no": 4,
+        "en": "redevelop",
+        "pronunciationId": "ree-di-VEL-up (tekanan di VEL)",
+        "pos": "Verb",
+        "meaningId": "membangun ulang",
+        "example": "The council will redevelop the market.",
+        "exampleId": "Dewan kota akan membangun ulang pasar itu."
+      },
+      {
+        "no": 5,
+        "en": "construct",
+        "pronunciationId": "kun-STRUKT (tekanan di STRUKT)",
+        "pos": "Verb",
+        "meaningId": "membangun",
+        "example": "They will construct a new bridge.",
+        "exampleId": "Mereka akan membangun jembatan baru."
+      },
+      {
+        "no": 6,
+        "en": "demolish",
+        "pronunciationId": "di-MOL-ish (tekanan di MOL)",
+        "pos": "Verb",
+        "meaningId": "meruntuhkan, merobohkan",
+        "example": "The old factory was demolished.",
+        "exampleId": "Pabrik tua itu dirobohkan."
+      },
+      {
+        "no": 7,
+        "en": "relocate",
+        "pronunciationId": "ree-LOH-kayt (tekanan di LOH)",
+        "pos": "Verb",
+        "meaningId": "memindahkan lokasi",
+        "example": "The shop will relocate next year.",
+        "exampleId": "Toko itu akan pindah tahun depan."
+      },
+      {
+        "no": 8,
+        "en": "surrounding",
+        "pronunciationId": "suh-ROUN-ding (tekanan di ROUN)",
+        "pos": "Adj",
+        "meaningId": "sekitar, di sekeliling",
+        "example": "The surrounding streets are quiet.",
+        "exampleId": "Jalan-jalan di sekitarnya sepi."
+      },
+      {
+        "no": 9,
+        "en": "north",
+        "pronunciationId": "NORTH (tekanan di NORTH)",
+        "pos": "Noun",
+        "meaningId": "utara",
+        "example": "The park is to the north.",
+        "exampleId": "Taman itu berada di utara."
+      },
+      {
+        "no": 10,
+        "en": "residential",
+        "pronunciationId": "rez-i-DEN-shul (tekanan di DEN)",
+        "pos": "Adj",
+        "meaningId": "perumahan, hunian",
+        "example": "This is a residential area.",
+        "exampleId": "Ini adalah kawasan perumahan."
+      }
+    ],
+    "tip": "Pada peta, bandingkan dua keadaan dengan kata original dan after. Sebut arah dengan north, south, east, atau west, lalu jelaskan apa yang berubah."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 map comparison",
+        "IELTS map description"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membandingkan peta sebelum dan sesudah perubahan, dengan contoh arah dan kata kerja perubahan.",
+      "watchFor": [
+        "Bagian peta yang berubah",
+        "Bagian yang tetap sama",
+        "Kata arah dan kata kerja untuk perubahan"
+      ]
+    },
+    "lesson": {
+      "intro": "Soal peta meminta kamu membandingkan dua keadaan kawasan. Tulis apa yang berubah, apa yang tetap, dan di mana perubahan itu terjadi. Gunakan arah dan kata kerja perubahan secara konsisten.",
+      "sections": [
+        {
+          "heading": "Tata letak dan arah",
+          "bodyMd": "Periksa **map** dan **layout** lebih dulu. Bagian yang **original** dipakai sebagai pembanding. Arah **north** dan area **surrounding** membantu menunjukkan lokasi."
+        },
+        {
+          "heading": "Perubahan",
+          "bodyMd": "**Demolish** dipakai untuk merobohkan bangunan. **Construct** untuk membangun baru. **Redevelop** untuk membangun ulang kawasan. **Relocate** untuk memindahkan lokasi."
+        },
+        {
+          "heading": "Kawasan",
+          "bodyMd": "Jika kawasan tinggal berubah, sebut sebagai **residential** area. Bandingkan dengan bagian yang tetap, misalnya sungai atau jembatan."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Perubahan",
+          "pattern": "X was demolished / constructed / relocated in the north"
+        },
+        {
+          "label": "Tetap",
+          "pattern": "X remained unchanged / did not change"
+        },
+        {
+          "label": "Arah",
+          "pattern": "to the north of / in the surrounding area"
+        },
+        {
+          "label": "Perbandingan",
+          "pattern": "in the original plan, X was A; in the new plan, Y is B"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The map shows the layout before and after the change.",
+            "id": "Peta itu menunjukkan tata letak sebelum dan sesudah perubahan."
+          },
+          {
+            "en": "The old market was demolished in the north.",
+            "id": "Pasar lama dirobohkan di utara."
+          },
+          {
+            "en": "A new library was constructed in the surrounding area.",
+            "id": "Perpustakaan baru dibangun di kawasan sekitarnya."
+          },
+          {
+            "en": "The car park was relocated to the edge of town.",
+            "id": "Area parkir dipindahkan ke pinggir kota."
+          },
+          {
+            "en": "The residential area was redeveloped.",
+            "id": "Kawasan perumahan dibangun ulang."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The river did not change in the new plan.",
+            "id": "Sungai itu tidak berubah dalam rencana baru."
+          },
+          {
+            "en": "The school was not moved to the north.",
+            "id": "Sekolah itu tidak dipindahkan ke utara."
+          },
+          {
+            "en": "The bridge was not demolished.",
+            "id": "Jembatan itu tidak dirobohkan."
+          },
+          {
+            "en": "The original layout is not shown on this map.",
+            "id": "Tata letak asli tidak ditunjukkan pada peta ini."
+          },
+          {
+            "en": "The park is not residential.",
+            "id": "Taman itu bukan kawasan perumahan."
+          }
+        ],
+        "question": [
+          {
+            "en": "What does the map show on the left?",
+            "id": "Apa yang ditunjukkan peta di sebelah kiri?"
+          },
+          {
+            "en": "Which area was demolished?",
+            "id": "Area mana yang dirobohkan?"
+          },
+          {
+            "en": "Where was the car park relocated?",
+            "id": "Ke mana area parkir dipindahkan?"
+          },
+          {
+            "en": "What remained unchanged?",
+            "id": "Apa yang tetap tidak berubah?"
+          },
+          {
+            "en": "Is the residential area bigger now?",
+            "id": "Apakah kawasan perumahan sekarang lebih besar?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The market demolish in the north.",
+          "right": "The market was demolished in the north.",
+          "whyId": "Perubahan yang sudah terjadi memakai pasif was demolished."
+        },
+        {
+          "wrong": "A new library were constructed.",
+          "right": "A new library was constructed.",
+          "whyId": "Library adalah kata benda tunggal, jadi memakai was."
+        },
+        {
+          "wrong": "The car park was relocate to the edge.",
+          "right": "The car park was relocated to the edge.",
+          "whyId": "Setelah was, pakai V3 relocated."
+        },
+        {
+          "wrong": "The river are unchanged.",
+          "right": "The river is unchanged.",
+          "whyId": "River adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The residential area is more bigger.",
+          "right": "The residential area is bigger.",
+          "whyId": "Bigger sudah bentuk perbandingan, tanpa more."
+        },
+        {
+          "wrong": "It is located at the north of the park.",
+          "right": "It is located to the north of the park.",
+          "whyId": "Arah utara memakai to the north of."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS writing task 1 map comparison",
+        "town planning English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Penjelasan tutor tentang peta sebelum dan sesudah",
+        "Arah dan bagian yang berubah"
+      ]
+    },
+    "script": {
+      "title": "Membandingkan dua peta pusat kota",
+      "lines": [
+        {
+          "speaker": "Tutor",
+          "text": "This map shows the town centre in two stages. The left side is the original layout from 2000, and the right side shows the plan to redevelop the centre."
+        },
+        {
+          "speaker": "Student",
+          "text": "What changed in the north?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "In the north, the council chose to demolish the old market and construct a new library on that site. They also relocated the car park to the edge of the town."
+        },
+        {
+          "speaker": "Student",
+          "text": "What about the residential area?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "The residential area is now bigger. The houses in the surrounding streets were kept, but new flats were built behind them."
+        },
+        {
+          "speaker": "Student",
+          "text": "Is the river still in the same place?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "Yes, the river layout did not change. The main bridge stays where it was."
+        },
+        {
+          "speaker": "Student",
+          "text": "Did the school move?"
+        },
+        {
+          "speaker": "Tutor",
+          "text": "No, the school was not moved. Only its playground was extended toward the east."
+        },
+        {
+          "speaker": "Student",
+          "text": "Thanks. I will describe the north and the residential changes first."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada residential, tekanan ada di suku kedua: rez-i-DEN-shul.",
+      "Pada redevelopment, ucapkan awalan re- dengan jelas: ree-di-VEL-up.",
+      "Pada surrounding, tekanan ada di suku pertama: suh-ROUN-ding."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is shown on the left side of the map?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the original layout from 2000"
+          },
+          {
+            "id": "B",
+            "text": "the plan after redevelopment"
+          },
+          {
+            "id": "C",
+            "text": "the new library"
+          },
+          {
+            "id": "D",
+            "text": "the playground"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata sisi kiri adalah tata letak asli dari tahun 2000.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Rencana setelah redevelopment ada di sisi kanan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Perpustakaan baru adalah perubahan, bukan isi sisi kiri."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Taman bermain adalah bagian sekolah, bukan isi sisi kiri."
+          }
+        ],
+        "evidence": "The left side is the original layout from 2000"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What happened to the old market in the north?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It was relocated."
+          },
+          {
+            "id": "B",
+            "text": "It was kept unchanged."
+          },
+          {
+            "id": "C",
+            "text": "It was demolished."
+          },
+          {
+            "id": "D",
+            "text": "It was extended."
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata pasar lama dirobohkan di utara.",
+        "stepByStep": [
+          "Cari market di naskah tutor.",
+          "Tutor menyebut the old market was demolished.",
+          "Dipindahkan, tetap, dan diperluas tidak sesuai dengan kalimat itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Area parkir yang dipindahkan, bukan pasar lama."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Pasar lama tidak dibiarkan tetap."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pasar lama tidak diperluas, melainkan dirobohkan."
+          }
+        ],
+        "evidence": "to demolish the old market"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Where was the car park moved to?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the centre of town"
+          },
+          {
+            "id": "B",
+            "text": "the edge of the town"
+          },
+          {
+            "id": "C",
+            "text": "the north bank of the river"
+          },
+          {
+            "id": "D",
+            "text": "the school playground"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata area parkir dipindahkan ke pinggir kota.",
+        "stepByStep": [
+          "Cari car park di naskah tutor.",
+          "Tutor menyebut relocated to the edge of the town.",
+          "Pusat kota, tepi sungai, dan halaman sekolah tidak disebut sebagai lokasi baru."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Pusat kota tidak disebut sebagai lokasi baru area parkir."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tepi sungai tidak disebut dalam naskah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Halaman sekolah diperluas, bukan tujuan area parkir."
+          }
+        ],
+        "evidence": "relocated the car park to the edge of the town"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the tutor say about the residential area?",
+        "options": [
+          {
+            "id": "A",
+            "text": "It became smaller."
+          },
+          {
+            "id": "B",
+            "text": "All the houses were demolished."
+          },
+          {
+            "id": "C",
+            "text": "It was moved to the east."
+          },
+          {
+            "id": "D",
+            "text": "New flats were built behind the houses in the surrounding streets."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Tutor berkata kawasan perumahan lebih besar dan flat baru dibangun di belakang rumah yang sudah ada.",
+        "stepByStep": [
+          "Cari residential di naskah tutor.",
+          "Tutor menyebut kawasan itu lebih besar dan flat baru dibangun di belakang rumah.",
+          "Kawasan yang mengecil, semua rumah dirobohkan, dan pemindahan ke timur tidak sesuai dengan naskah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Tutor menyebut kawasan itu lebih besar, bukan lebih kecil."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Rumah di jalan sekitarnya dipertahankan, bukan semua dirobohkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pemindahan ke timur hanya disebut untuk taman bermain sekolah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kawasan yang dibangun ulang bisa tetap sama luas atau menjadi lebih besar, tergantung bagian yang ditambahkan.",
+          "examples": [
+            {
+              "en": "The residential area expanded after the new flats were built.",
+              "id": "Kawasan perumahan meluas setelah flat baru dibangun."
+            },
+            {
+              "en": "Some houses were kept while new ones were added.",
+              "id": "Beberapa rumah dipertahankan sementara yang baru ditambahkan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat cocok karena kawasan itu mengalami perubahan besar, tetapi tutor menyebut sebagian rumah dipertahankan.",
+        "evidence": "new flats were built behind them"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which feature did not change, according to the tutor?",
+        "options": [
+          {
+            "id": "A",
+            "text": "the car park"
+          },
+          {
+            "id": "B",
+            "text": "the river layout"
+          },
+          {
+            "id": "C",
+            "text": "the old market"
+          },
+          {
+            "id": "D",
+            "text": "the residential area"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tutor berkata tata letak sungai tidak berubah.",
+        "stepByStep": [
+          "Cari bagian yang tidak berubah di naskah tutor.",
+          "Tutor menyebut the river layout did not change.",
+          "Area parkir, pasar lama, dan kawasan perumahan berubah menurut naskah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Area parkir dipindahkan, jadi berubah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pasar lama dirobohkan, jadi berubah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kawasan perumahan menjadi lebih besar, jadi berubah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk soal peta, cari frasa seperti did not change atau remained, lalu bandingkan dengan bagian yang berubah.",
+          "examples": [
+            {
+              "en": "The main road remained the same.",
+              "id": "Jalan utama tetap sama."
+            },
+            {
+              "en": "The shop did not change its location.",
+              "id": "Toko itu tidak mengubah lokasinya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat tetap karena kawasan perumahan disebut dalam naskah, tetapi kawasan itu justru bertambah besar.",
+        "evidence": "the river layout did not change"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ of the town shows roads, parks, and buildings.",
+        "options": [
+          {
+            "id": "A",
+            "text": "map"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "garden"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Map adalah peta yang menunjukkan jalan, taman, dan bangunan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan peta."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan peta."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Garden berarti taman, bukan peta."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The new office block will ___ on the empty land by the station.",
+        "options": [
+          {
+            "id": "A",
+            "text": "demolish"
+          },
+          {
+            "id": "B",
+            "text": "relocate"
+          },
+          {
+            "id": "C",
+            "text": "construct"
+          },
+          {
+            "id": "D",
+            "text": "surrounding"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Construct berarti membangun, dan kalimat ini menyebut gedung kantor baru di tanah kosong.",
+        "stepByStep": [
+          "Kalimat menyebut bangunan baru di tanah kosong.",
+          "Membangun sesuatu yang baru disebut construct.",
+          "Demolish berarti merobohkan, relocate berarti memindahkan, dan surrounding adalah kata sifat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Demolish berarti merobohkan, bertentangan dengan membangun baru."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Relocate berarti memindahkan lokasi, bukan membangun baru."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Surrounding adalah kata sifat, tidak bisa menjadi kata kerja di sini."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The council decided to ___ the old school and build flats.",
+        "options": [
+          {
+            "id": "A",
+            "text": "demolish"
+          },
+          {
+            "id": "B",
+            "text": "construct"
+          },
+          {
+            "id": "C",
+            "text": "relocate"
+          },
+          {
+            "id": "D",
+            "text": "north"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Demolish berarti merobohkan, dan kalimat ini menyebut sekolah lama dirobohkan untuk membangun flat.",
+        "stepByStep": [
+          "Kalimat menyebut sekolah lama dan pembangunan flat.",
+          "Merobohkan bangunan lama disebut demolish.",
+          "Construct, relocate, dan north tidak berarti merobohkan bangunan lama."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Construct berarti membangun, bukan merobohkan bangunan lama."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Relocate berarti memindahkan, bukan merobohkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "North adalah arah utara, bukan kata kerja."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The shops will ___ to a new site near the bus station.",
+        "options": [
+          {
+            "id": "A",
+            "text": "original"
+          },
+          {
+            "id": "B",
+            "text": "relocate"
+          },
+          {
+            "id": "C",
+            "text": "residential"
+          },
+          {
+            "id": "D",
+            "text": "redevelop"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Relocate berarti pindah lokasi, dan kalimat ini menyebut toko akan pindah ke lokasi baru.",
+        "stepByStep": [
+          "Kalimat menyebut toko pindah ke lokasi baru.",
+          "Memindahkan lokasi disebut relocate.",
+          "Original adalah kata sifat, residential adalah kata sifat, dan redevelop berarti membangun ulang kawasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Original adalah kata sifat, bukan kata kerja pindah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Residential adalah kata sifat, bukan kata kerja pindah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Redevelop berarti membangun ulang kawasan, bukan pindah lokasi toko."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Relocate berarti memindahkan usaha atau bangunan ke lokasi lain.",
+          "examples": [
+            {
+              "en": "The school will relocate to a larger building.",
+              "id": "Sekolah itu akan pindah ke gedung yang lebih besar."
+            },
+            {
+              "en": "The company relocated its office last year.",
+              "id": "Perusahaan itu memindahkan kantornya tahun lalu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D redevelop terlihat cocok karena toko juga bagian dari kawasan yang dibangun ulang, tetapi kalimat ini meminta pindah lokasi."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The project will ___ the whole district to improve housing and traffic.",
+        "options": [
+          {
+            "id": "A",
+            "text": "north"
+          },
+          {
+            "id": "B",
+            "text": "layout"
+          },
+          {
+            "id": "C",
+            "text": "original"
+          },
+          {
+            "id": "D",
+            "text": "redevelop"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Redevelop berarti membangun ulang kawasan, dan kalimat ini menyebut perbaikan perumahan dan lalu lintas.",
+        "stepByStep": [
+          "Kalimat menyebut perbaikan satu kawasan secara menyeluruh.",
+          "Membangun ulang kawasan disebut redevelop.",
+          "North adalah arah, layout adalah tata letak, dan original adalah kata sifat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "North adalah arah, bukan kata kerja."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Layout adalah tata letak, bukan kata kerja."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Original adalah kata sifat, bukan kata kerja."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Redevelop berarti membangun ulang suatu kawasan agar lebih baik.",
+          "examples": [
+            {
+              "en": "The council will redevelop the old port.",
+              "id": "Dewan kota akan membangun ulang pelabuhan lama."
+            },
+            {
+              "en": "They redeveloped the square last year.",
+              "id": "Mereka membangun ulang alun-alun tahun lalu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B layout terlihat cocok karena proyek itu mengubah tata letak, tetapi kalimat ini meminta kata kerja untuk membangun ulang kawasan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Peta ini menunjukkan tata letak kota.",
+        "hint": "Peta ini: this map. Menunjukkan: shows. Tata letak kota: the layout of the town.",
+        "acceptedAnswers": [
+          "This map shows the layout of the town.",
+          "The map shows the layout of the town."
+        ],
+        "modelAnswer": "This map shows the layout of the town.",
+        "commonErrors": [
+          {
+            "pattern": "This map show the layout of town",
+            "feedbackId": "Subjek map tunggal memakai shows, dan gunakan the town."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pasar lama dirobohkan pada tahun 2005.",
+        "hint": "Pasar lama: the old market. Dirobohkan: was demolished. Pada tahun 2005: in 2005.",
+        "acceptedAnswers": [
+          "The old market was demolished in 2005.",
+          "The old market was demolished in the year 2005."
+        ],
+        "modelAnswer": "The old market was demolished in 2005.",
+        "commonErrors": [
+          {
+            "pattern": "The old market demolish in 2005",
+            "feedbackId": "Gunakan pasif was demolished untuk kejadian tahun 2005."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kawasan perumahan di sebelah utara akan dibangun ulang.",
+        "hint": "Kawasan perumahan: the residential area. Di sebelah utara: in the north. Akan dibangun ulang: will be redeveloped.",
+        "acceptedAnswers": [
+          "The residential area in the north will be redeveloped.",
+          "The residential area to the north will be redeveloped."
+        ],
+        "modelAnswer": "The residential area in the north will be redeveloped.",
+        "commonErrors": [
+          {
+            "pattern": "The residential area in the north will redevelop",
+            "feedbackId": "Gunakan pasif will be redeveloped."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Perpustakaan baru dibangun di tanah kosong sekitar stasiun.",
+        "hint": "Perpustakaan baru: a new library. Dibangun: was constructed. Tanah kosong sekitar stasiun: the empty land surrounding the station.",
+        "acceptedAnswers": [
+          "A new library was constructed on the empty land surrounding the station.",
+          "A new library was built on the empty land around the station."
+        ],
+        "modelAnswer": "A new library was constructed on the empty land surrounding the station.",
+        "commonErrors": [
+          {
+            "pattern": "A new library construct on the empty land surrounding station",
+            "feedbackId": "Gunakan pasif was constructed, dan gunakan the station."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kantor pos dipindahkan ke sudut kota, dan tata letaknya berubah.",
+        "hint": "Kantor pos: the post office. Dipindahkan: was relocated. Ke sudut kota: to the corner of the town. Tata letaknya berubah: its layout changed.",
+        "acceptedAnswers": [
+          "The post office was relocated to the corner of the town, and its layout changed.",
+          "The post office was relocated to the corner of town, and the layout changed."
+        ],
+        "modelAnswer": "The post office was relocated to the corner of the town, and its layout changed.",
+        "commonErrors": [
+          {
+            "pattern": "The post office relocate to the corner of town and layout change",
+            "feedbackId": "Gunakan pasif was relocated dan bentuk lampau changed."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to change a place so that it can be used in a new way'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "original"
+          },
+          {
+            "id": "B",
+            "text": "redevelop"
+          },
+          {
+            "id": "C",
+            "text": "surrounding"
+          },
+          {
+            "id": "D",
+            "text": "north"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Redevelop berarti membangun ulang suatu kawasan agar bisa dipakai dengan cara baru.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk mengubah tempat agar bisa dipakai cara baru.",
+          "Membangun ulang kawasan disebut redevelop.",
+          "Original, surrounding, dan north tidak berarti membangun ulang."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Original berarti asli, bukan membangun ulang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Surrounding berarti sekitar, bukan membangun ulang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "North berarti utara, bukan membangun ulang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Redevelop berarti membangun ulang kawasan atau bangunan agar fungsinya berubah.",
+          "examples": [
+            {
+              "en": "The factory was redeveloped into flats.",
+              "id": "Pabrik itu dibangun ulang menjadi flat."
+            },
+            {
+              "en": "The council plans to redevelop the square.",
+              "id": "Dewan kota berencana membangun ulang alun-alun."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C surrounding terlihat cocok karena kawasan sekitar sering berubah, tetapi surrounding adalah kata sifat yang berarti sekitar."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'residential'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The residential are near the river."
+          },
+          {
+            "id": "B",
+            "text": "Residential the area near is the river."
+          },
+          {
+            "id": "C",
+            "text": "The residentials is a large area."
+          },
+          {
+            "id": "D",
+            "text": "The residential area is near the river."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Residential menerangkan area sebagai kata sifat, dan kalimat D memakai subjek tunggal dengan is.",
+        "stepByStep": [
+          "Residential adalah kata sifat yang diikuti kata benda area.",
+          "Subjek the residential area tunggal, sehingga memakai is.",
+          "Pilihan A memakai are, pilihan B urutannya salah, dan pilihan C memakai residentials sebagai kata benda."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Residential adalah kata sifat, tidak bisa menjadi subjek dengan are."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Residentials bukan bentuk kata benda yang tepat di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Residential adalah kata sifat yang diletakkan sebelum kata benda seperti area.",
+          "examples": [
+            {
+              "en": "This is a quiet residential street.",
+              "id": "Ini adalah jalan perumahan yang tenang."
+            },
+            {
+              "en": "The residential zone is growing.",
+              "id": "Zona perumahan itu terus berkembang."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena residential sering dibicarakan jamak, tetapi kalimat ini memakai subjek tunggal area."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to tear down a building'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "demolish"
+          },
+          {
+            "id": "B",
+            "text": "construct"
+          },
+          {
+            "id": "C",
+            "text": "relocate"
+          },
+          {
+            "id": "D",
+            "text": "layout"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Demolish berarti merobohkan atau meruntuhkan bangunan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk merobohkan bangunan.",
+          "Kata kerja yang tepat adalah demolish.",
+          "Construct berarti membangun, relocate berarti memindahkan, dan layout berarti tata letak."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Construct berarti membangun, kebalikan dari merobohkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Relocate berarti memindahkan lokasi, bukan merobohkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Layout adalah tata letak, bukan tindakan merobohkan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Demolish dipakai untuk bangunan yang dirobohkan secara sengaja.",
+          "examples": [
+            {
+              "en": "The old stadium will be demolished next year.",
+              "id": "Stadion lama itu akan dirobohkan tahun depan."
+            },
+            {
+              "en": "They demolished the wall to make space.",
+              "id": "Mereka merobohkan dinding untuk membuat ruang."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B construct terlihat cocok karena topiknya bangunan, tetapi construct berarti membangun, bukan merobohkan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ plan shows the streets before any changes were made.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "north"
+          },
+          {
+            "id": "B",
+            "text": "surrounding"
+          },
+          {
+            "id": "C",
+            "text": "original"
+          },
+          {
+            "id": "D",
+            "text": "residential"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Original berarti asli atau awal, dan kalimat ini menyebut rencana sebelum ada perubahan.",
+        "stepByStep": [
+          "Kalimat menyebut rencana sebelum ada perubahan.",
+          "Yang asli atau awal disebut original.",
+          "North, surrounding, dan residential tidak berarti yang asli."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "North berarti utara, bukan keadaan awal."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Surrounding berarti sekitar, bukan keadaan awal."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Residential berarti perumahan, bukan keadaan awal."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Original menunjukkan keadaan pertama sebelum perubahan dilakukan.",
+          "examples": [
+            {
+              "en": "The original design was simpler.",
+              "id": "Desain aslinya lebih sederhana."
+            },
+            {
+              "en": "Compare the new map with the original one.",
+              "id": "Bandingkan peta baru dengan yang asli."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D residential terlihat cocok karena peta sering menunjukkan kawasan tinggal, tetapi kalimat ini meminta keadaan awal."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The map show the north part busy."
+          },
+          {
+            "id": "B",
+            "text": "The map shows the north part as busy."
+          },
+          {
+            "id": "C",
+            "text": "The maps shows the north part busy."
+          },
+          {
+            "id": "D",
+            "text": "The map shows the north part is busy."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek map tunggal memakai shows, dan pola shows X as busy adalah pola yang benar.",
+        "stepByStep": [
+          "Subjek map tunggal, sehingga kata kerjanya shows.",
+          "Pola shows the part as busy menyatakan kondisi bagian itu.",
+          "Pilihan A memakai show, pilihan C memakai maps dengan shows, dan pilihan D memakai is setelah shows."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Show tidak cocok dengan subjek tunggal map."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Maps jamak tidak cocok dengan subjek satu peta."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Setelah shows, kalimat sudah lengkap dan is berlebihan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola shows + objek + as + kondisi menggambarkan keadaan sesuatu.",
+          "examples": [
+            {
+              "en": "The chart shows the park as empty.",
+              "id": "Grafik itu menunjukkan taman sebagai tempat yang kosong."
+            },
+            {
+              "en": "The map shows the river as narrow.",
+              "id": "Peta itu menunjukkan sungai sebagai sempit."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kalimat lengkap, tetapi setelah shows the north part, kata is tidak diperlukan."
+      }
+    ]
+  }
+}

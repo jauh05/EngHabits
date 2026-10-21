@@ -1,0 +1,1205 @@
+{
+  "day": 83,
+  "week": 12,
+  "month": 3,
+  "title": "Speaking Part 1: Kebiasaan dan Preferensi",
+  "topic": "Membicarakan kebiasaan dan pilihan pribadi dengan frekuensi yang tepat",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menyebut seberapa sering sesuatu dilakukan dengan kata keterangan yang tepat",
+    "Menjelaskan preferensi dan alasannya",
+    "Menghubungkan kebiasaan dengan rutinitas harian"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "preference",
+        "pronunciationId": "PREF-ur-uns (tekanan di PREF)",
+        "pos": "Noun",
+        "meaningId": "preferensi, pilihan",
+        "example": "My preference is tea.",
+        "exampleId": "Pilihan saya adalah teh."
+      },
+      {
+        "no": 2,
+        "en": "habit",
+        "pronunciationId": "HAB-it (tekanan di HAB)",
+        "pos": "Noun",
+        "meaningId": "kebiasaan",
+        "example": "Reading is a good habit.",
+        "exampleId": "Membaca adalah kebiasaan yang baik."
+      },
+      {
+        "no": 3,
+        "en": "enjoy",
+        "pronunciationId": "in-JOY (tekanan di JOY)",
+        "pos": "Verb",
+        "meaningId": "menikmati",
+        "example": "I enjoy walking.",
+        "exampleId": "Saya menikmati berjalan kaki."
+      },
+      {
+        "no": 4,
+        "en": "prefer",
+        "pronunciationId": "pri-FUR (tekanan di FUR)",
+        "pos": "Verb",
+        "meaningId": "lebih suka",
+        "example": "I prefer tea to coffee.",
+        "exampleId": "Saya lebih suka teh daripada kopi."
+      },
+      {
+        "no": 5,
+        "en": "frequently",
+        "pronunciationId": "FREE-kwent-lee (tekanan di FREE)",
+        "pos": "Adv",
+        "meaningId": "sering",
+        "example": "She frequently visits the library.",
+        "exampleId": "Dia sering mengunjungi perpustakaan."
+      },
+      {
+        "no": 6,
+        "en": "occasionally",
+        "pronunciationId": "uh-KAY-zhun-ul-lee (tekanan di KAY)",
+        "pos": "Adv",
+        "meaningId": "kadang-kadang",
+        "example": "We occasionally eat out.",
+        "exampleId": "Kami kadang-kadang makan di luar."
+      },
+      {
+        "no": 7,
+        "en": "regularly",
+        "pronunciationId": "REG-yuh-lur-lee (tekanan di REG)",
+        "pos": "Adv",
+        "meaningId": "secara teratur",
+        "example": "He exercises regularly.",
+        "exampleId": "Dia berolahraga secara teratur."
+      },
+      {
+        "no": 8,
+        "en": "usually",
+        "pronunciationId": "YOO-zhoo-uh-lee (tekanan di YOO)",
+        "pos": "Adv",
+        "meaningId": "biasanya",
+        "example": "I usually wake up early.",
+        "exampleId": "Saya biasanya bangun pagi."
+      },
+      {
+        "no": 9,
+        "en": "normally",
+        "pronunciationId": "NOR-mul-ee (tekanan di NOR)",
+        "pos": "Adv",
+        "meaningId": "biasanya, umumnya",
+        "example": "Normally, the shop opens at eight.",
+        "exampleId": "Biasanya, toko buka pukul delapan."
+      },
+      {
+        "no": 10,
+        "en": "spare time",
+        "pronunciationId": "SPAIR TAIM (tekanan di SPAIR)",
+        "pos": "Noun",
+        "meaningId": "waktu luang",
+        "example": "I read in my spare time.",
+        "exampleId": "Saya membaca di waktu luang."
+      }
+    ],
+    "tip": "Untuk frekuensi, gunakan always, usually, often, sometimes, dan never. Kata seperti frequently dan occasionally lebih formal, sehingga cocok untuk Speaking yang lebih panjang."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS speaking habits and preferences",
+        "IELTS speaking frequency adverbs"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membicarakan kebiasaan dan preferensi, dengan contoh kata keterangan frekuensi.",
+      "watchFor": [
+        "Kata keterangan frekuensi dan posisinya",
+        "Pola prefer X to Y",
+        "Kegiatan waktu luang yang dijelaskan"
+      ]
+    },
+    "lesson": {
+      "intro": "Pertanyaan tentang kebiasaan dan preferensi sering muncul di Speaking. Gunakan kata keterangan frekuensi untuk menunjukkan seberapa sering sesuatu dilakukan, lalu jelaskan alasan pilihanmu.",
+      "sections": [
+        {
+          "heading": "Seberapa sering",
+          "bodyMd": "**Usually** dan **normally** menunjukkan kebiasaan umum. **Regularly** dan **frequently** menunjukkan sesuatu yang sering dilakukan. **Occasionally** menunjukkan sesuatu yang hanya kadang-kadang."
+        },
+        {
+          "heading": "Preferensi",
+          "bodyMd": "Gunakan **prefer** dengan pola prefer X to Y. Kata benda **preference** dipakai untuk menyebut pilihan secara umum. Kamu juga bisa menyebut **enjoy** untuk kegiatan yang disukai."
+        },
+        {
+          "heading": "Kebiasaan dan waktu luang",
+          "bodyMd": "Sebut **habit** kalau kebiasaan itu penting bagimu. Untuk menjelaskan kegiatan di waktu luang, gunakan **spare time**."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Frekuensi",
+          "pattern": "I usually / regularly / occasionally + kata kerja"
+        },
+        {
+          "label": "Preferensi",
+          "pattern": "I prefer X to Y, because Z"
+        },
+        {
+          "label": "Kesukaan",
+          "pattern": "I really enjoy + kata kerja -ing"
+        },
+        {
+          "label": "Waktu luang",
+          "pattern": "In my spare time, I X"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "I usually read the news in the morning.",
+            "id": "Saya biasanya membaca berita di pagi hari."
+          },
+          {
+            "en": "I prefer walking to driving in the city.",
+            "id": "Saya lebih suka berjalan kaki daripada menyetir di kota."
+          },
+          {
+            "en": "I occasionally visit my cousins on weekends.",
+            "id": "Saya kadang-kadang mengunjungi sepupu saya pada akhir pekan."
+          },
+          {
+            "en": "In my spare time, I enjoy cooking simple meals.",
+            "id": "Di waktu luang, saya menikmati memasak makanan sederhana."
+          },
+          {
+            "en": "It is a habit I have kept for years.",
+            "id": "Itu adalah kebiasaan yang saya pertahankan selama bertahun-tahun."
+          }
+        ],
+        "negative": [
+          {
+            "en": "I do not usually watch television at night.",
+            "id": "Saya biasanya tidak menonton televisi pada malam hari."
+          },
+          {
+            "en": "I do not prefer crowded places.",
+            "id": "Saya tidak lebih suka tempat yang ramai."
+          },
+          {
+            "en": "She does not enjoy long journeys by bus.",
+            "id": "Dia tidak menikmati perjalanan jauh dengan bus."
+          },
+          {
+            "en": "This is not a regular habit for me.",
+            "id": "Ini bukan kebiasaan rutin bagi saya."
+          },
+          {
+            "en": "We do not frequently eat out during the week.",
+            "id": "Kami tidak sering makan di luar selama seminggu."
+          }
+        ],
+        "question": [
+          {
+            "en": "How often do you exercise?",
+            "id": "Seberapa sering kamu berolahraga?"
+          },
+          {
+            "en": "What do you prefer, tea or coffee?",
+            "id": "Mana yang kamu lebih suka, teh atau kopi?"
+          },
+          {
+            "en": "What do you do in your spare time?",
+            "id": "Apa yang kamu lakukan di waktu luang?"
+          },
+          {
+            "en": "What is your habit in the evening?",
+            "id": "Apa kebiasaanmu di malam hari?"
+          },
+          {
+            "en": "Do you enjoy reading?",
+            "id": "Apakah kamu menikmati membaca?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "I prefers coffee to tea.",
+          "right": "I prefer coffee to tea.",
+          "whyId": "Subjek I memakai prefer tanpa -s."
+        },
+        {
+          "wrong": "She enjoy to read books.",
+          "right": "She enjoys reading books.",
+          "whyId": "Subjek she memakai enjoys, dan setelah enjoy memakai -ing."
+        },
+        {
+          "wrong": "I go to the gym regular.",
+          "right": "I go to the gym regularly.",
+          "whyId": "Regularly adalah kata keterangan dengan akhiran -ly."
+        },
+        {
+          "wrong": "My habit are early sleep.",
+          "right": "My habit is early sleep.",
+          "whyId": "Habit adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "I usually wake up at six, and normal I eat breakfast.",
+          "right": "I usually wake up at six, and normally I eat breakfast.",
+          "whyId": "Normally adalah kata keterangan, bukan normal."
+        },
+        {
+          "wrong": "I have a lot of spare time in the weekends.",
+          "right": "I have a lot of spare time at weekends.",
+          "whyId": "Dalam bahasa Inggris Inggris, at weekends dipakai untuk akhir pekan umum."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Cara Warga Menghabiskan Waktu Luang",
+    "text": "Many people think they know how they spend their spare time, but a closer look often reveals surprising habits. A recent community survey asked residents about their leisure activities, and the answers showed clear patterns. Most people said they enjoy quiet activities at home, although their preferences changed with age.\n\nYounger residents said they frequently meet friends in cafés and parks. They usually go out on weekends, and many of them prefer activities that involve music or sport. Their habit of checking phones during meals was also common, although most admitted it was a bad habit. Some said they occasionally put the phone away for an evening, but this was not a regular practice.\n\nOlder residents had a different preference. Many of them normally read newspapers in the morning and take a walk in the early evening. They said they enjoy gardening, and a large share of them spend several hours on it each week. Their habits are more regular, and they often plan their days in advance. Some also exercise regularly at the local sports centre.\n\nWorking parents reported a different pattern. Because their time is limited, they rarely have a full evening free. They try to do one shared activity each week, such as cooking or a short trip, and they say this habit has become important to the family. Several parents described a preference for simple plans that do not need much money.\n\nThe survey also asked about the reasons behind these choices. Cost was mentioned by about a third of respondents, while lack of time was the most common reason. Distance from parks or sports centres was another factor, especially for people who live far from the centre of the city. Many people also said that their habit of staying home was partly a result of tiredness after work.\n\nThe researchers concluded that leisure is shaped more by daily routine than by personal interests alone. Those who have a regular schedule are more likely to enjoy outdoor activities, while those with unpredictable work often rely on short, easy pastimes. The city council plans to use these findings when it designs new parks and community programmes.\n\nFor anyone who wants to change their habits, the study offers a simple lesson. Start with a small, regular activity that fits your current routine, and gradually increase the time you spend on it. Small changes tend to last longer than large promises.",
+    "glossary": [
+      {
+        "en": "leisure",
+        "id": "waktu senggang"
+      },
+      {
+        "en": "respondent",
+        "id": "responden"
+      },
+      {
+        "en": "unpredictable",
+        "id": "tidak dapat diprediksi"
+      },
+      {
+        "en": "programme",
+        "id": "program"
+      },
+      {
+        "en": "tiredness",
+        "id": "rasa lelah"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "Most people said they enjoy quiet activities at home.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menyebut sebagian besar orang menikmati kegiatan tenang di rumah.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyatakan sebagian besar orang menikmati kegiatan tenang di rumah, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut hal ini secara langsung."
+          }
+        ],
+        "evidence": "Most people said they enjoy quiet activities at home"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What do younger residents usually do on weekends?",
+        "options": [
+          {
+            "id": "A",
+            "text": "work overtime"
+          },
+          {
+            "id": "B",
+            "text": "study at home"
+          },
+          {
+            "id": "C",
+            "text": "stay in bed"
+          },
+          {
+            "id": "D",
+            "text": "go out"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menyebut warga muda biasanya keluar pada akhir pekan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Lembur tidak disebut dalam teks."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Belajar di rumah tidak disebut dalam teks."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tetap di tempat tidur tidak disebut dalam teks."
+          }
+        ],
+        "evidence": "They usually go out on weekends"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "Older residents go to the cinema every week.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut warga tua membaca koran dan berkebun, tetapi tidak menyebut bioskop sama sekali.",
+        "stepByStep": [
+          "Cari older residents di paragraf ketiga.",
+          "Teks menyebut mereka membaca koran dan berkebun.",
+          "Bioskop tidak disebut, sehingga jawabannya Not Given."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks tidak menyebut pergi ke bioskop."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Teks tidak menyatakan warga tua tidak pergi ke bioskop."
+          }
+        ],
+        "evidence": "Many of them normally read newspapers in the morning"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the survey, what was the most common reason for limited leisure?",
+        "options": [
+          {
+            "id": "A",
+            "text": "cost"
+          },
+          {
+            "id": "B",
+            "text": "distance from parks"
+          },
+          {
+            "id": "C",
+            "text": "lack of time"
+          },
+          {
+            "id": "D",
+            "text": "tiredness"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menyebut bahwa kurangnya waktu adalah alasan yang paling sering disebut.",
+        "stepByStep": [
+          "Cari most common reason di paragraf kelima.",
+          "Teks menyebut lack of time was the most common reason.",
+          "Biaya, jarak, dan kelelahan disebut sebagai alasan lain, bukan yang paling sering."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Biaya disebut oleh sekitar sepertiga responden, bukan yang paling sering."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Jarak disebut sebagai faktor lain, bukan yang paling sering."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kelelahan disebut sebagai bagian dari kebiasaan, bukan alasan paling sering."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan tentang alasan yang paling sering biasanya menggunakan kata sifat seperti most common.",
+          "examples": [
+            {
+              "en": "The most common reason was a lack of money.",
+              "id": "Alasan yang paling sering adalah kurangnya uang."
+            },
+            {
+              "en": "Lack of sleep was the main cause of tiredness.",
+              "id": "Kurang tidur adalah penyebab utama kelelahan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A cost terlihat cocok karena biaya juga disebut dalam survei, tetapi teks menyebut waktu sebagai alasan paling sering.",
+        "evidence": "lack of time was the most common reason"
+      },
+      {
+        "id": "R5",
+        "type": "true_false_not_given",
+        "prompt": "Working parents often have a full evening free every day.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyebut orang tua yang bekerja jarang memiliki malam yang benar-benar bebas.",
+        "stepByStep": [
+          "Cari working parents di paragraf keempat.",
+          "Teks menyebut mereka rarely have a full evening free.",
+          "Pernyataan itu bertentangan dengan kata rarely, sehingga False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks menyebut orang tua jarang memiliki malam bebas."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas frekuensi malam bebas secara langsung."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata rarely menunjukkan sesuatu yang hampir tidak pernah terjadi, sehingga berlawanan dengan often atau every day.",
+          "examples": [
+            {
+              "en": "They rarely have time to rest.",
+              "id": "Mereka jarang punya waktu untuk beristirahat."
+            },
+            {
+              "en": "The shop is rarely empty on Saturdays.",
+              "id": "Toko itu jarang kosong pada hari Sabtu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A True terlihat masuk akal karena orang tua memang punya rencana bersama, tetapi teks menyebut mereka jarang bebas di malam hari.",
+        "evidence": "they rarely have a full evening free"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I ___ reading in the evening, because it helps me relax.",
+        "options": [
+          {
+            "id": "A",
+            "text": "enjoy"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Enjoy berarti menikmati sesuatu yang disukai.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan kata kerja menikmati."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan kata kerja menikmati."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan kata kerja menikmati."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She ___ walking to driving.",
+        "options": [
+          {
+            "id": "A",
+            "text": "prefer"
+          },
+          {
+            "id": "B",
+            "text": "preference"
+          },
+          {
+            "id": "C",
+            "text": "prefers"
+          },
+          {
+            "id": "D",
+            "text": "preferring"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Subjek she memakai prefers, dan pola prefer X to Y menyatakan pilihan.",
+        "stepByStep": [
+          "Subjek she tunggal, sehingga kata kerjanya memakai -s.",
+          "Bentuk present tunggal dari prefer adalah prefers.",
+          "Prefer dan preferring tidak cocok dengan subjek tunggal, dan preference adalah kata benda."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Prefer adalah bentuk jamak atau dasar, tidak cocok untuk she."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Preference adalah kata benda, tidak cocok sebagai kata kerja."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Preferring bentuk -ing, tidak cocok sebagai kata kerja utama."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "He goes to the gym ___, usually three times a week.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "regularly"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Regularly berarti secara teratur, dan cocok dengan kebiasaan tiga kali seminggu.",
+        "stepByStep": [
+          "Kalimat menyebut pergi ke gym secara rutin.",
+          "Kata keterangan yang berarti secara teratur adalah regularly.",
+          "Garden, ticket, dan bridge bukan kata keterangan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan kata keterangan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan kata keterangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan kata keterangan."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "I ___ visit my grandparents, maybe once a year.",
+        "options": [
+          {
+            "id": "A",
+            "text": "frequently"
+          },
+          {
+            "id": "B",
+            "text": "normally"
+          },
+          {
+            "id": "C",
+            "text": "occasionally"
+          },
+          {
+            "id": "D",
+            "text": "regularly"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Occasionally berarti kadang-kadang, dan cocok dengan kunjungan sekitar setahun sekali.",
+        "stepByStep": [
+          "Kalimat menyebut kunjungan hanya sekitar setahun sekali.",
+          "Sesuatu yang hanya kadang-kadang dilakukan disebut occasionally.",
+          "Frequently, normally, dan regularly menunjukkan frekuensi yang lebih sering."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Frequently berarti sering, tidak sesuai dengan sekali setahun."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Normally berarti biasanya, tidak sesuai dengan kunjungan jarang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Regularly berarti teratur, tidak sesuai dengan kunjungan jarang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Occasionally dipakai untuk kejadian yang tidak sering dan tidak teratur.",
+          "examples": [
+            {
+              "en": "We occasionally eat out on Fridays.",
+              "id": "Kami kadang-kadang makan di luar pada hari Jumat."
+            },
+            {
+              "en": "She occasionally forgets her keys.",
+              "id": "Dia kadang-kadang lupa kuncinya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A frequently terlihat cocok karena kalimat membahas kunjungan, tetapi kata itu berarti sering, bertentangan dengan sekali setahun."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Some people have a bad ___ of checking their phones before bed.",
+        "options": [
+          {
+            "id": "A",
+            "text": "preference"
+          },
+          {
+            "id": "B",
+            "text": "spare time"
+          },
+          {
+            "id": "C",
+            "text": "routine"
+          },
+          {
+            "id": "D",
+            "text": "habit"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Habit adalah kebiasaan, dan kalimat ini menyebut kebiasaan buruk memeriksa ponsel.",
+        "stepByStep": [
+          "Kalimat menyebut kebiasaan buruk memeriksa ponsel.",
+          "Kebiasaan yang diulang disebut habit.",
+          "Preference adalah pilihan, spare time adalah waktu luang, dan routine adalah rutinitas."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Preference berarti pilihan, bukan kebiasaan buruk."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Spare time berarti waktu luang, bukan kebiasaan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Routine berarti rutinitas, tidak tepat dengan kata bad sebelum kebiasaan memeriksa ponsel."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Habit dipakai untuk kebiasaan, sering dengan kata sifat seperti good atau bad.",
+          "examples": [
+            {
+              "en": "Drinking water is a good habit.",
+              "id": "Minum air adalah kebiasaan yang baik."
+            },
+            {
+              "en": "Biting nails is a bad habit.",
+              "id": "Menggigit kuku adalah kebiasaan buruk."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C routine terlihat cocok karena kebiasaan sering disebut sebagai rutinitas, tetapi kalimat ini memakai bad habit."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya lebih suka membaca buku daripada menonton televisi.",
+        "hint": "Saya lebih suka: I prefer. Membaca buku: reading books. Daripada: to. Menonton televisi: watching television.",
+        "acceptedAnswers": [
+          "I prefer reading books to watching television.",
+          "I prefer to read books rather than watch television."
+        ],
+        "modelAnswer": "I prefer reading books to watching television.",
+        "commonErrors": [
+          {
+            "pattern": "I prefers reading books to watch television",
+            "feedbackId": "Subjek I memakai prefer tanpa -s, dan setelah to memakai bentuk -ing."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia biasanya pergi ke taman pada sore hari.",
+        "hint": "Dia: she. Biasanya: usually. Pergi ke taman: goes to the park. Pada sore hari: in the afternoon.",
+        "acceptedAnswers": [
+          "She usually goes to the park in the afternoon.",
+          "She usually goes to the park in the evening."
+        ],
+        "modelAnswer": "She usually goes to the park in the afternoon.",
+        "commonErrors": [
+          {
+            "pattern": "She usually go to the park in afternoon",
+            "feedbackId": "Subjek she memakai goes, dan gunakan the afternoon."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Waktu luang saya sangat terbatas minggu ini.",
+        "hint": "Waktu luang saya: my spare time. Sangat terbatas: is very limited. Minggu ini: this week.",
+        "acceptedAnswers": [
+          "My spare time is very limited this week.",
+          "My free time is very limited this week."
+        ],
+        "modelAnswer": "My spare time is very limited this week.",
+        "commonErrors": [
+          {
+            "pattern": "My spare time are very limited this week",
+            "feedbackId": "Spare time adalah kata benda tak hitung yang memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kebiasaan ini sering dilakukan oleh banyak orang dewasa.",
+        "hint": "Kebiasaan ini: this habit. Sering dilakukan: is frequently practised. Oleh banyak orang dewasa: by many adults.",
+        "acceptedAnswers": [
+          "This habit is frequently practised by many adults.",
+          "This habit is frequently practiced by many adults."
+        ],
+        "modelAnswer": "This habit is frequently practised by many adults.",
+        "commonErrors": [
+          {
+            "pattern": "This habit are frequently practise by many adult",
+            "feedbackId": "Subjek habit tunggal memakai is, dan gunakan many adults."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Mereka menikmati aktivitas di luar ruangan secara teratur.",
+        "hint": "Mereka menikmati: they enjoy. Aktivitas di luar ruangan: outdoor activities. Secara teratur: regularly.",
+        "acceptedAnswers": [
+          "They enjoy outdoor activities regularly.",
+          "They regularly enjoy outdoor activities."
+        ],
+        "modelAnswer": "They enjoy outdoor activities regularly.",
+        "commonErrors": [
+          {
+            "pattern": "They enjoys outdoor activity regular",
+            "feedbackId": "Subjek they memakai enjoy, dan keterangan regularly memakai -ly."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'from time to time, but not often'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "frequently"
+          },
+          {
+            "id": "B",
+            "text": "occasionally"
+          },
+          {
+            "id": "C",
+            "text": "regularly"
+          },
+          {
+            "id": "D",
+            "text": "usually"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Occasionally berarti kadang-kadang, tidak sering tetapi juga tidak jarang sekali.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kadang-kadang.",
+          "Kata keterangan yang tepat adalah occasionally.",
+          "Frequently berarti sering, regularly berarti teratur, dan usually berarti biasanya."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Frequently berarti sering, bukan kadang-kadang."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Regularly berarti teratur, bukan kadang-kadang."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Usually berarti biasanya, bukan kadang-kadang."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Occasionally menunjukkan kejadian yang tidak tetap dan tidak sering.",
+          "examples": [
+            {
+              "en": "I occasionally cook for my neighbours.",
+              "id": "Saya kadang-kadang memasak untuk tetangga saya."
+            },
+            {
+              "en": "We occasionally visit the museum.",
+              "id": "Kami kadang-kadang mengunjungi museum."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A frequently terlihat cocok karena artinya dekat dengan kadang-kadang, tetapi frequently berarti sering."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'preference'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The preferences is for quiet parks."
+          },
+          {
+            "id": "B",
+            "text": "The preference are quiet parks."
+          },
+          {
+            "id": "C",
+            "text": "Preference the quiet parks is."
+          },
+          {
+            "id": "D",
+            "text": "Her preference is for quiet parks."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Preference adalah kata benda tunggal yang memakai is, dan frasa is for quiet parks menjelaskan pilihan.",
+        "stepByStep": [
+          "Preference adalah kata benda tunggal, sehingga memakai is.",
+          "Frasa for quiet parks menjelaskan apa yang dipilih.",
+          "Pilihan A memakai preferences dengan is, pilihan B memakai are, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Preferences jamak tidak cocok dengan is untuk satu pilihan."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Are tidak cocok dengan subjek tunggal preference."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Preference adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "His preference is for tea.",
+              "id": "Pilihannya adalah teh."
+            },
+            {
+              "en": "Our preference was for the early train.",
+              "id": "Pilihan kami adalah kereta awal."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena pilihan sering dibicarakan jamak, tetapi kalimat ini menyebut satu pilihan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'in most cases, in the usual way'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "normally"
+          },
+          {
+            "id": "B",
+            "text": "rarely"
+          },
+          {
+            "id": "C",
+            "text": "occasionally"
+          },
+          {
+            "id": "D",
+            "text": "enjoy"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Normally berarti biasanya atau pada keadaan yang umum.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk keadaan yang umum atau biasa.",
+          "Kata keterangan yang tepat adalah normally.",
+          "Rarely berarti jarang, occasionally berarti kadang-kadang, dan enjoy adalah kata kerja."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Rarely berarti jarang, kebalikan dari keadaan umum."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Occasionally berarti kadang-kadang, bukan keadaan umum."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Enjoy adalah kata kerja menikmati, bukan keterangan umum."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Normally menyatakan keadaan yang biasa atau sesuai pola umum.",
+          "examples": [
+            {
+              "en": "Normally, the train leaves at eight.",
+              "id": "Biasanya, kereta berangkat pukul delapan."
+            },
+            {
+              "en": "The shop is normally busy on Saturdays.",
+              "id": "Toko itu biasanya ramai pada hari Sabtu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C occasionally terlihat cocok karena juga berkaitan dengan frekuensi, tetapi kata itu berarti kadang-kadang."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'In my ___, I walk the dog every evening.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "habit"
+          },
+          {
+            "id": "B",
+            "text": "preference"
+          },
+          {
+            "id": "C",
+            "text": "spare time"
+          },
+          {
+            "id": "D",
+            "text": "frequently"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Spare time berarti waktu luang, dan frasa In my spare time cocok untuk kegiatan santai.",
+        "stepByStep": [
+          "Kalimat menyebut kegiatan malam hari di luar pekerjaan.",
+          "Waktu di luar pekerjaan disebut spare time.",
+          "Habit, preference, dan frequently tidak membentuk frasa waktu dalam kalimat ini."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Habit berarti kebiasaan, bukan waktu."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Preference berarti pilihan, bukan waktu."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Frequently adalah kata keterangan, tidak cocok setelah my."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Spare time adalah waktu luang di luar pekerjaan atau kewajiban.",
+          "examples": [
+            {
+              "en": "In my spare time, I paint.",
+              "id": "Di waktu luang, saya melukis."
+            },
+            {
+              "en": "She spends her spare time reading.",
+              "id": "Dia menghabiskan waktu luangnya dengan membaca."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A habit terlihat cocok karena kegiatan malam sering menjadi kebiasaan, tetapi frasa In my ___ butuh kata yang berarti waktu."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "She enjoy reading in the evening."
+          },
+          {
+            "id": "B",
+            "text": "She enjoys reading in the evening."
+          },
+          {
+            "id": "C",
+            "text": "She enjoying reading in the evening."
+          },
+          {
+            "id": "D",
+            "text": "She enjoy read in the evening."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek she memakai enjoys, dan setelah enjoy memakai bentuk -ing.",
+        "stepByStep": [
+          "Subjek she tunggal, sehingga kata kerjanya enjoys.",
+          "Setelah enjoy, kata kerja memakai bentuk -ing: reading.",
+          "Pilihan A tidak memakai -s, pilihan C memakai enjoying sebagai kata kerja utama, dan pilihan D memakai read dasar."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Subjek she tunggal memerlukan enjoys."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Enjoying tidak cocok sebagai kata kerja utama dalam kalimat ini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Setelah enjoy memakai bentuk -ing, bukan kata kerja dasar."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Enjoy diikuti kata kerja bentuk -ing, dan subjek tunggal memakai enjoys.",
+          "examples": [
+            {
+              "en": "He enjoys cooking for friends.",
+              "id": "Dia menikmati memasak untuk teman-teman."
+            },
+            {
+              "en": "We enjoy walking by the river.",
+              "id": "Kami menikmati berjalan di tepi sungai."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat hampir benar, tetapi subjek she memerlukan enjoys."
+      }
+    ]
+  }
+}

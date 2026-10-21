@@ -1,0 +1,618 @@
+{
+  "day": 66,
+  "week": 9,
+  "month": 3,
+  "title": "Listening: Ejaan dan Angka",
+  "topic": "Menangkap ejaan nama, kode, angka, dan singkatan dalam rekaman",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menuliskan ejaan nama dan kode dengan benar",
+    "Membedakan digit, decimal point, dan singkatan",
+    "Mengenali huruf kapital dan urutan huruf"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "spelling", "pronunciationId": "SPEL-ing (tekanan di SPEL)", "pos": "Noun", "meaningId": "ejaan", "example": "Check the spelling of your name.", "exampleId": "Periksa ejaan namamu." },
+      { "no": 2, "en": "alphabet", "pronunciationId": "AL-fuh-bet (tekanan di AL)", "pos": "Noun", "meaningId": "abjad", "example": "Say each letter of the alphabet.", "exampleId": "Ucapkan setiap huruf dalam abjad." },
+      { "no": 3, "en": "capital", "pronunciationId": "KAP-i-tul (tekanan di KAP)", "pos": "Adj", "meaningId": "kapital, huruf besar", "example": "Write the name in capital letters.", "exampleId": "Tulislah nama itu dengan huruf kapital." },
+      { "no": 4, "en": "letter", "pronunciationId": "LET-er (tekanan di LET)", "pos": "Noun", "meaningId": "huruf", "example": "The letter A is first.", "exampleId": "Huruf A ada di urutan pertama." },
+      { "no": 5, "en": "digit", "pronunciationId": "DIJ-it (tekanan di DIJ)", "pos": "Noun", "meaningId": "digit, angka tunggal", "example": "Each digit must be correct.", "exampleId": "Setiap digit harus benar." },
+      { "no": 6, "en": "decimal", "pronunciationId": "DES-i-mul (tekanan di DES)", "pos": "Adj", "meaningId": "desimal", "example": "Write the decimal point clearly.", "exampleId": "Tulislah tanda desimal dengan jelas." },
+      { "no": 7, "en": "postcode", "pronunciationId": "POHST-kohd (tekanan di POHST)", "pos": "Noun", "meaningId": "kode pos", "example": "What is your postcode?", "exampleId": "Berapa kode posmu?" },
+      { "no": 8, "en": "initial", "pronunciationId": "i-NISH-ul (tekanan di NISH)", "pos": "Noun", "meaningId": "huruf awal nama", "example": "My initial is R.", "exampleId": "Huruf awal namaku R." },
+      { "no": 9, "en": "abbreviation", "pronunciationId": "uh-bree-vee-AY-shun (tekanan di AY)", "pos": "Noun", "meaningId": "singkatan", "example": "Dr is an abbreviation.", "exampleId": "Dr adalah singkatan." },
+      { "no": 10, "en": "surname", "pronunciationId": "SUR-naym (tekanan di SUR)", "pos": "Noun", "meaningId": "nama belakang, nama keluarga", "example": "Please write your surname.", "exampleId": "Tolong tulis nama belakangmu." }
+    ],
+    "tip": "Saat mendengar ejaan, tulis setiap huruf dengan kapital sesuai instruksi. Untuk angka, periksa setiap digit satu per satu, dan catat posisi decimal point."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS listening spelling numbers", "IELTS listening strategies"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang mengeja nama, membaca kode pos, dan menangkap angka desimal dalam rekaman.",
+      "watchFor": [
+        "Cara mengeja huruf demi huruf",
+        "Angka yang diucapkan dengan point",
+        "Singkatan yang sering muncul di formulir"
+      ]
+    },
+    "lesson": {
+      "intro": "Di bagian ejaan dan angka, satu kesalahan kecil membuat jawaban salah. Dengarkan dengan teliti, tulis setiap huruf dan digit, dan periksa ulang sebelum selesai.",
+      "sections": [
+        {
+          "heading": "Ejaan",
+          "bodyMd": "Pembicara sering mengeja **surname** dan **initial** huruf demi huruf. Ucapkan setiap huruf dari **alphabet** dalam hati, dan perhatikan huruf **capital** jika instruksi memintanya."
+        },
+        {
+          "heading": "Angka",
+          "bodyMd": "Setiap **digit** ditulis terpisah, kecuali instruksi menyebut lain. Dalam angka dengan koma, perhatikan **decimal** point, karena posisinya mengubah nilai."
+        },
+        {
+          "heading": "Singkatan dan kode",
+          "bodyMd": "Sebuah **abbreviation** biasanya lebih pendek dari kata aslinya. **Postcode** sering berisi huruf dan angka, jadi tulis dengan urutan yang tepat."
+        }
+      ],
+      "formulas": [
+        { "label": "Ejaan", "pattern": "huruf demi huruf, dengan kapital jika diminta" },
+        { "label": "Digit", "pattern": "satu angka = satu kotak" },
+        { "label": "Desimal", "pattern": "point = tanda desimal, bukan titik akhir kalimat" },
+        { "label": "Singkatan", "pattern": "singkatan + makna lengkapnya di rekaman" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Could you check the spelling for me?", "id": "Bisakah kamu memeriksa ejaannya untukku?" },
+          { "en": "The postcode has letters and digits.", "id": "Kode pos itu berisi huruf dan angka." },
+          { "en": "My initial is R, in capital letters.", "id": "Huruf awal namaku R, dengan huruf kapital." },
+          { "en": "The fee is four point five pounds.", "id": "Biayanya empat koma lima pound." },
+          { "en": "MEM is an abbreviation for membership.", "id": "MEM adalah singkatan dari membership." }
+        ],
+        "negative": [
+          { "en": "The surname is not written in small letters.", "id": "Nama belakang itu tidak ditulis dengan huruf kecil." },
+          { "en": "Do not skip any digit in the number.", "id": "Jangan melewatkan satu digit pun dalam angka itu." },
+          { "en": "The decimal point is not a full stop.", "id": "Tanda desimal bukan titik akhir kalimat." },
+          { "en": "The abbreviation does not show the full name.", "id": "Singkatan itu tidak menunjukkan nama lengkapnya." },
+          { "en": "The alphabet does not include numbers.", "id": "Abjad tidak memuat angka." }
+        ],
+        "question": [
+          { "en": "How do you spell your surname?", "id": "Bagaimana kamu mengeja nama belakangmu?" },
+          { "en": "What is your postcode?", "id": "Berapa kode posmu?" },
+          { "en": "Is the letter capital or small?", "id": "Apakah hurufnya kapital atau kecil?" },
+          { "en": "What does this abbreviation stand for?", "id": "Singkatan ini kepanjangan dari apa?" },
+          { "en": "Where is the decimal point?", "id": "Di mana tanda desimalnya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The postcode are EH39QT.", "right": "The postcode is EH39QT.", "whyId": "Postcode adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "My initial are R.", "right": "My initial is R.", "whyId": "Initial adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The fee is four point five pound.", "right": "The fee is four point five pounds.", "whyId": "Pound dalam konteks jumlah lebih dari satu memakai bentuk jamak pounds." },
+        { "wrong": "A abbreviation is short.", "right": "An abbreviation is short.", "whyId": "Abbreviation diawali vokal, jadi memakai an." },
+        { "wrong": "Please spell the surnames and check it.", "right": "Please spell your surname and check it.", "whyId": "Surname satu orang memakai bentuk tunggal dengan your." },
+        { "wrong": "Each digits must be correct.", "right": "Each digit must be correct.", "whyId": "Setelah each, kata benda memakai bentuk tunggal digit." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["IELTS listening spelling numbers", "library registration English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Ejaan nama belakang dan huruf awal",
+        "Kode pos dan angka dalam biaya"
+      ]
+    },
+    "script": {
+      "title": "Pendaftaran kartu perpustakaan",
+      "lines": [
+        { "speaker": "Staff", "text": "Good morning. Can I take your details for the library card? First, your surname, please." },
+        { "speaker": "Student", "text": "It is Harrison, H-A-R-R-I-S-O-N." },
+        { "speaker": "Staff", "text": "Thank you. Could you check the spelling for me? Is that a capital H at the start?" },
+        { "speaker": "Student", "text": "Yes, a capital letter. My initial is R, as in Rachel." },
+        { "speaker": "Staff", "text": "Great. Now your postcode, please." },
+        { "speaker": "Student", "text": "The postcode is E H 3 9 Q T." },
+        { "speaker": "Staff", "text": "Thank you. Each digit has to be correct, so I will read it back. E H 3 9 Q T. Correct?" },
+        { "speaker": "Student", "text": "Correct. Also, what is the monthly fee?" },
+        { "speaker": "Staff", "text": "The fee is four point five pounds for a monthly card. The decimal point is important, so please write it clearly." },
+        { "speaker": "Student", "text": "I see 'MEM' on the form. What does that mean?" },
+        { "speaker": "Staff", "text": "MEM is an abbreviation for membership. Good luck, and remember to use capital letters on the card." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada postcode, ucapkan huruf dan digit dengan jeda kecil: E H 3 9 Q T.",
+      "Pada decimal, tekanan ada di suku pertama: DES-i-mul.",
+      "Pada abbreviation, tekanan ada di suku keempat: uh-bree-vee-AY-shun."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is the student's surname?",
+        "options": [
+          { "id": "A", "text": "Harrison" },
+          { "id": "B", "text": "Harris" },
+          { "id": "C", "text": "Morrison" },
+          { "id": "D", "text": "Hartley" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mahasiswa menyebut 'It is Harrison, H-A-R-R-I-S-O-N', jadi nama belakangnya Harrison.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Harris tidak sesuai dengan ejaan H-A-R-R-I-S-O-N." },
+          { "optionId": "C", "reasonId": "Morrison tidak disebut dalam rekaman." },
+          { "optionId": "D", "reasonId": "Hartley tidak disebut dalam rekaman." }
+        ],
+        "evidence": "It is Harrison"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the student's initial?",
+        "options": [
+          { "id": "A", "text": "H" },
+          { "id": "B", "text": "R" },
+          { "id": "C", "text": "A" },
+          { "id": "D", "text": "S" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mahasiswa berkata 'My initial is R, as in Rachel', jadi huruf awalnya R.",
+        "stepByStep": [
+          "Cari initial di rekaman.",
+          "Mahasiswa menyebut huruf awalnya R.",
+          "H, A, dan S muncul dalam ejaan nama belakang, bukan sebagai huruf awal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "H adalah huruf pertama nama belakang, bukan huruf awal nama." },
+          { "optionId": "C", "reasonId": "A adalah huruf dalam ejaan nama belakang, bukan huruf awal nama." },
+          { "optionId": "D", "reasonId": "S adalah huruf dalam ejaan nama belakang, bukan huruf awal nama." }
+        ],
+        "evidence": "My initial is R"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What is the postcode?",
+        "options": [
+          { "id": "A", "text": "EH93QT" },
+          { "id": "B", "text": "EH36QT" },
+          { "id": "C", "text": "EH39QT" },
+          { "id": "D", "text": "EH39TQ" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Mahasiswa menyebut 'E H 3 9 Q T', lalu staf membacakannya kembali dengan urutan yang sama.",
+        "stepByStep": [
+          "Cari postcode di rekaman.",
+          "Mahasiswa mengucapkan E, H, 3, 9, Q, T secara berurutan.",
+          "Pilihan A, B, dan D memiliki digit atau huruf yang tertukar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Urutan digit 9 dan 3 tertukar." },
+          { "optionId": "B", "reasonId": "Digit 3 dan 6 tidak sesuai dengan rekaman." },
+          { "optionId": "D", "reasonId": "Huruf Q dan T tertukar." }
+        ],
+        "evidence": "The postcode is E H 3 9 Q T"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does 'MEM' stand for?",
+        "options": [
+          { "id": "A", "text": "a member's card" },
+          { "id": "B", "text": "membership" },
+          { "id": "C", "text": "monthly fee" },
+          { "id": "D", "text": "a new student" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Staf berkata 'MEM is an abbreviation for membership', jadi MEM adalah singkatan dari membership.",
+        "stepByStep": [
+          "Cari MEM di rekaman.",
+          "Staf menjelaskan bahwa MEM adalah singkatan untuk membership.",
+          "Kartu anggota, biaya bulanan, dan mahasiswa baru tidak disebut sebagai kepanjangan MEM."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kartu anggota adalah benda, bukan kepanjangan MEM menurut rekaman." },
+          { "optionId": "C", "reasonId": "Biaya bulanan disebut terpisah, bukan kepanjangan MEM." },
+          { "optionId": "D", "reasonId": "Mahasiswa baru tidak disebut sebagai kepanjangan MEM." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Singkatan dalam formulir sering dijelaskan langsung oleh staf, dan jawaban harus mengikuti penjelasan itu.",
+          "examples": [
+            { "en": "Dr is an abbreviation for doctor.", "id": "Dr adalah singkatan dari doctor." },
+            { "en": "Approx is short for approximately.", "id": "Approx adalah singkatan dari approximately." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena MEM sering dikaitkan dengan kartu, tetapi staf menjelaskan kepanjangannya secara langsung.",
+        "evidence": "MEM is an abbreviation for membership"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What is the monthly fee?",
+        "options": [
+          { "id": "A", "text": "4.05 pounds" },
+          { "id": "B", "text": "45 pounds" },
+          { "id": "C", "text": "5.4 pounds" },
+          { "id": "D", "text": "4.5 pounds" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Staf berkata 'four point five pounds', artinya 4,5 pound per bulan dengan titik desimal setelah angka empat.",
+        "stepByStep": [
+          "Cari fee dan point di rekaman.",
+          "Staf menyebut four point five pounds, yaitu 4.5.",
+          "Pilihan A, B, dan C memiliki angka atau posisi desimal yang berbeda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Empat koma nol lima tidak sama dengan four point five." },
+          { "optionId": "B", "reasonId": "Empat puluh lima tidak sama dengan empat koma lima." },
+          { "optionId": "C", "reasonId": "Lima koma empat tertukar dengan empat koma lima." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Point dalam angka berarti tanda desimal, dan angka setelahnya menunjukkan bagian pecahan.",
+          "examples": [
+            { "en": "Three point two five means 3.25.", "id": "Three point two five berarti 3,25." },
+            { "en": "Zero point five is written 0.5.", "id": "Zero point five ditulis 0.5." }
+          ]
+        },
+        "examTrap": "Pilihan B 45 pounds terlihat seperti kesalahan karena angka empat dan lima muncul, tetapi point berarti tanda desimal, bukan digit yang digabung.",
+        "evidence": "four point five pounds"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Please write your ___ on the form.",
+        "options": [
+          { "id": "A", "text": "surname" },
+          { "id": "B", "text": "digit" },
+          { "id": "C", "text": "decimal" },
+          { "id": "D", "text": "alphabet" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Surname adalah nama belakang atau nama keluarga, dan formulir meminta bagian ini.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Digit adalah angka tunggal, bukan nama belakang." },
+          { "optionId": "C", "reasonId": "Decimal berarti desimal, bukan nama belakang." },
+          { "optionId": "D", "reasonId": "Alphabet berarti abjad, bukan nama belakang." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The word 'Dr' is an ___ of doctor.",
+        "options": [
+          { "id": "A", "text": "postcode" },
+          { "id": "B", "text": "abbreviation" },
+          { "id": "C", "text": "digit" },
+          { "id": "D", "text": "capital" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Abbreviation adalah bentuk singkat dari sebuah kata, dan Dr adalah singkatan dari doctor.",
+        "stepByStep": [
+          "Dr adalah bentuk pendek dari doctor.",
+          "Bentuk pendek sebuah kata disebut abbreviation.",
+          "Postcode, digit, dan capital tidak berarti bentuk pendek kata."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Postcode adalah kode pos, bukan bentuk pendek kata." },
+          { "optionId": "C", "reasonId": "Digit adalah angka, bukan bentuk pendek kata." },
+          { "optionId": "D", "reasonId": "Capital adalah huruf besar, bukan bentuk pendek kata." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Each ___ in the number must be correct, so please check it.",
+        "options": [
+          { "id": "A", "text": "alphabet" },
+          { "id": "B", "text": "digit" },
+          { "id": "C", "text": "initial" },
+          { "id": "D", "text": "letter" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Digit adalah angka tunggal dalam sebuah bilangan.",
+        "stepByStep": [
+          "Kalimat menyebut setiap bagian dari sebuah angka.",
+          "Satu angka tunggal dalam bilangan disebut digit.",
+          "Alphabet, initial, dan letter tidak berarti angka."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Alphabet berarti abjad, bukan angka." },
+          { "optionId": "C", "reasonId": "Initial berarti huruf awal, bukan angka." },
+          { "optionId": "D", "reasonId": "Letter berarti huruf, bukan angka." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Please check the ___ of your name, because a small mistake changes everything.",
+        "options": [
+          { "id": "A", "text": "spelling" },
+          { "id": "B", "text": "decimal" },
+          { "id": "C", "text": "surname" },
+          { "id": "D", "text": "postcode" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Spelling adalah ejaan, dan kesalahan kecil dalam ejaan nama mengubah semuanya.",
+        "stepByStep": [
+          "Kalimat meminta pemeriksaan kesalahan kecil pada nama.",
+          "Cara huruf disusun dalam kata disebut spelling.",
+          "Decimal, surname, dan postcode bukan cara menyusun huruf dalam nama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Decimal adalah tanda desimal, bukan ejaan nama." },
+          { "optionId": "C", "reasonId": "Surname adalah nama belakang, yang sudah disebut sebagai bagian nama, bukan cara menyusun huruf." },
+          { "optionId": "D", "reasonId": "Postcode adalah kode pos, bukan ejaan nama." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Spelling adalah susunan huruf dalam sebuah kata, dan kesalahan kecil dapat mengubah makna atau identitas.",
+          "examples": [
+            { "en": "The spelling of the street is wrong.", "id": "Ejaan nama jalan itu salah." },
+            { "en": "Check the spelling of every letter.", "id": "Periksa ejaan setiap huruf." }
+          ]
+        },
+        "examTrap": "Pilihan C surname terlihat cocok karena kalimat berbicara tentang nama, tetapi kalimat meminta pemeriksaan ejaan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The price is 3.75 pounds, so the ___ point separates the pounds and the pence.",
+        "options": [
+          { "id": "A", "text": "digit" },
+          { "id": "B", "text": "alphabet" },
+          { "id": "C", "text": "decimal" },
+          { "id": "D", "text": "initial" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Decimal point adalah tanda yang memisahkan bagian bulat dan pecahan, dalam hal ini pound dan pence.",
+        "stepByStep": [
+          "Kalimat menyebut tanda pemisah antara pound dan pence.",
+          "Tanda pemisah bagian bulat dan pecahan disebut decimal point.",
+          "Digit, alphabet, dan initial tidak berarti tanda pemisah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Digit adalah angka, bukan tanda pemisah." },
+          { "optionId": "B", "reasonId": "Alphabet berarti abjad, bukan tanda pemisah." },
+          { "optionId": "D", "reasonId": "Initial berarti huruf awal, bukan tanda pemisah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Decimal point memisahkan bagian bulat dengan bagian pecahan dalam angka.",
+          "examples": [
+            { "en": "The decimal point separates 2 and 0.5.", "id": "Tanda desimal memisahkan 2 dan 0,5." },
+            { "en": "Write the decimal point clearly on the form.", "id": "Tulislah tanda desimal dengan jelas di formulir." }
+          ]
+        },
+        "examTrap": "Pilihan A digit terlihat cocok karena angka memang ada di kalimat, tetapi kalimat ini meminta tanda pemisah pecahan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Tolong tulis nama belakangmu.",
+        "hint": "Tolong tulis: please write. Nama belakangmu: your surname.",
+        "acceptedAnswers": ["Please write your surname.", "Please write down your surname."],
+        "modelAnswer": "Please write your surname.",
+        "commonErrors": [{ "pattern": "Please writes your surname", "feedbackId": "Setelah please, pakai kata kerja dasar write." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Periksa ejaan alamat itu sekali lagi.",
+        "hint": "Periksa: check. Ejaan: the spelling. Alamat itu: the address. Sekali lagi: once more.",
+        "acceptedAnswers": ["Check the spelling of the address once more.", "Please check the spelling of the address once more."],
+        "modelAnswer": "Check the spelling of the address once more.",
+        "commonErrors": [{ "pattern": "Check the spell of the address once more", "feedbackId": "Gunakan kata benda spelling setelah the." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Setiap digit dalam kode pos harus benar.",
+        "hint": "Setiap digit: each digit. Kode pos: the postcode. Harus benar: must be correct.",
+        "acceptedAnswers": ["Every digit in the postcode must be correct.", "Each digit in the postcode must be correct."],
+        "modelAnswer": "Every digit in the postcode must be correct.",
+        "commonErrors": [{ "pattern": "Every digits in the postcode must be correct", "feedbackId": "Setelah every, pakai kata benda tunggal digit." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Huruf pertama nama saya adalah huruf kapital.",
+        "hint": "Huruf pertama: the first letter. Nama saya: my name. Huruf kapital: a capital letter.",
+        "acceptedAnswers": ["The first letter of my name is a capital letter.", "The first letter of my name is a capital."],
+        "modelAnswer": "The first letter of my name is a capital letter.",
+        "commonErrors": [{ "pattern": "The first letter of my name are a capital letter", "feedbackId": "Subjek letter tunggal memakai is." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Biaya bulanan itu empat koma lima pound.",
+        "hint": "Biaya bulanan: the monthly fee. Empat koma lima pound: four point five pounds.",
+        "acceptedAnswers": ["The monthly fee is four point five pounds.", "The monthly fee is 4.5 pounds."],
+        "modelAnswer": "The monthly fee is four point five pounds.",
+        "commonErrors": [{ "pattern": "The monthly fee is four point five pound", "feedbackId": "Untuk jumlah lebih dari satu, gunakan pounds." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a short form of a longer word'?",
+        "options": [
+          { "id": "A", "text": "decimal" },
+          { "id": "B", "text": "abbreviation" },
+          { "id": "C", "text": "alphabet" },
+          { "id": "D", "text": "postcode" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Abbreviation adalah bentuk pendek dari sebuah kata atau frasa.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk bentuk pendek dari kata yang lebih panjang.",
+          "Bentuk pendek itu disebut abbreviation.",
+          "Decimal, alphabet, dan postcode tidak berarti bentuk pendek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Decimal berarti desimal, bukan bentuk pendek kata." },
+          { "optionId": "C", "reasonId": "Alphabet berarti abjad, bukan bentuk pendek kata." },
+          { "optionId": "D", "reasonId": "Postcode berarti kode pos, bukan bentuk pendek kata." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Abbreviation adalah bentuk singkat dari kata atau frasa, sering diakhiri titik.",
+          "examples": [
+            { "en": "Etc. is an abbreviation of et cetera.", "id": "Etc. adalah singkatan dari et cetera." },
+            { "en": "Use the abbreviation in the table.", "id": "Gunakan singkatan itu dalam tabel." }
+          ]
+        },
+        "examTrap": "Pilihan D postcode terlihat seperti kata pendek, tetapi itu kode pos, bukan singkatan dari kata lain."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which is the correct written form of 'three point seven five'?",
+        "options": [
+          { "id": "A", "text": "3.57" },
+          { "id": "B", "text": "37.5" },
+          { "id": "C", "text": "375.3" },
+          { "id": "D", "text": "3.75" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Three point seven five ditulis 3.75, dengan tanda desimal setelah angka tiga.",
+        "stepByStep": [
+          "Three adalah bagian bulat, sehingga ditulis 3.",
+          "Seven five adalah bagian desimal, sehingga ditulis 75 setelah titik.",
+          "Pilihan A tertukar, pilihan B dan C memindahkan titik desimal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Urutan digit 7 dan 5 tertukar." },
+          { "optionId": "B", "reasonId": "Titik desimal diletakkan di tempat yang salah." },
+          { "optionId": "C", "reasonId": "Titik desimal dan digit tidak sesuai dengan bilangan itu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Point menandai tanda desimal, dan angka setelahnya ditulis sesuai urutan yang diucapkan.",
+          "examples": [
+            { "en": "Two point five is written 2.5.", "id": "Two point five ditulis 2.5." },
+            { "en": "Zero point one two is written 0.12.", "id": "Zero point one two ditulis 0.12." }
+          ]
+        },
+        "examTrap": "Pilihan A 3.57 terlihat dekat karena digit yang sama muncul, tetapi urutan tujuh dan lima tertukar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Please write your ___ in capital letters on the form.'",
+        "options": [
+          { "id": "A", "text": "surname" },
+          { "id": "B", "text": "decimal" },
+          { "id": "C", "text": "digit" },
+          { "id": "D", "text": "abbreviation" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Surname adalah nama belakang, dan formulir sering meminta nama belakang ditulis dengan huruf kapital.",
+        "stepByStep": [
+          "Kalimat meminta bagian nama yang ditulis kapital di formulir.",
+          "Nama belakang disebut surname.",
+          "Decimal, digit, dan abbreviation tidak berarti nama belakang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Decimal berarti desimal, bukan nama." },
+          { "optionId": "C", "reasonId": "Digit adalah angka, bukan nama." },
+          { "optionId": "D", "reasonId": "Abbreviation adalah singkatan, bukan nama." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Surname adalah nama keluarga, yang sering diminta di formulir pendaftaran.",
+          "examples": [
+            { "en": "Write your surname first.", "id": "Tulislah nama belakangmu lebih dulu." },
+            { "en": "The surname is printed on the card.", "id": "Nama belakang tercetak di kartu." }
+          ]
+        },
+        "examTrap": "Pilihan D abbreviation terlihat cocok karena formulir sering memakai singkatan, tetapi kalimat ini meminta nama belakang."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word refers to the letters a to z in order?",
+        "options": [
+          { "id": "A", "text": "digit" },
+          { "id": "B", "text": "initial" },
+          { "id": "C", "text": "alphabet" },
+          { "id": "D", "text": "postcode" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Alphabet adalah abjad, yaitu huruf dari a sampai z dalam urutan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk huruf dari a sampai z.",
+          "Kumpulan huruf dalam urutan disebut alphabet.",
+          "Digit, initial, dan postcode tidak berarti kumpulan huruf dari a sampai z."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Digit adalah angka, bukan huruf." },
+          { "optionId": "B", "reasonId": "Initial adalah huruf awal sebuah nama, bukan seluruh huruf." },
+          { "optionId": "D", "reasonId": "Postcode adalah kode pos, bukan seluruh huruf." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Alphabet adalah seluruh huruf dalam urutan tertentu.",
+          "examples": [
+            { "en": "Write the names in alphabetical order.", "id": "Tulislah nama-nama itu sesuai urutan abjad." },
+            { "en": "Each letter of the alphabet has a sound.", "id": "Setiap huruf dalam abjad punya bunyi." }
+          ]
+        },
+        "examTrap": "Pilihan B initial terlihat dekat karena berkaitan dengan huruf, tetapi initial hanya huruf awal, bukan seluruh abjad."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The postcode are EH39QT." },
+          { "id": "B", "text": "The postcode is EH39QT." },
+          { "id": "C", "text": "The postcode were EH39QT." },
+          { "id": "D", "text": "The postcodes is EH39QT." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Postcode adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Postcode adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Kode EH39QT adalah satu kode pos.",
+          "Pilihan A dan C memakai bentuk jamak, dan pilihan D memakai postcodes dengan is yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal postcode." },
+          { "optionId": "C", "reasonId": "Were tidak cocok dengan subjek tunggal postcode." },
+          { "optionId": "D", "reasonId": "Postcodes jamak tidak cocok dengan satu kode pos." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan satu kode pos disebut dengan kata tunggal postcode.",
+          "examples": [
+            { "en": "The postcode is on the envelope.", "id": "Kode pos itu ada di amplop." },
+            { "en": "My postcode is short.", "id": "Kode posku pendek." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena kode pos sering dibicarakan jamak, tetapi kalimat ini menyebut satu kode pos."
+      }
+    ]
+  }
+}

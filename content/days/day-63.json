@@ -1,0 +1,1234 @@
+{
+  "day": 63,
+  "week": 9,
+  "month": 3,
+  "title": "Matching Headings",
+  "topic": "Mencocokkan judul dengan paragraf dan memahami alur teks",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menemukan gagasan utama setiap paragraf",
+    "Membedakan judul yang tepat dari judul yang hanya memakai kata yang sama",
+    "Memahami cakupan dan alur sebuah laporan"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "heading",
+        "pronunciationId": "HED-ing (tekanan di HED)",
+        "pos": "Noun",
+        "meaningId": "judul bagian",
+        "example": "The heading names the section.",
+        "exampleId": "Judul itu menyebut nama bagiannya."
+      },
+      {
+        "no": 2,
+        "en": "chapter",
+        "pronunciationId": "CHAP-ter (tekanan di CHAP)",
+        "pos": "Noun",
+        "meaningId": "bab",
+        "example": "The first chapter explains the method.",
+        "exampleId": "Bab pertama menjelaskan metodenya."
+      },
+      {
+        "no": 3,
+        "en": "draft",
+        "pronunciationId": "DRAFT (tekanan di DRAFT)",
+        "pos": "Noun",
+        "meaningId": "naskah awal, draf",
+        "example": "Write a rough draft before the final report.",
+        "exampleId": "Tulis draf kasar sebelum laporan akhir."
+      },
+      {
+        "no": 4,
+        "en": "subheading",
+        "pronunciationId": "SUB-hed-ing (tekanan di SUB)",
+        "pos": "Noun",
+        "meaningId": "subjudul",
+        "example": "Each route has a subheading.",
+        "exampleId": "Setiap rute punya subjudul."
+      },
+      {
+        "no": 5,
+        "en": "gist",
+        "pronunciationId": "JIST (i pendek, st jelas)",
+        "pos": "Noun",
+        "meaningId": "inti, gagasan pokok",
+        "example": "Tell me the gist of the story.",
+        "exampleId": "Ceritakan inti ceritanya."
+      },
+      {
+        "no": 6,
+        "en": "summary",
+        "pronunciationId": "SUM-uh-ree (tekanan di SUM)",
+        "pos": "Noun",
+        "meaningId": "ringkasan",
+        "example": "The summary lists the main points.",
+        "exampleId": "Ringkasan itu mencantumkan poin utama."
+      },
+      {
+        "no": 7,
+        "en": "scope",
+        "pronunciationId": "SKOHP (tekanan di SKOHP)",
+        "pos": "Noun",
+        "meaningId": "cakupan, ruang lingkup",
+        "example": "The scope of the study is small.",
+        "exampleId": "Cakupan penelitian itu kecil."
+      },
+      {
+        "no": 8,
+        "en": "arrangement",
+        "pronunciationId": "uh-RAYNJ-ment (tekanan di RAYNJ)",
+        "pos": "Noun",
+        "meaningId": "susunan, pengaturan",
+        "example": "The arrangement is by district.",
+        "exampleId": "Susunannya berdasarkan distrik."
+      },
+      {
+        "no": 9,
+        "en": "flow",
+        "pronunciationId": "FLOH (tekanan di FLOH)",
+        "pos": "Noun",
+        "meaningId": "alur",
+        "example": "The flow of the essay is smooth.",
+        "exampleId": "Alur esainya mengalir lancar."
+      },
+      {
+        "no": 10,
+        "en": "order",
+        "pronunciationId": "OR-der (tekanan di OR)",
+        "pos": "Noun",
+        "meaningId": "urutan",
+        "example": "Put the steps in order.",
+        "exampleId": "Susunlah langkah-langkahnya berurutan."
+      }
+    ],
+    "tip": "Baca kalimat pertama dan terakhir tiap paragraf, lalu tentukan gagasan utamanya. Judul yang benar mencakup seluruh paragraf, bukan hanya satu kalimat di dalamnya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS matching headings",
+        "IELTS reading strategies"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang mencocokkan judul dengan paragraf, dengan contoh judul yang terlalu sempit dan judul yang tepat.",
+      "watchFor": [
+        "Gagasan utama dalam paragraf",
+        "Judul yang terlalu sempit atau terlalu luas",
+        "Kata penghubung yang menjaga alur"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam matching headings, kamu mencari judul yang paling tepat untuk setiap paragraf. Judul yang benar menangkap gagasan utama, bukan sekadar kata yang muncul di paragraf itu.",
+      "sections": [
+        {
+          "heading": "Gagasan utama",
+          "bodyMd": "Setiap paragraf biasanya punya satu **gist**. Cari kalimat yang menjelaskan **scope** paragraf itu. Judul yang tepat harus menangkap keseluruhan, bukan satu contoh saja."
+        },
+        {
+          "heading": "Susunan dan alur",
+          "bodyMd": "Perhatikan **arrangement** dan **order** paragraf. Bagian yang berurutan sering memiliki **subheading** sendiri. Kata penghubung membantu menjaga **flow** antarparagraf."
+        },
+        {
+          "heading": "Ringkasan dan bab",
+          "bodyMd": "Sebuah **chapter** atau **section** sering ditutup dengan **summary**. Gunakan ringkasan itu untuk mengecek judulmu, lalu periksa apakah sesuai dengan **heading** yang tersedia."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Gist",
+          "pattern": "kalimat pertama / terakhir + kata kunci = gagasan utama"
+        },
+        {
+          "label": "Scope",
+          "pattern": "judul harus mencakup seluruh paragraf, bukan satu contoh"
+        },
+        {
+          "label": "Alur",
+          "pattern": "kata penghubung menunjukkan hubungan antarparagraf"
+        },
+        {
+          "label": "Cek",
+          "pattern": "bandingkan judul dengan summary bagian itu"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "The heading names the main topic of the section.",
+            "id": "Judul itu menyebut topik utama bagiannya."
+          },
+          {
+            "en": "The gist of the paragraph is the cost of the plan.",
+            "id": "Inti paragraf itu adalah biaya rencananya."
+          },
+          {
+            "en": "The scope of the report includes three districts.",
+            "id": "Cakupan laporan itu mencakup tiga distrik."
+          },
+          {
+            "en": "The chapter ends with a short summary.",
+            "id": "Bab itu diakhiri dengan ringkasan singkat."
+          },
+          {
+            "en": "The flow of ideas is clear from one paragraph to the next.",
+            "id": "Alur gagasan jelas dari satu paragraf ke paragraf berikutnya."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The heading does not cover the whole paragraph.",
+            "id": "Judul itu tidak mencakup seluruh paragraf."
+          },
+          {
+            "en": "A subheading is not the same as a chapter.",
+            "id": "Subjudul tidak sama dengan bab."
+          },
+          {
+            "en": "The summary does not repeat every detail.",
+            "id": "Ringkasan itu tidak mengulang setiap detail."
+          },
+          {
+            "en": "The arrangement is not by date in this report.",
+            "id": "Susunan laporan ini tidak berdasarkan tanggal."
+          },
+          {
+            "en": "The order of the steps is not random.",
+            "id": "Urutan langkah-langkah itu tidak acak."
+          }
+        ],
+        "question": [
+          {
+            "en": "What is the gist of the first paragraph?",
+            "id": "Apa inti paragraf pertama?"
+          },
+          {
+            "en": "Which heading fits the second section?",
+            "id": "Judul mana yang cocok untuk bagian kedua?"
+          },
+          {
+            "en": "What is the scope of the study?",
+            "id": "Apa cakupan penelitian itu?"
+          },
+          {
+            "en": "How is the arrangement of the routes?",
+            "id": "Bagaimana susunan rutenya?"
+          },
+          {
+            "en": "Does the summary match the heading?",
+            "id": "Apakah ringkasan itu sesuai dengan judulnya?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The heading are too broad for this paragraph.",
+          "right": "The heading is too broad for this paragraph.",
+          "whyId": "Heading adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "The scope of the report are large.",
+          "right": "The scope of the report is large.",
+          "whyId": "Scope adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "This summaries the main points.",
+          "right": "This summary covers the main points.",
+          "whyId": "Summary adalah kata benda, dan kata kerja yang tepat di sini adalah covers."
+        },
+        {
+          "wrong": "The chapter explain the method.",
+          "right": "The chapter explains the method.",
+          "whyId": "Subjek chapter tunggal memakai explains."
+        },
+        {
+          "wrong": "Put the steps in a order.",
+          "right": "Put the steps in order.",
+          "whyId": "Frasa in order sudah baku, tanpa a."
+        },
+        {
+          "wrong": "The gist are simple.",
+          "right": "The gist is simple.",
+          "whyId": "Gist adalah kata benda tunggal, jadi memakai is."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Menyusun Laporan Transportasi",
+    "text": "Many readers judge a long report by its headings, but a good heading does more than label a section. It gives the gist of the paragraph beneath it. When the heading is clear, a reader can skim the document and understand its scope in a few minutes.\n\nThe first chapter of a typical planning report usually sets the scope of the study. It explains which areas are included and which are excluded. Writers often add a short summary at the end of the chapter, so that readers can check the main findings before they move on. Each paragraph in that summary should match the heading above it, otherwise the reader may feel misled.\n\nThe second section describes the arrangement of bus routes in the city. Routes are grouped by district, and each group has its own subheading. This order makes it easier to compare routes that serve similar neighbourhoods. The logic of the arrangement is explained in the opening sentences, so the reader knows what to expect.\n\nA smooth flow of ideas is just as important as a clear heading. If a paragraph jumps from cost to design without a link, the reader loses the thread. Good writers use linking phrases to keep the flow natural, such as 'as a result' or 'in contrast'. These phrases tell the reader how each idea connects to the one before it.\n\nThe final section returns to the purpose of the report. It reviews the three options and recommends the one with the best balance of cost and coverage. The recommendation is written in plain language, so that councillors can act on it without reading the technical appendix. The summary at the end repeats the key figures in one table.\n\nFinally, the report includes a list of references and a short glossary. These parts are not part of the main argument, but they help the reader verify the figures. A careful reader should check whether each claim has a source, because a report without sources is difficult to trust. Many readers also compare the figures in the glossary with the main text, since a single paragraph can change the meaning of a whole table. Writers usually begin with a rough draft, which they revise before the final version.",
+    "glossary": [
+      {
+        "en": "neighbourhood",
+        "id": "lingkungan, kawasan"
+      },
+      {
+        "en": "councillor",
+        "id": "anggota dewan kota"
+      },
+      {
+        "en": "appendix",
+        "id": "lampiran"
+      },
+      {
+        "en": "coverage",
+        "id": "cakupan layanan"
+      },
+      {
+        "en": "thread",
+        "id": "benang merah, alur"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Which heading best fits the first paragraph?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Bus routes grouped by district"
+          },
+          {
+            "id": "B",
+            "text": "Why good headings matter for readers"
+          },
+          {
+            "id": "C",
+            "text": "Budget cuts in the city"
+          },
+          {
+            "id": "D",
+            "text": "A history of the bus company"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Paragraf pertama membahas bahwa judul yang baik membantu pembaca memahami inti dan cakupan laporan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Rute bus dibahas di paragraf ketiga, bukan paragraf pertama."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pemangkasan anggaran tidak dibahas dalam teks."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Sejarah perusahaan bus tidak dibahas dalam teks."
+          }
+        ],
+        "evidence": "Many readers judge a long report by its headings"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Which heading best fits the second paragraph?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Setting the scope of a report"
+          },
+          {
+            "id": "B",
+            "text": "Recommendations for the council"
+          },
+          {
+            "id": "C",
+            "text": "How bus routes are grouped"
+          },
+          {
+            "id": "D",
+            "text": "Why flow matters"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Paragraf kedua menjelaskan bahwa bab pertama menetapkan cakupan studi dan apa yang termasuk di dalamnya.",
+        "stepByStep": [
+          "Cari kalimat utama paragraf kedua: the first chapter sets the scope of the study.",
+          "Paragraf itu menjelaskan area yang termasuk dan dikecualikan.",
+          "Rekomendasi, pengelompokan rute, dan alur tidak menjadi fokus paragraf kedua."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Rekomendasi dibahas di paragraf kelima, bukan kedua."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Pengelompokan rute dibahas di paragraf ketiga."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Alur dibahas di paragraf keempat."
+          }
+        ],
+        "evidence": "sets the scope of the study"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Which heading best fits the third paragraph?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The arrangement of bus routes"
+          },
+          {
+            "id": "B",
+            "text": "A smooth flow of ideas"
+          },
+          {
+            "id": "C",
+            "text": "References and glossary"
+          },
+          {
+            "id": "D",
+            "text": "Summary of the findings"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Paragraf ketiga membahas susunan rute bus berdasarkan distrik.",
+        "stepByStep": [
+          "Cari kata arrangement di paragraf ketiga.",
+          "Paragraf itu menjelaskan rute yang dikelompokkan berdasarkan distrik.",
+          "Alur, referensi, dan ringkasan temuan tidak menjadi fokus paragraf ketiga."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Alur gagasan dibahas di paragraf keempat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Referensi dan glosarium dibahas di paragraf terakhir."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ringkasan temuan dibahas di paragraf kelima, bukan ketiga."
+          }
+        ],
+        "evidence": "describes the arrangement of bus routes in the city"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which heading best fits the fourth paragraph?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Why scope matters"
+          },
+          {
+            "id": "B",
+            "text": "Bus route subheadings"
+          },
+          {
+            "id": "C",
+            "text": "Keeping the flow natural with linking phrases"
+          },
+          {
+            "id": "D",
+            "text": "Recommending the best option"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Paragraf keempat membahas alur gagasan dan kata penghubung yang menjaga alur tetap alami.",
+        "stepByStep": [
+          "Kalimat kedua paragraf menyebut loses the thread jika alur tidak terhubung.",
+          "Penulis yang baik memakai linking phrases agar alur tetap alami.",
+          "Cakupan, subjudul rute, dan rekomendasi tidak menjadi inti paragraf keempat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Cakupan disebut di paragraf kedua, bukan fokus paragraf keempat."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Subjudul rute dibahas di paragraf ketiga."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Rekomendasi dibahas di paragraf kelima."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Judul paragraf harus menangkap gagasan utama, bukan hanya satu contoh atau kata penghubung.",
+          "examples": [
+            {
+              "en": "The paragraph explains how linking phrases keep the flow natural.",
+              "id": "Paragraf itu menjelaskan bagaimana kata penghubung menjaga alur tetap alami."
+            },
+            {
+              "en": "Good transitions help readers follow the argument.",
+              "id": "Transisi yang baik membantu pembaca mengikuti argumen."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat cocok karena paragraf itu menyebut linking phrases, tetapi itu hanya contoh, bukan gagasan utama paragraf.",
+        "evidence": "Good writers use linking phrases to keep the flow natural"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Which heading best summarises the fifth paragraph?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The gist of the bus study"
+          },
+          {
+            "id": "B",
+            "text": "Returning to purpose and recommending one option"
+          },
+          {
+            "id": "C",
+            "text": "Cost comparison of three buses"
+          },
+          {
+            "id": "D",
+            "text": "A glossary of terms"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Paragraf kelima kembali ke tujuan laporan, meninjau tiga pilihan, dan merekomendasikan satu di antaranya.",
+        "stepByStep": [
+          "Cari kata reviews dan recommends di paragraf kelima.",
+          "Paragraf itu kembali ke tujuan laporan dan merekomendasikan satu pilihan.",
+          "Gist penelitian, perbandingan biaya bus, dan glosarium tidak sepenuhnya menangkap paragraf ini."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Gist penelitian terlalu luas dan tidak menangkap rekomendasi."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Perbandingan biaya hanya bagian kecil dari paragraf ini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Glosarium disebut di paragraf terakhir, bukan kelima."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Judul yang tepat menangkap tindakan utama paragraf, misalnya meninjau dan merekomendasikan.",
+          "examples": [
+            {
+              "en": "The section reviews the options and recommends one.",
+              "id": "Bagian itu meninjau pilihan dan merekomendasikan satu."
+            },
+            {
+              "en": "The chapter returns to the purpose of the study.",
+              "id": "Bab itu kembali ke tujuan penelitian."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena paragraf itu bagian dari laporan, tetapi judul itu terlalu luas dan tidak menyebut rekomendasi.",
+        "evidence": "It reviews the three options and recommends the one"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Each paragraph has a clear main idea, which is called its ___.",
+        "options": [
+          {
+            "id": "A",
+            "text": "gist"
+          },
+          {
+            "id": "B",
+            "text": "route"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Gist adalah inti atau gagasan pokok dari sebuah paragraf.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Route berarti rute, bukan gagasan pokok."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan gagasan pokok."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan gagasan pokok."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The ___ of this report covers only the city centre, not the suburbs.",
+        "options": [
+          {
+            "id": "A",
+            "text": "scope"
+          },
+          {
+            "id": "B",
+            "text": "flow"
+          },
+          {
+            "id": "C",
+            "text": "order"
+          },
+          {
+            "id": "D",
+            "text": "heading"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Scope berarti cakupan, dan kalimat ini menjelaskan area yang termasuk dan tidak termasuk.",
+        "stepByStep": [
+          "Kalimat menyebut area yang termasuk dan tidak termasuk.",
+          "Cakupan area sebuah laporan disebut scope.",
+          "Flow, order, dan heading tidak berarti cakupan area."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Flow berarti alur, bukan area yang termasuk."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Order berarti urutan, bukan area yang termasuk."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Heading berarti judul, bukan area yang termasuk."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Put the steps in ___ so that the reader can follow the process easily.",
+        "options": [
+          {
+            "id": "A",
+            "text": "order"
+          },
+          {
+            "id": "B",
+            "text": "chapter"
+          },
+          {
+            "id": "C",
+            "text": "summary"
+          },
+          {
+            "id": "D",
+            "text": "subheading"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Order berarti urutan, dan frasa put in order berarti menyusun sesuatu secara berurutan.",
+        "stepByStep": [
+          "Kalimat meminta langkah disusun agar mudah diikuti.",
+          "Susunan berurutan disebut order.",
+          "Chapter, summary, dan subheading tidak berarti urutan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Chapter adalah bab, bukan urutan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Summary adalah ringkasan, bukan urutan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Subheading adalah subjudul, bukan urutan."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Each ___ of the report has a short introduction and a conclusion.",
+        "options": [
+          {
+            "id": "A",
+            "text": "section"
+          },
+          {
+            "id": "B",
+            "text": "stance"
+          },
+          {
+            "id": "C",
+            "text": "lane"
+          },
+          {
+            "id": "D",
+            "text": "belief"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Section adalah bagian dari laporan yang memiliki pengantar dan kesimpulan sendiri.",
+        "stepByStep": [
+          "Kalimat menyebut bagian laporan yang memiliki pengantar dan kesimpulan.",
+          "Bagian dari sebuah dokumen disebut section.",
+          "Stance, lane, dan belief tidak berarti bagian dari dokumen."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Stance berarti sikap, bukan bagian dokumen."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Lane berarti jalur, bukan bagian dokumen."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Belief berarti keyakinan, bukan bagian dokumen."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Section adalah bagian yang lebih kecil dari chapter, dan keduanya bisa memiliki judul sendiri.",
+          "examples": [
+            {
+              "en": "The second section explains the cost.",
+              "id": "Bagian kedua menjelaskan biayanya."
+            },
+            {
+              "en": "Each chapter begins with a short overview.",
+              "id": "Setiap bab dimulai dengan gambaran singkat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D belief terlihat cocok karena laporan sering memuat keyakinan penulis, tetapi kalimat ini meminta bagian dari dokumen."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ at the end of the chapter lists the main findings in brief.",
+        "options": [
+          {
+            "id": "A",
+            "text": "summary"
+          },
+          {
+            "id": "B",
+            "text": "arrangement"
+          },
+          {
+            "id": "C",
+            "text": "subheading"
+          },
+          {
+            "id": "D",
+            "text": "flow"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Summary adalah ringkasan singkat yang mencantumkan temuan utama di akhir bab.",
+        "stepByStep": [
+          "Kalimat menyebut bagian di akhir bab yang mencantumkan temuan secara singkat.",
+          "Ringkasan singkat disebut summary.",
+          "Arrangement, subheading, dan flow tidak berarti ringkasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Arrangement berarti susunan, bukan ringkasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Subheading berarti subjudul, bukan ringkasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Flow berarti alur, bukan ringkasan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Summary merangkum poin utama secara singkat, biasanya di akhir bab atau laporan.",
+          "examples": [
+            {
+              "en": "The summary repeats the key figures.",
+              "id": "Ringkasan itu mengulang angka-angka kuncinya."
+            },
+            {
+              "en": "Read the summary before the details.",
+              "id": "Bacalah ringkasan sebelum detailnya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C subheading terlihat dekat karena berada di dalam bab, tetapi subjudul hanya menandai bagian, bukan merangkum temuan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Judul itu menyebut topik utama bagian ini.",
+        "hint": "Judul itu: the heading. Menyebut: names. Topik utama: the main topic. Bagian ini: this section.",
+        "acceptedAnswers": [
+          "The heading names the main topic of this section.",
+          "The heading names the main topic of the section."
+        ],
+        "modelAnswer": "The heading names the main topic of this section.",
+        "commonErrors": [
+          {
+            "pattern": "The heading name the main topic of this section",
+            "feedbackId": "Subjek heading tunggal memakai names."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Inti paragraf ini adalah biaya rencana itu.",
+        "hint": "Inti paragraf: the gist of the paragraph. Adalah: is. Biaya rencana itu: the cost of the plan.",
+        "acceptedAnswers": [
+          "The gist of the paragraph is the cost of the plan.",
+          "The gist of this paragraph is the cost of the plan."
+        ],
+        "modelAnswer": "The gist of the paragraph is the cost of the plan.",
+        "commonErrors": [
+          {
+            "pattern": "The gist of the paragraph are the cost of the plan",
+            "feedbackId": "Gist adalah kata benda tunggal, jadi memakai is."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rute bus dikelompokkan berdasarkan distrik.",
+        "hint": "Rute bus: bus routes. Dikelompokkan: are grouped. Berdasarkan distrik: by district.",
+        "acceptedAnswers": [
+          "Bus routes are grouped by district.",
+          "The bus routes are grouped by district."
+        ],
+        "modelAnswer": "Bus routes are grouped by district.",
+        "commonErrors": [
+          {
+            "pattern": "Bus routes is grouped by district",
+            "feedbackId": "Subjek routes jamak memakai are."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Ringkasan di akhir bab itu mencantumkan temuan utama.",
+        "hint": "Ringkasan: the summary. Di akhir bab: at the end of the chapter. Mencantumkan: lists. Temuan utama: the main findings.",
+        "acceptedAnswers": [
+          "The summary at the end of the chapter lists the main findings.",
+          "The summary at the end of the chapter lists the key findings."
+        ],
+        "modelAnswer": "The summary at the end of the chapter lists the main findings.",
+        "commonErrors": [
+          {
+            "pattern": "The summary at the end of the chapter list the main findings",
+            "feedbackId": "Subjek summary tunggal memakai lists."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Alur gagasan yang baik membantu pembaca mengikuti argumen dari awal sampai akhir.",
+        "hint": "Alur gagasan: the flow of ideas. Membantu: helps. Mengikuti: follow. Dari awal sampai akhir: from beginning to end.",
+        "acceptedAnswers": [
+          "A good flow of ideas helps readers follow the argument from beginning to end.",
+          "A good flow of ideas helps readers follow the argument from the beginning to the end."
+        ],
+        "modelAnswer": "A good flow of ideas helps readers follow the argument from beginning to end.",
+        "commonErrors": [
+          {
+            "pattern": "A good flow of ideas help readers follows the argument from beginning to end",
+            "feedbackId": "Subjek flow tunggal memakai helps; setelah helps readers, pakai kata kerja dasar follow."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which heading would be too narrow for a paragraph about the whole report's purpose?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The purpose and recommendation of the report"
+          },
+          {
+            "id": "B",
+            "text": "A single bus stop on Hill Street"
+          },
+          {
+            "id": "C",
+            "text": "The purpose of the study in general"
+          },
+          {
+            "id": "D",
+            "text": "Why the report was written"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Judul yang hanya menyebut satu halte terlalu sempit untuk paragraf tentang tujuan seluruh laporan.",
+        "stepByStep": [
+          "Paragraf itu membahas tujuan seluruh laporan.",
+          "Judul yang terlalu sempit hanya menyebut satu bagian kecil.",
+          "Tiga pilihan lain menyebut tujuan atau keseluruhan laporan dan tidak terlalu sempit."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Judul ini mencakup tujuan dan rekomendasi, jadi tidak terlalu sempit."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Judul ini mencakup tujuan penelitian, jadi tidak terlalu sempit."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Judul ini menanyakan alasan laporan, jadi tidak terlalu sempit."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Judul yang terlalu sempit hanya menyebut satu contoh atau satu bagian kecil dari paragraf.",
+          "examples": [
+            {
+              "en": "A heading about one street is too narrow for a city plan.",
+              "id": "Judul tentang satu jalan terlalu sempit untuk rencana kota."
+            },
+            {
+              "en": "A heading about the whole plan fits the paragraph.",
+              "id": "Judul tentang seluruh rencana cocok dengan paragraf itu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti judul yang sempit karena panjang, tetapi isinya mencakup seluruh tujuan laporan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'subheading'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The subheading are placed under the chapter title."
+          },
+          {
+            "id": "B",
+            "text": "The subheading is placed under the chapter title."
+          },
+          {
+            "id": "C",
+            "text": "Subheading the chapter is under title."
+          },
+          {
+            "id": "D",
+            "text": "The subheadings is placed the chapter title under."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subheading adalah subjek tunggal, sehingga memakai is, dan urutan kata under the chapter title sudah benar.",
+        "stepByStep": [
+          "Subheading adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa placed under the chapter title adalah urutan yang benar.",
+          "Pilihan A memakai are, pilihan C dan D urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal subheading."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini tidak membentuk kalimat yang benar."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Subheadings jamak tidak cocok dengan is untuk kalimat ini, dan urutannya salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subject tunggal memakai is, dan frasa placed under menunjukkan posisi.",
+          "examples": [
+            {
+              "en": "The heading is placed above the paragraph.",
+              "id": "Judul itu diletakkan di atas paragraf."
+            },
+            {
+              "en": "The subheading is placed under the section title.",
+              "id": "Subjudul itu diletakkan di bawah judul bagian."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat mirip karena berisi kata yang sama, tetapi urutan katanya tidak benar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ of the first section shows how the study began.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "gist"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "lane"
+          },
+          {
+            "id": "D",
+            "text": "belief"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Gist berarti inti atau gagasan pokok, dan kalimat ini menyebut inti bagian pertama.",
+        "stepByStep": [
+          "Kalimat menyebut inti dari bagian pertama.",
+          "Inti atau gagasan pokok disebut gist.",
+          "Ticket, lane, dan belief tidak berarti inti bagian."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan inti bagian."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Lane berarti jalur, bukan inti bagian."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Belief berarti keyakinan, bukan inti bagian."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gist berarti inti pesan dari bagian tertentu.",
+          "examples": [
+            {
+              "en": "Tell me the gist of the article.",
+              "id": "Ceritakan inti artikel itu."
+            },
+            {
+              "en": "The gist of the chapter is clear.",
+              "id": "Inti bab itu jelas."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B ticket terlihat seperti kata yang bisa dipakai dalam konteks perjalanan, tetapi kalimat ini meminta inti bagian."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'the way ideas connect smoothly from one to the next'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "flow"
+          },
+          {
+            "id": "B",
+            "text": "scope"
+          },
+          {
+            "id": "C",
+            "text": "chapter"
+          },
+          {
+            "id": "D",
+            "text": "subheading"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Flow berarti alur, yaitu cara gagasan terhubung dengan lancar dari satu ke yang berikutnya.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk hubungan lancar antargagasan.",
+          "Alur yang lancar disebut flow.",
+          "Scope, chapter, dan subheading tidak berarti hubungan antargagasan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Scope berarti cakupan, bukan hubungan antargagasan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Chapter berarti bab, bukan hubungan antargagasan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Subheading berarti subjudul, bukan hubungan antargagasan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Flow adalah kelancaran hubungan antarkalimat atau antarparagraf.",
+          "examples": [
+            {
+              "en": "The essay has a good flow.",
+              "id": "Esai itu punya alur yang baik."
+            },
+            {
+              "en": "Linking words improve the flow.",
+              "id": "Kata penghubung memperbaiki alur."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B scope terlihat cocok karena berkaitan dengan struktur laporan, tetapi scope berarti cakupan, bukan hubungan gagasan."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The arrangement of the routes are by district."
+          },
+          {
+            "id": "B",
+            "text": "The arrangement of the routes is by district."
+          },
+          {
+            "id": "C",
+            "text": "The arrangement of the route are by district."
+          },
+          {
+            "id": "D",
+            "text": "The arrangements of the routes is by district."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek arrangement tunggal memakai is, dan frasa of the routes menerangkan susunannya.",
+        "stepByStep": [
+          "Subjek arrangement tunggal, sehingga kata kerjanya is.",
+          "Frasa of the routes menjelaskan apa yang disusun.",
+          "Pilihan A dan C memakai are yang salah, dan pilihan D memakai arrangements dengan is yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal arrangement."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Route dalam bentuk tunggal tidak cocok dengan konteks jamak, dan are tidak cocok dengan arrangement."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Arrangements jamak tidak cocok dengan is di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan frasa of the menerangkan isinya.",
+          "examples": [
+            {
+              "en": "The arrangement of the chairs is neat.",
+              "id": "Susunan kursi itu rapi."
+            },
+            {
+              "en": "The order of the steps is clear.",
+              "id": "Urutan langkah-langkahnya jelas."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena routes jamak, tetapi subjek utama kalimat adalah arrangement yang tunggal."
+      }
+    ]
+  }
+}

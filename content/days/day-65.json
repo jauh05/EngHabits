@@ -1,0 +1,1216 @@
+{
+  "day": 65,
+  "week": 9,
+  "month": 3,
+  "title": "Koreksi dan Distraktor",
+  "topic": "Mengenali koreksi dalam teks dan menghindari pilihan yang menyesatkan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membedakan informasi yang diralat dari informasi yang berlaku",
+    "Mengenali distraktor yang mirip dengan jawaban benar",
+    "Memahami bagaimana penulis memperbaiki kesalahan"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "correction",
+        "pronunciationId": "ku-REK-shun (tekanan di REK)",
+        "pos": "Noun",
+        "meaningId": "koreksi, perbaikan",
+        "example": "The correction appeared on page two.",
+        "exampleId": "Koreksi itu muncul di halaman dua."
+      },
+      {
+        "no": 2,
+        "en": "distractor",
+        "pronunciationId": "dis-TRAK-ter (tekanan di TRAK)",
+        "pos": "Noun",
+        "meaningId": "pengecoh, pilihan yang menyesatkan",
+        "example": "A distractor looks close to the answer.",
+        "exampleId": "Pengecoh terlihat dekat dengan jawaban."
+      },
+      {
+        "no": 3,
+        "en": "actually",
+        "pronunciationId": "AK-choo-uh-lee (tekanan di AK)",
+        "pos": "Adv",
+        "meaningId": "sebenarnya",
+        "example": "Actually, the date is wrong.",
+        "exampleId": "Sebenarnya, tanggalnya salah."
+      },
+      {
+        "no": 4,
+        "en": "rather",
+        "pronunciationId": "RA-ther (tekanan di RA)",
+        "pos": "Adv",
+        "meaningId": "agak, cukup",
+        "example": "The answer was rather long.",
+        "exampleId": "Jawabannya cukup panjang."
+      },
+      {
+        "no": 5,
+        "en": "mistaken",
+        "pronunciationId": "mis-TAY-kun (tekanan di TAY)",
+        "pos": "Adj",
+        "meaningId": "keliru",
+        "example": "The mistaken date was printed twice.",
+        "exampleId": "Tanggal yang keliru dicetak dua kali."
+      },
+      {
+        "no": 6,
+        "en": "misunderstand",
+        "pronunciationId": "mis-un-der-STAND (tekanan di STAND)",
+        "pos": "Verb",
+        "meaningId": "salah paham",
+        "example": "Do not misunderstand the question.",
+        "exampleId": "Jangan salah paham dengan pertanyaannya."
+      },
+      {
+        "no": 7,
+        "en": "amend",
+        "pronunciationId": "uh-MEND (tekanan di MEND)",
+        "pos": "Verb",
+        "meaningId": "memperbaiki, mengubah",
+        "example": "We will amend the form.",
+        "exampleId": "Kami akan memperbaiki formulirnya."
+      },
+      {
+        "no": 8,
+        "en": "revision",
+        "pronunciationId": "ri-VI-zhun (tekanan di VI)",
+        "pos": "Noun",
+        "meaningId": "revisi, versi yang diperbarui",
+        "example": "This is the second revision.",
+        "exampleId": "Ini adalah revisi kedua."
+      },
+      {
+        "no": 9,
+        "en": "retract",
+        "pronunciationId": "ri-TRAKT (tekanan di TRAKT)",
+        "pos": "Verb",
+        "meaningId": "menarik kembali pernyataan",
+        "example": "He had to retract his claim.",
+        "exampleId": "Dia harus menarik kembali klaimnya."
+      },
+      {
+        "no": 10,
+        "en": "update",
+        "pronunciationId": "up-DAYT (tekanan di DAYT)",
+        "pos": "Verb",
+        "meaningId": "memperbarui",
+        "example": "Please update the list.",
+        "exampleId": "Tolong perbarui daftarnya."
+      }
+    ],
+    "tip": "Jika sebuah teks memuat koreksi, informasi yang berlaku adalah versi terbaru. Pengecoh sering memakai kata dari versi lama."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS reading distractors",
+        "IELTS reading strategies"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang koreksi dalam teks dan pengecoh dalam soal, dengan contoh informasi lama dan informasi baru.",
+      "watchFor": [
+        "Penanda koreksi seperti actually dan rather",
+        "Pengecoh yang memakai kata dari teks",
+        "Informasi terbaru yang menggantikan informasi lama"
+      ]
+    },
+    "lesson": {
+      "intro": "Sebuah teks bisa memuat informasi yang keliru lalu diperbaiki. Soal sering memakai pengecoh dari bagian lama. Tugasmu adalah mengikuti informasi yang paling baru dan benar.",
+      "sections": [
+        {
+          "heading": "Penanda koreksi",
+          "bodyMd": "Kata seperti **actually** dan **rather** sering menandai koreksi. Penulis juga bisa memakai **mistaken** untuk mengakui kesalahan sebelumnya, atau **retract** untuk menarik pernyataan."
+        },
+        {
+          "heading": "Pengecoh",
+          "bodyMd": "Sebuah **distractor** biasanya memakai kata dari teks, tetapi maknanya salah. Hati-hati dengan pilihan yang hanya mengulang informasi lama, karena itu sudah **amend** atau diganti."
+        },
+        {
+          "heading": "Revisi dan pembaruan",
+          "bodyMd": "Penulis melakukan **revision** atau **update** untuk memperbaiki data. Jika teks menyebut perbaikan, anggap versi itu yang berlaku. Jangan salah paham dengan versi lama yang sudah diganti."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Koreksi",
+          "pattern": "actually / rather + informasi yang benar"
+        },
+        {
+          "label": "Pengecoh",
+          "pattern": "kata dari teks + makna yang diubah"
+        },
+        {
+          "label": "Revisi",
+          "pattern": "amend / update → versi terbaru yang berlaku"
+        },
+        {
+          "label": "Cek",
+          "pattern": "apakah informasi ini versi lama atau versi baru?"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "Actually, the meeting was moved to Tuesday.",
+            "id": "Sebenarnya, rapat itu dipindah ke hari Selasa."
+          },
+          {
+            "en": "The article was rather unclear about the cost.",
+            "id": "Artikel itu cukup tidak jelas tentang biayanya."
+          },
+          {
+            "en": "The writer amended the mistaken date.",
+            "id": "Penulis itu memperbaiki tanggal yang keliru."
+          },
+          {
+            "en": "This revision includes the latest data.",
+            "id": "Revisi ini memuat data terbaru."
+          },
+          {
+            "en": "The editor decided to retract the claim.",
+            "id": "Editor itu memutuskan untuk menarik klaim itu."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The old date is not the correct one now.",
+            "id": "Tanggal lama itu tidak lagi benar sekarang."
+          },
+          {
+            "en": "The correction does not change the main idea.",
+            "id": "Koreksi itu tidak mengubah ide utama."
+          },
+          {
+            "en": "Do not misunderstand the updated version.",
+            "id": "Jangan salah paham dengan versi yang diperbarui."
+          },
+          {
+            "en": "The distractor is not the right answer.",
+            "id": "Pengecoh itu bukan jawaban yang benar."
+          },
+          {
+            "en": "The writer did not retract the whole article.",
+            "id": "Penulis tidak menarik kembali seluruh artikel."
+          }
+        ],
+        "question": [
+          {
+            "en": "Which version is the most recent?",
+            "id": "Versi mana yang paling baru?"
+          },
+          {
+            "en": "Is the date in the first paragraph still correct?",
+            "id": "Apakah tanggal di paragraf pertama masih benar?"
+          },
+          {
+            "en": "What does the correction change?",
+            "id": "Apa yang diubah oleh koreksi itu?"
+          },
+          {
+            "en": "Which option is the distractor?",
+            "id": "Pilihan mana yang merupakan pengecoh?"
+          },
+          {
+            "en": "Did the editor retract the whole article?",
+            "id": "Apakah editor menarik kembali seluruh artikel?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The correction are important for readers.",
+          "right": "The correction is important for readers.",
+          "whyId": "Correction adalah kata benda tunggal, jadi memakai is."
+        },
+        {
+          "wrong": "He misunderstood the question yesterday and retracts it.",
+          "right": "He misunderstood the question yesterday and retracted it.",
+          "whyId": "Yesterday memakai bentuk lampau retracted."
+        },
+        {
+          "wrong": "The mistaken date were printed twice.",
+          "right": "The mistaken date was printed twice.",
+          "whyId": "Date adalah kata benda tunggal, jadi memakai was."
+        },
+        {
+          "wrong": "We will amends the form.",
+          "right": "We will amend the form.",
+          "whyId": "Setelah will, pakai kata kerja dasar amend."
+        },
+        {
+          "wrong": "The article was a rather long.",
+          "right": "The article was rather long.",
+          "whyId": "Rather langsung diikuti kata sifat, tanpa a."
+        },
+        {
+          "wrong": "This is a revisions of the guide.",
+          "right": "This is a revision of the guide.",
+          "whyId": "Revision adalah kata benda tunggal dalam konteks ini."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Koreksi pada Artikel Museum",
+    "text": "The museum newsletter published an article last month about the bronze statue in the east hall. The article stated that the statue dated from the twelfth century. Actually, the statue is much newer. A correction is needed, because several visitors and teachers have repeated the mistaken date.\n\nThe error began with a label. The old label was printed in a catalogue that many people used. Visitors may misunderstand the label as the official date, but it was only a draft. The curator explained that the team did not check the original records before the catalogue was printed.\n\nA distractor in the old display made the problem worse. A small card beside the statue listed a second date, which was rather different from the first one. This card was meant to show a different object, but many visitors read it as the same item. The museum has now removed the card.\n\nThe new date is based on metal analysis and records from the archive. These records show that the statue was cast in the fifteenth century. The staff will amend the catalogue, the online guide, and the wall label. Each change will appear in the next revision of the guide, which is due in June.\n\nSome readers asked why the museum did not retract the whole article. The editor's answer was that only the date was wrong. The rest of the article, including the description of the craftsmanship, remains accurate. Retracting everything would have been unnecessary, and it would have confused readers who had already learned the correct details.\n\nThe editor also thanked the readers who pointed out the mistake. Their feedback helped the team update the records faster than planned. The museum will publish a short note in each issue for the next six months, so that people can follow the changes.\n\nFinally, the staff asked visitors to check the newest version of the guide before they repeat the old date in a school project or an online post. A correction is only useful if people see it, and the team hopes this notice will reach the people who first read the mistake. The staff also placed a copy of the notice beside the statue, so that visitors who had read the old card would see the new information.",
+    "glossary": [
+      {
+        "en": "bronze",
+        "id": "perunggu"
+      },
+      {
+        "en": "catalogue",
+        "id": "katalog"
+      },
+      {
+        "en": "craftsmanship",
+        "id": "keahlian pembuatan"
+      },
+      {
+        "en": "curator",
+        "id": "kurator"
+      },
+      {
+        "en": "analysis",
+        "id": "analisis"
+      }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "true_false_not_given",
+        "prompt": "The statue was made in the twelfth century.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Artikel lama menyebut abad kedua belas, tetapi koreksi menyatakan patung itu dicor pada abad kelima belas.",
+        "stepByStep": [
+          "Cari date dan century di teks.",
+          "Teks menyatakan patung itu dicor pada abad kelima belas.",
+          "Karena versi baru menggantikan versi lama, pernyataan itu False."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Tanggal abad kedua belas adalah versi lama yang sudah dikoreksi."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks membahas abad pembuatan patung secara langsung."
+          }
+        ],
+        "evidence": "the statue was cast in the fifteenth century"
+      },
+      {
+        "id": "R2",
+        "type": "true_false_not_given",
+        "prompt": "The curator used to be a school teacher.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menyebut kurator menjelaskan bahwa tim tidak memeriksa catatan asli, tetapi tidak menyebut pekerjaan lamanya.",
+        "stepByStep": [
+          "Cari curator di teks.",
+          "Teks menyebut kurator menjelaskan tim tidak memeriksa catatan asli.",
+          "Pekerjaan sebelumnya tidak disebutkan, sehingga jawabannya Not Given."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks tidak menyebut pekerjaan kurator sebelumnya."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Teks tidak menyatakan kurator bukan guru."
+          }
+        ],
+        "evidence": "The curator explained that the team did not check"
+      },
+      {
+        "id": "R3",
+        "type": "true_false_not_given",
+        "prompt": "The museum will publish a revised guide in June.",
+        "options": [
+          {
+            "id": "A",
+            "text": "True"
+          },
+          {
+            "id": "B",
+            "text": "False"
+          },
+          {
+            "id": "C",
+            "text": "Not Given"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut revisi berikutnya dari panduan jatuh tempo pada bulan Juni.",
+        "stepByStep": [
+          "Cari revision dan June di teks.",
+          "Teks menyebut revisi berikutnya dari panduan jatuh tempo pada Juni.",
+          "Pernyataan itu sejalan dengan teks, sehingga True."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyatakan panduan berikutnya jatuh tempo pada Juni, jadi tidak False."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks menyebut bulan Juni secara langsung."
+          }
+        ],
+        "evidence": "which is due in June"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why did the museum not retract the whole article?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The rest of the article was accurate, and only the date was wrong."
+          },
+          {
+            "id": "B",
+            "text": "The editor did not know the article was wrong."
+          },
+          {
+            "id": "C",
+            "text": "The article had been removed from the archive."
+          },
+          {
+            "id": "D",
+            "text": "Readers asked the museum to keep the article."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menulis 'only the date was wrong' dan bagian lain tetap akurat, sehingga penarikan seluruh artikel tidak perlu.",
+        "stepByStep": [
+          "Cari retract di teks: some readers asked why the museum did not retract the whole article.",
+          "Editor menjawab hanya tanggal yang salah, dan bagian lain tetap akurat.",
+          "Editor tidak tahu artikel salah, artikel dihapus dari arsip, dan pembaca meminta mempertahankan artikel tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Teks menyebut editor mengetahui kesalahannya dan memutuskan koreksi itu."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Teks tidak menyebut artikel dihapus dari arsip."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Teks menyebut pembaca bertanya, bukan meminta artikel dipertahankan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Koreksi cukup untuk bagian yang salah saja, tidak harus menarik seluruh tulisan.",
+          "examples": [
+            {
+              "en": "Only the date needs to be corrected.",
+              "id": "Hanya tanggalnya yang perlu dikoreksi."
+            },
+            {
+              "en": "The rest of the report is still accurate.",
+              "id": "Sisa laporan itu tetap akurat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena artikel itu salah, tetapi teks menyatakan editor memahami kesalahannya dan mengoreksi bagian yang keliru.",
+        "evidence": "only the date was wrong"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the museum do to keep readers informed about the changes?",
+        "options": [
+          {
+            "id": "A",
+            "text": "closes the museum"
+          },
+          {
+            "id": "B",
+            "text": "publishes a short note in each issue for six months"
+          },
+          {
+            "id": "C",
+            "text": "removes the statue"
+          },
+          {
+            "id": "D",
+            "text": "prints a new catalogue every week"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menyebut museum akan menerbitkan catatan singkat di setiap edisi selama enam bulan.",
+        "stepByStep": [
+          "Cari bagian tentang cara museum memberi tahu pembaca.",
+          "Teks menyebut catatan singkat di setiap edisi selama enam bulan.",
+          "Menutup museum, memindahkan patung, dan mencetak katalog mingguan tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Teks tidak menyebut museum ditutup."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Patung dihapus dari kartu, bukan dipindahkan dari museum."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Teks tidak menyebut katalog dicetak setiap minggu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pembaruan yang berkelanjutan biasanya diumumkan lewat catatan singkat dalam edisi berikutnya.",
+          "examples": [
+            {
+              "en": "The journal publishes a note in every issue.",
+              "id": "Jurnal itu menerbitkan catatan di setiap edisi."
+            },
+            {
+              "en": "The team will share updates each month.",
+              "id": "Tim itu akan membagikan pembaruan setiap bulan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti cara memberi tahu pembaca, tetapi teks menyebut catatan singkat, bukan katalog baru setiap minggu.",
+        "evidence": "The museum will publish a short note in each issue for the next six months"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The teacher wrote a ___ on the board to fix the error.",
+        "options": [
+          {
+            "id": "A",
+            "text": "correction"
+          },
+          {
+            "id": "B",
+            "text": "bridge"
+          },
+          {
+            "id": "C",
+            "text": "garden"
+          },
+          {
+            "id": "D",
+            "text": "ticket"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Correction adalah perbaikan atas kesalahan.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Bridge berarti jembatan, bukan perbaikan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Garden berarti taman, bukan perbaikan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Ticket berarti tiket, bukan perbaikan."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Please ___ the form if you have changed your address.",
+        "options": [
+          {
+            "id": "A",
+            "text": "gather"
+          },
+          {
+            "id": "B",
+            "text": "shelve"
+          },
+          {
+            "id": "C",
+            "text": "amend"
+          },
+          {
+            "id": "D",
+            "text": "pilot"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Amend berarti memperbaiki atau mengubah isi formulir agar sesuai data terbaru.",
+        "stepByStep": [
+          "Kalimat meminta formulir diubah karena alamat berubah.",
+          "Mengubah isi agar sesuai data terbaru disebut amend.",
+          "Gather, shelve, dan pilot tidak berarti mengubah isi formulir."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Gather berarti mengumpulkan, bukan mengubah isi."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Shelve berarti menunda atau menyimpan, bukan mengubah isi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pilot berarti percobaan, bukan mengubah isi."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The ___ of the report was published after two months of review.",
+        "options": [
+          {
+            "id": "A",
+            "text": "gap"
+          },
+          {
+            "id": "B",
+            "text": "distractor"
+          },
+          {
+            "id": "C",
+            "text": "claim"
+          },
+          {
+            "id": "D",
+            "text": "revision"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Revision adalah versi yang diperbarui setelah peninjauan, dan cocok dengan laporan yang diterbitkan setelah dua bulan.",
+        "stepByStep": [
+          "Kalimat menyebut laporan diterbitkan setelah dua bulan peninjauan.",
+          "Versi yang diperbarui setelah peninjauan disebut revision.",
+          "Gap, distractor, dan claim tidak berarti versi yang diperbarui."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Gap berarti celah, bukan versi yang diperbarui."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Distractor berarti pengecoh, bukan versi yang diperbarui."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Claim berarti klaim, bukan versi yang diperbarui."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The student did not ___ the question and answered a different one.",
+        "options": [
+          {
+            "id": "A",
+            "text": "misunderstand"
+          },
+          {
+            "id": "B",
+            "text": "update"
+          },
+          {
+            "id": "C",
+            "text": "retract"
+          },
+          {
+            "id": "D",
+            "text": "rather"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Misunderstand berarti salah paham, dan itu menjelaskan mengapa siswa menjawab pertanyaan yang berbeda.",
+        "stepByStep": [
+          "Kalimat menyebut siswa menjawab pertanyaan lain.",
+          "Salah paham terhadap pertanyaan disebut misunderstand.",
+          "Update, retract, dan rather tidak menjelaskan kesalahan memahami pertanyaan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Update berarti memperbarui, bukan salah paham."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Retract berarti menarik kembali pernyataan, bukan salah paham."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Rather adalah kata keterangan, tidak bisa menggantikan kata kerja ini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Misunderstand berarti keliru menangkap maksud sesuatu.",
+          "examples": [
+            {
+              "en": "I misunderstood the instructions.",
+              "id": "Saya salah paham dengan instruksinya."
+            },
+            {
+              "en": "Do not misunderstand the purpose of the test.",
+              "id": "Jangan salah paham dengan tujuan tes itu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C retract terlihat cocok karena berkaitan dengan kesalahan, tetapi retract berarti menarik pernyataan, bukan salah memahami."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The writer decided to ___ the statement after reading new evidence.",
+        "options": [
+          {
+            "id": "A",
+            "text": "actually"
+          },
+          {
+            "id": "B",
+            "text": "distractor"
+          },
+          {
+            "id": "C",
+            "text": "retract"
+          },
+          {
+            "id": "D",
+            "text": "rather"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Retract berarti menarik kembali pernyataan setelah ada bukti baru.",
+        "stepByStep": [
+          "Kalimat menyebut penulis mengubah pernyataan setelah bukti baru.",
+          "Menarik kembali pernyataan yang sudah dibuat disebut retract.",
+          "Actually, distractor, dan rather tidak berarti menarik kembali pernyataan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Actually adalah kata keterangan, tidak bisa menjadi kata kerja di sini."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Distractor adalah kata benda, tidak bisa menjadi kata kerja di sini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Rather adalah kata keterangan, tidak bisa menjadi kata kerja di sini."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Retract berarti menarik kembali pernyataan yang sudah disampaikan, biasanya karena ada bukti baru.",
+          "examples": [
+            {
+              "en": "The journal retracted the article.",
+              "id": "Jurnal itu menarik kembali artikel itu."
+            },
+            {
+              "en": "She retracted her earlier claim.",
+              "id": "Dia menarik kembali klaimnya sebelumnya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A actually terlihat cocok karena sering muncul dalam koreksi, tetapi actually adalah kata keterangan, bukan kata kerja.",
+        "evidence": "retract"
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin memperbaiki kesalahan itu.",
+        "hint": "Saya ingin: I want to. Memperbaiki: correct. Kesalahan itu: the mistake.",
+        "acceptedAnswers": [
+          "I want to correct the mistake.",
+          "I would like to correct the mistake."
+        ],
+        "modelAnswer": "I want to correct the mistake.",
+        "commonErrors": [
+          {
+            "pattern": "I want correct the mistake",
+            "feedbackId": "Setelah want to, pakai kata kerja dasar correct."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penulis itu salah paham dengan pertanyaannya.",
+        "hint": "Penulis itu: the writer. Salah paham: misunderstood. Pertanyaannya: the question.",
+        "acceptedAnswers": [
+          "The writer misunderstood the question.",
+          "The writer misunderstood that question."
+        ],
+        "modelAnswer": "The writer misunderstood the question.",
+        "commonErrors": [
+          {
+            "pattern": "The writer misunderstand the question",
+            "feedbackId": "Gunakan bentuk lampau misunderstood untuk kejadian lampau."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami akan memperbarui catatan itu minggu depan.",
+        "hint": "Kami akan: we will. Memperbarui: update. Catatan itu: the notes. Minggu depan: next week.",
+        "acceptedAnswers": [
+          "We will update the notes next week.",
+          "We will update the notes in the next week."
+        ],
+        "modelAnswer": "We will update the notes next week.",
+        "commonErrors": [
+          {
+            "pattern": "We will updated the notes next week",
+            "feedbackId": "Setelah will, pakai kata kerja dasar update."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Editor itu memutuskan untuk menarik kembali pernyataan itu.",
+        "hint": "Editor itu: the editor. Memutuskan untuk: decided to. Menarik kembali: retract. Pernyataan itu: the statement.",
+        "acceptedAnswers": [
+          "The editor decided to retract the statement.",
+          "The editor decided to retract that statement."
+        ],
+        "modelAnswer": "The editor decided to retract the statement.",
+        "commonErrors": [
+          {
+            "pattern": "The editor decided retract the statement",
+            "feedbackId": "Setelah decided to, pakai kata kerja dasar retract."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Revisi laporan itu menjelaskan alasan perubahannya.",
+        "hint": "Revisi laporan itu: the revision of the report. Menjelaskan: explains. Alasan perubahannya: the reason for the change.",
+        "acceptedAnswers": [
+          "The revision of the report explains the reason for the change.",
+          "The report's revision explains the reason for the change."
+        ],
+        "modelAnswer": "The revision of the report explains the reason for the change.",
+        "commonErrors": [
+          {
+            "pattern": "The revision of the report explain the reasons for change",
+            "feedbackId": "Subjek revision tunggal memakai explains, dan gunakan the change."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a wrong option placed to confuse readers'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "update"
+          },
+          {
+            "id": "B",
+            "text": "distractor"
+          },
+          {
+            "id": "C",
+            "text": "revision"
+          },
+          {
+            "id": "D",
+            "text": "amend"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Distractor adalah pilihan yang tampak benar tetapi sengaja dibuat menyesatkan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk pilihan yang sengaja menyesatkan.",
+          "Pilihan seperti itu disebut distractor.",
+          "Update, revision, dan amend berarti memperbarui atau mengubah, bukan menyesatkan."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Update berarti memperbarui, bukan pilihan yang menyesatkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Revision berarti versi yang diperbarui, bukan pilihan menyesatkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Amend berarti memperbaiki, bukan pilihan menyesatkan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Distractor adalah pengecoh dalam soal, sering memakai kata dari teks tetapi maknanya salah.",
+          "examples": [
+            {
+              "en": "The second option is a distractor.",
+              "id": "Pilihan kedua adalah pengecoh."
+            },
+            {
+              "en": "Avoid the distractor that repeats the old date.",
+              "id": "Hindari pengecoh yang mengulang tanggal lama."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C revision terlihat cocok karena berkaitan dengan teks yang diperbaiki, tetapi kalimat ini meminta pilihan yang menyesatkan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'rather'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "Rather the room was cold we stayed."
+          },
+          {
+            "id": "B",
+            "text": "The room rather cold was we stayed."
+          },
+          {
+            "id": "C",
+            "text": "We rather stay cold the room."
+          },
+          {
+            "id": "D",
+            "text": "The room was rather cold."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Rather diletakkan sebelum kata sifat cold, dan urutannya membentuk kalimat yang benar.",
+        "stepByStep": [
+          "Rather adalah kata keterangan yang menerangkan kata sifat setelahnya.",
+          "Pola was rather cold membentuk kalimat yang benar.",
+          "Pilihan A, B, dan C memiliki urutan kata yang rusak."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Urutan kata dalam kalimat ini rusak."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Urutan kata dalam kalimat ini rusak."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Urutan kata dalam kalimat ini rusak."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rather menerangkan kata sifat atau kata keterangan, dan diletakkan sebelum kata itu.",
+          "examples": [
+            {
+              "en": "The film was rather long.",
+              "id": "Filmnya cukup panjang."
+            },
+            {
+              "en": "She is rather tired today.",
+              "id": "Dia cukup lelah hari ini."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat yang benar karena memakai kata rather, tetapi urutan katanya tidak membentuk kalimat yang benar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The museum will ___ the label to show the correct date.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "amend"
+          },
+          {
+            "id": "B",
+            "text": "misunderstand"
+          },
+          {
+            "id": "C",
+            "text": "distractor"
+          },
+          {
+            "id": "D",
+            "text": "actually"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Amend berarti memperbaiki label agar menunjukkan tanggal yang benar.",
+        "stepByStep": [
+          "Kalimat menyebut memperbaiki label untuk tanggal yang benar.",
+          "Memperbaiki sesuatu agar benar disebut amend.",
+          "Misunderstand, distractor, dan actually tidak berarti memperbaiki label."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Misunderstand berarti salah paham, bukan memperbaiki label."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Distractor adalah pengecoh, bukan tindakan memperbaiki."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Actually adalah kata keterangan, tidak bisa menjadi tindakan memperbaiki."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Amend berarti mengubah atau memperbaiki isi dokumen agar akurat.",
+          "examples": [
+            {
+              "en": "We amended the schedule after the meeting.",
+              "id": "Kami memperbaiki jadwal setelah rapat."
+            },
+            {
+              "en": "The author amended the first chapter.",
+              "id": "Penulis memperbaiki bab pertama."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B misunderstand terlihat cocok karena berkaitan dengan tanggal yang salah, tetapi tindakan yang diminta adalah memperbaiki label."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'to take back a statement that you made earlier'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "update"
+          },
+          {
+            "id": "B",
+            "text": "amend"
+          },
+          {
+            "id": "C",
+            "text": "retract"
+          },
+          {
+            "id": "D",
+            "text": "correction"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Retract berarti menarik kembali pernyataan yang sudah dibuat sebelumnya.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk menarik kembali pernyataan.",
+          "Menarik kembali pernyataan disebut retract.",
+          "Update dan amend berarti memperbarui atau memperbaiki, sedangkan correction adalah kata benda."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Update berarti memperbarui, bukan menarik kembali."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Amend berarti memperbaiki, bukan menarik kembali pernyataan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Correction adalah kata benda, bukan tindakan menarik kembali."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Retract berarti menarik kembali pernyataan atau klaim yang sudah disampaikan.",
+          "examples": [
+            {
+              "en": "He had to retract his earlier statement.",
+              "id": "Dia harus menarik kembali pernyataan awalnya."
+            },
+            {
+              "en": "The paper was retracted after new evidence.",
+              "id": "Makalah itu ditarik kembali setelah ada bukti baru."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D correction terlihat cocok karena berkaitan dengan kesalahan, tetapi correction adalah kata benda, bukan tindakan menarik kembali."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The correction are important for readers."
+          },
+          {
+            "id": "B",
+            "text": "The correction is important for readers."
+          },
+          {
+            "id": "C",
+            "text": "The corrections is important for readers."
+          },
+          {
+            "id": "D",
+            "text": "The correction importance for readers is."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Correction adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Correction adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa important for readers menerangkan pentingnya koreksi.",
+          "Pilihan A memakai are untuk tunggal, pilihan C memakai corrections dengan is, dan pilihan D urutannya salah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal correction."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Corrections jamak tidak cocok dengan is di sini."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan frasa important for menjelaskan kepentingan sesuatu.",
+          "examples": [
+            {
+              "en": "The update is useful for students.",
+              "id": "Pembaruan itu berguna bagi siswa."
+            },
+            {
+              "en": "The revision is important for readers.",
+              "id": "Revisi itu penting bagi pembaca."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena korreksi sering dibicarakan jamak, tetapi kalimat ini memakai subjek tunggal."
+      }
+    ]
+  }
+}

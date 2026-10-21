@@ -1,0 +1,1274 @@
+{
+  "day": 84,
+  "week": 12,
+  "month": 3,
+  "title": "Speaking Part 2: Cue Card",
+  "topic": "Berbicara dua menit tentang satu pengalaman dengan urutan yang jelas",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membaca cue card dan merencanakan urutan cerita",
+    "Menceritakan pengalaman dengan detail yang hidup",
+    "Menutup jawaban dengan refleksi singkat"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "cue card",
+        "pronunciationId": "KYOO KARD (tekanan di KYOO)",
+        "pos": "Noun",
+        "meaningId": "kartu petunjuk topik",
+        "example": "Read the cue card carefully.",
+        "exampleId": "Bacalah kartu petunjuk dengan teliti."
+      },
+      {
+        "no": 2,
+        "en": "narrate",
+        "pronunciationId": "NAR-ayt (tekanan di NAR)",
+        "pos": "Verb",
+        "meaningId": "menceritakan",
+        "example": "Narrate the story in order.",
+        "exampleId": "Ceritakan kisahnya secara berurutan."
+      },
+      {
+        "no": 3,
+        "en": "anecdote",
+        "pronunciationId": "AN-ik-doht (tekanan di AN)",
+        "pos": "Noun",
+        "meaningId": "kisah singkat yang menarik",
+        "example": "She told a funny anecdote.",
+        "exampleId": "Dia menceritakan kisah singkat yang lucu."
+      },
+      {
+        "no": 4,
+        "en": "memorable",
+        "pronunciationId": "MEM-ur-uh-bul (tekanan di MEM)",
+        "pos": "Adj",
+        "meaningId": "tak terlupakan",
+        "example": "It was a memorable day.",
+        "exampleId": "Itu hari yang tak terlupakan."
+      },
+      {
+        "no": 5,
+        "en": "timeline",
+        "pronunciationId": "TAHYM-lahyn (tekanan di TAHYM)",
+        "pos": "Noun",
+        "meaningId": "garis waktu",
+        "example": "The timeline shows each event.",
+        "exampleId": "Garis waktu itu menunjukkan setiap peristiwa."
+      },
+      {
+        "no": 6,
+        "en": "recall",
+        "pronunciationId": "ri-KAWL (tekanan di KAWL)",
+        "pos": "Verb",
+        "meaningId": "mengingat kembali",
+        "example": "I recall the smell of rain.",
+        "exampleId": "Saya mengingat kembali aroma hujan."
+      },
+      {
+        "no": 7,
+        "en": "vivid",
+        "pronunciationId": "VIV-id (tekanan di VIV)",
+        "pos": "Adj",
+        "meaningId": "jelas dan hidup",
+        "example": "The memory is vivid.",
+        "exampleId": "Ingatan itu jelas dan hidup."
+      },
+      {
+        "no": 8,
+        "en": "sensation",
+        "pronunciationId": "sen-SAY-shun (tekanan di SAY)",
+        "pos": "Noun",
+        "meaningId": "sensasi, perasaan",
+        "example": "I felt a strange sensation.",
+        "exampleId": "Saya merasakan sensasi yang aneh."
+      },
+      {
+        "no": 9,
+        "en": "prompt",
+        "pronunciationId": "PROMPT (tekanan di PROMPT)",
+        "pos": "Noun",
+        "meaningId": "petunjuk, pemicu",
+        "example": "The prompt asks about a journey.",
+        "exampleId": "Petunjuknya menanyakan tentang perjalanan."
+      },
+      {
+        "no": 10,
+        "en": "reflect",
+        "pronunciationId": "ri-FLEKT (tekanan di FLEKT)",
+        "pos": "Verb",
+        "meaningId": "merenungkan",
+        "example": "I reflect on that day often.",
+        "exampleId": "Saya sering merenungkan hari itu."
+      }
+    ],
+    "tip": "Pada Speaking Part 2, gunakan urutan waktu sebagai kerangka: awal, peristiwa, dan akhir. Tutup dengan satu kalimat refleksi."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": [
+        "IELTS speaking part 2 cue card",
+        "IELTS speaking part 2 story telling"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menjawab cue card, dengan contoh urutan cerita dan kalimat refleksi.",
+      "watchFor": [
+        "Urutan cerita dari awal sampai akhir",
+        "Detail sensorik yang membuat cerita hidup",
+        "Kalimat penutup yang merefleksikan pengalaman"
+      ]
+    },
+    "lesson": {
+      "intro": "Pada Speaking Part 2, kamu diberi cue card dan diminta berbicara sekitar dua menit. Susun cerita dengan urutan yang jelas, tambahkan detail yang hidup, lalu tutup dengan refleksi.",
+      "sections": [
+        {
+          "heading": "Membaca dan merencanakan",
+          "bodyMd": "Baca **cue card** dengan teliti, lalu buat garis besar **timeline** singkat. Catat satu atau dua poin yang akan kamu **recall** dari pengalamanmu."
+        },
+        {
+          "heading": "Menceritakan",
+          "bodyMd": "Gunakan **narrate** untuk menceritakan urutan kejadian. Tambahkan **anecdote** kecil agar cerita terasa nyata. Pakai kata **vivid** dan **sensation** untuk menggambarkan apa yang kamu rasakan."
+        },
+        {
+          "heading": "Menutup",
+          "bodyMd": "Jelaskan mengapa pengalaman itu **memorable**. Gunakan **reflect** untuk menutup, dan pastikan jawabanmu tetap sesuai dengan **prompt**."
+        }
+      ],
+      "formulas": [
+        {
+          "label": "Awal",
+          "pattern": "The trip started when X"
+        },
+        {
+          "label": "Detail",
+          "pattern": "What I remember most is X"
+        },
+        {
+          "label": "Perasaan",
+          "pattern": "I felt a X sensation when Y"
+        },
+        {
+          "label": "Refleksi",
+          "pattern": "Looking back, it taught me X"
+        }
+      ],
+      "examples": {
+        "positive": [
+          {
+            "en": "I want to narrate a trip that changed my view.",
+            "id": "Saya ingin menceritakan perjalanan yang mengubah pandangan saya."
+          },
+          {
+            "en": "Let me recall the first moment we arrived.",
+            "id": "Biarkan saya mengingat kembali momen pertama kami tiba."
+          },
+          {
+            "en": "The view was vivid and calm.",
+            "id": "Pemandangannya jelas, hidup, dan tenang."
+          },
+          {
+            "en": "It was a memorable day for the whole family.",
+            "id": "Itu hari yang tak terlupakan bagi seluruh keluarga."
+          },
+          {
+            "en": "Looking back, I reflect on how much I learned.",
+            "id": "Jika dilihat kembali, saya merenungkan betapa banyak yang saya pelajari."
+          }
+        ],
+        "negative": [
+          {
+            "en": "The story is not in order, so it is hard to follow.",
+            "id": "Ceritanya tidak berurutan, sehingga sulit diikuti."
+          },
+          {
+            "en": "I do not remember the exact date.",
+            "id": "Saya tidak ingat tanggal pastinya."
+          },
+          {
+            "en": "The trip was not boring at any point.",
+            "id": "Perjalanan itu tidak membosankan pada bagian mana pun."
+          },
+          {
+            "en": "The anecdote does not match the prompt.",
+            "id": "Anekdot itu tidak sesuai dengan petunjuk."
+          },
+          {
+            "en": "The sensation was not pleasant at first.",
+            "id": "Sensasinya tidak menyenangkan pada awalnya."
+          }
+        ],
+        "question": [
+          {
+            "en": "What does the cue card ask you to describe?",
+            "id": "Apa yang diminta kartu petunjuk untuk kamu jelaskan?"
+          },
+          {
+            "en": "Can you narrate the story in order?",
+            "id": "Bisakah kamu menceritakan kisah itu secara berurutan?"
+          },
+          {
+            "en": "What was the most memorable part?",
+            "id": "Bagian apa yang paling tak terlupakan?"
+          },
+          {
+            "en": "How do you feel when you recall it?",
+            "id": "Bagaimana perasaanmu saat mengingatnya kembali?"
+          },
+          {
+            "en": "Why do you reflect on this experience?",
+            "id": "Mengapa kamu merenungkan pengalaman ini?"
+          }
+        ]
+      },
+      "commonMistakes": [
+        {
+          "wrong": "The trip are memorable.",
+          "right": "The trip is memorable.",
+          "whyId": "Trip tunggal memakai is."
+        },
+        {
+          "wrong": "I narrate the story yesterday.",
+          "right": "I narrated the story yesterday.",
+          "whyId": "Yesterday memakai bentuk lampau narrated."
+        },
+        {
+          "wrong": "I recall it very vividly for many year.",
+          "right": "I recall it very vividly for many years.",
+          "whyId": "Setelah many, kata benda memakai bentuk jamak."
+        },
+        {
+          "wrong": "It was a sensations of cold.",
+          "right": "It was a sensation of cold.",
+          "whyId": "Setelah a, kata benda memakai bentuk tunggal sensation."
+        },
+        {
+          "wrong": "The prompt ask me about a trip.",
+          "right": "The prompt asks me about a trip.",
+          "whyId": "Subjek prompt tunggal memakai asks."
+        },
+        {
+          "wrong": "I reflects on this often.",
+          "right": "I reflect on this often.",
+          "whyId": "Subjek I memakai kata kerja dasar reflect."
+        }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": [
+        "IELTS speaking part 2 cue card",
+        "IELTS speaking examiner English listening"
+      ],
+      "channels": [
+        "English with Lucy",
+        "BBC Learning English"
+      ],
+      "watchFor": [
+        "Petunjuk cue card dari pemeriksa",
+        "Urutan cerita dan detail yang disebut kandidat"
+      ]
+    },
+    "script": {
+      "title": "Speaking Part 2: Perjalanan yang tak terlupakan",
+      "lines": [
+        {
+          "speaker": "Examiner",
+          "text": "Now I'm going to give you a cue card. Describe a memorable journey you have taken. You have one minute to prepare."
+        },
+        {
+          "speaker": "Candidate",
+          "text": "Thank you. I will narrate a trip I took to the mountains last year."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "Go ahead."
+        },
+        {
+          "speaker": "Candidate",
+          "text": "The trip started early in the morning. Let me recall the timeline: first the bus, then a short walk, then the summit."
+        },
+        {
+          "speaker": "Candidate",
+          "text": "The view from the top was vivid. The cold air gave me a strong sensation of freedom."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "Why was it memorable?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "It is an anecdote I still tell my friends. We got lost once, and a farmer helped us find the path."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "How did you feel afterwards?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "I reflect on it often. It taught me to plan carefully, but also to enjoy surprises."
+        },
+        {
+          "speaker": "Examiner",
+          "text": "Thank you. That was a clear response to the prompt."
+        }
+      ]
+    },
+    "shadowingTips": [
+      "Pada memorable, tekanan ada di suku pertama: MEM-ur-uh-bul.",
+      "Pada sensation, tekanan ada di suku kedua: sen-SAY-shun.",
+      "Pada anecdote, tekanan ada di suku pertama: AN-ik-doht."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What kind of journey does the candidate describe?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a trip to the mountains"
+          },
+          {
+            "id": "B",
+            "text": "a train journey across the country"
+          },
+          {
+            "id": "C",
+            "text": "a flight to another continent"
+          },
+          {
+            "id": "D",
+            "text": "a boat trip on a lake"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Kandidat berkata ia menceritakan perjalanan ke pegunungan tahun lalu.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Perjalanan kereta antarnegara tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Penerbangan ke benua lain tidak disebut oleh kandidat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Perjalanan perahu di danau tidak disebut oleh kandidat."
+          }
+        ],
+        "evidence": "a trip I took to the mountains last year"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What was the first part of the trip?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a short walk"
+          },
+          {
+            "id": "B",
+            "text": "the bus"
+          },
+          {
+            "id": "C",
+            "text": "the summit"
+          },
+          {
+            "id": "D",
+            "text": "a boat"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Kandidat menyebut urutannya dimulai dengan bus, lalu jalan kaki singkat, lalu puncak.",
+        "stepByStep": [
+          "Cari timeline di naskah kandidat.",
+          "Kandidat menyebut first the bus.",
+          "Jalan kaki dan puncak datang setelah bus, sedangkan perahu tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Jalan kaki singkat disebut setelah bus."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Puncak adalah bagian akhir perjalanan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Perahu tidak disebut dalam perjalanan itu."
+          }
+        ],
+        "evidence": "first the bus"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "How did the candidate describe the view from the top?",
+        "options": [
+          {
+            "id": "A",
+            "text": "vivid"
+          },
+          {
+            "id": "B",
+            "text": "blurred"
+          },
+          {
+            "id": "C",
+            "text": "hidden"
+          },
+          {
+            "id": "D",
+            "text": "dull"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Kandidat berkata pemandangan dari atas itu jelas dan hidup.",
+        "stepByStep": [
+          "Cari view di naskah kandidat.",
+          "Kandidat menyebut the view from the top was vivid.",
+          "Kabur, tersembunyi, dan membosankan tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Kabur tidak sesuai dengan pemandangan yang dijelaskan kandidat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Tersembunyi tidak sesuai dengan kandidat yang menggambarkan pemandangan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Membosankan tidak disebut oleh kandidat."
+          }
+        ],
+        "evidence": "The view from the top was vivid"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What helped the candidate find the path after getting lost?",
+        "options": [
+          {
+            "id": "A",
+            "text": "a map"
+          },
+          {
+            "id": "B",
+            "text": "a GPS device"
+          },
+          {
+            "id": "C",
+            "text": "a farmer"
+          },
+          {
+            "id": "D",
+            "text": "a guide"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Kandidat berkata seorang petani membantu mereka menemukan jalan.",
+        "stepByStep": [
+          "Cari lost dan path di naskah kandidat.",
+          "Kandidat menyebut a farmer helped us find the path.",
+          "Peta, GPS, dan pemandu tidak disebut dalam naskah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Peta tidak disebut dalam naskah."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "GPS tidak disebut dalam naskah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Pemandu tidak disebut dalam naskah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam cerita, tokoh penolong biasanya disebut secara spesifik agar kisahnya terasa nyata.",
+          "examples": [
+            {
+              "en": "A local shopkeeper showed us the way.",
+              "id": "Seorang pemilik toko setempat menunjukkan jalan kepada kami."
+            },
+            {
+              "en": "A kind stranger helped us carry the bags.",
+              "id": "Seorang asing yang baik membantu kami membawa tas."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A map terlihat masuk akal untuk orang yang tersesat, tetapi kandidat menyebut seorang petani yang membantu.",
+        "evidence": "a farmer helped us find the path"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What lesson did the candidate learn from the trip?",
+        "options": [
+          {
+            "id": "A",
+            "text": "to avoid all surprises"
+          },
+          {
+            "id": "B",
+            "text": "to plan carefully, but also to enjoy surprises"
+          },
+          {
+            "id": "C",
+            "text": "to travel alone"
+          },
+          {
+            "id": "D",
+            "text": "to never go to the mountains again"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kandidat berkata ia belajar untuk merencanakan dengan hati-hati, tetapi juga menikmati kejutan.",
+        "stepByStep": [
+          "Cari taught me di naskah kandidat.",
+          "Kandidat menyebut plan carefully, but also enjoy surprises.",
+          "Menghindari kejutan, bepergian sendiri, dan tidak kembali ke gunung tidak disebut."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Kandidat justru menyebut menikmati kejutan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Bepergian sendiri tidak disebut."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Kandidat tidak menyatakan tidak akan kembali ke gunung."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Refleksi dalam Speaking biasanya menyebut pelajaran yang dipetik dari pengalaman.",
+          "examples": [
+            {
+              "en": "It taught me to be patient.",
+              "id": "Itu mengajari saya untuk bersabar."
+            },
+            {
+              "en": "It made me value simple moments.",
+              "id": "Itu membuat saya menghargai momen sederhana."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti pelajaran yang masuk akal, tetapi kandidat menyebut menikmati kejutan, bukan menghindarinya.",
+        "evidence": "to plan carefully, but also to enjoy surprises"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Please read the ___ carefully before you start speaking.",
+        "options": [
+          {
+            "id": "A",
+            "text": "cue card"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Cue card adalah kartu petunjuk topik dalam Speaking Part 2.",
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan kartu petunjuk."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan kartu petunjuk."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan kartu petunjuk."
+          }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Let me ___ the events of that day in the right order.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "recall"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Recall berarti mengingat kembali kejadian yang sudah lewat.",
+        "stepByStep": [
+          "Kalimat meminta mengingat kembali peristiwa dalam urutan.",
+          "Mengingat kembali kejadian disebut recall.",
+          "Garden, ticket, dan bridge tidak berarti mengingat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan mengingat."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan mengingat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan mengingat."
+          }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The trip was so ___ that I still remember every detail.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "memorable"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Memorable berarti tak terlupakan, dan kalimat ini menyebut ingatan yang masih jelas.",
+        "stepByStep": [
+          "Kalimat menyebut perjalanan yang masih diingat dengan detail.",
+          "Sifat yang berarti tak terlupakan adalah memorable.",
+          "Garden, ticket, dan bridge bukan kata sifat."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan kata sifat."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan kata sifat."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan kata sifat."
+          }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Her story was a short ___ about a lucky day at the market.",
+        "options": [
+          {
+            "id": "A",
+            "text": "anecdote"
+          },
+          {
+            "id": "B",
+            "text": "garden"
+          },
+          {
+            "id": "C",
+            "text": "ticket"
+          },
+          {
+            "id": "D",
+            "text": "bridge"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Anecdote adalah kisah singkat yang menarik, dan kalimat ini menyebut cerita pendek tentang hari yang beruntung.",
+        "stepByStep": [
+          "Kalimat menyebut cerita pendek tentang satu kejadian.",
+          "Kisah singkat yang menarik disebut anecdote.",
+          "Garden, ticket, dan bridge tidak berarti kisah."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Garden berarti taman, bukan kisah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Ticket berarti tiket, bukan kisah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Bridge berarti jembatan, bukan kisah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Anecdote adalah cerita singkat yang menghidupkan poin tertentu dalam percakapan atau pidato.",
+          "examples": [
+            {
+              "en": "He shared an anecdote about his first job.",
+              "id": "Dia menceritakan kisah singkat tentang pekerjaan pertamanya."
+            },
+            {
+              "en": "A short anecdote made the speech memorable.",
+              "id": "Kisah singkat membuat pidato itu tak terlupakan."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B garden terlihat cocok karena ada latar pasar, tetapi kalimat ini meminta kata untuk cerita singkat."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Create a ___ of the main events so the listener can follow the story.",
+        "options": [
+          {
+            "id": "A",
+            "text": "garden"
+          },
+          {
+            "id": "B",
+            "text": "ticket"
+          },
+          {
+            "id": "C",
+            "text": "bridge"
+          },
+          {
+            "id": "D",
+            "text": "timeline"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Timeline adalah urutan waktu dari peristiwa dalam sebuah cerita.",
+        "stepByStep": [
+          "Kalimat meminta urutan waktu peristiwa agar pendengar mengikuti cerita.",
+          "Urutan waktu dari peristiwa disebut timeline.",
+          "Garden, ticket, dan bridge tidak berarti urutan waktu."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Garden berarti taman, bukan urutan waktu."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Ticket berarti tiket, bukan urutan waktu."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Bridge berarti jembatan, bukan urutan waktu."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Timeline membantu pendengar melihat urutan peristiwa dari awal sampai akhir.",
+          "examples": [
+            {
+              "en": "The timeline starts with the bus journey.",
+              "id": "Garis waktu itu dimulai dengan perjalanan bus."
+            },
+            {
+              "en": "A clear timeline helps the listener follow.",
+              "id": "Garis waktu yang jelas membantu pendengar mengikuti."
+            }
+          ]
+        },
+        "examTrap": "Pilihan C bridge terlihat cocok karena cerita perlu penghubung, tetapi kalimat ini meminta urutan waktu peristiwa."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin menceritakan perjalanan yang tak terlupakan.",
+        "hint": "Saya ingin: I want to. Menceritakan: narrate. Perjalanan yang tak terlupakan: a memorable trip.",
+        "acceptedAnswers": [
+          "I want to narrate a memorable trip.",
+          "I would like to narrate a memorable trip."
+        ],
+        "modelAnswer": "I want to narrate a memorable trip.",
+        "commonErrors": [
+          {
+            "pattern": "I want narrate a memorable trips",
+            "feedbackId": "Setelah want to, pakai kata kerja dasar narrate, dan trip tunggal."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pemandangan itu sangat jelas dan hidup.",
+        "hint": "Pemandangan itu: the view. Sangat jelas dan hidup: very clear and vivid.",
+        "acceptedAnswers": [
+          "The view was very clear and vivid.",
+          "The scene was very clear and vivid."
+        ],
+        "modelAnswer": "The view was very clear and vivid.",
+        "commonErrors": [
+          {
+            "pattern": "The view are very clear and vivids",
+            "feedbackId": "Subjek view tunggal memakai was, dan vivid tidak berakhiran -s."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya masih sering merenungkan pengalaman itu.",
+        "hint": "Saya masih sering: I still often. Merenungkan: reflect on. Pengalaman itu: that experience.",
+        "acceptedAnswers": [
+          "I still often reflect on that experience.",
+          "I still reflect on that experience often."
+        ],
+        "modelAnswer": "I still often reflect on that experience.",
+        "commonErrors": [
+          {
+            "pattern": "I still often reflects on that experience",
+            "feedbackId": "Subjek I memakai reflect tanpa -s."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sensasi dingin di puncak membuat saya merasa hidup.",
+        "hint": "Sensasi dingin: the cold sensation. Di puncak: at the top. Membuat saya merasa hidup: made me feel alive.",
+        "acceptedAnswers": [
+          "The cold sensation at the top made me feel alive.",
+          "The cold sensation on the summit made me feel alive."
+        ],
+        "modelAnswer": "The cold sensation at the top made me feel alive.",
+        "commonErrors": [
+          {
+            "pattern": "The cold sensations at the top make me feels alive",
+            "feedbackId": "Subjek sensation tunggal memakai made, dan setelah made me memakai feel."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Garis waktu peristiwa itu membantu saya mengingat detailnya.",
+        "hint": "Garis waktu peristiwa: the timeline of the events. Membantu: helps. Mengingat detailnya: recall the details.",
+        "acceptedAnswers": [
+          "The timeline of the events helps me recall the details.",
+          "The timeline of events helps me recall the details."
+        ],
+        "modelAnswer": "The timeline of the events helps me recall the details.",
+        "commonErrors": [
+          {
+            "pattern": "The timeline of the events help me recalls the detail",
+            "feedbackId": "Subjek timeline tunggal memakai helps, dan setelah help me memakai kata kerja dasar recall."
+          }
+        ],
+        "rubric": [
+          {
+            "criterion": "Makna",
+            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
+          },
+          {
+            "criterion": "Tata bahasa",
+            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
+          }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to describe a story in detail'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "reflect"
+          },
+          {
+            "id": "B",
+            "text": "narrate"
+          },
+          {
+            "id": "C",
+            "text": "prompt"
+          },
+          {
+            "id": "D",
+            "text": "sensation"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Narrate berarti menceritakan sebuah kisah secara rinci dan berurutan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk menceritakan kisah secara rinci.",
+          "Kata kerja yang tepat adalah narrate.",
+          "Reflect berarti merenungkan, prompt berarti petunjuk, dan sensation berarti sensasi."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Reflect berarti merenungkan, bukan menceritakan kisah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Prompt berarti petunjuk, bukan menceritakan kisah."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Sensation berarti sensasi, bukan menceritakan kisah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Narrate dipakai untuk menceritakan kejadian secara berurutan.",
+          "examples": [
+            {
+              "en": "She narrated the story of her journey.",
+              "id": "Dia menceritakan kisah perjalanannya."
+            },
+            {
+              "en": "Narrate the events in the order they happened.",
+              "id": "Ceritakan peristiwanya sesuai urutan kejadian."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A reflect terlihat cocok karena cerita sering diakhiri refleksi, tetapi reflect berarti merenungkan, bukan menceritakan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'anecdote'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The anecdote are funny for the class."
+          },
+          {
+            "id": "B",
+            "text": "Anecdote the funny is class."
+          },
+          {
+            "id": "C",
+            "text": "The anecdotes is funny for the class."
+          },
+          {
+            "id": "D",
+            "text": "The anecdote is funny for the class."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Anecdote adalah subjek tunggal, sehingga memakai is, dan frasa funny for the class sudah benar.",
+        "stepByStep": [
+          "Anecdote adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Frasa funny for the class menjelaskan kisah itu.",
+          "Pilihan A memakai are, pilihan B urutannya salah, dan pilihan C memakai anecdotes dengan is."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal anecdote."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Urutan kata dalam kalimat ini salah."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Anecdotes jamak tidak cocok dengan is untuk satu kisah."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Anecdote adalah kata benda tunggal yang memakai is atau was.",
+          "examples": [
+            {
+              "en": "The anecdote was short and clear.",
+              "id": "Kisah singkat itu pendek dan jelas."
+            },
+            {
+              "en": "This anecdote is about my first job.",
+              "id": "Kisah ini tentang pekerjaan pertama saya."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena kisah sering dibicarakan jamak, tetapi kalimat ini menyebut satu kisah."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word means 'to think back on past experiences'?",
+        "options": [
+          {
+            "id": "A",
+            "text": "reflect"
+          },
+          {
+            "id": "B",
+            "text": "sensation"
+          },
+          {
+            "id": "C",
+            "text": "prompt"
+          },
+          {
+            "id": "D",
+            "text": "vivid"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Reflect berarti merenungkan atau memikirkan kembali pengalaman masa lalu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk memikirkan kembali pengalaman lalu.",
+          "Kata kerja yang tepat adalah reflect.",
+          "Sensation, prompt, dan vivid tidak berarti memikirkan kembali pengalaman."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "B",
+            "reasonId": "Sensation berarti sensasi, bukan merenungkan."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Prompt berarti petunjuk, bukan merenungkan."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Vivid berarti jelas dan hidup, bukan merenungkan."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reflect dipakai untuk merenungkan pengalaman atau pelajaran dari masa lalu.",
+          "examples": [
+            {
+              "en": "I reflect on that trip every year.",
+              "id": "Saya merenungkan perjalanan itu setiap tahun."
+            },
+            {
+              "en": "She reflected on what she had learned.",
+              "id": "Dia merenungkan apa yang telah dia pelajari."
+            }
+          ]
+        },
+        "examTrap": "Pilihan D vivid terlihat cocok karena kenangan sering jelas, tetapi vivid menggambarkan kejelasan, bukan tindakan merenung."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The question was a clear ___ to talk about your favourite trip.'",
+        "options": [
+          {
+            "id": "A",
+            "text": "timeline"
+          },
+          {
+            "id": "B",
+            "text": "anecdote"
+          },
+          {
+            "id": "C",
+            "text": "prompt"
+          },
+          {
+            "id": "D",
+            "text": "vivid"
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Prompt adalah petunjuk atau pemicu yang meminta seseorang berbicara tentang topik tertentu.",
+        "stepByStep": [
+          "Kalimat menyebut pertanyaan yang memicu pembicaraan tentang perjalanan favorit.",
+          "Pemicu yang memberi topik disebut prompt.",
+          "Timeline, anecdote, dan vivid tidak berarti pemicu topik."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Timeline berarti garis waktu, bukan pemicu topik."
+          },
+          {
+            "optionId": "B",
+            "reasonId": "Anecdote berarti kisah singkat, bukan pemicu topik."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Vivid berarti jelas dan hidup, bukan pemicu topik."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Prompt memberi arah atau topik untuk jawaban dalam Speaking.",
+          "examples": [
+            {
+              "en": "The prompt asks about a place you like.",
+              "id": "Petunjuknya menanyakan tentang tempat yang kamu suka."
+            },
+            {
+              "en": "Use the prompt to plan your answer.",
+              "id": "Gunakan petunjuk itu untuk merencanakan jawabanmu."
+            }
+          ]
+        },
+        "examTrap": "Pilihan B anecdote terlihat cocok karena pertanyaan itu mengundang cerita, tetapi kata yang diminta adalah petunjuk topiknya."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          {
+            "id": "A",
+            "text": "The sensation are strong after the climb."
+          },
+          {
+            "id": "B",
+            "text": "The sensation was strong after the climb."
+          },
+          {
+            "id": "C",
+            "text": "The sensations was strong after the climb."
+          },
+          {
+            "id": "D",
+            "text": "The sensation were strong after the climb."
+          }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Sensation adalah subjek tunggal, sehingga memakai was untuk kejadian lampau.",
+        "stepByStep": [
+          "Sensation adalah kata benda tunggal dan kejadian sudah lewat, sehingga memakai was.",
+          "Frasa strong after the climb menjelaskan kondisi setelah mendaki.",
+          "Pilihan A dan D memakai bentuk jamak untuk subjek tunggal, pilihan C memakai sensations dengan was."
+        ],
+        "whyOthersWrong": [
+          {
+            "optionId": "A",
+            "reasonId": "Are tidak cocok dengan subjek tunggal sensation."
+          },
+          {
+            "optionId": "C",
+            "reasonId": "Sensations jamak tidak cocok dengan was untuk satu sensasi."
+          },
+          {
+            "optionId": "D",
+            "reasonId": "Were tidak cocok dengan subjek tunggal sensation."
+          }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sensation tunggal memakai was untuk kejadian lampau.",
+          "examples": [
+            {
+              "en": "The sensation was unusual.",
+              "id": "Sensasinya tidak biasa."
+            },
+            {
+              "en": "The sensation of cold was strong.",
+              "id": "Sensasi dingin itu kuat."
+            }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena sensasi sering dibicarakan jamak, tetapi kalimat ini menyebut satu sensasi di masa lalu."
+      }
+    ]
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "day": 68,
+  "week": 10,
+  "month": 3,
+  "title": "Writing Task 1: Line Graph",
+  "topic": "Mendeskripsikan tren pada grafik garis dengan kosakata yang tepat",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membaca sumbu dan satuan pada line graph",
+    "Mendeskripsikan tren naik, turun, dan fluktuasi",
+    "Memilih kata untuk perubahan tajam dan perubahan bertahap"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "line graph", "pronunciationId": "LAIN GRAF (tekanan di LAIN)", "pos": "Noun", "meaningId": "grafik garis", "example": "The line graph shows monthly sales.", "exampleId": "Grafik garis itu menunjukkan penjualan bulanan." },
+      { "no": 2, "en": "axis", "pronunciationId": "AK-sis (tekanan di AK)", "pos": "Noun", "meaningId": "sumbu grafik", "example": "The horizontal axis shows years.", "exampleId": "Sumbu horizontal menunjukkan tahun." },
+      { "no": 3, "en": "trend", "pronunciationId": "TREND (tekanan di TREND)", "pos": "Noun", "meaningId": "tren, arah perubahan", "example": "The trend is upward.", "exampleId": "Tren-nya naik." },
+      { "no": 4, "en": "fluctuate", "pronunciationId": "FLUK-choo-ayt (tekanan di FLUK)", "pos": "Verb", "meaningId": "naik turun tidak tetap", "example": "The prices fluctuate every month.", "exampleId": "Harga naik turun setiap bulan." },
+      { "no": 5, "en": "peak", "pronunciationId": "PEEK (tekanan di PEEK)", "pos": "Noun", "meaningId": "puncak", "example": "The peak was in June.", "exampleId": "Puncaknya terjadi pada bulan Juni." },
+      { "no": 6, "en": "plunge", "pronunciationId": "PLUNJ (tekanan di PLUNJ)", "pos": "Verb", "meaningId": "anjlok tajam", "example": "The price plunged in May.", "exampleId": "Harganya anjlok pada bulan Mei." },
+      { "no": 7, "en": "steady", "pronunciationId": "STED-ee (tekanan di STED)", "pos": "Adj", "meaningId": "stabil, tetap", "example": "The rate stayed steady.", "exampleId": "Angkanya tetap stabil." },
+      { "no": 8, "en": "surge", "pronunciationId": "SURJ (tekanan di SURJ)", "pos": "Noun", "meaningId": "lonjakan", "example": "There was a surge in sales.", "exampleId": "Ada lonjakan penjualan." },
+      { "no": 9, "en": "rise", "pronunciationId": "RAIZ (tekanan di RAIZ)", "pos": "Noun", "meaningId": "kenaikan", "example": "The rise was gradual.", "exampleId": "Kenaikannya bertahap." },
+      { "no": 10, "en": "decline", "pronunciationId": "di-KLAIN (tekanan di KLAIN)", "pos": "Noun", "meaningId": "penurunan", "example": "The decline continued for two years.", "exampleId": "Penurunannya berlanjut selama dua tahun." }
+    ],
+    "tip": "Untuk perubahan tajam, pakai plunge atau surge. Untuk perubahan bertahap, pakai rise atau decline. Sebutkan titik tertinggi dengan peak."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["IELTS writing task 1 line graph", "IELTS line graph trends"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membaca line graph dan menulis tren secara ringkas, dengan contoh kata untuk kenaikan, penurunan, dan fluktuasi.",
+      "watchFor": [
+        "Membaca sumbu dan satuan dengan benar",
+        "Membedakan perubahan tajam dan bertahap",
+        "Menyebut titik puncak dan titik terendah"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam Writing Task 1, line graph menunjukkan perubahan nilai dari waktu ke waktu. Tugasmu adalah menyebut arah tren, titik penting, dan perubahan yang paling besar, tanpa menebak data yang tidak ada.",
+      "sections": [
+        {
+          "heading": "Membaca sumbu",
+          "bodyMd": "Periksa **axis** horizontal dan vertikal sebelum menulis. Sumbu horizontal biasanya waktu, sumbu vertikal biasanya jumlah atau persentase."
+        },
+        {
+          "heading": "Tren dan fluktuasi",
+          "bodyMd": "**Trend** menunjukkan arah umum. Jika nilainya naik turun, pakai **fluctuate**. Titik tertinggi disebut **peak**, dan saat nilainya tetap, pakai **steady**."
+        },
+        {
+          "heading": "Perubahan tajam dan bertahap",
+          "bodyMd": "Gunakan **plunge** atau **surge** untuk perubahan tajam. Gunakan **rise** atau **decline** untuk perubahan bertahap."
+        }
+      ],
+      "formulas": [
+        { "label": "Tren naik", "pattern": "X rose from A to B" },
+        { "label": "Tren turun", "pattern": "X declined / fell from A to B" },
+        { "label": "Puncak", "pattern": "X peaked at B in year Y" },
+        { "label": "Perubahan tajam", "pattern": "X plunged / surged sharply in year Y" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The line graph shows a clear upward trend.", "id": "Grafik garis itu menunjukkan tren naik yang jelas." },
+          { "en": "The horizontal axis shows the years.", "id": "Sumbu horizontal menunjukkan tahun-tahun." },
+          { "en": "The figure fluctuated between 40 and 50.", "id": "Angkanya naik turun antara 40 dan 50." },
+          { "en": "The sales peaked in June.", "id": "Penjualannya mencapai puncak pada bulan Juni." },
+          { "en": "The price plunged sharply in May.", "id": "Harganya anjlok tajam pada bulan Mei." }
+        ],
+        "negative": [
+          { "en": "The graph does not show the cost of the bicycles.", "id": "Grafik itu tidak menunjukkan biaya sepeda." },
+          { "en": "The rate did not stay steady after 2016.", "id": "Angkanya tidak tetap stabil setelah 2016." },
+          { "en": "The decline was not sudden.", "id": "Penurunannya tidak mendadak." },
+          { "en": "The vertical axis is not labelled in years.", "id": "Sumbu vertikal tidak diberi label tahun." },
+          { "en": "There was no surge in the second year.", "id": "Tidak ada lonjakan pada tahun kedua." }
+        ],
+        "question": [
+          { "en": "What does the horizontal axis show?", "id": "Apa yang ditunjukkan sumbu horizontal?" },
+          { "en": "What is the overall trend?", "id": "Apa tren secara keseluruhan?" },
+          { "en": "When was the peak?", "id": "Kapan puncaknya?" },
+          { "en": "Was the change sudden or gradual?", "id": "Apakah perubahannya mendadak atau bertahap?" },
+          { "en": "Did the figure fluctuate?", "id": "Apakah angkanya naik turun?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The trend are upward.", "right": "The trend is upward.", "whyId": "Trend adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The sales rises in June.", "right": "The sales rose in June.", "whyId": "Keterangan waktu lampau memakai bentuk lampau rose." },
+        { "wrong": "The figure fluctuate every year.", "right": "The figure fluctuates every year.", "whyId": "Subjek figure tunggal memakai fluctuates." },
+        { "wrong": "The peak was at in June.", "right": "The peak was in June.", "whyId": "Setelah peak was, cukup pakai in." },
+        { "wrong": "Prices plunges in May.", "right": "Prices plunged in May.", "whyId": "Waktu lampau May memakai plunged." },
+        { "wrong": "The graph shows a steadies rate.", "right": "The graph shows a steady rate.", "whyId": "Steady adalah kata sifat, tanpa -ies." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["IELTS writing task 1 line graph", "tutor explains graph English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Penjelasan tutor tentang sumbu dan tren",
+        "Kata untuk perubahan tajam dan bertahap"
+      ]
+    },
+    "script": {
+      "title": "Membaca grafik garis",
+      "lines": [
+        { "speaker": "Tutor", "text": "Let's look at this line graph. The horizontal axis shows the years from 2010 to 2020, and the vertical axis shows the number of cyclists in thousands." },
+        { "speaker": "Student", "text": "What is the overall trend?" },
+        { "speaker": "Tutor", "text": "The overall trend is upward. Cyclists rose steadily until 2014, and then the figure began to fluctuate for two years." },
+        { "speaker": "Student", "text": "Was there a peak?" },
+        { "speaker": "Tutor", "text": "Yes, the peak was in 2016, at about 60 thousand. After that, the figure plunged in 2017 when the main bridge was closed." },
+        { "speaker": "Student", "text": "Did it recover?" },
+        { "speaker": "Tutor", "text": "Partly. There was a surge in 2018, followed by a slight decline in 2019 and a steady level in 2020." },
+        { "speaker": "Student", "text": "Which words should I use for the change in 2017?" },
+        { "speaker": "Tutor", "text": "Use plunge for a sharp fall. Use decline for a gradual fall, and rise for a gradual increase." },
+        { "speaker": "Student", "text": "Thank you. I will describe the peak and the plunge in my answer." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada fluctuate, tekanan ada di suku pertama: FLUK-choo-ayt.",
+      "Pada plunge, ucapkan bunyi p dan l dengan jelas: PLUNJ.",
+      "Pada steady, tekanan ada di suku pertama: STED-ee."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the horizontal axis show?",
+        "options": [
+          { "id": "A", "text": "the years from 2010 to 2020" },
+          { "id": "B", "text": "the number of cyclists" },
+          { "id": "C", "text": "the price of bicycles" },
+          { "id": "D", "text": "the number of bridges" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata sumbu horizontal menunjukkan tahun dari 2010 sampai 2020.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Jumlah pesepeda ada di sumbu vertikal, bukan horizontal." },
+          { "optionId": "C", "reasonId": "Harga sepeda tidak disebut dalam grafik." },
+          { "optionId": "D", "reasonId": "Jumlah jembatan tidak disebut sebagai sumbu." }
+        ],
+        "evidence": "the years from 2010 to 2020"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What was the peak in the graph?",
+        "options": [
+          { "id": "A", "text": "2014" },
+          { "id": "B", "text": "2016, at about 60 thousand" },
+          { "id": "C", "text": "2017" },
+          { "id": "D", "text": "2020" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata puncaknya pada 2016, sekitar 60 ribu.",
+        "stepByStep": [
+          "Cari peak di naskah tutor.",
+          "Tutor menyebut puncak pada 2016 dengan sekitar 60 ribu.",
+          "2014, 2017, dan 2020 disebut untuk kejadian lain, bukan puncak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "2014 adalah saat tren naik berakhir, bukan puncak." },
+          { "optionId": "C", "reasonId": "2017 adalah tahun anjlok, bukan puncak." },
+          { "optionId": "D", "reasonId": "2020 adalah tahun stabil, bukan puncak." }
+        ],
+        "evidence": "the peak was in 2016, at about 60 thousand"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What happened in 2017?",
+        "options": [
+          { "id": "A", "text": "a surge" },
+          { "id": "B", "text": "a steady level" },
+          { "id": "C", "text": "a sharp fall" },
+          { "id": "D", "text": "a slight rise" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'the figure plunged in 2017', artinya terjadi penurunan tajam.",
+        "stepByStep": [
+          "Cari 2017 di naskah tutor.",
+          "Tutor menyebut angkanya plunged, yaitu anjlok tajam.",
+          "Surge dan slight rise berarti kenaikan, dan steady level berarti tetap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Surge berarti lonjakan, bukan penurunan tajam." },
+          { "optionId": "B", "reasonId": "Steady level berarti tetap stabil, bukan anjlok." },
+          { "optionId": "D", "reasonId": "Slight rise berarti kenaikan kecil, bukan penurunan tajam." }
+        ],
+        "evidence": "the figure plunged in 2017"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "How does the tutor describe the change in 2019?",
+        "options": [
+          { "id": "A", "text": "a surge" },
+          { "id": "B", "text": "a slight decline" },
+          { "id": "C", "text": "a peak" },
+          { "id": "D", "text": "a plunge" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'followed by a slight decline in 2019', artinya penurunan kecil pada 2019.",
+        "stepByStep": [
+          "Cari 2019 di naskah tutor.",
+          "Tutor menyebut slight decline, yaitu penurunan kecil.",
+          "Surge dan plunge berarti perubahan besar, dan peak adalah titik tertinggi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Surge berarti lonjakan besar, bukan penurunan kecil." },
+          { "optionId": "C", "reasonId": "Peak adalah titik tertinggi, bukan penurunan." },
+          { "optionId": "D", "reasonId": "Plunge berarti anjlok tajam, bukan penurunan kecil." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Slight menunjukkan perubahan kecil, sedangkan sharp atau plunge menunjukkan perubahan besar.",
+          "examples": [
+            { "en": "The figure declined slightly in the second year.", "id": "Angkanya turun sedikit pada tahun kedua." },
+            { "en": "The price plunged sharply in one month.", "id": "Harganya anjlok tajam dalam satu bulan." }
+          ]
+        },
+        "examTrap": "Pilihan D plunge terlihat cocok karena ada penurunan, tetapi tutor menyebut perubahan kecil, bukan anjlok tajam.",
+        "evidence": "followed by a slight decline in 2019"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which word should be used for a gradual fall?",
+        "options": [
+          { "id": "A", "text": "plunge" },
+          { "id": "B", "text": "surge" },
+          { "id": "C", "text": "decline" },
+          { "id": "D", "text": "peak" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'Use decline for a gradual fall', artinya decline dipakai untuk penurunan bertahap.",
+        "stepByStep": [
+          "Cari gradual dan fall di naskah tutor.",
+          "Tutor menyebut decline untuk penurunan bertahap.",
+          "Plunge untuk penurunan tajam, surge untuk lonjakan, dan peak untuk titik tertinggi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Plunge dipakai untuk penurunan tajam, bukan bertahap." },
+          { "optionId": "B", "reasonId": "Surge dipakai untuk lonjakan naik, bukan penurunan." },
+          { "optionId": "D", "reasonId": "Peak adalah titik tertinggi, bukan penurunan bertahap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Decline untuk penurunan bertahap, plunge untuk penurunan tajam, dan surge untuk lonjakan naik.",
+          "examples": [
+            { "en": "Sales declined gradually over the year.", "id": "Penjualan turun secara bertahap sepanjang tahun." },
+            { "en": "Sales surged after the new campaign.", "id": "Penjualan melonjak setelah kampanye baru." }
+          ]
+        },
+        "examTrap": "Pilihan A plunge terlihat cocok karena artinya penurunan, tetapi plunge dipakai untuk penurunan tajam, bukan bertahap.",
+        "evidence": "Use decline for a gradual fall"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The graph's horizontal ___ shows the months of the year.",
+        "options": [
+          { "id": "A", "text": "axis" },
+          { "id": "B", "text": "bridge" },
+          { "id": "C", "text": "ticket" },
+          { "id": "D", "text": "garden" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Axis adalah sumbu grafik, dan sumbu horizontal menunjukkan bulan.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bridge berarti jembatan, bukan sumbu grafik." },
+          { "optionId": "C", "reasonId": "Ticket berarti tiket, bukan sumbu grafik." },
+          { "optionId": "D", "reasonId": "Garden berarti taman, bukan sumbu grafik." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The number of visitors ___ between 200 and 250 each month.",
+        "options": [
+          { "id": "A", "text": "fluctuated" },
+          { "id": "B", "text": "plunged" },
+          { "id": "C", "text": "peaked" },
+          { "id": "D", "text": "declined" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Fluctuate berarti naik turun, dan cocok dengan kisaran angka yang berubah tidak tetap.",
+        "stepByStep": [
+          "Kalimat menyebut angka yang berada di antara dua nilai.",
+          "Naik turun di antara dua nilai disebut fluctuate.",
+          "Plunged dan declined berarti turun, sedangkan peaked berarti mencapai puncak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Plunged berarti anjlok tajam, tidak menunjukkan kisaran." },
+          { "optionId": "C", "reasonId": "Peaked berarti mencapai puncak, tidak menunjukkan kisaran." },
+          { "optionId": "D", "reasonId": "Declined berarti turun, tidak menunjukkan naik turun di antara dua nilai." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The number of students ___ sharply after the new fee was introduced.",
+        "options": [
+          { "id": "A", "text": "plunged" },
+          { "id": "B", "text": "steady" },
+          { "id": "C", "text": "trend" },
+          { "id": "D", "text": "axis" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Plunged berarti anjlok tajam, dan cocok dengan kata sharply.",
+        "stepByStep": [
+          "Kata sharply menunjukkan penurunan yang cepat dan besar.",
+          "Kata kerja untuk anjlok tajam adalah plunged.",
+          "Steady adalah kata sifat, trend adalah kata benda, dan axis adalah sumbu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Steady berarti stabil, tidak cocok dengan sharply." },
+          { "optionId": "C", "reasonId": "Trend adalah kata benda, tidak bisa menjadi kata kerja di sini." },
+          { "optionId": "D", "reasonId": "Axis adalah sumbu, tidak bisa menjadi kata kerja di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The rate remained ___ throughout the second half of the year.",
+        "options": [
+          { "id": "A", "text": "steady" },
+          { "id": "B", "text": "surge" },
+          { "id": "C", "text": "peak" },
+          { "id": "D", "text": "plunge" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Steady berarti tetap stabil, dan cocok dengan remained yang menunjukkan tidak berubah.",
+        "stepByStep": [
+          "Kata remained menunjukkan keadaan yang tidak berubah.",
+          "Kata sifat untuk tidak berubah adalah steady.",
+          "Surge, peak, dan plunge menunjukkan perubahan, bukan keadaan tetap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Surge menunjukkan lonjakan, bertentangan dengan remained." },
+          { "optionId": "C", "reasonId": "Peak menunjukkan titik tertinggi, bukan keadaan tetap." },
+          { "optionId": "D", "reasonId": "Plunge menunjukkan anjlok, bertentangan dengan remained." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Steady menggambarkan nilai yang tetap atau tidak berubah banyak dari waktu ke waktu.",
+          "examples": [
+            { "en": "The price stayed steady all year.", "id": "Harganya tetap stabil sepanjang tahun." },
+            { "en": "The numbers remained steady for a month.", "id": "Angkanya tetap stabil selama sebulan." }
+          ]
+        },
+        "examTrap": "Pilihan B surge terlihat cocok karena artinya lonjakan dan kalimat membahas angka, tetapi kalimat ini meminta keadaan yang tetap."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The overall ___ of the graph is upward, although there was a dip in 2018.",
+        "options": [
+          { "id": "A", "text": "trend" },
+          { "id": "B", "text": "axis" },
+          { "id": "C", "text": "peak" },
+          { "id": "D", "text": "surge" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Trend adalah arah umum perubahan dalam grafik, dan kalimat ini menyebut arah keseluruhan.",
+        "stepByStep": [
+          "Kalimat menyebut arah keseluruhan grafik.",
+          "Arah umum perubahan disebut trend.",
+          "Axis, peak, dan surge tidak menggambarkan arah umum."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Axis adalah sumbu, bukan arah umum." },
+          { "optionId": "C", "reasonId": "Peak adalah titik tertinggi, bukan arah umum." },
+          { "optionId": "D", "reasonId": "Surge adalah lonjakan, bukan arah umum keseluruhan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Trend menggambarkan arah umum perubahan, meskipun ada naik turun kecil di tengahnya.",
+          "examples": [
+            { "en": "The overall trend is downward.", "id": "Tren keseluruhannya turun." },
+            { "en": "The trend shows steady growth.", "id": "Tren itu menunjukkan pertumbuhan yang stabil." }
+          ]
+        },
+        "examTrap": "Pilihan C peak terlihat cocok karena grafik punya titik tinggi, tetapi kalimat ini meminta arah keseluruhan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Grafik garis ini menunjukkan tren naik.",
+        "hint": "Grafik garis: the line graph. Menunjukkan: shows. Tren naik: an upward trend.",
+        "acceptedAnswers": ["This line graph shows an upward trend.", "The line graph shows an upward trend."],
+        "modelAnswer": "This line graph shows an upward trend.",
+        "commonErrors": [{ "pattern": "This line graph show an upward trend", "feedbackId": "Subjek graph tunggal memakai shows." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Jumlah pengunjung naik dari 200 ke 300 dalam setahun.",
+        "hint": "Jumlah pengunjung: the number of visitors. Naik dari: rose from. Dalam setahun: in a year.",
+        "acceptedAnswers": ["The number of visitors rose from 200 to 300 in a year.", "The number of visitors rose from 200 to 300 within one year."],
+        "modelAnswer": "The number of visitors rose from 200 to 300 in a year.",
+        "commonErrors": [{ "pattern": "The number of visitors rise from 200 to 300 in a year", "feedbackId": "Gunakan bentuk lampau rose untuk perubahan dalam setahun." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Puncaknya terjadi pada bulan Juni.",
+        "hint": "Puncak: the peak. Terjadi pada: was in. Bulan Juni: June.",
+        "acceptedAnswers": ["The peak was in June.", "The peak occurred in June."],
+        "modelAnswer": "The peak was in June.",
+        "commonErrors": [{ "pattern": "The peak were in June", "feedbackId": "Subjek peak tunggal memakai was." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Angkanya anjlok tajam, lalu tetap stabil selama dua tahun.",
+        "hint": "Angkanya: the figure. Anjlok tajam: plunged sharply. Lalu: then. Tetap stabil: remained steady. Selama dua tahun: for two years.",
+        "acceptedAnswers": ["The figure plunged sharply, then remained steady for two years.", "The figure plunged sharply and then remained steady for two years."],
+        "modelAnswer": "The figure plunged sharply, then remained steady for two years.",
+        "commonErrors": [{ "pattern": "The figure plunge sharply then remain steady for two years", "feedbackId": "Gunakan bentuk lampau plunged dan remained untuk kejadian yang sudah lewat." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penurunan itu terjadi secara bertahap, bukan tiba-tiba.",
+        "hint": "Penurunan itu: the decline. Secara bertahap: gradually. Bukan tiba-tiba: not suddenly.",
+        "acceptedAnswers": ["The decline happened gradually, not suddenly.", "The decline occurred gradually rather than suddenly."],
+        "modelAnswer": "The decline happened gradually, not suddenly.",
+        "commonErrors": [{ "pattern": "The decline happen gradual, not sudden", "feedbackId": "Subjek decline tunggal memakai happened, dan gunakan keterangan gradually." }],
+        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'to move up and down without a clear pattern'?",
+        "options": [
+          { "id": "A", "text": "fluctuate" },
+          { "id": "B", "text": "steady" },
+          { "id": "C", "text": "peak" },
+          { "id": "D", "text": "rise" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Fluctuate berarti naik turun tidak beraturan.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk naik turun tanpa pola jelas.",
+          "Kata yang tepat adalah fluctuate.",
+          "Steady berarti tetap, peak berarti puncak, dan rise berarti naik secara umum."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Steady berarti tetap, bukan naik turun." },
+          { "optionId": "C", "reasonId": "Peak berarti puncak, bukan naik turun." },
+          { "optionId": "D", "reasonId": "Rise berarti naik, tidak menunjukkan naik turun." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Fluctuate dipakai ketika nilai bergerak naik dan turun dari waktu ke waktu.",
+          "examples": [
+            { "en": "Temperatures fluctuated during the week.", "id": "Suhu naik turun selama minggu itu." },
+            { "en": "The figures fluctuate from month to month.", "id": "Angkanya naik turun dari bulan ke bulan." }
+          ]
+        },
+        "examTrap": "Pilihan D rise terlihat cocok karena ada perubahan, tetapi rise menunjukkan naik secara umum, bukan naik turun."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly describes a gradual increase?",
+        "options": [
+          { "id": "A", "text": "The sales plunged slowly over five years." },
+          { "id": "B", "text": "The sales rose gradually over five years." },
+          { "id": "C", "text": "The sales peaked gradually over five years." },
+          { "id": "D", "text": "The sales surged slowly over five years." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Rose gradually menggambarkan kenaikan bertahap, sesuai dengan makna pertanyaan.",
+        "stepByStep": [
+          "Kenaikan bertahap disebut rose gradually.",
+          "Plunged dan surged menggambarkan perubahan tajam, bukan bertahap.",
+          "Peaked menunjukkan titik tertinggi, bukan kenaikan bertahap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Plunged berarti penurunan tajam, bukan kenaikan bertahap." },
+          { "optionId": "C", "reasonId": "Peaked menunjukkan titik tertinggi, bukan kenaikan bertahap." },
+          { "optionId": "D", "reasonId": "Surged menunjukkan lonjakan, bukan kenaikan bertahap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gradually bersama rose atau declined menunjukkan perubahan yang pelan dan bertahap.",
+          "examples": [
+            { "en": "The number grew gradually each year.", "id": "Angkanya tumbuh bertahap setiap tahun." },
+            { "en": "Prices declined gradually after the summer.", "id": "Harga turun bertahap setelah musim panas." }
+          ]
+        },
+        "examTrap": "Pilihan D surged terlihat cocok karena artinya naik, tetapi surge menggambarkan lonjakan cepat, bukan bertahap."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ on the line graph was in 2016.'",
+        "options": [
+          { "id": "A", "text": "peak" },
+          { "id": "B", "text": "axis" },
+          { "id": "C", "text": "steady" },
+          { "id": "D", "text": "plunge" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Peak adalah titik tertinggi pada grafik, dan kalimat ini menyebut titik tertinggi tahun 2016.",
+        "stepByStep": [
+          "Kalimat menyebut titik tertinggi tahun 2016.",
+          "Titik tertinggi pada grafik disebut peak.",
+          "Axis, steady, dan plunge tidak berarti titik tertinggi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Axis adalah sumbu, bukan titik tertinggi." },
+          { "optionId": "C", "reasonId": "Steady berarti stabil, bukan titik tertinggi." },
+          { "optionId": "D", "reasonId": "Plunge berarti anjlok, bukan titik tertinggi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Peak adalah titik tertinggi atau puncak dari sebuah tren.",
+          "examples": [
+            { "en": "The peak of the trend was in June.", "id": "Puncak tren itu terjadi pada bulan Juni." },
+            { "en": "The sales peaked before the holidays.", "id": "Penjualan mencapai puncak sebelum liburan." }
+          ]
+        },
+        "examTrap": "Pilihan D plunge terlihat cocok karena grafik punya perubahan besar, tetapi kalimat ini meminta titik tertinggi."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The trend are upward in the graph." },
+          { "id": "B", "text": "The trend is upward in the graph." },
+          { "id": "C", "text": "The trends is upward in the graph." },
+          { "id": "D", "text": "The trend be upward in the graph." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek trend tunggal memakai is, dan upward menjelaskan arahnya.",
+        "stepByStep": [
+          "Trend adalah subjek tunggal, sehingga memakai is.",
+          "Upward menjelaskan arah trend.",
+          "Pilihan A memakai are, pilihan C memakai trends dengan is, dan pilihan D memakai be yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal trend." },
+          { "optionId": "C", "reasonId": "Trends jamak tidak cocok dengan is untuk satu tren." },
+          { "optionId": "D", "reasonId": "Be tidak cocok sebagai kata kerja setelah subjek trend di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan upward menjelaskan arah tren.",
+          "examples": [
+            { "en": "The trend is downward after 2018.", "id": "Tren itu turun setelah 2018." },
+            { "en": "The overall trend is clear.", "id": "Tren keseluruhannya jelas." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak data disebut bersama, tetapi subjek trend tetap tunggal."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means 'a sudden and very large increase'?",
+        "options": [
+          { "id": "A", "text": "decline" },
+          { "id": "B", "text": "surge" },
+          { "id": "C", "text": "steady" },
+          { "id": "D", "text": "axis" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Surge berarti lonjakan mendadak dan besar.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kenaikan mendadak dan besar.",
+          "Kenaikan mendadak dan besar disebut surge.",
+          "Decline berarti penurunan, steady berarti stabil, dan axis berarti sumbu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Decline berarti penurunan, kebalikan dari kenaikan." },
+          { "optionId": "C", "reasonId": "Steady berarti stabil, bukan kenaikan." },
+          { "optionId": "D", "reasonId": "Axis berarti sumbu grafik, bukan kenaikan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Surge dipakai untuk lonjakan naik yang cepat dan besar.",
+          "examples": [
+            { "en": "There was a surge in demand in May.", "id": "Ada lonjakan permintaan pada bulan Mei." },
+            { "en": "The surge lasted only a week.", "id": "Lonjakan itu hanya berlangsung seminggu." }
+          ]
+        },
+        "examTrap": "Pilihan A decline terlihat cocok karena sama-sama perubahan besar, tetapi decline adalah penurunan, bukan kenaikan."
+      }
+    ]
+  }
+}
