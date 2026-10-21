@@ -1,0 +1,22 @@
+# dependensi & build
+node_modules
+dist
+*.local
+
+# rahasia
+.env
+.env.*
+!.env.example
+
+# data lokal
+server/data
+
+# referensi desain (screenshot pihak ketiga, tidak di-commit)
+design-reference/
+
+# file OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
