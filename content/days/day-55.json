@@ -1,0 +1,594 @@
+{
+  "day": 55,
+  "week": 8,
+  "month": 2,
+  "title": "Ekspresi Negatif",
+  "topic": "Ekspresi yang menyatakan penolakan, ketidakmampuan, dan kekurangan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Mengenali kata yang menyatakan ketidakmungkinan dan ketidakmampuan",
+    "Membedakan unable dari unwilling dan reluctant",
+    "Memakai lack, absence, dan none dengan benar"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "unlikely", "pronunciationId": "un-LAIK-lee (tekanan di LAIK)", "pos": "Adj", "meaningId": "kemungkinannya kecil", "example": "The rain is unlikely today.", "exampleId": "Hujan kemungkinan kecil terjadi hari ini." },
+      { "no": 2, "en": "impossible", "pronunciationId": "im-POS-uh-bul (tekanan di POS)", "pos": "Adj", "meaningId": "tidak mungkin", "example": "It is impossible to finish today.", "exampleId": "Tidak mungkin selesai hari ini." },
+      { "no": 3, "en": "unable", "pronunciationId": "un-AY-bul (tekanan di AY)", "pos": "Adj", "meaningId": "tidak mampu", "example": "She is unable to come.", "exampleId": "Dia tidak mampu datang." },
+      { "no": 4, "en": "unwilling", "pronunciationId": "un-WIL-ing (tekanan di WIL)", "pos": "Adj", "meaningId": "tidak mau, enggan", "example": "He is unwilling to change.", "exampleId": "Dia tidak mau berubah." },
+      { "no": 5, "en": "absence", "pronunciationId": "AB-suns (tekanan di AB)", "pos": "Noun", "meaningId": "ketidakhadiran, ketiadaan", "example": "The absence of a teacher was noticed.", "exampleId": "Ketidakhadiran guru itu disadari." },
+      { "no": 6, "en": "lack", "pronunciationId": "LAK (a pendek, k jelas)", "pos": "Noun", "meaningId": "kekurangan", "example": "There is a lack of water.", "exampleId": "Ada kekurangan air." },
+      { "no": 7, "en": "none", "pronunciationId": "NUN (u pendek, n jelas)", "pos": "Other", "meaningId": "tidak satu pun", "example": "None of the books were new.", "exampleId": "Tidak satu pun buku itu baru." },
+      { "no": 8, "en": "fail", "pronunciationId": "FAIL (ai panjang, l jelas)", "pos": "Verb", "meaningId": "gagal", "example": "The plan may fail.", "exampleId": "Rencana itu mungkin gagal." },
+      { "no": 9, "en": "refuse", "pronunciationId": "ri-FYOOZ (tekanan di FYOOZ)", "pos": "Verb", "meaningId": "menolak", "example": "He refused the offer.", "exampleId": "Dia menolak tawaran itu." },
+      { "no": 10, "en": "reluctant", "pronunciationId": "ri-LUK-tunt (tekanan di LUK)", "pos": "Adj", "meaningId": "enggan", "example": "She was reluctant to speak.", "exampleId": "Dia enggan berbicara." }
+    ],
+    "tip": "Perhatikan bentuk kata setelah kata negatif. Unable, unwilling, dan refuse biasanya diikuti to dan kata kerja dasar."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["negative expressions English", "TOEFL negative words"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang ekspresi negatif dalam bahasa Inggris, dengan contoh penolakan, ketidakmampuan, dan kekurangan.",
+      "watchFor": [
+        "Unable dan unwilling yang berbeda makna",
+        "Lack dan absence dalam kalimat",
+        "Pola to + kata kerja dasar setelah refuse"
+      ]
+    },
+    "lesson": {
+      "intro": "Ekspresi negatif menyatakan penolakan, ketidakmampuan, atau kekurangan. Dalam bacaan, kata-kata ini sering menjadi kunci untuk memahami apa yang tidak terjadi.",
+      "sections": [
+        {
+          "heading": "Tidak mungkin dan tidak mau",
+          "bodyMd": "**Unlikely** berarti kemungkinannya kecil. **Impossible** berarti tidak bisa terjadi. **Unable** berarti tidak mampu, sedangkan **unwilling** berarti tidak mau. **Reluctant** berarti enggan."
+        },
+        {
+          "heading": "Kekurangan dan ketiadaan",
+          "bodyMd": "**Lack** berarti kekurangan. **Absence** berarti ketiadaan atau ketidakhadiran. **None** dipakai untuk menyatakan tidak satu pun dari sebuah kelompok."
+        },
+        {
+          "heading": "Menolak dan gagal",
+          "bodyMd": "**Refuse** berarti menolak. **Fail** berarti gagal. Perhatikan bentuk kata setelahnya: refuse to, fail to, dan unable to diikuti kata kerja dasar."
+        }
+      ],
+      "formulas": [
+        { "label": "Tidak mampu", "pattern": "be unable to + kata kerja dasar" },
+        { "label": "Kekurangan", "pattern": "a lack of / the absence of + kata benda" },
+        { "label": "Menolak", "pattern": "refuse to + kata kerja dasar" },
+        { "label": "Tidak satu pun", "pattern": "none of + kata benda, dengan kata kerja yang sesuai" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The shop is unlikely to open today.", "id": "Toko itu kemungkinan besar tidak buka hari ini." },
+          { "en": "She was unable to finish the report.", "id": "Dia tidak mampu menyelesaikan laporan itu." },
+          { "en": "There is a lack of clean water.", "id": "Ada kekurangan air bersih." },
+          { "en": "He refused to sign the form.", "id": "Dia menolak menandatangani formulir itu." },
+          { "en": "None of the students were absent.", "id": "Tidak ada satu pun siswa yang absen." }
+        ],
+        "negative": [
+          { "en": "The plan does not fail if we follow the schedule.", "id": "Rencana itu tidak gagal jika kita mengikuti jadwal." },
+          { "en": "I am not reluctant to try again.", "id": "Saya tidak enggan untuk mencoba lagi." },
+          { "en": "The team did not refuse the offer.", "id": "Tim itu tidak menolak tawaran itu." },
+          { "en": "The school does not lack volunteers this year.", "id": "Sekolah itu tidak kekurangan sukarelawan tahun ini." },
+          { "en": "None of the answers is correct.", "id": "Tidak ada satu pun jawaban yang benar." }
+        ],
+        "question": [
+          { "en": "Is the shop unlikely to open today?", "id": "Apakah toko itu kemungkinan besar tidak buka hari ini?" },
+          { "en": "Was she unable to finish the report?", "id": "Apakah dia tidak mampu menyelesaikan laporan itu?" },
+          { "en": "What is the lack in this plan?", "id": "Apa yang kurang dalam rencana ini?" },
+          { "en": "Did he refuse to sign the form?", "id": "Apakah dia menolak menandatangani formulir itu?" },
+          { "en": "How many students were absent?", "id": "Berapa siswa yang absen?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She is unable finish the task.", "right": "She is unable to finish the task.", "whyId": "Unable selalu diikuti to dan kata kerja dasar." },
+        { "wrong": "They refuse to came yesterday.", "right": "They refused to come yesterday.", "whyId": "Yesterday memakai bentuk lampau refused, dan setelah to memakai kata kerja dasar come." },
+        { "wrong": "There is a lack of a water.", "right": "There is a lack of water.", "whyId": "Lack of diikuti kata benda tanpa a." },
+        { "wrong": "He was reluctance to join.", "right": "He was reluctant to join.", "whyId": "Setelah was, pakai kata sifat reluctant." },
+        { "wrong": "The plan fail to work.", "right": "The plan fails to work.", "whyId": "Subjek plan tunggal, jadi kata kerjanya fails." },
+        { "wrong": "The absence of the teacher make the class quiet.", "right": "The absence of the teacher makes the class quiet.", "whyId": "Subjek absence tunggal, jadi kata kerjanya makes." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Perpustakaan yang Bertahan",
+    "text": "Every spring, the city council reviews the budget for public libraries. This year, the report was unusual. It explained that some services were unlikely to continue unless new funds appeared. Without extra money, the staff would be unable to buy new books, and the evening program would be impossible to run.\n\nThe report also described a lack of volunteers. Many residents seemed unwilling to give their time, and some were reluctant to speak at the public meeting. The absence of a clear plan was another problem. In the past, the library had asked for help but had not written a schedule for volunteers.\n\nLibrarians did not refuse the challenge. They proposed three steps. First, the library would open on Saturdays only, so volunteers could help at a fixed time. Second, the staff would ask local schools to send students for reading hours. Third, the council would review the plan in six months. A council member said that none of these ideas would work without support from families.\n\nSome critics argued that the library should simply cut its programs. The librarians disagreed. They said that closing the evening program would fail the people who needed it most, especially workers who could not visit during the day.\n\nBy the end of the meeting, the council agreed to test the plan for one season. The outcome was not guaranteed, but the decision showed that a difficult situation can still lead to a useful response.",
+    "glossary": [
+      { "en": "council", "id": "dewan" },
+      { "en": "budget", "id": "anggaran" },
+      { "en": "volunteer", "id": "sukarelawan" },
+      { "en": "critic", "id": "pengkritik" },
+      { "en": "outcome", "id": "hasil akhir" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "According to the report, what would happen without extra money?",
+        "options": [
+          { "id": "A", "text": "The staff would be unable to buy new books." },
+          { "id": "B", "text": "The library would open on Saturdays." },
+          { "id": "C", "text": "The council would test a plan." },
+          { "id": "D", "text": "The students would visit more often." }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'the staff would be unable to buy new books', artinya tanpa uang tambahan staf tidak mampu membeli buku baru.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Buka pada hari Sabtu adalah usulan, bukan akibat tanpa uang." },
+          { "optionId": "C", "reasonId": "Uji coba rencana adalah keputusan rapat, bukan akibat tanpa uang." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut kunjungan mahasiswa meningkat." }
+        ],
+        "evidence": "the staff would be unable to buy new books"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Why did some residents not help the library?",
+        "options": [
+          { "id": "A", "text": "They had no books." },
+          { "id": "B", "text": "The library was too large." },
+          { "id": "C", "text": "They were unwilling to give their time." },
+          { "id": "D", "text": "The meeting was canceled." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Many residents seemed unwilling to give their time', artinya banyak warga enggan memberi waktunya.",
+        "stepByStep": [
+          "Cari alasan warga tidak membantu di paragraf kedua.",
+          "Teks menyebut warga seemed unwilling to give their time.",
+          "Tidak adanya buku, perpustakaan yang terlalu besar, dan rapat yang dibatalkan tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ketiadaan buku tidak disebut sebagai alasan." },
+          { "optionId": "B", "reasonId": "Ukuran perpustakaan tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut rapat dibatalkan." }
+        ],
+        "evidence": "Many residents seemed unwilling to give their time"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What did the librarians do about the challenge?",
+        "options": [
+          { "id": "A", "text": "They refused the challenge." },
+          { "id": "B", "text": "They proposed three steps." },
+          { "id": "C", "text": "They closed the library." },
+          { "id": "D", "text": "They cut all programs." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'They proposed three steps', artinya pustakawan mengajukan tiga langkah.",
+        "stepByStep": [
+          "Cari tindakan pustakawan di paragraf ketiga.",
+          "Teks menyebut mereka proposed three steps.",
+          "Menolak, menutup perpustakaan, dan memotong semua program bertentangan dengan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menegaskan pustakawan did not refuse the challenge." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut perpustakaan ditutup." },
+          { "optionId": "D", "reasonId": "Pustakawan menentang pemotongan program, bukan memotongnya." }
+        ],
+        "evidence": "They proposed three steps"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the passage, what would happen if the evening program closed?",
+        "options": [
+          { "id": "A", "text": "Workers would visit more often." },
+          { "id": "B", "text": "It would save money for every family." },
+          { "id": "C", "text": "The council would stop the test." },
+          { "id": "D", "text": "It would fail the people who needed it most." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menulis 'closing the evening program would fail the people who needed it most', artinya penutupan program malam akan merugikan orang yang paling membutuhkannya.",
+        "stepByStep": [
+          "Cari bagian tentang penutupan program malam di paragraf keempat.",
+          "Teks menyebut penutupan akan fail the people who needed it most.",
+          "Kunjungan yang lebih sering, penghematan bagi semua keluarga, dan penghentian uji coba tidak disebut sebagai akibat penutupan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut pekerja tidak bisa berkunjung di siang hari, bukan berkunjung lebih sering jika program ditutup." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut penutupan menghemat uang bagi setiap keluarga." },
+          { "optionId": "C", "reasonId": "Teks menyebut dewan menyetujui uji coba, bukan menghentikannya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Fail dalam konteks ini berarti merugikan atau mengecewakan seseorang yang bergantung pada sesuatu.",
+          "examples": [
+            { "en": "The school would fail its students if it closed early.", "id": "Sekolah itu akan merugikan siswanya jika tutup lebih awal." },
+            { "en": "The plan failed to help the families.", "id": "Rencana itu gagal membantu keluarga-keluarga." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena pekerja disebut dalam paragraf keempat, tetapi teks menyebut mereka tidak bisa berkunjung di siang hari.",
+        "evidence": "closing the evening program would fail the people who needed it most"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the phrase 'none of these ideas would work without support from families' suggest?",
+        "options": [
+          { "id": "A", "text": "All ideas were successful without support." },
+          { "id": "B", "text": "The ideas needed family support to work." },
+          { "id": "C", "text": "The council rejected the report." },
+          { "id": "D", "text": "The volunteers left the library." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kalimat itu menyatakan bahwa tidak satu pun gagasan akan berhasil tanpa dukungan keluarga, jadi gagasan itu membutuhkan dukungan keluarga.",
+        "stepByStep": [
+          "Cari kalimat 'none of these ideas would work without support from families' di paragraf ketiga.",
+          "Frasa without support berarti tanpa dukungan.",
+          "Semua gagasan berhasil tanpa dukungan, penolakan laporan, dan sukarelawan pergi tidak sesuai dengan kalimat itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kalimat itu menyatakan kebalikannya, bahwa gagasan tidak berhasil tanpa dukungan." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut dewan menolak laporan itu." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut sukarelawan meninggalkan perpustakaan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola none of + kata benda + would work without + kata benda berarti tidak satu pun akan berhasil tanpa sesuatu.",
+          "examples": [
+            { "en": "None of the plans would work without money.", "id": "Tidak satu pun rencana akan berhasil tanpa uang." },
+            { "en": "The team could not succeed without help.", "id": "Tim itu tidak bisa berhasil tanpa bantuan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kesimpulan yang positif, tetapi kata none dan without support menyatakan kebalikannya.",
+        "evidence": "none of these ideas would work without support from families"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The plan was ___ to succeed, so the team changed it.",
+        "options": [
+          { "id": "A", "text": "unlikely" },
+          { "id": "B", "text": "absent" },
+          { "id": "C", "text": "helpful" },
+          { "id": "D", "text": "quick" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Unlikely berarti kemungkinannya kecil, dan cocok dengan alasan tim mengubah rencana.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Absent berarti tidak hadir, tidak cocok untuk rencana." },
+          { "optionId": "C", "reasonId": "Helpful berarti membantu, tidak menjelaskan alasan mengubah rencana." },
+          { "optionId": "D", "reasonId": "Quick berarti cepat, tidak menjelaskan alasan mengubah rencana." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Because of illness, he was ___ to attend the meeting.",
+        "options": [
+          { "id": "A", "text": "able" },
+          { "id": "B", "text": "unable" },
+          { "id": "C", "text": "lucky" },
+          { "id": "D", "text": "proud" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Unable berarti tidak mampu, dan sakit menjadi alasan dia tidak bisa hadir.",
+        "stepByStep": [
+          "Kalimat menyebut sakit sebagai alasan.",
+          "Alasan itu menjelaskan ketidakmampuan hadir: unable.",
+          "Able berarti mampu, bertentangan dengan alasan sakit. Lucky dan proud tidak menjelaskan kehadiran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Able berarti mampu, bertentangan dengan alasan sakit." },
+          { "optionId": "C", "reasonId": "Lucky berarti beruntung, tidak menjelaskan kehadiran." },
+          { "optionId": "D", "reasonId": "Proud berarti bangga, tidak menjelaskan kehadiran." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The workers were ___ to accept the new rules at first.",
+        "options": [
+          { "id": "A", "text": "reluctant" },
+          { "id": "B", "text": "reliable" },
+          { "id": "C", "text": "relevant" },
+          { "id": "D", "text": "relaxed" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Reluctant berarti enggan, dan cocok dengan kata at first yang menunjukkan penolakan awal.",
+        "stepByStep": [
+          "Kalimat menyebut penerimaan awal atas aturan baru.",
+          "Kata sifat yang berarti enggan adalah reluctant.",
+          "Reliable berarti dapat diandalkan, relevant berarti relevan, dan relaxed berarti santai, tidak cocok di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Reliable berarti dapat diandalkan, tidak sesuai dengan penerimaan awal." },
+          { "optionId": "C", "reasonId": "Relevant berarti berhubungan, tidak menjelaskan sikap pekerja." },
+          { "optionId": "D", "reasonId": "Relaxed berarti santai, tidak sesuai dengan penolakan awal." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "There is a serious ___ of food supplies in the village after the storm.",
+        "options": [
+          { "id": "A", "text": "lamp" },
+          { "id": "B", "text": "label" },
+          { "id": "C", "text": "lack" },
+          { "id": "D", "text": "ladder" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Lack berarti kekurangan, dan frasa a serious lack of cocok untuk persediaan makanan yang tidak cukup.",
+        "stepByStep": [
+          "Kalimat menyebut persediaan makanan yang tidak cukup.",
+          "Kata benda untuk kekurangan adalah lack.",
+          "Lamp, label, dan ladder adalah kata benda lain, tidak berarti kekurangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Lamp berarti lampu, tidak berarti kekurangan." },
+          { "optionId": "B", "reasonId": "Label berarti label atau tanda, tidak berarti kekurangan." },
+          { "optionId": "D", "reasonId": "Ladder berarti tangga, tidak berarti kekurangan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Lack of berarti kekurangan sesuatu, dan diikuti kata benda tanpa a.",
+          "examples": [
+            { "en": "There is a lack of time for the project.", "id": "Ada kekurangan waktu untuk proyek itu." },
+            { "en": "The lack of sleep made him tired.", "id": "Kurang tidur membuat dia lelah." }
+          ]
+        },
+        "examTrap": "Pilihan A lamp terlihat seperti kata yang mirip, tetapi lamp berarti lampu, bukan kekurangan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The committee will ___ to approve the plan, because the budget is too small.",
+        "options": [
+          { "id": "A", "text": "relax" },
+          { "id": "B", "text": "reward" },
+          { "id": "C", "text": "refuse" },
+          { "id": "D", "text": "receive" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Refuse to berarti menolak untuk, dan alasan anggaran terlalu kecil mendukung penolakan.",
+        "stepByStep": [
+          "Alasan kalimat adalah anggaran yang terlalu kecil.",
+          "Kata kerja yang menyatakan penolakan untuk melakukan sesuatu adalah refuse.",
+          "Relax, reward, dan receive tidak sesuai dengan alasan anggaran kecil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Relax berarti bersantai, tidak sesuai dengan alasan anggaran kecil." },
+          { "optionId": "B", "reasonId": "Reward berarti memberi hadiah, tidak sesuai dengan penolakan persetujuan." },
+          { "optionId": "D", "reasonId": "Receive berarti menerima, tidak cocok dengan alasan anggaran kecil." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Refuse to + kata kerja dasar menyatakan penolakan untuk melakukan sesuatu.",
+          "examples": [
+            { "en": "The bank refused to lend the money.", "id": "Bank itu menolak meminjamkan uang." },
+            { "en": "He refused to accept the offer.", "id": "Dia menolak menerima tawaran itu." }
+          ]
+        },
+        "examTrap": "Pilihan D receive terlihat sebagai kebalikan yang masuk akal, tetapi kalimat ini menjelaskan alasan penolakan, bukan penerimaan.",
+        "evidence": "because the budget is too small"
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Perpustakaan itu kemungkinan besar tidak tutup minggu ini.",
+        "hint": "Kemungkinan kecil: unlikely to. Tutup: close. Minggu ini: this week.",
+        "acceptedAnswers": ["The library is unlikely to close this week.", "The library is not likely to close this week."],
+        "modelAnswer": "The library is unlikely to close this week.",
+        "commonErrors": [{ "pattern": "The library is unlike to close this week", "feedbackId": "Unlikely adalah kata sifat tersendiri; gunakan unlikely to." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia tidak mau memberi waktunya untuk sukarelawan.",
+        "hint": "Tidak mau: unwilling. Memberi waktu: to give his time. Sukarelawan: volunteers.",
+        "acceptedAnswers": ["He is unwilling to give his time to volunteers.", "He is unwilling to give his time as a volunteer."],
+        "modelAnswer": "He is unwilling to give his time to volunteers.",
+        "commonErrors": [{ "pattern": "He is unwilling give his time to volunteers", "feedbackId": "Setelah unwilling, pakai to dan kata kerja dasar." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kurangnya rencana membuat program itu gagal.",
+        "hint": "Kurangnya: the lack of. Rencana: a plan. Gagal: fail.",
+        "acceptedAnswers": ["The lack of a plan made the program fail.", "The lack of a plan caused the program to fail."],
+        "modelAnswer": "The lack of a plan made the program fail.",
+        "commonErrors": [{ "pattern": "The lack of plan made the program fails", "feedbackId": "Gunakan a plan, dan setelah made pakai kata kerja dasar fail." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tidak ada sukarelawan yang bisa datang pada hari Sabtu.",
+        "hint": "Tidak ada satu pun: none of. Bisa datang: could come. Hari Sabtu: on Saturday.",
+        "acceptedAnswers": ["None of the volunteers could come on Saturday.", "None of the volunteers was able to come on Saturday."],
+        "modelAnswer": "None of the volunteers could come on Saturday.",
+        "commonErrors": [{ "pattern": "None of the volunteers can came on Saturday", "feedbackId": "Setelah could, pakai kata kerja dasar come." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dewan itu menolak untuk mengubah jadwal.",
+        "hint": "Dewan: the council. Menolak untuk: refused to. Mengubah jadwal: change the schedule.",
+        "acceptedAnswers": ["The council refused to change the schedule.", "The council refused to change the timetable."],
+        "modelAnswer": "The council refused to change the schedule.",
+        "commonErrors": [{ "pattern": "The council refuse to change schedule", "feedbackId": "Subjek council tunggal memakai refused, dan schedule memerlukan the." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'absence'?",
+        "options": [
+          { "id": "A", "text": "The absence of the teacher made the class quiet." },
+          { "id": "B", "text": "The absence the teacher made class quiet." },
+          { "id": "C", "text": "The absent of teacher made class quiet." },
+          { "id": "D", "text": "The teacher absence the quiet class." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Pola the absence of + kata benda adalah pola yang benar, dan subjek absence tunggal memakai makes atau made.",
+        "stepByStep": [
+          "Pola yang benar adalah the absence of + kata benda.",
+          "Subjeknya the absence of the teacher, yang tunggal.",
+          "Pilihan B, C, dan D memakai urutan kata atau bentuk yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini tidak benar." },
+          { "optionId": "C", "reasonId": "Absent adalah kata sifat, tidak bisa menjadi bagian pola the absence of." },
+          { "optionId": "D", "reasonId": "Urutan kata dalam kalimat ini tidak membentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The absence of + kata benda menyatakan ketiadaan atau ketidakhadiran sesuatu.",
+          "examples": [
+            { "en": "The absence of a clear plan caused delays.", "id": "Ketiadaan rencana yang jelas menyebabkan penundaan." },
+            { "en": "Her absence from class was noticed.", "id": "Ketidakhadirannya dari kelas disadari." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak mirip dengan pilihan A karena memakai kata absent, tetapi absent adalah kata sifat yang tidak sesuai di pola ini."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The bridge is ___ to open before next year.'",
+        "options": [
+          { "id": "A", "text": "unlikelihood" },
+          { "id": "B", "text": "unlike" },
+          { "id": "C", "text": "unlikely" },
+          { "id": "D", "text": "unlikable" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Unlikely to berarti kemungkinannya kecil, dan kata sifat ini cocok setelah is.",
+        "stepByStep": [
+          "Pola is ___ to membutuhkan kata sifat.",
+          "Kata sifat yang menyatakan kemungkinan kecil adalah unlikely.",
+          "Unlikelihood kata benda, unlike berarti tidak seperti, dan unlikable berarti tidak disukai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Unlikelihood adalah kata benda, tidak cocok setelah is." },
+          { "optionId": "B", "reasonId": "Unlike berarti tidak seperti, tidak berarti kemungkinan kecil." },
+          { "optionId": "D", "reasonId": "Unlikable berarti tidak disukai, tidak cocok dengan makna kemungkinan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Unlikely to + kata kerja dasar menyatakan kemungkinan yang kecil.",
+          "examples": [
+            { "en": "It is unlikely to rain today.", "id": "Kemungkinan besar tidak akan hujan hari ini." },
+            { "en": "They are unlikely to win the match.", "id": "Mereka kemungkinan kecil memenangkan pertandingan." }
+          ]
+        },
+        "examTrap": "Pilihan A unlikelihood terlihat cocok karena artinya dekat, tetapi itu kata benda dan tidak bisa berdiri setelah is."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word is the best opposite of 'willing'?",
+        "options": [
+          { "id": "A", "text": "eager" },
+          { "id": "B", "text": "ready" },
+          { "id": "C", "text": "happy" },
+          { "id": "D", "text": "unwilling" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Unwilling berarti tidak mau, dan itu lawan dari willing yang berarti mau.",
+        "stepByStep": [
+          "Willing berarti mau atau bersedia.",
+          "Lawan katanya adalah unwilling, yang berarti tidak mau.",
+          "Eager dan ready memiliki makna mau, sedangkan happy tidak berhubungan dengan kemauan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Eager berarti bersemangat, memiliki makna mau, bukan lawan dari willing." },
+          { "optionId": "B", "reasonId": "Ready berarti siap, memiliki makna mau, bukan lawan dari willing." },
+          { "optionId": "C", "reasonId": "Happy berarti senang, tidak berhubungan dengan kemauan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Unwilling adalah bentuk negatif dari willing, sehingga menyatakan tidak mau.",
+          "examples": [
+            { "en": "He was willing to help.", "id": "Dia bersedia membantu." },
+            { "en": "She was unwilling to change her plan.", "id": "Dia tidak mau mengubah rencananya." }
+          ]
+        },
+        "examTrap": "Pilihan A eager terlihat seperti lawan kata karena sering dipakai bersama willing, tetapi eager berarti bersemangat, bukan tidak mau."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'refuse'?",
+        "options": [
+          { "id": "A", "text": "The committee refuses the request yesterday." },
+          { "id": "B", "text": "The committee refused the request yesterday." },
+          { "id": "C", "text": "The committee refuse the request yesterday." },
+          { "id": "D", "text": "The committee refusal the request yesterday." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Yesterday menunjukkan waktu lampau, sehingga memakai bentuk lampau refused.",
+        "stepByStep": [
+          "Kata yesterday menunjukkan waktu lampau.",
+          "Bentuk lampau dari refuse adalah refused.",
+          "Refuses dan refuse tidak cocok dengan waktu lampau, dan refusal adalah kata benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Refuses adalah bentuk present, tidak cocok dengan yesterday." },
+          { "optionId": "C", "reasonId": "Refuse adalah bentuk dasar, tidak cocok dengan waktu lampau." },
+          { "optionId": "D", "reasonId": "Refusal adalah kata benda, tidak bisa menjadi kata kerja dalam kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Refuse memakai bentuk lampau refused, dan diikuti objek langsung atau to + kata kerja dasar.",
+          "examples": [
+            { "en": "The board refused the proposal last week.", "id": "Dewan itu menolak usulan minggu lalu." },
+            { "en": "She refused to leave early.", "id": "Dia menolak pulang lebih awal." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena refuses adalah bentuk kata kerja yang umum, tetapi yesterday menuntut bentuk lampau."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means 'not one person or thing from a group'?",
+        "options": [
+          { "id": "A", "text": "none" },
+          { "id": "B", "text": "lack" },
+          { "id": "C", "text": "absence" },
+          { "id": "D", "text": "refuse" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "None berarti tidak satu pun dari sebuah kelompok.",
+        "stepByStep": [
+          "Kalimat meminta kata yang berarti tidak satu pun dari kelompok.",
+          "Kata yang tepat untuk makna itu adalah none.",
+          "Lack berarti kekurangan, absence berarti ketiadaan, dan refuse berarti menolak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Lack berarti kekurangan, bukan tidak satu pun dari kelompok." },
+          { "optionId": "C", "reasonId": "Absence berarti ketidakhadiran, bukan tidak satu pun dari kelompok." },
+          { "optionId": "D", "reasonId": "Refuse berarti menolak, bukan tidak satu pun dari kelompok." }
+        ],
+        "ruleAndExamples": {
+          "rule": "None dipakai untuk menyatakan tidak satu pun dari sebuah kelompok atau jumlah.",
+          "examples": [
+            { "en": "None of the answers were wrong.", "id": "Tidak satu pun jawaban itu salah." },
+            { "en": "None of us knew the answer.", "id": "Tidak satu pun dari kami tahu jawabannya." }
+          ]
+        },
+        "examTrap": "Pilihan B lack terlihat cocok karena berhubungan dengan ketiadaan, tetapi lack berarti kekurangan, bukan tidak satu pun dari kelompok."
+      }
+    ]
+  }
+}

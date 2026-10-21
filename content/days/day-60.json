@@ -1,0 +1,593 @@
+{
+  "day": 60,
+  "week": 8,
+  "month": 2,
+  "title": "Simulasi TOEFL ITP Bagian 2 & Estimasi Skor",
+  "topic": "Simulasi bagian 2 (Reading), estimasi skor, dan kesiapan transisi ke IELTS",
+  "skillFocus": "exam",
+  "objectives": [
+    "Mengerjakan soal reading dalam simulasi dengan batas waktu",
+    "Membaca hasil latihan untuk menemukan kekuatan dan kelemahan",
+    "Menyusun target dan peta jalan untuk tahap berikutnya"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "transition", "pronunciationId": "tran-ZISH-un (tekanan di ZISH)", "pos": "Noun", "meaningId": "transisi, peralihan", "example": "The transition to a new course takes time.", "exampleId": "Peralihan ke kursus baru memakan waktu." },
+      { "no": 2, "en": "readiness", "pronunciationId": "RED-ee-nes (tekanan di RED)", "pos": "Noun", "meaningId": "kesiapan", "example": "Your readiness is clear from the score.", "exampleId": "Kesiapanmu terlihat jelas dari skor itu." },
+      { "no": 3, "en": "weakness", "pronunciationId": "WEEK-nes (tekanan di WEEK)", "pos": "Noun", "meaningId": "kelemahan", "example": "Structure is my main weakness.", "exampleId": "Struktur adalah kelemahan utamaku." },
+      { "no": 4, "en": "strength", "pronunciationId": "STRENGKTH (tekanan di STRENGKTH)", "pos": "Noun", "meaningId": "kekuatan", "example": "Vocabulary is my strength.", "exampleId": "Kosakata adalah kekuatanku." },
+      { "no": 5, "en": "roadmap", "pronunciationId": "ROHD-map (tekanan di ROHD)", "pos": "Noun", "meaningId": "peta jalan, rencana bertahap", "example": "The roadmap shows each step.", "exampleId": "Peta jalan itu menunjukkan setiap langkah." },
+      { "no": 6, "en": "milestone", "pronunciationId": "MAIL-stohn (tekanan di MAIL)", "pos": "Noun", "meaningId": "tonggak pencapaian", "example": "Finishing the first book is a milestone.", "exampleId": "Menyelesaikan buku pertama adalah tonggak pencapaian." },
+      { "no": 7, "en": "reflection", "pronunciationId": "ri-FLEK-shun (tekanan di FLEK)", "pos": "Noun", "meaningId": "refleksi, renungan", "example": "Write a short reflection after each test.", "exampleId": "Tulislah refleksi singkat setelah setiap tes." },
+      { "no": 8, "en": "target", "pronunciationId": "TAR-get (tekanan di TAR)", "pos": "Noun", "meaningId": "target", "example": "My target is a higher score.", "exampleId": "Targetku adalah skor yang lebih tinggi." },
+      { "no": 9, "en": "plateau", "pronunciationId": "pla-TOH (tekanan di TOH)", "pos": "Noun", "meaningId": "masa mandek, stagnasi", "example": "Many learners reach a plateau.", "exampleId": "Banyak pelajar mencapai masa mandek." },
+      { "no": 10, "en": "momentum", "pronunciationId": "moh-MEN-tum (tekanan di MEN)", "pos": "Noun", "meaningId": "momentum, dorongan", "example": "Keep the momentum going.", "exampleId": "Jagalah momentumnya." }
+    ],
+    "tip": "Saat membaca hasil simulasi, catat tiga hal: satu kekuatan, satu kelemahan, dan satu target. Dari situ, susun peta jalan kecil."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL ITP score conversion", "TOEFL reading practice"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara membaca hasil latihan, menyusun target, dan menghadapi masa mandek.",
+      "watchFor": [
+        "Membaca kekuatan dan kelemahan dari hasil",
+        "Menyusun target dan milestone",
+        "Cara melewati masa mandek"
+      ]
+    },
+    "lesson": {
+      "intro": "Bagian kedua simulasi ini berisi reading, lalu langkah membaca hasil. Semua soal ditulis sendiri untuk latihan dan bukan soal resmi. Estimasi skor di sini hanya perkiraan dari latihan.",
+      "sections": [
+        {
+          "heading": "Refleksi setelah tes",
+          "bodyMd": "Setelah tes, tulis **reflection** singkat. Cari satu **strength** dan satu **weakness**. Jangan hanya melihat angka akhirnya."
+        },
+        {
+          "heading": "Target dan peta jalan",
+          "bodyMd": "Tetapkan **target** yang realistis. Lalu buat **roadmap** dengan **milestone** kecil, misalnya menyelesaikan satu set bacaan setiap dua hari."
+        },
+        {
+          "heading": "Masa mandek dan momentum",
+          "bodyMd": "Saat mencapai **plateau**, ubah satu bagian dari metodemu. **Momentum** tumbuh ketika kamu melihat kemajuan kecil dari waktu ke waktu. Catat latihanmu agar kemajuannya terlihat."
+        }
+      ],
+      "formulas": [
+        { "label": "Refleksi", "pattern": "satu strength + satu weakness + satu target" },
+        { "label": "Peta jalan", "pattern": "target + milestone kecil + tanggal" },
+        { "label": "Mandek", "pattern": "plateau → ubah satu metode → cek momentum" },
+        { "label": "Transisi", "pattern": "readiness + strength menutup weakness sebelum pindah" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Write a reflection after each practice test.", "id": "Tulislah refleksi setelah setiap tes latihan." },
+          { "en": "My strength is vocabulary, and my weakness is structure.", "id": "Kekuatanku adalah kosakata, dan kelemahanku adalah struktur." },
+          { "en": "Set a target and break it into milestones.", "id": "Tetapkan target dan pecah menjadi tonggak pencapaian." },
+          { "en": "A plateau is a normal part of learning.", "id": "Masa mandek adalah bagian normal dari belajar." },
+          { "en": "Keep a record to build momentum.", "id": "Catat latihanmu untuk membangun momentum." }
+        ],
+        "negative": [
+          { "en": "The estimate is not an official score.", "id": "Estimasi itu bukan skor resmi." },
+          { "en": "A plateau does not mean that you failed.", "id": "Masa mandek tidak berarti kamu gagal." },
+          { "en": "The roadmap does not need any milestones.", "id": "Peta jalan itu tidak memerlukan tonggak pencapaian." },
+          { "en": "One good score is not enough for a full readiness check.", "id": "Satu skor bagus tidak cukup untuk pemeriksaan kesiapan secara penuh." },
+          { "en": "Do not ignore your weakness after a test.", "id": "Jangan abaikan kelemahanmu setelah tes." }
+        ],
+        "question": [
+          { "en": "What is your strength in this test?", "id": "Apa kekuatanmu dalam tes ini?" },
+          { "en": "What is your weakness?", "id": "Apa kelemahanmu?" },
+          { "en": "What is your target score?", "id": "Berapa target skormu?" },
+          { "en": "Have you reached a plateau?", "id": "Apakah kamu sudah mencapai masa mandek?" },
+          { "en": "Which milestone comes next?", "id": "Tonggak pencapaian mana yang berikutnya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "My weakness are in the structure section.", "right": "My weakness is in the structure section.", "whyId": "Weakness adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The roadmap help me decide the next step.", "right": "The roadmap helps me decide the next step.", "whyId": "Subjek roadmap tunggal memakai helps." },
+        { "wrong": "We reached a plateau yesterday, and we stop.", "right": "We reached a plateau yesterday, and we stopped.", "whyId": "Yesterday memakai bentuk lampau stopped." },
+        { "wrong": "The reflection are useful for the target.", "right": "The reflection is useful for the target.", "whyId": "Reflection adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "A milestone is a important step.", "right": "A milestone is an important step.", "whyId": "Important diawali vokal, jadi memakai an." },
+        { "wrong": "Each milestone give us momentum.", "right": "Each milestone gives us momentum.", "whyId": "Subjek each milestone tunggal memakai gives." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Membaca Hasil dan Menyusun Langkah",
+    "text": "After a full practice simulation, the most useful step is reflection. Many students look only at the final number, but a score report contains more information. It shows your strength in areas such as reading comprehension, and it also reveals your weakness in others. A clear picture of both helps you plan the next stage of study.\n\nA readiness check should begin with your target. If your goal is a score that matches a university requirement, write that target down and compare it with your current level. The gap between the two is your roadmap. Break the roadmap into milestones, such as finishing one reading set every two days or adding fifty words to your vocabulary each week.\n\nProgress does not always move in a straight line. Many learners reach a plateau, a period when their scores stop rising for several weeks. This is normal. During a plateau, the best approach is to change one part of your method, such as practicing with shorter passages or reviewing mistakes more carefully. Small changes can restart the momentum.\n\nMomentum is the feeling that your effort is producing results. It grows when you finish tasks on time and see improvement in your notes. Keep a simple record of your practice sessions. Over time, the record becomes evidence that your work is paying off.\n\nA transition to a new exam format is also a natural next step. Skills from one test often carry over to another, but each format has its own rules. Before moving on, check that your strengths can support your weaker areas. Only then should you take the next challenge.",
+    "glossary": [
+      { "en": "comprehension", "id": "pemahaman" },
+      { "en": "requirement", "id": "persyaratan" },
+      { "en": "carry over", "id": "terbawa ke" },
+      { "en": "evidence", "id": "bukti" },
+      { "en": "paying off", "id": "membuahkan hasil" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "According to the passage, what is the most useful step after a practice simulation?",
+        "options": [
+          { "id": "A", "text": "ignoring the report" },
+          { "id": "B", "text": "reflection" },
+          { "id": "C", "text": "buying a new booklet" },
+          { "id": "D", "text": "checking only the final number" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'the most useful step is reflection', artinya langkah paling berguna adalah refleksi.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mengabaikan laporan bertentangan dengan anjuran teks." },
+          { "optionId": "C", "reasonId": "Membeli buklet baru tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Hanya melihat angka akhir disebut sebagai kebiasaan yang kurang tepat." }
+        ],
+        "evidence": "the most useful step is reflection"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What does a score report show, according to the passage?",
+        "options": [
+          { "id": "A", "text": "only the final number" },
+          { "id": "B", "text": "the room number of the test" },
+          { "id": "C", "text": "your strength and weakness in different areas" },
+          { "id": "D", "text": "the names of other students" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'It shows your strength in areas such as reading comprehension, and it also reveals your weakness in others', artinya laporan menunjukkan kekuatan dan kelemahan di berbagai bidang.",
+        "stepByStep": [
+          "Cari bagian tentang score report di paragraf pertama.",
+          "Teks menyebut kekuatan dan kelemahan di berbagai bidang.",
+          "Angka akhir saja, nomor ruangan, dan nama siswa lain tidak disebut sebagai isi laporan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut laporan berisi lebih dari angka akhir." },
+          { "optionId": "B", "reasonId": "Nomor ruangan tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Nama siswa lain tidak disebut dalam teks." }
+        ],
+        "evidence": "a score report contains more information"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What is a plateau?",
+        "options": [
+          { "id": "A", "text": "a period when scores stop rising for several weeks" },
+          { "id": "B", "text": "a type of score report" },
+          { "id": "C", "text": "the moment you finish a test" },
+          { "id": "D", "text": "a fast increase in ability" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'a plateau, a period when their scores stop rising for several weeks', artinya plateau adalah masa ketika skor berhenti naik selama beberapa minggu.",
+        "stepByStep": [
+          "Cari plateau di paragraf ketiga.",
+          "Teks mendefinisikan plateau sebagai masa skor berhenti naik beberapa minggu.",
+          "Jenis laporan, saat selesai tes, dan kenaikan cepat tidak sesuai dengan definisi itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Plateau bukan jenis laporan skor." },
+          { "optionId": "C", "reasonId": "Plateau bukan saat selesai tes." },
+          { "optionId": "D", "reasonId": "Kenaikan cepat berlawanan dengan plateau." }
+        ],
+        "evidence": "a period when their scores stop rising for several weeks"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which action does the passage recommend during a plateau?",
+        "options": [
+          { "id": "A", "text": "stop studying for a year" },
+          { "id": "B", "text": "change one part of your method" },
+          { "id": "C", "text": "skip all reviews" },
+          { "id": "D", "text": "copy answers from others" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'the best approach is to change one part of your method', artinya pendekatan terbaik adalah mengubah satu bagian dari metode.",
+        "stepByStep": [
+          "Cari saran saat plateau di paragraf ketiga.",
+          "Teks menyarankan mengubah satu bagian dari metode.",
+          "Berhenti belajar, melewatkan review, dan menyalin jawaban bertentangan dengan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Berhenti belajar tidak disarankan dalam teks." },
+          { "optionId": "C", "reasonId": "Melewatkan review tidak disarankan dalam teks." },
+          { "optionId": "D", "reasonId": "Menyalin jawaban tidak disarankan dan tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Saat plateau, perubahan kecil pada metode bisa membantu memulai kembali kemajuan.",
+          "examples": [
+            { "en": "If progress stops, change one part of your routine.", "id": "Jika kemajuan berhenti, ubah satu bagian dari rutinitasmu." },
+            { "en": "A small change can restart your momentum.", "id": "Perubahan kecil bisa memulai kembali momentummu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti cara mengatasi kebosanan, tetapi teks menyarankan perubahan kecil pada metode, bukan berhenti belajar.",
+        "evidence": "change one part of your method"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What should a student check before moving on to a new exam format?",
+        "options": [
+          { "id": "A", "text": "Skills never carry over between tests." },
+          { "id": "B", "text": "Each format has the same rules." },
+          { "id": "C", "text": "Check that your strengths can support your weaker areas." },
+          { "id": "D", "text": "Take the next exam immediately without review." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'check that your strengths can support your weaker areas', artinya periksa apakah kekuatanmu bisa menopang bidang yang lemah sebelum pindah.",
+        "stepByStep": [
+          "Cari bagian tentang transisi di paragraf kelima.",
+          "Teks meminta mengecek kekuatan yang bisa menopang bidang yang lemah.",
+          "Keterampilan tidak terbawa, format yang sama, dan ujian tanpa review tidak sesuai dengan anjuran teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut keterampilan sering terbawa ke tes lain." },
+          { "optionId": "B", "reasonId": "Teks menyebut setiap format punya aturannya sendiri." },
+          { "optionId": "D", "reasonId": "Teks menganjurkan pemeriksaan sebelum melangkah, bukan ujian tanpa review." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sebelum pindah ke format baru, pastikan kekuatan yang ada cukup untuk menopang bagian yang masih lemah.",
+          "examples": [
+            { "en": "Check your readiness before you change the course.", "id": "Periksa kesiapanmu sebelum mengganti kursus." },
+            { "en": "A strong vocabulary can support weaker reading skills.", "id": "Kosakata yang kuat dapat menopang keterampilan membaca yang lemah." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena format tes memang berbeda, tetapi teks menyebut keterampilan sering terbawa dari satu tes ke tes lain.",
+        "evidence": "check that your strengths can support your weaker areas"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "After the test, I write down my ___ and my weakest area.",
+        "options": [
+          { "id": "A", "text": "strength" },
+          { "id": "B", "text": "dormitory" },
+          { "id": "C", "text": "lecture" },
+          { "id": "D", "text": "semester" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Strength adalah kekuatan, dan kalimat ini meminta kekuatan bersama bidang terlemah.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Dormitory adalah asrama, tidak berkaitan dengan kekuatan." },
+          { "optionId": "C", "reasonId": "Lecture adalah kuliah, tidak berkaitan dengan kekuatan." },
+          { "optionId": "D", "reasonId": "Semester adalah periode belajar, tidak berkaitan dengan kekuatan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Our ___ is to reach a score of 550 in three months.",
+        "options": [
+          { "id": "A", "text": "plateau" },
+          { "id": "B", "text": "target" },
+          { "id": "C", "text": "momentum" },
+          { "id": "D", "text": "reflection" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Target adalah tujuan yang ingin dicapai, dan kalimat ini menyebut skor yang ingin dicapai dalam tiga bulan.",
+        "stepByStep": [
+          "Kalimat menyebut skor yang ingin dicapai dalam tiga bulan.",
+          "Tujuan yang ingin dicapai disebut target.",
+          "Plateau berarti masa mandek, momentum berarti dorongan, dan reflection berarti refleksi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Plateau berarti masa mandek, bukan tujuan." },
+          { "optionId": "C", "reasonId": "Momentum berarti dorongan, bukan tujuan." },
+          { "optionId": "D", "reasonId": "Reflection berarti refleksi, bukan tujuan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Every completed reading set is a small ___ on the way to the goal.",
+        "options": [
+          { "id": "A", "text": "milestone" },
+          { "id": "B", "text": "booklet" },
+          { "id": "C", "text": "timer" },
+          { "id": "D", "text": "rubric" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Milestone adalah tonggak pencapaian di sepanjang jalan menuju tujuan.",
+        "stepByStep": [
+          "Kalimat menyebut pencapaian kecil di sepanjang jalan menuju tujuan.",
+          "Tonggak pencapaian di sepanjang jalan disebut milestone.",
+          "Booklet, timer, dan rubric tidak berarti tonggak pencapaian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Booklet adalah buku kecil, bukan tonggak pencapaian." },
+          { "optionId": "C", "reasonId": "Timer adalah pengatur waktu, bukan tonggak pencapaian." },
+          { "optionId": "D", "reasonId": "Rubric adalah pedoman penilaian, bukan tonggak pencapaian." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "After three weeks without improvement, the student reached a ___.",
+        "options": [
+          { "id": "A", "text": "momentum" },
+          { "id": "B", "text": "plateau" },
+          { "id": "C", "text": "roadmap" },
+          { "id": "D", "text": "estimate" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Plateau adalah masa ketika kemajuan berhenti beberapa waktu, dan cocok dengan tiga minggu tanpa perbaikan.",
+        "stepByStep": [
+          "Kalimat menyebut tiga minggu tanpa perbaikan.",
+          "Masa ketika kemajuan berhenti disebut plateau.",
+          "Momentum, roadmap, dan estimate tidak menggambarkan kondisi berhenti itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Momentum adalah dorongan yang membuat kemajuan terus berjalan, bukan kondisi berhenti." },
+          { "optionId": "C", "reasonId": "Roadmap adalah peta jalan, bukan kondisi berhenti." },
+          { "optionId": "D", "reasonId": "Estimate adalah perkiraan, bukan kondisi berhenti." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Plateau berarti kemajuan berhenti atau mendatar untuk beberapa waktu.",
+          "examples": [
+            { "en": "Many learners hit a plateau after a few months.", "id": "Banyak pelajar mencapai masa mandek setelah beberapa bulan." },
+            { "en": "Her progress reached a plateau in May.", "id": "Kemajuannya mandek pada bulan Mei." }
+          ]
+        },
+        "examTrap": "Pilihan A momentum terlihat cocok karena berkaitan dengan kemajuan, tetapi momentum adalah dorongan, bukan kondisi mandek."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The study plan is a clear ___ that shows each step to the goal.",
+        "options": [
+          { "id": "A", "text": "readiness" },
+          { "id": "B", "text": "weakness" },
+          { "id": "C", "text": "roadmap" },
+          { "id": "D", "text": "transition" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Roadmap adalah peta jalan atau rencana bertahap yang menunjukkan setiap langkah.",
+        "stepByStep": [
+          "Kalimat menyebut rencana yang menunjukkan setiap langkah.",
+          "Peta jalan atau rencana bertahap disebut roadmap.",
+          "Readiness, weakness, dan transition tidak berarti rencana bertahap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Readiness berarti kesiapan, bukan rencana bertahap." },
+          { "optionId": "B", "reasonId": "Weakness berarti kelemahan, bukan rencana bertahap." },
+          { "optionId": "D", "reasonId": "Transition berarti peralihan, bukan rencana bertahap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Roadmap adalah rencana yang menjelaskan langkah demi langkah menuju tujuan.",
+          "examples": [
+            { "en": "Our roadmap has three stages.", "id": "Peta jalan kami punya tiga tahap." },
+            { "en": "The roadmap helps us stay on track.", "id": "Peta jalan membantu kami tetap di jalur." }
+          ]
+        },
+        "examTrap": "Pilihan D transition terlihat cocok karena rencana belajar sering berkaitan dengan peralihan, tetapi kalimat ini meminta rencana bertahap."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin mencapai target skor yang realistis.",
+        "hint": "Ingin mencapai: want to reach. Target skor: a target score. Realistis: realistic.",
+        "acceptedAnswers": ["I want to reach a realistic target score.", "I want to achieve a realistic target score."],
+        "modelAnswer": "I want to reach a realistic target score.",
+        "commonErrors": [{ "pattern": "I want reach a realistic target score", "feedbackId": "Setelah want, pakai to reach." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kelemahan saya ada pada bagian struktur.",
+        "hint": "Kelemahan: my weakness. Bagian struktur: the structure section.",
+        "acceptedAnswers": ["My weakness is in the structure section.", "My weakness is in the structure part."],
+        "modelAnswer": "My weakness is in the structure section.",
+        "commonErrors": [{ "pattern": "My weakness are in the structure section", "feedbackId": "Weakness adalah kata benda tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Peta jalan ini membantu saya menentukan langkah berikutnya.",
+        "hint": "Peta jalan: this roadmap. Membantu: helps. Menentukan: decide. Langkah berikutnya: the next step.",
+        "acceptedAnswers": ["This roadmap helps me decide the next step.", "This roadmap helps me decide my next step."],
+        "modelAnswer": "This roadmap helps me decide the next step.",
+        "commonErrors": [{ "pattern": "This roadmap help me decides the next step", "feedbackId": "Subjek roadmap tunggal memakai helps, dan setelah me memakai decide." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Setiap pencapaian kecil memberi saya momentum untuk terus belajar.",
+        "hint": "Setiap pencapaian kecil: every small milestone. Memberi: gives. Momentum: momentum. Untuk terus belajar: to keep studying.",
+        "acceptedAnswers": ["Every small milestone gives me momentum to keep studying.", "Each small milestone gives me momentum to keep studying."],
+        "modelAnswer": "Every small milestone gives me momentum to keep studying.",
+        "commonErrors": [{ "pattern": "Every small milestone give me momentum to keeps studying", "feedbackId": "Subjek milestone tunggal memakai gives, dan setelah to memakai kata kerja dasar keep." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Refleksi setelah tes membantu saya mengatasi masa mandek.",
+        "hint": "Refleksi: reflection. Setelah tes: after the test. Mengatasi masa mandek: overcome a plateau.",
+        "acceptedAnswers": ["Reflection after the test helps me overcome a plateau.", "Reflection after the test helps me get past a plateau."],
+        "modelAnswer": "Reflection after the test helps me overcome a plateau.",
+        "commonErrors": [{ "pattern": "Reflection after test help me overcome plateau", "feedbackId": "Subjek reflection tunggal memakai helps, dan gunakan the test serta a plateau." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'a period when progress stops for a while'?",
+        "options": [
+          { "id": "A", "text": "momentum" },
+          { "id": "B", "text": "plateau" },
+          { "id": "C", "text": "target" },
+          { "id": "D", "text": "strength" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Plateau berarti masa ketika kemajuan berhenti untuk sementara.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk masa berhenti dari kemajuan.",
+          "Kata yang berarti masa mandek adalah plateau.",
+          "Momentum berarti dorongan, target berarti tujuan, dan strength berarti kekuatan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Momentum berarti dorongan, bukan masa berhenti." },
+          { "optionId": "C", "reasonId": "Target berarti tujuan, bukan masa berhenti." },
+          { "optionId": "D", "reasonId": "Strength berarti kekuatan, bukan masa berhenti." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Plateau berarti kemajuan berhenti atau mendatar untuk sementara.",
+          "examples": [
+            { "en": "The team hit a plateau in the second month.", "id": "Tim itu mandek di bulan kedua." },
+            { "en": "Plateaus are common in long courses.", "id": "Masa mandek umum terjadi dalam kursus panjang." }
+          ]
+        },
+        "examTrap": "Pilihan A momentum terlihat dekat dengan kemajuan, tetapi momentum adalah dorongan yang membuat kemajuan terus berjalan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'readiness'?",
+        "options": [
+          { "id": "A", "text": "The readiness are high for the test." },
+          { "id": "B", "text": "The readiness of the students high test." },
+          { "id": "C", "text": "The students' readiness for the test is high." },
+          { "id": "D", "text": "The students readiness for test high is." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Students' readiness adalah frasa kepemilikan yang benar, dengan is sebagai kata kerja tunggal untuk readiness.",
+        "stepByStep": [
+          "Readiness adalah kata benda tunggal, sehingga kata kerjanya is.",
+          "Students' readiness menunjukkan kesiapan milik para siswa.",
+          "Pilihan A memakai are untuk subjek tunggal, pilihan B dan D urutannya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal readiness." },
+          { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini salah." },
+          { "optionId": "D", "reasonId": "Urutan kata dalam kalimat ini salah dan tidak membentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Readiness adalah kata benda tunggal, dan frasa kepemilikan students' menerangkan siapa yang siap.",
+          "examples": [
+            { "en": "The team's readiness is clear.", "id": "Kesiapan tim itu jelas." },
+            { "en": "My readiness for the exam improved.", "id": "Kesiapanku untuk ujian meningkat." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena students memakai bentuk jamak, tetapi subjek kalimat ini adalah readiness yang tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Keeping a record of your progress builds ___ over time.'",
+        "options": [
+          { "id": "A", "text": "momentum" },
+          { "id": "B", "text": "plateau" },
+          { "id": "C", "text": "weakness" },
+          { "id": "D", "text": "transition" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Momentum adalah dorongan yang tumbuh dari kemajuan yang terus terlihat.",
+        "stepByStep": [
+          "Kalimat menyebut catatan kemajuan yang membangun sesuatu dari waktu ke waktu.",
+          "Dorongan yang tumbuh dari kemajuan disebut momentum.",
+          "Plateau, weakness, dan transition tidak sesuai dengan makna membangun dorongan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Plateau berarti masa mandek, bukan sesuatu yang dibangun." },
+          { "optionId": "C", "reasonId": "Weakness berarti kelemahan, bukan sesuatu yang dibangun dari catatan." },
+          { "optionId": "D", "reasonId": "Transition berarti peralihan, bukan sesuatu yang dibangun dari catatan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Momentum dibangun dari kemajuan kecil yang terus berjalan.",
+          "examples": [
+            { "en": "Small wins build momentum.", "id": "Kemenangan kecil membangun momentum." },
+            { "en": "The team lost momentum after the break.", "id": "Tim itu kehilangan momentum setelah istirahat." }
+          ]
+        },
+        "examTrap": "Pilihan B plateau terlihat dekat dengan kemajuan, tetapi plateau berarti kemajuan berhenti, bukan dibangun."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'a look back at past work to learn from it'?",
+        "options": [
+          { "id": "A", "text": "roadmap" },
+          { "id": "B", "text": "milestone" },
+          { "id": "C", "text": "target" },
+          { "id": "D", "text": "reflection" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Reflection berarti meninjau kembali pekerjaan masa lalu untuk belajar darinya.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk meninjau pekerjaan lalu agar belajar darinya.",
+          "Kata yang berarti meninjau kembali untuk belajar adalah reflection.",
+          "Roadmap, milestone, dan target tidak berarti meninjau kembali pekerjaan lalu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Roadmap berarti peta jalan, bukan meninjau kembali." },
+          { "optionId": "B", "reasonId": "Milestone berarti tonggak pencapaian, bukan meninjau kembali." },
+          { "optionId": "C", "reasonId": "Target berarti tujuan, bukan meninjau kembali." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reflection adalah renungan atau tinjauan atas pengalaman untuk belajar darinya.",
+          "examples": [
+            { "en": "Her reflection on the project was honest.", "id": "Refleksinya tentang proyek itu jujur." },
+            { "en": "Write a short reflection after each lesson.", "id": "Tulislah refleksi singkat setelah setiap pelajaran." }
+          ]
+        },
+        "examTrap": "Pilihan A roadmap terlihat cocok karena berkaitan dengan rencana belajar, tetapi roadmap melihat ke depan, bukan ke belakang."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Each milestones are important for the plan." },
+          { "id": "B", "text": "Each milestone is important for the plan." },
+          { "id": "C", "text": "Each milestone are important for the plan." },
+          { "id": "D", "text": "Each milestones is important for the plan." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Each milestone adalah subjek tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Each milestone adalah subjek tunggal, sehingga memakai is.",
+          "Milestone dalam bentuk tunggal setelah each.",
+          "Pilihan A dan D memakai bentuk jamak milestones yang salah setelah each, dan pilihan C memakai are untuk subjek tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Each milestones memakai bentuk jamak yang salah setelah each." },
+          { "optionId": "C", "reasonId": "Are tidak cocok dengan subjek tunggal each milestone." },
+          { "optionId": "D", "reasonId": "Milestones jamak tidak cocok dengan each, dan is cocok dengan subjek tunggal yang lain." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Each diikuti kata benda tunggal dan kata kerja tunggal.",
+          "examples": [
+            { "en": "Each step is important.", "id": "Setiap langkah itu penting." },
+            { "en": "Each milestone shows progress.", "id": "Setiap tonggak menunjukkan kemajuan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena banyak tonggak disebut sekaligus, tetapi each selalu diikuti kata benda tunggal."
+      }
+    ]
+  }
+}

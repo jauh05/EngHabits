@@ -1,0 +1,612 @@
+{
+  "day": 54,
+  "week": 8,
+  "month": 2,
+  "title": "Idiom Dasar",
+  "topic": "Mengenali idiom dan makna kiasan dalam percakapan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membedakan makna harfiah dan makna kiasan",
+    "Mengenali idiom umum dalam percakapan",
+    "Memilih gaya bahasa formal atau informal yang sesuai"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "idiom", "pronunciationId": "IH-dee-um (tekanan di IH)", "pos": "Noun", "meaningId": "ungkapan, idiom", "example": "Piece of cake is an idiom.", "exampleId": "Piece of cake adalah sebuah idiom." },
+      { "no": 2, "en": "figurative", "pronunciationId": "FIG-yer-uh-tiv (tekanan di FIG)", "pos": "Adj", "meaningId": "kiasan", "example": "She used a figurative word.", "exampleId": "Dia memakai kata kiasan." },
+      { "no": 3, "en": "literal", "pronunciationId": "LIT-er-ul (tekanan di LIT)", "pos": "Adj", "meaningId": "harfiah, sesuai arti kata", "example": "The literal meaning is about a real bird.", "exampleId": "Arti harfiahnya tentang burung sungguhan." },
+      { "no": 4, "en": "slang", "pronunciationId": "SLANG (a pendek, ng jelas)", "pos": "Noun", "meaningId": "bahasa gaul", "example": "Gonna is a slang word.", "exampleId": "Gonna adalah kata bahasa gaul." },
+      { "no": 5, "en": "expression", "pronunciationId": "ik-SPRESH-un (tekanan di SPRESH)", "pos": "Noun", "meaningId": "ungkapan", "example": "That expression is common.", "exampleId": "Ungkapan itu umum." },
+      { "no": 6, "en": "metaphor", "pronunciationId": "MET-uh-for (tekanan di MET)", "pos": "Noun", "meaningId": "metafora", "example": "Time is money is a metaphor.", "exampleId": "Time is money adalah metafora." },
+      { "no": 7, "en": "colloquial", "pronunciationId": "kuh-LOH-kwee-ul (tekanan di LOH)", "pos": "Adj", "meaningId": "bahasa sehari-hari", "example": "Colloquial English is used in daily talk.", "exampleId": "Bahasa Inggris sehari-hari dipakai dalam obrolan harian." },
+      { "no": 8, "en": "informal", "pronunciationId": "in-FOR-mul (tekanan di FOR)", "pos": "Adj", "meaningId": "tidak formal, santai", "example": "An informal letter to a friend.", "exampleId": "Surat tidak formal untuk teman." },
+      { "no": 9, "en": "formal", "pronunciationId": "FOR-mul (tekanan di FOR)", "pos": "Adj", "meaningId": "formal, resmi", "example": "A formal report needs clear sentences.", "exampleId": "Laporan formal membutuhkan kalimat yang jelas." },
+      { "no": 10, "en": "casual", "pronunciationId": "KAZH-oo-ul (tekanan di KAZH)", "pos": "Adj", "meaningId": "santai, kasual", "example": "A casual greeting is fine with friends.", "exampleId": "Sapaan santai baik-baik saja dengan teman." }
+    ],
+    "tip": "Idiom tidak bisa diterjemahkan kata demi kata. Cari makna keseluruhan ungkapannya, lalu periksa apakah kalimatnya formal atau santai."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["common English idioms beginners", "idioms TOEFL listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang idiom umum seperti piece of cake dan break a leg, dengan contoh makna kiasan dan harfiah.",
+      "watchFor": [
+        "Makna kiasan idiom",
+        "Perbedaan idiom dengan makna harfiah",
+        "Idiom yang hanya cocok untuk percakapan santai"
+      ]
+    },
+    "lesson": {
+      "intro": "Idiom adalah ungkapan yang maknanya tidak sama dengan arti setiap katanya. Dalam percakapan, idiom sering muncul, dan kamu perlu mengenali apakah maknanya kiasan atau harfiah.",
+      "sections": [
+        {
+          "heading": "Idiom dan makna kiasan",
+          "bodyMd": "Sebuah **idiom** memakai makna **figurative**, bukan makna **literal**. Contohnya **piece of cake** berarti sangat mudah, bukan kue. Makna harfiah adalah arti kata yang sebenarnya."
+        },
+        {
+          "heading": "Metafora dan ungkapan",
+          "bodyMd": "Sebuah **metaphor** membandingkan dua hal tanpa memakai like atau as. **Expression** adalah istilah umum untuk ungkapan apa pun, termasuk idiom dan kalimat tetap."
+        },
+        {
+          "heading": "Formal atau santai",
+          "bodyMd": "Idiom sering **colloquial**, **informal**, atau **casual**. **Slang** lebih santai lagi. Untuk laporan atau surat resmi, pilih bahasa yang **formal**."
+        }
+      ],
+      "formulas": [
+        { "label": "Idiom", "pattern": "makna keseluruhan, bukan arti per kata" },
+        { "label": "Metafora", "pattern": "A is B, tanpa like atau as" },
+        { "label": "Santai", "pattern": "informal / casual / colloquial / slang" },
+        { "label": "Resmi", "pattern": "formal + kalimat lengkap dan kata yang tepat" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Piece of cake means something is very easy.", "id": "Piece of cake berarti sesuatu sangat mudah." },
+          { "en": "Break a leg is an idiom that means good luck.", "id": "Break a leg adalah idiom yang berarti semoga sukses." },
+          { "en": "A formal letter uses complete sentences.", "id": "Surat formal memakai kalimat yang lengkap." },
+          { "en": "The metaphor compares life to a journey.", "id": "Metafora itu membandingkan hidup dengan perjalanan." },
+          { "en": "Colloquial English is common in everyday talk.", "id": "Bahasa Inggris sehari-hari umum dalam obrolan harian." }
+        ],
+        "negative": [
+          { "en": "The idiom does not mean what the words literally say.", "id": "Idiom itu tidak berarti sesuai arti harfiah kata-katanya." },
+          { "en": "Slang is not suitable for a formal report.", "id": "Bahasa gaul tidak cocok untuk laporan formal." },
+          { "en": "This expression is not figurative; it describes a real street.", "id": "Ungkapan ini bukan kiasan; ia menggambarkan jalan sungguhan." },
+          { "en": "The phrase is not a metaphor for money.", "id": "Frasa itu bukan metafora untuk uang." },
+          { "en": "A casual greeting is not always appropriate in an interview.", "id": "Sapaan santai tidak selalu pantas dalam wawancara kerja." }
+        ],
+        "question": [
+          { "en": "What does 'hit the books' mean?", "id": "Apa arti hit the books?" },
+          { "en": "Is 'cost an arm and a leg' figurative?", "id": "Apakah cost an arm and a leg bersifat kiasan?" },
+          { "en": "Which word means the opposite of formal?", "id": "Kata apa yang berlawanan dengan formal?" },
+          { "en": "Can you give an example of slang?", "id": "Bisakah kamu memberi contoh bahasa gaul?" },
+          { "en": "What is the difference between literal and figurative?", "id": "Apa perbedaan antara literal dan figurative?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "It is a piece of cakes.", "right": "It is a piece of cake.", "whyId": "Ungkapan piece of cake tidak berubah bentuk." },
+        { "wrong": "She is under the weather, so she are at home.", "right": "She is under the weather, so she is at home.", "whyId": "Subjek she tunggal, jadi memakai is." },
+        { "wrong": "The idiom mean good luck.", "right": "The idiom means good luck.", "whyId": "Subjek idiom tunggal, jadi kata kerjanya means." },
+        { "wrong": "The report use formal language.", "right": "The report uses formal language.", "whyId": "Subjek report tunggal, jadi kata kerjanya uses." },
+        { "wrong": "Break a leg is a real injury in this sentence.", "right": "Break a leg is an idiom for good luck in this sentence.", "whyId": "Dalam konteks ini, break a leg bermakna kiasan, bukan cedera." },
+        { "wrong": "It is a informal expression.", "right": "It is an informal expression.", "whyId": "Informal diawali vokal, jadi memakai an." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["common English idioms beginners", "study group conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Idiom dalam percakapan belajar",
+        "Penjelasan tutor tentang makna kiasan"
+      ]
+    },
+    "script": {
+      "title": "Idiom dalam percakapan belajar",
+      "lines": [
+        { "speaker": "Student", "text": "I feel under the weather today, so I might skip the study group." },
+        { "speaker": "Tutor", "text": "Oh no, take care. Are you still coming to the exam review?" },
+        { "speaker": "Student", "text": "Yes, I will hit the books tonight. Honestly, the grammar part is a piece of cake for me." },
+        { "speaker": "Tutor", "text": "That is an idiom. It means something is very easy, not that you ate a cake." },
+        { "speaker": "Student", "text": "Right. When you said break a leg before the test, that was figurative, not literal." },
+        { "speaker": "Tutor", "text": "Exactly. Break a leg means good luck. In a formal essay, though, it would be wrong. It is informal and casual speech." },
+        { "speaker": "Student", "text": "So an expression like that is colloquial, and slang is even more casual." },
+        { "speaker": "Tutor", "text": "Good. Think about the metaphor in the reading too. A metaphor compares two things without using like or as." },
+        { "speaker": "Student", "text": "Got it. I will use a more formal tone in my report." },
+        { "speaker": "Tutor", "text": "Good plan. Keep the idioms for talking with friends, not for the final exam." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada idiom, tekanan ada di suku pertama: IH-dee-um.",
+      "Pada figurative, tekanan ada di suku pertama: FIG-yer-uh-tiv.",
+      "Pada colloquial, tekanan ada di suku kedua: kuh-LOH-kwee-ul."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the student mean by 'under the weather' at the beginning?",
+        "options": [
+          { "id": "A", "text": "feeling sick" },
+          { "id": "B", "text": "moving to a new house" },
+          { "id": "C", "text": "losing a bet" },
+          { "id": "D", "text": "late for class" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mahasiswa berkata 'I feel under the weather today', artinya ia merasa kurang sehat.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pindah rumah tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Kalah taruhan tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Terlambat ke kelas tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I feel under the weather today"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does the tutor say about 'a piece of cake'?",
+        "options": [
+          { "id": "A", "text": "It describes a real dessert." },
+          { "id": "B", "text": "It is a formal word for exam." },
+          { "id": "C", "text": "It is an idiom meaning very easy." },
+          { "id": "D", "text": "It means the student is hungry." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'That is an idiom. It means something is very easy', artinya ungkapan itu berarti sangat mudah.",
+        "stepByStep": [
+          "Cari piece of cake di naskah tutor.",
+          "Tutor menjelaskan bahwa itu idiom yang berarti sangat mudah.",
+          "Kue sungguhan, kata formal untuk ujian, dan rasa lapar tidak sesuai dengan penjelasan tutor."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tutor menegaskan itu bukan kue sungguhan." },
+          { "optionId": "B", "reasonId": "Tutor tidak menyebut ungkapan itu sebagai kata formal untuk ujian." },
+          { "optionId": "D", "reasonId": "Rasa lapar tidak disebut dalam penjelasan tutor." }
+        ],
+        "evidence": "That is an idiom. It means something is very easy"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Why would 'break a leg' be wrong in a formal essay?",
+        "options": [
+          { "id": "A", "text": "It is too long." },
+          { "id": "B", "text": "It is informal and casual speech." },
+          { "id": "C", "text": "It is a metaphor for money." },
+          { "id": "D", "text": "It is a literal injury." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'It is informal and casual speech', jadi ungkapan itu tidak cocok untuk esai formal.",
+        "stepByStep": [
+          "Cari alasan tutor di naskah: 'In a formal essay, though, it would be wrong.'",
+          "Tutor menjelaskan bahwa ungkapan itu informal dan santai.",
+          "Panjang kalimat, metafora uang, dan cedera tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Panjang ungkapan tidak disebut sebagai alasan." },
+          { "optionId": "C", "reasonId": "Tutor tidak menyebut break a leg sebagai metafora uang." },
+          { "optionId": "D", "reasonId": "Tutor menegaskan bahwa maknanya kiasan, bukan cedera." }
+        ],
+        "evidence": "It is informal and casual speech"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "Which best explains why 'break a leg' is figurative?",
+        "options": [
+          { "id": "A", "text": "It describes a real injury." },
+          { "id": "B", "text": "It means good luck, not a real injury." },
+          { "id": "C", "text": "It is a formal essay term." },
+          { "id": "D", "text": "It means the student is hungry." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'Break a leg means good luck', artinya ungkapan itu kiasan dan berarti semoga sukses.",
+        "stepByStep": [
+          "Cari makna break a leg di naskah: 'Break a leg means good luck.'",
+          "Makna kiasan adalah semoga sukses, bukan cedera sungguhan.",
+          "Cedera sungguhan, istilah esai formal, dan rasa lapar bertentangan dengan makna kiasan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Cedera sungguhan adalah makna harfiah, bukan kiasan." },
+          { "optionId": "C", "reasonId": "Tutor menyebut ungkapan itu informal, bukan istilah esai formal." },
+          { "optionId": "D", "reasonId": "Rasa lapar tidak disebut dalam penjelasan tentang break a leg." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Makna figurative adalah makna kiasan yang berbeda dari arti kata-katanya.",
+          "examples": [
+            { "en": "Break a leg is a figurative expression for good luck.", "id": "Break a leg adalah ungkapan kiasan untuk semoga sukses." },
+            { "en": "Her words were figurative, not literal.", "id": "Kata-katanya bersifat kiasan, bukan harfiah." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena kata leg berarti kaki, tetapi ungkapan itu tidak berarti cedera sungguhan.",
+        "evidence": "Break a leg means good luck"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "How does the tutor describe a metaphor?",
+        "options": [
+          { "id": "A", "text": "a comparison without using like or as" },
+          { "id": "B", "text": "a list of formal rules" },
+          { "id": "C", "text": "a type of slang only" },
+          { "id": "D", "text": "a sentence in the past tense" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tutor berkata 'A metaphor compares two things without using like or as', artinya metafora membandingkan dua hal tanpa like atau as.",
+        "stepByStep": [
+          "Cari definisi metafora di naskah tutor.",
+          "Tutor menyebut perbandingan tanpa like atau as.",
+          "Daftar aturan formal, slang saja, dan kalimat lampau tidak sesuai dengan definisi itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Daftar aturan formal tidak sesuai dengan definisi metafora." },
+          { "optionId": "C", "reasonId": "Metafora bukan jenis slang, dan tutor tidak menyebut itu." },
+          { "optionId": "D", "reasonId": "Bentuk kalimat lampau tidak disebut dalam definisi metafora." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Metafora membandingkan dua hal secara langsung, tanpa memakai like atau as.",
+          "examples": [
+            { "en": "Time is money.", "id": "Waktu adalah uang." },
+            { "en": "The classroom is a jungle on Monday.", "id": "Kelas itu seperti hutan belantara pada hari Senin." }
+          ]
+        },
+        "examTrap": "Pilihan C slang terlihat cocok karena metafora sering dipakai dalam bahasa gaul, tetapi tutor menjelaskan metafora sebagai perbandingan.",
+        "evidence": "A metaphor compares two things without using like or as"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The phrase 'raining cats and dogs' is an ___.",
+        "options": [
+          { "id": "A", "text": "idiom" },
+          { "id": "B", "text": "budget" },
+          { "id": "C", "text": "receipt" },
+          { "id": "D", "text": "vacation" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Raining cats and dogs adalah idiom yang berarti hujan sangat deras.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Budget berarti anggaran, bukan jenis ungkapan." },
+          { "optionId": "C", "reasonId": "Receipt berarti tanda terima, bukan jenis ungkapan." },
+          { "optionId": "D", "reasonId": "Vacation berarti liburan, bukan jenis ungkapan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "In a job interview, you should use ___ language, not slang.",
+        "options": [
+          { "id": "A", "text": "casual" },
+          { "id": "B", "text": "figurative" },
+          { "id": "C", "text": "formal" },
+          { "id": "D", "text": "colloquial" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Formal berarti resmi, dan wawancara kerja membutuhkan bahasa yang resmi.",
+        "stepByStep": [
+          "Kalimat membandingkan bahasa yang tepat dengan slang.",
+          "Bahasa yang resmi untuk wawancara adalah formal.",
+          "Casual dan colloquial menunjukkan gaya santai, sedangkan figurative menunjukkan makna kiasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Casual berarti santai, bertentangan dengan wawancara kerja." },
+          { "optionId": "B", "reasonId": "Figurative berarti kiasan, bukan gaya bahasa resmi." },
+          { "optionId": "D", "reasonId": "Colloquial berarti sehari-hari, bertentangan dengan wawancara kerja." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "'Dream big' is a ___ expression, not a real instruction to sleep.",
+        "options": [
+          { "id": "A", "text": "literal" },
+          { "id": "B", "text": "formal" },
+          { "id": "C", "text": "casual" },
+          { "id": "D", "text": "figurative" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Dream big adalah ungkapan kiasan yang berarti bercita-cita tinggi, bukan perintah untuk tidur.",
+        "stepByStep": [
+          "Kalimat menyebut ungkapan yang bukan perintah tidur.",
+          "Ungkapan dengan makna kiasan disebut figurative.",
+          "Literal berarti harfiah, sedangkan formal dan casual menunjukkan gaya bahasa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Literal berarti harfiah, bertentangan dengan 'not a real instruction'." },
+          { "optionId": "B", "reasonId": "Formal menunjukkan gaya bahasa, bukan makna kiasan." },
+          { "optionId": "C", "reasonId": "Casual menunjukkan gaya santai, bukan makna kiasan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "'Time is money' is a famous ___ because it compares time to money.",
+        "options": [
+          { "id": "A", "text": "slang" },
+          { "id": "B", "text": "metaphor" },
+          { "id": "C", "text": "colloquial" },
+          { "id": "D", "text": "literal" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Metaphor membandingkan dua hal secara langsung, dan time is money membandingkan waktu dengan uang.",
+        "stepByStep": [
+          "Kalimat menyebut perbandingan waktu dengan uang.",
+          "Perbandingan langsung tanpa like atau as disebut metaphor.",
+          "Slang dan colloquial menunjukkan gaya bahasa, sedangkan literal berarti harfiah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Slang menunjukkan gaya bahasa, bukan perbandingan." },
+          { "optionId": "C", "reasonId": "Colloquial menunjukkan gaya bahasa sehari-hari, bukan perbandingan." },
+          { "optionId": "D", "reasonId": "Literal berarti harfiah, sedangkan kalimat ini membandingkan dua hal yang berbeda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Metaphor adalah perbandingan langsung yang tidak memakai like atau as.",
+          "examples": [
+            { "en": "The city is a jungle at night.", "id": "Kota itu seperti hutan belantara di malam hari." },
+            { "en": "Her voice is music to my ears.", "id": "Suaranya seperti musik bagi telingaku." }
+          ]
+        },
+        "examTrap": "Pilihan C colloquial terlihat cocok karena ungkapan ini sering dipakai dalam obrolan, tetapi yang ditanyakan adalah jenis perbandingannya."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Text messages with friends often use ___ words like 'gonna'.",
+        "options": [
+          { "id": "A", "text": "formal" },
+          { "id": "B", "text": "literal" },
+          { "id": "C", "text": "figurative" },
+          { "id": "D", "text": "slang" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Gonna adalah kata bahasa gaul yang sering muncul dalam pesan singkat antar teman.",
+        "stepByStep": [
+          "Kata gonna sering dipakai dalam pesan santai antar teman.",
+          "Kata bahasa gaul yang santai disebut slang.",
+          "Formal berarti resmi, literal berarti harfiah, dan figurative berarti kiasan, tidak sesuai dengan contoh gonna."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Gonna tidak termasuk bahasa formal." },
+          { "optionId": "B", "reasonId": "Gonna tidak berarti harfiah, dan itu bukan istilah gaya bahasa ini." },
+          { "optionId": "C", "reasonId": "Gonna tidak memakai makna kiasan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Slang adalah kata gaul yang dipakai di percakapan santai, bukan di tulisan resmi.",
+          "examples": [
+            { "en": "Gonna and wanna are common slang.", "id": "Gonna dan wanna adalah bahasa gaul yang umum." },
+            { "en": "Slang is fine with close friends.", "id": "Bahasa gaul tidak apa-apa dengan teman dekat." }
+          ]
+        },
+        "examTrap": "Pilihan C figurative terlihat cocok karena pesan teman sering terdengar kiasan, tetapi gonna adalah bahasa gaul, bukan makna kiasan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Ujian itu sangat mudah bagi saya.",
+        "hint": "Sangat mudah: a piece of cake. Ujian: the exam.",
+        "acceptedAnswers": ["The exam is a piece of cake for me.", "The test is a piece of cake for me."],
+        "modelAnswer": "The exam is a piece of cake for me.",
+        "commonErrors": [{ "pattern": "The exam is a piece of cakes for me", "feedbackId": "Ungkapan piece of cake tidak berubah bentuk." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya merasa kurang sehat hari ini.",
+        "hint": "Kurang sehat: under the weather. Hari ini: today.",
+        "acceptedAnswers": ["I feel under the weather today.", "I am feeling under the weather today."],
+        "modelAnswer": "I feel under the weather today.",
+        "commonErrors": [{ "pattern": "I feel under weather today", "feedbackId": "Ungkapan lengkapnya under the weather." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia akan belajar keras untuk ujian besok.",
+        "hint": "Belajar keras: hit the books. Ujian besok: tomorrow's exam.",
+        "acceptedAnswers": ["She will hit the books for tomorrow's exam.", "She is going to hit the books for tomorrow's exam."],
+        "modelAnswer": "She will hit the books for tomorrow's exam.",
+        "commonErrors": [{ "pattern": "She hit the book for tomorrow exam", "feedbackId": "Hit the books memakai bentuk jamak books, dan tomorrow's exam memakai kepemilikan." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Break a leg adalah ungkapan kiasan, bukan makna harfiah.",
+        "hint": "Ungkapan kiasan: a figurative expression. Makna harfiah: a literal meaning.",
+        "acceptedAnswers": ["Break a leg is a figurative expression, not a literal meaning.", "Break a leg is a figurative expression, not a literal one."],
+        "modelAnswer": "Break a leg is a figurative expression, not a literal meaning.",
+        "commonErrors": [{ "pattern": "Break a leg are a figurative expression", "feedbackId": "Ungkapan break a leg dianggap satu kesatuan, jadi memakai is." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Bahasa gaul ini tidak cocok untuk surat formal.",
+        "hint": "Bahasa gaul: slang. Tidak cocok: not suitable. Surat formal: a formal letter.",
+        "acceptedAnswers": ["This slang is not suitable for a formal letter.", "This slang is not appropriate for a formal letter."],
+        "modelAnswer": "This slang is not suitable for a formal letter.",
+        "commonErrors": [{ "pattern": "This slang are not suitable for formal letter", "feedbackId": "Subjek slang tunggal, dan formal letter memerlukan a." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which phrase means 'very expensive'?",
+        "options": [
+          { "id": "A", "text": "piece of cake" },
+          { "id": "B", "text": "cost an arm and a leg" },
+          { "id": "C", "text": "hit the books" },
+          { "id": "D", "text": "break a leg" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Cost an arm and a leg adalah idiom yang berarti sangat mahal.",
+        "stepByStep": [
+          "Kalimat meminta idiom yang berarti sangat mahal.",
+          "Cost an arm and a leg berarti sangat mahal.",
+          "Piece of cake berarti mudah, hit the books berarti belajar keras, dan break a leg berarti semoga sukses."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Piece of cake berarti sangat mudah, bukan mahal." },
+          { "optionId": "C", "reasonId": "Hit the books berarti belajar keras, bukan mahal." },
+          { "optionId": "D", "reasonId": "Break a leg berarti semoga sukses, bukan mahal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Idiom memiliki makna keseluruhan yang tidak sama dengan arti setiap kata.",
+          "examples": [
+            { "en": "The new laptop cost an arm and a leg.", "id": "Laptop baru itu sangat mahal." },
+            { "en": "That hotel costs an arm and a leg.", "id": "Hotel itu sangat mahal." }
+          ]
+        },
+        "examTrap": "Pilihan A piece of cake terlihat cocok karena menyebut harga yang bisa dibayar, tetapi maknanya sangat mudah."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is the most informal?",
+        "options": [
+          { "id": "A", "text": "I would be grateful if you could assist me." },
+          { "id": "B", "text": "Could you please assist me?" },
+          { "id": "C", "text": "Hey, can you help me out?" },
+          { "id": "D", "text": "I request your assistance, sir." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Hey, can you help me out? memakai sapaan santai dan frasa help out, sehingga paling informal.",
+        "stepByStep": [
+          "Cari kalimat dengan sapaan santai dan kata yang tidak resmi.",
+          "Hey dan help me out adalah gaya santai.",
+          "Pilihan A, B, dan D memakai gaya yang lebih sopan dan resmi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kalimat ini memakai gaya sopan dan resmi." },
+          { "optionId": "B", "reasonId": "Could you please memakai bentuk sopan, bukan gaya santai." },
+          { "optionId": "D", "reasonId": "I request your assistance, sir memakai gaya resmi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gaya informal memakai kata santai dan sapaan akrab, sedangkan gaya formal memakai kalimat lengkap dan sopan.",
+          "examples": [
+            { "en": "Hey, what's up?", "id": "Hei, apa kabar?" },
+            { "en": "Good morning, may I ask a question?", "id": "Selamat pagi, boleh saya bertanya?" }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat santai karena pendek, tetapi could you please tetap bergaya sopan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The ___ meaning of the phrase is about a real journey, not a metaphor.'",
+        "options": [
+          { "id": "A", "text": "figurative" },
+          { "id": "B", "text": "colloquial" },
+          { "id": "C", "text": "slang" },
+          { "id": "D", "text": "literal" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Literal meaning berarti makna harfiah, dan kalimat ini menyatakan makna tentang perjalanan sungguhan.",
+        "stepByStep": [
+          "Kalimat menyebut perjalanan sungguhan, bukan metafora.",
+          "Makna sesuai arti kata sebenarnya disebut literal.",
+          "Figurative berarti kiasan, colloquial dan slang menunjukkan gaya bahasa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Figurative berarti kiasan, bertentangan dengan 'not a metaphor'." },
+          { "optionId": "B", "reasonId": "Colloquial menunjukkan gaya bahasa, bukan makna sesuai arti kata." },
+          { "optionId": "C", "reasonId": "Slang menunjukkan gaya bahasa, bukan makna sesuai arti kata." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Literal berarti sesuai dengan arti kata yang sebenarnya.",
+          "examples": [
+            { "en": "The literal meaning is a real bird.", "id": "Arti harfiahnya adalah burung sungguhan." },
+            { "en": "Take the sentence literally, not figuratively.", "id": "Pahami kalimat itu secara harfiah, bukan kiasan." }
+          ]
+        },
+        "examTrap": "Pilihan A figurative terlihat cocok karena kalimat ini menyebut metafora, tetapi kalimat itu meminta makna yang sesuai arti kata."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence correctly describes an idiom?",
+        "options": [
+          { "id": "A", "text": "The idiom is a formal essay in ten pages." },
+          { "id": "B", "text": "An idiom is an expression whose meaning is not clear from its separate words." },
+          { "id": "C", "text": "The idiom of the teacher is long." },
+          { "id": "D", "text": "Idiom we like the this." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Idiom adalah ungkapan yang maknanya tidak bisa dipahami hanya dari arti setiap katanya.",
+        "stepByStep": [
+          "Cari definisi idiom yang benar.",
+          "Idiom maknanya tidak jelas dari kata-kata terpisah.",
+          "Pilihan A, C, dan D tidak memberi definisi idiom yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Esai sepuluh halaman bukan definisi idiom." },
+          { "optionId": "C", "reasonId": "Kalimat ini tidak memberi definisi idiom yang benar." },
+          { "optionId": "D", "reasonId": "Kalimat ini tidak tersusun dengan benar dan tidak memberi definisi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Idiom adalah ungkapan dengan makna keseluruhan yang berbeda dari arti kata-katanya.",
+          "examples": [
+            { "en": "Break the ice means start a conversation.", "id": "Break the ice berarti memulai percakapan." },
+            { "en": "Hit the books means study hard.", "id": "Hit the books berarti belajar keras." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak seperti kalimat tentang idiom karena memakai kata idiom, tetapi tidak memberi definisi."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word is the opposite of 'formal'?",
+        "options": [
+          { "id": "A", "text": "casual" },
+          { "id": "B", "text": "literal" },
+          { "id": "C", "text": "figurative" },
+          { "id": "D", "text": "metaphor" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Casual berarti santai, dan itu berlawanan dengan formal yang berarti resmi.",
+        "stepByStep": [
+          "Formal berarti resmi.",
+          "Lawan kata resmi dalam gaya bahasa adalah santai, yaitu casual.",
+          "Literal dan figurative berkaitan dengan makna, sedangkan metaphor adalah jenis perbandingan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Literal berarti harfiah, bukan lawan dari formal." },
+          { "optionId": "C", "reasonId": "Figurative berarti kiasan, bukan lawan dari formal." },
+          { "optionId": "D", "reasonId": "Metaphor adalah jenis perbandingan, bukan lawan dari formal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Formal berlawanan dengan casual atau informal dalam gaya bahasa.",
+          "examples": [
+            { "en": "A formal meeting is different from a casual chat.", "id": "Rapat formal berbeda dengan obrolan santai." },
+            { "en": "Use formal English in a report, not casual English.", "id": "Pakai bahasa Inggris formal di laporan, bukan bahasa Inggris santai." }
+          ]
+        },
+        "examTrap": "Pilihan B literal terlihat sebagai lawan kata karena sering dibandingkan dengan kiasan, tetapi literal berhubungan dengan makna, bukan gaya bahasa."
+      }
+    ]
+  }
+}

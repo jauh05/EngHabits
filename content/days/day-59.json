@@ -1,0 +1,620 @@
+{
+  "day": 59,
+  "week": 8,
+  "month": 2,
+  "title": "Simulasi TOEFL ITP Bagian 1",
+  "topic": "Simulasi penuh bagian 1: Listening dan Structure",
+  "skillFocus": "exam",
+  "objectives": [
+    "Mengerjakan soal gabungan listening dan structure dengan batas waktu",
+    "Menjaga ritme jawaban agar tidak kehabisan waktu",
+    "Membaca rubrik dan tolok ukur untuk menilai hasil sendiri"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "simulation", "pronunciationId": "sim-yoo-LAY-shun (tekanan di LAY)", "pos": "Noun", "meaningId": "simulasi, latihan tiruan", "example": "This simulation takes two hours.", "exampleId": "Simulasi ini memakan waktu dua jam." },
+      { "no": 2, "en": "timer", "pronunciationId": "TAI-mer (tekanan di TAI)", "pos": "Noun", "meaningId": "pengatur waktu", "example": "Check the timer after each section.", "exampleId": "Periksa pengatur waktu setelah setiap bagian." },
+      { "no": 3, "en": "section", "pronunciationId": "SEK-shun (tekanan di SEK)", "pos": "Noun", "meaningId": "bagian", "example": "The first section is listening.", "exampleId": "Bagian pertama adalah listening." },
+      { "no": 4, "en": "question", "pronunciationId": "KWES-chun (tekanan di KWES)", "pos": "Noun", "meaningId": "soal, pertanyaan", "example": "Read each question carefully.", "exampleId": "Bacalah setiap soal dengan teliti." },
+      { "no": 5, "en": "booklet", "pronunciationId": "BUK-lit (tekanan di BUK)", "pos": "Noun", "meaningId": "buklet, buku kecil", "example": "The booklet has all the questions.", "exampleId": "Buklet itu berisi semua soal." },
+      { "no": 6, "en": "benchmark", "pronunciationId": "BENCH-mark (tekanan di BENCH)", "pos": "Noun", "meaningId": "tolok ukur", "example": "A benchmark helps compare scores.", "exampleId": "Tolok ukur membantu membandingkan skor." },
+      { "no": 7, "en": "estimate", "pronunciationId": "ES-ti-mit (tekanan di ES)", "pos": "Noun", "meaningId": "perkiraan", "example": "The estimate is based on practice.", "exampleId": "Perkiraan itu didasarkan pada latihan." },
+      { "no": 8, "en": "percentile", "pronunciationId": "per-SEN-tail (tekanan di SEN)", "pos": "Noun", "meaningId": "persentil", "example": "Her percentile is high.", "exampleId": "Persentilnya tinggi." },
+      { "no": 9, "en": "rubric", "pronunciationId": "RU-brik (tekanan di RU)", "pos": "Noun", "meaningId": "rubrik, pedoman penilaian", "example": "The rubric explains each score level.", "exampleId": "Rubrik menjelaskan setiap tingkat skor." },
+      { "no": 10, "en": "pace", "pronunciationId": "PAYS (tekanan di PAYS)", "pos": "Noun", "meaningId": "kecepatan, ritme", "example": "Keep a steady pace.", "exampleId": "Jagalah ritme yang stabil." }
+    ],
+    "tip": "Ini simulasi latihan, bukan soal resmi. Tujuannya membiasakan ritme dan membaca hasil, bukan mencari skor pasti."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL ITP full simulation", "TOEFL ITP practice test"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara mengatur waktu dalam latihan simulasi, dengan contoh membaca soal dan memeriksa ritme.",
+      "watchFor": [
+        "Cara membagi waktu antar bagian",
+        "Membaca soal sebelum melihat pilihan",
+        "Memeriksa ritme jawaban"
+      ]
+    },
+    "lesson": {
+      "intro": "Simulasi ini menggabungkan listening dan structure dalam satu sesi dengan batas waktu. Semua soal ditulis sendiri untuk latihan, bukan soal resmi. Fokuskan latihan pada ritme dan ketelitian.",
+      "sections": [
+        {
+          "heading": "Mengatur waktu",
+          "bodyMd": "Lihat **timer** setelah setiap **section**. Jika kamu terlalu lambat di satu **question**, tandai dan lanjutkan. Jaga **pace** yang stabil sampai akhir."
+        },
+        {
+          "heading": "Membaca soal dengan teliti",
+          "bodyMd": "Setiap **question** di structure memiliki satu bagian yang salah. Baca kalimat sampai habis sebelum memilih jawaban. Jangan terburu-buru karena **booklet** sering berisi pilihan yang mirip."
+        },
+        {
+          "heading": "Memeriksa hasil",
+          "bodyMd": "Gunakan **rubric** untuk memahami mengapa jawaban benar atau salah. **Benchmark** membantu membandingkan hasil dengan latihan sebelumnya. **Estimate** hanya perkiraan, dan **percentile** menunjukkan posisi relatif."
+        }
+      ],
+      "formulas": [
+        { "label": "Ritme", "pattern": "waktu per bagian ÷ jumlah soal = target waktu per soal" },
+        { "label": "Soal", "pattern": "baca kalimat sampai habis, lalu cari kesalahan grammar" },
+        { "label": "Hasil", "pattern": "skor + rubric + benchmark = gambaran kesiapan" },
+        { "label": "Perkiraan", "pattern": "estimate adalah perkiraan, bukan skor final" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Check the timer after each section.", "id": "Periksa pengatur waktu setelah setiap bagian." },
+          { "en": "The rubric explains each score level.", "id": "Rubrik menjelaskan setiap tingkat skor." },
+          { "en": "A benchmark helps you compare your results.", "id": "Tolok ukur membantu kamu membandingkan hasil." },
+          { "en": "Keep a steady pace throughout the test.", "id": "Jagalah ritme yang stabil sepanjang tes." },
+          { "en": "The estimate is based on your practice scores.", "id": "Perkiraan itu didasarkan pada skor latihanmu." }
+        ],
+        "negative": [
+          { "en": "The simulation does not replace the official test.", "id": "Simulasi ini tidak menggantikan tes resmi." },
+          { "en": "The estimate is not the final score.", "id": "Perkiraan itu bukan skor final." },
+          { "en": "A rubric does not give the answer directly.", "id": "Rubrik tidak memberikan jawabannya secara langsung." },
+          { "en": "Do not spend too long on one question.", "id": "Jangan menghabiskan terlalu banyak waktu untuk satu soal." },
+          { "en": "The booklet does not include the answer key.", "id": "Buklet itu tidak berisi kunci jawaban." }
+        ],
+        "question": [
+          { "en": "How much time is left in this section?", "id": "Berapa waktu yang tersisa di bagian ini?" },
+          { "en": "What does the rubric explain?", "id": "Apa yang dijelaskan rubrik?" },
+          { "en": "Is your pace too slow?", "id": "Apakah ritmemu terlalu lambat?" },
+          { "en": "What is a benchmark for this practice?", "id": "Apa tolok ukur untuk latihan ini?" },
+          { "en": "What does your percentile show?", "id": "Apa yang ditunjukkan oleh persentilmu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She finish the section yesterday.", "right": "She finished the section yesterday.", "whyId": "Yesterday memakai bentuk lampau finished." },
+        { "wrong": "The pace are slow.", "right": "The pace is slow.", "whyId": "Pace adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The benchmark help us compare.", "right": "The benchmark helps us compare.", "whyId": "Subjek benchmark tunggal memakai helps." },
+        { "wrong": "We has a timer in the room.", "right": "We have a timer in the room.", "whyId": "Subjek we memakai have." },
+        { "wrong": "A estimate is useful for planning.", "right": "An estimate is useful for planning.", "whyId": "Estimate diawali vokal, jadi memakai an." },
+        { "wrong": "The booklets is on the desk.", "right": "The booklets are on the desk.", "whyId": "Subjek booklets jamak, jadi memakai are." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL ITP full simulation", "TOEFL ITP practice test"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Penjelasan tutor tentang format simulasi",
+        "Istilah tolok ukur dan persentil"
+      ]
+    },
+    "script": {
+      "title": "Briefing simulasi",
+      "lines": [
+        { "speaker": "Tutor", "text": "Today's practice simulation covers listening and structure. Please read the instructions in the booklet before you start." },
+        { "speaker": "Student", "text": "Do we get a timer for each section?" },
+        { "speaker": "Tutor", "text": "Yes. Watch the timer, and keep a steady pace. Do not stay too long on one question." },
+        { "speaker": "Student", "text": "What is the rubric for scoring?" },
+        { "speaker": "Tutor", "text": "The rubric explains what a strong answer looks like. We use it as a benchmark when we review your work." },
+        { "speaker": "Student", "text": "Will the result be my real score?" },
+        { "speaker": "Tutor", "text": "No. This is only an estimate based on practice. It is not an official score." },
+        { "speaker": "Student", "text": "And the percentile? Does it show my rank in the class?" },
+        { "speaker": "Tutor", "text": "It shows how your score compares with other practice results. It is a helpful guide, nothing more." },
+        { "speaker": "Student", "text": "Thank you. I will start with a calm pace and check each question." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada simulation, tekanan ada di suku ketiga: sim-yoo-LAY-shun.",
+      "Pada percentile, tekanan ada di suku kedua: per-SEN-tail.",
+      "Pada benchmark, tekanan ada di suku pertama: BENCH-mark."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does this practice part cover?",
+        "options": [
+          { "id": "A", "text": "listening and structure" },
+          { "id": "B", "text": "reading and writing" },
+          { "id": "C", "text": "speaking only" },
+          { "id": "D", "text": "vocabulary only" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata 'covers listening and structure', artinya bagian latihan ini mencakup listening dan structure.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Reading dan writing tidak disebut dalam bagian ini." },
+          { "optionId": "C", "reasonId": "Speaking tidak disebut dalam bagian ini." },
+          { "optionId": "D", "reasonId": "Vocabulary saja tidak disebut sebagai cakupan bagian ini." }
+        ],
+        "evidence": "covers listening and structure"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does the timer help the student check?",
+        "options": [
+          { "id": "A", "text": "the color of the booklet" },
+          { "id": "B", "text": "the student's name" },
+          { "id": "C", "text": "the pace of answering" },
+          { "id": "D", "text": "the room number" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'Watch the timer, and keep a steady pace', artinya pengatur waktu membantu menjaga ritme menjawab.",
+        "stepByStep": [
+          "Cari timer di naskah tutor.",
+          "Tutor meminta siswa melihat timer dan menjaga ritme yang stabil.",
+          "Warna buklet, nama siswa, dan nomor ruangan tidak disebut sebagai fungsi timer."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Warna buklet tidak disebut sebagai fungsi timer." },
+          { "optionId": "B", "reasonId": "Nama siswa tidak disebut sebagai fungsi timer." },
+          { "optionId": "D", "reasonId": "Nomor ruangan tidak disebut sebagai fungsi timer." }
+        ],
+        "evidence": "Watch the timer, and keep a steady pace"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What is a benchmark, according to the tutor?",
+        "options": [
+          { "id": "A", "text": "a type of section" },
+          { "id": "B", "text": "a standard for comparing results" },
+          { "id": "C", "text": "a rubric for writing" },
+          { "id": "D", "text": "a booklet cover" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tutor berkata rubrik digunakan 'as a benchmark', artinya tolok ukur adalah standar untuk membandingkan hasil.",
+        "stepByStep": [
+          "Cari benchmark di naskah tutor.",
+          "Tutor menyebut rubrik dipakai sebagai benchmark saat meninjau hasil.",
+          "Bagian, rubrik penulisan, dan sampul buklet tidak sesuai dengan definisi benchmark."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Benchmark bukan jenis bagian tes." },
+          { "optionId": "C", "reasonId": "Benchmark adalah standar pembanding, bukan rubrik penulisan." },
+          { "optionId": "D", "reasonId": "Sampul buklet tidak disebut dalam penjelasan benchmark." }
+        ],
+        "evidence": "We use it as a benchmark when we review your work"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the tutor say about the percentile?",
+        "options": [
+          { "id": "A", "text": "It is the number of questions." },
+          { "id": "B", "text": "It is the total time of the test." },
+          { "id": "C", "text": "It is a type of booklet." },
+          { "id": "D", "text": "It shows how a score compares with other practice results." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Tutor berkata 'It shows how your score compares with other practice results', artinya persentil menunjukkan perbandingan skor dengan hasil latihan lain.",
+        "stepByStep": [
+          "Cari percentile di naskah tutor.",
+          "Tutor menjelaskan persentil sebagai perbandingan skor dengan hasil latihan lain.",
+          "Jumlah soal, total waktu, dan jenis buklet bukan definisi persentil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Jumlah soal tidak disebut sebagai persentil." },
+          { "optionId": "B", "reasonId": "Total waktu tes tidak disebut sebagai persentil." },
+          { "optionId": "C", "reasonId": "Buklet tidak disebut sebagai persentil." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Persentil menunjukkan posisi sebuah skor dibandingkan dengan skor lain dalam kelompok.",
+          "examples": [
+            { "en": "A percentile of 80 means the score is higher than 80 percent of the group.", "id": "Persentil 80 berarti skor itu lebih tinggi dari 80 persen kelompok." },
+            { "en": "Her percentile shows her rank among peers.", "id": "Persentilnya menunjukkan peringkatnya di antara teman sebaya." }
+          ]
+        },
+        "examTrap": "Pilihan B total waktu terlihat cocok karena persentil sering dibahas bersama tes, tetapi persentil adalah posisi perbandingan skor.",
+        "evidence": "It shows how your score compares with other practice results"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Why does the tutor say the estimate is not the final score?",
+        "options": [
+          { "id": "A", "text": "The estimate is always exactly correct." },
+          { "id": "B", "text": "The estimate is a rough guess based on practice results." },
+          { "id": "C", "text": "The estimate is a type of rubric." },
+          { "id": "D", "text": "The estimate is written in the booklet." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'This is only an estimate based on practice. It is not an official score', artinya perkiraan itu hanya dari latihan, bukan skor resmi.",
+        "stepByStep": [
+          "Cari estimate di naskah tutor.",
+          "Tutor menegaskan bahwa estimasi berasal dari latihan dan bukan skor resmi.",
+          "Estimasi yang selalu tepat, jenis rubrik, dan tulisan dalam buklet tidak sesuai dengan penjelasan tutor."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Estimasi tidak selalu tepat, dan tutor menyebutnya hanya perkiraan." },
+          { "optionId": "C", "reasonId": "Estimasi bukan jenis rubrik." },
+          { "optionId": "D", "reasonId": "Tutor tidak menyebut estimasi tertulis di buklet." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Estimate adalah perkiraan yang dibuat dari data yang ada, dan bisa berbeda dari hasil akhir.",
+          "examples": [
+            { "en": "The estimate of the cost was too low.", "id": "Perkiraan biaya itu terlalu rendah." },
+            { "en": "This is only an estimate, not a promise.", "id": "Ini hanya perkiraan, bukan janji." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena estimasi sering dipakai sebagai angka pasti, tetapi kata estimate berarti perkiraan.",
+        "evidence": "This is only an estimate based on practice"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The students ___ the simulation yesterday.",
+        "options": [
+          { "id": "A", "text": "finish" },
+          { "id": "B", "text": "finished" },
+          { "id": "C", "text": "finishing" },
+          { "id": "D", "text": "finishes" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Yesterday menunjukkan waktu lampau, sehingga memakai finished.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Finish adalah bentuk present, tidak cocok dengan yesterday." },
+          { "optionId": "C", "reasonId": "Finishing bentuk -ing, tidak cocok sebagai kata kerja utama." },
+          { "optionId": "D", "reasonId": "Finishes adalah bentuk present tunggal, tidak cocok dengan yesterday." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Neither the timer nor the booklet ___ on the desk.",
+        "options": [
+          { "id": "A", "text": "were" },
+          { "id": "B", "text": "be" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "are" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Pada neither ___ nor, kata kerja mengikuti subjek yang paling dekat, yaitu booklet yang tunggal, sehingga memakai was.",
+        "stepByStep": [
+          "Pola neither ___ nor memakai subjek yang paling dekat untuk menentukan kata kerja.",
+          "Subjek terdekat adalah booklet, yang tunggal.",
+          "Were dan are untuk jamak, sedangkan be bukan bentuk kata kerja yang tepat di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Were untuk jamak, tidak cocok dengan booklet yang tunggal." },
+          { "optionId": "B", "reasonId": "Be adalah bentuk dasar, tidak cocok sebagai kata kerja utama." },
+          { "optionId": "D", "reasonId": "Are untuk jamak, tidak cocok dengan booklet yang tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada neither ___ nor, kata kerja mengikuti subjek yang paling dekat dengan kata kerja.",
+          "examples": [
+            { "en": "Neither the tutor nor the students were ready.", "id": "Baik tutor maupun para siswa tidak siap." },
+            { "en": "Neither the students nor the tutor was late.", "id": "Baik para siswa maupun tutor tidak terlambat." }
+          ]
+        },
+        "examTrap": "Pilihan A were terlihat cocok karena ada dua subjek, tetapi dalam pola ini kata kerja mengikuti subjek yang terdekat."
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The score ___ higher if you manage your pace carefully.",
+        "options": [
+          { "id": "A", "text": "will be" },
+          { "id": "B", "text": "will being" },
+          { "id": "C", "text": "would be being" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Kalimat ini memakai if clause bentuk nyata, sehingga memakai will be.",
+        "stepByStep": [
+          "Kalimat memakai if dengan kondisi yang mungkin terjadi.",
+          "Pola yang tepat untuk kondisi nyata di masa depan adalah will be.",
+          "Will being, would be being, dan be tidak membentuk pola yang benar di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Will being bukan pola yang benar." },
+          { "optionId": "C", "reasonId": "Would be being terlalu rumit dan tidak tepat dalam kondisi nyata." },
+          { "optionId": "D", "reasonId": "Be tidak cocok sebagai kata kerja utama tanpa will." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Had the section been shorter, the students ___ more time.",
+        "options": [
+          { "id": "A", "text": "will have" },
+          { "id": "B", "text": "have had" },
+          { "id": "C", "text": "would have had" },
+          { "id": "D", "text": "had" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Had the section been shorter adalah kondisi lampau yang tidak terjadi, sehingga induknya memakai would have had.",
+        "stepByStep": [
+          "Kondisi had been shorter menyatakan situasi lampau yang tidak terjadi.",
+          "Induk kalimat untuk kondisi lampau memakai would have + V3.",
+          "Will have dan have had tidak cocok untuk kondisi lampau, dan had tidak lengkap."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will have dipakai untuk kondisi nyata, bukan kondisi lampau yang tidak terjadi." },
+          { "optionId": "B", "reasonId": "Have had tidak membentuk induk kalimat yang tepat untuk kondisi ini." },
+          { "optionId": "D", "reasonId": "Had sendiri tidak lengkap sebagai induk kalimat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kalimat pengandaian lampau memakai had + V3 di anak kalimat dan would have + V3 di induk kalimat.",
+          "examples": [
+            { "en": "Had the test been easier, we would have finished early.", "id": "Seandainya tes itu lebih mudah, kami akan selesai lebih awal." },
+            { "en": "Had she studied more, she would have passed.", "id": "Seandainya dia belajar lebih banyak, dia akan lulus." }
+          ]
+        },
+        "examTrap": "Pilihan A will have terlihat benar secara makna, tetapi kondisi lampau yang tidak terjadi memerlukan would have had."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The rubric requires that each answer ___ clearly supported.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "be" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah requires that, pakai bentuk dasar be untuk subjek each answer.",
+        "stepByStep": [
+          "Pola requires that memakai bentuk dasar kata kerja.",
+          "Subjeknya each answer, sehingga kata kerjanya be.",
+          "Is dan are tidak dipakai dalam pola requires that, dan being bukan bentuk yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak dipakai dalam pola requires that." },
+          { "optionId": "C", "reasonId": "Are tidak dipakai dalam pola requires that." },
+          { "optionId": "D", "reasonId": "Being bukan bentuk dasar yang dipakai dalam pola ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah verba seperti require, suggest, atau insist dalam bentuk that-clause, pakai bentuk dasar kata kerja.",
+          "examples": [
+            { "en": "The teacher requires that each student submit the report.", "id": "Guru itu mensyaratkan agar setiap siswa mengumpulkan laporan." },
+            { "en": "The rule requires that every answer be checked.", "id": "Aturan itu mensyaratkan agar setiap jawaban diperiksa." }
+          ]
+        },
+        "examTrap": "Pilihan A is terlihat benar karena subjeknya tunggal, tetapi pola requires that memakai bentuk dasar be."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya perlu memeriksa waktu di layar.",
+        "hint": "Memeriksa: check. Waktu: the timer. Di layar: on the screen.",
+        "acceptedAnswers": ["I need to check the timer on the screen.", "I have to check the timer on the screen."],
+        "modelAnswer": "I need to check the timer on the screen.",
+        "commonErrors": [{ "pattern": "I need check the timer on screen", "feedbackId": "Setelah need to, pakai kata kerja dasar check, dan gunakan the screen." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kelompok ini membandingkan hasil dengan tolok ukur yang sama.",
+        "hint": "Kelompok: this group. Membandingkan: compares. Tolok ukur: the same benchmark.",
+        "acceptedAnswers": ["This group compares the results with the same benchmark.", "This group compares its results with the same benchmark."],
+        "modelAnswer": "This group compares the results with the same benchmark.",
+        "commonErrors": [{ "pattern": "This group compare the results with same benchmark", "feedbackId": "Subjek group tunggal memakai compares, dan gunakan the same benchmark." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Estimasi skor ini hanya perkiraan kasar.",
+        "hint": "Estimasi skor: the score estimate. Hanya perkiraan kasar: only a rough guess.",
+        "acceptedAnswers": ["The score estimate is only a rough guess.", "This score estimate is only a rough guess."],
+        "modelAnswer": "The score estimate is only a rough guess.",
+        "commonErrors": [{ "pattern": "The score estimate are only a rough guess", "feedbackId": "Subjek estimate tunggal memakai is." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Peserta harus menjaga ritme agar tidak kehabisan waktu di bagian akhir.",
+        "hint": "Peserta: participants. Harus menjaga: must keep. Ritme: their pace. Kehabisan waktu: run out of time. Bagian akhir: the end.",
+        "acceptedAnswers": ["Participants must keep their pace so they do not run out of time at the end.", "Test takers must keep their pace so they do not run out of time at the end."],
+        "modelAnswer": "Participants must keep their pace so they do not run out of time at the end.",
+        "commonErrors": [{ "pattern": "Participants must keeping their pace so they not run out of time", "feedbackId": "Setelah must, pakai kata kerja dasar keep, dan gunakan do not." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Nilai persentil menunjukkan posisi skor relatif terhadap peserta lain.",
+        "hint": "Nilai persentil: the percentile. Menunjukkan: shows. Posisi skor: the position of a score. Relatif terhadap: relative to.",
+        "acceptedAnswers": ["The percentile shows the position of a score relative to other test takers.", "A percentile shows the position of a score relative to other test takers."],
+        "modelAnswer": "The percentile shows the position of a score relative to other test takers.",
+        "commonErrors": [{ "pattern": "The percentile show the position of score relative to other test takers", "feedbackId": "Subjek percentile tunggal memakai shows, dan gunakan the position of a score." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'the speed at which you complete tasks'?",
+        "options": [
+          { "id": "A", "text": "rubric" },
+          { "id": "B", "text": "pace" },
+          { "id": "C", "text": "booklet" },
+          { "id": "D", "text": "percentile" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pace berarti kecepatan atau ritme dalam menyelesaikan sesuatu.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk kecepatan menyelesaikan tugas.",
+          "Kata yang berarti kecepatan atau ritme adalah pace.",
+          "Rubric, booklet, dan percentile tidak berarti kecepatan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Rubric berarti pedoman penilaian, bukan kecepatan." },
+          { "optionId": "C", "reasonId": "Booklet berarti buklet, bukan kecepatan." },
+          { "optionId": "D", "reasonId": "Percentile berarti persentil, bukan kecepatan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pace berarti kecepatan atau ritme, sering dipakai dengan keep, set, atau change.",
+          "examples": [
+            { "en": "Keep a steady pace while you read.", "id": "Jagalah ritme yang stabil saat membaca." },
+            { "en": "She changed her pace after the first section.", "id": "Dia mengubah ritmenya setelah bagian pertama." }
+          ]
+        },
+        "examTrap": "Pilihan D percentile terlihat cocok karena berkaitan dengan hasil latihan, tetapi percentile bukan kecepatan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'simulation'?",
+        "options": [
+          { "id": "A", "text": "Simulation are useful for practice." },
+          { "id": "B", "text": "The simulate is useful for practice." },
+          { "id": "C", "text": "The simulation useful is for practice." },
+          { "id": "D", "text": "The simulation is useful for practice." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek simulation tunggal memakai is, dan urutan the simulation is useful sudah benar.",
+        "stepByStep": [
+          "Subjek simulation tunggal, sehingga kata kerjanya is.",
+          "Urutan the simulation is useful membentuk kalimat yang benar.",
+          "Pilihan A memakai are untuk subjek tunggal, pilihan B memakai simulate sebagai kata benda, dan pilihan C urutannya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan subjek tunggal simulation." },
+          { "optionId": "B", "reasonId": "Simulate adalah kata kerja, tidak bisa menjadi subjek." },
+          { "optionId": "C", "reasonId": "Urutan kata dalam kalimat ini salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan kata sifat berada setelah is.",
+          "examples": [
+            { "en": "The simulation is long but useful.", "id": "Simulasinya panjang tetapi berguna." },
+            { "en": "The timer is useful for each section.", "id": "Pengatur waktu itu berguna untuk setiap bagian." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat yang benar karena simulation memang kata benda, tetapi subjek tunggal memakai is, bukan are."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ shows the rules for scoring each answer.'",
+        "options": [
+          { "id": "A", "text": "rubric" },
+          { "id": "B", "text": "timer" },
+          { "id": "C", "text": "section" },
+          { "id": "D", "text": "question" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Rubric adalah pedoman penilaian yang menunjukkan aturan skor untuk setiap jawaban.",
+        "stepByStep": [
+          "Kalimat menyebut aturan penilaian untuk setiap jawaban.",
+          "Pedoman penilaian disebut rubric.",
+          "Timer, section, dan question tidak berarti pedoman penilaian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Timer adalah pengatur waktu, bukan pedoman penilaian." },
+          { "optionId": "C", "reasonId": "Section adalah bagian tes, bukan pedoman penilaian." },
+          { "optionId": "D", "reasonId": "Question adalah soal, bukan pedoman penilaian." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rubric adalah pedoman yang menjelaskan kriteria dan tingkat skor.",
+          "examples": [
+            { "en": "The rubric lists four levels of score.", "id": "Rubrik itu mencantumkan empat tingkat skor." },
+            { "en": "Read the rubric before you write.", "id": "Bacalah rubrik sebelum kamu menulis." }
+          ]
+        },
+        "examTrap": "Pilihan B timer terlihat cocok karena berkaitan dengan penilaian dalam tes, tetapi timer hanya mengatur waktu."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word refers to the small printed book with the test questions?",
+        "options": [
+          { "id": "A", "text": "pace" },
+          { "id": "B", "text": "estimate" },
+          { "id": "C", "text": "booklet" },
+          { "id": "D", "text": "benchmark" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Booklet adalah buku kecil yang berisi soal-soal tes.",
+        "stepByStep": [
+          "Kalimat meminta nama buku kecil berisi soal.",
+          "Buku kecil yang berisi soal tes disebut booklet.",
+          "Pace, estimate, dan benchmark tidak berarti buku kecil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pace berarti ritme, bukan buku." },
+          { "optionId": "B", "reasonId": "Estimate berarti perkiraan, bukan buku." },
+          { "optionId": "D", "reasonId": "Benchmark berarti tolok ukur, bukan buku." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Booklet adalah buku kecil atau brosur yang berisi informasi atau soal.",
+          "examples": [
+            { "en": "The booklet explains the test rules.", "id": "Buklet itu menjelaskan aturan tes." },
+            { "en": "Each student received a booklet.", "id": "Setiap siswa menerima satu buklet." }
+          ]
+        },
+        "examTrap": "Pilihan B estimate terlihat cocok karena kalimat membahas tes, tetapi estimate berarti perkiraan, bukan buku."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Her score is in the top ten ___ of the group.'",
+        "options": [
+          { "id": "A", "text": "section" },
+          { "id": "B", "text": "percentile" },
+          { "id": "C", "text": "rubric" },
+          { "id": "D", "text": "timer" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Top ten percentile berarti skornya berada di kelompok sepuluh persen teratas.",
+        "stepByStep": [
+          "Kalimat menyebut posisi skor dalam kelompok.",
+          "Posisi relatif skor dalam kelompok disebut percentile.",
+          "Section, rubric, dan timer tidak menunjukkan posisi skor."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Section adalah bagian tes, tidak menunjukkan posisi skor." },
+          { "optionId": "C", "reasonId": "Rubric adalah pedoman penilaian, tidak menunjukkan posisi skor." },
+          { "optionId": "D", "reasonId": "Timer adalah pengatur waktu, tidak menunjukkan posisi skor." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Percentile menunjukkan posisi skor dibandingkan kelompok lain.",
+          "examples": [
+            { "en": "He scored in the ninetieth percentile.", "id": "Dia mendapat skor di persentil sembilan puluh." },
+            { "en": "A high percentile means a strong result.", "id": "Persentil tinggi berarti hasil yang kuat." }
+          ]
+        },
+        "examTrap": "Pilihan A section terlihat cocok karena kalimat tentang tes, tetapi yang dibutuhkan adalah posisi relatif skor."
+      }
+    ]
+  }
+}

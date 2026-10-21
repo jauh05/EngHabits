@@ -1,0 +1,613 @@
+{
+  "day": 56,
+  "week": 8,
+  "month": 2,
+  "title": "Percakapan Panjang: Kehidupan Kampus",
+  "topic": "Memahami percakapan panjang tentang kehidupan kampus",
+  "skillFocus": "listening",
+  "objectives": [
+    "Mengikuti percakapan panjang dengan beberapa topik kampus",
+    "Menemukan detail seperti tenggat, jadwal, dan lokasi",
+    "Mengenali alasan dan tindakan yang disebut pembicara"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "campus", "pronunciationId": "KAM-pus (tekanan di KAM)", "pos": "Noun", "meaningId": "kampus", "example": "The campus is large and green.", "exampleId": "Kampus itu luas dan hijau." },
+      { "no": 2, "en": "dormitory", "pronunciationId": "DOR-mi-tor-ee (tekanan di DOR)", "pos": "Noun", "meaningId": "asrama", "example": "My dormitory is near the library.", "exampleId": "Asramaku dekat perpustakaan." },
+      { "no": 3, "en": "registration", "pronunciationId": "re-jis-TRAY-shun (tekanan di TRAY)", "pos": "Noun", "meaningId": "pendaftaran", "example": "Registration opens on Monday.", "exampleId": "Pendaftaran dibuka hari Senin." },
+      { "no": 4, "en": "schedule", "pronunciationId": "SKEJ-ool (tekanan di SKEJ)", "pos": "Noun", "meaningId": "jadwal", "example": "Check the class schedule.", "exampleId": "Periksa jadwal kelasnya." },
+      { "no": 5, "en": "deadline", "pronunciationId": "DED-line (tekanan di DED)", "pos": "Noun", "meaningId": "batas waktu", "example": "The deadline is Friday.", "exampleId": "Batas waktunya hari Jumat." },
+      { "no": 6, "en": "assignment", "pronunciationId": "uh-SAIN-ment (tekanan di SAIN)", "pos": "Noun", "meaningId": "tugas", "example": "The assignment is about climate.", "exampleId": "Tugasnya tentang iklim." },
+      { "no": 7, "en": "lecture", "pronunciationId": "LEK-cher (tekanan di LEK)", "pos": "Noun", "meaningId": "kuliah, ceramah", "example": "The lecture starts at nine.", "exampleId": "Kuliahnya dimulai pukul sembilan." },
+      { "no": 8, "en": "tutor", "pronunciationId": "TOO-ter (tekanan di TOO)", "pos": "Noun", "meaningId": "tutor, pengajar pendamping", "example": "The tutor helped me with my essay.", "exampleId": "Tutor membantu saya dengan esai saya." },
+      { "no": 9, "en": "library", "pronunciationId": "LAI-brer-ee (tekanan di LAI)", "pos": "Noun", "meaningId": "perpustakaan", "example": "I study at the library every day.", "exampleId": "Saya belajar di perpustakaan setiap hari." },
+      { "no": 10, "en": "semester", "pronunciationId": "se-MES-ter (tekanan di MES)", "pos": "Noun", "meaningId": "semester", "example": "This semester is very busy.", "exampleId": "Semester ini sangat sibuk." }
+    ],
+    "tip": "Dalam percakapan panjang, catat tiga hal: tenggat, lokasi, dan tindakan yang disarankan. Biasanya soal menanyakan salah satunya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL long conversation campus", "campus life English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang percakapan kampus, dengan contoh pendaftaran, jadwal, asrama, dan tenggat tugas.",
+      "watchFor": [
+        "Tenggat dan tanggal penting",
+        "Lokasi kantor atau ruangan",
+        "Tindakan yang disarankan pembicara"
+      ]
+    },
+    "lesson": {
+      "intro": "Percakapan panjang tentang kampus biasanya berisi beberapa topik sekaligus. Kamu perlu mengikuti setiap topik, lalu mengingat detail penting seperti tanggal, tempat, dan saran.",
+      "sections": [
+        {
+          "heading": "Topik kampus",
+          "bodyMd": "**Registration** dan **schedule** biasanya dibahas di awal. **Dormitory** dan **library** menjelaskan tempat, sedangkan **semester** menjelaskan periode belajar."
+        },
+        {
+          "heading": "Tenggat dan tugas",
+          "bodyMd": "**Deadline** adalah batas waktu. **Assignment** adalah tugas yang harus dikumpulkan. **Lecture** adalah kuliah, dan **tutor** biasanya membantu menulis atau belajar."
+        },
+        {
+          "heading": "Cara mencatat",
+          "bodyMd": "Tulis tiga hal: tanggal atau batas waktu, tempat, dan tindakan. Dengan begitu, kamu bisa menjawab pertanyaan detail dengan cepat."
+        }
+      ],
+      "formulas": [
+        { "label": "Jadwal", "pattern": "the schedule for + periode + is posted" },
+        { "label": "Tenggat", "pattern": "the deadline to + kata kerja + is + hari" },
+        { "label": "Tempat", "pattern": "go to + ruangan / kantor + and ask + siapa" },
+        { "label": "Saran", "pattern": "you should + kata kerja dasar + tempat" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The schedule for next semester is online.", "id": "Jadwal semester depan sudah online." },
+          { "en": "The deadline to confirm is Friday.", "id": "Batas waktu konfirmasi adalah hari Jumat." },
+          { "en": "The lecture starts at nine in the main hall.", "id": "Kuliah dimulai pukul sembilan di aula utama." },
+          { "en": "My dormitory is near the campus library.", "id": "Asramaku dekat perpustakaan kampus." },
+          { "en": "The tutor can help with your assignment.", "id": "Tutor bisa membantu tugasmu." }
+        ],
+        "negative": [
+          { "en": "The registration form is not due until next month.", "id": "Formulir pendaftaran tidak perlu dikumpulkan sampai bulan depan." },
+          { "en": "The library does not close early on Fridays.", "id": "Perpustakaan tidak tutup lebih awal pada hari Jumat." },
+          { "en": "The dormitory room is not free this semester.", "id": "Kamar asrama tidak kosong semester ini." },
+          { "en": "The lecture is not cancelled today.", "id": "Kuliah hari ini tidak dibatalkan." },
+          { "en": "The assignment does not need a student card.", "id": "Tugas itu tidak memerlukan kartu mahasiswa." }
+        ],
+        "question": [
+          { "en": "When is the deadline to confirm the room?", "id": "Kapan batas waktu konfirmasi kamar?" },
+          { "en": "Where is the lecture held?", "id": "Di mana kuliah itu diadakan?" },
+          { "en": "Who can help with the essay?", "id": "Siapa yang bisa membantu esai itu?" },
+          { "en": "Is the library open late on weekdays?", "id": "Apakah perpustakaan buka larut pada hari kerja?" },
+          { "en": "What should the student bring to the lecture?", "id": "Apa yang harus dibawa mahasiswa ke kuliah?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The schedule are posted online.", "right": "The schedule is posted online.", "whyId": "Schedule adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "I go to the registration office yesterday.", "right": "I went to the registration office yesterday.", "whyId": "Yesterday memakai bentuk lampau went." },
+        { "wrong": "The deadline are Friday.", "right": "The deadline is Friday.", "whyId": "Deadline adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The dormitory close at ten.", "right": "The dormitory closes at ten.", "whyId": "Subjek dormitory tunggal, jadi kata kerjanya closes." },
+        { "wrong": "She is a tutor for the library.", "right": "She works as a tutor in the library.", "whyId": "Tutor di perpustakaan dinyatakan dengan works as a tutor in the library." },
+        { "wrong": "Bring your student card, because it is require.", "right": "Bring your student card, because it is required.", "whyId": "Setelah it is, pakai bentuk participle required." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL long conversation campus", "campus life English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Dua topik berbeda dalam satu percakapan",
+        "Tenggat dan lokasi yang disebut"
+      ]
+    },
+    "script": {
+      "title": "Persiapan semester baru",
+      "lines": [
+        { "speaker": "Student", "text": "Hi, I am going to the registration office. Do you know if the schedule for next semester is posted?" },
+        { "speaker": "Staff", "text": "It went online yesterday. You can check it on the campus portal." },
+        { "speaker": "Student", "text": "Great. I also need to ask about my dormitory room. Is it still available?" },
+        { "speaker": "Staff", "text": "Yes, but the deadline to confirm is Friday. After that, the room goes to another student." },
+        { "speaker": "Student", "text": "Okay. And the library hours? I have a big assignment due next week." },
+        { "speaker": "Staff", "text": "The library is open until ten on weekdays. The tutor center there can help with writing." },
+        { "speaker": "Student", "text": "Good. Is the lecture on research methods still on Tuesday?" },
+        { "speaker": "Staff", "text": "Yes, at nine in the main hall. Bring your student card, because it is required." },
+        { "speaker": "Student", "text": "Thanks. One more thing: my registration form has an error. Who should I talk to?" },
+        { "speaker": "Staff", "text": "Go to room 204 and ask the registrar. They can fix it within an hour." },
+        { "speaker": "Student", "text": "Perfect. This semester is going to be busy, but I feel ready." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada dormitory, tekanan ada di suku pertama: DOR-mi-tor-ee.",
+      "Pada registration, tekanan ada di suku ketiga: re-jis-TRAY-shun.",
+      "Pada semester, tekanan ada di suku kedua: se-MES-ter."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the student want to know first?",
+        "options": [
+          { "id": "A", "text": "whether the next semester schedule is posted" },
+          { "id": "B", "text": "the price of textbooks" },
+          { "id": "C", "text": "the name of the tutor" },
+          { "id": "D", "text": "the color of the library" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mahasiswa bertanya 'Do you know if the schedule for next semester is posted?', artinya ia ingin tahu apakah jadwal semester depan sudah diumumkan.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Harga buku tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Nama tutor tidak ditanyakan pertama." },
+          { "optionId": "D", "reasonId": "Warna perpustakaan tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Do you know if the schedule for next semester is posted"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "When is the deadline to confirm the dormitory room?",
+        "options": [
+          { "id": "A", "text": "Monday" },
+          { "id": "B", "text": "Friday" },
+          { "id": "C", "text": "Tuesday" },
+          { "id": "D", "text": "next semester" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Staf berkata 'the deadline to confirm is Friday', artinya batas waktu konfirmasi kamar adalah hari Jumat.",
+        "stepByStep": [
+          "Cari kata deadline di naskah staf.",
+          "Staf menyebut batas waktu konfirmasi adalah Friday.",
+          "Senin, Selasa, dan semester depan tidak disebut sebagai batas waktu konfirmasi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Senin tidak disebut sebagai batas waktu." },
+          { "optionId": "C", "reasonId": "Selasa adalah hari kuliah tentang metode penelitian, bukan batas waktu kamar." },
+          { "optionId": "D", "reasonId": "Semester depan tidak disebut sebagai batas waktu konfirmasi." }
+        ],
+        "evidence": "the deadline to confirm is Friday"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Why does the student need the library?",
+        "options": [
+          { "id": "A", "text": "They need to return books." },
+          { "id": "B", "text": "They want to meet a registrar." },
+          { "id": "C", "text": "They have a big assignment due next week." },
+          { "id": "D", "text": "They want to cancel a room." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Mahasiswa berkata 'I have a big assignment due next week', jadi alasannya adalah tugas besar yang harus dikumpulkan minggu depan.",
+        "stepByStep": [
+          "Cari bagian tentang library dalam percakapan.",
+          "Mahasiswa menyebut tugas besar yang harus dikumpulkan minggu depan.",
+          "Mengembalikan buku, bertemu registrar, dan membatalkan kamar tidak disebut sebagai alasan ke perpustakaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mengembalikan buku tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Bertemu registrar disebut terpisah, bukan alasan ke perpustakaan." },
+          { "optionId": "D", "reasonId": "Membatalkan kamar tidak disebut sebagai alasan." }
+        ],
+        "evidence": "I have a big assignment due next week"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the staff say about the Tuesday lecture?",
+        "options": [
+          { "id": "A", "text": "It is cancelled." },
+          { "id": "B", "text": "It starts at nine and requires a student card." },
+          { "id": "C", "text": "It is held online only." },
+          { "id": "D", "text": "It is for first-year students only." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Staf berkata 'at nine in the main hall. Bring your student card, because it is required', artinya kuliah mulai pukul sembilan dan kartu mahasiswa wajib dibawa.",
+        "stepByStep": [
+          "Cari lecture di naskah staf.",
+          "Staf menyebut jam sembilan dan kartu mahasiswa yang wajib.",
+          "Dibatalkan, daring saja, dan hanya untuk mahasiswa baru tidak disebut dalam naskah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Staf tidak mengatakan kuliah itu dibatalkan." },
+          { "optionId": "C", "reasonId": "Staf menyebut kuliahnya di aula utama, bukan daring." },
+          { "optionId": "D", "reasonId": "Staf tidak mengatakan kuliah itu hanya untuk mahasiswa baru." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Required berarti wajib, dan dalam percakapan sering muncul setelah it is.",
+          "examples": [
+            { "en": "A passport is required for the trip.", "id": "Paspor wajib untuk perjalanan itu." },
+            { "en": "Attendance is required in every class.", "id": "Kehadiran wajib di setiap kelas." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena kuliah sering dibatalkan, tetapi staf tidak menyebut pembatalan.",
+        "evidence": "at nine in the main hall. Bring your student card, because it is required"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What can the registrar do for the student's form?",
+        "options": [
+          { "id": "A", "text": "Cancel the semester." },
+          { "id": "B", "text": "Send it to the dormitory." },
+          { "id": "C", "text": "Move the lecture to Monday." },
+          { "id": "D", "text": "Fix it within an hour." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Staf berkata 'They can fix it within an hour', artinya registrar bisa memperbaiki formulir dalam satu jam.",
+        "stepByStep": [
+          "Cari bagian tentang formulir pendaftaran yang salah.",
+          "Staf menyebut registrar bisa fix it within an hour.",
+          "Membatalkan semester, mengirim ke asrama, dan memindah kuliah tidak disebut untuk formulir."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Membatalkan semester tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Mengirim formulir ke asrama tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Memindah kuliah tidak berhubungan dengan formulir." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Within an hour berarti dalam waktu satu jam, dan menunjukkan batas waktu tindakan.",
+          "examples": [
+            { "en": "The form can be fixed within a day.", "id": "Formulir itu bisa diperbaiki dalam sehari." },
+            { "en": "Please reply within three days.", "id": "Tolong balas dalam tiga hari." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat cocok karena percakapan membahas jadwal kuliah, tetapi kuliah tidak berhubungan dengan formulir yang salah.",
+        "evidence": "They can fix it within an hour"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Please submit your ___ before the end of the day.",
+        "options": [
+          { "id": "A", "text": "assignment" },
+          { "id": "B", "text": "umbrella" },
+          { "id": "C", "text": "dormitory" },
+          { "id": "D", "text": "pencil" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Assignment adalah tugas yang dikumpulkan sebelum batas waktu.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Payung tidak dikumpulkan." },
+          { "optionId": "C", "reasonId": "Asrama tidak dikumpulkan." },
+          { "optionId": "D", "reasonId": "Pensil tidak dikumpulkan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The ___ starts at eight, and the professor will explain the theory.",
+        "options": [
+          { "id": "A", "text": "deadline" },
+          { "id": "B", "text": "dormitory" },
+          { "id": "C", "text": "lecture" },
+          { "id": "D", "text": "library" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Lecture adalah kuliah, dan kalimat ini menyebut profesor menjelaskan teori.",
+        "stepByStep": [
+          "Kalimat menyebut dosen yang menjelaskan teori.",
+          "Sesi belajar yang dimulai pukul delapan dan dijelaskan profesor adalah lecture.",
+          "Deadline, dormitory, dan library tidak sesuai dengan penjelasan teori."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Deadline adalah batas waktu, bukan sesi penjelasan." },
+          { "optionId": "B", "reasonId": "Dormitory adalah asrama, tidak menjelaskan teori." },
+          { "optionId": "D", "reasonId": "Library adalah perpustakaan, tidak memulai sesi penjelasan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "I need help with my essay, so I will visit the writing ___.",
+        "options": [
+          { "id": "A", "text": "schedule" },
+          { "id": "B", "text": "semester" },
+          { "id": "C", "text": "registration" },
+          { "id": "D", "text": "tutor" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Tutor adalah pengajar pendamping yang membantu menulis, dan cocok dengan kebutuhan bantuan esai.",
+        "stepByStep": [
+          "Kalimat meminta bantuan untuk esai.",
+          "Orang yang membantu menulis disebut tutor.",
+          "Schedule, semester, dan registration tidak berarti orang yang membantu menulis."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Schedule adalah jadwal, bukan orang yang membantu." },
+          { "optionId": "B", "reasonId": "Semester adalah periode belajar, bukan orang yang membantu." },
+          { "optionId": "C", "reasonId": "Registration adalah pendaftaran, bukan orang yang membantu." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Students must complete the online ___ before they can choose classes.",
+        "options": [
+          { "id": "A", "text": "dormitory" },
+          { "id": "B", "text": "registration" },
+          { "id": "C", "text": "library" },
+          { "id": "D", "text": "lecture" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Registration adalah pendaftaran, dan proses ini harus selesai sebelum memilih kelas.",
+        "stepByStep": [
+          "Kalimat menyebut proses yang harus selesai sebelum memilih kelas.",
+          "Proses pendaftaran online disebut registration.",
+          "Dormitory, library, dan lecture tidak berarti proses pendaftaran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dormitory adalah asrama, bukan proses pendaftaran." },
+          { "optionId": "C", "reasonId": "Library adalah perpustakaan, bukan proses pendaftaran." },
+          { "optionId": "D", "reasonId": "Lecture adalah kuliah, bukan proses pendaftaran." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Registration berarti proses mendaftar, misalnya untuk kelas atau kursus.",
+          "examples": [
+            { "en": "Registration for the course closes on Friday.", "id": "Pendaftaran kursus itu ditutup hari Jumat." },
+            { "en": "Complete the registration before the deadline.", "id": "Selesaikan pendaftaran sebelum batas waktu." }
+          ]
+        },
+        "examTrap": "Pilihan D lecture terlihat cocok karena berkaitan dengan kelas, tetapi lecture adalah kuliah, bukan proses mendaftar."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ runs from September to December, and final exams happen at the end.",
+        "options": [
+          { "id": "A", "text": "semester" },
+          { "id": "B", "text": "assignment" },
+          { "id": "C", "text": "deadline" },
+          { "id": "D", "text": "tutor" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Semester adalah periode belajar, dan kalimat ini menjelaskan rentang waktunya.",
+        "stepByStep": [
+          "Kalimat menyebut rentang waktu dari September sampai Desember.",
+          "Periode belajar yang punya rentang waktu disebut semester.",
+          "Assignment, deadline, dan tutor tidak berarti periode belajar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Assignment adalah tugas, bukan rentang waktu belajar." },
+          { "optionId": "C", "reasonId": "Deadline adalah batas waktu, bukan rentang waktu belajar." },
+          { "optionId": "D", "reasonId": "Tutor adalah pengajar pendamping, bukan rentang waktu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Semester adalah periode belajar di kampus, biasanya sekitar empat sampai lima bulan.",
+          "examples": [
+            { "en": "The spring semester starts in January.", "id": "Semester musim semi dimulai pada Januari." },
+            { "en": "This semester has three exams.", "id": "Semester ini memiliki tiga ujian." }
+          ]
+        },
+        "examTrap": "Pilihan C deadline terlihat cocok karena sering disebut dalam kampus, tetapi kalimat ini menjelaskan rentang waktu belajar."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya perlu mengisi formulir pendaftaran hari ini.",
+        "hint": "Mengisi formulir: fill in the form. Pendaftaran: registration. Hari ini: today.",
+        "acceptedAnswers": ["I need to fill in the registration form today.", "I have to fill in the registration form today."],
+        "modelAnswer": "I need to fill in the registration form today.",
+        "commonErrors": [{ "pattern": "I need fill in the registration form today", "feedbackId": "Setelah need to, pakai kata kerja dasar fill." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Asramanya tutup pada akhir pekan.",
+        "hint": "Asrama: the dormitory. Tutup: closes. Akhir pekan: the weekend.",
+        "acceptedAnswers": ["The dormitory closes on the weekend.", "The dormitory is closed on the weekend."],
+        "modelAnswer": "The dormitory closes on the weekend.",
+        "commonErrors": [{ "pattern": "The dormitory close on the weekend", "feedbackId": "Subjek dormitory tunggal, jadi memakai closes." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Batas waktu pengumpulan tugas adalah hari Jumat.",
+        "hint": "Batas waktu: deadline. Pengumpulan tugas: the assignment. Hari Jumat: Friday.",
+        "acceptedAnswers": ["The deadline for the assignment is Friday.", "The assignment deadline is Friday."],
+        "modelAnswer": "The deadline for the assignment is Friday.",
+        "commonErrors": [{ "pattern": "The deadline for the assignment are Friday", "feedbackId": "Subjek deadline tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dosen akan menjelaskan teori itu di kuliah berikutnya.",
+        "hint": "Dosen: the lecturer. Akan menjelaskan: will explain. Kuliah berikutnya: the next lecture.",
+        "acceptedAnswers": ["The lecturer will explain the theory in the next lecture.", "The lecturer will explain the theory during the next lecture."],
+        "modelAnswer": "The lecturer will explain the theory in the next lecture.",
+        "commonErrors": [{ "pattern": "The lecturer will explains the theory in next lecture", "feedbackId": "Setelah will, pakai kata kerja dasar explain, dan gunakan the next lecture." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Semester ini tutornya sangat membantu saya di perpustakaan.",
+        "hint": "Semester ini: this semester. Tutornya: the tutor. Sangat membantu: very helpful. Di perpustakaan: in the library.",
+        "acceptedAnswers": ["This semester, the tutor has been very helpful to me in the library.", "This semester, the tutor in the library has been very helpful to me."],
+        "modelAnswer": "This semester, the tutor has been very helpful to me in the library.",
+        "commonErrors": [{ "pattern": "This semester the tutor have been very helpful at library", "feedbackId": "Subjek tutor tunggal memakai has, dan gunakan the library." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Students sign up for classes during the ___ period.'",
+        "options": [
+          { "id": "A", "text": "dormitory" },
+          { "id": "B", "text": "registration" },
+          { "id": "C", "text": "lecture" },
+          { "id": "D", "text": "tutor" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Registration period adalah masa pendaftaran, saat mahasiswa mendaftar kelas.",
+        "stepByStep": [
+          "Kalimat menyebut masa mahasiswa mendaftar kelas.",
+          "Masa pendaftaran disebut registration period.",
+          "Dormitory, lecture, dan tutor tidak berarti masa pendaftaran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dormitory adalah asrama, bukan masa pendaftaran." },
+          { "optionId": "C", "reasonId": "Lecture adalah kuliah, bukan masa pendaftaran." },
+          { "optionId": "D", "reasonId": "Tutor adalah pengajar pendamping, bukan masa pendaftaran." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Registration period adalah masa ketika mahasiswa mendaftar kelas atau kursus.",
+          "examples": [
+            { "en": "The registration period ends on Sunday.", "id": "Masa pendaftaran berakhir hari Minggu." },
+            { "en": "Check the course list during registration.", "id": "Periksa daftar kursus selama pendaftaran." }
+          ]
+        },
+        "examTrap": "Pilihan C lecture terlihat cocok karena mahasiswa mengikuti kuliah, tetapi kalimat ini meminta masa mendaftar kelas."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'dormitory'?",
+        "options": [
+          { "id": "A", "text": "The dormitories is full this semester." },
+          { "id": "B", "text": "The dormitory full is this semester." },
+          { "id": "C", "text": "The dormitory were full this semester." },
+          { "id": "D", "text": "The dormitory is full this semester." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek dormitory tunggal memakai is, dan urutan kata the dormitory is full sudah benar.",
+        "stepByStep": [
+          "Subjek dormitory tunggal, sehingga kata kerjanya is.",
+          "Urutan the dormitory is full membentuk kalimat yang benar.",
+          "Pilihan A memakai dormitories dengan is, pilihan B urutannya salah, dan pilihan C memakai were untuk subjek tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dormitories jamak tidak cocok dengan is." },
+          { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini salah." },
+          { "optionId": "C", "reasonId": "Subjek tunggal tidak cocok dengan were." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is, dan kata sifat full berada setelah is.",
+          "examples": [
+            { "en": "The dormitory is quiet at night.", "id": "Asrama itu tenang pada malam hari." },
+            { "en": "The library is full before the exam.", "id": "Perpustakaan penuh sebelum ujian." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena dormitories adalah bentuk jamak yang benar, tetapi kalimat ini menyebut satu asrama."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word is the plural of 'library'?",
+        "options": [
+          { "id": "A", "text": "libraries" },
+          { "id": "B", "text": "librarys" },
+          { "id": "C", "text": "library" },
+          { "id": "D", "text": "librarian" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Library berakhiran konsonan dan y, sehingga bentuk jamaknya libraries.",
+        "stepByStep": [
+          "Library berakhiran y setelah konsonan r.",
+          "Akhiran y berubah menjadi ies untuk bentuk jamak.",
+          "Librarys dan library bukan bentuk jamak yang benar, dan librarian adalah kata lain."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Librarys tidak mengikuti aturan perubahan y menjadi ies." },
+          { "optionId": "C", "reasonId": "Library adalah bentuk tunggal, bukan jamak." },
+          { "optionId": "D", "reasonId": "Librarian adalah pustakawan, bukan jamak dari library." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata yang berakhiran konsonan dan y menjadi jamak dengan mengganti y menjadi ies.",
+          "examples": [
+            { "en": "The city has two libraries.", "id": "Kota itu punya dua perpustakaan." },
+            { "en": "Several libraries closed early.", "id": "Beberapa perpustakaan tutup lebih awal." }
+          ]
+        },
+        "examTrap": "Pilihan B librarys terlihat seperti jamak biasa dengan s, tetapi kata yang berakhiran konsonan dan y memakai ies."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The lecture start at nine in the main hall." },
+          { "id": "B", "text": "The lecture starting at nine in the main hall." },
+          { "id": "C", "text": "The lecture starts at nine in the main hall." },
+          { "id": "D", "text": "The lectures starts at nine in the main hall." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Subjek lecture tunggal memakai starts sebagai kata kerja tunggal.",
+        "stepByStep": [
+          "Subjek lecture tunggal, sehingga kata kerjanya starts.",
+          "Kalimat berisi jam dan lokasi yang sesuai.",
+          "Pilihan A memakai start untuk subjek tunggal, pilihan B tidak punya kata kerja utama, dan pilihan D memakai lectures dengan starts."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Start tidak cocok dengan subjek tunggal lecture." },
+          { "optionId": "B", "reasonId": "Starting tidak berfungsi sebagai kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Lectures jamak tidak cocok dengan starts yang tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai kata kerja tunggal, seperti starts.",
+          "examples": [
+            { "en": "The class starts at nine.", "id": "Kelas itu dimulai pukul sembilan." },
+            { "en": "The lecture ends at eleven.", "id": "Kuliah itu berakhir pukul sebelas." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat benar karena lecture sering dibicarakan dalam bentuk jamak, tetapi kalimat ini menyebut satu kuliah."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ for the course ends next Friday, so submit your work early.'",
+        "options": [
+          { "id": "A", "text": "tutor" },
+          { "id": "B", "text": "deadline" },
+          { "id": "C", "text": "dormitory" },
+          { "id": "D", "text": "library" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Deadline adalah batas waktu, dan kalimat ini menyebut akhir kursus dan pengumpulan awal.",
+        "stepByStep": [
+          "Kalimat menyebut waktu berakhir pada Jumat depan.",
+          "Batas waktu pengumpulan disebut deadline.",
+          "Tutor, dormitory, dan library tidak berarti batas waktu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tutor adalah pengajar pendamping, bukan batas waktu." },
+          { "optionId": "C", "reasonId": "Dormitory adalah asrama, bukan batas waktu." },
+          { "optionId": "D", "reasonId": "Library adalah perpustakaan, bukan batas waktu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Deadline adalah batas waktu terakhir untuk menyelesaikan atau mengumpulkan sesuatu.",
+          "examples": [
+            { "en": "The deadline for the form is tomorrow.", "id": "Batas waktu formulir itu besok." },
+            { "en": "Meet the deadline or lose the place.", "id": "Penuhi batas waktunya atau kehilangan tempat." }
+          ]
+        },
+        "examTrap": "Pilihan A tutor terlihat cocok karena kalimat membahas tugas, tetapi yang dibutuhkan adalah batas waktu."
+      }
+    ]
+  }
+}

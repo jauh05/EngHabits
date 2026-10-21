@@ -1,0 +1,612 @@
+{
+  "day": 52,
+  "week": 8,
+  "month": 2,
+  "title": "Dialog Pendek dan Second Speaker",
+  "topic": "Memahami jawaban pembicara kedua dalam dialog pendek",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menemukan jawaban pembicara kedua dalam dialog pendek",
+    "Membedakan permintaan, saran, dan keluhan",
+    "Memahami tanggapan yang sopan dan tidak langsung"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "dialogue", "pronunciationId": "DAI-a-log (tekanan di DAI)", "pos": "Noun", "meaningId": "dialog", "example": "The dialogue was short and clear.", "exampleId": "Dialog itu singkat dan jelas." },
+      { "no": 2, "en": "speaker", "pronunciationId": "SPEE-ker (tekanan di SPEE)", "pos": "Noun", "meaningId": "pembicara", "example": "The second speaker answered politely.", "exampleId": "Pembicara kedua menjawab dengan sopan." },
+      { "no": 3, "en": "response", "pronunciationId": "ri-SPON-s (tekanan di SPON)", "pos": "Noun", "meaningId": "tanggapan, jawaban", "example": "Her response was quick.", "exampleId": "Tanggapannya cepat." },
+      { "no": 4, "en": "reply", "pronunciationId": "ri-PLAI (tekanan di PLAI)", "pos": "Noun", "meaningId": "balasan, membalas", "example": "I wait for your reply.", "exampleId": "Saya menunggu balasanmu." },
+      { "no": 5, "en": "respond", "pronunciationId": "ri-SPOND (tekanan di SPOND)", "pos": "Verb", "meaningId": "menanggapi, membalas", "example": "Please respond by Friday.", "exampleId": "Tolong balas sebelum Jumat." },
+      { "no": 6, "en": "conversation", "pronunciationId": "kon-ver-SAY-shun (tekanan di SAY)", "pos": "Noun", "meaningId": "percakapan", "example": "The conversation lasted ten minutes.", "exampleId": "Percakapan itu berlangsung sepuluh menit." },
+      { "no": 7, "en": "remark", "pronunciationId": "ri-MARK (tekanan di MARK)", "pos": "Noun", "meaningId": "komentar, pendapat singkat", "example": "He made a remark about the weather.", "exampleId": "Dia membuat komentar tentang cuaca." },
+      { "no": 8, "en": "comment", "pronunciationId": "KOM-ent (tekanan di KOM)", "pos": "Noun", "meaningId": "komentar", "example": "Leave a comment below the post.", "exampleId": "Tinggalkan komentar di bawah unggahan." },
+      { "no": 9, "en": "suggestion", "pronunciationId": "sug-JES-chun (tekanan di JES)", "pos": "Noun", "meaningId": "saran", "example": "Thank you for your suggestion.", "exampleId": "Terima kasih atas sarannya." },
+      { "no": 10, "en": "complaint", "pronunciationId": "kum-PLAINT (tekanan di PLAINT)", "pos": "Noun", "meaningId": "keluhan", "example": "She made a complaint about the noise.", "exampleId": "Dia mengajukan keluhan tentang kebisingan." }
+    ],
+    "tip": "Dalam dialog pendek, perhatikan kalimat terakhir pembicara kedua. Jawaban sering ada di sana, bukan di kalimat pertama."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL short conversations", "listening second speaker TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang dialog pendek, dengan contoh pembicara kedua yang memberi tanggapan, saran, atau keluhan.",
+      "watchFor": [
+        "Kalimat terakhir pembicara kedua",
+        "Perbedaan saran dan keluhan",
+        "Tanggapan yang sopan"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam dialog pendek, pembicara pertama biasanya membuka percakapan, dan pembicara kedua memberi jawaban, saran, atau tanggapan. Jawaban inilah yang sering ditanyakan.",
+      "sections": [
+        {
+          "heading": "Pembicara kedua",
+          "bodyMd": "**Speaker** kedua sering memberi **response** atau **reply** yang singkat. Perhatikan apakah dia **respond** dengan setuju, menolak, atau memberi **suggestion**."
+        },
+        {
+          "heading": "Kata untuk tanggapan",
+          "bodyMd": "**Remark** dan **comment** adalah pendapat singkat. **Complaint** adalah keluhan. **Conversation** adalah percakapan yang lebih panjang dari satu kalimat."
+        },
+        {
+          "heading": "Cara menjawab",
+          "bodyMd": "Dengarkan kalimat terakhir, lalu tanyakan: apa yang dia ingin lakukan? Jika dia menyarankan sesuatu, jawabannya sering berupa saran itu."
+        }
+      ],
+      "formulas": [
+        { "label": "Tanggapan", "pattern": "response / reply + tanggapan singkat" },
+        { "label": "Saran", "pattern": "I suggest that + subjek + kata kerja dasar" },
+        { "label": "Keluhan", "pattern": "make a complaint about + hal yang dikeluhkan" },
+        { "label": "Pendapat", "pattern": "make a remark / comment on + topik" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The speaker gave a quick reply.", "id": "Pembicara itu memberi balasan yang cepat." },
+          { "en": "I suggest that you write a short comment.", "id": "Saya menyarankan kamu menulis komentar singkat." },
+          { "en": "She made a complaint about the noise.", "id": "Dia mengajukan keluhan tentang kebisingan." },
+          { "en": "Their conversation lasted ten minutes.", "id": "Percakapan mereka berlangsung sepuluh menit." },
+          { "en": "The staff will respond within two days.", "id": "Staf akan membalas dalam dua hari." }
+        ],
+        "negative": [
+          { "en": "The speaker does not agree with the plan.", "id": "Pembicara itu tidak setuju dengan rencananya." },
+          { "en": "The student did not make any complaint.", "id": "Mahasiswa itu tidak mengajukan keluhan apa pun." },
+          { "en": "The reply is not clear in this dialogue.", "id": "Balasan itu tidak jelas dalam dialog ini." },
+          { "en": "The lecturer does not accept late work.", "id": "Dosen itu tidak menerima tugas yang terlambat." },
+          { "en": "We did not expect such a quick response.", "id": "Kami tidak menyangka tanggapan secepat itu." }
+        ],
+        "question": [
+          { "en": "What is the speaker's response?", "id": "Apa tanggapan pembicara itu?" },
+          { "en": "Does the second speaker make a suggestion?", "id": "Apakah pembicara kedua memberi saran?" },
+          { "en": "What is the main complaint in the conversation?", "id": "Apa keluhan utama dalam percakapan itu?" },
+          { "en": "How long does the conversation last?", "id": "Berapa lama percakapan itu berlangsung?" },
+          { "en": "Who made the remark about the schedule?", "id": "Siapa yang membuat komentar tentang jadwal?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The speaker reply quickly to the question.", "right": "The speaker replies quickly to the question.", "whyId": "Subjek speaker tunggal, jadi kata kerjanya memakai -s." },
+        { "wrong": "She make a complaint about the noise.", "right": "She makes a complaint about the noise.", "whyId": "Subjek she memakai -s pada kata kerja present." },
+        { "wrong": "They has a long conversation.", "right": "They have a long conversation.", "whyId": "Subjek they memakai have." },
+        { "wrong": "I suggest you to write a comment.", "right": "I suggest that you write a comment.", "whyId": "Setelah suggest, pakai that lalu kata kerja dasar, bukan to." },
+        { "wrong": "The staff respond to the complain.", "right": "The staff respond to the complaint.", "whyId": "Complaint adalah kata benda, sedangkan complain adalah kata kerja." },
+        { "wrong": "Their remark is about the price, and it are fair.", "right": "Their remark is about the price, and it is fair.", "whyId": "Subjek it tunggal, jadi kata kerjanya is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL short conversations", "campus office conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Pertanyaan utama mahasiswa",
+        "Jawaban staf dan saran yang diberikan"
+      ]
+    },
+    "script": {
+      "title": "Permintaan perpanjangan tugas",
+      "lines": [
+        { "speaker": "Student", "text": "Excuse me, I have a question about the assignment deadline." },
+        { "speaker": "Staff", "text": "Sure. What would you like to know?" },
+        { "speaker": "Student", "text": "Can the deadline be moved to Friday?" },
+        { "speaker": "Staff", "text": "I understand your concern, but the schedule is fixed for everyone." },
+        { "speaker": "Student", "text": "That is a fair response. Is there another option?" },
+        { "speaker": "Staff", "text": "You can submit a short remark about your situation to the lecturer." },
+        { "speaker": "Student", "text": "Would the lecturer respond quickly?" },
+        { "speaker": "Staff", "text": "Usually within two days. I suggest you write the comment today." },
+        { "speaker": "Student", "text": "Thanks for the conversation. That is a helpful suggestion." },
+        { "speaker": "Staff", "text": "You are welcome. A polite reply usually gets a better response than an angry complaint." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada response, tekanan ada di suku kedua: ri-SPON-s.",
+      "Pada suggestion, tekanan ada di suku kedua: sug-JES-chun.",
+      "Pada conversation, tekanan ada di suku ketiga: kon-ver-SAY-shun."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is the student's main concern?",
+        "options": [
+          { "id": "A", "text": "the price of the books" },
+          { "id": "B", "text": "a deadline for an assignment" },
+          { "id": "C", "text": "the lecturer's name" },
+          { "id": "D", "text": "a room number" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Mahasiswa berkata 'I have a question about the assignment deadline', artinya keluhannya soal tenggat tugas.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Harga buku tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Nama dosen tidak menjadi inti percakapan." },
+          { "optionId": "D", "reasonId": "Nomor ruangan tidak disebut dalam percakapan." }
+        ],
+        "evidence": "a question about the assignment deadline"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the staff's response to the request to move the deadline?",
+        "options": [
+          { "id": "A", "text": "The deadline will be moved to Friday." },
+          { "id": "B", "text": "The student must leave the campus." },
+          { "id": "C", "text": "The schedule is fixed for everyone." },
+          { "id": "D", "text": "The lecturer is absent." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Staf berkata 'the schedule is fixed for everyone', artinya jadwal tidak bisa diubah untuk siapa pun.",
+        "stepByStep": [
+          "Cari response staf terhadap permintaan memindah tenggat.",
+          "Staf menyebut jadwal tetap untuk semua orang.",
+          "Tenggat pindah ke Jumat bertentangan dengan jawaban staf, sedangkan meninggalkan kampus dan dosen tidak hadir tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Staf tidak menyetujui pemindahan ke Jumat." },
+          { "optionId": "B", "reasonId": "Tidak ada kalimat yang meminta mahasiswa meninggalkan kampus." },
+          { "optionId": "D", "reasonId": "Ketidakhadiran dosen tidak disebut dalam percakapan." }
+        ],
+        "evidence": "the schedule is fixed for everyone"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does the staff suggest the student do?",
+        "options": [
+          { "id": "A", "text": "ignore the deadline" },
+          { "id": "B", "text": "change the course" },
+          { "id": "C", "text": "submit a short remark to the lecturer" },
+          { "id": "D", "text": "call the library" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Staf berkata 'You can submit a short remark about your situation to the lecturer', artinya mahasiswa bisa mengirim komentar singkat kepada dosen.",
+        "stepByStep": [
+          "Cari kata kerja saran dari staf.",
+          "Staf menyarankan mengirim komentar singkat ke dosen.",
+          "Mengabaikan tenggat, mengganti mata kuliah, dan menelepon perpustakaan tidak disebut sebagai saran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Staf tidak menyarankan mengabaikan tenggat." },
+          { "optionId": "B", "reasonId": "Mengganti mata kuliah tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Menelepon perpustakaan tidak disebut dalam percakapan." }
+        ],
+        "evidence": "submit a short remark about your situation to the lecturer"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does the student mean by 'That is a fair response'?",
+        "options": [
+          { "id": "A", "text": "The student is angry about the schedule." },
+          { "id": "B", "text": "The student is leaving the office." },
+          { "id": "C", "text": "The student wants a longer answer." },
+          { "id": "D", "text": "The student accepts the staff's explanation as reasonable." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Frasa 'a fair response' berarti tanggapan yang masuk akal, jadi mahasiswa menerima penjelasan staf.",
+        "stepByStep": [
+          "Cari kalimat 'That is a fair response' di naskah.",
+          "Fair berarti adil atau masuk akal dalam konteks ini.",
+          "Marah, pergi, dan ingin jawaban lebih panjang tidak sesuai dengan kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kemarahan tidak tampak dari kalimat itu, dan fair menunjukkan penerimaan." },
+          { "optionId": "B", "reasonId": "Mahasiswa tidak mengatakan akan meninggalkan kantor." },
+          { "optionId": "C", "reasonId": "Mahasiswa tidak meminta jawaban yang lebih panjang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam dialog, kalimat seperti 'That is a fair response' menunjukkan bahwa pembicara menerima tanggapan lawan bicaranya.",
+          "examples": [
+            { "en": "That is a fair point, I agree.", "id": "Itu poin yang masuk akal, saya setuju." },
+            { "en": "That is a fair response to my question.", "id": "Itu tanggapan yang adil untuk pertanyaan saya." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena mahasiswa sedang mengajukan keluhan, tetapi frasa fair menunjukkan penerimaan.",
+        "evidence": "That is a fair response"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "How quickly will the lecturer probably respond?",
+        "options": [
+          { "id": "A", "text": "after the deadline has passed" },
+          { "id": "B", "text": "within two days" },
+          { "id": "C", "text": "next semester" },
+          { "id": "D", "text": "never" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Staf berkata 'Usually within two days', artinya dosen biasanya membalas dalam dua hari.",
+        "stepByStep": [
+          "Cari kata waktu di jawaban staf: 'Usually within two days'.",
+          "Kata usually menunjukkan kebiasaan, dan within two days menunjukkan waktu.",
+          "Setelah tenggat, musim depan, dan tidak pernah tidak sesuai dengan keterangan staf."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Staf tidak mengatakan dosen membalas setelah tenggat berlalu." },
+          { "optionId": "C", "reasonId": "Semester depan tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Staf menyebut dosen biasanya membalas, bukan tidak pernah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Usually menunjukkan kebiasaan, dan within menunjukkan batas waktu.",
+          "examples": [
+            { "en": "The bus usually arrives within ten minutes.", "id": "Bus biasanya tiba dalam sepuluh menit." },
+            { "en": "Please reply within three days.", "id": "Tolong balas dalam tiga hari." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti jawaban yang masuk akal karena berkaitan dengan tenggat, tetapi staf menyebut waktu balasan, bukan kapan tenggat berlalu.",
+        "evidence": "Usually within two days"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The staff member gave a clear ___ to my question.",
+        "options": [
+          { "id": "A", "text": "response" },
+          { "id": "B", "text": "dialogue" },
+          { "id": "C", "text": "speaker" },
+          { "id": "D", "text": "conversation" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Response adalah tanggapan atau jawaban, dan cocok dengan kalimat ini.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Dialogue berarti dialog, bukan jawaban atas pertanyaan." },
+          { "optionId": "C", "reasonId": "Speaker berarti pembicara, bukan jawaban." },
+          { "optionId": "D", "reasonId": "Conversation berarti percakapan, tidak cocok dengan kata clear yang menunjuk jawaban." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Please ___ to this email by Friday.",
+        "options": [
+          { "id": "A", "text": "suggest" },
+          { "id": "B", "text": "complain" },
+          { "id": "C", "text": "respond" },
+          { "id": "D", "text": "speak" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Respond to berarti membalas atau menanggapi, dan cocok dengan permintaan membalas email.",
+        "stepByStep": [
+          "Kalimat meminta membalas email sebelum Jumat.",
+          "Kata kerja yang berarti membalas adalah respond.",
+          "Suggest berarti menyarankan, complain berarti mengeluh, dan speak berarti berbicara."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Suggest berarti menyarankan, bukan membalas email." },
+          { "optionId": "B", "reasonId": "Complain berarti mengeluh, bukan membalas email." },
+          { "optionId": "D", "reasonId": "Speak berarti berbicara, tidak cocok untuk email." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The ___ between the two students was about the library schedule.",
+        "options": [
+          { "id": "A", "text": "remark" },
+          { "id": "B", "text": "conversation" },
+          { "id": "C", "text": "suggestion" },
+          { "id": "D", "text": "complaint" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Conversation berarti percakapan yang berlangsung antara dua orang.",
+        "stepByStep": [
+          "Kalimat menyebut percakapan antara dua mahasiswa.",
+          "Kata benda untuk percakapan adalah conversation.",
+          "Remark, suggestion, dan complaint menunjukkan satu pendapat atau keluhan, bukan percakapan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Remark berarti komentar singkat, bukan percakapan panjang." },
+          { "optionId": "C", "reasonId": "Suggestion berarti saran, bukan percakapan." },
+          { "optionId": "D", "reasonId": "Complaint berarti keluhan, bukan percakapan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Her ___ was that we should meet on Monday.",
+        "options": [
+          { "id": "A", "text": "complaint" },
+          { "id": "B", "text": "suggestion" },
+          { "id": "C", "text": "dialogue" },
+          { "id": "D", "text": "speaker" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Suggestion berarti saran, dan kalimat 'we should meet on Monday' adalah isi sarannya.",
+        "stepByStep": [
+          "Kalimat berisi usulan bertemu pada hari Senin.",
+          "Usulan yang disampaikan seseorang disebut suggestion.",
+          "Complaint berarti keluhan, dialogue berarti dialog, dan speaker berarti pembicara, tidak cocok dengan usulan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Complaint berarti keluhan, bukan usulan pertemuan." },
+          { "optionId": "C", "reasonId": "Dialogue berarti dialog, tidak cocok sebagai subjek yang berisi usulan." },
+          { "optionId": "D", "reasonId": "Speaker berarti pembicara, bukan isi usulan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Suggestion dipakai untuk usulan yang disampaikan seseorang, biasanya diikuti that atau kata kerja.",
+          "examples": [
+            { "en": "My suggestion is that we start early.", "id": "Saran saya adalah kita mulai lebih awal." },
+            { "en": "Thank you for the helpful suggestion.", "id": "Terima kasih atas saran yang membantu." }
+          ]
+        },
+        "examTrap": "Pilihan C dialogue terlihat cocok karena kalimat ini berasal dari percakapan, tetapi yang dibutuhkan adalah isi usulan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The ___ said the lecture would start at nine.",
+        "options": [
+          { "id": "A", "text": "speaker" },
+          { "id": "B", "text": "dialogue" },
+          { "id": "C", "text": "comment" },
+          { "id": "D", "text": "response" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Speaker adalah orang yang berbicara, dan dia yang menyampaikan informasi jadwal kuliah.",
+        "stepByStep": [
+          "Kalimat menyebut seseorang yang menyampaikan jam kuliah.",
+          "Orang yang berbicara disebut speaker.",
+          "Dialogue, comment, dan response menunjukkan kata lain, bukan orang yang berbicara."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Dialogue berarti dialog, bukan orang yang berbicara." },
+          { "optionId": "C", "reasonId": "Comment berarti komentar, bukan orang." },
+          { "optionId": "D", "reasonId": "Response berarti tanggapan, bukan orang yang berbicara." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Speaker menunjuk orang yang sedang berbicara atau menyampaikan informasi.",
+          "examples": [
+            { "en": "The speaker thanked the audience.", "id": "Pembicara itu berterima kasih kepada hadirin." },
+            { "en": "Each speaker had five minutes.", "id": "Setiap pembicara mendapat lima menit." }
+          ]
+        },
+        "examTrap": "Pilihan D response terlihat cocok karena berkaitan dengan ucapan, tetapi response adalah tanggapan, bukan orang yang berbicara."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin mengajukan keluhan tentang jadwal.",
+        "hint": "Mengajukan keluhan: make a complaint. Tentang jadwal: about the schedule.",
+        "acceptedAnswers": ["I want to make a complaint about the schedule.", "I would like to make a complaint about the schedule."],
+        "modelAnswer": "I want to make a complaint about the schedule.",
+        "commonErrors": [{ "pattern": "I want to make a complain about the schedule", "feedbackId": "Gunakan complaint sebagai kata benda setelah a." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Pembicara kedua memberi tanggapan yang singkat.",
+        "hint": "Pembicara kedua: the second speaker. Tanggapan: response.",
+        "acceptedAnswers": ["The second speaker gave a short response.", "The second speaker gave a brief response."],
+        "modelAnswer": "The second speaker gave a short response.",
+        "commonErrors": [{ "pattern": "The second speaker give a short response", "feedbackId": "Subjek speaker tunggal, jadi memakai bentuk lampau gave." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apakah kamu bisa membalas komentarku?",
+        "hint": "Membalas: reply to atau respond to. Komentar: comment.",
+        "acceptedAnswers": ["Can you reply to my comment?", "Can you respond to my comment?"],
+        "modelAnswer": "Can you reply to my comment?",
+        "commonErrors": [{ "pattern": "Can you reply my comment", "feedbackId": "Reply memerlukan preposisi to: reply to." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia memberi saran yang sangat masuk akal.",
+        "hint": "Saran: suggestion. Masuk akal: reasonable.",
+        "acceptedAnswers": ["She made a very reasonable suggestion.", "She gave a very reasonable suggestion."],
+        "modelAnswer": "She made a very reasonable suggestion.",
+        "commonErrors": [{ "pattern": "She made a very reasonable suggest", "feedbackId": "Setelah a very reasonable, gunakan kata benda suggestion." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Percakapan itu berisi keluhan dan tanggapan dari staf.",
+        "hint": "Percakapan: conversation. Keluhan: complaint. Tanggapan: response.",
+        "acceptedAnswers": ["The conversation included a complaint and a response from the staff.", "The conversation contained a complaint and a response from the staff."],
+        "modelAnswer": "The conversation included a complaint and a response from the staff.",
+        "commonErrors": [{ "pattern": "The conversation include a complaint and a response from the staff", "feedbackId": "Subjek conversation tunggal, jadi memakai included." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which reply best fits the question 'Could you help me with the form?'",
+        "options": [
+          { "id": "A", "text": "The form is blue." },
+          { "id": "B", "text": "Sure, what do you need?" },
+          { "id": "C", "text": "Yesterday was Monday." },
+          { "id": "D", "text": "I have never seen a form." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Balasan yang tepat untuk permintaan bantuan adalah kesediaan membantu dan pertanyaan lanjutan.",
+        "stepByStep": [
+          "Pertanyaan meminta bantuan dengan formulir.",
+          "Balasan yang tepat menyatakan kesediaan dan menanyakan kebutuhan: Sure, what do you need?",
+          "Warna formulir, hari Senin, dan tidak pernah melihat formulir tidak menjawab permintaan bantuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Warna formulir tidak menjawab permintaan bantuan." },
+          { "optionId": "C", "reasonId": "Hari Senin tidak berhubungan dengan permintaan bantuan." },
+          { "optionId": "D", "reasonId": "Tidak pernah melihat formulir tidak menjawab permintaan bantuan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Balasan atas permintaan bantuan biasanya menyatakan kesediaan, lalu bertanya apa yang dibutuhkan.",
+          "examples": [
+            { "en": "Sure, which part do you need help with?", "id": "Tentu, bagian mana yang butuh bantuan?" },
+            { "en": "Of course, tell me what the problem is.", "id": "Tentu, beri tahu saya apa masalahnya." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena menyebut formulir, tetapi kalimat itu tidak menjawab permintaan bantuan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'remark' correctly?",
+        "options": [
+          { "id": "A", "text": "She made a remark about the weather." },
+          { "id": "B", "text": "She made the remark a weather." },
+          { "id": "C", "text": "She remarked the weather about." },
+          { "id": "D", "text": "The remark weather about she made." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Pola make a remark about + topik adalah pola yang benar untuk menyatakan komentar tentang sesuatu.",
+        "stepByStep": [
+          "Pola yang benar adalah make a remark about + topik.",
+          "Topik cuaca diletakkan setelah about.",
+          "Pilihan B, C, dan D memakai urutan kata yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "A remark bukan kata benda yang bisa menjadi weather." },
+          { "optionId": "C", "reasonId": "Remark dipakai sebagai kata benda, bukan kata kerja dengan objek langsung." },
+          { "optionId": "D", "reasonId": "Urutan kata dalam kalimat ini tidak membentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Make a remark about menyatakan komentar tentang sesuatu.",
+          "examples": [
+            { "en": "He made a remark about the price.", "id": "Dia membuat komentar tentang harganya." },
+            { "en": "She made a remark about the noise.", "id": "Dia membuat komentar tentang kebisingan." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat mirip karena memakai remarked, tetapi kata itu tidak memakai about setelah objek seperti yang benar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The two speakers had a friendly ___ about their plans.'",
+        "options": [
+          { "id": "A", "text": "complaint" },
+          { "id": "B", "text": "substitute" },
+          { "id": "C", "text": "identical" },
+          { "id": "D", "text": "conversation" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Conversation berarti percakapan, dan kalimat ini menggambarkan dua pembicara yang berbincang tentang rencana.",
+        "stepByStep": [
+          "Kalimat menggambarkan dua pembicara yang berbincang.",
+          "Kata benda yang berarti percakapan adalah conversation.",
+          "Complaint, substitute, dan identical tidak menggambarkan percakapan tentang rencana."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Complaint berarti keluhan, tidak cocok dengan percakapan tentang rencana yang ramah." },
+          { "optionId": "B", "reasonId": "Substitute berarti pengganti, tidak cocok di posisi ini." },
+          { "optionId": "C", "reasonId": "Identical berarti sama persis, tidak cocok sebagai kata benda di posisi ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A friendly conversation berarti percakapan yang ramah, dan conversation adalah kata benda.",
+          "examples": [
+            { "en": "We had a friendly conversation after class.", "id": "Kami berbincang dengan ramah setelah kelas." },
+            { "en": "The conversation about the trip was short.", "id": "Percakapan tentang perjalanan itu singkat." }
+          ]
+        },
+        "examTrap": "Pilihan A complaint terlihat cocok karena dua pembicara sedang berbicara, tetapi kalimat ini menyebut percakapan yang ramah, bukan keluhan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word means 'to answer someone'?",
+        "options": [
+          { "id": "A", "text": "remark" },
+          { "id": "B", "text": "dialogue" },
+          { "id": "C", "text": "respond" },
+          { "id": "D", "text": "speaker" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Respond berarti menanggapi atau menjawab seseorang.",
+        "stepByStep": [
+          "Pertanyaan meminta kata yang berarti menjawab seseorang.",
+          "Kata kerja yang berarti menjawab atau menanggapi adalah respond.",
+          "Remark berarti komentar, dialogue berarti dialog, dan speaker berarti pembicara."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Remark berarti komentar, bukan menjawab seseorang." },
+          { "optionId": "B", "reasonId": "Dialogue berarti dialog, bukan tindakan menjawab." },
+          { "optionId": "D", "reasonId": "Speaker berarti pembicara, bukan tindakan menjawab." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Respond to berarti menjawab atau menanggapi sesuatu atau seseorang.",
+          "examples": [
+            { "en": "Please respond to the question.", "id": "Tolong jawab pertanyaan itu." },
+            { "en": "She responded with a smile.", "id": "Dia menanggapi dengan senyum." }
+          ]
+        },
+        "examTrap": "Pilihan A remark terlihat cocok karena juga berkaitan dengan ucapan, tetapi remark berarti komentar, bukan tindakan menjawab."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The speakers responds quickly to the questions." },
+          { "id": "B", "text": "The speakers respond quickly to the questions." },
+          { "id": "C", "text": "The speaker respond quickly to the questions." },
+          { "id": "D", "text": "The speakers responding quickly the questions." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek speakers jamak memakai kata kerja dasar respond, dan to the questions menunjukkan objeknya.",
+        "stepByStep": [
+          "Subjek speakers jamak, sehingga kata kerjanya memakai bentuk dasar respond.",
+          "Respond to memakai preposisi to sebelum objek the questions.",
+          "Pilihan A memakai responds untuk subjek jamak, pilihan C memakai speaker tunggal dengan respond, dan pilihan D salah pola."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Responds dipakai untuk subjek tunggal, bukan subjek jamak speakers." },
+          { "optionId": "C", "reasonId": "Subjek speaker tunggal memerlukan responds, bukan respond." },
+          { "optionId": "D", "reasonId": "Responding quickly the questions tidak memakai to seperti pola yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek jamak memakai kata kerja bentuk dasar, dan respond memerlukan to sebelum objek.",
+          "examples": [
+            { "en": "The students respond to the teacher quickly.", "id": "Para siswa menanggapi guru dengan cepat." },
+            { "en": "They respond to every message.", "id": "Mereka membalas setiap pesan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena artinya jelas, tetapi subjek jamak speakers tidak memakai responds."
+      }
+    ]
+  }
+}

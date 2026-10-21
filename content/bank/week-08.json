@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W08-001",
+    "week": 8,
+    "topicTag": "dialog-tanggapan",
+    "type": "mcq",
+    "prompt": "A: Could you lend me your notes? B: ___",
+    "options": [
+      { "id": "A", "text": "Sure, I can share them after class." },
+      { "id": "B", "text": "Yesterday was a long day for everyone." },
+      { "id": "C", "text": "The notes were written in blue ink." },
+      { "id": "D", "text": "The library closes at ten on Sundays." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Balasan yang tepat menyatakan kesediaan dan memberi langkah berikutnya atas permintaan meminjam catatan.",
+    "stepByStep": [
+      "Pertanyaan meminta izin meminjam catatan.",
+      "Jawaban yang sesuai menyatakan kesediaan dan waktunya.",
+      "Pilihan lain tidak menjawab permintaan itu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Membahas hari yang melelahkan tidak menjawab permintaan meminjam." },
+      { "optionId": "C", "reasonId": "Warna tinta tidak menjawab permintaan meminjam." },
+      { "optionId": "D", "reasonId": "Jam tutup perpustakaan tidak menjawab permintaan meminjam." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Balasan atas permintaan biasanya menyatakan kesediaan atau penolakan dengan alasan.",
+      "examples": [
+        { "en": "Sure, you can use my pen.", "id": "Tentu, kamu boleh pakai pulpenku." },
+        { "en": "I am sorry, I need it today.", "id": "Maaf, saya membutuhkannya hari ini." }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat dekat karena menyebut catatan, tetapi kalimat itu tidak menjawab apakah catatan boleh dipinjam."
+  },
+  {
+    "id": "W08-002",
+    "week": 8,
+    "topicTag": "dialog-tanggapan",
+    "type": "mcq",
+    "prompt": "A: The meeting was moved to Friday without any notice. B: ___",
+    "options": [
+      { "id": "A", "text": "The room has a new carpet." },
+      { "id": "B", "text": "The meeting lasted two hours yesterday." },
+      { "id": "C", "text": "That is frustrating. Did they send an email about the change?" },
+      { "id": "D", "text": "Friday is my favorite day of the week." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Balasan yang tepat menyatakan perasaan terhadap perubahan mendadak dan menanyakan detailnya.",
+    "stepByStep": [
+      "Pembicara A mengeluhkan perubahan jadwal tanpa pemberitahuan.",
+      "Balasan yang sesuai menunjukkan simpati dan bertanya tentang pemberitahuan.",
+      "Karpet, durasi rapat kemarin, dan Jumat sebagai hari favorit tidak menanggapi keluhan itu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Karpet ruangan tidak menanggapi keluhan tentang jadwal." },
+      { "optionId": "B", "reasonId": "Durasi rapat kemarin tidak menanggapi perubahan jadwal." },
+      { "optionId": "D", "reasonId": "Hari favorit tidak menanggapi keluhan tentang perubahan mendadak." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tanggapan yang baik untuk keluhan menunjukkan perhatian, lalu bisa diikuti pertanyaan lanjutan.",
+      "examples": [
+        { "en": "That is annoying. Did anyone tell the students?", "id": "Itu menjengkelkan. Apakah ada yang memberi tahu mahasiswa?" },
+        { "en": "I understand. Could you tell me the new time?", "id": "Saya mengerti. Bisakah kamu memberi tahu saya waktu barunya?" }
+      ]
+    },
+    "examTrap": "Pilihan A tampak wajar dalam percakapan, tetapi tidak merespons keluhan tentang perubahan jadwal."
+  },
+  {
+    "id": "W08-003",
+    "week": 8,
+    "topicTag": "dialog-tanggapan",
+    "type": "mcq",
+    "prompt": "Which reply best shows that the speaker accepts a suggestion?",
+    "options": [
+      { "id": "A", "text": "I do not agree with any of this." },
+      { "id": "B", "text": "That sounds like a good idea. I will try it." },
+      { "id": "C", "text": "Could you repeat the question again?" },
+      { "id": "D", "text": "The weather is cold today." }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Balasan yang menerima saran menunjukkan persetujuan dan niat untuk mencobanya.",
+    "stepByStep": [
+      "Kalimat yang menerima saran menunjukkan persetujuan.",
+      "Pilihan B menyatakan ide itu baik dan akan dicoba.",
+      "Pilihan A menolak, pilihan C meminta pengulangan, dan pilihan D tidak berhubungan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Pernyataan tidak setuju menolak saran, bukan menerimanya." },
+      { "optionId": "C", "reasonId": "Meminta pertanyaan diulang tidak menunjukkan penerimaan saran." },
+      { "optionId": "D", "reasonId": "Cuaca tidak berhubungan dengan saran yang diberikan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Untuk menerima saran, pembicara biasanya memuji ide itu atau menyatakan akan melakukannya.",
+      "examples": [
+        { "en": "Good idea. Let's do that tomorrow.", "id": "Ide bagus. Ayo kita lakukan besok." },
+        { "en": "That helps. I will follow your advice.", "id": "Itu membantu. Saya akan mengikuti sarananmu." }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat sopan dan menunjukkan perhatian, tetapi tidak menyatakan bahwa saran itu diterima."
+  },
+  {
+    "id": "W08-004",
+    "week": 8,
+    "topicTag": "dialog-tanggapan",
+    "type": "mcq",
+    "prompt": "Student: 'I would like to make a complaint about the noise in the dormitory.' Staff: '___'",
+    "options": [
+      { "id": "A", "text": "Thank you for the compliment." },
+      { "id": "B", "text": "The library opens at eight." },
+      { "id": "C", "text": "The noise is part of the fun." },
+      { "id": "D", "text": "I understand. Could you tell me when it happens?" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Balasan staf yang tepat menunjukkan pemahaman dan meminta detail waktu untuk menindaklanjuti keluhan.",
+    "stepByStep": [
+      "Mahasiswa menyampaikan keluhan tentang kebisingan.",
+      "Staf yang baik menunjukkan pemahaman dan menanyakan detailnya.",
+      "Pujian, jam buka perpustakaan, dan anggapan bahwa kebisingan itu menyenangkan tidak menanggapi keluhan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Pujian tidak sesuai dengan keluhan." },
+      { "optionId": "B", "reasonId": "Jam buka perpustakaan tidak menanggapi keluhan asrama." },
+      { "optionId": "C", "reasonId": "Menganggap kebisingan menyenangkan meremehkan keluhan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tanggapan atas keluhan yang baik menunjukkan pemahaman, lalu meminta informasi lebih lanjut.",
+      "examples": [
+        { "en": "I see the problem. When does it usually happen?", "id": "Saya paham masalahnya. Biasanya kapan itu terjadi?" },
+        { "en": "Thank you for telling me. Could you describe it?", "id": "Terima kasih sudah memberi tahu. Bisakah kamu menjelaskannya?" }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat ramah karena menyebut kesenangan, tetapi sebenarnya meremehkan keluhan mahasiswa."
+  },
+  {
+    "id": "W08-005",
+    "week": 8,
+    "topicTag": "dialog-tanggapan",
+    "type": "mcq",
+    "prompt": "Which response to 'Do you think we should postpone the test?' is a suggestion?",
+    "options": [
+      { "id": "A", "text": "Maybe we should wait until next week, because many students are sick." },
+      { "id": "B", "text": "The test is printed in black ink." },
+      { "id": "C", "text": "The exam has forty questions." },
+      { "id": "D", "text": "I bought a new pen yesterday." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Pilihan A menyarankan tindakan (menunda ke minggu depan) dan memberi alasan.",
+    "stepByStep": [
+      "Pertanyaan menanyakan apakah tes sebaiknya ditunda.",
+      "Jawaban yang berupa saran menyebut tindakan dan alasannya.",
+      "Warna tinta, jumlah soal, dan pulpen tidak memberi saran."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Warna tinta tidak memberi saran tentang penundaan." },
+      { "optionId": "C", "reasonId": "Jumlah soal tidak memberi saran tentang penundaan." },
+      { "optionId": "D", "reasonId": "Pulpen yang dibeli tidak berhubungan dengan penundaan tes." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Saran biasanya disampaikan dengan maybe, should, atau I suggest, diikuti tindakan dan alasan.",
+      "examples": [
+        { "en": "I suggest that we start earlier, because the room is small.", "id": "Saya menyarankan kita mulai lebih awal, karena ruangannya kecil." },
+        { "en": "Maybe we should ask the lecturer for help.", "id": "Mungkin kita harus meminta bantuan dosen." }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat terkait dengan tes, tetapi jumlah soal tidak menjawab apakah tes perlu ditunda."
+  },
+  {
+    "id": "W08-006",
+    "week": 8,
+    "topicTag": "sinonim-parafrasa",
+    "type": "mcq",
+    "prompt": "Which sentence is the best paraphrase of 'The results were unexpected'?",
+    "options": [
+      { "id": "A", "text": "The results were expected by everyone." },
+      { "id": "B", "text": "The results were ordinary." },
+      { "id": "C", "text": "The outcome surprised everyone." },
+      { "id": "D", "text": "The outcome was cancelled." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Unexpected berarti tidak diduga, dan outcome surprised everyone menyatakan ide yang sama dengan kata lain.",
+    "stepByStep": [
+      "Unexpected berarti tidak diduga atau mengejutkan.",
+      "Outcome surprised everyone menyatakan hal yang sama dengan kata lain.",
+      "Expected berlawanan, ordinary tidak sama artinya, dan cancelled mengubah makna."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Expected berlawanan dengan unexpected." },
+      { "optionId": "B", "reasonId": "Ordinary berarti biasa, bukan tidak diduga." },
+      { "optionId": "D", "reasonId": "Cancelled berarti dibatalkan, mengubah makna hasil." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Parafrasa yang baik menjaga makna yang sama dengan kata dan susunan yang berbeda.",
+      "examples": [
+        { "en": "The news was unexpected.", "id": "Kabar itu tidak terduga." },
+        { "en": "The news surprised us all.", "id": "Kabar itu mengejutkan kami semua." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti parafrasa karena memakai kata results, tetapi artinya berlawanan."
+  },
+  {
+    "id": "W08-007",
+    "week": 8,
+    "topicTag": "sinonim-parafrasa",
+    "type": "mcq",
+    "prompt": "Which word is the best substitute for 'big' in 'a big decision'?",
+    "options": [
+      { "id": "A", "text": "tiny" },
+      { "id": "B", "text": "significant" },
+      { "id": "C", "text": "quiet" },
+      { "id": "D", "text": "yellow" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Significant decision berarti keputusan yang penting dan besar, sehingga cocok sebagai pengganti big di konteks ini.",
+    "stepByStep": [
+      "Big dalam 'a big decision' berarti penting atau besar.",
+      "Significant berarti penting dan cocok dengan keputusan.",
+      "Tiny berlawanan, quiet tidak berkaitan dengan besarnya keputusan, dan yellow berarti warna."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Tiny berarti sangat kecil, berlawanan dengan big." },
+      { "optionId": "C", "reasonId": "Quiet berarti tenang, tidak menjelaskan besarnya keputusan." },
+      { "optionId": "D", "reasonId": "Yellow berarti kuning, tidak berhubungan dengan keputusan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pengganti yang baik harus sesuai dengan konteks, bukan hanya mirip dalam kamus.",
+      "examples": [
+        { "en": "It was a significant choice for the team.", "id": "Itu adalah pilihan yang penting bagi tim." },
+        { "en": "The big plan needs more time.", "id": "Rencana besar itu butuh lebih banyak waktu." }
+      ]
+    },
+    "examTrap": "Pilihan A tiny terlihat seperti sinonim karena berkaitan dengan ukuran, tetapi itu lawan kata dari big."
+  },
+  {
+    "id": "W08-008",
+    "week": 8,
+    "topicTag": "sinonim-parafrasa",
+    "type": "mcq",
+    "prompt": "Which pair is NOT equivalent in meaning?",
+    "options": [
+      { "id": "A", "text": "quick / fast" },
+      { "id": "B", "text": "begin / start" },
+      { "id": "C", "text": "buy / purchase" },
+      { "id": "D", "text": "happy / sad" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Happy dan sad berlawanan makna, sehingga pasangan ini tidak setara.",
+    "stepByStep": [
+      "Pasangan setara harus memiliki makna yang sama atau sangat dekat.",
+      "Quick dan fast, begin dan start, serta buy dan purchase sama-sama setara.",
+      "Happy dan sad berlawanan, sehingga pasangan ini tidak setara."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Quick dan fast sama-sama berarti cepat." },
+      { "optionId": "B", "reasonId": "Begin dan start sama-sama berarti mulai." },
+      { "optionId": "C", "reasonId": "Buy dan purchase sama-sama berarti membeli." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Sinonim adalah kata dengan makna yang sama atau sangat dekat, sedangkan antonim berlawanan.",
+      "examples": [
+        { "en": "Begin is a synonym of start.", "id": "Begin adalah sinonim dari start." },
+        { "en": "Happy is the opposite of sad.", "id": "Happy adalah lawan dari sad." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat seperti pasangan kata yang berhubungan dengan perasaan, tetapi keduanya berlawanan makna."
+  },
+  {
+    "id": "W08-009",
+    "week": 8,
+    "topicTag": "sinonim-parafrasa",
+    "type": "mcq",
+    "prompt": "Which sentence keeps the same meaning as 'The shop is closed on Sundays'?",
+    "options": [
+      { "id": "A", "text": "The shop does not open on Sundays." },
+      { "id": "B", "text": "The shop opens every Sunday." },
+      { "id": "C", "text": "The shop is open all week." },
+      { "id": "D", "text": "The shop is closed only on Monday." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Tidak buka pada hari Minggu menyatakan makna yang sama dengan tutup pada hari Minggu.",
+    "stepByStep": [
+      "Closed on Sundays berarti tidak buka pada hari Minggu.",
+      "Does not open on Sundays menyatakan hal yang sama dengan kata lain.",
+      "Buka setiap Minggu, buka sepanjang minggu, dan tutup hanya Senin bertentangan dengan kalimat asli."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Buka setiap Minggu bertentangan dengan tutup pada hari Minggu." },
+      { "optionId": "C", "reasonId": "Buka sepanjang minggu bertentangan dengan tutup pada hari Minggu." },
+      { "optionId": "D", "reasonId": "Tutup hanya pada Senin mengubah hari tutupnya." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Parafrasa menyatakan makna yang sama, sering dengan negasi yang berbeda bentuk.",
+      "examples": [
+        { "en": "The bank is closed on holidays.", "id": "Bank tutup pada hari libur." },
+        { "en": "The bank does not open on holidays.", "id": "Bank tidak buka pada hari libur." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat mirip karena menyebut tutup, tetapi harinya berbeda dari kalimat asli."
+  },
+  {
+    "id": "W08-010",
+    "week": 8,
+    "topicTag": "sinonim-parafrasa",
+    "type": "mcq",
+    "prompt": "Which is the best paraphrase of 'The data supports the hypothesis'?",
+    "options": [
+      { "id": "A", "text": "The hypothesis supports the data." },
+      { "id": "B", "text": "The data rejects the hypothesis." },
+      { "id": "C", "text": "The evidence backs the hypothesis." },
+      { "id": "D", "text": "The hypothesis is unrelated to the data." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Supports berarti mendukung, dan backs berarti mendukung. Evidence menggantikan data dengan makna yang sama.",
+    "stepByStep": [
+      "Kalimat asli menyatakan data mendukung hipotesis.",
+      "Evidence backs the hypothesis menyatakan hal yang sama.",
+      "Pilihan A membalik arah, pilihan B berlawanan, dan pilihan D menyatakan tidak berhubungan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Arah dukungan dibalik, sehingga maknanya berbeda." },
+      { "optionId": "B", "reasonId": "Rejects berarti menolak, berlawanan dengan supports." },
+      { "optionId": "D", "reasonId": "Tidak berhubungan bertentangan dengan dukungan dalam kalimat asli." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Dalam parafrasa, kata kerja dan kata benda bisa diganti sinonimnya asalkan arah maknanya tetap sama.",
+      "examples": [
+        { "en": "The results support the claim.", "id": "Hasilnya mendukung klaim itu." },
+        { "en": "The evidence backs the claim.", "id": "Bukti itu mendukung klaim itu." }
+      ]
+    },
+    "examTrap": "Pilihan A memakai kata yang sama, tetapi posisi subjek dan objek dibalik sehingga maknanya berubah."
+  },
+  {
+    "id": "W08-011",
+    "week": 8,
+    "topicTag": "idiom",
+    "type": "mcq",
+    "prompt": "What does the idiom 'hit the books' mean?",
+    "options": [
+      { "id": "A", "text": "to hit someone with a book" },
+      { "id": "B", "text": "to study hard" },
+      { "id": "C", "text": "to donate books to the library" },
+      { "id": "D", "text": "to read in a loud voice" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Hit the books adalah idiom yang berarti belajar dengan tekun.",
+    "stepByStep": [
+      "Idiom tidak boleh diartikan kata demi kata.",
+      "Hit the books berarti belajar keras.",
+      "Memukul dengan buku, menyumbang buku, dan membaca keras tidak sesuai dengan makna idiom."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Itu makna harfiah, bukan makna idiom." },
+      { "optionId": "C", "reasonId": "Menyumbang buku tidak sesuai dengan makna idiom." },
+      { "optionId": "D", "reasonId": "Membaca keras tidak sesuai dengan makna idiom." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Idiom memiliki makna keseluruhan yang berbeda dari arti kata-katanya.",
+      "examples": [
+        { "en": "I need to hit the books before the exam.", "id": "Saya harus belajar keras sebelum ujian." },
+        { "en": "She hit the books all weekend.", "id": "Dia belajar keras sepanjang akhir pekan." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti makna yang masuk akal karena memakai kata books, tetapi itu makna harfiah yang salah."
+  },
+  {
+    "id": "W08-012",
+    "week": 8,
+    "topicTag": "idiom",
+    "type": "mcq",
+    "prompt": "'It is raining cats and dogs' means that it is:",
+    "options": [
+      { "id": "A", "text": "a cat is raining from the sky" },
+      { "id": "B", "text": "very cold outside" },
+      { "id": "C", "text": "a pet store is open" },
+      { "id": "D", "text": "raining very heavily" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Raining cats and dogs adalah idiom yang berarti hujan sangat deras.",
+    "stepByStep": [
+      "Idiom ini tidak berarti ada kucing atau anjing yang turun.",
+      "Maknanya adalah hujan sangat deras.",
+      "Cuaca dingin, toko hewan, dan kucing yang turun dari langit tidak sesuai dengan makna idiom."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Itu makna harfiah yang salah." },
+      { "optionId": "B", "reasonId": "Cuaca dingin tidak sama dengan hujan deras." },
+      { "optionId": "C", "reasonId": "Toko hewan tidak berhubungan dengan makna idiom." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Idiom cuaca sering memakai makna kiasan untuk menyatakan intensitas.",
+      "examples": [
+        { "en": "It is pouring outside.", "id": "Di luar hujannya deras sekali." },
+        { "en": "The rain was very heavy all night.", "id": "Hujannya sangat lebat sepanjang malam." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti jawaban karena menyebut kucing, tetapi itu tafsiran harfiah yang keliru."
+  },
+  {
+    "id": "W08-013",
+    "week": 8,
+    "topicTag": "idiom",
+    "type": "mcq",
+    "prompt": "Which sentence uses 'break the ice' figuratively?",
+    "options": [
+      { "id": "A", "text": "The teacher used a joke to break the ice at the start of class." },
+      { "id": "B", "text": "The students broke the ice tray in the kitchen." },
+      { "id": "C", "text": "The ice on the lake was thick and cracked." },
+      { "id": "D", "text": "The ice cube fell and broke into pieces." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Break the ice secara kiasan berarti memecah kecanggungan atau memulai percakapan.",
+    "stepByStep": [
+      "Makna kiasan break the ice adalah memulai percakapan atau mengurangi kecanggungan.",
+      "Pilihan A menggunakan lelucon untuk mengurangi kecanggungan.",
+      "Pilihan B, C, dan D memakai makna harfiah tentang es."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Ini makna harfiah tentang nampan es." },
+      { "optionId": "C", "reasonId": "Ini makna harfiah tentang es di danau." },
+      { "optionId": "D", "reasonId": "Ini makna harfiah tentang kubus es yang pecah." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Makna figuratif sering muncul dari konteks sosial, bukan dari arti harfiah kata-katanya.",
+      "examples": [
+        { "en": "A short game helped break the ice.", "id": "Permainan singkat membantu memecah kecanggungan." },
+        { "en": "He broke the ice with a friendly question.", "id": "Dia memecah kecanggungan dengan pertanyaan yang ramah." }
+      ]
+    },
+    "examTrap": "Pilihan C terlihat masuk akal karena menyebut es, tetapi maknanya harfiah dan tidak berkaitan dengan kecanggungan."
+  },
+  {
+    "id": "W08-014",
+    "week": 8,
+    "topicTag": "idiom",
+    "type": "mcq",
+    "prompt": "Which expression is the most informal way to say 'I am very tired'?",
+    "options": [
+      { "id": "A", "text": "I am exhausted." },
+      { "id": "B", "text": "I feel fatigued." },
+      { "id": "C", "text": "I'm wiped out." },
+      { "id": "D", "text": "I am experiencing fatigue." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "I'm wiped out adalah ungkapan santai yang berarti sangat lelah.",
+    "stepByStep": [
+      "Pertanyaan meminta ungkapan yang paling informal.",
+      "Wiped out adalah ungkapan santai dalam percakapan sehari-hari.",
+      "Exhausted dan fatigued lebih formal, dan experiencing fatigue paling formal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Exhausted cukup umum, tetapi lebih formal daripada wiped out." },
+      { "optionId": "B", "reasonId": "Fatigued adalah kata yang lebih formal." },
+      { "optionId": "D", "reasonId": "Experiencing fatigue adalah frasa yang sangat formal." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ungkapan informal sering memakai frasa santai seperti wiped out, sedangkan gaya formal memakai kata seperti fatigued.",
+      "examples": [
+        { "en": "I'm totally wiped out after the trip.", "id": "Aku benar-benar kelelahan setelah perjalanan." },
+        { "en": "The participant reported fatigue after the trip.", "id": "Peserta itu melaporkan kelelahan setelah perjalanan." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti jawaban karena artinya benar, tetapi exhausted lebih formal daripada wiped out."
+  },
+  {
+    "id": "W08-015",
+    "week": 8,
+    "topicTag": "idiom",
+    "type": "mcq",
+    "prompt": "In 'The test was a piece of cake', the phrase 'a piece of cake' is:",
+    "options": [
+      { "id": "A", "text": "literal" },
+      { "id": "B", "text": "figurative" },
+      { "id": "C", "text": "a formal rule" },
+      { "id": "D", "text": "a metaphor for money" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Piece of cake dipakai secara kiasan untuk menyatakan sesuatu yang sangat mudah.",
+    "stepByStep": [
+      "Kalimat menyatakan tesnya mudah, bukan tentang kue.",
+      "Makna yang tidak sesuai dengan arti kata disebut figurative.",
+      "Aturan formal dan metafora uang tidak sesuai dengan konteks."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Makna literal berarti kue sungguhan, tidak sesuai dengan konteks." },
+      { "optionId": "C", "reasonId": "Piece of cake bukan aturan formal." },
+      { "optionId": "D", "reasonId": "Piece of cake tidak membandingkan sesuatu dengan uang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Figurative berarti maknanya berbeda dari arti kata-katanya.",
+      "examples": [
+        { "en": "The math quiz was a piece of cake.", "id": "Kuis matematika itu sangat mudah." },
+        { "en": "Her words were figurative, not literal.", "id": "Kata-katanya bersifat kiasan, bukan harfiah." }
+      ]
+    },
+    "examTrap": "Pilihan A literal terlihat masuk akal karena kata cake secara harfiah berarti kue, tetapi konteksnya bersifat kiasan."
+  },
+  {
+    "id": "W08-016",
+    "week": 8,
+    "topicTag": "ekspresi-negatif",
+    "type": "mcq",
+    "prompt": "Choose the word: 'She was ___ to accept the offer because the salary was too low.'",
+    "options": [
+      { "id": "A", "text": "able" },
+      { "id": "B", "text": "possible" },
+      { "id": "C", "text": "likely" },
+      { "id": "D", "text": "unwilling" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Unwilling berarti tidak mau, dan cocok dengan alasan gaji yang terlalu rendah.",
+    "stepByStep": [
+      "Alasannya gaji terlalu rendah, sehingga dia tidak mau menerima tawaran.",
+      "Kata yang berarti tidak mau adalah unwilling.",
+      "Able berarti mampu, possible berarti mungkin, dan likely berarti kemungkinan besar, tidak sesuai dengan penolakan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Able berarti mampu, tidak sesuai dengan alasan menolak." },
+      { "optionId": "B", "reasonId": "Possible berarti mungkin, tidak menjelaskan penolakan." },
+      { "optionId": "C", "reasonId": "Likely berarti kemungkinan besar, tidak menjelaskan sikap menolak." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Unwilling to + kata kerja dasar menyatakan tidak mau melakukan sesuatu.",
+      "examples": [
+        { "en": "He was unwilling to change his plan.", "id": "Dia tidak mau mengubah rencananya." },
+        { "en": "They are unwilling to pay more.", "id": "Mereka tidak mau membayar lebih." }
+      ]
+    },
+    "examTrap": "Pilihan A able terlihat cocok karena berkaitan dengan kemampuan menerima, tetapi alasan gaji rendah menunjukkan penolakan."
+  },
+  {
+    "id": "W08-017",
+    "week": 8,
+    "topicTag": "ekspresi-negatif",
+    "type": "mcq",
+    "prompt": "Which word completes the sentence: 'There is a ___ of clear instructions, so students feel confused.'",
+    "options": [
+      { "id": "A", "text": "lack" },
+      { "id": "B", "text": "none" },
+      { "id": "C", "text": "refuse" },
+      { "id": "D", "text": "unlikely" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "A lack of berarti kekurangan, dan cocok dengan instruksi yang tidak jelas.",
+    "stepByStep": [
+      "Kalimat menyebut instruksi yang tidak jelas.",
+      "Pola a lack of + kata benda menyatakan kekurangan.",
+      "None, refuse, dan unlikely tidak membentuk pola kekurangan dengan of."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "None tidak dipakai dalam pola a ___ of untuk menyatakan kekurangan." },
+      { "optionId": "C", "reasonId": "Refuse adalah kata kerja menolak, tidak cocok di posisi kata benda." },
+      { "optionId": "D", "reasonId": "Unlikely adalah kata sifat, tidak cocok di posisi kata benda." }
+    ],
+    "ruleAndExamples": {
+      "rule": "A lack of + kata benda menyatakan kekurangan sesuatu.",
+      "examples": [
+        { "en": "There is a lack of water in the village.", "id": "Ada kekurangan air di desa itu." },
+        { "en": "A lack of sleep makes learning hard.", "id": "Kurang tidur membuat belajar sulit." }
+      ]
+    },
+    "examTrap": "Pilihan B none terlihat cocok karena berkaitan dengan ketiadaan, tetapi pola a ___ of menuntut kata lack."
+  },
+  {
+    "id": "W08-018",
+    "week": 8,
+    "topicTag": "ekspresi-negatif",
+    "type": "mcq",
+    "prompt": "Which sentence is grammatically correct?",
+    "options": [
+      { "id": "A", "text": "He refused to came to the meeting." },
+      { "id": "B", "text": "He refuse come to the meeting." },
+      { "id": "C", "text": "He refused to come to the meeting." },
+      { "id": "D", "text": "He refusing to come the meeting." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Refused bentuk lampau, lalu to diikuti kata kerja dasar come.",
+    "stepByStep": [
+      "Subjek he memakai bentuk lampau refused untuk kejadian lampau.",
+      "Setelah to, kata kerja berbentuk dasar: come.",
+      "Pilihan A memakai came setelah to, pilihan B tidak memakai bentuk lampau, dan pilihan D salah pola."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Setelah to, kata kerja harus berbentuk dasar, bukan came." },
+      { "optionId": "B", "reasonId": "Refuse tanpa bentuk lampau tidak cocok dengan kejadian lampau." },
+      { "optionId": "D", "reasonId": "Refusing bukan pola yang benar untuk refuse to come." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Refuse memakai bentuk lampau refused, diikuti to dan kata kerja dasar.",
+      "examples": [
+        { "en": "She refused to sign the form.", "id": "Dia menolak menandatangani formulir itu." },
+        { "en": "They refused to change the schedule.", "id": "Mereka menolak mengubah jadwal." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar secara makna, tetapi came tidak boleh mengikuti to."
+  },
+  {
+    "id": "W08-019",
+    "week": 8,
+    "topicTag": "ekspresi-negatif",
+    "type": "mcq",
+    "prompt": "Which word means 'not one person or thing from a group'?",
+    "options": [
+      { "id": "A", "text": "absence" },
+      { "id": "B", "text": "none" },
+      { "id": "C", "text": "reluctant" },
+      { "id": "D", "text": "fail" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "None berarti tidak satu pun dari sebuah kelompok.",
+    "stepByStep": [
+      "Kalimat meminta kata untuk tidak satu pun dari kelompok.",
+      "Kata yang tepat adalah none.",
+      "Absence berarti ketidakhadiran, reluctant berarti enggan, dan fail berarti gagal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Absence berarti ketidakhadiran, bukan tidak satu pun dari kelompok." },
+      { "optionId": "C", "reasonId": "Reluctant berarti enggan, bukan tidak satu pun dari kelompok." },
+      { "optionId": "D", "reasonId": "Fail berarti gagal, bukan tidak satu pun dari kelompok." }
+    ],
+    "ruleAndExamples": {
+      "rule": "None dipakai untuk menyatakan tidak satu pun dari kelompok atau jumlah.",
+      "examples": [
+        { "en": "None of the students were late.", "id": "Tidak satu pun siswa yang terlambat." },
+        { "en": "None of us knew the answer.", "id": "Tidak satu pun dari kami tahu jawabannya." }
+      ]
+    },
+    "examTrap": "Pilihan A absence terlihat dekat karena berkaitan dengan tidak hadir, tetapi maknanya bukan tidak satu pun dari kelompok."
+  },
+  {
+    "id": "W08-020",
+    "week": 8,
+    "topicTag": "ekspresi-negatif",
+    "type": "mcq",
+    "prompt": "The plan is ___ to work unless the budget increases.",
+    "options": [
+      { "id": "A", "text": "unable" },
+      { "id": "B", "text": "unwilling" },
+      { "id": "C", "text": "reluctant" },
+      { "id": "D", "text": "unlikely" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Unlikely to work berarti kemungkinan kecil rencana itu berhasil, dan cocok dengan kondisi anggaran.",
+    "stepByStep": [
+      "Kalimat menyatakan kemungkinan rencana berhasil kecil.",
+      "Pola unlikely to + kata kerja dasar menyatakan kemungkinan kecil.",
+      "Unable dan unwilling memakai subjek orang, dan reluctant berarti enggan, tidak sesuai dengan rencana."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Unable berarti tidak mampu, dan subjek rencana tidak bisa mampu." },
+      { "optionId": "B", "reasonId": "Unwilling berarti tidak mau, dan subjek rencana tidak bisa tidak mau." },
+      { "optionId": "C", "reasonId": "Reluctant berarti enggan, dan subjek rencana tidak bisa enggan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Unlikely to + kata kerja dasar menyatakan kemungkinan kecil, dan dipakai untuk benda maupun situasi.",
+      "examples": [
+        { "en": "The bridge is unlikely to open this year.", "id": "Jembatan itu kemungkinan kecil dibuka tahun ini." },
+        { "en": "The offer is unlikely to change.", "id": "Tawaran itu kemungkinan kecil berubah." }
+      ]
+    },
+    "examTrap": "Pilihan A unable terlihat seperti kata yang tepat untuk ketidakmampuan, tetapi subjek plan tidak bisa mampu atau tidak mampu."
+  },
+  {
+    "id": "W08-021",
+    "week": 8,
+    "topicTag": "percakapan-kampus",
+    "type": "mcq",
+    "prompt": "A student says: 'The registration form is due on Monday.' When is the deadline?",
+    "options": [
+      { "id": "A", "text": "Monday" },
+      { "id": "B", "text": "Friday" },
+      { "id": "C", "text": "next semester" },
+      { "id": "D", "text": "when the library closes" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Kalimat 'the registration form is due on Monday' menyebut batas waktunya hari Senin.",
+    "stepByStep": [
+      "Cari kata due dalam kalimat mahasiswa.",
+      "Kalimat menyebut due on Monday.",
+      "Jumat, semester depan, dan saat perpustakaan tutup tidak disebut sebagai batas waktu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Jumat tidak disebut sebagai batas waktu dalam kalimat ini." },
+      { "optionId": "C", "reasonId": "Semester depan tidak disebut sebagai batas waktu." },
+      { "optionId": "D", "reasonId": "Waktu perpustakaan tutup tidak disebut sebagai batas waktu formulir." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Due on + hari menyatakan batas waktu pengumpulan.",
+      "examples": [
+        { "en": "The essay is due on Friday.", "id": "Esai itu harus dikumpulkan hari Jumat." },
+        { "en": "The report is due next week.", "id": "Laporan itu harus dikumpulkan minggu depan." }
+      ]
+    },
+    "examTrap": "Pilihan B Friday terlihat cocok karena sering muncul dalam percakapan kampus, tetapi kalimat ini menyebut Monday."
+  },
+  {
+    "id": "W08-022",
+    "week": 8,
+    "topicTag": "percakapan-kampus",
+    "type": "mcq",
+    "prompt": "'The lecture is in the main hall, not the library.' Where is the lecture?",
+    "options": [
+      { "id": "A", "text": "in the library" },
+      { "id": "B", "text": "in the dormitory" },
+      { "id": "C", "text": "in the main hall" },
+      { "id": "D", "text": "online only" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Kalimat menyebut lokasinya di aula utama, bukan di perpustakaan.",
+    "stepByStep": [
+      "Kalimat menyatakan lokasi lecture di aula utama.",
+      "Kata not the library hanya menolak perpustakaan sebagai lokasi.",
+      "Asrama dan daring tidak disebut."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Kalimat itu menolak perpustakaan sebagai lokasi." },
+      { "optionId": "B", "reasonId": "Asrama tidak disebut sebagai lokasi kuliah." },
+      { "optionId": "D", "reasonId": "Kalimat tidak menyebut kuliah dilakukan secara daring." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pola X, not Y menyatakan bahwa yang benar adalah X dan bukan Y.",
+      "examples": [
+        { "en": "The class is in room 3, not room 5.", "id": "Kelasnya di ruang 3, bukan ruang 5." },
+        { "en": "The exam is on Monday, not Tuesday.", "id": "Ujiannya hari Senin, bukan Selasa." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat cocok karena perpustakaan disebut dalam kalimat, tetapi kalimat itu justru menolaknya."
+  },
+  {
+    "id": "W08-023",
+    "week": 8,
+    "topicTag": "percakapan-kampus",
+    "type": "mcq",
+    "prompt": "Which sentence means that the problem will be solved in less than one hour?",
+    "options": [
+      { "id": "A", "text": "The problem will be solved after an hour." },
+      { "id": "B", "text": "The problem will be fixed within an hour." },
+      { "id": "C", "text": "The problem will never be fixed." },
+      { "id": "D", "text": "The problem will be fixed next week." }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Within an hour berarti dalam waktu satu jam, sehingga masalahnya selesai dalam waktu kurang dari satu jam.",
+    "stepByStep": [
+      "Within an hour menyatakan batas waktu satu jam.",
+      "Fixed within an hour berarti selesai dalam satu jam.",
+      "After an hour, never, dan next week tidak sesuai dengan makna kurang dari satu jam."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "After an hour berarti lebih dari satu jam, bukan dalam satu jam." },
+      { "optionId": "C", "reasonId": "Never berarti tidak akan selesai, berlawanan dengan makna soal." },
+      { "optionId": "D", "reasonId": "Next week berarti minggu depan, bukan kurang dari satu jam." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Within + jangka waktu menyatakan batas waktu, dan hasilnya terjadi sebelum batas itu.",
+      "examples": [
+        { "en": "The form can be fixed within a day.", "id": "Formulir itu bisa diperbaiki dalam sehari." },
+        { "en": "Please reply within three days.", "id": "Tolong balas dalam tiga hari." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat mirip karena menyebut an hour, tetapi after an hour berarti setelah satu jam."
+  },
+  {
+    "id": "W08-024",
+    "week": 8,
+    "topicTag": "percakapan-kampus",
+    "type": "mcq",
+    "prompt": "Choose the correct word: 'Our ___ is every Tuesday at nine in room 204.'",
+    "options": [
+      { "id": "A", "text": "dormitory" },
+      { "id": "B", "text": "library" },
+      { "id": "C", "text": "deadline" },
+      { "id": "D", "text": "lecture" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Lecture adalah kuliah, dan kalimat ini menyebut jadwal kuliah setiap Selasa di ruang 204.",
+    "stepByStep": [
+      "Kalimat menyebut kegiatan yang berulang setiap Selasa di ruang kelas.",
+      "Kegiatan belajar di kelas dengan dosen disebut lecture.",
+      "Dormitory, library, dan deadline tidak sesuai dengan kegiatan kelas."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Asrama bukan kegiatan kelas yang berulang di ruang 204." },
+      { "optionId": "B", "reasonId": "Perpustakaan bukan kegiatan kelas yang berulang." },
+      { "optionId": "C", "reasonId": "Batas waktu bukan kegiatan kelas yang berulang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Lecture adalah sesi kuliah yang diadakan pada waktu dan tempat tertentu.",
+      "examples": [
+        { "en": "The lecture starts at ten in room 5.", "id": "Kuliah itu dimulai pukul sepuluh di ruang 5." },
+        { "en": "Our lecture is on Monday afternoon.", "id": "Kuliah kami hari Senin sore." }
+      ]
+    },
+    "examTrap": "Pilihan C deadline terlihat cocok karena muncul sering di kampus, tetapi kalimat ini menyebut jadwal kegiatan berulang."
+  },
+  {
+    "id": "W08-025",
+    "week": 8,
+    "topicTag": "percakapan-kampus",
+    "type": "mcq",
+    "prompt": "Which sentence correctly uses 'tutor'?",
+    "options": [
+      { "id": "A", "text": "A tutor can help you with your writing assignment." },
+      { "id": "B", "text": "The tutor are writing the schedule for the semester." },
+      { "id": "C", "text": "The tutor deadline is Friday." },
+      { "id": "D", "text": "I tutored the library yesterday." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Tutor adalah pengajar pendamping, dan kalimat A menggunakannya dengan benar untuk membantu tugas menulis.",
+    "stepByStep": [
+      "Tutor berarti pengajar pendamping yang membantu belajar.",
+      "Kalimat A memakai tutor sebagai subjek tunggal dengan can help.",
+      "Pilihan B salah kata kerja, pilihan C salah makna, dan pilihan D tidak masuk akal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Subjek tutor tunggal memerlukan is, bukan are." },
+      { "optionId": "C", "reasonId": "Tutor bukan batas waktu, jadi deadline tidak bisa dimiliki tutor." },
+      { "optionId": "D", "reasonId": "Perpustakaan bukan objek yang bisa dibimbing dalam arti ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tutor adalah orang yang membantu seseorang belajar, sering dengan can help atau helps.",
+      "examples": [
+        { "en": "My tutor helps me with grammar.", "id": "Tutorku membantuku dengan tata bahasa." },
+        { "en": "A tutor can explain difficult topics.", "id": "Tutor bisa menjelaskan topik yang sulit." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat seperti kalimat aktif yang benar, tetapi subjek tutor tunggal tidak cocok dengan are."
+  },
+  {
+    "id": "W08-026",
+    "week": 8,
+    "topicTag": "akademik",
+    "type": "mcq",
+    "prompt": "In a study, what is the variable?",
+    "options": [
+      { "id": "A", "text": "the final report" },
+      { "id": "B", "text": "the researcher's name" },
+      { "id": "C", "text": "the factor the researcher changes" },
+      { "id": "D", "text": "the total number of participants" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Variable adalah faktor yang sengaja diubah peneliti untuk melihat pengaruhnya pada hasil.",
+    "stepByStep": [
+      "Variabel adalah faktor yang diubah dalam eksperimen.",
+      "Pilihan C menyatakan faktor yang diubah peneliti.",
+      "Laporan akhir, nama peneliti, dan jumlah peserta tidak sesuai dengan definisi variabel."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Laporan akhir adalah hasil penelitian, bukan faktor yang diubah." },
+      { "optionId": "B", "reasonId": "Nama peneliti bukan faktor dalam eksperimen." },
+      { "optionId": "D", "reasonId": "Jumlah peserta adalah bagian sampel, bukan faktor yang diubah." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Variabel adalah faktor yang diubah untuk melihat pengaruhnya pada hasil.",
+      "examples": [
+        { "en": "The amount of light is the variable in this test.", "id": "Jumlah cahaya adalah variabel dalam tes ini." },
+        { "en": "Each group had a different variable.", "id": "Setiap kelompok memiliki variabel yang berbeda." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat penting dalam penelitian, tetapi jumlah peserta adalah bagian sampel, bukan variabel yang diubah."
+  },
+  {
+    "id": "W08-027",
+    "week": 8,
+    "topicTag": "akademik",
+    "type": "mcq",
+    "prompt": "Which best describes a sample in research?",
+    "options": [
+      { "id": "A", "text": "the entire population of a country" },
+      { "id": "B", "text": "a small group taken from a larger population" },
+      { "id": "C", "text": "a broad explanation that has been tested" },
+      { "id": "D", "text": "the number of questions in a test" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Sampel adalah kelompok kecil yang diambil dari populasi yang lebih besar.",
+    "stepByStep": [
+      "Sampel berbeda dari populasi karena lebih kecil.",
+      "Pilihan B menyebut kelompok kecil yang diambil dari populasi.",
+      "Seluruh populasi, penjelasan luas, dan jumlah soal tidak sesuai dengan definisi sampel."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Seluruh populasi bukan sampel, karena sampel adalah bagian kecil darinya." },
+      { "optionId": "C", "reasonId": "Penjelasan luas yang teruji adalah teori, bukan sampel." },
+      { "optionId": "D", "reasonId": "Jumlah soal tidak berkaitan dengan definisi sampel." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Sample adalah bagian kecil dari populasi yang dipakai untuk mewakili kelompok yang lebih besar.",
+      "examples": [
+        { "en": "The sample included fifty students from the population.", "id": "Sampelnya mencakup lima puluh siswa dari populasi itu." },
+        { "en": "A good sample represents the population.", "id": "Sampel yang baik mewakili populasi." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat masuk akal karena populasi juga besar, tetapi sampel selalu bagian kecil dari populasi."
+  },
+  {
+    "id": "W08-028",
+    "week": 8,
+    "topicTag": "akademik",
+    "type": "mcq",
+    "prompt": "Which of these is a hypothesis?",
+    "options": [
+      { "id": "A", "text": "Water boils at 100 degrees Celsius at sea level." },
+      { "id": "B", "text": "The theory of evolution explains many species." },
+      { "id": "C", "text": "The data from the survey are stored in a folder." },
+      { "id": "D", "text": "Students who sleep more will score higher on the test." }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Students who sleep more will score higher adalah prediksi yang jelas dan bisa diuji, sehingga itu hipotesis.",
+    "stepByStep": [
+      "Hipotesis adalah prediksi yang jelas dan bisa diuji.",
+      "Pilihan D menyatakan prediksi tentang tidur dan nilai tes.",
+      "Pilihan A adalah fakta yang sudah diketahui, pilihan B adalah teori, dan pilihan C adalah deskripsi penyimpanan data."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Ini fakta ilmiah yang sudah diketahui, bukan prediksi yang diuji." },
+      { "optionId": "B", "reasonId": "Ini teori yang luas, bukan prediksi awal." },
+      { "optionId": "C", "reasonId": "Ini deskripsi tentang penyimpanan data, bukan prediksi." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Hipotesis adalah pernyataan prediksi yang dapat diuji dengan data.",
+      "examples": [
+        { "en": "Plants will grow faster with more light.", "id": "Tanaman akan tumbuh lebih cepat dengan lebih banyak cahaya." },
+        { "en": "Students who take breaks will focus longer.", "id": "Siswa yang istirahat akan lebih lama fokus." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat seperti hipotesis karena membahas penjelasan ilmiah, tetapi itu teori yang sudah teruji luas."
+  },
+  {
+    "id": "W08-029",
+    "week": 8,
+    "topicTag": "akademik",
+    "type": "mcq",
+    "prompt": "Which statement best explains the difference between a hypothesis and a theory?",
+    "options": [
+      { "id": "A", "text": "A hypothesis is a testable prediction, while a theory is a broad explanation supported by many tests." },
+      { "id": "B", "text": "A theory is a single prediction, while a hypothesis is a broad explanation." },
+      { "id": "C", "text": "They are identical terms with no difference." },
+      { "id": "D", "text": "A hypothesis is always proven, while a theory is never tested." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Hipotesis adalah prediksi yang bisa diuji, sedangkan teori adalah penjelasan luas yang didukung banyak pengujian.",
+    "stepByStep": [
+      "Hipotesis adalah prediksi awal yang harus diuji.",
+      "Teori adalah penjelasan luas yang sudah didukung banyak bukti.",
+      "Pilihan B membalik definisi, pilihan C menyatakan keduanya sama, dan pilihan D keliru tentang pembuktian."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Definisi teori dan hipotesis dibalik." },
+      { "optionId": "C", "reasonId": "Hipotesis dan teori memiliki perbedaan yang jelas." },
+      { "optionId": "D", "reasonId": "Hipotesis belum tentu terbukti, dan teori juga diuji berkali-kali." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Hipotesis adalah prediksi yang diuji, sedangkan teori adalah penjelasan luas yang diterima setelah banyak pengujian.",
+      "examples": [
+        { "en": "The hypothesis predicts a higher score.", "id": "Hipotesis itu memprediksi skor yang lebih tinggi." },
+        { "en": "The theory is accepted after many experiments.", "id": "Teori itu diterima setelah banyak eksperimen." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat seperti kebalikan yang masuk akal, tetapi definisinya dibalik dari makna yang benar."
+  },
+  {
+    "id": "W08-030",
+    "week": 8,
+    "topicTag": "akademik",
+    "type": "mcq",
+    "prompt": "Which step should come first in a typical research study?",
+    "options": [
+      { "id": "A", "text": "analyze the data" },
+      { "id": "B", "text": "write the conclusion" },
+      { "id": "C", "text": "state a hypothesis" },
+      { "id": "D", "text": "publish the results" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Dalam penelitian, hipotesis dinyatakan lebih dulu sebelum data dikumpulkan dan dianalisis.",
+    "stepByStep": [
+      "Penelitian dimulai dengan pertanyaan dan prediksi.",
+      "Hipotesis dinyatakan sebelum eksperimen dilakukan.",
+      "Analisis, kesimpulan, dan publikasi terjadi setelah data dikumpulkan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Analisis data dilakukan setelah data dikumpulkan." },
+      { "optionId": "B", "reasonId": "Kesimpulan ditulis setelah analisis selesai." },
+      { "optionId": "D", "reasonId": "Publikasi hasil terjadi di akhir penelitian." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Urutan umum penelitian: hipotesis, metode, data, analisis, lalu kesimpulan.",
+      "examples": [
+        { "en": "First, the researcher states the hypothesis.", "id": "Pertama, peneliti menyatakan hipotesisnya." },
+        { "en": "Finally, the researcher publishes the results.", "id": "Akhirnya, peneliti mempublikasikan hasilnya." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat penting karena analisis adalah inti penelitian, tetapi analisis dilakukan setelah hipotesis dan data ada."
+  }
+]

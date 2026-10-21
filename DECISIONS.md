@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 10 (konten hari 52-60 dan bank minggu 8)
+
+1. **Pola minggu 8.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti, sesuai target minggu 8. Hari 52, 54, 56 mendengarkan. Hari 53, 55, 57 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 58 review dengan naskah. Hari 59 dan 60 adalah simulasi. Hari 59 memakai naskah dan pola structure. Hari 60 memakai teks bacaan.
+2. **Hari simulasi bukan soal resmi.** Hari 59 dan 60 ditulis sendiri sebagai latihan, dengan kalimat tegas bahwa itu bukan soal resmi. Kurikulum memberi label TOEFL ITP, tetapi isi, pilihan, dan teks tidak disalin dari sumber resmi. Estimasi skor di hari 60 digambarkan sebagai perkiraan dari latihan.
+3. **Topik minggu 8.** Dialog pendek dan tanggapan, sinonim dan parafrasa, idiom dasar, ekspresi negatif, percakapan kampus, dan pidato akademik. Kosakata setiap hari cocok dengan kurikulum (dicek otomatis).
+4. **Validator menangkap empat masalah.** Nilai `pos` berbentuk `Noun/Verb` tidak diizinkan (diganti dengan satu kelas kata). Tanda titik tiga di hari 55 dan 59 (diganti). Hari 56 H3 memiliki dua opsi yang sama setelah normalisasi: `library's` dan `librarys` (opsi diganti dengan `library`). Di bank, semua soal lolos tanpa perbaikan.
+5. **Bank minggu 8 sudah lolos validator.** 30 soal sulit. Jawaban benar tersebar: A 8, B 7, C 8, D 7. Topik: dialog-tanggapan, sinonim-parafrasa, idiom, ekspresi-negatif, percakapan-kampus, dan akademik.
+6. **Batas kualitas tetap sama.** Validator lolos, tetapi audit kalimat per kalimat belum dilakukan. Pengecoh dengan `whether`, `whenever`, dan `as soon as` perlu dibaca ulang saat audit mutu di Fase 12.
+
 ## 2026-10-21: Fase 9 (konten hari 45-51 dan bank minggu 7)
 
 1. **Pola minggu 7.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit. Hari 45, 47, 49 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 46, 48, 50 mendengarkan. Hari 51 review dengan naskah.

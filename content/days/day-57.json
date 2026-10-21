@@ -1,0 +1,593 @@
+{
+  "day": 57,
+  "week": 8,
+  "month": 2,
+  "title": "Academic Talk: Pidato Akademik",
+  "topic": "Memahami kuliah singkat yang berisi penjelasan dan contoh",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membedakan hipotesis, teori, dan data",
+    "Mengenali bagian eksperimen: sampel, variabel, dan metode",
+    "Memahami bagaimana hasil analisis mendukung atau menolak hipotesis"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "academic", "pronunciationId": "a-ka-DEM-ik (tekanan di DEM)", "pos": "Adj", "meaningId": "akademik, berkaitan dengan studi", "example": "Academic writing uses formal language.", "exampleId": "Tulisan akademik memakai bahasa formal." },
+      { "no": 2, "en": "research", "pronunciationId": "ri-SURCH (tekanan di SURCH)", "pos": "Noun", "meaningId": "penelitian", "example": "The research took two years.", "exampleId": "Penelitian itu memakan waktu dua tahun." },
+      { "no": 3, "en": "hypothesis", "pronunciationId": "hai-POTH-uh-sis (tekanan di POTH)", "pos": "Noun", "meaningId": "hipotesis", "example": "Her hypothesis was tested in the lab.", "exampleId": "Hipotesisnya diuji di laboratorium." },
+      { "no": 4, "en": "data", "pronunciationId": "DAY-tuh (tekanan di DAY)", "pos": "Noun", "meaningId": "data", "example": "The data showed a clear trend.", "exampleId": "Data itu menunjukkan tren yang jelas." },
+      { "no": 5, "en": "experiment", "pronunciationId": "ik-SPER-i-ment (tekanan di SPER)", "pos": "Noun", "meaningId": "eksperimen, percobaan", "example": "The experiment failed the first time.", "exampleId": "Eksperimen itu gagal pada percobaan pertama." },
+      { "no": 6, "en": "analysis", "pronunciationId": "uh-NAL-uh-sis (tekanan di NAL)", "pos": "Noun", "meaningId": "analisis", "example": "The analysis took a week.", "exampleId": "Analisisnya memakan waktu seminggu." },
+      { "no": 7, "en": "theory", "pronunciationId": "THEE-uh-ree (tekanan di THEE)", "pos": "Noun", "meaningId": "teori", "example": "This theory explains the pattern.", "exampleId": "Teori ini menjelaskan pola itu." },
+      { "no": 8, "en": "method", "pronunciationId": "METH-ud (tekanan di METH)", "pos": "Noun", "meaningId": "metode, cara", "example": "We chose a simple method.", "exampleId": "Kami memilih metode yang sederhana." },
+      { "no": 9, "en": "sample", "pronunciationId": "SAM-pul (tekanan di SAM)", "pos": "Noun", "meaningId": "sampel, contoh kecil", "example": "The sample included fifty students.", "exampleId": "Sampelnya mencakup lima puluh siswa." },
+      { "no": 10, "en": "variable", "pronunciationId": "VAR-ee-uh-bul (tekanan di VAR)", "pos": "Noun", "meaningId": "variabel", "example": "Time is the main variable.", "exampleId": "Waktu adalah variabel utamanya." }
+    ],
+    "tip": "Dalam pidato akademik, perhatikan urutan: hipotesis, metode, sampel, data, analisis, dan kesimpulan. Setiap bagian menjawab pertanyaan yang berbeda."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL academic talk", "academic lecture English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara peneliti menguji hipotesis, dengan contoh sampel, variabel, dan analisis data.",
+      "watchFor": [
+        "Perbedaan hipotesis dan teori",
+        "Sampel dan populasi",
+        "Variabel yang diubah peneliti"
+      ]
+    },
+    "lesson": {
+      "intro": "Pidato akademik menjelaskan penelitian dengan urutan yang jelas. Kamu perlu mengenali istilah seperti hipotesis, sampel, dan variabel, karena soal sering menanyakan peran masing-masing.",
+      "sections": [
+        {
+          "heading": "Hipotesis dan teori",
+          "bodyMd": "Sebuah **hypothesis** adalah prediksi yang bisa diuji. **Theory** adalah penjelasan luas yang sudah diuji berkali-kali. **Academic research** biasanya dimulai dari hipotesis."
+        },
+        {
+          "heading": "Sampel, variabel, dan metode",
+          "bodyMd": "**Sample** adalah kelompok kecil yang diambil dari populasi. **Variable** adalah faktor yang diubah peneliti. **Method** adalah cara melakukan **experiment** agar hasilnya bisa dipercaya."
+        },
+        {
+          "heading": "Data dan analisis",
+          "bodyMd": "**Data** adalah hasil yang dikumpulkan dari eksperimen. **Analysis** membandingkan data itu untuk melihat apakah hipotesis didukung atau tidak."
+        }
+      ],
+      "formulas": [
+        { "label": "Hipotesis", "pattern": "a hypothesis is a clear prediction that can be tested" },
+        { "label": "Sampel", "pattern": "a sample is a small group taken from a population" },
+        { "label": "Variabel", "pattern": "the variable is the factor that the researcher changes" },
+        { "label": "Analisis", "pattern": "the analysis compares the data to test the hypothesis" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "A hypothesis is a clear prediction.", "id": "Hipotesis adalah prediksi yang jelas." },
+          { "en": "The sample represents the larger population.", "id": "Sampel itu mewakili populasi yang lebih besar." },
+          { "en": "The variable changes during the experiment.", "id": "Variabel itu berubah selama eksperimen." },
+          { "en": "Data can be collected in many ways.", "id": "Data bisa dikumpulkan dengan banyak cara." },
+          { "en": "The analysis compares the results.", "id": "Analisis itu membandingkan hasilnya." }
+        ],
+        "negative": [
+          { "en": "The theory is not the same as a hypothesis.", "id": "Teori tidak sama dengan hipotesis." },
+          { "en": "A small sample does not always reflect the whole population.", "id": "Sampel kecil tidak selalu mencerminkan seluruh populasi." },
+          { "en": "The method does not change the results.", "id": "Metode itu tidak mengubah hasilnya." },
+          { "en": "The data does not prove the theory on its own.", "id": "Data itu tidak membuktikan teori dengan sendirinya." },
+          { "en": "The experiment was not repeated by other researchers.", "id": "Eksperimen itu tidak diulang oleh peneliti lain." }
+        ],
+        "question": [
+          { "en": "What is the hypothesis in this study?", "id": "Apa hipotesis dalam penelitian ini?" },
+          { "en": "How large is the sample?", "id": "Seberapa besar sampelnya?" },
+          { "en": "Which factor is the variable?", "id": "Faktor mana yang menjadi variabel?" },
+          { "en": "What does the analysis show?", "id": "Apa yang ditunjukkan oleh analisis?" },
+          { "en": "Is this result enough to prove the theory?", "id": "Apakah hasil ini cukup untuk membuktikan teori?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The hypothesis are supported by the data.", "right": "The hypothesis is supported by the data.", "whyId": "Hypothesis adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "The researcher analyze the data yesterday.", "right": "The researcher analyzed the data yesterday.", "whyId": "Yesterday memakai bentuk lampau analyzed." },
+        { "wrong": "A sample are a small group.", "right": "A sample is a small group.", "whyId": "Subjek a sample tunggal, jadi memakai is." },
+        { "wrong": "We use a method for collect data.", "right": "We use a method to collect data.", "whyId": "Setelah method, gunakan to dengan kata kerja dasar." },
+        { "wrong": "The variable change during the test.", "right": "The variable changes during the test.", "whyId": "Subjek variable tunggal memakai -s pada kata kerja present." },
+        { "wrong": "The academic research are important.", "right": "Academic research is important.", "whyId": "Research adalah kata benda yang memakai is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Pidato Akademik: Menguji Hipotesis",
+    "text": "Good morning. Today I want to explain how researchers test a hypothesis. A hypothesis is a clear prediction that can be checked. For example, a researcher may believe that students learn faster with short breaks. To test this idea, the researcher needs a method that can produce reliable data.\n\nFirst, the researcher chooses a sample. A sample is a small group taken from a larger population. Ideally, the sample should represent the people being studied. Next, the researcher designs an experiment. In this experiment, one group takes breaks every twenty minutes, while another group studies without breaks. The difference between the groups is called the variable.\n\nAfter the experiment, the researcher collects the data. Data can be test scores, time records, or written answers. The analysis then compares the results. If the group with breaks performs much better, the hypothesis gains support. However, a single result is not enough to prove a theory.\n\nTheory is different from a hypothesis. A theory is a broad explanation that has been tested many times by different researchers. Many experiments are needed before a theory is accepted. For this reason, academic research often repeats earlier work.\n\nFinally, a study should be honest about its limits. A small sample may not reflect the whole population. The researcher should report the method clearly, so other scientists can repeat the experiment and check the results.",
+    "glossary": [
+      { "en": "population", "id": "populasi" },
+      { "en": "reliable", "id": "dapat diandalkan" },
+      { "en": "represent", "id": "mewakili" },
+      { "en": "limit", "id": "batasan" },
+      { "en": "repeat", "id": "mengulang" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is a hypothesis, according to the talk?",
+        "options": [
+          { "id": "A", "text": "a broad explanation tested many times" },
+          { "id": "B", "text": "a clear prediction that can be checked" },
+          { "id": "C", "text": "a list of all the data" },
+          { "id": "D", "text": "a group that repeats earlier work" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'A hypothesis is a clear prediction that can be checked', artinya hipotesis adalah prediksi yang jelas dan bisa diperiksa.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Penjelasan luas yang diuji berkali-kali adalah teori, bukan hipotesis." },
+          { "optionId": "C", "reasonId": "Daftar semua data tidak disebut sebagai hipotesis." },
+          { "optionId": "D", "reasonId": "Kelompok yang mengulang penelitian tidak disebut sebagai hipotesis." }
+        ],
+        "evidence": "A hypothesis is a clear prediction that can be checked"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What is the difference between a sample and the population?",
+        "options": [
+          { "id": "A", "text": "The sample is always larger." },
+          { "id": "B", "text": "The population is only a test score." },
+          { "id": "C", "text": "They are the same thing." },
+          { "id": "D", "text": "The sample is a small group taken from a larger population." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'A sample is a small group taken from a larger population', artinya sampel adalah kelompok kecil yang diambil dari populasi yang lebih besar.",
+        "stepByStep": [
+          "Cari definisi sample di paragraf kedua.",
+          "Teks menyebut sampel adalah kelompok kecil dari populasi yang lebih besar.",
+          "Sampel lebih besar, populasi berupa nilai tes, dan keduanya sama tidak sesuai dengan definisi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sampel disebut sebagai kelompok kecil, jadi tidak selalu lebih besar." },
+          { "optionId": "B", "reasonId": "Populasi tidak disebut sebagai nilai tes." },
+          { "optionId": "C", "reasonId": "Teks membedakan sampel dari populasi yang lebih besar." }
+        ],
+        "evidence": "A sample is a small group taken from a larger population"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What is called the variable in the experiment?",
+        "options": [
+          { "id": "A", "text": "the difference between the groups" },
+          { "id": "B", "text": "the total number of students" },
+          { "id": "C", "text": "the final report" },
+          { "id": "D", "text": "the researcher's name" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'The difference between the groups is called the variable', artinya perbedaan antarkelompok disebut variabel.",
+        "stepByStep": [
+          "Cari kata variable di paragraf kedua.",
+          "Teks menyebut perbedaan antara kelompok disebut variable.",
+          "Jumlah siswa, laporan akhir, dan nama peneliti tidak disebut sebagai variabel."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Jumlah siswa tidak disebut sebagai variabel." },
+          { "optionId": "C", "reasonId": "Laporan akhir tidak disebut sebagai variabel." },
+          { "optionId": "D", "reasonId": "Nama peneliti tidak disebut sebagai variabel." }
+        ],
+        "evidence": "The difference between the groups is called the variable"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the talk, why is a single result not enough?",
+        "options": [
+          { "id": "A", "text": "It is too expensive to repeat." },
+          { "id": "B", "text": "The sample must be honest." },
+          { "id": "C", "text": "It cannot prove a theory on its own." },
+          { "id": "D", "text": "It always shows the wrong answer." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'a single result is not enough to prove a theory', artinya satu hasil saja tidak cukup untuk membuktikan teori.",
+        "stepByStep": [
+          "Cari bagian tentang satu hasil di paragraf ketiga.",
+          "Teks menyebut satu hasil tidak cukup untuk membuktikan teori.",
+          "Biaya pengulangan, kejujuran sampel, dan jawaban yang selalu salah tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Biaya pengulangan tidak disebut sebagai alasan." },
+          { "optionId": "B", "reasonId": "Kejujuran sampel disebut di paragraf terakhir, bukan sebagai alasan satu hasil tidak cukup." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut satu hasil selalu salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Satu hasil penelitian biasanya belum cukup untuk membuktikan teori, perlu banyak eksperimen yang diulang.",
+          "examples": [
+            { "en": "One test is not enough to prove the rule.", "id": "Satu tes tidak cukup untuk membuktikan aturan itu." },
+            { "en": "Many experiments support the theory.", "id": "Banyak eksperimen mendukung teori itu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena eksperimen sering mahal, tetapi teks memberi alasan bahwa satu hasil tidak cukup untuk membuktikan teori.",
+        "evidence": "a single result is not enough to prove a theory"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does the speaker say about a theory?",
+        "options": [
+          { "id": "A", "text": "It is the same as a hypothesis." },
+          { "id": "B", "text": "It is accepted after many tests by different researchers." },
+          { "id": "C", "text": "It is a single prediction." },
+          { "id": "D", "text": "It can be written without data." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Many experiments are needed before a theory is accepted', artinya banyak eksperimen dibutuhkan sebelum teori diterima.",
+        "stepByStep": [
+          "Cari bagian tentang teori di paragraf keempat.",
+          "Teks menyebut teori diterima setelah banyak eksperimen oleh peneliti yang berbeda.",
+          "Teori sama dengan hipotesis, satu prediksi, dan tanpa data tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menegaskan teori berbeda dari hipotesis." },
+          { "optionId": "C", "reasonId": "Prediksi tunggal adalah ciri hipotesis, bukan teori." },
+          { "optionId": "D", "reasonId": "Teks menyebut teori diuji dengan banyak eksperimen, sehingga memerlukan data." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Teori adalah penjelasan luas yang diterima setelah diuji berkali-kali oleh banyak peneliti.",
+          "examples": [
+            { "en": "The theory was accepted after many experiments.", "id": "Teori itu diterima setelah banyak eksperimen." },
+            { "en": "A theory is broader than a single hypothesis.", "id": "Teori lebih luas daripada satu hipotesis." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat cocok karena teori dan hipotesis sama-sama bisa berupa prediksi, tetapi teks membedakan keduanya.",
+        "evidence": "Many experiments are needed before a theory is accepted"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Scientists collect ___ from experiments to find answers.",
+        "options": [
+          { "id": "A", "text": "data" },
+          { "id": "B", "text": "dormitory" },
+          { "id": "C", "text": "deadline" },
+          { "id": "D", "text": "lecture" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Data adalah informasi yang dikumpulkan dari eksperimen.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Asrama tidak dikumpulkan dari eksperimen." },
+          { "optionId": "C", "reasonId": "Batas waktu tidak dikumpulkan dari eksperimen." },
+          { "optionId": "D", "reasonId": "Kuliah tidak dikumpulkan dari eksperimen." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Her ___ is that plants grow faster with music.",
+        "options": [
+          { "id": "A", "text": "sample" },
+          { "id": "B", "text": "analysis" },
+          { "id": "C", "text": "hypothesis" },
+          { "id": "D", "text": "variable" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Hypothesis adalah prediksi yang bisa diuji, dan kalimat ini menyatakan prediksi tentang musik dan pertumbuhan tanaman.",
+        "stepByStep": [
+          "Kalimat menyatakan prediksi bahwa tanaman tumbuh lebih cepat dengan musik.",
+          "Prediksi yang bisa diuji disebut hypothesis.",
+          "Sample, analysis, dan variable tidak menyatakan prediksi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sample adalah kelompok kecil dari populasi, bukan prediksi." },
+          { "optionId": "B", "reasonId": "Analysis adalah proses membandingkan data, bukan prediksi." },
+          { "optionId": "D", "reasonId": "Variable adalah faktor yang diubah, bukan prediksi." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The ___ of the results took two weeks.",
+        "options": [
+          { "id": "A", "text": "method" },
+          { "id": "B", "text": "theory" },
+          { "id": "C", "text": "sample" },
+          { "id": "D", "text": "analysis" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Analysis adalah proses membandingkan dan menafsirkan hasil, dan proses ini memakan waktu dua minggu.",
+        "stepByStep": [
+          "Kalimat menyebut proses yang memakan waktu dua minggu.",
+          "Proses membandingkan dan menafsirkan hasil disebut analysis.",
+          "Method, theory, dan sample tidak berarti proses menafsirkan hasil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Method adalah cara, bukan proses menafsirkan hasil." },
+          { "optionId": "B", "reasonId": "Theory adalah penjelasan luas, bukan proses." },
+          { "optionId": "C", "reasonId": "Sample adalah kelompok kecil, bukan proses." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The ___ is the factor that the researcher changes on purpose.",
+        "options": [
+          { "id": "A", "text": "variable" },
+          { "id": "B", "text": "theory" },
+          { "id": "C", "text": "hypothesis" },
+          { "id": "D", "text": "data" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Variable adalah faktor yang sengaja diubah peneliti untuk melihat pengaruhnya.",
+        "stepByStep": [
+          "Kalimat menyebut faktor yang sengaja diubah peneliti.",
+          "Faktor yang diubah dalam eksperimen disebut variable.",
+          "Theory, hypothesis, dan data tidak berarti faktor yang diubah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Theory adalah penjelasan luas, bukan faktor yang diubah." },
+          { "optionId": "C", "reasonId": "Hypothesis adalah prediksi, bukan faktor yang diubah." },
+          { "optionId": "D", "reasonId": "Data adalah hasil yang dikumpulkan, bukan faktor yang diubah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Variabel adalah faktor yang diubah peneliti untuk melihat pengaruhnya pada hasil.",
+          "examples": [
+            { "en": "The amount of light is the variable in this test.", "id": "Jumlah cahaya adalah variabel dalam tes ini." },
+            { "en": "Each group had a different variable.", "id": "Setiap kelompok memiliki variabel yang berbeda." }
+          ]
+        },
+        "examTrap": "Pilihan C hypothesis terlihat cocok karena berkaitan dengan eksperimen, tetapi hipotesis adalah prediksi, bukan faktor yang diubah."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "A strong ___ explains many facts and has been tested for years.",
+        "options": [
+          { "id": "A", "text": "hypothesis" },
+          { "id": "B", "text": "theory" },
+          { "id": "C", "text": "variable" },
+          { "id": "D", "text": "sample" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Theory adalah penjelasan luas yang sudah diuji berulang kali, dan cocok dengan kalimat ini.",
+        "stepByStep": [
+          "Kalimat menyebut penjelasan yang menjelaskan banyak fakta.",
+          "Penjelasan luas yang sudah diuji bertahun-tahun disebut theory.",
+          "Hypothesis adalah prediksi awal, variable adalah faktor yang diubah, dan sample adalah kelompok kecil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Hypothesis adalah prediksi awal, belum tentu sudah diuji bertahun-tahun." },
+          { "optionId": "C", "reasonId": "Variable adalah faktor yang diubah, bukan penjelasan luas." },
+          { "optionId": "D", "reasonId": "Sample adalah kelompok kecil, bukan penjelasan luas." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Theory adalah penjelasan luas yang didukung banyak bukti dan pengujian.",
+          "examples": [
+            { "en": "The theory explains why planets move.", "id": "Teori itu menjelaskan mengapa planet bergerak." },
+            { "en": "A strong theory is supported by many experiments.", "id": "Teori yang kuat didukung banyak eksperimen." }
+          ]
+        },
+        "examTrap": "Pilihan A hypothesis terlihat cocok karena juga berkaitan dengan penjelasan, tetapi kalimat ini menyebut penjelasan yang sudah teruji."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Peneliti itu mengumpulkan data dari eksperimen.",
+        "hint": "Peneliti: the researcher. Mengumpulkan: collected. Eksperimen: the experiment.",
+        "acceptedAnswers": ["The researcher collected data from the experiment.", "The researchers collected data from the experiment."],
+        "modelAnswer": "The researcher collected data from the experiment.",
+        "commonErrors": [{ "pattern": "The researcher collect data from experiment", "feedbackId": "Gunakan bentuk lampau collected, dan the experiment." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Hipotesis ini perlu diuji dengan metode yang tepat.",
+        "hint": "Hipotesis: hypothesis. Perlu diuji: needs to be tested. Metode yang tepat: the right method.",
+        "acceptedAnswers": ["This hypothesis needs to be tested with the right method.", "This hypothesis must be tested with the right method."],
+        "modelAnswer": "This hypothesis needs to be tested with the right method.",
+        "commonErrors": [{ "pattern": "This hypothesis need to be test with right method", "feedbackId": "Subjek hypothesis tunggal memakai needs, dan setelah be memakai tested." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Analisis itu menunjukkan hasil yang jelas.",
+        "hint": "Analisis: the analysis. Menunjukkan: showed. Hasil yang jelas: a clear result.",
+        "acceptedAnswers": ["The analysis showed a clear result.", "The analysis shows a clear result."],
+        "modelAnswer": "The analysis showed a clear result.",
+        "commonErrors": [{ "pattern": "The analysis show a clear results", "feedbackId": "Subjek analysis tunggal memakai showed, dan result tunggal." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sampel penelitian ini mewakili populasi yang lebih besar.",
+        "hint": "Sampel penelitian: the research sample. Mewakili: represents. Populasi yang lebih besar: a larger population.",
+        "acceptedAnswers": ["The research sample represents a larger population.", "This research sample represents a larger population."],
+        "modelAnswer": "The research sample represents a larger population.",
+        "commonErrors": [{ "pattern": "The research sample represent a larger population", "feedbackId": "Subjek sample tunggal memakai represents." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Variabel utama dalam eksperimen itu adalah waktu istirahat.",
+        "hint": "Variabel utama: the main variable. Dalam eksperimen: in the experiment. Waktu istirahat: the break time.",
+        "acceptedAnswers": ["The main variable in the experiment is the break time.", "The main variable in this experiment is the break time."],
+        "modelAnswer": "The main variable in the experiment is the break time.",
+        "commonErrors": [{ "pattern": "The main variable in the experiment are the break time", "feedbackId": "Subjek variable tunggal memakai is." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word means 'connected with university study and research'?",
+        "options": [
+          { "id": "A", "text": "figurative" },
+          { "id": "B", "text": "academic" },
+          { "id": "C", "text": "colloquial" },
+          { "id": "D", "text": "literal" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Academic berarti berkaitan dengan studi di perguruan tinggi dan penelitian.",
+        "stepByStep": [
+          "Kalimat meminta kata yang berkaitan dengan studi dan penelitian.",
+          "Kata yang berarti berkaitan dengan studi di perguruan tinggi adalah academic.",
+          "Figurative, colloquial, dan literal tidak berarti berkaitan dengan studi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Figurative berarti kiasan, tidak berkaitan dengan studi." },
+          { "optionId": "C", "reasonId": "Colloquial berarti sehari-hari, tidak berkaitan dengan studi." },
+          { "optionId": "D", "reasonId": "Literal berarti harfiah, tidak berkaitan dengan studi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Academic adalah kata sifat untuk hal yang berkaitan dengan studi, penelitian, dan kampus.",
+          "examples": [
+            { "en": "The academic year starts in September.", "id": "Tahun akademik dimulai pada bulan September." },
+            { "en": "Her academic work is very strong.", "id": "Karya akademiknya sangat kuat." }
+          ]
+        },
+        "examTrap": "Pilihan C colloquial terlihat cocok karena pidato bisa terasa santai, tetapi kata yang diminta berkaitan dengan studi."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ of the data showed that the results were significant.'",
+        "options": [
+          { "id": "A", "text": "theory" },
+          { "id": "B", "text": "variable" },
+          { "id": "C", "text": "method" },
+          { "id": "D", "text": "analysis" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Analysis of the data adalah proses yang menunjukkan hasil bermakna.",
+        "stepByStep": [
+          "Kalimat menyebut proses yang menunjukkan hasil bermakna dari data.",
+          "Proses membandingkan dan menafsirkan data disebut analysis.",
+          "Theory, variable, dan method tidak berarti proses menafsirkan data."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Theory adalah penjelasan luas, bukan proses menafsirkan data." },
+          { "optionId": "B", "reasonId": "Variable adalah faktor yang diubah, bukan proses." },
+          { "optionId": "C", "reasonId": "Method adalah cara, bukan proses menafsirkan data." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Analysis of the data berarti analisis terhadap data untuk menarik kesimpulan.",
+          "examples": [
+            { "en": "The analysis of the survey took a month.", "id": "Analisis survei itu memakan waktu sebulan." },
+            { "en": "Their analysis supports the claim.", "id": "Analisis mereka mendukung klaim itu." }
+          ]
+        },
+        "examTrap": "Pilihan C method terlihat cocok karena dekat dengan data, tetapi method adalah cara, bukan hasil penafsiran."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word is the plural of 'hypothesis'?",
+        "options": [
+          { "id": "A", "text": "hypotheses" },
+          { "id": "B", "text": "hypothesises" },
+          { "id": "C", "text": "hypothesize" },
+          { "id": "D", "text": "hypotheticals" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Bentuk jamak hypothesis adalah hypotheses, dengan akhiran -es.",
+        "stepByStep": [
+          "Hypothesis adalah kata benda yang berakhiran -is.",
+          "Bentuk jamaknya mengganti -is menjadi -es: hypotheses.",
+          "Hypothesises dan hypothesize tidak benar sebagai jamak, dan hypotheticals adalah kata sifat jamak yang berbeda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Hypothesises bukan bentuk jamak yang benar." },
+          { "optionId": "C", "reasonId": "Hypothesize adalah kata kerja, bukan jamak." },
+          { "optionId": "D", "reasonId": "Hypotheticals adalah bentuk lain yang berbeda maknanya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata yang berakhiran -is, seperti hypothesis, menjadi -es pada bentuk jamak.",
+          "examples": [
+            { "en": "Two hypotheses were tested.", "id": "Dua hipotesis diuji." },
+            { "en": "Each hypothesis needs evidence.", "id": "Setiap hipotesis membutuhkan bukti." }
+          ]
+        },
+        "examTrap": "Pilihan B hypothesises terlihat seperti jamak biasa dengan -es, tetapi bentuk yang benar adalah hypotheses."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The experiments was successful." },
+          { "id": "B", "text": "The experiment were successful." },
+          { "id": "C", "text": "The experiment was successful." },
+          { "id": "D", "text": "The experiments were success." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Subjek experiment tunggal memakai was, dan successful adalah kata sifat yang benar.",
+        "stepByStep": [
+          "Subjek experiment tunggal, sehingga kata kerjanya was.",
+          "Successful adalah kata sifat yang benar setelah was.",
+          "Pilihan A memakai was untuk jamak, pilihan B memakai were untuk tunggal, dan pilihan D memakai success sebagai kata sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Experiments jamak tidak cocok dengan was." },
+          { "optionId": "B", "reasonId": "Experiment tunggal tidak cocok dengan were." },
+          { "optionId": "D", "reasonId": "Success adalah kata benda, tidak bisa menjadi kata sifat setelah were." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai was, dan kata sifat successful berada setelah kata kerja.",
+          "examples": [
+            { "en": "The test was successful.", "id": "Tes itu berhasil." },
+            { "en": "The method was useful.", "id": "Metode itu berguna." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena experiments adalah bentuk jamak, tetapi kalimat ini menyebut satu eksperimen."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which word means 'a step-by-step way of doing something'?",
+        "options": [
+          { "id": "A", "text": "variable" },
+          { "id": "B", "text": "method" },
+          { "id": "C", "text": "sample" },
+          { "id": "D", "text": "data" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Method berarti cara melakukan sesuatu secara bertahap dan teratur.",
+        "stepByStep": [
+          "Kalimat meminta kata untuk cara bertahap melakukan sesuatu.",
+          "Cara yang teratur dan bertahap disebut method.",
+          "Variable, sample, dan data tidak berarti cara melakukan sesuatu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Variable adalah faktor yang diubah, bukan cara bertahap." },
+          { "optionId": "C", "reasonId": "Sample adalah kelompok kecil, bukan cara bertahap." },
+          { "optionId": "D", "reasonId": "Data adalah informasi yang dikumpulkan, bukan cara bertahap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Method adalah cara yang teratur untuk mencapai tujuan, sering dipakai dalam penelitian.",
+          "examples": [
+            { "en": "The method is simple and clear.", "id": "Metode itu sederhana dan jelas." },
+            { "en": "Choose a method that fits your study.", "id": "Pilih metode yang sesuai dengan penelitianmu." }
+          ]
+        },
+        "examTrap": "Pilihan D data terlihat cocok karena berkaitan dengan penelitian, tetapi data adalah informasi, bukan cara melakukan sesuatu."
+      }
+    ]
+  }
+}

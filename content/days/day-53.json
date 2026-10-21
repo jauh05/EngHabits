@@ -1,0 +1,593 @@
+{
+  "day": 53,
+  "week": 8,
+  "month": 2,
+  "title": "Sinonim dan Parafrasa",
+  "topic": "Mengenali makna yang sama dalam kata atau kalimat yang berbeda bentuk",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membedakan parafrasa yang baik dari sekadar mengganti satu atau dua kata",
+    "Mengenali sinonim yang cocok dengan konteks",
+    "Memeriksa apakah klaim utama sebuah parafrasa tetap sama"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "alternative", "pronunciationId": "al-TUR-nuh-tiv (tekanan di TUR)", "pos": "Noun", "meaningId": "pilihan lain, alternatif", "example": "We have an alternative plan.", "exampleId": "Kami punya rencana alternatif." },
+      { "no": 2, "en": "equivalent", "pronunciationId": "ee-KWIV-uh-lent (tekanan di KWIV)", "pos": "Adj", "meaningId": "setara, sepadan", "example": "The two words are equivalent.", "exampleId": "Kedua kata itu setara." },
+      { "no": 3, "en": "comparable", "pronunciationId": "KOM-per-uh-bul (tekanan di KOM)", "pos": "Adj", "meaningId": "sebanding, mirip", "example": "The prices are comparable.", "exampleId": "Harganya sebanding." },
+      { "no": 4, "en": "replace", "pronunciationId": "ri-PLAYS (tekanan di PLAYS)", "pos": "Verb", "meaningId": "menggantikan", "example": "Replace the old word with a new one.", "exampleId": "Gantilah kata lama dengan kata baru." },
+      { "no": 5, "en": "substitute", "pronunciationId": "SUB-stuh-toot (tekanan di SUB)", "pos": "Noun", "meaningId": "pengganti", "example": "Use a substitute if the sugar is gone.", "exampleId": "Pakai pengganti jika gula habis." },
+      { "no": 6, "en": "identical", "pronunciationId": "ai-DEN-ti-kul (tekanan di DEN)", "pos": "Adj", "meaningId": "identik, sama persis", "example": "The two forms are identical.", "exampleId": "Kedua bentuk itu identik." },
+      { "no": 7, "en": "rephrase", "pronunciationId": "ree-FRAYZ (tekanan di FRAYZ)", "pos": "Verb", "meaningId": "menyusun ulang kalimat", "example": "Please rephrase your question.", "exampleId": "Tolong susun ulang pertanyaanmu." },
+      { "no": 8, "en": "paraphrase", "pronunciationId": "PAIR-uh-frayz (tekanan di PAIR)", "pos": "Noun", "meaningId": "parafrasa, menyatakan ulang", "example": "The paraphrase is clear.", "exampleId": "Parafrasanya jelas." },
+      { "no": 9, "en": "express", "pronunciationId": "ik-SPRES (tekanan di SPRES)", "pos": "Verb", "meaningId": "menyatakan", "example": "She wants to express her idea.", "exampleId": "Dia ingin menyatakan idenya." },
+      { "no": 10, "en": "synonym", "pronunciationId": "SIN-uh-nim (tekanan di SIN)", "pos": "Noun", "meaningId": "sinonim, kata yang bermakna sama", "example": "Happy is a synonym of glad.", "exampleId": "Happy adalah sinonim dari glad." }
+    ],
+    "tip": "Saat membaca parafrasa, periksa apakah klaim utamanya sama. Kata yang berbeda belum tentu berarti hal yang berbeda."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["synonyms and paraphrase English", "paraphrasing TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang sinonim dan parafrasa, dengan contoh mengganti kata tanpa mengubah makna.",
+      "watchFor": [
+        "Perbedaan parafrasa dan sekadar mengganti kata",
+        "Sinonim yang cocok dengan konteks",
+        "Klaim utama yang tetap sama"
+      ]
+    },
+    "lesson": {
+      "intro": "Parafrasa menyatakan ide yang sama dengan kata dan susunan kalimat yang berbeda. Kemampuan ini penting untuk memahami bacaan, karena soal sering memakai kata lain untuk menanyakan makna yang sama.",
+      "sections": [
+        {
+          "heading": "Sinonim dan konteks",
+          "bodyMd": "Sebuah **synonym** tidak selalu cocok di semua kalimat. Kata **substitute** bisa menjadi pengganti, tetapi harus sesuai konteks. Dua kata yang **equivalent** atau **comparable** belum tentu **identical** dalam setiap situasi."
+        },
+        {
+          "heading": "Parafrasa yang baik",
+          "bodyMd": "Parafrasa yang baik tidak hanya **replace** beberapa kata. Penulis harus memahami ide, lalu **express** ulang dengan susunan baru. Kamu juga bisa **rephrase** kalimat untuk menjelaskan ulang dengan kata sendiri."
+        },
+        {
+          "heading": "Mengecek klaim",
+          "bodyMd": "Pilihan **alternative** yang baik tetap menjaga klaim asli. Jika klaimnya berubah, itu bukan **paraphrase** yang benar, meskipun kalimatnya terdengar halus."
+        }
+      ],
+      "formulas": [
+        { "label": "Sinonim", "pattern": "kata A + synonym of + kata B, jika maknanya sama" },
+        { "label": "Mengganti", "pattern": "replace + kata lama + with + kata baru" },
+        { "label": "Setara", "pattern": "X is equivalent to Y, atau X is comparable to Y" },
+        { "label": "Parafrasa", "pattern": "ide yang sama + kata dan susunan baru" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "A paraphrase expresses the same idea in new words.", "id": "Parafrasa menyatakan ide yang sama dengan kata-kata baru." },
+          { "en": "Use a synonym to replace a repeated word.", "id": "Gunakan sinonim untuk menggantikan kata yang berulang." },
+          { "en": "These two answers are identical in meaning.", "id": "Kedua jawaban ini identik dalam makna." },
+          { "en": "The alternative method saved a lot of time.", "id": "Metode alternatif itu menghemat banyak waktu." },
+          { "en": "Please rephrase the question in your own words.", "id": "Tolong susun ulang pertanyaan itu dengan katamu sendiri." }
+        ],
+        "negative": [
+          { "en": "The paraphrase does not change the main idea.", "id": "Parafrasa itu tidak mengubah ide utamanya." },
+          { "en": "A substitute word is not always equivalent to the original.", "id": "Kata pengganti tidak selalu setara dengan kata aslinya." },
+          { "en": "The two sentences are not identical.", "id": "Kedua kalimat itu tidak identik." },
+          { "en": "Changing one word does not make a true paraphrase.", "id": "Mengganti satu kata tidak membuat parafrasa yang benar." },
+          { "en": "The synonym does not fit this context.", "id": "Sinonim itu tidak cocok dengan konteks ini." }
+        ],
+        "question": [
+          { "en": "What is the main idea of this paraphrase?", "id": "Apa ide utama parafrasa ini?" },
+          { "en": "Is this sentence a good paraphrase?", "id": "Apakah kalimat ini parafrasa yang baik?" },
+          { "en": "Which word is a synonym of big?", "id": "Kata apa yang merupakan sinonim dari big?" },
+          { "en": "Can you rephrase the sentence in your own words?", "id": "Bisakah kamu menyusun ulang kalimat itu dengan katamu sendiri?" },
+          { "en": "Why do writers cite their sources?", "id": "Mengapa penulis mencantumkan sumbernya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "This paraphrase are identical to the original.", "right": "This paraphrase is identical to the original.", "whyId": "Paraphrase adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "She rephrase the sentence for the class.", "right": "She rephrases the sentence for the class.", "whyId": "Subjek she memakai -s pada kata kerja present." },
+        { "wrong": "We have a alternative plan.", "right": "We have an alternative plan.", "whyId": "Alternative diawali vokal, jadi memakai an." },
+        { "wrong": "The words is equivalent in meaning.", "right": "The words are equivalent in meaning.", "whyId": "Subjek words jamak, jadi memakai are." },
+        { "wrong": "They express the idea in different word.", "right": "They express the idea in different words.", "whyId": "Setelah different, kata benda dipakai dalam bentuk jamak words." },
+        { "wrong": "A synonym can replaces the word.", "right": "A synonym can replace the word.", "whyId": "Setelah can, pakai kata kerja dasar replace." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Parafrasa yang Baik",
+    "text": "Paraphrase means to express the same idea in different words. Writers do this to avoid repeating themselves and to show that they understand a source. A good paraphrase keeps the meaning identical, but it replaces the original words with a synonym and changes the sentence structure. For example, 'The museum closed early' can be rephrased as 'The museum shut its doors ahead of schedule.' Both sentences give the same information, yet the second one uses different vocabulary.\n\nA paraphrase is not the same as changing one or two words. If a writer keeps the original order and swaps a few words, the result may still look copied. Good paraphrasing requires the writer to understand the idea first, then explain it in a new way. Many students use a dictionary to find an alternative for each word. This method can work, but it often produces awkward sentences.\n\nSome words have an equivalent in another language, while others are only comparable in meaning. A substitute word may fit one context and fail in another. For this reason, a reader should check the context before accepting a synonym. The word large can replace big in many sentences, but not in every case.\n\nWhen you read a paraphrase, ask whether it expresses the same claim as the original. If the claim changes, the paraphrase is incorrect even if it sounds smooth. Compare the main idea of both versions. If the main idea is identical, the paraphrase succeeds.\n\nParaphrasing also helps in speaking. When you explain a story to a friend, you naturally rephrase the parts you remember. In academic writing, however, you must cite the source. A paraphrase without a citation can still count as plagiarism, because the idea belongs to someone else.",
+    "glossary": [
+      { "en": "plagiarism", "id": "plagiat" },
+      { "en": "awkward", "id": "canggung, janggal" },
+      { "en": "smooth", "id": "lancar, mengalir" },
+      { "en": "citation", "id": "kutipan, pencantuman sumber" },
+      { "en": "claim", "id": "klaim, pernyataan" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is paraphrasing, according to the passage?",
+        "options": [
+          { "id": "A", "text": "copying a source word for word" },
+          { "id": "B", "text": "expressing the same idea in different words" },
+          { "id": "C", "text": "translating a text into another language" },
+          { "id": "D", "text": "shortening a text to one sentence" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Paraphrase means to express the same idea in different words', artinya parafrasa adalah menyatakan ide yang sama dengan kata lain.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menyalin kata demi kata bukan parafrasa menurut teks." },
+          { "optionId": "C", "reasonId": "Menerjemahkan tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Meringkas menjadi satu kalimat tidak disebut dalam teks." }
+        ],
+        "evidence": "express the same idea in different words"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Why do writers paraphrase?",
+        "options": [
+          { "id": "A", "text": "to avoid repeating themselves and show understanding" },
+          { "id": "B", "text": "to make the text longer" },
+          { "id": "C", "text": "to change the meaning of a source" },
+          { "id": "D", "text": "to hide the source" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menyebut penulis melakukannya untuk avoid repeating themselves dan show that they understand a source.",
+        "stepByStep": [
+          "Cari alasan penulis di kalimat kedua paragraf pertama.",
+          "Teks menyebut menghindari pengulangan dan menunjukkan pemahaman.",
+          "Memperpanjang teks, mengubah makna, dan menyembunyikan sumber tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Membuat teks lebih panjang tidak disebut sebagai alasan." },
+          { "optionId": "C", "reasonId": "Mengubah makna sumber bertentangan dengan tujuan parafrasa." },
+          { "optionId": "D", "reasonId": "Menyembunyikan sumber bertentangan dengan keharusan mencantumkan sumber." }
+        ],
+        "evidence": "avoid repeating themselves"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why is changing only one or two words not enough?",
+        "options": [
+          { "id": "A", "text": "The meaning becomes longer." },
+          { "id": "B", "text": "The dictionary forbids it." },
+          { "id": "C", "text": "The synonym is always wrong." },
+          { "id": "D", "text": "The result may still look copied." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'the result may still look copied', artinya hasilnya bisa tetap terlihat disalin.",
+        "stepByStep": [
+          "Cari kalimat tentang mengganti satu atau dua kata.",
+          "Teks menyebut hasil yang masih terlihat disalin.",
+          "Makna yang lebih panjang, larangan kamus, dan sinonim yang selalu salah tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Makna yang lebih panjang tidak disebut dalam teks." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut kamus melarang cara itu." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut sinonim selalu salah." }
+        ],
+        "evidence": "may still look copied"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What does the passage say about the words 'large' and 'big'?",
+        "options": [
+          { "id": "A", "text": "They are always identical." },
+          { "id": "B", "text": "They can be swapped in every sentence." },
+          { "id": "C", "text": "They can replace each other in many sentences, but not in every case." },
+          { "id": "D", "text": "They have no equivalent in any language." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'The word large can replace big in many sentences, but not in every case', artinya kedua kata bisa saling menggantikan dalam banyak kalimat, tetapi tidak selalu.",
+        "stepByStep": [
+          "Cari bagian tentang large dan big di paragraf ketiga.",
+          "Teks menyebut keduanya bisa saling menggantikan dalam banyak kalimat.",
+          "Teks juga menyebut tidak di setiap kasus, jadi pilihan yang menyatakan selalu sama atau selalu bisa ditukar tidak sesuai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut keduanya selalu identik." },
+          { "optionId": "B", "reasonId": "Teks menyebut tidak di setiap kalimat, jadi tidak selalu bisa ditukar." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut kata itu tidak punya padanan dalam bahasa lain." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dua sinonim bisa saling menggantikan dalam sebagian konteks, tetapi tidak selalu dalam semua konteks.",
+          "examples": [
+            { "en": "A big house is a large house in many sentences.", "id": "Rumah besar sering sama dengan rumah luas dalam banyak kalimat." },
+            { "en": "A big mistake is not always a large mistake.", "id": "Kesalahan besar tidak selalu berarti kesalahan yang luas." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena large dan big sering bermakna mirip, tetapi teks menekankan bahwa penukaran tidak berlaku di setiap kasus.",
+        "evidence": "can replace big in many sentences, but not in every case"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "According to the passage, how can a reader test a paraphrase?",
+        "options": [
+          { "id": "A", "text": "count the words in both versions" },
+          { "id": "B", "text": "read only the first sentence" },
+          { "id": "C", "text": "compare the main idea of both versions" },
+          { "id": "D", "text": "check whether the citation is in bold" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Compare the main idea of both versions', artinya bandingkan ide utama kedua versi.",
+        "stepByStep": [
+          "Cari cara menguji parafrasa di paragraf keempat.",
+          "Teks menyarankan membandingkan ide utama kedua versi.",
+          "Menghitung kata, membaca kalimat pertama saja, dan memeriksa huruf tebal tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menghitung kata tidak disebut sebagai cara menguji parafrasa." },
+          { "optionId": "B", "reasonId": "Membaca kalimat pertama saja tidak cukup dan tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Huruf tebal pada sitasi tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk menguji parafrasa, bandingkan klaim atau ide utama dari kedua versi.",
+          "examples": [
+            { "en": "If the main claim is the same, the paraphrase works.", "id": "Jika klaim utamanya sama, parafrasanya berhasil." },
+            { "en": "If the claim changed, the paraphrase is wrong.", "id": "Jika klaimnya berubah, parafrasanya salah." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti cara mengukur kemiripan, tetapi teks meminta membandingkan ide utama, bukan jumlah kata.",
+        "evidence": "Compare the main idea of both versions"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The two sentences are ___ in meaning, so both are correct.",
+        "options": [
+          { "id": "A", "text": "identical" },
+          { "id": "B", "text": "distant" },
+          { "id": "C", "text": "unclear" },
+          { "id": "D", "text": "earlier" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Identical berarti sama persis, dan cocok dengan kalimat yang menyatakan kedua kalimat benar.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Distant berarti jauh, tidak cocok dengan makna yang sama." },
+          { "optionId": "C", "reasonId": "Unclear berarti tidak jelas, tidak cocok dengan kalimat yang benar." },
+          { "optionId": "D", "reasonId": "Earlier berarti lebih awal, tidak berhubungan dengan makna." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The store had no coat, so the clerk offered a ___ coat.",
+        "options": [
+          { "id": "A", "text": "fabric" },
+          { "id": "B", "text": "mirror" },
+          { "id": "C", "text": "tiring" },
+          { "id": "D", "text": "substitute" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Substitute berarti pengganti, dan cocok karena toko tidak punya mantel yang diminta.",
+        "stepByStep": [
+          "Toko tidak punya mantel yang diminta.",
+          "Petugas menawarkan sesuatu sebagai pengganti.",
+          "Fabric berarti kain, mirror berarti cermin, dan tiring berarti melelahkan, tidak cocok dengan makna pengganti."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Fabric berarti kain, bukan pengganti mantel." },
+          { "optionId": "B", "reasonId": "Mirror berarti cermin, tidak cocok dengan mantel pengganti." },
+          { "optionId": "C", "reasonId": "Tiring berarti melelahkan, tidak cocok sebagai kata sebelum coat." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which word is a synonym of 'big'?",
+        "options": [
+          { "id": "A", "text": "large" },
+          { "id": "B", "text": "late" },
+          { "id": "C", "text": "quiet" },
+          { "id": "D", "text": "small" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Large berarti besar, sama maknanya dengan big.",
+        "stepByStep": [
+          "Kata big berarti besar.",
+          "Kata yang maknanya sama adalah large.",
+          "Late berarti terlambat, quiet berarti tenang, dan small berarti kecil, yang berlawanan dengan big."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Late berarti terlambat, bukan besar." },
+          { "optionId": "C", "reasonId": "Quiet berarti tenang, bukan besar." },
+          { "optionId": "D", "reasonId": "Small berarti kecil, lawan dari big." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The two translations are ___ because they carry the same meaning.",
+        "options": [
+          { "id": "A", "text": "careless" },
+          { "id": "B", "text": "equivalent" },
+          { "id": "C", "text": "frozen" },
+          { "id": "D", "text": "polite" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Equivalent berarti setara atau sepadan, dan cocok karena kedua terjemahan membawa makna yang sama.",
+        "stepByStep": [
+          "Kalimat menyebut dua terjemahan yang membawa makna sama.",
+          "Kata sifat yang berarti setara adalah equivalent.",
+          "Careless berarti ceroboh, frozen berarti beku, dan polite berarti sopan, tidak menjelaskan kesamaan makna."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Careless berarti ceroboh, tidak menjelaskan kesamaan makna." },
+          { "optionId": "C", "reasonId": "Frozen berarti beku, tidak cocok dengan makna sama." },
+          { "optionId": "D", "reasonId": "Polite berarti sopan, tidak cocok dengan makna sama." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Equivalent dipakai untuk dua hal yang setara atau bermakna sama.",
+          "examples": [
+            { "en": "These two prices are equivalent.", "id": "Kedua harga ini setara." },
+            { "en": "The two rules are equivalent in effect.", "id": "Kedua aturan itu setara dalam akibatnya." }
+          ]
+        },
+        "examTrap": "Pilihan D polite terlihat masuk akal karena terjemahan sering dibuat dengan sopan, tetapi kalimat ini menekankan kesamaan makna."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Please ___ this sentence so it is easier for children to understand.",
+        "options": [
+          { "id": "A", "text": "forget" },
+          { "id": "B", "text": "rephrase" },
+          { "id": "C", "text": "cite" },
+          { "id": "D", "text": "measure" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Rephrase berarti menyusun ulang kalimat dengan kata lain, dan cocok untuk membuat kalimat lebih mudah dipahami.",
+        "stepByStep": [
+          "Kalimat meminta mengubah kalimat agar lebih mudah dipahami.",
+          "Kata kerja yang berarti menyusun ulang kalimat adalah rephrase.",
+          "Forget berarti lupa, cite berarti mengutip, dan measure berarti mengukur, tidak cocok dengan tujuan ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Forget berarti lupa, tidak cocok dengan menyusun ulang kalimat." },
+          { "optionId": "C", "reasonId": "Cite berarti mengutip sumber, bukan mengubah kalimat agar mudah dipahami." },
+          { "optionId": "D", "reasonId": "Measure berarti mengukur, tidak cocok dengan kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Rephrase berarti menyatakan kembali sesuatu dengan kata-kata lain.",
+          "examples": [
+            { "en": "Can you rephrase the instructions?", "id": "Bisakah kamu menyusun ulang instruksinya?" },
+            { "en": "She rephrased the answer for the class.", "id": "Dia menyusun ulang jawabannya untuk kelas." }
+          ]
+        },
+        "examTrap": "Pilihan C cite terlihat cocok karena berkaitan dengan tulisan, tetapi cite berarti mencantumkan sumber, bukan mengubah kalimat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Parafrasa menyatakan ide yang sama dengan kata lain.",
+        "hint": "Parafrasa: paraphrase. Menyatakan: expresses. Kata lain: other words.",
+        "acceptedAnswers": ["A paraphrase expresses the same idea with other words.", "A paraphrase expresses the same idea in other words."],
+        "modelAnswer": "A paraphrase expresses the same idea with other words.",
+        "commonErrors": [{ "pattern": "A paraphrase express the same idea", "feedbackId": "Subjek paraphrase tunggal, jadi memakai expresses." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Sinonim bisa menggantikan kata itu tanpa mengubah makna.",
+        "hint": "Sinonim: synonym. Menggantikan: replace. Tanpa mengubah makna: without changing the meaning.",
+        "acceptedAnswers": ["A synonym can replace that word without changing the meaning.", "A synonym can replace the word without changing its meaning."],
+        "modelAnswer": "A synonym can replace that word without changing the meaning.",
+        "commonErrors": [{ "pattern": "A synonym can replaces that word", "feedbackId": "Setelah can, pakai kata kerja dasar replace." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kedua versi ini memiliki makna yang identik.",
+        "hint": "Kedua versi: the two versions. Identik: identical. Makna: meaning.",
+        "acceptedAnswers": ["The two versions have identical meaning.", "The two versions have an identical meaning."],
+        "modelAnswer": "The two versions have identical meaning.",
+        "commonErrors": [{ "pattern": "The two versions has identical meaning", "feedbackId": "Subjek versions jamak, jadi memakai have." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kata pengganti itu tidak selalu setara dengan kata aslinya.",
+        "hint": "Kata pengganti: the substitute word. Tidak selalu: not always. Setara: equivalent. Kata aslinya: the original word.",
+        "acceptedAnswers": ["The substitute word is not always equivalent to the original word.", "The substitute word is not always equivalent to the original one."],
+        "modelAnswer": "The substitute word is not always equivalent to the original word.",
+        "commonErrors": [{ "pattern": "The substitute word not always equivalent to the original word", "feedbackId": "Gunakan is sebelum not always." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penulis harus mencantumkan sumber dari ide yang mereka pinjam.",
+        "hint": "Penulis: writers. Harus mencantumkan: must cite. Sumber: the source. Ide yang dipinjam: the idea they borrow.",
+        "acceptedAnswers": ["Writers must cite the source of any idea they borrow.", "Writers must cite the source of every idea they borrow."],
+        "modelAnswer": "Writers must cite the source of any idea they borrow.",
+        "commonErrors": [{ "pattern": "Writers must cites the source of any idea", "feedbackId": "Setelah must, pakai kata kerja dasar cite." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence is a good paraphrase of 'The meeting was postponed'?",
+        "options": [
+          { "id": "A", "text": "The meeting was postponed." },
+          { "id": "B", "text": "The meeting was moved to a later time." },
+          { "id": "C", "text": "The meeting was cancelled forever." },
+          { "id": "D", "text": "The meeting happened early." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Postponed berarti ditunda, dan moved to a later time menyatakan ide yang sama dengan kata lain.",
+        "stepByStep": [
+          "Postponed berarti ditunda ke waktu lain.",
+          "Moved to a later time menyatakan ide yang sama.",
+          "Pilihan A tidak mengganti kata, pilihan C mengubah makna menjadi batal, dan pilihan D tidak sesuai dengan penundaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pilihan ini memakai kata yang sama, jadi bukan parafrasa." },
+          { "optionId": "C", "reasonId": "Dibatalkan selamanya mengubah klaim, bukan sekadar ditunda." },
+          { "optionId": "D", "reasonId": "Terjadi lebih awal berlawanan dengan ditunda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Parafrasa yang benar menjaga ide yang sama dengan kata dan susunan yang berbeda.",
+          "examples": [
+            { "en": "The class was delayed, so it started at ten.", "id": "Kelas itu ditunda, jadi mulai pukul sepuluh." },
+            { "en": "The event was moved to next week.", "id": "Acara itu dipindah ke minggu depan." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat mirip karena kedua kalimat tentang jadwal yang berubah, tetapi cancelled forever mengubah klaim."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which word is the best substitute for 'big' in 'a big problem'?",
+        "options": [
+          { "id": "A", "text": "serious" },
+          { "id": "B", "text": "tiny" },
+          { "id": "C", "text": "quiet" },
+          { "id": "D", "text": "yellow" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Serious problem berarti masalah yang besar dan penting, sehingga cocok sebagai pengganti big di konteks ini.",
+        "stepByStep": [
+          "Big di 'a big problem' berarti besar atau serius.",
+          "Serious problem menyatakan masalah yang besar.",
+          "Tiny berarti sangat kecil, quiet berarti tenang, dan yellow berarti kuning, tidak cocok dengan konteks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tiny berarti sangat kecil, berlawanan dengan big." },
+          { "optionId": "C", "reasonId": "Quiet berarti tenang, tidak cocok dengan masalah." },
+          { "optionId": "D", "reasonId": "Yellow berarti kuning, tidak berhubungan dengan ukuran masalah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pengganti yang baik harus sesuai dengan konteks, bukan hanya mirip dalam kamus.",
+          "examples": [
+            { "en": "It is a serious problem for the team.", "id": "Itu masalah serius bagi tim." },
+            { "en": "The big task takes a long time.", "id": "Tugas besar itu memakan waktu lama." }
+          ]
+        },
+        "examTrap": "Pilihan B tiny terlihat seperti kebalikan yang jelas, tetapi soal ini meminta sinonim yang cocok dengan konteks, bukan lawan kata."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which pair is equivalent in meaning?",
+        "options": [
+          { "id": "A", "text": "student / teacher" },
+          { "id": "B", "text": "rapid / slow" },
+          { "id": "C", "text": "quick / fast" },
+          { "id": "D", "text": "happy / sad" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Quick dan fast sama-sama berarti cepat, sehingga keduanya setara dalam makna.",
+        "stepByStep": [
+          "Pasangan yang setara harus punya makna yang sama.",
+          "Quick dan fast sama-sama berarti cepat.",
+          "Student dan teacher, rapid dan slow, serta happy dan sad tidak sama maknanya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Student dan teacher adalah dua peran berbeda, bukan makna yang sama." },
+          { "optionId": "B", "reasonId": "Rapid dan slow berlawanan, bukan setara." },
+          { "optionId": "D", "reasonId": "Happy dan sad berlawanan, bukan setara." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sinonim adalah dua kata yang memiliki makna yang sama atau sangat dekat.",
+          "examples": [
+            { "en": "Happy is a synonym of glad.", "id": "Happy adalah sinonim dari glad." },
+            { "en": "Begin is equivalent to start.", "id": "Begin setara dengan start." }
+          ]
+        },
+        "examTrap": "Pilihan B rapid / slow terlihat seperti pasangan kata yang berhubungan dengan kecepatan, tetapi keduanya berlawanan makna."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'alternative'?",
+        "options": [
+          { "id": "A", "text": "We have an alternative plan if the bus is late." },
+          { "id": "B", "text": "We have an alternative if plan the bus late." },
+          { "id": "C", "text": "The alternative is plan we bus late." },
+          { "id": "D", "text": "We alternative plan have the bus." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kalimat A memakai alternative plan dengan urutan kata yang benar, dan if clause menjelaskan kondisinya.",
+        "stepByStep": [
+          "Alternative plan adalah frasa yang benar untuk rencana lain.",
+          "Pilihan A memakai an sebelum alternative karena diawali vokal.",
+          "Pilihan B, C, dan D memiliki urutan kata yang tidak membentuk kalimat yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini tidak benar." },
+          { "optionId": "C", "reasonId": "Urutan kata dalam kalimat ini tidak benar dan tidak jelas maknanya." },
+          { "optionId": "D", "reasonId": "Urutan kata dalam kalimat ini tidak membentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Alternative diikuti kata benda, seperti alternative plan, dan memakai an di depannya.",
+          "examples": [
+            { "en": "We need an alternative route.", "id": "Kita perlu rute alternatif." },
+            { "en": "The alternative method is faster.", "id": "Metode alternatif itu lebih cepat." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak mirip dengan pilihan A karena memakai kata yang sama, tetapi urutannya salah sehingga tidak bisa dipahami."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The two studies reached ___ conclusions.'",
+        "options": [
+          { "id": "A", "text": "careless" },
+          { "id": "B", "text": "distant" },
+          { "id": "C", "text": "identical" },
+          { "id": "D", "text": "sudden" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Identical conclusions berarti kesimpulan yang sama persis dari dua penelitian.",
+        "stepByStep": [
+          "Kalimat menyebut dua penelitian yang mencapai kesimpulan.",
+          "Kesimpulan yang sama persis disebut identical.",
+          "Careless, distant, dan sudden tidak menjelaskan kesamaan kesimpulan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Careless berarti ceroboh, tidak sesuai dengan kesimpulan." },
+          { "optionId": "B", "reasonId": "Distant berarti jauh, tidak sesuai dengan kesimpulan yang sama." },
+          { "optionId": "D", "reasonId": "Sudden berarti mendadak, tidak sesuai dengan kesimpulan yang sama." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Identical dipakai untuk hal yang sama persis dalam makna atau bentuk.",
+          "examples": [
+            { "en": "The two answers were identical.", "id": "Kedua jawaban itu identik." },
+            { "en": "Both reports reached identical results.", "id": "Kedua laporan itu mencapai hasil yang identik." }
+          ]
+        },
+        "examTrap": "Pilihan D sudden terlihat seperti kata yang berkaitan dengan hasil penelitian, tetapi kalimat ini meminta kata yang berarti sama persis."
+      }
+    ]
+  }
+}

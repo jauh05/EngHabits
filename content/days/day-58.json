@@ -1,0 +1,613 @@
+{
+  "day": 58,
+  "week": 8,
+  "month": 2,
+  "title": "Review Minggu 8",
+  "topic": "Review: listening kampus dan percakapan minggu 8",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang dialog, tanggapan, dan saran",
+    "Meninjau ulang idiom, makna kiasan, dan kata yang tidak biasa",
+    "Meninjau ulang metode, tenggat, dan percakapan kampus"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "dialogue", "pronunciationId": "DAI-a-log (tekanan di DAI)", "pos": "Noun", "meaningId": "dialog", "example": "The dialogue was short.", "exampleId": "Dialog itu singkat." },
+      { "no": 2, "en": "alternative", "pronunciationId": "al-TUR-nuh-tiv (tekanan di TUR)", "pos": "Noun", "meaningId": "pilihan lain", "example": "We have an alternative plan.", "exampleId": "Kami punya rencana alternatif." },
+      { "no": 3, "en": "idiom", "pronunciationId": "IH-dee-um (tekanan di IH)", "pos": "Noun", "meaningId": "ungkapan, idiom", "example": "Piece of cake is an idiom.", "exampleId": "Piece of cake adalah sebuah idiom." },
+      { "no": 4, "en": "unlikely", "pronunciationId": "un-LAIK-lee (tekanan di LAIK)", "pos": "Adj", "meaningId": "kemungkinannya kecil", "example": "It is unlikely to snow today.", "exampleId": "Kemungkinan kecil akan turun salju hari ini." },
+      { "no": 5, "en": "campus", "pronunciationId": "KAM-pus (tekanan di KAM)", "pos": "Noun", "meaningId": "kampus", "example": "The campus is quiet at night.", "exampleId": "Kampus itu sepi pada malam hari." },
+      { "no": 6, "en": "deadline", "pronunciationId": "DED-line (tekanan di DED)", "pos": "Noun", "meaningId": "batas waktu", "example": "The deadline is tomorrow.", "exampleId": "Batas waktunya besok." },
+      { "no": 7, "en": "research", "pronunciationId": "ri-SURCH (tekanan di SURCH)", "pos": "Noun", "meaningId": "penelitian", "example": "Her research is about climate.", "exampleId": "Penelitiannya tentang iklim." },
+      { "no": 8, "en": "method", "pronunciationId": "METH-ud (tekanan di METH)", "pos": "Noun", "meaningId": "metode, cara", "example": "We chose a simple method.", "exampleId": "Kami memilih metode yang sederhana." },
+      { "no": 9, "en": "reply", "pronunciationId": "ri-PLAI (tekanan di PLAI)", "pos": "Noun", "meaningId": "balasan", "example": "I wait for your reply.", "exampleId": "Saya menunggu balasanmu." },
+      { "no": 10, "en": "figurative", "pronunciationId": "FIG-yer-uh-tiv (tekanan di FIG)", "pos": "Adj", "meaningId": "kiasan", "example": "She used a figurative word.", "exampleId": "Dia memakai kata kiasan." }
+    ],
+    "tip": "Saat mengulang, tanyakan tiga hal: siapa yang bicara, apa tenggatnya, dan apa tindakan yang disarankan. Jawaban sering ada di sana."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL listening practice", "TOEFL academic talk practice"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum dialog, idiom, percakapan kampus, dan pidato akademik dari minggu 8.",
+      "watchFor": [
+        "Tanggapan pembicara kedua",
+        "Makna kiasan dan harfiah",
+        "Metode dan tenggat dalam percakapan"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 8 membahas dialog pendek, sinonim, idiom, ekspresi negatif, percakapan kampus, dan pidato akademik. Sesi review ini menyatukan semuanya dalam satu percakapan.",
+      "sections": [
+        {
+          "heading": "Dialog dan tanggapan",
+          "bodyMd": "Dalam **dialogue**, pembicara kedua memberi **reply** atau **response**. Jika dia memberi **suggestion**, jawabannya sering berupa saran itu."
+        },
+        {
+          "heading": "Idiom dan kiasan",
+          "bodyMd": "Sebuah **idiom** sering **figurative**, artinya maknanya tidak sama dengan kata-katanya. Jangan mengartikan idiom kata demi kata."
+        },
+        {
+          "heading": "Kampus dan penelitian",
+          "bodyMd": "Di **campus**, perhatikan **deadline**. Dalam **research**, **method** menjelaskan cara penelitian. Jika sebuah permintaan **unlikely**, kemungkinan besar jawabannya tidak."
+        }
+      ],
+      "formulas": [
+        { "label": "Tanggapan", "pattern": "reply / respond to + pertanyaan atau pesan" },
+        { "label": "Alternatif", "pattern": "an alternative + kata benda, jika ada pilihan lain" },
+        { "label": "Kemungkinan", "pattern": "it is unlikely that + subjek + kata kerja" },
+        { "label": "Metode", "pattern": "the method + explains / describes + langkah" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The second speaker gave a helpful reply.", "id": "Pembicara kedua memberi balasan yang membantu." },
+          { "en": "Break the ice is an idiom for starting a talk.", "id": "Break the ice adalah idiom untuk memulai percakapan." },
+          { "en": "The deadline for the campus form is Friday.", "id": "Batas waktu formulir kampus adalah hari Jumat." },
+          { "en": "The research method is clear.", "id": "Metode penelitian itu jelas." },
+          { "en": "An alternative plan can help.", "id": "Rencana alternatif bisa membantu." }
+        ],
+        "negative": [
+          { "en": "The alternative does not change the deadline.", "id": "Alternatif itu tidak mengubah batas waktunya." },
+          { "en": "The idiom is not meant to be read literally.", "id": "Idiom itu tidak dimaksudkan untuk dibaca secara harfiah." },
+          { "en": "The reply does not answer the question.", "id": "Balasan itu tidak menjawab pertanyaannya." },
+          { "en": "The research method is not described in the table.", "id": "Metode penelitian itu tidak dijelaskan dalam tabel." },
+          { "en": "It is not unlikely that the campus will close early.", "id": "Tidak mustahil kampus akan tutup lebih awal." }
+        ],
+        "question": [
+          { "en": "What is the second speaker's reply?", "id": "Apa balasan pembicara kedua?" },
+          { "en": "What does the idiom mean?", "id": "Apa arti idiom itu?" },
+          { "en": "When is the deadline?", "id": "Kapan batas waktunya?" },
+          { "en": "What is the research method?", "id": "Apa metode penelitiannya?" },
+          { "en": "Is an alternative available?", "id": "Apakah ada alternatif yang tersedia?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She reply quickly to the message.", "right": "She replies quickly to the message.", "whyId": "Subjek she memakai -s pada kata kerja present." },
+        { "wrong": "The idiom are figurative.", "right": "The idiom is figurative.", "whyId": "Subjek idiom tunggal, jadi memakai is." },
+        { "wrong": "It is unlikely to rains tomorrow.", "right": "It is unlikely to rain tomorrow.", "whyId": "Setelah to, pakai kata kerja dasar rain." },
+        { "wrong": "The method explain the steps.", "right": "The method explains the steps.", "whyId": "Subjek method tunggal, jadi memakai explains." },
+        { "wrong": "This is a alternative route.", "right": "This is an alternative route.", "whyId": "Alternative diawali vokal, jadi memakai an." },
+        { "wrong": "The deadlines is Friday.", "right": "The deadline is Friday.", "whyId": "Dalam kalimat ini hanya ada satu tenggat, jadi bentuk tunggal deadline dengan is." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL listening practice", "academic talk review English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Dua mahasiswa mengulang materi minggu 8",
+        "Penjelasan tentang idiom dan metode"
+      ]
+    },
+    "script": {
+      "title": "Mengulang minggu 8",
+      "lines": [
+        { "speaker": "Student A", "text": "Let's review week eight before the simulation. Can you give me an example of a dialogue where the second speaker makes a suggestion?" },
+        { "speaker": "Student B", "text": "Sure. When one student asks for a deadline change, the second speaker might reply with a suggestion to talk to the lecturer." },
+        { "speaker": "Student A", "text": "Good. What about an alternative? Is there a rule for using it?" },
+        { "speaker": "Student B", "text": "An alternative is a different option. If the library is closed, the alternative is the campus study room." },
+        { "speaker": "Student A", "text": "And what about the idiom? I always mix up literal and figurative meaning." },
+        { "speaker": "Student B", "text": "Break a leg is figurative. It means good luck, not a real injury." },
+        { "speaker": "Student A", "text": "Okay. A deadline change is usually unlikely, right?" },
+        { "speaker": "Student B", "text": "Yes. Deadlines are usually fixed. A staff member would probably refuse an unlikely request." },
+        { "speaker": "Student A", "text": "For the research part, what is the method in a study?" },
+        { "speaker": "Student B", "text": "The method is the step-by-step plan. The research team uses it to test a hypothesis." },
+        { "speaker": "Student A", "text": "Thanks. I will reply to the feedback email tonight." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada alternative, tekanan ada di suku kedua: al-TUR-nuh-tiv.",
+      "Pada research, tekanan ada di suku kedua: ri-SURCH.",
+      "Pada figurative, tekanan ada di suku pertama: FIG-yer-uh-tiv."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is an alternative, according to the second student?",
+        "options": [
+          { "id": "A", "text": "a different option" },
+          { "id": "B", "text": "a final exam" },
+          { "id": "C", "text": "a strict deadline" },
+          { "id": "D", "text": "a type of lecture" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mahasiswa kedua berkata 'An alternative is a different option', artinya alternatif adalah pilihan lain.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Ujian akhir tidak disebut sebagai alternatif." },
+          { "optionId": "C", "reasonId": "Batas waktu yang ketat tidak disebut sebagai alternatif." },
+          { "optionId": "D", "reasonId": "Jenis kuliah tidak disebut sebagai alternatif." }
+        ],
+        "evidence": "An alternative is a different option"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What is the figurative meaning of 'break a leg'?",
+        "options": [
+          { "id": "A", "text": "a real injury" },
+          { "id": "B", "text": "good luck" },
+          { "id": "C", "text": "a long walk" },
+          { "id": "D", "text": "a university rule" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Mahasiswa kedua berkata 'It means good luck, not a real injury', artinya maknanya semoga sukses.",
+        "stepByStep": [
+          "Cari break a leg di naskah mahasiswa kedua.",
+          "Makna kiasannya adalah good luck.",
+          "Cedera sungguhan, jalan jauh, dan aturan kampus bertentangan dengan makna kiasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Cedera sungguhan adalah makna harfiah, bukan kiasan." },
+          { "optionId": "C", "reasonId": "Jalan jauh tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Aturan kampus tidak disebut dalam penjelasan idiom." }
+        ],
+        "evidence": "It means good luck, not a real injury"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "According to the students, why would a staff member probably refuse a request?",
+        "options": [
+          { "id": "A", "text": "The request is unlikely, and deadlines are usually fixed." },
+          { "id": "B", "text": "The campus is closed." },
+          { "id": "C", "text": "The method is too long." },
+          { "id": "D", "text": "The idiom is too informal." }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Mahasiswa berkata 'Deadlines are usually fixed. A staff member would probably refuse an unlikely request', jadi permintaan yang tidak mungkin disetujui biasanya ditolak.",
+        "stepByStep": [
+          "Cari bagian tentang permintaan dan tenggat di naskah.",
+          "Mahasiswa menyebut tenggat biasanya tetap dan permintaan yang unlikely biasanya ditolak.",
+          "Kampus tutup, metode panjang, dan idiom yang informal tidak disebut sebagai alasan penolakan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Kampus tutup tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Panjangnya metode tidak disebut sebagai alasan penolakan." },
+          { "optionId": "D", "reasonId": "Idiom yang informal tidak disebut sebagai alasan penolakan." }
+        ],
+        "evidence": "A staff member would probably refuse an unlikely request"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is a method, according to the students?",
+        "options": [
+          { "id": "A", "text": "a random guess" },
+          { "id": "B", "text": "a step-by-step plan used to test a hypothesis" },
+          { "id": "C", "text": "a type of dialogue" },
+          { "id": "D", "text": "a campus building" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mahasiswa berkata 'The method is the step-by-step plan. The research team uses it to test a hypothesis', artinya metode adalah rencana bertahap untuk menguji hipotesis.",
+        "stepByStep": [
+          "Cari method di naskah mahasiswa kedua.",
+          "Mahasiswa menyebut method sebagai rencana bertahap untuk menguji hipotesis.",
+          "Tebakan acak, jenis dialog, dan gedung kampus tidak sesuai dengan penjelasan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tebakan acak bertentangan dengan rencana bertahap." },
+          { "optionId": "C", "reasonId": "Jenis dialog tidak disebut sebagai method." },
+          { "optionId": "D", "reasonId": "Gedung kampus tidak disebut sebagai method." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Method adalah cara yang teratur dan bertahap untuk mencapai tujuan penelitian.",
+          "examples": [
+            { "en": "The method describes each step of the test.", "id": "Metode itu menjelaskan setiap langkah tes." },
+            { "en": "A clear method helps other researchers repeat the study.", "id": "Metode yang jelas membantu peneliti lain mengulang studi itu." }
+          ]
+        },
+        "examTrap": "Pilihan A random guess terlihat cocok karena penelitian kadang memakai tebakan awal, tetapi method menjelaskan rencana bertahap.",
+        "evidence": "The method is the step-by-step plan"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the first student plan to do after the review?",
+        "options": [
+          { "id": "A", "text": "leave the campus early" },
+          { "id": "B", "text": "skip the research method" },
+          { "id": "C", "text": "change the idiom" },
+          { "id": "D", "text": "reply to the feedback email tonight" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Mahasiswa pertama berkata 'I will reply to the feedback email tonight', artinya ia akan membalas email umpan balik malam ini.",
+        "stepByStep": [
+          "Cari rencana mahasiswa pertama di akhir percakapan.",
+          "Mahasiswa pertama akan reply to the feedback email tonight.",
+          "Meninggalkan kampus lebih awal, melewatkan metode, dan mengubah idiom tidak disebut sebagai rencana."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Meninggalkan kampus lebih awal tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Melewatkan metode penelitian bertentangan dengan percakapan." },
+          { "optionId": "C", "reasonId": "Mengubah idiom tidak disebut sebagai rencana." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Reply to berarti membalas sesuatu, seperti email atau pesan.",
+          "examples": [
+            { "en": "I will reply to your email this afternoon.", "id": "Saya akan membalas emailmu sore ini." },
+            { "en": "Please reply to the message before noon.", "id": "Tolong balas pesan itu sebelum siang." }
+          ]
+        },
+        "examTrap": "Pilihan A leave the campus early terlihat cocok karena ada kata campus dalam percakapan, tetapi rencananya adalah membalas email.",
+        "evidence": "I will reply to the feedback email tonight"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The two speakers had a short ___ about the test.",
+        "options": [
+          { "id": "A", "text": "dialogue" },
+          { "id": "B", "text": "dormitory" },
+          { "id": "C", "text": "lecture" },
+          { "id": "D", "text": "deadline" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Dialogue adalah percakapan antara dua orang, dan cocok dengan kalimat ini.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Asrama tidak berarti percakapan." },
+          { "optionId": "C", "reasonId": "Kuliah tidak berarti percakapan singkat." },
+          { "optionId": "D", "reasonId": "Batas waktu tidak berarti percakapan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "We need an ___ plan in case the room is full.",
+        "options": [
+          { "id": "A", "text": "unlikely" },
+          { "id": "B", "text": "campus" },
+          { "id": "C", "text": "alternative" },
+          { "id": "D", "text": "research" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Alternative plan berarti rencana cadangan, dan cocok ketika ruangan penuh.",
+        "stepByStep": [
+          "Kalimat menyebut rencana cadangan jika ruangan penuh.",
+          "Kata yang berarti pilihan lain adalah alternative.",
+          "Unlikely, campus, dan research tidak berarti rencana cadangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Unlikely berarti kemungkinannya kecil, bukan rencana cadangan." },
+          { "optionId": "B", "reasonId": "Campus berarti kampus, tidak cocok sebagai rencana cadangan." },
+          { "optionId": "D", "reasonId": "Research berarti penelitian, tidak cocok sebagai rencana cadangan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "It is ___ that the bus will arrive early today.",
+        "options": [
+          { "id": "A", "text": "unlikely" },
+          { "id": "B", "text": "method" },
+          { "id": "C", "text": "reply" },
+          { "id": "D", "text": "figurative" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "It is unlikely that berarti kemungkinannya kecil, dan cocok dengan bus yang tiba lebih awal.",
+        "stepByStep": [
+          "Kalimat menyatakan kemungkinan bus tiba lebih awal.",
+          "Kata sifat yang menyatakan kemungkinan kecil adalah unlikely.",
+          "Method, reply, dan figurative tidak menyatakan kemungkinan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Method berarti metode, tidak menyatakan kemungkinan." },
+          { "optionId": "C", "reasonId": "Reply berarti balasan, tidak menyatakan kemungkinan." },
+          { "optionId": "D", "reasonId": "Figurative berarti kiasan, tidak menyatakan kemungkinan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The team described their ___ clearly so others could repeat the study.",
+        "options": [
+          { "id": "A", "text": "idiom" },
+          { "id": "B", "text": "method" },
+          { "id": "C", "text": "dialogue" },
+          { "id": "D", "text": "deadline" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Method adalah cara penelitian yang dijelaskan agar peneliti lain bisa mengulang studi.",
+        "stepByStep": [
+          "Kalimat menyebut penjelasan yang membuat orang lain bisa mengulang studi.",
+          "Cara penelitian yang dijelaskan disebut method.",
+          "Idiom, dialog, dan batas waktu tidak menjelaskan cara penelitian."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Idiom adalah ungkapan, bukan cara penelitian." },
+          { "optionId": "C", "reasonId": "Dialog adalah percakapan, bukan cara penelitian." },
+          { "optionId": "D", "reasonId": "Batas waktu tidak menjelaskan cara penelitian." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Method adalah cara yang teratur untuk melakukan penelitian.",
+          "examples": [
+            { "en": "The method was described in detail.", "id": "Metodenya dijelaskan secara rinci." },
+            { "en": "Her method is simple to repeat.", "id": "Metodenya mudah diulang." }
+          ]
+        },
+        "examTrap": "Pilihan D deadline terlihat cocok karena penelitian sering punya tenggat, tetapi kalimat ini meminta cara penelitian yang dijelaskan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Her ___ was figurative, not literal: the exam is a mountain.",
+        "options": [
+          { "id": "A", "text": "deadline" },
+          { "id": "B", "text": "campus" },
+          { "id": "C", "text": "research" },
+          { "id": "D", "text": "reply" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Reply berarti balasan, dan kalimat ini menyebut balasan yang bersifat kiasan.",
+        "stepByStep": [
+          "Kalimat menyebut balasan yang bersifat kiasan.",
+          "Balasan yang berisi kiasan disebut reply.",
+          "Deadline, campus, dan research tidak berarti balasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Deadline adalah batas waktu, bukan balasan." },
+          { "optionId": "B", "reasonId": "Campus adalah kampus, bukan balasan." },
+          { "optionId": "C", "reasonId": "Research adalah penelitian, bukan balasan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Figurative menjelaskan kata atau ungkapan yang bermakna kiasan, bukan makna harfiah.",
+          "examples": [
+            { "en": "The reply was figurative, not literal.", "id": "Balasan itu kiasan, bukan harfiah." },
+            { "en": "The poem uses figurative language.", "id": "Puisi itu memakai bahasa kiasan." }
+          ]
+        },
+        "examTrap": "Pilihan C research terlihat cocok karena pembicaranya sedang mempelajari sesuatu, tetapi kalimat ini meminta kata yang berarti balasan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin tahu batas waktu tugas itu.",
+        "hint": "Ingin tahu: want to know. Batas waktu: deadline. Tugas itu: the assignment.",
+        "acceptedAnswers": ["I want to know the deadline of the assignment.", "I want to know the assignment deadline."],
+        "modelAnswer": "I want to know the deadline of the assignment.",
+        "commonErrors": [{ "pattern": "I want know the deadline of assignment", "feedbackId": "Setelah want, pakai to know." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia menjawab dengan cepat dalam percakapan itu.",
+        "hint": "Menjawab: replied. Dengan cepat: quickly. Dalam percakapan: in the conversation.",
+        "acceptedAnswers": ["She replied quickly in the conversation.", "She responded quickly in the conversation."],
+        "modelAnswer": "She replied quickly in the conversation.",
+        "commonErrors": [{ "pattern": "She reply quickly in the conversation", "feedbackId": "Subjek she memakai bentuk lampau replied." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Perpustakaan kemungkinan besar tutup lebih awal.",
+        "hint": "Kemungkinan kecil: unlikely to. Tutup lebih awal: close early.",
+        "acceptedAnswers": ["The library is unlikely to close early.", "The library is not likely to close early."],
+        "modelAnswer": "The library is unlikely to close early.",
+        "commonErrors": [{ "pattern": "The library unlikely to close early", "feedbackId": "Gunakan is sebelum unlikely to." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Metode penelitian ini menjelaskan langkah-langkah yang jelas.",
+        "hint": "Metode penelitian: research method. Menjelaskan: explains. Langkah-langkah yang jelas: clear steps.",
+        "acceptedAnswers": ["This research method explains clear steps.", "This research method describes clear steps."],
+        "modelAnswer": "This research method explains clear steps.",
+        "commonErrors": [{ "pattern": "This research method explain clear steps", "feedbackId": "Subjek method tunggal memakai explains." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Idiom itu bersifat kiasan, bukan harfiah.",
+        "hint": "Idiom: the idiom. Bersifat kiasan: figurative. Bukan harfiah: not literal.",
+        "acceptedAnswers": ["The idiom is figurative, not literal.", "The idiom is figurative and not literal."],
+        "modelAnswer": "The idiom is figurative, not literal.",
+        "commonErrors": [{ "pattern": "The idiom are figurative, not literal", "feedbackId": "Subjek idiom tunggal memakai is." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which reply best fits the question 'Could you show me the research method?'",
+        "options": [
+          { "id": "A", "text": "The campus is large." },
+          { "id": "B", "text": "Of course, here is the method I used." },
+          { "id": "C", "text": "Yesterday was Monday." },
+          { "id": "D", "text": "The dialogue is unlikely." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Balasan yang tepat untuk permintaan menunjukkan metode adalah kesediaan dan menunjukkan metode yang dipakai.",
+        "stepByStep": [
+          "Pertanyaan meminta metode penelitian.",
+          "Balasan yang tepat menyatakan kesediaan dan menunjukkan metodenya.",
+          "Kampus yang besar, hari Senin, dan dialog yang tidak mungkin tidak menjawab permintaan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ukuran kampus tidak menjawab permintaan metode." },
+          { "optionId": "C", "reasonId": "Hari Senin tidak menjawab permintaan metode." },
+          { "optionId": "D", "reasonId": "Dialog yang tidak mungkin tidak menjawab permintaan metode." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Balasan atas permintaan menunjukkan biasanya diawali kesediaan, lalu memberi isi yang diminta.",
+          "examples": [
+            { "en": "Sure, here is the list you asked for.", "id": "Tentu, ini daftar yang kamu minta." },
+            { "en": "Of course, let me show you the steps.", "id": "Tentu, biar saya tunjukkan langkah-langkahnya." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti balasan karena menyebut dialog, tetapi kalimat itu tidak menunjukkan metode yang diminta."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which word means 'possible but not expected'?",
+        "options": [
+          { "id": "A", "text": "figurative" },
+          { "id": "B", "text": "impossible" },
+          { "id": "C", "text": "idiom" },
+          { "id": "D", "text": "unlikely" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Unlikely berarti kemungkinannya kecil, sehingga bisa terjadi tetapi tidak diharapkan.",
+        "stepByStep": [
+          "Kalimat menyebut sesuatu yang bisa terjadi tetapi tidak diharapkan.",
+          "Kata yang berarti kemungkinannya kecil adalah unlikely.",
+          "Figurative, impossible, dan idiom tidak sesuai dengan makna itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Figurative berarti kiasan, tidak berkaitan dengan kemungkinan." },
+          { "optionId": "B", "reasonId": "Impossible berarti tidak mungkin sama sekali, berbeda dengan possible but not expected." },
+          { "optionId": "C", "reasonId": "Idiom berarti ungkapan, tidak berkaitan dengan kemungkinan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Unlikely menyatakan kemungkinan yang kecil, bukan kemustahilan.",
+          "examples": [
+            { "en": "It is unlikely to rain today.", "id": "Kemungkinan kecil akan hujan hari ini." },
+            { "en": "A late reply is unlikely.", "id": "Balasan yang terlambat kemungkinannya kecil." }
+          ]
+        },
+        "examTrap": "Pilihan B impossible terlihat dekat dengan unlikely, tetapi impossible berarti tidak mungkin sama sekali."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The ___ for the application is next Monday.'",
+        "options": [
+          { "id": "A", "text": "deadline" },
+          { "id": "B", "text": "alternative" },
+          { "id": "C", "text": "dialogue" },
+          { "id": "D", "text": "method" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Deadline adalah batas waktu, dan kalimat ini menyebut tanggal terakhir pengajuan.",
+        "stepByStep": [
+          "Kalimat menyebut tanggal terakhir pengajuan.",
+          "Batas waktu pengajuan disebut deadline.",
+          "Alternative, dialogue, dan method tidak berarti batas waktu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Alternative berarti pilihan lain, bukan batas waktu." },
+          { "optionId": "C", "reasonId": "Dialogue berarti percakapan, bukan batas waktu." },
+          { "optionId": "D", "reasonId": "Method berarti cara, bukan batas waktu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Deadline adalah batas waktu terakhir untuk mengajukan atau menyelesaikan sesuatu.",
+          "examples": [
+            { "en": "The deadline for the grant is in May.", "id": "Batas waktu hibah itu di bulan Mei." },
+            { "en": "We missed the deadline by one day.", "id": "Kami melewatkan batas waktu satu hari." }
+          ]
+        },
+        "examTrap": "Pilihan B alternative terlihat masuk akal karena ada pengajuan, tetapi kalimat ini meminta tanggal terakhir, bukan pilihan lain."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence correctly uses 'figurative'?",
+        "options": [
+          { "id": "A", "text": "The figurative is a noun in this sentence." },
+          { "id": "B", "text": "She figurative the the idea." },
+          { "id": "C", "text": "His words were figurative, not literal." },
+          { "id": "D", "text": "Figurative the rain tomorrow." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Figurative adalah kata sifat, dan kalimat C memakainya setelah were dengan benar.",
+        "stepByStep": [
+          "Figurative adalah kata sifat.",
+          "Kata sifat setelah kata kerja to be: were figurative.",
+          "Pilihan A memakai figurative sebagai kata benda, pilihan B dan D memiliki urutan kata yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Figurative adalah kata sifat, bukan kata benda." },
+          { "optionId": "B", "reasonId": "Urutan kata dalam kalimat ini salah." },
+          { "optionId": "D", "reasonId": "Urutan kata dalam kalimat ini tidak membentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Figurative adalah kata sifat yang dipakai setelah kata kerja to be atau sebelum kata benda.",
+          "examples": [
+            { "en": "The poem is figurative.", "id": "Puisi itu bersifat kiasan." },
+            { "en": "She used a figurative expression.", "id": "Dia memakai ungkapan kiasan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat yang tepat karena memakai figurative di awal, tetapi figurative di situ tidak berfungsi sebagai kata benda."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The dialogues was short and clear." },
+          { "id": "B", "text": "The dialogue was short and clear." },
+          { "id": "C", "text": "The dialogue were short and clear." },
+          { "id": "D", "text": "The dialogues is short and clear." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek dialogue tunggal memakai was, dan kata sifat short and clear sudah tepat.",
+        "stepByStep": [
+          "Subjek dialogue tunggal, sehingga kata kerjanya was.",
+          "Short and clear adalah kata sifat yang benar setelah was.",
+          "Pilihan A memakai dialogues dengan was, pilihan C memakai were untuk tunggal, dan pilihan D memakai dialogues dengan is."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dialogues jamak tidak cocok dengan was untuk satu dialog." },
+          { "optionId": "C", "reasonId": "Were tidak cocok dengan subjek tunggal dialogue." },
+          { "optionId": "D", "reasonId": "Dialogues jamak tidak cocok dengan is untuk satu dialog." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai was atau is, dan kata sifat berada setelahnya.",
+          "examples": [
+            { "en": "The dialogue was clear.", "id": "Dialog itu jelas." },
+            { "en": "The speech was short.", "id": "Pidato itu singkat." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena dialogues adalah bentuk jamak yang benar, tetapi kalimat ini menyebut satu dialog."
+      }
+    ]
+  }
+}
