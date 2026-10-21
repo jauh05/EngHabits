@@ -1,0 +1,634 @@
+{
+  "day": 1,
+  "week": 1,
+  "month": 1,
+  "title": "Subjek & To Be (am/is/are)",
+  "topic": "Subjek dan to be present (am, is, are): positif, negatif, tanya",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memilih am, is, atau are sesuai subjek",
+    "Membuat kalimat positif, negatif, dan tanya dengan to be",
+    "Membaca teks pendek dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      {
+        "no": 1,
+        "en": "student",
+        "pronunciationId": "STU-dent (huruf d di akhir terdengar lembut, seperti 'dn')",
+        "pos": "Noun",
+        "meaningId": "mahasiswa, siswa",
+        "example": "I am a student.",
+        "exampleId": "Saya seorang mahasiswa."
+      },
+      {
+        "no": 2,
+        "en": "teacher",
+        "pronunciationId": "TEE-cher (ch seperti 'c' di 'cek')",
+        "pos": "Noun",
+        "meaningId": "guru",
+        "example": "She is my teacher.",
+        "exampleId": "Dia guru saya."
+      },
+      {
+        "no": 3,
+        "en": "classmate",
+        "pronunciationId": "KLAS-meit (ss terdengar seperti 's' biasa, akhiran -mate seperti 'meit')",
+        "pos": "Noun",
+        "meaningId": "teman sekelas",
+        "example": "Dimas is my classmate.",
+        "exampleId": "Dimas adalah teman sekelas saya."
+      },
+      {
+        "no": 4,
+        "en": "tired",
+        "pronunciationId": "TAI-erd (bunyi 'ai' panjang, lalu 'erd' yang samar)",
+        "pos": "Adj",
+        "meaningId": "lelah, capek",
+        "example": "I am tired after class.",
+        "exampleId": "Saya lelah setelah kelas."
+      },
+      {
+        "no": 5,
+        "en": "happy",
+        "pronunciationId": "HAP-ee (akhiran -y terdengar seperti 'i' pendek)",
+        "pos": "Adj",
+        "meaningId": "senang, bahagia",
+        "example": "They are happy today.",
+        "exampleId": "Mereka senang hari ini."
+      },
+      {
+        "no": 6,
+        "en": "kind",
+        "pronunciationId": "KAIND (bunyi 'ai' seperti di 'pakai', akhiran d terdengar sebagai 'nd')",
+        "pos": "Adj",
+        "meaningId": "baik hati, ramah",
+        "example": "Mrs. Sari is very kind.",
+        "exampleId": "Bu Sari sangat baik hati."
+      },
+      {
+        "no": 7,
+        "en": "city",
+        "pronunciationId": "SI-tee (huruf c seperti 's')",
+        "pos": "Noun",
+        "meaningId": "kota",
+        "example": "Yogyakarta is a city in Indonesia.",
+        "exampleId": "Yogyakarta adalah sebuah kota di Indonesia."
+      },
+      {
+        "no": 8,
+        "en": "friend",
+        "pronunciationId": "FREND (vokal 'e' pendek, seperti 'e' di 'enak')",
+        "pos": "Noun",
+        "meaningId": "teman, sahabat",
+        "example": "He is my best friend.",
+        "exampleId": "Dia sahabat terbaik saya."
+      },
+      {
+        "no": 9,
+        "en": "early",
+        "pronunciationId": "ER-li (r lidah digulung sedikit, akhiran -y terdengar 'i')",
+        "pos": "Adv",
+        "meaningId": "pagi-pagi, lebih awal",
+        "example": "I wake up early.",
+        "exampleId": "Saya bangun pagi-pagi."
+      },
+      {
+        "no": 10,
+        "en": "interesting",
+        "pronunciationId": "IN-tres-ting (jangan tambahkan vokal di antara 'r' dan 's')",
+        "pos": "Adj",
+        "meaningId": "menarik",
+        "example": "The class is interesting.",
+        "exampleId": "Kelasnya menarik."
+      }
+    ],
+    "tip": "Setiap kata baru, ucapkan dua kali sambil menunjuk benda atau orang yang dimaksud. Otak mengingat kata lebih kuat saat ia dikaitkan dengan gerakan dan gambaran nyata."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["am is are for beginners", "verb to be English basics"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang menjelaskan am, is, dan are untuk pemula, dengan contoh subjek dan kalimat sederhana.",
+      "watchFor": [
+        "Pasangan subjek dengan am, is, dan are",
+        "Contoh kalimat negatif dengan not",
+        "Cara membalik to be untuk membuat pertanyaan"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan to be seperti jembatan. Ia menghubungkan siapa atau apa (subjek) dengan keadaan, identitas, atau tempatnya. Kamu tidak perlu menghafal kata kerja baru di sini. Cukup pilih bentuk jembatan yang tepat untuk setiap subjek.",
+      "sections": [
+        {
+          "heading": "Tiga pasangan wajib",
+          "bodyMd": "Setiap subjek punya pasangan to be-nya sendiri. I selalu berpasangan dengan **am**. He, she, dan it berpasangan dengan **is**. You, we, dan they berpasangan dengan **are**. Hafalkan tiga kelompok ini dulu, karena semua kalimat di bab ini bertumpu pada aturan tersebut."
+        },
+        {
+          "heading": "Negatif dan tanya",
+          "bodyMd": "Untuk membuat kalimat negatif, tambahkan **not** tepat setelah am, is, atau are. Untuk membuat pertanyaan, pindahkan am, is, atau are ke depan subjek. Jadi kalimat positif 'You are ready' menjadi negatif 'You are not ready' dan pertanyaan 'Are you ready?'"
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "Subjek + am/is/are + keterangan" },
+        { "label": "Negatif", "pattern": "Subjek + am/is/are + not + keterangan" },
+        { "label": "Tanya", "pattern": "Am/Is/Are + subjek + keterangan?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I am a student.", "id": "Saya seorang mahasiswa." },
+          { "en": "She is my sister.", "id": "Dia kakak perempuan saya." },
+          { "en": "They are happy.", "id": "Mereka senang." },
+          { "en": "It is a big house.", "id": "Itu rumah yang besar." },
+          { "en": "We are in the class.", "id": "Kami ada di kelas." }
+        ],
+        "negative": [
+          { "en": "I am not tired.", "id": "Saya tidak lelah." },
+          { "en": "He is not a teacher.", "id": "Dia bukan guru." },
+          { "en": "They are not at home.", "id": "Mereka tidak di rumah." },
+          { "en": "It is not cold today.", "id": "Hari ini tidak dingin." },
+          { "en": "You are not late.", "id": "Kamu tidak terlambat." }
+        ],
+        "question": [
+          { "en": "Are you ready?", "id": "Apakah kamu siap?" },
+          { "en": "Is she your friend?", "id": "Apakah dia temanmu?" },
+          { "en": "Am I late?", "id": "Apakah saya terlambat?" },
+          { "en": "Is it Monday today?", "id": "Apakah hari ini hari Senin?" },
+          { "en": "Are they from Bali?", "id": "Apakah mereka berasal dari Bali?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I is a student.", "right": "I am a student.", "whyId": "Subjek I selalu berpasangan dengan am, bukan is." },
+        { "wrong": "She are my friend.", "right": "She is my friend.", "whyId": "She termasuk kelompok he, she, it, yang berpasangan dengan is." },
+        { "wrong": "They is happy.", "right": "They are happy.", "whyId": "They termasuk kelompok you, we, they, yang berpasangan dengan are." },
+        { "wrong": "He not is a teacher.", "right": "He is not a teacher.", "whyId": "Not diletakkan setelah to be, bukan sebelumnya." },
+        { "wrong": "Is you ready?", "right": "Are you ready?", "whyId": "Untuk you, bentuk tanya memakai are." },
+        { "wrong": "Am you from Bali?", "right": "Are you from Bali?", "whyId": "Am hanya dipakai dengan I dalam pertanyaan." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "My Friend and Me",
+    "text": "Hello, my name is Rina. I am twenty years old. I am from Yogyakarta, Indonesia. I am a student at a university in the city. My best friend is Dimas. He is my classmate. He is tall and funny. We are in the same English class on Monday, Wednesday, and Friday. Our teacher is Mrs. Sari. She is very kind. Today is Monday. The class starts at eight o'clock. I am a little tired because I wake up early, but I am happy. The class is interesting. My English is not perfect yet, but I am learning every day. Dimas is good at listening, and I am good at writing. We are a good team.",
+    "glossary": [
+      { "en": "university", "id": "universitas, perguruan tinggi" },
+      { "en": "classmate", "id": "teman sekelas" },
+      { "en": "funny", "id": "lucu, suka membuat orang tertawa" },
+      { "en": "tall", "id": "tinggi (badan)" },
+      { "en": "kind", "id": "baik hati, ramah" },
+      { "en": "perfect", "id": "sempurna" },
+      { "en": "team", "id": "tim, kelompok kerja" },
+      { "en": "interesting", "id": "menarik" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How old is Rina?",
+        "options": [
+          { "id": "A", "text": "twenty-two" },
+          { "id": "B", "text": "eighteen" },
+          { "id": "C", "text": "twenty" },
+          { "id": "D", "text": "twenty-four" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'I am twenty years old.' Jadi usianya dua puluh tahun.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dua puluh dua tidak disebut dalam teks. Hati-hati dengan angka yang mirip." },
+          { "optionId": "B", "reasonId": "Delapan belas tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Dua puluh empat tidak disebut dalam teks." }
+        ],
+        "evidence": "I am twenty years old."
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Where is Rina from?",
+        "options": [
+          { "id": "A", "text": "Yogyakarta" },
+          { "id": "B", "text": "Bandung" },
+          { "id": "C", "text": "Jakarta" },
+          { "id": "D", "text": "Surabaya" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Kalimat 'I am from Yogyakarta, Indonesia' menjawab pertanyaan asal Rina.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bandung tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Jakarta tidak disebut dalam teks. Kata Indonesia tidak sama dengan nama kota." },
+          { "optionId": "D", "reasonId": "Surabaya tidak disebut dalam teks." }
+        ],
+        "evidence": "I am from Yogyakarta, Indonesia."
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Who is Dimas?",
+        "options": [
+          { "id": "A", "text": "Rina's sister" },
+          { "id": "B", "text": "Rina's teacher" },
+          { "id": "C", "text": "Rina's brother" },
+          { "id": "D", "text": "Rina's classmate" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menulis 'He is my classmate.' Kata classmate berarti teman sekelas.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dimas laki-laki (he), sedangkan sister berarti saudara perempuan. Tidak ada tanda itu di teks." },
+          { "optionId": "B", "reasonId": "Guru Rina adalah Mrs. Sari, bukan Dimas." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut Dimas sebagai saudara. Ia disebut sahabat dan teman sekelas." }
+        ],
+        "evidence": "He is my classmate."
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why is Rina a little tired?",
+        "options": [
+          { "id": "A", "text": "She is sick." },
+          { "id": "B", "text": "She wakes up early." },
+          { "id": "C", "text": "She has too much homework." },
+          { "id": "D", "text": "The class is boring." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menyebut alasannya tepat setelah kata because: 'I wake up early'. Jadi penyebab lelahnya bangun pagi.",
+        "stepByStep": [
+          "Cari kata tired di teks. Kalimatnya: 'I am a little tired because I wake up early'.",
+          "Kata because menandai alasan. Yang sesudahnya adalah penyebabnya.",
+          "Cocokkan dengan pilihan: 'She wakes up early' sesuai dengan 'I wake up early'. Ingat, dalam pertanyaan ini 'she' merujuk pada Rina."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut Rina sakit. Jangan menambahkan informasi yang tidak ada." },
+          { "optionId": "C", "reasonId": "Pekerjaan rumah tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Teks justru bilang kelasnya menarik (interesting), jadi pilihan ini bertolak belakang." }
+        ],
+        "evidence": "I am a little tired because I wake up early, but I am happy."
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Which statement best describes Rina's English right now?",
+        "options": [
+          { "id": "A", "text": "She speaks English perfectly." },
+          { "id": "B", "text": "She does not study English at all." },
+          { "id": "C", "text": "She is better at listening than Dimas." },
+          { "id": "D", "text": "She is still improving, but she studies every day." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks bilang 'My English is not perfect yet, but I am learning every day.' Itu berarti kemampuannya masih berkembang dan ia belajar setiap hari.",
+        "stepByStep": [
+          "Pertanyaannya meminta gambaran keseluruhan, bukan satu fakta kecil.",
+          "Kalimat kunci: 'My English is not perfect yet, but I am learning every day.' Kata yet dan kata but menunjukkan bahwa ia masih berkembang.",
+          "Cek setiap pilihan terhadap teks. Pilihan yang benar harus cocok dengan kedua bagian kalimat itu sekaligus."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks bilang bahasa Inggrisnya belum sempurna (not perfect yet). Pilihan ini bertolak belakang." },
+          { "optionId": "B", "reasonId": "Teks bilang ia belajar setiap hari. Jadi tidak mungkin ia tidak belajar sama sekali." },
+          { "optionId": "C", "reasonId": "Teks hanya bilang Dimas pandai mendengarkan (good at listening). Tidak ada perbandingan langsung dengan Rina." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata yet dan but sering muncul dalam kalimat yang menunjukkan perkembangan. Perhatikan bagian kedua kalimat setelah but, karena biasanya di sanalah inti maksudnya.",
+          "examples": [
+            { "en": "I am not fast yet, but I am improving.", "id": "Saya belum cepat, tetapi saya sedang membaik." },
+            { "en": "He is not ready yet, but he is trying.", "id": "Dia belum siap, tetapi dia sedang berusaha." }
+          ]
+        },
+        "examTrap": "Jebakan utama adalah pilihan yang memakai kata 'perfect' atau 'better'. Kata itu mirip dengan teks, tetapi maknanya dibalik atau tidak disebut. Jangan memilih pilihan hanya karena kosakatanya mirip.",
+        "evidence": "My English is not perfect yet, but I am learning every day."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ a doctor.",
+        "options": [
+          { "id": "A", "text": "am" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "is" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "She termasuk kelompok he, she, it. Pasangan to be-nya adalah is.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Am hanya dipakai dengan I." },
+          { "optionId": "B", "reasonId": "Are dipakai dengan you, we, they." },
+          { "optionId": "C", "reasonId": "Be adalah bentuk dasar. Ia tidak dipakai langsung setelah subjek di kalimat ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "I ___ from Bali.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "am" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Subjek I selalu berpasangan dengan am.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is dipakai dengan he, she, it." },
+          { "optionId": "B", "reasonId": "Are dipakai dengan you, we, they." },
+          { "optionId": "D", "reasonId": "Be bukan bentuk yang tepat untuk subjek I di kalimat ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "My parents ___ at home now.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "am" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "My parents itu dua orang, jadi bentuk jamak. Pasangannya are.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is dipakai untuk satu orang atau benda tunggal, bukan dua orang." },
+          { "optionId": "C", "reasonId": "Am hanya dipakai dengan I." },
+          { "optionId": "D", "reasonId": "Be bukan bentuk yang tepat untuk kalimat ini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She not happy." },
+          { "id": "B", "text": "She is no happy." },
+          { "id": "C", "text": "She is not happy." },
+          { "id": "D", "text": "She not is happy." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Untuk negatif, letakkan not tepat setelah is: She is not happy.",
+        "stepByStep": [
+          "Subjek She berpasangan dengan is.",
+          "Untuk negatif, tambahkan not tepat setelah is.",
+          "Cek pilihan: hanya 'She is not happy' yang urutannya benar. Kata no tidak dipakai seperti not dalam kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tidak ada to be sama sekali. Kalimat ini kehilangan kata penghubungnya." },
+          { "optionId": "B", "reasonId": "No tidak dipakai dengan cara ini sebelum kata sifat. Gunakan not setelah to be." },
+          { "optionId": "D", "reasonId": "Not diletakkan sebelum is. Urutannya salah." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ you from Surabaya?",
+        "options": [
+          { "id": "A", "text": "Am" },
+          { "id": "B", "text": "Do" },
+          { "id": "C", "text": "Is" },
+          { "id": "D", "text": "Are" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Untuk pertanyaan dengan you, to be dipindah ke depan subjek dan bentuknya are: Are you from Surabaya?",
+        "stepByStep": [
+          "Ini pertanyaan, jadi to be pindah ke depan subjek you.",
+          "You berpasangan dengan are.",
+          "Do juga pembuka pertanyaan, tetapi do dipakai untuk kata kerja biasa, bukan to be."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Am hanya dipakai dengan I." },
+          { "optionId": "B", "reasonId": "Do dipakai untuk kata kerja biasa, bukan untuk to be." },
+          { "optionId": "C", "reasonId": "Is dipakai dengan he, she, it." }
+        ]
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya seorang guru.",
+        "hint": "Subjek I selalu berpasangan dengan am.",
+        "acceptedAnswers": ["I am a teacher.", "I'm a teacher."],
+        "modelAnswer": "I am a teacher.",
+        "commonErrors": [{ "pattern": "I is a teacher", "feedbackId": "Untuk I selalu pakai am, bukan is." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Mereka adalah teman-teman saya.",
+        "hint": "They berpasangan dengan are. Jangan lupa bentuk jamak untuk friends.",
+        "acceptedAnswers": ["They are my friends.", "They're my friends."],
+        "modelAnswer": "They are my friends.",
+        "commonErrors": [{ "pattern": "They is my friends", "feedbackId": "They termasuk kelompok you, we, they yang berpasangan dengan are." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami tidak lapar.",
+        "hint": "Untuk negatif, letakkan not setelah to be. Subjek we berpasangan dengan are.",
+        "acceptedAnswers": ["We are not hungry.", "We're not hungry.", "We aren't hungry."],
+        "modelAnswer": "We are not hungry.",
+        "commonErrors": [{ "pattern": "We not are hungry", "feedbackId": "Not diletakkan setelah are, bukan sebelumnya." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rina tidak di rumah sekarang.",
+        "hint": "Subjek Rina adalah orang ketiga tunggal, jadi pasangannya is. Ingat frasa at home.",
+        "acceptedAnswers": ["Rina is not at home now.", "Rina isn't at home now.", "Rina is not at home right now."],
+        "modelAnswer": "Rina is not at home now.",
+        "commonErrors": [{ "pattern": "Rina are not at home", "feedbackId": "Rina adalah satu orang, jadi pasangannya is." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dimas dan saya adalah teman sekelas, dan kami belajar bahasa Inggris setiap Senin.",
+        "hint": "Subjek gabungan 'Dimas dan saya' menjadi we dalam bahasa Inggris, dan bentuknya tetap Dimas and I. Perhatikan 'setiap Senin' sebagai every Monday.",
+        "acceptedAnswers": [
+          "Dimas and I are classmates, and we study English every Monday.",
+          "Dimas and I are classmates, and we learn English every Monday.",
+          "Dimas and I are classmates and we study English every Monday."
+        ],
+        "modelAnswer": "Dimas and I are classmates, and we study English every Monday.",
+        "commonErrors": [
+          { "pattern": "Me and Dimas are", "feedbackId": "Dalam subjek, gunakan I, bukan me." },
+          { "pattern": "every Monday missing", "feedbackId": "Jangan lupa frasa waktu setiap Senin, yaitu every Monday." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Neither my sister nor my brothers ___ at home.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "am" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "are" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Pada pola neither-nor, kata kerja mengikuti subjek yang paling dekat, yaitu my brothers (jamak). Jadi pilihannya are.",
+        "stepByStep": [
+          "Pola neither A nor B berarti 'tidak A dan tidak B'.",
+          "Subjek yang paling dekat dengan kata kerja adalah my brothers, bentuk jamak.",
+          "Jamak berpasangan dengan are. Was adalah bentuk lampau, tidak cocok dengan at home yang menunjukkan keadaan sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tunggal, sedangkan subjek terdekatnya jamak (my brothers)." },
+          { "optionId": "B", "reasonId": "Am hanya dipakai dengan I." },
+          { "optionId": "C", "reasonId": "Was adalah bentuk lampau, sedangkan kalimat ini menggambarkan keadaan sekarang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada pola neither-nor atau either-or, kata kerja mengikuti subjek yang paling dekat dengannya.",
+          "examples": [
+            { "en": "Neither Ali nor his friends are here.", "id": "Ali dan teman-temannya tidak ada di sini." },
+            { "en": "Neither my friends nor I am late.", "id": "Teman-teman saya dan saya tidak terlambat." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah subjek pertama (my sister) yang tunggal. Pilihan is terasa benar kalau kamu hanya melihat kata pertama, padahal aturannya mengikuti subjek terdekat."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct and means 'Rina is not from Bandung'?",
+        "options": [
+          { "id": "A", "text": "Rina is not from Bandung." },
+          { "id": "B", "text": "Rina not is from Bandung." },
+          { "id": "C", "text": "Rina is no from Bandung." },
+          { "id": "D", "text": "Rina does not is from Bandung." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Untuk negatif to be, letakkan not setelah is. Tidak ada do atau does dalam kalimat ini.",
+        "stepByStep": [
+          "Subjek Rina berpasangan dengan is.",
+          "Negatif dibuat dengan menambahkan not setelah is.",
+          "Pilihan D mencampur do/does dengan to be. Pada kalimat dengan to be, do tidak diperlukan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Not diletakkan sebelum is. Urutannya salah." },
+          { "optionId": "C", "reasonId": "No tidak dipakai untuk membuat negatif to be seperti ini." },
+          { "optionId": "D", "reasonId": "Does tidak dipakai bersama to be. Do dan does hanya untuk kata kerja biasa." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Negatif to be selalu: subjek + am/is/are + not. Jangan menambahkan do, does, atau did ke dalam kalimat yang sudah punya to be.",
+          "examples": [
+            { "en": "He is not tired.", "id": "Dia tidak lelah." },
+            { "en": "We are not late.", "id": "Kami tidak terlambat." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kalimat negatif yang lengkap, tetapi memakai does dan is bersamaan. Itu gabungan dua pola yang salah."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which is the correct short answer to 'Are you a student?'",
+        "options": [
+          { "id": "A", "text": "Yes, I is." },
+          { "id": "B", "text": "Yes, I am." },
+          { "id": "C", "text": "Yes, you are." },
+          { "id": "D", "text": "Yes, I'm are." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Jawaban singkat mengganti you dengan I. Karena I selalu berpasangan dengan am, jawabannya Yes, I am.",
+        "stepByStep": [
+          "Pertanyaannya memakai you, tetapi jawabannya berbicara tentang diri sendiri, jadi subjeknya I.",
+          "I berpasangan dengan am.",
+          "Pilihan C salah karena mengulang you. Pilihan A dan D menggabungkan bentuk yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak dipakai dengan I." },
+          { "optionId": "C", "reasonId": "Jawaban singkat harus merujuk pada diri sendiri (I), bukan you." },
+          { "optionId": "D", "reasonId": "I'm sudah berarti I am, jadi menambahkan are membuat kalimat rusak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam jawaban singkat, ubah subjek sesuai siapa yang menjawab, lalu pakai to be yang sesuai dengan subjek baru.",
+          "examples": [
+            { "en": "Are they students? Yes, they are.", "id": "Apakah mereka mahasiswa? Ya, mereka mahasiswa." },
+            { "en": "Is she tired? No, she is not.", "id": "Apakah dia lelah? Tidak, dia tidak lelah." }
+          ]
+        },
+        "examTrap": "Pilihan yang paling menggoda adalah C, karena memakai you yang sama dengan pertanyaan. Padahal jawaban yang benar berpindah ke I."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The number of students in my class ___ twenty.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "am" },
+          { "id": "C", "text": "is" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Subjek utamanya adalah the number, yang tunggal. Students hanya penjelas. Jadi pilihannya is.",
+        "stepByStep": [
+          "Cari subjek utama. Frasa the number of students dimulai dengan the number, yang tunggal.",
+          "Frasa of students hanya menerangkan, dan tidak menentukan bentuk kata kerja.",
+          "Subjek tunggal berpasangan dengan is. Were adalah bentuk lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are mengikuti students (jamak), padahal subjek utamanya the number (tunggal)." },
+          { "optionId": "B", "reasonId": "Am hanya dipakai dengan I." },
+          { "optionId": "D", "reasonId": "Were adalah bentuk lampau, sedangkan kalimat ini menggambarkan jumlah sekarang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada pola the number of, subjek utamanya adalah the number (tunggal). Pola a number of mengikuti aturan jamak.",
+          "examples": [
+            { "en": "The number of cars is high.", "id": "Jumlah mobil itu tinggi." },
+            { "en": "A number of students are absent.", "id": "Sejumlah mahasiswa tidak hadir." }
+          ]
+        },
+        "examTrap": "Kata students yang jamak sering membuat pembelajar memilih are. Ingat, subjeknya adalah the number, bukan students."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence uses the article correctly?",
+        "options": [
+          { "id": "A", "text": "She is a English teacher." },
+          { "id": "B", "text": "She is an English teacher." },
+          { "id": "C", "text": "She is an England teacher." },
+          { "id": "D", "text": "She is a an English teacher." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pilihan artikel bergantung pada bunyi awal kata, bukan huruf awalnya. English dimulai dengan bunyi vokal /ɪ/, jadi pakai an.",
+        "stepByStep": [
+          "Artikel a dipakai sebelum bunyi konsonan, dan an sebelum bunyi vokal.",
+          "Kata English dimulai dengan bunyi vokal, meskipun hurufnya E yang memang vokal. Jadi pakai an.",
+          "Pilihan C salah karena England adalah nama negara, bukan kata sifat untuk teacher. Pilihan D memakai dua artikel sekaligus."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dengan bunyi vokal di awal English, artikel yang benar adalah an, bukan a." },
+          { "optionId": "C", "reasonId": "England adalah nama negara, sedangkan kalimat ini membutuhkan kata sifat English (bahasa Inggris)." },
+          { "optionId": "D", "reasonId": "Tidak boleh ada dua artikel berurutan di depan satu kata benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Artikel a dan an ditentukan oleh bunyi awal kata berikutnya. Bunyi vokal memakai an, bunyi konsonan memakai a.",
+          "examples": [
+            { "en": "She is an honest person.", "id": "Dia orang yang jujur." },
+            { "en": "He is a university student.", "id": "Dia mahasiswa universitas." }
+          ]
+        },
+        "examTrap": "Jebakan utamanya adalah huruf. Kata university dimulai dengan huruf vokal u, tetapi bunyinya /juː/ (konsonan), jadi pakai a university. Ingat selalu bunyinya, bukan hurufnya."
+      }
+    ]
+  }
+}

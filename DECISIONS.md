@@ -2,6 +2,28 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 1 (fondasi aplikasi)
+
+1. **Skema dengan zod.** `content/schema.ts` berisi zod schema, tipe TypeScript (`z.infer`), dan konstanta kurikulum (rentang minggu, target kesulitan). Validator memakai schema ini ditambah aturan tambahan. Tidak ada file JSON Schema terpisah karena zod sudah menjadi sumber tunggal.
+2. **Hari 1 adalah contoh sementara.** `content/days/day-01.json` ditulis untuk menguji sistem dan lolos validator. Kualitasnya belum diaudit. Fase 3 menulis ulang Hari 1 sebagai standar rujukan.
+3. **Aturan validator yang saya pilih** (bisa diubah di `scripts/content-rules.ts`):
+   - Jawaban benar tidak boleh sama semua, dan satu huruf tidak boleh lebih dari 60% dari soal pilihan ganda.
+   - Teks bacaan: Bulan 1 90-165 kata, Bulan 2 225-385, Bulan 3 minimal 360 (toleransi ±10%).
+   - Komposisi 15 soal inti dibandingkan dengan target minggu, toleransi ±2 per tingkat.
+   - Kosakata tidak boleh berulang dari 10 hari sebelumnya (kecuali hari review).
+   - Kata seperti TODO, TBD, lorem, titik tiga, dan dst dianggap placeholder.
+4. **Kunci tidak tampil sebelum kirim, tetapi bukan rahasia.** Tampilan memakai `DayView` yang sudah dibersihkan dari kunci, penjelasan, dan contoh jawaban. Namun data hari lengkap tetap ada di chunk JS yang dimuat lazy, jadi siapa pun bisa membacanya lewat devtools. Ini penghalang untuk pengguna biasa, bukan keamanan. Aplikasi ini tidak punya server, jadi kunci tidak bisa benar-benar disembunyikan.
+5. **Penilaian lokal hanya untuk pilihan ganda dan terjemahan.** Terjemahan dicocokkan dengan `acceptedAnswers` setelah normalisasi (huruf kecil, tanpa apostrof dan tanda baca). Tugas IELTS (Bulan 2-3) belum dinilai. Jawaban tulisnya akan dikoreksi lewat koreksi AI atau tombol salin di Fase 11.
+6. **Skor resmi hari = percobaan pertama.** Skor inti dihitung dari 15 soal (blok 3, Bagian A, Bagian B). Hard Challenge adalah bonus terpisah. Percobaan ulang tidak mengubah skor pertama.
+7. **Penguncian hanya di Fase 1.** Hari N+1 terbuka setelah hari N dikirim. Mastery gate dan Sesi Perbaikan otomatis dibuat di Fase 11.
+8. **Layout sesi tanpa navigasi bawah.** Rute `/hari/:n` berada di luar `AppShell`, sehingga navigasi bawah tidak tampil saat mengerjakan sesi.
+9. **Router: react-router 7** dengan `basename` dari `import.meta.env.BASE_URL`, supaya nanti bisa dipasang di GitHub Pages (`/EngHabits/`).
+10. **Pengaturan di IndexedDB.** Tema, kurangi animasi, aksen, dan kecepatan TTS disimpan di sana. Kurangi animasi menyalakan `MotionConfig reducedMotion="always"` dan atribut `data-reduce-motion`.
+11. **Timer panduan.** Timer tidak mengunci apa pun. Cincin berubah warna di lima menit terakhir.
+12. **Belum dibuat (Fase 11):** perekam suara (MediaRecorder), halaman Statistik (saat ini hanya placeholder), ekspor dan impor, koreksi AI, pengingat jam 06.00, dan ikon PWA.
+13. **Ukuran bundel ±580 KB (±180 KB gzip).** Peringatan dari Vite muncul. Pemisahan chunk dan pengecilan dijadwalkan di Fase 12.
+14. **Lima pertanyaan di DESIGN_SPEC** dijawab dengan rekomendasi default karena persetujuan diberikan tanpa jawaban terpisah: kartu rencana satu keluarga ungu, ilustrasi SVG gradien sederhana, maskot di Fase 11, Plus Jakarta Sans dan lucide-react, navigasi bawah empat item dengan Kesalahan di Beranda.
+
 ## 2026-10-21: Fase 0b (desain UI/UX)
 
 1. **Tombol utama memakai `primary-700` (terang) dan `primary-500` (gelap).** Putih di `primary-500` hanya 3.9:1, jadi gagal AA. Warna `primary-500`, `success`, `error`, dan `streak` tidak dipakai sebagai teks di atas latar terang. Teks di atasnya memakai token `on-accent`. Rasio lengkap ada di `DESIGN_SPEC.md` bagian 3.

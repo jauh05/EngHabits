@@ -1,0 +1,105 @@
+import { motion, useAnimate } from 'motion/react';
+import { Check, Lock } from 'lucide-react';
+import { useNavigate } from 'react-router';
+import { WEEK_RANGES, monthOfWeek } from '../../content/schema';
+import { useToast } from '../components/ui/Toast';
+import { contentDays } from '../lib/content';
+import { dayStatus, type DayStatus } from '../lib/progression';
+import { useProgressData } from '../lib/useProgressData';
+import { easeOut } from '../lib/motion';
+
+const STATUS_CLASS: Record<DayStatus, string> = {
+  completed: 'bg-success text-on-accent border-success',
+  available: 'bg-surface text-primary-700 border-primary-500 shadow-card',
+  locked: 'bg-surface text-muted border-line',
+  nocontent: 'bg-surface text-muted border-dashed border-line',
+};
+
+function DayChip({ day, status, onPick }: { day: number; status: DayStatus; onPick: () => void }) {
+  const [scope, animate] = useAnimate();
+
+  const handleTap = () => {
+    if (status === 'locked') {
+      void animate(scope.current, { rotate: [0, -8, 8, -5, 5, 0] }, { duration: 0.4, ease: easeOut });
+    }
+    onPick();
+  };
+
+  const label = {
+    completed: 'selesai',
+    available: 'tersedia',
+    locked: 'terkunci',
+    nocontent: 'belum tersedia',
+  }[status];
+
+  return (
+    <button
+      ref={scope}
+      type="button"
+      onClick={handleTap}
+      aria-label={`Hari ${day}, ${label}`}
+      className={`flex min-h-11 flex-col items-center justify-center rounded-2xl border text-sm font-bold outline-none transition-colors focus-visible:outline-2 focus-visible:outline-primary-500 ${STATUS_CLASS[status]}`}
+    >
+      {status === 'completed' ? (
+        <Check size={18} strokeWidth={2.5} aria-hidden="true" />
+      ) : status === 'locked' ? (
+        <Lock size={16} aria-hidden="true" />
+      ) : (
+        <span>{day}</span>
+      )}
+      <span className="sr-only">{label}</span>
+    </button>
+  );
+}
+
+export function MapPage() {
+  const navigate = useNavigate();
+  const { show } = useToast();
+  const data = useProgressData();
+  const content = new Set(contentDays());
+
+  const handlePick = (day: number, status: DayStatus) => {
+    if (status === 'available' || status === 'completed') {
+      navigate(`/hari/${day}`);
+    } else if (status === 'locked') {
+      show(`Selesaikan Hari ke-${day - 1} dulu.`);
+    } else {
+      show(`Konten Hari ke-${day} belum tersedia.`);
+    }
+  };
+
+  return (
+    <div className="flex flex-col gap-6">
+      <header>
+        <h1 className="text-3xl font-extrabold text-ink">Peta 90 hari</h1>
+        <p className="text-muted">Setiap hari terbuka setelah hari sebelumnya selesai.</p>
+      </header>
+
+      {WEEK_RANGES.map(([week, from, to], weekIndex) => (
+        <motion.section
+          key={week}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.35, ease: easeOut, delay: weekIndex * 0.05 }}
+          aria-labelledby={`week-${week}`}
+          className="flex flex-col gap-3 rounded-card border border-line bg-surface p-4 shadow-card"
+        >
+          <div className="flex items-baseline justify-between">
+            <h2 id={`week-${week}`} className="text-lg font-bold text-ink">
+              Minggu {week}
+            </h2>
+            <span className="text-sm text-muted">
+              Bulan {monthOfWeek(week)} · Hari {from}-{to}
+            </span>
+          </div>
+          <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
+            {Array.from({ length: to - from + 1 }, (_, index) => from + index).map((day) => {
+              const status = dayStatus(day, data.completed, content);
+              return <DayChip key={day} day={day} status={status} onPick={() => handlePick(day, status)} />;
+            })}
+          </div>
+        </motion.section>
+      ))}
+    </div>
+  );
+}

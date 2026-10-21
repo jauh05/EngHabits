@@ -9,10 +9,12 @@ export type ProgressRingProps = {
   stroke?: number;
   children?: ReactNode;
   ariaLabel?: string;
+  /** warning: indikator berubah warna (misalnya 5 menit terakhir). */
+  tone?: 'default' | 'warning';
 };
 
 /** Cincin progres yang terisi animatif. Untuk progres 90 hari dan progres sesi. */
-export function ProgressRing({ value, size = 120, stroke = 10, children, ariaLabel }: ProgressRingProps) {
+export function ProgressRing({ value, size = 120, stroke = 10, children, ariaLabel, tone = 'default' }: ProgressRingProps) {
   const clamped = Math.min(1, Math.max(0, value));
   const radius = (size - stroke) / 2;
   const center = size / 2;
@@ -33,7 +35,7 @@ export function ProgressRing({ value, size = 120, stroke = 10, children, ariaLab
           fill="none"
           strokeWidth={stroke}
           strokeLinecap="round"
-          className="stroke-primary-500"
+          className={tone === 'warning' ? 'stroke-error' : 'stroke-primary-500'}
           initial={{ pathLength: 0 }}
           animate={{ pathLength: clamped }}
           transition={{ duration: durations.slow * 3, ease: easeOut }}

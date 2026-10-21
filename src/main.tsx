@@ -1,17 +1,17 @@
 import { StrictMode, type ReactNode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { MotionConfig } from 'motion/react';
 import '@fontsource-variable/plus-jakarta-sans';
 import './styles/index.css';
 import { App } from './App';
 import { ToastProvider } from './components/ui/Toast';
+import { SettingsProvider } from './lib/settings';
 
 function Providers({ children }: { children: ReactNode }) {
   return (
     <StrictMode>
-      <MotionConfig reducedMotion="user">
+      <SettingsProvider>
         <ToastProvider>{children}</ToastProvider>
-      </MotionConfig>
+      </SettingsProvider>
     </StrictMode>
   );
 }

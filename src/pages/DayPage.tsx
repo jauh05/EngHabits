@@ -1,0 +1,247 @@
+import { AnimatePresence, motion } from 'motion/react';
+import { ArrowLeft, ChevronRight, ChevronLeft } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router';
+import type { Day } from '../../content/schema';
+import { DrillBlock } from '../components/session/DrillBlock';
+import { EvaluationView } from '../components/session/EvaluationView';
+import { LessonBlock } from '../components/session/LessonBlock';
+import { PracticeBlock } from '../components/session/PracticeBlock';
+import { VocabBlock } from '../components/session/VocabBlock';
+import { answeredCount } from '../components/session/QuestionList';
+import { BlockTimer } from '../components/session/BlockTimer';
+import { Button } from '../components/ui/Button';
+import { Card } from '../components/ui/Card';
+import { Modal } from '../components/ui/Modal';
+import { Stepper } from '../components/ui/Stepper';
+import { useToast } from '../components/ui/Toast';
+import { loadDay, toDayView, type DayView, contentDays } from '../lib/content';
+import { localISO } from '../lib/dates';
+import { recordAttempt, type Attempt, type DayProgress } from '../lib/db';
+import { gradeDay, type Answers, type DayResult } from '../lib/grading';
+import { dayStatus } from '../lib/progression';
+import { easeOut } from '../lib/motion';
+import { useProgressData } from '../lib/useProgressData';
+
+const BLOCKS = [
+  { id: 'vocab', label: 'Kosakata' },
+  { id: 'lesson', label: 'Materi' },
+  { id: 'practice', label: 'Latihan' },
+  { id: 'drill', label: 'Soal' },
+];
+
+const BLOCK_MINUTES = [25, 35, 30, 30];
+
+type Evaluation = {
+  day: Day;
+  result: DayResult;
+  attempt: Attempt;
+  progress: DayProgress;
+  isFirst: boolean;
+};
+
+export function DayPage() {
+  const { n } = useParams();
+  const day = Number(n);
+  // Komponen dikunci per hari, jadi state sesi selalu bersih saat pindah hari.
+  return <DaySession key={day} day={day} />;
+}
+
+function DaySession({ day }: { day: number }) {
+  const data = useProgressData();
+  const { show } = useToast();
+  const [view, setView] = useState<DayView>();
+  const [missing, setMissing] = useState(false);
+  const [block, setBlock] = useState(0);
+  const [answers, setAnswers] = useState<Answers>({});
+  const [evaluation, setEvaluation] = useState<Evaluation>();
+  const [confirmOpen, setConfirmOpen] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    loadDay(day).then((loaded) => {
+      if (!active) return;
+      if (loaded) setView(toDayView(loaded));
+      else setMissing(true);
+    });
+    return () => {
+      active = false;
+    };
+  }, [day]);
+
+  if (!data.loaded || (!view && !missing)) {
+    return <p className="py-16 text-center text-muted">Memuat sesi...</p>;
+  }
+
+  const status = dayStatus(day, data.completed, data.content);
+  const contentReady = contentDays().includes(day);
+  const previousDone = day === 1 || data.completed.has(day - 1);
+
+  if (!contentReady || missing || !view) {
+    return (
+      <Message title={`Hari ke-${day} belum tersedia`} body="Konten hari ini belum dibuat. Kembali lagi nanti." />
+    );
+  }
+
+  if (!previousDone && status === 'locked') {
+    return (
+      <Message
+        title="Hari ini masih terkunci"
+        body={`Selesaikan Hari ke-${day - 1} dan kirim jawabannya dulu. Setelah itu hari ini terbuka.`}
+      />
+    );
+  }
+
+  const partAIds = view.block4.partA.map((question) => question.id);
+  const partBIds = view.block4.partB.map((task) => task.id);
+  const hardIds = view.block4.hardChallenge.map((question) => question.id);
+  const block3Ids = view.block3.questions.map((question) => question.id);
+  const allIds = [...block3Ids, ...partAIds, ...partBIds, ...hardIds];
+  const unanswered = allIds.length - answeredCount(allIds, answers);
+
+  const doSubmit = async () => {
+    setSubmitting(true);
+    setConfirmOpen(false);
+    try {
+      const full = await loadDay(day);
+      if (!full) throw new Error('missing');
+      const result = gradeDay(full, answers);
+      const saved = await recordAttempt(day, answers, result, localISO());
+      setEvaluation({ day: full, result, attempt: saved.attempt, progress: saved.progress, isFirst: saved.isFirst });
+      await data.refresh();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } catch {
+      show('Jawaban gagal disimpan. Coba kirim lagi.', 'error');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleSubmit = () => {
+    if (unanswered > 0) setConfirmOpen(true);
+    else void doSubmit();
+  };
+
+  if (evaluation) {
+    const nextDay = day + 1;
+    return (
+      <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 pb-10 pt-5 sm:max-w-2xl lg:max-w-4xl">
+        <EvaluationView
+          day={evaluation.day}
+          result={evaluation.result}
+          attempt={evaluation.attempt}
+          progress={evaluation.progress}
+          isFirst={evaluation.isFirst}
+          nextDay={contentDays().includes(nextDay) ? nextDay : undefined}
+          onRetake={() => {
+            setEvaluation(undefined);
+            setAnswers({});
+            setBlock(0);
+          }}
+        />
+      </div>
+    );
+  }
+
+  const completedBefore = data.completed.has(day);
+  const previousScore = data.progress.find((item) => item.day === day);
+  const setAnswer = (id: string, value: string) => setAnswers((current) => ({ ...current, [id]: value }));
+
+  const content = [
+    <VocabBlock key="vocab" block={view.block1} />,
+    <LessonBlock key="lesson" day={day} block={view.block2} />,
+    <PracticeBlock
+      key="practice"
+      block={view.block3}
+      answers={answers}
+      onAnswer={(id, optionId) => setAnswer(id, optionId)}
+    />,
+    <DrillBlock
+      key="drill"
+      block={view.block4}
+      answers={answers}
+      onAnswer={setAnswer}
+      onSubmit={handleSubmit}
+      submitting={submitting}
+    />,
+  ][block];
+
+  return (
+    <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 pb-10 pt-5 sm:max-w-2xl lg:max-w-4xl">
+      <header className="flex flex-col gap-3">
+        <Link
+          to="/"
+          className="inline-flex min-h-11 w-fit items-center gap-1 rounded-full text-sm font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
+        >
+          <ArrowLeft size={18} aria-hidden="true" />
+          Beranda
+        </Link>
+        <div>
+          <p className="text-sm font-bold text-primary-700">
+            Hari {day} · Minggu {view.week} · {view.skillFocus === 'reading' ? 'Membaca' : 'Mendengarkan'}
+          </p>
+          <h1 className="text-2xl font-extrabold text-ink">{view.title}</h1>
+        </div>
+        <Stepper steps={BLOCKS} current={block} onSelect={setBlock} label="Blok sesi harian" />
+      </header>
+
+      {completedBefore && previousScore && (
+        <Card tone="lavender" className="flex items-center gap-3 text-sm text-ink">
+          Hari ini sudah selesai dengan skor inti {previousScore.firstCorePercent}%. Mengulang tidak mengubah skor pertama.
+        </Card>
+      )}
+
+      <BlockTimer key={block} minutes={BLOCK_MINUTES[block]} />
+
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={block}
+          initial={{ opacity: 0, x: 24 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -24 }}
+          transition={{ duration: 0.3, ease: easeOut }}
+        >
+          {content}
+        </motion.div>
+      </AnimatePresence>
+
+      {block < BLOCKS.length - 1 && (
+        <div className="flex items-center justify-between gap-3">
+          <Button variant="secondary" disabled={block === 0} onClick={() => setBlock((value) => value - 1)}>
+            <ChevronLeft size={18} aria-hidden="true" />
+            Sebelumnya
+          </Button>
+          <Button onClick={() => setBlock((value) => value + 1)}>
+            Berikutnya
+            <ChevronRight size={18} aria-hidden="true" />
+          </Button>
+        </div>
+      )}
+
+      <Modal open={confirmOpen} onClose={() => setConfirmOpen(false)} title="Kirim sekarang?">
+        <p className="mb-5 text-muted">
+          Masih ada {unanswered} soal yang belum dijawab. Soal kosong dihitung salah. Kamu tetap bisa membaca penjelasannya.
+        </p>
+        <div className="flex justify-end gap-2">
+          <Button variant="secondary" onClick={() => setConfirmOpen(false)}>
+            Kembali mengerjakan
+          </Button>
+          <Button onClick={() => void doSubmit()}>Kirim saja</Button>
+        </div>
+      </Modal>
+    </div>
+  );
+}
+
+function Message({ title, body }: { title: string; body: string }) {
+  return (
+    <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col items-center justify-center gap-4 px-4 text-center">
+      <h1 className="text-2xl font-extrabold text-ink">{title}</h1>
+      <p className="text-muted">{body}</p>
+      <Link to="/" className="inline-flex min-h-11 items-center rounded-full bg-btn-bg px-6 font-semibold text-btn-fg">
+        Ke beranda
+      </Link>
+    </div>
+  );
+}

@@ -1,7 +1,98 @@
 # CONTENT STATUS
 
-Dibuat otomatis oleh `npm run content:status` (belum tersedia, dibuat di Fase 1).
+Dibuat oleh `npm run content:status`. Jangan diedit manual.
 
-| Hari | Status |
-|---|---|
-| 1-90 | Belum ada |
+| Hari | Minggu | Status |
+| --- | --- | --- |
+| 1 | 1 | Lolos validator |
+| 2 | 1 | Belum ada |
+| 3 | 1 | Belum ada |
+| 4 | 1 | Belum ada |
+| 5 | 1 | Belum ada |
+| 6 | 1 | Belum ada |
+| 7 | 1 | Belum ada |
+| 8 | 2 | Belum ada |
+| 9 | 2 | Belum ada |
+| 10 | 2 | Belum ada |
+| 11 | 2 | Belum ada |
+| 12 | 2 | Belum ada |
+| 13 | 2 | Belum ada |
+| 14 | 2 | Belum ada |
+| 15 | 3 | Belum ada |
+| 16 | 3 | Belum ada |
+| 17 | 3 | Belum ada |
+| 18 | 3 | Belum ada |
+| 19 | 3 | Belum ada |
+| 20 | 3 | Belum ada |
+| 21 | 3 | Belum ada |
+| 22 | 4 | Belum ada |
+| 23 | 4 | Belum ada |
+| 24 | 4 | Belum ada |
+| 25 | 4 | Belum ada |
+| 26 | 4 | Belum ada |
+| 27 | 4 | Belum ada |
+| 28 | 4 | Belum ada |
+| 29 | 4 | Belum ada |
+| 30 | 4 | Belum ada |
+| 31 | 5 | Belum ada |
+| 32 | 5 | Belum ada |
+| 33 | 5 | Belum ada |
+| 34 | 5 | Belum ada |
+| 35 | 5 | Belum ada |
+| 36 | 5 | Belum ada |
+| 37 | 5 | Belum ada |
+| 38 | 6 | Belum ada |
+| 39 | 6 | Belum ada |
+| 40 | 6 | Belum ada |
+| 41 | 6 | Belum ada |
+| 42 | 6 | Belum ada |
+| 43 | 6 | Belum ada |
+| 44 | 6 | Belum ada |
+| 45 | 7 | Belum ada |
+| 46 | 7 | Belum ada |
+| 47 | 7 | Belum ada |
+| 48 | 7 | Belum ada |
+| 49 | 7 | Belum ada |
+| 50 | 7 | Belum ada |
+| 51 | 7 | Belum ada |
+| 52 | 8 | Belum ada |
+| 53 | 8 | Belum ada |
+| 54 | 8 | Belum ada |
+| 55 | 8 | Belum ada |
+| 56 | 8 | Belum ada |
+| 57 | 8 | Belum ada |
+| 58 | 8 | Belum ada |
+| 59 | 8 | Belum ada |
+| 60 | 8 | Belum ada |
+| 61 | 9 | Belum ada |
+| 62 | 9 | Belum ada |
+| 63 | 9 | Belum ada |
+| 64 | 9 | Belum ada |
+| 65 | 9 | Belum ada |
+| 66 | 9 | Belum ada |
+| 67 | 9 | Belum ada |
+| 68 | 10 | Belum ada |
+| 69 | 10 | Belum ada |
+| 70 | 10 | Belum ada |
+| 71 | 10 | Belum ada |
+| 72 | 10 | Belum ada |
+| 73 | 10 | Belum ada |
+| 74 | 10 | Belum ada |
+| 75 | 11 | Belum ada |
+| 76 | 11 | Belum ada |
+| 77 | 11 | Belum ada |
+| 78 | 11 | Belum ada |
+| 79 | 11 | Belum ada |
+| 80 | 11 | Belum ada |
+| 81 | 11 | Belum ada |
+| 82 | 12 | Belum ada |
+| 83 | 12 | Belum ada |
+| 84 | 12 | Belum ada |
+| 85 | 12 | Belum ada |
+| 86 | 12 | Belum ada |
+| 87 | 12 | Belum ada |
+| 88 | 12 | Belum ada |
+| 89 | 12 | Belum ada |
+| 90 | 12 | Belum ada |
+
+Ringkasan: 1 lolos, 0 gagal, 89 belum ada, dari 90 hari.
