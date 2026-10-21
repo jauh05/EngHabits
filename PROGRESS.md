@@ -7,7 +7,7 @@ Terakhir diperbarui: 2026-10-21
 | Fase | Status |
 |---|---|
 | 0. Persiapan (proyek, git, dependensi, struktur) | Selesai |
-| 0b. Desain UI/UX (`DESIGN_SPEC.md`, tokens, komponen, `/design`) | Belum mulai (menunggu "lanjut") |
+| 0b. Desain UI/UX (`DESIGN_SPEC.md`, tokens, komponen, `/design`) | Selesai, menunggu persetujuan `DESIGN_SPEC.md` dan katalog `/design` |
 | 1. Fondasi aplikasi, skema, validator | Belum mulai |
 | 2. Kurikulum rinci 90 hari (`content/curriculum.json`) | Belum mulai |
 | 3-10. Konten hari 1-90 | Belum mulai |
@@ -25,4 +25,5 @@ Lihat [DECISIONS.md](DECISIONS.md).
 
 ## Sesi berikutnya
 
-- Menunggu persetujuan checkpoint Fase 0, lalu lanjut ke Fase 0b (baca `design-reference/`, tulis `DESIGN_SPEC.md`).
+- Menunggu persetujuan `DESIGN_SPEC.md` (5 pertanyaan di bagian 11) dan katalog `http://localhost:5173/design` (`npm run dev`).
+- Setelah disetujui: Fase 1 (fondasi aplikasi, skema, validator, IndexedDB, router, dashboard, stepper, mesin soal).

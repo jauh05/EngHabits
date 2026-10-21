@@ -1,19 +1,31 @@
 @import 'tailwindcss';
+@import './tokens.css';
 
-:root {
-  --bg: #faf7ff;
-  --surface: #ffffff;
-  --primary-100: #ebe1ff;
-  --primary-300: #c4a8ff;
-  --primary-500: #8b6be6;
-  --primary-700: #5c3fa6;
-  --ink: #2b2140;
-  --success: #4cc9a0;
-  --error: #ff7a93;
-  --streak: #ffb84d;
+html {
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
   background: var(--bg);
   color: var(--ink);
+  font-family: var(--font-sans);
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Fallback untuk transisi CSS. Motion sudah menangani animasi JS lewat MotionConfig. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:root[data-reduce-motion='true'] *,
+:root[data-reduce-motion='true'] *::before,
+:root[data-reduce-motion='true'] *::after {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
 }
