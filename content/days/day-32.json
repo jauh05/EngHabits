@@ -1,0 +1,614 @@
+{
+  "day": 32,
+  "week": 5,
+  "month": 2,
+  "title": "Object of Preposition: Jebakan Frasa Depan",
+  "topic": "Kata benda setelah kata depan bukan subjek, dan jebakan frasa depan dalam soal struktur",
+  "skillFocus": "listening",
+  "objectives": [
+    "Mengenali kata depan dan kata benda yang mengikutinya",
+    "Tidak memilih objek kata depan sebagai subjek atau kata kerja",
+    "Mengenali kata depan kompleks seperti despite dan unlike"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "beside", "pronunciationId": "bi-SAID (tekanan di SAID)", "pos": "Prep", "meaningId": "di samping", "example": "The cat sleeps beside the door.", "exampleId": "Kucing itu tidur di samping pintu." },
+      { "no": 2, "en": "across", "pronunciationId": "a-KROS (tekanan di KROS)", "pos": "Prep", "meaningId": "di seberang", "example": "The shop is across the street.", "exampleId": "Tokonya ada di seberang jalan." },
+      { "no": 3, "en": "throughout", "pronunciationId": "throo-AUT (tekanan di AUT)", "pos": "Prep", "meaningId": "sepanjang, di seluruh", "example": "It rained throughout the day.", "exampleId": "Hujan turun sepanjang hari." },
+      { "no": 4, "en": "beneath", "pronunciationId": "bi-NEETH (tekanan di NEETH)", "pos": "Prep", "meaningId": "di bawah", "example": "The key is beneath the box.", "exampleId": "Kuncinya ada di bawah kotak." },
+      { "no": 5, "en": "toward", "pronunciationId": "to-WARD (tekanan di WARD)", "pos": "Prep", "meaningId": "menuju, ke arah", "example": "Walk toward the station.", "exampleId": "Jalanlah menuju stasiun." },
+      { "no": 6, "en": "within", "pronunciationId": "wi-THIN (tekanan di THIN)", "pos": "Prep", "meaningId": "di dalam, dalam jangkauan", "example": "The hotel is within walking distance.", "exampleId": "Hotelnya dalam jarak jalan kaki." },
+      { "no": 7, "en": "despite", "pronunciationId": "di-SPAIT (tekanan di SPAIT)", "pos": "Prep", "meaningId": "meskipun, walaupun", "example": "Despite the rain, we went out.", "exampleId": "Walaupun hujan, kami tetap keluar." },
+      { "no": 8, "en": "unlike", "pronunciationId": "un-LAIK (tekanan di LAIK)", "pos": "Prep", "meaningId": "tidak seperti", "example": "Unlike my brother, I like tea.", "exampleId": "Tidak seperti kakak saya, saya suka teh." },
+      { "no": 9, "en": "among", "pronunciationId": "a-MUNG (tekanan di MUNG)", "pos": "Prep", "meaningId": "di antara", "example": "She is among the best students.", "exampleId": "Dia termasuk di antara siswa terbaik." },
+      { "no": 10, "en": "around", "pronunciationId": "a-ROUND (tekanan di ROUND)", "pos": "Prep", "meaningId": "sekitar, di sekeliling", "example": "We walked around the lake.", "exampleId": "Kami berjalan mengelilingi danau." }
+    ],
+    "tip": "Kata benda setelah kata depan adalah objek kata depan. Buang frasa depan dari kalimat, lalu cari subjek dan kata kerjanya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL object of preposition", "prepositional phrase trap TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata benda setelah kata depan dan cara menghindari jebakan frasa depan.",
+      "watchFor": [
+        "Kata benda setelah kata depan bukan subjek",
+        "Kata depan kompleks seperti despite dan unlike",
+        "Cara membuang frasa depan untuk mengecek kalimat"
+      ]
+    },
+    "lesson": {
+      "intro": "Dalam kalimat, kata depan sering diikuti kata benda. Kata benda itu disebut objek kata depan. Objek ini mudah membingungkan, karena letaknya dekat kata kerja, tetapi ia tidak menentukan bentuk kata kerja.",
+      "sections": [
+        {
+          "heading": "Kata benda setelah kata depan",
+          "bodyMd": "Setelah kata depan seperti **beside**, **across**, atau **beneath**, ada kata benda: **beside the door**, **across the street**. Kata benda ini bukan subjek, jadi kata kerja tidak mengikutinya."
+        },
+        {
+          "heading": "Kata depan kompleks",
+          "bodyMd": "**Despite** dan **unlike** juga diikuti kata benda: **despite the rain**, **unlike my sister**. Jangan menambahkan **of** setelah **despite**, dan jangan menganggap **unlike** sebagai kata kerja."
+        },
+        {
+          "heading": "Cara menghindari jebakan",
+          "bodyMd": "Buang frasa depan dari kalimat. Kalau kalimat tetap masuk akal, kamu sudah menemukan subjek dan kata kerja yang benar."
+        }
+      ],
+      "formulas": [
+        { "label": "Kata depan", "pattern": "kata depan + kata benda (objek kata depan)" },
+        { "label": "Subjek", "pattern": "subjek tidak berada di dalam frasa depan" },
+        { "label": "Despite dan unlike", "pattern": "despite + kata benda / unlike + kata benda" },
+        { "label": "Cek ulang", "pattern": "buang frasa depan, lalu cocokkan subjek dan kata kerja" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The bag beside the door is mine.", "id": "Tas di samping pintu itu milik saya." },
+          { "en": "Despite the heavy rain, the team arrived on time.", "id": "Walaupun hujan deras, tim itu tiba tepat waktu." },
+          { "en": "Unlike her parents, Rina loves to sing.", "id": "Tidak seperti orang tuanya, Rina suka bernyanyi." },
+          { "en": "The keys beneath the papers are missing.", "id": "Kunci di bawah kertas-kertas itu hilang." },
+          { "en": "Among the students, two are from Bali.", "id": "Di antara para siswa, dua orang berasal dari Bali." }
+        ],
+        "negative": [
+          { "en": "The shop across the street is not open today.", "id": "Toko di seberang jalan tidak buka hari ini." },
+          { "en": "Despite the rain, we did not stay home.", "id": "Walaupun hujan, kami tidak tinggal di rumah." },
+          { "en": "Unlike the others, he does not drink coffee.", "id": "Tidak seperti yang lain, dia tidak minum kopi." },
+          { "en": "The students around the lake are not tired.", "id": "Para siswa di sekitar danau itu tidak lelah." },
+          { "en": "The notes within the box are not important.", "id": "Catatan di dalam kotak itu tidak penting." }
+        ],
+        "question": [
+          { "en": "Where is the map?", "id": "Di mana petanya?" },
+          { "en": "Is the subject inside the prepositional phrase?", "id": "Apakah subjeknya berada di dalam frasa depan?" },
+          { "en": "Who walks toward the gym?", "id": "Siapa yang berjalan menuju gym?" },
+          { "en": "Despite what happened, did you finish the work?", "id": "Walaupun ada kejadian itu, apakah kamu menyelesaikan pekerjaan itu?" },
+          { "en": "Which word is the object of the preposition in this sentence?", "id": "Kata mana yang menjadi objek kata depan dalam kalimat ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The notes beside the computer is mine.", "right": "The notes beside the computer are mine.", "whyId": "Subjek notes jamak. Computer adalah objek kata depan." },
+        { "wrong": "Despite of the rain, we went out.", "right": "Despite the rain, we went out.", "whyId": "Despite langsung diikuti kata benda, tanpa of." },
+        { "wrong": "Unlike her brothers, she likes cook.", "right": "Unlike her brothers, she likes cooking.", "whyId": "Setelah likes, gunakan bentuk -ing untuk kegiatan memasak." },
+        { "wrong": "The map across the streets are new.", "right": "The map across the streets is new.", "whyId": "Subjek map tunggal. Streets adalah objek kata depan." },
+        { "wrong": "Among the students is two winners.", "right": "Among the students are two winners.", "whyId": "Subjek sebenarnya adalah two winners yang jamak, sehingga memakai are, bukan is." },
+        { "wrong": "She walks around the park and walk fast.", "right": "She walks around the park and walks fast.", "whyId": "Subjek she tunggal, jadi kedua kata kerja memakai -s." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL object of preposition", "giving directions English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata depan seperti beside, across, dan toward",
+        "Kata depan kompleks seperti despite dan unlike"
+      ]
+    },
+    "script": {
+      "title": "Mencari peta kampus",
+      "lines": [
+        { "speaker": "Dina", "text": "Hi Tom, did you find the map? It is beside the door, across from the library." },
+        { "speaker": "Tom", "text": "Yes, I found it. Throughout the morning I looked for it, but it was beneath a pile of papers." },
+        { "speaker": "Dina", "text": "Good. Walk toward the gym, and the parking lot is within sight." },
+        { "speaker": "Tom", "text": "Despite the rain, the path is clear. Unlike last week, there are no puddles." },
+        { "speaker": "Dina", "text": "Our group will meet among the trees around the fountain." },
+        { "speaker": "Tom", "text": "Okay, see you there. I will bring the snacks for everyone." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada beside dan beneath, bunyi awal be- dan bi- diucapkan lembut: bi-SAID, bi-NEETH.",
+      "Pada throughout, tekanan ada di suku kedua: throo-AUT.",
+      "Pada despite dan unlike, ucapkan suku kedua dengan jelas: di-SPAIT, un-LAIK."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Where is the map?",
+        "options": [
+          { "id": "A", "text": "under the bed" },
+          { "id": "B", "text": "beside the door" },
+          { "id": "C", "text": "in the library" },
+          { "id": "D", "text": "on the bus" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Dina berkata 'It is beside the door', artinya peta ada di samping pintu.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Di bawah tempat tidur tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Perpustakaan disebut sebagai patokan, bukan tempat peta." },
+          { "optionId": "D", "reasonId": "Bus tidak disebut dalam percakapan." }
+        ],
+        "evidence": "It is beside the door"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Where did Tom find the map?",
+        "options": [
+          { "id": "A", "text": "in the gym" },
+          { "id": "B", "text": "in the parking lot" },
+          { "id": "C", "text": "beneath a pile of papers" },
+          { "id": "D", "text": "around the fountain" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tom berkata 'it was beneath a pile of papers', artinya peta itu berada di bawah tumpukan kertas.",
+        "stepByStep": [
+          "Cari kata find atau map di naskah Tom.",
+          "Tom berkata peta berada beneath a pile of papers.",
+          "Gym, parking lot, dan fountain disebut sebagai tempat lain dalam percakapan, bukan tempat peta ditemukan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Gym adalah tempat yang akan dituju, bukan tempat peta ditemukan." },
+          { "optionId": "B", "reasonId": "Tempat parkir disebut sebagai tempat yang terlihat, bukan tempat peta ditemukan." },
+          { "optionId": "D", "reasonId": "Air mancur adalah tempat pertemuan, bukan tempat peta ditemukan." }
+        ],
+        "evidence": "it was beneath a pile of papers"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What is within sight?",
+        "options": [
+          { "id": "A", "text": "the gym" },
+          { "id": "B", "text": "the library" },
+          { "id": "C", "text": "the fountain" },
+          { "id": "D", "text": "the parking lot" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Dina berkata 'the parking lot is within sight', artinya tempat parkir terlihat dari jarak itu.",
+        "stepByStep": [
+          "Cari within sight di naskah.",
+          "Dina berkata the parking lot is within sight.",
+          "Gym adalah tujuan, library adalah patokan, dan fountain adalah tempat pertemuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Gym adalah tempat yang dituju, bukan yang terlihat." },
+          { "optionId": "B", "reasonId": "Library adalah patokan peta, tidak disebut terlihat." },
+          { "optionId": "C", "reasonId": "Fountain adalah tempat pertemuan, tidak disebut terlihat." }
+        ],
+        "evidence": "the parking lot is within sight"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Tom say about the path?",
+        "options": [
+          { "id": "A", "text": "It is muddy because of the rain." },
+          { "id": "B", "text": "It is clear, and there are no puddles today." },
+          { "id": "C", "text": "It is closed for repairs." },
+          { "id": "D", "text": "It is longer than before." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tom berkata 'Despite the rain, the path is clear' dan 'there are no puddles', artinya jalannya bersih dan tidak ada genangan.",
+        "stepByStep": [
+          "Cari path di naskah: 'Despite the rain, the path is clear.'",
+          "Despite the rain berarti walaupun hujan, dan the path is clear berarti jalannya bersih.",
+          "Unlike last week, there are no puddles menunjukkan tidak ada genangan. Pilihan A bertentangan dengan clear, dan pilihan C serta D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut jalan bersih, bertentangan dengan muddy." },
+          { "optionId": "C", "reasonId": "Penutupan jalan tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Panjang jalan tidak disebut dalam percakapan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Despite dan unlike diikuti kata benda, dan menjelaskan kontras dengan keadaan lain.",
+          "examples": [
+            { "en": "Despite the cold, the children played outside.", "id": "Walaupun dingin, anak-anak bermain di luar." },
+            { "en": "Unlike yesterday, the road is dry today.", "id": "Tidak seperti kemarin, jalannya kering hari ini." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena ada kata rain, tetapi kalimat itu menyebut jalannya tetap bersih walaupun hujan.",
+        "evidence": "Despite the rain, the path is clear"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Where will the group meet?",
+        "options": [
+          { "id": "A", "text": "outside the gym" },
+          { "id": "B", "text": "inside the library" },
+          { "id": "C", "text": "among the trees around the fountain" },
+          { "id": "D", "text": "beneath the parking lot" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Dina berkata 'Our group will meet among the trees around the fountain', artinya mereka akan bertemu di antara pepohonan sekitar air mancur.",
+        "stepByStep": [
+          "Cari meet di naskah: 'Our group will meet among the trees around the fountain.'",
+          "Among the trees dan around the fountain menunjukkan lokasi pertemuan.",
+          "Pilihan A, B, dan D tidak disebut sebagai tempat pertemuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Gym adalah tujuan, dan pertemuan tidak disebut di luar gym." },
+          { "optionId": "B", "reasonId": "Perpustakaan adalah patokan peta, bukan tempat pertemuan." },
+          { "optionId": "D", "reasonId": "Tempat parkir tidak disebut sebagai tempat pertemuan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Among dan around menunjukkan lokasi di antara atau di sekeliling sesuatu.",
+          "examples": [
+            { "en": "We sat among the students near the stage.", "id": "Kami duduk di antara para siswa dekat panggung." },
+            { "en": "The tables are arranged around the room.", "id": "Meja-meja diatur mengelilingi ruangan." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti tempat yang disebut dalam percakapan, tetapi beneath dipakai untuk peta, bukan pertemuan.",
+        "evidence": "Our group will meet among the trees around the fountain"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The keys on the table ___ mine.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "am" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Subjek kalimat adalah keys yang jamak. On the table adalah frasa depan, sehingga memakai are.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak cocok dengan keys yang jamak." },
+          { "optionId": "B", "reasonId": "Am hanya untuk subjek I." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Some of the students in the class ___ absent today.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Some of the students adalah subjek jamak, sehingga memakai are. In the class adalah frasa depan.",
+        "stepByStep": [
+          "Subjek kalimat adalah some of the students, dan students jamak.",
+          "In the class adalah frasa depan yang tidak mengubah subjek.",
+          "Is tunggal, sedangkan be dan being tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan students yang jamak." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Despite the heavy rain, the team ___ to the stadium.",
+        "options": [
+          { "id": "A", "text": "walk" },
+          { "id": "B", "text": "walking" },
+          { "id": "C", "text": "walked" },
+          { "id": "D", "text": "walks" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Kalimat menceritakan kejadian yang sudah selesai, sehingga memakai simple past: walked.",
+        "stepByStep": [
+          "Despite the heavy rain adalah frasa depan. Heavy rain bukan subjek.",
+          "Subjek kalimat adalah the team, dan kejadiannya sudah selesai.",
+          "Walk adalah bentuk dasar, walking bukan kata kerja utama, dan walks adalah present."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Walk adalah bentuk dasar, tidak cocok dengan kejadian lampau." },
+          { "optionId": "B", "reasonId": "Walking tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Walks adalah present, tidak cocok dengan kejadian lampau." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Unlike my sister, I ___ coffee every morning.",
+        "options": [
+          { "id": "A", "text": "drink" },
+          { "id": "B", "text": "drinks" },
+          { "id": "C", "text": "drinking" },
+          { "id": "D", "text": "am drink" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Subjek kalimat adalah I. Unlike my sister adalah frasa depan, sehingga kata kerjanya drink.",
+        "stepByStep": [
+          "Unlike my sister adalah frasa depan. Sister bukan subjek.",
+          "Subjek kalimat adalah I, sehingga memakai kata kerja dasar drink.",
+          "Drinks cocok dengan she atau he, drinking tidak bisa menjadi kata kerja utama, dan am drink salah bentuk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Drinks cocok dengan she atau he, bukan I." },
+          { "optionId": "C", "reasonId": "Drinking tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Am drink salah bentuk. Setelah am, gunakan -ing." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Unlike diikuti kata benda sebagai frasa depan. Subjek kalimat tetap berada di luar frasa itu.",
+          "examples": [
+            { "en": "Unlike my brother, I enjoy running.", "id": "Tidak seperti kakak saya, saya suka berlari." },
+            { "en": "Unlike the others, they arrive early.", "id": "Tidak seperti yang lain, mereka datang lebih awal." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena sister tunggal, tetapi sister berada dalam frasa depan dan bukan subjek."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Throughout the year, the manager, along with the staff, ___ the reports.",
+        "options": [
+          { "id": "A", "text": "review" },
+          { "id": "B", "text": "reviewing" },
+          { "id": "C", "text": "reviewed" },
+          { "id": "D", "text": "reviews" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek kalimat adalah the manager yang tunggal. Throughout the year dan along with the staff adalah frasa tambahan.",
+        "stepByStep": [
+          "Subjek kalimat adalah the manager, yang tunggal.",
+          "Throughout the year dan along with the staff adalah frasa, bukan subjek.",
+          "Review adalah bentuk jamak atau dasar, reviewing bukan kata kerja utama, dan reviewed tidak cocok dengan kebiasaan tahunan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Review adalah bentuk dasar, tidak cocok dengan manager yang tunggal." },
+          { "optionId": "B", "reasonId": "Reviewing tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "C", "reasonId": "Reviewed tidak cocok dengan kebiasaan yang berlangsung sepanjang tahun." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa yang dimulai dengan along with atau throughout tidak mengubah subjek kalimat.",
+          "examples": [
+            { "en": "The director, along with the team, meets every week.", "id": "Direktur, bersama tim, bertemu setiap minggu." },
+            { "en": "Throughout the year, the store stays open.", "id": "Sepanjang tahun, toko itu tetap buka." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena staff jamak dekat dengan kata kerja, tetapi subjek kalimat tetap the manager."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Buku itu ada di atas meja.",
+        "hint": "Di atas: on top of. Ada: is.",
+        "acceptedAnswers": ["The book is on the table.", "The book is on top of the table."],
+        "modelAnswer": "The book is on the table.",
+        "commonErrors": [{ "pattern": "The book are on the table", "feedbackId": "Subjek book tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Para siswa di dalam kelas sedang membaca.",
+        "hint": "Di dalam kelas: in the classroom. Sedang membaca: are reading.",
+        "acceptedAnswers": ["The students in the classroom are reading.", "The students within the classroom are reading."],
+        "modelAnswer": "The students in the classroom are reading.",
+        "commonErrors": [{ "pattern": "The students in the classroom is reading", "feedbackId": "Subjek students jamak, jadi memakai are." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tidak seperti kakaknya, dia suka musik klasik.",
+        "hint": "Tidak seperti: unlike. Suka: likes.",
+        "acceptedAnswers": ["Unlike her brother, she likes classical music.", "Unlike her brother, she enjoys classical music."],
+        "modelAnswer": "Unlike her brother, she likes classical music.",
+        "commonErrors": [{ "pattern": "Unlike of her brother", "feedbackId": "Unlike langsung diikuti kata benda, tanpa of." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Walaupun hujan, anak-anak bermain di taman di samping danau.",
+        "hint": "Walaupun hujan: despite the rain. Di samping danau: beside the lake.",
+        "acceptedAnswers": [
+          "Despite the rain, the children played in the park beside the lake.",
+          "Despite the rain, the children played in the park next to the lake."
+        ],
+        "modelAnswer": "Despite the rain, the children played in the park beside the lake.",
+        "commonErrors": [{ "pattern": "Despite of the rain", "feedbackId": "Despite langsung diikuti kata benda, tanpa of." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Guru-guru di sekolah itu, bersama kepala sekolah, sedang rapat.",
+        "hint": "Bersama kepala sekolah: along with the principal. Sedang rapat: are having a meeting.",
+        "acceptedAnswers": [
+          "The teachers at the school, along with the principal, are having a meeting.",
+          "The teachers at the school, together with the principal, are having a meeting."
+        ],
+        "modelAnswer": "The teachers at the school, along with the principal, are having a meeting.",
+        "commonErrors": [{ "pattern": "The teachers at the school, along with the principal, is having", "feedbackId": "Subjek teachers jamak. Principal berada dalam frasa tambahan." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'The directions to the station ___ very simple.'",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Subjek kalimat adalah directions yang jamak. To the station adalah frasa depan.",
+        "stepByStep": [
+          "Subjek kalimat adalah directions, yang jamak.",
+          "To the station adalah frasa depan yang tidak mengubah subjek.",
+          "Is tunggal, sedangkan be dan being tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan directions yang jamak." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa depan tidak mengubah bentuk kata kerja. Kata kerja mengikuti subjek utama yang jamak.",
+          "examples": [
+            { "en": "The instructions for the test are clear.", "id": "Instruksi untuk tes itu jelas." },
+            { "en": "The tickets at the desk are sold out.", "id": "Tiket di meja itu sudah habis terjual." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena station tunggal, tetapi station berada dalam frasa depan dan bukan subjek."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Among the students are two winners." },
+          { "id": "B", "text": "Among the students is two winners." },
+          { "id": "C", "text": "Among the students be two winners." },
+          { "id": "D", "text": "Among the students being two winners." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Subjek sebenarnya adalah two winners yang jamak. Among the students adalah frasa depan, sehingga memakai are.",
+        "stepByStep": [
+          "Among the students adalah frasa depan. Students berada di dalamnya, bukan subjek.",
+          "Subjek sebenarnya adalah two winners, yang jamak.",
+          "Is tunggal, sedangkan be dan being tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan two winners yang jamak." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada kalimat yang dimulai dengan frasa depan, kata benda setelah frasa itu bisa menjadi subjek sebenarnya.",
+          "examples": [
+            { "en": "Among the guests are two doctors.", "id": "Di antara para tamu ada dua dokter." },
+            { "en": "On the wall is a large map.", "id": "Di dinding ada sebuah peta besar." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena students dekat dengan is, tetapi students berada dalam frasa depan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "In the sentence 'The keys beneath the box are missing,' which word is the object of the preposition?",
+        "options": [
+          { "id": "A", "text": "keys" },
+          { "id": "B", "text": "box" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "missing" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Beneath adalah kata depan, dan box adalah kata benda yang mengikutinya, sehingga itu objek kata depan.",
+        "stepByStep": [
+          "Kata depan dalam kalimat ini adalah beneath.",
+          "Kata benda yang langsung mengikuti beneath adalah box.",
+          "Keys adalah subjek. Are adalah kata kerja utama. Missing adalah kata sifat atau bagian kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Keys adalah subjek kalimat, bukan objek kata depan." },
+          { "optionId": "C", "reasonId": "Are adalah kata kerja utama, bukan kata benda setelah kata depan." },
+          { "optionId": "D", "reasonId": "Missing bukan kata benda, sehingga tidak bisa menjadi objek kata depan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Objek kata depan adalah kata benda atau kata ganti yang mengikuti kata depan.",
+          "examples": [
+            { "en": "The bag under the chair is heavy.", "id": "Tas di bawah kursi itu berat." },
+            { "en": "The map beside the board is old.", "id": "Peta di samping papan tulis itu sudah lama." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kata benda penting di awal kalimat, tetapi keys adalah subjek, bukan objek kata depan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Around the lake, a group of hikers ___ along the path every morning.",
+        "options": [
+          { "id": "A", "text": "walks" },
+          { "id": "B", "text": "walk" },
+          { "id": "C", "text": "walking" },
+          { "id": "D", "text": "to walk" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Subjek kalimat adalah a group yang tunggal, sehingga kata kerjanya walks.",
+        "stepByStep": [
+          "Around the lake adalah frasa depan.",
+          "Subjek kalimat adalah a group of hikers, dan kata kunci group tunggal.",
+          "Walk adalah bentuk jamak, walking bukan kata kerja utama, dan to walk tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Walk adalah bentuk jamak, tidak cocok dengan group yang tunggal." },
+          { "optionId": "C", "reasonId": "Walking tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "To walk tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A group of ___ memakai kata kerja tunggal, karena group adalah subjek yang tunggal.",
+          "examples": [
+            { "en": "A group of students is waiting outside.", "id": "Sekelompok siswa sedang menunggu di luar." },
+            { "en": "A pair of shoes is on the floor.", "id": "Sepasang sepatu ada di lantai." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena hikers jamak, tetapi subjek kalimat adalah a group yang tunggal."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Despite of the rain, we went out." },
+          { "id": "B", "text": "Despite the rain, we goes out." },
+          { "id": "C", "text": "Despite the rain, we went out." },
+          { "id": "D", "text": "Despite the rain, we did went out." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Despite langsung diikuti kata benda tanpa of, dan subjek we memakai kata kerja lampau went.",
+        "stepByStep": [
+          "Despite langsung diikuti kata benda: the rain.",
+          "Subjek we memakai kata kerja lampau went.",
+          "Pilihan A memakai of setelah despite. Pilihan B memakai goes untuk we. Pilihan D memakai did dan went bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Despite tidak diikuti of." },
+          { "optionId": "B", "reasonId": "Goes tidak cocok dengan subjek we." },
+          { "optionId": "D", "reasonId": "Did dan went tidak dipakai bersamaan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Despite diikuti kata benda langsung, tanpa of. Kata kerja mengikuti subjek setelah frasa itu.",
+          "examples": [
+            { "en": "Despite the delay, we arrived on time.", "id": "Walaupun ada keterlambatan, kami tiba tepat waktu." },
+            { "en": "Despite the noise, they studied hard.", "id": "Walaupun berisik, mereka belajar dengan giat." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat yang benar karena artinya sudah jelas, tetapi despite tidak diikuti of."
+      }
+    ]
+  }
+}

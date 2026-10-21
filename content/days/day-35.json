@@ -1,0 +1,600 @@
+{
+  "day": 35,
+  "week": 5,
+  "month": 2,
+  "title": "Subjek dengan One of the, Majority, dan Sejenisnya",
+  "topic": "Kata benda utama setelah one of the, a number of, dan the majority menentukan kata kerja",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menentukan kata kerja setelah one of the dan only one of",
+    "Membedakan the number of dari a number of",
+    "Memilih kata kerja yang cocok dengan the majority of dan a percentage of"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "majority", "pronunciationId": "ma-JO-ri-ti (tekanan di JO)", "pos": "Noun", "meaningId": "mayoritas, sebagian besar", "example": "The majority of visitors liked the library.", "exampleId": "Sebagian besar pengunjung menyukai perpustakaan itu." },
+      { "no": 2, "en": "portion", "pronunciationId": "POR-shun (tekanan di POR)", "pos": "Noun", "meaningId": "bagian, porsi", "example": "A large portion of the budget was used.", "exampleId": "Sebagian besar anggaran sudah dipakai." },
+      { "no": 3, "en": "percentage", "pronunciationId": "per-SEN-tij (tekanan di SEN)", "pos": "Noun", "meaningId": "persentase", "example": "The percentage of readers grew this year.", "exampleId": "Persentase pembaca bertambah tahun ini." },
+      { "no": 4, "en": "several", "pronunciationId": "SEV-er-al (tekanan di SEV)", "pos": "Other", "meaningId": "beberapa", "example": "Several students passed the test.", "exampleId": "Beberapa siswa lulus tes itu." },
+      { "no": 5, "en": "numerous", "pronunciationId": "NOO-mer-us (tekanan di NOO)", "pos": "Adj", "meaningId": "banyak, sangat banyak", "example": "The library has numerous books.", "exampleId": "Perpustakaan itu punya banyak sekali buku." },
+      { "no": 6, "en": "collection", "pronunciationId": "ko-LEK-shun (tekanan di LEK)", "pos": "Noun", "meaningId": "koleksi", "example": "The museum has a large collection of coins.", "exampleId": "Museum itu punya koleksi koin yang besar." },
+      { "no": 7, "en": "series", "pronunciationId": "SIR-eez (tekanan di SIR)", "pos": "Noun", "meaningId": "rangkaian, seri", "example": "A series of talks is held every week.", "exampleId": "Rangkaian ceramah diadakan setiap minggu." },
+      { "no": 8, "en": "variety", "pronunciationId": "ve-RAI-i-ti (tekanan di RAI)", "pos": "Noun", "meaningId": "keragaman, berbagai macam", "example": "There is a variety of food here.", "exampleId": "Ada berbagai macam makanan di sini." },
+      { "no": 9, "en": "number", "pronunciationId": "NUM-ber (tekanan di NUM)", "pos": "Noun", "meaningId": "jumlah, angka", "example": "The number of visitors is high.", "exampleId": "Jumlah pengunjung tinggi." },
+      { "no": 10, "en": "amount", "pronunciationId": "a-MOUNT (tekanan di MOUNT)", "pos": "Noun", "meaningId": "jumlah, banyaknya", "example": "The amount of sugar is small.", "exampleId": "Jumlah gula sedikit." }
+    ],
+    "tip": "Tanyakan dulu kata benda utama setelah frasa seperti one of the, the majority of, atau a number of. Kata benda utama itulah yang menentukan kata kerja, bukan kata benda di belakang of."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["one of the subject verb agreement", "a number of the number of English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang one of the, the majority of, a number of, dan the number of, dengan contoh kesesuaian kata kerja.",
+      "watchFor": [
+        "One of the memakai kata kerja tunggal",
+        "The majority of mengikuti kata benda di belakang of",
+        "A number of dan the number of memakai kata kerja berbeda"
+      ]
+    },
+    "lesson": {
+      "intro": "Frasa seperti one of the, the majority of, dan a number of membuat kalimat terdengar jamak, padahal kata kerjanya ditentukan oleh kata benda utama. Dengan memeriksa kata benda utama, kamu bisa memilih kata kerja yang benar.",
+      "sections": [
+        {
+          "heading": "One of the dan only one of",
+          "bodyMd": "Pada **one of the**, kata kerja tunggal walaupun kata benda di belakangnya jamak: **One of the books is missing.** Pola **only one of** juga tunggal: **Only one of the libraries is open.**"
+        },
+        {
+          "heading": "The majority of dan a percentage of",
+          "bodyMd": "**The majority of** mengikuti kata benda di belakang of: **The majority of visitors are happy.** **A percentage of** juga mengikuti kata benda di belakang of: **A percentage of students is absent.** Periksa kata benda di belakang of untuk memilih kata kerja."
+        },
+        {
+          "heading": "The number of dan a number of",
+          "bodyMd": "**The number of** memakai kata kerja tunggal: **The number of visitors is growing.** **A number of** memakai kata kerja jamak: **A number of students are waiting.** Kedua pola ini sering tertukar, jadi periksa kata sebelum of."
+        }
+      ],
+      "formulas": [
+        { "label": "One of the", "pattern": "one of the + kata benda jamak + kata kerja tunggal" },
+        { "label": "The majority of", "pattern": "the majority of + kata benda + kata kerja sesuai kata benda" },
+        { "label": "The number of", "pattern": "the number of + kata benda jamak + kata kerja tunggal" },
+        { "label": "A number of", "pattern": "a number of + kata benda jamak + kata kerja jamak" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "One of the students is absent today.", "id": "Salah satu siswa tidak hadir hari ini." },
+          { "en": "The majority of the visitors are satisfied.", "id": "Sebagian besar pengunjung puas." },
+          { "en": "The number of books has increased.", "id": "Jumlah buku sudah bertambah." },
+          { "en": "A number of students are waiting outside.", "id": "Sejumlah siswa sedang menunggu di luar." },
+          { "en": "Several of the reports are late.", "id": "Beberapa laporan terlambat." }
+        ],
+        "negative": [
+          { "en": "One of the books is not in the library.", "id": "Salah satu buku tidak ada di perpustakaan." },
+          { "en": "The majority of the team does not agree.", "id": "Sebagian besar tim tidak setuju." },
+          { "en": "The number of errors is not high.", "id": "Jumlah kesalahan tidak tinggi." },
+          { "en": "A number of visitors did not come today.", "id": "Sejumlah pengunjung tidak datang hari ini." },
+          { "en": "Only one of the rooms is not clean.", "id": "Hanya satu dari ruangan itu yang tidak bersih." }
+        ],
+        "question": [
+          { "en": "Is one of the books missing?", "id": "Apakah salah satu buku hilang?" },
+          { "en": "Are most of the visitors happy?", "id": "Apakah sebagian besar pengunjung senang?" },
+          { "en": "Is the number of students growing?", "id": "Apakah jumlah siswa bertambah?" },
+          { "en": "Are a number of the students absent?", "id": "Apakah sejumlah siswa tidak hadir?" },
+          { "en": "Which of the libraries is open on Sunday?", "id": "Perpustakaan mana yang buka pada hari Minggu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "One of the books are missing.", "right": "One of the books is missing.", "whyId": "Subjek sebenarnya adalah one, yang tunggal." },
+        { "wrong": "The majority of the visitors is happy.", "right": "The majority of the visitors are happy.", "whyId": "Kata benda di belakang of adalah visitors yang jamak, sehingga kata kerjanya are." },
+        { "wrong": "The number of students are waiting.", "right": "The number of students is waiting.", "whyId": "The number of memakai kata kerja tunggal." },
+        { "wrong": "A number of students is waiting.", "right": "A number of students are waiting.", "whyId": "A number of memakai kata kerja jamak." },
+        { "wrong": "Several of the reports is late.", "right": "Several of the reports are late.", "whyId": "Several adalah jamak, sehingga memakai are." },
+        { "wrong": "Only one of the rooms are clean.", "right": "Only one of the rooms is clean.", "whyId": "Only one of memakai kata kerja tunggal." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Survei Perpustakaan Kota",
+    "text": "A recent report from a local library describes the reading habits of its visitors. Most of the information in the report comes from a survey that asked people about their favorite books. The majority of visitors said they read at least one book each month, but the results also showed some surprises.\n\nOne portion of the survey focused on children. A large percentage of the young readers chose adventure stories, while several other groups preferred science books. Numerous parents said that the library helped their children learn to read more confidently. The library also has a collection of old newspapers, and a series of talks is held there every Saturday.\n\nThe survey also asked about the number of books people borrow each year. The average amount was higher than expected. One of the librarians explained that the variety of books in the library is one reason. Each section has something new to offer, from poetry to history.\n\nAnother part of the report looked at the students who visit after school. One of the students who answered the survey said the library is her favorite place to study. Several of her friends agree with her, and a few of them now come every day. The staff were pleased, but they also noticed that a number of visitors still do not know about the online catalogue.\n\nFor this reason, the library plans to add more signs and a short guide near the entrance. The director believes that a simple guide can help the majority of visitors find what they need. The report ends with a clear message: when people understand the variety of services, they use the library more often. That is why the number of visitors may grow next year.",
+    "glossary": [
+      { "en": "survey", "id": "survei" },
+      { "en": "catalogue", "id": "katalog" },
+      { "en": "entrance", "id": "pintu masuk" },
+      { "en": "borrow", "id": "meminjam" },
+      { "en": "section", "id": "bagian ruangan" },
+      { "en": "poetry", "id": "puisi" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What does the report describe?",
+        "options": [
+          { "id": "A", "text": "the library building" },
+          { "id": "B", "text": "the reading habits of visitors" },
+          { "id": "C", "text": "the prices of new books" },
+          { "id": "D", "text": "the history of the city" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'describes the reading habits of its visitors', artinya laporan itu menggambarkan kebiasaan membaca pengunjung.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Gedung perpustakaan tidak dibahas dalam laporan." },
+          { "optionId": "C", "reasonId": "Harga buku baru tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Sejarah kota tidak disebut dalam teks." }
+        ],
+        "evidence": "describes the reading habits of its visitors"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What did the majority of visitors say?",
+        "options": [
+          { "id": "A", "text": "they read at least one book each month" },
+          { "id": "B", "text": "they never read books" },
+          { "id": "C", "text": "they only read newspapers" },
+          { "id": "D", "text": "they borrowed fewer than five books" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'The majority of visitors said they read at least one book each month', artinya sebagian besar pengunjung membaca minimal satu buku setiap bulan.",
+        "stepByStep": [
+          "Cari majority di teks: 'The majority of visitors said they read at least one book each month.'",
+          "Kalimat itu menyebut apa yang dikatakan sebagian besar pengunjung.",
+          "Pilihan B bertentangan dengan 'read at least one book'. Pilihan C dan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut sebagian besar membaca minimal satu buku setiap bulan." },
+          { "optionId": "C", "reasonId": "Koran saja tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Jumlah buku yang dipinjam kurang dari lima tidak disebut sebagai jawaban mayoritas." }
+        ],
+        "evidence": "The majority of visitors said they read at least one book each month"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Which group preferred science books?",
+        "options": [
+          { "id": "A", "text": "several other groups" },
+          { "id": "B", "text": "the librarians" },
+          { "id": "C", "text": "the young readers" },
+          { "id": "D", "text": "the staff" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'several other groups preferred science books', artinya beberapa kelompok lain lebih menyukai buku sains.",
+        "stepByStep": [
+          "Cari science books di teks.",
+          "Teks menyebut several other groups preferred science books.",
+          "Young readers memilih cerita petualangan, sedangkan librarians dan staff tidak disebut memilih buku sains."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pustakawan tidak disebut menyukai buku sains." },
+          { "optionId": "C", "reasonId": "Pembaca muda memilih cerita petualangan, bukan buku sains." },
+          { "optionId": "D", "reasonId": "Staf tidak disebut menyukai buku sains." }
+        ],
+        "evidence": "several other groups preferred science books"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to one librarian, what is one reason the amount of borrowing was higher than expected?",
+        "options": [
+          { "id": "A", "text": "the library is very large" },
+          { "id": "B", "text": "the price of the books is low" },
+          { "id": "C", "text": "the variety of books in the library" },
+          { "id": "D", "text": "the staff are friendly" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'the variety of books in the library is one reason', artinya keragaman buku menjadi salah satu alasannya.",
+        "stepByStep": [
+          "Cari amount dan librarian di teks: 'The average amount was higher than expected. One of the librarians explained that the variety of books in the library is one reason.'",
+          "Pustakawan menjelaskan bahwa keragaman buku adalah salah satu alasan.",
+          "Ukuran perpustakaan, harga buku, dan keramahan staf tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ukuran perpustakaan tidak disebut sebagai alasan." },
+          { "optionId": "B", "reasonId": "Harga buku tidak disebut sebagai alasan." },
+          { "optionId": "D", "reasonId": "Keramahan staf tidak disebut sebagai alasan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Variety berarti keragaman. Dalam laporan, kata ini menjelaskan alasan jumlah peminjam meningkat.",
+          "examples": [
+            { "en": "The variety of food here attracts many visitors.", "id": "Keragaman makanan di sini menarik banyak pengunjung." },
+            { "en": "A variety of books is available for students.", "id": "Berbagai macam buku tersedia untuk siswa." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti alasan yang masuk akal, tetapi teks tidak menyebut ukuran perpustakaan.",
+        "evidence": "the variety of books in the library is one reason"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Why does the library plan to add more signs and a short guide near the entrance?",
+        "options": [
+          { "id": "A", "text": "because the entrance is broken" },
+          { "id": "B", "text": "because a number of visitors still do not know about the online catalogue" },
+          { "id": "C", "text": "because the library wants to close early" },
+          { "id": "D", "text": "because the staff want more holidays" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'a number of visitors still do not know about the online catalogue', dan itu alasan rencana menambah petunjuk.",
+        "stepByStep": [
+          "Cari for this reason di teks, lalu lihat kalimat sebelumnya.",
+          "Kalimat sebelumnya menyebut banyak pengunjung belum tahu tentang katalog online.",
+          "Pintu rusak, tutup lebih awal, dan libur staf tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pintu rusak tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Tutup lebih awal tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Libur staf tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A number of berarti sejumlah, dan memakai kata kerja jamak. Frasa ini menjelaskan siapa yang belum tahu sesuatu.",
+          "examples": [
+            { "en": "A number of visitors asked about the online catalogue.", "id": "Sejumlah pengunjung bertanya tentang katalog online." },
+            { "en": "A number of books are missing from the shelf.", "id": "Sejumlah buku hilang dari rak." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti alasan, tetapi teks menyebut pintu masuk hanya sebagai tempat petunjuk baru.",
+        "evidence": "a number of visitors still do not know about the online catalogue"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "One of the books ___ missing from the shelf.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Subjek sebenarnya adalah one yang tunggal, sehingga memakai is.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are mengikuti books yang jamak, padahal subjek kalimat adalah one." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Were jamak dan lampau, tidak cocok dengan one yang tunggal." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The majority of the visitors ___ satisfied with the service.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Kata benda di belakang of adalah visitors yang jamak, sehingga kata kerjanya are.",
+        "stepByStep": [
+          "Kata benda di belakang of adalah visitors, yang jamak.",
+          "Kata kerja mengikuti kata benda itu: are.",
+          "Is mengikuti majority, sedangkan be dan being tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is mengikuti majority, padahal kata benda di belakang of adalah visitors." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "A number of students ___ waiting outside the library.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "A number of memakai kata kerja jamak, sehingga memakai are.",
+        "stepByStep": [
+          "Pola a number of memakai kata kerja jamak.",
+          "Subjek jamak present untuk waiting adalah are.",
+          "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan a number of yang jamak." },
+          { "optionId": "C", "reasonId": "Was tunggal dan lampau, tidak cocok dengan waiting di sini." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The number of visitors ___ increased this year.",
+        "options": [
+          { "id": "A", "text": "has" },
+          { "id": "B", "text": "have" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "The number of memakai kata kerja tunggal, sehingga memakai has increased.",
+        "stepByStep": [
+          "Pola the number of memakai kata kerja tunggal.",
+          "Present perfect untuk subjek tunggal adalah has increased.",
+          "Have dan are jamak, dan were lampau jamak, sehingga tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Have jamak, tidak cocok dengan the number yang tunggal." },
+          { "optionId": "C", "reasonId": "Are jamak, tidak cocok dengan the number yang tunggal." },
+          { "optionId": "D", "reasonId": "Were jamak dan lampau, tidak cocok dengan subjek tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The number of memakai kata kerja tunggal. A number of memakai kata kerja jamak.",
+          "examples": [
+            { "en": "The number of cars has doubled.", "id": "Jumlah mobil sudah dua kali lipat." },
+            { "en": "A number of cars have been repaired.", "id": "Sejumlah mobil sudah diperbaiki." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena visitors jamak, tetapi subjek kalimat adalah the number yang tunggal."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Only one of the three libraries in the district ___ open on Sundays.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Only one of memakai kata kerja tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Only one of menunjukkan satu dari tiga perpustakaan.",
+          "Kata kerja mengikuti one yang tunggal: is.",
+          "Are dan were jamak, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan only one of yang tunggal." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Were jamak dan lampau, tidak cocok dengan makna sekarang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Only one of dan one of memakai kata kerja tunggal, walaupun kata benda di belakangnya jamak.",
+          "examples": [
+            { "en": "Only one of the students is absent.", "id": "Hanya satu siswa yang tidak hadir." },
+            { "en": "One of the boys is from Medan.", "id": "Salah satu anak laki-laki berasal dari Medan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena libraries jamak, tetapi subjek sebenarnya adalah only one yang tunggal."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Sebagian besar siswa menyukai buku sejarah.",
+        "hint": "Sebagian besar: the majority of. Menyukai: like.",
+        "acceptedAnswers": ["The majority of students like history books.", "The majority of students enjoy history books."],
+        "modelAnswer": "The majority of students like history books.",
+        "commonErrors": [{ "pattern": "The majority of students likes", "feedbackId": "Kata benda di belakang of adalah students yang jamak, jadi memakai like." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Satu dari buku itu hilang.",
+        "hint": "Satu dari: one of the. Hilang: is missing.",
+        "acceptedAnswers": ["One of the books is missing.", "One of the books has gone missing."],
+        "modelAnswer": "One of the books is missing.",
+        "commonErrors": [{ "pattern": "One of the books are missing", "feedbackId": "Subjek sebenarnya adalah one, yang tunggal." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Sejumlah besar pengunjung datang setiap hari.",
+        "hint": "Sejumlah besar: a large number of. Datang: come.",
+        "acceptedAnswers": ["A large number of visitors come every day.", "A large number of visitors come each day."],
+        "modelAnswer": "A large number of visitors come every day.",
+        "commonErrors": [{ "pattern": "A large number of visitors comes", "feedbackId": "A large number of memakai kata kerja jamak." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Jumlah buku yang dipinjam meningkat tahun ini.",
+        "hint": "Jumlah: the number of. Meningkat: has increased.",
+        "acceptedAnswers": [
+          "The number of books borrowed has increased this year.",
+          "The number of books that were borrowed has increased this year."
+        ],
+        "modelAnswer": "The number of books borrowed has increased this year.",
+        "commonErrors": [{ "pattern": "The number of books borrowed have increased", "feedbackId": "The number of memakai kata kerja tunggal: has." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Beberapa koleksi ini sudah berusia lebih dari seratus tahun.",
+        "hint": "Beberapa: several. Koleksi: collection. Sudah berusia: are more than one hundred years old.",
+        "acceptedAnswers": [
+          "Several items in this collection are more than one hundred years old.",
+          "Several items in this collection are over a hundred years old."
+        ],
+        "modelAnswer": "Several items in this collection are more than one hundred years old.",
+        "commonErrors": [{ "pattern": "Several items in this collection is more", "feedbackId": "Several adalah jamak, sehingga memakai are." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'The percentage of students who passed the test ___ higher this year.'",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "were" },
+          { "id": "D", "text": "have been" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Subjek kalimat adalah the percentage yang tunggal. Of students who passed the test adalah frasa tambahan.",
+        "stepByStep": [
+          "Subjek kalimat adalah the percentage, yang tunggal.",
+          "Of students who passed the test adalah frasa tambahan dan tidak mengubah kata kerja.",
+          "Are dan were jamak, sedangkan have been tidak cocok dengan this year yang menunjukkan keadaan sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are jamak, tidak cocok dengan the percentage yang tunggal." },
+          { "optionId": "C", "reasonId": "Were jamak dan lampau, tidak cocok dengan this year." },
+          { "optionId": "D", "reasonId": "Have been jamak dan tidak cocok dengan subjek tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Percentage, majority, dan number adalah kata benda tunggal yang memakai kata kerja tunggal, meskipun diikuti kata benda jamak.",
+          "examples": [
+            { "en": "The percentage of women in the team is high.", "id": "Persentase perempuan dalam tim itu tinggi." },
+            { "en": "The majority of the workers is absent.", "id": "Sebagian besar pekerja tidak hadir." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena students jamak, tetapi subjek kalimat adalah the percentage yang tunggal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "A series of talks is held every Saturday." },
+          { "id": "B", "text": "A series of talks are held every Saturday." },
+          { "id": "C", "text": "A series of talks be held every Saturday." },
+          { "id": "D", "text": "A series of talks being held every Saturday." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Series adalah kata benda tunggal, sehingga kata kerjanya is held.",
+        "stepByStep": [
+          "Subjek kalimat adalah a series, yang tunggal.",
+          "Pasif sekarang untuk subjek tunggal memakai is held.",
+          "Are held memakai bentuk jamak, be held dan being held tidak membentuk kalimat yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are held jamak, tidak cocok dengan a series yang tunggal." },
+          { "optionId": "C", "reasonId": "Be held tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being held tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A series of dan a variety of mengikuti aturan kata benda tunggal pada banyak konteks, dan kata kerja mengikuti series.",
+          "examples": [
+            { "en": "A series of lectures is given each year.", "id": "Serangkaian kuliah diberikan setiap tahun." },
+            { "en": "A variety of snacks is sold here.", "id": "Berbagai macam camilan dijual di sini." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena talks jamak, tetapi subjek kalimat adalah series yang tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct noun: 'A ___ of the visitors asked for longer opening hours.'",
+        "options": [
+          { "id": "A", "text": "portion" },
+          { "id": "B", "text": "portions" },
+          { "id": "C", "text": "portioned" },
+          { "id": "D", "text": "portioning" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "A portion of adalah frasa dengan kata benda tunggal portion, dan kata kerja asked tetap sesuai.",
+        "stepByStep": [
+          "Pola a ___ of the visitors membutuhkan kata benda tunggal setelah a.",
+          "Portion adalah kata benda tunggal yang berarti bagian.",
+          "Portions tidak cocok setelah a, portioned dan portioning bukan kata benda yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Portions jamak, tidak cocok setelah a." },
+          { "optionId": "C", "reasonId": "Portioned adalah kata kerja lampau, bukan kata benda." },
+          { "optionId": "D", "reasonId": "Portioning bukan kata benda yang tepat di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah a, kata benda harus tunggal. A portion of memakai kata benda tunggal portion.",
+          "examples": [
+            { "en": "A portion of the money was saved.", "id": "Sebagian dari uang itu ditabung." },
+            { "en": "A portion of the students asked questions.", "id": "Sebagian siswa bertanya." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena visitors jamak, tetapi setelah a harus kata benda tunggal."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "In the sentence 'Several of the numerous guests ___ early,' which verb completes the sentence correctly?",
+        "options": [
+          { "id": "A", "text": "arrives" },
+          { "id": "B", "text": "arrived" },
+          { "id": "C", "text": "arriving" },
+          { "id": "D", "text": "was arriving" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Several adalah jamak dan kejadiannya sudah selesai, sehingga memakai simple past: arrived.",
+        "stepByStep": [
+          "Subjek kalimat adalah several, yang jamak.",
+          "Kalimat menyebut kedatangan yang sudah terjadi, sehingga memakai simple past.",
+          "Arrives tunggal, arriving bukan kata kerja utama, dan was arriving tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Arrives tunggal, tidak cocok dengan several yang jamak." },
+          { "optionId": "C", "reasonId": "Arriving tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Was arriving tunggal, tidak cocok dengan several." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Several adalah kata benda jamak yang memakai kata kerja jamak.",
+          "examples": [
+            { "en": "Several of the guests arrived late.", "id": "Beberapa tamu tiba terlambat." },
+            { "en": "Several students are waiting outside.", "id": "Beberapa siswa sedang menunggu di luar." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kata kerja yang benar, tetapi arrives tunggal dan tidak cocok dengan several."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The number of books are growing." },
+          { "id": "B", "text": "The number of books is growing." },
+          { "id": "C", "text": "The numbers of books is growing." },
+          { "id": "D", "text": "The number of book is growing." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "The number of memakai kata kerja tunggal, sehingga memakai is growing.",
+        "stepByStep": [
+          "Subjek kalimat adalah the number, yang tunggal.",
+          "Kata kerja tunggal untuk be present adalah is.",
+          "Are memakai bentuk jamak. Numbers of tidak tepat. Book tunggal tidak cocok dengan books yang jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan the number yang tunggal." },
+          { "optionId": "C", "reasonId": "Numbers of tidak membentuk frasa yang benar, dan is memakai subjek jamak yang salah." },
+          { "optionId": "D", "reasonId": "Book tunggal tidak cocok dengan books yang dimaksud." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The number of memakai kata benda jamak setelah of, tetapi kata kerjanya tunggal.",
+          "examples": [
+            { "en": "The number of students in the class is high.", "id": "Jumlah siswa di kelas itu tinggi." },
+            { "en": "The number of cars on the road is growing.", "id": "Jumlah mobil di jalan semakin bertambah." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena books jamak, tetapi kata kerjanya mengikuti the number yang tunggal."
+      }
+    ]
+  }
+}

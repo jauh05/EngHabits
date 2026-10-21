@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W05-001",
+    "week": 5,
+    "topicTag": "subjek-kata-kerja",
+    "type": "mcq",
+    "prompt": "The box of old letters ___ in the attic.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "be" },
+      { "id": "D", "text": "were" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek sebenarnya adalah box yang tunggal. Of old letters adalah frasa depan.",
+    "stepByStep": [
+      "Subjek kalimat adalah the box, yang tunggal.",
+      "Of old letters adalah frasa depan dan tidak mengubah kata kerja.",
+      "Are dan were jamak, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Are mengikuti letters yang jamak, padahal subjek sebenarnya adalah box." },
+      { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "D", "reasonId": "Were jamak dan lampau, tidak cocok dengan box yang tunggal." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Frasa depan tidak mengubah subjek. Kata kerja mengikuti kata benda utama sebelum of.",
+      "examples": [
+        { "en": "The bag of books is heavy.", "id": "Tas berisi buku itu berat." },
+        { "en": "The group of students is waiting.", "id": "Sekelompok siswa sedang menunggu." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena letters jamak dekat dengan kata kerja, tetapi subjek kalimat adalah box."
+  },
+  {
+    "id": "W05-002",
+    "week": 5,
+    "topicTag": "appositive",
+    "type": "mcq",
+    "prompt": "Ms. Lestari, ___ of the history department, will give a talk.",
+    "options": [
+      { "id": "A", "text": "heads" },
+      { "id": "B", "text": "heading" },
+      { "id": "C", "text": "headed" },
+      { "id": "D", "text": "the head" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "The head of the history department adalah appositive yang menjelaskan Ms. Lestari.",
+    "stepByStep": [
+      "Frasa ini memberi identitas kepada Ms. Lestari, jadi bentuknya kata benda: the head.",
+      "Kalimat utama tetap will give a talk, dan kata kerja itu milik Ms. Lestari.",
+      "Heads, heading, dan headed adalah bentuk kata kerja, tidak cocok sebagai appositive."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Heads adalah kata kerja, tidak cocok sebagai appositive." },
+      { "optionId": "B", "reasonId": "Heading adalah bentuk -ing, tidak cocok sebagai appositive di sini." },
+      { "optionId": "C", "reasonId": "Headed adalah kata kerja lampau, tidak cocok sebagai appositive." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Appositive adalah kata benda atau frasa benda yang menjelaskan kata benda di dekatnya, diapit koma.",
+      "examples": [
+        { "en": "Mr. Hasan, the director, will speak tomorrow.", "id": "Pak Hasan, direktur, akan berbicara besok." },
+        { "en": "Ani, a teacher, is kind.", "id": "Ani, seorang guru, itu baik hati." }
+      ]
+    },
+    "examTrap": "Pilihan A heads terlihat seperti frasa yang benar karena berbentuk kata kerja, tetapi appositive memerlukan kata benda."
+  },
+  {
+    "id": "W05-003",
+    "week": 5,
+    "topicTag": "each-every",
+    "type": "mcq",
+    "prompt": "Each of the chairs ___ a red cushion.",
+    "options": [
+      { "id": "A", "text": "have" },
+      { "id": "B", "text": "having" },
+      { "id": "C", "text": "has" },
+      { "id": "D", "text": "are having" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Each adalah subjek tunggal, sehingga kata kerjanya has.",
+    "stepByStep": [
+      "Subjek kalimat adalah each, yang tunggal.",
+      "Kata kerja tunggal untuk have adalah has.",
+      "Have dan are having jamak, dan having tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan each yang tunggal." },
+      { "optionId": "B", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "D", "reasonId": "Are having jamak, tidak cocok dengan each." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Each of memakai kata kerja tunggal, walaupun diikuti kata benda jamak.",
+      "examples": [
+        { "en": "Each of the students has a card.", "id": "Masing-masing siswa punya kartu." },
+        { "en": "Each of the rooms is clean.", "id": "Masing-masing ruangan bersih." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena chairs jamak, tetapi subjek kalimat adalah each yang tunggal."
+  },
+  {
+    "id": "W05-004",
+    "week": 5,
+    "topicTag": "neither-nor",
+    "type": "mcq",
+    "prompt": "Neither the principal nor the teachers ___ aware of the change.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "was" },
+      { "id": "D", "text": "be" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Pada neither ___ nor, kata kerja mengikuti subjek terdekat, yaitu the teachers yang jamak: are.",
+    "stepByStep": [
+      "Subjek terdekat dengan kata kerja adalah the teachers, yang jamak.",
+      "Kata kerja jamak untuk be adalah are.",
+      "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Is mengikuti the principal, padahal subjek terdekat adalah the teachers." },
+      { "optionId": "C", "reasonId": "Was tunggal dan tidak cocok dengan the teachers." },
+      { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pada neither ___ nor, kata kerja mengikuti subjek yang paling dekat dengannya.",
+      "examples": [
+        { "en": "Neither the manager nor the workers are late.", "id": "Baik manajer maupun pekerja tidak terlambat." },
+        { "en": "Neither the workers nor the manager is late.", "id": "Baik pekerja maupun manajer tidak terlambat." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena principal tunggal disebut pertama, tetapi kata kerja mengikuti subjek terdekat."
+  },
+  {
+    "id": "W05-005",
+    "week": 5,
+    "topicTag": "a-number-of",
+    "type": "mcq",
+    "prompt": "A number of visitors ___ waiting in line.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "was" },
+      { "id": "D", "text": "be" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "A number of memakai kata kerja jamak, sehingga memakai are waiting.",
+    "stepByStep": [
+      "Pola a number of memakai kata kerja jamak.",
+      "Kata kerja jamak present untuk waiting adalah are.",
+      "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan a number of yang jamak." },
+      { "optionId": "C", "reasonId": "Was tunggal dan lampau, tidak cocok dengan waiting di sini." },
+      { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "A number of memakai kata kerja jamak. The number of memakai kata kerja tunggal.",
+      "examples": [
+        { "en": "A number of cars are parked outside.", "id": "Sejumlah mobil diparkir di luar." },
+        { "en": "The number of cars is high today.", "id": "Jumlah mobil hari ini tinggi." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena number tunggal, tetapi a number of memakai kata kerja jamak."
+  },
+  {
+    "id": "W05-006",
+    "week": 5,
+    "topicTag": "the-number-of",
+    "type": "mcq",
+    "prompt": "The number of visitors ___ increasing every year.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "were" },
+      { "id": "C", "text": "have" },
+      { "id": "D", "text": "is" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "The number of memakai kata kerja tunggal, sehingga memakai is increasing.",
+    "stepByStep": [
+      "Subjek kalimat adalah the number, yang tunggal.",
+      "Kata kerja tunggal present progresif adalah is increasing.",
+      "Are, were, dan have jamak atau tidak cocok dengan the number yang tunggal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan the number yang tunggal." },
+      { "optionId": "B", "reasonId": "Were jamak dan lampau, tidak cocok dengan every year." },
+      { "optionId": "C", "reasonId": "Have jamak, tidak cocok dengan the number yang tunggal." }
+    ],
+    "ruleAndExamples": {
+      "rule": "The number of memakai kata kerja tunggal, walaupun kata benda di belakang of jamak.",
+      "examples": [
+        { "en": "The number of readers is growing.", "id": "Jumlah pembaca semakin bertambah." },
+        { "en": "The number of students has increased.", "id": "Jumlah siswa sudah bertambah." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena visitors jamak, tetapi subjek kalimat adalah the number yang tunggal."
+  },
+  {
+    "id": "W05-007",
+    "week": 5,
+    "topicTag": "one-of",
+    "type": "mcq",
+    "prompt": "One of the reasons for the delay ___ the storm.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "were" },
+      { "id": "C", "text": "is" },
+      { "id": "D", "text": "have been" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Subjek sebenarnya adalah one yang tunggal, sehingga memakai is.",
+    "stepByStep": [
+      "Subjek kalimat adalah one, yang tunggal.",
+      "Of the reasons for the delay adalah frasa depan.",
+      "Are, were, dan have been jamak, tidak cocok dengan one yang tunggal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Are mengikuti reasons yang jamak, padahal subjek sebenarnya adalah one." },
+      { "optionId": "B", "reasonId": "Were jamak dan lampau, tidak cocok dengan one." },
+      { "optionId": "D", "reasonId": "Have been jamak, tidak cocok dengan one yang tunggal." }
+    ],
+    "ruleAndExamples": {
+      "rule": "One of the memakai kata kerja tunggal, walaupun kata benda di belakangnya jamak.",
+      "examples": [
+        { "en": "One of the reasons is simple.", "id": "Salah satu alasannya sederhana." },
+        { "en": "One of the students was late.", "id": "Salah satu siswa terlambat." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena reasons jamak dekat dengan kata kerja, tetapi subjek sebenarnya adalah one."
+  },
+  {
+    "id": "W05-008",
+    "week": 5,
+    "topicTag": "frasa-depan",
+    "type": "mcq",
+    "prompt": "The gift for my sisters ___ on the table.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "be" },
+      { "id": "D", "text": "being" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek sebenarnya adalah the gift yang tunggal. For my sisters adalah frasa depan.",
+    "stepByStep": [
+      "Subjek kalimat adalah the gift, yang tunggal.",
+      "For my sisters adalah frasa depan, sehingga sisters bukan subjek.",
+      "Are tidak cocok dengan gift. Be dan being tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Are mengikuti sisters yang berada dalam frasa depan." },
+      { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata benda setelah kata depan adalah objek kata depan, bukan subjek kalimat.",
+      "examples": [
+        { "en": "The letter for my parents is ready.", "id": "Surat untuk orang tua saya sudah siap." },
+        { "en": "The key under the books is missing.", "id": "Kunci di bawah buku-buku itu hilang." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena sisters jamak, tetapi sisters berada dalam frasa depan."
+  },
+  {
+    "id": "W05-009",
+    "week": 5,
+    "topicTag": "appositive",
+    "type": "mcq",
+    "prompt": "Our neighbor, ___ engineer who works in Jakarta, is very friendly.",
+    "options": [
+      { "id": "A", "text": "a" },
+      { "id": "B", "text": "one" },
+      { "id": "C", "text": "an" },
+      { "id": "D", "text": "the" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Engineer diawali bunyi vokal, sehingga artikelnya an.",
+    "stepByStep": [
+      "Engineer diawali bunyi vokal /e/, sehingga memakai an.",
+      "Frasa an engineer who works in Jakarta adalah appositive yang menjelaskan our neighbor.",
+      "A tidak cocok dengan bunyi vokal, one bukan artikel, dan the tidak cocok dengan engineer yang belum dikenal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "A dipakai sebelum bunyi konsonan, bukan engineer." },
+      { "optionId": "B", "reasonId": "One bukan artikel, dan tidak cocok sebelum engineer." },
+      { "optionId": "D", "reasonId": "The dipakai untuk sesuatu yang sudah dikenal, sedangkan appositive ini memperkenalkan profesi." }
+    ],
+    "ruleAndExamples": {
+      "rule": "A dipakai sebelum bunyi konsonan, dan an dipakai sebelum bunyi vokal.",
+      "examples": [
+        { "en": "She is an artist from Bali.", "id": "Dia seorang seniman dari Bali." },
+        { "en": "He is a teacher in the school.", "id": "Dia seorang guru di sekolah itu." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar sebagai artikel umum, tetapi engineer diawali bunyi vokal sehingga memakai an."
+  },
+  {
+    "id": "W05-010",
+    "week": 5,
+    "topicTag": "subjek-kata-kerja",
+    "type": "mcq",
+    "prompt": "Which word is the subject of 'The notes beside the computer are mine'?",
+    "options": [
+      { "id": "A", "text": "beside" },
+      { "id": "B", "text": "computer" },
+      { "id": "C", "text": "are" },
+      { "id": "D", "text": "notes" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Subjek kalimat adalah notes, dan beside the computer adalah frasa depan.",
+    "stepByStep": [
+      "Kata kerja utama adalah are, dan subjek yang cocok dengannya adalah notes.",
+      "Beside the computer adalah frasa depan yang menjelaskan lokasi catatan.",
+      "Beside adalah kata depan, computer adalah objek kata depan, dan are adalah kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Beside adalah kata depan, bukan subjek." },
+      { "optionId": "B", "reasonId": "Computer adalah objek kata depan, bukan subjek." },
+      { "optionId": "C", "reasonId": "Are adalah kata kerja utama, bukan subjek." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Subjek adalah kata benda yang cocok dengan kata kerja utama. Frasa depan bukan subjek.",
+      "examples": [
+        { "en": "The bag beside the door is mine.", "id": "Tas di samping pintu itu milik saya." },
+        { "en": "The notes on the desk are important.", "id": "Catatan di atas meja itu penting." }
+      ]
+    },
+    "examTrap": "Pilihan B computer terlihat sebagai kata benda penting, tetapi kata itu berada setelah kata depan beside."
+  },
+  {
+    "id": "W05-011",
+    "week": 5,
+    "topicTag": "one-of",
+    "type": "mcq",
+    "prompt": "Every one of the students ___ invited to the ceremony.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "be" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Every one adalah subjek tunggal, sehingga memakai is invited.",
+    "stepByStep": [
+      "Subjek kalimat adalah every one, yang tunggal.",
+      "Pasif sekarang tunggal memakai is invited.",
+      "Are dan were jamak, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan every one yang tunggal." },
+      { "optionId": "C", "reasonId": "Were jamak dan lampau, tidak cocok dengan konteks undangan ini." },
+      { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Every one of memakai kata kerja tunggal, walaupun kata benda di belakangnya jamak.",
+      "examples": [
+        { "en": "Every one of the cars is clean.", "id": "Setiap mobil itu bersih." },
+        { "en": "Every one of the teachers is here.", "id": "Setiap guru ada di sini." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena students jamak, tetapi every one tetap memakai kata kerja tunggal."
+  },
+  {
+    "id": "W05-012",
+    "week": 5,
+    "topicTag": "either-or",
+    "type": "mcq",
+    "prompt": "Either the manager or the workers ___ the room today.",
+    "options": [
+      { "id": "A", "text": "cleans" },
+      { "id": "B", "text": "cleaning" },
+      { "id": "C", "text": "clean" },
+      { "id": "D", "text": "to clean" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Pada either ___ or, kata kerja mengikuti subjek terdekat, yaitu the workers yang jamak: clean.",
+    "stepByStep": [
+      "Subjek terdekat dengan kata kerja adalah the workers, yang jamak.",
+      "Kata kerja jamak present adalah clean.",
+      "Cleans tunggal, cleaning dan to clean tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Cleans mengikuti the manager, bukan subjek terdekat." },
+      { "optionId": "B", "reasonId": "Cleaning tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "D", "reasonId": "To clean tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pada either ___ or, kata kerja mengikuti subjek yang paling dekat dengannya.",
+      "examples": [
+        { "en": "Either the bus or the trains arrive on time.", "id": "Bus atau kereta-kereta tiba tepat waktu." },
+        { "en": "Either Ani or her friends clean the room.", "id": "Ani atau teman-temannya membersihkan ruangan." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena manager dekat dengan kata kerja pertama, tetapi kata kerja mengikuti workers."
+  },
+  {
+    "id": "W05-013",
+    "week": 5,
+    "topicTag": "majority",
+    "type": "mcq",
+    "prompt": "The majority of the students ___ present today.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "be" },
+      { "id": "C", "text": "was" },
+      { "id": "D", "text": "are" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "The majority of mengikuti kata benda students yang jamak, sehingga memakai are.",
+    "stepByStep": [
+      "Kata benda di belakang of adalah students, yang jamak.",
+      "Kata kerja mengikuti students: are present.",
+      "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Is tidak cocok dengan students yang jamak." },
+      { "optionId": "B", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "C", "reasonId": "Was tunggal dan lampau, tidak cocok dengan today." }
+    ],
+    "ruleAndExamples": {
+      "rule": "The majority of mengikuti kata benda di belakang of untuk menentukan kata kerja.",
+      "examples": [
+        { "en": "The majority of the workers are here.", "id": "Sebagian besar pekerja ada di sini." },
+        { "en": "The majority of the team is ready.", "id": "Sebagian besar tim sudah siap." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena majority tunggal, tetapi kata kerja mengikuti students yang jamak."
+  },
+  {
+    "id": "W05-014",
+    "week": 5,
+    "topicTag": "several",
+    "type": "mcq",
+    "prompt": "Several of the answers ___ incorrect.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "was" },
+      { "id": "D", "text": "be" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Several adalah jamak, sehingga memakai are.",
+    "stepByStep": [
+      "Several menunjukkan beberapa, dan itu jamak.",
+      "Kata kerja jamak present untuk be adalah are.",
+      "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan several yang jamak." },
+      { "optionId": "C", "reasonId": "Was tunggal dan lampau, tidak cocok dengan several." },
+      { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Several adalah kata jamak yang memakai kata kerja jamak.",
+      "examples": [
+        { "en": "Several of the reports are late.", "id": "Beberapa laporan terlambat." },
+        { "en": "Several students are absent.", "id": "Beberapa siswa tidak hadir." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena answers dekat dengan kata kerja, tetapi several memakai kata kerja jamak."
+  },
+  {
+    "id": "W05-015",
+    "week": 5,
+    "topicTag": "kata-kerja-utama",
+    "type": "mcq",
+    "prompt": "In 'The book that the students chose is correct,' which word is the main verb?",
+    "options": [
+      { "id": "A", "text": "book" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "chose" },
+      { "id": "D", "text": "correct" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Is adalah kata kerja utama yang cocok dengan subjek book. Chose berada di dalam klausa that.",
+    "stepByStep": [
+      "Subjek kalimat adalah the book.",
+      "Klausa that the students chose adalah sisipan.",
+      "Correct adalah kata sifat, dan chose berada di dalam klausa."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Book adalah subjek, bukan kata kerja." },
+      { "optionId": "C", "reasonId": "Chose berada di dalam klausa that, bukan kata kerja utama." },
+      { "optionId": "D", "reasonId": "Correct adalah kata sifat, bukan kata kerja." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata kerja di dalam klausa that tidak selalu menjadi kata kerja utama kalimat.",
+      "examples": [
+        { "en": "The bread that we bought is fresh.", "id": "Roti yang kami beli masih segar." },
+        { "en": "The letter that he wrote was short.", "id": "Surat yang dia tulis itu pendek." }
+      ]
+    },
+    "examTrap": "Pilihan C chose terlihat seperti kata kerja utama, tetapi chose berada di dalam klausa that."
+  },
+  {
+    "id": "W05-016",
+    "week": 5,
+    "topicTag": "appositive",
+    "type": "mcq",
+    "prompt": "Lina, the new manager, ___ the meeting on Monday.",
+    "options": [
+      { "id": "A", "text": "runs" },
+      { "id": "B", "text": "run" },
+      { "id": "C", "text": "running" },
+      { "id": "D", "text": "to run" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek Lina tunggal, dan the new manager adalah appositive. Kata kerja utamanya runs.",
+    "stepByStep": [
+      "Subjek kalimat adalah Lina, yang tunggal.",
+      "The new manager adalah appositive yang diapit koma dan tidak mengubah kata kerja.",
+      "Run adalah jamak, running bukan kata kerja utama, dan to run tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Run adalah jamak, tidak cocok dengan Lina yang tunggal." },
+      { "optionId": "C", "reasonId": "Running tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "D", "reasonId": "To run tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Appositive tidak mengubah kata kerja. Kata kerja mengikuti subjek sebelum appositive.",
+      "examples": [
+        { "en": "Tom, the coach, trains the team every day.", "id": "Tom, pelatih itu, melatih tim setiap hari." },
+        { "en": "Sari, the nurse, works at night.", "id": "Sari, perawat itu, bekerja pada malam hari." }
+      ]
+    },
+    "examTrap": "Pilihan B run terlihat benar karena manager dekat dengan kata kerja, tetapi subjek kalimat tetap Lina yang tunggal."
+  },
+  {
+    "id": "W05-017",
+    "week": 5,
+    "topicTag": "frasa-depan",
+    "type": "mcq",
+    "prompt": "Which word is the object of the preposition in 'The keys beneath the box are missing'?",
+    "options": [
+      { "id": "A", "text": "keys" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "box" },
+      { "id": "D", "text": "missing" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Beneath adalah kata depan, dan box adalah kata benda yang mengikutinya, sehingga itu objek kata depan.",
+    "stepByStep": [
+      "Kata depan dalam kalimat ini adalah beneath.",
+      "Kata benda yang langsung mengikuti beneath adalah box.",
+      "Keys adalah subjek. Are adalah kata kerja utama. Missing bukan kata benda."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Keys adalah subjek kalimat, bukan objek kata depan." },
+      { "optionId": "B", "reasonId": "Are adalah kata kerja utama, bukan kata benda setelah kata depan." },
+      { "optionId": "D", "reasonId": "Missing bukan kata benda, sehingga tidak bisa menjadi objek kata depan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Objek kata depan adalah kata benda atau kata ganti yang mengikuti kata depan.",
+      "examples": [
+        { "en": "The bag under the chair is heavy.", "id": "Tas di bawah kursi itu berat." },
+        { "en": "The map beside the board is old.", "id": "Peta di samping papan tulis itu sudah lama." }
+      ]
+    },
+    "examTrap": "Pilihan A keys terlihat seperti kata benda penting di awal kalimat, tetapi keys adalah subjek."
+  },
+  {
+    "id": "W05-018",
+    "week": 5,
+    "topicTag": "despite",
+    "type": "mcq",
+    "prompt": "Despite the heavy traffic, the buses ___ on time this morning.",
+    "options": [
+      { "id": "A", "text": "arrives" },
+      { "id": "B", "text": "arriving" },
+      { "id": "C", "text": "to arrive" },
+      { "id": "D", "text": "arrived" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "This morning menunjukkan kejadian yang sudah terjadi pagi ini, sehingga memakai simple past: arrived.",
+    "stepByStep": [
+      "Despite the heavy traffic adalah frasa depan. Traffic bukan subjek.",
+      "Subjek kalimat adalah the buses, dan kejadian pagi ini sudah selesai.",
+      "Arrives adalah present tunggal, arriving bukan kata kerja utama, dan to arrive tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Arrives adalah present tunggal, tidak cocok dengan the buses yang jamak." },
+      { "optionId": "B", "reasonId": "Arriving tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "C", "reasonId": "To arrive tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Despite diikuti kata benda sebagai frasa depan. Subjek kalimat tetap berada di luar frasa itu.",
+      "examples": [
+        { "en": "Despite the rain, the buses arrived late.", "id": "Walaupun hujan, bus-bus itu tiba terlambat." },
+        { "en": "Despite the delay, the trains left on time.", "id": "Walaupun ada keterlambatan, kereta berangkat tepat waktu." }
+      ]
+    },
+    "examTrap": "Pilihan A arrives terlihat seperti kata kerja yang tepat, tetapi buses jamak dan waktunya sudah lampau."
+  },
+  {
+    "id": "W05-019",
+    "week": 5,
+    "topicTag": "unlike",
+    "type": "mcq",
+    "prompt": "Unlike her sisters, Rina ___ to the gym every morning.",
+    "options": [
+      { "id": "A", "text": "goes" },
+      { "id": "B", "text": "go" },
+      { "id": "C", "text": "going" },
+      { "id": "D", "text": "gone" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Subjek Rina tunggal. Unlike her sisters adalah frasa depan, sehingga kata kerjanya goes.",
+    "stepByStep": [
+      "Unlike her sisters adalah frasa depan. Sisters bukan subjek.",
+      "Subjek kalimat adalah Rina, yang tunggal.",
+      "Go adalah jamak, going dan gone bukan kata kerja utama yang tepat untuk kebiasaan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Go adalah jamak, tidak cocok dengan Rina yang tunggal." },
+      { "optionId": "C", "reasonId": "Going tidak bisa menjadi kata kerja utama untuk kebiasaan ini." },
+      { "optionId": "D", "reasonId": "Gone bukan bentuk kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Unlike diikuti kata benda sebagai frasa depan dan tidak mengubah subjek.",
+      "examples": [
+        { "en": "Unlike her brother, Ani studies every night.", "id": "Tidak seperti kakaknya, Ani belajar setiap malam." },
+        { "en": "Unlike the others, Budi arrives early.", "id": "Tidak seperti yang lain, Budi datang lebih awal." }
+      ]
+    },
+    "examTrap": "Pilihan B go terlihat benar karena sisters jamak, tetapi sisters berada dalam frasa depan."
+  },
+  {
+    "id": "W05-020",
+    "week": 5,
+    "topicTag": "frasa-depan",
+    "type": "mcq",
+    "prompt": "The students across the hall ___ preparing for the test.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "was" },
+      { "id": "D", "text": "be" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Subjek students jamak. Across the hall adalah frasa depan, sehingga memakai are preparing.",
+    "stepByStep": [
+      "Subjek kalimat adalah the students, yang jamak.",
+      "Across the hall adalah frasa depan dan tidak mengubah kata kerja.",
+      "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan students yang jamak." },
+      { "optionId": "C", "reasonId": "Was tunggal dan lampau, tidak cocok dengan preparing yang sedang berlangsung." },
+      { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Frasa depan seperti across the hall tidak mengubah subjek kalimat.",
+      "examples": [
+        { "en": "The teachers in the room are tired.", "id": "Para guru di ruangan itu lelah." },
+        { "en": "The students beside the window are reading.", "id": "Para siswa di samping jendela sedang membaca." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena hall tunggal dekat dengan kata kerja, tetapi subjek sebenarnya adalah students."
+  },
+  {
+    "id": "W05-021",
+    "week": 5,
+    "topicTag": "appositive",
+    "type": "mcq",
+    "prompt": "Mr. Budi, the owner of the shops, ___ the new rules.",
+    "options": [
+      { "id": "A", "text": "explain" },
+      { "id": "B", "text": "explaining" },
+      { "id": "C", "text": "explains" },
+      { "id": "D", "text": "explained" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Subjek Mr. Budi tunggal. The owner of the shops adalah appositive, sehingga kata kerjanya explains.",
+    "stepByStep": [
+      "Subjek kalimat adalah Mr. Budi, yang tunggal.",
+      "The owner of the shops adalah appositive yang tidak mengubah kata kerja.",
+      "Explain adalah jamak, explaining bukan kata kerja utama, dan explained adalah lampau yang tidak tampak dari konteks."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Explain adalah jamak, tidak cocok dengan Mr. Budi yang tunggal." },
+      { "optionId": "B", "reasonId": "Explaining tidak bisa menjadi kata kerja utama di sini." },
+      { "optionId": "D", "reasonId": "Explained adalah lampau, sedangkan kalimat tidak menunjukkan waktu lampau." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Appositive di antara dua koma tidak mengubah kata kerja utama.",
+      "examples": [
+        { "en": "Mr. Hasan, the principal, explains the rules.", "id": "Pak Hasan, kepala sekolah, menjelaskan aturan." },
+        { "en": "Ani, the captain, leads the team.", "id": "Ani, kapten, memimpin tim." }
+      ]
+    },
+    "examTrap": "Pilihan D explained terlihat benar karena rules sudah dibicarakan, tetapi tidak ada tanda waktu lampau dalam kalimat."
+  },
+  {
+    "id": "W05-022",
+    "week": 5,
+    "topicTag": "each-every",
+    "type": "mcq",
+    "prompt": "Each one of the boys ___ a bicycle.",
+    "options": [
+      { "id": "A", "text": "have" },
+      { "id": "B", "text": "are having" },
+      { "id": "C", "text": "having" },
+      { "id": "D", "text": "has" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Each one adalah subjek tunggal, sehingga kata kerjanya has.",
+    "stepByStep": [
+      "Subjek kalimat adalah each one, yang tunggal.",
+      "Kata kerja tunggal untuk have adalah has.",
+      "Have jamak, are having jamak, dan having tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan each one yang tunggal." },
+      { "optionId": "B", "reasonId": "Are having jamak, tidak cocok dengan each one." },
+      { "optionId": "C", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Each one of memakai kata kerja tunggal, walaupun kata benda di belakangnya jamak.",
+      "examples": [
+        { "en": "Each one of the girls has a notebook.", "id": "Setiap anak perempuan punya buku catatan." },
+        { "en": "Each one of the cars is new.", "id": "Setiap mobil itu baru." }
+      ]
+    },
+    "examTrap": "Pilihan A have terlihat benar karena boys jamak, tetapi subjek kalimat adalah each one yang tunggal."
+  },
+  {
+    "id": "W05-023",
+    "week": 5,
+    "topicTag": "nothing",
+    "type": "mcq",
+    "prompt": "Nothing in the boxes ___ broken.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "be" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Nothing adalah kata ganti tunggal, sehingga kata kerjanya is.",
+    "stepByStep": [
+      "Subjek kalimat adalah nothing, yang tunggal.",
+      "In the boxes adalah frasa depan dan tidak mengubah kata kerja.",
+      "Are dan were jamak, sedangkan be tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Are jamak, tidak cocok dengan nothing yang tunggal." },
+      { "optionId": "C", "reasonId": "Were jamak dan lampau, tidak cocok dengan nothing." },
+      { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Nothing, everything, dan something adalah kata ganti tunggal dan memakai kata kerja tunggal.",
+      "examples": [
+        { "en": "Nothing in the room is wrong.", "id": "Tidak ada yang salah di ruangan itu." },
+        { "en": "Everything on the list is correct.", "id": "Semua yang ada di daftar itu benar." }
+      ]
+    },
+    "examTrap": "Pilihan B are terlihat benar karena boxes jamak, tetapi nothing tetap memakai kata kerja tunggal."
+  },
+  {
+    "id": "W05-024",
+    "week": 5,
+    "topicTag": "subjek-kata-kerja",
+    "type": "mcq",
+    "prompt": "Which word is the subject in 'Sari, a painter from Bali, lives near the school'?",
+    "options": [
+      { "id": "A", "text": "Bali" },
+      { "id": "B", "text": "painter" },
+      { "id": "C", "text": "school" },
+      { "id": "D", "text": "Sari" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Sari adalah subjek. A painter from Bali adalah appositive yang menjelaskan Sari.",
+    "stepByStep": [
+      "Kata kerja utama adalah lives.",
+      "Subjek yang cocok dengan lives adalah Sari, yang tunggal.",
+      "A painter from Bali adalah appositive, dan school adalah objek kata depan near."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Bali adalah bagian dari appositive, bukan subjek." },
+      { "optionId": "B", "reasonId": "Painter adalah kata benda dalam appositive, bukan subjek utama." },
+      { "optionId": "C", "reasonId": "School adalah objek kata depan near, bukan subjek." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Appositive yang diapit koma menjelaskan subjek tanpa menjadi subjek utama.",
+      "examples": [
+        { "en": "Ani, a doctor from Medan, lives near the hospital.", "id": "Ani, seorang dokter dari Medan, tinggal dekat rumah sakit." },
+        { "en": "Budi, a teacher, works in Bandung.", "id": "Budi, seorang guru, bekerja di Bandung." }
+      ]
+    },
+    "examTrap": "Pilihan B painter terlihat sebagai subjek karena berada dekat awal, tetapi painter adalah bagian dari appositive."
+  },
+  {
+    "id": "W05-025",
+    "week": 5,
+    "topicTag": "pengecekan-kesalahan",
+    "type": "mcq",
+    "prompt": "Which sentence contains an error?",
+    "options": [
+      { "id": "A", "text": "The team has finished its work." },
+      { "id": "B", "text": "The list of names is long." },
+      { "id": "C", "text": "Each of the players have a uniform." },
+      { "id": "D", "text": "The students are ready for the test." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Each of the players adalah subjek tunggal, sehingga kata kerjanya harus has, bukan have.",
+    "stepByStep": [
+      "Cari subjek setiap kalimat: the team, the list, each, dan the students.",
+      "Each adalah subjek tunggal, sehingga kalimat C seharusnya memakai has.",
+      "Kalimat A, B, dan D sudah cocok dengan subjek masing-masing."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Kalimat ini benar: the team tunggal dan memakai has." },
+      { "optionId": "B", "reasonId": "Kalimat ini benar: the list tunggal dan memakai is." },
+      { "optionId": "D", "reasonId": "Kalimat ini benar: the students jamak dan memakai are." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah each of, kata kerja tunggal. Setelah the team, kata kerja tunggal.",
+      "examples": [
+        { "en": "Each of the players has a uniform.", "id": "Masing-masing pemain punya seragam." },
+        { "en": "The team has finished its work.", "id": "Tim itu sudah menyelesaikan pekerjaannya." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat paling salah karena jamak, tetapi kalimat itu sebenarnya benar. Kesalahan ada di pilihan C."
+  },
+  {
+    "id": "W05-026",
+    "week": 5,
+    "topicTag": "pengecekan-kesalahan",
+    "type": "mcq",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      { "id": "A", "text": "Several of the children are playing outside." },
+      { "id": "B", "text": "Several of the children is playing outside." },
+      { "id": "C", "text": "Several of the children plays outside." },
+      { "id": "D", "text": "Several of the children were play outside." }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Several adalah jamak, dan children juga jamak, sehingga memakai are playing.",
+    "stepByStep": [
+      "Several adalah kata jamak.",
+      "Children jamak, dan kata kerja progresif jamak adalah are playing.",
+      "Is playing tunggal, plays tunggal, dan were play salah bentuk."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan several yang jamak." },
+      { "optionId": "C", "reasonId": "Plays tunggal dan tidak cocok dengan several yang jamak." },
+      { "optionId": "D", "reasonId": "Were play salah bentuk. Setelah were, gunakan -ing: were playing." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Several of memakai kata benda jamak dan kata kerja jamak.",
+      "examples": [
+        { "en": "Several of the boys are running.", "id": "Beberapa anak laki-laki sedang berlari." },
+        { "en": "Several of the students were absent.", "id": "Beberapa siswa tidak hadir." }
+      ]
+    },
+    "examTrap": "Pilihan B terlihat benar karena children dekat dengan is, tetapi several memakai kata kerja jamak."
+  },
+  {
+    "id": "W05-027",
+    "week": 5,
+    "topicTag": "someone",
+    "type": "mcq",
+    "prompt": "Someone ___ left the lights on in the office.",
+    "options": [
+      { "id": "A", "text": "have" },
+      { "id": "B", "text": "has" },
+      { "id": "C", "text": "are" },
+      { "id": "D", "text": "were" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Someone adalah kata ganti tunggal, sehingga kata kerjanya has.",
+    "stepByStep": [
+      "Someone adalah kata ganti tunggal.",
+      "Kata kerja tunggal untuk have adalah has.",
+      "Have dan are jamak, dan were jamak atau lampau yang tidak cocok dengan someone."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan someone yang tunggal." },
+      { "optionId": "C", "reasonId": "Are jamak, tidak cocok dengan someone." },
+      { "optionId": "D", "reasonId": "Were jamak dan lampau, tidak cocok dengan someone." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Someone, somebody, anybody, dan nobody adalah kata ganti tunggal.",
+      "examples": [
+        { "en": "Somebody has taken my pen.", "id": "Seseorang sudah mengambil pulpen saya." },
+        { "en": "Anybody has the answer key.", "id": "Siapa pun punya kunci jawaban." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti kata kerja biasa, tetapi someone tunggal dan harus memakai has."
+  },
+  {
+    "id": "W05-028",
+    "week": 5,
+    "topicTag": "no-one",
+    "type": "mcq",
+    "prompt": "No one in the group ___ the answer yet.",
+    "options": [
+      { "id": "A", "text": "know" },
+      { "id": "B", "text": "known" },
+      { "id": "C", "text": "knowing" },
+      { "id": "D", "text": "knows" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "No one adalah kata ganti tunggal, sehingga kata kerjanya knows.",
+    "stepByStep": [
+      "Subjek kalimat adalah no one, yang tunggal.",
+      "Kata kerja tunggal present untuk know adalah knows.",
+      "Know jamak, known dan knowing bukan kata kerja utama yang tepat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Know jamak, tidak cocok dengan no one yang tunggal." },
+      { "optionId": "B", "reasonId": "Known bukan kata kerja utama di sini." },
+      { "optionId": "C", "reasonId": "Knowing tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "No one adalah kata ganti tunggal dan memakai kata kerja tunggal.",
+      "examples": [
+        { "en": "No one in the class knows the answer.", "id": "Tidak ada seorang pun di kelas yang tahu jawabannya." },
+        { "en": "No one has read the report yet.", "id": "Belum ada yang membaca laporan itu." }
+      ]
+    },
+    "examTrap": "Pilihan A know terlihat benar karena group jamak dekat dengan kata kerja, tetapi no one tunggal."
+  },
+  {
+    "id": "W05-029",
+    "week": 5,
+    "topicTag": "each-every",
+    "type": "mcq",
+    "prompt": "Each of the answers ___ checked carefully.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "have been" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Each adalah subjek tunggal, sehingga pasif sekarang memakai is checked.",
+    "stepByStep": [
+      "Subjek kalimat adalah each, yang tunggal.",
+      "Pasif sekarang tunggal memakai is checked.",
+      "Are dan were jamak, sedangkan have been tidak cocok dengan each yang tunggal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan each yang tunggal." },
+      { "optionId": "C", "reasonId": "Were jamak dan lampau, tidak cocok dengan makna sekarang." },
+      { "optionId": "D", "reasonId": "Have been jamak, tidak cocok dengan each yang tunggal." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Each of memakai kata kerja tunggal, termasuk pada kalimat pasif.",
+      "examples": [
+        { "en": "Each of the reports is reviewed by the manager.", "id": "Masing-masing laporan ditinjau oleh manajer." },
+        { "en": "Each of the rooms is cleaned every day.", "id": "Masing-masing ruangan dibersihkan setiap hari." }
+      ]
+    },
+    "examTrap": "Pilihan D have been terlihat benar untuk pasif, tetapi each menuntut kata kerja tunggal."
+  },
+  {
+    "id": "W05-030",
+    "week": 5,
+    "topicTag": "appositive",
+    "type": "mcq",
+    "prompt": "Which sentence uses commas correctly for an appositive?",
+    "options": [
+      { "id": "A", "text": "My cousin Dina a doctor lives in Surabaya." },
+      { "id": "B", "text": "My cousin, Dina, a doctor lives in Surabaya." },
+      { "id": "C", "text": "My cousin, Dina, a doctor, lives in Surabaya." },
+      { "id": "D", "text": "My cousin Dina, a doctor lives in Surabaya." }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Appositive yang ditengah kalimat harus diapit koma di kedua sisinya: my cousin, Dina, a doctor, lives.",
+    "stepByStep": [
+      "Dina dan a doctor adalah appositive yang menjelaskan my cousin.",
+      "Appositive di tengah kalimat diapit koma di kedua sisi.",
+      "Pilihan A tidak memakai koma. Pilihan B dan D hanya memakai satu sisi koma."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Tidak ada koma untuk memisahkan appositive." },
+      { "optionId": "B", "reasonId": "Koma kedua setelah a doctor tidak ada, sehingga appositive tidak tertutup." },
+      { "optionId": "D", "reasonId": "Koma setelah a doctor tidak ada, sehingga appositive tidak tertutup." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Appositive di tengah kalimat diapit dua koma, dan kata kerja utama tetap mengikuti subjek.",
+      "examples": [
+        { "en": "My uncle, a pilot, lives in Medan.", "id": "Paman saya, seorang pilot, tinggal di Medan." },
+        { "en": "Rudi, the new author, is writing a book.", "id": "Rudi, penulis baru itu, sedang menulis buku." }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat hampir benar karena ada satu koma, tetapi appositive di tengah kalimat perlu koma di kedua sisi."
+  }
+]

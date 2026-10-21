@@ -1,0 +1,613 @@
+{
+  "day": 34,
+  "week": 5,
+  "month": 2,
+  "title": "Subject-Verb Agreement: each, every, either/neither",
+  "topic": "Kata kerja tunggal atau jamak untuk each, every, either, neither, dan kata ganti gabungan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memakai kata kerja tunggal untuk each, every, dan everyone",
+    "Memilih kata kerja yang tepat setelah either ___ or dan neither ___ nor",
+    "Mengenali kata ganti tak tentu seperti nothing, someone, dan anybody"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "each", "pronunciationId": "EECH (tekanan di EECH)", "pos": "Other", "meaningId": "masing-masing, setiap", "example": "Each student has a book.", "exampleId": "Setiap siswa punya buku." },
+      { "no": 2, "en": "every", "pronunciationId": "EV-ree (tekanan di EV)", "pos": "Other", "meaningId": "setiap", "example": "Every day I walk to school.", "exampleId": "Setiap hari saya berjalan ke sekolah." },
+      { "no": 3, "en": "each one", "pronunciationId": "EECH WUN (tekanan di EECH)", "pos": "Other", "meaningId": "masing-masing satu", "example": "Each one of them is ready.", "exampleId": "Masing-masing dari mereka sudah siap." },
+      { "no": 4, "en": "no one", "pronunciationId": "NOH WUN (tekanan di NOH)", "pos": "Other", "meaningId": "tidak seorang pun", "example": "No one knows the answer.", "exampleId": "Tidak seorang pun tahu jawabannya." },
+      { "no": 5, "en": "everyone", "pronunciationId": "EV-ree-wun (tekanan di EV)", "pos": "Other", "meaningId": "semua orang", "example": "Everyone is invited.", "exampleId": "Semua orang diundang." },
+      { "no": 6, "en": "anybody", "pronunciationId": "EN-ee-bo-dee (tekanan di EN)", "pos": "Other", "meaningId": "siapa pun", "example": "Is anybody here?", "exampleId": "Apakah ada orang di sini?" },
+      { "no": 7, "en": "somebody", "pronunciationId": "SUM-bo-dee (tekanan di SUM)", "pos": "Other", "meaningId": "seseorang", "example": "Somebody called you.", "exampleId": "Seseorang menelepon kamu." },
+      { "no": 8, "en": "everything", "pronunciationId": "EV-ree-thing (tekanan di EV)", "pos": "Other", "meaningId": "semua hal", "example": "Everything is ready.", "exampleId": "Semuanya sudah siap." },
+      { "no": 9, "en": "nothing", "pronunciationId": "NUTH-ing (tekanan di NUTH)", "pos": "Other", "meaningId": "tidak ada apa pun", "example": "Nothing is wrong.", "exampleId": "Tidak ada yang salah." },
+      { "no": 10, "en": "someone", "pronunciationId": "SUM-wun (tekanan di SUM)", "pos": "Other", "meaningId": "seseorang", "example": "Someone will help us.", "exampleId": "Seseorang akan membantu kami." }
+    ],
+    "tip": "Each, every, everyone, everything, nothing, dan someone diikuti kata kerja tunggal. Either dan neither mengikuti subjek yang paling dekat dengan kata kerja."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["subject verb agreement TOEFL", "each every either neither English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kesesuaian subjek dan kata kerja untuk each, every, either, neither, dan kata ganti tak tentu.",
+      "watchFor": [
+        "Each dan every diikuti kata kerja tunggal",
+        "Either ___ or dan neither ___ nor mengikuti subjek terdekat",
+        "Kata ganti seperti everyone dan nothing selalu tunggal"
+      ]
+    },
+    "lesson": {
+      "intro": "Kesesuaian subjek dan kata kerja berarti kata kerja mengikuti bentuk subjeknya. Beberapa kata terlihat jamak, tetapi maknanya tunggal. Pola ini sering muncul di soal struktur dan di percakapan sehari-hari.",
+      "sections": [
+        {
+          "heading": "Each, every, dan everyone",
+          "bodyMd": "**Each**, **every**, dan **each one** memakai kata kerja tunggal: **Each student has a book.** **Every bus needs a driver.** Kata ganti seperti **everyone**, **everything**, dan **nothing** juga tunggal: **Everyone is here.**"
+        },
+        {
+          "heading": "Either ___ or dan neither ___ nor",
+          "bodyMd": "Kata kerja mengikuti subjek yang paling dekat dengannya: **Either the teacher or the students clean the room.** **Neither the manager nor the workers are ready.** Pada **neither of**, kata kerjanya tunggal: **Neither of the answers is correct.**"
+        },
+        {
+          "heading": "Kata ganti tak tentu",
+          "bodyMd": "**Somebody**, **someone**, **anybody**, dan **nobody** tunggal. **No one** juga tunggal, walaupun artinya tidak ada orang sama sekali: **No one knows the answer.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Each / every", "pattern": "each / every + kata benda tunggal + kata kerja tunggal" },
+        { "label": "Either / neither", "pattern": "either A or B / neither A nor B + kata kerja sesuai B" },
+        { "label": "Kata ganti", "pattern": "everyone / everything / nothing / someone + kata kerja tunggal" },
+        { "label": "Each of", "pattern": "each of + kata benda jamak + kata kerja tunggal" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Every student in the class has a notebook.", "id": "Setiap siswa di kelas punya buku catatan." },
+          { "en": "Each of the drivers is waiting now.", "id": "Masing-masing pengemudi sedang menunggu sekarang." },
+          { "en": "Everyone in the team works hard.", "id": "Semua orang di tim bekerja keras." },
+          { "en": "Neither of the teachers has arrived.", "id": "Tidak satu pun dari guru-guru itu sudah datang." },
+          { "en": "Someone left the lights on.", "id": "Seseorang meninggalkan lampu menyala." }
+        ],
+        "negative": [
+          { "en": "Every bus does not need a driver today.", "id": "Tidak setiap bus butuh pengemudi hari ini." },
+          { "en": "Nothing in the box is broken.", "id": "Tidak ada yang rusak di dalam kotak itu." },
+          { "en": "No one has seen the report yet.", "id": "Belum ada seorang pun yang melihat laporan itu." },
+          { "en": "Neither the boys nor the girl knows the answer.", "id": "Baik anak laki-laki maupun anak perempuan itu tidak tahu jawabannya." },
+          { "en": "Nobody is waiting outside.", "id": "Tidak ada seorang pun yang menunggu di luar." }
+        ],
+        "question": [
+          { "en": "Is everyone ready?", "id": "Apakah semua orang sudah siap?" },
+          { "en": "Does each student have a book?", "id": "Apakah setiap siswa punya buku?" },
+          { "en": "Is anybody checking the bags?", "id": "Apakah ada yang memeriksa tas-tas itu?" },
+          { "en": "Is neither of the answers correct?", "id": "Apakah tidak satu pun dari jawaban itu benar?" },
+          { "en": "Has someone called the office?", "id": "Apakah seseorang sudah menelepon kantor?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Every student have a book.", "right": "Every student has a book.", "whyId": "Every diikuti kata benda tunggal dan kata kerja tunggal: has." },
+        { "wrong": "Each of the drivers are waiting.", "right": "Each of the drivers is waiting.", "whyId": "Each adalah subjek tunggal, walaupun diikuti kata benda jamak." },
+        { "wrong": "Everyone are ready.", "right": "Everyone is ready.", "whyId": "Everyone adalah kata ganti tunggal." },
+        { "wrong": "Neither the boys nor the girl know the answer.", "right": "Neither the boys nor the girl knows the answer.", "whyId": "Kata kerja mengikuti subjek terdekat, yaitu the girl yang tunggal." },
+        { "wrong": "Nothing in these boxes are broken.", "right": "Nothing in these boxes is broken.", "whyId": "Nothing adalah kata ganti tunggal." },
+        { "wrong": "Neither of the answers are correct.", "right": "Neither of the answers is correct.", "whyId": "Pola neither of memakai kata kerja tunggal." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["subject verb agreement TOEFL", "planning a trip English conversation"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Each, every, dan everyone dalam rencana perjalanan",
+        "Neither of dan no one dalam percakapan"
+      ]
+    },
+    "script": {
+      "title": "Persiapan perjalanan sekolah",
+      "lines": [
+        { "speaker": "Mia", "text": "Hi Rafi, is everyone ready for the trip?" },
+        { "speaker": "Rafi", "text": "Almost. Each one of the students has a ticket, but every bus needs a driver." },
+        { "speaker": "Mia", "text": "Is anybody checking the bags? I think nobody has checked them yet." },
+        { "speaker": "Rafi", "text": "Somebody from the office said that everything is ready. Each of the drivers is waiting now." },
+        { "speaker": "Mia", "text": "Good. No one should forget the lunch boxes." },
+        { "speaker": "Rafi", "text": "Right. Neither of the teachers has told me the time, though." },
+        { "speaker": "Mia", "text": "Someone will tell us soon." },
+        { "speaker": "Rafi", "text": "Nothing is more important than safety." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada everyone dan everything, tekanan ada di suku pertama: EV-ree-wun.",
+      "Pada nobody dan nothing, bunyi n di akhir tetap jelas: NOH-bo-dee, NUTH-ing.",
+      "Pada neither, ucapkan NEE-ther atau NY-ther, dan jaga bunyi th tetap lembut."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is Mia asking about?",
+        "options": [
+          { "id": "A", "text": "the lunch boxes" },
+          { "id": "B", "text": "the bus time" },
+          { "id": "C", "text": "whether everyone is ready for the trip" },
+          { "id": "D", "text": "the driver's name" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Mia bertanya 'is everyone ready for the trip?', artinya ia menanyakan apakah semua orang siap untuk perjalanan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kotak makan siang disebut nanti, bukan pertanyaan Mia di awal." },
+          { "optionId": "B", "reasonId": "Waktu bus tidak ditanyakan Mia." },
+          { "optionId": "D", "reasonId": "Nama pengemudi tidak disebut dalam percakapan." }
+        ],
+        "evidence": "is everyone ready for the trip"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Who has a ticket?",
+        "options": [
+          { "id": "A", "text": "only the drivers" },
+          { "id": "B", "text": "each one of the students" },
+          { "id": "C", "text": "no one" },
+          { "id": "D", "text": "the teachers" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Rafi berkata 'Each one of the students has a ticket', artinya setiap siswa punya tiket.",
+        "stepByStep": [
+          "Cari ticket di naskah: 'Each one of the students has a ticket.'",
+          "Subjeknya each one, dan kata kerjanya has karena tunggal.",
+          "Hanya pengemudi, tidak ada, dan guru tidak disebut punya tiket."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pengemudi tidak disebut punya tiket dalam teks." },
+          { "optionId": "C", "reasonId": "No one bertentangan dengan 'each one ___ has a ticket'." },
+          { "optionId": "D", "reasonId": "Guru tidak disebut punya tiket." }
+        ],
+        "evidence": "Each one of the students has a ticket"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What has neither of the teachers told Rafi?",
+        "options": [
+          { "id": "A", "text": "the bus route" },
+          { "id": "B", "text": "the price" },
+          { "id": "C", "text": "the driver's name" },
+          { "id": "D", "text": "the time" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Rafi berkata 'Neither of the teachers has told me the time', artinya tidak satu pun guru memberi tahu waktunya.",
+        "stepByStep": [
+          "Cari neither di naskah: 'Neither of the teachers has told me the time.'",
+          "Yang tidak diberi tahu adalah the time.",
+          "Rute bus, harga, dan nama pengemudi tidak disebut dalam kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Rute bus tidak disebut dalam kalimat ini." },
+          { "optionId": "B", "reasonId": "Harga tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Nama pengemudi tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Neither of the teachers has told me the time"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Mia say about the lunch boxes?",
+        "options": [
+          { "id": "A", "text": "They are not needed." },
+          { "id": "B", "text": "Everyone should remember them." },
+          { "id": "C", "text": "Only the drivers should take them." },
+          { "id": "D", "text": "They were already packed by the teachers." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mia berkata 'No one should forget the lunch boxes', artinya semua orang harus ingat kotak makan siang.",
+        "stepByStep": [
+          "Cari lunch boxes di naskah: 'No one should forget the lunch boxes.'",
+          "No one should forget berarti semua orang harus ingat.",
+          "Pilihan A bertentangan dengan should forget. Pilihan C dan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut kotak itu harus diingat, bukan tidak diperlukan." },
+          { "optionId": "C", "reasonId": "Teks menyebut semua orang, bukan hanya pengemudi." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut guru sudah mengemasnya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "No one should forget berarti semua orang harus mengingat. Kalimat negatif dengan no one bisa bermakna positif.",
+          "examples": [
+            { "en": "No one should be late for the bus.", "id": "Tidak seorang pun boleh terlambat untuk bus." },
+            { "en": "Nobody should forget the rules.", "id": "Tidak seorang pun boleh lupa aturan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena kata negatif muncul, tetapi kalimat Mia justru menyuruh semua orang mengingat kotak itu.",
+        "evidence": "No one should forget the lunch boxes"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement best describes the safety message?",
+        "options": [
+          { "id": "A", "text": "Safety is the least important part." },
+          { "id": "B", "text": "Safety depends on the weather." },
+          { "id": "C", "text": "Safety is only for drivers." },
+          { "id": "D", "text": "Safety is more important than anything else." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Rafi berkata 'Nothing is more important than safety', artinya keselamatan lebih penting daripada apa pun.",
+        "stepByStep": [
+          "Cari nothing dan safety di naskah: 'Nothing is more important than safety.'",
+          "Nothing is more important berarti tidak ada yang lebih penting dari keselamatan.",
+          "Pilihan A bertentangan dengan pesan itu. Pilihan B dan C tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Keselamatan disebut paling penting, bukan paling tidak penting." },
+          { "optionId": "B", "reasonId": "Cuaca tidak disebut dalam kalimat ini." },
+          { "optionId": "C", "reasonId": "Keselamatan tidak dibatasi hanya untuk pengemudi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nothing is more important than ___ berarti sesuatu adalah yang paling penting.",
+          "examples": [
+            { "en": "Nothing is more important than your health.", "id": "Tidak ada yang lebih penting daripada kesehatanmu." },
+            { "en": "Nothing is better than a good night's sleep.", "id": "Tidak ada yang lebih baik daripada tidur malam yang nyenyak." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kebalikan yang benar, tetapi nothing is more important berarti keselamatan paling penting.",
+        "evidence": "Nothing is more important than safety"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Every student in the class ___ a notebook.",
+        "options": [
+          { "id": "A", "text": "have" },
+          { "id": "B", "text": "has" },
+          { "id": "C", "text": "having" },
+          { "id": "D", "text": "had" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Every diikuti kata benda tunggal dan kata kerja tunggal: has.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Have tidak cocok dengan every yang tunggal." },
+          { "optionId": "C", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Had adalah lampau, tidak cocok dengan kebiasaan ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Neither the boys nor the girl ___ the answer.",
+        "options": [
+          { "id": "A", "text": "knows" },
+          { "id": "B", "text": "know" },
+          { "id": "C", "text": "knowing" },
+          { "id": "D", "text": "known" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Pada neither ___ nor, kata kerja mengikuti subjek terdekat, yaitu the girl yang tunggal: knows.",
+        "stepByStep": [
+          "Subjek terdekat dengan kata kerja adalah the girl, yang tunggal.",
+          "Kata kerja tunggal untuk orang ketiga adalah knows.",
+          "Know memakai subjek jamak, knowing dan known bukan kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Know tidak cocok dengan the girl yang tunggal." },
+          { "optionId": "C", "reasonId": "Knowing tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Known tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Everyone in the team ___ very hard this month.",
+        "options": [
+          { "id": "A", "text": "work" },
+          { "id": "B", "text": "works" },
+          { "id": "C", "text": "working" },
+          { "id": "D", "text": "worked" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Everyone adalah kata ganti tunggal, sehingga kata kerjanya works.",
+        "stepByStep": [
+          "Everyone adalah kata ganti tunggal.",
+          "Kata kerja present tunggal untuk everyone adalah works.",
+          "Work adalah jamak, working bukan kata kerja utama, dan worked tidak cocok dengan this month yang masih berlangsung."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Work adalah jamak, tidak cocok dengan everyone." },
+          { "optionId": "C", "reasonId": "Working tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Worked tidak cocok dengan this month yang masih berlangsung." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Either the teacher or the students ___ the room after class.",
+        "options": [
+          { "id": "A", "text": "cleans" },
+          { "id": "B", "text": "cleaned" },
+          { "id": "C", "text": "clean" },
+          { "id": "D", "text": "cleaning" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Pada either ___ or, kata kerja mengikuti subjek terdekat, yaitu the students yang jamak: clean.",
+        "stepByStep": [
+          "Subjek terdekat dengan kata kerja adalah the students, yang jamak.",
+          "Kata kerja jamak present adalah clean.",
+          "Cleans dan cleaned tidak cocok dengan subjek jamak, dan cleaning tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Cleans tunggal, tidak cocok dengan the students." },
+          { "optionId": "B", "reasonId": "Cleaned adalah lampau, tidak cocok dengan kebiasaan setelah kelas." },
+          { "optionId": "D", "reasonId": "Cleaning tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada either ___ or, kata kerja mengikuti subjek yang paling dekat dengannya.",
+          "examples": [
+            { "en": "Either Ani or her friends clean the room.", "id": "Ani atau teman-temannya membersihkan ruangan." },
+            { "en": "Either the bus or the trains arrive on time.", "id": "Bus atau kereta-kereta tiba tepat waktu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena the teacher tunggal berada di awal, tetapi kata kerja mengikuti the students yang dekat dengan kata kerja."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Nothing in these boxes ___ valuable, but everything ___ carefully wrapped.",
+        "options": [
+          { "id": "A", "text": "are / are" },
+          { "id": "B", "text": "is / is" },
+          { "id": "C", "text": "is / are" },
+          { "id": "D", "text": "are / is" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Nothing dan everything keduanya kata ganti tunggal, sehingga memakai is / is.",
+        "stepByStep": [
+          "Nothing adalah kata ganti tunggal, sehingga kata kerjanya is.",
+          "Everything juga kata ganti tunggal, sehingga kata kerjanya is.",
+          "Are tidak cocok dengan nothing atau everything. Pilihan C dan D mencampur bentuk tunggal dan jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan nothing atau everything yang tunggal." },
+          { "optionId": "C", "reasonId": "Everything memakai is, bukan are." },
+          { "optionId": "D", "reasonId": "Nothing memakai is, bukan are." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nothing, everything, dan something adalah kata ganti tunggal dan memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "Nothing in the room is broken.", "id": "Tidak ada yang rusak di ruangan itu." },
+            { "en": "Everything on the table is clean.", "id": "Semua yang ada di meja itu bersih." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena nothing dan everything dipisahkan dengan frasa, tetapi keduanya tetap tunggal."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Setiap siswa punya buku.",
+        "hint": "Setiap siswa: every student. Punya: has.",
+        "acceptedAnswers": ["Every student has a book.", "Every student has one book."],
+        "modelAnswer": "Every student has a book.",
+        "commonErrors": [{ "pattern": "Every student have a book", "feedbackId": "Every diikuti kata benda tunggal dan kata kerja tunggal: has." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Masing-masing dari mereka sudah selesai.",
+        "hint": "Masing-masing dari mereka: each of them. Sudah selesai: has finished.",
+        "acceptedAnswers": ["Each of them has finished.", "Each one of them has finished."],
+        "modelAnswer": "Each of them has finished.",
+        "commonErrors": [{ "pattern": "Each of them have finished", "feedbackId": "Each adalah subjek tunggal, jadi kata kerjanya has." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tidak ada seorang pun yang tahu jawabannya.",
+        "hint": "Tidak ada seorang pun: no one. Tahu: knows.",
+        "acceptedAnswers": ["No one knows the answer.", "Nobody knows the answer."],
+        "modelAnswer": "No one knows the answer.",
+        "commonErrors": [{ "pattern": "No one know the answer", "feedbackId": "No one adalah kata ganti tunggal, jadi memakai knows." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Salah satu dari ibu atau ayah saya suka musik.",
+        "hint": "Salah satu dari: either ___ or. Suka: likes.",
+        "acceptedAnswers": ["Either my mother or my father likes music."],
+        "modelAnswer": "Either my mother or my father likes music.",
+        "commonErrors": [{ "pattern": "Either my mother or my father like music", "feedbackId": "Kata kerja mengikuti father yang tunggal dan dekat dengan kata kerja: likes." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Tidak ada yang lebih penting daripada kesehatan, dan semuanya sudah siap.",
+        "hint": "Tidak ada yang lebih penting: nothing is more important than. Semuanya sudah siap: everything is ready.",
+        "acceptedAnswers": [
+          "Nothing is more important than health, and everything is ready.",
+          "Nothing is more important than health and everything is ready."
+        ],
+        "modelAnswer": "Nothing is more important than health, and everything is ready.",
+        "commonErrors": [{ "pattern": "Nothing are more important", "feedbackId": "Nothing adalah kata ganti tunggal, sehingga memakai is." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'Each of the cars ___ a new engine.'",
+        "options": [
+          { "id": "A", "text": "have" },
+          { "id": "B", "text": "having" },
+          { "id": "C", "text": "are having" },
+          { "id": "D", "text": "has" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Each adalah subjek tunggal, sehingga kata kerjanya has.",
+        "stepByStep": [
+          "Subjek kalimat adalah each, yang tunggal.",
+          "Kata kerja tunggal untuk each adalah has.",
+          "Have dan are having memakai bentuk jamak, dan having tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan each yang tunggal." },
+          { "optionId": "B", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "C", "reasonId": "Are having memakai bentuk jamak, tidak cocok dengan each." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Each of diikuti kata benda jamak, tetapi kata kerjanya tetap tunggal.",
+          "examples": [
+            { "en": "Each of the students has a laptop.", "id": "Masing-masing siswa punya laptop." },
+            { "en": "Each of the windows is open.", "id": "Masing-masing jendela terbuka." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena cars jamak, tetapi subjek kalimat adalah each yang tunggal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Everybody has finished the test." },
+          { "id": "B", "text": "Everybody have finished the test." },
+          { "id": "C", "text": "Everybody are finished the test." },
+          { "id": "D", "text": "Everybody have been finish the test." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Everybody adalah kata ganti tunggal, sehingga memakai has finished.",
+        "stepByStep": [
+          "Everybody adalah kata ganti tunggal.",
+          "Present perfect untuk everybody memakai has finished.",
+          "Have finished, are finished, dan have been finish memakai bentuk jamak atau salah bentuk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Have jamak, tidak cocok dengan everybody yang tunggal." },
+          { "optionId": "C", "reasonId": "Are finished tidak membentuk kalimat yang benar di sini." },
+          { "optionId": "D", "reasonId": "Have been finish salah bentuk. Setelah been gunakan V-ing atau V3." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Everybody, everyone, everything, dan everything adalah kata ganti tunggal.",
+          "examples": [
+            { "en": "Everybody has arrived at the station.", "id": "Semua orang sudah tiba di stasiun." },
+            { "en": "Everyone is waiting for the bus.", "id": "Semua orang sedang menunggu bus." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena everybody berarti banyak orang, tetapi bentuknya tetap tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'Neither of the answers ___ correct.'",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "were" },
+          { "id": "D", "text": "have been" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Neither of memakai kata kerja tunggal, sehingga kata kerjanya is.",
+        "stepByStep": [
+          "Pola neither of memakai kata kerja tunggal.",
+          "Bentuk present tunggal dari be untuk neither adalah is.",
+          "Are jamak, were lampau jamak, dan have been bukan bentuk yang tepat untuk makna sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are jamak, tidak cocok dengan neither of yang tunggal." },
+          { "optionId": "C", "reasonId": "Were adalah lampau jamak, tidak cocok dengan makna sekarang." },
+          { "optionId": "D", "reasonId": "Have been bukan bentuk yang tepat untuk subjek tunggal dan makna sekarang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Neither of dan either of memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "Neither of the students is absent.", "id": "Tidak satu pun siswa yang tidak hadir." },
+            { "en": "Either of the bags is fine.", "id": "Salah satu dari tas itu baik-baik saja." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena answers jamak, tetapi neither of memakai kata kerja tunggal."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'Somebody ___ left the door open.'",
+        "options": [
+          { "id": "A", "text": "have" },
+          { "id": "B", "text": "has" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Somebody adalah kata ganti tunggal, sehingga kata kerjanya has.",
+        "stepByStep": [
+          "Somebody adalah kata ganti tunggal.",
+          "Kata kerja present tunggal untuk somebody adalah has.",
+          "Have, are, dan were memakai bentuk jamak atau lampau yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan somebody yang tunggal." },
+          { "optionId": "C", "reasonId": "Are jamak, tidak cocok dengan somebody." },
+          { "optionId": "D", "reasonId": "Were adalah lampau jamak, tidak cocok dengan kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Somebody, someone, anybody, dan nobody adalah kata ganti tunggal.",
+          "examples": [
+            { "en": "Someone has taken my pen.", "id": "Seseorang sudah mengambil pulpen saya." },
+            { "en": "Nobody has seen the report.", "id": "Tidak ada yang melihat laporan itu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kata kerja yang biasa, tetapi somebody tunggal dan harus memakai has."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence has a verb that agrees with its subject?",
+        "options": [
+          { "id": "A", "text": "Every one of us are ready." },
+          { "id": "B", "text": "Every one of us were ready." },
+          { "id": "C", "text": "Every one of us is ready." },
+          { "id": "D", "text": "Every one of us have ready." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Every one adalah subjek tunggal, sehingga kata kerjanya is.",
+        "stepByStep": [
+          "Every one adalah subjek tunggal, walaupun ada kata us.",
+          "Kata kerja tunggal present untuk be adalah is.",
+          "Are dan were jamak, dan have ready tidak membentuk kalimat yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan every one yang tunggal." },
+          { "optionId": "B", "reasonId": "Were jamak dan lampau, tidak cocok dengan makna sekarang." },
+          { "optionId": "D", "reasonId": "Have ready bukan bentuk kalimat yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Every one of ___ adalah subjek tunggal meskipun diikuti kata ganti jamak seperti us atau them.",
+          "examples": [
+            { "en": "Every one of them is on time.", "id": "Masing-masing dari mereka tepat waktu." },
+            { "en": "Every one of the players is ready.", "id": "Setiap pemain sudah siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena us adalah jamak, tetapi every one tetap subjek tunggal."
+      }
+    ]
+  }
+}

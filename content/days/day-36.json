@@ -1,0 +1,615 @@
+{
+  "day": 36,
+  "week": 5,
+  "month": 2,
+  "title": "Latihan Struktur Campuran",
+  "topic": "Menerapkan aturan struktur minggu 5 untuk menemukan bagian kalimat yang salah",
+  "skillFocus": "listening",
+  "objectives": [
+    "Menemukan kesalahan kesesuaian subjek dan kata kerja",
+    "Mengecek kata kerja dalam klausa dan frasa sisipan",
+    "Menjelaskan kesalahan dengan kata kerja yang tepat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "accurate", "pronunciationId": "AK-yu-rit (tekanan di AK)", "pos": "Adj", "meaningId": "akurat, tepat", "example": "The answer must be accurate.", "exampleId": "Jawabannya harus akurat." },
+      { "no": 2, "en": "correct", "pronunciationId": "ko-REKT (tekanan di REKT)", "pos": "Adj", "meaningId": "benar", "example": "This sentence is correct.", "exampleId": "Kalimat ini benar." },
+      { "no": 3, "en": "error", "pronunciationId": "E-rer (tekanan di E)", "pos": "Noun", "meaningId": "kesalahan", "example": "I found an error in the report.", "exampleId": "Saya menemukan kesalahan dalam laporan itu." },
+      { "no": 4, "en": "check", "pronunciationId": "CHEK (e pendek, ck di akhir)", "pos": "Verb", "meaningId": "memeriksa", "example": "Please check the spelling.", "exampleId": "Tolong periksa ejaannya." },
+      { "no": 5, "en": "confirm", "pronunciationId": "kon-FURM (tekanan di FURM)", "pos": "Verb", "meaningId": "memastikan, mengonfirmasi", "example": "Please confirm the time.", "exampleId": "Tolong pastikan waktunya." },
+      { "no": 6, "en": "detect", "pronunciationId": "di-TEKT (tekanan di TEKT)", "pos": "Verb", "meaningId": "menemukan, mendeteksi", "example": "The teacher can detect a mistake quickly.", "exampleId": "Guru dapat menemukan kesalahan dengan cepat." },
+      { "no": 7, "en": "revise", "pronunciationId": "ri-VAIZ (tekanan di VAIZ)", "pos": "Verb", "meaningId": "merevisi", "example": "Revise the first paragraph.", "exampleId": "Revisi paragraf pertama." },
+      { "no": 8, "en": "proofread", "pronunciationId": "PROOF-reed (tekanan di PROOF)", "pos": "Verb", "meaningId": "membaca ulang untuk mencari kesalahan", "example": "Proofread your essay before you submit it.", "exampleId": "Baca ulang esaimu sebelum mengirimkannya." },
+      { "no": 9, "en": "edit", "pronunciationId": "E-dit (tekanan di E)", "pos": "Verb", "meaningId": "menyunting", "example": "She will edit the article tonight.", "exampleId": "Dia akan menyunting artikel itu malam ini." },
+      { "no": 10, "en": "polish", "pronunciationId": "PO-lish (tekanan di PO)", "pos": "Verb", "meaningId": "memoles, menyempurnakan", "example": "Polish the final sentence.", "exampleId": "Sempurnakan kalimat terakhir." }
+    ],
+    "tip": "Saat mencari kesalahan, baca kalimat dengan urutan ini: cari subjek, buang frasa sisipan, lalu cocokkan kata kerja dengan subjek utama. Kesalahan sering ada di kata kerja, bukan di kata benda."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL written expression practice", "find the error TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang menemukan kesalahan struktur dalam kalimat, dengan contoh kesesuaian subjek dan kata kerja.",
+      "watchFor": [
+        "Subjek utama yang sering tertutup sisipan",
+        "Kata kerja yang berubah menurut subjek",
+        "Kesalahan pada kata kerja setelah pola each, either, dan one of"
+      ]
+    },
+    "lesson": {
+      "intro": "Di latihan ini kamu menggabungkan semua pola minggu 5: subjek utama, kesesuaian kata kerja, appositive, dan frasa depan. Tugasmu adalah menemukan bagian yang salah dan memperbaikinya.",
+      "sections": [
+        {
+          "heading": "Urutan memeriksa kalimat",
+          "bodyMd": "Pertama, cari **subjek utama**. Kedua, buang **frasa sisipan** seperti along with, appositive, dan frasa depan. Ketiga, cocokkan **kata kerja utama** dengan subjek itu. Kalau ada kata kerja yang tidak cocok, itulah kesalahannya."
+        },
+        {
+          "heading": "Pola yang sering salah",
+          "bodyMd": "**Each**, **every**, dan **everyone** memakai kata kerja tunggal. **Neither ___ nor** mengikuti subjek terdekat. **The number of** tunggal, **a number of** jamak. **One of the** tunggal."
+        },
+        {
+          "heading": "Memperbaiki kesalahan",
+          "bodyMd": "Setelah menemukan kesalahan, tulis versi yang benar, lalu baca ulang kalimat itu. Jangan mengubah bagian lain yang sudah benar."
+        }
+      ],
+      "formulas": [
+        { "label": "Langkah 1", "pattern": "cari subjek utama" },
+        { "label": "Langkah 2", "pattern": "buang sisipan dan frasa depan" },
+        { "label": "Langkah 3", "pattern": "cocokkan kata kerja dengan subjek" },
+        { "label": "Langkah 4", "pattern": "tulis versi yang benar dan baca ulang" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Each of the students has a copy of the book.", "id": "Masing-masing siswa punya satu salinan buku." },
+          { "en": "The number of errors is lower this month.", "id": "Jumlah kesalahan lebih rendah bulan ini." },
+          { "en": "Neither the editor nor the writers have seen the final version.", "id": "Baik editor maupun penulis belum melihat versi akhirnya." },
+          { "en": "Everything in the report is accurate.", "id": "Semua isi laporan itu akurat." },
+          { "en": "One of the sentences needs revision.", "id": "Salah satu kalimat perlu direvisi." }
+        ],
+        "negative": [
+          { "en": "The team does not check the report yet.", "id": "Tim belum memeriksa laporan itu." },
+          { "en": "Nothing in the folder is wrong.", "id": "Tidak ada yang salah di dalam map itu." },
+          { "en": "Neither of the answers is incorrect.", "id": "Tidak satu pun jawaban itu yang salah." },
+          { "en": "No one has detected the error.", "id": "Belum ada yang menemukan kesalahan itu." },
+          { "en": "The article does not need polishing.", "id": "Artikel itu tidak perlu dipoles." }
+        ],
+        "question": [
+          { "en": "Which verb is wrong in this sentence?", "id": "Kata kerja mana yang salah dalam kalimat ini?" },
+          { "en": "Is the subject singular or plural?", "id": "Apakah subjeknya tunggal atau jamak?" },
+          { "en": "Can you revise the second paragraph?", "id": "Bisakah kamu merevisi paragraf kedua?" },
+          { "en": "Has someone confirmed the time?", "id": "Apakah seseorang sudah memastikan waktunya?" },
+          { "en": "What is the error in the first sentence?", "id": "Apa kesalahan pada kalimat pertama?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Each of the students have a copy.", "right": "Each of the students has a copy.", "whyId": "Each adalah subjek tunggal, jadi kata kerjanya has." },
+        { "wrong": "The number of errors are lower.", "right": "The number of errors is lower.", "whyId": "The number of memakai kata kerja tunggal." },
+        { "wrong": "Neither the editor nor the writers has seen it.", "right": "Neither the editor nor the writers have seen it.", "whyId": "Subjek terdekat adalah the writers yang jamak, sehingga memakai have." },
+        { "wrong": "Everything in the folder are correct.", "right": "Everything in the folder is correct.", "whyId": "Everything adalah kata ganti tunggal." },
+        { "wrong": "One of the sentences need revision.", "right": "One of the sentences needs revision.", "whyId": "Subjek sebenarnya one, yang tunggal, sehingga memakai needs." },
+        { "wrong": "No one have detected the error.", "right": "No one has detected the error.", "whyId": "No one adalah kata ganti tunggal, jadi memakai has." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL written expression practice", "editing a report English conversation"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata revise, proofread, dan confirm dalam percakapan",
+        "Kesalahan kata kerja yang diperbaiki teman"
+      ]
+    },
+    "script": {
+      "title": "Memeriksa tulisan",
+      "lines": [
+        { "speaker": "Lena", "text": "Can you check my paragraph? I want to make sure it is accurate." },
+        { "speaker": "Yudi", "text": "I see an error in the second sentence. The subject is the team, so the verb should be has, not have." },
+        { "speaker": "Lena", "text": "Oh, I did not detect that. Thanks. Which other part is wrong?" },
+        { "speaker": "Yudi", "text": "The list of ideas are long, but the verb should be is. Please revise it." },
+        { "speaker": "Lena", "text": "Okay. I will proofread the whole text again and edit the title too." },
+        { "speaker": "Yudi", "text": "Good. Confirm the facts before you submit, and polish the final sentence." },
+        { "speaker": "Lena", "text": "Will do. Each of the reviewers reads carefully, so I want it correct." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada accurate dan correct, bunyi k di tengah tetap jelas: AK-yu-rit, ko-REKT.",
+      "Pada proofread, tekanan ada di suku pertama: PROOF-reed.",
+      "Pada confirm dan polish, ucapkan dua suku kata dengan jelas: kon-FURM, PO-lish."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does Lena ask Yudi to do?",
+        "options": [
+          { "id": "A", "text": "to write a new title" },
+          { "id": "B", "text": "to check her paragraph" },
+          { "id": "C", "text": "to submit the report" },
+          { "id": "D", "text": "to call the teacher" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Lena berkata 'Can you check my paragraph?', artinya ia meminta Yudi memeriksa paragrafnya.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Judul disebut nanti sebagai bagian yang akan disunting Lena sendiri, bukan permintaan Yudi." },
+          { "optionId": "C", "reasonId": "Mengirim laporan disebut sebagai langkah berikutnya, bukan permintaan awal." },
+          { "optionId": "D", "reasonId": "Menelepon guru tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Can you check my paragraph"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What error does Yudi point out in the second sentence?",
+        "options": [
+          { "id": "A", "text": "the title is too long" },
+          { "id": "B", "text": "the facts are wrong" },
+          { "id": "C", "text": "the verb has the wrong form for the team" },
+          { "id": "D", "text": "the subject is missing" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Yudi berkata 'the verb should be has, not have', karena subjeknya the team yang tunggal.",
+        "stepByStep": [
+          "Cari second sentence di naskah: subjeknya the team.",
+          "Yudi berkata kata kerja seharusnya has, bukan have.",
+          "Judul, fakta, dan subjek yang hilang tidak disebut sebagai kesalahan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Judul tidak disebut dalam kalimat kedua." },
+          { "optionId": "B", "reasonId": "Fakta tidak disebut sebagai kesalahan." },
+          { "optionId": "D", "reasonId": "Subjek the team ada dan jelas." }
+        ],
+        "evidence": "the verb should be has, not have"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Which subject does Yudi say needs a different verb?",
+        "options": [
+          { "id": "A", "text": "the team" },
+          { "id": "B", "text": "the reviewers" },
+          { "id": "C", "text": "the paragraph" },
+          { "id": "D", "text": "the list of ideas" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Yudi berkata 'The list of ideas are long, but the verb should be is', artinya kata kerja untuk list of ideas harus is.",
+        "stepByStep": [
+          "Cari verb should be di naskah: 'The list of ideas are long, but the verb should be is.'",
+          "Subjek sebenarnya adalah list, yang tunggal, sehingga kata kerjanya is.",
+          "The team sudah dibahas di kalimat sebelumnya, the reviewers disebut di akhir, dan the paragraph bukan subjek kesalahan ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "The team sudah benar dengan has." },
+          { "optionId": "B", "reasonId": "The reviewers disebut di akhir, tidak dalam kesalahan ini." },
+          { "optionId": "C", "reasonId": "The paragraph bukan subjek yang disebut dalam kesalahan ini." }
+        ],
+        "evidence": "the verb should be is"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Yudi suggest Lena do before she submits the work?",
+        "options": [
+          { "id": "A", "text": "confirm the facts" },
+          { "id": "B", "text": "change the subject" },
+          { "id": "C", "text": "delete the last paragraph" },
+          { "id": "D", "text": "ask the teacher to write it" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Yudi berkata 'Confirm the facts before you submit', artinya Lena harus memastikan fakta sebelum mengirim.",
+        "stepByStep": [
+          "Cari submit di naskah: 'Confirm the facts before you submit.'",
+          "Confirm berarti memastikan, dan facts adalah objeknya.",
+          "Mengganti subjek, menghapus paragraf, dan meminta guru menulis tidak disebut dalam saran Yudi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Mengganti subjek tidak disebut sebagai saran." },
+          { "optionId": "C", "reasonId": "Menghapus paragraf terakhir tidak disebut." },
+          { "optionId": "D", "reasonId": "Meminta guru menulis tidak disebut dalam percakapan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Before dipakai untuk menunjukkan urutan waktu. Confirm the facts before you submit berarti pastikan dulu sebelum mengirim.",
+          "examples": [
+            { "en": "Read the report before you submit it.", "id": "Baca laporan itu sebelum kamu mengirimkannya." },
+            { "en": "Check the spelling before you print the page.", "id": "Periksa ejaan sebelum kamu mencetak halamannya." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti bagian dari perbaikan kata kerja, tetapi Yudi tidak meminta Lena mengganti subjek.",
+        "evidence": "Confirm the facts before you submit"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Why does Lena say she wants the paragraph to be correct?",
+        "options": [
+          { "id": "A", "text": "because the teacher is angry" },
+          { "id": "B", "text": "because each reviewer reads carefully" },
+          { "id": "C", "text": "because the title is missing" },
+          { "id": "D", "text": "because she did not detect any error" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Lena berkata 'Each of the reviewers reads carefully, so I want it correct', artinya setiap peninjau membaca dengan teliti.",
+        "stepByStep": [
+          "Cari so dalam kalimat terakhir Lena.",
+          "So menunjukkan alasan: setiap peninjau membaca dengan teliti.",
+          "Guru yang marah dan judul yang hilang tidak disebut. Lena memang menemukan kesalahan, jadi pilihan D bertentangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kemarahan guru tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Judul hilang tidak disebut sebagai alasan." },
+          { "optionId": "D", "reasonId": "Lena baru saja menemukan kesalahan dari Yudi, jadi pilihan ini bertentangan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "So menunjukkan alasan. Kalimat sebelum so adalah alasan yang menjelaskan keinginan setelahnya.",
+          "examples": [
+            { "en": "Each student reads carefully, so the teacher gives good feedback.", "id": "Setiap siswa membaca dengan teliti, jadi guru memberikan umpan balik yang baik." },
+            { "en": "Each of the reviewers checks the text, so the errors are fewer.", "id": "Setiap peninjau memeriksa teks, jadi kesalahannya lebih sedikit." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti alasan yang masuk akal, tetapi Lena sebenarnya menemukan kesalahan dengan bantuan Yudi.",
+        "evidence": "Each of the reviewers reads carefully"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Each of the students ___ the answers carefully.",
+        "options": [
+          { "id": "A", "text": "check" },
+          { "id": "B", "text": "checks" },
+          { "id": "C", "text": "checking" },
+          { "id": "D", "text": "checked" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Each adalah subjek tunggal, sehingga kata kerjanya checks.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Check adalah bentuk jamak, tidak cocok dengan each." },
+          { "optionId": "C", "reasonId": "Checking tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Checked adalah lampau, tidak cocok dengan kebiasaan yang dijelaskan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The teacher and the students ___ the errors in the essay.",
+        "options": [
+          { "id": "A", "text": "detect" },
+          { "id": "B", "text": "detects" },
+          { "id": "C", "text": "detecting" },
+          { "id": "D", "text": "detected" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teacher dan students digabung dengan and, sehingga subjeknya jamak dan memakai detect.",
+        "stepByStep": [
+          "The teacher and the students adalah subjek jamak karena digabung dengan and.",
+          "Kata kerja jamak present adalah detect.",
+          "Detects tunggal, detecting bukan kata kerja utama, dan detected adalah lampau yang tidak cocok dengan kebiasaan ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Detects tunggal, tidak cocok dengan subjek jamak." },
+          { "optionId": "C", "reasonId": "Detecting tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Detected lampau, tidak cocok dengan kalimat ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Neither the editor nor the writers ___ the final version yet.",
+        "options": [
+          { "id": "A", "text": "has seen" },
+          { "id": "B", "text": "have seen" },
+          { "id": "C", "text": "seeing" },
+          { "id": "D", "text": "sees" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Pada neither ___ nor, kata kerja mengikuti subjek terdekat, yaitu the writers yang jamak: have seen.",
+        "stepByStep": [
+          "Subjek terdekat dengan kata kerja adalah the writers, yang jamak.",
+          "Present perfect jamak adalah have seen.",
+          "Has seen tunggal, seeing bukan kata kerja utama, dan sees tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Has seen mengikuti the editor, bukan subjek terdekat." },
+          { "optionId": "C", "reasonId": "Seeing tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Sees tunggal, tidak cocok dengan the writers." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The number of mistakes in the report ___ much lower than last month.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "were" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "The number of memakai kata kerja tunggal, sehingga memakai is.",
+        "stepByStep": [
+          "Subjek kalimat adalah the number, yang tunggal.",
+          "Frasa of mistakes in the report adalah frasa tambahan dan tidak mengubah kata kerja.",
+          "Were dan are jamak, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Were jamak, tidak cocok dengan the number yang tunggal." },
+          { "optionId": "C", "reasonId": "Are jamak, tidak cocok dengan the number yang tunggal." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The number of memakai kata kerja tunggal, walaupun kata benda di belakang of jamak.",
+          "examples": [
+            { "en": "The number of errors is falling.", "id": "Jumlah kesalahan semakin turun." },
+            { "en": "The number of students is higher this year.", "id": "Jumlah siswa lebih tinggi tahun ini." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena mistakes jamak, tetapi kata kerjanya mengikuti the number yang tunggal."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Everything in the folder ___ checked, and nothing ___ missing.",
+        "options": [
+          { "id": "A", "text": "are / are" },
+          { "id": "B", "text": "is / is" },
+          { "id": "C", "text": "is / are" },
+          { "id": "D", "text": "are / is" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Everything dan nothing keduanya kata ganti tunggal, sehingga memakai is / is.",
+        "stepByStep": [
+          "Everything adalah kata ganti tunggal, sehingga kata kerjanya is checked.",
+          "Nothing juga kata ganti tunggal, sehingga kata kerjanya is missing.",
+          "Are tidak cocok dengan everything atau nothing. Pilihan C dan D mencampur bentuk tunggal dan jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan everything atau nothing yang tunggal." },
+          { "optionId": "C", "reasonId": "Nothing memakai is, bukan are." },
+          { "optionId": "D", "reasonId": "Everything memakai is, bukan are." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Everything dan nothing adalah kata ganti tunggal dan memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "Everything on the list is correct.", "id": "Semua yang ada di daftar itu benar." },
+            { "en": "Nothing in the box is damaged.", "id": "Tidak ada yang rusak di dalam kotak itu." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena nothing dan everything dipisahkan dengan frasa, tetapi keduanya tetap tunggal."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia memeriksa setiap kalimat dengan teliti.",
+        "hint": "Memeriksa: checks. Setiap kalimat: every sentence.",
+        "acceptedAnswers": ["She checks every sentence carefully.", "She checks each sentence carefully."],
+        "modelAnswer": "She checks every sentence carefully.",
+        "commonErrors": [{ "pattern": "She check every sentence", "feedbackId": "Subjek she tunggal, jadi kata kerjanya checks." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tim dan pelatih sudah menemukan kesalahan itu.",
+        "hint": "Tim dan pelatih: the team and the coach. Sudah menemukan: have detected.",
+        "acceptedAnswers": ["The team and the coach have detected the error.", "The team and the coach have found the error."],
+        "modelAnswer": "The team and the coach have detected the error.",
+        "commonErrors": [{ "pattern": "The team and the coach has detected", "feedbackId": "Dua subjek digabung dengan and, sehingga memakai have." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Setiap orang harus merevisi tulisannya sebelum dikirim.",
+        "hint": "Setiap orang: everyone. Merevisi: revise. Tulisannya: their writing.",
+        "acceptedAnswers": [
+          "Everyone must revise their writing before sending it.",
+          "Everyone must revise his or her writing before sending it."
+        ],
+        "modelAnswer": "Everyone must revise their writing before sending it.",
+        "commonErrors": [{ "pattern": "Everyone must revises", "feedbackId": "Setelah must, gunakan kata kerja dasar: revise." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Jumlah kesalahan dalam laporan itu sudah berkurang.",
+        "hint": "Jumlah kesalahan: the number of errors. Sudah berkurang: has decreased.",
+        "acceptedAnswers": ["The number of errors in the report has decreased.", "The number of errors in the report has gone down."],
+        "modelAnswer": "The number of errors in the report has decreased.",
+        "commonErrors": [{ "pattern": "The number of errors in the report have decreased", "feedbackId": "The number of memakai kata kerja tunggal: has." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Baik hasil maupun catatan itu sudah dikonfirmasi dan dipoles.",
+        "hint": "Baik ___ maupun: both ___ and. Sudah dikonfirmasi dan dipoles: have been confirmed and polished.",
+        "acceptedAnswers": [
+          "Both the result and the notes have been confirmed and polished.",
+          "Both the result and the notes have been confirmed and have been polished."
+        ],
+        "modelAnswer": "Both the result and the notes have been confirmed and polished.",
+        "commonErrors": [{ "pattern": "Both the result and the notes has been confirmed", "feedbackId": "Both ___ and memakai kata kerja jamak: have." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'Each of the editors ___ the article before it is published.'",
+        "options": [
+          { "id": "A", "text": "reviews" },
+          { "id": "B", "text": "review" },
+          { "id": "C", "text": "reviewing" },
+          { "id": "D", "text": "have reviewed" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Each adalah subjek tunggal, sehingga kata kerjanya reviews.",
+        "stepByStep": [
+          "Subjek kalimat adalah each, yang tunggal.",
+          "Kebiasaan sebelum publikasi memakai present simple tunggal: reviews.",
+          "Review adalah jamak, reviewing bukan kata kerja utama, dan have reviewed jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Review adalah bentuk jamak, tidak cocok dengan each." },
+          { "optionId": "C", "reasonId": "Reviewing tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Have reviewed jamak, tidak cocok dengan each." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Each of memakai kata kerja tunggal, walaupun diikuti kata benda jamak.",
+          "examples": [
+            { "en": "Each of the chairs is clean.", "id": "Masing-masing kursi bersih." },
+            { "en": "Each of the editors checks the text.", "id": "Masing-masing editor memeriksa teks." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat benar karena artinya sudah selesai, tetapi each memakai kata kerja tunggal, bukan have."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Every one of the errors were corrected." },
+          { "id": "B", "text": "Every one of the errors are corrected." },
+          { "id": "C", "text": "Every one of the errors was corrected." },
+          { "id": "D", "text": "Every one of the errors have been corrected." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Every one adalah subjek tunggal, sehingga memakai was corrected.",
+        "stepByStep": [
+          "Every one adalah subjek tunggal walaupun diikuti kata benda jamak.",
+          "Pasif lampau tunggal untuk every one adalah was corrected.",
+          "Were, are, dan have been adalah jamak, tidak cocok dengan every one."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Were jamak, tidak cocok dengan every one yang tunggal." },
+          { "optionId": "B", "reasonId": "Are jamak, tidak cocok dengan every one yang tunggal." },
+          { "optionId": "D", "reasonId": "Have been jamak, tidak cocok dengan every one yang tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Every one of memakai kata kerja tunggal, walaupun kata benda di belakangnya jamak.",
+          "examples": [
+            { "en": "Every one of the cars was sold.", "id": "Setiap mobil itu sudah terjual." },
+            { "en": "Every one of the students is ready.", "id": "Setiap siswa sudah siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena errors jamak, tetapi subjek kalimat adalah every one yang tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Nobody ___ the mistake until the teacher pointed it out.'",
+        "options": [
+          { "id": "A", "text": "detect" },
+          { "id": "B", "text": "detects" },
+          { "id": "C", "text": "detecting" },
+          { "id": "D", "text": "detected" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Kejadiannya sudah selesai dan sejalan dengan kalimat pointed it out, sehingga memakai simple past: detected.",
+        "stepByStep": [
+          "Pointed it out adalah simple past, sehingga kalimat pertama juga lampau.",
+          "Kata kerja lampau untuk nobody adalah detected.",
+          "Detect dan detects memakai present, sedangkan detecting bukan kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Detect adalah present, tidak cocok dengan pointed yang lampau." },
+          { "optionId": "B", "reasonId": "Detects adalah present tunggal, tidak cocok dengan konteks lampau." },
+          { "optionId": "C", "reasonId": "Detecting tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kalimat dengan until dan kejadian lampau biasanya memakai simple past di kedua klausa.",
+          "examples": [
+            { "en": "Nobody noticed the error until the teacher checked it.", "id": "Tidak ada yang menyadari kesalahan itu sampai guru memeriksanya." },
+            { "en": "No one called until the meeting ended.", "id": "Tidak ada yang menelepon sampai rapat selesai." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena nobody tunggal, tetapi kalimat ini menceritakan kejadian lampau."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'a number of' correctly?",
+        "options": [
+          { "id": "A", "text": "A number of students is waiting outside." },
+          { "id": "B", "text": "A number of students are waiting outside." },
+          { "id": "C", "text": "A number of student are waiting outside." },
+          { "id": "D", "text": "A number of students waits outside." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "A number of memakai kata kerja jamak, sehingga memakai are waiting.",
+        "stepByStep": [
+          "A number of memakai kata kerja jamak.",
+          "Students jamak, dan kata kerja jamak present progresif adalah are waiting.",
+          "Is waiting tunggal, student are salah bentuk jamak, dan waits tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan a number of yang jamak." },
+          { "optionId": "C", "reasonId": "Student tunggal tidak cocok setelah a number of." },
+          { "optionId": "D", "reasonId": "Waits tunggal, tidak cocok dengan a number of yang jamak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A number of memakai kata kerja jamak. The number of memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "A number of cars are parked outside.", "id": "Sejumlah mobil diparkir di luar." },
+            { "en": "The number of cars is high today.", "id": "Jumlah mobil hari ini tinggi." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena number tunggal, tetapi a number of memakai kata kerja jamak."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Neither the errors nor the mistake are serious." },
+          { "id": "B", "text": "Neither the errors nor the mistake is serious." },
+          { "id": "C", "text": "Neither the errors nor the mistake were serious." },
+          { "id": "D", "text": "Neither the errors nor the mistake be serious." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pada neither ___ nor, kata kerja mengikuti subjek terdekat, yaitu the mistake yang tunggal: is.",
+        "stepByStep": [
+          "Subjek terdekat dengan kata kerja adalah the mistake, yang tunggal.",
+          "Kata kerja tunggal present untuk be adalah is.",
+          "Are dan were jamak, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan the mistake yang tunggal." },
+          { "optionId": "C", "reasonId": "Were jamak, tidak cocok dengan the mistake yang tunggal." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada neither ___ nor, kata kerja mengikuti subjek yang paling dekat dengannya.",
+          "examples": [
+            { "en": "Neither the students nor the teacher is ready.", "id": "Baik siswa maupun guru belum siap." },
+            { "en": "Neither the teacher nor the students are late.", "id": "Baik guru maupun siswa tidak terlambat." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena errors jamak, tetapi subjek terdekat dengan kata kerja adalah the mistake yang tunggal."
+      }
+    ]
+  }
+}

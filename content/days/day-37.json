@@ -1,0 +1,614 @@
+{
+  "day": 37,
+  "week": 5,
+  "month": 2,
+  "title": "Review Minggu 5",
+  "topic": "Review: subjek, kata kerja, klausa, appositive, dan kesesuaian kata kerja minggu 5",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang cara menemukan subjek dan kata kerja utama",
+    "Meninjau ulang appositive dan frasa depan",
+    "Meninjau ulang kesesuaian kata kerja untuk each, one of, dan majority"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "subject", "pronunciationId": "SAB-jekt (tekanan di SAB)", "pos": "Noun", "meaningId": "subjek kalimat", "example": "Find the subject first.", "exampleId": "Temukan subjeknya lebih dulu." },
+      { "no": 2, "en": "verb", "pronunciationId": "VURB (u pendek, b jelas)", "pos": "Noun", "meaningId": "kata kerja", "example": "The verb must match the subject.", "exampleId": "Kata kerja harus cocok dengan subjek." },
+      { "no": 3, "en": "clause", "pronunciationId": "KLAWZ (au panjang, s di akhir)", "pos": "Noun", "meaningId": "klausa", "example": "The clause gives extra detail.", "exampleId": "Klausa itu memberi detail tambahan." },
+      { "no": 4, "en": "each", "pronunciationId": "EECH (tekanan di EECH)", "pos": "Other", "meaningId": "masing-masing", "example": "Each answer is correct.", "exampleId": "Masing-masing jawaban benar." },
+      { "no": 5, "en": "several", "pronunciationId": "SEV-er-al (tekanan di SEV)", "pos": "Other", "meaningId": "beberapa", "example": "Several answers are wrong.", "exampleId": "Beberapa jawaban salah." },
+      { "no": 6, "en": "appositive", "pronunciationId": "a-POZ-i-tiv (tekanan di POZ)", "pos": "Noun", "meaningId": "keterangan tambahan yang menjelaskan kata benda", "example": "The appositive gives extra information.", "exampleId": "Keterangan tambahan itu memberi informasi tambahan." },
+      { "no": 7, "en": "correct", "pronunciationId": "ko-REKT (tekanan di REKT)", "pos": "Adj", "meaningId": "benar", "example": "Choose the correct verb.", "exampleId": "Pilih kata kerja yang benar." },
+      { "no": 8, "en": "check", "pronunciationId": "CHEK (e pendek, ck di akhir)", "pos": "Verb", "meaningId": "memeriksa", "example": "Check your answers twice.", "exampleId": "Periksa jawabanmu dua kali." },
+      { "no": 9, "en": "structure", "pronunciationId": "STRUK-cher (tekanan di STRUK)", "pos": "Noun", "meaningId": "struktur", "example": "Learn the structure of the sentence.", "exampleId": "Pelajari struktur kalimatnya." },
+      { "no": 10, "en": "majority", "pronunciationId": "ma-JO-ri-ti (tekanan di JO)", "pos": "Noun", "meaningId": "mayoritas", "example": "The majority of answers are correct.", "exampleId": "Sebagian besar jawaban benar." }
+    ],
+    "tip": "Di sesi review, pakai pola sederhana: cari subjek utama, buang sisipan, lalu cocokkan kata kerja. Kalau ragu, bacalah kalimat tanpa frasa tambahan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL structure review", "TOEFL grammar practice"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum subjek, kata kerja, appositive, dan kesesuaian kata kerja untuk pemula.",
+      "watchFor": [
+        "Subjek utama sebelum kata kerja",
+        "Appositive yang tidak mengubah kata kerja",
+        "Each, one of, dan majority memakai kata kerja tunggal atau jamak sesuai pola"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 5 membahas struktur kalimat: menemukan subjek, menghindari jebakan frasa depan, memakai appositive, dan menyesuaikan kata kerja. Hari ini kamu meninjau semuanya dalam satu sesi.",
+      "sections": [
+        {
+          "heading": "Peta minggu 5",
+          "bodyMd": "**Subjek dan kata kerja utama** ada di luar sisipan. **Object of preposition** tidak pernah menjadi subjek. **Appositive** menjelaskan kata benda dan diapit koma. **Each, one of, the number of** menentukan kata kerja tunggal, sedangkan **a number of** dan **several** memakai kata kerja jamak."
+        },
+        {
+          "heading": "Cara memeriksa",
+          "bodyMd": "Tanyakan tiga hal: (1) apa subjek utamanya, (2) apakah ada frasa sisipan atau appositive, (3) apakah kata kerjanya cocok dengan subjek utama. Kalau ketiga jawaban jelas, kalimatnya biasanya benar."
+        }
+      ],
+      "formulas": [
+        { "label": "Subjek utama", "pattern": "subjek + sisipan + kata kerja utama" },
+        { "label": "Frasa depan", "pattern": "kata depan + kata benda (bukan subjek)" },
+        { "label": "Appositive", "pattern": "subjek, appositive, kata kerja utama" },
+        { "label": "Kata kerja", "pattern": "each / one of / the number of = tunggal; several / a number of = jamak" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The students who waited outside were tired.", "id": "Siswa yang menunggu di luar itu lelah." },
+          { "en": "Rudi, a scientist, is speaking today.", "id": "Rudi, seorang ilmuwan, berbicara hari ini." },
+          { "en": "Each of the answers is correct.", "id": "Masing-masing jawaban benar." },
+          { "en": "Several of the students are ready.", "id": "Beberapa siswa sudah siap." },
+          { "en": "The majority of the reports are complete.", "id": "Sebagian besar laporan sudah lengkap." }
+        ],
+        "negative": [
+          { "en": "The book beside the lamp is not mine.", "id": "Buku di samping lampu itu bukan milik saya." },
+          { "en": "Each of the teachers does not check the list.", "id": "Masing-masing guru tidak memeriksa daftar itu." },
+          { "en": "Neither of the boys is late.", "id": "Tidak satu pun anak laki-laki itu terlambat." },
+          { "en": "The number of visitors does not change.", "id": "Jumlah pengunjung tidak berubah." },
+          { "en": "Nothing in the room is broken.", "id": "Tidak ada yang rusak di ruangan itu." }
+        ],
+        "question": [
+          { "en": "What is the subject of this sentence?", "id": "Apa subjek kalimat ini?" },
+          { "en": "Is the appositive necessary for the meaning?", "id": "Apakah appositive itu perlu untuk makna kalimat?" },
+          { "en": "Which verb matches each of the answers?", "id": "Kata kerja mana yang cocok dengan masing-masing jawaban?" },
+          { "en": "Are several of the students absent?", "id": "Apakah beberapa siswa tidak hadir?" },
+          { "en": "What is the main verb in this sentence?", "id": "Apa kata kerja utama dalam kalimat ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The book beside the lamp are mine.", "right": "The book beside the lamp is mine.", "whyId": "Subjek book tunggal. Lamp adalah objek kata depan." },
+        { "wrong": "Each of the teachers are ready.", "right": "Each of the teachers is ready.", "whyId": "Each adalah subjek tunggal." },
+        { "wrong": "Several of the answers is correct.", "right": "Several of the answers are correct.", "whyId": "Several adalah jamak, sehingga memakai are." },
+        { "wrong": "Rudi, a scientists, is speaking today.", "right": "Rudi, a scientist, is speaking today.", "whyId": "Appositive menjelaskan satu orang, sehingga memakai bentuk tunggal scientist." },
+        { "wrong": "The number of visitors are growing.", "right": "The number of visitors is growing.", "whyId": "The number of memakai kata kerja tunggal." },
+        { "wrong": "Nothing in the boxes are broken.", "right": "Nothing in the boxes is broken.", "whyId": "Nothing adalah kata ganti tunggal." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL structure review", "subject verb agreement practice conversation"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Penjelasan tentang subjek dan kata kerja",
+        "Contoh appositive dan frasa sisipan"
+      ]
+    },
+    "script": {
+      "title": "Review bersama tutor",
+      "lines": [
+        { "speaker": "Tutor", "text": "Let's review this week. First, find the subject and the verb in each sentence." },
+        { "speaker": "Student", "text": "Okay. In a long sentence, the subject is often separated from the verb by a clause." },
+        { "speaker": "Tutor", "text": "Correct. Remember that each of the phrases between them is a modifier, not the main verb." },
+        { "speaker": "Student", "text": "Got it. And an appositive, like a teacher from the city, gives extra information about a noun." },
+        { "speaker": "Tutor", "text": "Yes. Several students forget that the appositive does not change the verb." },
+        { "speaker": "Student", "text": "So in 'The founder, a painter, lives here,' the verb still agrees with founder." },
+        { "speaker": "Tutor", "text": "Exactly. Check the structure carefully, and make sure the majority of your answers follow the same pattern." },
+        { "speaker": "Student", "text": "The majority? I thought the answer was based on each sentence." },
+        { "speaker": "Tutor", "text": "Each sentence matters, but patterns help you check quickly." },
+        { "speaker": "Student", "text": "Thanks. I will check my answers again tonight." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada appositive, tekanan ada di suku kedua: a-POZ-i-tiv.",
+      "Pada structure, tekanan ada di suku pertama: STRUK-cher.",
+      "Pada majority, ucapkan ma-JO-ri-ti dengan tekanan di JO."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the tutor ask the student to find in each sentence?",
+        "options": [
+          { "id": "A", "text": "the title" },
+          { "id": "B", "text": "the subject and the verb" },
+          { "id": "C", "text": "the number of words" },
+          { "id": "D", "text": "the author's name" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Tutor berkata 'find the subject and the verb in each sentence', artinya temukan subjek dan kata kerja di setiap kalimat.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Judul tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Jumlah kata tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Nama penulis tidak disebut dalam percakapan." }
+        ],
+        "evidence": "find the subject and the verb in each sentence"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What separates the subject from the verb in a long sentence, according to the student?",
+        "options": [
+          { "id": "A", "text": "a single adverb" },
+          { "id": "B", "text": "a clause" },
+          { "id": "C", "text": "a question mark" },
+          { "id": "D", "text": "a number" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Siswa berkata 'the subject is often separated from the verb by a clause', artinya klausa sering memisahkan subjek dan kata kerja.",
+        "stepByStep": [
+          "Cari separated di naskah siswa.",
+          "Siswa menyebut klausa sebagai pemisah subjek dan kata kerja.",
+          "Keterangan tunggal, tanda tanya, dan angka tidak disebut sebagai pemisah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Keterangan tunggal tidak disebut sebagai pemisah." },
+          { "optionId": "C", "reasonId": "Tanda tanya tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Angka tidak disebut sebagai pemisah." }
+        ],
+        "evidence": "the subject is often separated from the verb by a clause"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does an appositive give in a sentence?",
+        "options": [
+          { "id": "A", "text": "a change of tense" },
+          { "id": "B", "text": "a new verb" },
+          { "id": "C", "text": "extra information about a noun" },
+          { "id": "D", "text": "a question" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Siswa berkata 'an appositive ___ gives extra information about a noun', artinya appositive memberi informasi tambahan tentang kata benda.",
+        "stepByStep": [
+          "Cari appositive di naskah siswa.",
+          "Siswa menyebut appositive memberi informasi tambahan tentang kata benda.",
+          "Perubahan tenses, kata kerja baru, dan pertanyaan tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Perubahan tenses tidak disebut sebagai fungsi appositive." },
+          { "optionId": "B", "reasonId": "Appositive tidak menambah kata kerja baru." },
+          { "optionId": "D", "reasonId": "Pertanyaan tidak disebut sebagai fungsi appositive." }
+        ],
+        "evidence": "gives extra information about a noun"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "In 'The founder, a painter, lives here,' what is the main verb?",
+        "options": [
+          { "id": "A", "text": "founder" },
+          { "id": "B", "text": "painter" },
+          { "id": "C", "text": "lives" },
+          { "id": "D", "text": "here" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Lives adalah kata kerja utama yang cocok dengan subjek founder, dan a painter adalah appositive.",
+        "stepByStep": [
+          "Cari subjek: founder. A painter adalah appositive yang diapit koma.",
+          "Kata kerja utama yang cocok dengan founder adalah lives.",
+          "Painter adalah kata benda dalam appositive, dan here adalah keterangan tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Founder adalah subjek, bukan kata kerja." },
+          { "optionId": "B", "reasonId": "Painter adalah kata benda dalam appositive, bukan kata kerja." },
+          { "optionId": "D", "reasonId": "Here adalah keterangan tempat, bukan kata kerja." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Appositive tidak mengubah kata kerja utama. Kata kerja mengikuti subjek sebelum appositive.",
+          "examples": [
+            { "en": "Ani, a doctor, works at the hospital.", "id": "Ani, seorang dokter, bekerja di rumah sakit." },
+            { "en": "The author, a scientist, lives abroad.", "id": "Penulis itu, seorang ilmuwan, tinggal di luar negeri." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti kata kerja karena berada dekat kata lives, tetapi painter adalah kata benda dalam appositive.",
+        "evidence": "the verb still agrees with founder"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the tutor mean by 'make sure the majority of your answers follow the same pattern'?",
+        "options": [
+          { "id": "A", "text": "most answers should follow a pattern that helps you check quickly" },
+          { "id": "B", "text": "every answer must be different" },
+          { "id": "C", "text": "the student should skip the patterns" },
+          { "id": "D", "text": "the answers are only correct if they are long" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tutor berkata 'patterns help you check quickly', artinya pola membantu siswa memeriksa dengan cepat.",
+        "stepByStep": [
+          "Cari patterns di naskah: 'patterns help you check quickly.'",
+          "Tutor menjelaskan bahwa pola membantu pemeriksaan yang cepat.",
+          "Pilihan B bertentangan dengan pola yang sama. Pilihan C dan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tutor menyarankan pola yang sama, bukan setiap jawaban berbeda." },
+          { "optionId": "C", "reasonId": "Tutor menyarankan siswa memakai pola, bukan melewatinya." },
+          { "optionId": "D", "reasonId": "Panjang jawaban tidak disebut sebagai kriteria kebenaran." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola membantu pemeriksaan cepat, tetapi setiap kalimat tetap perlu dicek satu per satu.",
+          "examples": [
+            { "en": "Patterns help you check the verb quickly.", "id": "Pola membantu kamu memeriksa kata kerja dengan cepat." },
+            { "en": "Each sentence matters, so check it carefully.", "id": "Setiap kalimat penting, jadi periksa dengan teliti." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena tiap kalimat penting, tetapi tutor justru menyarankan pola yang sama untuk memeriksa cepat.",
+        "evidence": "patterns help you check quickly"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The students in the class ___ ready for the test.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Subjek students jamak, dan in the class adalah frasa depan, sehingga memakai are.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan students yang jamak." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Each of the sentences ___ a subject and a verb.",
+        "options": [
+          { "id": "A", "text": "have" },
+          { "id": "B", "text": "has" },
+          { "id": "C", "text": "having" },
+          { "id": "D", "text": "had" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Each adalah subjek tunggal, sehingga kata kerjanya has.",
+        "stepByStep": [
+          "Subjek kalimat adalah each, yang tunggal.",
+          "Kata kerja tunggal untuk have adalah has.",
+          "Have jamak, having bukan kata kerja utama, dan had lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan each." },
+          { "optionId": "C", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Had adalah lampau, tidak cocok dengan kalimat umum ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Several of the appositives ___ long.",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Several adalah jamak, sehingga memakai are.",
+        "stepByStep": [
+          "Several menunjukkan beberapa, dan itu jamak.",
+          "Kata kerja jamak present adalah are.",
+          "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Is tunggal, tidak cocok dengan several." },
+          { "optionId": "C", "reasonId": "Was tunggal dan lampau, tidak cocok dengan kalimat umum ini." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The majority of the answers ___ correct, but the structure of two sentences ___ wrong.",
+        "options": [
+          { "id": "A", "text": "is / is" },
+          { "id": "B", "text": "are / is" },
+          { "id": "C", "text": "are / are" },
+          { "id": "D", "text": "is / are" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "The majority of mengikuti answers yang jamak, sehingga are. The structure adalah subjek tunggal, sehingga is.",
+        "stepByStep": [
+          "Kata benda di belakang of the majority adalah answers, yang jamak: are correct.",
+          "Subjek bagian kedua adalah the structure, yang tunggal: is wrong.",
+          "Pilihan A memakai is untuk answers. Pilihan C memakai are untuk structure. Pilihan D memakai is dan are secara terbalik."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is untuk answers yang jamak tidak tepat." },
+          { "optionId": "C", "reasonId": "Are untuk structure yang tunggal tidak tepat." },
+          { "optionId": "D", "reasonId": "Is dan are terbalik dari subjek sebenarnya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The majority of mengikuti kata benda di belakang of. Setiap klausa dicocokkan dengan subjeknya masing-masing.",
+          "examples": [
+            { "en": "The majority of the students are happy, but the schedule is late.", "id": "Sebagian besar siswa senang, tetapi jadwalnya terlambat." },
+            { "en": "The majority of the rooms are clean, but the kitchen is dirty.", "id": "Sebagian besar ruangan bersih, tetapi dapurnya kotor." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat konsisten, tetapi majority mengikuti answers yang jamak, bukan is."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Neither the subject nor the verbs ___ incorrect in this sentence.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pada neither ___ nor, kata kerja mengikuti subjek terdekat, yaitu the verbs yang jamak: are.",
+        "stepByStep": [
+          "Subjek terdekat dengan kata kerja adalah the verbs, yang jamak.",
+          "Kata kerja jamak untuk be adalah are.",
+          "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is mengikuti the subject, padahal subjek terdekat adalah the verbs." },
+          { "optionId": "C", "reasonId": "Was tunggal dan tidak cocok dengan the verbs." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada neither ___ nor, kata kerja cocok dengan subjek yang paling dekat dengannya.",
+          "examples": [
+            { "en": "Neither the teacher nor the students are late.", "id": "Baik guru maupun siswa tidak terlambat." },
+            { "en": "Neither the students nor the teacher is ready.", "id": "Baik siswa maupun guru belum siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena subject tunggal disebut pertama, tetapi kata kerja mengikuti subjek yang paling dekat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya memeriksa setiap kalimat.",
+        "hint": "Memeriksa: check. Setiap kalimat: each sentence.",
+        "acceptedAnswers": ["I check each sentence.", "I check every sentence."],
+        "modelAnswer": "I check each sentence.",
+        "commonErrors": [{ "pattern": "I checks each sentence", "feedbackId": "Subjek I memakai kata kerja dasar check." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Beberapa siswa menemukan kesalahan pada struktur.",
+        "hint": "Beberapa siswa: several students. Menemukan: found. Pada struktur: in the structure.",
+        "acceptedAnswers": ["Several students found an error in the structure.", "Several students detected an error in the structure."],
+        "modelAnswer": "Several students found an error in the structure.",
+        "commonErrors": [{ "pattern": "Several students finds an error", "feedbackId": "Several adalah jamak, sehingga kata kerjanya tidak memakai -s." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Sebagian besar jawaban sudah benar.",
+        "hint": "Sebagian besar jawaban: the majority of the answers. Sudah benar: are correct.",
+        "acceptedAnswers": ["The majority of the answers are correct.", "Most of the answers are correct."],
+        "modelAnswer": "The majority of the answers are correct.",
+        "commonErrors": [{ "pattern": "The majority of the answers is correct", "feedbackId": "Kata benda di belakang of adalah answers yang jamak, jadi memakai are." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kalimat ini punya subjek, kata kerja, dan appositive yang memberi keterangan tambahan.",
+        "hint": "Punya: has. Appositive: an appositive. Memberi keterangan tambahan: that gives extra information.",
+        "acceptedAnswers": [
+          "This sentence has a subject, a verb, and an appositive that gives extra information.",
+          "This sentence has a subject, a verb, and an appositive which gives extra information."
+        ],
+        "modelAnswer": "This sentence has a subject, a verb, and an appositive that gives extra information.",
+        "commonErrors": [{ "pattern": "This sentence have a subject", "feedbackId": "Subjek this sentence tunggal, jadi memakai has." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Setiap orang di kelas harus memeriksa jawabannya sebelum dikumpulkan.",
+        "hint": "Setiap orang: everyone. Harus memeriksa: must check. Sebelum dikumpulkan: before submitting them.",
+        "acceptedAnswers": [
+          "Everyone in the class must check their answers before submitting them.",
+          "Everyone in the class must check his or her answers before submitting them."
+        ],
+        "modelAnswer": "Everyone in the class must check their answers before submitting them.",
+        "commonErrors": [{ "pattern": "Everyone in the class must checks", "feedbackId": "Setelah must, gunakan kata kerja dasar: check." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'Each one of the clauses ___ a subject.'",
+        "options": [
+          { "id": "A", "text": "have" },
+          { "id": "B", "text": "has" },
+          { "id": "C", "text": "having" },
+          { "id": "D", "text": "are" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Each one adalah subjek tunggal, sehingga kata kerjanya has.",
+        "stepByStep": [
+          "Subjek kalimat adalah each one, yang tunggal.",
+          "Kata kerja tunggal untuk have adalah has.",
+          "Have dan are jamak, dan having tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Have jamak, tidak cocok dengan each one yang tunggal." },
+          { "optionId": "C", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Are jamak, tidak cocok dengan each one." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Each one of memakai kata kerja tunggal, walaupun kata benda di belakangnya jamak.",
+          "examples": [
+            { "en": "Each one of the clauses has a subject.", "id": "Setiap klausa punya subjek." },
+            { "en": "Each one of the boys is ready.", "id": "Setiap anak laki-laki sudah siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena clauses jamak, tetapi subjek kalimat adalah each one yang tunggal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Several of the students is late." },
+          { "id": "B", "text": "Several of the student are late." },
+          { "id": "C", "text": "Several of the students are late." },
+          { "id": "D", "text": "Several of the students was late." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Several adalah jamak, dan students juga jamak, sehingga memakai are.",
+        "stepByStep": [
+          "Several adalah jamak.",
+          "Students jamak, dan kata benda setelah of harus jamak.",
+          "Is dan was tunggal, sedangkan student are salah bentuk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan several yang jamak." },
+          { "optionId": "B", "reasonId": "Student tunggal tidak cocok setelah several of." },
+          { "optionId": "D", "reasonId": "Was tunggal, tidak cocok dengan several yang jamak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Several of memakai kata benda jamak dan kata kerja jamak.",
+          "examples": [
+            { "en": "Several of the boys are absent today.", "id": "Beberapa anak laki-laki tidak hadir hari ini." },
+            { "en": "Several of the rooms are closed.", "id": "Beberapa ruangan ditutup." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena students dekat dengan is, tetapi several memakai kata kerja jamak."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Identify the subject in 'The team, along with its coaches, is ready for the match.'",
+        "options": [
+          { "id": "A", "text": "the team" },
+          { "id": "B", "text": "its coaches" },
+          { "id": "C", "text": "the match" },
+          { "id": "D", "text": "ready" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "The team adalah subjek utama. Along with its coaches adalah frasa tambahan.",
+        "stepByStep": [
+          "Cari kata kerja utama: is ready.",
+          "Subjek yang cocok dengan is adalah the team.",
+          "Its coaches berada dalam frasa tambahan along with, sehingga bukan subjek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Its coaches berada dalam frasa tambahan, bukan subjek utama." },
+          { "optionId": "C", "reasonId": "The match adalah objek kata depan for, bukan subjek." },
+          { "optionId": "D", "reasonId": "Ready adalah kata sifat, bukan subjek." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Along with dan frasa tambahan lain tidak mengubah subjek utama kalimat.",
+          "examples": [
+            { "en": "The manager, along with the staff, is ready.", "id": "Manajer, bersama para staf, sudah siap." },
+            { "en": "The coach, together with the players, is here.", "id": "Pelatih, bersama para pemain, ada di sini." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti subjek karena jamak, tetapi coaches berada dalam frasa along with."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Which word is the main verb in 'The reports that the manager wrote are late.'?",
+        "options": [
+          { "id": "A", "text": "reports" },
+          { "id": "B", "text": "wrote" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "late" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Are adalah kata kerja utama yang cocok dengan subjek reports. Wrote berada dalam klausa that.",
+        "stepByStep": [
+          "Subjek kalimat adalah the reports.",
+          "Klausa that the manager wrote adalah sisipan.",
+          "Late adalah kata sifat, dan wrote berada di dalam klausa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Reports adalah subjek, bukan kata kerja." },
+          { "optionId": "B", "reasonId": "Wrote berada di dalam klausa that, bukan kata kerja utama." },
+          { "optionId": "D", "reasonId": "Late adalah kata sifat, bukan kata kerja." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja di dalam klausa yang dimulai dengan that tidak selalu menjadi kata kerja utama kalimat.",
+          "examples": [
+            { "en": "The letter that he wrote is on the desk.", "id": "Surat yang dia tulis ada di meja." },
+            { "en": "The bread that we bought is fresh.", "id": "Roti yang kami beli masih segar." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti kata kerja utama, tetapi wrote berada di dalam klausa that."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Everyone in the class are invited." },
+          { "id": "B", "text": "Everyone in the class is invited." },
+          { "id": "C", "text": "Everyone in the class have been invited." },
+          { "id": "D", "text": "Everyone in the class were invited." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Everyone adalah kata ganti tunggal, sehingga kata kerjanya is invited.",
+        "stepByStep": [
+          "Everyone adalah kata ganti tunggal.",
+          "Pasif sekarang tunggal memakai is invited.",
+          "Are, have been, dan were jamak atau tidak cocok dengan everyone."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan everyone yang tunggal." },
+          { "optionId": "C", "reasonId": "Have been jamak, tidak cocok dengan everyone." },
+          { "optionId": "D", "reasonId": "Were jamak dan lampau, tidak cocok dengan makna sekarang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Everyone adalah kata ganti tunggal dan memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "Everyone in the team is ready.", "id": "Semua orang di tim sudah siap." },
+            { "en": "Everyone is welcome to join.", "id": "Semua orang boleh bergabung." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena class memberi kesan banyak orang, tetapi everyone tetap tunggal."
+      }
+    ]
+  }
+}

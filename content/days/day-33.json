@@ -1,0 +1,600 @@
+{
+  "day": 33,
+  "week": 5,
+  "month": 2,
+  "title": "Appositive (Keterangan Tambahan)",
+  "topic": "Frasa keterangan tambahan yang memberi identitas pada kata benda tanpa kata kerja",
+  "skillFocus": "reading",
+  "objectives": [
+    "Mengenali appositive, yaitu frasa yang menjelaskan kata benda di dekatnya",
+    "Memakai koma dengan benar di sekitar appositive",
+    "Menentukan kata kerja utama ketika ada appositive"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "appositive", "pronunciationId": "a-POZ-i-tiv (tekanan di POZ)", "pos": "Noun", "meaningId": "keterangan tambahan yang menjelaskan kata benda", "example": "In 'Ani, a doctor, is kind', a doctor is an appositive.", "exampleId": "Dalam 'Ani, seorang dokter, itu baik', seorang dokter adalah keterangan tambahan." },
+      { "no": 2, "en": "founder", "pronunciationId": "FAUN-der (tekanan di FAUN)", "pos": "Noun", "meaningId": "pendiri", "example": "She is the founder of the company.", "exampleId": "Dia adalah pendiri perusahaan itu." },
+      { "no": 3, "en": "author", "pronunciationId": "AW-ter (tekanan di AW)", "pos": "Noun", "meaningId": "penulis", "example": "The author signed the book.", "exampleId": "Penulis itu menandatangani bukunya." },
+      { "no": 4, "en": "scientist", "pronunciationId": "SAI-en-tist (tekanan di SAI)", "pos": "Noun", "meaningId": "ilmuwan", "example": "My cousin is a scientist.", "exampleId": "Sepupu saya adalah seorang ilmuwan." },
+      { "no": 5, "en": "professor", "pronunciationId": "pro-FES-er (tekanan di FES)", "pos": "Noun", "meaningId": "profesor", "example": "The professor teaches physics.", "exampleId": "Profesor itu mengajar fisika." },
+      { "no": 6, "en": "engineer", "pronunciationId": "en-ji-NIR (tekanan di NIR)", "pos": "Noun", "meaningId": "insinyur", "example": "He is an engineer in Jakarta.", "exampleId": "Dia adalah insinyur di Jakarta." },
+      { "no": 7, "en": "painter", "pronunciationId": "PEIN-ter (ai panjang, ter ringan)", "pos": "Noun", "meaningId": "pelukis", "example": "The painter sold three pictures.", "exampleId": "Pelukis itu menjual tiga lukisan." },
+      { "no": 8, "en": "director", "pronunciationId": "di-REK-ter (tekanan di REK)", "pos": "Noun", "meaningId": "direktur, sutradara", "example": "The director of the school is kind.", "exampleId": "Direktur sekolah itu baik hati." },
+      { "no": 9, "en": "nickname", "pronunciationId": "NIK-neim (tekanan di NIK)", "pos": "Noun", "meaningId": "nama panggilan", "example": "Her nickname is Dee.", "exampleId": "Nama panggilannya Dee." },
+      { "no": 10, "en": "title", "pronunciationId": "TAI-tel (ai panjang, l di akhir)", "pos": "Noun", "meaningId": "judul, gelar", "example": "The title of the book is long.", "exampleId": "Judul buku itu panjang." }
+    ],
+    "tip": "Appositive menjelaskan kata benda di dekatnya dan biasanya diapit koma. Kalau kamu membuang appositive, kalimat tetap lengkap dan kata kerja utama tidak berubah."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["appositive English grammar", "TOEFL appositive examples"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang appositive, dengan contoh nama, profesi, dan julukan.",
+      "watchFor": [
+        "Appositive yang memberi nama, profesi, atau julukan",
+        "Koma di sekitar appositive",
+        "Kata kerja utama tetap sesuai subjek"
+      ]
+    },
+    "lesson": {
+      "intro": "Appositive adalah frasa yang menjelaskan atau mengganti nama kata benda di dekatnya. Dengan appositive, kalimat bisa memberi informasi lebih tanpa menambah kata kerja baru.",
+      "sections": [
+        {
+          "heading": "Apa itu appositive",
+          "bodyMd": "Appositive memberi identitas tambahan: **Ani, a doctor, is kind.** Di sini **a doctor** menjelaskan **Ani**. Appositive biasanya diapit koma, dan tidak punya kata kerja utama sendiri."
+        },
+        {
+          "heading": "Kata kerja tetap milik subjek",
+          "bodyMd": "Walaupun appositive panjang, kata kerja utama tetap sesuai subjek sebelum appositive: **Rudi, the author of the book, is here.** Subjeknya Rudi, bukan **the author** atau **the book**."
+        },
+        {
+          "heading": "Pola yang sering muncul",
+          "bodyMd": "Appositive sering berupa profesi, julukan, atau gelar: **Dr. Lina, a professor of physics**, **Ms. Sari, the director**, atau **Andi, known as the color teacher**."
+        }
+      ],
+      "formulas": [
+        { "label": "Dasar", "pattern": "subjek, appositive, kata kerja utama" },
+        { "label": "Koma", "pattern": "koma sebelum dan sesudah appositive yang ditengah kalimat" },
+        { "label": "Kata kerja", "pattern": "kata kerja utama mengikuti subjek, bukan appositive" },
+        { "label": "Tanpa appositive", "pattern": "subjek + kata kerja utama tetap lengkap" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Ani, a doctor, is very kind.", "id": "Ani, seorang dokter, sangat baik hati." },
+          { "en": "Budi, the director of the company, is busy today.", "id": "Budi, direktur perusahaan itu, sibuk hari ini." },
+          { "en": "My uncle, an engineer, works in Surabaya.", "id": "Paman saya, seorang insinyur, bekerja di Surabaya." },
+          { "en": "The author, a scientist, will visit the school.", "id": "Penulis itu, seorang ilmuwan, akan mengunjungi sekolah." },
+          { "en": "Sari, the painter, sold three pictures.", "id": "Sari, pelukis itu, menjual tiga lukisan." }
+        ],
+        "negative": [
+          { "en": "The founder is not here today.", "id": "Pendirinya tidak ada di sini hari ini." },
+          { "en": "Lina, a professor, does not teach on Friday.", "id": "Lina, seorang profesor, tidak mengajar pada hari Jumat." },
+          { "en": "The painter, not the director, is coming.", "id": "Pelukis itu, bukan direktur, yang datang." },
+          { "en": "My neighbor, who is a teacher, is not home.", "id": "Tetangga saya, yang seorang guru, tidak ada di rumah." },
+          { "en": "The title of the book is not clear.", "id": "Judul buku itu tidak jelas." }
+        ],
+        "question": [
+          { "en": "Who is the author of this book?", "id": "Siapa penulis buku ini?" },
+          { "en": "Is Budi the director, or is he the engineer?", "id": "Apakah Budi direktur, atau dia insinyur?" },
+          { "en": "What is the nickname of your friend?", "id": "Apa nama panggilan temanmu?" },
+          { "en": "Is the scientist from this city?", "id": "Apakah ilmuwan itu berasal dari kota ini?" },
+          { "en": "Who is the professor in this class?", "id": "Siapa profesor di kelas ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Ani a doctor is very kind.", "right": "Ani, a doctor, is very kind.", "whyId": "Appositive di tengah kalimat diapit koma di kedua sisinya." },
+        { "wrong": "Budi, the director is busy today.", "right": "Budi, the director, is busy today.", "whyId": "Koma kedua wajib ada agar appositive tertutup." },
+        { "wrong": "The author, a scientist, are coming.", "right": "The author, a scientist, is coming.", "whyId": "Subjek author tunggal, jadi kata kerjanya is." },
+        { "wrong": "Sari, the painters, sold three pictures.", "right": "Sari, the painter, sold three pictures.", "whyId": "Appositive menjelaskan satu orang, sehingga memakai bentuk tunggal painter." },
+        { "wrong": "The director, along with the actors, are arriving.", "right": "The director, along with the actors, is arriving.", "whyId": "Subjek director tunggal. Actors berada dalam frasa tambahan." },
+        { "wrong": "My uncle, an engineer, work in Surabaya.", "right": "My uncle, an engineer, works in Surabaya.", "whyId": "Subjek uncle tunggal, jadi kata kerjanya works." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Orang-Orang di Balik Sekolah",
+    "text": "Many people know the name of a company, but few know the people behind it. A good example is a small technology school in a quiet town. Its founder, Maria Santoso, started the school with only three rooms and a few old computers. Today the school has more than two hundred students and a strong reputation.\n\nThe school's current director, Budi Hartono, believes that learning should be practical. He often invites guest speakers to share their experience. One of them is Dr. Lina Wijaya, a professor of physics who studies how light moves through water. Another guest is Andi Pratama, an engineer who designed a small bridge for the village. Students enjoy listening to them because each speaker explains complex ideas in simple words.\n\nThe school also has a painter in residence, Sari Dewi, whose nickname among the students is the color teacher. She teaches a class about design and shows how shapes and colors can tell a story. Her paintings hang in the main hallway, and visitors often stop to read the small title cards beside them.\n\nLast year, the school published a short book written by its author in residence, Rudi Kurniawan, who is a scientist and a former student. The book describes how the school began and how its methods changed over time. It was a surprise for many readers, because the story is told by a person who once sat in the same classrooms.\n\nThese people are very different, but each one adds something important to the school. The founder gave the school its purpose, the director keeps it moving, and the speakers, painter, and author bring new ideas into the classroom. An appositive is a small phrase that renames a noun. In this text, phrases like a professor of physics or the color teacher give extra information about a person, without a new verb. Learning to notice these phrases makes long reading passages much easier to understand.",
+    "glossary": [
+      { "en": "founder", "id": "pendiri" },
+      { "en": "reputation", "id": "reputasi" },
+      { "en": "residence", "id": "tempat tinggal atau masa tugas" },
+      { "en": "hallway", "id": "lorong" },
+      { "en": "former", "id": "mantan" },
+      { "en": "renames", "id": "memberi nama lain" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How many rooms did the school have when it started?",
+        "options": [
+          { "id": "A", "text": "three" },
+          { "id": "B", "text": "ten" },
+          { "id": "C", "text": "two hundred" },
+          { "id": "D", "text": "one" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'started the school with only three rooms', artinya sekolah dimulai dengan tiga ruangan.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Sepuluh ruangan tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Dua ratus adalah jumlah siswa sekarang, bukan ruangan." },
+          { "optionId": "D", "reasonId": "Satu ruangan tidak disebut dalam teks." }
+        ],
+        "evidence": "with only three rooms"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Who explains complex ideas in simple words?",
+        "options": [
+          { "id": "A", "text": "the founder" },
+          { "id": "B", "text": "the painter" },
+          { "id": "C", "text": "the speakers" },
+          { "id": "D", "text": "the author" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'each speaker explains complex ideas in simple words', artinya para pembicara tamu yang menjelaskan.",
+        "stepByStep": [
+          "Cari complex ideas di teks.",
+          "Teks menyebut each speaker explains complex ideas in simple words.",
+          "Pendiri, pelukis, dan penulis tidak disebut menjelaskan ide rumit dengan kata sederhana."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pendiri memberi tujuan sekolah, tidak disebut menjelaskan ide rumit." },
+          { "optionId": "B", "reasonId": "Pelukis mengajar desain, tidak disebut menjelaskan ide rumit dengan kata sederhana." },
+          { "optionId": "D", "reasonId": "Penulis menulis buku, tidak disebut menjelaskan ide rumit di sini." }
+        ],
+        "evidence": "each speaker explains complex ideas in simple words"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What is the nickname of Sari Dewi among the students?",
+        "options": [
+          { "id": "A", "text": "the color teacher" },
+          { "id": "B", "text": "the book writer" },
+          { "id": "C", "text": "the bridge builder" },
+          { "id": "D", "text": "the director" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis nama panggilannya the color teacher.",
+        "stepByStep": [
+          "Cari nickname di teks.",
+          "Teks menyebut nama panggilan Sari Dewi di antara siswa adalah the color teacher.",
+          "The book writer adalah penulis, the bridge builder adalah pembuat jembatan oleh Andi, dan the director adalah Budi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Penulis buku adalah Rudi Kurniawan, bukan Sari." },
+          { "optionId": "C", "reasonId": "Pembuat jembatan adalah Andi Pratama, bukan Sari." },
+          { "optionId": "D", "reasonId": "Direktur adalah Budi Hartono, bukan Sari." }
+        ],
+        "evidence": "the color teacher"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which phrase is the appositive in 'Andi Pratama, an engineer who designed a small bridge for the village'?",
+        "options": [
+          { "id": "A", "text": "Andi Pratama" },
+          { "id": "B", "text": "an engineer who designed a small bridge for the village" },
+          { "id": "C", "text": "the village" },
+          { "id": "D", "text": "a small bridge" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Appositive adalah frasa yang menjelaskan Andi Pratama, yaitu an engineer who designed a small bridge for the village.",
+        "stepByStep": [
+          "Appositive menjelaskan kata benda di dekatnya.",
+          "Frasa an engineer who designed a small bridge for the village menjelaskan Andi Pratama.",
+          "Andi Pratama adalah nama yang dijelaskan, the village dan a small bridge hanya bagian dari frasa tambahan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Andi Pratama adalah kata benda yang dijelaskan, bukan appositive." },
+          { "optionId": "C", "reasonId": "The village hanya bagian dari frasa tambahan, bukan frasa yang menjelaskan." },
+          { "optionId": "D", "reasonId": "A small bridge hanya objek dalam frasa tambahan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Appositive adalah frasa yang menjelaskan atau mengganti kata benda di dekatnya, biasanya diapit koma.",
+          "examples": [
+            { "en": "Mr. Hasan, a teacher from Malang, is my neighbor.", "id": "Pak Hasan, seorang guru dari Malang, adalah tetangga saya." },
+            { "en": "The bridge, a steel structure, was built in 1990.", "id": "Jembatan itu, sebuah struktur baja, dibangun pada 1990." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti frasa paling penting, tetapi Andi Pratama adalah kata benda yang dijelaskan.",
+        "evidence": "Andi Pratama, an engineer who designed a small bridge for the village"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we conclude about Rudi Kurniawan's book?",
+        "options": [
+          { "id": "A", "text": "It was written by a former student of the school." },
+          { "id": "B", "text": "It was written by a famous professor from abroad." },
+          { "id": "C", "text": "It describes only the director's life." },
+          { "id": "D", "text": "It was published before the school opened." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menyebut Rudi sebagai author in residence yang juga scientist dan a former student, dan bukunya bercerita dari sudut pandang orang yang pernah duduk di kelas yang sama.",
+        "stepByStep": [
+          "Cari author di teks: 'written by its author in residence, Rudi Kurniawan, who is a scientist and a former student.'",
+          "Former student berarti mantan siswa sekolah itu.",
+          "Pilihan B bertentangan dengan former student. Pilihan C tidak disebut. Pilihan D bertentangan dengan 'last year, the school published'."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut Rudi sebagai mantan siswa, bukan profesor dari luar negeri." },
+          { "optionId": "C", "reasonId": "Buku itu bercerita tentang sekolah, tidak hanya kehidupan direktur." },
+          { "optionId": "D", "reasonId": "Buku diterbitkan tahun lalu, setelah sekolah sudah berjalan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Appositive seperti a former student memberi identitas penulis, tanpa kata kerja baru.",
+          "examples": [
+            { "en": "The novel, written by a former teacher, is popular.", "id": "Novel itu, yang ditulis oleh mantan guru, populer." },
+            { "en": "The report, prepared by a former student, was clear.", "id": "Laporan itu, yang disiapkan oleh mantan siswa, jelas." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena Rudi disebut scientist, tetapi teks menyebut dia mantan siswa sekolah itu.",
+        "evidence": "a former student"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "My neighbor, ___ of English, is very kind.",
+        "options": [
+          { "id": "A", "text": "a teacher" },
+          { "id": "B", "text": "teaching" },
+          { "id": "C", "text": "teachers" },
+          { "id": "D", "text": "teach" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "A teacher of English adalah appositive yang menjelaskan my neighbor.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teaching tidak bisa menjadi appositive yang menjelaskan neighbor." },
+          { "optionId": "C", "reasonId": "Teachers jamak, sedangkan neighbor tunggal." },
+          { "optionId": "D", "reasonId": "Teach adalah kata kerja, tidak cocok sebagai appositive." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The new school, ___ by a famous architect, opened last month.",
+        "options": [
+          { "id": "A", "text": "design" },
+          { "id": "B", "text": "designs" },
+          { "id": "C", "text": "designed" },
+          { "id": "D", "text": "designing" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Designed by a famous architect adalah appositive yang menjelaskan the new school, sehingga bentuknya V3: designed.",
+        "stepByStep": [
+          "Frasa ini menjelaskan the new school, dan artinya sekolah itu dirancang oleh arsitek terkenal.",
+          "Bentuk pasif yang tepat untuk appositive ini adalah V3: designed.",
+          "Design dan designs adalah bentuk aktif, dan designing tidak cocok sebagai appositive di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Design adalah bentuk dasar, tidak cocok sebagai appositive pasif." },
+          { "optionId": "B", "reasonId": "Designs adalah bentuk aktif, tidak cocok dengan makna dirancang oleh." },
+          { "optionId": "D", "reasonId": "Designing tidak cocok sebagai appositive pasif di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Ratna, ___ the company, will speak at the event.",
+        "options": [
+          { "id": "A", "text": "the director of" },
+          { "id": "B", "text": "directing" },
+          { "id": "C", "text": "directs" },
+          { "id": "D", "text": "directed" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "The director of the company adalah appositive yang menjelaskan Ratna, sehingga kata kerja utama will speak tetap milik Ratna.",
+        "stepByStep": [
+          "Appositive menjelaskan Ratna, sehingga bentuknya frasa kata benda.",
+          "The director of the company memberi identitas Ratna.",
+          "Directing dan directs adalah kata kerja yang bisa merusak struktur. Directed adalah lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Directing adalah kata kerja, tidak cocok sebagai appositive." },
+          { "optionId": "C", "reasonId": "Directs adalah kata kerja present, tidak memberi identitas Ratna." },
+          { "optionId": "D", "reasonId": "Directed adalah kata kerja lampau, tidak cocok sebagai appositive." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The professor, along with her two assistants, ___ the lab every Friday.",
+        "options": [
+          { "id": "A", "text": "clean" },
+          { "id": "B", "text": "cleans" },
+          { "id": "C", "text": "cleaning" },
+          { "id": "D", "text": "to clean" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek kalimat adalah the professor yang tunggal. Along with her two assistants adalah frasa tambahan.",
+        "stepByStep": [
+          "Subjek kalimat adalah the professor, yang tunggal.",
+          "Along with her two assistants adalah frasa tambahan dan tidak mengubah kata kerja.",
+          "Clean adalah bentuk jamak, cleaning bukan kata kerja utama, dan to clean tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Clean adalah bentuk jamak atau dasar, tidak cocok dengan professor yang tunggal." },
+          { "optionId": "C", "reasonId": "Cleaning tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "To clean tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa tambahan seperti along with tidak mengubah bentuk kata kerja utama.",
+          "examples": [
+            { "en": "The director, along with the staff, meets on Monday.", "id": "Direktur, bersama staf, bertemu pada hari Senin." },
+            { "en": "The coach, together with the players, trains every day.", "id": "Pelatih, bersama para pemain, berlatih setiap hari." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena assistants jamak dekat dengan kata kerja, tetapi subjek kalimat adalah professor yang tunggal."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Both the painter and the author ___ invited to the opening.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Both ___ and memakai kata kerja jamak, sehingga memakai are.",
+        "stepByStep": [
+          "Pola both ___ and menghubungkan dua subjek sekaligus.",
+          "Kedua subjek digabung dan jamak, sehingga kata kerjanya are.",
+          "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan dua subjek yang digabung." },
+          { "optionId": "C", "reasonId": "Was tunggal dan tidak cocok dengan dua subjek." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Both ___ and selalu memakai kata kerja jamak.",
+          "examples": [
+            { "en": "Both the teacher and the student are ready.", "id": "Baik guru maupun siswa sudah siap." },
+            { "en": "Both the bus and the train are late today.", "id": "Bus maupun kereta terlambat hari ini." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena painter tunggal, tetapi both ___ and menggabung dua subjek sehingga jamak."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Ibu saya, seorang guru, sangat ramah.",
+        "hint": "Seorang guru: a teacher. Ramah: friendly.",
+        "acceptedAnswers": ["My mother, a teacher, is very friendly.", "My mother, who is a teacher, is very friendly."],
+        "modelAnswer": "My mother, a teacher, is very friendly.",
+        "commonErrors": [{ "pattern": "My mother a teacher is very friendly", "feedbackId": "Appositive di tengah kalimat diapit koma." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Penulis buku itu, seorang ilmuwan, akan datang besok.",
+        "hint": "Penulis buku itu: the author of the book. Akan datang: will come.",
+        "acceptedAnswers": ["The author of the book, a scientist, will come tomorrow.", "The author of that book, a scientist, will come tomorrow."],
+        "modelAnswer": "The author of the book, a scientist, will come tomorrow.",
+        "commonErrors": [{ "pattern": "The author of the book, a scientist, will coming", "feedbackId": "Setelah will, gunakan kata kerja dasar: come." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Budi, direktur baru perusahaan itu, sedang bekerja di kantor.",
+        "hint": "Direktur baru perusahaan itu: the new director of the company. Sedang bekerja: is working.",
+        "acceptedAnswers": ["Budi, the new director of the company, is working in the office.", "Budi, the company's new director, is working in the office."],
+        "modelAnswer": "Budi, the new director of the company, is working in the office.",
+        "commonErrors": [{ "pattern": "Budi, the new director of the company, are working", "feedbackId": "Subjek Budi tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Pelukis yang terkenal itu, yang lukisannya dipajang di balai kota, memberi kuliah minggu depan.",
+        "hint": "Yang lukisannya dipajang: whose paintings are displayed. Memberi kuliah: will give a lecture.",
+        "acceptedAnswers": [
+          "The famous painter, whose paintings are displayed at the city hall, will give a lecture next week.",
+          "The famous painter, who has paintings displayed at the city hall, will give a lecture next week."
+        ],
+        "modelAnswer": "The famous painter, whose paintings are displayed at the city hall, will give a lecture next week.",
+        "commonErrors": [{ "pattern": "whose paintings is displayed", "feedbackId": "Subjek paintings jamak, sehingga memakai are displayed." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dr. Rini, seorang profesor fisika, dan timnya telah menemukan cara baru.",
+        "hint": "Seorang profesor fisika: a professor of physics. Telah menemukan: have found.",
+        "acceptedAnswers": [
+          "Dr. Rini, a professor of physics, and her team have found a new method.",
+          "Dr. Rini, a physics professor, and her team have found a new method."
+        ],
+        "modelAnswer": "Dr. Rini, a professor of physics, and her team have found a new method.",
+        "commonErrors": [{ "pattern": "Dr. Rini, a professor of physics, and her team has found", "feedbackId": "Dr. Rini dan timnya adalah subjek jamak, jadi memakai have." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which word group is the appositive in 'The pilot, Dewi, flew the plane across the sea.'?",
+        "options": [
+          { "id": "A", "text": "Dewi" },
+          { "id": "B", "text": "The pilot" },
+          { "id": "C", "text": "flew the plane" },
+          { "id": "D", "text": "across the sea" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Dewi menjelaskan the pilot, dan diapit koma, sehingga itu appositive.",
+        "stepByStep": [
+          "Appositive menjelaskan kata benda di dekatnya dan diapit koma.",
+          "Dewi memberi nama pada the pilot.",
+          "The pilot adalah kata benda yang dijelaskan. Flew the plane adalah kata kerja utama, dan across the sea adalah frasa depan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "The pilot adalah kata benda yang dijelaskan, bukan appositive." },
+          { "optionId": "C", "reasonId": "Flew the plane adalah kata kerja utama, bukan appositive." },
+          { "optionId": "D", "reasonId": "Across the sea adalah frasa depan, bukan appositive." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Appositive berupa kata benda atau frasa yang memberi nama atau identitas kepada kata benda di dekatnya.",
+          "examples": [
+            { "en": "The teacher, Mr. Hasan, is very patient.", "id": "Guru itu, Pak Hasan, sangat sabar." },
+            { "en": "My cousin, Rina, lives in Medan.", "id": "Sepupu saya, Rina, tinggal di Medan." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti frasa yang penting, tetapi the pilot adalah kata benda yang sedang dijelaskan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Lina, scientist, are speaking at the event." },
+          { "id": "B", "text": "Lina, a scientist, are speaking at the event." },
+          { "id": "C", "text": "Lina, a scientist, is speaking at the event." },
+          { "id": "D", "text": "Lina, a scientist, speaking at the event." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Subjek Lina tunggal, dan a scientist adalah appositive. Kata kerja utamanya is speaking.",
+        "stepByStep": [
+          "Subjek Lina tunggal, sehingga kata kerjanya is.",
+          "A scientist adalah appositive yang diapit koma.",
+          "Pilihan A tidak memakai artikel dan memakai are. Pilihan B memakai are. Pilihan D tidak punya kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Scientist tanpa artikel dan kata kerja are tidak cocok dengan Lina." },
+          { "optionId": "B", "reasonId": "Are tidak cocok dengan Lina yang tunggal." },
+          { "optionId": "D", "reasonId": "Tidak ada kata kerja utama yang lengkap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Appositive tidak mengubah kata kerja. Kata kerja mengikuti subjek sebelum appositive.",
+          "examples": [
+            { "en": "Ani, a doctor, is working today.", "id": "Ani, seorang dokter, sedang bekerja hari ini." },
+            { "en": "Tom, an artist, is painting the wall.", "id": "Tom, seorang seniman, sedang mengecat dinding." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena a scientist memberi kesan jamak, tetapi subjeknya Lina yang tunggal."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct noun: 'The ___ of the software company gave a short speech.'",
+        "options": [
+          { "id": "A", "text": "founders" },
+          { "id": "B", "text": "founded" },
+          { "id": "C", "text": "founder" },
+          { "id": "D", "text": "founding" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "The founder adalah kata benda tunggal sebagai subjek. Gave juga tunggal.",
+        "stepByStep": [
+          "Kata kerja gave menunjukkan subjek tunggal.",
+          "Founder adalah kata benda tunggal yang berarti pendiri.",
+          "Founders jamak, founded adalah kata kerja lampau, dan founding bukan kata benda yang tepat di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Founders jamak, tidak cocok dengan gave yang menunjukkan subjek tunggal." },
+          { "optionId": "B", "reasonId": "Founded adalah kata kerja, tidak cocok sebagai subjek." },
+          { "optionId": "D", "reasonId": "Founding tidak cocok sebagai subjek kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda tunggal sebagai subjek memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "The founder of the school is here.", "id": "Pendiri sekolah itu ada di sini." },
+            { "en": "The director of the bank gave a speech.", "id": "Direktur bank itu memberi pidato." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena artinya sama, tetapi founders jamak dan tidak cocok dengan gave."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "In 'Ani Rahayu, the first woman to lead the team, is a pilot,' which phrase is the appositive?",
+        "options": [
+          { "id": "A", "text": "the team" },
+          { "id": "B", "text": "is a pilot" },
+          { "id": "C", "text": "Ani Rahayu" },
+          { "id": "D", "text": "the first woman to lead the team" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "The first woman to lead the team menjelaskan Ani Rahayu dan diapit koma, sehingga itu appositive.",
+        "stepByStep": [
+          "Appositive menjelaskan kata benda di dekatnya dan diapit koma.",
+          "The first woman to lead the team menjelaskan Ani Rahayu.",
+          "Ani Rahayu adalah kata benda yang dijelaskan. Is a pilot adalah kata kerja utama, dan the team adalah bagian dari frasa tambahan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "The team hanya bagian dari frasa tambahan, bukan appositive secara utuh." },
+          { "optionId": "B", "reasonId": "Is a pilot adalah kata kerja utama, bukan appositive." },
+          { "optionId": "C", "reasonId": "Ani Rahayu adalah kata benda yang dijelaskan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Appositive bisa panjang, tetapi tetap menjelaskan kata benda di dekatnya dan diapit koma.",
+          "examples": [
+            { "en": "Dewi, the first pilot in the group, is ready.", "id": "Dewi, pilot pertama di kelompok itu, sudah siap." },
+            { "en": "Hasan, the head of the department, is here.", "id": "Hasan, kepala departemen itu, ada di sini." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti bagian penting kalimat, tetapi is a pilot adalah kata kerja utama, bukan appositive."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The director, along with the actors, are arriving soon." },
+          { "id": "B", "text": "The director, along with the actors, is arriving soon." },
+          { "id": "C", "text": "The director, along with the actors, arriving soon." },
+          { "id": "D", "text": "The directors, along with the actor, is arriving soon." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek director tunggal. Along with the actors adalah frasa tambahan, sehingga kata kerjanya is arriving.",
+        "stepByStep": [
+          "Subjek director tunggal.",
+          "Along with the actors adalah frasa tambahan dan tidak mengubah kata kerja.",
+          "Pilihan A memakai are untuk director tunggal. Pilihan C tidak punya kata kerja utama. Pilihan D memakai directors jamak dengan is."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are tidak cocok dengan director yang tunggal." },
+          { "optionId": "C", "reasonId": "Tidak ada kata kerja utama yang lengkap." },
+          { "optionId": "D", "reasonId": "Directors jamak, tidak cocok dengan is." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa tambahan dengan along with tidak mengubah subjek kalimat.",
+          "examples": [
+            { "en": "The coach, along with the players, is ready.", "id": "Pelatih, bersama para pemain, sudah siap." },
+            { "en": "The principal, together with the teachers, is leaving.", "id": "Kepala sekolah, bersama para guru, sedang pergi." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena actors jamak dekat dengan kata kerja, tetapi subjek kalimat tetap director yang tunggal."
+      }
+    ]
+  }
+}

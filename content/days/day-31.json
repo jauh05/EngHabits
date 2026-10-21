@@ -1,0 +1,599 @@
+{
+  "day": 31,
+  "week": 5,
+  "month": 2,
+  "title": "Subjek & Kata Kerja Utama dalam Kalimat Panjang",
+  "topic": "Struktur kalimat: menemukan subjek dan kata kerja utama di kalimat yang berisi sisipan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menemukan subjek sebuah kalimat meskipun ada sisipan di tengahnya",
+    "Membedakan kata kerja utama dari kata kerja di dalam klausa",
+    "Mengenali frasa depan yang bukan subjek"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "subject", "pronunciationId": "SAB-jekt (tekanan di SAB)", "pos": "Noun", "meaningId": "subjek kalimat, pelaku", "example": "The subject of this sentence is the teacher.", "exampleId": "Subjek kalimat ini adalah gurunya." },
+      { "no": 2, "en": "verb", "pronunciationId": "VURB (u pendek, b jelas)", "pos": "Noun", "meaningId": "kata kerja", "example": "The verb tells us the action.", "exampleId": "Kata kerja memberi tahu kita tindakannya." },
+      { "no": 3, "en": "clause", "pronunciationId": "KLAWZ (au panjang, s di akhir)", "pos": "Noun", "meaningId": "klausa, anak kalimat", "example": "This clause has its own subject and verb.", "exampleId": "Klausa ini punya subjek dan kata kerjanya sendiri." },
+      { "no": 4, "en": "phrase", "pronunciationId": "FREIZ (ai panjang, z di akhir)", "pos": "Noun", "meaningId": "frasa, kelompok kata", "example": "A prepositional phrase begins with a preposition.", "exampleId": "Frasa depan dimulai dengan kata depan." },
+      { "no": 5, "en": "object", "pronunciationId": "OB-jekt (tekanan di OB)", "pos": "Noun", "meaningId": "objek, sasaran", "example": "The object of the verb receives the action.", "exampleId": "Objek kata kerja menerima tindakan." },
+      { "no": 6, "en": "modifier", "pronunciationId": "MOD-i-fai-er (tekanan di MOD)", "pos": "Noun", "meaningId": "kata atau frasa penerang", "example": "An adjective is a modifier of a noun.", "exampleId": "Kata sifat adalah penerang bagi kata benda." },
+      { "no": 7, "en": "complete", "pronunciationId": "kom-PLIT (tekanan di PLIT)", "pos": "Adj", "meaningId": "lengkap", "example": "The sentence is complete.", "exampleId": "Kalimat itu lengkap." },
+      { "no": 8, "en": "identify", "pronunciationId": "ai-DEN-ti-fai (tekanan di DEN)", "pos": "Verb", "meaningId": "mengenali, menemukan", "example": "Please identify the main verb.", "exampleId": "Tolong temukan kata kerja utamanya." },
+      { "no": 9, "en": "structure", "pronunciationId": "STRUK-cher (tekanan di STRUK)", "pos": "Noun", "meaningId": "struktur, susunan", "example": "The structure of the sentence is simple.", "exampleId": "Struktur kalimat itu sederhana." },
+      { "no": 10, "en": "element", "pronunciationId": "E-li-ment (tekanan di E)", "pos": "Noun", "meaningId": "unsur, bagian dasar", "example": "The subject is an important element.", "exampleId": "Subjek adalah unsur yang penting." }
+    ],
+    "tip": "Cari dulu kata kerja utama, lalu cari subjek yang berada tepat sebelum kata kerja itu. Kalau ada kata benda setelah kata depan, itu hampir pasti bukan subjek."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL structure subject and verb", "finding the main verb in long sentences"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menemukan subjek dan kata kerja utama dalam kalimat panjang, dengan contoh klausa dan frasa sisipan.",
+      "watchFor": [
+        "Subjek sebelum kata kerja utama",
+        "Klausa yang dimulai dengan who atau which",
+        "Frasa depan yang tidak pernah menjadi subjek"
+      ]
+    },
+    "lesson": {
+      "intro": "Kalimat panjang sering terasa rumit karena ada banyak informasi di tengahnya. Kalau kamu tahu cara menemukan subjek dan kata kerja utama, kalimat itu biasanya menjadi jelas. Hari ini kamu berlatih menyisihkan sisipan dan melihat kerangka dasarnya.",
+      "sections": [
+        {
+          "heading": "Mencari subjek",
+          "bodyMd": "**Subjek** adalah kata benda atau frasa benda yang melakukan tindakan atau menjadi topik kalimat. Sisipan seperti klausa dan frasa sering berada di antara subjek dan kata kerja. Subjek tidak berada di dalam frasa depan, karena kata benda setelah **of**, **in**, atau **beside** adalah objek kata depan."
+        },
+        {
+          "heading": "Mencari kata kerja utama",
+          "bodyMd": "**Kata kerja utama** adalah kata kerja yang cocok dengan subjek kalimat, bukan kata kerja di dalam klausa. Kata yang berakhiran **-ing** atau **-ed** sering bukan kata kerja utama. Tanyakan: apakah kata ini cocok dengan subjek dan menunjukkan tindakan utama?"
+        },
+        {
+          "heading": "Cek dengan membuang sisipan",
+          "bodyMd": "Buang semua sisipan, lalu baca sisa kalimatnya. Kalau kalimat masih lengkap, kamu sudah menemukan struktur yang benar: **subjek + kata kerja utama + pelengkap**."
+        }
+      ],
+      "formulas": [
+        { "label": "Pola dasar", "pattern": "subjek + kata kerja utama + pelengkap" },
+        { "label": "Dengan sisipan", "pattern": "subjek + (klausa atau frasa sisipan) + kata kerja utama" },
+        { "label": "Frasa depan", "pattern": "kata depan + kata benda (objek, bukan subjek)" },
+        { "label": "Cek ulang", "pattern": "buang sisipan, lalu periksa apakah kalimat masih lengkap" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The students who studied last night passed the test.", "id": "Para siswa yang belajar semalam lulus tes." },
+          { "en": "The bag of books is heavy.", "id": "Tas berisi buku itu berat." },
+          { "en": "The teacher in the room speaks slowly.", "id": "Guru di ruangan itu berbicara dengan pelan." },
+          { "en": "My brother, who lives in Bandung, calls me every week.", "id": "Kakak saya, yang tinggal di Bandung, menelepon saya setiap minggu." },
+          { "en": "The plan for the trip is ready.", "id": "Rencana perjalanan itu sudah siap." }
+        ],
+        "negative": [
+          { "en": "The gift from my friends is not expensive.", "id": "Hadiah dari teman-teman saya tidak mahal." },
+          { "en": "The book that she bought was not in the shop.", "id": "Buku yang dia beli tidak ada di toko." },
+          { "en": "The house near the river is not for sale.", "id": "Rumah dekat sungai itu tidak dijual." },
+          { "en": "The children who are playing do not need help.", "id": "Anak-anak yang sedang bermain tidak butuh bantuan." },
+          { "en": "The report written by the team was not finished.", "id": "Laporan yang ditulis tim itu belum selesai." }
+        ],
+        "question": [
+          { "en": "Who is the subject of this sentence?", "id": "Siapa subjek kalimat ini?" },
+          { "en": "Is the main verb in this clause or outside it?", "id": "Apakah kata kerja utama ada di dalam klausa ini atau di luar?" },
+          { "en": "Which word is the object of the preposition?", "id": "Kata mana yang menjadi objek kata depan?" },
+          { "en": "Can you remove the modifier and keep the sentence complete?", "id": "Dapatkah kamu membuang penerang itu dan kalimatnya tetap lengkap?" },
+          { "en": "What is the main idea of the passage?", "id": "Apa ide utama dari teks ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The students who studied felt confident was ready.", "right": "The students who studied felt confident.", "whyId": "Kalimat hanya punya satu kata kerja utama. Felt adalah kata kerja utama, bukan was." },
+        { "wrong": "The gift of my friends are expensive.", "right": "The gift of my friends is expensive.", "whyId": "Subjek kalimat adalah gift, bukan friends, sehingga memakai is." },
+        { "wrong": "The teacher with the books are tired.", "right": "The teacher with the books is tired.", "whyId": "Subjek teacher tunggal. Books berada dalam frasa depan." },
+        { "wrong": "The man walking to school are my uncle.", "right": "The man walking to school is my uncle.", "whyId": "Walking adalah bentuk -ing dalam sisipan. Subjeknya man, sehingga memakai is." },
+        { "wrong": "The results which published yesterday shows a trend.", "right": "The results which were published yesterday show a trend.", "whyId": "Published butuh be untuk pasif. Subjek results jamak, sehingga memakai show." },
+        { "wrong": "The book on the shelves are old.", "right": "The book on the shelves is old.", "whyId": "Subjek book tunggal. Shelves adalah objek kata depan." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Membaca Kalimat Panjang",
+    "text": "Long sentences can look difficult, but the structure is often simple. The first step is to identify the subject. The subject is the noun or noun phrase that does the action or describes the topic. In many long sentences, the subject is followed by a clause or a phrase that adds extra information. These extra parts are called modifiers, and they can make a sentence hard to read.\n\nConsider this example: The students who studied for the exam every night felt confident on the test day. The subject is students. The words who studied for the exam every night form a clause, but they are not the main verb. The main verb is felt, because it tells us what the subject did. Everything between the subject and the verb is a modifier, so you can remove it and still have a complete sentence: The students felt confident.\n\nHere is a second example with a prepositional phrase: The results of the survey were published last week. The subject is results, not survey. The phrase of the survey is an object of the preposition, so it cannot be the subject. Once you find the subject and the main verb, you can see the basic element of the sentence.\n\nMany learners make mistakes when they choose a verb inside a clause. A word ending in -ing or -ed is often not the main verb. Ask yourself: does this word agree with the subject and show the main action? If not, it may belong to a modifier.\n\nA good way to practise is to underline each element in a sentence: subject, verb, object, and modifier. After a few sentences, the pattern becomes clear. Check your work by reading the sentence without the extra information. If the sentence is still complete, you have found the right structure.",
+    "glossary": [
+      { "en": "noun phrase", "id": "frasa kata benda" },
+      { "en": "modifier", "id": "penerang" },
+      { "en": "prepositional phrase", "id": "frasa depan" },
+      { "en": "agree", "id": "sesuai, cocok" },
+      { "en": "underline", "id": "menggarisbawahi" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is the first step in reading a long sentence, according to the passage?",
+        "options": [
+          { "id": "A", "text": "identify the subject" },
+          { "id": "B", "text": "remove all the modifiers" },
+          { "id": "C", "text": "memorize the vocabulary" },
+          { "id": "D", "text": "read the sentence twice quickly" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'The first step is to identify the subject', artinya langkah pertama adalah menemukan subjek.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Menghapus penerang dilakukan untuk mengecek, bukan langkah pertama." },
+          { "optionId": "C", "reasonId": "Menghafal kosakata tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Membaca dua kali dengan cepat tidak disebut sebagai langkah pertama." }
+        ],
+        "evidence": "The first step is to identify the subject"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "In the example about the students and the exam, which word is the main verb?",
+        "options": [
+          { "id": "A", "text": "studied" },
+          { "id": "B", "text": "felt" },
+          { "id": "C", "text": "exam" },
+          { "id": "D", "text": "confident" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'The main verb is felt', artinya felt adalah kata kerja utama.",
+        "stepByStep": [
+          "Cari subjek dalam contoh: students.",
+          "Kata kerja utama adalah kata yang cocok dengan students dan menunjukkan tindakan utama: felt.",
+          "Studied berada di dalam klausa, exam adalah objek kata depan, dan confident adalah sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Studied berada di dalam klausa who studied, bukan kata kerja utama." },
+          { "optionId": "C", "reasonId": "Exam adalah kata benda dalam frasa depan." },
+          { "optionId": "D", "reasonId": "Confident adalah kata sifat yang menerangkan students." }
+        ],
+        "evidence": "The main verb is felt"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why can the phrase of the survey not be the subject of its sentence?",
+        "options": [
+          { "id": "A", "text": "because it is a verb" },
+          { "id": "B", "text": "because it is always plural" },
+          { "id": "C", "text": "because it comes after the verb" },
+          { "id": "D", "text": "because it is an object of a preposition" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'an object of the preposition, so it cannot be the subject', artinya frasa itu adalah objek kata depan.",
+        "stepByStep": [
+          "Cari frasa of the survey di teks.",
+          "Teks menyebut frasa itu sebagai objek kata depan.",
+          "Pilihan A dan B tidak disebut. Pilihan C tidak benar, karena frasa itu berada sebelum kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut frasa itu sebagai kata kerja." },
+          { "optionId": "B", "reasonId": "Jamak tidak disebut sebagai alasan." },
+          { "optionId": "C", "reasonId": "Urutan kata tidak disebut sebagai alasan." }
+        ],
+        "evidence": "an object of the preposition, so it cannot be the subject"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What does the passage say about a word ending in -ing or -ed?",
+        "options": [
+          { "id": "A", "text": "it is always the main verb" },
+          { "id": "B", "text": "it is never used in sentences" },
+          { "id": "C", "text": "it is often not the main verb" },
+          { "id": "D", "text": "it always shows the subject" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'A word ending in -ing or -ed is often not the main verb', artinya kata seperti itu sering bukan kata kerja utama.",
+        "stepByStep": [
+          "Cari kata -ing atau -ed di teks.",
+          "Teks menyebut kata seperti itu sering bukan kata kerja utama.",
+          "Pilihan A bertentangan dengan 'often not'. Pilihan B dan D tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut kata seperti itu sering bukan kata kerja utama." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut kata itu tidak pernah dipakai." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut kata itu selalu menunjukkan subjek." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata yang berakhiran -ing atau -ed sering berada di dalam klausa atau sisipan, sehingga bukan kata kerja utama.",
+          "examples": [
+            { "en": "The man walking to school is my uncle.", "id": "Pria yang berjalan ke sekolah itu adalah paman saya." },
+            { "en": "The report written by the team is ready.", "id": "Laporan yang ditulis tim itu sudah siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena -ing dan -ed sering dikenal sebagai kata kerja, tetapi teks menyebut kata seperti itu sering bukan kata kerja utama.",
+        "evidence": "A word ending in -ing or -ed is often not the main verb"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "According to the passage, what is the best way to check that you have found the right structure?",
+        "options": [
+          { "id": "A", "text": "count the words in the sentence" },
+          { "id": "B", "text": "read the sentence without the extra information" },
+          { "id": "C", "text": "translate every word into Indonesian" },
+          { "id": "D", "text": "ask a friend for the answer" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Check your work by reading the sentence without the extra information', artinya kalimat harus dibaca tanpa sisipan untuk mengecek struktur.",
+        "stepByStep": [
+          "Cari kata check di teks: 'Check your work by reading the sentence without the extra information.'",
+          "Cara pengecekan yang disebut adalah membaca kalimat tanpa sisipan.",
+          "Pilihan A, C, dan D tidak disebut dalam teks sebagai cara mengecek struktur."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menghitung kata tidak disebut sebagai cara mengecek struktur." },
+          { "optionId": "C", "reasonId": "Menerjemahkan setiap kata tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Bertanya kepada teman tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk mengecek struktur, buang sisipan lalu periksa apakah kalimat utamanya masih lengkap.",
+          "examples": [
+            { "en": "The students who waited outside were tired.", "id": "Siswa yang menunggu di luar itu lelah." },
+            { "en": "Without the clause, the sentence is still complete.", "id": "Tanpa klausa itu, kalimatnya tetap lengkap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti cara mengecek yang teliti, tetapi jumlah kata tidak menunjukkan apakah struktur sudah benar.",
+        "evidence": "Check your work by reading the sentence without the extra information"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The students in the room ___ very quiet today.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Subjek kalimat adalah students, yang jamak. In the room hanya frasa depan, sehingga memakai are.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tidak cocok dengan students yang jamak." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The list of new books ___ on the table.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Subjek adalah list, yang tunggal. Of new books adalah frasa depan, sehingga memakai is.",
+        "stepByStep": [
+          "Subjek kalimat adalah list, bukan books.",
+          "List tunggal, jadi kata kerjanya is.",
+          "Are mengikuti books, yang berada di dalam frasa depan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Are mengikuti books, bukan subjek list." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Ahmad, who ___ in the bank for ten years, is planning to retire.",
+        "options": [
+          { "id": "A", "text": "work" },
+          { "id": "B", "text": "working" },
+          { "id": "C", "text": "works" },
+          { "id": "D", "text": "worked" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Subjek Ahmad tunggal, dan kata kerja di dalam klausa who harus cocok: works.",
+        "stepByStep": [
+          "Subjek yang dibicarakan adalah Ahmad, tunggal.",
+          "Kata kerja di dalam klausa who harus cocok dengan Ahmad: works.",
+          "Work adalah bentuk jamak, working adalah bentuk -ing, dan worked adalah bentuk lampau yang tidak sesuai dengan ten years yang masih berlanjut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Work adalah bentuk jamak, tidak cocok dengan Ahmad." },
+          { "optionId": "B", "reasonId": "Working bukan kata kerja yang cocok dalam klausa ini." },
+          { "optionId": "D", "reasonId": "Worked tidak cocok dengan for ten years yang masih berlanjut." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The results of the test, which ___ published on Monday, show a clear pattern.",
+        "options": [
+          { "id": "A", "text": "was" },
+          { "id": "B", "text": "were" },
+          { "id": "C", "text": "is" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Klausa which mengacu pada results yang jamak, sehingga memakai were. Kata kerja utama show berada setelahnya.",
+        "stepByStep": [
+          "Subjek kalimat adalah results, dan itu jamak.",
+          "Klausa which mengacu pada results, sehingga kata kerjanya harus jamak: were.",
+          "Was dan is tunggal, sedangkan being tidak bisa menjadi kata kerja utama. Kata kerja utama kalimat ini adalah show."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Was tunggal, tidak cocok dengan results." },
+          { "optionId": "C", "reasonId": "Is tunggal, tidak cocok dengan results." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja di dalam klausa ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Klausa yang dimulai dengan which mengikuti kata benda sebelumnya. Kata kerja di dalam klausa harus cocok dengan kata benda itu.",
+          "examples": [
+            { "en": "The shoes, which were expensive, broke quickly.", "id": "Sepatu itu, yang mahal, rusak dengan cepat." },
+            { "en": "The bus, which is late, will arrive soon.", "id": "Bus itu, yang terlambat, akan segera tiba." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti pilihan yang aman, tetapi was tidak cocok dengan results yang jamak."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Neither the manager nor the workers ___ aware of the new rule.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "are" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pada pola neither ___ nor, kata kerja mengikuti subjek yang paling dekat, yaitu workers yang jamak: are.",
+        "stepByStep": [
+          "Pola neither ___ nor memakai subjek terdekat untuk menentukan kata kerja.",
+          "Subjek terdekat dengan kata kerja adalah the workers, yang jamak.",
+          "Is dan was tunggal, sedangkan be tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is mengikuti the manager, padahal subjek terdekat adalah the workers." },
+          { "optionId": "C", "reasonId": "Was tunggal dan tidak cocok dengan workers." },
+          { "optionId": "D", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pada neither ___ nor, kata kerja cocok dengan subjek yang paling dekat dengannya.",
+          "examples": [
+            { "en": "Neither the teacher nor the students are late.", "id": "Baik guru maupun siswa tidak terlambat." },
+            { "en": "Neither the students nor the teacher is ready.", "id": "Baik siswa maupun guru belum siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena manager adalah subjek pertama, tetapi kata kerja mengikuti subjek yang paling dekat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Buku itu ada di meja.",
+        "hint": "Ada di: is on the table.",
+        "acceptedAnswers": ["The book is on the table.", "The book is on the desk."],
+        "modelAnswer": "The book is on the table.",
+        "commonErrors": [{ "pattern": "The book are on the table", "feedbackId": "Subjek book tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Para siswa yang rajin itu sedang belajar.",
+        "hint": "Yang rajin: who are diligent. Sedang belajar: are studying.",
+        "acceptedAnswers": ["The students who are diligent are studying.", "The diligent students are studying."],
+        "modelAnswer": "The students who are diligent are studying.",
+        "commonErrors": [{ "pattern": "The students who is diligent", "feedbackId": "Subjek students jamak, sehingga klausa who memakai are." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Daftar tugas itu panjang.",
+        "hint": "Daftar tugas: the list of tasks. Panjang: long.",
+        "acceptedAnswers": ["The list of tasks is long.", "The list of tasks is very long."],
+        "modelAnswer": "The list of tasks is long.",
+        "commonErrors": [{ "pattern": "The list of tasks are long", "feedbackId": "Subjek list tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Hasil penelitian yang diumumkan kemarin menunjukkan hal yang menarik.",
+        "hint": "Hasil penelitian: the results of the research. Yang diumumkan: that were announced. Menunjukkan: show.",
+        "acceptedAnswers": [
+          "The results of the research that were announced yesterday show something interesting.",
+          "The results of the research, which were announced yesterday, show something interesting."
+        ],
+        "modelAnswer": "The results of the research that were announced yesterday show something interesting.",
+        "commonErrors": [{ "pattern": "The results of the research that was announced", "feedbackId": "Subjek results jamak, sehingga klausa memakai were." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kepala sekolah yang baru, bersama guru-gurunya, sedang merapikan jadwal.",
+        "hint": "Kepala sekolah yang baru: the new principal. Bersama guru-gurunya: along with the teachers. Sedang merapikan: is arranging.",
+        "acceptedAnswers": [
+          "The new principal, together with the teachers, is arranging the schedule.",
+          "The new principal, along with the teachers, is arranging the schedule."
+        ],
+        "modelAnswer": "The new principal, together with the teachers, is arranging the schedule.",
+        "commonErrors": [{ "pattern": "The new principal, together with the teachers, are arranging", "feedbackId": "Subjek principal tunggal. Teachers berada dalam frasa tambahan." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct main verb: 'The package that the customers ordered ___ yesterday.'",
+        "options": [
+          { "id": "A", "text": "arrived" },
+          { "id": "B", "text": "arriving" },
+          { "id": "C", "text": "to arrive" },
+          { "id": "D", "text": "arrives" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Yesterday menunjukkan waktu lampau, dan kata kerja utama adalah arrived. Ordered berada di dalam klausa that.",
+        "stepByStep": [
+          "Subjek kalimat adalah package, dan klausa that the customers ordered adalah sisipan.",
+          "Yesterday menandakan waktu lampau, sehingga kata kerja utama arrived.",
+          "Arriving dan to arrive tidak bisa menjadi kata kerja utama. Arrives adalah present, tidak cocok dengan yesterday."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Arriving tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "C", "reasonId": "To arrive tidak bisa menjadi kata kerja utama." },
+          { "optionId": "D", "reasonId": "Arrives adalah present, tidak cocok dengan yesterday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja di dalam klausa yang dimulai dengan that tidak selalu menjadi kata kerja utama kalimat.",
+          "examples": [
+            { "en": "The bread that we bought yesterday was fresh.", "id": "Roti yang kami beli kemarin masih segar." },
+            { "en": "The letter that he wrote arrived today.", "id": "Surat yang dia tulis tiba hari ini." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kata kerja utama, tetapi arrives tidak cocok dengan yesterday."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence has the correct subject-verb agreement?",
+        "options": [
+          { "id": "A", "text": "The number of students in the class are growing." },
+          { "id": "B", "text": "The number of students in the class is growing." },
+          { "id": "C", "text": "The number of students in the class have grown." },
+          { "id": "D", "text": "The number of students in the class were growing." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek kalimat adalah the number, yang tunggal. In the class adalah frasa depan, sehingga memakai is growing.",
+        "stepByStep": [
+          "Subjek kalimat adalah the number, bukan students.",
+          "The number tunggal, jadi kata kerjanya is growing.",
+          "Are, have grown, dan were tidak cocok dengan subjek tunggal the number."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are mengikuti students, padahal subjek kalimat adalah the number." },
+          { "optionId": "C", "reasonId": "Have grown tidak cocok dengan the number yang tunggal." },
+          { "optionId": "D", "reasonId": "Were growing tidak cocok dengan the number yang tunggal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The number of ___ memakai kata kerja tunggal. A number of ___ memakai kata kerja jamak.",
+          "examples": [
+            { "en": "The number of visitors is growing.", "id": "Jumlah pengunjung semakin bertambah." },
+            { "en": "A number of visitors are waiting.", "id": "Sejumlah pengunjung sedang menunggu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena students jamak, tetapi subjek kalimat adalah the number."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "In the sentence 'The notes beside the computer are mine,' which word is the object of the preposition?",
+        "options": [
+          { "id": "A", "text": "notes" },
+          { "id": "B", "text": "computer" },
+          { "id": "C", "text": "are" },
+          { "id": "D", "text": "mine" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Beside adalah kata depan, dan computer adalah kata benda setelahnya, jadi itu objek kata depan.",
+        "stepByStep": [
+          "Kata depan dalam kalimat ini adalah beside.",
+          "Kata benda yang langsung mengikuti beside adalah computer.",
+          "Notes adalah subjek. Are adalah kata kerja utama. Mine adalah kata ganti kepemilikan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Notes adalah subjek kalimat, bukan objek kata depan." },
+          { "optionId": "C", "reasonId": "Are adalah kata kerja, bukan kata benda setelah kata depan." },
+          { "optionId": "D", "reasonId": "Mine adalah kata ganti kepemilikan di akhir kalimat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda setelah kata depan adalah objek kata depan, dan bukan subjek kalimat.",
+          "examples": [
+            { "en": "The bag under the table is mine.", "id": "Tas di bawah meja itu milik saya." },
+            { "en": "The keys in the drawer are missing.", "id": "Kunci di dalam laci hilang." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kata benda penting di awal kalimat, tetapi notes adalah subjek, bukan objek kata depan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct main verb: 'The teacher with the new books ___ the lesson every Monday.'",
+        "options": [
+          { "id": "A", "text": "teaches" },
+          { "id": "B", "text": "teach" },
+          { "id": "C", "text": "teaching" },
+          { "id": "D", "text": "to teach" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Subjek teacher tunggal, dan with the new books adalah frasa depan. Kata kerja utamanya teaches.",
+        "stepByStep": [
+          "Subjek kalimat adalah teacher, yang tunggal.",
+          "With the new books adalah frasa depan, sehingga books bukan subjek.",
+          "Teach adalah jamak, teaching dan to teach tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teach adalah bentuk jamak atau bentuk dasar, tidak cocok dengan teacher yang tunggal." },
+          { "optionId": "C", "reasonId": "Teaching tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "To teach tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa depan tidak mengubah subjek kalimat. Kata kerja mengikuti subjek utama.",
+          "examples": [
+            { "en": "The girl with the dogs walks every morning.", "id": "Gadis dengan anjing-anjingnya berjalan setiap pagi." },
+            { "en": "The man beside the books reads at night.", "id": "Pria di samping buku-buku itu membaca pada malam hari." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena books jamak, tetapi books berada dalam frasa depan dan bukan subjek."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The students, along with their teacher, is going on a trip." },
+          { "id": "B", "text": "The students, along with their teacher, are going on a trip." },
+          { "id": "C", "text": "The students along with their teacher was going on a trip." },
+          { "id": "D", "text": "The students, along with their teacher, goes on a trip." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek kalimat adalah students yang jamak. Along with their teacher adalah sisipan yang tidak mengubah subjek.",
+        "stepByStep": [
+          "Subjek kalimat adalah students, yang jamak.",
+          "Along with their teacher adalah sisipan, sehingga tidak mengubah kata kerja.",
+          "Is, was, dan goes semuanya tunggal, tidak cocok dengan students yang jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is tunggal, tidak cocok dengan students yang jamak." },
+          { "optionId": "C", "reasonId": "Was tunggal dan tidak cocok dengan students yang jamak." },
+          { "optionId": "D", "reasonId": "Goes tunggal, tidak cocok dengan students." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Sisipan yang dimulai dengan along with, together with, atau as well as tidak mengubah kata kerja.",
+          "examples": [
+            { "en": "The manager, along with the staff, is ready.", "id": "Manajer, bersama para staf, sudah siap." },
+            { "en": "The players, along with their coach, are arriving now.", "id": "Para pemain, bersama pelatih mereka, sedang tiba sekarang." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena teacher tunggal berada paling dekat dengan kata kerja, tetapi subjek kalimat tetap students."
+      }
+    ]
+  }
+}

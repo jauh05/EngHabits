@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 7 (konten hari 31-37 dan bank minggu 5)
+
+1. **Pola minggu 5.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti sesuai target minggu 5. Hard Challenge 5 soal sulit. Hari 31, 33, 35 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 32, 34, 36 mendengarkan. Hari 37 review dengan naskah.
+2. **Topik struktur kalimat.** Kurikulum memakai label "TOEFL Structure". Semua teks, naskah, dan soal ditulis sendiri dengan gaya struktur kalimat. Tidak ada soal resmi yang disalin atau dikutip.
+3. **Validator menangkap tiga jenis masalah.** Tanda titik tiga di penjelasan dan hint (hari 31 sampai 37 dan bank), satu opsi yang sama setelah tanda baca dihapus (hari 31 H5), dan satu entri kesalahan yang `wrong`-nya sama dengan `right` (hari 32). Ketiganya sudah diperbaiki sebelum validasi lolos.
+4. **Bank minggu 5 sudah lolos validator.** 30 soal sulit. Jawaban benar tersebar: A 8, B 6, C 8, D 8. Topik: subjek dan kata kerja, frasa depan, appositive, kesesuaian each, either, the number of, one of, dan pengecekan kesalahan.
+5. **Batas kualitas tetap sama.** Validator lolos, tetapi audit kalimat per kalimat belum dilakukan. Beberapa pengecoh, misalnya pada W05-026 dan W05-030, perlu dibaca ulang saat audit mutu di Fase 12.
+
 ## 2026-10-21: Fase 6 (konten hari 22-30 dan bank minggu 4)
 
 1. **Pola sama dengan Fase 5.** Komposisi 5 mudah, 6 sedang, 4 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit dengan jebakan ujian. Hari 22, 24, 26 mendengarkan. Hari 23, 25, 27, 29 membaca. Hari 28 review. Hari 30 ujian akhir bulan 1 (skillFocus `exam`), dengan blok 3 berupa teks bacaan.
