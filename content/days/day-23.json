@@ -1,0 +1,577 @@
+{
+  "day": 23,
+  "week": 4,
+  "month": 1,
+  "title": "Comparative & Superlative",
+  "topic": "Membandingkan dua hal dengan -er atau more, dan yang paling dengan -est atau most",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membentuk pembanding dengan -er dan more",
+    "Membentuk superlatif dengan -est dan most",
+    "Mengenali bentuk tidak beraturan seperti good, better, best"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "bigger", "pronunciationId": "BIG-er (g digandakan, er di akhir)", "pos": "Adj", "meaningId": "lebih besar", "example": "This room is bigger than mine.", "exampleId": "Ruangan ini lebih besar daripada ruangan saya." },
+      { "no": 2, "en": "taller", "pronunciationId": "TAW-ler (tekanan di TAW, ler ringan)", "pos": "Adj", "meaningId": "lebih tinggi", "example": "My brother is taller than me.", "exampleId": "Kakak saya lebih tinggi daripada saya." },
+      { "no": 3, "en": "faster", "pronunciationId": "FAS-ter (a pendek, ter di akhir)", "pos": "Adj", "meaningId": "lebih cepat", "example": "This train is faster than the bus.", "exampleId": "Kereta ini lebih cepat daripada bus." },
+      { "no": 4, "en": "expensive", "pronunciationId": "ek-SPEN-siv (tekanan di SPEN)", "pos": "Adj", "meaningId": "mahal", "example": "This bag is very expensive.", "exampleId": "Tas ini sangat mahal." },
+      { "no": 5, "en": "cheaper", "pronunciationId": "CHEE-per (ea panjang, per ringan)", "pos": "Adj", "meaningId": "lebih murah", "example": "The cafe is cheaper than the mall.", "exampleId": "Kafe itu lebih murah daripada mal." },
+      { "no": 6, "en": "best", "pronunciationId": "BEST (e pendek, st di akhir)", "pos": "Adj", "meaningId": "terbaik", "example": "She is the best singer in our class.", "exampleId": "Dia penyanyi terbaik di kelas kami." },
+      { "no": 7, "en": "worst", "pronunciationId": "WURST (w di awal, st di akhir)", "pos": "Adj", "meaningId": "terburuk", "example": "That was the worst movie I have seen.", "exampleId": "Itu film terburuk yang pernah saya tonton." },
+      { "no": 8, "en": "larger", "pronunciationId": "LAR-jer (a pendek, j seperti dj)", "pos": "Adj", "meaningId": "lebih luas, lebih besar", "example": "The new office is larger than the old one.", "exampleId": "Kantor baru lebih luas daripada yang lama." },
+      { "no": 9, "en": "easier", "pronunciationId": "EE-zi-er (tekanan di EE)", "pos": "Adj", "meaningId": "lebih mudah", "example": "This question is easier than the last one.", "exampleId": "Soal ini lebih mudah daripada yang terakhir." },
+      { "no": 10, "en": "more", "pronunciationId": "MOR (o panjang, r ringan)", "pos": "Other", "meaningId": "lebih (penanda pembanding untuk kata sifat panjang)", "example": "This course is more useful for me.", "exampleId": "Kursus ini lebih berguna bagi saya." }
+    ],
+    "tip": "Lihat jumlah suku kata. Kata pendek seperti big memakai -er dan -est, sedangkan kata panjang seperti expensive memakai more dan most. Ingat juga bentuk tidak beraturan: good, better, best, dan bad, worse, worst."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["comparative and superlative English", "comparing adjectives English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang pembanding dan superlatif, dengan contoh -er, -est, more, dan most.",
+      "watchFor": [
+        "Kata pendek memakai -er dan -est",
+        "Kata panjang memakai more dan most",
+        "Bentuk tidak beraturan: good, better, best"
+      ]
+    },
+    "lesson": {
+      "intro": "Kalau kamu ingin membandingkan dua hal, pakai bentuk pembanding. Kalau kamu ingin mengatakan sesuatu paling besar, paling mahal, atau paling baik di antara banyak hal, pakai superlatif. Bentuk ini sering muncul di iklan, berita, dan percakapan sehari-hari.",
+      "sections": [
+        {
+          "heading": "Pembanding (comparative)",
+          "bodyMd": "Untuk membandingkan dua hal, tambahkan **-er** pada kata sifat pendek: **tall** menjadi **taller**, **cheap** menjadi **cheaper**. Untuk kata sifat panjang, pakai **more**: **more expensive**, **more difficult**. Setelah pembanding, pakai **than**: **This bag is bigger than that one.**"
+        },
+        {
+          "heading": "Superlatif (superlative)",
+          "bodyMd": "Untuk yang paling dari sekelompok hal, pakai **the** dan **-est**: **the tallest**, **the cheapest**. Untuk kata sifat panjang, pakai **the most**: **the most expensive**. Kata sifat yang berakhiran -y berubah menjadi -iest: **easy** menjadi **the easiest**."
+        },
+        {
+          "heading": "Bentuk tidak beraturan",
+          "bodyMd": "**Good** menjadi **better** dan **the best**. **Bad** menjadi **worse** dan **the worst**. Bentuk ini tidak mengikuti aturan -er dan -est, jadi hafalkan bersama contohnya."
+        }
+      ],
+      "formulas": [
+        { "label": "Pembanding pendek", "pattern": "kata sifat + -er + than (taller than)" },
+        { "label": "Pembanding panjang", "pattern": "more + kata sifat + than (more expensive than)" },
+        { "label": "Superlatif pendek", "pattern": "the + kata sifat + -est (the tallest)" },
+        { "label": "Superlatif panjang", "pattern": "the most + kata sifat (the most expensive)" },
+        { "label": "Tidak beraturan", "pattern": "good, better, the best; bad, worse, the worst" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "My bag is bigger than yours.", "id": "Tas saya lebih besar daripada tasmu." },
+          { "en": "This road is faster than the old one.", "id": "Jalan ini lebih cepat daripada yang lama." },
+          { "en": "This is the most expensive restaurant in town.", "id": "Ini adalah restoran termahal di kota." },
+          { "en": "She is the tallest student in her class.", "id": "Dia adalah siswa paling tinggi di kelasnya." },
+          { "en": "Your idea is better than mine.", "id": "Idemu lebih baik daripada ideku." }
+        ],
+        "negative": [
+          { "en": "This bag is not bigger than that one.", "id": "Tas ini tidak lebih besar daripada yang itu." },
+          { "en": "The bus is not faster than the train.", "id": "Bus tidak lebih cepat daripada kereta." },
+          { "en": "It is not the most difficult test.", "id": "Itu bukan tes yang paling sulit." },
+          { "en": "She is not taller than her brother.", "id": "Dia tidak lebih tinggi daripada kakaknya." },
+          { "en": "This course is not cheaper than the last one.", "id": "Kursus ini tidak lebih murah daripada yang terakhir." }
+        ],
+        "question": [
+          { "en": "Is this room bigger than the kitchen?", "id": "Apakah ruangan ini lebih besar daripada dapur?" },
+          { "en": "Which city is the cheapest?", "id": "Kota mana yang paling murah?" },
+          { "en": "Is your phone more expensive than mine?", "id": "Apakah ponselmu lebih mahal daripada ponsel saya?" },
+          { "en": "What is the best way to learn?", "id": "Apa cara terbaik untuk belajar?" },
+          { "en": "Who is the oldest person in the family?", "id": "Siapa orang tertua di keluarga?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She is more taller than me.", "right": "She is taller than me.", "whyId": "Kata taller sudah berbentuk pembanding. Jangan memakai more bersamaan." },
+        { "wrong": "This is the most cheap shop.", "right": "This is the cheapest shop.", "whyId": "Cheap adalah kata pendek, jadi superlatifnya cheapest, bukan most cheap." },
+        { "wrong": "My car is gooder than yours.", "right": "My car is better than yours.", "whyId": "Good memakai bentuk tidak beraturan: better." },
+        { "wrong": "He is the better student in the school.", "right": "He is the best student in the school.", "whyId": "Lebih dari dua orang memakai superlatif: the best." },
+        { "wrong": "This exam is easyer than the last one.", "right": "This exam is easier than the last one.", "whyId": "Kata berakhiran -y berubah menjadi -ier untuk pembanding." },
+        { "wrong": "This shirt is expensiver than that one.", "right": "This shirt is more expensive than that one.", "whyId": "Expensive adalah kata panjang, jadi memakai more, bukan -er." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Dua Toko Sepatu",
+    "text": "Rina wants to buy new running shoes. She visits two shops in her city. The first shop is bigger than the second shop, and its shoes are more colorful. However, the prices there are higher. The second shop is smaller, but its staff are friendlier and its prices are cheaper. Rina thinks the second shop is more comfortable for her, because the shoes are lighter and easier to wear. The shop assistant says the best shoes for running are the lightest ones. Rina tries the most expensive pair too, but it feels heavier than the others. The worst pair is the one with the thin sole. In the end she chooses the cheapest pair that feels the most comfortable. She says it is the best decision she has made this month.",
+    "glossary": [
+      { "en": "running shoes", "id": "sepatu lari" },
+      { "en": "sole", "id": "telapak sepatu" },
+      { "en": "assistant", "id": "asisten, pegawai toko" },
+      { "en": "staff", "id": "staf, pegawai" },
+      { "en": "colorful", "id": "berwarna-warni" },
+      { "en": "comfortable", "id": "nyaman" },
+      { "en": "decision", "id": "keputusan" },
+      { "en": "thin", "id": "tipis" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How many shops does Rina visit?",
+        "options": [
+          { "id": "A", "text": "one" },
+          { "id": "B", "text": "two" },
+          { "id": "C", "text": "three" },
+          { "id": "D", "text": "four" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'She visits two shops in her city', artinya Rina mengunjungi dua toko.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Satu toko tidak sesuai dengan 'two shops'." },
+          { "optionId": "C", "reasonId": "Tiga toko tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Empat toko tidak disebut dalam teks." }
+        ],
+        "evidence": "She visits two shops in her city"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Which shop is bigger?",
+        "options": [
+          { "id": "A", "text": "the first shop" },
+          { "id": "B", "text": "the second shop" },
+          { "id": "C", "text": "they are the same size" },
+          { "id": "D", "text": "neither shop is open" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'The first shop is bigger than the second shop', artinya toko pertama lebih besar.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Toko kedua justru lebih kecil (smaller)." },
+          { "optionId": "C", "reasonId": "Teks membandingkan keduanya dan menyebut yang pertama lebih besar." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut toko tutup." }
+        ],
+        "evidence": "The first shop is bigger than the second shop"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why is the second shop more comfortable for Rina?",
+        "options": [
+          { "id": "A", "text": "its shoes are heavier" },
+          { "id": "B", "text": "its shoes are lighter and easier to wear" },
+          { "id": "C", "text": "its prices are higher" },
+          { "id": "D", "text": "its staff are less friendly" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'the shoes are lighter and easier to wear', artinya sepatu di toko kedua lebih ringan dan lebih mudah dipakai.",
+        "stepByStep": [
+          "Cari comfortable di teks: 'the second shop is more comfortable for her, because the shoes are lighter and easier to wear.'",
+          "Alasan ditunjukkan oleh because: lighter dan easier, keduanya bentuk pembanding.",
+          "Pilihan A bertentangan dengan lighter. Pilihan C adalah harga tinggi di toko pertama. Pilihan D bertentangan dengan friendlier di toko kedua."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Heavier bertentangan dengan lighter." },
+          { "optionId": "C", "reasonId": "Harga tinggi ada di toko pertama, bukan toko kedua." },
+          { "optionId": "D", "reasonId": "Staf toko kedua disebut lebih ramah (friendlier)." }
+        ],
+        "evidence": "the shoes are lighter and easier to wear"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which pair of shoes feels heavier than the others?",
+        "options": [
+          { "id": "A", "text": "the cheapest pair" },
+          { "id": "B", "text": "the most expensive pair" },
+          { "id": "C", "text": "the lightest pair" },
+          { "id": "D", "text": "the shoes from the second shop" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Rina tries the most expensive pair too, but it feels heavier than the others', dan it merujuk pada pasangan termahal.",
+        "stepByStep": [
+          "Cari heavier di teks: 'it feels heavier than the others.'",
+          "Kata it merujuk pada pasangan yang paling mahal (the most expensive pair).",
+          "Pilihan A dipilih Rina sebagai pilihan akhir dan tidak disebut berat. Pilihan C disebut lighter, bukan heavier. Pilihan D justru lebih ringan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pasangan termurah dipilih Rina, dan tidak disebut berat." },
+          { "optionId": "C", "reasonId": "Pasangan paling ringan disebut sebagai saran penjual, bukan yang berat." },
+          { "optionId": "D", "reasonId": "Sepatu toko kedua disebut lebih ringan dan lebih nyaman." }
+        ],
+        "evidence": "it feels heavier than the others"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we infer about Rina's final choice?",
+        "options": [
+          { "id": "A", "text": "She chose the most expensive pair." },
+          { "id": "B", "text": "She chose a pair that is cheap and comfortable." },
+          { "id": "C", "text": "She did not buy any shoes." },
+          { "id": "D", "text": "She chose the shoes because they are the most colorful." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'she chooses the cheapest pair that feels the most comfortable', artinya ia memilih pasangan termurah yang paling nyaman.",
+        "stepByStep": [
+          "Cari chooses di teks: 'In the end she chooses the cheapest pair that feels the most comfortable.'",
+          "Cheapest berarti paling murah, dan the most comfortable berarti paling nyaman. Pilihan B menggabungkan dua hal ini.",
+          "Pilihan A bertentangan dengan cheapest. Pilihan C bertentangan dengan 'she chooses'. Pilihan D tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pasangan termahal bukan pilihan akhirnya." },
+          { "optionId": "C", "reasonId": "Teks menyebut Rina memilih satu pasangan." },
+          { "optionId": "D", "reasonId": "Warna tidak disebut sebagai alasan memilih sepatu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Cheapest adalah superlatif dari cheap. Dalam kalimat ini, cheapest dan most comfortable menerangkan pilihan terakhir.",
+          "examples": [
+            { "en": "He chose the cheapest bag in the shop.", "id": "Dia memilih tas termurah di toko." },
+            { "en": "This chair is the most comfortable in the room.", "id": "Kursi ini adalah yang paling nyaman di ruangan." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena Rina sempat mencoba pasangan termahal. Tetapi pilihan akhirnya adalah yang termurah.",
+        "evidence": "she chooses the cheapest pair that feels the most comfortable"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "This bag is ___ than that one.",
+        "options": [
+          { "id": "A", "text": "big" },
+          { "id": "B", "text": "bigger" },
+          { "id": "C", "text": "biggest" },
+          { "id": "D", "text": "more big" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Bentuk pembanding big adalah bigger. Huruf g digandakan sebelum -er.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Big tanpa -er tidak membandingkan dua tas." },
+          { "optionId": "C", "reasonId": "Biggest adalah superlatif, dan tidak cocok dengan than." },
+          { "optionId": "D", "reasonId": "More big salah. Kata pendek memakai -er." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Ani is the ___ student in our class.",
+        "options": [
+          { "id": "A", "text": "tall" },
+          { "id": "B", "text": "taller" },
+          { "id": "C", "text": "tallest" },
+          { "id": "D", "text": "most tall" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Superlatif untuk kata pendek tall adalah the tallest.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tall tanpa the dan -est tidak membandingkan siapa pun." },
+          { "optionId": "B", "reasonId": "Taller adalah pembanding, dan tidak cocok untuk paling dari sekelompok." },
+          { "optionId": "D", "reasonId": "Most tall salah. Kata pendek memakai -est." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "This book is ___ interesting than the last one.",
+        "options": [
+          { "id": "A", "text": "more" },
+          { "id": "B", "text": "most" },
+          { "id": "C", "text": "interest" },
+          { "id": "D", "text": "interestinger" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Interesting adalah kata panjang, sehingga pembandingnya memakai more.",
+        "stepByStep": [
+          "Interesting adalah kata sifat dengan tiga suku kata, jadi pembandingnya memakai more.",
+          "Kata than menandakan pembanding, bukan superlatif.",
+          "Pilihan B adalah superlatif. Pilihan C bukan kata sifat. Pilihan D memakai bentuk yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Most adalah superlatif, dan than meminta pembanding." },
+          { "optionId": "C", "reasonId": "Interest bukan kata sifat. Kalimat ini butuh kata sifat." },
+          { "optionId": "D", "reasonId": "Interestinger bukan bentuk yang benar." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She is more intelligent student in the class." },
+          { "id": "B", "text": "She is the most intelligent student in the class." },
+          { "id": "C", "text": "She is most intelligenter than the boys." },
+          { "id": "D", "text": "She is most intelligent than the boys." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Intelligent adalah kata panjang, dan superlatif untuk lebih dari dua orang memakai the most intelligent.",
+        "stepByStep": [
+          "Intelligent adalah kata panjang, jadi superlatifnya the most intelligent.",
+          "Dalam kelas yang berisi banyak siswa, gunakan superlatif, bukan pembanding.",
+          "Pilihan A kurang the. Pilihan C memakai -er dan most sekaligus. Pilihan D memakai most tanpa the dan than."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Superlatif memerlukan the: the most intelligent." },
+          { "optionId": "C", "reasonId": "Intelligenter salah. Kata panjang tidak memakai -er, dan tidak boleh dengan most." },
+          { "optionId": "D", "reasonId": "Most tidak dipakai dengan than." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Of the three laptops, this one is the ___, and it is also ___ than the old one.",
+        "options": [
+          { "id": "A", "text": "cheapest / cheaper" },
+          { "id": "B", "text": "cheaper / cheapest" },
+          { "id": "C", "text": "cheapest / more cheap" },
+          { "id": "D", "text": "most cheap / cheaper" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Of the three laptops berarti lebih dari dua, sehingga superlatif: the cheapest. Bagian kedua membandingkan dengan the old one, sehingga pembanding: cheaper.",
+        "stepByStep": [
+          "Of the three laptops menunjukkan lebih dari dua hal, sehingga memakai superlatif: the cheapest.",
+          "Bagian kedua membandingkan dengan the old one, sehingga memakai pembanding: cheaper.",
+          "Pilihan B tertukar. Pilihan C memakai more cheap yang salah. Pilihan D memakai most cheap yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Cheaper dan cheapest tertukar, sehingga tidak cocok dengan kalimat." },
+          { "optionId": "C", "reasonId": "More cheap salah. Cheap memakai -er." },
+          { "optionId": "D", "reasonId": "Most cheap salah. Cheap memakai -est." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Superlatif dipakai untuk lebih dari dua hal. Pembanding dipakai untuk dua hal.",
+          "examples": [
+            { "en": "She is the cheapest of the three bags.", "id": "Dia adalah yang termurah dari tiga tas." },
+            { "en": "This bag is cheaper than the other one.", "id": "Tas ini lebih murah daripada yang lain." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak benar karena cheapest sudah tepat. Tetapi more cheap salah untuk kata cheap."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Buku ini lebih tebal daripada buku itu.",
+        "hint": "Tebal: thick. Kata pendek memakai -er: thicker.",
+        "acceptedAnswers": ["This book is thicker than that book.", "This book is thicker than that one."],
+        "modelAnswer": "This book is thicker than that book.",
+        "commonErrors": [{ "pattern": "This book is more thick", "feedbackId": "Thick kata pendek, jadi memakai -er: thicker." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia adalah pelari tercepat di kelas.",
+        "hint": "Paling cepat: the fastest.",
+        "acceptedAnswers": ["She is the fastest runner in the class.", "She is the fastest runner in her class."],
+        "modelAnswer": "She is the fastest runner in the class.",
+        "commonErrors": [{ "pattern": "most fast", "feedbackId": "Fast adalah kata pendek, jadi superlatif memakai -est: the fastest." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Hari ini lebih panas daripada kemarin.",
+        "hint": "Panas: hot. Pembanding: hotter (t digandakan).",
+        "acceptedAnswers": ["Today is hotter than yesterday.", "Today is hotter than it was yesterday."],
+        "modelAnswer": "Today is hotter than yesterday.",
+        "commonErrors": [{ "pattern": "more hot", "feedbackId": "Hot adalah kata pendek, memakai -er dengan huruf t digandakan: hotter." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Makanan ini adalah yang paling murah di kantin, tetapi rasanya paling enak.",
+        "hint": "Paling murah: the cheapest. Paling enak: tastes the best.",
+        "acceptedAnswers": [
+          "This food is the cheapest in the canteen, but it tastes the best.",
+          "This food is the cheapest in the canteen but it tastes the best."
+        ],
+        "modelAnswer": "This food is the cheapest in the canteen, but it tastes the best.",
+        "commonErrors": [{ "pattern": "tastes the most good", "feedbackId": "Good memakai bentuk tidak beraturan: the best." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Jalan ini lebih lebar daripada jalan yang saya lewati kemarin, dan lebih aman.",
+        "hint": "Lebar: wide, jadi wider. Aman: safe, jadi safer.",
+        "acceptedAnswers": [
+          "This road is wider than the road I took yesterday, and it is safer.",
+          "This road is wider than the road I took yesterday and it is safer."
+        ],
+        "modelAnswer": "This road is wider than the road I took yesterday, and it is safer.",
+        "commonErrors": [{ "pattern": "more safe", "feedbackId": "Safe adalah kata pendek, jadi memakai -er: safer." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence uses the comparative correctly?",
+        "options": [
+          { "id": "A", "text": "This is more better than that." },
+          { "id": "B", "text": "This is better than that." },
+          { "id": "C", "text": "This is gooder than that." },
+          { "id": "D", "text": "This is the more good than that." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Good memiliki bentuk pembanding tidak beraturan: better.",
+        "stepByStep": [
+          "Good adalah kata sifat tidak beraturan. Pembandingnya better, bukan more better atau gooder.",
+          "Kata than menandakan pembandingan, sehingga memakai bentuk pembanding.",
+          "Pilihan A memakai more dan better sekaligus. Pilihan C memakai gooder yang salah. Pilihan D memakai the more good."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "More better tidak boleh dipakai. Better sudah pembanding." },
+          { "optionId": "C", "reasonId": "Gooder tidak ada dalam bahasa Inggris standar." },
+          { "optionId": "D", "reasonId": "The more good salah. Good memakai better." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Good, better, best adalah bentuk tidak beraturan. Bad, worse, worst juga tidak beraturan.",
+          "examples": [
+            { "en": "This coffee is better than that one.", "id": "Kopi ini lebih enak daripada yang itu." },
+            { "en": "This is the worst day of the week.", "id": "Ini adalah hari terburuk dalam seminggu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti pembanding yang kuat, tetapi more dan better tidak boleh dipakai bersama."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "She is ___ student in the class, and her grades are ___ than mine.",
+        "options": [
+          { "id": "A", "text": "the best / better" },
+          { "id": "B", "text": "the better / best" },
+          { "id": "C", "text": "best / the better" },
+          { "id": "D", "text": "the most good / more better" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Student in the class menunjukkan superlatif: the best. Grades than mine menunjukkan pembanding: better.",
+        "stepByStep": [
+          "Student in the class menunjukkan superlatif, yaitu the best.",
+          "Grades are than mine menunjukkan pembanding, yaitu better.",
+          "Pilihan B tertukar. Pilihan C tidak memakai the sebelum superlatif. Pilihan D memakai more better dan the most good yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "The better dipakai untuk dua hal, dan best tidak cocok untuk pembanding." },
+          { "optionId": "C", "reasonId": "Best tanpa the tidak lengkap, dan the better salah tempat." },
+          { "optionId": "D", "reasonId": "More better dan the most good salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Superlatif the best dipakai untuk paling dari sekelompok. Pembanding better dipakai untuk membandingkan dua hal.",
+          "examples": [
+            { "en": "He is the best player in the team.", "id": "Dia adalah pemain terbaik di tim." },
+            { "en": "My notes are better than yours.", "id": "Catatanku lebih baik daripada catatanmu." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak masuk akal karena better dan best berdekatan, tetapi urutannya tertukar."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which sentence has the correct superlative?",
+        "options": [
+          { "id": "A", "text": "This is the most cheapest shop in town." },
+          { "id": "B", "text": "This is the cheapest shop in town." },
+          { "id": "C", "text": "This is the cheapest shop of town." },
+          { "id": "D", "text": "This is cheapest shop in town." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Cheap adalah kata pendek, superlatifnya cheapest dengan the, dan lingkup kota memakai in.",
+        "stepByStep": [
+          "Cheap adalah kata pendek, superlatifnya cheapest dengan the.",
+          "In town menandakan lingkup kota, sehingga memakai in, bukan of.",
+          "Pilihan A memakai most dan -est sekaligus. Pilihan C memakai of town yang salah. Pilihan D kurang the."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Most dan -est tidak dipakai bersama." },
+          { "optionId": "C", "reasonId": "Of town tidak lazim. Gunakan in town." },
+          { "optionId": "D", "reasonId": "Superlatif memerlukan the." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Superlatif kata pendek memakai the dan -est. Lingkup tempat memakai in.",
+          "examples": [
+            { "en": "She is the tallest girl in the school.", "id": "Dia adalah gadis tertinggi di sekolah." },
+            { "en": "This is the oldest building in the city.", "id": "Ini adalah bangunan tertua di kota." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti versi yang lebih formal, tetapi memakai most dan -est sekaligus, yang salah."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Of the two bags, this one is ___, and that one is ___ to carry.",
+        "options": [
+          { "id": "A", "text": "heavier / easier" },
+          { "id": "B", "text": "the heaviest / the easiest" },
+          { "id": "C", "text": "heavy / easy" },
+          { "id": "D", "text": "more heavy / more easy" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Of the two berarti dua hal, sehingga memakai pembanding. Heavy dan easy berakhiran -y, sehingga menjadi heavier dan easier.",
+        "stepByStep": [
+          "Of the two menunjukkan dua hal, sehingga memakai pembanding, bukan superlatif.",
+          "Heavy dan easy berakhiran -y, sehingga berubah menjadi heavier dan easier.",
+          "Pilihan B memakai superlatif untuk dua hal. Pilihan C tidak memakai pembanding. Pilihan D memakai more pada kata pendek yang berakhiran -y."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "The heaviest dan the easiest hanya untuk lebih dari dua hal." },
+          { "optionId": "C", "reasonId": "Tanpa pembanding, kalimat tidak membandingkan dua tas." },
+          { "optionId": "D", "reasonId": "More heavy dan more easy salah. Kata ini memakai -ier." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pembanding untuk dua hal. Kata sifat berakhiran -y berubah menjadi -ier.",
+          "examples": [
+            { "en": "This box is heavier than that one.", "id": "Kotak ini lebih berat daripada yang itu." },
+            { "en": "This exam is easier than the last one.", "id": "Ujian ini lebih mudah daripada yang terakhir." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena menyebut dua tas, tetapi superlatif hanya untuk lebih dari dua hal."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The movie was more interesting than the book." },
+          { "id": "B", "text": "The movie was interestinger than the book." },
+          { "id": "C", "text": "The movie was most interesting than the book." },
+          { "id": "D", "text": "The movie was more interestinger than the book." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Interesting adalah kata panjang, sehingga pembandingnya more interesting, dengan than.",
+        "stepByStep": [
+          "Interesting adalah kata panjang, pembandingnya more interesting.",
+          "Than menandakan pembandingan dua hal: the movie dan the book.",
+          "Pilihan B memakai -er pada kata panjang. Pilihan C memakai most dengan than. Pilihan D memakai more dan -er sekaligus."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Interestinger bukan bentuk yang benar untuk kata panjang." },
+          { "optionId": "C", "reasonId": "Most tidak dipakai dengan than." },
+          { "optionId": "D", "reasonId": "More dan -er tidak dipakai bersama." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat panjang memakai more dan than untuk membandingkan dua hal.",
+          "examples": [
+            { "en": "This song is more beautiful than that one.", "id": "Lagu ini lebih indah daripada yang itu." },
+            { "en": "She is more confident than before.", "id": "Dia lebih percaya diri daripada sebelumnya." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti pembanding yang lebih kuat, tetapi more dan -er tidak boleh dipakai bersama."
+      }
+    ]
+  }
+}

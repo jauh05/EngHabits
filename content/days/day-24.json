@@ -1,0 +1,594 @@
+{
+  "day": 24,
+  "week": 4,
+  "month": 1,
+  "title": "Passive Voice Dasar",
+  "topic": "Kalimat pasif dengan be + V3 dan kapan pasif dipakai",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membentuk kalimat pasif dengan be + V3",
+    "Memilih bentuk be yang sesuai dengan waktu kejadian",
+    "Mengenali kapan pelaku tidak perlu disebut"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "built", "pronunciationId": "BILT (i pendek, lt di akhir)", "pos": "Verb", "meaningId": "dibangun; membangun (V3 dari build)", "example": "The house was built in 1990.", "exampleId": "Rumah itu dibangun pada tahun 1990." },
+      { "no": 2, "en": "painted", "pronunciationId": "PEN-tid (ai panjang, ed terdengar id)", "pos": "Verb", "meaningId": "dicat; mengecat", "example": "The door was painted blue.", "exampleId": "Pintu itu dicat biru." },
+      { "no": 3, "en": "designed", "pronunciationId": "di-ZAIND (ai panjang, ed terdengar d)", "pos": "Verb", "meaningId": "dirancang; merancang", "example": "The dress was designed by a young artist.", "exampleId": "Gaun itu dirancang oleh seorang seniman muda." },
+      { "no": 4, "en": "repaired", "pronunciationId": "ri-PAIRD (tekanan di PAIRD)", "pos": "Verb", "meaningId": "diperbaiki; memperbaiki", "example": "The car was repaired last week.", "exampleId": "Mobil itu diperbaiki minggu lalu." },
+      { "no": 5, "en": "delivered", "pronunciationId": "di-LI-verd (tekanan di LI)", "pos": "Verb", "meaningId": "dikirim; mengantar", "example": "The package was delivered this morning.", "exampleId": "Paket itu dikirim pagi ini." },
+      { "no": 6, "en": "produced", "pronunciationId": "pro-DYOOST (tekanan di DYOOST)", "pos": "Verb", "meaningId": "diproduksi; memproduksi", "example": "The shoes are produced in Bandung.", "exampleId": "Sepatu itu diproduksi di Bandung." },
+      { "no": 7, "en": "invented", "pronunciationId": "in-VEN-tid (tekanan di VEN)", "pos": "Verb", "meaningId": "diciptakan; menciptakan", "example": "The first phone was invented long ago.", "exampleId": "Telepon pertama diciptakan sejak lama." },
+      { "no": 8, "en": "discovered", "pronunciationId": "dis-KU-verd (tekanan di KU)", "pos": "Verb", "meaningId": "ditemukan; menemukan", "example": "A new planet was discovered last year.", "exampleId": "Sebuah planet baru ditemukan tahun lalu." },
+      { "no": 9, "en": "announced", "pronunciationId": "a-NAUNST (tekanan di NAUNST)", "pos": "Verb", "meaningId": "diumumkan; mengumumkan", "example": "The winner was announced today.", "exampleId": "Pemenangnya diumumkan hari ini." },
+      { "no": 10, "en": "prepared", "pronunciationId": "pri-PAIRD (tekanan di PAIRD)", "pos": "Verb", "meaningId": "disiapkan; menyiapkan", "example": "The food was prepared by the cook.", "exampleId": "Makanan itu disiapkan oleh juru masak." }
+    ],
+    "tip": "Pasif memakai be + V3. Pilih be sesuai waktu: was atau were untuk lampau, is atau are untuk sekarang, dan will be untuk masa depan. Kalau pelaku tidak penting atau tidak diketahui, tidak perlu menyebut by."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["passive voice English beginners", "passive voice be past participle"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kalimat pasif untuk pemula, dengan contoh be + V3 dan perubahan bentuk be.",
+      "watchFor": [
+        "Bentuk be + V3 dan perubahannya",
+        "Penggunaan by untuk menyebut pelaku",
+        "Pasif untuk waktu sekarang, lampau, dan masa depan"
+      ]
+    },
+    "lesson": {
+      "intro": "Kalimat aktif menekankan siapa yang melakukan sesuatu, misalnya 'Ali wrote the letter'. Kalimat pasif menekankan apa yang terjadi pada benda atau orang, misalnya 'The letter was written'. Pasif sering dipakai di berita, petunjuk, dan laporan.",
+      "sections": [
+        {
+          "heading": "Bentuk pasif dasar",
+          "bodyMd": "Pola pasif memakai **be + V3** (past participle). Be mengikuti waktu kejadian: **is / are** untuk sekarang, **was / were** untuk lampau, dan **will be** untuk masa depan. Contoh: **The bridge is built**, **The bridge was built**, **The bridge will be built**."
+        },
+        {
+          "heading": "Menyebut pelaku dengan by",
+          "bodyMd": "Pelaku ditulis dengan **by** setelah V3: **The letter was written by my mother.** Jika pelaku tidak penting atau tidak diketahui, boleh dihilangkan: **The car was repaired last week.**"
+        },
+        {
+          "heading": "V3 yang sering muncul",
+          "bodyMd": "Banyak kata kerja beraturan memakai **-ed** pada V3: **paint** menjadi **painted**, **design** menjadi **designed**. Kata kerja tidak beraturan berubah lain: **build** menjadi **built**, **write** menjadi **written**, **give** menjadi **given**. Hafalkan V3 bersama contohnya."
+        }
+      ],
+      "formulas": [
+        { "label": "Sekarang", "pattern": "subjek + am / is / are + V3" },
+        { "label": "Lampau", "pattern": "subjek + was / were + V3" },
+        { "label": "Masa depan", "pattern": "subjek + will be + V3" },
+        { "label": "Dengan pelaku", "pattern": "subjek + be + V3 + by + pelaku" },
+        { "label": "Tanpa pelaku", "pattern": "subjek + be + V3 (pelaku tidak penting)" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The bridge was built in 1930.", "id": "Jembatan itu dibangun pada tahun 1930." },
+          { "en": "The walls are painted white.", "id": "Dinding-dinding itu dicat putih." },
+          { "en": "The new school will be built next year.", "id": "Sekolah baru akan dibangun tahun depan." },
+          { "en": "This book was written by a famous author.", "id": "Buku ini ditulis oleh seorang penulis terkenal." },
+          { "en": "English is spoken in many countries.", "id": "Bahasa Inggris dipakai di banyak negara." }
+        ],
+        "negative": [
+          { "en": "The window was not broken by the children.", "id": "Jendela itu tidak dipecahkan oleh anak-anak." },
+          { "en": "The food is not prepared yet.", "id": "Makanannya belum disiapkan." },
+          { "en": "The house was not designed for a family.", "id": "Rumah itu tidak dirancang untuk keluarga." },
+          { "en": "The letter will not be delivered today.", "id": "Surat itu tidak akan dikirim hari ini." },
+          { "en": "The winner was not announced last night.", "id": "Pemenangnya tidak diumumkan tadi malam." }
+        ],
+        "question": [
+          { "en": "Was the bridge built in 1930?", "id": "Apakah jembatan itu dibangun pada tahun 1930?" },
+          { "en": "Are the shoes produced in Bandung?", "id": "Apakah sepatu itu diproduksi di Bandung?" },
+          { "en": "Will the package be delivered tomorrow?", "id": "Apakah paket itu akan dikirim besok?" },
+          { "en": "Who was the book written by?", "id": "Oleh siapa buku itu ditulis?" },
+          { "en": "When was the car repaired?", "id": "Kapan mobil itu diperbaiki?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The letter was write yesterday.", "right": "The letter was written yesterday.", "whyId": "Setelah be, gunakan V3: written, bukan bentuk dasar write." },
+        { "wrong": "The house built in 1990.", "right": "The house was built in 1990.", "whyId": "Kalimat pasif butuh be. Tanpa was, kalimat terbaca sebagai bagian lain." },
+        { "wrong": "English is speak in many countries.", "right": "English is spoken in many countries.", "whyId": "Setelah is, gunakan V3: spoken." },
+        { "wrong": "The bridge was built by in 1930.", "right": "The bridge was built in 1930.", "whyId": "By hanya dipakai sebelum pelaku, bukan sebelum waktu." },
+        { "wrong": "The new school is will be built.", "right": "The new school will be built.", "whyId": "Masa depan memakai will be, tanpa is." },
+        { "wrong": "The cake was prepare by my mother.", "right": "The cake was prepared by my mother.", "whyId": "Setelah was, gunakan V3: prepared." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["passive voice English beginners", "museum tour English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kalimat pasif dengan was, were, dan will be",
+        "Penyebutan waktu seperti in 1920 dan last year"
+      ]
+    },
+    "script": {
+      "title": "Tur Museum Sains",
+      "lines": [
+        { "speaker": "Guide", "text": "Welcome to the Science Museum. This building was designed in 1920 by a young architect." },
+        { "speaker": "Guide", "text": "The walls were painted by local artists in 1955." },
+        { "speaker": "Guide", "text": "The bridge outside was built in 1930, and it was repaired three times since then." },
+        { "speaker": "Visitor", "text": "Who invented the first machine in this room?" },
+        { "speaker": "Guide", "text": "The first machine was invented by a teacher from our city." },
+        { "speaker": "Visitor", "text": "Was it discovered by a scientist?" },
+        { "speaker": "Guide", "text": "No. It was discovered by accident during a test." },
+        { "speaker": "Guide", "text": "The new wing was announced last year and will open next month." },
+        { "speaker": "Visitor", "text": "Were the exhibits prepared by students?" },
+        { "speaker": "Guide", "text": "Yes. The exhibits were prepared by students and checked by teachers." },
+        { "speaker": "Guide", "text": "Thank you for listening. Please keep your tickets until the end." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada was dan were, bunyinya lemah. Ucapkan cepat tetapi jelas: wuz, wur.",
+      "Pada designed dan announced, bunyi -ed di akhir tetap terdengar: di-ZAIND, a-NAUNST.",
+      "Pada invented dan discovered, tekanan kata ada di suku kata kedua: in-VEN-tid, dis-KU-verd."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "When was the building designed?",
+        "options": [
+          { "id": "A", "text": "1902" },
+          { "id": "B", "text": "1930" },
+          { "id": "C", "text": "1920" },
+          { "id": "D", "text": "1955" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Guide berkata 'This building was designed in 1920', artinya gedung itu dirancang pada tahun 1920.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tahun 1902 tidak disebut dalam tur." },
+          { "optionId": "B", "reasonId": "Tahun 1930 adalah tahun jembatan dibangun, bukan gedung." },
+          { "optionId": "D", "reasonId": "Tahun 1955 adalah tahun dinding dicat." }
+        ],
+        "evidence": "This building was designed in 1920"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Who painted the walls?",
+        "options": [
+          { "id": "A", "text": "local artists" },
+          { "id": "B", "text": "the visitors" },
+          { "id": "C", "text": "students" },
+          { "id": "D", "text": "the architect" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Guide berkata 'The walls were painted by local artists in 1955', artinya seniman lokal yang mengecat dinding.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pengunjung tidak disebut mengecat dinding." },
+          { "optionId": "C", "reasonId": "Siswa tidak disebut sebagai pengecat dinding." },
+          { "optionId": "D", "reasonId": "Arsitek merancang gedung, tidak mengecat dinding." }
+        ],
+        "evidence": "The walls were painted by local artists"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What happened to the bridge?",
+        "options": [
+          { "id": "A", "text": "It was painted in 1955." },
+          { "id": "B", "text": "It was invented by a teacher." },
+          { "id": "C", "text": "It was announced last year." },
+          { "id": "D", "text": "It was built in 1930 and repaired three times." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Guide berkata jembatan dibangun pada 1930 dan diperbaiki tiga kali sejak itu.",
+        "stepByStep": [
+          "Cari bridge di naskah: 'The bridge outside was built in 1930, and it was repaired three times since then.'",
+          "Dua kejadian pasif disebut: was built dan was repaired.",
+          "Pilihan A adalah dinding, bukan jembatan. Pilihan B adalah mesin pertama. Pilihan C adalah sayap baru."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dicat tahun 1955 adalah dinding, bukan jembatan." },
+          { "optionId": "B", "reasonId": "Mesin pertama diciptakan oleh guru, bukan jembatan." },
+          { "optionId": "C", "reasonId": "Sayap baru yang diumumkan, bukan jembatan." }
+        ],
+        "evidence": "The bridge outside was built in 1930"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "Who invented the first machine?",
+        "options": [
+          { "id": "A", "text": "a scientist" },
+          { "id": "B", "text": "a teacher from our city" },
+          { "id": "C", "text": "a student" },
+          { "id": "D", "text": "a visitor" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Guide berkata 'The first machine was invented by a teacher from our city', artinya seorang guru dari kota itu yang menciptakannya.",
+        "stepByStep": [
+          "Cari invented di naskah: 'The first machine was invented by a teacher from our city.'",
+          "Pelaku ditulis setelah by: a teacher from our city.",
+          "Pilihan A muncul sebagai pertanyaan pengunjung tentang penemuan, bukan pelaku mesin. Pilihan C dan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ilmuwan disebut dalam pertanyaan tentang penemuan lain, bukan mesin pertama." },
+          { "optionId": "C", "reasonId": "Siswa tidak disebut sebagai penemu." },
+          { "optionId": "D", "reasonId": "Pengunjung hanya bertanya, tidak menciptakan mesin." }
+        ],
+        "evidence": "The first machine was invented by a teacher from our city"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What can we infer about the new wing?",
+        "options": [
+          { "id": "A", "text": "It has been open for many years." },
+          { "id": "B", "text": "Visitors designed it themselves." },
+          { "id": "C", "text": "It was announced recently, and it is not open yet." },
+          { "id": "D", "text": "It was built in 1930." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Guide berkata sayap baru diumumkan tahun lalu dan akan dibuka bulan depan, jadi belum dibuka.",
+        "stepByStep": [
+          "Cari new wing di naskah: 'The new wing was announced last year and will open next month.'",
+          "Will open next month berarti belum dibuka sekarang.",
+          "Pilihan A bertentangan dengan will open next month. Pilihan B tidak disebut. Pilihan D adalah tahun jembatan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut sayap baru akan dibuka bulan depan, jadi belum terbuka." },
+          { "optionId": "B", "reasonId": "Pengunjung tidak mendesain sayap baru. Teks tidak menyebut itu." },
+          { "optionId": "D", "reasonId": "Tahun 1930 adalah tahun pembangunan jembatan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pasif dengan will be menunjukkan kejadian di masa depan. Kombinasi was announced dan will open memberi tahu kondisi sekarang.",
+          "examples": [
+            { "en": "The show was announced yesterday and will start tomorrow.", "id": "Pertunjukan itu diumumkan kemarin dan akan dimulai besok." },
+            { "en": "The road was repaired last month and will be closed next week.", "id": "Jalan itu diperbaiki bulan lalu dan akan ditutup minggu depan." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti jawaban karena menyebut tahun 1930, tetapi tahun itu untuk jembatan, bukan sayap baru.",
+        "evidence": "The new wing was announced last year and will open next month"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The letter ___ yesterday.",
+        "options": [
+          { "id": "A", "text": "was written" },
+          { "id": "B", "text": "wrote" },
+          { "id": "C", "text": "written" },
+          { "id": "D", "text": "is write" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Yesterday menunjukkan waktu lampau, sehingga memakai was written.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Wrote adalah kalimat aktif. Kalimat ini butuh pasif." },
+          { "optionId": "C", "reasonId": "Written tanpa be tidak lengkap sebagai kalimat pasif." },
+          { "optionId": "D", "reasonId": "Is write salah bentuk. Pasif memakai V3, bukan bentuk dasar." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "English ___ in many countries.",
+        "options": [
+          { "id": "A", "text": "speaks" },
+          { "id": "B", "text": "was spoke" },
+          { "id": "C", "text": "spoken" },
+          { "id": "D", "text": "is spoken" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Many countries menunjukkan kejadian sekarang, sehingga memakai is spoken.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Speaks adalah kalimat aktif, tidak cocok dengan pola pasif di sini." },
+          { "optionId": "B", "reasonId": "Was spoke salah. Setelah was, gunakan V3, dan waktunya bukan lampau." },
+          { "optionId": "C", "reasonId": "Spoken tanpa be tidak lengkap." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The new school ___ next year.",
+        "options": [
+          { "id": "A", "text": "will build" },
+          { "id": "B", "text": "is built" },
+          { "id": "C", "text": "will be built" },
+          { "id": "D", "text": "was built" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Next year menunjukkan masa depan. Pasif masa depan memakai will be + V3.",
+        "stepByStep": [
+          "Next year menunjukkan masa depan.",
+          "Pasif masa depan memakai will be + V3: will be built.",
+          "Pilihan A aktif. Pilihan B untuk sekarang. Pilihan D untuk lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will build adalah aktif, dan sekolah tidak membangun sendiri." },
+          { "optionId": "B", "reasonId": "Is built untuk sekarang, tidak sesuai dengan next year." },
+          { "optionId": "D", "reasonId": "Was built untuk lampau, tidak sesuai dengan next year." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The report ___ by my team last week.",
+        "options": [
+          { "id": "A", "text": "was prepare" },
+          { "id": "B", "text": "was prepared" },
+          { "id": "C", "text": "prepared" },
+          { "id": "D", "text": "has prepare" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Last week menunjukkan waktu lampau. Pasif lampau memakai was prepared.",
+        "stepByStep": [
+          "Last week menunjukkan waktu lampau.",
+          "Pasif lampau memakai was atau were + V3: was prepared.",
+          "Pilihan A memakai bentuk dasar setelah was. Pilihan C tidak punya be. Pilihan D memakai has prepare yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah was, harus V3: prepared." },
+          { "optionId": "C", "reasonId": "Prepared tanpa be tidak lengkap." },
+          { "optionId": "D", "reasonId": "Has prepare salah. Setelah has, gunakan V3." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Many phones ___ in Korea, and the new model ___ next month.",
+        "options": [
+          { "id": "A", "text": "are produced / will be announced" },
+          { "id": "B", "text": "produce / will announce" },
+          { "id": "C", "text": "are produce / is announce" },
+          { "id": "D", "text": "was produce / announces" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Many phones are produced menunjukkan kejadian sekarang yang pasif. The new model will be announced menunjukkan masa depan yang pasif.",
+        "stepByStep": [
+          "Bagian pertama: phones adalah benda yang diproduksi, dan kejadian sekarang memakai are produced.",
+          "Bagian kedua: model baru akan diumumkan, sehingga memakai will be announced.",
+          "Pilihan B tidak pasif. Pilihan C memakai produce dan announce yang salah. Pilihan D memakai was produce dan announces yang tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Produce dan will announce aktif, padahal benda dan model butuh pasif." },
+          { "optionId": "C", "reasonId": "Are produce dan is announce salah. Setelah be, gunakan V3." },
+          { "optionId": "D", "reasonId": "Was produce salah, dan announces adalah aktif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pasif menunjukkan benda yang menerima tindakan. Be mengikuti waktu kejadian, dan V3 mengikuti be.",
+          "examples": [
+            { "en": "Many cars are made in Japan.", "id": "Banyak mobil dibuat di Jepang." },
+            { "en": "The new laptop will be released next year.", "id": "Laptop baru akan dirilis tahun depan." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak benar karena kata-katanya pendek, tetapi phones dan model baru adalah benda yang menerima tindakan, sehingga butuh pasif."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Rumah itu dibangun pada tahun 1990.",
+        "hint": "Dibangun: was built. Tahun 1990: in 1990.",
+        "acceptedAnswers": ["The house was built in 1990."],
+        "modelAnswer": "The house was built in 1990.",
+        "commonErrors": [{ "pattern": "The house built in 1990", "feedbackId": "Kalimat pasif lampau butuh was: was built." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Surat ini ditulis oleh ibu saya.",
+        "hint": "Ditulis: was written. Oleh: by.",
+        "acceptedAnswers": ["This letter was written by my mother.", "This letter was written by my mom."],
+        "modelAnswer": "This letter was written by my mother.",
+        "commonErrors": [{ "pattern": "This letter was write", "feedbackId": "Setelah was, gunakan V3: written." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kue itu akan disiapkan besok.",
+        "hint": "Akan disiapkan: will be prepared.",
+        "acceptedAnswers": ["The cake will be prepared tomorrow.", "The cake will be prepared tomorrow morning."],
+        "modelAnswer": "The cake will be prepared tomorrow.",
+        "commonErrors": [{ "pattern": "The cake will prepared", "feedbackId": "Masa depan pasif memakai will be + V3." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Penemuan itu diumumkan minggu lalu oleh tim peneliti.",
+        "hint": "Penemuan: discovery. Diumumkan: was announced. Oleh tim peneliti: by the research team.",
+        "acceptedAnswers": [
+          "The discovery was announced last week by the research team.",
+          "The discovery was announced by the research team last week."
+        ],
+        "modelAnswer": "The discovery was announced last week by the research team.",
+        "commonErrors": [{ "pattern": "The discovery announce", "feedbackId": "Kalimat pasif butuh be + V3: was announced." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kursi-kursi ini dirancang oleh seorang desainer muda, dan dijual minggu lalu.",
+        "hint": "Dirancang: were designed. Dijual: were sold. Kursi jamak, sehingga memakai were.",
+        "acceptedAnswers": [
+          "These chairs were designed by a young designer, and they were sold last week.",
+          "These chairs were designed by a young designer and they were sold last week."
+        ],
+        "modelAnswer": "These chairs were designed by a young designer, and they were sold last week.",
+        "commonErrors": [{ "pattern": "These chairs was designed", "feedbackId": "Subjek jamak memakai were, bukan was." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence is passive and correct?",
+        "options": [
+          { "id": "A", "text": "The computer was repair yesterday." },
+          { "id": "B", "text": "The computer repaired yesterday." },
+          { "id": "C", "text": "The computer was repaired yesterday." },
+          { "id": "D", "text": "The computer was repairing yesterday." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Yesterday menunjukkan lampau. Pasif lampau memakai was repaired.",
+        "stepByStep": [
+          "Yesterday menunjukkan waktu lampau.",
+          "Pasif lampau memakai was + V3: was repaired.",
+          "Pilihan A memakai bentuk dasar setelah was. Pilihan B aktif. Pilihan D aktif dan progresif, bukan pasif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah was, harus V3: repaired, bukan repair." },
+          { "optionId": "B", "reasonId": "Kalimat ini aktif, tidak pasif." },
+          { "optionId": "D", "reasonId": "Was repairing adalah bentuk aktif progresif, bukan pasif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pasif lampau memakai was atau were + V3. Setelah be tidak boleh bentuk dasar atau progresif.",
+          "examples": [
+            { "en": "The window was broken last night.", "id": "Jendela itu pecah tadi malam." },
+            { "en": "The road was closed yesterday.", "id": "Jalan itu ditutup kemarin." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti pasif karena ada was, tetapi repairing adalah bentuk progresif aktif."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Active sentence: 'Tom wrote the report.' Which is the correct passive?",
+        "options": [
+          { "id": "A", "text": "The report wrote by Tom." },
+          { "id": "B", "text": "The report is written Tom." },
+          { "id": "C", "text": "Tom was written the report." },
+          { "id": "D", "text": "The report was written by Tom." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Objek kalimat aktif, the report, menjadi subjek pasif. Wrote menjadi was written, dan Tom menjadi by Tom.",
+        "stepByStep": [
+          "Objek kalimat aktif, the report, menjadi subjek: The report.",
+          "Kata kerja wrote menjadi was written (V3 wrote = written).",
+          "Tom menjadi pelaku setelah by: by Tom."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tidak ada be sebelum V3, dan by tidak ada. Susunannya salah." },
+          { "optionId": "B", "reasonId": "Is written tanpa by dan tidak sesuai waktu lampau." },
+          { "optionId": "C", "reasonId": "Tom tidak boleh menjadi subjek pasif di sini, dan the report dipindahkan keliru." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Objek kalimat aktif menjadi subjek pasif. Pelaku menjadi by + nama.",
+          "examples": [
+            { "en": "Ani cooked the rice. The rice was cooked by Ani.", "id": "Ani memasak nasi. Nasi itu dimasak oleh Ani." },
+            { "en": "The team won the match. The match was won by the team.", "id": "Tim memenangkan pertandingan. Pertandingan itu dimenangkan oleh tim." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak mirip dengan pasif, tetapi tidak ada be. Pasif memerlukan be + V3."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which form makes the sentence passive? 'The students ___ by the teacher every day.'",
+        "options": [
+          { "id": "A", "text": "are checked" },
+          { "id": "B", "text": "check" },
+          { "id": "C", "text": "checked" },
+          { "id": "D", "text": "checking" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Every day menunjukkan kebiasaan sekarang. Pasif sekarang memakai are checked.",
+        "stepByStep": [
+          "Every day menunjukkan kebiasaan sekarang.",
+          "Pasif sekarang untuk jamak memakai are + V3: are checked.",
+          "Pilihan B aktif. Pilihan C tidak punya be. Pilihan D progresif aktif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Check adalah aktif, dan tidak ada be untuk pasif." },
+          { "optionId": "C", "reasonId": "Checked tanpa be tidak membentuk pasif yang lengkap." },
+          { "optionId": "D", "reasonId": "Checking adalah bentuk aktif progresif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pasif sekarang untuk subjek jamak memakai are + V3.",
+          "examples": [
+            { "en": "The reports are checked every Friday.", "id": "Laporan diperiksa setiap Jumat." },
+            { "en": "The shops are opened at eight.", "id": "Toko-toko dibuka pukul delapan." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak seperti pasif karena V3, tetapi tanpa are kalimatnya belum pasif."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The new bridge ___ last month, and it ___ by many people every day.",
+        "options": [
+          { "id": "A", "text": "opened / uses" },
+          { "id": "B", "text": "was opened / is used" },
+          { "id": "C", "text": "is opened / used" },
+          { "id": "D", "text": "was open / uses" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Last month menunjukkan lampau, sehingga was opened. Every day dengan by menunjukkan pasif sekarang, sehingga is used.",
+        "stepByStep": [
+          "Last month menunjukkan lampau: was opened.",
+          "It ___ by many people every day adalah pasif sekarang: is used.",
+          "Pilihan A memakai aktif. Pilihan C memakai is opened dan used yang salah waktunya. Pilihan D memakai open yang bukan V3."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Opened dan uses adalah aktif, tidak cocok dengan by many people." },
+          { "optionId": "C", "reasonId": "Is opened tidak sesuai dengan last month, dan used tanpa be tidak lengkap." },
+          { "optionId": "D", "reasonId": "Was open bukan V3 dari open untuk pasif, dan uses adalah aktif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kalimat dengan by sering memakai pasif. Waktu kejadian menentukan bentuk be.",
+          "examples": [
+            { "en": "The door was closed at night.", "id": "Pintu itu ditutup pada malam hari." },
+            { "en": "The bus is used by many students.", "id": "Bus itu dipakai oleh banyak siswa." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena kata-katanya sederhana, tetapi by many people menuntut bentuk pasif."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The gift was gave to me." },
+          { "id": "B", "text": "The gift was given me." },
+          { "id": "C", "text": "The gift give to me." },
+          { "id": "D", "text": "The gift was given to me." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Give memiliki V3 given. Pola pasifnya was given to me.",
+        "stepByStep": [
+          "Give adalah kata kerja tidak beraturan dengan V3 given.",
+          "Pasif lampau memakai was given, dan penerima memakai to me.",
+          "Pilihan A memakai gave setelah was. Pilihan B tidak memakai to. Pilihan C tidak memakai be."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah was, harus V3: given, bukan gave." },
+          { "optionId": "B", "reasonId": "Give ke orang memakai to: given to me." },
+          { "optionId": "C", "reasonId": "Tidak ada be sebelum V3, sehingga bukan pasif." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata kerja give memakai V3 given. Penerima ditulis dengan to.",
+          "examples": [
+            { "en": "The letter was given to the teacher.", "id": "Surat itu diberikan kepada guru." },
+            { "en": "The prize was given to Ani.", "id": "Hadiah itu diberikan kepada Ani." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak benar karena susunannya pendek, tetapi give ke orang memakai to."
+      }
+    ]
+  }
+}

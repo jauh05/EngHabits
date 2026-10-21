@@ -1,0 +1,575 @@
+{
+  "day": 25,
+  "week": 4,
+  "month": 1,
+  "title": "Konjungsi Setara: and, but, or, so",
+  "topic": "Menggabungkan dua ide setara dengan penghubung yang tepat, termasuk both, either, neither, also, instead, dan otherwise",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memakai and, but, or, dan so untuk menghubungkan dua ide",
+    "Memakai pasangan both, either, dan neither dengan benar",
+    "Membedakan also, instead, dan otherwise"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "and", "pronunciationId": "AND (a pendek, d di akhir)", "pos": "Conj", "meaningId": "dan", "example": "I like tea and coffee.", "exampleId": "Saya suka teh dan kopi." },
+      { "no": 2, "en": "but", "pronunciationId": "BUT (u pendek, t jelas)", "pos": "Conj", "meaningId": "tetapi", "example": "I am tired, but I am happy.", "exampleId": "Saya lelah, tetapi saya senang." },
+      { "no": 3, "en": "or", "pronunciationId": "OR (o panjang, r ringan)", "pos": "Conj", "meaningId": "atau", "example": "Do you want tea or juice?", "exampleId": "Kamu mau teh atau jus?" },
+      { "no": 4, "en": "so", "pronunciationId": "SOH (o panjang)", "pos": "Conj", "meaningId": "jadi, sehingga", "example": "It was late, so we went home.", "exampleId": "Sudah larut, jadi kami pulang." },
+      { "no": 5, "en": "both", "pronunciationId": "BOHTH (o panjang, th lembut)", "pos": "Other", "meaningId": "keduanya", "example": "Both my parents are teachers.", "exampleId": "Kedua orang tua saya adalah guru." },
+      { "no": 6, "en": "either", "pronunciationId": "EE-ther (tekanan di EE)", "pos": "Other", "meaningId": "salah satu dari dua", "example": "You can choose either bag.", "exampleId": "Kamu bisa memilih salah satu tas." },
+      { "no": 7, "en": "neither", "pronunciationId": "NEE-ther (tekanan di NEE)", "pos": "Other", "meaningId": "tidak satu pun dari dua", "example": "Neither bag is expensive.", "exampleId": "Tidak satu pun dari dua tas itu mahal." },
+      { "no": 8, "en": "also", "pronunciationId": "AL-soh (tekanan di AL)", "pos": "Adv", "meaningId": "juga, selain itu", "example": "She also likes music.", "exampleId": "Dia juga suka musik." },
+      { "no": 9, "en": "instead", "pronunciationId": "in-STED (tekanan di STED)", "pos": "Adv", "meaningId": "sebagai gantinya", "example": "I walked instead of taking a bus.", "exampleId": "Saya berjalan kaki sebagai ganti naik bus." },
+      { "no": 10, "en": "otherwise", "pronunciationId": "UTH-er-wais (tekanan di UTH)", "pos": "Adv", "meaningId": "kalau tidak", "example": "Hurry, otherwise you will miss the bus.", "exampleId": "Cepatlah, kalau tidak kamu akan ketinggalan bus." }
+    ],
+    "tip": "Pilih penghubung dari makna: and untuk menambah, but untuk pertentangan, or untuk pilihan, dan so untuk akibat. Pasangan both, either, dan neither selalu berjalan bersama, misalnya both ___ and, either ___ or, neither ___ nor."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["coordinating conjunctions English", "and but or so English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang konjungsi setara, dengan contoh and, but, or, so, dan pasangan both, either, neither.",
+      "watchFor": [
+        "Perbedaan but dan so",
+        "Pasangan either ___ or dan neither ___ nor",
+        "Fungsi also, instead, dan otherwise"
+      ]
+    },
+    "lesson": {
+      "intro": "Konjungsi setara menghubungkan dua hal yang bentuknya sama, misalnya dua kata benda atau dua klausa penuh. Dengan memilih penghubung yang tepat, kalimat menjadi jelas dan tidak terdengar terputus-putus.",
+      "sections": [
+        {
+          "heading": "Empat penghubung dasar",
+          "bodyMd": "**And** menambah ide, **but** menunjukkan pertentangan, **or** memberi pilihan, dan **so** menunjukkan akibat. Jika menghubungkan dua klausa penuh, beri koma sebelum **but** dan **so**: **I was tired, so I went to bed.**"
+        },
+        {
+          "heading": "Pasangan yang tetap",
+          "bodyMd": "**Both ___ and** untuk dua hal yang keduanya benar. **Either ___ or** untuk salah satu dari dua pilihan. **Neither ___ nor** untuk tidak satu pun dari dua hal. Setelah **neither** atau **either**, kata kerja mengikuti subjek yang paling dekat."
+        },
+        {
+          "heading": "Also, instead, dan otherwise",
+          "bodyMd": "**Also** menambah informasi. **Instead** menunjukkan pengganti dari tindakan sebelumnya. **Otherwise** berarti kalau tidak, dan biasanya dipakai setelah perintah atau saran: **Take a jacket, otherwise you will be cold.**"
+        }
+      ],
+      "formulas": [
+        { "label": "And / but / or / so", "pattern": "klausa 1 + , + and / but / or / so + klausa 2" },
+        { "label": "Both", "pattern": "both A and B" },
+        { "label": "Either", "pattern": "either A or B" },
+        { "label": "Neither", "pattern": "neither A nor B" },
+        { "label": "Also / instead / otherwise", "pattern": "klausa 1. Also / Instead / Otherwise, klausa 2" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I like tea, and my sister likes coffee.", "id": "Saya suka teh, dan adik saya suka kopi." },
+          { "en": "She wanted to come, but she was sick.", "id": "Dia ingin datang, tetapi dia sakit." },
+          { "en": "You can stay here or go home.", "id": "Kamu bisa tinggal di sini atau pulang." },
+          { "en": "Both Ani and Budi are students.", "id": "Ani dan Budi sama-sama siswa." },
+          { "en": "It was late, so we took a taxi.", "id": "Sudah larut, jadi kami naik taksi." }
+        ],
+        "negative": [
+          { "en": "I don't like tea, and I don't like coffee either.", "id": "Saya tidak suka teh, dan saya juga tidak suka kopi." },
+          { "en": "Neither Ani nor Budi is here.", "id": "Ani maupun Budi tidak ada di sini." },
+          { "en": "She is not tired, so she will not sleep early.", "id": "Dia tidak lelah, jadi dia tidak akan tidur cepat." },
+          { "en": "I did not call him. Instead, I wrote a letter.", "id": "Saya tidak menelepon dia. Sebagai gantinya, saya menulis surat." },
+          { "en": "He did not come, so we did not wait for him.", "id": "Dia tidak datang, jadi kami tidak menunggunya." }
+        ],
+        "question": [
+          { "en": "Do you want tea or coffee?", "id": "Kamu mau teh atau kopi?" },
+          { "en": "Are you tired, or are you hungry?", "id": "Apakah kamu lelah, atau kamu lapar?" },
+          { "en": "Did you call him, or did you send a message?", "id": "Apakah kamu menelepon dia, atau mengirim pesan?" },
+          { "en": "Can both of you come tomorrow?", "id": "Bisakah kalian berdua datang besok?" },
+          { "en": "Should we walk, or should we take a bus?", "id": "Sebaiknya kita jalan kaki, atau naik bus?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I was tired, but so I went to bed.", "right": "I was tired, so I went to bed.", "whyId": "So menunjukkan akibat. Jangan memakai but dan so bersamaan." },
+        { "wrong": "Do you want tea and coffee?", "right": "Do you want tea or coffee?", "whyId": "Untuk memilih salah satu, gunakan or, bukan and." },
+        { "wrong": "Both Ani or Dani can come.", "right": "Either Ani or Dani can come.", "whyId": "Both dipasangkan dengan and. Either dipasangkan dengan or." },
+        { "wrong": "I like coffee, but tea.", "right": "I like coffee and tea.", "whyId": "Untuk menambah dua hal yang disukai, gunakan and, bukan but." },
+        { "wrong": "Neither Ani or Dani came.", "right": "Neither Ani nor Dani came.", "whyId": "Neither dipasangkan dengan nor." },
+        { "wrong": "Take a jacket, so you will be cold.", "right": "Take a jacket, otherwise you will be cold.", "whyId": "Kalau tidak membawa jaket, akibatnya kedinginan: gunakan otherwise." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Akhir Pekan di Bandung",
+    "text": "Hana and Budi want to spend the weekend in Bandung. They both like mountains, but they have only two days. Hana wants to hike, or she wants to visit a museum. Budi likes food, so he wants to try local snacks. Neither of them has a car, so they will take the train. Hana also wants to take photos, and Budi wants to buy a new bag. Instead of a hotel, they will stay at a small guest house, because it is cheaper. Otherwise, they would spend too much money. The train is late sometimes, but the guest house is near the station. Either way, they are excited. They want to relax, so they will not plan every hour.",
+    "glossary": [
+      { "en": "guest house", "id": "penginapan kecil" },
+      { "en": "hike", "id": "mendaki, berjalan jauh di alam" },
+      { "en": "snacks", "id": "jajanan" },
+      { "en": "relax", "id": "bersantai" },
+      { "en": "station", "id": "stasiun" },
+      { "en": "either way", "id": "apa pun yang terjadi" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "Where do Hana and Budi want to go?",
+        "options": [
+          { "id": "A", "text": "Bogor" },
+          { "id": "B", "text": "Jakarta" },
+          { "id": "C", "text": "Bandung" },
+          { "id": "D", "text": "Bali" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'want to spend the weekend in Bandung', artinya mereka ingin menghabiskan akhir pekan di Bandung.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bogor tidak disebut dalam teks." },
+          { "optionId": "B", "reasonId": "Jakarta tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Bali tidak disebut dalam teks." }
+        ],
+        "evidence": "want to spend the weekend in Bandung"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Why will they take the train?",
+        "options": [
+          { "id": "A", "text": "They have a car." },
+          { "id": "B", "text": "Neither of them has a car." },
+          { "id": "C", "text": "The train is free." },
+          { "id": "D", "text": "The hotel is far." }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Neither of them has a car, so they will take the train', artinya tidak ada dari mereka yang punya mobil, jadi mereka naik kereta.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut mereka tidak punya mobil." },
+          { "optionId": "C", "reasonId": "Harga gratis tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Hotel jauh tidak disebut sebagai alasan." }
+        ],
+        "evidence": "Neither of them has a car, so they will take the train"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why will they stay at a guest house?",
+        "options": [
+          { "id": "A", "text": "it is cheaper" },
+          { "id": "B", "text": "it has a pool" },
+          { "id": "C", "text": "it is closer to the museum" },
+          { "id": "D", "text": "Hana likes it" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'they will stay at a small guest house, because it is cheaper', artinya alasannya adalah harga yang lebih murah.",
+        "stepByStep": [
+          "Cari guest house di teks: 'Instead of a hotel, they will stay at a small guest house, because it is cheaper.'",
+          "Because menunjukkan alasan, yaitu lebih murah.",
+          "Pilihan B, C, dan D tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Kolam renang tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Jarak ke museum tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Kesukaan Hana tidak disebut sebagai alasan." }
+        ],
+        "evidence": "because it is cheaper"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What else does Hana want to do?",
+        "options": [
+          { "id": "A", "text": "buy a bag" },
+          { "id": "B", "text": "take photos" },
+          { "id": "C", "text": "try local snacks" },
+          { "id": "D", "text": "hike every day" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Hana also wants to take photos', artinya selain mendaki atau ke museum, Hana juga ingin memotret.",
+        "stepByStep": [
+          "Cari kata Hana di teks: 'Hana also wants to take photos.'",
+          "Also menandakan keinginan tambahan Hana: take photos.",
+          "Pilihan A adalah keinginan Budi. Pilihan C juga keinginan Budi. Pilihan D hanya disebut sebagai pilihan, bukan setiap hari."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Membeli tas adalah keinginan Budi, bukan Hana." },
+          { "optionId": "C", "reasonId": "Mencoba jajanan adalah keinginan Budi, bukan Hana." },
+          { "optionId": "D", "reasonId": "Mendaki hanya disebut sebagai pilihan, bukan setiap hari." }
+        ],
+        "evidence": "Hana also wants to take photos"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we conclude about Hana and Budi's plan?",
+        "options": [
+          { "id": "A", "text": "They will spend the whole weekend in a museum." },
+          { "id": "B", "text": "They will stay in a hotel because it is more comfortable." },
+          { "id": "C", "text": "They will plan every hour carefully." },
+          { "id": "D", "text": "They want to relax and not plan every hour." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menulis 'They want to relax, so they will not plan every hour', artinya mereka ingin bersantai dan tidak merencanakan setiap jam.",
+        "stepByStep": [
+          "Cari kalimat tentang rencana: 'They want to relax, so they will not plan every hour.'",
+          "So menunjukkan alasan: mereka ingin bersantai, sehingga tidak merencanakan setiap jam.",
+          "Pilihan A dan B bertentangan dengan teks. Pilihan C bertentangan dengan will not plan every hour."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut mereka menghabiskan akhir pekan di museum saja." },
+          { "optionId": "B", "reasonId": "Teks menyebut penginapan kecil, bukan hotel yang lebih nyaman." },
+          { "optionId": "C", "reasonId": "Teks menyebut mereka tidak akan merencanakan setiap jam." }
+        ],
+        "ruleAndExamples": {
+          "rule": "So menandai akibat atau alasan. Dalam teks, so menjelaskan mengapa mereka tidak merencanakan setiap jam.",
+          "examples": [
+            { "en": "I am tired, so I will rest today.", "id": "Saya lelah, jadi hari ini saya akan istirahat." },
+            { "en": "It is cold, so we will not go out.", "id": "Cuaca dingin, jadi kami tidak akan keluar." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat seperti rencana yang rapi, tetapi teks menyebut mereka tidak akan merencanakan setiap jam.",
+        "evidence": "They want to relax, so they will not plan every hour"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I wanted to go out, ___ it was raining.",
+        "options": [
+          { "id": "A", "text": "and" },
+          { "id": "B", "text": "but" },
+          { "id": "C", "text": "or" },
+          { "id": "D", "text": "so" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "But menunjukkan pertentangan: ingin keluar, tetapi hujan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "And menambah ide, tidak cocok dengan pertentangan." },
+          { "optionId": "C", "reasonId": "Or memberi pilihan, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "So menunjukkan akibat. Hujan tidak menjadi akibat dari ingin keluar." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Do you want tea ___ coffee?",
+        "options": [
+          { "id": "A", "text": "but" },
+          { "id": "B", "text": "so" },
+          { "id": "C", "text": "or" },
+          { "id": "D", "text": "and" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Or dipakai untuk memberi pilihan dalam pertanyaan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "But menunjukkan pertentangan, tidak cocok untuk pilihan." },
+          { "optionId": "B", "reasonId": "So menunjukkan akibat, tidak cocok untuk pertanyaan pilihan." },
+          { "optionId": "D", "reasonId": "And menambah, bukan memilih salah satu." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "She was tired, ___ she went to bed early.",
+        "options": [
+          { "id": "A", "text": "and" },
+          { "id": "B", "text": "or" },
+          { "id": "C", "text": "so" },
+          { "id": "D", "text": "but" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Kalimat pertama menyebabkan tindakan kedua: lelah, jadi tidur cepat. Penghubung akibat adalah so.",
+        "stepByStep": [
+          "Kalimat pertama menyebabkan tindakan kedua: lelah, jadi tidur cepat.",
+          "Hubungan sebab-akibat memakai so.",
+          "And dan or tidak menunjukkan akibat. But menunjukkan pertentangan, bukan akibat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "And menambah, tidak menunjukkan akibat." },
+          { "optionId": "B", "reasonId": "Or memberi pilihan, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "But menunjukkan pertentangan, tidak cocok dengan akibat." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "___ Ani ___ Dani can come to the party.",
+        "options": [
+          { "id": "A", "text": "Both / and" },
+          { "id": "B", "text": "Either / or" },
+          { "id": "C", "text": "Neither / nor" },
+          { "id": "D", "text": "Both / or" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Either ___ or dipakai untuk salah satu dari dua orang yang bisa datang.",
+        "stepByStep": [
+          "Pasangan yang benar untuk pilihan salah satu dari dua: either ___ or.",
+          "Kalimat berarti salah satu dari Ani atau Dani yang bisa datang.",
+          "Both / and berarti keduanya, neither / nor berarti tidak satu pun, dan both / or bukan pasangan yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Both / and berarti keduanya datang, bukan salah satu." },
+          { "optionId": "C", "reasonId": "Neither / nor berarti tidak satu pun bisa datang." },
+          { "optionId": "D", "reasonId": "Both / or bukan pasangan yang benar." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "I didn't want to call him. ___, I sent him a message.",
+        "options": [
+          { "id": "A", "text": "Otherwise" },
+          { "id": "B", "text": "Instead" },
+          { "id": "C", "text": "Neither" },
+          { "id": "D", "text": "Also" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Instead menunjukkan pengganti: tidak menelepon, tetapi mengirim pesan sebagai gantinya.",
+        "stepByStep": [
+          "Kalimat pertama menyatakan saya tidak mau menelepon.",
+          "Instead berarti sebagai gantinya, dan cocok dengan mengirim pesan.",
+          "Otherwise berarti kalau tidak, neither adalah kata negatif, dan also berarti selain itu, yang tidak cocok sebagai pengganti."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Otherwise berarti kalau tidak, bukan sebagai pengganti." },
+          { "optionId": "C", "reasonId": "Neither tidak cocok di awal kalimat ini." },
+          { "optionId": "D", "reasonId": "Also menambah informasi, bukan pengganti tindakan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Instead menunjukkan pengganti dari tindakan sebelumnya. Otherwise menunjukkan akibat jika tidak.",
+          "examples": [
+            { "en": "I did not go out. Instead, I stayed home.", "id": "Saya tidak keluar. Sebagai gantinya, saya tinggal di rumah." },
+            { "en": "Study hard, otherwise you may fail.", "id": "Belajarlah dengan giat, kalau tidak kamu bisa gagal." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena kalimatnya tentang tidak menelepon, tetapi maknanya kalau tidak, bukan sebagai gantinya."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya suka kopi dan teh.",
+        "hint": "Dan: and. Dua hal yang disukai.",
+        "acceptedAnswers": ["I like coffee and tea.", "I like tea and coffee."],
+        "modelAnswer": "I like coffee and tea.",
+        "commonErrors": [{ "pattern": "I like coffee but tea", "feedbackId": "But berarti pertentangan. Untuk menambahkan, gunakan and." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia tidak bisa datang, jadi saya akan pergi sendiri.",
+        "hint": "Jadi: so. Akan pergi sendiri: will go alone.",
+        "acceptedAnswers": ["She cannot come, so I will go alone."],
+        "modelAnswer": "She cannot come, so I will go alone.",
+        "commonErrors": [{ "pattern": "She cannot come, but I will go alone", "feedbackId": "Sebab-akibat memakai so, bukan but." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kamu bisa naik bus atau naik taksi.",
+        "hint": "Atau: or. Naik bus: take a bus.",
+        "acceptedAnswers": ["You can take a bus or a taxi.", "You can take a bus or take a taxi."],
+        "modelAnswer": "You can take a bus or a taxi.",
+        "commonErrors": [{ "pattern": "You can take a bus and a taxi", "feedbackId": "Pilihan memakai or. And berarti keduanya." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak punya uang, jadi saya tidak bisa membeli tiket, tetapi saya tetap ingin pergi.",
+        "hint": "Jadi: so. Tetapi: but. Tetap ingin pergi: still want to go.",
+        "acceptedAnswers": [
+          "I have no money, so I cannot buy a ticket, but I still want to go.",
+          "I have no money so I cannot buy a ticket but I still want to go."
+        ],
+        "modelAnswer": "I have no money, so I cannot buy a ticket, but I still want to go.",
+        "commonErrors": [{ "pattern": "so I cannot buy a ticket so", "feedbackId": "Satu so sudah cukup untuk satu hubungan sebab-akibat." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Mereka membeli roti dan kue untuk sarapan, dan keduanya enak.",
+        "hint": "Roti dan kue: bread and cake. Keduanya: both.",
+        "acceptedAnswers": [
+          "They bought bread and cake for breakfast, and both were delicious.",
+          "They bought bread and cake for breakfast and both were delicious."
+        ],
+        "modelAnswer": "They bought bread and cake for breakfast, and both were delicious.",
+        "commonErrors": [{ "pattern": "both was delicious", "feedbackId": "Both adalah jamak, jadi memakai were." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct pair: '___ you stay home ___ you come with us.'",
+        "options": [
+          { "id": "A", "text": "Either / or" },
+          { "id": "B", "text": "Both / and" },
+          { "id": "C", "text": "Neither / nor" },
+          { "id": "D", "text": "Either / but" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Either ___ or memilih salah satu dari dua pilihan: tinggal di rumah atau ikut dengan kami.",
+        "stepByStep": [
+          "Either dan or dipakai untuk memilih salah satu dari dua pilihan.",
+          "Both dan and berarti keduanya, dan tidak cocok dengan pilihan.",
+          "Pilihan C memakai neither dan nor yang tidak masuk akal di sini. Pilihan D memakai but yang berarti pertentangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Both dan and berarti keduanya, tidak cocok untuk pilihan yang saling menggantikan." },
+          { "optionId": "C", "reasonId": "Neither dan nor berarti tidak satu pun, dan tidak cocok dengan kalimat pilihan ini." },
+          { "optionId": "D", "reasonId": "But berarti pertentangan, bukan pilihan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Either ___ or memilih satu dari dua. Both ___ and menggabungkan keduanya.",
+          "examples": [
+            { "en": "You can either call me or send a message.", "id": "Kamu bisa menelepon saya atau mengirim pesan." },
+            { "en": "Both my brother and my sister like music.", "id": "Kakak dan adik saya sama-sama suka musik." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena dua klausa disambung, tetapi both hanya untuk keduanya, bukan untuk pilihan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'so' correctly?",
+        "options": [
+          { "id": "A", "text": "It was raining, so we stayed inside." },
+          { "id": "B", "text": "It was raining, so stayed we inside." },
+          { "id": "C", "text": "It was raining, but so we stayed inside." },
+          { "id": "D", "text": "It was raining, so and we stayed inside." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Hujan menyebabkan kami tinggal di dalam. So ditulis dengan koma di depan klausa akibat.",
+        "stepByStep": [
+          "Cari hubungan sebab-akibat: hujan menyebabkan kami tinggal di dalam.",
+          "So dipakai dengan koma di depan klausa akibat.",
+          "Pilihan B mengubah urutan kata. Pilihan C memakai but dan so bersamaan. Pilihan D memakai so dan and bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Urutan kata salah. Subjek we harus berada sebelum stayed." },
+          { "optionId": "C", "reasonId": "But dan so tidak dipakai bersamaan untuk satu hubungan." },
+          { "optionId": "D", "reasonId": "So dan and tidak dipakai bersamaan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "So menunjukkan akibat dan biasanya diberi koma sebelumnya.",
+          "examples": [
+            { "en": "I was hungry, so I ate lunch early.", "id": "Saya lapar, jadi saya makan siang lebih awal." },
+            { "en": "The shop was closed, so we went home.", "id": "Tokonya tutup, jadi kami pulang." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat lengkap, tetapi but dan so tidak boleh dipakai bersama untuk satu hubungan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best linking word: 'The food was cheap. ___, it was very tasty.'",
+        "options": [
+          { "id": "A", "text": "Otherwise" },
+          { "id": "B", "text": "Also" },
+          { "id": "C", "text": "Instead" },
+          { "id": "D", "text": "Neither" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kalimat kedua menambah informasi: makanannya juga enak. Also menambah informasi.",
+        "stepByStep": [
+          "Kalimat kedua menambah informasi tentang makanan: rasanya enak juga.",
+          "Also dipakai untuk menambah informasi.",
+          "Otherwise berarti kalau tidak, instead berarti sebagai gantinya, dan neither tidak dipakai sebagai kata penghubung kalimat seperti ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Otherwise berarti kalau tidak, tidak sesuai dengan tambahan informasi." },
+          { "optionId": "C", "reasonId": "Instead berarti sebagai ganti, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "Neither tidak dipakai sebagai kata penghubung seperti ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Also menambah informasi. Otherwise menunjukkan akibat jika tidak.",
+          "examples": [
+            { "en": "The room is small. Also, it is very quiet.", "id": "Ruangannya kecil. Selain itu, ruangannya sangat tenang." },
+            { "en": "Wear a jacket, otherwise you will be cold.", "id": "Pakai jaket, kalau tidak kamu akan kedinginan." }
+          ]
+        },
+        "examTrap": "Otherwise terlihat cocok karena kalimatnya tentang makanan murah, tetapi maknanya kalau tidak, bukan tambahan."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Take an umbrella, ___ you will get wet.'",
+        "options": [
+          { "id": "A", "text": "and" },
+          { "id": "B", "text": "otherwise" },
+          { "id": "C", "text": "but" },
+          { "id": "D", "text": "so" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Otherwise berarti kalau tidak, dan memberi peringatan bahwa kamu akan basah jika tidak membawa payung.",
+        "stepByStep": [
+          "Kalimat kedua adalah akibat jika tidak membawa payung: you will get wet.",
+          "Otherwise berarti kalau tidak, dan cocok dengan kalimat perintah.",
+          "And, but, dan so tidak memberi makna kalau tidak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "And berarti menambah, tidak sesuai dengan akibat basah." },
+          { "optionId": "C", "reasonId": "But berarti pertentangan, tidak sesuai dengan pesan kalimat." },
+          { "optionId": "D", "reasonId": "So berarti akibat dari membawa payung, dan tidak masuk akal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Otherwise berarti kalau tidak, dan dipakai setelah perintah atau saran.",
+          "examples": [
+            { "en": "Study today, otherwise you will fail the test.", "id": "Belajarlah hari ini, kalau tidak kamu akan gagal ujian." },
+            { "en": "Leave now, otherwise you will miss the bus.", "id": "Berangkatlah sekarang, kalau tidak kamu akan ketinggalan bus." }
+          ]
+        },
+        "examTrap": "Pilihan D so terlihat seperti hubungan sebab-akibat yang sederhana, tetapi kalimat ini memberi peringatan, bukan akibat langsung."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Neither my brother or my sister likes cake." },
+          { "id": "B", "text": "Neither my brother nor my sister likes cake." },
+          { "id": "C", "text": "Neither my brother nor my sister like cake." },
+          { "id": "D", "text": "Both my brother nor my sister likes cake." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Neither ___ nor dipakai untuk tidak satu pun dari dua. Verb mengikuti subjek yang paling dekat, yaitu my sister, sehingga likes.",
+        "stepByStep": [
+          "Neither dipasangkan dengan nor, bukan or.",
+          "Verb mengikuti subjek yang paling dekat, yaitu my sister, sehingga likes.",
+          "Pilihan A memakai or. Pilihan C memakai like yang tidak cocok dengan my sister. Pilihan D memakai both dengan nor."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Neither ___ or salah. Pasangannya nor." },
+          { "optionId": "C", "reasonId": "Like tidak cocok dengan my sister yang tunggal." },
+          { "optionId": "D", "reasonId": "Both tidak dipasangkan dengan nor." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Neither ___ nor berarti tidak keduanya. Verb mengikuti subjek yang paling dekat.",
+          "examples": [
+            { "en": "Neither Ani nor Budi came to class.", "id": "Ani maupun Budi tidak datang ke kelas." },
+            { "en": "Neither the teacher nor the students were ready.", "id": "Guru maupun siswa tidak siap." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat benar karena neither memakai verb yang bisa tunggal atau jamak, tetapi subjek terdekat my sister tunggal."
+      }
+    ]
+  }
+}

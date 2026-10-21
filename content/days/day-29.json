@@ -1,0 +1,574 @@
+{
+  "day": 29,
+  "week": 4,
+  "month": 1,
+  "title": "Membaca & Kosakata Bulan 1",
+  "topic": "Membaca teks pendek dan memahami isinya dengan menebak arti dari konteks",
+  "skillFocus": "reading",
+  "objectives": [
+    "Menemukan ide utama dan detail dalam teks pendek",
+    "Menebak arti kata dari konteks kalimat",
+    "Meringkas paragraf dalam satu kalimat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "summarize", "pronunciationId": "SUM-ma-raiz (tekanan di SUM)", "pos": "Verb", "meaningId": "meringkas", "example": "Please summarize the story in two sentences.", "exampleId": "Tolong ringkas cerita itu dalam dua kalimat." },
+      { "no": 2, "en": "paragraph", "pronunciationId": "PA-ra-graf (tekanan di PA)", "pos": "Noun", "meaningId": "paragraf", "example": "Read the second paragraph again.", "exampleId": "Baca paragraf kedua sekali lagi." },
+      { "no": 3, "en": "main", "pronunciationId": "MEIN (ai panjang, n jelas)", "pos": "Adj", "meaningId": "utama, pokok", "example": "What is the main idea of this text?", "exampleId": "Apa ide utama dari teks ini?" },
+      { "no": 4, "en": "detail", "pronunciationId": "DI-teil (tekanan di DI)", "pos": "Noun", "meaningId": "detail, rincian", "example": "Add one detail to your answer.", "exampleId": "Tambahkan satu rincian pada jawabanmu." },
+      { "no": 5, "en": "passage", "pronunciationId": "PAS-ij (a pendek, j seperti dj)", "pos": "Noun", "meaningId": "bagian teks, kutipan", "example": "The passage is short and clear.", "exampleId": "Bagian teks itu pendek dan jelas." },
+      { "no": 6, "en": "meaning", "pronunciationId": "MI-ning (i panjang, ng di akhir)", "pos": "Noun", "meaningId": "arti", "example": "What is the meaning of this word?", "exampleId": "Apa arti kata ini?" },
+      { "no": 7, "en": "topic", "pronunciationId": "TO-pik (o panjang, i pendek)", "pos": "Noun", "meaningId": "topik, pokok bahasan", "example": "The topic of today's class is travel.", "exampleId": "Topik kelas hari ini adalah perjalanan." },
+      { "no": 8, "en": "guess", "pronunciationId": "GES (e pendek, s jelas)", "pos": "Verb", "meaningId": "menebak", "example": "Try to guess the meaning from the context.", "exampleId": "Cobalah menebak arti dari konteksnya." },
+      { "no": 9, "en": "reading", "pronunciationId": "RI-ding (tekanan di RI)", "pos": "Noun", "meaningId": "membaca; bacaan", "example": "Reading every day helps my English.", "exampleId": "Membaca setiap hari membantu bahasa Inggris saya." },
+      { "no": 10, "en": "comprehension", "pronunciationId": "kom-pri-HEN-shun (tekanan di HEN)", "pos": "Noun", "meaningId": "pemahaman", "example": "Reading comprehension improves with practice.", "exampleId": "Pemahaman bacaan membaik dengan latihan." }
+    ],
+    "tip": "Saat membaca teks pendek, lakukan urutan ini: baca judul, tebak topik, cari ide utama di setiap paragraf, lalu cek detail yang mendukung. Terakhir, ringkas dengan satu kalimat."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["reading comprehension for beginners English", "reading strategies English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang strategi membaca untuk pemula: menebak topik, mencari ide utama, dan membaca detail.",
+      "watchFor": [
+        "Cara menebak topik dari judul",
+        "Cara menemukan ide utama dalam paragraf",
+        "Cara menebak arti kata dari konteks"
+      ]
+    },
+    "lesson": {
+      "intro": "Membaca bukan hanya mengenali kata. Kamu perlu memahami ide utama, mengenali detail, dan menebak arti kata yang belum kamu kenal dari kalimat di sekitarnya. Strategi ini membuat pemahamanmu lebih kuat.",
+      "sections": [
+        {
+          "heading": "Ide utama dan detail",
+          "bodyMd": "**Main idea** adalah pesan paling penting dalam paragraf. **Detail** adalah bukti atau rincian yang mendukung ide utama, seperti tanggal, nama, atau angka. Tanyakan: apa yang paling penting di sini, dan apa yang menjelaskannya?"
+        },
+        {
+          "heading": "Menebak arti dari konteks",
+          "bodyMd": "Jika ada kata yang belum kamu kenal, lihat kalimat di sekitarnya. Kata seperti **because**, **but**, atau **for example** sering memberi petunjuk. Tebak arti dulu, lalu cek apakah tebakanmu masuk akal di seluruh kalimat."
+        },
+        {
+          "heading": "Meringkas",
+          "bodyMd": "Untuk **summarize**, tulis satu kalimat yang berisi topik dan ide utama. Jangan menyalin kalimat dari teks. Gunakan kata sendiri dan buang detail kecil."
+        }
+      ],
+      "formulas": [
+        { "label": "Ide utama", "pattern": "kalimat paling umum dalam paragraf, sering di awal" },
+        { "label": "Detail", "pattern": "kalimat yang memberi bukti atau contoh" },
+        { "label": "Tebak arti", "pattern": "kata yang belum dikenal + petunjuk dari kalimat sekitar" },
+        { "label": "Ringkasan", "pattern": "topik + ide utama dalam satu kalimat" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The main idea of this paragraph is safety.", "id": "Ide utama paragraf ini adalah keselamatan." },
+          { "en": "The detail shows that the shop opens at seven.", "id": "Rincian itu menunjukkan bahwa toko buka pukul tujuh." },
+          { "en": "I guessed the meaning from the sentence around it.", "id": "Saya menebak arti dari kalimat di sekitarnya." },
+          { "en": "This passage is about healthy food.", "id": "Bagian teks ini tentang makanan sehat." },
+          { "en": "She summarized the story in one sentence.", "id": "Dia meringkas cerita itu dalam satu kalimat." }
+        ],
+        "negative": [
+          { "en": "The detail is not the main idea.", "id": "Rincian itu bukan ide utama." },
+          { "en": "I did not guess the meaning of the word.", "id": "Saya tidak menebak arti kata itu." },
+          { "en": "This paragraph is not about the topic.", "id": "Paragraf ini tidak tentang topiknya." },
+          { "en": "The passage does not explain the result.", "id": "Bagian teks itu tidak menjelaskan hasilnya." },
+          { "en": "I cannot summarize this long article yet.", "id": "Saya belum bisa meringkas artikel panjang ini." }
+        ],
+        "question": [
+          { "en": "What is the main idea of the passage?", "id": "Apa ide utama dari bagian teks itu?" },
+          { "en": "Can you find a detail in the second paragraph?", "id": "Bisakah kamu menemukan rincian di paragraf kedua?" },
+          { "en": "What is the topic of this text?", "id": "Apa topik teks ini?" },
+          { "en": "Did you guess the meaning of the word?", "id": "Apakah kamu menebak arti kata itu?" },
+          { "en": "Can you summarize the story in one sentence?", "id": "Bisakah kamu meringkas cerita itu dalam satu kalimat?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The topic of this article are health.", "right": "The topic of this article is health.", "whyId": "Topic adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "She summary the text.", "right": "She summarized the text.", "whyId": "Summary adalah kata benda. Untuk kata kerja, gunakan summarize." },
+        { "wrong": "The main idea are simple.", "right": "The main idea is simple.", "whyId": "Idea adalah kata benda tunggal, jadi memakai is." },
+        { "wrong": "I guess the meaning yesterday.", "right": "I guessed the meaning yesterday.", "whyId": "Yesterday menunjukkan lampau, jadi gunakan guessed." },
+        { "wrong": "This passage is more interesting than detail.", "right": "This passage has an interesting detail.", "whyId": "Detail adalah kata benda, bukan pembanding untuk passage." },
+        { "wrong": "I read the paragraph, but I not understand it.", "right": "I read the paragraph, but I did not understand it.", "whyId": "Kalimat negatif lampau memakai did not + kata kerja dasar." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Cara Membaca Teks Pendek",
+    "text": "This passage is about a simple way to improve your reading. First, read the title and guess the topic before you start. Second, read each paragraph slowly and look for the main idea. The main idea is the most important point in the paragraph. Third, notice each detail, such as dates, names, or numbers. These details support the main idea. Finally, try to summarize the paragraph in one short sentence. If you can do that, your reading comprehension is improving. Many students think reading is hard, but daily practice gives them more confidence. Some words may have an unknown meaning, so use the context to understand it.",
+    "glossary": [
+      { "en": "passage", "id": "bagian teks" },
+      { "en": "guess", "id": "menebak" },
+      { "en": "main idea", "id": "ide utama" },
+      { "en": "detail", "id": "rincian" },
+      { "en": "context", "id": "konteks" },
+      { "en": "comprehension", "id": "pemahaman" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is the main topic of the passage?",
+        "options": [
+          { "id": "A", "text": "a simple way to improve reading" },
+          { "id": "B", "text": "how to cook rice" },
+          { "id": "C", "text": "the history of a city" },
+          { "id": "D", "text": "how to travel abroad" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks dibuka dengan 'This passage is about a simple way to improve your reading', artinya topiknya cara membaca yang sederhana.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Memasak nasi tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Sejarah kota tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Bepergian ke luar negeri tidak disebut dalam teks." }
+        ],
+        "evidence": "This passage is about a simple way to improve your reading"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What should you do first, according to the passage?",
+        "options": [
+          { "id": "A", "text": "summarize the paragraph" },
+          { "id": "B", "text": "look for numbers" },
+          { "id": "C", "text": "read the title and guess the topic" },
+          { "id": "D", "text": "use a dictionary" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'First, read the title and guess the topic before you start', artinya langkah pertama adalah membaca judul dan menebak topik.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Meringkas adalah langkah terakhir, bukan langkah pertama." },
+          { "optionId": "B", "reasonId": "Mencari angka adalah bagian dari detail, bukan langkah pertama." },
+          { "optionId": "D", "reasonId": "Kamus tidak disebut dalam teks." }
+        ],
+        "evidence": "First, read the title and guess the topic before you start"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What does the passage say about details?",
+        "options": [
+          { "id": "A", "text": "They support the main idea." },
+          { "id": "B", "text": "They are not useful." },
+          { "id": "C", "text": "They are only in long books." },
+          { "id": "D", "text": "They are always about numbers." }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'These details support the main idea', artinya rincian mendukung ide utama.",
+        "stepByStep": [
+          "Cari detail di teks: 'Third, notice each detail, such as dates, names, or numbers. These details support the main idea.'",
+          "Kalimat berikutnya menjelaskan fungsi detail: mendukung ide utama.",
+          "Pilihan B bertentangan dengan 'support'. Pilihan C tidak disebut. Pilihan D bertentangan dengan 'such as dates, names, or numbers'."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut detail mendukung ide utama, jadi tidak berguna adalah kebalikannya." },
+          { "optionId": "C", "reasonId": "Buku panjang tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Detail juga bisa berupa nama dan tanggal, bukan hanya angka." }
+        ],
+        "evidence": "These details support the main idea"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "According to the passage, what is the best way to understand an unknown word?",
+        "options": [
+          { "id": "A", "text": "ask a friend to translate it at once" },
+          { "id": "B", "text": "skip the whole passage" },
+          { "id": "C", "text": "write it on paper" },
+          { "id": "D", "text": "use the context to understand it" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'so use the context to understand it', artinya gunakan konteks untuk memahami kata itu.",
+        "stepByStep": [
+          "Cari unknown di teks: 'Some words may have an unknown meaning, so use the context to understand it.'",
+          "Teks menyarankan konteks sebagai cara memahami kata yang belum dikenal.",
+          "Pilihan A, B, dan C tidak disebut dalam teks sebagai cara memahami kata."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut bertanya kepada teman." },
+          { "optionId": "B", "reasonId": "Melewati teks bertentangan dengan membaca dengan pemahaman." },
+          { "optionId": "C", "reasonId": "Menulis kata di kertas tidak disebut sebagai cara memahami arti." }
+        ],
+        "evidence": "use the context to understand it"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we conclude about students who practice reading every day?",
+        "options": [
+          { "id": "A", "text": "They will stop reading when the text is long." },
+          { "id": "B", "text": "They feel more confident." },
+          { "id": "C", "text": "They never summarize paragraphs." },
+          { "id": "D", "text": "They do not need to find the main idea." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'daily practice gives them more confidence', artinya latihan setiap hari membuat siswa lebih percaya diri.",
+        "stepByStep": [
+          "Cari practice di teks: 'daily practice gives them more confidence.'",
+          "Kata them merujuk pada students yang berlatih setiap hari.",
+          "Pilihan A, C, dan D bertentangan dengan teks. Teks justru menyebut main idea dan summarize sebagai langkah penting."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut siswa berhenti membaca teks panjang." },
+          { "optionId": "C", "reasonId": "Teks menyebut meringkas paragraf sebagai langkah yang dianjurkan." },
+          { "optionId": "D", "reasonId": "Teks menyebut mencari ide utama sebagai langkah penting." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kesimpulan dari teks harus didukung oleh kalimat yang ada. Hubungan sebab-akibat sering memakai gives atau makes.",
+          "examples": [
+            { "en": "Daily reading makes English easier.", "id": "Membaca setiap hari membuat bahasa Inggris lebih mudah." },
+            { "en": "Practice gives students more confidence.", "id": "Latihan memberi siswa lebih banyak rasa percaya diri." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kemampuan lanjutan, tetapi teks menyebut mencari ide utama sebagai langkah penting.",
+        "evidence": "daily practice gives them more confidence"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The ___ idea of the story is friendship.",
+        "options": [
+          { "id": "A", "text": "main" },
+          { "id": "B", "text": "mainly" },
+          { "id": "C", "text": "mains" },
+          { "id": "D", "text": "mainness" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Main adalah kata sifat yang menerangkan kata benda idea.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Mainly adalah kata keterangan, tidak cocok sebelum kata benda idea." },
+          { "optionId": "C", "reasonId": "Mains adalah bentuk jamak yang tidak cocok dengan idea." },
+          { "optionId": "D", "reasonId": "Mainness bukan kata yang umum dipakai dalam konteks ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "I need to ___ the story in three sentences.",
+        "options": [
+          { "id": "A", "text": "summarize" },
+          { "id": "B", "text": "summary" },
+          { "id": "C", "text": "summarized" },
+          { "id": "D", "text": "summarizing" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Setelah to, gunakan kata kerja bentuk dasar: summarize.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Summary adalah kata benda, tidak cocok setelah to." },
+          { "optionId": "C", "reasonId": "Summarized adalah lampau, tidak cocok setelah to." },
+          { "optionId": "D", "reasonId": "Summarizing tidak cocok setelah to dalam pola ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The writer gives many ___ about the city.",
+        "options": [
+          { "id": "A", "text": "detailed" },
+          { "id": "B", "text": "details" },
+          { "id": "C", "text": "detail" },
+          { "id": "D", "text": "detailing" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Many diikuti kata benda jamak: details.",
+        "stepByStep": [
+          "Many menunjukkan jumlah banyak, jadi kata benda setelahnya harus jamak.",
+          "Detail sebagai kata benda jamak adalah details.",
+          "Detailed adalah kata sifat, detail adalah bentuk tunggal, dan detailing tidak cocok sebagai kata benda di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Detailed adalah kata sifat, tidak cocok setelah many." },
+          { "optionId": "C", "reasonId": "Detail adalah bentuk tunggal, tidak cocok dengan many." },
+          { "optionId": "D", "reasonId": "Detailing tidak cocok sebagai kata benda setelah many." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Which word has the closest meaning to 'comprehension'?",
+        "options": [
+          { "id": "A", "text": "noise" },
+          { "id": "B", "text": "distance" },
+          { "id": "C", "text": "understanding" },
+          { "id": "D", "text": "argument" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Comprehension berarti pemahaman, dan understanding memiliki arti yang paling dekat.",
+        "stepByStep": [
+          "Comprehension berarti kemampuan memahami sesuatu.",
+          "Understanding berarti memahami, dan memiliki makna yang paling dekat.",
+          "Noise berarti bunyi, distance berarti jarak, dan argument berarti perdebatan atau alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Noise berarti bunyi, tidak berarti pemahaman." },
+          { "optionId": "B", "reasonId": "Distance berarti jarak, tidak berarti pemahaman." },
+          { "optionId": "D", "reasonId": "Argument berarti perdebatan atau alasan, tidak berarti pemahaman." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Read the sentence: 'Ani read the paragraph carefully, so she could guess the meaning of the hard word.' What does 'so' show?",
+        "options": [
+          { "id": "A", "text": "contrast" },
+          { "id": "B", "text": "result" },
+          { "id": "C", "text": "time" },
+          { "id": "D", "text": "example" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "So menunjukkan akibat: Ani membaca dengan teliti, sehingga ia bisa menebak arti kata itu.",
+        "stepByStep": [
+          "Kalimat pertama adalah sebab: Ani membaca paragraf dengan teliti.",
+          "Kalimat kedua adalah akibat: ia bisa menebak arti kata sulit itu.",
+          "So menunjukkan akibat, bukan pertentangan, waktu, atau contoh."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pertentangan ditunjukkan oleh but atau although, bukan so." },
+          { "optionId": "C", "reasonId": "Waktu tidak ditunjukkan oleh so dalam kalimat ini." },
+          { "optionId": "D", "reasonId": "Contoh ditunjukkan oleh for example, bukan so." }
+        ],
+        "ruleAndExamples": {
+          "rule": "So menunjukkan akibat dari kejadian sebelumnya.",
+          "examples": [
+            { "en": "The text was clear, so I understood the main idea.", "id": "Teksnya jelas, jadi saya memahami ide utamanya." },
+            { "en": "I read every day, so my reading improved.", "id": "Saya membaca setiap hari, jadi membaca saya membaik." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena kalimatnya tentang kata sulit, tetapi so tidak menunjukkan pertentangan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya membaca buku itu setiap malam.",
+        "hint": "Membaca: read. Setiap malam: every night.",
+        "acceptedAnswers": ["I read that book every night.", "I read the book every night."],
+        "modelAnswer": "I read that book every night.",
+        "commonErrors": [{ "pattern": "I readed that book", "feedbackId": "Read adalah kata kerja tidak beraturan. Bentuk sekarang read." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Topik artikel ini tentang kesehatan.",
+        "hint": "Topik: topic. Kesehatan: health.",
+        "acceptedAnswers": ["The topic of this article is health.", "The topic of this article is about health."],
+        "modelAnswer": "The topic of this article is health.",
+        "commonErrors": [{ "pattern": "The topic of this article are health", "feedbackId": "Topic adalah kata benda tunggal, jadi memakai is." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia meringkas teks itu dalam satu kalimat.",
+        "hint": "Meringkas: summarize, bentuk lampau summarized.",
+        "acceptedAnswers": ["She summarized the text in one sentence.", "She summarized the passage in one sentence."],
+        "modelAnswer": "She summarized the text in one sentence.",
+        "commonErrors": [{ "pattern": "She summary the text", "feedbackId": "Summary adalah kata benda. Untuk kata kerja gunakan summarized." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Detail kecil itu membantu saya memahami arti kalimat.",
+        "hint": "Detail kecil: that small detail. Membantu saya memahami: helped me understand.",
+        "acceptedAnswers": [
+          "That small detail helped me understand the meaning of the sentence.",
+          "That small detail helped me to understand the meaning of the sentence."
+        ],
+        "modelAnswer": "That small detail helped me understand the meaning of the sentence.",
+        "commonErrors": [{ "pattern": "That small details helped", "feedbackId": "Dalam kalimat ini ada satu detail, jadi memakai detail, bukan details." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya menebak arti kata itu dari konteks, lalu saya membaca paragraf berikutnya.",
+        "hint": "Menebak: guessed. Dari konteks: from the context. Lalu: and then.",
+        "acceptedAnswers": [
+          "I guessed the meaning of the word from the context, and then I read the next paragraph.",
+          "I guessed the meaning of the word from the context and then I read the next paragraph."
+        ],
+        "modelAnswer": "I guessed the meaning of the word from the context, and then I read the next paragraph.",
+        "commonErrors": [{ "pattern": "I guess the meaning", "feedbackId": "Untuk kejadian yang sudah selesai, gunakan guessed." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The main ___ of the passage is how to read carefully.'",
+        "options": [
+          { "id": "A", "text": "topic" },
+          { "id": "B", "text": "topics" },
+          { "id": "C", "text": "topically" },
+          { "id": "D", "text": "topical" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Topic adalah kata benda tunggal yang cocok setelah the main dan sebelum of the passage.",
+        "stepByStep": [
+          "The main ___ of the passage memerlukan kata benda tunggal.",
+          "Topic adalah kata benda tunggal yang berarti pokok bahasan.",
+          "Topics adalah jamak, topically adalah keterangan, dan topical adalah kata sifat yang tidak cocok sebagai inti subjek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Topics adalah jamak, sedangkan the main menunjukkan satu pokok bahasan." },
+          { "optionId": "C", "reasonId": "Topically adalah kata keterangan, tidak cocok sebagai kata benda." },
+          { "optionId": "D", "reasonId": "Topical adalah kata sifat, tidak cocok sebagai inti kalimat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda tunggal dipakai setelah the main ketika membicarakan satu pokok utama.",
+          "examples": [
+            { "en": "The main topic of the lesson is travel.", "id": "Topik utama pelajaran ini adalah perjalanan." },
+            { "en": "The main idea of the story is courage.", "id": "Ide utama cerita ini adalah keberanian." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti kata benda yang sah, tetapi jamak tidak cocok dengan the main yang menunjuk satu hal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The reading passage was very comprehension." },
+          { "id": "B", "text": "The reading passage was easy to comprehend." },
+          { "id": "C", "text": "The reading comprehension passage was easy to comprehension." },
+          { "id": "D", "text": "The passage was easy to comprehension." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Comprehend adalah kata kerja, dan easy to comprehend memakai bentuk kata kerja dasar setelah to.",
+        "stepByStep": [
+          "Pola easy to memerlukan kata kerja setelah to.",
+          "Comprehend adalah kata kerja yang berarti memahami.",
+          "Pilihan A memakai kata benda comprehension sebagai sifat. Pilihan C dan D memakai comprehension setelah to."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Comprehension adalah kata benda, tidak cocok setelah was very." },
+          { "optionId": "C", "reasonId": "Setelah to, gunakan kata kerja comprehend, bukan comprehension." },
+          { "optionId": "D", "reasonId": "Setelah to, gunakan kata kerja comprehend, bukan comprehension." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pola easy to + kata kerja dasar. Comprehend adalah kata kerja.",
+          "examples": [
+            { "en": "This book is easy to read.", "id": "Buku ini mudah dibaca." },
+            { "en": "The text is hard to understand.", "id": "Teks ini sulit dipahami." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak masuk akal karena ada kata reading passage, tetapi comprehension adalah kata benda."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Which word best describes what a reader does to find the meaning of a new word from the sentences around it?",
+        "options": [
+          { "id": "A", "text": "detail" },
+          { "id": "B", "text": "guess" },
+          { "id": "C", "text": "summarize" },
+          { "id": "D", "text": "passage" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Guess berarti menebak. Pembaca menebak arti kata baru dari kalimat di sekitarnya.",
+        "stepByStep": [
+          "Kalimat menjelaskan aksi pembaca untuk mencari arti dari kalimat di sekitar.",
+          "Aksi yang tepat untuk itu adalah guess.",
+          "Detail adalah informasi, summarize adalah meringkas, dan passage adalah teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Detail adalah rincian, bukan aksi menebak arti." },
+          { "optionId": "C", "reasonId": "Summarize berarti meringkas, bukan menebak arti kata." },
+          { "optionId": "D", "reasonId": "Passage adalah bagian teks, bukan aksi pembaca." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Guess the meaning berarti menebak arti dari petunjuk di sekitar kata.",
+          "examples": [
+            { "en": "I can guess the meaning from the context.", "id": "Saya bisa menebak arti dari konteksnya." },
+            { "en": "Try to guess the topic before you read.", "id": "Cobalah menebak topik sebelum kamu membaca." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena detail membantu memahami teks, tetapi tindakan menebak arti adalah guess."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Yesterday, the writer ___ the passage in a clear way.",
+        "options": [
+          { "id": "A", "text": "writes" },
+          { "id": "B", "text": "wrote" },
+          { "id": "C", "text": "writing" },
+          { "id": "D", "text": "write" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Yesterday menunjukkan simple past, sehingga kata kerjanya wrote.",
+        "stepByStep": [
+          "Yesterday menunjukkan kejadian yang sudah selesai.",
+          "Simple past dari write adalah wrote.",
+          "Writes adalah simple present, writing bukan kata kerja utama, dan write adalah bentuk dasar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Writes adalah simple present, tidak cocok dengan yesterday." },
+          { "optionId": "C", "reasonId": "Writing tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Write adalah bentuk dasar, tidak cocok dengan yesterday." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Yesterday menandakan simple past. Write menjadi wrote.",
+          "examples": [
+            { "en": "Yesterday she wrote a short story.", "id": "Kemarin dia menulis cerita pendek." },
+            { "en": "He wrote the report last night.", "id": "Dia menulis laporan itu tadi malam." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat yang biasa, tetapi writes adalah simple present dan tidak cocok dengan yesterday."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She reads the passage, but she not understands the main idea." },
+          { "id": "B", "text": "She reads the passage, but she does not understand the main idea." },
+          { "id": "C", "text": "She reads the passage, but does not she understand the main idea." },
+          { "id": "D", "text": "She reads the passage, but she doesn't understands the main idea." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Kalimat negatif dengan subjek she memakai does not + kata kerja dasar: does not understand.",
+        "stepByStep": [
+          "Subjek she dan kalimat negatif memakai does not.",
+          "Setelah does not, kata kerja dasar understand tanpa -s.",
+          "Pilihan A tidak memakai does. Pilihan C memakai pola tanya di kalimat negatif. Pilihan D memakai understands setelah doesn't."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Negatif dengan she memerlukan does not, bukan not saja." },
+          { "optionId": "C", "reasonId": "Susunan does not she understand salah untuk kalimat pernyataan." },
+          { "optionId": "D", "reasonId": "Setelah doesn't, kata kerja tidak memakai -s: understand." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Negatif simple present memakai do not atau does not, diikuti kata kerja dasar.",
+          "examples": [
+            { "en": "He does not read the newspaper every day.", "id": "Dia tidak membaca koran setiap hari." },
+            { "en": "They do not understand the question.", "id": "Mereka tidak memahami pertanyaan itu." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti versi singkat yang benar, tetapi setelah doesn't kata kerja tidak memakai -s."
+      }
+    ]
+  }
+}

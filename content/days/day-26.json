@@ -1,0 +1,594 @@
+{
+  "day": 26,
+  "week": 4,
+  "month": 1,
+  "title": "Sebab-Akibat & Pertentangan",
+  "topic": "Menghubungkan alasan, waktu, dan pertentangan dalam kalimat majemuk dengan konjungsi bawahan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memakai because dan although untuk alasan dan pertentangan",
+    "Memakai until, after, dan while untuk waktu",
+    "Memakai unless dan in case untuk kondisi dan jaga-jaga"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "because", "pronunciationId": "bi-KOZ (tekanan di KOZ)", "pos": "Conj", "meaningId": "karena", "example": "I stayed home because I was sick.", "exampleId": "Saya tinggal di rumah karena saya sakit." },
+      { "no": 2, "en": "although", "pronunciationId": "awl-THOH (tekanan di THOH)", "pos": "Conj", "meaningId": "walaupun", "example": "Although it was cold, we went out.", "exampleId": "Walaupun dingin, kami tetap keluar." },
+      { "no": 3, "en": "even though", "pronunciationId": "EE-ven THOH (tekanan di EE)", "pos": "Conj", "meaningId": "meskipun, padahal", "example": "Even though he is busy, he helps us.", "exampleId": "Meskipun dia sibuk, dia tetap membantu kami." },
+      { "no": 4, "en": "while", "pronunciationId": "WAIL (ai panjang, l jelas)", "pos": "Conj", "meaningId": "sementara, sambil", "example": "I read while I wait for the bus.", "exampleId": "Saya membaca sambil menunggu bus." },
+      { "no": 5, "en": "in case", "pronunciationId": "in KEIS (tekanan di KEIS)", "pos": "Conj", "meaningId": "untuk jaga-jaga, kalau-kalau", "example": "Take an umbrella in case it rains.", "exampleId": "Bawa payung untuk jaga-jaga kalau hujan." },
+      { "no": 6, "en": "after", "pronunciationId": "AF-ter (a pendek, ter ringan)", "pos": "Conj", "meaningId": "setelah", "example": "We will eat after the meeting.", "exampleId": "Kami akan makan setelah rapat." },
+      { "no": 7, "en": "unless", "pronunciationId": "un-LES (tekanan di LES)", "pos": "Conj", "meaningId": "kecuali jika", "example": "I will not go unless you come.", "exampleId": "Saya tidak akan pergi kecuali kamu ikut." },
+      { "no": 8, "en": "until", "pronunciationId": "un-TIL (tekanan di TIL)", "pos": "Conj", "meaningId": "sampai", "example": "Wait here until I return.", "exampleId": "Tunggu di sini sampai saya kembali." },
+      { "no": 9, "en": "whereas", "pronunciationId": "wair-AZ (tekanan di AZ)", "pos": "Conj", "meaningId": "sedangkan", "example": "The city is busy, whereas the village is quiet.", "exampleId": "Kota itu ramai, sedangkan desanya tenang." },
+      { "no": 10, "en": "though", "pronunciationId": "THOH (th lembut, o panjang)", "pos": "Conj", "meaningId": "walaupun", "example": "Though it was late, we kept talking.", "exampleId": "Walaupun sudah larut, kami terus mengobrol." }
+    ],
+    "tip": "Konjungsi bawahan dipakai di depan klausa. Pilih dari makna: because untuk alasan, although dan though untuk pertentangan, until dan after untuk waktu, unless untuk kondisi kebalikan, dan in case untuk jaga-jaga."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["subordinating conjunctions English", "because although English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang konjungsi bawahan untuk pemula, dengan contoh because, although, until, unless, dan whereas.",
+      "watchFor": [
+        "Because dan although untuk alasan dan pertentangan",
+        "Until dan after untuk waktu",
+        "Unless berarti if not"
+      ]
+    },
+    "lesson": {
+      "intro": "Konjungsi bawahan membuat satu klausa bergantung pada klausa utama. Kalimat dengan konjungsi bawahan menjelaskan alasan, waktu, atau syarat. Hari ini kamu belajar memakai konjungsi itu dengan benar.",
+      "sections": [
+        {
+          "heading": "Alasan dan pertentangan",
+          "bodyMd": "**Because** menjelaskan alasan: **I stayed home because it was raining.** **Although**, **even though**, dan **though** menunjukkan pertentangan: **Although it was cold, we went out.** Jangan memakai **but** setelah **although**."
+        },
+        {
+          "heading": "Waktu dan batas",
+          "bodyMd": "**Until** berarti sampai: **Wait until I come.** **After** berarti setelah: **We ate after the class.** **While** berarti sementara atau sambil: **I listened while I cooked.**"
+        },
+        {
+          "heading": "Kondisi dan jaga-jaga",
+          "bodyMd": "**Unless** berarti kecuali jika, atau if not: **Unless it rains, we will go out.** **In case** berarti untuk jaga-jaga: **Bring a jacket in case it gets cold.** **Whereas** dipakai untuk membandingkan dua hal yang berbeda."
+        }
+      ],
+      "formulas": [
+        { "label": "Alasan", "pattern": "because + klausa (karena alasan)" },
+        { "label": "Pertentangan", "pattern": "although / even though / though + klausa, klausa" },
+        { "label": "Waktu dan batas", "pattern": "until / after / while + klausa" },
+        { "label": "Kecuali", "pattern": "unless + klausa (= if not)" },
+        { "label": "Jaga-jaga", "pattern": "klausa + in case + klausa" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I stayed home because I was sick.", "id": "Saya tinggal di rumah karena saya sakit." },
+          { "en": "Although it was cold, we went out.", "id": "Walaupun dingin, kami tetap keluar." },
+          { "en": "She will call you after she arrives.", "id": "Dia akan menelepon kamu setelah dia tiba." },
+          { "en": "Wait here until I return.", "id": "Tunggu di sini sampai saya kembali." },
+          { "en": "Bring a jacket in case it gets cold.", "id": "Bawa jaket untuk jaga-jaga kalau cuaca dingin." }
+        ],
+        "negative": [
+          { "en": "I did not go because I was not ready.", "id": "Saya tidak pergi karena saya belum siap." },
+          { "en": "She did not stop even though she was tired.", "id": "Dia tidak berhenti meskipun dia lelah." },
+          { "en": "I will not leave unless you ask me.", "id": "Saya tidak akan pergi kecuali kamu memintanya." },
+          { "en": "They did not wait until the rain stopped.", "id": "Mereka tidak menunggu sampai hujan berhenti." },
+          { "en": "We did not eat while we were walking.", "id": "Kami tidak makan saat kami sedang berjalan." }
+        ],
+        "question": [
+          { "en": "Why did you stay home?", "id": "Mengapa kamu tinggal di rumah?" },
+          { "en": "Will you wait until I finish?", "id": "Apakah kamu akan menunggu sampai saya selesai?" },
+          { "en": "Did you eat after the meeting?", "id": "Apakah kamu makan setelah rapat?" },
+          { "en": "Should we bring an umbrella in case it rains?", "id": "Sebaiknya kita membawa payung untuk jaga-jaga kalau hujan?" },
+          { "en": "Can you come unless you are busy?", "id": "Bisakah kamu datang kecuali kamu sibuk?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Although it was raining, but we went out.", "right": "Although it was raining, we went out.", "whyId": "Although sudah menunjukkan pertentangan. Jangan tambahkan but." },
+        { "wrong": "We will wait for he comes.", "right": "We will wait until he comes.", "whyId": "Until diikuti klausa lengkap, bukan for." },
+        { "wrong": "I will not go if not you come.", "right": "I will not go unless you come.", "whyId": "Unless sudah berarti if not. Jangan memakai not lagi." },
+        { "wrong": "I went home because raining.", "right": "I went home because it was raining.", "whyId": "Because diikuti klausa lengkap dengan subjek dan kata kerja." },
+        { "wrong": "Bring a jacket in case it will get cold.", "right": "Bring a jacket in case it gets cold.", "whyId": "Dalam klausa setelah in case untuk kejadian nyata, gunakan simple present." },
+        { "wrong": "She waited while she was not ready.", "right": "She waited because she was not ready.", "whyId": "While berarti sementara atau sambil. Untuk alasan, gunakan because." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["subordinating conjunctions English", "travel plans English conversation"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Because, although, dan until dalam percakapan",
+        "Unless dan even though dalam rencana"
+      ]
+    },
+    "script": {
+      "title": "Rencana perjalanan",
+      "lines": [
+        { "speaker": "Maya", "text": "Are you ready for the trip? Please bring a jacket in case it gets cold." },
+        { "speaker": "Raka", "text": "I will. I packed the bag after breakfast, although I still need a charger." },
+        { "speaker": "Maya", "text": "We cannot leave until the bus arrives, so we should wait at the station." },
+        { "speaker": "Raka", "text": "Okay. Even though the bus is late, we still have time." },
+        { "speaker": "Maya", "text": "Remember, do not use your phone while the bus is moving." },
+        { "speaker": "Raka", "text": "Right. I will read a book while we wait." },
+        { "speaker": "Maya", "text": "Good. Unless it rains, the hike will start at nine." },
+        { "speaker": "Raka", "text": "Because the sky is clear now, I think the hike will be fine." },
+        { "speaker": "Maya", "text": "Whereas last week was cold, this week is warm." },
+        { "speaker": "Raka", "text": "Though it was cloudy this morning, the weather is better now." },
+        { "speaker": "Maya", "text": "Great. Let's go before the crowd arrives." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada although dan though, bunyi awal jelas: awl-THOH dan THOH.",
+      "Pada until, tekanan ada di suku kedua: un-TIL. Jangan ucapkan un-TIL dengan nada naik.",
+      "Pada unless, tekanan ada di LESS: un-LESS. Bunyi s terdengar tajam."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does Maya ask Raka to bring?",
+        "options": [
+          { "id": "A", "text": "an umbrella" },
+          { "id": "B", "text": "a jacket" },
+          { "id": "C", "text": "a charger" },
+          { "id": "D", "text": "a book" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Maya berkata 'Please bring a jacket in case it gets cold', artinya Maya meminta Raka membawa jaket.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Payung tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Charger disebut Raka, bukan permintaan Maya." },
+          { "optionId": "D", "reasonId": "Buku disebut Raka untuk dibaca, bukan permintaan Maya." }
+        ],
+        "evidence": "Please bring a jacket in case it gets cold"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "When did Raka pack the bag?",
+        "options": [
+          { "id": "A", "text": "at night" },
+          { "id": "B", "text": "before breakfast" },
+          { "id": "C", "text": "after breakfast" },
+          { "id": "D", "text": "at nine" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Raka berkata 'I packed the bag after breakfast', artinya ia mengemas tas setelah sarapan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Malam hari tidak disebut." },
+          { "optionId": "B", "reasonId": "Sebelum sarapan bertentangan dengan after breakfast." },
+          { "optionId": "D", "reasonId": "Pukul sembilan adalah waktu pendakian, bukan waktu mengemas." }
+        ],
+        "evidence": "I packed the bag after breakfast"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What do they need to wait for before they can leave?",
+        "options": [
+          { "id": "A", "text": "the bus" },
+          { "id": "B", "text": "the hike" },
+          { "id": "C", "text": "the rain" },
+          { "id": "D", "text": "the weather" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Maya berkata 'We cannot leave until the bus arrives', artinya mereka harus menunggu bus datang.",
+        "stepByStep": [
+          "Cari leave di naskah: 'We cannot leave until the bus arrives.'",
+          "Until menunjukkan batas: mereka menunggu sampai bus datang.",
+          "Pilihan B, C, dan D tidak menjadi syarat untuk pergi dalam kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pendakian dimulai pukul sembilan, bukan syarat untuk pergi." },
+          { "optionId": "C", "reasonId": "Hujan disebut sebagai kondisi unless, bukan syarat untuk pergi sekarang." },
+          { "optionId": "D", "reasonId": "Cuaca dibicarakan, tetapi tidak menjadi syarat untuk pergi." }
+        ],
+        "evidence": "We cannot leave until the bus arrives"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "Why does Raka say they still have time?",
+        "options": [
+          { "id": "A", "text": "because the bus is early" },
+          { "id": "B", "text": "even though the bus is late" },
+          { "id": "C", "text": "because the bus is cancelled" },
+          { "id": "D", "text": "unless the bus is late" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Raka berkata 'Even though the bus is late, we still have time', artinya bus terlambat, tetapi mereka tetap punya waktu.",
+        "stepByStep": [
+          "Cari still have time di naskah: 'Even though the bus is late, we still have time.'",
+          "Even though menunjukkan pertentangan: bus terlambat, tetapi waktu masih ada.",
+          "Pilihan A bertentangan dengan late. Pilihan C tidak disebut. Pilihan D memakai unless, yang tidak sesuai dengan kalimat Raka."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bus terlambat, bukan lebih awal." },
+          { "optionId": "C", "reasonId": "Pembatalan bus tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Unless berarti kecuali, dan tidak dipakai Raka sebagai alasan." }
+        ],
+        "evidence": "Even though the bus is late, we still have time"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement about the weather is best supported by the conversation?",
+        "options": [
+          { "id": "A", "text": "The weather is better now than it was this morning." },
+          { "id": "B", "text": "It was warm last week, and it is cold now." },
+          { "id": "C", "text": "It will rain at nine." },
+          { "id": "D", "text": "The weather was cold this morning." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Raka berkata cuaca pagi ini berawan, tetapi sekarang lebih baik. Maya menyebut minggu ini lebih hangat daripada minggu lalu.",
+        "stepByStep": [
+          "Cari better di naskah: 'Though it was cloudy this morning, the weather is better now.'",
+          "Though menunjukkan pertentangan: pagi berawan, tetapi sekarang lebih baik.",
+          "Pilihan B terbalik dari 'Whereas last week was cold, this week is warm'. Pilihan C salah karena hujan hanya kondisi unless. Pilihan D salah karena pagi itu berawan, bukan dingin."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut minggu lalu dingin dan minggu ini hangat, kebalikannya." },
+          { "optionId": "C", "reasonId": "Teks menyebut pendakian dimulai jika tidak hujan, tetapi tidak memastikan hujan pukul sembilan." },
+          { "optionId": "D", "reasonId": "Teks menyebut pagi itu berawan, bukan dingin." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Though dan whereas menunjukkan pertentangan. Kalimat setelahnya memberi informasi yang bertentangan dengan klausa pertama.",
+          "examples": [
+            { "en": "Though the road was wet, we arrived on time.", "id": "Walaupun jalannya basah, kami tiba tepat waktu." },
+            { "en": "The city is loud, whereas the village is quiet.", "id": "Kota itu bising, sedangkan desanya tenang." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak mirip dengan kalimat tentang minggu lalu, tetapi urutannya terbalik: minggu lalu dingin, minggu ini hangat.",
+        "evidence": "Though it was cloudy this morning, the weather is better now"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I stayed home ___ it was raining.",
+        "options": [
+          { "id": "A", "text": "because" },
+          { "id": "B", "text": "unless" },
+          { "id": "C", "text": "until" },
+          { "id": "D", "text": "although" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Because menunjukkan alasan: saya tinggal di rumah karena hujan.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Unless berarti kecuali jika, tidak cocok sebagai alasan." },
+          { "optionId": "C", "reasonId": "Until berarti sampai, tidak cocok dengan alasan." },
+          { "optionId": "D", "reasonId": "Although menunjukkan pertentangan, sedangkan kalimat ini memberi alasan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She waited ___ the bus arrived.",
+        "options": [
+          { "id": "A", "text": "until" },
+          { "id": "B", "text": "because" },
+          { "id": "C", "text": "although" },
+          { "id": "D", "text": "unless" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Until berarti sampai, dan menunjukkan batas waktu menunggu.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Because menunjukkan alasan, tidak cocok dengan menunggu." },
+          { "optionId": "C", "reasonId": "Although menunjukkan pertentangan, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan kejadian ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "He passed the test ___ he studied only one night.",
+        "options": [
+          { "id": "A", "text": "because" },
+          { "id": "B", "text": "although" },
+          { "id": "C", "text": "unless" },
+          { "id": "D", "text": "until" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Although menunjukkan pertentangan: belajar sebentar, tetapi tetap lulus.",
+        "stepByStep": [
+          "Kalimat pertama menyatakan hasil yang baik: lulus tes.",
+          "Kalimat kedua menyatakan keadaan yang kurang: belajar hanya satu malam.",
+          "Kedua klausa berlawanan, sehingga memakai although."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Because menunjukkan sebab, dan belajar sebentar bukan alasan lulus." },
+          { "optionId": "C", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan makna kalimat." },
+          { "optionId": "D", "reasonId": "Until berarti sampai, tidak cocok dengan lulus tes." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "She will call you ___ she arrives at the station.",
+        "options": [
+          { "id": "A", "text": "after" },
+          { "id": "B", "text": "unless" },
+          { "id": "C", "text": "whereas" },
+          { "id": "D", "text": "although" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "After berarti setelah. Dia akan menelepon setelah tiba di stasiun.",
+        "stepByStep": [
+          "Kalimat menyatakan urutan: pertama tiba, lalu menelepon.",
+          "After menunjukkan urutan waktu.",
+          "Unless berarti kecuali jika, whereas dan although menunjukkan pertentangan. Ketiganya tidak cocok."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Unless tidak cocok dengan urutan waktu." },
+          { "optionId": "C", "reasonId": "Whereas menunjukkan pertentangan, tidak cocok dengan urutan waktu." },
+          { "optionId": "D", "reasonId": "Although menunjukkan pertentangan, tidak cocok di sini." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Please wait here ___ I return, ___ it may take a few minutes.",
+        "options": [
+          { "id": "A", "text": "until / although" },
+          { "id": "B", "text": "unless / because" },
+          { "id": "C", "text": "because / until" },
+          { "id": "D", "text": "while / unless" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Until menunjukkan batas waktu menunggu. Although menunjukkan pertentangan: mungkin lama, tetapi tetap menunggu.",
+        "stepByStep": [
+          "Bagian pertama: menunggu sampai saya kembali, sehingga until.",
+          "Bagian kedua: mungkin butuh beberapa menit, tetapi tetap menunggu, sehingga although.",
+          "Pilihan B dan D memakai unless yang tidak cocok. Pilihan C memakai because dan until dalam urutan yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Unless tidak cocok dengan menunggu, dan because tidak cocok dengan lamanya waktu." },
+          { "optionId": "C", "reasonId": "Because tidak cocok sebagai penanda batas waktu di awal kalimat." },
+          { "optionId": "D", "reasonId": "While dan unless tidak cocok dengan batas waktu dan pertentangan di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Until menandai batas waktu. Although menandai pertentangan dalam satu kalimat.",
+          "examples": [
+            { "en": "Stay inside until the rain stops.", "id": "Tetaplah di dalam sampai hujan berhenti." },
+            { "en": "Although it is late, the shop is still open.", "id": "Walaupun sudah larut, tokonya masih buka." }
+          ]
+        },
+        "examTrap": "Pilihan D tampak masuk akal karena while berarti sementara, tetapi while tidak menandai batas waktu seperti until."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya pulang karena hujan.",
+        "hint": "Pulang: went home. Karena hujan: because it was raining.",
+        "acceptedAnswers": ["I went home because it was raining.", "I went home because it rained."],
+        "modelAnswer": "I went home because it was raining.",
+        "commonErrors": [{ "pattern": "I went home because raining", "feedbackId": "Because diikuti klausa lengkap, dengan subjek dan kata kerja." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami akan menunggu sampai dia datang.",
+        "hint": "Menunggu: will wait. Sampai: until.",
+        "acceptedAnswers": ["We will wait until he comes.", "We will wait until he arrives."],
+        "modelAnswer": "We will wait until he comes.",
+        "commonErrors": [{ "pattern": "We will wait for he comes", "feedbackId": "Until diikuti klausa lengkap, bukan for." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Walaupun hujan, mereka tetap pergi ke pasar.",
+        "hint": "Walaupun: although. Tetap pergi: still went.",
+        "acceptedAnswers": [
+          "Although it was raining, they still went to the market.",
+          "Although it rained, they still went to the market."
+        ],
+        "modelAnswer": "Although it was raining, they still went to the market.",
+        "commonErrors": [{ "pattern": "Although it was raining, but they", "feedbackId": "Although sudah menunjukkan pertentangan. Jangan tambahkan but." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak akan pergi kecuali kamu ikut.",
+        "hint": "Kecuali: unless. Ikut: come.",
+        "acceptedAnswers": ["I will not go unless you come too.", "I will not go unless you come with me."],
+        "modelAnswer": "I will not go unless you come too.",
+        "commonErrors": [{ "pattern": "I will not go if not you come", "feedbackId": "Unless sudah berarti if not. Jangan memakai not lagi." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia menyelesaikan tugas itu sebelum makan, walaupun dia lelah.",
+        "hint": "Sebelum makan: before he ate. Walaupun dia lelah: even though he was tired.",
+        "acceptedAnswers": [
+          "He finished the task before he ate, even though he was tired.",
+          "He finished the task before he ate even though he was tired."
+        ],
+        "modelAnswer": "He finished the task before he ate, even though he was tired.",
+        "commonErrors": [{ "pattern": "even though but he was tired", "feedbackId": "Even though sudah berarti walaupun. Jangan tambahkan but." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'I will stay at home ___ it stops raining.'",
+        "options": [
+          { "id": "A", "text": "because" },
+          { "id": "B", "text": "although" },
+          { "id": "C", "text": "until" },
+          { "id": "D", "text": "so" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Until menunjukkan batas waktu: saya tinggal di rumah sampai hujan berhenti.",
+        "stepByStep": [
+          "Kalimat menunjukkan batas waktu: tinggal sampai hujan berhenti.",
+          "Until menandai batas waktu seperti itu.",
+          "Because dan although tidak menunjukkan batas waktu. So tidak bisa diikuti klausa seperti ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Because menunjukkan alasan, bukan batas waktu." },
+          { "optionId": "B", "reasonId": "Although menunjukkan pertentangan, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "So menunjukkan akibat, tidak bisa menghubungkan batas waktu ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Until menandai batas waktu sebuah kejadian.",
+          "examples": [
+            { "en": "We will stay here until the bus arrives.", "id": "Kami akan tinggal di sini sampai bus datang." },
+            { "en": "Keep reading until you finish the page.", "id": "Teruslah membaca sampai kamu selesai satu halaman." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena hujan bisa menjadi alasan, tetapi kalimat ini menunjukkan batas waktu, bukan alasan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Although it was late, but we kept working." },
+          { "id": "B", "text": "Although it was late, we kept working." },
+          { "id": "C", "text": "Although it was late, kept we working." },
+          { "id": "D", "text": "Although was late, we kept working." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Although diikuti klausa lengkap, lalu koma, lalu klausa utama tanpa but.",
+        "stepByStep": [
+          "Although sudah memberi makna pertentangan, jadi tidak perlu but.",
+          "Klausa Although it was late diikuti koma, lalu klausa utama we kept working.",
+          "Pilihan A memakai but. Pilihan C mengubah urutan kata. Pilihan D tidak punya subjek dalam klausa pertama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Although dan but tidak dipakai bersamaan." },
+          { "optionId": "C", "reasonId": "Urutan kata salah. Kata kerja kept tidak boleh di depan subjek we." },
+          { "optionId": "D", "reasonId": "Klausa Although harus punya subjek: it was late." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Although diikuti klausa lengkap. Klausa utama bisa berada setelahnya dengan koma.",
+          "examples": [
+            { "en": "Although she was tired, she finished the work.", "id": "Walaupun dia lelah, dia menyelesaikan pekerjaan itu." },
+            { "en": "Although it rained, we enjoyed the trip.", "id": "Walaupun hujan, kami menikmati perjalanan itu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat lengkap karena ada dua klausa, tetapi although dan but tidak boleh dipakai bersamaan."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best linking word: 'The city is big, ___ the village is quiet.'",
+        "options": [
+          { "id": "A", "text": "whereas" },
+          { "id": "B", "text": "unless" },
+          { "id": "C", "text": "after" },
+          { "id": "D", "text": "until" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Whereas dipakai untuk membandingkan dua hal yang berbeda: kota besar, sedangkan desa tenang.",
+        "stepByStep": [
+          "Kalimat membandingkan dua tempat: kota dan desa.",
+          "Whereas menunjukkan kontras antara dua hal.",
+          "Unless, after, dan until tidak menunjukkan kontras antara dua tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan perbandingan dua tempat." },
+          { "optionId": "C", "reasonId": "After berarti setelah, tidak cocok dengan perbandingan." },
+          { "optionId": "D", "reasonId": "Until berarti sampai, tidak cocok dengan perbandingan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whereas menunjukkan kontras antara dua hal yang berbeda.",
+          "examples": [
+            { "en": "Ani likes tea, whereas her brother prefers coffee.", "id": "Ani suka teh, sedangkan kakaknya lebih suka kopi." },
+            { "en": "The shop opens early, whereas the cafe opens late.", "id": "Toko itu buka pagi, sedangkan kafe itu buka sore." }
+          ]
+        },
+        "examTrap": "Although juga bisa menunjukkan kontras, tetapi pilihannya tidak ada di sini. Whereas dipakai untuk membandingkan dua hal yang berbeda."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Please bring your passport ___ the officer asks for it.'",
+        "options": [
+          { "id": "A", "text": "although" },
+          { "id": "B", "text": "in case" },
+          { "id": "C", "text": "because" },
+          { "id": "D", "text": "until" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "In case berarti untuk jaga-jaga. Membawa paspor untuk jaga-jaga jika petugas memintanya.",
+        "stepByStep": [
+          "Kalimat menunjukkan tindakan untuk jaga-jaga, yaitu membawa paspor.",
+          "In case menandai jaga-jaga jika sesuatu terjadi.",
+          "Although dan because tidak sesuai dengan makna jaga-jaga. Until tidak menunjukkan jaga-jaga."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Although menunjukkan pertentangan, tidak cocok dengan jaga-jaga." },
+          { "optionId": "C", "reasonId": "Because menunjukkan alasan yang sudah terjadi, bukan jaga-jaga." },
+          { "optionId": "D", "reasonId": "Until berarti sampai, tidak cocok dengan jaga-jaga." }
+        ],
+        "ruleAndExamples": {
+          "rule": "In case menandai tindakan untuk jaga-jaga jika sesuatu terjadi.",
+          "examples": [
+            { "en": "Take a charger in case the battery is low.", "id": "Bawa charger untuk jaga-jaga kalau baterainya rendah." },
+            { "en": "I always carry an umbrella in case it rains.", "id": "Saya selalu membawa payung untuk jaga-jaga kalau hujan." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat seperti alasan yang masuk akal, tetapi because menjelaskan alasan yang sudah terjadi, bukan kemungkinan."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Even though it rained, but we went out." },
+          { "id": "B", "text": "Even though it rained, we went out." },
+          { "id": "C", "text": "Even though it rained, went we out." },
+          { "id": "D", "text": "Even it rained, we went out." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Even though diikuti klausa lengkap, lalu koma, lalu klausa utama tanpa but.",
+        "stepByStep": [
+          "Even though sudah berarti meskipun, jadi tidak perlu but.",
+          "Klausa Even though it rained diikuti koma, lalu we went out.",
+          "Pilihan A memakai but. Pilihan C mengubah urutan kata. Pilihan D memakai even tanpa though."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Even though dan but tidak dipakai bersamaan." },
+          { "optionId": "C", "reasonId": "Urutan kata salah. Subjek we harus berada sebelum went." },
+          { "optionId": "D", "reasonId": "Even tanpa though tidak membentuk konjungsi ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Even though diikuti klausa lengkap dan menunjukkan pertentangan yang kuat.",
+          "examples": [
+            { "en": "Even though he was tired, he helped us.", "id": "Meskipun dia lelah, dia membantu kami." },
+            { "en": "Even though it is expensive, many people buy it.", "id": "Meskipun mahal, banyak orang membelinya." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat yang lengkap, tetapi even though dan but tidak boleh dipakai bersama."
+      }
+    ]
+  }
+}

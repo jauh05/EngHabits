@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 6 (konten hari 22-30 dan bank minggu 4)
+
+1. **Pola sama dengan Fase 5.** Komposisi 5 mudah, 6 sedang, 4 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit dengan jebakan ujian. Hari 22, 24, 26 mendengarkan. Hari 23, 25, 27, 29 membaca. Hari 28 review. Hari 30 ujian akhir bulan 1 (skillFocus `exam`), dengan blok 3 berupa teks bacaan.
+2. **Kosakata hari 30 diganti.** `result` sudah dipakai di hari 27, sehingga validator menolak pengulangan dalam 10 hari. Kata yang dipakai menjadi `score`, dan `content/curriculum.json` ikut diperbarui agar tetap konsisten.
+3. **Validator menangkap tiga jenis masalah.** Tanda titik tiga di beberapa penjelasan (hari 25 sampai 29, dan hint hari 28), dua opsi yang sama setelah tanda baca dihapus (hari 25 H2, hari 26 H2 dan H5), serta satu kosakata berulang (hari 30).
+4. **Bank minggu 4 sudah lolos validator.** 30 soal sulit, dengan jawaban benar tersebar: A 10, B 6, C 8, D 6. Topik: kata sifat dan keterangan, pembanding dan superlatif, pasif, konjungsi setara, konjungsi bawahan, dan conditional.
+5. **Batas kualitas tetap sama.** Validator lolos, tetapi beberapa pengecoh di bank tetap bisa dibaca benar secara tata bahasa dan jawabannya hanya lebih tepat secara makna. Contohnya W04-016, W04-019, dan W04-020 yang memakai and atau but. Audit manual kalimat per kalimat tetap dijadwalkan di Fase 12.
+
 ## 2026-10-21: Fase 5 (konten hari 15-21 dan bank minggu 3)
 
 1. **Pola sama dengan Fase 4.** Komposisi 5 mudah, 6 sedang, 4 sulit untuk 15 soal inti sesuai target minggu 3. Hard Challenge 5 soal sulit. Hari 16, 18, 20 mendengarkan. Hari 15, 17, 19 membaca. Hari 21 review.

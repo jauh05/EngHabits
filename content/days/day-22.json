@@ -1,0 +1,598 @@
+{
+  "day": 22,
+  "week": 4,
+  "month": 1,
+  "title": "Adjective vs Adverb (-ly)",
+  "topic": "Kata sifat untuk benda dan kata keterangan untuk kata kerja, termasuk bentuk -ly dan kata yang tidak berubah seperti fast, hard, dan well",
+  "skillFocus": "listening",
+  "objectives": [
+    "Membedakan kata sifat (adjective) dari kata keterangan (adverb)",
+    "Membentuk kata keterangan dengan -ly dan mengenali kata yang bentuknya sama",
+    "Menempatkan kata keterangan dengan benar dalam kalimat"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "quickly", "pronunciationId": "KWIK-li (ui pendek, li di akhir ringan)", "pos": "Adv", "meaningId": "dengan cepat", "example": "She finished the test quickly.", "exampleId": "Dia menyelesaikan tes itu dengan cepat." },
+      { "no": 2, "en": "slowly", "pronunciationId": "SLOH-li (o panjang, li di akhir)", "pos": "Adv", "meaningId": "dengan pelan", "example": "Please speak slowly.", "exampleId": "Tolong berbicaralah dengan pelan." },
+      { "no": 3, "en": "carefully", "pronunciationId": "KAIR-ful-li (tekanan di KAIR)", "pos": "Adv", "meaningId": "dengan hati-hati", "example": "He reads carefully.", "exampleId": "Dia membaca dengan teliti." },
+      { "no": 4, "en": "quietly", "pronunciationId": "KWAI-et-li (ai panjang, ly di akhir)", "pos": "Adv", "meaningId": "dengan tenang, dengan pelan", "example": "The children played quietly.", "exampleId": "Anak-anak bermain dengan tenang." },
+      { "no": 5, "en": "easily", "pronunciationId": "EE-zi-li (tekanan di EE)", "pos": "Adv", "meaningId": "dengan mudah", "example": "She solved the problem easily.", "exampleId": "Dia menyelesaikan masalah itu dengan mudah." },
+      { "no": 6, "en": "happily", "pronunciationId": "HAP-i-li (y menjadi i, tekanan di HAP)", "pos": "Adv", "meaningId": "dengan gembira", "example": "They sang happily.", "exampleId": "Mereka bernyanyi dengan gembira." },
+      { "no": 7, "en": "badly", "pronunciationId": "BAD-li (a pendek, d jelas)", "pos": "Adv", "meaningId": "dengan buruk", "example": "The rain affected the game badly.", "exampleId": "Hujan memengaruhi pertandingan dengan buruk." },
+      { "no": 8, "en": "well", "pronunciationId": "WEL (e pendek, l jelas)", "pos": "Adv", "meaningId": "dengan baik", "example": "He speaks English well.", "exampleId": "Dia berbicara bahasa Inggris dengan baik." },
+      { "no": 9, "en": "hard", "pronunciationId": "HAHD (a panjang, d di akhir)", "pos": "Adv", "meaningId": "dengan keras, dengan giat", "example": "She works hard every day.", "exampleId": "Dia bekerja keras setiap hari." },
+      { "no": 10, "en": "really", "pronunciationId": "RI-li (tekanan di RI, ly ringan)", "pos": "Adv", "meaningId": "benar-benar, sungguh", "example": "I really like this song.", "exampleId": "Saya benar-benar suka lagu ini." }
+    ],
+    "tip": "Pertanyaan yang sederhana membantu memilih: apakah kata ini menerangkan benda (sifat) atau menerangkan kata kerja (keterangan)? Jika kata kerja, cari -ly. Tetapi ingat, fast, hard, dan early tidak berubah bentuk."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["adjective vs adverb English", "adverbs ending in -ly"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata sifat dan kata keterangan, dengan contoh bentuk -ly dan kata yang tidak berubah.",
+      "watchFor": [
+        "Kata sifat setelah kata kerja to be dan kata keterangan setelah kata kerja biasa",
+        "Bentuk -ly untuk kata keterangan dan perubahan y menjadi i",
+        "Kata well, hard, dan fast yang bisa menjadi sifat atau keterangan"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu menggambarkan seseorang. Kamu bisa mengatakan dia orang yang cepat (sifat) atau dia berlari dengan cepat (keterangan). Keduanya memakai kata yang hampir sama, tetapi tugasnya berbeda: sifat menerangkan benda, keterangan menerangkan kata kerja.",
+      "sections": [
+        {
+          "heading": "Kata sifat untuk benda",
+          "bodyMd": "Kata sifat menerangkan **kata benda** atau muncul setelah **to be** dan kata kerja perasaan: **She is a careful driver**, **The test was easy**, **He looks happy**. Kata sifat tidak berubah menurut subjek."
+        },
+        {
+          "heading": "Kata keterangan untuk kata kerja",
+          "bodyMd": "Kata keterangan menerangkan **kata kerja**, kata sifat lain, atau keterangan lain. Untuk sebagian besar kata sifat, tambahkan **-ly**: **careful** menjadi **carefully**, **quick** menjadi **quickly**. Jika kata sifat berakhiran **-y**, ubah y menjadi **-i** sebelum -ly: **happy** menjadi **happily**, **easy** menjadi **easily**."
+        },
+        {
+          "heading": "Kata yang bentuknya sama, dan well",
+          "bodyMd": "**Fast**, **hard**, dan **early** dipakai sebagai sifat dan keterangan tanpa perubahan: **a fast car** dan **he drives fast**. **Well** adalah bentuk keterangan dari **good**: **he speaks English well**. Jangan menulis **goodly** atau **fastly**."
+        }
+      ],
+      "formulas": [
+        { "label": "Sifat", "pattern": "to be / kata kerja perasaan + kata sifat, atau kata sifat + kata benda" },
+        { "label": "Keterangan", "pattern": "kata kerja + kata keterangan (-ly), atau kata keterangan + kata sifat" },
+        { "label": "Y menjadi I", "pattern": "happy menjadi happily, easy menjadi easily" },
+        { "label": "Tanpa perubahan", "pattern": "fast, hard, early, well (keterangan dari good)" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "She is a quick learner.", "id": "Dia pembelajar yang cepat." },
+          { "en": "She learns quickly.", "id": "Dia belajar dengan cepat." },
+          { "en": "The bus was slow today.", "id": "Bus hari ini lambat." },
+          { "en": "He answered the question carefully.", "id": "Dia menjawab pertanyaan itu dengan hati-hati." },
+          { "en": "They solved the problem easily.", "id": "Mereka menyelesaikan masalah itu dengan mudah." }
+        ],
+        "negative": [
+          { "en": "She does not speak quickly.", "id": "Dia tidak berbicara dengan cepat." },
+          { "en": "The test was not easy.", "id": "Tesnya tidak mudah." },
+          { "en": "He does not drive carefully in the rain.", "id": "Dia tidak mengemudi dengan hati-hati saat hujan." },
+          { "en": "I don't sleep well when it is hot.", "id": "Saya tidak tidur dengan nyenyak saat panas." },
+          { "en": "They did not play badly.", "id": "Mereka tidak bermain dengan buruk." }
+        ],
+        "question": [
+          { "en": "Did you finish the homework quickly?", "id": "Apakah kamu menyelesaikan pekerjaan rumah dengan cepat?" },
+          { "en": "Does she speak English well?", "id": "Apakah dia berbicara bahasa Inggris dengan baik?" },
+          { "en": "Is the exam easy?", "id": "Apakah ujiannya mudah?" },
+          { "en": "How did they sing?", "id": "Bagaimana mereka bernyanyi?" },
+          { "en": "Did he work hard last week?", "id": "Apakah dia bekerja keras minggu lalu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She speaks English good.", "right": "She speaks English well.", "whyId": "Kata kerja speaks butuh kata keterangan. Good adalah sifat, well adalah keterangan." },
+        { "wrong": "He drives careful.", "right": "He drives carefully.", "whyId": "Drives butuh kata keterangan: carefully." },
+        { "wrong": "The results were quickly.", "right": "The results were quick.", "whyId": "Setelah were (kata kerja to be), gunakan kata sifat quick, bukan keterangan quickly." },
+        { "wrong": "She finished the test easy.", "right": "She finished the test easily.", "whyId": "Finished adalah kata kerja, jadi butuh keterangan easily." },
+        { "wrong": "They work hardly every day.", "right": "They work hard every day.", "whyId": "Hardly berarti hampir tidak. Keterangan hard tidak berubah." },
+        { "wrong": "She is very happily.", "right": "She is very happy.", "whyId": "Setelah to be, gunakan kata sifat happy, bukan keterangan happily." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["adjective vs adverb English", "adverbs ending in -ly"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata keterangan quickly, carefully, dan well dalam umpan balik",
+        "Kata sifat easy, happy, dan good sesudah to be"
+      ]
+    },
+    "script": {
+      "title": "Umpan balik presentasi",
+      "lines": [
+        { "speaker": "Rani", "text": "Kevin, how was your presentation? You spoke quickly in the first part." },
+        { "speaker": "Kevin", "text": "I know. I tried to slow down, but I felt nervous and my voice was quiet." },
+        { "speaker": "Rani", "text": "Your voice was quiet, but your grammar was good. You wrote the slides carefully." },
+        { "speaker": "Kevin", "text": "Thanks. I practiced hard all week, but the last slide didn't work well." },
+        { "speaker": "Rani", "text": "That's true. Next time, change the slides more carefully and read them slowly." },
+        { "speaker": "Kevin", "text": "Do you think I can do it easily next time?" },
+        { "speaker": "Rani", "text": "Yes, if you practice. You speak English happily, and that really helps the audience." },
+        { "speaker": "Kevin", "text": "I wrote the script badly, though. Some sentences were too long." },
+        { "speaker": "Rani", "text": "Then rewrite them. Read the script aloud quietly at home first." },
+        { "speaker": "Kevin", "text": "I will. My friend said I speak English well when I'm relaxed." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada quickly dan quietly, bunyi -ly di akhir jelas tetapi pendek. Jangan ucapkan quickli.",
+      "Pada hard dan really, bedakan bunyi d di akhir hard dengan bunyi l di akhir really.",
+      "Pada well dan badly, tekankan bunyi l yang jelas di kedua kata."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "How did Kevin speak in the first part of the presentation?",
+        "options": [
+          { "id": "A", "text": "He spoke slowly." },
+          { "id": "B", "text": "He did not speak at all." },
+          { "id": "C", "text": "He whispered." },
+          { "id": "D", "text": "He spoke quickly." }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Rani berkata 'You spoke quickly in the first part', artinya Kevin berbicara dengan cepat di bagian awal.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kevin berkata ia mencoba memelankan bicaranya, tetapi Rani tidak mengatakan ia berbicara pelan di awal." },
+          { "optionId": "B", "reasonId": "Ia tampil dalam presentasi, jadi tidak diam sama sekali." },
+          { "optionId": "C", "reasonId": "Suaranya pelan (quiet), tetapi tidak disebut berbisik." }
+        ],
+        "evidence": "You spoke quickly in the first part"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "How did Kevin feel during the presentation?",
+        "options": [
+          { "id": "A", "text": "nervous" },
+          { "id": "B", "text": "happy" },
+          { "id": "C", "text": "bored" },
+          { "id": "D", "text": "angry" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Kevin berkata 'I felt nervous', artinya ia merasa gugup.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Senang tidak disebut. Kevin menyebut gugup." },
+          { "optionId": "C", "reasonId": "Bosan tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Marah tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I felt nervous"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Which word describes how Kevin wrote the slides?",
+        "options": [
+          { "id": "A", "text": "badly" },
+          { "id": "B", "text": "happily" },
+          { "id": "C", "text": "carefully" },
+          { "id": "D", "text": "quickly" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Rani berkata 'You wrote the slides carefully', dan carefully menerangkan kata kerja wrote.",
+        "stepByStep": [
+          "Cari kata kerja wrote di naskah: 'You wrote the slides carefully.'",
+          "Kata yang menerangkan kata kerja wrote harus berbentuk keterangan: carefully.",
+          "Badly, happily, dan quickly juga keterangan, tetapi tidak disebut untuk cara menulis slide."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Badly bertentangan dengan pujian Rani untuk tata bahasa dan slide." },
+          { "optionId": "B", "reasonId": "Happily tidak menjelaskan cara menulis slide dalam percakapan." },
+          { "optionId": "D", "reasonId": "Quickly tidak disebut untuk cara Kevin menulis slide." }
+        ],
+        "evidence": "You wrote the slides carefully."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What did Kevin say about the last slide?",
+        "options": [
+          { "id": "A", "text": "It was too long." },
+          { "id": "B", "text": "He forgot it." },
+          { "id": "C", "text": "It worked well." },
+          { "id": "D", "text": "It did not work well." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Kevin berkata 'the last slide didn't work well', artinya slide terakhir tidak berjalan dengan baik.",
+        "stepByStep": [
+          "Cari kata slide di naskah: 'the last slide didn't work well.'",
+          "Didn't work well adalah negatif. Well adalah keterangan yang menerangkan cara kerja.",
+          "Pilihan C bertentangan dengan didn't. Pilihan A dan B tidak disebut untuk slide terakhir."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Panjangnya tidak disebut untuk slide terakhir. Kalimat panjang disebut untuk naskah." },
+          { "optionId": "B", "reasonId": "Lupa tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Pilihan ini bertentangan dengan didn't work well." }
+        ],
+        "evidence": "the last slide didn't work well"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement about Kevin's English is best supported by the conversation?",
+        "options": [
+          { "id": "A", "text": "He speaks English well when he is relaxed, and his speaking is improving." },
+          { "id": "B", "text": "His English is poor, and he should stop speaking." },
+          { "id": "C", "text": "He does not understand grammar at all." },
+          { "id": "D", "text": "He wrote the script easily and quickly." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kevin berkata temannya bilang ia berbicara bahasa Inggris dengan baik saat santai. Rani juga memuji tata bahasanya dan menyarankan latihan.",
+        "stepByStep": [
+          "Cari pernyataan tentang kemampuan Kevin: 'My friend said I speak English well when I'm relaxed.'",
+          "Rani memuji tata bahasanya (your grammar was good) dan menyarankan latihan. Itu menunjukkan kemampuannya berkembang.",
+          "Pilihan B bertentangan dengan pujian Rani. Pilihan C bertentangan dengan 'your grammar was good'. Pilihan D bertentangan dengan 'I wrote the script badly'."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Rani tidak mengatakan bahasa Inggris Kevin buruk, dan tidak menyuruhnya berhenti berbicara." },
+          { "optionId": "C", "reasonId": "Rani memuji tata bahasanya, jadi pilihan ini bertentangan dengan teks." },
+          { "optionId": "D", "reasonId": "Kevin sendiri mengatakan ia menulis naskah dengan buruk (badly)." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata keterangan well dan badly menerangkan cara seseorang melakukan sesuatu. Pembicara sering memakai kata itu untuk menilai kemampuan orang lain.",
+          "examples": [
+            { "en": "She sings well, but she writes badly.", "id": "Dia bernyanyi dengan baik, tetapi dia menulis dengan buruk." },
+            { "en": "He plays football well when he is relaxed.", "id": "Dia bermain sepak bola dengan baik saat santai." }
+          ]
+        },
+        "examTrap": "Pilihan D memakai easily dan quickly, dua keterangan positif. Tetapi teks menyebut Kevin sendiri menulis naskah dengan buruk.",
+        "evidence": "My friend said I speak English well when I'm relaxed."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She is a ___ student.",
+        "options": [
+          { "id": "A", "text": "good" },
+          { "id": "B", "text": "well" },
+          { "id": "C", "text": "goodly" },
+          { "id": "D", "text": "better" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Student adalah kata benda, dan kata sifat good menerangkannya.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Well adalah keterangan, tidak menerangkan kata benda student." },
+          { "optionId": "C", "reasonId": "Goodly tidak ada dalam bahasa Inggris standar." },
+          { "optionId": "D", "reasonId": "Better adalah bentuk pembanding, tidak tepat di sini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "He drives very ___.",
+        "options": [
+          { "id": "A", "text": "carefully" },
+          { "id": "B", "text": "careful" },
+          { "id": "C", "text": "carefuly" },
+          { "id": "D", "text": "carefull" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Drives adalah kata kerja, jadi butuh kata keterangan dengan -ly: carefully.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Careful adalah kata sifat, tidak menerangkan kata kerja drives." },
+          { "optionId": "C", "reasonId": "Carefuly salah ejaan. Y pada careful tidak berubah menjadi i." },
+          { "optionId": "D", "reasonId": "Carefull salah ejaan dan bukan kata keterangan yang benar." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She sings beautiful." },
+          { "id": "B", "text": "She sings beautifuly." },
+          { "id": "C", "text": "She sings more beautiful than." },
+          { "id": "D", "text": "She sings beautifully." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Sings adalah kata kerja, sehingga butuh kata keterangan beautifully.",
+        "stepByStep": [
+          "Sings adalah kata kerja, jadi kata yang menerangkannya harus kata keterangan.",
+          "Beautiful adalah sifat, dan bentuk keterangannya adalah beautifully.",
+          "Pilihan A memakai sifat. Pilihan B salah ejaan. Pilihan C tidak lengkap dan memakai bentuk pembanding."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Beautiful adalah sifat. Kata kerja sings butuh keterangan." },
+          { "optionId": "B", "reasonId": "Beautifuly salah ejaan. Bentuk benarnya beautifully." },
+          { "optionId": "C", "reasonId": "Kalimat ini tidak lengkap dan bentuk pembanding tidak tepat." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "He speaks English ___.",
+        "options": [
+          { "id": "A", "text": "good" },
+          { "id": "B", "text": "well" },
+          { "id": "C", "text": "goodly" },
+          { "id": "D", "text": "best" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Speaks adalah kata kerja, dan keterangan dari good adalah well.",
+        "stepByStep": [
+          "Cek kata sebelumnya: speaks adalah kata kerja.",
+          "Kata yang menerangkan kata kerja harus keterangan: well, bentuk keterangan dari good.",
+          "Good adalah sifat. Goodly tidak benar. Best adalah bentuk superlatif, tidak cocok dengan kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Good adalah sifat, tidak tepat untuk menerangkan kata kerja speaks." },
+          { "optionId": "C", "reasonId": "Goodly tidak ada dalam bahasa Inggris standar." },
+          { "optionId": "D", "reasonId": "Best adalah bentuk superlatif, tidak menerangkan cara berbicara." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "She works ___ every day, so she is always tired.",
+        "options": [
+          { "id": "A", "text": "hard" },
+          { "id": "B", "text": "hardly" },
+          { "id": "C", "text": "hardness" },
+          { "id": "D", "text": "harder" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Hard sebagai keterangan berarti dengan giat. Bentuk ini tidak berubah.",
+        "stepByStep": [
+          "Kata works adalah kata kerja, sehingga butuh kata keterangan.",
+          "Hard sebagai keterangan berarti dengan giat, dan tidak berubah bentuk.",
+          "Hardly berarti hampir tidak, yang tidak sesuai dengan konteks lelah karena bekerja. Hardness adalah kata benda, dan harder adalah bentuk pembanding."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Hardly berarti hampir tidak, yang tidak cocok dengan 'always tired' karena bekerja keras." },
+          { "optionId": "C", "reasonId": "Hardness adalah kata benda, tidak menerangkan kata kerja works." },
+          { "optionId": "D", "reasonId": "Harder adalah bentuk pembanding. Kalimat ini tidak membandingkan dua hal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Hard sebagai keterangan berarti dengan giat. Hardly berarti hampir tidak, dan artinya berbeda.",
+          "examples": [
+            { "en": "He studies hard before the exam.", "id": "Dia belajar giat sebelum ujian." },
+            { "en": "He hardly studies at all.", "id": "Dia hampir tidak belajar sama sekali." }
+          ]
+        },
+        "examTrap": "Hardly terlihat seperti versi keterangan dari hard, tetapi maknanya hampir tidak. Gunakan hard untuk bekerja dengan giat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia berbicara bahasa Inggris dengan baik.",
+        "hint": "Berbicara adalah kata kerja, jadi butuh keterangan dari good: well.",
+        "acceptedAnswers": ["She speaks English well.", "She speaks English very well."],
+        "modelAnswer": "She speaks English well.",
+        "commonErrors": [{ "pattern": "She speaks English good", "feedbackId": "Speaks adalah kata kerja. Gunakan keterangan well." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia mengemudi dengan hati-hati.",
+        "hint": "Mengemudi adalah kata kerja: drives. Hati-hati: carefully.",
+        "acceptedAnswers": ["She drives carefully.", "She drives very carefully."],
+        "modelAnswer": "She drives carefully.",
+        "commonErrors": [{ "pattern": "She drives careful", "feedbackId": "Kata kerja butuh keterangan carefully, bukan sifat careful." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kelas itu mudah bagi saya.",
+        "hint": "Setelah to be, gunakan kata sifat easy.",
+        "acceptedAnswers": ["The class was easy for me.", "The class was very easy for me."],
+        "modelAnswer": "The class was easy for me.",
+        "commonErrors": [{ "pattern": "The class was easily for me", "feedbackId": "Setelah was, gunakan kata sifat easy, bukan keterangan easily." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia menjawab pertanyaan itu dengan cepat dan tenang.",
+        "hint": "Menjawab adalah kata kerja. Dengan cepat: quickly. Dengan tenang: quietly.",
+        "acceptedAnswers": [
+          "She answered the question quickly and quietly.",
+          "She answered the question quietly and quickly."
+        ],
+        "modelAnswer": "She answered the question quickly and quietly.",
+        "commonErrors": [
+          { "pattern": "She answered the question quick", "feedbackId": "Answered adalah kata kerja, jadi butuh keterangan quickly." },
+          { "pattern": "quiet and quick", "feedbackId": "Keduanya keterangan, sehingga bentuknya quietly dan quickly." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya bekerja keras untuk ujian ini, dan hasilnya sangat baik.",
+        "hint": "Bekerja keras: work hard (keterangan hard). Hasilnya sangat baik: the result was very good.",
+        "acceptedAnswers": [
+          "I worked hard for this exam, and the result was very good.",
+          "I worked hard for this exam and the result was very good."
+        ],
+        "modelAnswer": "I worked hard for this exam, and the result was very good.",
+        "commonErrors": [
+          { "pattern": "I worked hardly for this exam", "feedbackId": "Hardly berarti hampir tidak. Bekerja keras memakai hard." },
+          { "pattern": "the result was good very", "feedbackId": "Very menerangkan sifat good, dan ditempatkan sebelum good." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The children played ___ in the garden.'",
+        "options": [
+          { "id": "A", "text": "happy" },
+          { "id": "B", "text": "happily" },
+          { "id": "C", "text": "happiness" },
+          { "id": "D", "text": "happier" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Played adalah kata kerja, sehingga butuh kata keterangan dari happy: happily.",
+        "stepByStep": [
+          "Kata played adalah kata kerja, jadi butuh keterangan.",
+          "Keterangan dari happy adalah happily (y menjadi i).",
+          "Happy adalah sifat, happiness adalah kata benda, dan happier adalah bentuk pembanding."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Happy adalah sifat, tidak menerangkan kata kerja played." },
+          { "optionId": "C", "reasonId": "Happiness adalah kata benda, tidak menerangkan kata kerja." },
+          { "optionId": "D", "reasonId": "Happier adalah bentuk pembanding, tidak cocok di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat yang berakhiran -y berubah menjadi -ily sebagai keterangan: happy menjadi happily, easy menjadi easily.",
+          "examples": [
+            { "en": "She smiled happily.", "id": "Dia tersenyum dengan gembira." },
+            { "en": "He finished the work easily.", "id": "Dia menyelesaikan pekerjaan itu dengan mudah." }
+          ]
+        },
+        "examTrap": "Pilihan A (happy) terlihat masuk akal karena kalimatnya tentang anak-anak yang bermain. Tetapi setelah kata kerja played, gunakan keterangan happily."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence places the adverb correctly?",
+        "options": [
+          { "id": "A", "text": "She always arrives early." },
+          { "id": "B", "text": "She arrives always early." },
+          { "id": "C", "text": "She arrives early always." },
+          { "id": "D", "text": "Always she arrives early." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kata keterangan frekuensi seperti always biasanya diletakkan sebelum kata kerja utama.",
+        "stepByStep": [
+          "Always adalah kata keterangan frekuensi.",
+          "Kata keterangan frekuensi diletakkan sebelum kata kerja utama: always arrives.",
+          "Pilihan B menempatkan always di antara kata kerja dan keterangan. Pilihan C dan D tidak umum untuk always."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Always sebaiknya diletakkan sebelum kata kerja arrives, bukan setelahnya." },
+          { "optionId": "C", "reasonId": "Always di akhir kalimat tidak umum dalam pola ini." },
+          { "optionId": "D", "reasonId": "Always di awal kalimat tidak wajar untuk menjelaskan kebiasaan ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata keterangan frekuensi (always, usually, often, never) biasanya diletakkan sebelum kata kerja utama.",
+          "examples": [
+            { "en": "I usually walk to school.", "id": "Saya biasanya berjalan ke sekolah." },
+            { "en": "They never arrive late.", "id": "Mereka tidak pernah datang terlambat." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kalimat yang sopan, tetapi always di awal tidak lazim untuk menerangkan kebiasaan ini."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "I have ___ studied for the test, and I feel ___ prepared.",
+        "options": [
+          { "id": "A", "text": "hard / well" },
+          { "id": "B", "text": "hardly / good" },
+          { "id": "C", "text": "hard / good" },
+          { "id": "D", "text": "hardly / well" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Studied hard berarti belajar dengan giat. Feel well prepared berarti merasa siap dengan baik.",
+        "stepByStep": [
+          "Studied adalah kata kerja, dan hard sebagai keterangan berarti dengan giat.",
+          "Feel well prepared: well menerangkan kata sifat prepared, dan berarti dengan baik.",
+          "Hardly berarti hampir tidak. Good adalah sifat, tidak cocok sebagai keterangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Hardly berarti hampir tidak, dan good tidak bisa menerangkan kata sifat prepared." },
+          { "optionId": "C", "reasonId": "Good bukan keterangan. Gunakan well." },
+          { "optionId": "D", "reasonId": "Hardly berarti hampir tidak, yang bertentangan dengan belajar keras." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Well sebagai keterangan dari good, dan hard sebagai keterangan dari kerja keras. Hardly artinya hampir tidak.",
+          "examples": [
+            { "en": "She trained hard for the race.", "id": "Dia berlatih keras untuk lomba itu." },
+            { "en": "He is well prepared for the job.", "id": "Dia siap dengan baik untuk pekerjaan itu." }
+          ]
+        },
+        "examTrap": "Hardly dan hard terlihat mirip. Hardly berarti hampir tidak, sedangkan hard berarti dengan giat."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Yesterday she ___ the test quickly, and today she is answering the questions carefully.",
+        "options": [
+          { "id": "A", "text": "finished / is answering" },
+          { "id": "B", "text": "finishes / answers" },
+          { "id": "C", "text": "has finish / answers" },
+          { "id": "D", "text": "finished / answers" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Yesterday memakai simple past: finished. Today she is answering memakai present continuous untuk aksi yang sedang berlangsung.",
+        "stepByStep": [
+          "Yesterday menandakan simple past: finished.",
+          "Today she is answering menunjukkan aksi yang sedang berlangsung: present continuous.",
+          "Pilihan B memakai bentuk sekarang untuk yesterday. Pilihan C memakai has finish yang salah. Pilihan D memakai answers untuk aksi sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Finishes dan answers adalah bentuk sekarang, tidak cocok dengan yesterday dan today." },
+          { "optionId": "C", "reasonId": "Has finish salah. Setelah has harus V3." },
+          { "optionId": "D", "reasonId": "Answers untuk aksi yang sedang berlangsung hari ini harus present continuous." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Yesterday menandakan simple past. Today sering menandakan aksi sekarang atau hari ini, yang bisa memakai present continuous.",
+          "examples": [
+            { "en": "Yesterday he wrote the report, and today he is reading it.", "id": "Kemarin dia menulis laporannya, dan hari ini dia sedang membacanya." },
+            { "en": "We ate lunch early, and now we are walking home.", "id": "Kami makan siang lebih awal, dan sekarang kami sedang berjalan pulang." }
+          ]
+        },
+        "examTrap": "Pilihan D punya finished yang benar, tetapi answers tidak tepat untuk aksi yang sedang berlangsung."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He is more happier than before." },
+          { "id": "B", "text": "He is happier than before." },
+          { "id": "C", "text": "He is happyer than before." },
+          { "id": "D", "text": "He is most happy than before." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Bentuk pembanding untuk happy adalah happier, dengan y menjadi i dan -er.",
+        "stepByStep": [
+          "Happy adalah sifat satu suku kata yang berakhiran -y. Pembandingnya memakai -er.",
+          "Y berubah menjadi i: happier.",
+          "Pilihan A memakai more dan -er sekaligus. Pilihan C salah ejaan. Pilihan D memakai most dan than."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tidak boleh memakai more dan -er sekaligus." },
+          { "optionId": "C", "reasonId": "Happyer salah ejaan. Y berubah menjadi i sebelum -er." },
+          { "optionId": "D", "reasonId": "Most dan than tidak dipakai bersama dalam pola pembanding ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat yang berakhiran -y berubah menjadi -ier untuk pembanding: happy menjadi happier, easy menjadi easier.",
+          "examples": [
+            { "en": "This test is easier than the last one.", "id": "Tes ini lebih mudah daripada yang terakhir." },
+            { "en": "She is happier today.", "id": "Dia lebih senang hari ini." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti versi pembanding yang lebih formal, tetapi more dan -er tidak dipakai bersama."
+      }
+    ]
+  }
+}

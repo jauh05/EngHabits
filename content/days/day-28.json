@@ -1,0 +1,571 @@
+{
+  "day": 28,
+  "week": 4,
+  "month": 1,
+  "title": "Review Tata Bahasa Bulan 1",
+  "topic": "Review: pola tata bahasa minggu 1 sampai 4 dalam satu sesi grammar",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang present, past, future, dan present perfect",
+    "Meninjau ulang kata sifat, keterangan, pembanding, dan pasif",
+    "Meninjau ulang conditional dan kata penghubung which atau who"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "teacher", "pronunciationId": "TI-cher (tekanan di TI)", "pos": "Noun", "meaningId": "guru", "example": "My teacher is very kind.", "exampleId": "Guru saya sangat baik." },
+      { "no": 2, "en": "happy", "pronunciationId": "HAP-i (a pendek, y seperti i)", "pos": "Adj", "meaningId": "senang, bahagia", "example": "She is happy today.", "exampleId": "Dia senang hari ini." },
+      { "no": 3, "en": "cook", "pronunciationId": "KUK (u panjang, k di akhir)", "pos": "Verb", "meaningId": "memasak", "example": "He can cook fried rice.", "exampleId": "Dia bisa memasak nasi goreng." },
+      { "no": 4, "en": "will", "pronunciationId": "WIL (i pendek, l jelas)", "pos": "Other", "meaningId": "akan (masa depan)", "example": "I will visit my aunt tomorrow.", "exampleId": "Saya akan mengunjungi bibi saya besok." },
+      { "no": 5, "en": "can", "pronunciationId": "KAN (a pendek, n jelas)", "pos": "Other", "meaningId": "bisa, dapat", "example": "She can speak two languages.", "exampleId": "Dia bisa berbicara dalam dua bahasa." },
+      { "no": 6, "en": "have", "pronunciationId": "HAV (a pendek, v jelas)", "pos": "Verb", "meaningId": "punya; (kata bantu) sudah", "example": "I have visited Bali twice.", "exampleId": "Saya sudah mengunjungi Bali dua kali." },
+      { "no": 7, "en": "rice", "pronunciationId": "RAIS (ai panjang, s di akhir)", "pos": "Noun", "meaningId": "nasi, beras", "example": "We need more rice.", "exampleId": "Kami butuh lebih banyak nasi." },
+      { "no": 8, "en": "which", "pronunciationId": "WICH (i pendek, ch jelas)", "pos": "Other", "meaningId": "yang (untuk benda)", "example": "This is the book which I bought.", "exampleId": "Ini adalah buku yang saya beli." },
+      { "no": 9, "en": "quickly", "pronunciationId": "KWIK-li (ui pendek, li di akhir ringan)", "pos": "Adv", "meaningId": "dengan cepat", "example": "She finished the work quickly.", "exampleId": "Dia menyelesaikan pekerjaan itu dengan cepat." },
+      { "no": 10, "en": "bigger", "pronunciationId": "BIG-er (g digandakan, er di akhir)", "pos": "Adj", "meaningId": "lebih besar", "example": "My new house is bigger.", "exampleId": "Rumah baru saya lebih besar." }
+    ],
+    "tip": "Di sesi review ini, cari dulu penanda waktu dan jenis kalimatnya. Yesterday berarti simple past, will berarti masa depan, if dengan would berarti khayalan, dan which menjelaskan benda. Tulis satu kalimat untuk setiap pola, lalu bandingkan dengan contoh di bawah."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["English grammar review beginners", "present past future review English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum present, past, future, present perfect, dan conditional untuk pemula.",
+      "watchFor": [
+        "Perbedaan simple present, simple past, dan will",
+        "Present perfect dengan have dan V3",
+        "Conditional tipe 1 dan tipe 2"
+      ]
+    },
+    "lesson": {
+      "intro": "Empat minggu sudah berlalu. Hari ini kamu meninjau ulang pola yang paling sering dipakai: waktu sekarang, lampau, masa depan, pengalaman, kata sifat dan keterangan, pembanding, pasif, dan kalimat syarat.",
+      "sections": [
+        {
+          "heading": "Peta waktu",
+          "bodyMd": "**Present simple** untuk kebiasaan: **She cooks rice every day.** **Simple past** untuk kejadian yang sudah selesai: **She cooked rice yesterday.** **Will** untuk masa depan: **She will cook dinner tomorrow.** **Present perfect** untuk pengalaman: **She has cooked rice before.**"
+        },
+        {
+          "heading": "Kata sifat, keterangan, dan pembanding",
+          "bodyMd": "**Quick** untuk sifat, **quickly** untuk keterangan. **Better** dan **the best** untuk pembanding dan superlatif dari good. **Bigger** untuk membandingkan dua benda. **Which** untuk benda dan **who** untuk orang."
+        },
+        {
+          "heading": "Pasif dan conditional",
+          "bodyMd": "Pasif memakai **be + V3**: **Rice is cooked every morning.** Conditional tipe 1 memakai **if + simple present, will**. Tipe 2 memakai **if + simple past, would**: **If I had time, I would help you.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Present simple", "pattern": "subjek + kata kerja (tambah -s untuk he, she, it)" },
+        { "label": "Simple past", "pattern": "subjek + V2" },
+        { "label": "Masa depan", "pattern": "subjek + will + kata kerja dasar" },
+        { "label": "Present perfect", "pattern": "subjek + have / has + V3" },
+        { "label": "Pasif", "pattern": "subjek + be + V3 (+ by pelaku)" },
+        { "label": "Conditional", "pattern": "if + simple present, will / if + simple past, would" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "She cooks rice every morning.", "id": "Dia memasak nasi setiap pagi." },
+          { "en": "Yesterday she cooked fried rice.", "id": "Kemarin dia memasak nasi goreng." },
+          { "en": "I have visited Bandung twice.", "id": "Saya sudah mengunjungi Bandung dua kali." },
+          { "en": "The teacher who lives here is kind.", "id": "Guru yang tinggal di sini itu baik." },
+          { "en": "If I had time, I would help you.", "id": "Jika saya punya waktu, saya akan membantumu." }
+        ],
+        "negative": [
+          { "en": "She does not cook at night.", "id": "Dia tidak memasak pada malam hari." },
+          { "en": "I did not see the teacher yesterday.", "id": "Saya tidak melihat guru kemarin." },
+          { "en": "He has never eaten fried rice.", "id": "Dia belum pernah makan nasi goreng." },
+          { "en": "This soup is not better than that one.", "id": "Sup ini tidak lebih enak daripada yang itu." },
+          { "en": "If it does not rain, we will go out.", "id": "Jika tidak hujan, kami akan pergi keluar." }
+        ],
+        "question": [
+          { "en": "Does she cook rice every day?", "id": "Apakah dia memasak nasi setiap hari?" },
+          { "en": "Did you finish the report quickly?", "id": "Apakah kamu menyelesaikan laporan dengan cepat?" },
+          { "en": "Which book is bigger?", "id": "Buku mana yang lebih besar?" },
+          { "en": "Have you ever been to Bali?", "id": "Apakah kamu pernah pergi ke Bali?" },
+          { "en": "Will you help me tomorrow?", "id": "Apakah kamu akan membantu saya besok?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She cooks rice yesterday.", "right": "She cooked rice yesterday.", "whyId": "Yesterday menunjukkan waktu lampau, jadi gunakan simple past." },
+        { "wrong": "He speak English well.", "right": "He speaks English well.", "whyId": "Subjek tunggal he memakai -s pada simple present." },
+        { "wrong": "I have went to Bali.", "right": "I have been to Bali.", "whyId": "Setelah have, gunakan V3: been." },
+        { "wrong": "This soup is more better than that one.", "right": "This soup is better than that one.", "whyId": "Better sudah pembanding. Jangan memakai more." },
+        { "wrong": "The book who is on the table is mine.", "right": "The book which is on the table is mine.", "whyId": "Which untuk benda, who untuk orang." },
+        { "wrong": "If it will rain, we will stay home.", "right": "If it rains, we will stay home.", "whyId": "Dalam klausa if untuk kenyataan, gunakan simple present." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Hari Sibuk Bu Sari",
+    "text": "Bu Sari is a teacher in a small school. Every morning she wakes up early, and she has a happy face. She can cook breakfast quickly, because she has a simple routine. Yesterday she cooked rice and eggs for her son. Today she will visit her friend, who has a new house near the river. Her friend has three cats, which are bigger than the cats in Bu Sari's home. Bu Sari has taught English for ten years, and she will teach a new class next week. She can speak slowly when students are nervous. Bu Sari says she has learned a lot from her students. She thinks the best way to learn is to practice every day.",
+    "glossary": [
+      { "en": "routine", "id": "rutinitas" },
+      { "en": "nervous", "id": "gugup" },
+      { "en": "taught", "id": "mengajar (V3 dari teach)" },
+      { "en": "river", "id": "sungai" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is Bu Sari's job?",
+        "options": [
+          { "id": "A", "text": "nurse" },
+          { "id": "B", "text": "teacher" },
+          { "id": "C", "text": "cook" },
+          { "id": "D", "text": "driver" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Bu Sari is a teacher in a small school', artinya pekerjaannya adalah guru.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Perawat tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Ia memasak sarapan, tetapi pekerjaannya adalah guru." },
+          { "optionId": "D", "reasonId": "Sopir tidak disebut dalam teks." }
+        ],
+        "evidence": "Bu Sari is a teacher in a small school"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What did Bu Sari cook yesterday?",
+        "options": [
+          { "id": "A", "text": "rice and eggs" },
+          { "id": "B", "text": "soup and bread" },
+          { "id": "C", "text": "cake" },
+          { "id": "D", "text": "noodles" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Yesterday she cooked rice and eggs for her son', artinya kemarin ia memasak nasi dan telur.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Sup dan roti tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Kue tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Mi tidak disebut dalam teks." }
+        ],
+        "evidence": "Yesterday she cooked rice and eggs for her son"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Who has the new house near the river?",
+        "options": [
+          { "id": "A", "text": "Bu Sari" },
+          { "id": "B", "text": "Bu Sari's son" },
+          { "id": "C", "text": "her friend" },
+          { "id": "D", "text": "her students" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'her friend, who has a new house near the river', artinya teman Bu Sari yang punya rumah baru di dekat sungai.",
+        "stepByStep": [
+          "Cari river di teks: 'Today she will visit her friend, who has a new house near the river.'",
+          "Kata who menjelaskan siapa yang punya rumah, yaitu her friend.",
+          "Pilihan A dan B tidak punya rumah baru di dekat sungai dalam teks. Pilihan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bu Sari akan mengunjungi temannya, jadi rumah itu bukan miliknya." },
+          { "optionId": "B", "reasonId": "Anak Bu Sari tidak disebut memiliki rumah baru." },
+          { "optionId": "D", "reasonId": "Murid tidak disebut memiliki rumah baru." }
+        ],
+        "evidence": "her friend, who has a new house near the river"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which cats are bigger?",
+        "options": [
+          { "id": "A", "text": "the cats in Bu Sari's home" },
+          { "id": "B", "text": "her friend's cats" },
+          { "id": "C", "text": "the cats at the school" },
+          { "id": "D", "text": "the cats by the river" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Her friend has three cats, which are bigger than the cats in Bu Sari's home', artinya kucing teman Bu Sari lebih besar.",
+        "stepByStep": [
+          "Cari bigger di teks: 'Her friend has three cats, which are bigger than the cats in Bu Sari's home.'",
+          "Which menjelaskan cats, dan kucing itu adalah milik temannya.",
+          "Pilihan A adalah pembanding, bukan yang lebih besar. Pilihan C dan D tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kucing di rumah Bu Sari adalah pembanding yang lebih kecil." },
+          { "optionId": "C", "reasonId": "Kucing di sekolah tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Kucing di dekat sungai tidak disebut dalam teks." }
+        ],
+        "evidence": "which are bigger than the cats in Bu Sari's home"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we infer about Bu Sari's teaching?",
+        "options": [
+          { "id": "A", "text": "She thinks students learn best by practicing every day, and she slows down when they are nervous." },
+          { "id": "B", "text": "She prefers to teach without practice." },
+          { "id": "C", "text": "She does not like her students." },
+          { "id": "D", "text": "She rarely cooks at home." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menulis 'the best way to learn is to practice every day' dan 'She can speak slowly when students are nervous', artinya ia percaya latihan setiap hari dan berbicara pelan saat siswa gugup.",
+        "stepByStep": [
+          "Cari best way di teks: 'She thinks the best way to learn is to practice every day.'",
+          "Cari nervous di teks: 'She can speak slowly when students are nervous.'",
+          "Pilihan B bertentangan dengan latihan. Pilihan C bertentangan dengan 'learned a lot from her students'. Pilihan D bertentangan dengan 'She cooked rice and eggs'."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut latihan setiap hari sebagai cara terbaik belajar." },
+          { "optionId": "C", "reasonId": "Teks menyebut Bu Sari belajar banyak dari murid-muridnya." },
+          { "optionId": "D", "reasonId": "Teks menyebut ia memasak sarapan setiap pagi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kesimpulan dari kebiasaan dan pendapat yang disebut dalam teks. Pendapat tentang belajar sering muncul sebagai kesimpulan.",
+          "examples": [
+            { "en": "He thinks reading every day makes English easier.", "id": "Dia berpikir membaca setiap hari membuat bahasa Inggris lebih mudah." },
+            { "en": "She believes the best way to improve is to practice.", "id": "Dia percaya cara terbaik untuk berkembang adalah berlatih." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat masuk akal karena Bu Sari memasak, tetapi teks tidak menyebut ia jarang memasak.",
+        "evidence": "She thinks the best way to learn is to practice every day"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ a doctor next year.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "will be" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Next year menunjukkan masa depan, sehingga memakai will be.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is adalah present, tidak cocok dengan next year." },
+          { "optionId": "C", "reasonId": "Was adalah lampau, tidak cocok dengan next year." },
+          { "optionId": "D", "reasonId": "Be tidak bisa berdiri sendiri setelah she." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "He ___ English very well.",
+        "options": [
+          { "id": "A", "text": "speak" },
+          { "id": "B", "text": "speaks" },
+          { "id": "C", "text": "spoke" },
+          { "id": "D", "text": "speaking" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Subjek he memakai simple present dengan -s: speaks.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Speak tanpa -s tidak cocok dengan he." },
+          { "optionId": "C", "reasonId": "Spoke adalah lampau, dan tidak cocok dengan kebiasaan ini." },
+          { "optionId": "D", "reasonId": "Speaking tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "I have ___ to Bali twice.",
+        "options": [
+          { "id": "A", "text": "went" },
+          { "id": "B", "text": "go" },
+          { "id": "C", "text": "been" },
+          { "id": "D", "text": "going" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Have been to berarti pernah pergi ke. Setelah have, gunakan V3: been.",
+        "stepByStep": [
+          "Have menandakan present perfect untuk pengalaman.",
+          "Setelah have, gunakan V3: been.",
+          "Went adalah V2. Go adalah bentuk dasar. Going tidak cocok setelah have."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Went adalah V2, bukan V3." },
+          { "optionId": "B", "reasonId": "Go adalah bentuk dasar, tidak cocok setelah have." },
+          { "optionId": "D", "reasonId": "Going tidak cocok setelah have dalam pola ini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "If you study hard, you ___ the exam.",
+        "options": [
+          { "id": "A", "text": "will pass" },
+          { "id": "B", "text": "would pass" },
+          { "id": "C", "text": "passed" },
+          { "id": "D", "text": "passing" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Klausa if memakai simple present, sehingga klausa utama memakai will pass.",
+        "stepByStep": [
+          "Klausa if memakai study, yaitu simple present.",
+          "Tipe 1 memakai will di klausa utama: will pass.",
+          "Would pass adalah tipe 2. Passed adalah lampau. Passing tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Would pass tidak cocok dengan tipe 1." },
+          { "optionId": "C", "reasonId": "Passed adalah lampau, tidak cocok dengan kalimat ini." },
+          { "optionId": "D", "reasonId": "Passing tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Bu Sari is ___ teacher in the school, and she ___ rice quickly.",
+        "options": [
+          { "id": "A", "text": "a / cooks" },
+          { "id": "B", "text": "the / cooking" },
+          { "id": "C", "text": "an / cooks" },
+          { "id": "D", "text": "a / cook" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teacher diawali konsonan, sehingga memakai a. Subjek she memakai cooks.",
+        "stepByStep": [
+          "Teacher diawali bunyi konsonan /t/, sehingga memakai a.",
+          "Subjek she memakai simple present dengan -s: cooks.",
+          "Pilihan B memakai the dan cooking. Pilihan C memakai an sebelum teacher. Pilihan D memakai cook tanpa -s."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Cooking tidak cocok sebagai kata kerja utama untuk she, dan the tidak diperlukan di sini." },
+          { "optionId": "C", "reasonId": "An dipakai untuk bunyi vokal, bukan teacher." },
+          { "optionId": "D", "reasonId": "Cook tanpa -s tidak cocok dengan she." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A dan an tergantung bunyi awal kata benda. Subjek tunggal she, he, it memakai -s pada simple present.",
+          "examples": [
+            { "en": "She is a nurse, and she works at night.", "id": "Dia adalah perawat, dan dia bekerja pada malam hari." },
+            { "en": "He is an engineer, and he designs bridges.", "id": "Dia adalah insinyur, dan dia merancang jembatan." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak benar karena cooks sudah tepat, tetapi an tidak cocok sebelum teacher."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia adalah guru yang baik.",
+        "hint": "Guru: teacher. Baik: good.",
+        "acceptedAnswers": ["She is a good teacher."],
+        "modelAnswer": "She is a good teacher.",
+        "commonErrors": [{ "pattern": "She is a good teach", "feedbackId": "Setelah a, gunakan kata benda teacher." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya sudah pernah makan nasi goreng.",
+        "hint": "Sudah pernah: have + V3 eaten. Nasi goreng: fried rice.",
+        "acceptedAnswers": ["I have eaten fried rice.", "I've eaten fried rice."],
+        "modelAnswer": "I have eaten fried rice.",
+        "commonErrors": [{ "pattern": "I have eat fried rice", "feedbackId": "Have diikuti V3: eaten." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia akan memasak makan malam besok.",
+        "hint": "Akan memasak: will cook. Makan malam: dinner.",
+        "acceptedAnswers": ["She will cook dinner tomorrow.", "She'll cook dinner tomorrow."],
+        "modelAnswer": "She will cook dinner tomorrow.",
+        "commonErrors": [{ "pattern": "She will cooks dinner", "feedbackId": "Setelah will, kata kerja bentuk dasar." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Seandainya saya punya waktu, saya akan membantumu dengan cepat.",
+        "hint": "Seandainya: if + simple past. Akan membantu: would help. Dengan cepat: quickly.",
+        "acceptedAnswers": ["If I had time, I would help you quickly.", "If I had time I would help you quickly."],
+        "modelAnswer": "If I had time, I would help you quickly.",
+        "commonErrors": [{ "pattern": "If I have time, I will help", "feedbackId": "Untuk khayalan, gunakan had dan would." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Buku yang lebih tebal itu lebih mahal daripada buku ini.",
+        "hint": "Yang lebih tebal: which is thicker. Lebih mahal: more expensive.",
+        "acceptedAnswers": [
+          "The book, which is thicker, is more expensive than this one.",
+          "The book which is thicker is more expensive than this one."
+        ],
+        "modelAnswer": "The book, which is thicker, is more expensive than this one.",
+        "commonErrors": [{ "pattern": "The book, who is thicker", "feedbackId": "Untuk benda, gunakan which, bukan who." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The teacher, ___ is standing at the door, is very happy.'",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "whom" },
+          { "id": "D", "text": "where" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Who dipakai untuk orang sebagai subjek. Teacher adalah orang, dan is standing adalah kata kerja untuk orang itu.",
+        "stepByStep": [
+          "Teacher adalah orang, jadi gunakan who atau whom.",
+          "Setelah ___ ada kata kerja is standing, sehingga pronomina itu adalah subjek: who.",
+          "Which dipakai untuk benda. Whom dipakai sebagai objek. Where menunjukkan tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Which dipakai untuk benda, bukan orang." },
+          { "optionId": "C", "reasonId": "Whom dipakai sebagai objek, sedangkan di sini adalah subjek." },
+          { "optionId": "D", "reasonId": "Where menunjukkan tempat, bukan orang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Who untuk orang sebagai subjek. Which untuk benda. Whom untuk orang sebagai objek.",
+          "examples": [
+            { "en": "The girl who cooked dinner is my sister.", "id": "Gadis yang memasak makan malam itu adalah adik saya." },
+            { "en": "The bag which is on the table is mine.", "id": "Tas yang ada di meja itu milik saya." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena kalimatnya panjang, tetapi which dipakai untuk benda, bukan guru."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She can cooks rice quickly." },
+          { "id": "B", "text": "She can cook rice quickly." },
+          { "id": "C", "text": "She cans cook rice quickly." },
+          { "id": "D", "text": "She can cooking rice quickly." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah modal can, kata kerja memakai bentuk dasar: cook.",
+        "stepByStep": [
+          "Can adalah modal, sehingga kata kerja berikutnya bentuk dasar.",
+          "Bentuk dasar cook tanpa -s dan tanpa -ing.",
+          "Pilihan A memakai cooks setelah can. Pilihan C memakai cans yang salah. Pilihan D memakai cooking setelah can."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah can, tidak ada -s." },
+          { "optionId": "C", "reasonId": "Cans bukan bentuk modal yang benar, dan can tidak diikuti kata yang salah." },
+          { "optionId": "D", "reasonId": "Setelah can, tidak ada -ing." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Modal can, will, dan would diikuti kata kerja bentuk dasar tanpa -s, -ed, atau -ing.",
+          "examples": [
+            { "en": "He can swim very well.", "id": "Dia bisa berenang dengan sangat baik." },
+            { "en": "We will cook dinner together.", "id": "Kami akan memasak makan malam bersama." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat biasa, tetapi cooks tidak boleh dipakai setelah can."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the correct comparison: 'This house is ___ than my old house, and the garden is ___ than the one at school.'",
+        "options": [
+          { "id": "A", "text": "bigger / better" },
+          { "id": "B", "text": "more big / best" },
+          { "id": "C", "text": "big / good" },
+          { "id": "D", "text": "biggest / more good" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Big adalah kata pendek, pembandingnya bigger. Good adalah bentuk tidak beraturan, pembandingnya better.",
+        "stepByStep": [
+          "Dua hal dibandingkan: rumah baru dengan rumah lama, dan kebun dengan kebun di sekolah.",
+          "Big menjadi bigger, dan good menjadi better.",
+          "Pilihan B memakai more big dan best. Pilihan C tidak memakai pembanding. Pilihan D memakai superlatif untuk dua hal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "More big salah, dan best adalah superlatif." },
+          { "optionId": "C", "reasonId": "Tanpa pembanding, kalimat tidak membandingkan dua hal." },
+          { "optionId": "D", "reasonId": "Biggest dan more good salah untuk dua hal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata sifat pendek memakai -er. Good, better, best adalah bentuk tidak beraturan.",
+          "examples": [
+            { "en": "This car is bigger than that one.", "id": "Mobil ini lebih besar daripada yang itu." },
+            { "en": "My idea is better than yours.", "id": "Ideku lebih baik daripada idemu." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak mirip karena ada more dan best, tetapi more big dan best bukan pembanding yang benar."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Yesterday I ___ the report quickly, and today I ___ it again.'",
+        "options": [
+          { "id": "A", "text": "finished / am checking" },
+          { "id": "B", "text": "finish / check" },
+          { "id": "C", "text": "have finished / check" },
+          { "id": "D", "text": "finishes / is checking" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Yesterday memakai simple past: finished. Today I am checking menunjukkan aksi yang sedang berlangsung.",
+        "stepByStep": [
+          "Yesterday menunjukkan simple past: finished.",
+          "Today I am checking menunjukkan aksi yang sedang berlangsung: present continuous.",
+          "Pilihan B tidak memakai waktu lampau. Pilihan C memakai have finished yang tidak cocok dengan yesterday. Pilihan D memakai finishes dan is checking yang tidak sesuai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Finish dan check tidak memakai waktu lampau atau sedang berlangsung." },
+          { "optionId": "C", "reasonId": "Have finished tidak cocok dengan yesterday." },
+          { "optionId": "D", "reasonId": "Finishes tidak cocok dengan yesterday, dan subjek I tidak memakai -es." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Yesterday menandakan simple past. Today I am + -ing menandakan aksi yang sedang berlangsung.",
+          "examples": [
+            { "en": "Yesterday he wrote the letter, and today he is reading it.", "id": "Kemarin dia menulis surat, dan hari ini dia sedang membacanya." },
+            { "en": "We ate lunch early, and now we are walking home.", "id": "Kami makan siang lebih awal, dan sekarang kami sedang berjalan pulang." }
+          ]
+        },
+        "examTrap": "Pilihan D punya is checking yang benar, tetapi finishes tidak cocok dengan yesterday."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "If I was rich, I will travel the world." },
+          { "id": "B", "text": "If I were rich, I would travel the world." },
+          { "id": "C", "text": "If I am rich, I would travel the world." },
+          { "id": "D", "text": "If I were rich, I will travel the world." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tipe 2 untuk khayalan: if I were, lalu would travel.",
+        "stepByStep": [
+          "Kalimat utama memakai would, dan klausa if memakai were: ini tipe 2.",
+          "Be pada tipe 2 untuk semua subjek adalah were.",
+          "Pilihan A mencampur was dengan will. Pilihan C memakai am dan would. Pilihan D memakai will di klausa utama tipe 2."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will tidak cocok dengan tipe 2, dan was tidak dipakai di sini." },
+          { "optionId": "C", "reasonId": "Am adalah bentuk sekarang, tidak cocok dengan khayalan tipe 2." },
+          { "optionId": "D", "reasonId": "Will tidak dipakai di klausa utama tipe 2." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tipe 2: if + were atau simple past, would + kata kerja dasar.",
+          "examples": [
+            { "en": "If I were a bird, I would fly over the sea.", "id": "Jika saya seekor burung, saya akan terbang di atas laut." },
+            { "en": "If she had more time, she would read more books.", "id": "Jika dia punya lebih banyak waktu, dia akan membaca lebih banyak buku." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti tipe 2 karena ada was, tetapi will di klausa utama membuatnya salah."
+      }
+    ]
+  }
+}

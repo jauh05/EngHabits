@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W04-001",
+    "week": 4,
+    "topicTag": "adjektiva-adverbia",
+    "type": "mcq",
+    "prompt": "The children listened ___ to the teacher's instructions.",
+    "options": [
+      { "id": "A", "text": "careful" },
+      { "id": "B", "text": "carefuly" },
+      { "id": "C", "text": "carefully" },
+      { "id": "D", "text": "more careful" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Listened adalah kata kerja, sehingga butuh kata keterangan: carefully.",
+    "stepByStep": [
+      "Listened adalah kata kerja, jadi kata yang menerangkannya harus berbentuk keterangan.",
+      "Keterangan dari careful adalah carefully, dengan tambahan -ly.",
+      "Careful adalah sifat, carefuly salah ejaan, dan more careful adalah pembanding."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Careful adalah sifat, tidak menerangkan kata kerja." },
+      { "optionId": "B", "reasonId": "Carefuly salah ejaan." },
+      { "optionId": "D", "reasonId": "More careful adalah pembanding, tidak cocok di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat menjadi kata keterangan dengan menambahkan -ly. Untuk kata sifat yang berakhiran -ful, cukup tambahkan -ly.",
+      "examples": [
+        { "en": "She reads carefully.", "id": "Dia membaca dengan hati-hati." },
+        { "en": "He is a careful driver.", "id": "Dia pengemudi yang hati-hati." }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat benar karena bentuknya mirip, tetapi sebelum kata kerja harus keterangan."
+  },
+  {
+    "id": "W04-002",
+    "week": 4,
+    "topicTag": "adjektiva-adverbia",
+    "type": "mcq",
+    "prompt": "She answered the question ___, so the teacher was impressed.",
+    "options": [
+      { "id": "A", "text": "clear" },
+      { "id": "B", "text": "clearness" },
+      { "id": "C", "text": "clearer" },
+      { "id": "D", "text": "clearly" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Answered adalah kata kerja, sehingga butuh kata keterangan clearly.",
+    "stepByStep": [
+      "Answered adalah kata kerja yang butuh kata keterangan.",
+      "Keterangan dari clear adalah clearly.",
+      "Clear adalah sifat, clearness adalah kata benda, dan clearer adalah pembanding."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Clear adalah sifat, tidak menerangkan kata kerja answered." },
+      { "optionId": "B", "reasonId": "Clearness adalah kata benda, tidak cocok sebagai keterangan." },
+      { "optionId": "C", "reasonId": "Clearer adalah pembanding, tidak cocok di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat menjadi kata keterangan dengan menambahkan -ly: clear menjadi clearly.",
+      "examples": [
+        { "en": "He explained the rule clearly.", "id": "Dia menjelaskan aturan itu dengan jelas." },
+        { "en": "The answer is clear.", "id": "Jawabannya jelas." }
+      ]
+    },
+    "examTrap": "Pilihan A tampak benar karena sederhana, tetapi kata sifat clear tidak boleh menerangkan kata kerja answered."
+  },
+  {
+    "id": "W04-003",
+    "week": 4,
+    "topicTag": "adjektiva-adverbia",
+    "type": "mcq",
+    "prompt": "He plays the piano ___, but he is not a professional.",
+    "options": [
+      { "id": "A", "text": "well" },
+      { "id": "B", "text": "good" },
+      { "id": "C", "text": "goodly" },
+      { "id": "D", "text": "best" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Plays adalah kata kerja, dan keterangan dari good adalah well.",
+    "stepByStep": [
+      "Plays adalah kata kerja yang butuh kata keterangan.",
+      "Keterangan dari good adalah well.",
+      "Good adalah sifat, goodly tidak ada dalam bahasa Inggris standar, dan best adalah superlatif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Good adalah sifat, tidak menerangkan kata kerja plays." },
+      { "optionId": "C", "reasonId": "Goodly tidak ada dalam bahasa Inggris standar." },
+      { "optionId": "D", "reasonId": "Best adalah superlatif dan tidak cocok di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Well adalah bentuk keterangan dari good, dan dipakai untuk menerangkan cara melakukan sesuatu.",
+      "examples": [
+        { "en": "She sings well.", "id": "Dia bernyanyi dengan baik." },
+        { "en": "He speaks English well.", "id": "Dia berbicara bahasa Inggris dengan baik." }
+      ]
+    },
+    "examTrap": "Pilihan B good sering dipakai sebagai keterangan oleh pembelajar, tetapi good adalah sifat."
+  },
+  {
+    "id": "W04-004",
+    "week": 4,
+    "topicTag": "adjektiva-adverbia",
+    "type": "mcq",
+    "prompt": "The soup tastes ___, because the chef added too much salt.",
+    "options": [
+      { "id": "A", "text": "badly" },
+      { "id": "B", "text": "badder" },
+      { "id": "C", "text": "more bad" },
+      { "id": "D", "text": "bad" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Tastes adalah kata kerja penghubung (linking verb), sehingga diikuti kata sifat: bad.",
+    "stepByStep": [
+      "Tastes termasuk kata kerja penghubung yang diikuti kata sifat.",
+      "Kata sifat yang tepat adalah bad.",
+      "Badly adalah keterangan, badder bukan bentuk yang benar, dan more bad tidak cocok untuk kalimat ini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Badly adalah keterangan, tidak cocok setelah kata kerja penghubung." },
+      { "optionId": "B", "reasonId": "Badder bukan bentuk yang benar." },
+      { "optionId": "C", "reasonId": "More bad tidak cocok di sini, karena kalimat tidak membandingkan dua hal." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata kerja penghubung seperti taste, feel, look, seem, dan sound diikuti kata sifat, bukan kata keterangan.",
+      "examples": [
+        { "en": "The food tastes good.", "id": "Makanannya terasa enak." },
+        { "en": "She looks happy today.", "id": "Dia terlihat senang hari ini." }
+      ]
+    },
+    "examTrap": "Pilihan A badly terlihat seperti keterangan yang benar, tetapi setelah tastes harus kata sifat."
+  },
+  {
+    "id": "W04-005",
+    "week": 4,
+    "topicTag": "adjektiva-adverbia",
+    "type": "mcq",
+    "prompt": "The team worked ___ all week, so they finished the project early.",
+    "options": [
+      { "id": "A", "text": "hard" },
+      { "id": "B", "text": "hardly" },
+      { "id": "C", "text": "hardness" },
+      { "id": "D", "text": "harder" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Hard sebagai keterangan berarti dengan giat, dan bentuknya tidak berubah.",
+    "stepByStep": [
+      "Worked adalah kata kerja yang butuh kata keterangan.",
+      "Hard sebagai keterangan berarti dengan giat dan tidak berubah bentuk.",
+      "Hardly berarti hampir tidak, hardness adalah kata benda, dan harder adalah pembanding."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Hardly berarti hampir tidak, tidak sesuai dengan tim yang menyelesaikan proyek lebih cepat." },
+      { "optionId": "C", "reasonId": "Hardness adalah kata benda, tidak menerangkan kata kerja worked." },
+      { "optionId": "D", "reasonId": "Harder adalah pembanding, tidak cocok di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Hard sebagai keterangan berarti dengan giat. Hardly berarti hampir tidak, dan artinya berbeda.",
+      "examples": [
+        { "en": "He studies hard before the exam.", "id": "Dia belajar giat sebelum ujian." },
+        { "en": "He hardly studies at all.", "id": "Dia hampir tidak belajar sama sekali." }
+      ]
+    },
+    "examTrap": "Pilihan B hardly terlihat seperti keterangan dari hard, tetapi maknanya hampir tidak."
+  },
+  {
+    "id": "W04-006",
+    "week": 4,
+    "topicTag": "pembanding-superlatif",
+    "type": "mcq",
+    "prompt": "This road is ___ than the one we took yesterday.",
+    "options": [
+      { "id": "A", "text": "more wide" },
+      { "id": "B", "text": "most wide" },
+      { "id": "C", "text": "widest" },
+      { "id": "D", "text": "wider" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Wide adalah kata sifat pendek, sehingga pembandingnya wider.",
+    "stepByStep": [
+      "Wide adalah kata pendek, jadi pembandingnya memakai -er.",
+      "Than menunjukkan pembanding, sehingga bentuk yang dipakai wider.",
+      "More wide salah, most wide dan widest adalah superlatif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "More wide salah. Kata pendek memakai -er." },
+      { "optionId": "B", "reasonId": "Most wide adalah superlatif, tidak cocok dengan than." },
+      { "optionId": "C", "reasonId": "Widest adalah superlatif, tidak cocok dengan than." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat pendek memakai -er untuk membandingkan dua hal, dan diikuti than.",
+      "examples": [
+        { "en": "This bag is bigger than that one.", "id": "Tas ini lebih besar daripada yang itu." },
+        { "en": "The new road is wider than the old one.", "id": "Jalan baru itu lebih lebar daripada yang lama." }
+      ]
+    },
+    "examTrap": "Pilihan A more wide tampak seperti pembanding, tetapi wide adalah kata pendek."
+  },
+  {
+    "id": "W04-007",
+    "week": 4,
+    "topicTag": "pembanding-superlatif",
+    "type": "mcq",
+    "prompt": "Of all the students, Ani is ___ at English.",
+    "options": [
+      { "id": "A", "text": "the good" },
+      { "id": "B", "text": "the better" },
+      { "id": "C", "text": "the best" },
+      { "id": "D", "text": "best" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Of all the students menunjukkan superlatif, yaitu the best.",
+    "stepByStep": [
+      "Of all the students menunjukkan lebih dari dua orang, sehingga memakai superlatif.",
+      "Bentuk superlatif dari good adalah the best.",
+      "The good salah, the better adalah pembanding, dan best tanpa the tidak lengkap."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "The good salah. Good tidak memakai the sebagai superlatif." },
+      { "optionId": "B", "reasonId": "The better dipakai untuk dua hal, bukan lebih dari dua." },
+      { "optionId": "D", "reasonId": "Best tanpa the tidak lengkap sebagai superlatif." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Superlatif the best dipakai untuk membandingkan lebih dari dua hal.",
+      "examples": [
+        { "en": "She is the best singer in the class.", "id": "Dia penyanyi terbaik di kelas." },
+        { "en": "This is the best idea of all.", "id": "Ini adalah ide terbaik dari semuanya." }
+      ]
+    },
+    "examTrap": "Pilihan B the better terlihat mirip, tetapi pembanding hanya dipakai untuk dua hal."
+  },
+  {
+    "id": "W04-008",
+    "week": 4,
+    "topicTag": "pembanding-superlatif",
+    "type": "mcq",
+    "prompt": "The second exam was ___ than the first, but I felt more confident.",
+    "options": [
+      { "id": "A", "text": "easier" },
+      { "id": "B", "text": "easy" },
+      { "id": "C", "text": "easiest" },
+      { "id": "D", "text": "more easy" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Easy berakhiran -y, sehingga pembandingnya easier.",
+    "stepByStep": [
+      "Easy berakhiran -y, jadi y berubah menjadi i sebelum -er.",
+      "Than menunjukkan pembanding, sehingga bentuk yang dipakai easier.",
+      "Easy tanpa perubahan tidak membandingkan, easiest adalah superlatif, dan more easy salah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Easy tidak membandingkan dua hal." },
+      { "optionId": "C", "reasonId": "Easiest adalah superlatif, tidak cocok dengan than." },
+      { "optionId": "D", "reasonId": "More easy salah. Kata easy memakai -ier." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Kata sifat berakhiran -y berubah menjadi -ier untuk pembanding.",
+      "examples": [
+        { "en": "This test is easier than the last one.", "id": "Tes ini lebih mudah daripada yang terakhir." },
+        { "en": "She is happier today.", "id": "Dia lebih senang hari ini." }
+      ]
+    },
+    "examTrap": "Pilihan D more easy terlihat seperti pembanding, tetapi easy memakai -ier, bukan more."
+  },
+  {
+    "id": "W04-009",
+    "week": 4,
+    "topicTag": "pembanding-superlatif",
+    "type": "mcq",
+    "prompt": "Which is ___ city in your country?",
+    "options": [
+      { "id": "A", "text": "the most big" },
+      { "id": "B", "text": "the biggest" },
+      { "id": "C", "text": "bigest" },
+      { "id": "D", "text": "the bigger" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Pertanyaan tentang kota terbesar dari banyak kota memakai superlatif the biggest.",
+    "stepByStep": [
+      "Pertanyaan ini membandingkan banyak kota, sehingga memakai superlatif.",
+      "Big adalah kata pendek, superlatifnya the biggest. Huruf g digandakan sebelum -est.",
+      "The most big salah, bigest salah ejaan, dan the bigger adalah pembanding."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "The most big salah. Kata pendek memakai -est." },
+      { "optionId": "C", "reasonId": "Bigest salah ejaan. Huruf g harus digandakan." },
+      { "optionId": "D", "reasonId": "The bigger adalah pembanding, tidak cocok untuk banyak kota." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Superlatif kata pendek memakai the dan -est. Huruf akhir seperti g digandakan sebelum -est.",
+      "examples": [
+        { "en": "This is the biggest park in the city.", "id": "Ini adalah taman terbesar di kota." },
+        { "en": "She is the thinnest in the team.", "id": "Dia yang paling kurus di tim." }
+      ]
+    },
+    "examTrap": "Pilihan D the bigger terlihat benar karena ada the, tetapi bigger adalah pembanding untuk dua hal."
+  },
+  {
+    "id": "W04-010",
+    "week": 4,
+    "topicTag": "pembanding-superlatif",
+    "type": "mcq",
+    "prompt": "Her new job is ___ than her old one, and it pays the ___ in the company.",
+    "options": [
+      { "id": "A", "text": "best / higher" },
+      { "id": "B", "text": "better / higher" },
+      { "id": "C", "text": "better / highest" },
+      { "id": "D", "text": "best / highest" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Than her old one menunjukkan pembanding better. The highest in the company menunjukkan superlatif.",
+    "stepByStep": [
+      "Than her old one menunjukkan pembanding, dan bentuk pembanding dari good adalah better.",
+      "In the company menunjukkan lingkup banyak orang, sehingga memakai superlatif the highest.",
+      "Pilihan A dan D memakai best, yang tidak cocok dengan than. Pilihan B memakai higher tanpa the."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Best tidak dipakai dengan than, dan higher tanpa the tidak tepat untuk lingkup perusahaan." },
+      { "optionId": "B", "reasonId": "Higher adalah pembanding, tidak cocok dengan the dan in the company." },
+      { "optionId": "D", "reasonId": "Best tidak dipakai dengan than." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Good memakai better untuk dua hal, dan the best atau the highest untuk lebih dari dua hal.",
+      "examples": [
+        { "en": "This phone is better than my old one.", "id": "Ponsel ini lebih baik daripada ponsel lama saya." },
+        { "en": "He is the highest paid worker here.", "id": "Dia pekerja dengan bayaran tertinggi di sini." }
+      ]
+    },
+    "examTrap": "Pilihan A best / higher terlihat masuk akal karena best dikenal sebagai bentuk good, tetapi best tidak dipakai dengan than."
+  },
+  {
+    "id": "W04-011",
+    "week": 4,
+    "topicTag": "pasif",
+    "type": "mcq",
+    "prompt": "The window ___ by the wind last night.",
+    "options": [
+      { "id": "A", "text": "broke" },
+      { "id": "B", "text": "has broke" },
+      { "id": "C", "text": "is broken" },
+      { "id": "D", "text": "was broken" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Last night menunjukkan lampau, dan pasif lampau memakai was broken.",
+    "stepByStep": [
+      "Last night menunjukkan waktu lampau.",
+      "Pasif lampau memakai was + V3: was broken.",
+      "Broke adalah aktif, has broke salah, dan is broken adalah pasif sekarang."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Broke adalah bentuk aktif lampau, bukan pasif." },
+      { "optionId": "B", "reasonId": "Has broke salah. Setelah has, gunakan V3: broken." },
+      { "optionId": "C", "reasonId": "Is broken untuk sekarang, tidak cocok dengan last night." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pasif lampau memakai was atau were + V3.",
+      "examples": [
+        { "en": "The glass was broken yesterday.", "id": "Gelas itu pecah kemarin." },
+        { "en": "The door was closed last night.", "id": "Pintu itu ditutup tadi malam." }
+      ]
+    },
+    "examTrap": "Pilihan A broke terlihat seperti bentuk lampau yang benar, tetapi kalimat ini harus pasif."
+  },
+  {
+    "id": "W04-012",
+    "week": 4,
+    "topicTag": "pasif",
+    "type": "mcq",
+    "prompt": "English ___ in many countries around the world.",
+    "options": [
+      { "id": "A", "text": "is spoken" },
+      { "id": "B", "text": "speaks" },
+      { "id": "C", "text": "was spoke" },
+      { "id": "D", "text": "spoken" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Kalimat menunjukkan kebenaran umum sekarang, sehingga pasif sekarang memakai is spoken.",
+    "stepByStep": [
+      "Kalimat menunjukkan kebenaran umum sekarang.",
+      "Pasif sekarang untuk subjek tunggal memakai is + V3: is spoken.",
+      "Speaks adalah aktif, was spoke salah, dan spoken tanpa be tidak lengkap."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Speaks adalah aktif, tidak cocok dengan pola pasif ini." },
+      { "optionId": "C", "reasonId": "Was spoke salah. Setelah was, gunakan V3." },
+      { "optionId": "D", "reasonId": "Spoken tanpa be tidak lengkap." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pasif sekarang memakai is atau are + V3. Subjek English adalah tunggal, jadi memakai is.",
+      "examples": [
+        { "en": "Chinese is spoken in many countries.", "id": "Bahasa Mandarin dipakai di banyak negara." },
+        { "en": "The shops are closed on Sunday.", "id": "Toko-toko tutup pada hari Minggu." }
+      ]
+    },
+    "examTrap": "Pilihan B speaks terlihat paling sederhana, tetapi bahasa tidak berbicara sendiri, jadi perlu pasif."
+  },
+  {
+    "id": "W04-013",
+    "week": 4,
+    "topicTag": "pasif",
+    "type": "mcq",
+    "prompt": "The report ___ by the manager tomorrow.",
+    "options": [
+      { "id": "A", "text": "will check" },
+      { "id": "B", "text": "will be checked" },
+      { "id": "C", "text": "is checking" },
+      { "id": "D", "text": "checked" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Tomorrow menunjukkan masa depan. Pasif masa depan memakai will be checked.",
+    "stepByStep": [
+      "Tomorrow menunjukkan masa depan.",
+      "Pasif masa depan memakai will be + V3: will be checked.",
+      "Will check adalah aktif, is checking adalah progresif aktif, dan checked tanpa be tidak lengkap."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Will check adalah aktif. Laporan tidak memeriksa dirinya sendiri." },
+      { "optionId": "C", "reasonId": "Is checking adalah aktif dan sekarang, tidak cocok dengan tomorrow." },
+      { "optionId": "D", "reasonId": "Checked tanpa be tidak membentuk pasif masa depan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pasif masa depan memakai will be + V3.",
+      "examples": [
+        { "en": "The room will be cleaned tomorrow.", "id": "Ruangan itu akan dibersihkan besok." },
+        { "en": "The results will be announced next week.", "id": "Hasilnya akan diumumkan minggu depan." }
+      ]
+    },
+    "examTrap": "Pilihan A will check terlihat benar untuk masa depan, tetapi laporan menerima tindakan, jadi perlu pasif."
+  },
+  {
+    "id": "W04-014",
+    "week": 4,
+    "topicTag": "pasif",
+    "type": "mcq",
+    "prompt": "The house ___ in 1990, and it has been repaired twice since then.",
+    "options": [
+      { "id": "A", "text": "built" },
+      { "id": "B", "text": "is built" },
+      { "id": "C", "text": "was built" },
+      { "id": "D", "text": "has built" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Tahun 1990 menunjukkan waktu lampau. Pasif lampau memakai was built.",
+    "stepByStep": [
+      "In 1990 menunjukkan waktu lampau yang sudah selesai.",
+      "Pasif lampau memakai was built.",
+      "Built tanpa be tidak lengkap, is built untuk sekarang, dan has built adalah aktif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Built tanpa be tidak membentuk pasif yang lengkap." },
+      { "optionId": "B", "reasonId": "Is built untuk sekarang, tidak cocok dengan 1990." },
+      { "optionId": "D", "reasonId": "Has built adalah aktif dan tidak cocok dengan rumah yang dibangun." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pasif lampau memakai was atau were + V3 untuk kejadian yang sudah selesai.",
+      "examples": [
+        { "en": "The bridge was built in 1930.", "id": "Jembatan itu dibangun pada tahun 1930." },
+        { "en": "The school was opened last year.", "id": "Sekolah itu dibuka tahun lalu." }
+      ]
+    },
+    "examTrap": "Pilihan D has built terlihat seperti kalimat yang baik, tetapi rumah tidak membangun dirinya sendiri."
+  },
+  {
+    "id": "W04-015",
+    "week": 4,
+    "topicTag": "pasif",
+    "type": "mcq",
+    "prompt": "The new bridge ___ by workers, but many people ___ it every day.",
+    "options": [
+      { "id": "A", "text": "built / uses" },
+      { "id": "B", "text": "was built / use" },
+      { "id": "C", "text": "is built / used" },
+      { "id": "D", "text": "was build / uses" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Bagian pertama memakai pasif lampau was built. Bagian kedua memakai aktif, karena many people adalah pelaku.",
+    "stepByStep": [
+      "Bagian pertama menunjukkan jembatan dibangun oleh pekerja, sehingga memakai pasif lampau: was built.",
+      "Bagian kedua subjek many people adalah pelaku, jadi memakai aktif: use.",
+      "Pilihan A tidak memakai was, pilihan C memakai used yang tidak cocok dengan every day, pilihan D memakai was build yang salah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Built tanpa be tidak membentuk pasif yang lengkap, dan uses salah untuk subjek many people." },
+      { "optionId": "C", "reasonId": "Used tidak cocok dengan every day sebagai kebiasaan sekarang, dan is built tidak sesuai dengan lampau." },
+      { "optionId": "D", "reasonId": "Was build salah. Setelah was, gunakan V3: built." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pasif dipakai ketika objek menerima tindakan. Jika pelaku menjadi subjek di klausa kedua, gunakan aktif.",
+      "examples": [
+        { "en": "The room was cleaned, and many students use it now.", "id": "Ruangan itu dibersihkan, dan banyak siswa menggunakannya sekarang." },
+        { "en": "The bike was repaired, and she rides it every day.", "id": "Sepeda itu diperbaiki, dan dia mengendarainya setiap hari." }
+      ]
+    },
+    "examTrap": "Pilihan C is built / used terlihat seperti pasif, tetapi used tidak cocok dengan every day."
+  },
+  {
+    "id": "W04-016",
+    "week": 4,
+    "topicTag": "konjungsi-setara",
+    "type": "mcq",
+    "prompt": "I wanted to call you, ___ my phone was dead.",
+    "options": [
+      { "id": "A", "text": "and" },
+      { "id": "B", "text": "so" },
+      { "id": "C", "text": "but" },
+      { "id": "D", "text": "or" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "But menunjukkan pertentangan: ingin menelepon, tetapi ponsel mati.",
+    "stepByStep": [
+      "Kalimat pertama menyatakan keinginan, dan kalimat kedua menyatakan halangan.",
+      "Hubungan keinginan dan halangan adalah pertentangan, sehingga memakai but.",
+      "And menambah, so menunjukkan akibat, dan or memberi pilihan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "And menambah ide, tidak cocok dengan halangan." },
+      { "optionId": "B", "reasonId": "So menunjukkan akibat, tetapi ponsel mati bukan akibat dari keinginan menelepon." },
+      { "optionId": "D", "reasonId": "Or memberi pilihan, tidak cocok di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "But menunjukkan pertentangan antara dua klausa.",
+      "examples": [
+        { "en": "I was tired, but I finished the work.", "id": "Saya lelah, tetapi saya menyelesaikan pekerjaan itu." },
+        { "en": "She wanted to go, but it was raining.", "id": "Dia ingin pergi, tetapi hujan." }
+      ]
+    },
+    "examTrap": "Pilihan B so terlihat seperti penghubung yang sederhana, tetapi ponsel mati bukan akibat dari keinginan menelepon."
+  },
+  {
+    "id": "W04-017",
+    "week": 4,
+    "topicTag": "konjungsi-setara",
+    "type": "mcq",
+    "prompt": "Do you want to walk ___ take a taxi?",
+    "options": [
+      { "id": "A", "text": "and" },
+      { "id": "B", "text": "but" },
+      { "id": "C", "text": "so" },
+      { "id": "D", "text": "or" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Or dipakai dalam pertanyaan untuk memberi pilihan: berjalan atau naik taksi.",
+    "stepByStep": [
+      "Kalimat bertanya tentang dua pilihan: berjalan atau naik taksi.",
+      "Pilihan dinyatakan dengan or.",
+      "And menambah, but menyatakan pertentangan, dan so menyatakan akibat, dan ketiganya tidak cocok sebagai pilihan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "And berarti menambah, bukan memilih." },
+      { "optionId": "B", "reasonId": "But berarti pertentangan, tidak cocok untuk pilihan." },
+      { "optionId": "C", "reasonId": "So menunjukkan akibat, tidak cocok untuk pilihan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Or dipakai untuk memberi pilihan antara dua hal.",
+      "examples": [
+        { "en": "Would you like tea or coffee?", "id": "Kamu mau teh atau kopi?" },
+        { "en": "We can go today or tomorrow.", "id": "Kita bisa pergi hari ini atau besok." }
+      ]
+    },
+    "examTrap": "Pilihan A and terlihat aman, tetapi and berarti menambah, bukan memilih."
+  },
+  {
+    "id": "W04-018",
+    "week": 4,
+    "topicTag": "konjungsi-setara",
+    "type": "mcq",
+    "prompt": "___ my brother ___ my sister can drive the car.",
+    "options": [
+      { "id": "A", "text": "Either / or" },
+      { "id": "B", "text": "Both / but" },
+      { "id": "C", "text": "Neither / nor" },
+      { "id": "D", "text": "Either / and" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Either ___ or ___ dipakai untuk memilih salah satu dari dua orang yang bisa mengemudi.",
+    "stepByStep": [
+      "Kalimat berarti salah satu dari saudara laki-laki atau saudara perempuan bisa mengemudi.",
+      "Pasangan yang tepat untuk pilihan salah satu dari dua adalah either ___ or ___.",
+      "Both ___ but ___ bukan pasangan yang benar. Neither ___ nor ___ berarti tidak satu pun. Either ___ and ___ tidak cocok untuk pilihan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Both ___ but ___ bukan pasangan yang benar." },
+      { "optionId": "C", "reasonId": "Neither ___ nor ___ berarti tidak satu pun bisa mengemudi." },
+      { "optionId": "D", "reasonId": "Either ___ and ___ tidak cocok untuk pilihan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Either ___ or ___ memilih salah satu dari dua hal. Verb mengikuti subjek yang paling dekat.",
+      "examples": [
+        { "en": "Either Ani or Budi will call you.", "id": "Ani atau Budi akan menelepon kamu." },
+        { "en": "You can either stay here or leave now.", "id": "Kamu bisa tinggal di sini atau pergi sekarang." }
+      ]
+    },
+    "examTrap": "Pilihan B tampak cocok karena both sering dikenal, tetapi both hanya dipasangkan dengan and."
+  },
+  {
+    "id": "W04-019",
+    "week": 4,
+    "topicTag": "konjungsi-setara",
+    "type": "mcq",
+    "prompt": "He is poor, ___ he is very generous.",
+    "options": [
+      { "id": "A", "text": "so" },
+      { "id": "B", "text": "or" },
+      { "id": "C", "text": "and" },
+      { "id": "D", "text": "but" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "But menunjukkan pertentangan: miskin, tetapi dermawan.",
+    "stepByStep": [
+      "Kalimat pertama dan kedua berlawanan: miskin dan dermawan.",
+      "Pertentangan ditunjukkan oleh but.",
+      "So menunjukkan akibat, or memberi pilihan, dan and menambah, sehingga tidak cocok dengan makna pertentangan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "So menunjukkan akibat, dan kemurahan hati bukan akibat dari kemiskinan." },
+      { "optionId": "B", "reasonId": "Or memberi pilihan, tidak cocok di sini." },
+      { "optionId": "C", "reasonId": "And menambah, tetapi tidak menunjukkan pertentangan yang dimaksud." }
+    ],
+    "ruleAndExamples": {
+      "rule": "But menunjukkan pertentangan antara dua ide yang berlawanan.",
+      "examples": [
+        { "en": "The road was long, but the view was beautiful.", "id": "Jalannya panjang, tetapi pemandangannya indah." },
+        { "en": "I am small, but I am strong.", "id": "Saya kecil, tetapi saya kuat." }
+      ]
+    },
+    "examTrap": "Pilihan C and bisa dibaca sebagai penambahan, tetapi maknanya tidak memberi pertentangan seperti but."
+  },
+  {
+    "id": "W04-020",
+    "week": 4,
+    "topicTag": "konjungsi-setara",
+    "type": "mcq",
+    "prompt": "The shop was closed, ___ we went home.",
+    "options": [
+      { "id": "A", "text": "but" },
+      { "id": "B", "text": "or" },
+      { "id": "C", "text": "so" },
+      { "id": "D", "text": "and" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "So menunjukkan akibat: tokonya tutup, jadi kami pulang.",
+    "stepByStep": [
+      "Kalimat pertama menjadi alasan kejadian kedua.",
+      "Hubungan akibat ditunjukkan oleh so.",
+      "But menunjukkan pertentangan, or memberi pilihan, dan and menambah, tidak cocok dengan akibat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "But menunjukkan pertentangan, tidak cocok dengan akibat." },
+      { "optionId": "B", "reasonId": "Or memberi pilihan, tidak cocok di sini." },
+      { "optionId": "D", "reasonId": "And menambah ide, tetapi tidak menunjukkan akibat." }
+    ],
+    "ruleAndExamples": {
+      "rule": "So menunjukkan akibat dan biasanya diberi koma sebelumnya.",
+      "examples": [
+        { "en": "It was late, so we took a taxi.", "id": "Sudah larut, jadi kami naik taksi." },
+        { "en": "The bus was full, so I walked.", "id": "Bus penuh, jadi saya berjalan kaki." }
+      ]
+    },
+    "examTrap": "Pilihan D and terlihat aman, tetapi and tidak menunjukkan akibat seperti so."
+  },
+  {
+    "id": "W04-021",
+    "week": 4,
+    "topicTag": "sebab-akibat-pertentangan",
+    "type": "mcq",
+    "prompt": "I will not leave ___ you finish your homework.",
+    "options": [
+      { "id": "A", "text": "until" },
+      { "id": "B", "text": "because" },
+      { "id": "C", "text": "although" },
+      { "id": "D", "text": "so" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Until menunjukkan batas waktu: tidak pergi sampai kamu selesai.",
+    "stepByStep": [
+      "Kalimat menunjukkan batas waktu untuk pergi.",
+      "Until menandai batas waktu seperti itu.",
+      "Because menunjukkan alasan, although menunjukkan pertentangan, dan so menunjukkan akibat, sehingga tidak cocok."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Because menunjukkan alasan, tidak cocok dengan batas waktu." },
+      { "optionId": "C", "reasonId": "Although menunjukkan pertentangan, tidak cocok di sini." },
+      { "optionId": "D", "reasonId": "So menunjukkan akibat, dan tidak bisa menghubungkan klausa seperti ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Until menandai batas waktu sebuah kejadian.",
+      "examples": [
+        { "en": "We will wait until the rain stops.", "id": "Kami akan menunggu sampai hujan berhenti." },
+        { "en": "Stay here until I call you.", "id": "Tetaplah di sini sampai saya menelepon kamu." }
+      ]
+    },
+    "examTrap": "Pilihan C although terlihat masuk akal sebagai penghubung, tetapi kalimat ini menunjukkan batas waktu, bukan pertentangan."
+  },
+  {
+    "id": "W04-022",
+    "week": 4,
+    "topicTag": "sebab-akibat-pertentangan",
+    "type": "mcq",
+    "prompt": "We found another way to the station ___ the main road was closed.",
+    "options": [
+      { "id": "A", "text": "until" },
+      { "id": "B", "text": "because" },
+      { "id": "C", "text": "unless" },
+      { "id": "D", "text": "while" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Because menunjukkan alasan: jalan utama ditutup, jadi kami mencari jalan lain.",
+    "stepByStep": [
+      "Kalimat kedua menjelaskan alasan kami mencari jalan lain.",
+      "Alasan ditunjukkan oleh because.",
+      "Until berarti sampai, unless berarti kecuali jika, dan while berarti sementara, tidak cocok sebagai alasan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Until menunjukkan batas waktu, tidak cocok sebagai alasan." },
+      { "optionId": "C", "reasonId": "Unless berarti kecuali jika, tidak menjelaskan alasan." },
+      { "optionId": "D", "reasonId": "While berarti sementara atau sambil, tidak menjelaskan alasan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Because menjelaskan alasan kejadian, dan diikuti klausa lengkap.",
+      "examples": [
+        { "en": "We stayed home because it was raining.", "id": "Kami tinggal di rumah karena hujan." },
+        { "en": "She was late because the bus was full.", "id": "Dia terlambat karena bus penuh." }
+      ]
+    },
+    "examTrap": "Pilihan D while tampak sederhana, tetapi while tidak menjelaskan alasan kejadian."
+  },
+  {
+    "id": "W04-023",
+    "week": 4,
+    "topicTag": "sebab-akibat-pertentangan",
+    "type": "mcq",
+    "prompt": "Take a jacket ___ it gets cold later.",
+    "options": [
+      { "id": "A", "text": "unless" },
+      { "id": "B", "text": "in case" },
+      { "id": "C", "text": "until" },
+      { "id": "D", "text": "although" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "In case berarti untuk jaga-jaga: bawa jaket kalau-kalau cuaca dingin nanti.",
+    "stepByStep": [
+      "Kalimat menyuruh membawa jaket untuk jaga-jaga.",
+      "Penanda jaga-jaga adalah in case.",
+      "Unless berarti kecuali jika, until berarti sampai, dan although menunjukkan pertentangan, tidak cocok."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Unless berarti kecuali jika, membuat kalimat tidak masuk akal." },
+      { "optionId": "C", "reasonId": "Until berarti sampai, tidak cocok dengan jaga-jaga." },
+      { "optionId": "D", "reasonId": "Although menunjukkan pertentangan, tidak cocok di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "In case menandai tindakan untuk jaga-jaga jika sesuatu terjadi.",
+      "examples": [
+        { "en": "Take an umbrella in case it rains.", "id": "Bawa payung untuk jaga-jaga kalau hujan." },
+        { "en": "I saved some money in case I need it.", "id": "Saya menabung sedikit untuk jaga-jaga kalau saya membutuhkannya." }
+      ]
+    },
+    "examTrap": "Pilihan A unless terlihat seperti kata yang memberi syarat, tetapi unless berarti kecuali jika, dengan makna yang sangat berbeda."
+  },
+  {
+    "id": "W04-024",
+    "week": 4,
+    "topicTag": "sebab-akibat-pertentangan",
+    "type": "mcq",
+    "prompt": "The baby slept ___ the storm was loud.",
+    "options": [
+      { "id": "A", "text": "although" },
+      { "id": "B", "text": "unless" },
+      { "id": "C", "text": "until" },
+      { "id": "D", "text": "because" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Although menunjukkan pertentangan: badai keras, tetapi bayi tetap tidur.",
+    "stepByStep": [
+      "Kalimat kedua menunjukkan keadaan yang berlawanan dengan harapan: badai keras.",
+      "Pertentangan dinyatakan dengan although.",
+      "Unless berarti kecuali jika, until berarti sampai, dan because menunjukkan alasan yang tidak masuk akal di sini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan makna kalimat." },
+      { "optionId": "C", "reasonId": "Until berarti sampai, tidak cocok dengan tidur." },
+      { "optionId": "D", "reasonId": "Because menunjukkan alasan, dan badai keras bukan alasan bayi tidur." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Although menunjukkan pertentangan antara dua klausa.",
+      "examples": [
+        { "en": "Although it was loud, he kept reading.", "id": "Walaupun berisik, dia tetap membaca." },
+        { "en": "Although she was tired, she smiled.", "id": "Walaupun dia lelah, dia tetap tersenyum." }
+      ]
+    },
+    "examTrap": "Pilihan D because terlihat masuk akal karena ada hubungan dua klausa, tetapi badai bukan alasan bayi tidur."
+  },
+  {
+    "id": "W04-025",
+    "week": 4,
+    "topicTag": "sebab-akibat-pertentangan",
+    "type": "mcq",
+    "prompt": "The city is big, ___ the village is quiet.",
+    "options": [
+      { "id": "A", "text": "whereas" },
+      { "id": "B", "text": "unless" },
+      { "id": "C", "text": "after" },
+      { "id": "D", "text": "until" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Whereas dipakai untuk membandingkan dua hal yang berbeda: kota besar, sedangkan desa tenang.",
+    "stepByStep": [
+      "Kalimat membandingkan dua tempat: kota dan desa.",
+      "Whereas menunjukkan kontras antara dua hal.",
+      "Unless, after, dan until tidak menunjukkan kontras antara dua tempat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan perbandingan." },
+      { "optionId": "C", "reasonId": "After berarti setelah, tidak cocok dengan kontras." },
+      { "optionId": "D", "reasonId": "Until berarti sampai, tidak cocok dengan kontras." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Whereas menunjukkan kontras antara dua hal yang berbeda.",
+      "examples": [
+        { "en": "Ani likes tea, whereas her brother prefers coffee.", "id": "Ani suka teh, sedangkan kakaknya lebih suka kopi." },
+        { "en": "The shop opens early, whereas the cafe opens late.", "id": "Toko itu buka pagi, sedangkan kafe itu buka sore." }
+      ]
+    },
+    "examTrap": "Pilihan D until terlihat seperti kata penghubung, tetapi until menandai waktu, bukan kontras."
+  },
+  {
+    "id": "W04-026",
+    "week": 4,
+    "topicTag": "conditional",
+    "type": "mcq",
+    "prompt": "If I ___ more time, I would learn to play the guitar.",
+    "options": [
+      { "id": "A", "text": "have" },
+      { "id": "B", "text": "will have" },
+      { "id": "C", "text": "had" },
+      { "id": "D", "text": "having" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Would learn adalah tipe 2, sehingga klausa if memakai simple past: had.",
+    "stepByStep": [
+      "Kalimat utama memakai would learn, jadi ini tipe 2.",
+      "Tipe 2 memakai simple past di klausa if: had.",
+      "Have adalah simple present, will have tidak dipakai dalam tipe 2, dan having tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Have adalah simple present, tidak cocok dengan tipe 2." },
+      { "optionId": "B", "reasonId": "Will have tidak dipakai dalam klausa if tipe 2." },
+      { "optionId": "D", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tipe 2: if + simple past, would + kata kerja dasar.",
+      "examples": [
+        { "en": "If I had a car, I would drive to school.", "id": "Jika saya punya mobil, saya akan mengemudi ke sekolah." },
+        { "en": "If she had more money, she would travel.", "id": "Jika dia punya lebih banyak uang, dia akan bepergian." }
+      ]
+    },
+    "examTrap": "Pilihan B will have terlihat seperti masa depan, tetapi will tidak dipakai di klausa if tipe 2."
+  },
+  {
+    "id": "W04-027",
+    "week": 4,
+    "topicTag": "conditional",
+    "type": "mcq",
+    "prompt": "If it ___ tomorrow, we will cancel the picnic.",
+    "options": [
+      { "id": "A", "text": "rains" },
+      { "id": "B", "text": "rained" },
+      { "id": "C", "text": "would rain" },
+      { "id": "D", "text": "will rain" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Tipe 1 untuk kemungkinan nyata: if it rains (simple present), we will cancel (will).",
+    "stepByStep": [
+      "Kalimat utama memakai will cancel, jadi ini tipe 1.",
+      "Tipe 1 memakai simple present di klausa if: rains.",
+      "Rained adalah simple past tipe 2, sedangkan would rain dan will rain tidak boleh di klausa if."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Rained adalah simple past dan tidak cocok dengan tipe 1." },
+      { "optionId": "C", "reasonId": "Would rain tidak boleh di klausa if." },
+      { "optionId": "D", "reasonId": "Will rain tidak boleh di klausa if tipe 1." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tipe 1: if + simple present, will + kata kerja dasar.",
+      "examples": [
+        { "en": "If it rains tomorrow, we will stay home.", "id": "Jika hujan besok, kami akan tinggal di rumah." },
+        { "en": "If she studies, she will pass.", "id": "Jika dia belajar, dia akan lulus." }
+      ]
+    },
+    "examTrap": "Pilihan D will rain terlihat cocok dengan tomorrow, tetapi will tidak boleh di klausa if."
+  },
+  {
+    "id": "W04-028",
+    "week": 4,
+    "topicTag": "conditional",
+    "type": "mcq",
+    "prompt": "I wish I ___ the answer to this difficult question.",
+    "options": [
+      { "id": "A", "text": "knew" },
+      { "id": "B", "text": "know" },
+      { "id": "C", "text": "will know" },
+      { "id": "D", "text": "have known" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Wish untuk keinginan sekarang memakai simple past: knew.",
+    "stepByStep": [
+      "Wish untuk keinginan sekarang diikuti bentuk simple past.",
+      "Simple past dari know adalah knew.",
+      "Know adalah bentuk sekarang, will know tidak dipakai setelah wish, dan have known menunjukkan penyesalan masa lalu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Know adalah bentuk sekarang, tidak cocok setelah wish." },
+      { "optionId": "C", "reasonId": "Will know tidak dipakai setelah wish untuk keinginan sekarang." },
+      { "optionId": "D", "reasonId": "Have known dipakai untuk penyesalan di masa lalu, bukan keinginan sekarang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "I wish + simple past untuk keinginan yang tidak nyata sekarang.",
+      "examples": [
+        { "en": "I wish I had more time.", "id": "Saya berharap punya lebih banyak waktu." },
+        { "en": "She wishes she knew the answer.", "id": "Dia berharap tahu jawabannya." }
+      ]
+    },
+    "examTrap": "Pilihan D have known terlihat seperti bentuk kata kerja yang benar, tetapi maknanya penyesalan masa lalu, bukan keinginan sekarang."
+  },
+  {
+    "id": "W04-029",
+    "week": 4,
+    "topicTag": "conditional",
+    "type": "mcq",
+    "prompt": "If I ___ a bird, I would fly over the mountains.",
+    "options": [
+      { "id": "A", "text": "am" },
+      { "id": "B", "text": "would be" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "will be" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Tipe 2 memakai were untuk be pada semua subjek: if I were.",
+    "stepByStep": [
+      "Kalimat utama memakai would fly, jadi ini tipe 2.",
+      "Be pada tipe 2 untuk semua subjek adalah were.",
+      "Am adalah bentuk sekarang, would be tidak dipakai dalam klausa if, dan will be tidak sesuai dengan tipe 2."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Am adalah bentuk sekarang, tidak cocok untuk khayalan." },
+      { "optionId": "B", "reasonId": "Would be tidak dipakai dalam klausa if." },
+      { "optionId": "D", "reasonId": "Will be tidak sesuai dengan tipe 2." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tipe 2 memakai were untuk semua subjek pada klausa if.",
+      "examples": [
+        { "en": "If I were rich, I would buy a house.", "id": "Jika saya kaya, saya akan membeli rumah." },
+        { "en": "If she were here, she would help us.", "id": "Jika dia ada di sini, dia akan membantu kami." }
+      ]
+    },
+    "examTrap": "Pilihan A am terlihat seperti kata kerja be yang biasa, tetapi khayalan tipe 2 memakai were."
+  },
+  {
+    "id": "W04-030",
+    "week": 4,
+    "topicTag": "conditional",
+    "type": "mcq",
+    "prompt": "If she ___ the bus, she would arrive on time.",
+    "options": [
+      { "id": "A", "text": "catches" },
+      { "id": "B", "text": "caught" },
+      { "id": "C", "text": "will catch" },
+      { "id": "D", "text": "catching" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Would arrive adalah tipe 2, sehingga klausa if memakai simple past: caught.",
+    "stepByStep": [
+      "Kalimat utama memakai would arrive, jadi ini tipe 2.",
+      "Tipe 2 memakai simple past di klausa if: caught.",
+      "Catches adalah simple present, will catch tidak dipakai di klausa if tipe 2, dan catching tidak bisa menjadi kata kerja utama."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Catches adalah simple present, tidak cocok dengan tipe 2." },
+      { "optionId": "C", "reasonId": "Will catch tidak dipakai di klausa if tipe 2." },
+      { "optionId": "D", "reasonId": "Catching tidak bisa menjadi kata kerja utama di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Tipe 2: if + simple past, would + kata kerja dasar.",
+      "examples": [
+        { "en": "If he caught the early train, he would be on time.", "id": "Jika dia naik kereta pagi, dia akan tepat waktu." },
+        { "en": "If I knew the way, I would take you there.", "id": "Jika saya tahu jalannya, saya akan mengantarmu ke sana." }
+      ]
+    },
+    "examTrap": "Pilihan C will catch terlihat seperti masa depan yang benar, tetapi will tidak boleh di klausa if tipe 2."
+  }
+]

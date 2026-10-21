@@ -1,0 +1,570 @@
+{
+  "day": 30,
+  "week": 4,
+  "month": 1,
+  "title": "Ujian Akhir Bulan 1",
+  "topic": "Ujian gabungan bulan 1 dan laporan kesiapan awal",
+  "skillFocus": "exam",
+  "objectives": [
+    "Mengerjakan soal gabungan dari minggu 1 sampai 4",
+    "Membaca laporan kemajuan dan menentukan langkah berikutnya",
+    "Mengenali kesalahan yang paling sering muncul"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "exam", "pronunciationId": "ig-ZAM (tekanan di ZAM)", "pos": "Noun", "meaningId": "ujian", "example": "The exam starts at nine.", "exampleId": "Ujian dimulai pukul sembilan." },
+      { "no": 2, "en": "score", "pronunciationId": "SKOR (o panjang, r ringan)", "pos": "Noun", "meaningId": "nilai", "example": "My score on the test is good.", "exampleId": "Nilai saya di tes itu bagus." },
+      { "no": 3, "en": "report", "pronunciationId": "ri-PORT (tekanan di PORT)", "pos": "Noun", "meaningId": "laporan", "example": "My teacher wrote a report.", "exampleId": "Guru saya menulis sebuah laporan." },
+      { "no": 4, "en": "practice", "pronunciationId": "PRAK-tis (a pendek, c seperti k)", "pos": "Noun", "meaningId": "latihan", "example": "Daily practice helps a lot.", "exampleId": "Latihan setiap hari sangat membantu." },
+      { "no": 5, "en": "progress", "pronunciationId": "PRO-gres (tekanan di PRO)", "pos": "Noun", "meaningId": "kemajuan", "example": "You made good progress this month.", "exampleId": "Kamu membuat kemajuan yang baik bulan ini." },
+      { "no": 6, "en": "improve", "pronunciationId": "im-PROOV (tekanan di PROOV)", "pos": "Verb", "meaningId": "meningkatkan, memperbaiki", "example": "I want to improve my speaking.", "exampleId": "Saya ingin meningkatkan kemampuan berbicara saya." },
+      { "no": 7, "en": "mistake", "pronunciationId": "mi-STAIK (tekanan di STAIK)", "pos": "Noun", "meaningId": "kesalahan", "example": "Everyone makes a mistake sometimes.", "exampleId": "Setiap orang kadang membuat kesalahan." },
+      { "no": 8, "en": "goal", "pronunciationId": "GOHL (o panjang, l jelas)", "pos": "Noun", "meaningId": "tujuan, target", "example": "My goal is to pass the test.", "exampleId": "Tujuan saya adalah lulus tes." },
+      { "no": 9, "en": "confidence", "pronunciationId": "KON-fi-dens (tekanan di KON)", "pos": "Noun", "meaningId": "rasa percaya diri", "example": "She speaks with confidence.", "exampleId": "Dia berbicara dengan rasa percaya diri." },
+      { "no": 10, "en": "review", "pronunciationId": "ri-VYOO (tekanan di VYOO)", "pos": "Noun", "meaningId": "tinjauan; meninjau ulang", "example": "Do a quick review before the exam.", "exampleId": "Lakukan tinjauan singkat sebelum ujian." }
+    ],
+    "tip": "Di hari ujian, baca setiap soal dua kali. Cari penanda waktu, pola kalimat, dan kata kunci. Setelah selesai, tulis satu hal yang masih perlu kamu perbaiki, lalu jadikan itu tujuan minggu berikutnya."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["English test for beginners", "A1 A2 English exam practice"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang cara menghadapi tes bahasa Inggris untuk pemula, termasuk cara membaca soal dan mengatur waktu.",
+      "watchFor": [
+        "Cara membaca soal dengan cepat dan teliti",
+        "Cara mengatur waktu saat mengerjakan tes",
+        "Cara memeriksa jawaban sebelum mengumpulkan"
+      ]
+    },
+    "lesson": {
+      "intro": "Ujian akhir bulan 1 menggabungkan kata kerja, waktu, kata sifat, pembanding, pasif, konjungsi, dan conditional. Tujuannya bukan hanya mendapat nilai, tetapi juga melihat pola mana yang sudah kuat dan mana yang masih perlu latihan.",
+      "sections": [
+        {
+          "heading": "Cara mengerjakan ujian",
+          "bodyMd": "Baca soal sekali untuk memahami maksudnya, lalu cari penanda waktu seperti **yesterday**, **next year**, atau **since**. Pilih jawaban yang paling sesuai dengan pola, lalu cek sekali lagi apakah kalimatnya masuk akal."
+        },
+        {
+          "heading": "Membaca laporan kemajuan",
+          "bodyMd": "Laporan kemajuan mencatat **progress**, **mistake**, dan **goal**. Fokus pada kesalahan yang paling sering muncul. Jika satu jenis kesalahan berulang, latih pola itu lebih dulu sebelum mengejar materi baru."
+        },
+        {
+          "heading": "Rutinitas setelah ujian",
+          "bodyMd": "Setelah ujian, lakukan **review** singkat. Tulis tiga hal yang sudah kamu kuasai dan satu hal yang perlu diperbaiki. Dengan rutinitas yang tetap, rasa percaya diri tumbuh secara bertahap."
+        }
+      ],
+      "formulas": [
+        { "label": "Penanda waktu", "pattern": "yesterday / last week = lampau; next year / tomorrow = masa depan" },
+        { "label": "Pola kalimat", "pattern": "subjek + kata kerja + pelengkap, lalu cek bentuk kata kerja" },
+        { "label": "Cek ulang", "pattern": "waktu + bentuk kata kerja + makna kalimat" },
+        { "label": "Laporan", "pattern": "progress + mistake + goal = langkah berikutnya" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I took the exam last week and I felt confident.", "id": "Saya mengikuti ujian minggu lalu dan saya merasa percaya diri." },
+          { "en": "My teacher wrote a report about my progress.", "id": "Guru saya menulis laporan tentang kemajuan saya." },
+          { "en": "My goal is to improve my reading this month.", "id": "Tujuan saya adalah meningkatkan membaca bulan ini." },
+          { "en": "I have made good progress since January.", "id": "Saya sudah membuat kemajuan yang baik sejak Januari." },
+          { "en": "I will review the grammar before the next test.", "id": "Saya akan meninjau ulang tata bahasa sebelum tes berikutnya." }
+        ],
+        "negative": [
+          { "en": "I did not make many mistakes in the last test.", "id": "Saya tidak banyak membuat kesalahan dalam tes terakhir." },
+          { "en": "The result was not what I expected.", "id": "Hasilnya tidak seperti yang saya harapkan." },
+          { "en": "She has not finished the report yet.", "id": "Dia belum menyelesaikan laporannya." },
+          { "en": "I do not feel ready for the exam.", "id": "Saya tidak merasa siap untuk ujian." },
+          { "en": "He did not practice yesterday.", "id": "Dia tidak berlatih kemarin." }
+        ],
+        "question": [
+          { "en": "What was the result of the exam?", "id": "Apa hasil ujiannya?" },
+          { "en": "Did you practice every day this week?", "id": "Apakah kamu berlatih setiap hari minggu ini?" },
+          { "en": "What is your goal for next month?", "id": "Apa tujuanmu untuk bulan depan?" },
+          { "en": "Has your English improved since last month?", "id": "Apakah bahasa Inggrismu membaik sejak bulan lalu?" },
+          { "en": "What mistake do you want to fix first?", "id": "Kesalahan apa yang ingin kamu perbaiki lebih dulu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She take the exam last week.", "right": "She took the exam last week.", "whyId": "Last week menunjukkan waktu lampau, jadi gunakan took." },
+        { "wrong": "I need more practicing.", "right": "I need more practice.", "whyId": "Practice adalah kata benda setelah more, bukan -ing." },
+        { "wrong": "My teacher write a report last month.", "right": "My teacher wrote a report last month.", "whyId": "Last month menunjukkan waktu lampau, jadi gunakan wrote." },
+        { "wrong": "I made a mistakes in the test.", "right": "I made a mistake in the test.", "whyId": "Setelah a, gunakan bentuk tunggal mistake." },
+        { "wrong": "She has improve her speaking since last month.", "right": "She has improved her speaking since last month.", "whyId": "Setelah has, gunakan V3: improved." },
+        { "wrong": "My goal is improve my reading.", "right": "My goal is to improve my reading.", "whyId": "Setelah goal is, gunakan to dan kata kerja dasar." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Laporan Rina",
+    "text": "Rina took the exam at the end of the month. Before the exam, she did daily practice for thirty minutes. Her teacher wrote a report about her progress. The report said her biggest mistake was rushing the answers. The result was good, but the teacher said she still needs to improve her speaking. Rina's goal is to pass the next level. She reads the report again and writes down the main points. Her friends think the exam was hard, but Rina says it was a useful review. Her confidence has grown, and she is proud of her improvement. Next month, she will keep the same routine, because it works well for her.",
+    "glossary": [
+      { "en": "rushing", "id": "terburu-buru" },
+      { "en": "progress", "id": "kemajuan" },
+      { "en": "routine", "id": "rutinitas" },
+      { "en": "proud", "id": "bangga" },
+      { "en": "level", "id": "tingkat" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How long did Rina practice each day?",
+        "options": [
+          { "id": "A", "text": "ten minutes" },
+          { "id": "B", "text": "thirty minutes" },
+          { "id": "C", "text": "one hour" },
+          { "id": "D", "text": "two hours" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'she did daily practice for thirty minutes', artinya Rina berlatih tiga puluh menit setiap hari.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sepuluh menit tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Satu jam tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Dua jam tidak disebut dalam teks." }
+        ],
+        "evidence": "daily practice for thirty minutes"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What was Rina's biggest mistake?",
+        "options": [
+          { "id": "A", "text": "she was late" },
+          { "id": "B", "text": "she did not study" },
+          { "id": "C", "text": "she rushed the answers" },
+          { "id": "D", "text": "she forgot her pen" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'her biggest mistake was rushing the answers', artinya kesalahan terbesarnya adalah terburu-buru menjawab.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Terlambat tidak disebut dalam teks." },
+          { "optionId": "B", "reasonId": "Teks menyebut ia berlatih setiap hari, jadi tidak belajar bukan kesalahannya." },
+          { "optionId": "D", "reasonId": "Pulpen yang tertinggal tidak disebut dalam teks." }
+        ],
+        "evidence": "her biggest mistake was rushing the answers"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What does the teacher want Rina to improve?",
+        "options": [
+          { "id": "A", "text": "her writing" },
+          { "id": "B", "text": "her speaking" },
+          { "id": "C", "text": "her reading" },
+          { "id": "D", "text": "her spelling" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'she still needs to improve her speaking', artinya guru ingin Rina meningkatkan kemampuan berbicaranya.",
+        "stepByStep": [
+          "Cari improve di teks: 'the teacher said she still needs to improve her speaking.'",
+          "Kata speaking menunjukkan kemampuan yang perlu ditingkatkan.",
+          "Pilihan A, C, dan D tidak disebut sebagai hal yang perlu diperbaiki."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menulis tidak disebut sebagai hal yang perlu diperbaiki." },
+          { "optionId": "C", "reasonId": "Membaca tidak disebut sebagai hal yang perlu diperbaiki." },
+          { "optionId": "D", "reasonId": "Ejaan tidak disebut dalam teks." }
+        ],
+        "evidence": "she still needs to improve her speaking"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What is Rina's goal?",
+        "options": [
+          { "id": "A", "text": "to travel abroad" },
+          { "id": "B", "text": "to become a teacher" },
+          { "id": "C", "text": "to finish the report" },
+          { "id": "D", "text": "to pass the next level" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'Rina's goal is to pass the next level', artinya tujuan Rina adalah lulus tingkat berikutnya.",
+        "stepByStep": [
+          "Cari goal di teks: 'Rina's goal is to pass the next level.'",
+          "Tujuan dinyatakan dengan to pass the next level.",
+          "Pilihan A, B, dan C tidak disebut sebagai tujuan Rina."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bepergian ke luar negeri tidak disebut dalam teks." },
+          { "optionId": "B", "reasonId": "Menjadi guru tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Menyelesaikan laporan adalah kegiatan rutin, bukan tujuan utama." }
+        ],
+        "evidence": "Rina's goal is to pass the next level"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we conclude about Rina's plan for next month?",
+        "options": [
+          { "id": "A", "text": "She will change her whole routine." },
+          { "id": "B", "text": "She will stop practicing." },
+          { "id": "C", "text": "She will keep a routine that works well for her." },
+          { "id": "D", "text": "She will take the exam again tomorrow." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'she will keep the same routine, because it works well for her', artinya ia akan mempertahankan rutinitas yang sudah berhasil untuknya.",
+        "stepByStep": [
+          "Cari next month di teks: 'Next month, she will keep the same routine, because it works well for her.'",
+          "Kata because menunjukkan alasan: rutinitas itu berhasil untuknya.",
+          "Pilihan A dan B bertentangan dengan 'keep the same routine'. Pilihan D tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut ia akan mempertahankan rutinitas yang sama." },
+          { "optionId": "B", "reasonId": "Teks menyebut ia akan tetap menjalankan rutinitas, bukan berhenti berlatih." },
+          { "optionId": "D", "reasonId": "Ujian ulang besok tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Will menunjukkan rencana masa depan. Because menjelaskan alasan rencana itu.",
+          "examples": [
+            { "en": "I will keep studying because it helps me.", "id": "Saya akan terus belajar karena itu membantu saya." },
+            { "en": "She will practice more because she wants to improve.", "id": "Dia akan berlatih lebih banyak karena dia ingin meningkat." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal sebagai rencana baru, tetapi teks menyebut Rina akan mempertahankan rutinitas yang sama.",
+        "evidence": "Next month, she will keep the same routine, because it works well for her"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ the exam last week.",
+        "options": [
+          { "id": "A", "text": "take" },
+          { "id": "B", "text": "took" },
+          { "id": "C", "text": "taking" },
+          { "id": "D", "text": "takes" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Last week menunjukkan waktu lampau, sehingga memakai simple past: took.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Take adalah bentuk dasar, tidak cocok dengan last week." },
+          { "optionId": "C", "reasonId": "Taking tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Takes adalah simple present, tidak cocok dengan last week." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "I need more ___ to pass the test.",
+        "options": [
+          { "id": "A", "text": "practice" },
+          { "id": "B", "text": "practiced" },
+          { "id": "C", "text": "practicing" },
+          { "id": "D", "text": "practically" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "More diikuti kata benda: practice.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Practiced adalah kata kerja lampau, tidak cocok setelah more." },
+          { "optionId": "C", "reasonId": "Practicing tidak cocok sebagai kata benda setelah more dalam pola ini." },
+          { "optionId": "D", "reasonId": "Practically adalah kata keterangan dan tidak berarti latihan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "My teacher ___ a report about my progress last month.",
+        "options": [
+          { "id": "A", "text": "writes" },
+          { "id": "B", "text": "wrote" },
+          { "id": "C", "text": "written" },
+          { "id": "D", "text": "writing" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Last month menunjukkan waktu lampau, sehingga memakai simple past: wrote.",
+        "stepByStep": [
+          "Last month menunjukkan kejadian yang sudah selesai.",
+          "Simple past dari write adalah wrote.",
+          "Writes adalah simple present, written butuh be, dan writing tidak cocok sebagai kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Writes adalah simple present, tidak cocok dengan last month." },
+          { "optionId": "C", "reasonId": "Written tanpa be tidak membentuk kalimat yang lengkap di sini." },
+          { "optionId": "D", "reasonId": "Writing tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "She made a ___ in the last question, so she must review the rule.",
+        "options": [
+          { "id": "A", "text": "mistake" },
+          { "id": "B", "text": "mistakes" },
+          { "id": "C", "text": "mistaken" },
+          { "id": "D", "text": "mistakenly" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Setelah a, gunakan kata benda tunggal: mistake.",
+        "stepByStep": [
+          "Setelah a, kata benda harus tunggal.",
+          "Mistake adalah kata benda tunggal yang berarti kesalahan.",
+          "Mistakes adalah jamak, mistaken adalah kata sifat, dan mistakenly adalah kata keterangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Setelah a, tidak boleh memakai bentuk jamak." },
+          { "optionId": "C", "reasonId": "Mistaken adalah kata sifat, tidak cocok setelah a made." },
+          { "optionId": "D", "reasonId": "Mistakenly adalah kata keterangan, tidak cocok di sini." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Since the start of the month, Rina ___ a lot, so she ___ the next exam with more confidence.",
+        "options": [
+          { "id": "A", "text": "has improved / will take" },
+          { "id": "B", "text": "improved / will take" },
+          { "id": "C", "text": "has improve / took" },
+          { "id": "D", "text": "improves / took" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Since menunjukkan periode sampai sekarang, sehingga memakai present perfect: has improved. Bagian kedua untuk masa depan: will take.",
+        "stepByStep": [
+          "Since the start of the month menunjukkan periode yang masih berlangsung, sehingga memakai present perfect.",
+          "Present perfect dari improve adalah has improved.",
+          "Bagian kedua menunjukkan masa depan, sehingga memakai will take. Pilihan B memakai simple past setelah since. Pilihan C dan D salah bentuk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Simple past tidak cocok dengan since untuk periode yang masih berlangsung." },
+          { "optionId": "C", "reasonId": "Has improve salah. Setelah has, gunakan V3: improved." },
+          { "optionId": "D", "reasonId": "Improves tidak cocok dengan since, dan took tidak cocok dengan will take." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Since dipakai dengan present perfect untuk periode yang masih berlangsung sampai sekarang.",
+          "examples": [
+            { "en": "Since January, she has studied every day.", "id": "Sejak Januari, dia belajar setiap hari." },
+            { "en": "I have lived here since 2019.", "id": "Saya sudah tinggal di sini sejak 2019." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak benar karena will take sudah tepat, tetapi improved tidak cocok dengan since dalam kalimat ini."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia lulus ujian dengan nilai bagus.",
+        "hint": "Lulus ujian: passed the exam. Nilai bagus: a good result.",
+        "acceptedAnswers": ["She passed the exam with a good result.", "She passed the exam with good results."],
+        "modelAnswer": "She passed the exam with a good result.",
+        "commonErrors": [{ "pattern": "She pass the exam", "feedbackId": "Passed adalah bentuk lampau dari pass." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya sudah berlatih setiap hari selama dua minggu.",
+        "hint": "Sudah berlatih: have practiced. Selama dua minggu: for two weeks.",
+        "acceptedAnswers": ["I have practiced every day for two weeks.", "I've practiced every day for two weeks."],
+        "modelAnswer": "I have practiced every day for two weeks.",
+        "commonErrors": [{ "pattern": "I have practice every day", "feedbackId": "Setelah have, gunakan V3: practiced." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Tujuan saya adalah meningkatkan kemampuan berbicara.",
+        "hint": "Tujuan: my goal. Meningkatkan: to improve.",
+        "acceptedAnswers": ["My goal is to improve my speaking skills.", "My goal is to improve my speaking ability."],
+        "modelAnswer": "My goal is to improve my speaking skills.",
+        "commonErrors": [{ "pattern": "My goal is improve", "feedbackId": "Setelah to, gunakan kata kerja dasar: improve." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Guru saya menulis laporan tentang kemajuan saya bulan lalu.",
+        "hint": "Menulis: wrote. Laporan: a report. Kemajuan: progress. Bulan lalu: last month.",
+        "acceptedAnswers": ["My teacher wrote a report about my progress last month."],
+        "modelAnswer": "My teacher wrote a report about my progress last month.",
+        "commonErrors": [{ "pattern": "My teacher write a report", "feedbackId": "Last month menunjukkan waktu lampau: wrote." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Walaupun saya membuat kesalahan, saya merasa lebih percaya diri setelah meninjau ulang materi.",
+        "hint": "Walaupun: although. Membuat kesalahan: made a mistake. Meninjau ulang: review.",
+        "acceptedAnswers": [
+          "Although I made a mistake, I feel more confident after I review the material.",
+          "Although I made a mistake I feel more confident after I review the material."
+        ],
+        "modelAnswer": "Although I made a mistake, I feel more confident after I review the material.",
+        "commonErrors": [{ "pattern": "Although I made a mistake, but I feel", "feedbackId": "Although sudah menunjukkan pertentangan. Jangan tambahkan but." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The teacher gave us a long ___ about the rules of grammar.'",
+        "options": [
+          { "id": "A", "text": "reviewing" },
+          { "id": "B", "text": "review" },
+          { "id": "C", "text": "reviewed" },
+          { "id": "D", "text": "reviews" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "A long review adalah kata benda tunggal setelah a long.",
+        "stepByStep": [
+          "Setelah a long, kata benda harus tunggal.",
+          "Review sebagai kata benda berarti tinjauan.",
+          "Reviewing adalah bentuk -ing, reviewed adalah lampau, dan reviews adalah jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Reviewing tidak cocok setelah a long sebagai kata benda." },
+          { "optionId": "C", "reasonId": "Reviewed adalah kata kerja lampau, tidak cocok setelah a long." },
+          { "optionId": "D", "reasonId": "Reviews adalah jamak, tidak cocok setelah a long." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah a, kata benda harus tunggal. Review sebagai kata benda berarti tinjauan.",
+          "examples": [
+            { "en": "We had a quick review before the test.", "id": "Kami melakukan tinjauan singkat sebelum tes." },
+            { "en": "She gave a clear review of the lesson.", "id": "Dia memberikan tinjauan yang jelas tentang pelajaran itu." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti kata benda yang benar, tetapi setelah a long harus tunggal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Rina improves her speaking since last month." },
+          { "id": "B", "text": "Rina has improve her speaking since last month." },
+          { "id": "C", "text": "Rina has improved her speaking since last month." },
+          { "id": "D", "text": "Rina was improved her speaking since last month." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Since last month memakai present perfect, dengan has improved.",
+        "stepByStep": [
+          "Since menunjukkan periode dari bulan lalu sampai sekarang.",
+          "Present perfect memakai has improved.",
+          "Pilihan A memakai simple present. Pilihan B memakai has improve yang salah. Pilihan D memakai pasif yang tidak sesuai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Simple present tidak cocok dengan since last month." },
+          { "optionId": "B", "reasonId": "Setelah has, gunakan V3: improved." },
+          { "optionId": "D", "reasonId": "Was improved adalah pasif dan tidak cocok dengan makna Rina meningkatkan kemampuannya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Since dengan periode yang masih berlangsung memakai present perfect.",
+          "examples": [
+            { "en": "She has studied English since 2024.", "id": "Dia sudah belajar bahasa Inggris sejak 2024." },
+            { "en": "We have worked here since last year.", "id": "Kami sudah bekerja di sini sejak tahun lalu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat biasa, tetapi since last month menuntut present perfect."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'Her ___ in the exam was high because she prepared well.'",
+        "options": [
+          { "id": "A", "text": "confident" },
+          { "id": "B", "text": "confidently" },
+          { "id": "C", "text": "confidence" },
+          { "id": "D", "text": "confide" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Setelah her dan sebelum in the exam, dibutuhkan kata benda: confidence.",
+        "stepByStep": [
+          "Her ___ menunjukkan kata benda yang dimiliki seseorang.",
+          "Confidence adalah kata benda yang berarti rasa percaya diri.",
+          "Confident adalah kata sifat, confidently adalah kata keterangan, dan confide adalah kata kerja."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Confident adalah kata sifat, tidak cocok sebagai inti frasa setelah her." },
+          { "optionId": "B", "reasonId": "Confidently adalah kata keterangan, tidak cocok setelah her." },
+          { "optionId": "D", "reasonId": "Confide adalah kata kerja, tidak cocok setelah her." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah her atau his, dibutuhkan kata benda. Confidence adalah kata benda untuk rasa percaya diri.",
+          "examples": [
+            { "en": "His confidence grew after the test.", "id": "Rasa percaya dirinya tumbuh setelah tes itu." },
+            { "en": "Her confidence in English is improving.", "id": "Rasa percaya dirinya dalam bahasa Inggris semakin baik." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena artinya dekat, tetapi confident adalah kata sifat, bukan kata benda."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Our ___ this month is to finish all the practice tests.'",
+        "options": [
+          { "id": "A", "text": "goals" },
+          { "id": "B", "text": "goal" },
+          { "id": "C", "text": "goaled" },
+          { "id": "D", "text": "goaling" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Our goal this month is memakai kata benda tunggal goal dengan kata kerja is.",
+        "stepByStep": [
+          "Kata kerja is menunjukkan subjek tunggal, sehingga kata bendanya tunggal.",
+          "Goal adalah kata benda tunggal yang berarti tujuan.",
+          "Goals adalah jamak, goaled dan goaling bukan kata benda yang benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Goals adalah jamak, tidak cocok dengan is." },
+          { "optionId": "C", "reasonId": "Goaled bukan kata benda yang benar." },
+          { "optionId": "D", "reasonId": "Goaling bukan kata benda yang benar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek tunggal memakai is. Goal sebagai kata benda tunggal berarti tujuan.",
+          "examples": [
+            { "en": "My goal is to read one book a month.", "id": "Tujuan saya adalah membaca satu buku sebulan." },
+            { "en": "Our goal is to finish the course in June.", "id": "Tujuan kami adalah menyelesaikan kursus pada bulan Juni." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat cocok karena kalimatnya tentang beberapa tes, tetapi subjek our goal tetap tunggal."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Rina did not made any mistakes in the exam." },
+          { "id": "B", "text": "Rina did not make any mistakes in the exam." },
+          { "id": "C", "text": "Rina did not makes any mistakes in the exam." },
+          { "id": "D", "text": "Rina not did make any mistakes in the exam." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Did not diikuti kata kerja dasar: make.",
+        "stepByStep": [
+          "Kalimat negatif lampau memakai did not.",
+          "Setelah did not, kata kerja dasar make tanpa -s atau -d.",
+          "Pilihan A memakai made setelah did not. Pilihan C memakai makes. Pilihan D menaruh not di tempat yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah did not, gunakan kata kerja dasar, bukan made." },
+          { "optionId": "C", "reasonId": "Setelah did not, tidak ada -s." },
+          { "optionId": "D", "reasonId": "Not harus mengikuti did, bukan mendahuluinya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kalimat negatif lampau memakai did not + kata kerja dasar.",
+          "examples": [
+            { "en": "He did not come to class yesterday.", "id": "Dia tidak datang ke kelas kemarin." },
+            { "en": "We did not finish the report last week.", "id": "Kami tidak menyelesaikan laporan minggu lalu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat lampau yang benar, tetapi setelah did not kata kerja harus bentuk dasar."
+      }
+    ]
+  }
+}

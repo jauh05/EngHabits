@@ -1,0 +1,568 @@
+{
+  "day": 27,
+  "week": 4,
+  "month": 1,
+  "title": "Conditional Tipe 1 & 2",
+  "topic": "Kalimat syarat untuk kenyataan atau kemungkinan (tipe 1) dan khayalan atau situasi yang tidak nyata (tipe 2)",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membentuk conditional tipe 1 untuk kemungkinan nyata",
+    "Membentuk conditional tipe 2 untuk khayalan",
+    "Memakai wish dan imagine dengan bentuk simple past"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "if", "pronunciationId": "IF (i pendek, f jelas)", "pos": "Conj", "meaningId": "jika", "example": "If it rains, we will stay inside.", "exampleId": "Jika hujan, kami akan tinggal di dalam." },
+      { "no": 2, "en": "would", "pronunciationId": "WUD (u pendek, d di akhir)", "pos": "Other", "meaningId": "akan (untuk khayalan)", "example": "I would travel if I had money.", "exampleId": "Saya akan bepergian jika saya punya uang." },
+      { "no": 3, "en": "wish", "pronunciationId": "WISH (i pendek, sh jelas)", "pos": "Verb", "meaningId": "berharap, ingin", "example": "I wish I could fly.", "exampleId": "Saya berharap bisa terbang." },
+      { "no": 4, "en": "imagine", "pronunciationId": "i-MA-jin (tekanan di MA)", "pos": "Verb", "meaningId": "membayangkan", "example": "Imagine you have a free day.", "exampleId": "Bayangkan kamu punya satu hari bebas." },
+      { "no": 5, "en": "condition", "pronunciationId": "kon-DI-shun (tekanan di DI)", "pos": "Noun", "meaningId": "kondisi, syarat", "example": "The condition is that you finish first.", "exampleId": "Syaratnya adalah kamu selesai lebih dulu." },
+      { "no": 6, "en": "result", "pronunciationId": "ri-ZULT (tekanan di ZULT)", "pos": "Noun", "meaningId": "hasil", "example": "The result will come next week.", "exampleId": "Hasilnya akan keluar minggu depan." },
+      { "no": 7, "en": "possibility", "pronunciationId": "pa-si-BI-li-ti (tekanan di BI)", "pos": "Noun", "meaningId": "kemungkinan", "example": "There is a possibility of rain.", "exampleId": "Ada kemungkinan hujan." },
+      { "no": 8, "en": "situation", "pronunciationId": "si-chu-A-shun (tekanan di A)", "pos": "Noun", "meaningId": "situasi, keadaan", "example": "The situation is getting better.", "exampleId": "Situasinya semakin membaik." },
+      { "no": 9, "en": "hypothetical", "pronunciationId": "hai-po-TE-ti-kal (tekanan di TE)", "pos": "Adj", "meaningId": "bersifat khayalan, hipotetis", "example": "Let's discuss a hypothetical case.", "exampleId": "Mari kita bahas satu kasus hipotetis." },
+      { "no": 10, "en": "real", "pronunciationId": "RIL (i panjang, l jelas)", "pos": "Adj", "meaningId": "nyata", "example": "This is a real problem.", "exampleId": "Ini adalah masalah yang nyata." }
+    ],
+    "tip": "Tipe 1 untuk hal yang mungkin terjadi: if + simple present, will. Tipe 2 untuk hal yang tidak nyata sekarang: if + simple past, would. Untuk kata be pada tipe 2, gunakan were untuk semua subjek."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["first and second conditional English", "if clauses English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kalimat syarat tipe 1 dan tipe 2 untuk pemula, dengan contoh if, will, dan would.",
+      "watchFor": [
+        "Simple present di klausa if untuk tipe 1",
+        "Simple past di klausa if untuk tipe 2",
+        "Penggunaan were untuk semua subjek pada tipe 2"
+      ]
+    },
+    "lesson": {
+      "intro": "Kalimat syarat terdiri dari dua bagian: klausa if sebagai syarat, dan klausa utama sebagai akibat. Tipe 1 membahas kemungkinan nyata di masa depan, sedangkan tipe 2 membahas khayalan atau situasi yang tidak nyata sekarang.",
+      "sections": [
+        {
+          "heading": "Tipe 1: kemungkinan nyata",
+          "bodyMd": "Pakai **if + simple present**, lalu **will + kata kerja dasar** di klausa utama: **If it rains tomorrow, we will stay home.** Tipe ini untuk hal yang masuk akal akan terjadi."
+        },
+        {
+          "heading": "Tipe 2: khayalan",
+          "bodyMd": "Pakai **if + simple past**, lalu **would + kata kerja dasar**: **If I had more money, I would buy a bike.** Untuk kata be, pakai **were** untuk semua subjek: **If I were rich, I would travel.**"
+        },
+        {
+          "heading": "Wish dan imagine",
+          "bodyMd": "Setelah **wish** untuk keinginan sekarang, pakai bentuk simple past: **I wish I could swim faster.** **Imagine** juga diikuti bentuk khayalan: **Imagine you had a week off.** Jangan memakai **will** di klausa utama tipe 2."
+        }
+      ],
+      "formulas": [
+        { "label": "Tipe 1", "pattern": "if + simple present, will + kata kerja dasar" },
+        { "label": "Tipe 2", "pattern": "if + simple past, would + kata kerja dasar" },
+        { "label": "Be pada tipe 2", "pattern": "if I / he / she / it / you / we / they were + keterangan" },
+        { "label": "Wish", "pattern": "I wish + simple past (could, were, had)" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "If it rains, we will stay inside.", "id": "Jika hujan, kami akan tinggal di dalam." },
+          { "en": "If I had more time, I would learn Japanese.", "id": "Jika saya punya lebih banyak waktu, saya akan belajar bahasa Jepang." },
+          { "en": "If you study, you will pass the test.", "id": "Jika kamu belajar, kamu akan lulus tes." },
+          { "en": "If I were rich, I would travel the world.", "id": "Jika saya kaya, saya akan berkeliling dunia." },
+          { "en": "I wish I could swim faster.", "id": "Saya berharap bisa berenang lebih cepat." }
+        ],
+        "negative": [
+          { "en": "If it does not rain, we will go to the beach.", "id": "Jika tidak hujan, kami akan pergi ke pantai." },
+          { "en": "If I did not have a car, I would walk.", "id": "Jika saya tidak punya mobil, saya akan berjalan kaki." },
+          { "en": "If he does not study, he will not pass.", "id": "Jika dia tidak belajar, dia tidak akan lulus." },
+          { "en": "I would not go if I were tired.", "id": "Saya tidak akan pergi jika saya lelah." },
+          { "en": "She would not be happy if she did not have friends.", "id": "Dia tidak akan bahagia jika dia tidak punya teman." }
+        ],
+        "question": [
+          { "en": "If it rains, will you stay home?", "id": "Jika hujan, apakah kamu akan tinggal di rumah?" },
+          { "en": "What would you do if you had a lot of money?", "id": "Apa yang akan kamu lakukan jika punya banyak uang?" },
+          { "en": "If you finish early, will you call me?", "id": "Jika kamu selesai lebih awal, apakah kamu akan menelepon saya?" },
+          { "en": "Would you travel if you were free?", "id": "Apakah kamu akan bepergian jika kamu bebas?" },
+          { "en": "If she were here, what would she say?", "id": "Jika dia ada di sini, apa yang akan dia katakan?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "If it will rain, I will stay home.", "right": "If it rains, I will stay home.", "whyId": "Dalam klausa if untuk kenyataan, gunakan simple present, bukan will." },
+        { "wrong": "If I was rich, I would buy a house.", "right": "If I were rich, I would buy a house.", "whyId": "Untuk khayalan, be memakai were pada semua subjek." },
+        { "wrong": "If I had time, I will help you.", "right": "If I had time, I would help you.", "whyId": "Tipe 2 memakai would di klausa utama, bukan will." },
+        { "wrong": "I wish I can fly.", "right": "I wish I could fly.", "whyId": "Setelah wish untuk keinginan, gunakan could atau bentuk simple past." },
+        { "wrong": "If she studies, she would pass.", "right": "If she studies, she will pass.", "whyId": "Tipe 1 memakai will di klausa utama." },
+        { "wrong": "If he knows the answer, he would tell me.", "right": "If he knew the answer, he would tell me.", "whyId": "Tipe 2 memakai simple past di klausa if." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Rencana Dimas",
+    "text": "Dimas is thinking about his future. If he studies hard this year, he will pass the entrance test. That is a real possibility, because his grades are improving. However, he also has a wish to travel to Japan. He can imagine what his life would be like there. If he had enough money, he would study abroad, but now he does not have that condition. His mother says the result depends on his effort, not on luck. She believes that if he works every week, the situation will get better. Dimas agrees, but he wants a clear plan. He writes a hypothetical plan on paper: if he saves money, he can apply for a scholarship. If he gets the scholarship, he would be very happy.",
+    "glossary": [
+      { "en": "entrance test", "id": "tes masuk" },
+      { "en": "scholarship", "id": "beasiswa" },
+      { "en": "effort", "id": "usaha" },
+      { "en": "apply", "id": "mendaftar" },
+      { "en": "luck", "id": "keberuntungan" },
+      { "en": "abroad", "id": "di luar negeri" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is Dimas thinking about?",
+        "options": [
+          { "id": "A", "text": "his future" },
+          { "id": "B", "text": "his family" },
+          { "id": "C", "text": "his holiday" },
+          { "id": "D", "text": "his old school" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Dimas is thinking about his future', artinya Dimas memikirkan masa depannya.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Keluarga tidak disebut sebagai topik pikirannya." },
+          { "optionId": "C", "reasonId": "Liburan tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Sekolah lama tidak disebut dalam teks." }
+        ],
+        "evidence": "Dimas is thinking about his future"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What does Dimas wish for?",
+        "options": [
+          { "id": "A", "text": "to study in Bandung" },
+          { "id": "B", "text": "to travel to Japan" },
+          { "id": "C", "text": "to buy a car" },
+          { "id": "D", "text": "to work at night" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'he also has a wish to travel to Japan', artinya Dimas ingin pergi ke Jepang.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bandung tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Membeli mobil tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Bekerja malam tidak disebut dalam teks." }
+        ],
+        "evidence": "he also has a wish to travel to Japan"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What must Dimas do before he can apply for a scholarship?",
+        "options": [
+          { "id": "A", "text": "pass the entrance test" },
+          { "id": "B", "text": "save money" },
+          { "id": "C", "text": "move to Japan" },
+          { "id": "D", "text": "ask his teacher" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'if he saves money, he can apply for a scholarship', artinya ia harus menabung dulu untuk bisa mendaftar beasiswa.",
+        "stepByStep": [
+          "Cari apply di teks: 'if he saves money, he can apply for a scholarship.'",
+          "Kata if menunjukkan syarat: menabung dulu, baru bisa mendaftar.",
+          "Pilihan A, C, dan D tidak disebut sebagai syarat beasiswa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tes masuk adalah hal lain, tidak disebut sebagai syarat beasiswa." },
+          { "optionId": "C", "reasonId": "Pindah ke Jepang tidak disebut sebagai syarat." },
+          { "optionId": "D", "reasonId": "Bertanya kepada guru tidak disebut dalam teks." }
+        ],
+        "evidence": "if he saves money, he can apply for a scholarship"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What does Dimas's mother say about the result?",
+        "options": [
+          { "id": "A", "text": "it depends on his effort" },
+          { "id": "B", "text": "it depends on luck" },
+          { "id": "C", "text": "it is not important" },
+          { "id": "D", "text": "it will be known next year" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'the result depends on his effort, not on luck', artinya hasilnya bergantung pada usaha, bukan keberuntungan.",
+        "stepByStep": [
+          "Cari result di teks: 'His mother says the result depends on his effort, not on luck.'",
+          "Frasa not on luck menolak keberuntungan sebagai penentu.",
+          "Pilihan B bertentangan dengan 'not on luck'. Pilihan C dan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut bukan keberuntungan, justru kebalikannya." },
+          { "optionId": "C", "reasonId": "Hasil tidak disebut tidak penting." },
+          { "optionId": "D", "reasonId": "Waktu hasil keluar tidak disebut dalam teks." }
+        ],
+        "evidence": "the result depends on his effort, not on luck"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What is the most likely reason Dimas cannot study abroad now?",
+        "options": [
+          { "id": "A", "text": "He does not want to go abroad." },
+          { "id": "B", "text": "He does not have enough money." },
+          { "id": "C", "text": "He has already passed the entrance test." },
+          { "id": "D", "text": "His mother does not allow it." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'If he had enough money, he would study abroad', artinya ia akan belajar di luar negeri jika punya cukup uang, jadi sekarang uangnya belum cukup.",
+        "stepByStep": [
+          "Cari abroad di teks: 'If he had enough money, he would study abroad, but now he does not have that condition.'",
+          "Kalimat tipe 2 menunjukkan syarat yang belum terpenuhi: cukup uang.",
+          "Pilihan A bertentangan dengan wish. Pilihan C dan D tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dimas ingin pergi ke Jepang, dan teks tidak menyebut ia tidak ingin pergi ke luar negeri." },
+          { "optionId": "C", "reasonId": "Teks menyebut ia akan lulus tes masuk, bukan sudah lulus." },
+          { "optionId": "D", "reasonId": "Ibu Dimas tidak disebut melarang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tipe 2 menunjukkan syarat yang belum terjadi sekarang. Jika syaratnya tidak terpenuhi, akibatnya tidak terjadi.",
+          "examples": [
+            { "en": "If I had a car, I would drive to work.", "id": "Jika saya punya mobil, saya akan menyetir ke kantor." },
+            { "en": "If she knew the answer, she would tell us.", "id": "Jika dia tahu jawabannya, dia akan memberi tahu kami." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti alasan, tetapi teks menyebut Dimas ingin pergi ke Jepang dan membayangkan hidupnya di sana.",
+        "evidence": "If he had enough money, he would study abroad"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "If it rains tomorrow, we ___ at home.",
+        "options": [
+          { "id": "A", "text": "stayed" },
+          { "id": "B", "text": "would stay" },
+          { "id": "C", "text": "will stay" },
+          { "id": "D", "text": "had stayed" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Tipe 1 untuk kemungkinan nyata besok memakai will stay di klausa utama.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Stayed adalah bentuk lampau, tidak cocok dengan tomorrow." },
+          { "optionId": "B", "reasonId": "Would stay untuk tipe 2, bukan kemungkinan nyata besok." },
+          { "optionId": "D", "reasonId": "Had stayed adalah past perfect, tidak cocok dengan kalimat ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "If I ___ a bird, I would fly to you.",
+        "options": [
+          { "id": "A", "text": "am" },
+          { "id": "B", "text": "will be" },
+          { "id": "C", "text": "were" },
+          { "id": "D", "text": "would be" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Tipe 2 untuk khayalan memakai were pada klausa if.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Am adalah bentuk sekarang, tidak cocok untuk khayalan tipe 2." },
+          { "optionId": "B", "reasonId": "Will be tidak dipakai dalam klausa if tipe 2." },
+          { "optionId": "D", "reasonId": "Would be tidak dipakai dalam klausa if." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "If she ___ more time, she would learn French.",
+        "options": [
+          { "id": "A", "text": "has" },
+          { "id": "B", "text": "had" },
+          { "id": "C", "text": "will have" },
+          { "id": "D", "text": "having" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Tipe 2 memakai simple past di klausa if: had.",
+        "stepByStep": [
+          "Kalimat utama memakai would learn, jadi ini tipe 2.",
+          "Tipe 2 memakai simple past di klausa if: had.",
+          "Has dan will have bukan simple past. Having tidak bisa berdiri sendiri sebagai kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Has adalah simple present, tidak cocok untuk tipe 2." },
+          { "optionId": "C", "reasonId": "Will have tidak dipakai dalam klausa if tipe 2." },
+          { "optionId": "D", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "I wish I ___ taller.",
+        "options": [
+          { "id": "A", "text": "will be" },
+          { "id": "B", "text": "am" },
+          { "id": "C", "text": "would be" },
+          { "id": "D", "text": "were" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Setelah wish untuk keinginan sekarang, gunakan bentuk simple past: were.",
+        "stepByStep": [
+          "Wish untuk keinginan sekarang diikuti bentuk simple past.",
+          "Bentuk be untuk semua subjek pada wish adalah were.",
+          "Will be dan would be tidak dipakai setelah wish. Am adalah bentuk sekarang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will be tidak dipakai setelah wish untuk keinginan sekarang." },
+          { "optionId": "B", "reasonId": "Am adalah bentuk sekarang, tidak sesuai dengan wish." },
+          { "optionId": "C", "reasonId": "Would be tidak dipakai langsung setelah wish I." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "If you study harder, you ___ the test; if you studied harder, you ___ better results.",
+        "options": [
+          { "id": "A", "text": "will pass / would get" },
+          { "id": "B", "text": "would pass / will get" },
+          { "id": "C", "text": "pass / get" },
+          { "id": "D", "text": "will pass / will get" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Bagian pertama tipe 1 memakai will pass. Bagian kedua tipe 2 memakai would get.",
+        "stepByStep": [
+          "Bagian pertama memakai if + simple present, sehingga klausa utama will pass.",
+          "Bagian kedua memakai if + simple past, sehingga klausa utama would get.",
+          "Pilihan B tertukar. Pilihan C tidak memakai modal. Pilihan D memakai will pada tipe 2."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Would pass dan will get tertukar. Tipe 1 memakai will, tipe 2 memakai would." },
+          { "optionId": "C", "reasonId": "Tanpa will atau would, kedua klausa utama tidak lengkap." },
+          { "optionId": "D", "reasonId": "Will get tidak cocok untuk tipe 2." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tipe 1 memakai will di klausa utama. Tipe 2 memakai would di klausa utama.",
+          "examples": [
+            { "en": "If you save money, you will buy a bike.", "id": "Jika kamu menabung, kamu akan membeli sepeda." },
+            { "en": "If you had a bike, you would ride it every day.", "id": "Jika kamu punya sepeda, kamu akan mengendarainya setiap hari." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat konsisten, tetapi will get tidak cocok untuk tipe 2 yang memakai would."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Jika hari ini hujan, saya akan membawa payung.",
+        "hint": "Jika hujan: if it rains. Akan membawa: will bring.",
+        "acceptedAnswers": ["If it rains today, I will bring an umbrella.", "If it rains today I will bring an umbrella."],
+        "modelAnswer": "If it rains today, I will bring an umbrella.",
+        "commonErrors": [{ "pattern": "If it will rain", "feedbackId": "Dalam klausa if untuk kenyataan, gunakan simple present: rains." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Jika saya punya mobil, saya akan pergi ke Bali.",
+        "hint": "Khayalan: if I had. Akan pergi: would go.",
+        "acceptedAnswers": ["If I had a car, I would go to Bali.", "If I had a car I would go to Bali."],
+        "modelAnswer": "If I had a car, I would go to Bali.",
+        "commonErrors": [{ "pattern": "If I have a car, I would go", "feedbackId": "Untuk khayalan, gunakan simple past di klausa if: had." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya berharap saya bisa berbicara bahasa Jepang.",
+        "hint": "Berharap: I wish. Bisa: could.",
+        "acceptedAnswers": ["I wish I could speak Japanese.", "I wish I were able to speak Japanese."],
+        "modelAnswer": "I wish I could speak Japanese.",
+        "commonErrors": [{ "pattern": "I wish I can speak", "feedbackId": "Setelah wish untuk keinginan, gunakan could, bukan can." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kalau kamu belajar setiap hari, kamu akan lulus ujian.",
+        "hint": "Kalau kamu belajar: if you study. Akan lulus: will pass.",
+        "acceptedAnswers": ["If you study every day, you will pass the exam.", "If you study every day you will pass the exam."],
+        "modelAnswer": "If you study every day, you will pass the exam.",
+        "commonErrors": [{ "pattern": "If you will study", "feedbackId": "Dalam klausa if untuk kenyataan, tidak memakai will: study." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Seandainya dia tahu jawabannya, dia akan memberi tahu kita.",
+        "hint": "Seandainya: if + simple past. Akan memberi tahu: would tell.",
+        "acceptedAnswers": ["If she knew the answer, she would tell us.", "If she knew the answer she would tell us."],
+        "modelAnswer": "If she knew the answer, she would tell us.",
+        "commonErrors": [{ "pattern": "If she knows the answer, she would tell", "feedbackId": "Untuk khayalan, gunakan simple past di klausa if: knew." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'If it ___ sunny tomorrow, we will go to the beach.'",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "will be" },
+          { "id": "C", "text": "would be" },
+          { "id": "D", "text": "was" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Tipe 1 memakai simple present di klausa if, meskipun maksudnya besok: is.",
+        "stepByStep": [
+          "Kalimat utama memakai will go, jadi ini tipe 1.",
+          "Tipe 1 memakai simple present di klausa if: is.",
+          "Will be tidak boleh di klausa if. Would be dan was tidak sesuai dengan tipe 1."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Will be tidak boleh dipakai di klausa if." },
+          { "optionId": "C", "reasonId": "Would be adalah tipe 2, tidak cocok dengan will go." },
+          { "optionId": "D", "reasonId": "Was adalah simple past, tidak cocok dengan tipe 1." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Di klausa if tipe 1, kejadian masa depan tetap memakai simple present.",
+          "examples": [
+            { "en": "If it rains tomorrow, we will stay home.", "id": "Jika hujan besok, kami akan tinggal di rumah." },
+            { "en": "If she is ready, we will leave at nine.", "id": "Jika dia siap, kami akan berangkat pukul sembilan." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti masa depan yang benar, tetapi will tidak boleh dipakai di klausa if."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "If I will have time, I would call you." },
+          { "id": "B", "text": "If I had time, I would call you." },
+          { "id": "C", "text": "If I have time, I would call you." },
+          { "id": "D", "text": "If I had time, I will call you." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tipe 2 memakai simple past di klausa if dan would di klausa utama.",
+        "stepByStep": [
+          "Klausa utama memakai would call, jadi ini tipe 2.",
+          "Tipe 2 memakai simple past di klausa if: had.",
+          "Pilihan A memakai will di klausa if. Pilihan C mencampur tipe 1 dengan would. Pilihan D memakai will di klausa utama tipe 2."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will tidak boleh dipakai di klausa if." },
+          { "optionId": "C", "reasonId": "Simple present dengan would mencampur dua tipe kalimat syarat." },
+          { "optionId": "D", "reasonId": "Tipe 2 memakai would di klausa utama, bukan will." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tipe 2: if + simple past, would + kata kerja dasar.",
+          "examples": [
+            { "en": "If I had a day off, I would rest.", "id": "Jika saya punya libur sehari, saya akan istirahat." },
+            { "en": "If we lived closer, we would visit more often.", "id": "Jika kami tinggal lebih dekat, kami akan sering berkunjung." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak benar karena sederhana, tetapi campuran simple present dan would bukan pola tipe 1 maupun tipe 2."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "I ___ like to visit Japan if I had more money.",
+        "options": [
+          { "id": "A", "text": "would" },
+          { "id": "B", "text": "will" },
+          { "id": "C", "text": "can" },
+          { "id": "D", "text": "should" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Klausa if memakai had, jadi klausa utama memakai would like.",
+        "stepByStep": [
+          "Klausa if memakai had more money, jadi ini tipe 2.",
+          "Klausa utama tipe 2 memakai would like.",
+          "Will tidak dipakai di tipe 2. Can dan should tidak sesuai dengan pola kalimat syarat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Will tidak dipakai di klausa utama tipe 2." },
+          { "optionId": "C", "reasonId": "Can tidak sesuai dengan pola khayalan di sini." },
+          { "optionId": "D", "reasonId": "Should berarti saran, tidak cocok dengan khayalan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Klausa utama tipe 2 memakai would, termasuk would like untuk keinginan yang tidak nyata.",
+          "examples": [
+            { "en": "I would like a new laptop if I had the money.", "id": "Saya ingin laptop baru jika saya punya uangnya." },
+            { "en": "She would love to live abroad if she could.", "id": "Dia ingin sekali tinggal di luar negeri jika dia bisa." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena untuk masa depan, tetapi will tidak dipakai dalam klausa utama tipe 2."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Imagine you ___ a million dollars. What would you do?",
+        "options": [
+          { "id": "A", "text": "have" },
+          { "id": "B", "text": "had" },
+          { "id": "C", "text": "will have" },
+          { "id": "D", "text": "having" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Imagine diikuti bentuk khayalan dengan simple past: had. Pertanyaan memakai would, jadi ini tipe 2.",
+        "stepByStep": [
+          "Imagine memperkenalkan situasi khayalan.",
+          "Pertanyaan What would you do menunjukkan tipe 2, sehingga bagian khayalan memakai simple past: had.",
+          "Have adalah simple present. Will have tidak cocok dengan khayalan. Having tidak bisa berdiri sendiri."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Have adalah simple present, tidak cocok dengan khayalan." },
+          { "optionId": "C", "reasonId": "Will have tidak dipakai dalam khayalan tipe 2." },
+          { "optionId": "D", "reasonId": "Having tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Imagine dan kalimat khayalan memakai simple past, dan pertanyaan lanjutannya memakai would.",
+          "examples": [
+            { "en": "Imagine you had a free week. What would you learn?", "id": "Bayangkan kamu punya satu minggu bebas. Apa yang akan kamu pelajari?" },
+            { "en": "Imagine she lived near the sea. Would she swim every day?", "id": "Bayangkan dia tinggal dekat laut. Apakah dia akan berenang setiap hari?" }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kata kerja yang benar, tetapi have adalah simple present dan tidak cocok dengan khayalan."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "If she would study, she would pass." },
+          { "id": "B", "text": "If she studies, she will pass." },
+          { "id": "C", "text": "If she studied, she will pass." },
+          { "id": "D", "text": "If she study, she would pass." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tipe 1 memakai simple present di klausa if: studies, dan will pass di klausa utama.",
+        "stepByStep": [
+          "Kalimat ini memakai pola tipe 1: if + simple present, will.",
+          "Dia adalah subjek tunggal, sehingga kata kerja studies memakai -s.",
+          "Pilihan A memakai would di klausa if. Pilihan C mencampur simple past dengan will. Pilihan D memakai study tanpa -s untuk subjek she."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Would tidak boleh dipakai di klausa if." },
+          { "optionId": "C", "reasonId": "Simple past dengan will mencampur tipe 2 dan tipe 1." },
+          { "optionId": "D", "reasonId": "Subjek she memakai studies, bukan study." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Tipe 1: if + simple present, will + kata kerja dasar. Subjek tunggal memakai -s di simple present.",
+          "examples": [
+            { "en": "If he works hard, he will succeed.", "id": "Jika dia bekerja keras, dia akan berhasil." },
+            { "en": "If it rains, the roads will be wet.", "id": "Jika hujan, jalanan akan basah." }
+          ]
+        },
+        "examTrap": "Pilihan C terlihat seperti tipe 2 karena memakai simple past, tetapi will di klausa utama tidak cocok dengan tipe 2."
+      }
+    ]
+  }
+}
