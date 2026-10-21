@@ -1,0 +1,615 @@
+{
+  "day": 42,
+  "week": 6,
+  "month": 2,
+  "title": "Noun Clauses",
+  "topic": "Anak kalimat yang berfungsi sebagai kata benda, biasanya setelah kata kerja pikiran",
+  "skillFocus": "listening",
+  "objectives": [
+    "Mengenali anak kalimat yang berfungsi sebagai kata benda",
+    "Memakai that dan whether setelah kata kerja pikiran",
+    "Membedakan noun clause dari adjective clause"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "wonder", "pronunciationId": "WUN-der (tekanan di WUN)", "pos": "Verb", "meaningId": "bertanya-tanya, ingin tahu", "example": "I wonder if it will rain.", "exampleId": "Saya bertanya-tanya apakah akan hujan." },
+      { "no": 2, "en": "realize", "pronunciationId": "RI-a-laiz (tekanan di RI)", "pos": "Verb", "meaningId": "menyadari", "example": "I realize that the test is hard.", "exampleId": "Saya menyadari bahwa tesnya sulit." },
+      { "no": 3, "en": "believe", "pronunciationId": "bi-LIV (tekanan di LIV)", "pos": "Verb", "meaningId": "percaya, yakin", "example": "I believe that she is right.", "exampleId": "Saya percaya bahwa dia benar." },
+      { "no": 4, "en": "suppose", "pronunciationId": "sa-POZ (tekanan di POZ)", "pos": "Verb", "meaningId": "menduga, mengira", "example": "I suppose he is busy today.", "exampleId": "Saya menduga dia sibuk hari ini." },
+      { "no": 5, "en": "expect", "pronunciationId": "ik-SPEKT (tekanan di SPEKT)", "pos": "Verb", "meaningId": "mengharapkan", "example": "We expect that the results will be fair.", "exampleId": "Kami berharap hasilnya akan adil." },
+      { "no": 6, "en": "consider", "pronunciationId": "kon-SI-der (tekanan di SI)", "pos": "Verb", "meaningId": "menganggap, mempertimbangkan", "example": "I consider that plan a good one.", "exampleId": "Saya menganggap rencana itu baik." },
+      { "no": 7, "en": "assume", "pronunciationId": "a-SYOOM (tekanan di SYOOM)", "pos": "Verb", "meaningId": "menganggap, mengasumsikan", "example": "I assume you know the way.", "exampleId": "Saya menganggap kamu tahu jalannya." },
+      { "no": 8, "en": "agree", "pronunciationId": "a-GRI (tekanan di GRI)", "pos": "Verb", "meaningId": "setuju", "example": "I agree that the plan is good.", "exampleId": "Saya setuju bahwa rencananya bagus." },
+      { "no": 9, "en": "admit", "pronunciationId": "ad-MIT (tekanan di MIT)", "pos": "Verb", "meaningId": "mengakui", "example": "He admits that he was wrong.", "exampleId": "Dia mengakui bahwa dia salah." },
+      { "no": 10, "en": "doubt", "pronunciationId": "DAUT (au panjang, t di akhir)", "pos": "Verb", "meaningId": "meragukan", "example": "I doubt that the bus is on time.", "exampleId": "Saya meragukan bahwa bus itu tepat waktu." }
+    ],
+    "tip": "Anak kalimat kata benda biasanya berada setelah kata kerja pikiran atau perasaan, dan berfungsi sebagai objek kata kerja itu. Pakai that untuk pernyataan dan whether atau if untuk pertanyaan ya atau tidak."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["noun clauses English", "that clauses noun TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang anak kalimat kata benda, dengan contoh that dan whether setelah kata kerja pikiran.",
+      "watchFor": [
+        "That setelah kata kerja pikiran",
+        "Whether dan if untuk pertanyaan ya atau tidak",
+        "Noun clause sebagai objek kata kerja"
+      ]
+    },
+    "lesson": {
+      "intro": "Anak kalimat kata benda bertindak seperti kata benda dalam kalimat. Ia sering muncul sebagai objek dari kata kerja seperti believe, realize, atau wonder, dan menjawab pertanyaan apa yang diyakini, disadari, atau diragukan.",
+      "sections": [
+        {
+          "heading": "That untuk pernyataan",
+          "bodyMd": "Setelah kata kerja pikiran, gunakan **that** untuk pernyataan: **I believe that she is right.** Kata **that** boleh dihilangkan dalam percakapan santai: **I believe she is right.**"
+        },
+        {
+          "heading": "Whether dan if untuk pertanyaan",
+          "bodyMd": "Untuk pertanyaan ya atau tidak, gunakan **whether** atau **if**: **I wonder whether the results will be posted today.** **Do you believe if the story is true?** Dalam pola ini, **whether** lebih formal dan biasanya lebih aman dipakai."
+        },
+        {
+          "heading": "Kata kerja pikiran",
+          "bodyMd": "**Realize**, **believe**, **suppose**, **expect**, **consider**, **assume**, **agree**, **admit**, dan **doubt** sering diikuti anak kalimat kata benda. Dalam anak kalimat itu, kata kerja mengikuti subjek di dalamnya seperti kalimat biasa."
+        }
+      ],
+      "formulas": [
+        { "label": "Pernyataan", "pattern": "kata kerja pikiran + that + klausa" },
+        { "label": "Pertanyaan", "pattern": "kata kerja pikiran + whether / if + klausa" },
+        { "label": "Tanpa that", "pattern": "kata kerja pikiran + klausa (dalam percakapan santai)" },
+        { "label": "Fungsi", "pattern": "anak kalimat kata benda sebagai objek kata kerja" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I know that the bus is late today.", "id": "Saya tahu bahwa bus terlambat hari ini." },
+          { "en": "I am not sure whether she will come.", "id": "Saya tidak yakin apakah dia akan datang." },
+          { "en": "We hope that the result will be fair.", "id": "Kami berharap hasilnya akan adil." },
+          { "en": "She admits that she made a mistake.", "id": "Dia mengakui bahwa dia membuat kesalahan." },
+          { "en": "They consider that the decision is fair.", "id": "Mereka menganggap keputusan itu adil." }
+        ],
+        "negative": [
+          { "en": "I do not believe that the story is true.", "id": "Saya tidak percaya bahwa ceritanya benar." },
+          { "en": "She does not doubt that the plan will work.", "id": "Dia tidak meragukan bahwa rencananya akan berhasil." },
+          { "en": "We did not expect that the test would be easy.", "id": "Kami tidak mengharapkan tesnya akan mudah." },
+          { "en": "He does not admit that he was wrong.", "id": "Dia tidak mengakui bahwa dia salah." },
+          { "en": "I did not realize whether the door was open.", "id": "Saya tidak menyadari apakah pintunya terbuka." }
+        ],
+        "question": [
+          { "en": "Do you believe that she is ready?", "id": "Apakah kamu percaya bahwa dia sudah siap?" },
+          { "en": "Do you wonder whether the shop is open?", "id": "Apakah kamu bertanya-tanya apakah tokonya buka?" },
+          { "en": "Did they admit that they were late?", "id": "Apakah mereka mengakui bahwa mereka terlambat?" },
+          { "en": "What do you expect the teacher will say?", "id": "Apa yang kamu harapkan akan dikatakan guru?" },
+          { "en": "Do you agree that the plan is good?", "id": "Apakah kamu setuju bahwa rencananya bagus?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I believe the story is true, that it is.", "right": "I believe that the story is true.", "whyId": "Anak kalimat kata benda cukup satu kali. Jangan ulang dengan it is." },
+        { "wrong": "I wonder that she will come.", "right": "I wonder whether she will come.", "whyId": "Untuk pertanyaan ya atau tidak, gunakan whether atau if, bukan that." },
+        { "wrong": "I doubt whether the bus is on time.", "right": "I doubt that the bus is on time.", "whyId": "Doubt biasanya diikuti that untuk pernyataan negatif." },
+        { "wrong": "She realizes that the test is hard, does she?", "right": "She realizes that the test is hard.", "whyId": "Pertanyaan tambahan di akhir tidak diperlukan dalam anak kalimat kata benda." },
+        { "wrong": "We expect that the results will be fair are.", "right": "We expect that the results will be fair.", "whyId": "Kata kerja sudah lengkap di dalam anak kalimat. Jangan tambah kata kerja lagi." },
+        { "wrong": "I agree the plan is good, which is true.", "right": "I agree that the plan is good.", "whyId": "Setelah agree, gunakan that dan satu klausa saja." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["noun clauses English", "exam results conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Kata kerja pikiran dalam percakapan",
+        "Whether dan that dalam pendapat"
+      ]
+    },
+    "script": {
+      "title": "Menunggu hasil ujian",
+      "lines": [
+        { "speaker": "Mira", "text": "I wonder whether the results will be posted today." },
+        { "speaker": "Dimas", "text": "I realize you are nervous. I believe you did well, though." },
+        { "speaker": "Mira", "text": "What do you suppose the teacher will say about the essay?" },
+        { "speaker": "Dimas", "text": "I expect that the feedback will be honest and useful. I agree with that." },
+        { "speaker": "Mira", "text": "I consider the grading fair, but I doubt everyone will agree." },
+        { "speaker": "Dimas", "text": "I assume most students admit that the test was difficult." },
+        { "speaker": "Mira", "text": "Well, I hope they are right. Let's check the board together." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada wonder dan whether, bunyi w di awal tetap lembut: WUN-der, WEH-ther.",
+      "Pada realize, tekanan ada di suku pertama: RI-a-laiz.",
+      "Pada suppose dan assume, ucapkan suku kedua dengan jelas: sa-POZ, a-SYOOM."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does Mira wonder about?",
+        "options": [
+          { "id": "A", "text": "whether the results will be posted today" },
+          { "id": "B", "text": "the price of the exam" },
+          { "id": "C", "text": "the color of the board" },
+          { "id": "D", "text": "the length of the essay" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Mira berkata 'I wonder whether the results will be posted today', artinya ia bertanya-tanya apakah hasilnya diumumkan hari ini.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Harga ujian tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Warna papan tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Panjang esai tidak disebut sebagai hal yang ditanyakan Mira." }
+        ],
+        "evidence": "I wonder whether the results will be posted today"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does Dimas believe about Mira?",
+        "options": [
+          { "id": "A", "text": "She is not ready." },
+          { "id": "B", "text": "She failed the test." },
+          { "id": "C", "text": "She did well on the test." },
+          { "id": "D", "text": "She must repeat the course." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Dimas berkata 'I believe you did well, though', artinya ia yakin Mira mengerjakan tes dengan baik.",
+        "stepByStep": [
+          "Cari believe di naskah Dimas: 'I believe you did well, though.'",
+          "Kata kerja believe diikuti anak kalimat kata benda: you did well.",
+          "Tidak siap, gagal, dan mengulang kursus tidak disebut sebagai keyakinan Dimas."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dimas menyebut Mira gugup, bukan belum siap." },
+          { "optionId": "B", "reasonId": "Dimas menyebut Mira mengerjakan tes dengan baik." },
+          { "optionId": "D", "reasonId": "Mengulang kursus tidak disebut dalam percakapan." }
+        ],
+        "evidence": "I believe you did well"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does Dimas expect the feedback to be?",
+        "options": [
+          { "id": "A", "text": "unfair" },
+          { "id": "B", "text": "honest and useful" },
+          { "id": "C", "text": "very long" },
+          { "id": "D", "text": "late" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Dimas berkata 'I expect that the feedback will be honest and useful', artinya ia berharap umpan baliknya jujur dan berguna.",
+        "stepByStep": [
+          "Cari expect di naskah Dimas: 'I expect that the feedback will be honest and useful.'",
+          "Anak kalimat kata benda setelah expect menjelaskan harapannya.",
+          "Tidak adil, sangat panjang, dan terlambat tidak disebut sebagai harapannya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dimas berharap umpan baliknya jujur, bukan tidak adil." },
+          { "optionId": "C", "reasonId": "Panjang umpan balik tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Keterlambatan tidak disebut sebagai harapannya." }
+        ],
+        "evidence": "the feedback will be honest and useful"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Mira imply about the grading?",
+        "options": [
+          { "id": "A", "text": "She thinks the grading is unfair." },
+          { "id": "B", "text": "She thinks the grading is fair, but not everyone may agree." },
+          { "id": "C", "text": "She refuses to discuss grading." },
+          { "id": "D", "text": "She has no opinion about grading." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Mira berkata 'I consider the grading fair, but I doubt everyone will agree', artinya ia menganggap penilaiannya adil, tetapi ragu semua orang setuju.",
+        "stepByStep": [
+          "Cari doubt di naskah Mira: 'I doubt everyone will agree.'",
+          "Consider the grading fair menunjukkan pendapat bahwa penilaiannya adil.",
+          "Pilihan A bertentangan dengan fair. Pilihan C dan D tidak sesuai dengan kalimat Mira."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mira menyebut penilaian itu adil, bukan tidak adil." },
+          { "optionId": "C", "reasonId": "Mira membahas penilaian dengan memberi pendapat." },
+          { "optionId": "D", "reasonId": "Mira jelas punya pendapat, yaitu penilaiannya adil." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Doubt that dan consider that menyatakan pendapat yang belum tentu disetujui semua orang.",
+          "examples": [
+            { "en": "I consider the plan safe, but I doubt everyone agrees.", "id": "Saya menganggap rencananya aman, tetapi saya ragu semua orang setuju." },
+            { "en": "We doubt that the bus will arrive on time.", "id": "Kami meragukan bahwa bus akan tiba tepat waktu." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena ada kata doubt, tetapi Mira sebenarnya menganggap penilaiannya adil.",
+        "evidence": "I doubt everyone will agree"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does Dimas assume about most students?",
+        "options": [
+          { "id": "A", "text": "They found the test easy." },
+          { "id": "B", "text": "They did not take the test." },
+          { "id": "C", "text": "They failed every question." },
+          { "id": "D", "text": "They admit that the test was difficult." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Dimas berkata 'I assume most students admit that the test was difficult', artinya ia menganggap kebanyakan siswa mengakui tesnya sulit.",
+        "stepByStep": [
+          "Cari assume di naskah Dimas: 'I assume most students admit that the test was difficult.'",
+          "Admit that the test was difficult adalah anak kalimat kata benda dari assume.",
+          "Mudah, tidak mengambil tes, dan gagal semua tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dimas menyebut siswa mengakui tesnya sulit, bukan mudah." },
+          { "optionId": "B", "reasonId": "Teks menyebut siswa mengakui tes itu, jadi mereka mengikutinya." },
+          { "optionId": "C", "reasonId": "Gagal semua soal tidak disebut dalam percakapan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Assume dan admit dapat diikuti anak kalimat kata benda dengan that.",
+          "examples": [
+            { "en": "I assume that the exam will be long.", "id": "Saya menganggap ujiannya akan panjang." },
+            { "en": "She admits that the work was hard.", "id": "Dia mengakui bahwa pekerjaannya sulit." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kesimpulan yang masuk akal, tetapi Dimas menyebut siswa mengakui tesnya sulit.",
+        "evidence": "most students admit that the test was difficult"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I know ___ the bus is late today.",
+        "options": [
+          { "id": "A", "text": "that" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "who" },
+          { "id": "D", "text": "where" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Setelah kata kerja pikiran know, gunakan that untuk anak kalimat pernyataan.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Which tidak dipakai sebagai penghubung anak kalimat kata benda pernyataan." },
+          { "optionId": "C", "reasonId": "Who untuk orang, tidak cocok dengan pernyataan ini." },
+          { "optionId": "D", "reasonId": "Where menunjukkan tempat, tidak cocok dengan pernyataan ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "Do you believe ___ the story is true?",
+        "options": [
+          { "id": "A", "text": "what" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "who" },
+          { "id": "D", "text": "whether" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Whether dipakai untuk pertanyaan ya atau tidak: apakah cerita itu benar.",
+        "stepByStep": [
+          "Kalimat menanyakan ya atau tidak: apakah cerita itu benar.",
+          "Untuk pertanyaan ya atau tidak dalam anak kalimat kata benda, gunakan whether.",
+          "What, which, dan who tidak cocok untuk pertanyaan ya atau tidak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "What menunjukkan benda atau hal, bukan ya atau tidak." },
+          { "optionId": "B", "reasonId": "Which menunjukkan pilihan benda, bukan ya atau tidak." },
+          { "optionId": "C", "reasonId": "Who untuk orang, bukan ya atau tidak." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "I wonder ___ she will come to the party.",
+        "options": [
+          { "id": "A", "text": "that" },
+          { "id": "B", "text": "if" },
+          { "id": "C", "text": "who" },
+          { "id": "D", "text": "which" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "If dipakai untuk pertanyaan ya atau tidak setelah wonder: apakah dia akan datang.",
+        "stepByStep": [
+          "Pertanyaan yang dimaksud adalah apakah dia akan datang: ya atau tidak.",
+          "Setelah wonder, gunakan if atau whether untuk pertanyaan ya atau tidak.",
+          "That tidak cocok untuk pertanyaan, who untuk orang, dan which untuk pilihan benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "That dipakai untuk pernyataan, bukan pertanyaan setelah wonder." },
+          { "optionId": "C", "reasonId": "Who untuk orang, tidak cocok dengan pertanyaan ini." },
+          { "optionId": "D", "reasonId": "Which untuk pilihan benda, tidak cocok dengan pertanyaan ini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "We assume ___ the meeting has been moved to Friday.",
+        "options": [
+          { "id": "A", "text": "that" },
+          { "id": "B", "text": "whether" },
+          { "id": "C", "text": "what" },
+          { "id": "D", "text": "which" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Assume that memperkenalkan anak kalimat pernyataan: rapatnya dipindah ke hari Jumat.",
+        "stepByStep": [
+          "Kalimat menyatakan anggapan, bukan pertanyaan.",
+          "Assume that diikuti anak kalimat pernyataan.",
+          "Whether dan what tidak cocok untuk pernyataan, dan which tidak cocok sebagai penghubung ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whether dipakai untuk pertanyaan, bukan pernyataan seperti ini." },
+          { "optionId": "C", "reasonId": "What tidak cocok sebagai penghubung anak kalimat pernyataan ini." },
+          { "optionId": "D", "reasonId": "Which tidak cocok sebagai penghubung anak kalimat kata benda ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Assume that memperkenalkan anak kalimat pernyataan sebagai objek assume.",
+          "examples": [
+            { "en": "We assume that the price will rise.", "id": "Kami menganggap harganya akan naik." },
+            { "en": "They assume that the bus is free.", "id": "Mereka menganggap bus itu gratis." }
+          ]
+        },
+        "examTrap": "Pilihan B whether terlihat masuk akal karena ada anggapan, tetapi whether dipakai untuk pertanyaan ya atau tidak."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "She admits ___ she made a mistake in the calculation.",
+        "options": [
+          { "id": "A", "text": "what" },
+          { "id": "B", "text": "that" },
+          { "id": "C", "text": "whom" },
+          { "id": "D", "text": "whose" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Admit that memperkenalkan anak kalimat pernyataan: dia membuat kesalahan dalam perhitungan.",
+        "stepByStep": [
+          "Kalimat menyatakan pengakuan, yaitu pernyataan.",
+          "Admit that diikuti anak kalimat pernyataan.",
+          "What, whom, dan whose tidak cocok sebagai penghubung pernyataan ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "What tidak cocok sebagai penghubung pernyataan ini." },
+          { "optionId": "C", "reasonId": "Whom untuk orang sebagai objek, tidak cocok dengan pengakuan ini." },
+          { "optionId": "D", "reasonId": "Whose menunjukkan kepemilikan, tidak cocok dengan pengakuan ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Admit that memperkenalkan pengakuan dalam bentuk anak kalimat pernyataan.",
+          "examples": [
+            { "en": "He admits that he forgot the date.", "id": "Dia mengakui bahwa dia lupa tanggalnya." },
+            { "en": "We admit that the plan was risky.", "id": "Kami mengakui bahwa rencananya berisiko." }
+          ]
+        },
+        "examTrap": "Pilihan D whose terlihat seperti kata yang berkaitan dengan orang, tetapi whose menunjukkan kepemilikan dan tidak cocok dengan pengakuan ini."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya tahu bahwa dia sudah pulang.",
+        "hint": "Saya tahu: I know. Bahwa: that. Sudah pulang: has gone home.",
+        "acceptedAnswers": ["I know that she has gone home.", "I know she has gone home."],
+        "modelAnswer": "I know that she has gone home.",
+        "commonErrors": [{ "pattern": "I know she has went home", "feedbackId": "Present perfect memakai has gone, bukan went." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak yakin apakah dia akan datang.",
+        "hint": "Tidak yakin: I am not sure. Apakah: whether. Akan datang: will come.",
+        "acceptedAnswers": ["I am not sure whether she will come.", "I am not sure if she will come."],
+        "modelAnswer": "I am not sure whether she will come.",
+        "commonErrors": [{ "pattern": "I am not sure that she will come", "feedbackId": "Untuk pertanyaan ya atau tidak, gunakan whether atau if." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami berharap bahwa hasilnya akan adil.",
+        "hint": "Berharap: we hope. Bahwa: that. Akan adil: will be fair.",
+        "acceptedAnswers": ["We hope that the result will be fair.", "We hope the result will be fair."],
+        "modelAnswer": "We hope that the result will be fair.",
+        "commonErrors": [{ "pattern": "We hope whether the result will be fair", "feedbackId": "Untuk pernyataan, gunakan that, bukan whether." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya menduga bahwa tugas itu sulit, tetapi saya mengakui bahwa saya belum mencobanya.",
+        "hint": "Menduga: I suppose. Mengakui: I admit. Belum mencobanya: have not tried it.",
+        "acceptedAnswers": [
+          "I suppose that the task is difficult, but I admit that I have not tried it.",
+          "I suppose the task is difficult, but I admit I have not tried it."
+        ],
+        "modelAnswer": "I suppose that the task is difficult, but I admit that I have not tried it.",
+        "commonErrors": [{ "pattern": "I suppose the task is difficult, but I admit whether I have not tried it", "feedbackId": "Admit diikuti that untuk pernyataan, bukan whether." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Mereka menganggap bahwa keputusan itu adil, dan semua orang setuju.",
+        "hint": "Menganggap: consider. Bahwa: that. Setuju: agree.",
+        "acceptedAnswers": [
+          "They consider that the decision is fair, and everyone agrees.",
+          "They consider the decision fair, and everyone agrees."
+        ],
+        "modelAnswer": "They consider that the decision is fair, and everyone agrees.",
+        "commonErrors": [{ "pattern": "They consider whether the decision is fair", "feedbackId": "Untuk pernyataan, gunakan that." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'She wondered ___ the answer was correct.'",
+        "options": [
+          { "id": "A", "text": "if" },
+          { "id": "B", "text": "that" },
+          { "id": "C", "text": "what" },
+          { "id": "D", "text": "which" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "If dipakai untuk pertanyaan ya atau tidak setelah wondered: apakah jawabannya benar.",
+        "stepByStep": [
+          "Pertanyaan yang dipikirkan adalah apakah jawabannya benar: ya atau tidak.",
+          "Setelah wondered, gunakan if untuk pertanyaan ya atau tidak.",
+          "That tidak cocok dengan pertanyaan, what dan which tidak cocok dengan ya atau tidak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "That dipakai untuk pernyataan, bukan pertanyaan setelah wondered." },
+          { "optionId": "C", "reasonId": "What menunjukkan hal atau benda, bukan ya atau tidak." },
+          { "optionId": "D", "reasonId": "Which menunjukkan pilihan benda, bukan ya atau tidak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Wonder if dan wonder whether untuk pertanyaan ya atau tidak.",
+          "examples": [
+            { "en": "I wonder if the shop is open.", "id": "Saya bertanya-tanya apakah tokonya buka." },
+            { "en": "She wondered whether the train had left.", "id": "Dia bertanya-tanya apakah kereta sudah berangkat." }
+          ]
+        },
+        "examTrap": "Pilihan B that terlihat cocok karena ada kata kerja pikiran, tetapi that tidak dipakai untuk pertanyaan ya atau tidak."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I realize that you is right." },
+          { "id": "B", "text": "I realize whom you are right." },
+          { "id": "C", "text": "I realize which you are right." },
+          { "id": "D", "text": "I realize that you are right." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Realize that memperkenalkan pernyataan, dengan subjek you yang memakai are.",
+        "stepByStep": [
+          "Realize that memperkenalkan anak kalimat pernyataan.",
+          "Subjek you memakai are, bukan is.",
+          "Whom dan which tidak cocok sebagai penghubung pernyataan ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Subjek you memakai are, bukan is." },
+          { "optionId": "B", "reasonId": "Whom tidak cocok sebagai penghubung pernyataan ini." },
+          { "optionId": "C", "reasonId": "Which tidak cocok sebagai penghubung pernyataan ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Realize that memperkenalkan pernyataan. Kata kerja dalam anak kalimat mengikuti subjeknya.",
+          "examples": [
+            { "en": "I realize that you are tired.", "id": "Saya menyadari bahwa kamu lelah." },
+            { "en": "She realizes that they are late.", "id": "Dia menyadari bahwa mereka terlambat." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena ada that, tetapi you memakai are, bukan is."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "In 'I assume that the class is cancelled,' what is the function of 'that the class is cancelled'?",
+        "options": [
+          { "id": "A", "text": "adjective clause" },
+          { "id": "B", "text": "noun clause" },
+          { "id": "C", "text": "adverb clause" },
+          { "id": "D", "text": "prepositional phrase" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Anak kalimat itu adalah objek dari assume, sehingga berfungsi sebagai anak kalimat kata benda.",
+        "stepByStep": [
+          "Anak kalimat itu dimulai dengan that dan menjadi objek assume.",
+          "Anak kalimat yang berfungsi sebagai objek atau kata benda disebut noun clause.",
+          "Adjective clause menerangkan kata benda, adverb clause menunjukkan waktu atau alasan, dan prepositional phrase dimulai dengan kata depan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Adjective clause menerangkan kata benda, bukan objek assume." },
+          { "optionId": "C", "reasonId": "Adverb clause menunjukkan waktu atau alasan, bukan objek kata kerja." },
+          { "optionId": "D", "reasonId": "Prepositional phrase dimulai dengan kata depan, dan that the class is cancelled tidak dimulai dengan kata depan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Noun clause bisa menjadi objek kata kerja pikiran, dan dimulai dengan that, whether, atau if.",
+          "examples": [
+            { "en": "I know that the test is hard.", "id": "Saya tahu bahwa tesnya sulit." },
+            { "en": "We doubt whether the road is open.", "id": "Kami meragukan apakah jalannya terbuka." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena ada kata that, tetapi dalam kalimat ini that tidak menerangkan kata benda."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Do you ___ that she is ready for the interview?'",
+        "options": [
+          { "id": "A", "text": "reveal" },
+          { "id": "B", "text": "believe" },
+          { "id": "C", "text": "ate" },
+          { "id": "D", "text": "wonders" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Believe adalah kata kerja pikiran yang cocok diikuti anak kalimat that untuk pernyataan.",
+        "stepByStep": [
+          "Kalimat meminta pendapat tentang kesiapan seseorang.",
+          "Believe adalah kata kerja pikiran yang diikuti that.",
+          "Ate adalah kata kerja lampau yang tidak berhubungan, wonders berbentuk tunggal yang tidak cocok dengan do you, dan reveal tidak cocok untuk pendapat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Reveal berarti mengungkapkan, tidak cocok untuk meminta pendapat." },
+          { "optionId": "C", "reasonId": "Ate adalah kata kerja makan, tidak cocok dengan kalimat ini." },
+          { "optionId": "D", "reasonId": "Wonders tidak cocok dengan do you yang memakai bentuk dasar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Do you believe that ___ untuk meminta pendapat tentang sebuah pernyataan.",
+          "examples": [
+            { "en": "Do you believe that the plan will work?", "id": "Apakah kamu percaya bahwa rencananya akan berhasil?" },
+            { "en": "Do you believe that she is honest?", "id": "Apakah kamu percaya bahwa dia jujur?" }
+          ]
+        },
+        "examTrap": "Pilihan A reveal terlihat cocok karena ada anak kalimat yang diungkap, tetapi maknanya tidak cocok untuk meminta pendapat."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'expect' correctly?",
+        "options": [
+          { "id": "A", "text": "I expect the bus will comes soon." },
+          { "id": "B", "text": "I expect what the bus will come soon." },
+          { "id": "C", "text": "I expect that the bus will come soon." },
+          { "id": "D", "text": "I expect, the bus come soon." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Expect that memperkenalkan anak kalimat pernyataan, dengan kata kerja will come yang benar.",
+        "stepByStep": [
+          "Expect that memperkenalkan anak kalimat kata benda.",
+          "Setelah will, kata kerja bentuk dasar: come.",
+          "Pilihan A memakai comes setelah will. Pilihan B memakai what untuk pernyataan. Pilihan D tidak punya penghubung dan kata kerja yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah will, kata kerja bentuk dasar: come, bukan comes." },
+          { "optionId": "B", "reasonId": "What tidak cocok sebagai penghubung pernyataan ini." },
+          { "optionId": "D", "reasonId": "Kalimat tidak punya penghubung dan kata kerja yang lengkap." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Expect that memperkenalkan pernyataan tentang sesuatu yang diharapkan akan terjadi.",
+          "examples": [
+            { "en": "We expect that the shop will open soon.", "id": "Kami berharap tokonya akan segera buka." },
+            { "en": "They expect that the rain will stop.", "id": "Mereka berharap hujannya akan berhenti." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena ada that-like pattern, tetapi comes salah setelah will."
+      }
+    ]
+  }
+}

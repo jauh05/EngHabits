@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 8 (konten hari 38-44 dan bank minggu 6)
+
+1. **Pola minggu 6.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit. Hari 39, 41, 43 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 38, 40, 42 mendengarkan. Hari 44 review dengan naskah.
+2. **Topik anak kalimat dan penghubung.** Kurikulum memakai label "TOEFL Structure". Semua teks, naskah, dan soal ditulis sendiri. Tidak ada soal resmi yang disalin.
+3. **Validator menangkap dua jenis masalah.** Tanda titik tiga di penjelasan dan hint (hari 39, 42, 44, dan bank), serta hari 44 A4 yang bertingkat sulit tetapi belum punya examTrap dan ruleAndExamples. Keduanya sudah diperbaiki.
+4. **Bank minggu 6 sudah lolos validator.** 30 soal sulit. Jawaban benar tersebar: A 8, B 8, C 7, D 7. Topik: penghubung antarkalimat, anak kalimat keterangan, anak kalimat sifat, anak kalimat kata benda, dan frasa yang diringkas.
+5. **Batas kualitas tetap sama.** Validator lolos, tetapi audit kalimat per kalimat belum dilakukan. Beberapa pengecoh dengan `whether`, `whenever`, dan `as soon as` perlu dibaca ulang saat audit mutu di Fase 12.
+
 ## 2026-10-21: Fase 7 (konten hari 31-37 dan bank minggu 5)
 
 1. **Pola minggu 5.** Komposisi 3 mudah, 6 sedang, 6 sulit untuk 15 soal inti sesuai target minggu 5. Hard Challenge 5 soal sulit. Hari 31, 33, 35 membaca (teks Bulan 2, 225 sampai 385 kata). Hari 32, 34, 36 mendengarkan. Hari 37 review dengan naskah.

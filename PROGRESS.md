@@ -14,8 +14,9 @@ Terakhir diperbarui: 2026-10-21
 | 4. Konten hari 8-14 dan bank Hard minggu 2 | Selesai (disetujui) |
 | 5. Konten hari 15-21 dan bank Hard minggu 3 | Selesai, menunggu persetujuan kualitas |
 | 6. Konten hari 22-30 dan bank Hard minggu 4 | Selesai (disetujui) |
-| 7. Konten hari 31-37 dan bank Hard minggu 5 | Selesai, menunggu persetujuan kualitas |
-| 8-10. Konten hari 38-90 | Belum mulai |
+| 7. Konten hari 31-37 dan bank Hard minggu 5 | Selesai (disetujui) |
+| 8. Konten hari 38-44 dan bank Hard minggu 6 | Selesai, menunggu persetujuan kualitas |
+| 9-10. Konten hari 45-90 | Belum mulai |
 | 11. Fitur lanjutan (sesi perbaikan, latihan bebas, laporan kesiapan, statistik, ekspor/impor, koreksi AI, pengingat, PWA offline penuh) | Belum mulai |
 | 11b. Deploy GitHub Pages | Belum mulai |
 | 12. QA akhir | Belum mulai |
@@ -34,8 +35,8 @@ Terakhir diperbarui: 2026-10-21
 
 ## Konten
 
-- Hari konten yang lolos validator: **37 dari 90** (hari 1 sampai 37).
-- Bank Hard minggu 1 sampai 5: 30 soal per minggu.
+- Hari konten yang lolos validator: **44 dari 90** (hari 1 sampai 44).
+- Bank Hard minggu 1 sampai 6: 30 soal per minggu.
 - Hari 1 awalnya dibuat untuk menguji sistem, lalu dipakai sebagai acuan standar Fase 3.
 
 ## Keputusan penting
@@ -44,5 +45,5 @@ Lihat [DECISIONS.md](DECISIONS.md).
 
 ## Sesi berikutnya
 
-- Menunggu persetujuan kualitas hari 31 sampai 37 dan bank minggu 5. Setelah disetujui: Fase 8 (minggu 6, hari 38 sampai 44).
+- Menunggu persetujuan kualitas hari 38 sampai 44 dan bank minggu 6. Setelah disetujui: Fase 9 (minggu 7, hari 45 sampai 51).
 - Audit mutu penuh tetap dijadwalkan di Fase 12.

@@ -1,0 +1,604 @@
+{
+  "day": 43,
+  "week": 6,
+  "month": 2,
+  "title": "Reduced Clauses: V-ing vs V3",
+  "topic": "Memendekkan anak kalimat menjadi frasa V-ing atau V3",
+  "skillFocus": "reading",
+  "objectives": [
+    "Mengubah anak kalimat menjadi frasa V-ing atau V3",
+    "Mengenali gerund sebagai kata benda",
+    "Menghindari kalimat dengan subjek yang tidak cocok"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "participle", "pronunciationId": "par-TIS-i-pl (tekanan di TIS)", "pos": "Noun", "meaningId": "partisip, bentuk -ing atau V3", "example": "A participle can describe a noun.", "exampleId": "Partisip bisa menerangkan kata benda." },
+      { "no": 2, "en": "gerund", "pronunciationId": "JER-und (tekanan di JER)", "pos": "Noun", "meaningId": "gerund, kata benda dari kata kerja -ing", "example": "Reading is a gerund here.", "exampleId": "Reading di sini adalah gerund." },
+      { "no": 3, "en": "reduced", "pronunciationId": "ri-DYOOST (tekanan di DYOOST)", "pos": "Adj", "meaningId": "diringkas, dipendekkan", "example": "The clause is reduced to a phrase.", "exampleId": "Anak kalimat itu diringkas menjadi frasa." },
+      { "no": 4, "en": "shortened", "pronunciationId": "SHORT-end (tekanan di SHORT)", "pos": "Adj", "meaningId": "dipendekkan", "example": "The shortened sentence is clear.", "exampleId": "Kalimat yang dipendekkan itu jelas." },
+      { "no": 5, "en": "following", "pronunciationId": "FOL-oh-ing (tekanan di FOL)", "pos": "Adj", "meaningId": "yang mengikuti, berikut", "example": "The following list is short.", "exampleId": "Daftar berikut ini pendek." },
+      { "no": 6, "en": "having", "pronunciationId": "HAV-ing (tekanan di HAV)", "pos": "Verb", "meaningId": "memiliki (bentuk -ing)", "example": "Having finished, she went home.", "exampleId": "Setelah selesai, dia pulang." },
+      { "no": 7, "en": "being", "pronunciationId": "BEE-ing (tekanan di BEE)", "pos": "Verb", "meaningId": "menjadi (bentuk -ing)", "example": "Being tired, he slept early.", "exampleId": "Karena lelah, dia tidur lebih awal." },
+      { "no": 8, "en": "leaving", "pronunciationId": "LEE-ving (tekanan di LEE)", "pos": "Verb", "meaningId": "meninggalkan (bentuk -ing)", "example": "Leaving the room, he smiled.", "exampleId": "Sambil meninggalkan ruangan, dia tersenyum." },
+      { "no": 9, "en": "presenting", "pronunciationId": "pri-ZEN-ting (tekanan di ZEN)", "pos": "Verb", "meaningId": "mempresentasikan (bentuk -ing)", "example": "Presenting the report took an hour.", "exampleId": "Mempresentasikan laporan memakan waktu satu jam." },
+      { "no": 10, "en": "opening", "pronunciationId": "O-pe-ning (tekanan di O)", "pos": "Verb", "meaningId": "membuka (bentuk -ing)", "example": "Opening the door, she called us.", "exampleId": "Sambil membuka pintu, dia memanggil kami." }
+    ],
+    "tip": "Anak kalimat yang subjeknya sama dengan subjek klausa utama bisa diringkas. Gunakan V-ing untuk makna aktif atau sedang berlangsung, dan V3 untuk makna pasif atau selesai."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["reduced clauses English", "participle phrases TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang anak kalimat yang diringkas menjadi frasa V-ing dan V3, dengan contoh participle dan gerund.",
+      "watchFor": [
+        "V-ing untuk makna aktif",
+        "V3 untuk makna pasif",
+        "Perbedaan participle dan gerund"
+      ]
+    },
+    "lesson": {
+      "intro": "Anak kalimat yang panjang sering bisa diringkas menjadi frasa. Frasa itu lebih singkat, tetapi tetap memberi informasi yang sama. Kunci utamanya adalah subjek yang sama dan bentuk kata kerja yang tepat.",
+      "sections": [
+        {
+          "heading": "V-ing untuk makna aktif",
+          "bodyMd": "Jika anak kalimat bermakna aktif atau sedang berlangsung, gunakan **V-ing**: **The student who is sitting by the window is my friend.** menjadi **The student sitting by the window is my friend.**"
+        },
+        {
+          "heading": "V3 untuk makna pasif",
+          "bodyMd": "Jika anak kalimat bermakna pasif atau selesai, gunakan **V3**: **The house, which was built in 1900, has a garden.** menjadi **The house built in 1900 has a garden.**"
+        },
+        {
+          "heading": "Gerund dan participle",
+          "bodyMd": "**Gerund** adalah kata benda dari kata kerja -ing: **Reading is my hobby.** Participle adalah bentuk -ing atau V3 yang menerangkan kata benda atau memendekkan anak kalimat: **Leaving the room, she smiled.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Aktif", "pattern": "anak kalimat aktif → V-ing + sisa kalimat" },
+        { "label": "Pasif", "pattern": "anak kalimat pasif → V3 + sisa kalimat" },
+        { "label": "Selesai", "pattern": "having + V3 untuk kejadian yang lebih dulu" },
+        { "label": "Gerund", "pattern": "V-ing sebagai subjek atau objek kata benda" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The student sitting by the window is my friend.", "id": "Siswa yang duduk di dekat jendela itu temanku." },
+          { "en": "The bridge built in 1930 is still strong.", "id": "Jembatan yang dibangun tahun 1930 masih kuat." },
+          { "en": "Having finished the task, she went home.", "id": "Setelah menyelesaikan tugas, dia pulang." },
+          { "en": "Reading is my favorite hobby.", "id": "Membaca adalah hobi favoritku." },
+          { "en": "Leaving the room, he turned off the light.", "id": "Sambil meninggalkan ruangan, dia mematikan lampu." }
+        ],
+        "negative": [
+          { "en": "The road not closed by the storm is open.", "id": "Jalan yang tidak ditutup oleh badai itu terbuka." },
+          { "en": "Not having finished the work, he stayed late.", "id": "Karena belum menyelesaikan pekerjaan, dia tinggal lebih lama." },
+          { "en": "The book not written by the author is popular.", "id": "Buku yang tidak ditulis oleh penulisnya itu populer." },
+          { "en": "Not being careful, she dropped the cup.", "id": "Karena tidak hati-hati, dia menjatuhkan cangkir itu." },
+          { "en": "The team not presenting today will meet tomorrow.", "id": "Tim yang tidak mempresentasikan hari ini akan bertemu besok." }
+        ],
+        "question": [
+          { "en": "Who is the student sitting by the window?", "id": "Siapa siswa yang duduk di dekat jendela itu?" },
+          { "en": "Is the house built in 1900 still standing?", "id": "Apakah rumah yang dibangun tahun 1900 masih berdiri?" },
+          { "en": "Having finished the task, did she go home?", "id": "Setelah menyelesaikan tugas, apakah dia pulang?" },
+          { "en": "Is reading your favorite hobby?", "id": "Apakah membaca hobi favoritmu?" },
+          { "en": "Leaving the room, did he turn off the light?", "id": "Sambil meninggalkan ruangan, apakah dia mematikan lampu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The student sit by the window is my friend.", "right": "The student sitting by the window is my friend.", "whyId": "Makna aktif dan sedang berlangsung memakai V-ing." },
+        { "wrong": "The house building in 1900 has a garden.", "right": "The house built in 1900 has a garden.", "whyId": "Makna pasif memakai V3, bukan V-ing." },
+        { "wrong": "Having finish the task, she went home.", "right": "Having finished the task, she went home.", "whyId": "Setelah having, gunakan V3: finished." },
+        { "wrong": "Leaving the room, the light was turned off by him.", "right": "Leaving the room, he turned off the light.", "whyId": "Subjek frasa dan subjek klausa utama harus sama." },
+        { "wrong": "Being tired, the lesson was hard for him.", "right": "Being tired, he found the lesson hard.", "whyId": "Subjek yang diringkas harus orang yang lelah, yaitu he." },
+        { "wrong": "Reads is my favorite hobby.", "right": "Reading is my favorite hobby.", "whyId": "Gerund sebagai subjek memakai V-ing." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Mengurangi Kata dalam Kalimat",
+    "text": "Writers often shorten long sentences by using reduced clauses. A reduced clause is a clause that has been shortened, usually to a participle phrase. For example, The student who is sitting by the window is my friend can be reduced to The student sitting by the window is my friend. The participle phrase sitting by the window describes the student.\n\nA present participle ends in -ing, while a past participle usually ends in -ed or uses a third form such as written or built. Present participles often replace active clauses, and past participles often replace passive clauses. Consider the sentence The house, which was built in 1900, has a large garden. It can be reduced to The house built in 1900 has a large garden.\n\nBeing and having can also appear in reduced clauses. In the sentence Because he was being careful, he finished early, the reduced form is Being careful, he finished early. In a similar way, having finished the project, the team went home. Here having finished is a perfect participle, and the word following it tells the reader what happened.\n\nA gerund is different. It is a noun formed from a verb with -ing, such as reading or writing. Gerunds do the work of nouns, while participles do the work of adjectives or adverbs. For example, Reading is my favorite hobby uses a gerund as the subject.\n\nPresenting a report requires confidence. Leaving the room in silence, the speaker showed respect. Opening the window can help the air circulate. In each sentence, the participle phrase is shorter than a full clause, which makes the text faster to read.\n\nReduced clauses are useful, but they can also cause confusion when the subject is unclear. Good writers check that the participle phrase refers clearly to the subject of the sentence. When you revise your work, try to shorten a clause and then check whether the meaning is still clear.",
+    "glossary": [
+      { "en": "phrase", "id": "frasa" },
+      { "en": "hobby", "id": "hobi" },
+      { "en": "silence", "id": "keheningan" },
+      { "en": "circulate", "id": "bersirkulasi" },
+      { "en": "confusion", "id": "kebingungan" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is a reduced clause?",
+        "options": [
+          { "id": "A", "text": "a clause with no verb" },
+          { "id": "B", "text": "a clause that has been shortened, usually to a participle phrase" },
+          { "id": "C", "text": "a clause that asks a question" },
+          { "id": "D", "text": "a clause that begins with the word and" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'A reduced clause is a clause that has been shortened, usually to a participle phrase', artinya anak kalimat yang dipendekkan menjadi frasa partisip.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Anak kalimat yang diringkas biasanya masih punya kata kerja dalam bentuk participle." },
+          { "optionId": "C", "reasonId": "Pertanyaan tidak disebut sebagai definisi anak kalimat yang diringkas." },
+          { "optionId": "D", "reasonId": "Kata and tidak disebut dalam definisi ini." }
+        ],
+        "evidence": "a clause that has been shortened, usually to a participle phrase"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What does the participle phrase 'sitting by the window' describe?",
+        "options": [
+          { "id": "A", "text": "the window" },
+          { "id": "B", "text": "the teacher" },
+          { "id": "C", "text": "the student" },
+          { "id": "D", "text": "the house" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'The participle phrase sitting by the window describes the student', artinya frasa itu menerangkan siswa.",
+        "stepByStep": [
+          "Cari sitting by the window di teks.",
+          "Teks menyebut frasa itu menerangkan the student.",
+          "Jendela, guru, dan rumah tidak disebut sebagai yang diterangkan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Jendela hanya bagian dari frasa, bukan yang diterangkan." },
+          { "optionId": "B", "reasonId": "Guru tidak disebut dalam kalimat ini." },
+          { "optionId": "D", "reasonId": "Rumah tidak disebut dalam kalimat ini." }
+        ],
+        "evidence": "The participle phrase sitting by the window describes the student"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Which form does a past participle usually have?",
+        "options": [
+          { "id": "A", "text": "the base form" },
+          { "id": "B", "text": "-ing" },
+          { "id": "C", "text": "a noun form" },
+          { "id": "D", "text": "-ed or a third form such as written" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'a past participle usually ends in -ed or uses a third form such as written or built', artinya partisip lampau biasanya berakhiran -ed atau bentuk ketiga.",
+        "stepByStep": [
+          "Cari past participle di teks.",
+          "Teks menyebut bentuknya -ed atau bentuk ketiga seperti written dan built.",
+          "Bentuk dasar, -ing, dan bentuk kata benda bukan bentuk past participle."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bentuk dasar bukan past participle." },
+          { "optionId": "B", "reasonId": "Bentuk -ing adalah present participle." },
+          { "optionId": "C", "reasonId": "Bentuk kata benda tidak disebut sebagai past participle." }
+        ],
+        "evidence": "a past participle usually ends in -ed or uses a third form such as written or built"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What is the function of a gerund, according to the passage?",
+        "options": [
+          { "id": "A", "text": "It works as a noun." },
+          { "id": "B", "text": "It works as an adjective." },
+          { "id": "C", "text": "It works as an adverb only." },
+          { "id": "D", "text": "It works as a question word." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Gerunds do the work of nouns', artinya gerund berfungsi sebagai kata benda.",
+        "stepByStep": [
+          "Cari gerund di teks.",
+          "Teks menyebut gerund melakukan pekerjaan kata benda.",
+          "Participle yang bekerja sebagai kata sifat atau keterangan berbeda dari gerund."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut participle yang bekerja sebagai kata sifat, bukan gerund." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut gerund hanya sebagai keterangan." },
+          { "optionId": "D", "reasonId": "Gerund bukan kata tanya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gerund adalah kata kerja -ing yang berfungsi sebagai kata benda.",
+          "examples": [
+            { "en": "Swimming is good for your health.", "id": "Berenang baik untuk kesehatanmu." },
+            { "en": "Writing takes practice.", "id": "Menulis butuh latihan." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat benar karena -ing sering berupa kata sifat, tetapi teks membedakan gerund dari participle yang menerangkan kata benda.",
+        "evidence": "Gerunds do the work of nouns"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Why do good writers check the participle phrase?",
+        "options": [
+          { "id": "A", "text": "to make the text longer" },
+          { "id": "B", "text": "to make sure it refers clearly to the subject" },
+          { "id": "C", "text": "to replace all the nouns" },
+          { "id": "D", "text": "to avoid using the word following" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Good writers check that the participle phrase refers clearly to the subject of the sentence', artinya penulis baik memastikan frasa itu jelas mengacu pada subjek.",
+        "stepByStep": [
+          "Cari participle phrase di paragraf terakhir.",
+          "Teks menyebut penulis memeriksa apakah frasa itu jelas mengacu pada subjek.",
+          "Membuat teks lebih panjang, mengganti semua kata benda, dan menghindari kata following tidak disebut sebagai tujuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut penulis memendekkan kalimat, bukan memperpanjangnya." },
+          { "optionId": "C", "reasonId": "Mengganti semua kata benda tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Kata following tidak disebut sebagai hal yang harus dihindari." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa partisip harus mengacu pada subjek yang jelas agar makna kalimat tidak membingungkan.",
+          "examples": [
+            { "en": "Walking home, I saw a bird.", "id": "Sambil berjalan pulang, saya melihat seekor burung." },
+            { "en": "Having read the notes, she answered quickly.", "id": "Setelah membaca catatan, dia menjawab dengan cepat." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena penulis menyebut membaca ulang, tetapi tujuannya adalah memastikan kejelasan, bukan memperpanjang.",
+        "evidence": "refers clearly to the subject of the sentence"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The boy ___ near the gate is my cousin.",
+        "options": [
+          { "id": "A", "text": "standing" },
+          { "id": "B", "text": "stood" },
+          { "id": "C", "text": "stand" },
+          { "id": "D", "text": "to stand" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Standing adalah present participle yang menerangkan the boy dengan makna aktif.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Stood adalah simple past, tidak cocok sebagai frasa yang memendekkan anak kalimat aktif." },
+          { "optionId": "C", "reasonId": "Stand adalah bentuk dasar, tidak cocok untuk memendekkan anak kalimat." },
+          { "optionId": "D", "reasonId": "To stand adalah infinitif, tidak cocok sebagai frasa yang menerangkan the boy." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The house ___ in 1990 needs repairs.",
+        "options": [
+          { "id": "A", "text": "building" },
+          { "id": "B", "text": "built" },
+          { "id": "C", "text": "build" },
+          { "id": "D", "text": "to build" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Built adalah V3 yang menunjukkan makna pasif: rumah yang dibangun pada 1990.",
+        "stepByStep": [
+          "Rumah itu dibangun, jadi maknanya pasif.",
+          "Makna pasif dalam frasa partisip memakai V3: built.",
+          "Building bermakna aktif, build adalah bentuk dasar, dan to build adalah infinitif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Building bermakna aktif, padahal rumah itu dibangun oleh orang lain." },
+          { "optionId": "C", "reasonId": "Build adalah bentuk dasar, tidak cocok untuk memendekkan anak kalimat pasif." },
+          { "optionId": "D", "reasonId": "To build adalah infinitif, tidak cocok dengan makna pasif." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "___ by the teacher, the essay was returned to the class.",
+        "options": [
+          { "id": "A", "text": "Corrected" },
+          { "id": "B", "text": "Correcting" },
+          { "id": "C", "text": "Correct" },
+          { "id": "D", "text": "Corrects" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Corrected by the teacher adalah frasa V3 dengan makna pasif: esai itu dikoreksi.",
+        "stepByStep": [
+          "Esai itu dikoreksi oleh guru, jadi maknanya pasif.",
+          "Frasa pasif yang memendekkan anak kalimat memakai V3: corrected.",
+          "Correcting bermakna aktif, correct adalah bentuk dasar, dan corrects adalah present tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Correcting bermakna aktif, padahal esai itu dikoreksi oleh guru." },
+          { "optionId": "C", "reasonId": "Correct adalah bentuk dasar, tidak cocok untuk frasa pasif." },
+          { "optionId": "D", "reasonId": "Corrects adalah present tunggal, bukan frasa partisip." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa dengan makna pasif memakai V3 di awal kalimat.",
+          "examples": [
+            { "en": "Written in pencil, the note was hard to read.", "id": "Ditulis dengan pensil, catatan itu sulit dibaca." },
+            { "en": "Opened by the staff, the box was empty.", "id": "Dibuka oleh staf, kotak itu kosong." }
+          ]
+        },
+        "examTrap": "Pilihan B correcting terlihat benar karena ada kata kerja utama, tetapi maknanya aktif, sedangkan esai itu dikoreksi."
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "___ in the library all day, Ali forgot about lunch.",
+        "options": [
+          { "id": "A", "text": "Studied" },
+          { "id": "B", "text": "Studying" },
+          { "id": "C", "text": "To study" },
+          { "id": "D", "text": "Study" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Studying adalah present participle dengan makna aktif: Ali yang belajar di perpustakaan.",
+        "stepByStep": [
+          "Ali yang belajar, jadi maknanya aktif.",
+          "Makna aktif dalam frasa partisip memakai V-ing: studying.",
+          "Studied adalah V3 pasif, to study adalah infinitif, dan study adalah bentuk dasar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Studied adalah V3 yang bermakna pasif, tidak cocok dengan Ali yang belajar." },
+          { "optionId": "C", "reasonId": "To study adalah infinitif, tidak cocok sebagai frasa partisip." },
+          { "optionId": "D", "reasonId": "Study adalah bentuk dasar, tidak cocok untuk frasa yang memendekkan anak kalimat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa aktif yang memendekkan anak kalimat memakai V-ing, dan subjeknya harus sama dengan klausa utama.",
+          "examples": [
+            { "en": "Working late, Rina finished the report.", "id": "Sambil bekerja larut malam, Rina menyelesaikan laporannya." },
+            { "en": "Reading the book, he fell asleep.", "id": "Sambil membaca buku, dia tertidur." }
+          ]
+        },
+        "examTrap": "Pilihan A studied terlihat benar karena artinya sudah terjadi, tetapi maknanya pasif dan tidak cocok dengan Ali yang belajar."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The students ___ their projects will present them tomorrow.",
+        "options": [
+          { "id": "A", "text": "presented" },
+          { "id": "B", "text": "present" },
+          { "id": "C", "text": "presenting" },
+          { "id": "D", "text": "to present" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Presenting adalah present participle dengan makna aktif: para siswa yang mempresentasikan proyek mereka.",
+        "stepByStep": [
+          "Siswa mempresentasikan proyek mereka, jadi maknanya aktif.",
+          "Makna aktif dalam frasa partisip memakai V-ing: presenting.",
+          "Presented adalah V3 pasif, present adalah bentuk dasar, dan to present adalah infinitif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Presented adalah V3 pasif, tidak cocok dengan makna aktif siswa." },
+          { "optionId": "B", "reasonId": "Present adalah bentuk dasar, tidak cocok untuk memendekkan anak kalimat." },
+          { "optionId": "D", "reasonId": "To present adalah infinitif, tidak cocok untuk frasa ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa aktif yang menerangkan kata benda memakai V-ing.",
+          "examples": [
+            { "en": "The team leading the project is ready.", "id": "Tim yang memimpin proyek itu sudah siap." },
+            { "en": "The people waiting outside are tired.", "id": "Orang-orang yang menunggu di luar itu lelah." }
+          ]
+        },
+        "examTrap": "Pilihan A presented terlihat cocok karena artinya sudah terjadi, tetapi para siswa sendiri yang mempresentasikan, sehingga aktif."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Membaca buku itu adalah kebiasaan saya.",
+        "hint": "Membaca: reading. Kebiasaan: habit.",
+        "acceptedAnswers": ["Reading that book is my habit.", "Reading the book is my habit."],
+        "modelAnswer": "Reading that book is my habit.",
+        "commonErrors": [{ "pattern": "Read that book is my habit", "feedbackId": "Gerund sebagai subjek memakai V-ing: reading." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Anak yang sedang duduk di sana adalah adik laki-laki saya.",
+        "hint": "Yang sedang duduk: sitting. Adik laki-laki: younger brother.",
+        "acceptedAnswers": [
+          "The child sitting there is my younger brother.",
+          "The child who is sitting there is my younger brother."
+        ],
+        "modelAnswer": "The child sitting there is my younger brother.",
+        "commonErrors": [{ "pattern": "The child sit there is my younger brother", "feedbackId": "Makna aktif dan sedang berlangsung memakai V-ing." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Rumah yang dibangun tahun lalu itu sangat besar.",
+        "hint": "Yang dibangun: built. Tahun lalu: last year. Sangat besar: very large.",
+        "acceptedAnswers": ["The house built last year is very large.", "The house, built last year, is very large."],
+        "modelAnswer": "The house built last year is very large.",
+        "commonErrors": [{ "pattern": "The house building last year is very large", "feedbackId": "Makna pasif memakai V3: built." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Setelah menyelesaikan tugas, dia pulang.",
+        "hint": "Setelah menyelesaikan: having finished. Pulang: went home.",
+        "acceptedAnswers": ["Having finished the task, she went home.", "Having finished her task, she went home."],
+        "modelAnswer": "Having finished the task, she went home.",
+        "commonErrors": [{ "pattern": "Having finish the task", "feedbackId": "Setelah having, gunakan V3: finished." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Karena dia sedang sibuk, dia tidak bisa datang.",
+        "hint": "Karena sedang sibuk: being busy. Tidak bisa datang: could not come.",
+        "acceptedAnswers": ["Being busy, she could not come.", "Being busy, she was unable to come."],
+        "modelAnswer": "Being busy, she could not come.",
+        "commonErrors": [{ "pattern": "Being busy, she can not come", "feedbackId": "Pada kalimat lampau, gunakan could." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'The students ___ in the hall listened carefully.'",
+        "options": [
+          { "id": "A", "text": "sat" },
+          { "id": "B", "text": "sitting" },
+          { "id": "C", "text": "sit" },
+          { "id": "D", "text": "sits" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Sitting adalah present participle yang menerangkan the students dengan makna aktif.",
+        "stepByStep": [
+          "Siswa yang duduk di aula, jadi maknanya aktif.",
+          "Frasa aktif yang menerangkan kata benda memakai V-ing: sitting.",
+          "Sat adalah simple past, sit adalah bentuk dasar, dan sits adalah present tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Sat adalah simple past, tidak cocok dengan frasa yang menerangkan siswa." },
+          { "optionId": "C", "reasonId": "Sit adalah bentuk dasar, tidak cocok untuk memendekkan anak kalimat." },
+          { "optionId": "D", "reasonId": "Sits adalah present tunggal, tidak cocok dengan students yang jamak." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa aktif yang menerangkan kata benda memakai V-ing.",
+          "examples": [
+            { "en": "The girls playing outside are my friends.", "id": "Gadis-gadis yang bermain di luar itu teman-teman saya." },
+            { "en": "The boys waiting here are early.", "id": "Anak-anak laki-laki yang menunggu di sini datang lebih awal." }
+          ]
+        },
+        "examTrap": "Pilihan A sat terlihat benar karena sudah terjadi, tetapi frasa yang memendekkan anak kalimat aktif memakai V-ing."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence uses a gerund as the subject?",
+        "options": [
+          { "id": "A", "text": "Swimming is good for your health." },
+          { "id": "B", "text": "Swimming in the lake, the boy was cold." },
+          { "id": "C", "text": "The swimming pool is open." },
+          { "id": "D", "text": "He is swimming now." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Swimming adalah gerund sebagai subjek kalimat: berenang itu baik untuk kesehatan.",
+        "stepByStep": [
+          "Gerund adalah kata benda dari kata kerja -ing.",
+          "Pada pilihan A, swimming adalah subjek dari is good.",
+          "Pilihan B adalah participle, pilihan C menerangkan pool, dan pilihan D adalah present continuous."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Swimming di sini adalah participle yang menerangkan boy, bukan subjek kalimat." },
+          { "optionId": "C", "reasonId": "Swimming di sini menerangkan pool, bukan subjek kalimat." },
+          { "optionId": "D", "reasonId": "Swimming di sini adalah bagian dari present continuous, bukan gerund." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Gerund sebagai subjek memakai V-ing dan bekerja seperti kata benda.",
+          "examples": [
+            { "en": "Reading helps me relax.", "id": "Membaca membantu saya bersantai." },
+            { "en": "Writing takes patience.", "id": "Menulis butuh kesabaran." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak seperti gerund karena ada swimming, tetapi kata itu hanya menerangkan pool."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "In 'The letter, written by my aunt, arrived today,' which phrase is the reduced clause?",
+        "options": [
+          { "id": "A", "text": "The letter arrived today." },
+          { "id": "B", "text": "my aunt" },
+          { "id": "C", "text": "written by my aunt" },
+          { "id": "D", "text": "arrived today" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Written by my aunt adalah anak kalimat yang diringkas dengan V3, dan maknanya pasif.",
+        "stepByStep": [
+          "Anak kalimat yang diringkas diapit koma di tengah kalimat.",
+          "Frasa written by my aunt memakai V3, dan maknanya pasif.",
+          "The letter arrived today adalah kalimat utama, sedangkan my aunt adalah pelaku dalam frasa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "The letter arrived today adalah kalimat utama, bukan anak kalimat yang diringkas." },
+          { "optionId": "B", "reasonId": "My aunt hanya bagian dari frasa, bukan anak kalimat yang diringkas." },
+          { "optionId": "D", "reasonId": "Arrived today adalah kata kerja utama, bukan frasa yang diringkas." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Anak kalimat pasif yang diringkas memakai V3 dan bisa menerangkan kata benda sebelumnya.",
+          "examples": [
+            { "en": "The cake, baked by my mother, tastes great.", "id": "Kue yang dipanggang ibu saya itu enak sekali." },
+            { "en": "The book, written in English, is popular.", "id": "Buku yang ditulis dalam bahasa Inggris itu populer." }
+          ]
+        },
+        "examTrap": "Pilihan D arrived today terlihat seperti frasa yang diringkas, tetapi itu adalah kata kerja utama kalimat."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct subject: 'Opening the box, ___ found a note inside.'",
+        "options": [
+          { "id": "A", "text": "the box" },
+          { "id": "B", "text": "I" },
+          { "id": "C", "text": "the note" },
+          { "id": "D", "text": "the table" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek frasa opening harus sama dengan subjek klausa utama, yaitu I yang membuka kotak.",
+        "stepByStep": [
+          "Frasa opening the box menggambarkan tindakan membuka kotak.",
+          "Orang yang membuka kotak harus menjadi subjek klausa utama: I.",
+          "The box, the note, dan the table tidak bisa membuka kotak dalam kalimat ini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kotak tidak bisa membuka dirinya sendiri dalam kalimat ini." },
+          { "optionId": "C", "reasonId": "Catatan tidak bisa membuka kotak dalam kalimat ini." },
+          { "optionId": "D", "reasonId": "Meja tidak bisa membuka kotak dalam kalimat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek frasa yang diringkas harus sama dengan subjek klausa utama agar tidak membingungkan.",
+          "examples": [
+            { "en": "Opening the door, she greeted us.", "id": "Sambil membuka pintu, dia menyapa kami." },
+            { "en": "Walking home, I met my friend.", "id": "Sambil berjalan pulang, saya bertemu teman saya." }
+          ]
+        },
+        "examTrap": "Pilihan A the box terlihat cocok karena dekat dengan frasa opening, tetapi kotak tidak bisa membuka dirinya sendiri."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Being tired, the lesson was hard for him." },
+          { "id": "B", "text": "Tired being, he found the lesson hard." },
+          { "id": "C", "text": "The lesson being tired, he found it hard." },
+          { "id": "D", "text": "Being tired, he found the lesson hard." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Subjek frasa being tired harus orang yang lelah, yaitu he, sehingga klausa utama juga memakai he.",
+        "stepByStep": [
+          "Frasa being tired menerangkan orang yang lelah.",
+          "Subjek klausa utama adalah he, yang sama dengan subjek frasa.",
+          "Pilihan A membuat pelajaran yang lelah. Pilihan B dan C susunan kata salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Subjek frasa tidak sama dengan subjek klausa utama, sehingga membingungkan." },
+          { "optionId": "B", "reasonId": "Susunan kata tired being salah." },
+          { "optionId": "C", "reasonId": "Subjek frasa the lesson tidak bisa lelah, dan susunan kalimatnya salah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Subjek frasa yang diringkas harus sama dengan subjek klausa utama.",
+          "examples": [
+            { "en": "Being late, she missed the bus.", "id": "Karena terlambat, dia ketinggalan bus." },
+            { "en": "Feeling cold, we closed the window.", "id": "Karena merasa dingin, kami menutup jendela." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena kata-katanya sederhana, tetapi pelajaran tidak bisa menjadi orang yang lelah."
+      }
+    ]
+  }
+}

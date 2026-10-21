@@ -1,0 +1,594 @@
+{
+  "day": 39,
+  "week": 6,
+  "month": 2,
+  "title": "Adverb Clauses: Waktu dan Syarat",
+  "topic": "Anak kalimat keterangan waktu, syarat, tempat, dan tujuan",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memakai whenever, as soon as, dan by the time untuk waktu",
+    "Memakai provided dan whether untuk syarat",
+    "Memakai so that dan in order to untuk tujuan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "whenever", "pronunciationId": "wen-EV-er (tekanan di EV)", "pos": "Conj", "meaningId": "setiap kali", "example": "Call me whenever you need help.", "exampleId": "Hubungi saya setiap kali kamu butuh bantuan." },
+      { "no": 2, "en": "wherever", "pronunciationId": "wair-EV-er (tekanan di EV)", "pos": "Conj", "meaningId": "di mana pun", "example": "Sit wherever you like.", "exampleId": "Duduklah di mana pun kamu suka." },
+      { "no": 3, "en": "whether", "pronunciationId": "WEH-ther (tekanan di WEH)", "pos": "Conj", "meaningId": "apakah", "example": "I do not know whether she is coming.", "exampleId": "Saya tidak tahu apakah dia akan datang." },
+      { "no": 4, "en": "provided", "pronunciationId": "pro-VAI-ded (tekanan di VAI)", "pos": "Conj", "meaningId": "asalkan", "example": "You may leave provided you finish first.", "exampleId": "Kamu boleh pergi asalkan kamu selesai dulu." },
+      { "no": 5, "en": "given", "pronunciationId": "GIV-en (tekanan di GIV)", "pos": "Conj", "meaningId": "mengingat bahwa", "example": "Given that it is late, we should go.", "exampleId": "Mengingat sudah larut, kita sebaiknya pergi." },
+      { "no": 6, "en": "as", "pronunciationId": "AZ (a pendek, s seperti z)", "pos": "Conj", "meaningId": "ketika, sementara, sebagai", "example": "She smiled as she walked in.", "exampleId": "Dia tersenyum ketika masuk." },
+      { "no": 7, "en": "by the time", "pronunciationId": "bai the TAIM (tekanan di TAIM)", "pos": "Conj", "meaningId": "pada saat", "example": "By the time we arrived, the show had started.", "exampleId": "Pada saat kami tiba, pertunjukannya sudah dimulai." },
+      { "no": 8, "en": "as soon as", "pronunciationId": "az SOON az (tekanan di SOON)", "pos": "Conj", "meaningId": "segera setelah", "example": "Call me as soon as you land.", "exampleId": "Telepon saya segera setelah kamu mendarat." },
+      { "no": 9, "en": "so that", "pronunciationId": "soh THAT (tekanan di THAT)", "pos": "Conj", "meaningId": "agar, supaya", "example": "Save money so that you can travel.", "exampleId": "Tabunglah uang agar kamu bisa bepergian." },
+      { "no": 10, "en": "in order to", "pronunciationId": "in OR-der TOO (tekanan di OR)", "pos": "Conj", "meaningId": "untuk, agar", "example": "She studies in order to pass.", "exampleId": "Dia belajar untuk lulus." }
+    ],
+    "tip": "Anak kalimat keterangan bisa diletakkan di depan atau di belakang klausa utama. Pilih konjungsi dari maknanya: waktu, syarat, tempat, atau tujuan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["adverb clauses English", "adverb clauses TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang anak kalimat keterangan waktu, syarat, tempat, dan tujuan.",
+      "watchFor": [
+        "Whenever dan as soon as untuk waktu",
+        "Provided dan whether untuk syarat",
+        "So that dan in order to untuk tujuan"
+      ]
+    },
+    "lesson": {
+      "intro": "Anak kalimat keterangan memberi tahu kapan, di mana, dengan syarat apa, atau untuk tujuan apa sesuatu terjadi. Ia dimulai dengan konjungsi bawahan dan tidak berdiri sendiri sebagai kalimat lengkap.",
+      "sections": [
+        {
+          "heading": "Waktu",
+          "bodyMd": "**Whenever** berarti setiap kali: **Whenever it rains, we stay inside.** **As soon as** berarti segera setelah: **Call me as soon as you land.** **By the time** berarti pada saat: **By the time we arrived, the show had started.**"
+        },
+        {
+          "heading": "Syarat dan tujuan",
+          "bodyMd": "**Provided** atau **given that** berarti asalkan atau mengingat: **You may leave provided you finish first.** **Whether** berarti apakah: **I do not know whether she is coming.** **So that** dan **in order to** menyatakan tujuan: **She saves money so that she can travel.**"
+        },
+        {
+          "heading": "Posisi anak kalimat",
+          "bodyMd": "Anak kalimat boleh di depan atau di belakang klausa utama. Jika di depan, beri koma: **Whenever it rains, we stay inside.** Jika di belakang, biasanya tanpa koma: **We stay inside whenever it rains.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Waktu", "pattern": "whenever / as soon as / by the time + klausa" },
+        { "label": "Syarat", "pattern": "provided / given that + klausa" },
+        { "label": "Tujuan", "pattern": "so that / in order to + klausa atau kata kerja dasar" },
+        { "label": "Tempat", "pattern": "wherever + klausa" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Whenever it rains, we stay inside.", "id": "Setiap kali hujan, kami tinggal di dalam." },
+          { "en": "Sit wherever you like.", "id": "Duduklah di mana pun kamu suka." },
+          { "en": "You may leave provided you finish first.", "id": "Kamu boleh pergi asalkan kamu selesai dulu." },
+          { "en": "She saves money so that she can travel.", "id": "Dia menabung agar bisa bepergian." },
+          { "en": "I will call you as soon as I arrive.", "id": "Saya akan menelepon kamu segera setelah saya tiba." }
+        ],
+        "negative": [
+          { "en": "We do not leave whenever it rains.", "id": "Kami tidak pergi setiap kali hujan." },
+          { "en": "You cannot enter provided you have no ticket.", "id": "Kamu tidak boleh masuk jika kamu tidak punya tiket." },
+          { "en": "She did not know whether the bus was late.", "id": "Dia tidak tahu apakah bus itu terlambat." },
+          { "en": "He does not study so that he can rest.", "id": "Dia tidak belajar agar dia bisa istirahat." },
+          { "en": "The team did not wait by the time the bus arrived.", "id": "Tim itu tidak menunggu pada saat bus tiba." }
+        ],
+        "question": [
+          { "en": "When do you call your parents?", "id": "Kapan kamu menelepon orang tuamu?" },
+          { "en": "Did she finish the work before the meeting, provided she had time?", "id": "Apakah dia menyelesaikan pekerjaan sebelum rapat, asalkan ada waktu?" },
+          { "en": "Do you know whether the shop is open?", "id": "Apakah kamu tahu apakah tokonya buka?" },
+          { "en": "Why do you save money so that you can travel?", "id": "Mengapa kamu menabung agar bisa bepergian?" },
+          { "en": "Where can I sit wherever I like?", "id": "Di mana saya bisa duduk di mana pun saya suka?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Whenever it rains we stay inside.", "right": "Whenever it rains, we stay inside.", "whyId": "Anak kalimat di depan diikuti koma sebelum klausa utama." },
+        { "wrong": "I will call you as soon as I will arrive.", "right": "I will call you as soon as I arrive.", "whyId": "Dalam anak kalimat waktu, gunakan simple present, bukan will." },
+        { "wrong": "She saves money so she can travel.", "right": "She saves money so that she can travel.", "whyId": "Pola tujuan yang lengkap adalah so that." },
+        { "wrong": "You may leave provided that you will finish.", "right": "You may leave provided you finish first.", "whyId": "Dalam anak kalimat syarat, gunakan simple present untuk masa depan." },
+        { "wrong": "I do not know if whether she is coming.", "right": "I do not know whether she is coming.", "whyId": "Gunakan salah satu saja: whether atau if, jangan keduanya." },
+        { "wrong": "By the time we arrived, the show has started.", "right": "By the time we arrived, the show had started.", "whyId": "Kejadian yang lebih dulu dari klausa lampau memakai past perfect: had started." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Relawan di Dapur Umum",
+    "text": "Rafi works as a volunteer at a community kitchen. He helps whenever the kitchen needs extra hands, and he is happy to go wherever the group sends him. Last month, the leaders asked the volunteers whether they could cook for two hundred people. Rafi said yes, provided that the team had enough time to prepare the food. The leaders agreed, given that the volunteers were experienced.\n\nBefore the event started, the team made a plan. As soon as the vegetables arrived, the volunteers washed and cut them. By the time the rice was ready, the first group of guests had already arrived. Rafi worked quickly, so that the food would stay warm. He checked the pots every few minutes in order to keep the temperature right.\n\nThe kitchen also needed a clear schedule. The coordinator wrote the tasks on a board, so that everyone knew his or her role. Rafi was in charge of serving, and he greeted each guest as they entered. Some guests asked whether the meals were free. The coordinator explained that the meals were free for anyone who needed them.\n\nAfter the event, the team cleaned the kitchen. They stayed until every plate was washed, and they did not leave until the floor was dry. Rafi said that he would return next month, whenever the group needed help again. He believes that good work happens when people plan carefully and act on time.\n\nMany volunteers say the best part is the feeling of helping others. Some of them join the group every week, while others come only on special days. In either case, the kitchen depends on them. The coordinator thanked the team and promised to keep the schedule clear, so that future events would run smoothly.",
+    "glossary": [
+      { "en": "volunteer", "id": "relawan" },
+      { "en": "coordinator", "id": "koordinator" },
+      { "en": "temperature", "id": "suhu" },
+      { "en": "guests", "id": "tamu" },
+      { "en": "in charge", "id": "bertanggung jawab" },
+      { "en": "experienced", "id": "berpengalaman" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "When does Rafi help at the kitchen?",
+        "options": [
+          { "id": "A", "text": "only on Sundays" },
+          { "id": "B", "text": "whenever the kitchen needs extra hands" },
+          { "id": "C", "text": "only when he is free" },
+          { "id": "D", "text": "every holiday" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'He helps whenever the kitchen needs extra hands', artinya Rafi membantu setiap kali dapur membutuhkan tenaga tambahan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Hari Minggu tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut waktu luang sebagai syarat." },
+          { "optionId": "D", "reasonId": "Hari libur tidak disebut dalam teks." }
+        ],
+        "evidence": "He helps whenever the kitchen needs extra hands"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What condition did Rafi set for cooking for two hundred people?",
+        "options": [
+          { "id": "A", "text": "the team had enough time to prepare the food" },
+          { "id": "B", "text": "the guests paid in advance" },
+          { "id": "C", "text": "the kitchen was new" },
+          { "id": "D", "text": "the rice was already cooked" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Rafi said yes, provided that the team had enough time to prepare the food', artinya syaratnya adalah tim punya cukup waktu.",
+        "stepByStep": [
+          "Cari provided di teks: 'Rafi said yes, provided that the team had enough time to prepare the food.'",
+          "Provided that menandai syarat untuk menerima pekerjaan itu.",
+          "Pembayaran di muka, dapur baru, dan nasi yang sudah matang tidak disebut sebagai syarat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Pembayaran di muka tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Dapur baru tidak disebut sebagai syarat." },
+          { "optionId": "D", "reasonId": "Nasi yang sudah matang bertentangan dengan pekerjaan yang harus dipersiapkan." }
+        ],
+        "evidence": "provided that the team had enough time to prepare the food"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What had happened by the time the rice was ready?",
+        "options": [
+          { "id": "A", "text": "the guests had left" },
+          { "id": "B", "text": "the first group of guests had already arrived" },
+          { "id": "C", "text": "the kitchen was closed" },
+          { "id": "D", "text": "the volunteers had gone home" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'By the time the rice was ready, the first group of guests had already arrived', artinya tamu gelombang pertama sudah datang.",
+        "stepByStep": [
+          "Cari by the time di teks.",
+          "Kalimat utama menyebut kedatangan tamu gelombang pertama sudah terjadi.",
+          "Tamu yang sudah pergi, dapur yang tutup, dan relawan yang pulang bertentangan dengan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut tamu sudah datang, bukan pergi." },
+          { "optionId": "C", "reasonId": "Dapur tidak disebut tutup." },
+          { "optionId": "D", "reasonId": "Relawan masih bekerja saat nasi siap." }
+        ],
+        "evidence": "the first group of guests had already arrived"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Why did Rafi work quickly?",
+        "options": [
+          { "id": "A", "text": "so that the food would stay warm" },
+          { "id": "B", "text": "because the guests were angry" },
+          { "id": "C", "text": "because he wanted to go home" },
+          { "id": "D", "text": "because the pots were empty" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Rafi worked quickly, so that the food would stay warm', artinya tujuannya agar makanan tetap hangat.",
+        "stepByStep": [
+          "Cari so that di teks: 'Rafi worked quickly, so that the food would stay warm.'",
+          "So that menyatakan tujuan dari bekerja cepat.",
+          "Tamu yang marah, keinginan pulang, dan panci kosong tidak disebut sebagai tujuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Tamu yang marah tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Keinginan pulang tidak disebut sebagai alasan bekerja cepat." },
+          { "optionId": "D", "reasonId": "Panci kosong tidak disebut dalam teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "So that menyatakan tujuan. Anak kalimat dengan so that menjelaskan apa yang ingin dicapai.",
+          "examples": [
+            { "en": "She studied hard so that she could pass the test.", "id": "Dia belajar keras agar bisa lulus tes." },
+            { "en": "We left early so that we would not miss the bus.", "id": "Kami berangkat lebih awal agar tidak ketinggalan bus." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena pekerjaan dapur bisa membuat tamu tidak sabar, tetapi teks tidak menyebut tamu marah.",
+        "evidence": "Rafi worked quickly, so that the food would stay warm"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we conclude about the volunteers' attitude?",
+        "options": [
+          { "id": "A", "text": "They were tired and wanted to quit." },
+          { "id": "B", "text": "They only cared about the food prices." },
+          { "id": "C", "text": "They planned carefully and felt committed to helping others." },
+          { "id": "D", "text": "They avoided the guests." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'good work happens when people plan carefully and act on time' dan para relawan tetap tinggal sampai dapur bersih.",
+        "stepByStep": [
+          "Cari plan carefully di teks: 'He believes that good work happens when people plan carefully and act on time.'",
+          "Relawan tinggal sampai semua piring dicuci, dan Rafi akan kembali bulan depan.",
+          "Lelah ingin berhenti, harga makanan, dan menghindari tamu bertentangan dengan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut relawan tetap tinggal dan Rafi akan kembali, bukan ingin berhenti." },
+          { "optionId": "B", "reasonId": "Harga makanan tidak disebut sebagai perhatian mereka." },
+          { "optionId": "D", "reasonId": "Teks menyebut Rafi menyapa setiap tamu, bukan menghindari mereka." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kesimpulan yang baik didukung oleh tindakan dan pendapat yang disebut dalam teks.",
+          "examples": [
+            { "en": "They stayed late to clean the room.", "id": "Mereka tinggal lama untuk membersihkan ruangan." },
+            { "en": "She returns every week to help the group.", "id": "Dia kembali setiap minggu untuk membantu kelompok." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena kerja relawan melelahkan, tetapi teks justru menunjukkan mereka berkomitmen.",
+        "evidence": "good work happens when people plan carefully and act on time"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "Call me ___ you arrive at the station.",
+        "options": [
+          { "id": "A", "text": "although" },
+          { "id": "B", "text": "as soon as" },
+          { "id": "C", "text": "unless" },
+          { "id": "D", "text": "despite" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "As soon as berarti segera setelah: telepon saya segera setelah kamu tiba.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Although menunjukkan kontras, tidak cocok dengan urutan waktu ini." },
+          { "optionId": "C", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan perintah ini." },
+          { "optionId": "D", "reasonId": "Despite adalah kata depan, tidak diikuti klausa seperti ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "We will leave early ___ we can finish the trip before dark.",
+        "options": [
+          { "id": "A", "text": "so that" },
+          { "id": "B", "text": "whether" },
+          { "id": "C", "text": "whenever" },
+          { "id": "D", "text": "although" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "So that menyatakan tujuan: berangkat lebih awal agar perjalanan selesai sebelum gelap.",
+        "stepByStep": [
+          "Kalimat menyatakan tujuan dari berangkat lebih awal.",
+          "Penanda tujuan adalah so that.",
+          "Whether berarti apakah, whenever berarti setiap kali, dan although menunjukkan kontras."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whether berarti apakah, tidak cocok sebagai tujuan." },
+          { "optionId": "C", "reasonId": "Whenever berarti setiap kali, tidak cocok dengan tujuan ini." },
+          { "optionId": "D", "reasonId": "Although menunjukkan kontras, tidak cocok dengan tujuan." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "I will help you ___ you need me.",
+        "options": [
+          { "id": "A", "text": "wherever" },
+          { "id": "B", "text": "whenever" },
+          { "id": "C", "text": "whether" },
+          { "id": "D", "text": "unless" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Whenever berarti setiap kali kamu membutuhkan saya.",
+        "stepByStep": [
+          "Kalimat menyatakan waktu: setiap kali kamu membutuhkan saya.",
+          "Penanda waktu yang tepat adalah whenever.",
+          "Wherever menunjukkan tempat, whether berarti apakah, dan unless berarti kecuali jika."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Wherever menunjukkan tempat, bukan waktu." },
+          { "optionId": "C", "reasonId": "Whether berarti apakah, tidak cocok dengan makna ini." },
+          { "optionId": "D", "reasonId": "Unless berarti kecuali jika, membalik makna kalimat." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "___ the bus arrived, the students had already finished their lunch.",
+        "options": [
+          { "id": "A", "text": "By the time" },
+          { "id": "B", "text": "Whether" },
+          { "id": "C", "text": "Given" },
+          { "id": "D", "text": "Wherever" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "By the time berarti pada saat, dan kejadian makan siang sudah selesai sebelum bus tiba.",
+        "stepByStep": [
+          "Klausa utama memakai had finished, yang menunjukkan kejadian lebih dulu.",
+          "By the time mengawali klausa waktu dengan kejadian yang sudah selesai pada saat bus tiba.",
+          "Whether berarti apakah, given berarti mengingat, dan wherever menunjukkan tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whether berarti apakah, tidak cocok dengan makna waktu." },
+          { "optionId": "C", "reasonId": "Given berarti mengingat bahwa, tidak cocok dengan urutan waktu ini." },
+          { "optionId": "D", "reasonId": "Wherever menunjukkan tempat, bukan waktu." }
+        ],
+        "ruleAndExamples": {
+          "rule": "By the time diikuti klausa waktu. Klausa utama biasanya memakai past perfect untuk kejadian yang lebih dulu.",
+          "examples": [
+            { "en": "By the time we reached the hall, the lecture had started.", "id": "Pada saat kami sampai di aula, kuliah sudah dimulai." },
+            { "en": "By the time she called, I had already left.", "id": "Pada saat dia menelepon, saya sudah pergi." }
+          ]
+        },
+        "examTrap": "Pilihan B whether terlihat cocok karena ada dua kejadian, tetapi whether berarti apakah, bukan waktu."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The teacher will let us leave early ___ the homework is finished.",
+        "options": [
+          { "id": "A", "text": "provided" },
+          { "id": "B", "text": "wherever" },
+          { "id": "C", "text": "unless" },
+          { "id": "D", "text": "so that" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Provided berarti asalkan: guru mengizinkan pulang lebih awal dengan syarat PR sudah selesai.",
+        "stepByStep": [
+          "Kalimat menyatakan syarat: kami boleh pulang asalkan PR selesai.",
+          "Penanda syarat yang tepat adalah provided.",
+          "Wherever menunjukkan tempat, unless membalik syarat, dan so that menyatakan tujuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Wherever menunjukkan tempat, bukan syarat." },
+          { "optionId": "C", "reasonId": "Unless berarti kecuali jika, membalik makna syarat." },
+          { "optionId": "D", "reasonId": "So that menyatakan tujuan, tidak cocok dengan syarat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Provided dan given that memperkenalkan syarat. Unless berarti if not dan membalik makna syarat.",
+          "examples": [
+            { "en": "We can start provided everyone is here.", "id": "Kita bisa mulai asalkan semua orang sudah di sini." },
+            { "en": "The shop will open given that the rain stops.", "id": "Tokonya akan buka mengingat hujan berhenti." }
+          ]
+        },
+        "examTrap": "Pilihan C unless terlihat seperti syarat, tetapi unless berarti kecuali jika dan membalik makna kalimat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya membantu setiap kali kamu membutuhkan saya.",
+        "hint": "Setiap kali: whenever. Membantu: help. Membutuhkan: need.",
+        "acceptedAnswers": ["I help you whenever you need me.", "I will help you whenever you need me."],
+        "modelAnswer": "I help you whenever you need me.",
+        "commonErrors": [{ "pattern": "I help you whenever you will need me", "feedbackId": "Dalam anak kalimat waktu, gunakan simple present, bukan will." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia pulang segera setelah rapat selesai.",
+        "hint": "Segera setelah: as soon as. Rapat selesai: the meeting ended.",
+        "acceptedAnswers": ["She went home as soon as the meeting ended.", "She went home as soon as the meeting finished."],
+        "modelAnswer": "She went home as soon as the meeting ended.",
+        "commonErrors": [{ "pattern": "She went home as soon the meeting ended", "feedbackId": "Gunakan as soon as, lengkap dengan as yang kedua." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami akan berangkat lebih awal supaya tidak terlambat.",
+        "hint": "Supaya: so that. Tidak terlambat: are not late.",
+        "acceptedAnswers": ["We will leave early so that we are not late.", "We will leave early so that we will not be late."],
+        "modelAnswer": "We will leave early so that we are not late.",
+        "commonErrors": [{ "pattern": "We will leave early so we are not late", "feedbackId": "Pola tujuan yang lengkap adalah so that." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Asalkan ada izin, kami boleh memakai ruangan itu.",
+        "hint": "Asalkan: provided. Ada izin: we have permission. Boleh memakai: may use.",
+        "acceptedAnswers": ["Provided that we have permission, we may use the room.", "Provided we have permission, we may use the room."],
+        "modelAnswer": "Provided that we have permission, we may use the room.",
+        "commonErrors": [{ "pattern": "Provided we will have permission", "feedbackId": "Dalam anak kalimat syarat, gunakan simple present untuk kejadian masa depan." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Pada saat kami tiba, makan malam sudah habis.",
+        "hint": "Pada saat kami tiba: by the time we arrived. Sudah habis: had finished.",
+        "acceptedAnswers": ["By the time we arrived, dinner had already finished.", "By the time we arrived, the dinner had already finished."],
+        "modelAnswer": "By the time we arrived, dinner had already finished.",
+        "commonErrors": [{ "pattern": "By the time we arrived, dinner has already finished", "feedbackId": "Kejadian yang lebih dulu dari klausa lampau memakai had + V3." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'She stayed in the library ___ she could finish the essay.'",
+        "options": [
+          { "id": "A", "text": "in order to" },
+          { "id": "B", "text": "whether" },
+          { "id": "C", "text": "given" },
+          { "id": "D", "text": "wherever" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "In order to menyatakan tujuan: dia tinggal untuk menyelesaikan esai.",
+        "stepByStep": [
+          "Kalimat menyatakan tujuan dari tinggal di perpustakaan.",
+          "In order to diikuti kata kerja dasar atau klausa tujuan: in order to finish.",
+          "Whether berarti apakah, given berarti mengingat, dan wherever menunjukkan tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whether berarti apakah, tidak cocok sebagai tujuan." },
+          { "optionId": "C", "reasonId": "Given berarti mengingat, tidak cocok dengan tujuan ini." },
+          { "optionId": "D", "reasonId": "Wherever menunjukkan tempat, bukan tujuan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "In order to dan so that menyatakan tujuan.",
+          "examples": [
+            { "en": "He practiced every day in order to improve.", "id": "Dia berlatih setiap hari untuk meningkat." },
+            { "en": "She saved money so that she could buy a bike.", "id": "Dia menabung agar bisa membeli sepeda." }
+          ]
+        },
+        "examTrap": "Pilihan B whether terlihat cocok karena ada pilihan dalam kalimat, tetapi whether tidak menyatakan tujuan."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Whenever he comes or not, we will start the meeting." },
+          { "id": "B", "text": "Whether he comes or not, we will starts the meeting." },
+          { "id": "C", "text": "Whether he will come or not, we starting the meeting." },
+          { "id": "D", "text": "Whether he comes or not, we will start the meeting." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Whether ___ or not berarti apakah atau tidak, dan kalimat utama memakai will start.",
+        "stepByStep": [
+          "Whether he comes or not berarti apakah dia datang atau tidak.",
+          "Kalimat utama memakai will start, bentuk dasar setelah will.",
+          "Pilihan A memakai whenever, yang berarti setiap kali. Pilihan B memakai starts setelah will. Pilihan C memakai starting setelah we tanpa to be."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Whenever tidak cocok dengan pola whether ___ or not." },
+          { "optionId": "B", "reasonId": "Setelah will, gunakan kata kerja dasar: start, bukan starts." },
+          { "optionId": "C", "reasonId": "Setelah we, kata kerja harus berbentuk will start atau start, bukan starting." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whether ___ or not berarti apakah atau tidak. Setelah will, kata kerja bentuk dasar.",
+          "examples": [
+            { "en": "Whether it rains or not, we will go.", "id": "Apakah hujan atau tidak, kami akan pergi." },
+            { "en": "Whether she agrees or not, we will vote.", "id": "Apakah dia setuju atau tidak, kami akan memilih." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat masuk akal karena ada pola or not, tetapi whenever tidak cocok dengan makna ini."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best word: 'The food is free ___ you show your student card.'",
+        "options": [
+          { "id": "A", "text": "by the time" },
+          { "id": "B", "text": "provided" },
+          { "id": "C", "text": "so that" },
+          { "id": "D", "text": "whenever" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Provided berarti asalkan: makanan gratis dengan syarat menunjukkan kartu pelajar.",
+        "stepByStep": [
+          "Kalimat menyatakan syarat: makanan gratis asalkan menunjukkan kartu.",
+          "Provided adalah konjungsi syarat yang tepat.",
+          "By the time menunjukkan waktu, so that menunjukkan tujuan, dan whenever menunjukkan waktu berulang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "By the time menunjukkan waktu, bukan syarat." },
+          { "optionId": "C", "reasonId": "So that menunjukkan tujuan, bukan syarat." },
+          { "optionId": "D", "reasonId": "Whenever menunjukkan waktu berulang, bukan syarat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Provided dan provided that memperkenalkan syarat yang harus dipenuhi.",
+          "examples": [
+            { "en": "You may enter provided you have a ticket.", "id": "Kamu boleh masuk asalkan punya tiket." },
+            { "en": "The room is free provided you clean it after use.", "id": "Ruangannya gratis asalkan kamu membersihkannya setelah dipakai." }
+          ]
+        },
+        "examTrap": "Pilihan D whenever terlihat seperti kata yang biasa dipakai untuk kejadian berulang, tetapi kalimat ini memberi syarat."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'Please sit ___ you can see the stage.'",
+        "options": [
+          { "id": "A", "text": "whenever" },
+          { "id": "B", "text": "whether" },
+          { "id": "C", "text": "wherever" },
+          { "id": "D", "text": "provided" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Wherever menunjukkan tempat: duduklah di tempat mana pun kamu bisa melihat panggung.",
+        "stepByStep": [
+          "Kalimat menyatakan tempat duduk.",
+          "Wherever menunjukkan tempat di mana pun.",
+          "Whenever menunjukkan waktu, whether berarti apakah, dan provided menunjukkan syarat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Whenever menunjukkan waktu, bukan tempat." },
+          { "optionId": "B", "reasonId": "Whether berarti apakah, tidak cocok dengan tempat duduk." },
+          { "optionId": "D", "reasonId": "Provided menunjukkan syarat, bukan tempat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Wherever menunjukkan tempat di mana pun. Whenever menunjukkan waktu setiap kali.",
+          "examples": [
+            { "en": "Park wherever you can find a space.", "id": "Parkirlah di mana pun kamu menemukan tempat." },
+            { "en": "We clean up whenever the group finishes.", "id": "Kami membereskan setiap kali kelompok selesai." }
+          ]
+        },
+        "examTrap": "Pilihan A whenever terlihat cocok karena artinya setiap kali, tetapi kalimat ini menunjukkan tempat, bukan waktu."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "As soon as I will finish, I call you." },
+          { "id": "B", "text": "As soon as I finish, I will call you." },
+          { "id": "C", "text": "As soon as I will finish, I will call you." },
+          { "id": "D", "text": "As soon as I finish, I call you will." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Dalam anak kalimat waktu, gunakan simple present. Klausa utama memakai will call.",
+        "stepByStep": [
+          "Anak kalimat as soon as memakai simple present: finish.",
+          "Klausa utama memakai will call.",
+          "Pilihan A memakai will di klausa utama tanpa will di klausa waktu. Pilihan C memakai will di klausa waktu. Pilihan D membalik urutan kata."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Klausa utama kehilangan will, dan kalimatnya tidak lengkap untuk masa depan." },
+          { "optionId": "C", "reasonId": "Dalam anak kalimat waktu, gunakan simple present, bukan will." },
+          { "optionId": "D", "reasonId": "Urutan kata salah. Will harus berada sebelum kata kerja utama call." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam anak kalimat waktu dan syarat untuk masa depan, gunakan simple present.",
+          "examples": [
+            { "en": "I will call you when I finish.", "id": "Saya akan menelepon kamu ketika saya selesai." },
+            { "en": "We will leave as soon as the bus arrives.", "id": "Kami akan berangkat segera setelah bus tiba." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak benar karena ada will di kedua klausa, tetapi anak kalimat waktu tidak memakai will."
+      }
+    ]
+  }
+}

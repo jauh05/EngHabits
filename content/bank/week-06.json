@@ -1,0 +1,1022 @@
+[
+  {
+    "id": "W06-001",
+    "week": 6,
+    "topicTag": "penghubung",
+    "type": "mcq",
+    "prompt": "The road was flooded. ___, we arrived on time.",
+    "options": [
+      { "id": "A", "text": "Nevertheless" },
+      { "id": "B", "text": "Moreover" },
+      { "id": "C", "text": "Meanwhile" },
+      { "id": "D", "text": "Thus" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Nevertheless menunjukkan kontras: jalannya tergenang, tetapi kami tetap tiba tepat waktu.",
+    "stepByStep": [
+      "Kalimat pertama menyebut halangan: jalan tergenang.",
+      "Kalimat kedua menyebut hasil yang berlawanan: tiba tepat waktu.",
+      "Moreover menambah, meanwhile menunjukkan waktu bersamaan, dan thus menunjukkan akibat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Moreover menambah informasi, tidak menunjukkan kontras." },
+      { "optionId": "C", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kontras." },
+      { "optionId": "D", "reasonId": "Thus menunjukkan akibat, dan tiba tepat waktu bukan akibat dari jalan tergenang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Nevertheless menunjukkan kontras dengan kalimat sebelumnya.",
+      "examples": [
+        { "en": "It was cold. Nevertheless, we swam in the lake.", "id": "Udaranya dingin. Meskipun begitu, kami berenang di danau." },
+        { "en": "The plan was risky. Nevertheless, the team went ahead.", "id": "Rencananya berisiko. Meskipun begitu, tim melanjutkannya." }
+      ]
+    },
+    "examTrap": "Pilihan D thus terlihat seperti hasil yang masuk akal, tetapi tiba tepat waktu berlawanan dengan jalan yang tergenang."
+  },
+  {
+    "id": "W06-002",
+    "week": 6,
+    "topicTag": "penghubung",
+    "type": "mcq",
+    "prompt": "The team trained hard every day. ___, they won the final.",
+    "options": [
+      { "id": "A", "text": "Meanwhile" },
+      { "id": "B", "text": "Consequently" },
+      { "id": "C", "text": "However" },
+      { "id": "D", "text": "Otherwise" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Consequently menunjukkan akibat: tim berlatih keras, sehingga mereka menang.",
+    "stepByStep": [
+      "Kalimat pertama adalah sebab: berlatih keras setiap hari.",
+      "Kalimat kedua adalah akibat: memenangkan final.",
+      "Meanwhile menunjukkan waktu bersamaan, however menunjukkan kontras, dan otherwise berarti kalau tidak."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan akibat." },
+      { "optionId": "C", "reasonId": "However menunjukkan kontras, padahal berlatih keras menghasilkan kemenangan." },
+      { "optionId": "D", "reasonId": "Otherwise berarti kalau tidak, tidak cocok dengan akibat ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Consequently menunjukkan akibat dari kalimat sebelumnya.",
+      "examples": [
+        { "en": "The rain was heavy. Consequently, the match was delayed.", "id": "Hujannya deras. Akibatnya, pertandingan ditunda." },
+        { "en": "The food was fresh. Consequently, many guests returned.", "id": "Makanannya segar. Akibatnya, banyak tamu kembali." }
+      ]
+    },
+    "examTrap": "Pilihan C however terlihat cocok karena ada dua kalimat yang berbeda, tetapi kemenangan adalah akibat dari latihan keras."
+  },
+  {
+    "id": "W06-003",
+    "week": 6,
+    "topicTag": "penghubung",
+    "type": "mcq",
+    "prompt": "Mina cooked dinner. ___, Budi set the table.",
+    "options": [
+      { "id": "A", "text": "However" },
+      { "id": "B", "text": "Hence" },
+      { "id": "C", "text": "Meanwhile" },
+      { "id": "D", "text": "Nevertheless" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Meanwhile menunjukkan dua kejadian yang berlangsung bersamaan: Mina memasak, sementara Budi menyiapkan meja.",
+    "stepByStep": [
+      "Kedua kejadian terjadi di waktu yang sama di rumah yang sama.",
+      "Penghubung untuk kejadian bersamaan adalah meanwhile.",
+      "However dan nevertheless menunjukkan kontras, dan hence menunjukkan akibat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "However menunjukkan kontras, tidak cocok dengan kejadian bersamaan." },
+      { "optionId": "B", "reasonId": "Hence menunjukkan akibat, tidak cocok dengan kejadian bersamaan." },
+      { "optionId": "D", "reasonId": "Nevertheless menunjukkan kontras, tidak cocok dengan kejadian bersamaan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Meanwhile dipakai untuk dua kejadian yang berlangsung pada waktu yang sama.",
+      "examples": [
+        { "en": "Ani read the news. Meanwhile, her brother cooked.", "id": "Ani membaca berita. Sementara itu, kakaknya memasak." },
+        { "en": "The bus was late. Meanwhile, the students waited.", "id": "Bus terlambat. Sementara itu, para siswa menunggu." }
+      ]
+    },
+    "examTrap": "Pilihan B hence terlihat seperti penghubung yang sering dipakai, tetapi menyiapkan meja bukan akibat dari memasak."
+  },
+  {
+    "id": "W06-004",
+    "week": 6,
+    "topicTag": "penghubung",
+    "type": "mcq",
+    "prompt": "The book was long. ___, it was very interesting.",
+    "options": [
+      { "id": "A", "text": "Thus" },
+      { "id": "B", "text": "Meanwhile" },
+      { "id": "C", "text": "Whenever" },
+      { "id": "D", "text": "However" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "However menunjukkan kontras: bukunya panjang, tetapi sangat menarik.",
+    "stepByStep": [
+      "Kalimat pertama menyebut kekurangan: buku panjang.",
+      "Kalimat kedua menyebut hal positif: sangat menarik.",
+      "Thus menunjukkan akibat, meanwhile menunjukkan waktu bersamaan, dan whenever menunjukkan waktu berulang."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Thus menunjukkan akibat, tidak cocok dengan kontras." },
+      { "optionId": "B", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kontras." },
+      { "optionId": "C", "reasonId": "Whenever adalah konjungsi waktu, tidak bisa menjadi penghubung antarkalimat seperti ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "However menunjukkan kontras dan biasanya ditaruh di awal kalimat kedua.",
+      "examples": [
+        { "en": "The hotel was small. However, the staff were kind.", "id": "Hotelnya kecil. Namun, stafnya ramah." },
+        { "en": "The road was long. However, the view was beautiful.", "id": "Jalannya panjang. Namun, pemandangannya indah." }
+      ]
+    },
+    "examTrap": "Pilihan A thus terlihat cocok karena ada penilaian terhadap buku, tetapi thus menunjukkan akibat, bukan kontras."
+  },
+  {
+    "id": "W06-005",
+    "week": 6,
+    "topicTag": "penghubung",
+    "type": "mcq",
+    "prompt": "The path was steep. ___, the children climbed to the top.",
+    "options": [
+      { "id": "A", "text": "Nevertheless" },
+      { "id": "B", "text": "Accordingly" },
+      { "id": "C", "text": "Moreover" },
+      { "id": "D", "text": "Meanwhile" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Nevertheless menunjukkan kontras: jalannya curam, tetapi anak-anak tetap mendaki sampai puncak.",
+    "stepByStep": [
+      "Kalimat pertama menyebut kesulitan: jalannya curam.",
+      "Kalimat kedua menyebut anak-anak tetap mendaki.",
+      "Accordingly menunjukkan akibat, moreover menambah, dan meanwhile menunjukkan waktu bersamaan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Accordingly menunjukkan akibat, tidak cocok dengan kontras." },
+      { "optionId": "C", "reasonId": "Moreover menambah informasi, tidak menunjukkan kontras." },
+      { "optionId": "D", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kontras." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Nevertheless dan nonetheless menunjukkan kontras dengan kesulitan yang disebut sebelumnya.",
+      "examples": [
+        { "en": "The task was hard. Nonetheless, she finished it.", "id": "Tugasnya sulit. Meskipun begitu, dia menyelesaikannya." },
+        { "en": "The bridge was old. Nevertheless, it was safe.", "id": "Jembatannya tua. Meskipun begitu, jembatan itu aman." }
+      ]
+    },
+    "examTrap": "Pilihan B accordingly terlihat seperti kesimpulan yang masuk akal, tetapi anak-anak tetap mendaki walaupun jalannya curam."
+  },
+  {
+    "id": "W06-006",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "___ the sun sets, the village becomes very quiet.",
+    "options": [
+      { "id": "A", "text": "Unless" },
+      { "id": "B", "text": "Whenever" },
+      { "id": "C", "text": "Although" },
+      { "id": "D", "text": "So that" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Whenever menunjukkan setiap kali matahari terbenam, desa menjadi sangat sepi.",
+    "stepByStep": [
+      "Kalimat menyatakan kejadian yang berulang setiap hari.",
+      "Whenever menunjukkan setiap kali kejadian itu terjadi.",
+      "Unless berarti kecuali jika, although menunjukkan kontras, dan so that menunjukkan tujuan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan kejadian berulang." },
+      { "optionId": "C", "reasonId": "Although menunjukkan kontras, tidak cocok dengan kejadian yang selalu terjadi." },
+      { "optionId": "D", "reasonId": "So that menunjukkan tujuan, tidak cocok dengan kejadian alami ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Whenever menunjukkan waktu yang berulang setiap kali sebuah kejadian terjadi.",
+      "examples": [
+        { "en": "Whenever it rains, the streets flood.", "id": "Setiap kali hujan, jalanan tergenang." },
+        { "en": "We call home whenever we travel.", "id": "Kami menelepon rumah setiap kali kami bepergian." }
+      ]
+    },
+    "examTrap": "Pilihan A unless terlihat seperti kata waktu yang sering muncul, tetapi unless berarti kecuali jika, dan membalik makna kalimat."
+  },
+  {
+    "id": "W06-007",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "We will leave ___ the rain stops.",
+    "options": [
+      { "id": "A", "text": "unless" },
+      { "id": "B", "text": "whether" },
+      { "id": "C", "text": "until" },
+      { "id": "D", "text": "although" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Until menunjukkan batas waktu: kami akan pergi sampai hujan berhenti.",
+    "stepByStep": [
+      "Kalimat menyatakan batas waktu untuk pergi.",
+      "Until menandai batas waktu seperti itu.",
+      "Unless membalik makna, whether berarti apakah, dan although menunjukkan kontras."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Unless berarti kecuali jika, membalik makna batas waktu." },
+      { "optionId": "B", "reasonId": "Whether berarti apakah, tidak cocok sebagai batas waktu." },
+      { "optionId": "D", "reasonId": "Although menunjukkan kontras, tidak cocok dengan batas waktu." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Until menandai batas waktu sebuah kejadian.",
+      "examples": [
+        { "en": "Wait here until the bus comes.", "id": "Tunggu di sini sampai bus datang." },
+        { "en": "She studied until midnight.", "id": "Dia belajar sampai tengah malam." }
+      ]
+    },
+    "examTrap": "Pilihan A unless terlihat masuk akal karena ada syarat hujan, tetapi unless membalik makna kalimat."
+  },
+  {
+    "id": "W06-008",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "You may borrow the car ___ you return it before noon.",
+    "options": [
+      { "id": "A", "text": "although" },
+      { "id": "B", "text": "wherever" },
+      { "id": "C", "text": "as" },
+      { "id": "D", "text": "provided" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Provided menunjukkan syarat: boleh meminjam asalkan dikembalikan sebelum siang.",
+    "stepByStep": [
+      "Kalimat menyatakan syarat untuk meminjam mobil.",
+      "Provided berarti asalkan dan memperkenalkan syarat.",
+      "Although menunjukkan kontras, wherever menunjukkan tempat, dan as tidak cocok sebagai syarat di sini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Although menunjukkan kontras, tidak cocok dengan syarat." },
+      { "optionId": "B", "reasonId": "Wherever menunjukkan tempat, tidak cocok dengan syarat." },
+      { "optionId": "C", "reasonId": "As menunjukkan waktu atau cara, tidak cocok sebagai syarat di sini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Provided dan provided that memperkenalkan syarat yang harus dipenuhi.",
+      "examples": [
+        { "en": "You may enter provided you have a ticket.", "id": "Kamu boleh masuk asalkan punya tiket." },
+        { "en": "The room is free provided you clean it after use.", "id": "Ruangannya gratis asalkan kamu membersihkannya setelah dipakai." }
+      ]
+    },
+    "examTrap": "Pilihan C as terlihat cocok karena kata itu sering dipakai untuk waktu, tetapi kalimat ini memberi syarat."
+  },
+  {
+    "id": "W06-009",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "She studied hard ___ she could pass the exam.",
+    "options": [
+      { "id": "A", "text": "so that" },
+      { "id": "B", "text": "whether" },
+      { "id": "C", "text": "whenever" },
+      { "id": "D", "text": "although" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "So that menunjukkan tujuan: dia belajar keras agar bisa lulus ujian.",
+    "stepByStep": [
+      "Kalimat menyatakan tujuan dari belajar keras.",
+      "So that memperkenalkan tujuan dengan klausa can pass.",
+      "Whether berarti apakah, whenever menunjukkan waktu berulang, dan although menunjukkan kontras."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Whether berarti apakah, tidak cocok sebagai tujuan." },
+      { "optionId": "C", "reasonId": "Whenever menunjukkan waktu berulang, bukan tujuan." },
+      { "optionId": "D", "reasonId": "Although menunjukkan kontras, bukan tujuan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "So that menunjukkan tujuan atau hasil yang diharapkan dari suatu tindakan.",
+      "examples": [
+        { "en": "He saves money so that he can travel.", "id": "Dia menabung agar bisa bepergian." },
+        { "en": "We left early so that we would not miss the bus.", "id": "Kami berangkat lebih awal agar tidak ketinggalan bus." }
+      ]
+    },
+    "examTrap": "Pilihan A tampak sama dengan in order to, tetapi pilihan ini hanya boleh dipakai dengan klausa setelah so that."
+  },
+  {
+    "id": "W06-010",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "He saved money ___ buy a new bicycle.",
+    "options": [
+      { "id": "A", "text": "as soon as" },
+      { "id": "B", "text": "in order to" },
+      { "id": "C", "text": "wherever" },
+      { "id": "D", "text": "whether" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "In order to menunjukkan tujuan: dia menabung untuk membeli sepeda baru.",
+    "stepByStep": [
+      "Kalimat menyatakan tujuan dari menabung.",
+      "In order to diikuti kata kerja dasar: buy.",
+      "As soon as menunjukkan waktu, wherever menunjukkan tempat, dan whether berarti apakah."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "As soon as menunjukkan waktu, bukan tujuan." },
+      { "optionId": "C", "reasonId": "Wherever menunjukkan tempat, bukan tujuan." },
+      { "optionId": "D", "reasonId": "Whether berarti apakah, tidak cocok sebagai tujuan." }
+    ],
+    "ruleAndExamples": {
+      "rule": "In order to diikuti kata kerja dasar untuk menyatakan tujuan.",
+      "examples": [
+        { "en": "She works hard in order to save money.", "id": "Dia bekerja keras untuk menabung." },
+        { "en": "They practiced in order to win the match.", "id": "Mereka berlatih untuk memenangkan pertandingan." }
+      ]
+    },
+    "examTrap": "Pilihan A as soon as tampak cocok karena ada urutan tindakan, tetapi kalimat ini menyatakan tujuan menabung, bukan waktu."
+  },
+  {
+    "id": "W06-011",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "___ the guests arrived, we had finished lunch.",
+    "options": [
+      { "id": "A", "text": "Whether" },
+      { "id": "B", "text": "Wherever" },
+      { "id": "C", "text": "By the time" },
+      { "id": "D", "text": "Given" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "By the time menunjukkan waktu: makan siang sudah selesai sebelum tamu tiba.",
+    "stepByStep": [
+      "Klausa utama memakai had finished, yang menunjukkan kejadian lebih dulu.",
+      "By the time memperkenalkan klausa waktu untuk kejadian kedatangan tamu.",
+      "Whether berarti apakah, wherever menunjukkan tempat, dan given berarti mengingat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Whether berarti apakah, tidak cocok sebagai penanda waktu." },
+      { "optionId": "B", "reasonId": "Wherever menunjukkan tempat, tidak cocok dengan urutan waktu." },
+      { "optionId": "D", "reasonId": "Given berarti mengingat, tidak cocok dengan urutan waktu ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "By the time memperkenalkan klausa waktu, dan klausa utama sering memakai past perfect.",
+      "examples": [
+        { "en": "By the time we reached the hall, the lecture had started.", "id": "Pada saat kami sampai di aula, kuliah sudah dimulai." },
+        { "en": "By the time she called, I had already left.", "id": "Pada saat dia menelepon, saya sudah pergi." }
+      ]
+    },
+    "examTrap": "Pilihan D given tampak cocok karena ada pertimbangan, tetapi given tidak menunjukkan urutan waktu."
+  },
+  {
+    "id": "W06-012",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "___ or not you agree, the decision will stand.",
+    "options": [
+      { "id": "A", "text": "Whenever" },
+      { "id": "B", "text": "Wherever" },
+      { "id": "C", "text": "Given" },
+      { "id": "D", "text": "Whether" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Whether ___ or not berarti apakah atau tidak, dan keputusan tetap berlaku dalam kedua kemungkinan.",
+    "stepByStep": [
+      "Pola whether ___ or not menyatakan dua kemungkinan.",
+      "Kalimat utama menyatakan keputusan tetap berlaku.",
+      "Whenever menunjukkan waktu, wherever menunjukkan tempat, dan given berarti mengingat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Whenever menunjukkan waktu, tidak cocok dengan pola or not." },
+      { "optionId": "B", "reasonId": "Wherever menunjukkan tempat, tidak cocok dengan pola or not." },
+      { "optionId": "C", "reasonId": "Given berarti mengingat, tidak cocok dengan pola or not." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Whether ___ or not menyatakan bahwa sesuatu berlaku dalam kedua kemungkinan.",
+      "examples": [
+        { "en": "Whether it rains or not, we will play.", "id": "Apakah hujan atau tidak, kami akan bermain." },
+        { "en": "Whether she likes it or not, we must go.", "id": "Apakah dia suka atau tidak, kita harus pergi." }
+      ]
+    },
+    "examTrap": "Pilihan A whenever terlihat mirip dengan whether, tetapi whenever menunjukkan waktu dan tidak memakai pola or not."
+  },
+  {
+    "id": "W06-013",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "___ the price, the phone sold out in one day.",
+    "options": [
+      { "id": "A", "text": "Notwithstanding" },
+      { "id": "B", "text": "So that" },
+      { "id": "C", "text": "In order to" },
+      { "id": "D", "text": "Whenever" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Notwithstanding menunjukkan konsesi: meskipun harganya tinggi, ponsel itu habis dalam sehari.",
+    "stepByStep": [
+      "Kalimat menyatakan hasil yang baik walaupun ada halangan: harga.",
+      "Notwithstanding diikuti kata benda dan berarti meskipun.",
+      "So that dan in order to menunjukkan tujuan, dan whenever menunjukkan waktu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "So that menunjukkan tujuan, tidak cocok dengan konsesi." },
+      { "optionId": "C", "reasonId": "In order to menunjukkan tujuan, tidak cocok dengan konsesi." },
+      { "optionId": "D", "reasonId": "Whenever menunjukkan waktu berulang, tidak cocok dengan konsesi." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Notwithstanding dan regardless of diikuti kata benda untuk menyatakan konsesi.",
+      "examples": [
+        { "en": "Notwithstanding the cost, the school built a new hall.", "id": "Meskipun biayanya besar, sekolah membangun aula baru." },
+        { "en": "Regardless of the price, people came to the market.", "id": "Terlepas dari harganya, orang-orang datang ke pasar." }
+      ]
+    },
+    "examTrap": "Pilihan B so that terlihat cocok karena ada hasil, tetapi so that menyatakan tujuan, bukan konsesi."
+  },
+  {
+    "id": "W06-014",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "The city is small, ___ it has many parks.",
+    "options": [
+      { "id": "A", "text": "therefore" },
+      { "id": "B", "text": "nonetheless" },
+      { "id": "C", "text": "meanwhile" },
+      { "id": "D", "text": "thus" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Nonetheless menunjukkan kontras: kotanya kecil, tetapi punya banyak taman.",
+    "stepByStep": [
+      "Kalimat pertama menyebut kota yang kecil.",
+      "Kalimat kedua menyebut banyak taman, yang berlawanan dengan kesan kota kecil.",
+      "Therefore dan thus menunjukkan akibat, dan meanwhile menunjukkan waktu bersamaan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Therefore menunjukkan akibat, tidak cocok dengan kontras." },
+      { "optionId": "C", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kontras." },
+      { "optionId": "D", "reasonId": "Thus menunjukkan akibat, tidak cocok dengan kontras." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Nonetheless menunjukkan kontras dengan kalimat sebelumnya.",
+      "examples": [
+        { "en": "The house is old. Nonetheless, it is very strong.", "id": "Rumahnya tua. Meskipun begitu, rumah itu sangat kuat." },
+        { "en": "The class is short. Nonetheless, it is useful.", "id": "Kelasnya singkat. Meskipun begitu, kelas itu berguna." }
+      ]
+    },
+    "examTrap": "Pilihan A therefore terlihat cocok karena ada kesimpulan, tetapi banyak taman tidak merupakan akibat dari kota kecil."
+  },
+  {
+    "id": "W06-015",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "___ calls, please take a message.",
+    "options": [
+      { "id": "A", "text": "Whenever" },
+      { "id": "B", "text": "Wherever" },
+      { "id": "C", "text": "Whoever" },
+      { "id": "D", "text": "Whatever" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Whoever untuk orang: siapa pun yang menelepon, tolong catat pesannya.",
+    "stepByStep": [
+      "Subjek anak kalimat adalah orang yang menelepon.",
+      "Untuk orang sebagai subjek, gunakan whoever.",
+      "Whenever untuk waktu, wherever untuk tempat, dan whatever untuk benda atau hal."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Whenever menunjukkan waktu, bukan orang yang menelepon." },
+      { "optionId": "B", "reasonId": "Wherever menunjukkan tempat, bukan orang yang menelepon." },
+      { "optionId": "D", "reasonId": "Whatever untuk benda atau hal, bukan orang." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Whoever untuk orang sebagai subjek anak kalimat, dan artinya siapa pun.",
+      "examples": [
+        { "en": "Whoever arrives first can choose a seat.", "id": "Siapa pun yang datang lebih dulu boleh memilih kursi." },
+        { "en": "Whoever wants the file can ask me.", "id": "Siapa pun yang ingin berkas itu boleh bertanya kepada saya." }
+      ]
+    },
+    "examTrap": "Pilihan D whatever terlihat cocok karena ada kata yang umum dipakai, tetapi whatever untuk benda atau hal, bukan orang."
+  },
+  {
+    "id": "W06-016",
+    "week": 6,
+    "topicTag": "anak-kalimat-kata-benda",
+    "type": "mcq",
+    "prompt": "I doubt ___ the museum is open on Monday.",
+    "options": [
+      { "id": "A", "text": "which" },
+      { "id": "B", "text": "where" },
+      { "id": "C", "text": "who" },
+      { "id": "D", "text": "whether" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Whether dipakai untuk pertanyaan ya atau tidak: apakah museum buka pada hari Senin.",
+    "stepByStep": [
+      "Kalimat meragukan ya atau tidak: apakah museum buka.",
+      "Untuk pertanyaan ya atau tidak dalam anak kalimat kata benda, gunakan whether.",
+      "Which, where, dan who tidak cocok untuk pertanyaan ya atau tidak."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Which menunjukkan pilihan benda, bukan ya atau tidak." },
+      { "optionId": "B", "reasonId": "Where menunjukkan tempat, bukan ya atau tidak." },
+      { "optionId": "C", "reasonId": "Who untuk orang, bukan ya atau tidak." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Doubt whether atau doubt if untuk pertanyaan ya atau tidak.",
+      "examples": [
+        { "en": "We doubt whether the bus will arrive.", "id": "Kami meragukan apakah bus akan tiba." },
+        { "en": "I doubt if the shop is open today.", "id": "Saya meragukan apakah tokonya buka hari ini." }
+      ]
+    },
+    "examTrap": "Pilihan B where terlihat seperti pertanyaan tentang museum, tetapi where menanyakan tempat, bukan buka atau tidaknya."
+  },
+  {
+    "id": "W06-017",
+    "week": 6,
+    "topicTag": "anak-kalimat-kata-benda",
+    "type": "mcq",
+    "prompt": "She assumes ___ the test will be easy.",
+    "options": [
+      { "id": "A", "text": "that" },
+      { "id": "B", "text": "where" },
+      { "id": "C", "text": "which" },
+      { "id": "D", "text": "whom" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Assume that memperkenalkan anak kalimat pernyataan: dia menganggap tesnya akan mudah.",
+    "stepByStep": [
+      "Kalimat menyatakan anggapan, bukan pertanyaan.",
+      "Assume that diikuti anak kalimat pernyataan.",
+      "Where menunjukkan tempat, which untuk pilihan benda, dan whom untuk orang sebagai objek."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Where menunjukkan tempat, tidak cocok dengan anggapan ini." },
+      { "optionId": "C", "reasonId": "Which menunjukkan pilihan benda, tidak cocok dengan anak kalimat pernyataan ini." },
+      { "optionId": "D", "reasonId": "Whom untuk orang sebagai objek, tidak cocok dengan anggapan ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Assume that memperkenalkan anak kalimat pernyataan sebagai objek kata kerja.",
+      "examples": [
+        { "en": "We assume that the bus is free.", "id": "Kami menganggap bus itu gratis." },
+        { "en": "They assume that the price will rise.", "id": "Mereka menganggap harganya akan naik." }
+      ]
+    },
+    "examTrap": "Pilihan B where terlihat cocok karena ada kata test yang bisa dikaitkan dengan tempat, tetapi where tidak tepat di sini."
+  },
+  {
+    "id": "W06-018",
+    "week": 6,
+    "topicTag": "anak-kalimat-sifat",
+    "type": "mcq",
+    "prompt": "The laptop ___ screen is cracked needs repair.",
+    "options": [
+      { "id": "A", "text": "who" },
+      { "id": "B", "text": "whose" },
+      { "id": "C", "text": "which" },
+      { "id": "D", "text": "whom" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Whose menunjukkan kepemilikan: layar milik laptop itu, dan kata benda screen mengikuti whose.",
+    "stepByStep": [
+      "Kalimat menyatakan layar yang dimiliki laptop.",
+      "Kepemilikan dinyatakan dengan whose, diikuti kata benda screen.",
+      "Who dan whom untuk orang, dan which tidak diikuti kata benda kepemilikan seperti ini."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Who untuk orang, bukan laptop." },
+      { "optionId": "C", "reasonId": "Which tidak menunjukkan kepemilikan dengan kata benda screen." },
+      { "optionId": "D", "reasonId": "Whom untuk orang sebagai objek, bukan laptop." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Whose menunjukkan kepemilikan untuk orang maupun benda, dan diikuti kata benda yang dimiliki.",
+      "examples": [
+        { "en": "The car whose engine is new is for sale.", "id": "Mobil yang mesinnya baru itu dijual." },
+        { "en": "The school whose library is large is famous.", "id": "Sekolah yang perpustakaannya besar itu terkenal." }
+      ]
+    },
+    "examTrap": "Pilihan C which terlihat cocok karena laptop adalah benda, tetapi kalimat ini menyatakan kepemilikan screen."
+  },
+  {
+    "id": "W06-019",
+    "week": 6,
+    "topicTag": "anak-kalimat-sifat",
+    "type": "mcq",
+    "prompt": "The teacher ___ taught us last year has retired.",
+    "options": [
+      { "id": "A", "text": "which" },
+      { "id": "B", "text": "whom" },
+      { "id": "C", "text": "who" },
+      { "id": "D", "text": "whose" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Who untuk orang sebagai subjek anak kalimat: guru yang mengajar kami tahun lalu.",
+    "stepByStep": [
+      "Antecedent the teacher adalah orang.",
+      "Anak kalimat taught us last year memakai who sebagai subjek.",
+      "Which untuk benda, whom untuk orang sebagai objek, dan whose menunjukkan kepemilikan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Which untuk benda, bukan guru." },
+      { "optionId": "B", "reasonId": "Whom untuk orang sebagai objek, sedangkan guru di sini adalah subjek anak kalimat." },
+      { "optionId": "D", "reasonId": "Whose menunjukkan kepemilikan, tidak cocok dengan anak kalimat ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Who menjadi subjek anak kalimat untuk orang.",
+      "examples": [
+        { "en": "The doctor who treated me is kind.", "id": "Dokter yang merawat saya itu baik." },
+        { "en": "The student who won the prize is here.", "id": "Siswa yang memenangkan hadiah ada di sini." }
+      ]
+    },
+    "examTrap": "Pilihan B whom terlihat formal dan tampak benar, tetapi guru itu adalah subjek anak kalimat yang mengajar kami."
+  },
+  {
+    "id": "W06-020",
+    "week": 6,
+    "topicTag": "anak-kalimat-sifat",
+    "type": "mcq",
+    "prompt": "This is the village ___ my grandparents were born.",
+    "options": [
+      { "id": "A", "text": "which" },
+      { "id": "B", "text": "who" },
+      { "id": "C", "text": "whom" },
+      { "id": "D", "text": "in which" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "In which menunjukkan tempat kelahiran: desa tempat kakek nenek saya lahir.",
+    "stepByStep": [
+      "Antecedent the village adalah tempat.",
+      "Anak kalimat my grandparents were born membutuhkan kata depan in untuk tempat.",
+      "Which saja tidak cukup, who dan whom untuk orang, dan kata depan harus ada sebelum which."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Which saja tidak cocok, karena born membutuhkan kata depan in untuk tempat." },
+      { "optionId": "B", "reasonId": "Who untuk orang, bukan desa." },
+      { "optionId": "C", "reasonId": "Whom untuk orang, bukan desa." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Untuk tempat sebagai objek kata depan, gunakan in which, on which, atau where.",
+      "examples": [
+        { "en": "This is the house in which I grew up.", "id": "Ini adalah rumah tempat saya tumbuh besar." },
+        { "en": "The town where we met is small.", "id": "Kota tempat kami bertemu itu kecil." }
+      ]
+    },
+    "examTrap": "Pilihan A which terlihat cocok karena desa adalah benda, tetapi born membutuhkan kata depan sebelum which."
+  },
+  {
+    "id": "W06-021",
+    "week": 6,
+    "topicTag": "anak-kalimat-kata-benda",
+    "type": "mcq",
+    "prompt": "It is unclear ___ the committee will decide.",
+    "options": [
+      { "id": "A", "text": "what" },
+      { "id": "B", "text": "which" },
+      { "id": "C", "text": "who" },
+      { "id": "D", "text": "where" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "What dipakai sebagai objek anak kalimat kata benda: apa yang akan diputuskan komite.",
+    "stepByStep": [
+      "Anak kalimat the committee will decide adalah objek dari unclear.",
+      "Untuk menanyakan hal atau keputusan, gunakan what.",
+      "Which untuk pilihan benda, who untuk orang, dan where untuk tempat."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Which menunjukkan pilihan benda, bukan hal yang diputuskan." },
+      { "optionId": "C", "reasonId": "Who untuk orang, tidak cocok dengan keputusan komite." },
+      { "optionId": "D", "reasonId": "Where menunjukkan tempat, tidak cocok dengan keputusan ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "What dipakai sebagai kata tanya dalam anak kalimat kata benda untuk menyatakan hal yang belum jelas.",
+      "examples": [
+        { "en": "I do not know what the rules are.", "id": "Saya tidak tahu apa aturannya." },
+        { "en": "It is not clear what the plan will be.", "id": "Belum jelas apa rencananya." }
+      ]
+    },
+    "examTrap": "Pilihan B which terlihat cocok karena ada kata pilihan, tetapi keputusan komite bukan pilihan benda."
+  },
+  {
+    "id": "W06-022",
+    "week": 6,
+    "topicTag": "frasa-diringkas",
+    "type": "mcq",
+    "prompt": "___ in the library, Rani found the old map.",
+    "options": [
+      { "id": "A", "text": "Search" },
+      { "id": "B", "text": "Searching" },
+      { "id": "C", "text": "Searches" },
+      { "id": "D", "text": "Searched" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Searching adalah present participle dengan makna aktif: Rani yang mencari di perpustakaan.",
+    "stepByStep": [
+      "Rani yang mencari, jadi maknanya aktif.",
+      "Frasa aktif memakai V-ing: searching.",
+      "Search adalah bentuk dasar, searches adalah present tunggal, dan searched bermakna pasif atau selesai."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Search adalah bentuk dasar, tidak cocok untuk frasa yang memendekkan anak kalimat." },
+      { "optionId": "C", "reasonId": "Searches adalah present tunggal, bukan frasa partisip." },
+      { "optionId": "D", "reasonId": "Searched bermakna pasif atau selesai, padahal Rani sendiri yang mencari." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Frasa aktif yang memendekkan anak kalimat memakai V-ing, dengan subjek yang sama dengan klausa utama.",
+      "examples": [
+        { "en": "Walking home, I saw my neighbor.", "id": "Sambil berjalan pulang, saya melihat tetangga saya." },
+        { "en": "Reading the notes, he found the answer.", "id": "Sambil membaca catatan, dia menemukan jawabannya." }
+      ]
+    },
+    "examTrap": "Pilihan D searched terlihat seperti frasa yang sudah selesai, tetapi maknanya pasif dan Rani sendiri yang mencari."
+  },
+  {
+    "id": "W06-023",
+    "week": 6,
+    "topicTag": "frasa-diringkas",
+    "type": "mcq",
+    "prompt": "The book ___ by the author is very popular.",
+    "options": [
+      { "id": "A", "text": "write" },
+      { "id": "B", "text": "writing" },
+      { "id": "C", "text": "written" },
+      { "id": "D", "text": "to write" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Written adalah V3 dengan makna pasif: buku yang ditulis oleh penulisnya.",
+    "stepByStep": [
+      "Buku itu ditulis oleh penulis, jadi maknanya pasif.",
+      "Frasa pasif memakai V3: written.",
+      "Write adalah bentuk dasar, writing bermakna aktif, dan to write adalah infinitif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Write adalah bentuk dasar, tidak cocok untuk frasa pasif." },
+      { "optionId": "B", "reasonId": "Writing bermakna aktif, padahal buku itu ditulis oleh penulis." },
+      { "optionId": "D", "reasonId": "To write adalah infinitif, tidak cocok untuk frasa ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Frasa pasif yang memendekkan anak kalimat memakai V3.",
+      "examples": [
+        { "en": "The house built in 1900 is still standing.", "id": "Rumah yang dibangun tahun 1900 masih berdiri." },
+        { "en": "The cake baked by my sister is delicious.", "id": "Kue yang dipanggang adik saya itu enak." }
+      ]
+    },
+    "examTrap": "Pilihan B writing terlihat benar karena ada kata penulis, tetapi buku itu ditulis, bukan menulis."
+  },
+  {
+    "id": "W06-024",
+    "week": 6,
+    "topicTag": "frasa-diringkas",
+    "type": "mcq",
+    "prompt": "The students ___ near the entrance are waiting for the bus.",
+    "options": [
+      { "id": "A", "text": "stands" },
+      { "id": "B", "text": "stood" },
+      { "id": "C", "text": "to stand" },
+      { "id": "D", "text": "standing" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "Standing adalah present participle dengan makna aktif: para siswa yang berdiri di dekat pintu masuk.",
+    "stepByStep": [
+      "Siswa yang berdiri, jadi maknanya aktif.",
+      "Frasa aktif yang menerangkan kata benda memakai V-ing: standing.",
+      "Stands adalah present tunggal, stood adalah lampau, dan to stand adalah infinitif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Stands adalah present tunggal, tidak cocok dengan students yang jamak." },
+      { "optionId": "B", "reasonId": "Stood adalah lampau, tidak cocok sebagai frasa yang menerangkan siswa." },
+      { "optionId": "C", "reasonId": "To stand adalah infinitif, tidak cocok sebagai frasa ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Frasa aktif yang menerangkan kata benda memakai V-ing.",
+      "examples": [
+        { "en": "The people waiting outside are tired.", "id": "Orang-orang yang menunggu di luar itu lelah." },
+        { "en": "The boy sitting near the door is my brother.", "id": "Anak laki-laki yang duduk di dekat pintu itu adik saya." }
+      ]
+    },
+    "examTrap": "Pilihan B stood terlihat cocok karena siswa sudah berdiri, tetapi frasa aktif yang menerangkan kata benda memakai V-ing."
+  },
+  {
+    "id": "W06-025",
+    "week": 6,
+    "topicTag": "frasa-diringkas",
+    "type": "mcq",
+    "prompt": "___ the homework, Ali went to bed early.",
+    "options": [
+      { "id": "A", "text": "Finished" },
+      { "id": "B", "text": "Finishes" },
+      { "id": "C", "text": "Finish" },
+      { "id": "D", "text": "To finish" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "Finished the homework adalah frasa V3 yang menunjukkan Ali sudah menyelesaikan PR sebelum tidur.",
+    "stepByStep": [
+      "Kejadian menyelesaikan PR terjadi lebih dulu dari tidur.",
+      "Frasa yang menunjukkan kejadian selesai memakai V3: finished.",
+      "Finishes adalah present tunggal, finish adalah bentuk dasar, dan to finish adalah infinitif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Finishes adalah present tunggal, tidak cocok sebagai frasa." },
+      { "optionId": "C", "reasonId": "Finish adalah bentuk dasar, tidak cocok untuk frasa ini." },
+      { "optionId": "D", "reasonId": "To finish adalah infinitif dan tidak menunjukkan urutan selesai sebelum tidur." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Having finished atau finished dipakai untuk frasa yang menunjukkan kejadian selesai lebih dulu.",
+      "examples": [
+        { "en": "Finished with the work, she went home.", "id": "Setelah selesai dengan pekerjaan, dia pulang." },
+        { "en": "Having finished the report, he rested.", "id": "Setelah menyelesaikan laporan, dia beristirahat." }
+      ]
+    },
+    "examTrap": "Pilihan D to finish terlihat seperti tujuan, tetapi kalimat ini menunjukkan kejadian selesai sebelum tidur."
+  },
+  {
+    "id": "W06-026",
+    "week": 6,
+    "topicTag": "frasa-diringkas",
+    "type": "mcq",
+    "prompt": "The house ___ last year is very beautiful.",
+    "options": [
+      { "id": "A", "text": "building" },
+      { "id": "B", "text": "built" },
+      { "id": "C", "text": "build" },
+      { "id": "D", "text": "to build" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Built adalah V3 dengan makna pasif: rumah yang dibangun tahun lalu.",
+    "stepByStep": [
+      "Rumah itu dibangun oleh orang lain, jadi maknanya pasif.",
+      "Frasa pasif memakai V3: built.",
+      "Building bermakna aktif, build adalah bentuk dasar, dan to build adalah infinitif."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Building bermakna aktif, padahal rumah itu dibangun oleh orang lain." },
+      { "optionId": "C", "reasonId": "Build adalah bentuk dasar, tidak cocok untuk frasa pasif." },
+      { "optionId": "D", "reasonId": "To build adalah infinitif, tidak cocok untuk frasa ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Frasa pasif yang menerangkan kata benda memakai V3.",
+      "examples": [
+        { "en": "The bridge built in 1930 is still strong.", "id": "Jembatan yang dibangun tahun 1930 masih kuat." },
+        { "en": "The letter written by my aunt arrived today.", "id": "Surat yang ditulis bibi saya tiba hari ini." }
+      ]
+    },
+    "examTrap": "Pilihan A building terlihat benar karena ada kata kerja -ing, tetapi rumah itu dibangun, bukan membangun."
+  },
+  {
+    "id": "W06-027",
+    "week": 6,
+    "topicTag": "frasa-diringkas",
+    "type": "mcq",
+    "prompt": "___ a second language takes time and patience.",
+    "options": [
+      { "id": "A", "text": "Learned" },
+      { "id": "B", "text": "Learns" },
+      { "id": "C", "text": "Learning" },
+      { "id": "D", "text": "Learner" }
+    ],
+    "difficulty": "hard",
+    "correct": "C",
+    "explanationId": "Learning adalah gerund sebagai subjek kalimat: belajar bahasa kedua membutuhkan waktu dan kesabaran.",
+    "stepByStep": [
+      "Kalimat meminta subjek yang berupa kegiatan belajar.",
+      "Gerund dari kata kerja learn adalah learning.",
+      "Learned adalah V3, learns adalah present tunggal, dan learner adalah kata benda orang, bukan kegiatan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Learned adalah V3, tidak bisa menjadi subjek kegiatan ini." },
+      { "optionId": "B", "reasonId": "Learns adalah present tunggal, tidak cocok sebagai gerund subjek." },
+      { "optionId": "D", "reasonId": "Learner adalah orang yang belajar, bukan kegiatan belajar." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Gerund sebagai subjek memakai V-ing dan bekerja seperti kata benda tunggal.",
+      "examples": [
+        { "en": "Swimming is good for your health.", "id": "Berenang baik untuk kesehatanmu." },
+        { "en": "Reading takes patience.", "id": "Membaca butuh kesabaran." }
+      ]
+    },
+    "examTrap": "Pilihan D learner terlihat seperti subjek karena menyangkut orang, tetapi kalimat ini membicarakan kegiatan belajar."
+  },
+  {
+    "id": "W06-028",
+    "week": 6,
+    "topicTag": "anak-kalimat-kata-benda",
+    "type": "mcq",
+    "prompt": "Nobody knows ___ the storm will arrive.",
+    "options": [
+      { "id": "A", "text": "whoever" },
+      { "id": "B", "text": "wherever" },
+      { "id": "C", "text": "whichever" },
+      { "id": "D", "text": "when" }
+    ],
+    "difficulty": "hard",
+    "correct": "D",
+    "explanationId": "When menanyakan waktu dalam anak kalimat kata benda: tidak ada yang tahu kapan badai datang.",
+    "stepByStep": [
+      "Kalimat membicarakan waktu kedatangan badai.",
+      "Anak kalimat kata benda untuk waktu memakai when.",
+      "Whoever untuk orang, wherever untuk tempat, dan whichever untuk pilihan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Whoever untuk orang, tidak cocok dengan waktu kedatangan badai." },
+      { "optionId": "B", "reasonId": "Wherever untuk tempat, tidak cocok dengan waktu." },
+      { "optionId": "C", "reasonId": "Whichever untuk memilih dari pilihan, tidak cocok dengan waktu." }
+    ],
+    "ruleAndExamples": {
+      "rule": "When dalam anak kalimat kata benda menanyakan waktu yang belum diketahui.",
+      "examples": [
+        { "en": "I do not know when the bus will come.", "id": "Saya tidak tahu kapan bus akan datang." },
+        { "en": "Nobody can tell when the rain will stop.", "id": "Tidak ada yang bisa memberi tahu kapan hujan akan berhenti." }
+      ]
+    },
+    "examTrap": "Pilihan A whoever terlihat seperti jawaban yang sederhana, tetapi kalimat ini membicarakan waktu, bukan orang."
+  },
+  {
+    "id": "W06-029",
+    "week": 6,
+    "topicTag": "anak-kalimat-keterangan",
+    "type": "mcq",
+    "prompt": "___ you finish your work, you may go home.",
+    "options": [
+      { "id": "A", "text": "As soon as" },
+      { "id": "B", "text": "Wherever" },
+      { "id": "C", "text": "Nonetheless" },
+      { "id": "D", "text": "Which" }
+    ],
+    "difficulty": "hard",
+    "correct": "A",
+    "explanationId": "As soon as menunjukkan waktu: kamu boleh pulang segera setelah pekerjaanmu selesai.",
+    "stepByStep": [
+      "Kalimat menyatakan izin pulang setelah pekerjaan selesai.",
+      "As soon as menandai urutan waktu segera setelah kejadian selesai.",
+      "Wherever menunjukkan tempat, nonetheless menunjukkan kontras, dan which tidak memperkenalkan anak kalimat waktu."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "B", "reasonId": "Wherever menunjukkan tempat, tidak cocok dengan urutan waktu." },
+      { "optionId": "C", "reasonId": "Nonetheless menunjukkan kontras, tidak cocok dengan urutan waktu." },
+      { "optionId": "D", "reasonId": "Which tidak memperkenalkan anak kalimat waktu seperti ini." }
+    ],
+    "ruleAndExamples": {
+      "rule": "As soon as memperkenalkan anak kalimat waktu dengan simple present untuk masa depan.",
+      "examples": [
+        { "en": "We will leave as soon as the bus arrives.", "id": "Kami akan berangkat segera setelah bus tiba." },
+        { "en": "Call me as soon as you land.", "id": "Telepon saya segera setelah kamu mendarat." }
+      ]
+    },
+    "examTrap": "Pilihan C nonetheless terlihat cocok karena ada izin, tetapi kalimat ini tidak menunjukkan kontras."
+  },
+  {
+    "id": "W06-030",
+    "week": 6,
+    "topicTag": "penghubung",
+    "type": "mcq",
+    "prompt": "The rain was heavy; ___, the match continued.",
+    "options": [
+      { "id": "A", "text": "Consequently" },
+      { "id": "B", "text": "Nevertheless" },
+      { "id": "C", "text": "Hence" },
+      { "id": "D", "text": "Meanwhile" }
+    ],
+    "difficulty": "hard",
+    "correct": "B",
+    "explanationId": "Nevertheless menunjukkan kontras: hujannya deras, tetapi pertandingan tetap berlanjut.",
+    "stepByStep": [
+      "Kalimat pertama menyebut halangan: hujan deras.",
+      "Kalimat kedua menyebut pertandingan tetap berlanjut, yang berlawanan dengan halangan itu.",
+      "Consequently dan hence menunjukkan akibat, dan meanwhile menunjukkan waktu bersamaan."
+    ],
+    "whyOthersWrong": [
+      { "optionId": "A", "reasonId": "Consequently menunjukkan akibat, bukan kontras." },
+      { "optionId": "C", "reasonId": "Hence menunjukkan akibat, bukan kontras." },
+      { "optionId": "D", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kontras." }
+    ],
+    "ruleAndExamples": {
+      "rule": "Nevertheless menunjukkan kontras antara halangan dan hasil yang tetap terjadi.",
+      "examples": [
+        { "en": "The road was closed. Nevertheless, we arrived on time.", "id": "Jalannya ditutup. Meskipun begitu, kami tiba tepat waktu." },
+        { "en": "The price rose. Nevertheless, sales stayed strong.", "id": "Harganya naik. Meskipun begitu, penjualannya tetap kuat." }
+      ]
+    },
+    "examTrap": "Pilihan A consequently terlihat cocok karena ada sebab hujan, tetapi kalimat kedua berlawanan dengan halangan, bukan akibat."
+  }
+]

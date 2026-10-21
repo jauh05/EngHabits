@@ -1,0 +1,614 @@
+{
+  "day": 44,
+  "week": 6,
+  "month": 2,
+  "title": "Review Minggu 6",
+  "topic": "Review: penghubung, anak kalimat keterangan, sifat, kata benda, dan frasa yang diringkas",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang penghubung antarkalimat dan konsesi",
+    "Meninjau ulang anak kalimat keterangan, sifat, dan kata benda",
+    "Meninjau ulang frasa yang diringkas dengan V-ing dan V3"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "however", "pronunciationId": "hau-EV-er (tekanan di EV)", "pos": "Adv", "meaningId": "namun", "example": "It was late. However, we kept going.", "exampleId": "Sudah larut. Namun, kami tetap melanjutkan." },
+      { "no": 2, "en": "whenever", "pronunciationId": "wen-EV-er (tekanan di EV)", "pos": "Conj", "meaningId": "setiap kali", "example": "Whenever it rains, we stay home.", "exampleId": "Setiap kali hujan, kami tinggal di rumah." },
+      { "no": 3, "en": "regardless", "pronunciationId": "ri-GARD-les (tekanan di GARD)", "pos": "Adv", "meaningId": "terlepas dari", "example": "We will go, regardless of the weather.", "exampleId": "Kami akan pergi, terlepas dari cuacanya." },
+      { "no": 4, "en": "who", "pronunciationId": "HOO (o panjang, w tidak dibunyikan)", "pos": "Other", "meaningId": "yang, orang yang", "example": "The teacher who helped me is kind.", "exampleId": "Guru yang membantu saya itu baik." },
+      { "no": 5, "en": "wonder", "pronunciationId": "WUN-der (tekanan di WUN)", "pos": "Verb", "meaningId": "bertanya-tanya", "example": "I wonder whether it will rain.", "exampleId": "Saya bertanya-tanya apakah akan hujan." },
+      { "no": 6, "en": "participle", "pronunciationId": "par-TIS-i-pl (tekanan di TIS)", "pos": "Noun", "meaningId": "partisip", "example": "The participle describes the noun.", "exampleId": "Partisip menerangkan kata benda." },
+      { "no": 7, "en": "believe", "pronunciationId": "bi-LIV (tekanan di LIV)", "pos": "Verb", "meaningId": "percaya", "example": "I believe that she is right.", "exampleId": "Saya percaya bahwa dia benar." },
+      { "no": 8, "en": "reduced", "pronunciationId": "ri-DYOOST (tekanan di DYOOST)", "pos": "Adj", "meaningId": "diringkas", "example": "The reduced clause is shorter.", "exampleId": "Anak kalimat yang diringkas lebih pendek." },
+      { "no": 9, "en": "therefore", "pronunciationId": "THAIR-for (tekanan di THAIR)", "pos": "Adv", "meaningId": "oleh karena itu", "example": "It rained. Therefore, we stayed home.", "exampleId": "Hujan turun. Oleh karena itu, kami tinggal di rumah." },
+      { "no": 10, "en": "describe", "pronunciationId": "di-SKRAIB (tekanan di SKRAIB)", "pos": "Verb", "meaningId": "menggambarkan", "example": "She can describe the place well.", "exampleId": "Dia bisa menggambarkan tempat itu dengan baik." }
+    ],
+    "tip": "Sebelum memilih jawaban, tandai dulu jenis hubungannya: akibat, kontras, syarat, tujuan, atau kata benda. Setelah itu, cek apakah kata penghubungnya cocok dengan makna itu."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["TOEFL clauses review", "English clauses practice"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum penghubung antarkalimat, anak kalimat, dan frasa yang diringkas.",
+      "watchFor": [
+        "Penghubung dan maknanya",
+        "Anak kalimat sifat, keterangan, dan kata benda",
+        "Frasa V-ing dan V3"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu 6 membahas cara menghubungkan ide: penghubung antarkalimat, anak kalimat keterangan, anak kalimat sifat, anak kalimat kata benda, dan frasa yang diringkas. Hari ini kamu meninjau semuanya dalam satu sesi.",
+      "sections": [
+        {
+          "heading": "Peta minggu 6",
+          "bodyMd": "**Penghubung antarkalimat** menunjukkan tambahan, kontras, dan akibat. **Anak kalimat keterangan** menjawab kapan, dengan syarat apa, atau untuk tujuan apa. **Anak kalimat sifat** menerangkan kata benda. **Anak kalimat kata benda** menjadi objek kata kerja pikiran. **Frasa yang diringkas** memakai V-ing atau V3."
+        },
+        {
+          "heading": "Cara memeriksa",
+          "bodyMd": "Tanyakan tiga hal: (1) apa hubungan antara dua ide, (2) apakah kata penghubung cocok dengan hubungan itu, (3) apakah subjek dan kata kerja di setiap klausa sudah sesuai. Kalau ketiga jawaban jelas, pilihanmu biasanya benar."
+        }
+      ],
+      "formulas": [
+        { "label": "Akibat", "pattern": "kalimat 1. Therefore / Thus, kalimat 2" },
+        { "label": "Kontras", "pattern": "kalimat 1. However / Nonetheless, kalimat 2" },
+        { "label": "Anak kalimat", "pattern": "whenever / provided / so that + klausa" },
+        { "label": "Frasa", "pattern": "V-ing untuk aktif, V3 untuk pasif, having + V3 untuk selesai" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The bus was late. Therefore, we walked.", "id": "Bus terlambat. Oleh karena itu, kami berjalan." },
+          { "en": "Whenever it rains, we stay inside.", "id": "Setiap kali hujan, kami tinggal di dalam." },
+          { "en": "The student who won the prize is my friend.", "id": "Siswa yang memenangkan hadiah itu temanku." },
+          { "en": "Having finished the work, she left.", "id": "Setelah menyelesaikan pekerjaan, dia pergi." },
+          { "en": "Regardless of the cost, we will buy it.", "id": "Terlepas dari biayanya, kami akan membelinya." }
+        ],
+        "negative": [
+          { "en": "The bus was not late. Therefore, we did not walk.", "id": "Bus tidak terlambat. Oleh karena itu, kami tidak berjalan." },
+          { "en": "We do not leave whenever it rains.", "id": "Kami tidak pergi setiap kali hujan." },
+          { "en": "The teacher who is not here will return tomorrow.", "id": "Guru yang tidak ada di sini akan kembali besok." },
+          { "en": "She does not believe that the plan will work.", "id": "Dia tidak percaya bahwa rencananya akan berhasil." },
+          { "en": "The room not cleaned yet is still open.", "id": "Ruangan yang belum dibersihkan masih terbuka." }
+        ],
+        "question": [
+          { "en": "Was the bus late? Therefore, did you walk?", "id": "Apakah bus terlambat? Oleh karena itu, apakah kamu berjalan?" },
+          { "en": "Who won the prize?", "id": "Siapa yang memenangkan hadiah?" },
+          { "en": "Do you believe that the plan will work?", "id": "Apakah kamu percaya bahwa rencananya akan berhasil?" },
+          { "en": "Did she finish the work before she left?", "id": "Apakah dia menyelesaikan pekerjaan sebelum pergi?" },
+          { "en": "Will you buy it regardless of the cost?", "id": "Apakah kamu akan membelinya terlepas dari biayanya?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The bus was late, therefore we walked.", "right": "The bus was late. Therefore, we walked.", "whyId": "Penghubung akibat di kalimat kedua memakai titik sebelumnya, lalu koma." },
+        { "wrong": "Whenever it will rain, we stay inside.", "right": "Whenever it rains, we stay inside.", "whyId": "Dalam anak kalimat waktu, gunakan simple present." },
+        { "wrong": "The teacher which helped me is kind.", "right": "The teacher who helped me is kind.", "whyId": "Untuk orang, gunakan who." },
+        { "wrong": "I wonder that she will come.", "right": "I wonder whether she will come.", "whyId": "Untuk pertanyaan ya atau tidak, gunakan whether atau if." },
+        { "wrong": "Having finish the work, she left.", "right": "Having finished the work, she left.", "whyId": "Setelah having, gunakan V3." },
+        { "wrong": "Regardless the cost, we will buy it.", "right": "Regardless of the cost, we will buy it.", "whyId": "Regardless diikuti of sebelum kata benda." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["TOEFL clauses review", "study tips conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Penjelasan tentang however dan therefore",
+        "Anak kalimat yang diringkas dalam percakapan"
+      ]
+    },
+    "script": {
+      "title": "Review bersama tutor",
+      "lines": [
+        { "speaker": "Tutor", "text": "Let's review week six. First, what is the difference between however and therefore?" },
+        { "speaker": "Student", "text": "However shows contrast, and therefore shows a result. I always mix them up." },
+        { "speaker": "Tutor", "text": "Good. Whenever you see a contrast, think of however or nevertheless." },
+        { "speaker": "Student", "text": "And regardless of the topic, I should check the clause first." },
+        { "speaker": "Tutor", "text": "Yes. The word who describes a person, so the clause must refer to a person." },
+        { "speaker": "Student", "text": "I wonder if I can remember all the noun clauses. I believe the practice helps." },
+        { "speaker": "Tutor", "text": "It does. A reduced clause is shorter, like the participle phrase in 'The team, having finished early, relaxed.'" },
+        { "speaker": "Student", "text": "So having finished is the reduced form of a clause with because or after?" },
+        { "speaker": "Tutor", "text": "Exactly. Describe the sentence to yourself before you choose the answer, and it becomes easy." },
+        { "speaker": "Student", "text": "Thanks. Therefore, I will practice every day this week." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada however dan therefore, tekanan ada di suku pertama: hau-EV-er, THAIR-for.",
+      "Pada regardless, tekanan ada di suku pertama: ri-GARD-les.",
+      "Pada participle, ucapkan par-TIS-i-pl dengan tekanan di TIS."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What is the main topic of this review?",
+        "options": [
+          { "id": "A", "text": "week six grammar" },
+          { "id": "B", "text": "cooking recipes" },
+          { "id": "C", "text": "a football match" },
+          { "id": "D", "text": "a travel plan" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Tutor berkata 'Let's review week six', artinya sesi ini meninjau tata bahasa minggu 6.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Resep masakan tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Pertandingan sepak bola tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Rencana perjalanan tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Let's review week six"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "According to the student, what is the difference between however and therefore?",
+        "options": [
+          { "id": "A", "text": "However shows a result; therefore shows contrast." },
+          { "id": "B", "text": "However shows contrast; therefore shows a result." },
+          { "id": "C", "text": "They have the same meaning." },
+          { "id": "D", "text": "Both show time." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Siswa berkata 'However shows contrast, and therefore shows a result', artinya however untuk kontras dan therefore untuk akibat.",
+        "stepByStep": [
+          "Cari however dan therefore di naskah siswa.",
+          "Siswa menyebut however untuk kontras dan therefore untuk hasil.",
+          "Pilihan A tertukar. Pilihan C dan D tidak disebut oleh siswa."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Fungsi kedua kata itu tertukar dalam pilihan ini." },
+          { "optionId": "C", "reasonId": "Siswa menyebut keduanya punya makna berbeda." },
+          { "optionId": "D", "reasonId": "Siswa tidak menyebut keduanya berhubungan dengan waktu." }
+        ],
+        "evidence": "However shows contrast, and therefore shows a result"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What should the student think of when seeing a contrast?",
+        "options": [
+          { "id": "A", "text": "therefore" },
+          { "id": "B", "text": "whenever" },
+          { "id": "C", "text": "however or nevertheless" },
+          { "id": "D", "text": "which" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'think of however or nevertheless' ketika melihat kontras.",
+        "stepByStep": [
+          "Cari contrast di naskah tutor.",
+          "Tutor menyebut however atau nevertheless untuk kontras.",
+          "Therefore menunjukkan akibat, whenever menunjukkan waktu, dan which adalah kata penghubung anak kalimat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Therefore menunjukkan akibat, bukan kontras." },
+          { "optionId": "B", "reasonId": "Whenever menunjukkan waktu, bukan kontras." },
+          { "optionId": "D", "reasonId": "Which adalah kata penghubung anak kalimat, bukan penghubung kontras." }
+        ],
+        "evidence": "think of however or nevertheless"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "According to the tutor, what must the clause refer to when it begins with who?",
+        "options": [
+          { "id": "A", "text": "a thing" },
+          { "id": "B", "text": "an animal" },
+          { "id": "C", "text": "no noun" },
+          { "id": "D", "text": "a person" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Tutor berkata 'The word who describes a person, so the clause must refer to a person', artinya who merujuk pada orang.",
+        "stepByStep": [
+          "Cari who di naskah tutor.",
+          "Tutor menjelaskan bahwa who menggambarkan orang.",
+          "Benda, hewan, dan tidak ada kata benda tidak sesuai dengan who."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who tidak merujuk pada benda." },
+          { "optionId": "B", "reasonId": "Who tidak merujuk pada hewan dalam penjelasan ini." },
+          { "optionId": "C", "reasonId": "Anak kalimat dengan who harus merujuk pada kata benda, yaitu orang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Who merujuk pada orang sebagai subjek anak kalimat sifat.",
+          "examples": [
+            { "en": "The student who asked the question is here.", "id": "Siswa yang bertanya itu ada di sini." },
+            { "en": "The woman who called you is my aunt.", "id": "Wanita yang menelepon kamu itu bibi saya." }
+          ]
+        },
+        "examTrap": "Pilihan C no noun terlihat seperti kesimpulan lain, tetapi tutor menyebut who harus merujuk pada orang.",
+        "evidence": "the clause must refer to a person"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What does the tutor say makes the reduced form easy?",
+        "options": [
+          { "id": "A", "text": "guessing quickly" },
+          { "id": "B", "text": "reading the sentence aloud" },
+          { "id": "C", "text": "describing the sentence to yourself before answering" },
+          { "id": "D", "text": "skipping the difficult parts" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Tutor berkata 'Describe the sentence to yourself before you choose the answer, and it becomes easy', artinya menjelaskan kalimat pada diri sendiri sebelum menjawab membuatnya mudah.",
+        "stepByStep": [
+          "Cari easy di naskah tutor.",
+          "Tutor menyarankan menjelaskan kalimat pada diri sendiri sebelum memilih jawaban.",
+          "Menebak cepat, membaca keras, dan melewati bagian sulit tidak disebut sebagai cara membuatnya mudah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menebak cepat tidak disarankan tutor." },
+          { "optionId": "B", "reasonId": "Membaca keras tidak disebut sebagai cara membuatnya mudah." },
+          { "optionId": "D", "reasonId": "Melewati bagian sulit tidak disarankan tutor." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Menjelaskan kalimat dengan kata sendiri membantu memastikan struktur dan maknanya.",
+          "examples": [
+            { "en": "Explain the sentence to yourself: who is the subject, and what is the verb?", "id": "Jelaskan kalimat itu pada dirimu sendiri: apa subjeknya, dan apa kata kerjanya?" },
+            { "en": "Describe the clause before you choose the word.", "id": "Gambarkan anak kalimat itu sebelum kamu memilih kata." }
+          ]
+        },
+        "examTrap": "Pilihan A guessing quickly terlihat seperti cara menghemat waktu, tetapi tutor menyarankan kebalikannya.",
+        "evidence": "Describe the sentence to yourself before you choose the answer"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The children ___ in the garden are my neighbors.",
+        "options": [
+          { "id": "A", "text": "playing" },
+          { "id": "B", "text": "played" },
+          { "id": "C", "text": "play" },
+          { "id": "D", "text": "to play" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Playing adalah present participle dengan makna aktif: anak-anak yang bermain.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Played adalah simple past, tidak cocok sebagai frasa yang menerangkan anak-anak." },
+          { "optionId": "C", "reasonId": "Play adalah bentuk dasar, tidak cocok untuk memendekkan anak kalimat." },
+          { "optionId": "D", "reasonId": "To play adalah infinitif, tidak cocok sebagai frasa yang menerangkan anak-anak." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "___ the weather, we will still go to the park.",
+        "options": [
+          { "id": "A", "text": "Therefore" },
+          { "id": "B", "text": "Whenever" },
+          { "id": "C", "text": "Regardless of" },
+          { "id": "D", "text": "However" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Regardless of diikuti kata benda the weather dan menyatakan konsesi.",
+        "stepByStep": [
+          "Kalimat menyatakan kami tetap pergi walaupun cuacanya tidak tentu.",
+          "Konsesi dengan kata benda the weather memakai regardless of.",
+          "Therefore menunjukkan akibat, whenever menunjukkan waktu, dan however menunjukkan kontras dengan kalimat sebelumnya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Therefore menunjukkan akibat, tidak cocok dengan konsesi." },
+          { "optionId": "B", "reasonId": "Whenever menunjukkan waktu berulang, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "However menghubungkan dua kalimat, tidak diikuti kata benda seperti ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The result was poor; ___, the team learned a lot.",
+        "options": [
+          { "id": "A", "text": "therefore" },
+          { "id": "B", "text": "whoever" },
+          { "id": "C", "text": "however" },
+          { "id": "D", "text": "whenever" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "However menunjukkan kontras: hasilnya buruk, tetapi tim belajar banyak.",
+        "stepByStep": [
+          "Kalimat pertama menyebut hasil yang buruk.",
+          "Kalimat kedua menyebut sesuatu yang positif.",
+          "Therefore menunjukkan akibat, whoever untuk orang, dan whenever untuk waktu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Therefore menunjukkan akibat, bukan kontras." },
+          { "optionId": "B", "reasonId": "Whoever untuk orang, bukan penghubung antarkalimat." },
+          { "optionId": "D", "reasonId": "Whenever untuk waktu berulang, bukan penghubung kontras." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The company, ___ was founded in 1990, has grown quickly.",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "whose" },
+          { "id": "D", "text": "whom" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Which dipakai untuk benda atau organisasi yang diterangkan, dan diapit koma.",
+        "ruleAndExamples": {
+          "rule": "Which dipakai untuk benda atau organisasi, termasuk perusahaan, dalam anak kalimat yang diapit koma.",
+          "examples": [
+            { "en": "The company, which opened last year, is growing.", "id": "Perusahaan itu, yang dibuka tahun lalu, sedang berkembang." },
+            { "en": "The school, which has a large library, is popular.", "id": "Sekolah itu, yang punya perpustakaan besar, populer." }
+          ]
+        },
+        "examTrap": "Pilihan A who terlihat cocok karena ada kata company yang dipikirkan sebagai orang, tetapi perusahaan adalah benda atau organisasi.",
+        "stepByStep": [
+          "The company adalah organisasi, jadi bukan orang.",
+          "Anak kalimat yang diapit koma memakai which.",
+          "Who dan whom untuk orang, dan whose menunjukkan kepemilikan yang tidak ada di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who untuk orang, bukan perusahaan." },
+          { "optionId": "C", "reasonId": "Whose menunjukkan kepemilikan, tidak cocok dengan kalimat ini." },
+          { "optionId": "D", "reasonId": "Whom untuk orang sebagai objek, bukan perusahaan." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ the rules, the students finished the test on time.",
+        "options": [
+          { "id": "A", "text": "Follow" },
+          { "id": "B", "text": "Following" },
+          { "id": "C", "text": "Followed" },
+          { "id": "D", "text": "Follows" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Following the rules adalah frasa aktif yang menerangkan siswa yang mengikuti aturan.",
+        "stepByStep": [
+          "Siswa mengikuti aturan, jadi maknanya aktif.",
+          "Frasa aktif yang memendekkan anak kalimat memakai V-ing: following.",
+          "Follow adalah bentuk dasar, followed adalah V3 yang tidak tepat, dan follows adalah present tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Follow adalah bentuk dasar, tidak cocok untuk frasa ini." },
+          { "optionId": "C", "reasonId": "Followed bermakna pasif, padahal siswa yang mengikuti aturan." },
+          { "optionId": "D", "reasonId": "Follows adalah present tunggal, tidak cocok sebagai frasa." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa aktif yang memendekkan anak kalimat memakai V-ing, dengan subjek yang sama dengan klausa utama.",
+          "examples": [
+            { "en": "Following the instructions, she found the room.", "id": "Sambil mengikuti petunjuk, dia menemukan ruangan itu." },
+            { "en": "Reading the notes, he answered the question.", "id": "Sambil membaca catatan, dia menjawab pertanyaan itu." }
+          ]
+        },
+        "examTrap": "Pilihan C followed terlihat cocok karena artinya sudah terjadi, tetapi maknanya pasif dan siswa yang mengikuti aturan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Mereka sedang bermain di taman.",
+        "hint": "Sedang bermain: are playing. Di taman: in the park.",
+        "acceptedAnswers": ["They are playing in the park."],
+        "modelAnswer": "They are playing in the park.",
+        "commonErrors": [{ "pattern": "They is playing in the park", "feedbackId": "Subjek they memakai are." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apa pun yang terjadi, kami akan tetap datang.",
+        "hint": "Apa pun yang terjadi: whatever happens. Tetap datang: will still come.",
+        "acceptedAnswers": ["Whatever happens, we will still come.", "Regardless of what happens, we will still come."],
+        "modelAnswer": "Whatever happens, we will still come.",
+        "commonErrors": [{ "pattern": "Whoever happens, we will still come", "feedbackId": "Untuk hal atau kejadian, gunakan whatever, bukan whoever." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya ingin tahu siapa yang akan menang.",
+        "hint": "Ingin tahu: I wonder. Siapa: who. Akan menang: will win.",
+        "acceptedAnswers": ["I wonder who will win.", "I wonder who is going to win."],
+        "modelAnswer": "I wonder who will win.",
+        "commonErrors": [{ "pattern": "I wonder that who will win", "feedbackId": "Setelah wonder untuk pertanyaan, gunakan who tanpa that." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Oleh karena itu, saya percaya bahwa kita perlu berlatih lebih banyak.",
+        "hint": "Oleh karena itu: therefore. Saya percaya bahwa: I believe that. Perlu berlatih: need to practice.",
+        "acceptedAnswers": [
+          "Therefore, I believe that we need to practice more.",
+          "Therefore, I believe we need to practice more."
+        ],
+        "modelAnswer": "Therefore, I believe that we need to practice more.",
+        "commonErrors": [{ "pattern": "Therefore I believe whether we need to practice more", "feedbackId": "Untuk pernyataan, gunakan that, bukan whether." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sambil menjelaskan tugasnya dengan jelas, dia memberi sebuah contoh.",
+        "hint": "Sambil menjelaskan: describing. Dengan jelas: clearly. Memberi contoh: gave an example.",
+        "acceptedAnswers": [
+          "Describing the task clearly, she gave an example.",
+          "Describing the task clearly, she showed an example."
+        ],
+        "modelAnswer": "Describing the task clearly, she gave an example.",
+        "commonErrors": [{ "pattern": "Described the task clearly, she gave an example", "feedbackId": "Makna aktif memakai V-ing: describing." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The results were late; ___, the teachers apologized.'",
+        "options": [
+          { "id": "A", "text": "however" },
+          { "id": "B", "text": "therefore" },
+          { "id": "C", "text": "whoever" },
+          { "id": "D", "text": "whenever" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Therefore menunjukkan akibat: hasil terlambat, sehingga guru meminta maaf.",
+        "stepByStep": [
+          "Kalimat pertama menyebut hasil yang terlambat.",
+          "Kalimat kedua menyebut guru meminta maaf sebagai akibat.",
+          "However menunjukkan kontras, whoever untuk orang, dan whenever untuk waktu berulang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "However menunjukkan kontras, tidak cocok dengan akibat." },
+          { "optionId": "C", "reasonId": "Whoever untuk orang, bukan penghubung akibat." },
+          { "optionId": "D", "reasonId": "Whenever untuk waktu berulang, bukan penghubung akibat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Therefore menunjukkan akibat dari kalimat sebelumnya.",
+          "examples": [
+            { "en": "The data was incomplete. Therefore, we waited.", "id": "Datanya belum lengkap. Oleh karena itu, kami menunggu." },
+            { "en": "The bus was full. Therefore, we took a taxi.", "id": "Bus penuh. Oleh karena itu, kami naik taksi." }
+          ]
+        },
+        "examTrap": "Pilihan A however terlihat cocok karena ada kejadian yang kurang baik, tetapi kalimat kedua adalah akibat, bukan kontras."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence correctly reduces 'Because he was tired, he went to bed'?",
+        "options": [
+          { "id": "A", "text": "Because tired, he went to bed." },
+          { "id": "B", "text": "Tired being, he went to bed." },
+          { "id": "C", "text": "Being tired, he went to bed." },
+          { "id": "D", "text": "He being tired, went to bed." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Being tired adalah bentuk ringkas dari because he was tired, dan subjeknya tetap he.",
+        "stepByStep": [
+          "Anak kalimat because he was tired diringkas menjadi frasa being tired.",
+          "Subjek frasa dan klausa utama sama, yaitu he.",
+          "Pilihan A tetap memakai because. Pilihan B dan D susunan katanya salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Because tidak boleh dipakai bersama bentuk ringkas tired." },
+          { "optionId": "B", "reasonId": "Susunan kata tired being salah." },
+          { "optionId": "D", "reasonId": "Susunan he being tired salah dan tidak sesuai dengan bentuk ringkas." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Anak kalimat sebab yang subjeknya sama bisa diringkas menjadi frasa dengan being atau having.",
+          "examples": [
+            { "en": "Because she was hungry, she ate lunch early. Being hungry, she ate lunch early.", "id": "Karena lapar, dia makan siang lebih awal." },
+            { "en": "Being late, we took a taxi.", "id": "Karena terlambat, kami naik taksi." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena masih ada because, tetapi bentuk ringkas tidak memakai because."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "The noun clause in 'I believe that the answer is correct' begins with which word?",
+        "options": [
+          { "id": "A", "text": "believe" },
+          { "id": "B", "text": "that" },
+          { "id": "C", "text": "I" },
+          { "id": "D", "text": "correct" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Anak kalimat kata benda dimulai dengan that: that the answer is correct.",
+        "stepByStep": [
+          "Anak kalimat kata benda menjadi objek dari believe.",
+          "Penghubung yang memulai anak kalimat pernyataan adalah that.",
+          "Believe adalah kata kerja utama, I adalah subjek, dan correct adalah kata sifat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Believe adalah kata kerja utama, bukan kata yang memulai anak kalimat." },
+          { "optionId": "C", "reasonId": "I adalah subjek kalimat utama, bukan awal anak kalimat kata benda." },
+          { "optionId": "D", "reasonId": "Correct adalah kata sifat dalam anak kalimat, bukan penghubung." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Anak kalimat kata benda untuk pernyataan dimulai dengan that setelah kata kerja pikiran.",
+          "examples": [
+            { "en": "I know that the answer is clear.", "id": "Saya tahu bahwa jawabannya jelas." },
+            { "en": "She admits that the plan failed.", "id": "Dia mengakui bahwa rencananya gagal." }
+          ]
+        },
+        "examTrap": "Pilihan A believe terlihat seperti awal anak kalimat, tetapi believe adalah kata kerja utama."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'Whoever ___ first will receive a prize.'",
+        "options": [
+          { "id": "A", "text": "arrives" },
+          { "id": "B", "text": "arrive" },
+          { "id": "C", "text": "arriving" },
+          { "id": "D", "text": "arrived" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Whoever sebagai subjek tunggal memakai arrives, dan kata kerja utama kalimat adalah will receive.",
+        "stepByStep": [
+          "Whoever adalah kata ganti tunggal yang menjadi subjek anak kalimat.",
+          "Kata kerja tunggal present untuk arrive adalah arrives.",
+          "Arrive memakai subjek jamak, arriving bukan kata kerja utama, dan arrived lampau."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Arrive memakai subjek jamak, tidak cocok dengan whoever yang tunggal." },
+          { "optionId": "C", "reasonId": "Arriving tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Arrived adalah lampau, tidak cocok dengan konteks yang akan datang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whoever sebagai subjek memakai kata kerja tunggal.",
+          "examples": [
+            { "en": "Whoever calls first gets the answer.", "id": "Siapa pun yang menelepon lebih dulu mendapat jawabannya." },
+            { "en": "Whoever is late will miss the bus.", "id": "Siapa pun yang terlambat akan ketinggalan bus." }
+          ]
+        },
+        "examTrap": "Pilihan B arrive terlihat benar karena artinya datang, tetapi whoever tunggal dan memakai arrives."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Describing the picture, the students wrote a story." },
+          { "id": "B", "text": "Describe the picture, the students wrote a story." },
+          { "id": "C", "text": "Described the picture, the students wrote a story." },
+          { "id": "D", "text": "The picture described, the students wrote a story." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Describing the picture adalah frasa aktif dengan subjek the students yang menulis cerita.",
+        "stepByStep": [
+          "Siswa menggambarkan gambar, jadi maknanya aktif.",
+          "Frasa aktif memakai V-ing: describing.",
+          "Describe adalah bentuk dasar, described bermakna pasif, dan The picture described menjadikan gambar sebagai pelaku."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Describe adalah bentuk dasar, tidak cocok untuk memendekkan anak kalimat." },
+          { "optionId": "C", "reasonId": "Described bermakna pasif, padahal siswa yang menggambarkan." },
+          { "optionId": "D", "reasonId": "The picture described menjadikan gambar sebagai pelaku, padahal siswa yang menggambarkan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Frasa aktif yang memendekkan anak kalimat memakai V-ing, dan subjeknya harus sama dengan klausa utama.",
+          "examples": [
+            { "en": "Describing the scene, she smiled.", "id": "Sambil menggambarkan pemandangan itu, dia tersenyum." },
+            { "en": "Reading the report, the manager nodded.", "id": "Sambil membaca laporan itu, manajer itu mengangguk." }
+          ]
+        },
+        "examTrap": "Pilihan C described terlihat seperti frasa yang sudah selesai, tetapi maknanya pasif dan tidak sesuai dengan siswa yang menggambarkan."
+      }
+    ]
+  }
+}

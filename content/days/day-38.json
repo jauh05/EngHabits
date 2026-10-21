@@ -1,0 +1,617 @@
+{
+  "day": 38,
+  "week": 6,
+  "month": 2,
+  "title": "Coordinate Connectors (Penghubung Setara)",
+  "topic": "Penghubung antarkalimat untuk tambahan, kontras, dan akibat",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memakai penghubung tambahan seperti furthermore dan moreover",
+    "Memakai penghubung kontras seperti however dan nevertheless",
+    "Memakai penghubung akibat seperti therefore dan consequently"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "furthermore", "pronunciationId": "FUR-ther-mor (tekanan di FUR)", "pos": "Adv", "meaningId": "selain itu, lebih jauh", "example": "The room is large. Furthermore, it is bright.", "exampleId": "Ruangannya besar. Selain itu, ruangannya terang." },
+      { "no": 2, "en": "moreover", "pronunciationId": "mor-O-ver (tekanan di O)", "pos": "Adv", "meaningId": "selain itu, terlebih lagi", "example": "The food is cheap. Moreover, it is tasty.", "exampleId": "Makanannya murah. Terlebih lagi, enak." },
+      { "no": 3, "en": "however", "pronunciationId": "hau-EV-er (tekanan di EV)", "pos": "Adv", "meaningId": "namun, akan tetapi", "example": "It was late. However, we kept working.", "exampleId": "Sudah larut. Namun, kami tetap bekerja." },
+      { "no": 4, "en": "therefore", "pronunciationId": "THAIR-for (tekanan di THAIR)", "pos": "Adv", "meaningId": "oleh karena itu", "example": "It rained. Therefore, we stayed home.", "exampleId": "Hujan turun. Oleh karena itu, kami tinggal di rumah." },
+      { "no": 5, "en": "consequently", "pronunciationId": "KON-se-kwent-li (tekanan di KON)", "pos": "Adv", "meaningId": "akibatnya", "example": "The bus was late. Consequently, we missed the start.", "exampleId": "Bus terlambat. Akibatnya, kami melewatkan awal acara." },
+      { "no": 6, "en": "nevertheless", "pronunciationId": "NEV-er-the-les (tekanan di NEV)", "pos": "Adv", "meaningId": "meskipun begitu", "example": "He was tired. Nevertheless, he finished the race.", "exampleId": "Dia lelah. Meskipun begitu, dia menyelesaikan lomba itu." },
+      { "no": 7, "en": "meanwhile", "pronunciationId": "MEEN-wail (tekanan di MEEN)", "pos": "Adv", "meaningId": "sementara itu", "example": "Ani cooked. Meanwhile, Budi cleaned the floor.", "exampleId": "Ani memasak. Sementara itu, Budi membersihkan lantai." },
+      { "no": 8, "en": "hence", "pronunciationId": "HENS (e pendek, s di akhir)", "pos": "Adv", "meaningId": "karena itu, oleh sebab itu", "example": "The road is closed. Hence, we will walk.", "exampleId": "Jalannya ditutup. Karena itu, kami akan berjalan kaki." },
+      { "no": 9, "en": "thus", "pronunciationId": "THUS (u pendek, s di akhir)", "pos": "Adv", "meaningId": "dengan demikian", "example": "She practiced daily. Thus, she improved quickly.", "exampleId": "Dia berlatih setiap hari. Dengan demikian, dia cepat membaik." },
+      { "no": 10, "en": "accordingly", "pronunciationId": "a-KOR-ding-li (tekanan di KOR)", "pos": "Adv", "meaningId": "sesuai dengan itu", "example": "The rules changed. Accordingly, we updated the list.", "exampleId": "Aturannya berubah. Sesuai dengan itu, kami memperbarui daftarnya." }
+    ],
+    "tip": "Penghubung antarkalimat ditaruh di awal kalimat kedua, diikuti koma. Pilih dari maknanya: tambahan, kontras, akibat, atau urutan waktu."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["transition words English", "coordinate connectors TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang penghubung antarkalimat untuk tambahan, kontras, dan akibat.",
+      "watchFor": [
+        "Penghubung tambahan seperti furthermore dan moreover",
+        "Penghubung kontras seperti however dan nevertheless",
+        "Penghubung akibat seperti therefore dan consequently"
+      ]
+    },
+    "lesson": {
+      "intro": "Penghubung antarkalimat membantu pembaca melihat hubungan antara dua kalimat: apakah ide kedua menambah, berlawanan, atau menjadi akibat dari ide pertama. Dengan memilih penghubung yang tepat, tulisanmu terasa lebih runtut.",
+      "sections": [
+        {
+          "heading": "Tambahan dan kontras",
+          "bodyMd": "**Furthermore** dan **moreover** menambah informasi: **The room is large. Furthermore, it is bright.** **However** dan **nevertheless** menunjukkan kontras: **It was late. However, we kept working.**"
+        },
+        {
+          "heading": "Akibat dan urutan",
+          "bodyMd": "**Therefore**, **consequently**, **hence**, dan **thus** menunjukkan akibat: **It rained. Therefore, we stayed home.** **Meanwhile** menunjukkan dua kejadian yang berlangsung bersamaan: **Ani cooked. Meanwhile, Budi cleaned the floor.**"
+        },
+        {
+          "heading": "Tanda baca",
+          "bodyMd": "Penghubung antarkalimat biasanya diawali kalimat baru atau titik koma, lalu diikuti koma: **The plan was risky. Nevertheless, the team went ahead.** Jangan memakai penghubung ini untuk menyambung dua klausa tanpa tanda baca."
+        }
+      ],
+      "formulas": [
+        { "label": "Tambahan", "pattern": "kalimat 1. Furthermore / Moreover, kalimat 2" },
+        { "label": "Kontras", "pattern": "kalimat 1. However / Nevertheless, kalimat 2" },
+        { "label": "Akibat", "pattern": "kalimat 1. Therefore / Consequently / Thus, kalimat 2" },
+        { "label": "Bersamaan", "pattern": "kalimat 1. Meanwhile, kalimat 2" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The shop is small. However, it has many customers.", "id": "Tokonya kecil. Namun, tokonya punya banyak pelanggan." },
+          { "en": "The bus was late. Consequently, we missed the start.", "id": "Bus terlambat. Akibatnya, kami melewatkan awal acara." },
+          { "en": "The food is cheap. Moreover, it is tasty.", "id": "Makanannya murah. Terlebih lagi, enak." },
+          { "en": "The rules changed. Accordingly, we updated the list.", "id": "Aturannya berubah. Sesuai dengan itu, kami memperbarui daftarnya." },
+          { "en": "Ani cooked. Meanwhile, Budi cleaned the floor.", "id": "Ani memasak. Sementara itu, Budi membersihkan lantai." }
+        ],
+        "negative": [
+          { "en": "The road is not closed. Therefore, we did not walk.", "id": "Jalannya tidak ditutup. Oleh karena itu, kami tidak berjalan kaki." },
+          { "en": "It did not rain. However, we stayed home.", "id": "Hujan tidak turun. Namun, kami tinggal di rumah." },
+          { "en": "The plan was not risky. Nevertheless, the team did not go ahead.", "id": "Rencananya tidak berisiko. Meskipun begitu, tim tidak melanjutkannya." },
+          { "en": "The price did not change. Thus, the sales did not grow.", "id": "Harganya tidak berubah. Dengan demikian, penjualannya tidak naik." },
+          { "en": "He did not study. Furthermore, he did not take notes.", "id": "Dia tidak belajar. Selain itu, dia tidak mencatat." }
+        ],
+        "question": [
+          { "en": "Was the bus late? Consequently, did you miss the start?", "id": "Apakah bus terlambat? Akibatnya, apakah kamu melewatkan awal acara?" },
+          { "en": "Is the room large? Furthermore, is it bright?", "id": "Apakah ruangannya besar? Selain itu, apakah ruangannya terang?" },
+          { "en": "Did it rain? Therefore, did you stay home?", "id": "Apakah hujan turun? Oleh karena itu, apakah kamu tinggal di rumah?" },
+          { "en": "Was the plan risky? Nevertheless, did the team go ahead?", "id": "Apakah rencananya berisiko? Meskipun begitu, apakah tim melanjutkannya?" },
+          { "en": "Who cleaned the floor? Meanwhile, who cooked dinner?", "id": "Siapa yang membersihkan lantai? Sementara itu, siapa yang memasak makan malam?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "It was late, however we kept working.", "right": "It was late. However, we kept working.", "whyId": "Penghubung kontras di tengah dua klausa tanpa titik membuat kalimat tidak jelas. Gunakan titik, lalu koma." },
+        { "wrong": "The bus was late, consequently we missed the start.", "right": "The bus was late. Consequently, we missed the start.", "whyId": "Consequently sebaiknya diawali kalimat baru, lalu koma." },
+        { "wrong": "Furthermore it is bright, the room is large.", "right": "The room is large. Furthermore, it is bright.", "whyId": "Urutan kalimat salah. Penghubung tambahan ditaruh di awal kalimat kedua." },
+        { "wrong": "It rained. Therefore we stayed home.", "right": "It rained. Therefore, we stayed home.", "whyId": "Penghubung di awal kalimat diikuti koma." },
+        { "wrong": "He was tired. However he finished the race.", "right": "He was tired. However, he finished the race.", "whyId": "However diikuti koma sebelum klausa berikutnya." },
+        { "wrong": "The team went ahead. Thus, however, the risk was high.", "right": "The team went ahead. Thus, the risk was high.", "whyId": "Dua penghubung dalam satu kalimat berlawanan makna dan membingungkan." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["transition words English", "planning a trip English listening"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Penghubung dalam rencana perjalanan",
+        "Akibat dan kontras dalam percakapan"
+      ]
+    },
+    "script": {
+      "title": "Rencana kerja kelompok",
+      "lines": [
+        { "speaker": "Ana", "text": "The new library opens next week. Furthermore, it will have a study room for groups." },
+        { "speaker": "Budi", "text": "That sounds great. However, the parking area is still too small." },
+        { "speaker": "Ana", "text": "True. Therefore, we should take the bus on Monday." },
+        { "speaker": "Budi", "text": "Moreover, the bus stop is near the entrance, so it is convenient." },
+        { "speaker": "Ana", "text": "Consequently, we will arrive early and find a good table." },
+        { "speaker": "Budi", "text": "Nevertheless, the room may be full by nine, so let's hurry." },
+        { "speaker": "Ana", "text": "Meanwhile, I will print the reading list." },
+        { "speaker": "Budi", "text": "Hence, we should meet at the bus stop at seven thirty. Thus, we will not miss the bus." },
+        { "speaker": "Ana", "text": "Accordingly, I will send the schedule to everyone tonight." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada furthermore dan moreover, bunyi -mor di akhir terdengar seperti 'mor' dengan tekanan ringan.",
+      "Pada nevertheless, tekanan ada di suku pertama: NEV-er-the-les.",
+      "Pada consequently, jaga bunyi kon-se-kwent-li tetap rata dan jelas."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does the new library have for groups?",
+        "options": [
+          { "id": "A", "text": "a cafe" },
+          { "id": "B", "text": "a study room" },
+          { "id": "C", "text": "a parking garage" },
+          { "id": "D", "text": "a swimming pool" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Ana berkata 'it will have a study room for groups', artinya perpustakaan itu punya ruang belajar untuk kelompok.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kafe tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Tempat parkir disebut sebagai masalah, bukan fasilitas kelompok." },
+          { "optionId": "D", "reasonId": "Kolam renang tidak disebut dalam percakapan." }
+        ],
+        "evidence": "it will have a study room for groups"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What problem does Budi mention?",
+        "options": [
+          { "id": "A", "text": "the bus is late" },
+          { "id": "B", "text": "the library is closed" },
+          { "id": "C", "text": "the parking area is too small" },
+          { "id": "D", "text": "the books are too old" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Budi berkata 'the parking area is still too small', artinya area parkirnya masih terlalu kecil.",
+        "stepByStep": [
+          "Cari however di naskah Budi: 'However, the parking area is still too small.'",
+          "Kata however menunjukkan kontras dengan kabar baik sebelumnya.",
+          "Bus terlambat, perpustakaan tutup, dan buku lama tidak disebut sebagai masalah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Keterlambatan bus tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Perpustakaan baru akan dibuka, dan tidak disebut tutup." },
+          { "optionId": "D", "reasonId": "Buku tidak disebut sebagai masalah." }
+        ],
+        "evidence": "the parking area is still too small"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does Ana suggest for Monday?",
+        "options": [
+          { "id": "A", "text": "to walk" },
+          { "id": "B", "text": "to cancel the trip" },
+          { "id": "C", "text": "to drive a car" },
+          { "id": "D", "text": "to take the bus" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Ana berkata 'Therefore, we should take the bus on Monday', artinya mereka sebaiknya naik bus pada hari Senin.",
+        "stepByStep": [
+          "Cari Monday di naskah: 'Therefore, we should take the bus on Monday.'",
+          "Therefore menandai keputusan sebagai akibat dari situasi parkir.",
+          "Berjalan kaki, membatalkan perjalanan, dan menyetir mobil tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Berjalan kaki tidak disebut sebagai rencana untuk Senin." },
+          { "optionId": "B", "reasonId": "Pembatalan tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Menyetir mobil tidak disebut sebagai rencana." }
+        ],
+        "evidence": "we should take the bus on Monday"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "According to the conversation, why should the friends hurry?",
+        "options": [
+          { "id": "A", "text": "the room may be full by nine" },
+          { "id": "B", "text": "the bus is leaving now" },
+          { "id": "C", "text": "the printer is broken" },
+          { "id": "D", "text": "the parking is free" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Budi berkata 'Nevertheless, the room may be full by nine, so let's hurry', artinya ruangan bisa penuh pada pukul sembilan.",
+        "stepByStep": [
+          "Cari hurry di naskah: 'the room may be full by nine, so let's hurry.'",
+          "Kata so menunjukkan alasan untuk bergegas.",
+          "Bus yang berangkat, printer yang rusak, dan parkir gratis tidak disebut sebagai alasan bergegas."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Bus berangkat sekarang tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Printer rusak tidak disebut sebagai alasan." },
+          { "optionId": "D", "reasonId": "Parkir gratis tidak disebut dalam percakapan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nevertheless menandai kontras, dan so setelahnya menjelaskan alasan tindakan. Kedua penghubung ini bekerja dalam satu kalimat.",
+          "examples": [
+            { "en": "The road is busy. Nevertheless, we will drive, so we should leave early.", "id": "Jalannya ramai. Meskipun begitu, kami akan menyetir, jadi kita sebaiknya berangkat lebih awal." },
+            { "en": "The shop is small. However, it is full, so we must wait.", "id": "Tokonya kecil. Namun, tokonya penuh, jadi kami harus menunggu." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti alasan untuk bergegas, tetapi bus tidak disebut akan berangkat sekarang.",
+        "evidence": "the room may be full by nine"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What is Budi's main point in the final part?",
+        "options": [
+          { "id": "A", "text": "They should skip the bus." },
+          { "id": "B", "text": "They should meet early so they do not miss the bus." },
+          { "id": "C", "text": "They should meet at the library at nine." },
+          { "id": "D", "text": "They should print the schedule." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Budi berkata 'Hence, we should meet at the bus stop at seven thirty. Thus, we will not miss the bus.', artinya mereka harus bertemu lebih awal agar tidak ketinggalan bus.",
+        "stepByStep": [
+          "Cari hence dan thus di naskah Budi.",
+          "Hence menunjukkan keputusan untuk bertemu pukul tujuh tiga puluh.",
+          "Thus menunjukkan akibatnya: mereka tidak akan ketinggalan bus. Pilihan A bertentangan dengan itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Bertentangan dengan Budi, yang ingin mereka naik bus." },
+          { "optionId": "C", "reasonId": "Pertemuan di perpustakaan pukul sembilan tidak disebut Budi." },
+          { "optionId": "D", "reasonId": "Mencetak jadwal adalah tugas Ana, bukan poin utama Budi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Hence dan thus sama-sama menunjukkan akibat. Keduanya sering dipakai dalam kalimat pendek untuk kesimpulan.",
+          "examples": [
+            { "en": "It is late. Hence, we should go now.", "id": "Sudah larut. Karena itu, kita sebaiknya pergi sekarang." },
+            { "en": "We practiced daily. Thus, we are prepared.", "id": "Kami berlatih setiap hari. Dengan demikian, kami siap." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kesimpulan yang masuk akal, tetapi Budi justru menyarankan naik bus.",
+        "evidence": "we should meet at the bus stop at seven thirty"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The road was closed. ___, we took a different route.",
+        "options": [
+          { "id": "A", "text": "Although" },
+          { "id": "B", "text": "Unless" },
+          { "id": "C", "text": "Therefore" },
+          { "id": "D", "text": "Despite" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Therefore menunjukkan akibat: jalan ditutup, sehingga kami mengambil jalan lain.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Although adalah konjungsi bawahan, tidak cocok sebagai penghubung antarkalimat seperti ini." },
+          { "optionId": "B", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan akibat ini." },
+          { "optionId": "D", "reasonId": "Despite adalah kata depan, dan tidak bisa mengawali kalimat kedua seperti ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "The exam was difficult; ___, most students passed.",
+        "options": [
+          { "id": "A", "text": "nevertheless" },
+          { "id": "B", "text": "furthermore" },
+          { "id": "C", "text": "hence" },
+          { "id": "D", "text": "meanwhile" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Nevertheless menunjukkan kontras: ujiannya sulit, tetapi sebagian besar siswa lulus.",
+        "stepByStep": [
+          "Kalimat pertama menyatakan kesulitan, dan kalimat kedua menyatakan hasil yang baik.",
+          "Hubungan itu adalah kontras, sehingga penghubungnya nevertheless.",
+          "Furthermore menambah, hence menunjukkan akibat, dan meanwhile menunjukkan waktu bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Furthermore menambah informasi, tidak menunjukkan kontras." },
+          { "optionId": "C", "reasonId": "Hence menunjukkan akibat, bukan kontras." },
+          { "optionId": "D", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok di sini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Ani was busy in the kitchen. ___, her brother was studying in the living room.",
+        "options": [
+          { "id": "A", "text": "Moreover" },
+          { "id": "B", "text": "Meanwhile" },
+          { "id": "C", "text": "However" },
+          { "id": "D", "text": "Thus" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Meanwhile menunjukkan dua kejadian yang berlangsung bersamaan: Ani di dapur, kakaknya belajar di ruang tamu.",
+        "stepByStep": [
+          "Kalimat pertama dan kedua terjadi di waktu yang sama.",
+          "Penghubung untuk kejadian bersamaan adalah meanwhile.",
+          "Moreover menambah informasi, however menunjukkan kontras, dan thus menunjukkan akibat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Moreover menambah informasi, bukan kejadian bersamaan." },
+          { "optionId": "C", "reasonId": "However menunjukkan kontras, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "Thus menunjukkan akibat, tidak cocok dengan dua kejadian bersamaan." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The plan was risky. ___, the team decided to go ahead anyway.",
+        "options": [
+          { "id": "A", "text": "Furthermore" },
+          { "id": "B", "text": "Hence" },
+          { "id": "C", "text": "Meanwhile" },
+          { "id": "D", "text": "Nevertheless" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Nevertheless menunjukkan kontras: rencananya berisiko, tetapi tim tetap maju.",
+        "stepByStep": [
+          "Kalimat pertama menyebut risiko, dan kalimat kedua menyebut tim tetap melanjutkan.",
+          "Anyway menguatkan kontras, sehingga penghubungnya nevertheless.",
+          "Furthermore menambah, hence menunjukkan akibat, dan meanwhile menunjukkan waktu bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Furthermore menambah informasi, tidak menunjukkan kontras." },
+          { "optionId": "B", "reasonId": "Hence menunjukkan akibat, tetapi tim tidak melanjutkan karena risiko." },
+          { "optionId": "C", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nevertheless dan however menunjukkan kontras. Anyway dan even so sering memperkuat kontras itu.",
+          "examples": [
+            { "en": "It was cold. Nevertheless, we swam in the lake.", "id": "Udaranya dingin. Meskipun begitu, kami berenang di danau." },
+            { "en": "The bus was full. However, we found seats.", "id": "Bus penuh. Namun, kami mendapat kursi." }
+          ]
+        },
+        "examTrap": "Pilihan B hence terlihat cocok karena tim memutuskan sesuatu, tetapi hence menunjukkan akibat dari risiko, dan itu tidak masuk akal."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "The price went up. ___, the company lost many customers.",
+        "options": [
+          { "id": "A", "text": "Accordingly" },
+          { "id": "B", "text": "Moreover" },
+          { "id": "C", "text": "Meanwhile" },
+          { "id": "D", "text": "Nevertheless" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Accordingly menunjukkan akibat: harga naik, sehingga perusahaan kehilangan pelanggan.",
+        "stepByStep": [
+          "Kalimat pertama adalah sebab, dan kalimat kedua adalah akibat.",
+          "Penghubung akibat yang sesuai adalah accordingly.",
+          "Moreover menambah, meanwhile menunjukkan waktu bersamaan, dan nevertheless menunjukkan kontras."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Moreover menambah informasi, bukan akibat." },
+          { "optionId": "C", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan akibat." },
+          { "optionId": "D", "reasonId": "Nevertheless menunjukkan kontras, tidak cocok dengan akibat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Accordingly, therefore, dan consequently menunjukkan akibat dari kalimat sebelumnya.",
+          "examples": [
+            { "en": "The road was flooded. Accordingly, the bus was cancelled.", "id": "Jalan tergenang. Sesuai dengan itu, bus dibatalkan." },
+            { "en": "The rules changed. Therefore, we updated the schedule.", "id": "Aturannya berubah. Oleh karena itu, kami memperbarui jadwal." }
+          ]
+        },
+        "examTrap": "Pilihan D nevertheless terlihat cocok karena perusahaan kehilangan pelanggan, tetapi kalimat ini menunjukkan akibat, bukan kontras."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia belajar setiap hari. Oleh karena itu, dia lulus ujian.",
+        "hint": "Belajar setiap hari: studied every day. Oleh karena itu: therefore. Lulus ujian: passed the exam.",
+        "acceptedAnswers": ["She studied every day. Therefore, she passed the exam.", "She studied every day; therefore, she passed the exam."],
+        "modelAnswer": "She studied every day. Therefore, she passed the exam.",
+        "commonErrors": [{ "pattern": "She studied every day therefore she passed", "feedbackId": "Gunakan titik atau titik koma, lalu koma setelah therefore." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Selain itu, kantin itu murah.",
+        "hint": "Selain itu: moreover atau furthermore. Murah: cheap.",
+        "acceptedAnswers": ["Moreover, the canteen is cheap.", "Furthermore, the canteen is cheap."],
+        "modelAnswer": "Moreover, the canteen is cheap.",
+        "commonErrors": [{ "pattern": "Moreover the canteen is cheap", "feedbackId": "Penghubung tambahan di awal kalimat diikuti koma." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Meskipun begitu, hujan tidak menghentikan kami.",
+        "hint": "Meskipun begitu: nevertheless atau however. Menghentikan: stop.",
+        "acceptedAnswers": ["Nevertheless, the rain did not stop us.", "However, the rain did not stop us."],
+        "modelAnswer": "Nevertheless, the rain did not stop us.",
+        "commonErrors": [{ "pattern": "Nevertheless the rain did not stop us", "feedbackId": "Penghubung kontras di awal kalimat diikuti koma." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sementara itu, saya menyiapkan makan malam; akibatnya, kami makan lebih awal.",
+        "hint": "Sementara itu: meanwhile. Akibatnya: consequently. Menyiapkan: prepared.",
+        "acceptedAnswers": [
+          "Meanwhile, I prepared dinner; consequently, we ate earlier.",
+          "Meanwhile, I prepared dinner, and consequently we ate earlier."
+        ],
+        "modelAnswer": "Meanwhile, I prepared dinner; consequently, we ate earlier.",
+        "commonErrors": [{ "pattern": "Meanwhile I prepared dinner consequently we ate", "feedbackId": "Pisahkan dua klausa dengan titik koma atau titik, lalu koma setelah penghubung." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Karena itu, rencana kita perlu diubah; selain itu, kita harus memberi tahu tim.",
+        "hint": "Karena itu: accordingly. Selain itu: furthermore. Memberi tahu: inform.",
+        "acceptedAnswers": [
+          "Accordingly, our plan needs to change; furthermore, we must inform the team.",
+          "Accordingly, our plan needs to change, and furthermore, we must inform the team."
+        ],
+        "modelAnswer": "Accordingly, our plan needs to change; furthermore, we must inform the team.",
+        "commonErrors": [{ "pattern": "Accordingly our plan needs to change furthermore we must", "feedbackId": "Setiap penghubung diikuti koma, dan klausa dipisahkan titik koma." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the best connector: 'The results were clear. ___, we decided to change the method.'",
+        "options": [
+          { "id": "A", "text": "Therefore" },
+          { "id": "B", "text": "Although" },
+          { "id": "C", "text": "Unless" },
+          { "id": "D", "text": "Despite" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Therefore menunjukkan akibat: hasilnya jelas, sehingga metodenya diubah.",
+        "stepByStep": [
+          "Kalimat pertama adalah sebab: hasilnya jelas.",
+          "Kalimat kedua adalah akibat: metode diubah.",
+          "Although, unless, dan despite bukan penghubung antarkalimat yang menunjukkan akibat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Although adalah konjungsi bawahan dan menunjukkan kontras, bukan akibat." },
+          { "optionId": "C", "reasonId": "Unless berarti kecuali jika, tidak cocok dengan akibat." },
+          { "optionId": "D", "reasonId": "Despite adalah kata depan, tidak mengawali kalimat penghubung seperti ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Therefore menunjukkan akibat yang logis dari kalimat sebelumnya.",
+          "examples": [
+            { "en": "The bridge is unsafe. Therefore, the road is closed.", "id": "Jembatannya tidak aman. Oleh karena itu, jalannya ditutup." },
+            { "en": "The data is complete. Therefore, we can finish the report.", "id": "Datanya lengkap. Oleh karena itu, kami bisa menyelesaikan laporan." }
+          ]
+        },
+        "examTrap": "Pilihan B although terlihat cocok karena ada kalimat kedua yang berbeda arah, tetapi kalimat ini menunjukkan akibat."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is punctuated and worded correctly with a transition?",
+        "options": [
+          { "id": "A", "text": "The road was long. Moreover, the views was beautiful." },
+          { "id": "B", "text": "The road was long. Moreover, the view was beautiful." },
+          { "id": "C", "text": "The road was long. Moreover, the view were beautiful." },
+          { "id": "D", "text": "The road was long, moreover, was the view beautiful." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Moreover menambah informasi, diikuti koma, dan subjek the view tunggal memakai was.",
+        "stepByStep": [
+          "Moreover ditaruh di awal kalimat kedua, lalu diikuti koma.",
+          "Subjek the view tunggal, sehingga kata kerjanya was.",
+          "Pilihan A memakai was untuk views jamak. Pilihan C memakai were untuk view tunggal. Pilihan D membalik urutan kata."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Views adalah jamak, tetapi kata kerjanya was, sehingga tidak cocok." },
+          { "optionId": "C", "reasonId": "Were tidak cocok dengan view yang tunggal." },
+          { "optionId": "D", "reasonId": "Urutan kata salah. Subjek harus berada sebelum kata kerja." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Penghubung antarkalimat tidak mengubah urutan subjek dan kata kerja di kalimat berikutnya.",
+          "examples": [
+            { "en": "The museum was quiet. Moreover, the garden was empty.", "id": "Museumnya tenang. Selain itu, tamannya kosong." },
+            { "en": "The shop is small. Furthermore, the staff is friendly.", "id": "Tokonya kecil. Selain itu, stafnya ramah." }
+          ]
+        },
+        "examTrap": "Pilihan A tampak benar karena ada tambahan, tetapi views dan was tidak cocok."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best connector: 'The company reduced prices. ___, sales increased by twenty percent.'",
+        "options": [
+          { "id": "A", "text": "Consequently" },
+          { "id": "B", "text": "Nevertheless" },
+          { "id": "C", "text": "Meanwhile" },
+          { "id": "D", "text": "Otherwise" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Consequently menunjukkan akibat: harga turun, penjualan naik.",
+        "stepByStep": [
+          "Kalimat pertama adalah sebab: harga diturunkan.",
+          "Kalimat kedua adalah akibat: penjualan naik.",
+          "Nevertheless menunjukkan kontras, meanwhile menunjukkan waktu bersamaan, dan otherwise berarti kalau tidak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Nevertheless menunjukkan kontras, tidak cocok dengan akibat." },
+          { "optionId": "C", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan akibat." },
+          { "optionId": "D", "reasonId": "Otherwise berarti kalau tidak, tidak cocok dengan akibat ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Consequently menunjukkan akibat dari kalimat sebelumnya, dan biasanya ditaruh di awal kalimat kedua.",
+          "examples": [
+            { "en": "The rain was heavy. Consequently, the match was delayed.", "id": "Hujannya deras. Akibatnya, pertandingan ditunda." },
+            { "en": "The food was fresh. Consequently, many guests returned.", "id": "Makanannya segar. Akibatnya, banyak tamu kembali." }
+          ]
+        },
+        "examTrap": "Pilihan D otherwise terlihat seperti akibat yang masuk akal, tetapi otherwise menunjukkan kalau tidak, bukan akibat."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The plane was delayed by the storm. ___, we arrived three hours late.'",
+        "options": [
+          { "id": "A", "text": "Meanwhile" },
+          { "id": "B", "text": "However" },
+          { "id": "C", "text": "Moreover" },
+          { "id": "D", "text": "Thus" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Thus menunjukkan akibat: pesawat tertunda, sehingga kami tiba tiga jam terlambat.",
+        "stepByStep": [
+          "Kalimat pertama adalah sebab: pesawat tertunda oleh badai.",
+          "Kalimat kedua adalah akibat: kami tiba tiga jam terlambat.",
+          "Meanwhile menunjukkan waktu bersamaan, however menunjukkan kontras, dan moreover menambah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan akibat." },
+          { "optionId": "B", "reasonId": "However menunjukkan kontras, tidak cocok dengan akibat." },
+          { "optionId": "C", "reasonId": "Moreover menambah informasi, tidak cocok dengan akibat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Thus, therefore, dan consequently menunjukkan akibat dari kalimat sebelumnya.",
+          "examples": [
+            { "en": "The road was flooded. Thus, the bus was late.", "id": "Jalan tergenang. Dengan demikian, bus terlambat." },
+            { "en": "The meeting was long. Therefore, we went home late.", "id": "Rapatnya panjang. Oleh karena itu, kami pulang terlambat." }
+          ]
+        },
+        "examTrap": "Pilihan B however terlihat seperti penghubung yang sering dipakai, tetapi kalimat ini menunjukkan akibat, bukan kontras."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Choose the best connector: 'The shop was closed. ___, we walked to another store.'",
+        "options": [
+          { "id": "A", "text": "Moreover" },
+          { "id": "B", "text": "Nonetheless" },
+          { "id": "C", "text": "Thus" },
+          { "id": "D", "text": "Meanwhile" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Thus menunjukkan akibat: tokonya tutup, sehingga kami berjalan ke toko lain.",
+        "stepByStep": [
+          "Kalimat pertama adalah sebab: tokonya tutup.",
+          "Kalimat kedua adalah akibat: kami berjalan ke toko lain.",
+          "Moreover menambah, nonetheless menunjukkan kontras, dan meanwhile menunjukkan waktu bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Moreover menambah informasi, tidak menunjukkan akibat." },
+          { "optionId": "B", "reasonId": "Nonetheless menunjukkan kontras, tidak cocok dengan akibat." },
+          { "optionId": "D", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan akibat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Thus dan therefore menunjukkan akibat dari kalimat sebelumnya.",
+          "examples": [
+            { "en": "The bus was full. Thus, we took a taxi.", "id": "Bus penuh. Dengan demikian, kami naik taksi." },
+            { "en": "The class was cancelled. Therefore, we went to the library.", "id": "Kelasnya dibatalkan. Oleh karena itu, kami pergi ke perpustakaan." }
+          ]
+        },
+        "examTrap": "Pilihan D meanwhile terlihat cocok karena ada dua kejadian, tetapi kedua kejadian itu tidak berlangsung bersamaan."
+      }
+    ]
+  }
+}

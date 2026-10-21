@@ -1,0 +1,605 @@
+{
+  "day": 41,
+  "week": 6,
+  "month": 2,
+  "title": "Adjective Clauses: who, whom, whose, which, that",
+  "topic": "Anak kalimat sifat untuk menerangkan kata benda dengan who, which, that, dan whose",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memilih who, which, atau whose sesuai dengan kata benda yang diterangkan",
+    "Mengenali antecedent sebuah anak kalimat sifat",
+    "Membedakan anak kalimat sifat yang perlu dari yang bisa dihilangkan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "relative", "pronunciationId": "REL-a-tiv (tekanan di REL)", "pos": "Adj", "meaningId": "berkaitan, relatif", "example": "A relative clause gives extra detail.", "exampleId": "Anak kalimat relatif memberi detail tambahan." },
+      { "no": 2, "en": "antecedent", "pronunciationId": "an-ti-SEE-dent (tekanan di SEE)", "pos": "Noun", "meaningId": "kata yang diacu, anteseden", "example": "The antecedent is the noun before the clause.", "exampleId": "Antecedent adalah kata benda sebelum anak kalimat." },
+      { "no": 3, "en": "describe", "pronunciationId": "di-SKRAIB (tekanan di SKRAIB)", "pos": "Verb", "meaningId": "menggambarkan", "example": "She can describe the place in detail.", "exampleId": "Dia bisa menggambarkan tempat itu secara rinci." },
+      { "no": 4, "en": "refer", "pronunciationId": "ri-FUR (tekanan di FUR)", "pos": "Verb", "meaningId": "merujuk", "example": "This word refers to a person.", "exampleId": "Kata ini merujuk pada seseorang." },
+      { "no": 5, "en": "define", "pronunciationId": "di-FAIN (tekanan di FAIN)", "pos": "Verb", "meaningId": "mendefinisikan", "example": "The teacher will define the term.", "exampleId": "Guru akan mendefinisikan istilah itu." },
+      { "no": 6, "en": "specify", "pronunciationId": "SPES-i-fai (tekanan di SPES)", "pos": "Verb", "meaningId": "menyebutkan secara spesifik", "example": "Please specify the date.", "exampleId": "Tolong sebutkan tanggalnya secara spesifik." },
+      { "no": 7, "en": "mention", "pronunciationId": "MEN-shun (tekanan di MEN)", "pos": "Verb", "meaningId": "menyebutkan", "example": "He did not mention the price.", "exampleId": "Dia tidak menyebutkan harganya." },
+      { "no": 8, "en": "indicate", "pronunciationId": "IN-di-keit (tekanan di IN)", "pos": "Verb", "meaningId": "menunjukkan, mengindikasikan", "example": "The map indicates the way.", "exampleId": "Peta itu menunjukkan jalannya." },
+      { "no": 9, "en": "reveal", "pronunciationId": "ri-VIL (tekanan di VIL)", "pos": "Verb", "meaningId": "mengungkapkan", "example": "The study will reveal the truth.", "exampleId": "Penelitian itu akan mengungkapkan kebenarannya." },
+      { "no": 10, "en": "explain", "pronunciationId": "ik-SPLAIN (tekanan di SPLAIN)", "pos": "Verb", "meaningId": "menjelaskan", "example": "She can explain the rule clearly.", "exampleId": "Dia bisa menjelaskan aturan itu dengan jelas." }
+    ],
+    "tip": "Anak kalimat sifat menerangkan kata benda sebelumnya. Pilih kata penghubung dari kata benda itu: who untuk orang, which untuk benda, whose untuk kepemilikan, dan that bisa untuk orang atau benda."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["relative clauses English", "who which that clauses TOEFL"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang anak kalimat sifat, dengan contoh who, which, whose, dan that.",
+      "watchFor": [
+        "Who untuk orang dan which untuk benda",
+        "Whose untuk kepemilikan",
+        "Antecedent yang diterangkan anak kalimat"
+      ]
+    },
+    "lesson": {
+      "intro": "Anak kalimat sifat menerangkan kata benda sebelumnya, yang disebut antecedent. Dengan memilih kata penghubung yang tepat, kalimat menjadi lebih rinci dan tetap mudah dipahami.",
+      "sections": [
+        {
+          "heading": "Who, which, dan that",
+          "bodyMd": "**Who** untuk orang: **The teacher who helped me was kind.** **Which** untuk benda: **The book which I borrowed is about space.** **That** bisa untuk orang atau benda dalam anak kalimat yang perlu: **The bag that I bought is new.**"
+        },
+        {
+          "heading": "Whose dan whom",
+          "bodyMd": "**Whose** menunjukkan kepemilikan: **The student whose essay won is my friend.** **Whom** dipakai untuk orang sebagai objek: **The friend whom I met is nearby.** Dalam percakapan santai, whom sering diganti dengan who."
+        },
+        {
+          "heading": "Anak kalimat yang perlu dan yang bisa dihilangkan",
+          "bodyMd": "Anak kalimat yang perlu tidak boleh dihilangkan, karena menentukan kata benda yang dimaksud. Anak kalimat yang bisa dihilangkan diapit koma dan hanya memberi tambahan: **The museum, which opened in 1950, has many maps.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Orang", "pattern": "kata benda orang + who / that + kata kerja" },
+        { "label": "Benda", "pattern": "kata benda benda + which / that + kata kerja" },
+        { "label": "Kepemilikan", "pattern": "kata benda + whose + kata benda + kata kerja" },
+        { "label": "Tambahan", "pattern": "kata benda, which + klausa, kata kerja utama" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "The teacher who helped me was very kind.", "id": "Guru yang membantu saya sangat baik." },
+          { "en": "The book which I borrowed is about space.", "id": "Buku yang saya pinjam tentang luar angkasa." },
+          { "en": "The student whose essay won is my friend.", "id": "Siswa yang esainya menang adalah teman saya." },
+          { "en": "The museum, which opened in 1950, has many maps.", "id": "Museum itu, yang dibuka pada 1950, punya banyak peta." },
+          { "en": "The friend whom I met yesterday lives nearby.", "id": "Teman yang saya temui kemarin tinggal di dekat sini." }
+        ],
+        "negative": [
+          { "en": "The man who is not here is my uncle.", "id": "Pria yang tidak ada di sini adalah paman saya." },
+          { "en": "The house which does not have a garden is cheap.", "id": "Rumah yang tidak punya taman itu murah." },
+          { "en": "The girl whose bag is missing did not come.", "id": "Gadis yang tasnya hilang tidak datang." },
+          { "en": "The city which we did not visit is very old.", "id": "Kota yang tidak kami kunjungi itu sangat tua." },
+          { "en": "The students who do not study rarely pass.", "id": "Siswa yang tidak belajar jarang lulus." }
+        ],
+        "question": [
+          { "en": "Who helped you with the homework?", "id": "Siapa yang membantumu mengerjakan PR?" },
+          { "en": "Which book do you want to borrow?", "id": "Buku mana yang ingin kamu pinjam?" },
+          { "en": "Whose essay won the prize?", "id": "Esai siapa yang menang?" },
+          { "en": "Is the museum, which opened in 1950, large?", "id": "Apakah museum yang dibuka pada 1950 itu besar?" },
+          { "en": "Is this the friend whom you met yesterday?", "id": "Apakah ini teman yang kamu temui kemarin?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "The teacher which helped me was kind.", "right": "The teacher who helped me was kind.", "whyId": "Untuk orang, gunakan who, bukan which." },
+        { "wrong": "The book who I borrowed is about space.", "right": "The book which I borrowed is about space.", "whyId": "Untuk benda, gunakan which atau that, bukan who." },
+        { "wrong": "The student who essay won is my friend.", "right": "The student whose essay won is my friend.", "whyId": "Kepemilikan memakai whose, bukan who." },
+        { "wrong": "The museum, that opened in 1950, has many maps.", "right": "The museum, which opened in 1950, has many maps.", "whyId": "Anak kalimat yang diapit koma memakai which, bukan that." },
+        { "wrong": "The man whose is not here is my uncle.", "right": "The man who is not here is my uncle.", "whyId": "Whose harus diikuti kata benda, dan di sini tidak ada kepemilikan." },
+        { "wrong": "The friend who I met yesterday lives nearby.", "right": "The friend whom I met yesterday lives nearby.", "whyId": "Untuk orang sebagai objek, bentuk formal yang tepat adalah whom." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Mencari Antecedent",
+    "text": "Relative clauses help writers describe people, places, and things in more detail. A relative clause begins with a word such as who, whom, whose, which, or that. The word that a relative clause refers to is called the antecedent. For example, in the sentence The teacher who helped me was very kind, the antecedent is the teacher.\n\nMany writers use relative clauses to define a term or specify a detail. Consider the sentence The museum, which opened in 1950, has a large collection of maps. Here the clause which opened in 1950 gives extra information about the museum. It does not change the main idea, so it can be removed without confusing the reader.\n\nSome relative clauses are necessary. In the sentence The book that I borrowed is about space, the clause that I borrowed tells us which book the writer means. Without it, the sentence would not be clear. Good writers mention only the details that are needed to explain their meaning.\n\nWriters also use whose to show possession. The student whose essay won the prize spoke first at the ceremony. The phrase whose essay won the prize can indicate that the essay belongs to the student. Whom is used for people as objects, as in The friend whom I met yesterday lives nearby.\n\nCareful readers look for the antecedent before they choose the verb. Each relative clause must refer clearly to a noun, or the sentence can confuse the reader. A good editor will reveal such mistakes, and a good writer will check them before publishing. When you read a long text, try to identify the antecedent of each relative clause, and then explain to yourself why the clause is there.",
+    "glossary": [
+      { "en": "clause", "id": "anak kalimat" },
+      { "en": "possession", "id": "kepemilikan" },
+      { "en": "ceremony", "id": "upacara" },
+      { "en": "publishing", "id": "menerbitkan" },
+      { "en": "remove", "id": "menghapus" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What is an antecedent, according to the passage?",
+        "options": [
+          { "id": "A", "text": "the final word of a sentence" },
+          { "id": "B", "text": "the verb of a relative clause" },
+          { "id": "C", "text": "a type of question" },
+          { "id": "D", "text": "the noun that a relative clause refers to" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menulis 'The word that a relative clause refers to is called the antecedent', artinya antecedent adalah kata benda yang diacu anak kalimat.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kata terakhir kalimat tidak disebut sebagai antecedent." },
+          { "optionId": "B", "reasonId": "Kata kerja dalam anak kalimat tidak disebut sebagai antecedent." },
+          { "optionId": "C", "reasonId": "Jenis pertanyaan tidak disebut dalam teks." }
+        ],
+        "evidence": "The word that a relative clause refers to is called the antecedent"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "In 'The museum, which opened in 1950, has a large collection of maps,' what does the clause which opened in 1950 do?",
+        "options": [
+          { "id": "A", "text": "It changes the main idea." },
+          { "id": "B", "text": "It gives extra information about the museum." },
+          { "id": "C", "text": "It is the subject of the sentence." },
+          { "id": "D", "text": "It asks a question." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'the clause which opened in 1950 gives extra information about the museum', artinya klausa itu menambah informasi.",
+        "stepByStep": [
+          "Cari which opened in 1950 di teks.",
+          "Teks menyebut klausa itu memberi informasi tambahan tentang museum.",
+          "Klausa itu tidak mengubah ide utama, tidak menjadi subjek, dan bukan pertanyaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut klausa itu tidak mengubah ide utama." },
+          { "optionId": "C", "reasonId": "Subjek kalimat adalah the museum, bukan klausa itu." },
+          { "optionId": "D", "reasonId": "Klausa itu bukan pertanyaan." }
+        ],
+        "evidence": "gives extra information about the museum"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why is the clause 'that I borrowed' necessary in the sentence about the book?",
+        "options": [
+          { "id": "A", "text": "It makes the sentence longer." },
+          { "id": "B", "text": "It shows the book's price." },
+          { "id": "C", "text": "It replaces the verb." },
+          { "id": "D", "text": "It tells us which book the writer means." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'the clause that I borrowed tells us which book the writer means', artinya klausa itu menentukan buku yang dimaksud.",
+        "stepByStep": [
+          "Cari that I borrowed di teks.",
+          "Teks menyebut klausa itu menunjukkan buku mana yang dimaksud penulis.",
+          "Panjang kalimat, harga, dan penggantian kata kerja tidak disebut sebagai alasan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Panjang kalimat tidak disebut sebagai alasan." },
+          { "optionId": "B", "reasonId": "Harga buku tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Klausa itu tidak menggantikan kata kerja." }
+        ],
+        "evidence": "tells us which book the writer means"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What does the phrase 'whose essay won the prize' indicate?",
+        "options": [
+          { "id": "A", "text": "The essay belongs to the student." },
+          { "id": "B", "text": "The student is a teacher." },
+          { "id": "C", "text": "The prize was small." },
+          { "id": "D", "text": "The student lost the contest." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Teks menulis 'can indicate that the essay belongs to the student', artinya esai itu milik siswa tersebut.",
+        "stepByStep": [
+          "Cari whose essay di teks.",
+          "Teks menyebut frasa itu menunjukkan kepemilikan esai oleh siswa.",
+          "Guru, hadiah kecil, dan kalah tidak disebut sebagai makna frasa itu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks tidak menyebut siswa sebagai guru." },
+          { "optionId": "C", "reasonId": "Ukuran hadiah tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Teks menyebut esainya menang, bukan kalah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whose menunjukkan kepemilikan. Kata benda setelah whose adalah yang dimiliki.",
+          "examples": [
+            { "en": "The girl whose bag is red is my cousin.", "id": "Gadis yang tasnya merah adalah sepupu saya." },
+            { "en": "The team whose coach resigned lost the match.", "id": "Tim yang pelatihnya mengundurkan diri kalah dalam pertandingan." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat masuk akal karena siswa itu disebut berbicara, tetapi teks tidak menyebutnya guru.",
+        "evidence": "the essay belongs to the student"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "According to the passage, what should careful readers do before they choose the verb?",
+        "options": [
+          { "id": "A", "text": "count the words" },
+          { "id": "B", "text": "translate every sentence" },
+          { "id": "C", "text": "look for the antecedent" },
+          { "id": "D", "text": "skip the relative clauses" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Careful readers look for the antecedent before they choose the verb', artinya pembaca cermat mencari antecedent lebih dulu.",
+        "stepByStep": [
+          "Cari before they choose the verb di teks.",
+          "Teks menyebut pembaca cermat mencari antecedent lebih dulu.",
+          "Menghitung kata, menerjemahkan semua kalimat, dan melewati anak kalimat tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Menghitung kata tidak disebut sebagai langkah yang dianjurkan." },
+          { "optionId": "B", "reasonId": "Menerjemahkan setiap kalimat tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Melewati anak kalimat bertentangan dengan saran teks." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Antecedent membantu menentukan kata kerja dan kata ganti yang benar di anak kalimat.",
+          "examples": [
+            { "en": "The teacher who helped me is kind.", "id": "Guru yang membantu saya itu baik." },
+            { "en": "The books that she wrote are popular.", "id": "Buku-buku yang dia tulis populer." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti cara menghemat waktu, tetapi teks menyarankan pembaca justru memperhatikan anak kalimat.",
+        "evidence": "look for the antecedent before they choose the verb"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "The girl ___ is standing by the door is my sister.",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "whose" },
+          { "id": "D", "text": "where" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Who dipakai untuk orang sebagai subjek anak kalimat. Girl adalah orang.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Which dipakai untuk benda, bukan orang." },
+          { "optionId": "C", "reasonId": "Whose menunjukkan kepemilikan, tetapi di sini tidak ada kepemilikan." },
+          { "optionId": "D", "reasonId": "Where menunjukkan tempat, bukan orang." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "This is the book ___ I told you about.",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "whom" },
+          { "id": "D", "text": "whose" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Which dipakai untuk benda sebagai objek anak kalimat. Book adalah benda.",
+        "stepByStep": [
+          "Antecedent yang diterangkan adalah the book, yaitu benda.",
+          "Untuk benda sebagai objek, gunakan which atau that.",
+          "Who dan whom untuk orang, dan whose menunjukkan kepemilikan yang tidak ada di sini."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who untuk orang, bukan buku." },
+          { "optionId": "C", "reasonId": "Whom untuk orang, bukan buku." },
+          { "optionId": "D", "reasonId": "Whose menunjukkan kepemilikan, tidak cocok dengan kalimat ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The student ___ essay won the prize is my cousin.",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "whom" },
+          { "id": "C", "text": "whose" },
+          { "id": "D", "text": "which" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Whose menunjukkan kepemilikan: esai milik siswa itu.",
+        "stepByStep": [
+          "Kalimat menyatakan esai yang dimiliki siswa.",
+          "Kepemilikan dinyatakan dengan whose, diikuti kata benda essay.",
+          "Who dan whom tidak diikuti kata benda untuk menunjukkan kepemilikan, dan which untuk benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who tidak menunjukkan kepemilikan." },
+          { "optionId": "B", "reasonId": "Whom untuk orang sebagai objek, bukan kepemilikan." },
+          { "optionId": "D", "reasonId": "Which untuk benda, bukan siswa." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The town ___ we visited last summer has a museum.",
+        "options": [
+          { "id": "A", "text": "which" },
+          { "id": "B", "text": "whose" },
+          { "id": "C", "text": "who" },
+          { "id": "D", "text": "whom" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Which dipakai untuk tempat sebagai objek anak kalimat: the town yang kami kunjungi.",
+        "stepByStep": [
+          "The town adalah benda atau tempat, bukan orang.",
+          "We visited adalah anak kalimat dengan objek the town.",
+          "Whose tidak cocok karena tidak ada kepemilikan, dan who serta whom untuk orang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whose menunjukkan kepemilikan, tidak cocok dengan kota yang dikunjungi." },
+          { "optionId": "C", "reasonId": "Who untuk orang, bukan kota." },
+          { "optionId": "D", "reasonId": "Whom untuk orang, bukan kota." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk tempat atau benda sebagai objek dalam anak kalimat, gunakan which atau that.",
+          "examples": [
+            { "en": "The shop which we visited is closed.", "id": "Toko yang kami kunjungi sudah tutup." },
+            { "en": "The park that we walked in is large.", "id": "Taman tempat kami berjalan itu luas." }
+          ]
+        },
+        "examTrap": "Pilihan B whose terlihat cocok karena ada kata town, tetapi whose menunjukkan kepemilikan dan tidak ada di kalimat ini."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Ani, ___ father is a doctor, lives next door.",
+        "options": [
+          { "id": "A", "text": "whom" },
+          { "id": "B", "text": "whose" },
+          { "id": "C", "text": "which" },
+          { "id": "D", "text": "who" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Whose menunjukkan kepemilikan: ayah milik Ani.",
+        "stepByStep": [
+          "Kalimat menyatakan ayah yang dimiliki Ani.",
+          "Kepemilikan dinyatakan dengan whose, diikuti kata benda father.",
+          "Whom untuk orang sebagai objek, which untuk benda, dan who tidak diikuti kata benda kepemilikan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Whom untuk orang sebagai objek, bukan kepemilikan." },
+          { "optionId": "C", "reasonId": "Which untuk benda, bukan Ani." },
+          { "optionId": "D", "reasonId": "Who tidak menunjukkan kepemilikan dengan kata benda father." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whose menunjukkan kepemilikan dan diikuti kata benda yang dimiliki.",
+          "examples": [
+            { "en": "Rudi, whose sister is a nurse, lives here.", "id": "Rudi, yang kakaknya seorang perawat, tinggal di sini." },
+            { "en": "The team, whose coach is famous, won the game.", "id": "Tim itu, yang pelatihnya terkenal, memenangkan pertandingan." }
+          ]
+        },
+        "examTrap": "Pilihan D who terlihat benar karena Ani adalah orang, tetapi who tidak diikuti kata benda father sebagai kepemilikan."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Orang yang berdiri di pintu itu adalah guru saya.",
+        "hint": "Orang yang berdiri: the person who is standing. Guru saya: my teacher.",
+        "acceptedAnswers": [
+          "The person who is standing at the door is my teacher.",
+          "The person standing at the door is my teacher."
+        ],
+        "modelAnswer": "The person who is standing at the door is my teacher.",
+        "commonErrors": [{ "pattern": "The person which is standing", "feedbackId": "Untuk orang, gunakan who, bukan which." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Buku yang saya pinjam kemarin sangat menarik.",
+        "hint": "Buku yang saya pinjam: the book which I borrowed. Sangat menarik: is very interesting.",
+        "acceptedAnswers": [
+          "The book which I borrowed yesterday is very interesting.",
+          "The book that I borrowed yesterday is very interesting."
+        ],
+        "modelAnswer": "The book which I borrowed yesterday is very interesting.",
+        "commonErrors": [{ "pattern": "The book who I borrowed yesterday", "feedbackId": "Untuk benda, gunakan which atau that, bukan who." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Gadis yang tasnya hilang itu sedang menangis.",
+        "hint": "Gadis yang tasnya: the girl whose bag. Hilang: was lost. Sedang menangis: is crying.",
+        "acceptedAnswers": ["The girl whose bag was lost is crying.", "The girl whose bag is lost is crying."],
+        "modelAnswer": "The girl whose bag was lost is crying.",
+        "commonErrors": [{ "pattern": "The girl who bag was lost", "feedbackId": "Kepemilikan memakai whose, bukan who." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kota yang kami kunjungi tahun lalu memiliki museum besar.",
+        "hint": "Kota yang kami kunjungi: the city which we visited. Memiliki museum: has a large museum.",
+        "acceptedAnswers": [
+          "The city which we visited last year has a large museum.",
+          "The city that we visited last year has a large museum."
+        ],
+        "modelAnswer": "The city which we visited last year has a large museum.",
+        "commonErrors": [{ "pattern": "The city who we visited last year", "feedbackId": "Untuk kota sebagai benda, gunakan which atau that." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Teman yang kepadanya saya menulis surat itu tinggal di Jepang.",
+        "hint": "Kepadanya: to whom. Teman: the friend. Tinggal: lives.",
+        "acceptedAnswers": [
+          "The friend to whom I wrote the letter lives in Japan.",
+          "The friend whom I wrote the letter to lives in Japan."
+        ],
+        "modelAnswer": "The friend to whom I wrote the letter lives in Japan.",
+        "commonErrors": [{ "pattern": "The friend which I wrote the letter to", "feedbackId": "Untuk orang sebagai objek kata depan, gunakan whom, bukan which." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The house ___ roof was damaged is for sale.'",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "whose" },
+          { "id": "D", "text": "whom" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Whose menunjukkan kepemilikan: atap milik rumah itu.",
+        "stepByStep": [
+          "Kalimat menyatakan atap yang dimiliki rumah itu.",
+          "Kepemilikan dinyatakan dengan whose, diikuti kata benda roof.",
+          "Who dan whom untuk orang, dan which tidak menunjukkan kepemilikan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who untuk orang, bukan rumah." },
+          { "optionId": "B", "reasonId": "Which tidak menunjukkan kepemilikan dengan kata benda roof." },
+          { "optionId": "D", "reasonId": "Whom untuk orang sebagai objek, bukan rumah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whose menunjukkan kepemilikan untuk orang maupun benda.",
+          "examples": [
+            { "en": "The car whose engine is new is for sale.", "id": "Mobil yang mesinnya baru itu dijual." },
+            { "en": "The school whose library is large is famous.", "id": "Sekolah yang perpustakaannya besar itu terkenal." }
+          ]
+        },
+        "examTrap": "Pilihan B which terlihat cocok karena house adalah benda, tetapi kalimat ini butuh kepemilikan roof."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The man whom is standing there is my uncle." },
+          { "id": "B", "text": "The man who is standing there is my uncle." },
+          { "id": "C", "text": "The man which is standing there is my uncle." },
+          { "id": "D", "text": "The man whose is standing there is my uncle." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Who untuk orang sebagai subjek anak kalimat, dan is standing menjadi kata kerja anak kalimat.",
+        "stepByStep": [
+          "Man adalah orang, dan is standing adalah kata kerja anak kalimat.",
+          "Untuk orang sebagai subjek, gunakan who.",
+          "Whom tidak bisa menjadi subjek. Which untuk benda. Whose harus diikuti kata benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Whom tidak bisa menjadi subjek anak kalimat ini." },
+          { "optionId": "C", "reasonId": "Which untuk benda, bukan orang." },
+          { "optionId": "D", "reasonId": "Whose harus diikuti kata benda yang dimiliki." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Who menjadi subjek anak kalimat untuk orang. Whom menjadi objek.",
+          "examples": [
+            { "en": "The girl who sings is my sister.", "id": "Gadis yang bernyanyi adalah adik saya." },
+            { "en": "The man whom I met is a doctor.", "id": "Pria yang saya temui adalah seorang dokter." }
+          ]
+        },
+        "examTrap": "Pilihan A whom terlihat formal dan tampak benar, tetapi whom tidak bisa menjadi subjek dalam anak kalimat ini."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "In 'The laptop that I bought last week is broken,' which word is the antecedent?",
+        "options": [
+          { "id": "A", "text": "that" },
+          { "id": "B", "text": "I" },
+          { "id": "C", "text": "bought" },
+          { "id": "D", "text": "laptop" }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Laptop adalah kata benda yang diterangkan anak kalimat that I bought last week.",
+        "stepByStep": [
+          "Anak kalimat that I bought last week menerangkan kata benda sebelumnya.",
+          "Kata benda sebelum anak kalimat adalah laptop.",
+          "That adalah kata penghubung, I adalah subjek anak kalimat, dan bought adalah kata kerja anak kalimat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "That adalah kata penghubung, bukan kata yang diterangkan." },
+          { "optionId": "B", "reasonId": "I adalah subjek anak kalimat, bukan kata yang diterangkan." },
+          { "optionId": "C", "reasonId": "Bought adalah kata kerja anak kalimat, bukan kata benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Antecedent adalah kata benda yang diterangkan oleh anak kalimat sifat.",
+          "examples": [
+            { "en": "The bread that we bought is fresh.", "id": "Roti yang kami beli masih segar." },
+            { "en": "The teacher who helped me is here.", "id": "Guru yang membantu saya ada di sini." }
+          ]
+        },
+        "examTrap": "Pilihan A that terlihat penting karena ada di tengah kalimat, tetapi that adalah kata penghubung, bukan antecedent."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct word: 'The camera ___ the photographer lent me works perfectly.'",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "which" },
+          { "id": "C", "text": "whom" },
+          { "id": "D", "text": "whose" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Which dipakai untuk benda sebagai objek anak kalimat: the camera yang difotografer pinjamkan kepada saya.",
+        "stepByStep": [
+          "Camera adalah benda, dan photographer lent me adalah anak kalimat.",
+          "Untuk benda sebagai objek, gunakan which.",
+          "Who dan whom untuk orang, dan whose membutuhkan kata benda yang dimiliki."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who untuk orang, bukan kamera." },
+          { "optionId": "C", "reasonId": "Whom untuk orang sebagai objek, bukan kamera." },
+          { "optionId": "D", "reasonId": "Whose membutuhkan kata benda yang dimiliki setelahnya, dan kalimat ini tidak memilikinya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk benda sebagai objek anak kalimat, gunakan which atau that.",
+          "examples": [
+            { "en": "The bag which she bought is expensive.", "id": "Tas yang dia beli itu mahal." },
+            { "en": "The phone which he lent me works well.", "id": "Ponsel yang dia pinjamkan kepada saya berfungsi dengan baik." }
+          ]
+        },
+        "examTrap": "Pilihan D whose terlihat cocok karena kalimatnya menyebut kepemilikan, tetapi kalimat ini tidak memiliki kata benda setelah whose."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The students who studies here are very kind." },
+          { "id": "B", "text": "The students which study here are very kind." },
+          { "id": "C", "text": "The students who study here are very kind." },
+          { "id": "D", "text": "The students whose study here are very kind." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Who untuk orang, dan kata kerja study mengikuti subjek jamak students.",
+        "stepByStep": [
+          "Students adalah jamak dan orang, sehingga memakai who.",
+          "Kata kerja dalam anak kalimat harus cocok dengan students yang jamak: study.",
+          "Studies tunggal, which untuk benda, dan whose tidak cocok tanpa kata benda kepemilikan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Studies tunggal, tidak cocok dengan students yang jamak." },
+          { "optionId": "B", "reasonId": "Which untuk benda, bukan siswa." },
+          { "optionId": "D", "reasonId": "Whose tidak cocok karena tidak ada kata benda kepemilikan setelahnya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Who untuk orang sebagai subjek, dan kata kerja dalam anak kalimat mengikuti kata benda yang diterangkan.",
+          "examples": [
+            { "en": "The teachers who work here are kind.", "id": "Para guru yang bekerja di sini itu baik." },
+            { "en": "The students who study late are tired.", "id": "Para siswa yang belajar larut malam itu lelah." }
+          ]
+        },
+        "examTrap": "Pilihan A studies tampak masuk akal karena who menunjukkan orang, tetapi kata kerjanya harus jamak mengikuti students."
+      }
+    ]
+  }
+}

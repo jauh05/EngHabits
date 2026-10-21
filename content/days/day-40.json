@@ -1,0 +1,612 @@
+{
+  "day": 40,
+  "week": 6,
+  "month": 2,
+  "title": "Adverb Clauses: Kontras dan Konsesi",
+  "topic": "Anak kalimat yang menunjukkan pertentangan, konsesi, dan kebalikan",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memakai regardless of dan whatever untuk menunjukkan konsesi",
+    "Memakai whoever dan whichever untuk memilih orang atau benda",
+    "Memakai conversely, nonetheless, dan on the contrary untuk kebalikan"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "regardless", "pronunciationId": "ri-GARD-les (tekanan di GARD)", "pos": "Adv", "meaningId": "terlepas dari, tanpa mempedulikan", "example": "We will go, regardless of the weather.", "exampleId": "Kami akan pergi, terlepas dari cuacanya." },
+      { "no": 2, "en": "albeit", "pronunciationId": "awl-BEE-it (tekanan di BEE)", "pos": "Conj", "meaningId": "meskipun, walaupun", "example": "The plan is good, albeit a little long.", "exampleId": "Rencananya bagus, meskipun sedikit panjang." },
+      { "no": 3, "en": "whatever", "pronunciationId": "wot-EV-er (tekanan di EV)", "pos": "Other", "meaningId": "apa pun", "example": "Whatever you decide, I will support you.", "exampleId": "Apa pun keputusanmu, saya akan mendukungmu." },
+      { "no": 4, "en": "whoever", "pronunciationId": "hoo-EV-er (tekanan di EV)", "pos": "Other", "meaningId": "siapa pun", "example": "Whoever wants to help can join us.", "exampleId": "Siapa pun yang ingin membantu boleh bergabung." },
+      { "no": 5, "en": "whichever", "pronunciationId": "wich-EV-er (tekanan di EV)", "pos": "Other", "meaningId": "yang mana pun", "example": "Take whichever bag you like.", "exampleId": "Ambillah tas yang mana pun kamu suka." },
+      { "no": 6, "en": "notwithstanding", "pronunciationId": "not-with-STAN-ding (tekanan di STAN)", "pos": "Prep", "meaningId": "meskipun demikian, terlepas dari", "example": "Notwithstanding the rain, the match continued.", "exampleId": "Meskipun hujan, pertandingan tetap berjalan." },
+      { "no": 7, "en": "nonetheless", "pronunciationId": "non-the-LES (tekanan di LES)", "pos": "Adv", "meaningId": "meskipun begitu", "example": "It was late. Nonetheless, we continued.", "exampleId": "Sudah larut. Meskipun begitu, kami melanjutkan." },
+      { "no": 8, "en": "conversely", "pronunciationId": "kon-VUR-sli (tekanan di VUR)", "pos": "Adv", "meaningId": "sebaliknya", "example": "Most people agree. Conversely, a few disagree.", "exampleId": "Kebanyakan orang setuju. Sebaliknya, beberapa tidak setuju." },
+      { "no": 9, "en": "contrary", "pronunciationId": "KON-trer-i (tekanan di KON)", "pos": "Adj", "meaningId": "bertentangan", "example": "The result was contrary to our hopes.", "exampleId": "Hasilnya bertentangan dengan harapan kami." },
+      { "no": 10, "en": "opposite", "pronunciationId": "O-pe-zit (tekanan di O)", "pos": "Adj", "meaningId": "berlawanan", "example": "The opposite view is also popular.", "exampleId": "Pandangan yang berlawanan juga populer." }
+    ],
+    "tip": "Regardless of dan notwithstanding diikuti kata benda. Albeit, nonetheless, dan conversely memperkenalkan kontras atau kebalikan. Whoever, whatever, dan whichever memilih dari sejumlah pilihan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["concession clauses English", "although even though English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kalimat konsesi dan kebalikan, dengan contoh regardless, whatever, nonetheless, dan conversely.",
+      "watchFor": [
+        "Regardless of diikuti kata benda",
+        "Whoever, whatever, dan whichever untuk pilihan",
+        "Conversely dan on the contrary untuk kebalikan"
+      ]
+    },
+    "lesson": {
+      "intro": "Konsesi berarti sesuatu tetap terjadi walaupun ada halangan. Kebalikan menunjukkan dua pandangan yang berlawanan. Kedua pola ini sering muncul dalam tulisan akademis dan soal struktur.",
+      "sections": [
+        {
+          "heading": "Konsesi",
+          "bodyMd": "**Regardless of** dan **notwithstanding** diikuti kata benda: **Regardless of the weather, we will go.** **Albeit** berarti meskipun dan biasanya diikuti kata sifat atau frasa pendek: **The plan is good, albeit long.**"
+        },
+        {
+          "heading": "Whoever, whatever, whichever",
+          "bodyMd": "**Whoever** untuk orang, **whatever** untuk benda atau hal, dan **whichever** untuk memilih dari sejumlah pilihan: **Whoever arrives first wins.** **Take whichever bag you like.**"
+        },
+        {
+          "heading": "Kebalikan",
+          "bodyMd": "**Conversely** dan **on the contrary** menunjukkan kebalikan dari pernyataan sebelumnya. **Nonetheless** menunjukkan kontras dengan kalimat sebelumnya: **It was late. Nonetheless, we continued.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Konsesi", "pattern": "regardless of / notwithstanding + kata benda" },
+        { "label": "Pilihan", "pattern": "whoever / whatever / whichever + kata kerja" },
+        { "label": "Kebalikan", "pattern": "kalimat 1. Conversely, kalimat 2" },
+        { "label": "Kontras", "pattern": "kalimat 1. Nonetheless, kalimat 2" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Regardless of the cost, we will buy the book.", "id": "Terlepas dari harganya, kami akan membeli buku itu." },
+          { "en": "Whoever finishes first can leave.", "id": "Siapa pun yang selesai lebih dulu boleh pulang." },
+          { "en": "Choose whichever color you prefer.", "id": "Pilih warna mana pun yang kamu suka." },
+          { "en": "The idea is simple, albeit clever.", "id": "Idenya sederhana, meskipun cerdik." },
+          { "en": "Most people agree. Conversely, a few do not.", "id": "Kebanyakan orang setuju. Sebaliknya, sedikit yang tidak." }
+        ],
+        "negative": [
+          { "en": "The road is not safe regardless of the lights.", "id": "Jalannya tidak aman terlepas dari lampunya." },
+          { "en": "Whoever did not come will not get the prize.", "id": "Siapa pun yang tidak datang tidak akan mendapat hadiah." },
+          { "en": "I did not agree with the plan, nonetheless.", "id": "Saya tidak setuju dengan rencana itu, meskipun begitu." },
+          { "en": "The result was not contrary to our hopes.", "id": "Hasilnya tidak bertentangan dengan harapan kami." },
+          { "en": "She does not hold the opposite view.", "id": "Dia tidak memegang pandangan yang berlawanan." }
+        ],
+        "question": [
+          { "en": "Regardless of the cost, will you buy the book?", "id": "Terlepas dari harganya, apakah kamu akan membeli bukunya?" },
+          { "en": "Whoever finishes first, can they leave?", "id": "Siapa pun yang selesai lebih dulu, bolehkah mereka pulang?" },
+          { "en": "Which color do you prefer, whichever one is cheaper?", "id": "Warna mana yang kamu suka, yang mana pun yang lebih murah?" },
+          { "en": "Is the plan good, albeit long?", "id": "Apakah rencananya bagus, meskipun panjang?" },
+          { "en": "Do you hold the opposite view?", "id": "Apakah kamu memegang pandangan yang berlawanan?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Regardless the rain, we will go.", "right": "Regardless of the rain, we will go.", "whyId": "Regardless diikuti of sebelum kata benda." },
+        { "wrong": "Whoever arrives first, they will win.", "right": "Whoever arrives first will win.", "whyId": "Anak kalimat whoever sudah menjadi subjek. Tidak perlu subjek ulang." },
+        { "wrong": "Whatever person comes can join.", "right": "Whoever comes can join.", "whyId": "Untuk orang, gunakan whoever, bukan whatever." },
+        { "wrong": "Notwithstanding of the rain, we finished.", "right": "Notwithstanding the rain, we finished.", "whyId": "Notwithstanding langsung diikuti kata benda, tanpa of." },
+        { "wrong": "The results were contrary, conversely we agreed.", "right": "The results were contrary to our hopes. Conversely, we agreed.", "whyId": "Penghubung kebalikan ditaruh di kalimat baru, dengan koma." },
+        { "wrong": "Albeit the plan is good, we will change it.", "right": "The plan is good, albeit a little long.", "whyId": "Albeit sering dipakai di antara kata sifat atau frasa pendek dan memberi makna meskipun." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["concession clauses English", "group project conversation English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Regardless dan whatever dalam percakapan",
+        "Conversely dan nonetheless saat membandingkan pendapat"
+      ]
+    },
+    "script": {
+      "title": "Memilih desain poster",
+      "lines": [
+        { "speaker": "Dina", "text": "Regardless of the weather, we will finish the poster today." },
+        { "speaker": "Eko", "text": "Whatever the teacher says, the deadline is tomorrow. We need to hurry." },
+        { "speaker": "Dina", "text": "Whoever wants to help can join the group after lunch." },
+        { "speaker": "Eko", "text": "The plan is good, albeit a little long. Nonetheless, I think we can finish it." },
+        { "speaker": "Dina", "text": "Whichever color we choose, the poster should be bright. Conversely, a dark poster is hard to read." },
+        { "speaker": "Eko", "text": "On the contrary, I like dark colors. Notwithstanding that, your idea is fine." },
+        { "speaker": "Dina", "text": "The opposite is true for me. I think bright colors attract readers." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada regardless, tekanan ada di suku pertama: ri-GARD-les.",
+      "Pada albeit, ucapkan awl-BEE-it dengan tekanan di BEE.",
+      "Pada conversely, jaga bunyi kon-VUR-sli tetap rata agar mudah diikuti."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What will Dina and Eko do regardless of the weather?",
+        "options": [
+          { "id": "A", "text": "cancel the project" },
+          { "id": "B", "text": "finish the poster today" },
+          { "id": "C", "text": "move to another city" },
+          { "id": "D", "text": "wait until next week" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Dina berkata 'we will finish the poster today' terlepas dari cuaca.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pembatalan proyek tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Pindah kota tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Menunggu minggu depan tidak disebut dalam percakapan." }
+        ],
+        "evidence": "we will finish the poster today"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Who can join the group after lunch?",
+        "options": [
+          { "id": "A", "text": "only the teacher" },
+          { "id": "B", "text": "only Eko" },
+          { "id": "C", "text": "anyone who wants to help" },
+          { "id": "D", "text": "nobody" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Dina berkata 'Whoever wants to help can join the group after lunch', artinya siapa pun yang ingin membantu boleh bergabung.",
+        "stepByStep": [
+          "Cari after lunch di naskah Dina: 'Whoever wants to help can join the group after lunch.'",
+          "Whoever menunjukkan siapa pun, dengan syarat ingin membantu.",
+          "Guru, Eko saja, dan tidak ada orang bertentangan dengan whoever."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Guru tidak disebut boleh bergabung." },
+          { "optionId": "B", "reasonId": "Eko tidak disebut sebagai satu-satunya yang boleh bergabung." },
+          { "optionId": "D", "reasonId": "Tidak ada yang dilarang bergabung dalam percakapan." }
+        ],
+        "evidence": "Whoever wants to help can join the group after lunch"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does Eko say about the plan?",
+        "options": [
+          { "id": "A", "text": "It is perfect and short." },
+          { "id": "B", "text": "It is good but a little long." },
+          { "id": "C", "text": "It is bad and too short." },
+          { "id": "D", "text": "It is too expensive." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Eko berkata 'The plan is good, albeit a little long', artinya rencananya bagus, meskipun sedikit panjang.",
+        "stepByStep": [
+          "Cari albeit di naskah Eko: 'The plan is good, albeit a little long.'",
+          "Albeit memperkenalkan kekurangan kecil pada kalimat yang positif.",
+          "Sempurna dan pendek, buruk dan terlalu pendek, serta mahal tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Eko menyebut rencana itu sedikit panjang, bukan pendek." },
+          { "optionId": "C", "reasonId": "Eko menyebut rencana itu bagus, bukan buruk." },
+          { "optionId": "D", "reasonId": "Harga tidak disebut dalam percakapan." }
+        ],
+        "evidence": "The plan is good, albeit a little long"
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What does Dina imply about the color she prefers?",
+        "options": [
+          { "id": "A", "text": "bright colors are better for readers" },
+          { "id": "B", "text": "dark colors are better" },
+          { "id": "C", "text": "color does not matter" },
+          { "id": "D", "text": "dark posters attract more readers" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Dina berkata 'I think bright colors attract readers', dan ia menyebut poster gelap sulit dibaca.",
+        "stepByStep": [
+          "Cari bright colors di naskah Dina: 'I think bright colors attract readers.'",
+          "Conversely menunjukkan kebalikan: poster gelap sulit dibaca.",
+          "Pilihan B bertentangan dengan pendapat Dina. Pilihan C dan D tidak sesuai dengan kalimat Dina."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Dina justru menyatakan poster gelap sulit dibaca." },
+          { "optionId": "C", "reasonId": "Dina menyebut warna penting untuk menarik pembaca." },
+          { "optionId": "D", "reasonId": "Dina menyebut poster gelap sulit dibaca, bukan menarik pembaca." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Conversely dan the opposite menunjukkan pandangan yang berlawanan dengan pandangan sebelumnya.",
+          "examples": [
+            { "en": "Most students enjoy math. Conversely, some students find it hard.", "id": "Kebanyakan siswa menyukai matematika. Sebaliknya, beberapa siswa merasa sulit." },
+            { "en": "The opposite is true for the older group.", "id": "Kebalikannya berlaku untuk kelompok yang lebih tua." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat masuk akal karena Dina membicarakan pembaca, tetapi ia menyebut poster terang yang menarik pembaca.",
+        "evidence": "I think bright colors attract readers"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What is Eko's attitude toward finishing the project?",
+        "options": [
+          { "id": "A", "text": "He is confident they can finish it." },
+          { "id": "B", "text": "He wants to quit." },
+          { "id": "C", "text": "He does not care." },
+          { "id": "D", "text": "He thinks it is impossible." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Eko berkata 'Nonetheless, I think we can finish it', artinya ia yakin mereka bisa menyelesaikannya.",
+        "stepByStep": [
+          "Cari nonetheless di naskah Eko: 'Nonetheless, I think we can finish it.'",
+          "Nonetheless menunjukkan Eko tetap yakin meskipun rencananya agak panjang.",
+          "Ingin berhenti, tidak peduli, dan menganggap mustahil bertentangan dengan kalimat Eko."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Eko tidak menyatakan ingin berhenti." },
+          { "optionId": "C", "reasonId": "Eko peduli dan menyebut batas waktu besok." },
+          { "optionId": "D", "reasonId": "Eko menyebut mereka bisa menyelesaikannya, bukan mustahil." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nonetheless menunjukkan kontras yang tetap diikuti sikap positif.",
+          "examples": [
+            { "en": "The task is hard. Nonetheless, I believe we can finish it.", "id": "Tugasnya sulit. Meskipun begitu, saya yakin kita bisa menyelesaikannya." },
+            { "en": "It was raining. Nevertheless, she felt confident.", "id": "Hujan turun. Meskipun begitu, dia merasa percaya diri." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat masuk akal karena Eko menyebut rencananya panjang, tetapi ia tetap yakin bisa menyelesaikannya.",
+        "evidence": "I think we can finish it"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "We will still go, ___ the weather.",
+        "options": [
+          { "id": "A", "text": "regardless of" },
+          { "id": "B", "text": "as soon as" },
+          { "id": "C", "text": "in order to" },
+          { "id": "D", "text": "so that" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Regardless of berarti terlepas dari, dan diikuti kata benda the weather.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "As soon as menunjukkan waktu, tidak cocok dengan konsesi ini." },
+          { "optionId": "C", "reasonId": "In order to menunjukkan tujuan, tidak cocok dengan konsesi ini." },
+          { "optionId": "D", "reasonId": "So that menunjukkan tujuan, tidak cocok dengan konsesi ini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "___ comes first will get the prize.",
+        "options": [
+          { "id": "A", "text": "Whenever" },
+          { "id": "B", "text": "Whoever" },
+          { "id": "C", "text": "Wherever" },
+          { "id": "D", "text": "Nonetheless" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Whoever berarti siapa pun, dan dipakai untuk orang yang datang lebih dulu.",
+        "stepByStep": [
+          "Subjek kalimat adalah orang yang datang lebih dulu.",
+          "Untuk orang, gunakan whoever.",
+          "Whenever menunjukkan waktu, wherever menunjukkan tempat, dan nonetheless menunjukkan kontras."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Whenever menunjukkan waktu, bukan orang." },
+          { "optionId": "C", "reasonId": "Wherever menunjukkan tempat, bukan orang." },
+          { "optionId": "D", "reasonId": "Nonetheless menunjukkan kontras, bukan siapa yang datang." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "The car is old; ___, it still runs well.",
+        "options": [
+          { "id": "A", "text": "therefore" },
+          { "id": "B", "text": "nonetheless" },
+          { "id": "C", "text": "meanwhile" },
+          { "id": "D", "text": "moreover" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Nonetheless menunjukkan kontras: mobilnya tua, tetapi masih berjalan baik.",
+        "stepByStep": [
+          "Kalimat pertama menyebut kekurangan: mobilnya tua.",
+          "Kalimat kedua menyebut hal positif: masih berjalan baik.",
+          "Therefore menunjukkan akibat, meanwhile menunjukkan waktu bersamaan, dan moreover menambah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Therefore menunjukkan akibat, bukan kontras." },
+          { "optionId": "C", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok di sini." },
+          { "optionId": "D", "reasonId": "Moreover menambah informasi, tidak menunjukkan kontras." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "Most students enjoy the lesson. ___, Rina finds it boring.",
+        "options": [
+          { "id": "A", "text": "Furthermore" },
+          { "id": "B", "text": "Thus" },
+          { "id": "C", "text": "Conversely" },
+          { "id": "D", "text": "Meanwhile" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Conversely menunjukkan kebalikan: kebanyakan siswa suka, tetapi Rina merasa membosankan.",
+        "stepByStep": [
+          "Kalimat pertama menyebut pendapat mayoritas.",
+          "Kalimat kedua menyebut pendapat yang berlawanan dari Rina.",
+          "Furthermore menambah, thus menunjukkan akibat, dan meanwhile menunjukkan waktu bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Furthermore menambah informasi, tidak menunjukkan kebalikan." },
+          { "optionId": "B", "reasonId": "Thus menunjukkan akibat, tidak cocok dengan kebalikan." },
+          { "optionId": "D", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kebalikan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Conversely dipakai saat dua pendapat saling berlawanan.",
+          "examples": [
+            { "en": "Many people prefer trains. Conversely, my father prefers cars.", "id": "Banyak orang lebih suka kereta. Sebaliknya, ayah saya lebih suka mobil." },
+            { "en": "Most shops close early. Conversely, this one stays open late.", "id": "Kebanyakan toko tutup lebih awal. Sebaliknya, toko ini buka sampai malam." }
+          ]
+        },
+        "examTrap": "Pilihan A furthermore terlihat cocok karena ada informasi tambahan, tetapi kalimat ini menyatakan pendapat yang berlawanan."
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Choose ___ bag you like, and we will pay for it.",
+        "options": [
+          { "id": "A", "text": "whichever" },
+          { "id": "B", "text": "whoever" },
+          { "id": "C", "text": "whenever" },
+          { "id": "D", "text": "wherever" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Whichever dipakai untuk memilih benda dari sejumlah pilihan, seperti tas.",
+        "stepByStep": [
+          "Bag adalah benda, sehingga pilihannya untuk benda: whichever.",
+          "Kalimat meminta memilih dari beberapa tas.",
+          "Whoever untuk orang, whenever untuk waktu, dan wherever untuk tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whoever untuk orang, bukan tas." },
+          { "optionId": "C", "reasonId": "Whenever untuk waktu, bukan pilihan benda." },
+          { "optionId": "D", "reasonId": "Wherever untuk tempat, bukan pilihan benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Whichever memilih satu dari beberapa pilihan benda. Whoever untuk orang.",
+          "examples": [
+            { "en": "Take whichever seat is free.", "id": "Duduklah di kursi mana pun yang kosong." },
+            { "en": "Whoever wants a snack can take one.", "id": "Siapa pun yang mau camilan boleh mengambil satu." }
+          ]
+        },
+        "examTrap": "Pilihan B whoever terlihat cocok karena kalimatnya memberi pilihan, tetapi bag adalah benda, sehingga butuh whichever."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Kami akan pergi, terlepas dari cuacanya.",
+        "hint": "Terlepas dari: regardless of. Cuacanya: the weather.",
+        "acceptedAnswers": ["We will go, regardless of the weather.", "We will go regardless of the weather."],
+        "modelAnswer": "We will go, regardless of the weather.",
+        "commonErrors": [{ "pattern": "We will go, regardless the weather", "feedbackId": "Regardless diikuti of sebelum kata benda." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Siapa pun yang datang lebih dulu boleh masuk.",
+        "hint": "Siapa pun: whoever. Datang lebih dulu: comes first.",
+        "acceptedAnswers": ["Whoever arrives first may enter.", "Whoever comes first may enter."],
+        "modelAnswer": "Whoever arrives first may enter.",
+        "commonErrors": [{ "pattern": "Whatever person arrives first may enter", "feedbackId": "Untuk orang, gunakan whoever." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Meskipun begitu, rencana itu tetap berjalan.",
+        "hint": "Meskipun begitu: nonetheless. Tetap berjalan: continues.",
+        "acceptedAnswers": ["Nonetheless, the plan continues.", "Nevertheless, the plan continues."],
+        "modelAnswer": "Nonetheless, the plan continues.",
+        "commonErrors": [{ "pattern": "Nonetheless the plan continues", "feedbackId": "Penghubung kontras di awal kalimat diikuti koma." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sebaliknya, dia lebih suka bekerja sendiri.",
+        "hint": "Sebaliknya: conversely. Bekerja sendiri: to work alone.",
+        "acceptedAnswers": ["Conversely, she prefers to work alone.", "On the contrary, she prefers to work alone."],
+        "modelAnswer": "Conversely, she prefers to work alone.",
+        "commonErrors": [{ "pattern": "Conversely she prefers to work alone", "feedbackId": "Penghubung kebalikan di awal kalimat diikuti koma." }]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Terlepas dari kelelahannya, dia tetap menyelesaikan tugas itu dengan baik.",
+        "hint": "Terlepas dari kelelahannya: notwithstanding her tiredness. Menyelesaikan dengan baik: finished the task well.",
+        "acceptedAnswers": [
+          "Notwithstanding her tiredness, she finished the task well.",
+          "Regardless of her tiredness, she finished the task well."
+        ],
+        "modelAnswer": "Notwithstanding her tiredness, she finished the task well.",
+        "commonErrors": [{ "pattern": "Notwithstanding of her tiredness", "feedbackId": "Notwithstanding langsung diikuti kata benda, tanpa of." }]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct word: '___ the rain, the fans filled the stadium.'",
+        "options": [
+          { "id": "A", "text": "Notwithstanding" },
+          { "id": "B", "text": "Furthermore" },
+          { "id": "C", "text": "Thus" },
+          { "id": "D", "text": "Meanwhile" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Notwithstanding berarti meskipun, dan diikuti kata benda the rain.",
+        "stepByStep": [
+          "Kalimat menunjukkan penonton tetap datang walaupun hujan.",
+          "Notwithstanding diikuti kata benda dan berarti meskipun.",
+          "Furthermore menambah, thus menunjukkan akibat, dan meanwhile menunjukkan waktu bersamaan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Furthermore menambah informasi, tidak menunjukkan konsesi." },
+          { "optionId": "C", "reasonId": "Thus menunjukkan akibat, tidak cocok dengan konsesi." },
+          { "optionId": "D", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan konsesi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Notwithstanding dan regardless of diikuti kata benda untuk menyatakan konsesi.",
+          "examples": [
+            { "en": "Notwithstanding the cost, the school built a new hall.", "id": "Meskipun biayanya besar, sekolah membangun aula baru." },
+            { "en": "Regardless of the price, people came to the market.", "id": "Terlepas dari harganya, orang-orang datang ke pasar." }
+          ]
+        },
+        "examTrap": "Pilihan D meanwhile terlihat cocok karena ada dua kejadian, tetapi kalimat ini menyatakan konsesi, bukan waktu."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "Regardless the rain, we finished the poster on time." },
+          { "id": "B", "text": "Despite the rain, we finishing the poster on time." },
+          { "id": "C", "text": "Despite of the rain, we finished the poster on time." },
+          { "id": "D", "text": "Regardless of the rain, we finished the poster on time." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Regardless of diikuti kata benda, dan kata kerja utama memakai finished.",
+        "stepByStep": [
+          "Regardless of diikuti kata benda the rain.",
+          "Subjek we memakai kata kerja lampau finished.",
+          "Pilihan A tidak memakai of. Pilihan B memakai finishing setelah we. Pilihan C memakai despite of."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Regardless tanpa of tidak lengkap sebelum kata benda." },
+          { "optionId": "B", "reasonId": "Finishing tidak bisa menjadi kata kerja utama setelah we." },
+          { "optionId": "C", "reasonId": "Despite tidak diikuti of sebelum kata benda." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Regardless of dan despite diikuti kata benda, tanpa of setelah despite.",
+          "examples": [
+            { "en": "Regardless of the noise, the students studied hard.", "id": "Terlepas dari kebisingan, para siswa belajar dengan giat." },
+            { "en": "Despite the heat, the team played well.", "id": "Walaupun panas, tim itu bermain dengan baik." }
+          ]
+        },
+        "examTrap": "Pilihan B tampak benar karena despite cocok artinya, tetapi kata kerja finishing salah setelah we."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Choose the best linking word: 'The results were disappointing. ___, the team refused to give up.'",
+        "options": [
+          { "id": "A", "text": "Meanwhile" },
+          { "id": "B", "text": "Nonetheless" },
+          { "id": "C", "text": "Furthermore" },
+          { "id": "D", "text": "Thus" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Nonetheless menunjukkan kontras: hasilnya mengecewakan, tetapi tim tidak menyerah.",
+        "stepByStep": [
+          "Kalimat pertama menyebut hasil yang mengecewakan.",
+          "Kalimat kedua menyebut tim tidak menyerah, yang berlawanan dengan hasil itu.",
+          "Meanwhile menunjukkan waktu bersamaan, furthermore menambah, dan thus menunjukkan akibat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Meanwhile menunjukkan waktu bersamaan, tidak cocok dengan kontras." },
+          { "optionId": "C", "reasonId": "Furthermore menambah informasi, tidak menunjukkan kontras." },
+          { "optionId": "D", "reasonId": "Thus menunjukkan akibat, dan tidak menyerah bukan akibat dari hasil yang mengecewakan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Nonetheless menunjukkan kontras dengan kalimat sebelumnya, tetapi tidak mengubah isi utamanya.",
+          "examples": [
+            { "en": "The road was closed. Nonetheless, we found a way home.", "id": "Jalannya ditutup. Meskipun begitu, kami menemukan jalan pulang." },
+            { "en": "The team lost. Nonetheless, they were proud.", "id": "Tim itu kalah. Meskipun begitu, mereka bangga." }
+          ]
+        },
+        "examTrap": "Pilihan D thus terlihat seperti kesimpulan yang masuk akal, tetapi tidak menyerah adalah kontras, bukan akibat."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct verb: 'The opposite ___ true for the older students.'",
+        "options": [
+          { "id": "A", "text": "are" },
+          { "id": "B", "text": "is" },
+          { "id": "C", "text": "be" },
+          { "id": "D", "text": "being" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Subjek the opposite tunggal, sehingga kata kerjanya is.",
+        "stepByStep": [
+          "Subjek kalimat adalah the opposite, yang tunggal.",
+          "Kata kerja tunggal untuk be adalah is.",
+          "Are jamak, be dan being tidak bisa menjadi kata kerja utama."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Are jamak, tidak cocok dengan the opposite yang tunggal." },
+          { "optionId": "C", "reasonId": "Be tidak bisa menjadi kata kerja utama di sini." },
+          { "optionId": "D", "reasonId": "Being tidak bisa menjadi kata kerja utama di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "The opposite adalah subjek tunggal dan memakai is.",
+          "examples": [
+            { "en": "The opposite is true for most cars.", "id": "Kebalikannya berlaku untuk kebanyakan mobil." },
+            { "en": "The opposite view is also popular.", "id": "Pandangan yang berlawanan juga populer." }
+          ]
+        },
+        "examTrap": "Pilihan A are terlihat benar karena older students jamak, tetapi subjek kalimat adalah the opposite."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence uses 'conversely' correctly?",
+        "options": [
+          { "id": "A", "text": "Most students like math. Conversely, they like math." },
+          { "id": "B", "text": "Most students like math. Conversely, a few students like it too." },
+          { "id": "C", "text": "Most students like math. Conversely, math likes most students." },
+          { "id": "D", "text": "Most students like math. Conversely, a few students find it boring." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Conversely menunjukkan kebalikan: kebanyakan siswa suka matematika, sedangkan sedikit siswa merasa membosankan.",
+        "stepByStep": [
+          "Kalimat pertama menyebut pendapat mayoritas.",
+          "Conversely harus diikuti pendapat yang berlawanan.",
+          "Pilihan A dan B tidak berlawanan. Pilihan C tidak masuk akal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Mengatakan mereka suka matematika lagi bukan kebalikan." },
+          { "optionId": "B", "reasonId": "Sedikit siswa yang juga suka tidak berlawanan dengan mayoritas." },
+          { "optionId": "C", "reasonId": "Matematika tidak bisa menyukai siswa, kalimat ini tidak masuk akal." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Conversely dipakai untuk pendapat atau keadaan yang berlawanan dengan kalimat sebelumnya.",
+          "examples": [
+            { "en": "Many people walk. Conversely, some people drive.", "id": "Banyak orang berjalan kaki. Sebaliknya, sebagian orang menyetir." },
+            { "en": "Most rooms are bright. Conversely, this one is dark.", "id": "Kebanyakan ruangan terang. Sebaliknya, ruangan ini gelap." }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti pendapat yang benar, tetapi sedikit siswa yang juga suka tidak berlawanan dengan mayoritas."
+      }
+    ]
+  }
+}
