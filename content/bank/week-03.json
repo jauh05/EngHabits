@@ -1,0 +1,1832 @@
+[
+  {
+    "id": "W03-001",
+    "week": 3,
+    "topicTag": "will-going-to",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "The phone is ringing. I ___ answer it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am going to"
+      },
+      {
+        "id": "B",
+        "text": "will"
+      },
+      {
+        "id": "C",
+        "text": "going to"
+      },
+      {
+        "id": "D",
+        "text": "will to"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Keputusan yang dibuat saat itu juga (spontan) memakai will.",
+    "stepByStep": [
+      "Telepon berdering sekarang, dan keputusan untuk menjawab dibuat saat itu.",
+      "Keputusan spontan memakai will.",
+      "Am going to menunjukkan rencana yang sudah ada sebelumnya. Will to tidak benar."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Am going to menunjukkan rencana yang sudah dibuat sebelumnya."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Going to tanpa to be tidak membentuk kalimat yang lengkap."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Will to tidak benar. Setelah will langsung kata kerja dasar."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Will untuk keputusan spontan. Be going to untuk rencana yang sudah ada.",
+      "examples": [
+        {
+          "en": "It's cold. I will close the window.",
+          "id": "Dingin. Saya akan menutup jendela."
+        },
+        {
+          "en": "We are going to paint the room on Saturday.",
+          "id": "Kami akan mengecat ruangan itu hari Sabtu."
+        }
+      ]
+    },
+    "examTrap": "Am going to terdengar seperti keputusan, tetapi keputusan yang baru dibuat memakai will."
+  },
+  {
+    "id": "W03-002",
+    "week": 3,
+    "topicTag": "will-going-to",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Look at those dark clouds! It ___ rain soon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "will"
+      },
+      {
+        "id": "B",
+        "text": "is going to"
+      },
+      {
+        "id": "C",
+        "text": "is will"
+      },
+      {
+        "id": "D",
+        "text": "going to"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Awan gelap terlihat sekarang, yaitu bukti yang terlihat. Prediksi berdasarkan bukti memakai be going to.",
+    "stepByStep": [
+      "Ada bukti yang terlihat sekarang: awan gelap.",
+      "Prediksi berdasarkan bukti memakai be going to.",
+      "Will kurang tepat untuk bukti yang terlihat. Is will dan going to tanpa to be tidak benar."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Will untuk prediksi umum. Di sini bukti sudah terlihat, sehingga going to lebih tepat."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Is will tidak benar. Will tidak memakai to be."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Going to tanpa to be tidak membentuk kalimat yang lengkap."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Be going to untuk prediksi berdasarkan bukti sekarang.",
+      "examples": [
+        {
+          "en": "Look at that car. It is going to crash.",
+          "id": "Lihat mobil itu. Mobil itu akan menabrak."
+        },
+        {
+          "en": "The sky is clear, so it is going to be sunny.",
+          "id": "Langitnya cerah, jadi akan cerah."
+        }
+      ]
+    },
+    "examTrap": "Will juga bisa dipakai untuk prediksi, tetapi ketika bukti sudah terlihat, be going to lebih tepat."
+  },
+  {
+    "id": "W03-003",
+    "week": 3,
+    "topicTag": "will-going-to",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They will going to visit us."
+      },
+      {
+        "id": "B",
+        "text": "They are going to visit us."
+      },
+      {
+        "id": "C",
+        "text": "They will to visit us."
+      },
+      {
+        "id": "D",
+        "text": "They going to visit us."
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Be going to diikuti kata kerja dasar, dan subjek they memakai are.",
+    "stepByStep": [
+      "Will dan going to tidak dipakai bersama.",
+      "Subjek they memakai are, dan setelah are ada going to.",
+      "Pilihan A memakai will dan going to bersama. Pilihan C memakai to setelah will. Pilihan D tidak punya to be."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Will dan going to tidak dipakai bersama."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Setelah will tidak ada to."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Going to membutuhkan to be di depannya."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pilih will atau be going to, bukan keduanya.",
+      "examples": [
+        {
+          "en": "We will visit them tomorrow.",
+          "id": "Kami akan mengunjungi mereka besok."
+        },
+        {
+          "en": "We are going to visit them tomorrow.",
+          "id": "Kami akan mengunjungi mereka besok (sudah direncanakan)."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti kesalahan yang mudah dikenali, tetapi banyak pembelajar menulis will going to karena keduanya terasa benar."
+  },
+  {
+    "id": "W03-004",
+    "week": 3,
+    "topicTag": "will-going-to",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "I promise I ___ be on time tomorrow.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am going to"
+      },
+      {
+        "id": "B",
+        "text": "will"
+      },
+      {
+        "id": "C",
+        "text": "going to"
+      },
+      {
+        "id": "D",
+        "text": "would"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Janji memakai will.",
+    "stepByStep": [
+      "Kalimat ini adalah janji.",
+      "Janji memakai will.",
+      "Am going to lebih cocok untuk rencana yang sudah dibuat, dan would untuk kemungkinan atau kesopanan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Am going to untuk rencana, bukan janji."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Going to tanpa to be tidak membentuk kalimat yang lengkap."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Would untuk kemungkinan atau permintaan sopan, bukan janji masa depan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Janji memakai will.",
+      "examples": [
+        {
+          "en": "I will never tell anyone.",
+          "id": "Saya tidak akan pernah memberi tahu siapa pun."
+        },
+        {
+          "en": "She promises she will call later.",
+          "id": "Dia berjanji akan menelepon nanti."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terasa seperti niat yang kuat, tetapi janji secara tata bahasa memakai will."
+  },
+  {
+    "id": "W03-005",
+    "week": 3,
+    "topicTag": "modal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "You ___ park here. The sign says it is not allowed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "don't have to"
+      },
+      {
+        "id": "B",
+        "text": "must not"
+      },
+      {
+        "id": "C",
+        "text": "should"
+      },
+      {
+        "id": "D",
+        "text": "can"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Tanda menyatakan tidak diizinkan, yaitu larangan. Larangan memakai must not.",
+    "stepByStep": [
+      "Kata kunci: the sign says it is not allowed, yaitu larangan.",
+      "Larangan memakai must not.",
+      "Don't have to berarti tidak perlu. Should untuk saran. Can untuk izin, dan tidak sesuai dengan larangan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Don't have to berarti tidak perlu, bukan larangan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Should untuk saran, bukan larangan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Can menunjukkan izin, bertentangan dengan 'not allowed'."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Must not untuk larangan.",
+      "examples": [
+        {
+          "en": "You must not smoke in the building.",
+          "id": "Kamu dilarang merokok di dalam gedung."
+        },
+        {
+          "en": "Students must not use phones during the test.",
+          "id": "Mahasiswa dilarang menggunakan ponsel saat tes."
+        }
+      ]
+    },
+    "examTrap": "Don't have to dan must not sering tertukar. Must not berarti dilarang, don't have to berarti tidak wajib."
+  },
+  {
+    "id": "W03-006",
+    "week": 3,
+    "topicTag": "modal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "You ___ see a doctor if the cough lasts more than a week. It is my advice.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must"
+      },
+      {
+        "id": "B",
+        "text": "should"
+      },
+      {
+        "id": "C",
+        "text": "can"
+      },
+      {
+        "id": "D",
+        "text": "might"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "It is my advice menunjukkan saran, dan saran memakai should.",
+    "stepByStep": [
+      "Kata kunci: it is my advice.",
+      "Saran memakai should.",
+      "Must menunjukkan kewajiban kuat, can untuk kemampuan atau izin, dan might untuk kemungkinan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Must menunjukkan kewajiban kuat, sedangkan kalimat ini menyebut saran."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Can menunjukkan kemampuan atau izin, bukan saran."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Might menunjukkan kemungkinan, bukan saran."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Should untuk saran.",
+      "examples": [
+        {
+          "en": "You should rest more.",
+          "id": "Kamu sebaiknya lebih banyak istirahat."
+        },
+        {
+          "en": "I think you should try the soup.",
+          "id": "Saya rasa kamu sebaiknya mencoba sup itu."
+        }
+      ]
+    },
+    "examTrap": "Must terdengar lebih kuat dan sering dipilih. Tetapi kalimat ini secara eksplisit menyebut saran."
+  },
+  {
+    "id": "W03-007",
+    "week": 3,
+    "topicTag": "modal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "It is possible that the train is late. It ___ be late.",
+    "options": [
+      {
+        "id": "A",
+        "text": "may"
+      },
+      {
+        "id": "B",
+        "text": "must"
+      },
+      {
+        "id": "C",
+        "text": "should"
+      },
+      {
+        "id": "D",
+        "text": "does"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Kemungkinan yang belum pasti memakai may atau might. Di sini may.",
+    "stepByStep": [
+      "Kalimat menyebut kemungkinan: it is possible.",
+      "Kemungkinan memakai may atau might.",
+      "Must menunjukkan kepastian atau kewajiban, should untuk saran, dan does adalah kata bantu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Must menunjukkan kepastian yang kuat, bukan kemungkinan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Should untuk saran, bukan kemungkinan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Does adalah kata bantu simple present, bukan modal kemungkinan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "May atau might untuk kemungkinan yang belum pasti.",
+      "examples": [
+        {
+          "en": "It might rain this afternoon.",
+          "id": "Mungkin hujan sore ini."
+        },
+        {
+          "en": "She may be at home now.",
+          "id": "Dia mungkin ada di rumah sekarang."
+        }
+      ]
+    },
+    "examTrap": "Must sering dipakai ketika seseorang yakin. Tetapi it is possible menunjukkan belum pasti, sehingga may."
+  },
+  {
+    "id": "W03-008",
+    "week": 3,
+    "topicTag": "modal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "You must to finish the test."
+      },
+      {
+        "id": "B",
+        "text": "You must finish the test."
+      },
+      {
+        "id": "C",
+        "text": "You musts finish the test."
+      },
+      {
+        "id": "D",
+        "text": "You must finishing the test."
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Setelah must, kata kerja dasar tanpa to, tanpa -s, dan tanpa -ing.",
+    "stepByStep": [
+      "Modal diikuti kata kerja dasar.",
+      "Finish tanpa to, -s, atau -ing.",
+      "Pilihan A menambahkan to. Pilihan C memberi -s pada must. Pilihan D memakai -ing."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Setelah must tidak ada to."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Modal tidak menerima -s."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Setelah must tidak ada -ing."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Semua modal diikuti kata kerja dasar.",
+      "examples": [
+        {
+          "en": "She can speak English.",
+          "id": "Dia bisa berbicara bahasa Inggris."
+        },
+        {
+          "en": "We should leave now.",
+          "id": "Kita sebaiknya pergi sekarang."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat seperti versi yang sopan, tetapi modal tidak pernah diikuti to."
+  },
+  {
+    "id": "W03-009",
+    "week": 3,
+    "topicTag": "modal",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "When I was a child, I ___ read before I started school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "may"
+      },
+      {
+        "id": "B",
+        "text": "could"
+      },
+      {
+        "id": "C",
+        "text": "should"
+      },
+      {
+        "id": "D",
+        "text": "must"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Kemampuan di masa lalu (when I was a child) memakai could.",
+    "stepByStep": [
+      "Kalimat menyatakan kemampuan di masa lalu.",
+      "Could adalah bentuk lampau dari can untuk kemampuan.",
+      "May, should, dan must tidak menyatakan kemampuan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "May untuk izin atau kemungkinan, bukan kemampuan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Should untuk saran, bukan kemampuan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Must untuk kewajiban, bukan kemampuan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Could dan can untuk kemampuan. Could sering dipakai untuk kemampuan yang sudah dimiliki sejak lama.",
+      "examples": [
+        {
+          "en": "She could read when she was four.",
+          "id": "Dia bisa membaca ketika berumur empat tahun."
+        },
+        {
+          "en": "I can drive a car.",
+          "id": "Saya bisa mengendarai mobil."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A (may) terlihat seperti izin. Tetapi ini tentang kemampuan, bukan izin."
+  },
+  {
+    "id": "W03-010",
+    "week": 3,
+    "topicTag": "present-perfect",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "She ___ never ___ to Japan, but she wants to go next year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has / been"
+      },
+      {
+        "id": "B",
+        "text": "has / went"
+      },
+      {
+        "id": "C",
+        "text": "is / been"
+      },
+      {
+        "id": "D",
+        "text": "has / go"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Pengalaman yang belum pernah terjadi memakai has never been (V3 dari go untuk pengalaman adalah been).",
+    "stepByStep": [
+      "Pengalaman belum pernah memakai present perfect.",
+      "Subjek she memakai has. Pengalaman pergi ke tempat memakai been.",
+      "Went adalah simple past, dan go bentuk dasar. Is been tidak benar."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Went adalah simple past. Pengalaman dengan never memakai been."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Is tidak cocok dengan present perfect untuk she."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Go adalah bentuk dasar, bukan V3 untuk pengalaman."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pengalaman pergi ke tempat memakai have been to. Tempat yang belum pernah dikunjungi memakai never been to.",
+      "examples": [
+        {
+          "en": "I have been to Bali.",
+          "id": "Saya pernah pergi ke Bali."
+        },
+        {
+          "en": "They have never been to Europe.",
+          "id": "Mereka belum pernah pergi ke Eropa."
+        }
+      ]
+    },
+    "examTrap": "Went terlihat seperti kata lampau yang benar, tetapi untuk pengalaman dengan present perfect gunakan been."
+  },
+  {
+    "id": "W03-011",
+    "week": 3,
+    "topicTag": "present-perfect",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "We ___ the new project, so we can start the next one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have finished"
+      },
+      {
+        "id": "B",
+        "text": "finished"
+      },
+      {
+        "id": "C",
+        "text": "finish"
+      },
+      {
+        "id": "D",
+        "text": "are finishing"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Hasilnya masih berhubungan dengan sekarang (kita bisa mulai yang berikutnya), sehingga present perfect: have finished.",
+    "stepByStep": [
+      "Kalimat kedua menunjukkan hasil sekarang: we can start.",
+      "Hasil yang masih berhubungan dengan sekarang memakai present perfect.",
+      "Finished tanpa penanda waktu lampau membuat hubungan dengan sekarang hilang. Finish dan are finishing tidak tepat."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Finished adalah simple past. Hasil yang masih terasa sekarang memakai have finished."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Finish bentuk dasar, tidak cocok sebagai kata kerja utama di sini."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Are finishing menunjukkan aksi yang sedang berlangsung, bukan hasil yang sudah tercapai."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Present perfect untuk hasil yang masih berhubungan dengan sekarang.",
+      "examples": [
+        {
+          "en": "I have lost my keys, so I can't open the door.",
+          "id": "Saya kehilangan kunci, jadi saya tidak bisa membuka pintu."
+        },
+        {
+          "en": "She has finished her homework, so she can relax.",
+          "id": "Dia sudah menyelesaikan pekerjaan rumahnya, jadi dia bisa bersantai."
+        }
+      ]
+    },
+    "examTrap": "Simple past dan present perfect sering tertukar. Jika hasilnya masih terasa sekarang, pilih present perfect."
+  },
+  {
+    "id": "W03-012",
+    "week": 3,
+    "topicTag": "present-perfect",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He has saw the movie twice."
+      },
+      {
+        "id": "B",
+        "text": "He has seen the movie twice."
+      },
+      {
+        "id": "C",
+        "text": "He have seen the movie twice."
+      },
+      {
+        "id": "D",
+        "text": "He has seeing the movie twice."
+      }
+    ],
+    "correct": "B",
+    "explanationId": "V3 dari see adalah seen, dan subjek he memakai has.",
+    "stepByStep": [
+      "Subjek he memakai has.",
+      "Setelah has, kata kerja harus V3: seen.",
+      "Saw adalah simple past, have seen memakai have untuk they dan I."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Saw adalah simple past. Setelah has, gunakan seen."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Have tidak cocok untuk he."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Seeing bukan V3. Setelah has, gunakan seen."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Setelah has atau have, kata kerja harus V3.",
+      "examples": [
+        {
+          "en": "She has seen the sea.",
+          "id": "Dia sudah melihat laut."
+        },
+        {
+          "en": "We have seen the movie.",
+          "id": "Kami sudah menonton film itu."
+        }
+      ]
+    },
+    "examTrap": "Saw dan seen mudah tertukar. Setelah has atau have, selalu seen."
+  },
+  {
+    "id": "W03-013",
+    "week": 3,
+    "topicTag": "present-perfect",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "They ___ the answer yet, so they are still thinking about it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have found not"
+      },
+      {
+        "id": "B",
+        "text": "haven't found"
+      },
+      {
+        "id": "C",
+        "text": "didn't found"
+      },
+      {
+        "id": "D",
+        "text": "hasn't found"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Yet dipakai di present perfect negatif. Subjek they memakai haven't, lalu V3 found.",
+    "stepByStep": [
+      "Yet menunjukkan present perfect negatif.",
+      "Subjek they memakai haven't (have not).",
+      "Pilihan A salah urutannya. Pilihan C memakai didn't dengan yet dan found. Pilihan D memakai hasn't untuk they."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Have found not bukan urutan negatif yang benar. Not diletakkan setelah have."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Didn't dengan yet tidak tepat, dan found bukan bentuk dasar."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Hasn't hanya untuk he, she, it."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Yet untuk negatif present perfect: subjek + have/has not + V3 + yet.",
+      "examples": [
+        {
+          "en": "I haven't finished the book yet.",
+          "id": "Saya belum menyelesaikan buku itu."
+        },
+        {
+          "en": "She hasn't called me yet.",
+          "id": "Dia belum menelepon saya."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D (hasn't) terlihat benar karena ada yet, tetapi subjek they memakai haven't."
+  },
+  {
+    "id": "W03-014",
+    "week": 3,
+    "topicTag": "present-perfect",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Have you ever ___ sushi? Yes, I ___ it last month.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tried / tried"
+      },
+      {
+        "id": "B",
+        "text": "tried / have tried"
+      },
+      {
+        "id": "C",
+        "text": "try / tried"
+      },
+      {
+        "id": "D",
+        "text": "tried / tries"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Pertanyaan pengalaman memakai ever dan V3: tried. Jawaban 'last month' memakai simple past: tried.",
+    "stepByStep": [
+      "Pertanyaan pengalaman memakai have ever + V3: tried.",
+      "Jawaban dengan last month menunjukkan waktu yang sudah selesai, sehingga simple past: tried.",
+      "Pilihan lain salah karena bentuk dasar, bentuk sekarang, atau have tried tidak cocok dengan penanda last month."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Have tried tidak cocok di bagian kedua. Penanda last month menuntut simple past: tried."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Try bentuk dasar, tidak cocok setelah have ever (bagian pertama) atau untuk kejadian lampau (bagian kedua)."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Tries adalah bentuk sekarang untuk he, she, it. Tidak cocok dengan have ever atau last month."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pertanyaan pengalaman memakai have ever + V3. Jawaban dengan penanda waktu selesai memakai simple past.",
+      "examples": [
+        {
+          "en": "Have you ever flown? Yes, I flew last year.",
+          "id": "Apakah kamu pernah naik pesawat? Ya, saya naik pesawat tahun lalu."
+        },
+        {
+          "en": "Have they ever eaten durian? No, they haven't.",
+          "id": "Apakah mereka pernah makan durian? Tidak, mereka belum pernah."
+        }
+      ]
+    },
+    "examTrap": "Pilihan A terlihat konsisten, tetapi jawaban dengan last month menuntut simple past."
+  },
+  {
+    "id": "W03-015",
+    "week": 3,
+    "topicTag": "present-perfect",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "She has lost her wallet, so she ___ buy lunch today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "can't"
+      },
+      {
+        "id": "B",
+        "text": "could"
+      },
+      {
+        "id": "C",
+        "text": "must"
+      },
+      {
+        "id": "D",
+        "text": "may"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Dompet hilang sekarang membuatnya tidak bisa membeli makan siang. Kemampuan negatif memakai can't.",
+    "stepByStep": [
+      "Hasil kehilangan dompet masih terasa sekarang: present perfect has lost.",
+      "Akibatnya ia tidak bisa membeli makan siang, sehingga can't.",
+      "Could tidak tepat dalam konteks akibat sekarang. Must dan may tidak sesuai dengan akibat negatif."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Could untuk kemampuan masa lalu atau kesopanan. Konteks ini akibat sekarang."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Must menunjukkan kewajiban, bukan ketidakmampuan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "May menunjukkan kemungkinan, bukan akibat pasti."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Present perfect untuk hasil sekarang. Can't untuk ketidakmampuan sekarang.",
+      "examples": [
+        {
+          "en": "I have broken my phone, so I can't call you.",
+          "id": "Saya merusak ponsel saya, jadi saya tidak bisa menelepon kamu."
+        },
+        {
+          "en": "He has hurt his leg, so he can't walk fast.",
+          "id": "Dia terluka di kakinya, jadi dia tidak bisa berjalan cepat."
+        }
+      ]
+    },
+    "examTrap": "Could terdengar seperti versi lampau dari can, tetapi konteks hasil sekarang memakai can't."
+  },
+  {
+    "id": "W03-016",
+    "week": 3,
+    "topicTag": "since-for",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "We have been friends ___ five years, and we have known each other ___ 2019.",
+    "options": [
+      {
+        "id": "A",
+        "text": "for / since"
+      },
+      {
+        "id": "B",
+        "text": "since / for"
+      },
+      {
+        "id": "C",
+        "text": "for / for"
+      },
+      {
+        "id": "D",
+        "text": "since / since"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Five years adalah durasi, sehingga for. 2019 adalah titik waktu awal, sehingga since.",
+    "stepByStep": [
+      "Five years adalah durasi.",
+      "2019 adalah titik waktu awal.",
+      "Pilihan B membalik. Pilihan C memakai for untuk 2019. Pilihan D memakai since untuk five years."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Since untuk five years salah, dan for untuk 2019 salah."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "For untuk 2019 salah. Gunakan since."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Since untuk five years salah. Gunakan for."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "For untuk durasi, since untuk titik waktu awal.",
+      "examples": [
+        {
+          "en": "We have lived here for ten years.",
+          "id": "Kami sudah tinggal di sini selama sepuluh tahun."
+        },
+        {
+          "en": "We have lived here since 2014.",
+          "id": "Kami sudah tinggal di sini sejak 2014."
+        }
+      ]
+    },
+    "examTrap": "Angka keduanya bisa membingungkan. Tanyakan: apakah itu berapa lama (for) atau sejak kapan (since)?"
+  },
+  {
+    "id": "W03-017",
+    "week": 3,
+    "topicTag": "since-for",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "He has been sick ___ Monday, and he has not gone to school ___ three days.",
+    "options": [
+      {
+        "id": "A",
+        "text": "since / for"
+      },
+      {
+        "id": "B",
+        "text": "for / since"
+      },
+      {
+        "id": "C",
+        "text": "since / since"
+      },
+      {
+        "id": "D",
+        "text": "for / for"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Monday adalah titik waktu awal, sehingga since. Three days adalah durasi, sehingga for.",
+    "stepByStep": [
+      "Monday adalah titik waktu awal.",
+      "Three days adalah durasi.",
+      "Pilihan B membalik. Pilihan C memakai since untuk three days. Pilihan D memakai for untuk Monday."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "For untuk Monday dan since untuk three days, keduanya tertukar."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Since untuk three days salah."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "For untuk Monday salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Since untuk titik waktu awal, for untuk durasi.",
+      "examples": [
+        {
+          "en": "She has worked here since Monday.",
+          "id": "Dia sudah bekerja di sini sejak hari Senin."
+        },
+        {
+          "en": "She has worked here for three days.",
+          "id": "Dia sudah bekerja di sini selama tiga hari."
+        }
+      ]
+    },
+    "examTrap": "Monday terdengar seperti durasi karena hari, tetapi itu titik waktu tertentu."
+  },
+  {
+    "id": "W03-018",
+    "week": 3,
+    "topicTag": "since-for",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I have worked here since three months."
+      },
+      {
+        "id": "B",
+        "text": "I have worked here for three months."
+      },
+      {
+        "id": "C",
+        "text": "I have worked here in three months."
+      },
+      {
+        "id": "D",
+        "text": "I have worked here from three months."
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Three months adalah durasi, sehingga for.",
+    "stepByStep": [
+      "Three months adalah durasi.",
+      "Durasi dengan present perfect memakai for.",
+      "Since diikuti titik waktu, bukan durasi. In dan from tidak tepat di sini."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Since diikuti titik waktu, bukan durasi three months."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "In tidak dipakai untuk durasi dalam pola ini."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "From tidak dipakai untuk durasi present perfect ini."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "For + durasi (for three months).",
+      "examples": [
+        {
+          "en": "I have studied English for two years.",
+          "id": "Saya sudah belajar bahasa Inggris selama dua tahun."
+        },
+        {
+          "en": "I have studied English since 2023.",
+          "id": "Saya sudah belajar bahasa Inggris sejak 2023."
+        }
+      ]
+    },
+    "examTrap": "Since terdengar seperti 'sudah lama', tetapi since harus diikuti titik waktu, bukan durasi."
+  },
+  {
+    "id": "W03-019",
+    "week": 3,
+    "topicTag": "ever-never-yet",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Have you ___ seen snow? No, I have ___ seen it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ever / never"
+      },
+      {
+        "id": "B",
+        "text": "never / ever"
+      },
+      {
+        "id": "C",
+        "text": "yet / ever"
+      },
+      {
+        "id": "D",
+        "text": "ever / yet"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Pertanyaan pengalaman memakai ever. Jawaban negatif memakai never.",
+    "stepByStep": [
+      "Pertanyaan pengalaman memakai ever.",
+      "Jawaban 'No' dengan pengalaman negatif memakai never.",
+      "Yet tidak cocok untuk pengalaman tanpa kata kerja pembuka seperti ini."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Never dalam pertanyaan tidak tepat. Ever dipakai dalam pertanyaan."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Yet tidak dipakai untuk pertanyaan pengalaman ini."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Yet dalam jawaban tidak tepat untuk pengalaman tanpa waktu."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Ever dalam pertanyaan pengalaman, never dalam jawaban negatif.",
+      "examples": [
+        {
+          "en": "Have they ever visited Japan? No, they have never visited it.",
+          "id": "Apakah mereka pernah mengunjungi Jepang? Tidak, mereka belum pernah."
+        },
+        {
+          "en": "Has she ever eaten durian? Yes, she has.",
+          "id": "Apakah dia pernah makan durian? Ya, dia pernah."
+        }
+      ]
+    },
+    "examTrap": "Never tidak dipakai dalam pertanyaan. Pertanyaan memakai ever."
+  },
+  {
+    "id": "W03-020",
+    "week": 3,
+    "topicTag": "ever-never-yet",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "I have ___ finished my dinner, so I can go out now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "just"
+      },
+      {
+        "id": "B",
+        "text": "ago"
+      },
+      {
+        "id": "C",
+        "text": "yesterday"
+      },
+      {
+        "id": "D",
+        "text": "since"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Baru saja selesai memakai just dengan present perfect.",
+    "stepByStep": [
+      "Kalimat menyatakan kejadian yang baru saja selesai.",
+      "Baru saja memakai just dengan present perfect.",
+      "Ago dan yesterday memakai simple past. Since memerlukan titik waktu."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Ago dipakai dengan simple past, dan artinya yang lalu."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Yesterday menunjukkan simple past, tidak cocok dengan present perfect."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Since memerlukan titik waktu, bukan kata yang menyatakan baru saja."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Just dengan present perfect untuk kejadian yang baru saja selesai.",
+      "examples": [
+        {
+          "en": "She has just arrived.",
+          "id": "Dia baru saja tiba."
+        },
+        {
+          "en": "We have just finished the test.",
+          "id": "Kami baru saja menyelesaikan tes."
+        }
+      ]
+    },
+    "examTrap": "Pilihan C (yesterday) terlihat seperti pilihan yang berkaitan dengan waktu, tetapi tidak cocok dengan present perfect."
+  },
+  {
+    "id": "W03-021",
+    "week": 3,
+    "topicTag": "ever-never-yet",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "She has ___ finished her homework, but she has ___ started the project.",
+    "options": [
+      {
+        "id": "A",
+        "text": "already / not yet"
+      },
+      {
+        "id": "B",
+        "text": "yet / already"
+      },
+      {
+        "id": "C",
+        "text": "ago / never"
+      },
+      {
+        "id": "D",
+        "text": "never / yet"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Already untuk sesuatu yang sudah selesai dalam kalimat positif. Not yet untuk sesuatu yang belum dalam kalimat negatif.",
+    "stepByStep": [
+      "Kalimat pertama positif: sudah selesai, sehingga already.",
+      "Kalimat kedua negatif: belum dimulai, sehingga not yet.",
+      "Yet dalam kalimat positif tidak tepat. Ago dengan present perfect tidak tepat."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Yet dalam kalimat positif tidak tepat. Already dipakai untuk positif."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Ago dipakai dengan simple past, dan never tidak tepat untuk kalimat ini."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Never tidak cocok untuk sudah selesai, dan yet pada kalimat pertama salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Already untuk positif. Yet untuk negatif dan pertanyaan.",
+      "examples": [
+        {
+          "en": "I have already eaten.",
+          "id": "Saya sudah makan."
+        },
+        {
+          "en": "I haven't eaten yet.",
+          "id": "Saya belum makan."
+        }
+      ]
+    },
+    "examTrap": "Already dan yet sering tertukar. Already untuk kalimat positif, yet untuk negatif dan tanya."
+  },
+  {
+    "id": "W03-022",
+    "week": 3,
+    "topicTag": "countable",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "There is ___ water in the bottle, so we need to buy more.",
+    "options": [
+      {
+        "id": "A",
+        "text": "many"
+      },
+      {
+        "id": "B",
+        "text": "much"
+      },
+      {
+        "id": "C",
+        "text": "few"
+      },
+      {
+        "id": "D",
+        "text": "a few"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Water tidak bisa dihitung, jadi dipakai much (dalam konteks jumlah yang tidak cukup dan perlu membeli lagi).",
+    "stepByStep": [
+      "Water adalah kata benda tidak bisa dihitung, sehingga tidak memakai many, few, atau a few.",
+      "Kalimat menyatakan jumlah yang kurang sehingga harus membeli lagi.",
+      "Much dipakai untuk kata benda tidak bisa dihitung. Many, few, dan a few hanya untuk yang bisa dihitung."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Many untuk kata benda yang bisa dihitung, bukan water."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Few untuk kata benda yang bisa dihitung, bukan water."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "A few untuk kata benda yang bisa dihitung, bukan water."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Much dan little untuk kata benda tidak bisa dihitung. Many dan few untuk kata benda bisa dihitung.",
+      "examples": [
+        {
+          "en": "There isn't much milk left.",
+          "id": "Tidak banyak susu yang tersisa."
+        },
+        {
+          "en": "We have a little time.",
+          "id": "Kami punya sedikit waktu."
+        }
+      ]
+    },
+    "examTrap": "Pilihan D (a few) terlihat seperti jumlah sedikit yang aman, tetapi water tidak bisa dihitung."
+  },
+  {
+    "id": "W03-023",
+    "week": 3,
+    "topicTag": "countable",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The furnitures in the room are old."
+      },
+      {
+        "id": "B",
+        "text": "The furniture in the room is old."
+      },
+      {
+        "id": "C",
+        "text": "The furniture in the room are old."
+      },
+      {
+        "id": "D",
+        "text": "The furnitures in the room is old."
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Furniture tidak bisa dihitung dan tidak punya bentuk jamak. Kata kerjanya is.",
+    "stepByStep": [
+      "Furniture tidak punya bentuk jamak.",
+      "Kata benda tidak bisa dihitung memakai kata kerja tunggal: is.",
+      "Furnitures salah, dan are tidak cocok dengan kata benda tunggal yang tidak dihitung."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Furnitures salah. Furniture tidak punya bentuk jamak."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Are tidak cocok untuk kata benda tidak bisa dihitung seperti furniture."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Furnitures dan is keduanya salah di sini."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Furniture, information, advice, dan equipment tidak punya jamak dan memakai kata kerja tunggal.",
+      "examples": [
+        {
+          "en": "The information is useful.",
+          "id": "Informasinya berguna."
+        },
+        {
+          "en": "The equipment is in the lab.",
+          "id": "Peralatannya ada di laboratorium."
+        }
+      ]
+    },
+    "examTrap": "Furniture terlihat seperti kata jamak karena banyak barang. Dalam bahasa Inggris, ia tidak dihitung."
+  },
+  {
+    "id": "W03-024",
+    "week": 3,
+    "topicTag": "countable",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "How ___ students are in your class? I think there are a lot, but I'm not sure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "much"
+      },
+      {
+        "id": "B",
+        "text": "many"
+      },
+      {
+        "id": "C",
+        "text": "little"
+      },
+      {
+        "id": "D",
+        "text": "few"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Students bisa dihitung, sehingga pertanyaan jumlah memakai how many.",
+    "stepByStep": [
+      "Students adalah kata benda yang bisa dihitung.",
+      "Pertanyaan jumlah untuk benda yang bisa dihitung memakai how many.",
+      "How much dan little tidak untuk benda bisa dihitung. Few adalah kata sifat jumlah, bukan pertanyaan."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "How much untuk kata benda tidak bisa dihitung, bukan students."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Little untuk kata benda tidak bisa dihitung. Tidak tepat dalam pertanyaan ini."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Few bukan kata tanya. Pertanyaan jumlah memakai how many."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "How many untuk benda yang bisa dihitung.",
+      "examples": [
+        {
+          "en": "How many cups do you need?",
+          "id": "Berapa banyak cangkir yang kamu butuhkan?"
+        },
+        {
+          "en": "How many friends do you have?",
+          "id": "Berapa banyak teman yang kamu punya?"
+        }
+      ]
+    },
+    "examTrap": "How much terdengar seperti pertanyaan jumlah umum, tetapi untuk benda yang bisa dihitung harus how many."
+  },
+  {
+    "id": "W03-025",
+    "week": 3,
+    "topicTag": "countable",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "We need ___ eggs for the cake, and we also need ___ sugar.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a little / few"
+      },
+      {
+        "id": "B",
+        "text": "many / much"
+      },
+      {
+        "id": "C",
+        "text": "a few / a little"
+      },
+      {
+        "id": "D",
+        "text": "much / many"
+      }
+    ],
+    "correct": "C",
+    "explanationId": "Eggs bisa dihitung, sehingga a few. Sugar tidak bisa dihitung, sehingga a little.",
+    "stepByStep": [
+      "Eggs bisa dihitung: a few eggs.",
+      "Sugar tidak bisa dihitung: a little sugar.",
+      "Pilihan A salah karena a little dan few tertukar. Pilihan B dan D memakai many dan much yang tidak tepat untuk jumlah sedikit."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "A little untuk eggs salah karena eggs bisa dihitung, dan few tidak tepat untuk sugar yang tidak bisa dihitung."
+      },
+      {
+        "optionId": "B",
+        "reasonId": "Many dan much bukan jumlah sedikit yang dimaksud, dan tidak tepat dengan jumlah kebutuhan kue."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Much untuk eggs salah, dan many untuk sugar salah."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "A few untuk benda bisa dihitung, a little untuk benda tidak bisa dihitung.",
+      "examples": [
+        {
+          "en": "She has a few eggs.",
+          "id": "Dia punya beberapa telur."
+        },
+        {
+          "en": "He has a little milk.",
+          "id": "Dia punya sedikit susu."
+        }
+      ]
+    },
+    "examTrap": "Some juga bisa dipakai di kalimat seperti ini, tetapi a few dan a little lebih tepat untuk jumlah yang sedikit dan terbatas."
+  },
+  {
+    "id": "W03-026",
+    "week": 3,
+    "topicTag": "wh-questions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "___ does the train leave, and ___ is the station?",
+    "options": [
+      {
+        "id": "A",
+        "text": "When / Where"
+      },
+      {
+        "id": "B",
+        "text": "Where / When"
+      },
+      {
+        "id": "C",
+        "text": "Who / What"
+      },
+      {
+        "id": "D",
+        "text": "Why / How"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "When menanyakan waktu keberangkatan. Where menanyakan tempat stasiun.",
+    "stepByStep": [
+      "Bagian pertama menanyakan waktu berangkat: when.",
+      "Bagian kedua menanyakan tempat: where.",
+      "Pilihan B membalik. Pilihan C dan D tidak menanyakan waktu atau tempat."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Where untuk waktu salah, dan when untuk tempat salah."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Who untuk orang, what untuk benda, tidak tepat untuk waktu dan tempat."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Why untuk alasan, dan how untuk cara. Tidak tepat untuk waktu dan tempat."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "When untuk waktu, where untuk tempat, who untuk orang, what untuk benda atau kegiatan.",
+      "examples": [
+        {
+          "en": "When does the shop open?",
+          "id": "Kapan toko itu buka?"
+        },
+        {
+          "en": "Where is the bus stop?",
+          "id": "Di mana halte bus?"
+        }
+      ]
+    },
+    "examTrap": "Pilihan B tampak masuk akal jika kamu lupa urutannya. Cek setiap bagian pertanyaan."
+  },
+  {
+    "id": "W03-027",
+    "week": 3,
+    "topicTag": "wh-questions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "Which question is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Why you are late?"
+      },
+      {
+        "id": "B",
+        "text": "Why are you late?"
+      },
+      {
+        "id": "C",
+        "text": "Why are late you?"
+      },
+      {
+        "id": "D",
+        "text": "Why do you late?"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Dengan to be, to be berada di depan subjek setelah kata tanya: why are you late.",
+    "stepByStep": [
+      "Late adalah sifat, sehingga memakai to be.",
+      "Pola pertanyaan to be: kata tanya + to be + subjek + sifat.",
+      "Pilihan A tidak punya to be di depan subjek. Pilihan C membalik sifat dan subjek. Pilihan D memakai do untuk sifat late."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Tanpa to be di depan subjek, pertanyaan ini tidak benar."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Sifat late tidak boleh berada di depan subjek."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Do tidak dipakai untuk sifat late. Gunakan to be."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Pertanyaan dengan to be: kata tanya + am/is/are + subjek + sifat atau keterangan.",
+      "examples": [
+        {
+          "en": "Where is the library?",
+          "id": "Di mana perpustakaan?"
+        },
+        {
+          "en": "Why are they happy?",
+          "id": "Mengapa mereka senang?"
+        }
+      ]
+    },
+    "examTrap": "Pilihan D terlihat seperti pertanyaan dengan do, tetapi late adalah sifat."
+  },
+  {
+    "id": "W03-028",
+    "week": 3,
+    "topicTag": "wh-questions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "___ bag is on the table? It is not mine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Who"
+      },
+      {
+        "id": "B",
+        "text": "Whose"
+      },
+      {
+        "id": "C",
+        "text": "Which"
+      },
+      {
+        "id": "D",
+        "text": "Whom"
+      }
+    ],
+    "correct": "B",
+    "explanationId": "Pertanyaan tentang kepemilikan memakai whose diikuti kata benda bag.",
+    "stepByStep": [
+      "Pertanyaannya tentang pemilik tas.",
+      "Whose diikuti kata benda untuk menanyakan kepemilikan.",
+      "Who menanyakan orang, which memilih dari pilihan, dan whom adalah bentuk objek orang."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "A",
+        "reasonId": "Who tidak menanyakan kepemilikan benda."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Which memilih dari beberapa pilihan, bukan kepemilikan."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Whom adalah bentuk objek orang, tidak untuk kepemilikan."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Whose + kata benda untuk menanyakan milik siapa.",
+      "examples": [
+        {
+          "en": "Whose pen is this?",
+          "id": "Pulpen ini milik siapa?"
+        },
+        {
+          "en": "Whose car is parked outside?",
+          "id": "Mobil siapa yang diparkir di luar?"
+        }
+      ]
+    },
+    "examTrap": "Who's dan whose terdengar sama. Whose menanyakan kepemilikan, who's berarti who is."
+  },
+  {
+    "id": "W03-029",
+    "week": 3,
+    "topicTag": "interleave-minggu-2",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "I have ___ visited the museum, and I ___ visit the market tomorrow.",
+    "options": [
+      {
+        "id": "A",
+        "text": "never / will"
+      },
+      {
+        "id": "B",
+        "text": "ever / will"
+      },
+      {
+        "id": "C",
+        "text": "yet / will to"
+      },
+      {
+        "id": "D",
+        "text": "ago / going"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Pengalaman belum pernah memakai never. Rencana besok memakai will atau be going to.",
+    "stepByStep": [
+      "Klausa pertama adalah pengalaman dengan present perfect: have never visited.",
+      "Klausa kedua adalah rencana besok: will visit.",
+      "Ever dalam pernyataan tidak tepat. Yet dan will to tidak tepat. Ago dengan present perfect tidak tepat."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Ever dalam pernyataan negatif tidak tepat. Gunakan never."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Yet dengan have visited di sini tidak tepat, dan will to salah."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "Ago tidak dipakai dengan present perfect, dan going tanpa to be tidak lengkap."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Never dalam pernyataan pengalaman. Will untuk rencana yang baru dibuat.",
+      "examples": [
+        {
+          "en": "I have never tried sushi, but I will try it tomorrow.",
+          "id": "Saya belum pernah mencoba sushi, tetapi saya akan mencobanya besok."
+        },
+        {
+          "en": "She has never flown, and she is going to fly next month.",
+          "id": "Dia belum pernah naik pesawat, dan dia akan naik bulan depan."
+        }
+      ]
+    },
+    "examTrap": "Klausa kedua bukan present perfect. Jangan memakai pola pengalaman untuk rencana masa depan."
+  },
+  {
+    "id": "W03-030",
+    "week": 3,
+    "topicTag": "interleave-minggu-1",
+    "type": "mcq",
+    "difficulty": "hard",
+    "prompt": "You ___ bring your ID card, because it is the school rule. But you ___ bring a bag if you want.",
+    "options": [
+      {
+        "id": "A",
+        "text": "must / may"
+      },
+      {
+        "id": "B",
+        "text": "can / must not"
+      },
+      {
+        "id": "C",
+        "text": "should / don't have to"
+      },
+      {
+        "id": "D",
+        "text": "may / can't"
+      }
+    ],
+    "correct": "A",
+    "explanationId": "Must untuk kewajiban karena aturan sekolah. May untuk pilihan yang diizinkan jika mau.",
+    "stepByStep": [
+      "Kalimat pertama: it is the school rule, yaitu kewajiban, sehingga must.",
+      "Kalimat kedua: if you want, yaitu pilihan yang diizinkan, sehingga may.",
+      "Can't dan must not tidak tepat. Should dan don't have to tidak sesuai dengan aturan wajib."
+    ],
+    "whyOthersWrong": [
+      {
+        "optionId": "B",
+        "reasonId": "Must not berarti dilarang. Kalimat ini tidak melarang membawa tas."
+      },
+      {
+        "optionId": "C",
+        "reasonId": "Should untuk saran, dan don't have to tidak sesuai dengan aturan wajib."
+      },
+      {
+        "optionId": "D",
+        "reasonId": "May untuk izin di kalimat kedua baik, tetapi can't untuk ketidakmampuan tidak sesuai dengan aturan kartu identitas."
+      }
+    ],
+    "ruleAndExamples": {
+      "rule": "Must untuk aturan wajib. May untuk pilihan yang diizinkan.",
+      "examples": [
+        {
+          "en": "Students must wear uniforms.",
+          "id": "Mahasiswa wajib memakai seragam."
+        },
+        {
+          "en": "You may sit anywhere.",
+          "id": "Kamu boleh duduk di mana saja."
+        }
+      ]
+    },
+    "examTrap": "Pilihan B (can / must not) terlihat seperti pasangan yang mirip, tetapi must not berarti dilarang, dan kalimat ini memerlukan kewajiban."
+  }
+]

@@ -1,0 +1,582 @@
+{
+  "day": 15,
+  "week": 3,
+  "month": 1,
+  "title": "Simple Future: will vs be going to",
+  "topic": "Masa depan dengan will (keputusan, janji, prediksi) dan be going to (rencana, bukti sekarang)",
+  "skillFocus": "reading",
+  "objectives": [
+    "Memilih will atau be going to sesuai konteks: keputusan spontan, janji, rencana, atau bukti",
+    "Membuat kalimat negatif dan tanya dengan will dan be going to",
+    "Membaca teks tentang rencana seseorang dan menjawab dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "will", "pronunciationId": "WIL (i pendek, l jelas di akhir)", "pos": "Other", "meaningId": "akan (kata kerja bantu masa depan)", "example": "I will call you tonight.", "exampleId": "Saya akan menelepon kamu malam ini." },
+      { "no": 2, "en": "tomorrow", "pronunciationId": "tu-MOR-oh (tekanan di MOR, o panjang di akhir)", "pos": "Adv", "meaningId": "besok", "example": "We will meet tomorrow.", "exampleId": "Kami akan bertemu besok." },
+      { "no": 3, "en": "plan", "pronunciationId": "PLAN (a pendek, n jelas)", "pos": "Noun", "meaningId": "rencana; merencanakan", "example": "Do you have a plan for the weekend?", "exampleId": "Apakah kamu punya rencana untuk akhir pekan?" },
+      { "no": 4, "en": "promise", "pronunciationId": "PRO-mis (tekanan di PRO, s seperti 's')", "pos": "Noun", "meaningId": "janji", "example": "I make a promise to help you.", "exampleId": "Saya berjanji akan membantu kamu." },
+      { "no": 5, "en": "decide", "pronunciationId": "di-SAID (tekanan di SAID, ai panjang)", "pos": "Verb", "meaningId": "memutuskan", "example": "She will decide tonight.", "exampleId": "Dia akan memutuskan malam ini." },
+      { "no": 6, "en": "future", "pronunciationId": "FYOO-cher (tekanan di FYOO, ch seperti 'c' di 'cek')", "pos": "Noun", "meaningId": "masa depan", "example": "The future looks bright.", "exampleId": "Masa depan terlihat cerah." },
+      { "no": 7, "en": "next", "pronunciationId": "NEKST (e pendek, t di akhir jelas)", "pos": "Adj", "meaningId": "berikutnya", "example": "Our next class is on Friday.", "exampleId": "Kelas kami berikutnya pada hari Jumat." },
+      { "no": 8, "en": "soon", "pronunciationId": "SOON (oo panjang, n di akhir)", "pos": "Adv", "meaningId": "segera, tidak lama lagi", "example": "The bus will come soon.", "exampleId": "Bus akan datang sebentar lagi." },
+      { "no": 9, "en": "prepare", "pronunciationId": "pri-PER (tekanan di PER, e pendek)", "pos": "Verb", "meaningId": "menyiapkan", "example": "We prepare for the exam every day.", "exampleId": "Kami menyiapkan diri untuk ujian setiap hari." },
+      { "no": 10, "en": "hope", "pronunciationId": "HOHP (o panjang, p di akhir)", "pos": "Verb", "meaningId": "berharap", "example": "I hope it will not rain.", "exampleId": "Saya berharap hujan tidak turun." }
+    ],
+    "tip": "Sebelum memilih will atau be going to, tanyakan: apakah ini keputusan baru yang baru saja diambil? Jika ya, pakai will. Jika ini rencana yang sudah dipikirkan, atau ada bukti yang terlihat sekarang, pakai be going to."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["will vs going to English", "future tense English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang membandingkan will dan be going to, dengan contoh keputusan, janji, rencana, dan bukti.",
+      "watchFor": [
+        "Will untuk keputusan spontan dan janji",
+        "Be going to untuk rencana yang sudah dipikirkan dan bukti sekarang",
+        "Bentuk negatif won't dan am not going to"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu sedang di depan pintu toko. Kadang kamu baru saja memutuskan sesuatu, dan kadang kamu sudah lama merencanakannya. Bahasa Inggris membedakan dua situasi itu: will untuk keputusan baru dan janji, be going to untuk rencana dan bukti yang terlihat sekarang.",
+      "sections": [
+        {
+          "heading": "Will untuk keputusan dan janji",
+          "bodyMd": "Gunakan **will** saat kamu baru saja memutuskan sesuatu, berjanji, atau memprediksi berdasarkan perasaan atau pendapat: **The phone is ringing. I will answer it.**, **I promise I will help you.**, **I think it will rain tomorrow.**"
+        },
+        {
+          "heading": "Be going to untuk rencana dan bukti",
+          "bodyMd": "Gunakan **be going to** untuk rencana yang sudah dipikirkan sebelumnya: **We are going to visit our uncle next Sunday.** Gunakan juga untuk prediksi yang didasari bukti sekarang: **Look at those clouds. It is going to rain.**"
+        },
+        {
+          "heading": "Negatif dan tanya",
+          "bodyMd": "Negatif will: **will not** atau **won't** diikuti kata kerja dasar. Negatif be going to: **am/is/are not going to** diikuti kata kerja dasar. Pertanyaan: **Will you come tomorrow?** dan **Are you going to study tonight?**. Kata kerja setelah will atau going to selalu bentuk dasar."
+        }
+      ],
+      "formulas": [
+        { "label": "Will", "pattern": "subjek + will + kata kerja dasar" },
+        { "label": "Be going to", "pattern": "subjek + am / is / are + going to + kata kerja dasar" },
+        { "label": "Negatif", "pattern": "will not (won't) / am / is / are not going to + kata kerja dasar" },
+        { "label": "Tanya", "pattern": "Will + subjek + kata kerja dasar? / Am / Is / Are + subjek + going to + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I will call you later.", "id": "Saya akan menelepon kamu nanti." },
+          { "en": "She is going to study abroad next year.", "id": "Dia akan belajar di luar negeri tahun depan." },
+          { "en": "The sky is dark. It is going to rain.", "id": "Langit gelap. Hujan akan turun." },
+          { "en": "We will help you with the project.", "id": "Kami akan membantu kamu dengan proyek itu." },
+          { "en": "They are going to open a small shop.", "id": "Mereka akan membuka toko kecil." }
+        ],
+        "negative": [
+          { "en": "I won't forget your birthday.", "id": "Saya tidak akan melupakan ulang tahunmu." },
+          { "en": "He is not going to join the trip.", "id": "Dia tidak akan ikut perjalanan itu." },
+          { "en": "We will not be late.", "id": "Kami tidak akan terlambat." },
+          { "en": "They aren't going to win the match.", "id": "Mereka tidak akan memenangkan pertandingan itu." },
+          { "en": "She will not decide today.", "id": "Dia tidak akan memutuskan hari ini." }
+        ],
+        "question": [
+          { "en": "Will you come to the party tomorrow?", "id": "Apakah kamu akan datang ke pesta besok?" },
+          { "en": "Are you going to take the exam next week?", "id": "Apakah kamu akan mengikuti ujian minggu depan?" },
+          { "en": "Is it going to be sunny tomorrow?", "id": "Apakah besok akan cerah?" },
+          { "en": "Will she call us tonight?", "id": "Apakah dia akan menelepon kami malam ini?" },
+          { "en": "Are they going to move to Bandung?", "id": "Apakah mereka akan pindah ke Bandung?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I will to visit my grandmother.", "right": "I will visit my grandmother.", "whyId": "Setelah will, kata kerja langsung bentuk dasar tanpa to." },
+        { "wrong": "She is going visit her friend.", "right": "She is going to visit her friend.", "whyId": "Be going to harus diikuti to sebelum kata kerja." },
+        { "wrong": "They will going to study.", "right": "They are going to study.", "whyId": "Will dan going to tidak dipakai bersama. Pilih salah satu." },
+        { "wrong": "Will you going to come?", "right": "Are you going to come?", "whyId": "Pertanyaan be going to memakai am, is, atau are di depan subjek." },
+        { "wrong": "I am going to buy a cake, but it is decided just now.", "right": "I will buy a cake, because I decided just now.", "whyId": "Keputusan yang baru diambil memakai will." },
+        { "wrong": "I won't to go.", "right": "I won't go.", "whyId": "Setelah won't, tidak ada to." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Rencana Maya",
+    "text": "Maya has a busy week ahead. Tomorrow she will visit her grandmother in the village. She made a promise to bring fresh vegetables for dinner. Her brother has a plan to study for the English exam next week, so he will stay at the library every afternoon. Maya will decide to help him, because she hopes he will pass the test soon. Later, they will prepare a short presentation about their future jobs. Maya says she is going to be a teacher, and her brother will become an engineer. Their parents hope they will be happy in the future, whatever they choose.",
+    "glossary": [
+      { "en": "ahead", "id": "ke depan, yang akan datang" },
+      { "en": "village", "id": "desa" },
+      { "en": "presentation", "id": "presentasi" },
+      { "en": "whatever", "id": "apa pun" },
+      { "en": "engineer", "id": "insinyur" },
+      { "en": "vegetables", "id": "sayuran" },
+      { "en": "pass", "id": "lulus" },
+      { "en": "choose", "id": "memilih" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What will Maya do tomorrow?",
+        "options": [
+          { "id": "A", "text": "visit her grandmother in the village" },
+          { "id": "B", "text": "study at the library" },
+          { "id": "C", "text": "prepare a presentation" },
+          { "id": "D", "text": "go to the market" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Tomorrow she will visit her grandmother in the village', artinya Maya akan mengunjungi neneknya besok.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Belajar di perpustakaan adalah rencana adiknya, bukan Maya besok." },
+          { "optionId": "C", "reasonId": "Presentasi disiapkan bersama nanti, tanpa tanggal tertentu. Bukan kegiatan besok." },
+          { "optionId": "D", "reasonId": "Pasar tidak disebut dalam teks." }
+        ],
+        "evidence": "Tomorrow she will visit her grandmother in the village."
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "Where will her brother stay every afternoon?",
+        "options": [
+          { "id": "A", "text": "at the library" },
+          { "id": "B", "text": "at home" },
+          { "id": "C", "text": "in the village" },
+          { "id": "D", "text": "at school" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'he will stay at the library every afternoon'.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Rumah tidak disebut sebagai tempat belajar adiknya." },
+          { "optionId": "C", "reasonId": "Desa adalah tempat nenek Maya, bukan tempat adiknya setiap sore." },
+          { "optionId": "D", "reasonId": "Sekolah tidak disebut dalam teks." }
+        ],
+        "evidence": "he will stay at the library every afternoon"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What does Maya plan to become?",
+        "options": [
+          { "id": "A", "text": "an engineer" },
+          { "id": "B", "text": "a doctor" },
+          { "id": "C", "text": "a teacher" },
+          { "id": "D", "text": "a cook" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Maya berkata 'she is going to be a teacher'. Be going to menunjukkan rencana yang sudah dipikirkan.",
+        "stepByStep": [
+          "Cari kata going to di teks: 'Maya says she is going to be a teacher.'",
+          "Be going to menandakan rencana Maya sendiri, bukan kepastian yang baru diputuskan.",
+          "Engineer adalah rencana adiknya. Doctor dan cook tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Insinyur adalah rencana adiknya, bukan Maya." },
+          { "optionId": "B", "reasonId": "Dokter tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Juru masak tidak disebut dalam teks." }
+        ],
+        "evidence": "she is going to be a teacher"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What did Maya make a promise about?",
+        "options": [
+          { "id": "A", "text": "to study English" },
+          { "id": "B", "text": "to buy a car" },
+          { "id": "C", "text": "to bring fresh vegetables for dinner" },
+          { "id": "D", "text": "to call her parents" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'She made a promise to bring fresh vegetables for dinner', artinya Maya berjanji membawa sayuran segar untuk makan malam.",
+        "stepByStep": [
+          "Cari kata promise di teks. Kalimatnya: 'She made a promise to bring fresh vegetables for dinner.'",
+          "Janji adalah keputusan yang mengikat. Objek janji adalah membawa sayuran untuk makan malam.",
+          "Belajar bahasa Inggris adalah rencana adiknya. Mobil dan orang tua tidak disebut dalam janji Maya."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Belajar bahasa Inggris adalah rencana adiknya, bukan janji Maya." },
+          { "optionId": "B", "reasonId": "Membeli mobil tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Menelepon orang tua tidak disebut dalam teks." }
+        ],
+        "evidence": "She made a promise to bring fresh vegetables for dinner."
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "Which statement about the brother's future is best supported by the text?",
+        "options": [
+          { "id": "A", "text": "He is certain to pass the exam." },
+          { "id": "B", "text": "He already has a job as an engineer." },
+          { "id": "C", "text": "He has decided to stop studying English." },
+          { "id": "D", "text": "According to Maya, he will become an engineer." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Teks menulis 'Maya says her brother will become an engineer'. Itu pendapat Maya tentang masa depan adiknya.",
+        "stepByStep": [
+          "Cari kata engineer di teks: 'her brother will become an engineer'.",
+          "Kalimat ini didahului 'Maya says', sehingga itu pernyataan Maya tentang adiknya.",
+          "Teks menulis 'Her parents hope' untuk kelulusan, bukan kepastian. Pilihan A terlalu kuat. Pilihan B dan C tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks hanya menyebut harapan (hopes he will pass). Kepastian tidak disebut." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut pekerjaan saat ini. Engineer adalah masa depan, bukan sekarang." },
+          { "optionId": "C", "reasonId": "Teks menyatakan adiknya akan belajar di perpustakaan, bukan berhenti belajar." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Will untuk prediksi atau pendapat orang lain menunjukkan masa depan, bukan kepastian. Untuk kepastian, cek bukti dan siapa yang berbicara.",
+          "examples": [
+            { "en": "My mother says I will be happy in the future.", "id": "Ibu saya bilang saya akan bahagia di masa depan." },
+            { "en": "I think he will pass the test.", "id": "Saya rasa dia akan lulus tes itu." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah membaca will sebagai kepastian. Kalimat ini membawa sumber pendapat (Maya says), dan harapan orang tua (hope) bukan kepastian.",
+        "evidence": "her brother will become an engineer"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I think it ___ rain tomorrow.",
+        "options": [
+          { "id": "A", "text": "is going to" },
+          { "id": "B", "text": "will" },
+          { "id": "C", "text": "is will" },
+          { "id": "D", "text": "will to" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "I think menunjukkan prediksi berdasarkan pendapat, sehingga memakai will.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Be going to untuk prediksi berdasarkan bukti yang terlihat sekarang. I think menunjukkan pendapat, bukan bukti." },
+          { "optionId": "C", "reasonId": "Is will tidak benar. Will tidak memakai to be." },
+          { "optionId": "D", "reasonId": "Will to tidak benar. Setelah will, langsung kata kerja dasar." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "We ___ visit our uncle next Sunday. We have already bought the tickets.",
+        "options": [
+          { "id": "A", "text": "will" },
+          { "id": "B", "text": "are going to" },
+          { "id": "C", "text": "were going" },
+          { "id": "D", "text": "going" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Kalimat kedua menunjukkan rencana yang sudah dipersiapkan (sudah membeli tiket), sehingga be going to.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will menunjukkan keputusan baru. Tiket yang sudah dibeli menunjukkan rencana yang sudah ada." },
+          { "optionId": "C", "reasonId": "Were going adalah bentuk lampau, sedangkan rencananya untuk masa depan." },
+          { "optionId": "D", "reasonId": "Going tanpa to be tidak membentuk kalimat yang lengkap." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She will to visit the museum." },
+          { "id": "B", "text": "She will visits the museum." },
+          { "id": "C", "text": "She will visit the museum." },
+          { "id": "D", "text": "She will visiting the museum." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Setelah will, kata kerja selalu bentuk dasar: visit.",
+        "stepByStep": [
+          "Cek kata kerja setelah will. Harus bentuk dasar, tanpa to, tanpa -s, dan tanpa -ing.",
+          "Visit adalah bentuk dasar yang benar.",
+          "Pilihan A menambahkan to. Pilihan B menambahkan -s. Pilihan D menambahkan -ing."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah will tidak ada to." },
+          { "optionId": "B", "reasonId": "Setelah will tidak ada -s." },
+          { "optionId": "D", "reasonId": "Setelah will tidak ada -ing." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "The phone is ringing. I ___ answer it.",
+        "options": [
+          { "id": "A", "text": "am going to" },
+          { "id": "B", "text": "will" },
+          { "id": "C", "text": "going to" },
+          { "id": "D", "text": "will to" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Keputusan yang diambil saat itu juga (spontan) memakai will.",
+        "stepByStep": [
+          "Cek konteks: telepon berdering sekarang, dan keputusan untuk menjawab baru dibuat saat itu.",
+          "Keputusan spontan memakai will.",
+          "Am going to menunjukkan rencana yang sudah ada sebelumnya. Going to tanpa to be dan will to tidak benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Am going to menunjukkan rencana yang sudah dibuat sebelumnya, bukan keputusan spontan." },
+          { "optionId": "C", "reasonId": "Going to tanpa to be tidak membentuk kalimat yang lengkap." },
+          { "optionId": "D", "reasonId": "Will to tidak benar. Setelah will langsung kata kerja dasar." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Be careful! The glass ___ fall off the table.",
+        "options": [
+          { "id": "A", "text": "will" },
+          { "id": "B", "text": "is going to" },
+          { "id": "C", "text": "will going to" },
+          { "id": "D", "text": "going to will" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Gelas sudah berada di pinggir meja, dan bahayanya terlihat sekarang. Itu bukti yang terlihat, sehingga be going to.",
+        "stepByStep": [
+          "Cek bukti: gelas sudah di pinggir meja dan terlihat akan jatuh.",
+          "Prediksi berdasarkan bukti yang terlihat sekarang memakai be going to.",
+          "Will dapat dipakai untuk prediksi umum, tetapi di sini bukti sudah ada. Will going to dan going to will tidak benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Will untuk prediksi umum atau keputusan. Di sini ada bukti yang terlihat, sehingga going to lebih tepat." },
+          { "optionId": "C", "reasonId": "Will going to tidak benar. Pilih will atau going to, bukan keduanya." },
+          { "optionId": "D", "reasonId": "Going to will tidak benar. Kata will tidak dipakai setelah going to." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Be going to dipakai untuk prediksi yang didasari bukti yang terlihat atau dirasakan sekarang. Will dipakai untuk pendapat, janji, atau keputusan baru.",
+          "examples": [
+            { "en": "Look at the dark clouds. It is going to rain.", "id": "Lihat awan gelap itu. Hujan akan turun." },
+            { "en": "I think it will be a good day.", "id": "Saya rasa hari ini akan menjadi hari yang baik." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah prediksi. Will juga bisa dipakai untuk prediksi, tetapi ketika bukti sudah terlihat, be going to lebih tepat."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Besok saya akan pergi ke pasar.",
+        "hint": "Besok: tomorrow. Keputusan atau janji: will.",
+        "acceptedAnswers": ["I will go to the market tomorrow.", "I'll go to the market tomorrow."],
+        "modelAnswer": "I will go to the market tomorrow.",
+        "commonErrors": [{ "pattern": "I will to go to the market", "feedbackId": "Setelah will, tidak ada to." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami akan belajar bersama minggu depan.",
+        "hint": "Ini rencana yang sudah dibuat: be going to. Minggu depan: next week.",
+        "acceptedAnswers": ["We are going to study together next week.", "We're going to study together next week."],
+        "modelAnswer": "We are going to study together next week.",
+        "commonErrors": [{ "pattern": "We will going to study", "feedbackId": "Will dan going to tidak dipakai bersama." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya berjanji akan membantu kamu.",
+        "hint": "Janji memakai will. Membantu: help.",
+        "acceptedAnswers": ["I promise I will help you.", "I promise that I will help you."],
+        "modelAnswer": "I promise I will help you.",
+        "commonErrors": [{ "pattern": "I promise I am going to help you", "feedbackId": "Janji memakai will." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dia akan menjadi dokter di masa depan, jadi dia harus belajar keras setiap hari.",
+        "hint": "Akan menjadi: will become. Harus: must. Belajar keras setiap hari: study hard every day.",
+        "acceptedAnswers": [
+          "She will become a doctor in the future, so she must study hard every day.",
+          "She will become a doctor in the future so she must study hard every day."
+        ],
+        "modelAnswer": "She will become a doctor in the future, so she must study hard every day.",
+        "commonErrors": [
+          { "pattern": "She is going to becomes a doctor", "feedbackId": "Setelah going to, kata kerja bentuk dasar: become." },
+          { "pattern": "she must studies hard", "feedbackId": "Setelah must, kata kerja bentuk dasar: study." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya belum memutuskan, tetapi saya berharap kami akan pergi ke gunung musim depan.",
+        "hint": "Belum memutuskan: have not decided yet. Berharap: hope. Musim depan: next season.",
+        "acceptedAnswers": [
+          "I have not decided yet, but I hope we will go to the mountain next season.",
+          "I haven't decided yet, but I hope we will go to the mountain next season."
+        ],
+        "modelAnswer": "I have not decided yet, but I hope we will go to the mountain next season.",
+        "commonErrors": [
+          { "pattern": "I hope we are going to the mountain", "feedbackId": "Harapan untuk masa depan memakai will, dan bukan kepastian rencana." },
+          { "pattern": "I not decide yet", "feedbackId": "Belum memutuskan memakai have not decided yet." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct form: 'I think the weather ___ nice tomorrow.'",
+        "options": [
+          { "id": "A", "text": "is going to be" },
+          { "id": "B", "text": "will be" },
+          { "id": "C", "text": "will be going" },
+          { "id": "D", "text": "be" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "I think menyatakan pendapat, dan pendapat tentang masa depan memakai will.",
+        "stepByStep": [
+          "Cek penanda: I think menunjukkan pendapat tentang masa depan.",
+          "Pendapat tentang masa depan memakai will be.",
+          "Is going to be dipakai untuk prediksi yang didasari bukti, bukan pendapat. Will be going dan be tidak tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Be going to dipakai dengan bukti yang terlihat, bukan dengan pendapat I think." },
+          { "optionId": "C", "reasonId": "Will be going tidak benar. Pilih will be atau going to be, bukan keduanya." },
+          { "optionId": "D", "reasonId": "Be tanpa will atau going to tidak membentuk kalimat masa depan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "I think + will untuk pendapat tentang masa depan. Be going to untuk bukti yang terlihat sekarang.",
+          "examples": [
+            { "en": "I think she will pass the test.", "id": "Saya rasa dia akan lulus tes." },
+            { "en": "Look at her face. She is going to cry.", "id": "Lihat wajahnya. Dia akan menangis." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena be going to sering dipakai untuk prediksi. Tetapi I think menunjukkan pendapat, sehingga will."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "She is will to come." },
+          { "id": "B", "text": "She will to come." },
+          { "id": "C", "text": "She will come." },
+          { "id": "D", "text": "She will coming." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Setelah will, kata kerja bentuk dasar tanpa to dan tanpa -ing.",
+        "stepByStep": [
+          "Kata kerja setelah will harus bentuk dasar: come.",
+          "Pilihan A memakai is will, yang tidak benar. Pilihan B menambahkan to.",
+          "Pilihan D menambahkan -ing setelah will."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Is will tidak benar. Will tidak memakai to be." },
+          { "optionId": "B", "reasonId": "Setelah will tidak ada to." },
+          { "optionId": "D", "reasonId": "Setelah will tidak ada -ing." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Will selalu diikuti kata kerja dasar, tanpa to, tanpa -s, dan tanpa -ing.",
+          "examples": [
+            { "en": "They will leave soon.", "id": "Mereka akan pergi sebentar lagi." },
+            { "en": "We will eat dinner at seven.", "id": "Kami akan makan malam pukul tujuh." }
+          ]
+        },
+        "examTrap": "Pilihan A terasa seperti kalimat dengan to be yang biasa. Ingat, will sudah berdiri sendiri sebagai kata kerja bantu."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "Look! The sky ___ dark, and it ___ to rain soon.",
+        "options": [
+          { "id": "A", "text": "is getting / is going" },
+          { "id": "B", "text": "gets / is going" },
+          { "id": "C", "text": "is getting / will" },
+          { "id": "D", "text": "get / will" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Look! menunjukkan aksi sekarang: is getting. Bukti yang terlihat untuk hujan memakai be going to: is going to.",
+        "stepByStep": [
+          "Look! menandakan present continuous: is getting dark.",
+          "Hujan diprediksi berdasarkan bukti yang terlihat sekarang, sehingga is going to rain.",
+          "Pilihan B memakai gets dan will pada pilihan C tidak sesuai dengan bukti yang terlihat. Pilihan D memakai bentuk sederhana yang salah untuk sky tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Gets adalah bentuk sederhana, tidak cocok dengan Look! yang menunjukkan aksi sekarang." },
+          { "optionId": "C", "reasonId": "Will untuk prediksi berdasarkan bukti yang terlihat kurang tepat. Gunakan going to." },
+          { "optionId": "D", "reasonId": "Get tidak cocok dengan subjek the sky yang tunggal, dan will tidak cocok dengan bukti yang terlihat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Look! menandakan present continuous. Prediksi berdasarkan bukti sekarang memakai be going to.",
+          "examples": [
+            { "en": "Look! The baby is crying. She is going to need help.", "id": "Lihat! Bayi itu menangis. Dia akan membutuhkan bantuan." },
+            { "en": "Listen! The music is starting. We are going to dance.", "id": "Dengar! Musiknya mulai. Kami akan menari." }
+          ]
+        },
+        "examTrap": "Pilihan C mengandung is getting yang benar, tetapi will salah untuk bukti yang terlihat. Cek kedua klausa."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Last year I ___ to Bali, and next year I ___ to Japan.",
+        "options": [
+          { "id": "A", "text": "went / will go" },
+          { "id": "B", "text": "go / will went" },
+          { "id": "C", "text": "went / am going to going" },
+          { "id": "D", "text": "gone / will go" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Last year menandakan masa lalu: went. Next year menandakan masa depan: will go.",
+        "stepByStep": [
+          "Last year menandakan simple past: went dari go.",
+          "Next year menandakan masa depan: will go dengan kata kerja dasar.",
+          "Pilihan B memakai will went, yang salah. Pilihan C memakai going dua kali. Pilihan D memakai gone tanpa have."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Go untuk masa lalu salah, dan will went tidak benar." },
+          { "optionId": "C", "reasonId": "Am going to going salah. Setelah going to, kata kerja dasar." },
+          { "optionId": "D", "reasonId": "Gone membutuhkan have, dan will go tidak memerlukan gone." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Penanda masa lalu (last year) memakai simple past. Penanda masa depan (next year) memakai will atau be going to.",
+          "examples": [
+            { "en": "I visited Singapore last month, and I will visit Malaysia next month.", "id": "Saya mengunjungi Singapura bulan lalu, dan saya akan mengunjungi Malaysia bulan depan." },
+            { "en": "We went to the beach yesterday, and we are going to go again tomorrow.", "id": "Kami pergi ke pantai kemarin, dan kami akan pergi lagi besok." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat sederhana, tetapi cek setiap klausa: masa lalu dan masa depan harus memakai bentuk yang berbeda."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I'm going to buying a new bag." },
+          { "id": "B", "text": "I'm going to buy a new bag." },
+          { "id": "C", "text": "I am goes to buy a new bag." },
+          { "id": "D", "text": "I will buys a new bag." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah going to, kata kerja bentuk dasar: buy. I'm adalah I am.",
+        "stepByStep": [
+          "Subjek I memakai am, yang disingkat I'm.",
+          "Setelah going to, kata kerja harus bentuk dasar buy.",
+          "Pilihan A memakai -ing setelah going to. Pilihan C memakai goes. Pilihan D memakai buys setelah will."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah going to, kata kerja harus dasar, bukan -ing." },
+          { "optionId": "C", "reasonId": "Setelah am, kata kerja going to tetap, dan goes tidak cocok untuk subjek I." },
+          { "optionId": "D", "reasonId": "Setelah will, kata kerja harus dasar, bukan buys." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah will atau going to, kata kerja selalu bentuk dasar.",
+          "examples": [
+            { "en": "I'm going to read the book tonight.", "id": "Saya akan membaca buku itu malam ini." },
+            { "en": "She will travel next week.", "id": "Dia akan bepergian minggu depan." }
+          ]
+        },
+        "examTrap": "Pilihan A memakai -ing, yang terlihat seperti bentuk progresif. Setelah going to, yang dipakai adalah bentuk dasar."
+      }
+    ]
+  }
+}

@@ -1,0 +1,599 @@
+{
+  "day": 18,
+  "week": 3,
+  "month": 1,
+  "title": "Simple Past vs Present Perfect",
+  "topic": "Membedakan simple past untuk kejadian dengan waktu selesai dan present perfect untuk pengalaman, serta penanda since, for, yet, still, just, ever, never, dan before",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memilih simple past atau present perfect sesuai penanda waktu",
+    "Memakai since untuk titik waktu dan for untuk durasi",
+    "Memahami percakapan tentang tugas dan pengalaman, lalu menjawab dengan bukti dari naskah"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "since", "pronunciationId": "SINS (i pendek, s di akhir jelas)", "pos": "Prep", "meaningId": "sejak", "example": "I have lived here since 2020.", "exampleId": "Saya tinggal di sini sejak 2020." },
+      { "no": 2, "en": "for", "pronunciationId": "FOR (o panjang, r ringan)", "pos": "Prep", "meaningId": "selama (durasi)", "example": "She has worked here for five years.", "exampleId": "Dia sudah bekerja di sini selama lima tahun." },
+      { "no": 3, "en": "yet", "pronunciationId": "YET (e pendek, t di akhir jelas)", "pos": "Adv", "meaningId": "sudah (dalam pertanyaan) atau belum (dalam negatif)", "example": "Have you finished yet?", "exampleId": "Apakah kamu sudah selesai?" },
+      { "no": 4, "en": "still", "pronunciationId": "STIL (i pendek, l jelas)", "pos": "Adv", "meaningId": "masih", "example": "I am still working on it.", "exampleId": "Saya masih mengerjakannya." },
+      { "no": 5, "en": "recently", "pronunciationId": "REE-sent-li (tekanan di REE)", "pos": "Adv", "meaningId": "baru-baru ini", "example": "I have seen him recently.", "exampleId": "Saya baru-baru ini melihatnya." },
+      { "no": 6, "en": "lately", "pronunciationId": "LEIT-li (ai panjang, t di tengah)", "pos": "Adv", "meaningId": "akhir-akhir ini", "example": "She has been busy lately.", "exampleId": "Dia sibuk akhir-akhir ini." },
+      { "no": 7, "en": "ever", "pronunciationId": "E-ver (e pendek, r ringan)", "pos": "Adv", "meaningId": "pernah (dalam pertanyaan)", "example": "Have you ever tried durian?", "exampleId": "Apakah kamu pernah mencoba durian?" },
+      { "no": 8, "en": "never", "pronunciationId": "NE-ver (e pendek, r ringan)", "pos": "Adv", "meaningId": "tidak pernah", "example": "I have never been to Japan.", "exampleId": "Saya belum pernah pergi ke Jepang." },
+      { "no": 9, "en": "just", "pronunciationId": "JUST (u pendek, st di akhir)", "pos": "Adv", "meaningId": "baru saja", "example": "He has just arrived.", "exampleId": "Dia baru saja tiba." },
+      { "no": 10, "en": "before", "pronunciationId": "bi-FOR (tekanan di FOR)", "pos": "Adv", "meaningId": "sebelumnya, pernah sebelumnya", "example": "I have seen this movie before.", "exampleId": "Saya pernah menonton film ini sebelumnya." }
+    ],
+    "tip": "Cari penanda waktu dulu. Jika ada yesterday, last year, atau at six, gunakan simple past. Jika ada since, for, yet, just, ever, atau never, gunakan present perfect. Penanda ini hampir selalu menentukan pilihan yang benar."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["present perfect vs simple past English", "present perfect time words"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang membandingkan simple past dan present perfect, dengan contoh since, for, yet, dan just.",
+      "watchFor": [
+        "Perbedaan since untuk titik waktu dan for untuk durasi",
+        "Yet dalam negatif dan pertanyaan present perfect",
+        "Just dan already untuk kejadian yang baru saja terjadi"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan dua jenis cerita. Cerita pertama bilang 'Saya pergi ke pasar kemarin pagi'. Cerita kedua bilang 'Saya sudah beberapa kali pergi ke pasar'. Yang pertama punya waktu selesai yang jelas, yang kedua menceritakan pengalaman. Pilihan bentuk kata kerja mengikuti jenis cerita itu.",
+      "sections": [
+        {
+          "heading": "Simple past untuk waktu yang selesai",
+          "bodyMd": "Gunakan **simple past** jika ada penanda waktu yang sudah selesai: **yesterday**, **last week**, **in 2019**, **two days ago**. Contoh: **I visited Bali in 2019.** Jangan pakai present perfect dengan penanda ini."
+        },
+        {
+          "heading": "Present perfect untuk pengalaman dan rentang waktu",
+          "bodyMd": "Gunakan **present perfect** untuk pengalaman tanpa waktu yang jelas, atau untuk kejadian yang dimulai di masa lalu dan masih berlangsung. **Since** diikuti titik waktu: **since 2020**, **since Monday**. **For** diikuti durasi: **for three years**, **for a long time**."
+        },
+        {
+          "heading": "Yet, still, just, already, ever, never",
+          "bodyMd": "**Yet** dipakai di pertanyaan dan negatif: **Have you finished yet?**, **I have not finished yet**. **Still** untuk sesuatu yang masih berlangsung: **I am still working.** **Just** untuk kejadian yang baru saja terjadi: **I have just finished.** **Ever** dalam pertanyaan pengalaman, **never** dalam pernyataan: **Have you ever been to Bali?** dan **I have never been there.**"
+        }
+      ],
+      "formulas": [
+        { "label": "Simple past", "pattern": "subjek + V2 + penanda selesai (yesterday, last week, in 2019)" },
+        { "label": "Present perfect", "pattern": "subjek + have/has + V3 + penanda (since, for, yet, just, ever, never)" },
+        { "label": "Since dan for", "pattern": "since + titik waktu (since 2020) / for + durasi (for two hours)" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I have lived here since 2020.", "id": "Saya tinggal di sini sejak 2020." },
+          { "en": "She has been busy for a week.", "id": "Dia sibuk selama seminggu." },
+          { "en": "He has just arrived at the station.", "id": "Dia baru saja tiba di stasiun." },
+          { "en": "We visited our grandparents last weekend.", "id": "Kami mengunjungi kakek nenek kami akhir pekan lalu." },
+          { "en": "They have never eaten durian.", "id": "Mereka belum pernah makan durian." }
+        ],
+        "negative": [
+          { "en": "I have not finished the report yet.", "id": "Saya belum menyelesaikan laporannya." },
+          { "en": "She didn't call me yesterday.", "id": "Dia tidak menelepon saya kemarin." },
+          { "en": "We haven't seen him since Monday.", "id": "Kami belum melihatnya sejak hari Senin." },
+          { "en": "He has never been to Europe.", "id": "Dia belum pernah pergi ke Eropa." },
+          { "en": "I did not know the answer last night.", "id": "Saya tidak tahu jawabannya tadi malam." }
+        ],
+        "question": [
+          { "en": "Have you finished yet?", "id": "Apakah kamu sudah selesai?" },
+          { "en": "Did you finish it last night?", "id": "Apakah kamu menyelesaikannya tadi malam?" },
+          { "en": "Have you ever tried durian?", "id": "Apakah kamu pernah mencoba durian?" },
+          { "en": "How long have you lived here?", "id": "Sudah berapa lama kamu tinggal di sini?" },
+          { "en": "When did you move here?", "id": "Kapan kamu pindah ke sini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I have visited Bali last year.", "right": "I visited Bali last year.", "whyId": "Last year adalah penanda waktu yang selesai, jadi simple past." },
+        { "wrong": "She has lived here since three years.", "right": "She has lived here for three years.", "whyId": "Three years adalah durasi, jadi for. Since untuk titik waktu." },
+        { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "whyId": "Yesterday menuntut simple past, bukan present perfect." },
+        { "wrong": "Have you finish yet?", "right": "Have you finished yet?", "whyId": "Setelah have, gunakan V3: finished." },
+        { "wrong": "I haven't seen him for Monday.", "right": "I haven't seen him since Monday.", "whyId": "Monday adalah titik waktu, jadi since." },
+        { "wrong": "Did you ever tried durian?", "right": "Have you ever tried durian?", "whyId": "Pertanyaan pengalaman dengan ever memakai have + V3." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["present perfect vs simple past English", "present perfect time words"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Yet, still, dan since dalam percakapan tugas",
+        "Perbedaan just dan the last time dalam cerita"
+      ]
+    },
+    "script": {
+      "title": "Laporan yang belum selesai",
+      "lines": [
+        { "speaker": "Sari", "text": "Hi Doni, have you finished the report yet?" },
+        { "speaker": "Doni", "text": "Not yet. I am still writing the conclusion." },
+        { "speaker": "Sari", "text": "Have you ever written a report this long before?" },
+        { "speaker": "Doni", "text": "No, I have never written one this long. I have worked on it for three days." },
+        { "speaker": "Sari", "text": "Since when have you been working on it?" },
+        { "speaker": "Doni", "text": "Since Monday. I just finished the data section this morning." },
+        { "speaker": "Sari", "text": "You have been busy lately. Did you see the new lecturer recently?" },
+        { "speaker": "Doni", "text": "Yes, I met him last Tuesday. He was very helpful." },
+        { "speaker": "Sari", "text": "Great. Did he give you a deadline?" },
+        { "speaker": "Doni", "text": "Yes, but he changed it. Yesterday he sent an email." },
+        { "speaker": "Sari", "text": "Oh, so when is the new deadline?" },
+        { "speaker": "Doni", "text": "It is Friday, so I have to finish before the weekend." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada have you finished yet, naikkan nada di akhir karena ini pertanyaan. Yet diucapkan pendek.",
+      "Pada I have worked, bunyi have diperlemah. Hubungkan dengan worked untuk kalimat yang mengalir.",
+      "Pada last Tuesday dan yesterday, tekankan bunyi last dan yes. Bandingkan dengan have yang tidak memakai penanda selesai."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Has Doni finished the report?",
+        "options": [
+          { "id": "A", "text": "Yes, he has finished it." },
+          { "id": "B", "text": "No, he has not finished it yet." },
+          { "id": "C", "text": "Yes, he finished it yesterday." },
+          { "id": "D", "text": "He has not started it." }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Doni menjawab 'Not yet. I am still writing the conclusion', artinya laporannya belum selesai.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Doni menjawab 'Not yet', jadi jawabannya tidak." },
+          { "optionId": "C", "reasonId": "Doni tidak mengatakan sudah selesai kemarin." },
+          { "optionId": "D", "reasonId": "Doni sedang menulis kesimpulan, jadi laporan sudah dimulai." }
+        ],
+        "evidence": "Not yet. I am still writing the conclusion."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "How long has Doni been working on the report?",
+        "options": [
+          { "id": "A", "text": "for three days" },
+          { "id": "B", "text": "since Friday" },
+          { "id": "C", "text": "for two weeks" },
+          { "id": "D", "text": "all morning" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Doni berkata 'I have worked on it for three days', artinya selama tiga hari.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Doni mengatakan sejak Senin (since Monday), bukan sejak Jumat." },
+          { "optionId": "C", "reasonId": "Dua minggu tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Sepanjang pagi merujuk pada bagian data, bukan total durasi pengerjaan." }
+        ],
+        "evidence": "I have worked on it for three days."
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "When did Doni meet the new lecturer?",
+        "options": [
+          { "id": "A", "text": "this morning" },
+          { "id": "B", "text": "yesterday" },
+          { "id": "C", "text": "last Tuesday" },
+          { "id": "D", "text": "on Friday" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Doni berkata 'I met him last Tuesday', artinya ia bertemu dengan dosen itu hari Selasa lalu.",
+        "stepByStep": [
+          "Cari met di naskah: 'Yes, I met him last Tuesday.'",
+          "Last Tuesday adalah penanda waktu yang sudah selesai, sehingga memakai simple past: met.",
+          "Yesterday adalah waktu Doni mengirim, tidak sama dengan waktu bertemu. Pagi ini dan Jumat tidak disebut untuk pertemuan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Pagi ini adalah waktu Doni menyelesaikan bagian data." },
+          { "optionId": "B", "reasonId": "Kemarin adalah waktu dosen mengirim email, bukan waktu pertemuan." },
+          { "optionId": "D", "reasonId": "Jumat adalah tenggat waktu baru." }
+        ],
+        "evidence": "I met him last Tuesday."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "When is the new deadline?",
+        "options": [
+          { "id": "A", "text": "on Monday" },
+          { "id": "B", "text": "next week" },
+          { "id": "C", "text": "yesterday" },
+          { "id": "D", "text": "on Friday" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Doni berkata 'It is Friday', artinya tenggat waktu baru adalah hari Jumat.",
+        "stepByStep": [
+          "Cari deadline di naskah. Sari bertanya 'when is the new deadline?' dan Doni menjawab 'It is Friday'.",
+          "Hari Jumat adalah tenggat waktu baru.",
+          "Senin dan minggu depan tidak disebut. Kemarin adalah waktu dosen mengirim email, bukan tenggat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Senin tidak disebut sebagai tenggat." },
+          { "optionId": "B", "reasonId": "Minggu depan tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Kemarin adalah waktu dosen mengirim email, bukan tenggat." }
+        ],
+        "evidence": "It is Friday"
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What is the main reason Doni feels pressure?",
+        "options": [
+          { "id": "A", "text": "He has never written a report before." },
+          { "id": "B", "text": "He lost the data yesterday." },
+          { "id": "C", "text": "The lecturer changed the deadline, and he has to finish before the weekend." },
+          { "id": "D", "text": "He just started the report this morning." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Dosen mengubah tenggat (he changed it), dan Doni harus selesai sebelum akhir pekan (I have to finish before the weekend).",
+        "stepByStep": [
+          "Cari alasan tekanan: 'Yes, but he changed it.' Dan 'I have to finish before the weekend.'",
+          "Dua kalimat ini menunjukkan penyebab dan kewajiban: tenggat berubah dan harus selesai sebelum akhir pekan.",
+          "Pilihan A benar secara fakta (Doni belum pernah menulis laporan sepanjang itu), tetapi bukan alasan tekanan. Pilihan B dan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ia memang belum pernah menulis laporan sepanjang itu, tetapi itu bukan alasan tekanan utama." },
+          { "optionId": "B", "reasonId": "Data tidak hilang. Doni baru saja menyelesaikan bagian data." },
+          { "optionId": "D", "reasonId": "Doni sudah mengerjakan laporan sejak Senin, bukan baru pagi ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Present perfect menjelaskan pengerjaan yang masih berlangsung dari masa lalu sampai sekarang, dan simple past menjelaskan kejadian yang sudah selesai.",
+          "examples": [
+            { "en": "I have worked on it since Monday, and I finished the first part yesterday.", "id": "Saya sudah mengerjakannya sejak Senin, dan saya menyelesaikan bagian pertama kemarin." },
+            { "en": "She has been tired lately, and she cancelled the trip last week.", "id": "Dia lelah akhir-akhir ini, dan dia membatalkan perjalanan minggu lalu." }
+          ]
+        },
+        "examTrap": "Pilihan A memakai kalimat yang benar dari teks, tetapi itu bukan alasan tekanan. Jangan memilih jawaban yang benar secara fakta tetapi tidak menjawab pertanyaan.",
+        "evidence": "I have to finish before the weekend."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I ___ Bali in 2019.",
+        "options": [
+          { "id": "A", "text": "have visited" },
+          { "id": "B", "text": "visited" },
+          { "id": "C", "text": "visit" },
+          { "id": "D", "text": "visiting" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "In 2019 adalah penanda waktu yang sudah selesai, sehingga simple past: visited.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Present perfect tidak dipakai dengan penanda waktu selesai seperti in 2019." },
+          { "optionId": "C", "reasonId": "Visit adalah bentuk dasar, tidak cocok untuk kejadian lampau." },
+          { "optionId": "D", "reasonId": "Visiting adalah bentuk -ing, tidak cocok sebagai kata kerja utama di sini." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She has been busy ___ Monday.",
+        "options": [
+          { "id": "A", "text": "for" },
+          { "id": "B", "text": "since" },
+          { "id": "C", "text": "ago" },
+          { "id": "D", "text": "yet" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Monday adalah titik waktu awal, sehingga memakai since.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "For diikuti durasi, bukan nama hari." },
+          { "optionId": "C", "reasonId": "Ago berarti yang lalu, dan biasanya dipakai dengan simple past." },
+          { "optionId": "D", "reasonId": "Yet dipakai untuk pertanyaan atau negatif, bukan titik waktu." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I have seen him yesterday." },
+          { "id": "B", "text": "I saw him yesterday." },
+          { "id": "C", "text": "I have seen him yesterday, did I?" },
+          { "id": "D", "text": "I was seeing him yesterday." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Yesterday adalah penanda waktu selesai, sehingga memakai simple past: saw.",
+        "stepByStep": [
+          "Cek penanda waktu: yesterday adalah penanda waktu yang sudah selesai.",
+          "Dengan penanda ini, gunakan simple past: saw dari see.",
+          "Pilihan A dan C memakai present perfect dengan yesterday. Pilihan D memakai bentuk progresif yang tidak sesuai."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Present perfect tidak boleh dengan yesterday." },
+          { "optionId": "C", "reasonId": "Kalimat tambahan did I salah dan tetap memakai present perfect dengan yesterday." },
+          { "optionId": "D", "reasonId": "Was seeing menyatakan aksi yang sedang berlangsung di masa lalu, dan tidak cocok untuk kejadian sederhana." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "We have lived here ___ five years.",
+        "options": [
+          { "id": "A", "text": "for" },
+          { "id": "B", "text": "since" },
+          { "id": "C", "text": "ago" },
+          { "id": "D", "text": "yet" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Five years adalah durasi, sehingga memakai for.",
+        "stepByStep": [
+          "Five years adalah durasi (berapa lama).",
+          "Durasi diikuti for.",
+          "Since diikuti titik waktu, sedangkan ago dipakai dengan simple past. Yet tidak cocok sebagai penanda durasi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Since diikuti titik waktu seperti since 2020, bukan durasi seperti five years." },
+          { "optionId": "C", "reasonId": "Ago dipakai dengan simple past, dan artinya yang lalu, bukan selama." },
+          { "optionId": "D", "reasonId": "Yet tidak dipakai untuk menyatakan durasi." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "Have you ___ been to Japan? Yes, I went there ___ 2022.",
+        "options": [
+          { "id": "A", "text": "ever / in" },
+          { "id": "B", "text": "ever / on" },
+          { "id": "C", "text": "never / in" },
+          { "id": "D", "text": "yet / at" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Ever dipakai dalam pertanyaan pengalaman. In 2022 adalah penanda waktu lampau dengan in untuk tahun.",
+        "stepByStep": [
+          "Pertanyaan pengalaman memakai ever: Have you ever been to Japan?",
+          "Jawabannya menyebut waktu lampau in 2022, dan in dipakai untuk tahun.",
+          "Pilihan C memakai never dalam pertanyaan, yang tidak tepat. Pilihan B memakai on untuk tahun, yang salah. Pilihan D memakai yet, yang bukan untuk pengalaman."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "On tidak dipakai untuk tahun. Gunakan in 2022." },
+          { "optionId": "C", "reasonId": "Never tidak dipakai dalam pertanyaan pengalaman ini. Jawaban 'Yes' menunjukkan pernah." },
+          { "optionId": "D", "reasonId": "Yet tidak cocok untuk pertanyaan pengalaman dengan ever." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan pengalaman memakai ever. Jawaban yang menyebut waktu lampau memakai simple past dan preposisi in untuk tahun.",
+          "examples": [
+            { "en": "Have you ever flown on a plane? Yes, I flew to Bali in 2021.", "id": "Apakah kamu pernah naik pesawat? Ya, saya terbang ke Bali tahun 2021." },
+            { "en": "Has she ever read that book? No, she has never read it.", "id": "Apakah dia pernah membaca buku itu? Tidak, dia belum pernah membacanya." }
+          ]
+        },
+        "examTrap": "Pilihan C (never / in) terlihat masuk akal karena jawabannya menyebut tahun, tetapi pertanyaannya meminta ever."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya tinggal di sini sejak 2020.",
+        "hint": "Tinggal sejak titik waktu: since 2020. Memakai present perfect: have lived.",
+        "acceptedAnswers": ["I have lived here since 2020.", "I have been living here since 2020."],
+        "modelAnswer": "I have lived here since 2020.",
+        "commonErrors": [{ "pattern": "I lived here since 2020", "feedbackId": "Kejadian yang masih berlangsung sejak 2020 memakai present perfect." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apakah kamu pernah makan durian?",
+        "hint": "Pertanyaan pengalaman: have you ever. V3 dari eat: eaten.",
+        "acceptedAnswers": ["Have you ever eaten durian?", "Have you ever tried durian?"],
+        "modelAnswer": "Have you ever eaten durian?",
+        "commonErrors": [{ "pattern": "Did you ever eat durian", "feedbackId": "Pertanyaan pengalaman memakai have ever + V3." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia baru saja pulang, dan dia belum makan.",
+        "hint": "Baru saja: just. Belum: has not yet. V3 dari come: come.",
+        "acceptedAnswers": ["She has just come home, and she has not eaten yet.", "She has just come home and she hasn't eaten yet."],
+        "modelAnswer": "She has just come home, and she has not eaten yet.",
+        "commonErrors": [{ "pattern": "She just comed home", "feedbackId": "Baru saja memakai present perfect, dan V3 dari come adalah come." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya pergi ke Jakarta tahun lalu, dan saya belum pernah kembali sejak itu.",
+        "hint": "Tahun lalu: simple past. Belum pernah kembali sejak itu: have not been back since then.",
+        "acceptedAnswers": [
+          "I went to Jakarta last year, and I have not been back since then.",
+          "I went to Jakarta last year and I have not returned since then."
+        ],
+        "modelAnswer": "I went to Jakarta last year, and I have not been back since then.",
+        "commonErrors": [
+          { "pattern": "I have gone to Jakarta last year", "feedbackId": "Last year memakai simple past: went." },
+          { "pattern": "I have not back since", "feedbackId": "Gunakan have not been back since then." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Sudah lama sekali saya tidak bertemu dia, tetapi kemarin saya melihatnya di pasar.",
+        "hint": "Sudah lama sekali tidak bertemu: have not seen him for a long time. Kemarin: yesterday, simple past saw.",
+        "acceptedAnswers": [
+          "I have not seen him for a long time, but yesterday I saw him at the market.",
+          "I haven't seen him for a long time, but yesterday I saw him at the market."
+        ],
+        "modelAnswer": "I have not seen him for a long time, but yesterday I saw him at the market.",
+        "commonErrors": [
+          { "pattern": "I have seen him yesterday", "feedbackId": "Yesterday memakai simple past: saw." },
+          { "pattern": "I have not seen him since a long time", "feedbackId": "A long time adalah durasi, jadi gunakan for." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "I have ___ been to the new mall, but I want to go tomorrow.",
+        "options": [
+          { "id": "A", "text": "never" },
+          { "id": "B", "text": "ago" },
+          { "id": "C", "text": "since" },
+          { "id": "D", "text": "last" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Have never been menunjukkan belum pernah mengalami. Tomorrow menunjukkan rencana, dan kalimat ini konsisten.",
+        "stepByStep": [
+          "Kalimat pertama memakai present perfect have been, sehingga kita butuh penanda pengalaman.",
+          "Never menunjukkan belum pernah. Kalimat kedua tentang rencana besok, yang sesuai dengan belum pernah.",
+          "Ago dan last tidak cocok dengan present perfect. Since memerlukan titik waktu seperti since Monday."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Ago dipakai dengan simple past, bukan present perfect." },
+          { "optionId": "C", "reasonId": "Since memerlukan titik waktu. Tidak ada titik waktu dalam kalimat ini." },
+          { "optionId": "D", "reasonId": "Last dalam posisi ini tidak menjelaskan pengalaman belum pernah." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Never dengan present perfect menyatakan pengalaman yang belum pernah terjadi.",
+          "examples": [
+            { "en": "I have never tried sushi, but I want to.", "id": "Saya belum pernah mencoba sushi, tetapi saya ingin." },
+            { "en": "She has never been abroad.", "id": "Dia belum pernah pergi ke luar negeri." }
+          ]
+        },
+        "examTrap": "Pilihan C (since) terlihat sering dipakai dengan present perfect, tetapi since memerlukan titik waktu awal seperti since Monday."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "We have moved here in 2018." },
+          { "id": "B", "text": "We have moved here since 2018." },
+          { "id": "C", "text": "We moved here since 2018." },
+          { "id": "D", "text": "We have moved here for 2018." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Since 2018 adalah titik waktu awal dengan present perfect yang masih berlangsung.",
+        "stepByStep": [
+          "Kalimat ini menyatakan kejadian yang dimulai 2018 dan masih berlangsung.",
+          "Present perfect dengan titik waktu awal memakai since.",
+          "In 2018 memakai in dengan present perfect, yang tidak sesuai dengan pola yang benar. Simple past dengan since salah. For untuk durasi, bukan tahun."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "In 2018 tidak cocok dengan present perfect yang masih berlangsung. Gunakan since." },
+          { "optionId": "C", "reasonId": "Moved dengan since tidak cocok. Since memerlukan present perfect." },
+          { "optionId": "D", "reasonId": "For diikuti durasi, bukan tahun. Gunakan since 2018." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Since + titik waktu awal dengan present perfect. For + durasi dengan present perfect.",
+          "examples": [
+            { "en": "We have lived in this city since 2015.", "id": "Kami tinggal di kota ini sejak 2015." },
+            { "en": "We have lived in this city for ten years.", "id": "Kami tinggal di kota ini selama sepuluh tahun." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat benar karena in untuk tahun. Tetapi dengan present perfect yang masih berlangsung, gunakan since."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "You ___ see the doctor, because you have been coughing ___ two weeks.",
+        "options": [
+          { "id": "A", "text": "should / for" },
+          { "id": "B", "text": "should / since" },
+          { "id": "C", "text": "must / ago" },
+          { "id": "D", "text": "can / for" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Should untuk saran. Two weeks adalah durasi, sehingga for.",
+        "stepByStep": [
+          "Kalimat pertama memberi saran: should see the doctor.",
+          "Two weeks adalah durasi, dan dipakai dengan for.",
+          "Pilihan B memakai since untuk durasi, yang salah. Pilihan C memakai ago. Pilihan D memakai can untuk saran, kurang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Since diikuti titik waktu, bukan durasi two weeks." },
+          { "optionId": "C", "reasonId": "Ago berarti yang lalu, dan tidak cocok dengan durasi batuk." },
+          { "optionId": "D", "reasonId": "Can menyatakan kemampuan atau izin, bukan saran yang sesuai di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "For diikuti durasi (for two weeks), since diikuti titik waktu (since Monday).",
+          "examples": [
+            { "en": "I have had a headache for three days.", "id": "Saya sakit kepala selama tiga hari." },
+            { "en": "He has been sick since Monday.", "id": "Dia sakit sejak hari Senin." }
+          ]
+        },
+        "examTrap": "Pilihan B (should / since) memakai modal yang benar, tetapi since salah karena two weeks adalah durasi."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "I will call you as soon as I ___ home.",
+        "options": [
+          { "id": "A", "text": "get" },
+          { "id": "B", "text": "will get" },
+          { "id": "C", "text": "got" },
+          { "id": "D", "text": "have got" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Setelah as soon as, untuk waktu yang akan datang, kata kerja memakai bentuk sekarang: get, bukan will get.",
+        "stepByStep": [
+          "Klausa waktu dengan as soon as menjelaskan kejadian di masa depan.",
+          "Dalam klausa waktu, tidak memakai will. Gunakan simple present: get.",
+          "Will get salah dalam klausa waktu. Got adalah masa lalu, dan have got menyatakan kepemilikan atau hasil."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Dalam klausa waktu seperti as soon as, tidak memakai will." },
+          { "optionId": "C", "reasonId": "Got adalah bentuk lampau, tidak cocok untuk kejadian yang akan datang." },
+          { "optionId": "D", "reasonId": "Have got tidak cocok di sini. Yang diperlukan adalah get." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam klausa waktu (when, as soon as, before, after), gunakan simple present untuk masa depan, bukan will.",
+          "examples": [
+            { "en": "I will call you when I arrive.", "id": "Saya akan menelepon kamu ketika saya tiba." },
+            { "en": "She will leave after she finishes.", "id": "Dia akan pergi setelah dia selesai." }
+          ]
+        },
+        "examTrap": "Pilihan B (will get) terlihat masuk akal karena kejadiannya di masa depan, tetapi dalam klausa waktu will tidak dipakai."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I have seen him yesterday." },
+          { "id": "B", "text": "I have not seen him since yesterday." },
+          { "id": "C", "text": "I have not saw him since yesterday." },
+          { "id": "D", "text": "I didn't have seen him yesterday." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Present perfect negatif dengan since yesterday, titik waktu sejak kemarin, sudah benar.",
+        "stepByStep": [
+          "Kalimat menyatakan belum melihat sejak kemarin, yang masih berlangsung.",
+          "Present perfect negatif: have not seen. Since yesterday adalah titik waktu awal.",
+          "Pilihan A memakai present perfect dengan yesterday yang salah. Pilihan C memakai saw setelah have not. Pilihan D memakai have seen setelah didn't."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Present perfect tidak boleh dengan yesterday sebagai penanda selesai." },
+          { "optionId": "C", "reasonId": "Setelah have not, gunakan V3: seen, bukan saw." },
+          { "optionId": "D", "reasonId": "Setelah didn't, gunakan bentuk dasar. Have seen salah di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Present perfect dengan since (titik waktu awal) boleh dipakai dengan negatif. Yesterday sebagai penanda selesai tidak dipakai dengan present perfect.",
+          "examples": [
+            { "en": "We have not heard from him since Monday.", "id": "Kami belum mendengar kabar darinya sejak hari Senin." },
+            { "en": "I saw him yesterday.", "id": "Saya melihatnya kemarin." }
+          ]
+        },
+        "examTrap": "Yesterday dan since yesterday sering dianggap sama. Since yesterday masih berhubungan dengan sekarang, sehingga present perfect boleh, sedangkan yesterday saja adalah simple past."
+      }
+    ]
+  }
+}

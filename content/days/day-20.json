@@ -1,0 +1,602 @@
+{
+  "day": 20,
+  "week": 3,
+  "month": 1,
+  "title": "Pertanyaan Lengkap 5W+1H",
+  "topic": "Pertanyaan dengan who, what, where, when, why, how, which, whose, whom, dan how many, serta urutan kata dalam kalimat tanya",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memilih kata tanya yang tepat sesuai informasi yang ditanyakan",
+    "Membuat pertanyaan dengan urutan kata tanya, kata bantu, subjek, dan kata kerja",
+    "Memahami percakapan tentang pendaftaran dan menjawab dengan bukti dari naskah"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "who", "pronunciationId": "HOO (o panjang, w tidak dibunyikan)", "pos": "Other", "meaningId": "siapa", "example": "Who is your teacher?", "exampleId": "Siapa guru kamu?" },
+      { "no": 2, "en": "what", "pronunciationId": "WHAT (w di awal, a pendek)", "pos": "Other", "meaningId": "apa", "example": "What is your name?", "exampleId": "Siapa namamu?" },
+      { "no": 3, "en": "where", "pronunciationId": "WAIR (w di awal, air seperti 'ear' ringan)", "pos": "Other", "meaningId": "di mana", "example": "Where do you live?", "exampleId": "Di mana kamu tinggal?" },
+      { "no": 4, "en": "when", "pronunciationId": "WEN (w di awal, e pendek)", "pos": "Other", "meaningId": "kapan", "example": "When does the class start?", "exampleId": "Kapan kelas dimulai?" },
+      { "no": 5, "en": "why", "pronunciationId": "WAI (w di awal, ai panjang)", "pos": "Other", "meaningId": "mengapa", "example": "Why are you late?", "exampleId": "Mengapa kamu terlambat?" },
+      { "no": 6, "en": "how", "pronunciationId": "HAU (h di awal, au seperti 'ou' di 'pulau')", "pos": "Other", "meaningId": "bagaimana, dengan cara apa", "example": "How do I get there?", "exampleId": "Bagaimana saya ke sana?" },
+      { "no": 7, "en": "which", "pronunciationId": "WICH (w di awal, ch di akhir)", "pos": "Other", "meaningId": "yang mana", "example": "Which bus goes to the station?", "exampleId": "Bus yang mana yang ke stasiun?" },
+      { "no": 8, "en": "whose", "pronunciationId": "HUZ (w tidak dibunyikan, s seperti 'z')", "pos": "Other", "meaningId": "milik siapa", "example": "Whose bag is this?", "exampleId": "Tas ini milik siapa?" },
+      { "no": 9, "en": "whom", "pronunciationId": "HOOM (w tidak dibunyikan, oo panjang)", "pos": "Other", "meaningId": "kepada siapa (bentuk objek dari who)", "example": "To whom should I write?", "exampleId": "Kepada siapa saya harus menulis?" },
+      { "no": 10, "en": "how many", "pronunciationId": "HAU MEN-i (how seperti 'hau', many seperti 'meni')", "pos": "Other", "meaningId": "berapa banyak (benda yang bisa dihitung)", "example": "How many forms do you have?", "exampleId": "Berapa banyak formulir yang kamu punya?" }
+    ],
+    "tip": "Setiap pertanyaan punya kata tanya yang menanyakan satu jenis informasi. Tanyakan dulu: orang, benda, tempat, waktu, alasan, cara, atau milik siapa? Lalu pilih kata tanya yang sesuai."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["wh questions English beginners", "question words English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata tanya who, what, where, when, why, dan how, dengan latihan membuat pertanyaan.",
+      "watchFor": [
+        "Urutan kata tanya, kata bantu, subjek, lalu kata kerja",
+        "Perbedaan who sebagai subjek dan whom sebagai objek",
+        "Perbedaan how many untuk benda yang bisa dihitung dan how much untuk yang tidak bisa"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu sedang mewawancarai seseorang. Setiap kata tanya seperti kunci yang membuka informasi berbeda: siapa, apa, kapan, di mana, mengapa, atau bagaimana. Pertanyaan yang baik dimulai dengan kunci yang tepat.",
+      "sections": [
+        {
+          "heading": "Urutan kata dalam pertanyaan",
+          "bodyMd": "Dalam pertanyaan dengan kata tanya, urutannya biasanya **kata tanya + kata bantu + subjek + kata kerja dasar**: **Where do you live?**, **When did she arrive?**. Jika kata tanya adalah subjek, urutannya tidak berubah: **Who lives here?**, **What happened?**."
+        },
+        {
+          "heading": "Who, whom, whose, dan which",
+          "bodyMd": "**Who** untuk orang sebagai subjek: **Who called you?**. **Whom** untuk orang sebagai objek atau setelah preposisi: **To whom should I write?**. **Whose** untuk kepemilikan: **Whose bag is this?**. **Which** untuk pilihan dari beberapa hal: **Which bus goes to the station?**."
+        },
+        {
+          "heading": "How, how many, dan how much",
+          "bodyMd": "**How** untuk cara atau keadaan: **How do I get there?**, **How is the weather?**. **How many** untuk benda yang bisa dihitung: **How many students are here?**. **How much** untuk benda yang tidak bisa dihitung: **How much water do we need?**."
+        }
+      ],
+      "formulas": [
+        { "label": "Dengan kata kerja biasa", "pattern": "kata tanya + do / does / did + subjek + kata kerja dasar?" },
+        { "label": "Dengan to be", "pattern": "kata tanya + am / is / are / was / were + subjek?" },
+        { "label": "Kata tanya sebagai subjek", "pattern": "who / what / which + kata kerja + keterangan?" },
+        { "label": "Jumlah", "pattern": "how many + kata benda jamak / how much + kata benda tidak bisa dihitung" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "Who is your teacher?", "id": "Siapa guru kamu?" },
+          { "en": "Where do you study?", "id": "Di mana kamu belajar?" },
+          { "en": "When does the bus leave?", "id": "Kapan bus berangkat?" },
+          { "en": "Why are you late?", "id": "Mengapa kamu terlambat?" },
+          { "en": "How many books do you have?", "id": "Berapa banyak buku yang kamu punya?" }
+        ],
+        "negative": [
+          { "en": "Why don't you call her?", "id": "Mengapa kamu tidak menelepon dia?" },
+          { "en": "Where didn't you put the keys?", "id": "Di mana perpustakaannya?" },
+          { "en": "What didn't you bring?", "id": "Apa yang tidak kamu bawa?" },
+          { "en": "When didn't the bus come?", "id": "Bagaimana kamu tidak tahu jawabannya?" },
+          { "en": "Who doesn't like music?", "id": "Siapa yang tidak suka musik?" }
+        ],
+        "question": [
+          { "en": "What time do you wake up?", "id": "Pukul berapa kamu bangun?" },
+          { "en": "Which room is the lab?", "id": "Ruangan yang mana laboratoriumnya?" },
+          { "en": "Whose phone is ringing?", "id": "Ponsel siapa yang berdering?" },
+          { "en": "How much money do you need?", "id": "Berapa banyak uang yang kamu butuhkan?" },
+          { "en": "Whom did you call?", "id": "Kamu menelepon siapa?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "Where you live?", "right": "Where do you live?", "whyId": "Pertanyaan dengan kata kerja biasa memakai do, does, atau did sebelum subjek." },
+        { "wrong": "How many water do you drink?", "right": "How much water do you drink?", "whyId": "Water tidak bisa dihitung, jadi gunakan how much." },
+        { "wrong": "Who do you want to call? To who?", "right": "Whom did you call?", "whyId": "Dalam pertanyaan formal, whom dipakai untuk objek, dan setelah preposisi ditulis to whom." },
+        { "wrong": "Whose is the bag?", "right": "Whose bag is this?", "whyId": "Whose diikuti kata benda untuk menanyakan kepemilikan benda." },
+        { "wrong": "Who did call you?", "right": "Who called you?", "whyId": "Jika who adalah subjek, tidak ada do atau did di depannya." },
+        { "wrong": "What time does the class starts?", "right": "What time does the class start?", "whyId": "Setelah does, kata kerja kembali ke bentuk dasar." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["wh questions English beginners", "question words English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Pertanyaan dengan where, when, dan why dalam percakapan layanan",
+        "Pertanyaan dengan whose, which, dan whom"
+      ]
+    },
+    "script": {
+      "title": "Pendaftaran mahasiswa baru",
+      "lines": [
+        { "speaker": "Ayu", "text": "Excuse me, who is in charge of the registration desk?" },
+        { "speaker": "Bima", "text": "That is me. What do you need?" },
+        { "speaker": "Ayu", "text": "Where can I pick up my student card?" },
+        { "speaker": "Bima", "text": "At the office on the second floor. When do you want to get it?" },
+        { "speaker": "Ayu", "text": "Today, if possible. Why is the card necessary?" },
+        { "speaker": "Bima", "text": "You need it to borrow books and to enter the lab." },
+        { "speaker": "Ayu", "text": "How do I apply for the lab?" },
+        { "speaker": "Bima", "text": "Fill this form. Which class are you taking?" },
+        { "speaker": "Ayu", "text": "I'm taking English and physics. Whose signature do I need?" },
+        { "speaker": "Bima", "text": "You need the signature of your advisor. Whom should you ask?" },
+        { "speaker": "Ayu", "text": "I think I should ask Mrs. Lina." },
+        { "speaker": "Bima", "text": "Good. How many forms do you have?" },
+        { "speaker": "Ayu", "text": "Just one. What time does the office close?" },
+        { "speaker": "Bima", "text": "It closes at four. You still have time." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada wh-questions, naikkan nada di kata tanya, lalu turunkan di akhir: Where can I pick up my card?",
+      "Pada whose dan whom, bunyi w tidak terdengar. Ucapkan huzz dan hoom dengan jelas.",
+      "Pada how many, sambungkan kedua kata agar terdengar sebagai satu frasa."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "Where can Ayu pick up her student card?",
+        "options": [
+          { "id": "A", "text": "at the library" },
+          { "id": "B", "text": "in the lab" },
+          { "id": "C", "text": "at the office on the second floor" },
+          { "id": "D", "text": "at the registration desk downstairs" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Bima menjawab 'At the office on the second floor', artinya kartu diambil di kantor lantai dua.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Perpustakaan tidak disebut sebagai tempat mengambil kartu." },
+          { "optionId": "B", "reasonId": "Laboratorium disebut sebagai tempat kartu dipakai, bukan tempat mengambilnya." },
+          { "optionId": "D", "reasonId": "Meja pendaftaran dibahas di awal, tetapi kartu diambil di kantor lantai dua." }
+        ],
+        "evidence": "At the office on the second floor."
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "Why does Ayu need the student card?",
+        "options": [
+          { "id": "A", "text": "to pay the tuition" },
+          { "id": "B", "text": "to get a parking pass" },
+          { "id": "C", "text": "to take an exam" },
+          { "id": "D", "text": "to borrow books and enter the lab" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Bima berkata 'You need it to borrow books and to enter the lab', artinya kartu dipakai untuk meminjam buku dan masuk laboratorium.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Biaya kuliah tidak disebut dalam percakapan." },
+          { "optionId": "B", "reasonId": "Kartu parkir tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Ujian tidak disebut sebagai alasan kartu dibutuhkan." }
+        ],
+        "evidence": "You need it to borrow books and to enter the lab."
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "Whose signature does Ayu need?",
+        "options": [
+          { "id": "A", "text": "her advisor, Mrs. Lina" },
+          { "id": "B", "text": "the head of the library" },
+          { "id": "C", "text": "her classmate" },
+          { "id": "D", "text": "the admin on the first floor" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Bima berkata 'You need the signature of your advisor', dan Ayu menyebut Mrs. Lina sebagai pembimbingnya.",
+        "stepByStep": [
+          "Cari kata signature di naskah. Ayu bertanya 'Whose signature do I need?', lalu Bima menjawab tentang advisor.",
+          "Advisor adalah pembimbing akademik. Ayu menyebut akan bertanya kepada Mrs. Lina.",
+          "Kepala perpustakaan, teman sekelas, dan admin lantai satu tidak disebut sebagai pemberi tanda tangan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Kepala perpustakaan tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Teman sekelas tidak disebut sebagai pemberi tanda tangan." },
+          { "optionId": "D", "reasonId": "Admin lantai satu tidak disebut dalam percakapan." }
+        ],
+        "evidence": "You need the signature of your advisor."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "How many forms does Ayu have?",
+        "options": [
+          { "id": "A", "text": "two" },
+          { "id": "B", "text": "none" },
+          { "id": "C", "text": "three" },
+          { "id": "D", "text": "one" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Bima bertanya 'How many forms do you have?' dan Ayu menjawab 'Just one', artinya hanya satu formulir.",
+        "stepByStep": [
+          "Pertanyaan how many meminta jumlah benda yang bisa dihitung.",
+          "Ayu menjawab 'Just one', yang berarti satu formulir.",
+          "Dua, tiga, dan nol tidak disebut sebagai jawaban Ayu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dua formulir tidak disebut. Ayu menjawab hanya satu." },
+          { "optionId": "B", "reasonId": "Nol formulir bertentangan dengan 'Just one'." },
+          { "optionId": "C", "reasonId": "Tiga formulir tidak disebut dalam percakapan." }
+        ],
+        "evidence": "Just one."
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "What can we infer about the office's closing time?",
+        "options": [
+          { "id": "A", "text": "It closes at two." },
+          { "id": "B", "text": "It closes at four, so Ayu still has some time today." },
+          { "id": "C", "text": "It closes at four, so Ayu cannot apply today." },
+          { "id": "D", "text": "It is always open." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Bima berkata 'It closes at four. You still have time', artinya kantor tutup pukul empat dan Ayu masih punya waktu hari itu.",
+        "stepByStep": [
+          "Cari closes di naskah: 'It closes at four. You still have time.'",
+          "Kata still menunjukkan bahwa waktunya belum habis. Ayu masih bisa datang hari ini.",
+          "Pilihan A bertentangan dengan jam empat. Pilihan C bertentangan dengan 'you still have time'. Pilihan D bertentangan dengan 'closes'."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kantor tutup pukul empat, bukan pukul dua." },
+          { "optionId": "C", "reasonId": "Bima berkata Ayu masih punya waktu, jadi tidak tepat jika ia tidak bisa mendaftar hari ini." },
+          { "optionId": "D", "reasonId": "Kantor disebut tutup pada pukul empat, jadi tidak selalu buka." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Still menunjukkan bahwa sesuatu masih ada atau masih tersedia. Dalam konteks waktu, still time berarti masih ada waktu.",
+          "examples": [
+            { "en": "The shop closes at nine, so you still have time.", "id": "Toko tutup pukul sembilan, jadi kamu masih punya waktu." },
+            { "en": "I still have two hours before the exam.", "id": "Saya masih punya dua jam sebelum ujian." }
+          ]
+        },
+        "examTrap": "Pilihan C tampak masuk akal karena kantor tutup pukul empat, tetapi kalimat kedua mengatakan Ayu masih punya waktu.",
+        "evidence": "It closes at four. You still have time."
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "___ is your favourite teacher?",
+        "options": [
+          { "id": "A", "text": "Who" },
+          { "id": "B", "text": "Whom" },
+          { "id": "C", "text": "Whose" },
+          { "id": "D", "text": "Where" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Pertanyaan tentang orang sebagai subjek memakai who.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whom adalah objek. Di sini orang adalah subjek dari is." },
+          { "optionId": "C", "reasonId": "Whose untuk kepemilikan, bukan untuk menanyakan orang." },
+          { "optionId": "D", "reasonId": "Where untuk tempat, bukan orang." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "___ are you going tomorrow?",
+        "options": [
+          { "id": "A", "text": "What" },
+          { "id": "B", "text": "How" },
+          { "id": "C", "text": "Where" },
+          { "id": "D", "text": "Which" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Pertanyaan tentang tujuan atau tempat memakai where.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "What menanyakan benda atau kegiatan, bukan tempat tujuan." },
+          { "optionId": "B", "reasonId": "How menanyakan cara, bukan tujuan." },
+          { "optionId": "D", "reasonId": "Which memilih dari beberapa pilihan, tidak tepat untuk tujuan ini." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "How many money do you have?" },
+          { "id": "B", "text": "How much money do you have?" },
+          { "id": "C", "text": "How many water do you want?" },
+          { "id": "D", "text": "How much students are here?" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Money tidak bisa dihitung, sehingga how much dipakai.",
+        "stepByStep": [
+          "Cek kata benda: money tidak bisa dihitung.",
+          "Untuk benda yang tidak bisa dihitung, pakai how much.",
+          "Pilihan A dan C memakai how many untuk benda tidak bisa dihitung. Pilihan D memakai how much untuk students yang bisa dihitung."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "How many tidak dipakai untuk money yang tidak bisa dihitung." },
+          { "optionId": "C", "reasonId": "How many salah untuk water yang tidak bisa dihitung." },
+          { "optionId": "D", "reasonId": "How much salah untuk students yang bisa dihitung. Gunakan how many." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "___ bag is this? It is mine.",
+        "options": [
+          { "id": "A", "text": "Who" },
+          { "id": "B", "text": "Which" },
+          { "id": "C", "text": "Whose" },
+          { "id": "D", "text": "Whom" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Pertanyaan tentang kepemilikan benda memakai whose.",
+        "stepByStep": [
+          "Pertanyaannya tentang pemilik tas.",
+          "Kata tanya untuk kepemilikan adalah whose, diikuti kata benda bag.",
+          "Who menanyakan orang, which memilih dari beberapa benda, dan whom adalah bentuk objek."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who tidak menunjukkan kepemilikan benda." },
+          { "optionId": "B", "reasonId": "Which memilih dari beberapa benda. Tidak menanyakan kepemilikan." },
+          { "optionId": "D", "reasonId": "Whom adalah bentuk objek, dan tidak menanyakan kepemilikan." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "To ___ should I send the letter?",
+        "options": [
+          { "id": "A", "text": "who" },
+          { "id": "B", "text": "whom" },
+          { "id": "C", "text": "whose" },
+          { "id": "D", "text": "which" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah preposisi to, orang sebagai objek ditanyakan dengan whom.",
+        "stepByStep": [
+          "Kata depan to diikuti orang sebagai objek.",
+          "Setelah preposisi, bentuk objek whom dipakai.",
+          "Who adalah bentuk subjek. Whose untuk kepemilikan. Which untuk pilihan benda."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah preposisi to, gunakan whom, bukan who." },
+          { "optionId": "C", "reasonId": "Whose untuk kepemilikan, tidak cocok dengan to." },
+          { "optionId": "D", "reasonId": "Which untuk pilihan benda, bukan orang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah preposisi (to, for, with), gunakan whom untuk orang.",
+          "examples": [
+            { "en": "For whom is this gift?", "id": "Untuk siapa hadiah ini?" },
+            { "en": "With whom did you travel?", "id": "Kamu bepergian dengan siapa?" }
+          ]
+        },
+        "examTrap": "Who sering dipakai dalam percakapan santai, tetapi setelah preposisi bentuk yang tepat adalah whom."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Siapa guru kamu?",
+        "hint": "Siapa sebagai subjek: who. Guru kamu: your teacher.",
+        "acceptedAnswers": ["Who is your teacher?", "Who's your teacher?"],
+        "modelAnswer": "Who is your teacher?",
+        "commonErrors": [{ "pattern": "What is your teacher", "feedbackId": "Untuk orang, gunakan who, bukan what." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Berapa banyak buku yang kamu punya?",
+        "hint": "Buku bisa dihitung: how many books. Kata tanya dengan do: do you have.",
+        "acceptedAnswers": ["How many books do you have?", "How many books have you got?"],
+        "modelAnswer": "How many books do you have?",
+        "commonErrors": [{ "pattern": "How much books do you have", "feedbackId": "Books bisa dihitung, jadi gunakan how many." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kapan kelas dimulai besok?",
+        "hint": "Kapan: when. Kelas dimulai: class starts. Pertanyaan dengan does.",
+        "acceptedAnswers": ["When does the class start tomorrow?", "When does class start tomorrow?"],
+        "modelAnswer": "When does the class start tomorrow?",
+        "commonErrors": [{ "pattern": "When the class starts tomorrow", "feedbackId": "Pertanyaan dengan kata kerja biasa memakai does sebelum subjek." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Mengapa kamu terlambat, dan siapa yang menunggumu di stasiun?",
+        "hint": "Mengapa: why. Siapa sebagai subjek: who. Menunggu di stasiun: was waiting at the station.",
+        "acceptedAnswers": [
+          "Why were you late, and who was waiting for you at the station?",
+          "Why were you late and who was waiting for you at the station?"
+        ],
+        "modelAnswer": "Why were you late, and who was waiting for you at the station?",
+        "commonErrors": [
+          { "pattern": "Why you were late", "feedbackId": "Pertanyaan dengan to be memindahkan were ke depan subjek." },
+          { "pattern": "who did wait for you", "feedbackId": "Who sebagai subjek tidak memakai did. Gunakan who was waiting." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Dari mana kamu membeli tas itu, dan tas siapa yang ada di meja?",
+        "hint": "Dari mana: where. Tas siapa: whose bag. Yang ada di meja: is on the table.",
+        "acceptedAnswers": [
+          "Where did you buy that bag, and whose bag is on the table?",
+          "Where did you buy that bag and whose bag is on the table?"
+        ],
+        "modelAnswer": "Where did you buy that bag, and whose bag is on the table?",
+        "commonErrors": [
+          { "pattern": "Where you bought that bag", "feedbackId": "Setelah did, kata kerja kembali ke bentuk dasar: buy." },
+          { "pattern": "who bag is on the table", "feedbackId": "Untuk kepemilikan benda, gunakan whose bag." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "___ is the best way to learn English quickly?",
+        "options": [
+          { "id": "A", "text": "Who" },
+          { "id": "B", "text": "How" },
+          { "id": "C", "text": "Whose" },
+          { "id": "D", "text": "Whom" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pertanyaan tentang cara memakai how.",
+        "stepByStep": [
+          "Pertanyaannya meminta cara terbaik.",
+          "Cara menanyakan metode memakai how.",
+          "Who untuk orang, whose untuk kepemilikan, dan whom untuk objek orang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Who menanyakan orang, bukan cara." },
+          { "optionId": "C", "reasonId": "Whose menanyakan kepemilikan, bukan cara." },
+          { "optionId": "D", "reasonId": "Whom menanyakan orang sebagai objek, bukan cara." }
+        ],
+        "ruleAndExamples": {
+          "rule": "How menanyakan cara, metode, atau keadaan.",
+          "examples": [
+            { "en": "How do you make tea?", "id": "Bagaimana kamu membuat teh?" },
+            { "en": "How is your sister?", "id": "Bagaimana kabar adikmu?" }
+          ]
+        },
+        "examTrap": "Pilihan A (who) sering dipilih karena pertanyaan terdengar tentang orang yang pintar. Tetapi yang ditanyakan adalah caranya."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is grammatically correct?",
+        "options": [
+          { "id": "A", "text": "Where you live?" },
+          { "id": "B", "text": "Where you do live?" },
+          { "id": "C", "text": "Where do you live?" },
+          { "id": "D", "text": "Where does you live?" }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Pertanyaan dengan kata kerja biasa memakai do sebelum subjek you, lalu kata kerja dasar live.",
+        "stepByStep": [
+          "Live adalah kata kerja biasa, sehingga memakai do atau does.",
+          "Subjek you memakai do, bukan does.",
+          "Pilihan A tidak punya do. Pilihan B menambahkan do setelah subjek. Pilihan D memakai does untuk you."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Tanpa do atau does, pertanyaan ini tidak benar." },
+          { "optionId": "B", "reasonId": "Do harus di depan subjek, bukan setelahnya." },
+          { "optionId": "D", "reasonId": "Does hanya untuk he, she, it. Subjek you memakai do." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata tanya + do/does/did + subjek + kata kerja dasar.",
+          "examples": [
+            { "en": "Where does she work?", "id": "Di mana dia bekerja?" },
+            { "en": "When did they arrive?", "id": "Kapan mereka tiba?" }
+          ]
+        },
+        "examTrap": "Pilihan B terlihat seperti versi lengkap, tetapi do harus di depan subjek."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "How ___ eggs do we need, and how ___ milk do we have?",
+        "options": [
+          { "id": "A", "text": "many / much" },
+          { "id": "B", "text": "much / many" },
+          { "id": "C", "text": "many / many" },
+          { "id": "D", "text": "much / much" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Eggs bisa dihitung, sehingga how many. Milk tidak bisa dihitung, sehingga how much.",
+        "stepByStep": [
+          "Eggs adalah kata benda yang bisa dihitung: how many eggs.",
+          "Milk adalah kata benda yang tidak bisa dihitung: how much milk.",
+          "Pilihan B membalik. Pilihan C memakai many untuk milk. Pilihan D memakai much untuk eggs."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Much untuk eggs salah, dan many untuk milk salah." },
+          { "optionId": "C", "reasonId": "Many untuk milk salah. Milk tidak bisa dihitung." },
+          { "optionId": "D", "reasonId": "Much untuk eggs salah. Eggs bisa dihitung." }
+        ],
+        "ruleAndExamples": {
+          "rule": "How many untuk benda yang bisa dihitung. How much untuk benda yang tidak bisa dihitung.",
+          "examples": [
+            { "en": "How many apples are in the basket?", "id": "Berapa banyak apel di keranjang?" },
+            { "en": "How much sugar is in the tea?", "id": "Berapa banyak gula di teh?" }
+          ]
+        },
+        "examTrap": "Kedua pertanyaan memakai how, sehingga terlihat sama. Tetapi eggs dan milk punya jenis yang berbeda."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "___ have you lived in this city, and ___ did you first arrive?",
+        "options": [
+          { "id": "A", "text": "How long / When" },
+          { "id": "B", "text": "How many / Why" },
+          { "id": "C", "text": "How much / Where" },
+          { "id": "D", "text": "How often / Which" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "How long menanyakan durasi tinggal. When menanyakan waktu pertama tiba.",
+        "stepByStep": [
+          "Pertanyaan pertama menanyakan berapa lama tinggal: how long.",
+          "Pertanyaan kedua menanyakan waktu kedatangan pertama: when.",
+          "How many dan how much tidak menanyakan durasi. Why menanyakan alasan. How often menanyakan frekuensi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "How many menanyakan jumlah, bukan durasi. Why menanyakan alasan." },
+          { "optionId": "C", "reasonId": "How much menanyakan jumlah, bukan durasi. Where menanyakan tempat." },
+          { "optionId": "D", "reasonId": "How often menanyakan frekuensi, bukan durasi. Which memilih dari beberapa pilihan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "How long untuk durasi, when untuk waktu, where untuk tempat, why untuk alasan.",
+          "examples": [
+            { "en": "How long have you studied English?", "id": "Sudah berapa lama kamu belajar bahasa Inggris?" },
+            { "en": "When did you start your job?", "id": "Kapan kamu mulai bekerja?" }
+          ]
+        },
+        "examTrap": "How many dan how long sering tertukar. How many untuk jumlah benda, how long untuk durasi."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which question is correct?",
+        "options": [
+          { "id": "A", "text": "Whom did you saw at the station?" },
+          { "id": "B", "text": "Whom did you see at the station?" },
+          { "id": "C", "text": "Who did you saw at the station?" },
+          { "id": "D", "text": "Whose did you see at the station?" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah did, kata kerja kembali ke bentuk dasar: see. Whom adalah objek dari see.",
+        "stepByStep": [
+          "Pertanyaan memakai did, sehingga kata kerja harus bentuk dasar: see.",
+          "Orang yang dilihat adalah objek, sehingga whom bisa dipakai dalam bahasa formal.",
+          "Pilihan A dan C memakai saw setelah did. Pilihan D memakai whose yang bukan kata tanya objek orang."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Saw setelah did salah. Gunakan see." },
+          { "optionId": "C", "reasonId": "Saw setelah did salah, dan who dalam posisi objek lebih formal dengan whom." },
+          { "optionId": "D", "reasonId": "Whose menanyakan kepemilikan, tidak cocok sebagai objek orang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah did, kata kerja selalu bentuk dasar. Orang sebagai objek bisa memakai whom.",
+          "examples": [
+            { "en": "Whom did she invite to the party?", "id": "Dia mengundang siapa ke pesta itu?" },
+            { "en": "Who did she invite? (informal)", "id": "Dia mengundang siapa? (informal)" }
+          ]
+        },
+        "examTrap": "Pilihan A dan C punya saw, bentuk lampau yang salah setelah did. Ingat, setelah did selalu bentuk dasar."
+      }
+    ]
+  }
+}

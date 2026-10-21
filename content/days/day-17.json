@@ -1,0 +1,576 @@
+{
+  "day": 17,
+  "week": 3,
+  "month": 1,
+  "title": "Present Perfect 1: have/has + V3",
+  "topic": "Present perfect untuk pengalaman, hasil yang masih berhubungan dengan sekarang, dan kata kerja bentuk ketiga (V3)",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membentuk present perfect dengan have atau has dan kata kerja bentuk ketiga",
+    "Membedakan present perfect untuk pengalaman dari simple past untuk waktu tertentu",
+    "Membaca cerita pengalaman dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "visited", "pronunciationId": "VIZ-i-tid (s seperti 'z', ed terdengar 'id')", "pos": "Verb", "meaningId": "mengunjungi", "example": "I have visited three cities.", "exampleId": "Saya sudah mengunjungi tiga kota." },
+      { "no": 2, "en": "learned", "pronunciationId": "LERND (er seperti 'ur', ed terdengar 'd')", "pos": "Verb", "meaningId": "belajar, mempelajari", "example": "She has learned a new language.", "exampleId": "Dia sudah mempelajari bahasa baru." },
+      { "no": 3, "en": "achieved", "pronunciationId": "a-CHEEVD (tekanan di CHEEV, ed terdengar 'd')", "pos": "Verb", "meaningId": "mencapai", "example": "We have achieved our goal.", "exampleId": "Kami sudah mencapai tujuan kami." },
+      { "no": 4, "en": "completed", "pronunciationId": "kem-PLEE-tid (tekanan di PLEE)", "pos": "Verb", "meaningId": "menyelesaikan", "example": "He has completed the course.", "exampleId": "Dia sudah menyelesaikan kursus itu." },
+      { "no": 5, "en": "broken", "pronunciationId": "BRO-ken (o panjang, k di tengah)", "pos": "Verb", "meaningId": "rusak, pecah (bentuk V3 dari break)", "example": "I have broken my cup.", "exampleId": "Saya sudah memecahkan cangkir saya." },
+      { "no": 6, "en": "lost", "pronunciationId": "LAWST (o panjang, st di akhir)", "pos": "Verb", "meaningId": "kehilangan (bentuk V3 dari lose)", "example": "She has lost her keys.", "exampleId": "Dia sudah kehilangan kuncinya." },
+      { "no": 7, "en": "found", "pronunciationId": "FOWND (ou seperti 'au', nd di akhir)", "pos": "Verb", "meaningId": "menemukan (bentuk V3 dari find)", "example": "We have found the answer.", "exampleId": "Kami sudah menemukan jawabannya." },
+      { "no": 8, "en": "met", "pronunciationId": "MET (e pendek, t di akhir)", "pos": "Verb", "meaningId": "bertemu (bentuk V3 dari meet)", "example": "I have met him before.", "exampleId": "Saya pernah bertemu dengannya sebelumnya." },
+      { "no": 9, "en": "seen", "pronunciationId": "SEEN (ee panjang, n di akhir)", "pos": "Verb", "meaningId": "melihat (bentuk V3 dari see)", "example": "They have seen the sea at night.", "exampleId": "Mereka sudah melihat laut pada malam hari." },
+      { "no": 10, "en": "tried", "pronunciationId": "TRAID (ai panjang, d di akhir)", "pos": "Verb", "meaningId": "mencoba (bentuk V3 dari try)", "example": "I have tried sushi.", "exampleId": "Saya sudah mencoba sushi." }
+    ],
+    "tip": "Present perfect selalu memakai have atau has, lalu bentuk V3 dari kata kerja. Untuk kata beraturan, V3 sama dengan bentuk lampau (visited, tried). Untuk kata tidak beraturan, hafalkan bentuk V3-nya (broken, lost, seen)."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["present perfect tense English", "have has past participle"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang present perfect untuk pengalaman dan hasil, dengan daftar kata kerja bentuk ketiga.",
+      "watchFor": [
+        "Pola have atau has + V3",
+        "Perbedaan present perfect untuk pengalaman dan simple past untuk waktu tertentu",
+        "Daftar V3 yang sering dipakai"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan buku pengalamanmu. Ada catatan yang hanya bercerita tentang apa yang pernah kamu lakukan, dan ada catatan yang masih terasa sampai sekarang, seperti barang yang sudah hilang dan belum ditemukan. Present perfect adalah cara menulis catatan seperti itu: menghubungkan masa lalu dengan sekarang.",
+      "sections": [
+        {
+          "heading": "Pola dasar",
+          "bodyMd": "Gunakan **have** untuk I, you, we, dan they, serta **has** untuk he, she, dan it. Setelahnya kata kerja bentuk ketiga, atau **V3**: **I have visited**, **She has seen**, **They have finished**. Bentuk V3 kata kerja beraturan sama dengan bentuk lampau, sedangkan bentuk V3 kata kerja tidak beraturan harus dihafal."
+        },
+        {
+          "heading": "Pengalaman dan hasil sekarang",
+          "bodyMd": "Present perfect dipakai untuk pengalaman tanpa waktu yang jelas: **I have tried sushi.** Juga untuk hasil yang masih terasa: **She has lost her keys**, artinya kuncinya masih hilang sekarang. Jangan pakai penanda waktu yang sudah selesai seperti **yesterday** atau **last year** dengan present perfect."
+        },
+        {
+          "heading": "Negatif dan tanya",
+          "bodyMd": "Negatif: **have not** atau **haven't**, **has not** atau **hasn't** diikuti V3, contohnya **We haven't seen the movie**. Tanya: **Have you ever visited Bali?** atau **Has she finished the report?**. Jawaban singkat: **Yes, I have** atau **No, she hasn't**."
+        }
+      ],
+      "formulas": [
+        { "label": "Positif", "pattern": "I / you / we / they + have + V3; he / she / it + has + V3" },
+        { "label": "Negatif", "pattern": "subjek + have not (haven't) / has not (hasn't) + V3" },
+        { "label": "Tanya", "pattern": "Have / Has + subjek + V3?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I have visited three cities this year.", "id": "Saya sudah mengunjungi tiga kota tahun ini." },
+          { "en": "She has learned a lot about art.", "id": "Dia sudah banyak belajar tentang seni." },
+          { "en": "We have completed the project.", "id": "Kami sudah menyelesaikan proyek itu." },
+          { "en": "He has lost his wallet.", "id": "Dia sudah kehilangan dompetnya." },
+          { "en": "They have seen the new movie.", "id": "Mereka sudah menonton film baru itu." }
+        ],
+        "negative": [
+          { "en": "I have not finished my homework.", "id": "Saya belum menyelesaikan pekerjaan rumah saya." },
+          { "en": "She hasn't met the new teacher.", "id": "Dia belum bertemu dengan guru baru itu." },
+          { "en": "We haven't found the key yet.", "id": "Kami belum menemukan kuncinya." },
+          { "en": "He has not broken any rules.", "id": "Dia belum melanggar aturan apa pun." },
+          { "en": "They haven't tried the new restaurant.", "id": "Mereka belum mencoba restoran baru itu." }
+        ],
+        "question": [
+          { "en": "Have you ever been to Yogyakarta?", "id": "Apakah kamu pernah pergi ke Yogyakarta?" },
+          { "en": "Has she finished her essay?", "id": "Apakah dia sudah menyelesaikan esainya?" },
+          { "en": "Have they seen the museum?", "id": "Apakah mereka sudah melihat museum itu?" },
+          { "en": "Has he found his bag?", "id": "Apakah dia sudah menemukan tasnya?" },
+          { "en": "Have we learned this grammar before?", "id": "Apakah kita sudah pernah mempelajari tata bahasa ini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I have went to Bali.", "right": "I have been to Bali.", "whyId": "V3 dari go adalah gone atau been untuk pengalaman. Went adalah bentuk lampau." },
+        { "wrong": "She has finish the work.", "right": "She has finished the work.", "whyId": "Setelah has, gunakan V3: finished." },
+        { "wrong": "They have saw the sea.", "right": "They have seen the sea.", "whyId": "V3 dari see adalah seen, bukan saw." },
+        { "wrong": "I have visited Bali last year.", "right": "I visited Bali last year.", "whyId": "Dengan penanda waktu yang sudah selesai seperti last year, gunakan simple past." },
+        { "wrong": "Has you finished?", "right": "Have you finished?", "whyId": "Untuk you, gunakan have, bukan has." },
+        { "wrong": "He has lose his keys.", "right": "He has lost his keys.", "whyId": "V3 dari lose adalah lost." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Pengalaman Rina",
+    "text": "Rina has had an interesting year. She has visited three new cities and has learned a lot about different cultures. She has achieved her goal of reading twenty books. Last month she completed a long online course. She has seen the sea at night, and she has met many friends from other countries. Once, she lost her phone, but she has found it again. She has also broken her favourite cup, which made her sad. Rina has tried new foods, and she says she has never felt so curious. Her friends are proud of her progress.",
+    "glossary": [
+      { "en": "cultures", "id": "budaya" },
+      { "en": "achieved", "id": "mencapai" },
+      { "en": "online", "id": "daring, di internet" },
+      { "en": "favourite", "id": "favorit" },
+      { "en": "curious", "id": "penasaran, ingin tahu" },
+      { "en": "course", "id": "kursus" },
+      { "en": "countries", "id": "negara" },
+      { "en": "once", "id": "suatu ketika" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How many new cities has Rina visited?",
+        "options": [
+          { "id": "A", "text": "two" },
+          { "id": "B", "text": "three" },
+          { "id": "C", "text": "twenty" },
+          { "id": "D", "text": "four" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'She has visited three new cities'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dua tidak disebut sebagai jumlah kota." },
+          { "optionId": "C", "reasonId": "Dua puluh adalah jumlah buku yang dibaca, bukan kota." },
+          { "optionId": "D", "reasonId": "Empat tidak disebut dalam teks." }
+        ],
+        "evidence": "She has visited three new cities"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What goal has Rina achieved?",
+        "options": [
+          { "id": "A", "text": "reading twenty books" },
+          { "id": "B", "text": "running a marathon" },
+          { "id": "C", "text": "learning Japanese" },
+          { "id": "D", "text": "owning a car" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'She has achieved her goal of reading twenty books'.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Lari maraton tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Bahasa Jepang tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Mobil tidak disebut dalam teks." }
+        ],
+        "evidence": "She has achieved her goal of reading twenty books"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What did Rina lose and then find again?",
+        "options": [
+          { "id": "A", "text": "her favourite cup" },
+          { "id": "B", "text": "her book" },
+          { "id": "C", "text": "her bag" },
+          { "id": "D", "text": "her phone" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menulis 'Once, she lost her phone, but she has found it again'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Cangkir favorit disebut pecah (broken), bukan hilang lalu ditemukan." },
+          { "optionId": "B", "reasonId": "Buku tidak disebut hilang." },
+          { "optionId": "C", "reasonId": "Tas tidak disebut dalam teks." }
+        ],
+        "evidence": "she lost her phone"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which item has Rina broken?",
+        "options": [
+          { "id": "A", "text": "her phone" },
+          { "id": "B", "text": "her laptop" },
+          { "id": "C", "text": "her favourite cup" },
+          { "id": "D", "text": "her bag" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'She has also broken her favourite cup', artinya cangkir favoritnya pecah.",
+        "stepByStep": [
+          "Cari kata broken di teks: 'She has also broken her favourite cup.'",
+          "Broken adalah V3 dari break, yang berarti pecah atau rusak.",
+          "Ponsel hilang lalu ditemukan. Laptop dan tas tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ponsel hilang lalu ditemukan kembali, tidak disebut pecah." },
+          { "optionId": "B", "reasonId": "Laptop tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Tas tidak disebut dalam teks." }
+        ],
+        "evidence": "She has also broken her favourite cup"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we infer about Rina's attitude toward new experiences?",
+        "options": [
+          { "id": "A", "text": "She regrets all of her travels." },
+          { "id": "B", "text": "She has never left her hometown." },
+          { "id": "C", "text": "She dislikes new foods." },
+          { "id": "D", "text": "She is curious and enjoys trying new things, even though some events made her sad." }
+        ],
+        "difficulty": "hard",
+        "correct": "D",
+        "explanationId": "Rina berkata 'she has never felt so curious', dan ia banyak mencoba hal baru meskipun ada kejadian yang membuatnya sedih.",
+        "stepByStep": [
+          "Cari kata curious dan tried: 'Rina has tried new foods, and she says she has never felt so curious.'",
+          "Curious dan tried menunjukkan sikap terbuka terhadap hal baru.",
+          "Kejadian sedih (cangkir pecah) hanya satu bagian, tidak membatalkan sikap itu. Pilihan A, B, dan C bertentangan dengan teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks tidak menyebut Rina menyesali perjalanannya." },
+          { "optionId": "B", "reasonId": "Rina sudah mengunjungi tiga kota baru, jadi pilihan ini bertentangan dengan teks." },
+          { "optionId": "C", "reasonId": "Rina sudah mencoba makanan baru, dan tidak disebut tidak menyukainya." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Present perfect dengan never dan kata sifat (never felt so curious) menunjukkan pengalaman baru yang berhubungan dengan sekarang.",
+          "examples": [
+            { "en": "I have never felt so happy.", "id": "Saya belum pernah merasa sebahagia ini." },
+            { "en": "She has never tried such spicy food.", "id": "Dia belum pernah mencoba makanan sepedas ini." }
+          ]
+        },
+        "examTrap": "Pilihan C (dislikes new foods) bisa tampak masuk akal karena ada kata tried, tetapi teks tidak menyebut Rina tidak suka makanan baru.",
+        "evidence": "she says she has never felt so curious"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "I ___ this movie three times.",
+        "options": [
+          { "id": "A", "text": "saw" },
+          { "id": "B", "text": "have seen" },
+          { "id": "C", "text": "see" },
+          { "id": "D", "text": "seeing" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Pengalaman dengan jumlah berkali-kali tanpa waktu tertentu memakai present perfect: have seen.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Saw adalah bentuk lampau dan memerlukan waktu tertentu yang sudah lewat." },
+          { "optionId": "C", "reasonId": "See adalah bentuk dasar, tidak cocok dengan have." },
+          { "optionId": "D", "reasonId": "Seeing adalah bentuk -ing, tidak cocok setelah have sebagai V3." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "She ___ to Japan twice.",
+        "options": [
+          { "id": "A", "text": "went" },
+          { "id": "B", "text": "goes" },
+          { "id": "C", "text": "has been" },
+          { "id": "D", "text": "is going" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Pengalaman pernah pergi ke Jepang memakai present perfect: has been.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Went adalah simple past, memerlukan waktu tertentu yang sudah lewat." },
+          { "optionId": "B", "reasonId": "Goes adalah bentuk sekarang, tidak menyatakan pengalaman." },
+          { "optionId": "D", "reasonId": "Is going berarti sedang dalam perjalanan atau akan pergi, bukan pengalaman." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "They have finish the work." },
+          { "id": "B", "text": "They have finished the work." },
+          { "id": "C", "text": "They has finished the work." },
+          { "id": "D", "text": "They finished the work yet." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Setelah have, gunakan V3 finished. Yet tidak dipakai di kalimat positif simple past.",
+        "stepByStep": [
+          "Subjek they memakai have, bukan has.",
+          "Setelah have, kata kerja harus V3: finished.",
+          "Pilihan A memakai finish, pilihan C memakai has untuk they, dan pilihan D memakai yet dalam simple past positif."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Finish bentuk dasar. Setelah have harus V3: finished." },
+          { "optionId": "C", "reasonId": "Has hanya untuk he, she, it. Untuk they, gunakan have." },
+          { "optionId": "D", "reasonId": "Yet tidak dipakai dengan simple past positif. Yet dipakai di present perfect negatif atau tanya." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "We ___ our homework yet.",
+        "options": [
+          { "id": "A", "text": "didn't finish" },
+          { "id": "B", "text": "have not finished" },
+          { "id": "C", "text": "haven't finish" },
+          { "id": "D", "text": "has not finished" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Yet dipakai di present perfect negatif: have not finished. Subjek we memakai have.",
+        "stepByStep": [
+          "Yet menandakan present perfect negatif: have not + V3.",
+          "Subjek we memakai have, dan V3 dari finish adalah finished.",
+          "Pilihan A memakai simple past dengan yet. Pilihan C memakai bentuk dasar setelah have. Pilihan D memakai has untuk we."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Didn't finish dengan yet tidak cocok. Yet menandakan present perfect." },
+          { "optionId": "C", "reasonId": "Haven't finish salah. Setelah have harus V3: finished." },
+          { "optionId": "D", "reasonId": "Has hanya untuk he, she, it. Subjek we memakai have." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "He ___ his keys, so he ___ open the door now.",
+        "options": [
+          { "id": "A", "text": "has lost / can't" },
+          { "id": "B", "text": "lost / can't" },
+          { "id": "C", "text": "has lost / can" },
+          { "id": "D", "text": "lost / has can't" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Has lost menunjukkan hasil yang masih terasa sekarang. Karena kunci masih hilang, dia tidak bisa membuka pintu sekarang.",
+        "stepByStep": [
+          "Klausa pertama memakai present perfect has lost, karena hasilnya masih terasa sekarang.",
+          "Klausa kedua menunjukkan akibat sekarang: can't open the door now.",
+          "Pilihan B memakai simple past lost tanpa waktu tertentu, sehingga kurang tepat. Pilihan C membalik makna. Pilihan D memakai has can't, yang salah bentuk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Lost dalam simple past menyatakan kejadian selesai tanpa hubungan dengan sekarang. Di sini hasilnya masih terasa." },
+          { "optionId": "C", "reasonId": "Can berarti dapat, tetapi kalimat ini menyatakan ketidakmampuan karena kunci hilang." },
+          { "optionId": "D", "reasonId": "Has can't tidak benar. Can tidak memakai has dan tidak memakai bentuk perfect." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Present perfect menghubungkan kejadian lampau dengan keadaan sekarang. Hasilnya masih terasa.",
+          "examples": [
+            { "en": "I have lost my pen, so I can't write.", "id": "Saya sudah kehilangan pulpen saya, jadi saya tidak bisa menulis." },
+            { "en": "She has broken her phone, so she can't call us.", "id": "Dia sudah merusak ponselnya, jadi dia tidak bisa menelepon kami." }
+          ]
+        },
+        "examTrap": "Lost dan has lost terlihat mirip. Has lost menghubungkan kejadian dengan keadaan sekarang, sedangkan lost hanya kejadian yang selesai."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya sudah mengunjungi Bali.",
+        "hint": "Sudah mengunjungi: have visited.",
+        "acceptedAnswers": ["I have visited Bali.", "I've visited Bali."],
+        "modelAnswer": "I have visited Bali.",
+        "commonErrors": [{ "pattern": "I visited Bali already", "feedbackId": "Sudah pernah mengunjungi memakai present perfect: have visited." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia sudah menyelesaikan tugasnya.",
+        "hint": "Dia memakai has. Menyelesaikan: complete, V3 completed.",
+        "acceptedAnswers": ["She has completed her task.", "She's completed her task."],
+        "modelAnswer": "She has completed her task.",
+        "commonErrors": [{ "pattern": "She has complete her task", "feedbackId": "Setelah has, gunakan V3: completed." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami belum pernah bertemu dengan guru baru.",
+        "hint": "Belum pernah: have never. Bertemu: meet, V3 met.",
+        "acceptedAnswers": ["We have never met the new teacher.", "We have not met the new teacher."],
+        "modelAnswer": "We have never met the new teacher.",
+        "commonErrors": [{ "pattern": "We never met the new teacher", "feedbackId": "Pengalaman belum pernah memakai present perfect: have never met." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Mereka telah menemukan kunci yang hilang, tetapi mereka belum memperbaiki pintunya.",
+        "hint": "Telah menemukan: have found. Yang hilang: the lost keys. Belum memperbaiki: have not fixed yet.",
+        "acceptedAnswers": [
+          "They have found the lost keys, but they have not fixed the door yet.",
+          "They have found the lost keys but they have not fixed the door yet."
+        ],
+        "modelAnswer": "They have found the lost keys, but they have not fixed the door yet.",
+        "commonErrors": [
+          { "pattern": "They found the lost keys, but they did not fixed", "feedbackId": "Hasil yang masih terasa memakai present perfect. Setelah did not, kata kerja dasar." },
+          { "pattern": "they have not fix the door", "feedbackId": "Setelah have not, gunakan V3: fixed." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya sudah mencoba makanan itu tiga kali, dan saya sudah melihat resepnya.",
+        "hint": "Sudah mencoba: have tried. Sudah melihat: have seen. Tiga kali: three times.",
+        "acceptedAnswers": [
+          "I have tried the food three times, and I have seen the recipe.",
+          "I have tried that food three times, and I have seen the recipe."
+        ],
+        "modelAnswer": "I have tried the food three times, and I have seen the recipe.",
+        "commonErrors": [
+          { "pattern": "I have try the food", "feedbackId": "Setelah have, gunakan V3: tried." },
+          { "pattern": "I have saw the recipe", "feedbackId": "V3 dari see adalah seen." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "I ___ never ___ sushi before.",
+        "options": [
+          { "id": "A", "text": "have / eaten" },
+          { "id": "B", "text": "have / ate" },
+          { "id": "C", "text": "had / eaten" },
+          { "id": "D", "text": "has / eat" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Pengalaman belum pernah dengan before memakai present perfect: have never eaten. Ate adalah bentuk lampau, bukan V3.",
+        "stepByStep": [
+          "Subjek I memakai have.",
+          "Pengalaman dengan never memakai present perfect: have + V3.",
+          "V3 dari eat adalah eaten. Ate adalah simple past, dan had adalah bentuk lampau have."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Ate adalah simple past, bukan V3. Setelah have harus eaten." },
+          { "optionId": "C", "reasonId": "Had adalah past perfect atau simple past dari have, tidak cocok untuk pengalaman sekarang." },
+          { "optionId": "D", "reasonId": "Has untuk he, she, it. Subjek I memakai have, dan eat bukan V3." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pengalaman dengan never dan before memakai present perfect: have/has never + V3.",
+          "examples": [
+            { "en": "She has never been to Europe.", "id": "Dia belum pernah pergi ke Eropa." },
+            { "en": "We have never seen snow.", "id": "Kami belum pernah melihat salju." }
+          ]
+        },
+        "examTrap": "Pilihan B (have / ate) sering dipilih karena ate terdengar seperti bentuk yang benar. Tetapi setelah have harus V3: eaten."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I have went to Bali last year." },
+          { "id": "B", "text": "I have been to Bali last year." },
+          { "id": "C", "text": "I went to Bali last year." },
+          { "id": "D", "text": "I was been to Bali last year." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Last year adalah penanda waktu yang sudah selesai, sehingga memakai simple past: went.",
+        "stepByStep": [
+          "Last year menandakan waktu yang sudah selesai.",
+          "Dengan penanda waktu selesai, pakai simple past: went.",
+          "Pilihan A dan B memakai present perfect dengan last year, yang tidak boleh. Pilihan D salah bentuk."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Present perfect tidak boleh dengan last year. Went juga bukan V3." },
+          { "optionId": "B", "reasonId": "Present perfect tidak boleh dengan last year." },
+          { "optionId": "D", "reasonId": "Was been tidak benar. Pola ini tidak dipakai untuk kejadian ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Present perfect tidak memakai penanda waktu yang sudah selesai seperti yesterday, last year, atau two days ago.",
+          "examples": [
+            { "en": "I visited Bali in 2019.", "id": "Saya mengunjungi Bali tahun 2019." },
+            { "en": "Have you ever visited Bali?", "id": "Apakah kamu pernah mengunjungi Bali?" }
+          ]
+        },
+        "examTrap": "Pilihan A dan B memakai have, sehingga terlihat seperti kalimat present perfect. Tetapi last year menandakan simple past."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "She has lived ___ Surabaya ___ 2020.",
+        "options": [
+          { "id": "A", "text": "in / since" },
+          { "id": "B", "text": "at / for" },
+          { "id": "C", "text": "on / since" },
+          { "id": "D", "text": "in / from" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "In untuk kota, dan since untuk titik waktu yang dimulai dari tahun 2020.",
+        "stepByStep": [
+          "Surabaya adalah kota, sehingga in.",
+          "2020 adalah titik waktu mulai, sehingga since.",
+          "Pilihan B memakai at untuk kota dan for untuk titik waktu. Pilihan C dan D memakai preposisi yang tidak tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "At untuk kota kurang tepat, dan for dipakai untuk durasi, bukan titik waktu 2020." },
+          { "optionId": "C", "reasonId": "On untuk kota tidak tepat." },
+          { "optionId": "D", "reasonId": "From tidak dipakai di sini sebagai penanda waktu sebelum present perfect." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Since untuk titik waktu awal (since 2020). For untuk durasi (for three years).",
+          "examples": [
+            { "en": "He has worked here since 2018.", "id": "Dia sudah bekerja di sini sejak 2018." },
+            { "en": "We have lived in this house for ten years.", "id": "Kami sudah tinggal di rumah ini selama sepuluh tahun." }
+          ]
+        },
+        "examTrap": "Since dan for sering tertukar. Since diikuti titik waktu, for diikuti durasi."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Yesterday we cleaned the room, and now it ___ clean.",
+        "options": [
+          { "id": "A", "text": "is" },
+          { "id": "B", "text": "clean" },
+          { "id": "C", "text": "was" },
+          { "id": "D", "text": "has be" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Now menunjukkan keadaan sekarang, sehingga is clean. Penanda yesterday untuk klausa pertama memakai simple past.",
+        "stepByStep": [
+          "Klausa pertama: yesterday menandakan simple past, cleaned.",
+          "Klausa kedua: now menunjukkan keadaan sekarang, sehingga is clean.",
+          "Clean dan has be tidak membentuk keadaan sekarang yang benar. Was salah karena now menunjukkan sekarang, bukan masa lalu."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Clean tanpa to be tidak membentuk keadaan sekarang yang benar. Gunakan is clean." },
+          { "optionId": "C", "reasonId": "Was menunjukkan masa lalu, sedangkan now menunjukkan sekarang." },
+          { "optionId": "D", "reasonId": "Has be tidak benar. Setelah has harus been." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Yesterday menandakan masa lalu (simple past). Now menandakan keadaan sekarang (simple present).",
+          "examples": [
+            { "en": "We cleaned the kitchen yesterday, and now it is clean.", "id": "Kami membersihkan dapur kemarin, dan sekarang dapurnya bersih." },
+            { "en": "She finished the report last night, and now she is free.", "id": "Dia menyelesaikan laporan tadi malam, dan sekarang dia bebas." }
+          ]
+        },
+        "examTrap": "Pilihan B (clean) terlihat singkat, tetapi tanpa to be tidak membentuk keadaan sekarang. Klausa kedua membutuhkan is clean."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which question is correct?",
+        "options": [
+          { "id": "A", "text": "Have you ever saw a whale?" },
+          { "id": "B", "text": "Have you ever seen a whale?" },
+          { "id": "C", "text": "Did you ever seen a whale?" },
+          { "id": "D", "text": "Have you ever see a whale?" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pertanyaan pengalaman dengan ever memakai have + V3: seen.",
+        "stepByStep": [
+          "Pertanyaan pengalaman: have you ever + V3.",
+          "V3 dari see adalah seen.",
+          "Pilihan A memakai saw, pilihan C memakai did dengan V3, dan pilihan D memakai bentuk dasar setelah have."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Saw adalah simple past, bukan V3." },
+          { "optionId": "C", "reasonId": "Did tidak dipakai untuk present perfect. Setelah did, kata kerja dasar." },
+          { "optionId": "D", "reasonId": "Setelah have, harus V3: seen, bukan see." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Pertanyaan pengalaman: Have/Has + subjek + ever + V3?",
+          "examples": [
+            { "en": "Have they ever eaten durian?", "id": "Apakah mereka pernah makan durian?" },
+            { "en": "Has she ever visited Japan?", "id": "Apakah dia pernah mengunjungi Jepang?" }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat mirip dengan B, tetapi saw bukan V3. Setelah have, selalu V3."
+      }
+    ]
+  }
+}

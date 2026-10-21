@@ -18,13 +18,13 @@ Dibuat oleh `npm run content:status`. Jangan diedit manual.
 | 12 | 2 | Lolos validator |
 | 13 | 2 | Lolos validator |
 | 14 | 2 | Lolos validator |
-| 15 | 3 | Belum ada |
-| 16 | 3 | Belum ada |
-| 17 | 3 | Belum ada |
-| 18 | 3 | Belum ada |
-| 19 | 3 | Belum ada |
-| 20 | 3 | Belum ada |
-| 21 | 3 | Belum ada |
+| 15 | 3 | Lolos validator |
+| 16 | 3 | Lolos validator |
+| 17 | 3 | Lolos validator |
+| 18 | 3 | Lolos validator |
+| 19 | 3 | Lolos validator |
+| 20 | 3 | Lolos validator |
+| 21 | 3 | Lolos validator |
 | 22 | 4 | Belum ada |
 | 23 | 4 | Belum ada |
 | 24 | 4 | Belum ada |
@@ -95,4 +95,4 @@ Dibuat oleh `npm run content:status`. Jangan diedit manual.
 | 89 | 12 | Belum ada |
 | 90 | 12 | Belum ada |
 
-Ringkasan: 14 lolos, 0 gagal, 76 belum ada, dari 90 hari.
+Ringkasan: 21 lolos, 0 gagal, 69 belum ada, dari 90 hari.

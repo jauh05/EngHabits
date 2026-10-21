@@ -1,0 +1,603 @@
+{
+  "day": 16,
+  "week": 3,
+  "month": 1,
+  "title": "Modal Dasar: can, could, may, might, must, should",
+  "topic": "Modal verbs untuk kemampuan, izin, aturan, saran, dan kemungkinan, yang selalu diikuti kata kerja dasar",
+  "skillFocus": "listening",
+  "objectives": [
+    "Memilih modal yang tepat: can, must, should, may, might, atau don't have to",
+    "Menggunakan modal untuk kemampuan, izin, aturan, saran, dan kemungkinan",
+    "Memahami percakapan tentang aturan dan izin, lalu menjawab dengan bukti dari naskah"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "ability", "pronunciationId": "a-BIL-i-ti (tekanan di BIL, i pendek)", "pos": "Noun", "meaningId": "kemampuan", "example": "She has the ability to learn fast.", "exampleId": "Dia punya kemampuan untuk belajar cepat." },
+      { "no": 2, "en": "permission", "pronunciationId": "per-MI-shen (tekanan di MI, sh seperti 'sy')", "pos": "Noun", "meaningId": "izin", "example": "You need permission to enter.", "exampleId": "Kamu butuh izin untuk masuk." },
+      { "no": 3, "en": "advice", "pronunciationId": "ad-VAIS (tekanan di VAIS, s terdengar 's')", "pos": "Noun", "meaningId": "nasihat, saran", "example": "Thank you for your advice.", "exampleId": "Terima kasih atas sarannya." },
+      { "no": 4, "en": "necessary", "pronunciationId": "NE-se-se-ri (tekanan di NE, e pendek)", "pos": "Adj", "meaningId": "perlu, diperlukan", "example": "Is it necessary to bring a pen?", "exampleId": "Apakah perlu membawa pulpen?" },
+      { "no": 5, "en": "possible", "pronunciationId": "PO-si-bel (o pendek, l di akhir ringan)", "pos": "Adj", "meaningId": "mungkin, bisa dilakukan", "example": "Is it possible to finish today?", "exampleId": "Apakah mungkin menyelesaikannya hari ini?" },
+      { "no": 6, "en": "allowed", "pronunciationId": "a-LAUD (tekanan di LAUD, ou panjang)", "pos": "Adj", "meaningId": "diizinkan", "example": "Students are allowed to use the library.", "exampleId": "Mahasiswa diizinkan menggunakan perpustakaan." },
+      { "no": 7, "en": "rule", "pronunciationId": "RUL (u panjang, l jelas)", "pos": "Noun", "meaningId": "aturan", "example": "Follow the rule, please.", "exampleId": "Tolong ikuti aturannya." },
+      { "no": 8, "en": "duty", "pronunciationId": "DYOO-ti (y di awal, tekanan di DYOO)", "pos": "Noun", "meaningId": "tugas, kewajiban (tanggung jawab)", "example": "It is my duty to clean the room.", "exampleId": "Adalah tugas saya untuk membersihkan ruangan." },
+      { "no": 9, "en": "obligation", "pronunciationId": "ob-li-GAY-shen (tekanan di GAY)", "pos": "Noun", "meaningId": "kewajiban (hukum atau aturan)", "example": "We have an obligation to help.", "exampleId": "Kami punya kewajiban untuk membantu." },
+      { "no": 10, "en": "suggest", "pronunciationId": "su-JEST (tekanan di JEST, s di akhir)", "pos": "Verb", "meaningId": "menyarankan", "example": "I suggest you study early.", "exampleId": "Saya menyarankan kamu belajar lebih awal." }
+    ],
+    "tip": "Modal hanya punya satu bentuk, tanpa -s dan tanpa to. Jadi cukup ingat artinya: can untuk bisa dan izin, must untuk wajib, should untuk saran, dan may atau might untuk kemungkinan."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["modal verbs English beginners", "can could may might must should"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang modal verbs untuk pemula, dengan contoh kemampuan, aturan, saran, dan kemungkinan.",
+      "watchFor": [
+        "Perbedaan must dan should",
+        "Perbedaan must not dan don't have to",
+        "Kata kerja setelah modal selalu bentuk dasar"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan rambu lalu lintas. Ada rambu yang berkata 'wajib', ada yang berkata 'sebaiknya', dan ada yang berkata 'boleh'. Modal verbs bekerja seperti rambu itu. Mereka mengubah makna kalimat, tetapi bentuk kata kerja setelahnya tidak pernah berubah.",
+      "sections": [
+        {
+          "heading": "Kemampuan dan izin: can",
+          "bodyMd": "Gunakan **can** untuk kemampuan (**I can swim**) dan izin (**Can I come in?**). Bentuk lampaunya **could** dipakai untuk kemampuan di masa lalu: **I could read when I was four**."
+        },
+        {
+          "heading": "Aturan dan saran: must, should",
+          "bodyMd": "**Must** untuk kewajiban yang kuat: **You must wear a helmet.** **Should** untuk saran: **You should sleep early.** Untuk melarang, pakai **must not** (**You must not smoke here**). Untuk menyatakan tidak wajib, pakai **don't have to** (**You don't have to come early**)."
+        },
+        {
+          "heading": "Kemungkinan: may, might",
+          "bodyMd": "**May** dan **might** menyatakan kemungkinan: **It may rain tonight.**, **She might be late.** Keduanya sedikit berbeda, tetapi untuk pemula cukup dipakai untuk kemungkinan yang belum pasti."
+        }
+      ],
+      "formulas": [
+        { "label": "Kemampuan", "pattern": "subjek + can / could + kata kerja dasar" },
+        { "label": "Wajib", "pattern": "subjek + must + kata kerja dasar" },
+        { "label": "Dilarang", "pattern": "subjek + must not (mustn't) + kata kerja dasar" },
+        { "label": "Tidak wajib", "pattern": "subjek + don't / doesn't have to + kata kerja dasar" },
+        { "label": "Saran", "pattern": "subjek + should (not) + kata kerja dasar" },
+        { "label": "Kemungkinan", "pattern": "subjek + may / might (not) + kata kerja dasar" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I can speak two languages.", "id": "Saya bisa berbicara dua bahasa." },
+          { "en": "You must bring your student card.", "id": "Kamu wajib membawa kartu mahasiswa." },
+          { "en": "You should drink more water.", "id": "Kamu sebaiknya minum lebih banyak air." },
+          { "en": "It may rain this afternoon.", "id": "Mungkin hujan sore ini." },
+          { "en": "Students are allowed to use the lab.", "id": "Mahasiswa diizinkan memakai laboratorium." }
+        ],
+        "negative": [
+          { "en": "You must not touch the equipment.", "id": "Kamu dilarang menyentuh peralatan itu." },
+          { "en": "You don't have to pay today.", "id": "Kamu tidak perlu membayar hari ini." },
+          { "en": "I cannot come to the meeting.", "id": "Saya tidak bisa datang ke rapat." },
+          { "en": "You should not wait for me.", "id": "Kamu sebaiknya tidak menunggu saya." },
+          { "en": "She might not come to class.", "id": "Mungkin dia tidak datang ke kelas." }
+        ],
+        "question": [
+          { "en": "Can I borrow your pen?", "id": "Bolehkah saya meminjam pulpenmu?" },
+          { "en": "Must we submit the report today?", "id": "Apakah kami wajib menyerahkan laporan hari ini?" },
+          { "en": "Should I call the teacher first?", "id": "Apakah saya sebaiknya menelepon guru dulu?" },
+          { "en": "Could you help me with this task?", "id": "Bisakah kamu membantu saya dengan tugas ini?" },
+          { "en": "May I sit here?", "id": "Bolehkah saya duduk di sini?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "She can to swim.", "right": "She can swim.", "whyId": "Modal langsung diikuti kata kerja dasar tanpa to." },
+        { "wrong": "He cans speak English.", "right": "He can speak English.", "whyId": "Modal tidak menerima -s, walaupun subjeknya he, she, atau it." },
+        { "wrong": "You must to finish the test.", "right": "You must finish the test.", "whyId": "Setelah must, tidak ada to." },
+        { "wrong": "You don't must come early.", "right": "You don't have to come early.", "whyId": "Untuk tidak wajib, pakai don't have to. Must tidak dinegatifkan dengan don't." },
+        { "wrong": "I should to go now.", "right": "I should go now.", "whyId": "Setelah should, kata kerja dasar tanpa to." },
+        { "wrong": "It may to rain tonight.", "right": "It may rain tonight.", "whyId": "Setelah may, tidak ada to." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "listening",
+    "youtube": {
+      "keywords": ["modal verbs English beginners", "can could may might must should"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "watchFor": [
+        "Modal can, must, dan should dalam percakapan aturan",
+        "Kalimat tidak wajib dengan don't have to"
+      ]
+    },
+    "script": {
+      "title": "Aturan di laboratorium",
+      "lines": [
+        { "speaker": "Nia", "text": "Excuse me, can I borrow the lab key today?" },
+        { "speaker": "Hadi", "text": "You can borrow it, but only with permission from the head of the lab." },
+        { "speaker": "Nia", "text": "Is it possible to use the computers after five?" },
+        { "speaker": "Hadi", "text": "It is possible, but you must follow the lab rules." },
+        { "speaker": "Hadi", "text": "There is one important rule: always log out. It is your duty to clean your desk." },
+        { "speaker": "Nia", "text": "I see. Am I allowed to bring my own laptop?" },
+        { "speaker": "Hadi", "text": "Yes, you are allowed, but it is not necessary if the lab computers work well." },
+        { "speaker": "Nia", "text": "What about my ability to finish the project on time?" },
+        { "speaker": "Hadi", "text": "You have the ability to finish it. I suggest you start this week." },
+        { "speaker": "Nia", "text": "Thank you. Do I have any obligation to report the progress?" },
+        { "speaker": "Hadi", "text": "Yes, you have an obligation to report every Friday. Also, my advice is to take notes during each session." }
+      ]
+    },
+    "shadowingTips": [
+      "Pada can dan can't, bunyi a berbeda. Latih dengan kalimat can I dan can't you agar jelas.",
+      "Pada must, bunyi t sering hilang. Ucapkan must follow dengan jeda singkat.",
+      "Pada should, tekankan bunyi sh dan d di akhir ringan: should start."
+    ],
+    "questions": [
+      {
+        "id": "L1",
+        "type": "mcq",
+        "prompt": "What does Nia want to borrow?",
+        "options": [
+          { "id": "A", "text": "a laptop" },
+          { "id": "B", "text": "the lab key" },
+          { "id": "C", "text": "a book" },
+          { "id": "D", "text": "a projector" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Nia bertanya 'can I borrow the lab key today?', artinya ia ingin meminjam kunci laboratorium.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Laptop disebut sebagai barang yang ingin dibawa Nia nanti, bukan yang dipinjam hari ini." },
+          { "optionId": "C", "reasonId": "Buku tidak disebut dalam percakapan." },
+          { "optionId": "D", "reasonId": "Proyektor tidak disebut dalam percakapan." }
+        ],
+        "evidence": "can I borrow the lab key today"
+      },
+      {
+        "id": "L2",
+        "type": "mcq",
+        "prompt": "What does Nia need to borrow the key?",
+        "options": [
+          { "id": "A", "text": "money" },
+          { "id": "B", "text": "a student card" },
+          { "id": "C", "text": "a teacher's signature" },
+          { "id": "D", "text": "permission from the head of the lab" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Hadi berkata 'only with permission from the head of the lab', artinya izin dari kepala laboratorium diperlukan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Uang tidak disebut sebagai syarat peminjaman." },
+          { "optionId": "B", "reasonId": "Kartu mahasiswa tidak disebut sebagai syarat untuk kunci." },
+          { "optionId": "C", "reasonId": "Tanda tangan guru tidak disebut dalam percakapan." }
+        ],
+        "evidence": "only with permission from the head of the lab"
+      },
+      {
+        "id": "L3",
+        "type": "mcq",
+        "prompt": "What does Hadi say about using the computers after five?",
+        "options": [
+          { "id": "A", "text": "They are never available." },
+          { "id": "B", "text": "They are reserved for teachers." },
+          { "id": "C", "text": "They are closed on Friday." },
+          { "id": "D", "text": "It is possible to use them, but the lab rules apply." }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Hadi berkata 'It is possible, but you must follow the lab rules', artinya komputer bisa dipakai, tetapi aturan berlaku.",
+        "stepByStep": [
+          "Cari possible di naskah: 'It is possible, but you must follow the lab rules.'",
+          "Possible menunjukkan bahwa penggunaan memang diperbolehkan. Must menunjukkan aturan yang wajib diikuti.",
+          "Pilihan A, B, dan C bertentangan dengan 'possible'. Tidak ada yang menyebut tutup atau khusus guru."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Never available bertentangan dengan 'It is possible'." },
+          { "optionId": "B", "reasonId": "Khusus guru tidak disebut dalam percakapan." },
+          { "optionId": "C", "reasonId": "Tutup pada hari Jumat tidak disebut dalam percakapan." }
+        ],
+        "evidence": "It is possible, but you must follow the lab rules."
+      },
+      {
+        "id": "L4",
+        "type": "mcq",
+        "prompt": "What is Nia's duty, according to Hadi?",
+        "options": [
+          { "id": "A", "text": "to clean her desk" },
+          { "id": "B", "text": "to bring her own laptop" },
+          { "id": "C", "text": "to take notes" },
+          { "id": "D", "text": "to report the progress" }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "Hadi berkata 'It is your duty to clean your desk', artinya membersihkan meja adalah tugas Nia.",
+        "stepByStep": [
+          "Cari duty di naskah: 'It is your duty to clean your desk.'",
+          "Duty adalah tugas yang harus dilakukan. Objeknya membersihkan meja.",
+          "Laptop adalah sesuatu yang boleh (allowed), bukan tugas. Mencatat disarankan (advice). Melapor disebut sebagai obligation, berbeda dengan duty."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Membawa laptop adalah sesuatu yang diizinkan, bukan tugas." },
+          { "optionId": "C", "reasonId": "Mencatat disebut sebagai saran (advice), bukan tugas." },
+          { "optionId": "D", "reasonId": "Melapor disebut sebagai kewajiban (obligation), bukan duty yang dimaksud dalam pertanyaan." }
+        ],
+        "evidence": "It is your duty to clean your desk."
+      },
+      {
+        "id": "L5",
+        "type": "mcq",
+        "prompt": "Which statement about the laptop is best supported by the conversation?",
+        "options": [
+          { "id": "A", "text": "Nia must bring her laptop to the lab." },
+          { "id": "B", "text": "Nia is allowed to bring her laptop, but she does not need to." },
+          { "id": "C", "text": "The lab forbids all laptops." },
+          { "id": "D", "text": "Hadi wants Nia to buy a new laptop." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Hadi berkata 'you are allowed, but it is not necessary if the lab computers work well', artinya boleh, tetapi tidak wajib.",
+        "stepByStep": [
+          "Cari allowed dan necessary di naskah. Kalimatnya: 'you are allowed, but it is not necessary if the lab computers work well.'",
+          "Allowed menunjukkan izin. Not necessary menunjukkan tidak wajib.",
+          "Pilihan A bertentangan dengan 'not necessary'. Pilihan C bertentangan dengan 'allowed'. Pilihan D tidak disebut."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Membawa laptop tidak wajib, karena Hadi berkata 'not necessary'." },
+          { "optionId": "C", "reasonId": "Laptop diizinkan (allowed), jadi tidak dilarang." },
+          { "optionId": "D", "reasonId": "Hadi tidak menyebut membeli laptop baru." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Allowed berarti boleh, sedangkan necessary berarti perlu atau wajib. Sesuatu bisa diizinkan tetapi tidak wajib.",
+          "examples": [
+            { "en": "You are allowed to take a break, but it is not necessary.", "id": "Kamu boleh istirahat, tetapi tidak wajib." },
+            { "en": "Students are allowed to bring snacks, but they don't have to.", "id": "Mahasiswa boleh membawa camilan, tetapi mereka tidak harus." }
+          ]
+        },
+        "examTrap": "Jebakannya adalah mengira allowed berarti wajib. Allowed hanya memberi izin, dan necessary menunjukkan tidak ada kewajiban.",
+        "evidence": "you are allowed, but it is not necessary"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ speak three languages.",
+        "options": [
+          { "id": "A", "text": "must" },
+          { "id": "B", "text": "can" },
+          { "id": "C", "text": "should" },
+          { "id": "D", "text": "might" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Kalimat ini menyatakan kemampuan. Modal untuk kemampuan adalah can.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Must menyatakan kewajiban, bukan kemampuan." },
+          { "optionId": "C", "reasonId": "Should menyatakan saran, bukan kemampuan." },
+          { "optionId": "D", "reasonId": "Might menyatakan kemungkinan, bukan kemampuan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "You ___ wear a helmet when you ride a motorcycle. It is the law.",
+        "options": [
+          { "id": "A", "text": "must" },
+          { "id": "B", "text": "should" },
+          { "id": "C", "text": "can" },
+          { "id": "D", "text": "might" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Hukum atau aturan yang wajib diikuti memakai must.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Should untuk saran. Di sini ini adalah hukum yang wajib diikuti." },
+          { "optionId": "C", "reasonId": "Can menyatakan kemampuan atau izin, bukan kewajiban hukum." },
+          { "optionId": "D", "reasonId": "Might menyatakan kemungkinan, bukan kewajiban." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "He can to swim." },
+          { "id": "B", "text": "He can swims." },
+          { "id": "C", "text": "He can swim." },
+          { "id": "D", "text": "He cans swim." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Modal can diikuti kata kerja dasar tanpa to dan tanpa -s.",
+        "stepByStep": [
+          "Cek kata setelah can: harus kata kerja dasar.",
+          "Swim adalah bentuk dasar dan tidak memakai to atau -s.",
+          "Pilihan A menambahkan to. Pilihan B menambahkan -s. Pilihan D memberi -s pada modal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah can tidak ada to." },
+          { "optionId": "B", "reasonId": "Setelah can tidak ada -s, walaupun subjeknya he." },
+          { "optionId": "D", "reasonId": "Modal tidak menerima -s. Cans tidak benar." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "You ___ see a doctor if the pain continues. It is only a suggestion, not a rule.",
+        "options": [
+          { "id": "A", "text": "must" },
+          { "id": "B", "text": "should" },
+          { "id": "C", "text": "may" },
+          { "id": "D", "text": "can" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Kalimat menyebut 'only a suggestion', sehingga modal saran should.",
+        "stepByStep": [
+          "Cek petunjuk: 'It is only a suggestion, not a rule.' Itu menunjukkan saran.",
+          "Saran memakai should.",
+          "Must menunjukkan kewajiban, dan kalimat ini menolaknya. May dan can tidak menunjukkan saran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Must menunjukkan kewajiban, dan kalimat ini menyebut bukan aturan." },
+          { "optionId": "C", "reasonId": "May menyatakan kemungkinan atau izin, bukan saran." },
+          { "optionId": "D", "reasonId": "Can menyatakan kemampuan atau izin, bukan saran." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "You ___ come early tomorrow. The meeting has been cancelled.",
+        "options": [
+          { "id": "A", "text": "must not" },
+          { "id": "B", "text": "don't have to" },
+          { "id": "C", "text": "must" },
+          { "id": "D", "text": "should" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Rapat dibatalkan, jadi tidak ada kewajiban datang lebih awal. Itu makna don't have to.",
+        "stepByStep": [
+          "Cek konteks: rapat dibatalkan, sehingga tidak ada kewajiban datang.",
+          "Must not berarti dilarang, dan itu tidak sesuai. Must berarti wajib, dan itu juga tidak sesuai.",
+          "Don't have to berarti tidak perlu atau tidak wajib, yang sesuai dengan pembatalan rapat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Must not berarti dilarang. Kalimat ini tidak menyebut larangan." },
+          { "optionId": "C", "reasonId": "Must berarti wajib, dan rapat sudah dibatalkan." },
+          { "optionId": "D", "reasonId": "Should untuk saran, tetapi rapat dibatalkan sehingga tidak ada saran untuk datang." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Must not berarti dilarang. Don't have to berarti tidak wajib, boleh tidak dilakukan.",
+          "examples": [
+            { "en": "You must not smoke here.", "id": "Kamu dilarang merokok di sini." },
+            { "en": "You don't have to pay for the entrance.", "id": "Kamu tidak perlu membayar tiket masuk." }
+          ]
+        },
+        "examTrap": "Must not dan don't have to sering tertukar. Must not berarti dilarang, sedangkan don't have to berarti tidak wajib."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya bisa berenang dengan baik.",
+        "hint": "Kemampuan memakai can. Berenang: swim.",
+        "acceptedAnswers": ["I can swim well.", "I can swim very well."],
+        "modelAnswer": "I can swim well.",
+        "commonErrors": [{ "pattern": "I can to swim well", "feedbackId": "Setelah can tidak ada to." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kamu harus memakai helm di jalan.",
+        "hint": "Kewajiban memakai must. Memakai helm: wear a helmet.",
+        "acceptedAnswers": ["You must wear a helmet on the road.", "You must wear a helmet on the street."],
+        "modelAnswer": "You must wear a helmet on the road.",
+        "commonErrors": [{ "pattern": "You must to wear a helmet", "feedbackId": "Setelah must tidak ada to." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apakah saya boleh masuk ke ruang kelas sekarang?",
+        "hint": "Boleh atau diizinkan: am I allowed to. Masuk: enter atau go into.",
+        "acceptedAnswers": ["Am I allowed to enter the classroom now?", "Am I allowed to go into the classroom now?"],
+        "modelAnswer": "Am I allowed to enter the classroom now?",
+        "commonErrors": [{ "pattern": "Can I allowed to enter", "feedbackId": "Can dan allowed tidak dipakai bersama. Gunakan am I allowed to." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Saya sarankan kamu tidur lebih awal, karena besok kamu tidak perlu bangun pagi.",
+        "hint": "Saran: should atau I suggest. Tidak perlu: don't have to. Bangun pagi: wake up early.",
+        "acceptedAnswers": [
+          "I suggest you sleep early, because you don't have to wake up early tomorrow.",
+          "I suggest that you sleep early, because you do not have to wake up early tomorrow.",
+          "I suggest you sleep early because you don't have to wake up early tomorrow."
+        ],
+        "modelAnswer": "I suggest you sleep early, because you don't have to wake up early tomorrow.",
+        "commonErrors": [
+          { "pattern": "you must not wake up early", "feedbackId": "Must not berarti dilarang. Untuk tidak perlu, pakai don't have to." },
+          { "pattern": "I suggest you to sleep", "feedbackId": "Setelah I suggest you, kata kerja dasar tanpa to." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kami tidak boleh membawa makanan ke perpustakaan.",
+        "hint": "Dilarang: must not. Atau tidak diizinkan: are not allowed to.",
+        "acceptedAnswers": [
+          "We must not bring food to the library.",
+          "We mustn't bring food to the library.",
+          "We are not allowed to bring food to the library."
+        ],
+        "modelAnswer": "We must not bring food to the library.",
+        "commonErrors": [
+          { "pattern": "We don't must bring food", "feedbackId": "Larangan memakai must not, bukan don't must." },
+          { "pattern": "We can not bring food", "feedbackId": "Can not menyatakan ketidakmampuan. Untuk larangan, gunakan must not." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Choose the correct modal: 'You ___ be quiet in the library; it is the rule.'",
+        "options": [
+          { "id": "A", "text": "must" },
+          { "id": "B", "text": "can" },
+          { "id": "C", "text": "might" },
+          { "id": "D", "text": "could" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "It is the rule menunjukkan kewajiban yang kuat, sehingga must.",
+        "stepByStep": [
+          "Cek kata kunci: it is the rule, yang menunjukkan aturan wajib.",
+          "Modal untuk aturan wajib adalah must.",
+          "Can dan could menunjukkan kemampuan atau izin. Might menunjukkan kemungkinan."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Can menunjukkan izin atau kemampuan, bukan aturan wajib." },
+          { "optionId": "C", "reasonId": "Might menunjukkan kemungkinan, bukan kewajiban." },
+          { "optionId": "D", "reasonId": "Could menunjukkan kemampuan di masa lalu atau permintaan sopan, bukan aturan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Untuk aturan atau kewajiban yang kuat, gunakan must. Dalam konteks peraturan, must lebih tegas daripada should.",
+          "examples": [
+            { "en": "Students must show their card at the gate.", "id": "Mahasiswa wajib menunjukkan kartu mereka di gerbang." },
+            { "en": "Everyone must sign the form.", "id": "Semua orang wajib menandatangani formulir." }
+          ]
+        },
+        "examTrap": "Can terlihat cocok jika kamu mengira ini tentang izin. Tetapi it is the rule menandakan kewajiban, bukan izin."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence means 'It is not necessary to come early'?",
+        "options": [
+          { "id": "A", "text": "You must not come early." },
+          { "id": "B", "text": "You don't have to come early." },
+          { "id": "C", "text": "You can't come early." },
+          { "id": "D", "text": "You should not come early." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Tidak perlu datang lebih awal memakai don't have to, yang berarti tidak wajib.",
+        "stepByStep": [
+          "Makna yang diminta: tidak perlu, atau tidak wajib.",
+          "Don't have to berarti tidak wajib.",
+          "Must not berarti dilarang. Can't berarti tidak bisa. Should not berarti sebaiknya tidak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Must not berarti dilarang, bukan tidak perlu." },
+          { "optionId": "C", "reasonId": "Can't berarti tidak bisa, bukan tidak perlu." },
+          { "optionId": "D", "reasonId": "Should not berarti sebaiknya tidak, yaitu saran, bukan ketiadaan kewajiban." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Don't have to dan doesn't have to berarti tidak wajib. Pilihan ini berbeda dari must not yang berarti dilarang.",
+          "examples": [
+            { "en": "She doesn't have to work on Sunday.", "id": "Dia tidak perlu bekerja hari Minggu." },
+            { "en": "We don't have to pay now.", "id": "Kami tidak perlu membayar sekarang." }
+          ]
+        },
+        "examTrap": "Pilihan D (should not) terdengar seperti tidak perlu, tetapi sebenarnya itu saran untuk tidak melakukan sesuatu."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "She ___ speak English, but she ___ still practicing every day.",
+        "options": [
+          { "id": "A", "text": "can / is" },
+          { "id": "B", "text": "can / was" },
+          { "id": "C", "text": "could / are" },
+          { "id": "D", "text": "must / is to" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Can menunjukkan kemampuan. Practicing dengan she dan still menunjukkan aksi yang sedang berlangsung, sehingga is practicing.",
+        "stepByStep": [
+          "Klausa pertama: can untuk kemampuan.",
+          "Klausa kedua: she is still practicing, present continuous.",
+          "Pilihan B memakai was, yang lampau. Pilihan C memakai are untuk she. Pilihan D memakai is to yang tidak benar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Was tidak cocok untuk she dalam kalimat sekarang." },
+          { "optionId": "C", "reasonId": "Are tidak cocok untuk she. Could untuk kemampuan masa lalu, bukan sekarang." },
+          { "optionId": "D", "reasonId": "Is to tidak membentuk kalimat yang benar. Must tidak cocok dengan konteks kemampuan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Can untuk kemampuan sekarang. Still dengan present continuous menunjukkan aksi yang belum selesai.",
+          "examples": [
+            { "en": "He can play the guitar, and he is still learning new songs.", "id": "Dia bisa memainkan gitar, dan dia masih belajar lagu baru." },
+            { "en": "We can swim, and we are still practicing our strokes.", "id": "Kami bisa berenang, dan kami masih berlatih gaya renang." }
+          ]
+        },
+        "examTrap": "Pilihan B (can / was) terlihat seperti pasangan yang masuk akal, tetapi was salah untuk she di kalimat sekarang."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "The rule is written ___ the notice board ___ the entrance.",
+        "options": [
+          { "id": "A", "text": "on / at" },
+          { "id": "B", "text": "in / on" },
+          { "id": "C", "text": "at / in" },
+          { "id": "D", "text": "on / in" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "On the notice board untuk permukaan papan, dan at the entrance untuk titik tertentu.",
+        "stepByStep": [
+          "The notice board adalah permukaan papan, sehingga on.",
+          "The entrance adalah titik tertentu di pintu masuk, sehingga at.",
+          "Pilihan B memakai in untuk papan dan on untuk pintu. Pilihan C dan D membalik pola."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "In the notice board tidak lazim untuk papan. On the entrance tidak lazim untuk titik." },
+          { "optionId": "C", "reasonId": "At the notice board dan in the entrance tidak tepat." },
+          { "optionId": "D", "reasonId": "On untuk papan benar, tetapi in untuk pintu masuk tidak tepat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "On untuk permukaan seperti papan. At untuk titik tertentu seperti pintu atau stasiun.",
+          "examples": [
+            { "en": "The poster is on the wall.", "id": "Poster itu ada di dinding." },
+            { "en": "Meet me at the entrance.", "id": "Temui saya di pintu masuk." }
+          ]
+        },
+        "examTrap": "Notice board terlihat seperti ruang, tetapi itu permukaan papan, sehingga on."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "You might to call the teacher." },
+          { "id": "B", "text": "You might call the teacher." },
+          { "id": "C", "text": "You might calling the teacher." },
+          { "id": "D", "text": "You might calls the teacher." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Setelah might, kata kerja bentuk dasar tanpa to dan tanpa -ing atau -s.",
+        "stepByStep": [
+          "Might diikuti kata kerja dasar: call.",
+          "Pilihan A menambahkan to. Pilihan C menambahkan -ing. Pilihan D menambahkan -s.",
+          "Hanya pilihan B yang mengikuti pola modal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Setelah might tidak ada to." },
+          { "optionId": "C", "reasonId": "Setelah might tidak ada -ing." },
+          { "optionId": "D", "reasonId": "Modal tidak menerima -s, walaupun subjeknya you." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Semua modal (can, could, may, might, must, should, will) diikuti kata kerja dasar.",
+          "examples": [
+            { "en": "It might rain this evening.", "id": "Mungkin hujan sore ini." },
+            { "en": "You should check the schedule.", "id": "Kamu sebaiknya memeriksa jadwalnya." }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti kalimat dengan to yang lebih formal. Modal tidak pernah diikuti to."
+      }
+    ]
+  }
+}

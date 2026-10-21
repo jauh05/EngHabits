@@ -1,0 +1,582 @@
+{
+  "day": 19,
+  "week": 3,
+  "month": 1,
+  "title": "Countable, Uncountable & Quantifiers",
+  "topic": "Kata benda yang bisa dan tidak bisa dihitung, serta many, much, a lot of, some, any, a few, dan a little",
+  "skillFocus": "reading",
+  "objectives": [
+    "Membedakan kata benda yang bisa dihitung dan tidak bisa dihitung",
+    "Memilih many, much, a few, atau a little sesuai jenis kata benda",
+    "Membaca teks tentang usaha kecil dan menjawab pertanyaan dengan bukti dari teks"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "water", "pronunciationId": "WAW-ter (aw panjang, t lembut di tengah)", "pos": "Noun", "meaningId": "air", "example": "I drink water every morning.", "exampleId": "Saya minum air setiap pagi." },
+      { "no": 2, "en": "rice", "pronunciationId": "RAIS (ai panjang, s di akhir)", "pos": "Noun", "meaningId": "nasi, beras", "example": "We eat rice for lunch.", "exampleId": "Kami makan nasi untuk makan siang." },
+      { "no": 3, "en": "sugar", "pronunciationId": "SHU-ger (sh tajam, u pendek, r ringan)", "pos": "Noun", "meaningId": "gula", "example": "Add some sugar to the tea.", "exampleId": "Tambahkan sedikit gula ke tehnya." },
+      { "no": 4, "en": "milk", "pronunciationId": "MILK (i pendek, k di akhir jelas)", "pos": "Noun", "meaningId": "susu", "example": "The baby drinks milk.", "exampleId": "Bayi itu minum susu." },
+      { "no": 5, "en": "coffee", "pronunciationId": "KO-fi (o panjang, ee di akhir pendek)", "pos": "Noun", "meaningId": "kopi", "example": "She likes hot coffee.", "exampleId": "Dia suka kopi panas." },
+      { "no": 6, "en": "bread", "pronunciationId": "BRED (e pendek, d di akhir)", "pos": "Noun", "meaningId": "roti", "example": "The bread is fresh.", "exampleId": "Rotinya segar." },
+      { "no": 7, "en": "money", "pronunciationId": "MUN-i (u pendek, y di akhir seperti i)", "pos": "Noun", "meaningId": "uang", "example": "I don't have much money.", "exampleId": "Saya tidak punya banyak uang." },
+      { "no": 8, "en": "traffic", "pronunciationId": "TRA-fik (a pendek, f jelas)", "pos": "Noun", "meaningId": "lalu lintas", "example": "The traffic is heavy at noon.", "exampleId": "Lalu lintasnya padat pada tengah hari." },
+      { "no": 9, "en": "furniture", "pronunciationId": "FUR-ni-cher (u seperti 'er', ch di akhir)", "pos": "Noun", "meaningId": "perabot", "example": "The furniture is new.", "exampleId": "Perabotnya baru." },
+      { "no": 10, "en": "equipment", "pronunciationId": "i-KWIP-ment (tekanan di KWIP)", "pos": "Noun", "meaningId": "peralatan", "example": "The equipment is expensive.", "exampleId": "Peralatannya mahal." }
+    ],
+    "tip": "Kata benda tidak bisa dihitung tidak punya bentuk jamak. Jangan menulis waters atau furnitures. Jika ingin menghitungnya, pakai satuan: a glass of water, two bags of rice, a piece of furniture."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["countable and uncountable nouns English", "much many a lot of English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit tentang kata benda yang bisa dan tidak bisa dihitung, dengan contoh much, many, dan a lot of.",
+      "watchFor": [
+        "Kata benda yang tidak bisa dihitung seperti water, money, dan furniture",
+        "Perbedaan many untuk benda yang bisa dihitung dan much untuk yang tidak",
+        "Perbedaan a few dan a little"
+      ]
+    },
+    "lesson": {
+      "intro": "Bayangkan kamu berbelanja. Ada barang yang bisa dihitung satu per satu, seperti apel dan buku. Ada barang yang diukur dengan wadah atau jumlah, seperti air dan gula. Pembedaan ini menentukan kata mana yang boleh kamu pakai bersama kata benda itu.",
+      "sections": [
+        {
+          "heading": "Bisa dihitung dan tidak bisa dihitung",
+          "bodyMd": "Kata benda **countable** bisa dihitung dan punya bentuk jamak: **apple, apples**, **book, books**. Kata benda **uncountable** tidak bisa dihitung dan tidak punya jamak: **water, rice, sugar, money, furniture, equipment**. Untuk menghitungnya, pakai satuan seperti **a glass of water** atau **a bag of rice**."
+        },
+        {
+          "heading": "Many, much, a lot of, some, any",
+          "bodyMd": "**Many** untuk benda yang bisa dihitung: **many books**. **Much** untuk benda yang tidak bisa dihitung: **much water**. **A lot of** bisa dipakai untuk keduanya. **Some** untuk kalimat positif, **any** untuk negatif dan pertanyaan, dan keduanya bisa dipakai dengan kedua jenis kata benda."
+        },
+        {
+          "heading": "A few dan a little",
+          "bodyMd": "**A few** untuk benda yang bisa dihitung dan berarti sedikit tetapi cukup: **a few friends**. **A little** untuk benda yang tidak bisa dihitung: **a little sugar**. Tanpa a, **few** dan **little** berarti sangat sedikit atau hampir tidak ada: **few friends**, **little time**."
+        }
+      ],
+      "formulas": [
+        { "label": "Bisa dihitung", "pattern": "many / a few / a lot of + kata benda jamak" },
+        { "label": "Tidak bisa dihitung", "pattern": "much / a little / a lot of + kata benda tunggal yang tidak dihitung" },
+        { "label": "Satuan", "pattern": "a glass of / a bag of / a piece of + kata benda tidak dihitung" },
+        { "label": "Some dan any", "pattern": "some untuk positif, any untuk negatif dan tanya" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "We need some sugar for the cake.", "id": "Kami butuh sedikit gula untuk kuenya." },
+          { "en": "She has a few good friends.", "id": "Dia punya beberapa teman baik." },
+          { "en": "There is a lot of traffic today.", "id": "Lalu lintas hari ini sangat padat." },
+          { "en": "I drink a glass of water every morning.", "id": "Saya minum segelas air setiap pagi." },
+          { "en": "They have a little money left.", "id": "Mereka masih punya sedikit uang." }
+        ],
+        "negative": [
+          { "en": "I don't have much time today.", "id": "Saya tidak punya banyak waktu hari ini." },
+          { "en": "There aren't many students in the room.", "id": "Tidak banyak mahasiswa di dalam ruangan." },
+          { "en": "We don't need any rice.", "id": "Kami tidak butuh nasi sama sekali." },
+          { "en": "The furniture is not expensive.", "id": "Perabotnya tidak mahal." },
+          { "en": "She doesn't have any coffee.", "id": "Dia tidak punya kopi sama sekali." }
+        ],
+        "question": [
+          { "en": "How much money do you have?", "id": "Berapa banyak uang yang kamu punya?" },
+          { "en": "How many books did you buy?", "id": "Berapa banyak buku yang kamu beli?" },
+          { "en": "Is there any milk in the fridge?", "id": "Apakah ada susu di kulkas?" },
+          { "en": "Do you need any help?", "id": "Apakah kamu butuh bantuan?" },
+          { "en": "Are there many people at the market?", "id": "Apakah banyak orang di pasar?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I have many water.", "right": "I have a lot of water.", "whyId": "Water tidak bisa dihitung, jadi tidak dipakai many." },
+        { "wrong": "There are much students.", "right": "There are many students.", "whyId": "Students bisa dihitung, jadi pakai many, bukan much." },
+        { "wrong": "I need a few sugar.", "right": "I need a little sugar.", "whyId": "Sugar tidak bisa dihitung, jadi pakai a little." },
+        { "wrong": "The furnitures are new.", "right": "The furniture is new.", "whyId": "Furniture tidak punya bentuk jamak dan memakai is." },
+        { "wrong": "We have two rices.", "right": "We have two bags of rice.", "whyId": "Rice tidak bisa dihitung langsung. Gunakan satuan seperti bags of." },
+        { "wrong": "I don't have some money.", "right": "I don't have any money.", "whyId": "Dalam kalimat negatif, gunakan any, bukan some." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Kafe Kecil Rina",
+    "text": "Rina opened a small café last year. She needs water, rice, sugar, milk, and coffee every day. The bread arrives early in the morning. There is not much money in the bank, so she counts every coin. Traffic near the café is heavy at lunchtime, so many customers come on foot. The furniture in the room is old, but it is comfortable. The equipment for making coffee is expensive, and she needs more of it. She has a few regular customers, and they always order a cup of coffee with a little sugar. Rina says she does not need much, but she needs more time.",
+    "glossary": [
+      { "en": "café", "id": "kafe" },
+      { "en": "counts", "id": "menghitung" },
+      { "en": "coin", "id": "koin" },
+      { "en": "regular", "id": "tetap, langganan" },
+      { "en": "arrives", "id": "tiba, datang" },
+      { "en": "comfortable", "id": "nyaman" },
+      { "en": "order", "id": "memesan" },
+      { "en": "customers", "id": "pelanggan" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "How much money does Rina have in the bank?",
+        "options": [
+          { "id": "A", "text": "a lot of money" },
+          { "id": "B", "text": "not much money" },
+          { "id": "C", "text": "enough for new furniture" },
+          { "id": "D", "text": "no money at all" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Teks menulis 'There is not much money in the bank', artinya uangnya tidak banyak.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut uangnya tidak banyak, bertentangan dengan 'a lot of money'." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut uang cukup untuk perabot baru." },
+          { "optionId": "D", "reasonId": "Teks tidak mengatakan tidak punya uang sama sekali. Rina menghitung setiap koin." }
+        ],
+        "evidence": "There is not much money in the bank"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "How many regular customers does Rina have?",
+        "options": [
+          { "id": "A", "text": "many" },
+          { "id": "B", "text": "none" },
+          { "id": "C", "text": "a few" },
+          { "id": "D", "text": "hundreds" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'She has a few regular customers', artinya ia punya beberapa pelanggan tetap.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Many tidak disebut. Teks menyebut a few." },
+          { "optionId": "B", "reasonId": "None bertentangan dengan 'a few regular customers'." },
+          { "optionId": "D", "reasonId": "Ratusan tidak disebut dalam teks." }
+        ],
+        "evidence": "She has a few regular customers"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "Why do many customers come on foot?",
+        "options": [
+          { "id": "A", "text": "The café is free." },
+          { "id": "B", "text": "The bread is free." },
+          { "id": "C", "text": "Traffic is heavy at lunchtime." },
+          { "id": "D", "text": "The furniture is comfortable." }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Traffic near the café is heavy at lunchtime, so many customers come on foot'.",
+        "stepByStep": [
+          "Cari kata so dalam kalimat tentang lalu lintas. Sebab dan akibat: traffic is heavy, so many customers come on foot.",
+          "Lalu lintas yang padat membuat pelanggan memilih berjalan kaki.",
+          "Kafe gratis dan roti gratis tidak disebut. Perabot yang nyaman tidak berhubungan dengan jalan kaki."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Kafe tidak disebut gratis." },
+          { "optionId": "B", "reasonId": "Roti tidak disebut gratis. Roti datang pagi hari." },
+          { "optionId": "D", "reasonId": "Perabot yang nyaman tidak menjelaskan pelanggan berjalan kaki." }
+        ],
+        "evidence": "Traffic near the café is heavy at lunchtime, so many customers come on foot."
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "Which item is described as expensive?",
+        "options": [
+          { "id": "A", "text": "the bread" },
+          { "id": "B", "text": "the sugar" },
+          { "id": "C", "text": "the furniture" },
+          { "id": "D", "text": "the equipment for making coffee" }
+        ],
+        "difficulty": "medium",
+        "correct": "D",
+        "explanationId": "Teks menulis 'The equipment for making coffee is expensive'.",
+        "stepByStep": [
+          "Cari kata expensive di teks: 'The equipment for making coffee is expensive.'",
+          "Subjek kalimat itu adalah the equipment for making coffee, yang berupa kata benda tidak dihitung.",
+          "Perabot disebut tua tetapi nyaman. Roti datang pagi. Gula tidak disebut mahal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Roti hanya disebut datang pagi hari, tidak disebut mahal." },
+          { "optionId": "B", "reasonId": "Gula disebut bagian kebutuhan, tidak disebut mahal." },
+          { "optionId": "C", "reasonId": "Perabot disebut tua tetapi nyaman, bukan mahal." }
+        ],
+        "evidence": "The equipment for making coffee is expensive"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What does Rina's statement suggest about her biggest limit?",
+        "options": [
+          { "id": "A", "text": "Her main limit is time, not money, even though money is tight." },
+          { "id": "B", "text": "She has plenty of time but no customers." },
+          { "id": "C", "text": "She wants to close the café." },
+          { "id": "D", "text": "She has no need for equipment." }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Rina berkata 'she does not need much, but she needs more time'. Jadi kendala utamanya waktu, walaupun uang juga terbatas.",
+        "stepByStep": [
+          "Cari pernyataan Rina: 'Rina says she does not need much, but she needs more time.'",
+          "Kata but menunjukkan pertentangan. Ia tidak banyak membutuhkan sesuatu, tetapi ia butuh lebih banyak waktu.",
+          "Pilihan B bertentangan dengan 'a few regular customers' yang cukup. Pilihan C tidak disebut. Pilihan D bertentangan dengan 'the equipment is expensive'."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Teks menyebut ia punya beberapa pelanggan tetap, dan tidak menyebut kekurangan waktu karena kurang pelanggan." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut Rina ingin menutup kafenya." },
+          { "optionId": "D", "reasonId": "Teks menyebut ia perlu lebih banyak peralatan (she needs more of it)." }
+        ],
+        "ruleAndExamples": {
+          "rule": "But menandai pertentangan. Bagian setelah but biasanya berisi inti pesan pembicara.",
+          "examples": [
+            { "en": "I don't need much money, but I need more time.", "id": "Saya tidak banyak membutuhkan uang, tetapi saya butuh lebih banyak waktu." },
+            { "en": "The food is cheap, but the service is slow.", "id": "Makanannya murah, tetapi pelayanannya lambat." }
+          ]
+        },
+        "examTrap": "Pilihan A mengandung money yang tidak banyak. Tetapi inti kalimat ada di bagian setelah but, yaitu waktu.",
+        "evidence": "she needs more time"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "We need ___ sugar for the cake.",
+        "options": [
+          { "id": "A", "text": "a" },
+          { "id": "B", "text": "many" },
+          { "id": "C", "text": "some" },
+          { "id": "D", "text": "a few" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Sugar tidak bisa dihitung, dan kalimat positif memakai some.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "A tidak dipakai untuk kata benda yang tidak bisa dihitung." },
+          { "optionId": "B", "reasonId": "Many untuk kata benda yang bisa dihitung, bukan sugar." },
+          { "optionId": "D", "reasonId": "A few untuk kata benda yang bisa dihitung, bukan sugar." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "How ___ water is left in the bottle?",
+        "options": [
+          { "id": "A", "text": "many" },
+          { "id": "B", "text": "much" },
+          { "id": "C", "text": "few" },
+          { "id": "D", "text": "a lot" }
+        ],
+        "difficulty": "easy",
+        "correct": "B",
+        "explanationId": "Water tidak bisa dihitung, dan pertanyaan 'berapa banyak' untuk benda seperti ini memakai much.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Many untuk kata benda yang bisa dihitung, bukan water." },
+          { "optionId": "C", "reasonId": "Few untuk kata benda yang bisa dihitung, dan tidak tepat dalam pertanyaan ini." },
+          { "optionId": "D", "reasonId": "A lot tidak dipakai dalam pola how + much atau how many." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "There are many people here." },
+          { "id": "B", "text": "There are much people here." },
+          { "id": "C", "text": "There is many people here." },
+          { "id": "D", "text": "There is much people here." }
+        ],
+        "difficulty": "medium",
+        "correct": "A",
+        "explanationId": "People adalah kata benda jamak yang bisa dihitung, sehingga memakai many dan are.",
+        "stepByStep": [
+          "Cek kata benda: people adalah jamak.",
+          "Kata benda jamak memakai many, bukan much.",
+          "Kata benda jamak memakai are. Pilihan C dan D memakai is, yang tunggal."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Much salah untuk people yang bisa dihitung." },
+          { "optionId": "C", "reasonId": "Is salah untuk people yang jamak." },
+          { "optionId": "D", "reasonId": "Much dan is keduanya salah di sini." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "I don't have ___ time today.",
+        "options": [
+          { "id": "A", "text": "many" },
+          { "id": "B", "text": "a few" },
+          { "id": "C", "text": "much" },
+          { "id": "D", "text": "several" }
+        ],
+        "difficulty": "medium",
+        "correct": "C",
+        "explanationId": "Time tidak bisa dihitung, dan kalimat negatif memakai much.",
+        "stepByStep": [
+          "Time adalah kata benda yang tidak bisa dihitung, seperti waktu secara umum.",
+          "Dalam kalimat negatif, untuk kata benda tidak bisa dihitung, gunakan much.",
+          "Many, a few, dan several hanya untuk kata benda yang bisa dihitung."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Many tidak dipakai untuk time yang tidak bisa dihitung." },
+          { "optionId": "B", "reasonId": "A few tidak dipakai untuk time yang tidak bisa dihitung." },
+          { "optionId": "D", "reasonId": "Several hanya untuk kata benda yang bisa dihitung." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "There is ___ traffic on the road, so we need ___ extra time.",
+        "options": [
+          { "id": "A", "text": "many / few" },
+          { "id": "B", "text": "a lot of / a lot of" },
+          { "id": "C", "text": "a few / a few" },
+          { "id": "D", "text": "much / many" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Traffic dan time keduanya tidak bisa dihitung. A lot of bisa dipakai dengan kata benda seperti ini.",
+        "stepByStep": [
+          "Cek kata benda: traffic dan time tidak bisa dihitung.",
+          "Many dan few hanya untuk kata benda yang bisa dihitung, sehingga pilihan A salah.",
+          "A few dan a few tidak cocok karena keduanya untuk benda yang bisa dihitung. Pilihan D memakai many untuk time, yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Many dan few tidak dipakai untuk traffic dan time yang tidak bisa dihitung." },
+          { "optionId": "C", "reasonId": "A few hanya untuk kata benda yang bisa dihitung. Traffic dan time tidak bisa dihitung." },
+          { "optionId": "D", "reasonId": "Many salah untuk time yang tidak bisa dihitung." }
+        ],
+        "ruleAndExamples": {
+          "rule": "A lot of bisa dipakai dengan kata benda yang bisa dihitung maupun tidak bisa dihitung. Itu pilihan aman untuk pemula.",
+          "examples": [
+            { "en": "There is a lot of water in the lake.", "id": "Ada banyak air di danau itu." },
+            { "en": "We have a lot of friends in the city.", "id": "Kami punya banyak teman di kota itu." }
+          ]
+        },
+        "examTrap": "Pilihan D (much / many) sering dipilih karena kedua kata ini terdengar seperti pasangan yang benar. Tetapi many salah untuk time yang tidak bisa dihitung."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Saya minum air putih setiap pagi.",
+        "hint": "Air putih: water. Kata benda tidak bisa dihitung tidak diberi -s.",
+        "acceptedAnswers": ["I drink water every morning.", "I drink water every morning"],
+        "modelAnswer": "I drink water every morning.",
+        "commonErrors": [{ "pattern": "I drink waters every morning", "feedbackId": "Water tidak bisa dihitung, jadi tidak punya bentuk jamak." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Kami tidak punya banyak uang.",
+        "hint": "Uang tidak bisa dihitung. Negatif dengan banyak: not much.",
+        "acceptedAnswers": ["We do not have much money.", "We don't have much money."],
+        "modelAnswer": "We do not have much money.",
+        "commonErrors": [{ "pattern": "We do not have many money", "feedbackId": "Money tidak bisa dihitung, jadi gunakan much." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Dia membeli sedikit gula dan dua kotak susu.",
+        "hint": "Sedikit gula: a little sugar. Dua kotak susu: two boxes of milk.",
+        "acceptedAnswers": ["She bought a little sugar and two boxes of milk.", "She bought a little sugar and two cartons of milk."],
+        "modelAnswer": "She bought a little sugar and two boxes of milk.",
+        "commonErrors": [{ "pattern": "She bought a few sugar", "feedbackId": "Sugar tidak bisa dihitung, jadi gunakan a little." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Ada banyak lalu lintas di jalan, jadi peralatan itu sampai terlambat.",
+        "hint": "Banyak lalu lintas: a lot of traffic. Peralatan: the equipment. Sampai terlambat: arrived late.",
+        "acceptedAnswers": [
+          "There is a lot of traffic on the road, so the equipment arrived late.",
+          "There is a lot of traffic on the road so the equipment arrived late."
+        ],
+        "modelAnswer": "There is a lot of traffic on the road, so the equipment arrived late.",
+        "commonErrors": [
+          { "pattern": "There are many traffic", "feedbackId": "Traffic tidak bisa dihitung. Gunakan a lot of." },
+          { "pattern": "the equipments arrived", "feedbackId": "Equipment tidak punya bentuk jamak." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Kami hanya punya sedikit teman di kota ini, tetapi kami punya banyak waktu.",
+        "hint": "Sedikit teman: a few friends (bisa dihitung). Banyak waktu: a lot of time (tidak bisa dihitung).",
+        "acceptedAnswers": [
+          "We have only a few friends in this city, but we have a lot of time.",
+          "We have only a few friends in this city but we have a lot of time."
+        ],
+        "modelAnswer": "We have only a few friends in this city, but we have a lot of time.",
+        "commonErrors": [
+          { "pattern": "We have only a little friends", "feedbackId": "Friends bisa dihitung, jadi gunakan a few." },
+          { "pattern": "we have many time", "feedbackId": "Time tidak bisa dihitung. Gunakan a lot of." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I need informations about the price." },
+          { "id": "B", "text": "I need information about the price." },
+          { "id": "C", "text": "I need an information about the price." },
+          { "id": "D", "text": "I need informations on prices." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Information adalah kata benda yang tidak bisa dihitung, dan tidak punya bentuk jamak maupun artikel a.",
+        "stepByStep": [
+          "Information tidak bisa dihitung, jadi tidak punya bentuk jamak.",
+          "Tidak ada artikel a atau an sebelum information.",
+          "Pilihan A dan D memakai informations yang salah. Pilihan C memakai an information yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Informations tidak benar. Information tidak punya bentuk jamak." },
+          { "optionId": "C", "reasonId": "An information salah. Information tidak dipakai dengan artikel a atau an." },
+          { "optionId": "D", "reasonId": "Informations salah, dan prices tidak perlu di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Information, advice, news, dan furniture tidak bisa dihitung. Untuk menghitungnya, pakai piece of atau bit of.",
+          "examples": [
+            { "en": "She gave me some advice.", "id": "Dia memberi saya sedikit saran." },
+            { "en": "I need a piece of information.", "id": "Saya butuh satu informasi." }
+          ]
+        },
+        "examTrap": "Information sering dibuat jamak karena dalam bahasa Indonesia 'informasi-informasi' terdengar jamak. Dalam bahasa Inggris, information tetap tunggal."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "How ___ people came to the festival? I think it was a lot, but I don't know the number.",
+        "options": [
+          { "id": "A", "text": "much" },
+          { "id": "B", "text": "many" },
+          { "id": "C", "text": "a lot" },
+          { "id": "D", "text": "few" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "People bisa dihitung, sehingga pertanyaan 'berapa banyak' memakai how many.",
+        "stepByStep": [
+          "Cek kata benda: people bisa dihitung, dan jumlahnya ditanyakan.",
+          "Untuk kata benda yang bisa dihitung, pertanyaan jumlah memakai how many.",
+          "How much untuk kata benda tidak bisa dihitung. A lot dan few bukan pertanyaan jumlah yang tepat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "How much tidak untuk kata benda yang bisa dihitung seperti people." },
+          { "optionId": "C", "reasonId": "A lot tidak dipakai setelah how dalam pertanyaan jumlah." },
+          { "optionId": "D", "reasonId": "Few tidak cocok dalam pertanyaan jumlah ini, dan bertentangan dengan 'a lot'." }
+        ],
+        "ruleAndExamples": {
+          "rule": "How many untuk kata benda yang bisa dihitung. How much untuk kata benda yang tidak bisa dihitung.",
+          "examples": [
+            { "en": "How many cups of coffee do you want?", "id": "Berapa cangkir kopi yang kamu mau?" },
+            { "en": "How much rice do we need?", "id": "Berapa banyak nasi yang kita butuhkan?" }
+          ]
+        },
+        "examTrap": "How much sering dipakai untuk semua pertanyaan jumlah. Gunakan how many untuk kata benda yang bisa dihitung."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "She has worked in this café ___ two years, and she has had the same coffee machine ___ 2022.",
+        "options": [
+          { "id": "A", "text": "for / since" },
+          { "id": "B", "text": "since / for" },
+          { "id": "C", "text": "for / for" },
+          { "id": "D", "text": "since / since" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Two years adalah durasi, sehingga for. 2022 adalah titik waktu awal, sehingga since.",
+        "stepByStep": [
+          "Two years adalah durasi (berapa lama), sehingga for.",
+          "2022 adalah titik waktu awal, sehingga since.",
+          "Pilihan B membalik. Pilihan C memakai for untuk titik waktu. Pilihan D memakai since untuk durasi."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Since untuk durasi two years salah, dan for untuk 2022 salah." },
+          { "optionId": "C", "reasonId": "For untuk 2022 salah. For diikuti durasi, bukan tahun." },
+          { "optionId": "D", "reasonId": "Since untuk two years salah. Gunakan for untuk durasi." }
+        ],
+        "ruleAndExamples": {
+          "rule": "For diikuti durasi, since diikuti titik waktu awal.",
+          "examples": [
+            { "en": "We have studied here for three years.", "id": "Kami sudah belajar di sini selama tiga tahun." },
+            { "en": "We have studied here since 2021.", "id": "Kami sudah belajar di sini sejak 2021." }
+          ]
+        },
+        "examTrap": "Two years dan 2022 keduanya angka, tetapi satu adalah durasi dan satu adalah titik waktu."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "You ___ buy the rice today, because we have enough; you ___ buy the bread.",
+        "options": [
+          { "id": "A", "text": "don't have to / must" },
+          { "id": "B", "text": "must not / can" },
+          { "id": "C", "text": "should / must" },
+          { "id": "D", "text": "can / must not" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Kita sudah punya cukup beras, jadi tidak wajib membeli. Roti belum ada, jadi wajib membeli.",
+        "stepByStep": [
+          "Kalimat pertama: we have enough rice, jadi tidak wajib membeli. Itu don't have to.",
+          "Kalimat kedua: roti belum ada, jadi wajib membelinya. Itu must.",
+          "Pilihan B memakai must not, yang berarti dilarang. Pilihan C memakai should, yang berarti saran. Pilihan D memakai must not dan can."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Must not berarti dilarang. Kalimat ini tidak melarang membeli beras." },
+          { "optionId": "C", "reasonId": "Should untuk saran. Pertama tidak perlu, dan kedua wajib." },
+          { "optionId": "D", "reasonId": "Must not untuk beras berarti dilarang membeli, yang tidak tepat." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Don't have to untuk tidak wajib. Must untuk kewajiban yang kuat.",
+          "examples": [
+            { "en": "You don't have to bring lunch. We have food.", "id": "Kamu tidak perlu membawa makan siang. Kami punya makanan." },
+            { "en": "You must bring your ID to the exam.", "id": "Kamu wajib membawa kartu identitas ke ujian." }
+          ]
+        },
+        "examTrap": "Pilihan B (must not / can) terlihat seperti kebalikan yang masuk akal, tetapi must not berarti dilarang, bukan tidak perlu."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "The furnitures are very expensive." },
+          { "id": "B", "text": "The furniture is very expensive." },
+          { "id": "C", "text": "The furniture are very expensive." },
+          { "id": "D", "text": "The furnitures is very expensive." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Furniture tidak bisa dihitung dan tidak punya bentuk jamak. Kata kerjanya is.",
+        "stepByStep": [
+          "Furniture tidak bisa dihitung, jadi tidak punya bentuk jamak furnitures.",
+          "Kata benda tidak bisa dihitung memakai kata kerja tunggal: is.",
+          "Pilihan A dan D memakai furnitures. Pilihan C memakai are, yang jamak."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Furnitures tidak benar. Furniture tidak punya bentuk jamak." },
+          { "optionId": "C", "reasonId": "Are untuk jamak. Furniture tunggal tidak bisa dihitung, sehingga is." },
+          { "optionId": "D", "reasonId": "Furnitures dan is keduanya salah di sini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Kata benda tidak bisa dihitung (furniture, equipment, information, money) memakai kata kerja tunggal: is, was, has.",
+          "examples": [
+            { "en": "The equipment is in the lab.", "id": "Peralatannya ada di laboratorium." },
+            { "en": "The money was on the table.", "id": "Uangnya ada di atas meja." }
+          ]
+        },
+        "examTrap": "Furniture terdengar seperti kata jamak karena banyak barang di dalamnya. Tetapi dalam bahasa Inggris ia tidak dihitung."
+      }
+    ]
+  }
+}

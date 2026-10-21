@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 5 (konten hari 15-21 dan bank minggu 3)
+
+1. **Pola sama dengan Fase 4.** Komposisi 5 mudah, 6 sedang, 4 sulit untuk 15 soal inti sesuai target minggu 3. Hard Challenge 5 soal sulit. Hari 16, 18, 20 mendengarkan. Hari 15, 17, 19 membaca. Hari 21 review.
+2. **Pembedaan yang diuji.** Will versus be going to (hari 15), modal dan don't have to versus must not (hari 16), present perfect versus simple past (hari 17 dan 18), countable versus uncountable (hari 19), dan wh-questions (hari 20).
+3. **Validator menangkap tiga masalah saat penulisan.** Satu placeholder titik tiga, satu teks bacaan yang kurang panjang, dan satu soal bank dengan dua jawaban yang sama-sama benar (opsi some/some diganti). Validator tidak mendeteksi ambiguitas makna, jadi pemeriksaan itu tetap manual.
+4. **Batas kualitas tetap sama.** Validator dan struktur sudah diperiksa, tetapi belum ada audit grammar kalimat per kalimat.
+
 ## 2026-10-21: Fase 4 (konten hari 8-14 dan bank minggu 2)
 
 1. **Pola sama dengan Fase 3.** Komposisi 8 mudah, 5 sedang, 2 sulit untuk 15 soal inti. Hard Challenge 5 soal sulit dengan jebakan ujian. Hari 8, 10, 12 mendengarkan (listening), hari 9, 11, 13 membaca (reading), hari 14 review. Hari 8 sampai 13 memakai topik minggu 2 secara bertahap, dan hari 14 mengulang seluruh minggu 2.

@@ -1,0 +1,574 @@
+{
+  "day": 21,
+  "week": 3,
+  "month": 1,
+  "title": "Evaluasi & Mini Test Minggu 3",
+  "topic": "Review minggu 3: will dan be going to, modal, present perfect, since dan for, countable dan uncountable, serta kata tanya",
+  "skillFocus": "review",
+  "objectives": [
+    "Meninjau ulang will, be going to, modal, present perfect, dan kata tanya dalam satu teks",
+    "Memilih bentuk yang tepat untuk masa depan, kemungkinan, dan pengalaman",
+    "Mengukur kesiapan sebelum masuk minggu 4 dengan mini test"
+  ],
+  "block1": {
+    "vocab": [
+      { "no": 1, "en": "will", "pronunciationId": "WIL (i pendek, l jelas)", "pos": "Other", "meaningId": "akan (masa depan)", "example": "I will visit my aunt next week.", "exampleId": "Saya akan mengunjungi bibi saya minggu depan." },
+      { "no": 2, "en": "can", "pronunciationId": "KAN (a pendek, n jelas)", "pos": "Other", "meaningId": "bisa, dapat", "example": "She can speak French.", "exampleId": "Dia bisa berbicara bahasa Prancis." },
+      { "no": 3, "en": "have", "pronunciationId": "HAV (a pendek, v jelas)", "pos": "Verb", "meaningId": "punya; (kata bantu) sudah", "example": "Have you ever visited Bali?", "exampleId": "Apakah kamu pernah mengunjungi Bali?" },
+      { "no": 4, "en": "visited", "pronunciationId": "VIZ-i-tid (s seperti 'z', ed terdengar 'id')", "pos": "Verb", "meaningId": "mengunjungi", "example": "I have visited Singapore.", "exampleId": "Saya sudah mengunjungi Singapura." },
+      { "no": 5, "en": "never", "pronunciationId": "NE-ver (e pendek, r ringan)", "pos": "Adv", "meaningId": "tidak pernah", "example": "He has never tried durian.", "exampleId": "Dia belum pernah mencoba durian." },
+      { "no": 6, "en": "rice", "pronunciationId": "RAIS (ai panjang, s di akhir)", "pos": "Noun", "meaningId": "nasi, beras", "example": "We need more rice.", "exampleId": "Kami butuh lebih banyak nasi." },
+      { "no": 7, "en": "money", "pronunciationId": "MUN-i (u pendek, y di akhir seperti i)", "pos": "Noun", "meaningId": "uang", "example": "I don't have much money.", "exampleId": "Saya tidak punya banyak uang." },
+      { "no": 8, "en": "who", "pronunciationId": "HOO (o panjang, w tidak dibunyikan)", "pos": "Other", "meaningId": "siapa", "example": "Who will help us?", "exampleId": "Siapa yang akan membantu kami?" },
+      { "no": 9, "en": "where", "pronunciationId": "WAIR (w di awal, air seperti 'ear' ringan)", "pos": "Other", "meaningId": "di mana", "example": "Where will you stay?", "exampleId": "Di mana kamu akan menginap?" },
+      { "no": 10, "en": "how", "pronunciationId": "HAU (h di awal, au seperti 'ou' di 'pulau')", "pos": "Other", "meaningId": "bagaimana", "example": "How will she go there?", "exampleId": "Bagaimana dia akan pergi ke sana?" }
+    ],
+    "tip": "Di akhir minggu, buat satu kalimat untuk setiap pola: will untuk rencana baru, be going to untuk rencana yang sudah dipikirkan, present perfect untuk pengalaman, dan wh-question untuk bertanya. Pola yang sudah kamu tulis sendiri lebih mudah diingat daripada yang hanya dibaca."
+  },
+  "block2": {
+    "youtube": {
+      "keywords": ["future and modal English test", "present perfect quiz English"],
+      "channels": ["English with Lucy", "BBC Learning English"],
+      "videoDescription": "Video 10 sampai 15 menit yang merangkum will, be going to, modal, present perfect, dan kata tanya untuk pemula. Tonton sebelum mengerjakan mini test.",
+      "watchFor": [
+        "Perbedaan will dan be going to",
+        "Modal must, should, dan don't have to",
+        "Present perfect untuk pengalaman dan since atau for"
+      ]
+    },
+    "lesson": {
+      "intro": "Minggu ini kamu belajar tiga cara berbicara tentang masa depan dan pengalaman: will, be going to, dan present perfect. Kamu juga belajar modal dan kata tanya. Hari ini semuanya bertemu dalam satu teks dan beberapa soal.",
+      "sections": [
+        {
+          "heading": "Peta cepat minggu 3",
+          "bodyMd": "**Will**: keputusan baru, janji, dan pendapat tentang masa depan. **Be going to**: rencana yang sudah dipikirkan dan bukti yang terlihat sekarang. **Modal**: can untuk kemampuan, must untuk kewajiban, should untuk saran, may dan might untuk kemungkinan, dan don't have to untuk tidak wajib. **Present perfect**: have atau has + V3 untuk pengalaman dan hasil. **Since** untuk titik waktu, **for** untuk durasi."
+        },
+        {
+          "heading": "Cara memeriksa jawaban",
+          "bodyMd": "Sebelum memilih, cek tiga hal: (1) apakah ada penanda waktu, seperti yesterday, since, atau next week, (2) apakah kalimatnya tentang rencana, keputusan, atau pengalaman, (3) apakah kata bantu dan kata kerjanya sesuai bentuk yang dibutuhkan."
+        }
+      ],
+      "formulas": [
+        { "label": "Will", "pattern": "subjek + will + kata kerja dasar" },
+        { "label": "Be going to", "pattern": "subjek + am / is / are + going to + kata kerja dasar" },
+        { "label": "Modal", "pattern": "subjek + can / must / should / may / might + kata kerja dasar" },
+        { "label": "Present perfect", "pattern": "subjek + have / has + V3 (since, for, ever, never, yet)" },
+        { "label": "Kata tanya", "pattern": "kata tanya + kata bantu + subjek + kata kerja dasar?" }
+      ],
+      "examples": {
+        "positive": [
+          { "en": "I will call you tonight.", "id": "Saya akan menelepon kamu malam ini." },
+          { "en": "She is going to start a new job next week.", "id": "Dia akan mulai pekerjaan baru minggu depan." },
+          { "en": "You must bring your card.", "id": "Kamu wajib membawa kartumu." },
+          { "en": "We have lived here since 2019.", "id": "Kami tinggal di sini sejak 2019." },
+          { "en": "I have visited Bali twice.", "id": "Saya sudah mengunjungi Bali dua kali." }
+        ],
+        "negative": [
+          { "en": "I won't be late.", "id": "Saya tidak akan terlambat." },
+          { "en": "You don't have to pay for the entrance.", "id": "Kamu tidak perlu membayar tiket masuk." },
+          { "en": "She hasn't finished the report yet.", "id": "Dia belum menyelesaikan laporannya." },
+          { "en": "There isn't much rice left.", "id": "Tidak banyak nasi yang tersisa." },
+          { "en": "He has never been to Europe.", "id": "Dia belum pernah pergi ke Eropa." }
+        ],
+        "question": [
+          { "en": "Will you come to the meeting?", "id": "Apakah kamu akan datang ke rapat?" },
+          { "en": "Are they going to move to Bandung?", "id": "Apakah mereka akan pindah ke Bandung?" },
+          { "en": "Have you ever seen snow?", "id": "Apakah kamu pernah melihat salju?" },
+          { "en": "How long have you lived here?", "id": "Sudah berapa lama kamu tinggal di sini?" },
+          { "en": "Where should we meet?", "id": "Di mana kita sebaiknya bertemu?" }
+        ]
+      },
+      "commonMistakes": [
+        { "wrong": "I will to visit my aunt.", "right": "I will visit my aunt.", "whyId": "Setelah will, kata kerja langsung bentuk dasar." },
+        { "wrong": "She has visited Bali yesterday.", "right": "She visited Bali yesterday.", "whyId": "Yesterday memakai simple past, bukan present perfect." },
+        { "wrong": "He is going to went to school.", "right": "He is going to go to school.", "whyId": "Setelah going to, kata kerja bentuk dasar." },
+        { "wrong": "We have lived here for 2019.", "right": "We have lived here since 2019.", "whyId": "2019 adalah titik waktu, jadi since." },
+        { "wrong": "You must to bring a pen.", "right": "You must bring a pen.", "whyId": "Setelah modal, tidak ada to." },
+        { "wrong": "Where you will stay?", "right": "Where will you stay?", "whyId": "Dalam pertanyaan dengan will, will berada di depan subjek." }
+      ]
+    }
+  },
+  "block3": {
+    "type": "reading",
+    "title": "Rencana Dewi",
+    "text": "Dewi is planning her future. Next year she will study abroad, and she can already speak some French. Have you ever visited Paris? Dewi has visited Singapore, but she has never been to Europe. She is saving money every month, because she knows the trip will be expensive. Her friends ask her who will help her with the visa, and where she will live. Dewi says she will cook rice for herself, and she asks how much it will cost. Her teacher says she has made good progress this year.",
+    "glossary": [
+      { "en": "abroad", "id": "di luar negeri" },
+      { "en": "visa", "id": "visa" },
+      { "en": "progress", "id": "kemajuan" },
+      { "en": "saving", "id": "menabung" },
+      { "en": "cost", "id": "biaya, harga" },
+      { "en": "planning", "id": "merencanakan" },
+      { "en": "Europe", "id": "Eropa" },
+      { "en": "expensive", "id": "mahal" }
+    ],
+    "questions": [
+      {
+        "id": "R1",
+        "type": "mcq",
+        "prompt": "What will Dewi do next year?",
+        "options": [
+          { "id": "A", "text": "study abroad" },
+          { "id": "B", "text": "get married" },
+          { "id": "C", "text": "buy a house" },
+          { "id": "D", "text": "open a shop" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Teks menulis 'Next year she will study abroad', artinya tahun depan Dewi akan belajar di luar negeri.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Menikah tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Membeli rumah tidak disebut dalam teks." },
+          { "optionId": "D", "reasonId": "Membuka toko tidak disebut dalam teks." }
+        ],
+        "evidence": "Next year she will study abroad"
+      },
+      {
+        "id": "R2",
+        "type": "mcq",
+        "prompt": "What has Dewi visited?",
+        "options": [
+          { "id": "A", "text": "Paris" },
+          { "id": "B", "text": "Europe" },
+          { "id": "C", "text": "Singapore" },
+          { "id": "D", "text": "Japan" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Teks menulis 'Dewi has visited Singapore'.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Paris disebut dalam pertanyaan teman, bukan tempat yang sudah dikunjungi Dewi." },
+          { "optionId": "B", "reasonId": "Dewi belum pernah pergi ke Eropa, sehingga tidak mungkin ia sudah mengunjunginya." },
+          { "optionId": "D", "reasonId": "Jepang tidak disebut dalam teks." }
+        ],
+        "evidence": "Dewi has visited Singapore"
+      },
+      {
+        "id": "R3",
+        "type": "mcq",
+        "prompt": "What is Dewi doing every month?",
+        "options": [
+          { "id": "A", "text": "learning to cook" },
+          { "id": "B", "text": "writing a diary" },
+          { "id": "C", "text": "taking exams" },
+          { "id": "D", "text": "saving money" }
+        ],
+        "difficulty": "easy",
+        "correct": "D",
+        "explanationId": "Teks menulis 'She is saving money every month', artinya Dewi menabung setiap bulan.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Belajar memasak tidak disebut. Ia memasak nasi, tetapi bukan kegiatan bulanan." },
+          { "optionId": "B", "reasonId": "Menulis buku harian tidak disebut dalam teks." },
+          { "optionId": "C", "reasonId": "Ujian tidak disebut dalam teks." }
+        ],
+        "evidence": "She is saving money every month"
+      },
+      {
+        "id": "R4",
+        "type": "mcq",
+        "prompt": "What does Dewi say about cooking?",
+        "options": [
+          { "id": "A", "text": "She cannot cook at all." },
+          { "id": "B", "text": "She will cook rice for herself." },
+          { "id": "C", "text": "Her friends will cook for her." },
+          { "id": "D", "text": "She never cooks." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Teks menulis 'Dewi says she will cook rice for herself', artinya Dewi akan memasak nasi untuk dirinya sendiri.",
+        "stepByStep": [
+          "Cari cook di teks: 'Dewi says she will cook rice for herself.'",
+          "Will menunjukkan rencana atau keputusan tentang masa depan: ia akan memasak nasi.",
+          "Pilihan A dan D bertentangan dengan 'she will cook'. Pilihan C tidak disebut dalam teks."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut Dewi akan memasak nasi, bertentangan dengan 'cannot cook at all'." },
+          { "optionId": "C", "reasonId": "Teks tidak menyebut teman yang memasak untuknya." },
+          { "optionId": "D", "reasonId": "Teks menunjukkan Dewi akan memasak, bertentangan dengan 'never cooks'." }
+        ],
+        "evidence": "Dewi says she will cook rice for herself"
+      },
+      {
+        "id": "R5",
+        "type": "mcq",
+        "prompt": "What can we infer about Dewi's trip?",
+        "options": [
+          { "id": "A", "text": "It is cheap and quick." },
+          { "id": "B", "text": "It is already paid for." },
+          { "id": "C", "text": "It will be expensive, so Dewi needs to save money." },
+          { "id": "D", "text": "Her friends have already bought her ticket." }
+        ],
+        "difficulty": "hard",
+        "correct": "C",
+        "explanationId": "Teks menulis 'she knows the trip will be expensive' dan ia menabung setiap bulan. Jadi perjalanannya mahal, dan itu alasan ia menabung.",
+        "stepByStep": [
+          "Cari expensive di teks: 'because she knows the trip will be expensive.'",
+          "Kata because menunjukkan alasan Dewi menabung setiap bulan.",
+          "Pilihan A bertentangan dengan 'expensive'. Pilihan B dan D tidak disebut, dan menabung justru menunjukkan biaya belum terbayar."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Teks menyebut perjalanan itu mahal, bukan murah dan cepat." },
+          { "optionId": "B", "reasonId": "Teks tidak menyebut perjalanan sudah dibayar. Dewi masih menabung." },
+          { "optionId": "D", "reasonId": "Teks tidak menyebut teman membelikan tiket." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Will the trip be expensive menunjukkan prediksi tentang masa depan. Because menandai alasan untuk tindakan Dewi.",
+          "examples": [
+            { "en": "I am saving money because the course will be expensive.", "id": "Saya menabung karena kursusnya akan mahal." },
+            { "en": "She is studying hard because the exam will be difficult.", "id": "Dia belajar keras karena ujiannya akan sulit." }
+          ]
+        },
+        "examTrap": "Pilihan B (already paid for) terlihat seperti kesimpulan yang masuk akal, tetapi Dewi masih menabung. Itu tidak sesuai dengan sudah dibayar.",
+        "evidence": "she knows the trip will be expensive"
+      }
+    ]
+  },
+  "block4": {
+    "partA": [
+      {
+        "id": "A1",
+        "type": "mcq",
+        "prompt": "She ___ visit Japan next summer.",
+        "options": [
+          { "id": "A", "text": "has" },
+          { "id": "B", "text": "visited" },
+          { "id": "C", "text": "will" },
+          { "id": "D", "text": "can" }
+        ],
+        "difficulty": "easy",
+        "correct": "C",
+        "explanationId": "Next summer menunjukkan masa depan, dan keputusan atau rencana ini memakai will sebelum kata kerja visit.",
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Has adalah kata bantu present perfect. Setelahnya harus V3, dan tidak cocok dengan next summer." },
+          { "optionId": "B", "reasonId": "Visited adalah bentuk lampau, tidak cocok dengan next summer." },
+          { "optionId": "D", "reasonId": "Can untuk kemampuan atau izin, bukan masa depan." }
+        ]
+      },
+      {
+        "id": "A2",
+        "type": "mcq",
+        "prompt": "___ you ever visited Paris?",
+        "options": [
+          { "id": "A", "text": "Have" },
+          { "id": "B", "text": "Did" },
+          { "id": "C", "text": "Has" },
+          { "id": "D", "text": "Do" }
+        ],
+        "difficulty": "easy",
+        "correct": "A",
+        "explanationId": "Pertanyaan pengalaman dengan you memakai have, diikuti ever dan V3.",
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Did dipakai untuk simple past, bukan pertanyaan pengalaman." },
+          { "optionId": "C", "reasonId": "Has untuk he, she, it. Subjek you memakai have." },
+          { "optionId": "D", "reasonId": "Do adalah kata bantu simple present, tidak untuk pengalaman dengan ever." }
+        ]
+      },
+      {
+        "id": "A3",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "She has never ate rice for breakfast." },
+          { "id": "B", "text": "She has never eaten rice for breakfast." },
+          { "id": "C", "text": "She never has eat rice for breakfast." },
+          { "id": "D", "text": "She has never eating rice for breakfast." }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Present perfect memakai has never + V3: eaten.",
+        "stepByStep": [
+          "Subjek she memakai has, dan never ditempatkan setelah has.",
+          "Setelah has never, kata kerja harus V3: eaten.",
+          "Pilihan A memakai ate, bentuk lampau. Pilihan C memakai eat setelah has. Pilihan D memakai eating setelah has never."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Ate adalah bentuk lampau. Setelah has, harus V3: eaten." },
+          { "optionId": "C", "reasonId": "Never berada setelah has, dan kata kerjanya harus V3, bukan eat." },
+          { "optionId": "D", "reasonId": "Eating bukan V3. Setelah has never, gunakan eaten." }
+        ]
+      },
+      {
+        "id": "A4",
+        "type": "mcq",
+        "prompt": "I don't have ___ money left, but I can ___ lunch.",
+        "options": [
+          { "id": "A", "text": "many / buy" },
+          { "id": "B", "text": "much / buy" },
+          { "id": "C", "text": "much / to buy" },
+          { "id": "D", "text": "a few / buy" }
+        ],
+        "difficulty": "medium",
+        "correct": "B",
+        "explanationId": "Money tidak bisa dihitung, sehingga much. Setelah can, kata kerja dasar buy.",
+        "stepByStep": [
+          "Money tidak bisa dihitung, dan dalam kalimat negatif memakai much.",
+          "Setelah can, kata kerja dasar: buy, tanpa to.",
+          "Pilihan A memakai many untuk money. Pilihan C memakai to setelah can. Pilihan D memakai a few untuk money."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Many tidak dipakai untuk money yang tidak bisa dihitung." },
+          { "optionId": "C", "reasonId": "Setelah can tidak ada to." },
+          { "optionId": "D", "reasonId": "A few tidak dipakai untuk money yang tidak bisa dihitung." }
+        ]
+      },
+      {
+        "id": "A5",
+        "type": "mcq",
+        "prompt": "___ will help us with the project, and ___ should we meet?",
+        "options": [
+          { "id": "A", "text": "Who / where" },
+          { "id": "B", "text": "Whom / where" },
+          { "id": "C", "text": "Where / who" },
+          { "id": "D", "text": "Who / how" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Who sebagai subjek bertanya tentang orang yang membantu. Where menanyakan tempat pertemuan.",
+        "stepByStep": [
+          "Bagian pertama menanyakan orang yang akan membantu. Orang ini adalah subjek, sehingga who.",
+          "Bagian kedua menanyakan tempat bertemu, sehingga where.",
+          "Whom tidak bisa menjadi subjek. Where dan who tertukar. How menanyakan cara, bukan tempat."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Whom adalah bentuk objek. Subjek yang membantu harus who." },
+          { "optionId": "C", "reasonId": "Where dan who tertukar. Di sini who menanyakan orang, dan where menanyakan tempat." },
+          { "optionId": "D", "reasonId": "How menanyakan cara, bukan tempat pertemuan." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Who sebagai subjek untuk orang yang melakukan tindakan. Where untuk tempat.",
+          "examples": [
+            { "en": "Who will pick us up?", "id": "Siapa yang akan menjemput kami?" },
+            { "en": "Where should we wait?", "id": "Di mana kita sebaiknya menunggu?" }
+          ]
+        },
+        "examTrap": "Pilihan B (whom) terlihat seperti bentuk yang lebih formal, tetapi whom hanya untuk objek. Untuk subjek yang membantu, gunakan who."
+      }
+    ],
+    "partB": [
+      {
+        "id": "B1",
+        "difficulty": "easy",
+        "kind": "translate_id_en",
+        "promptId": "Dia akan datang besok.",
+        "hint": "Akan datang besok: will come tomorrow.",
+        "acceptedAnswers": ["She will come tomorrow.", "She'll come tomorrow."],
+        "modelAnswer": "She will come tomorrow.",
+        "commonErrors": [{ "pattern": "She will to come tomorrow", "feedbackId": "Setelah will, tidak ada to." }]
+      },
+      {
+        "id": "B2",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Saya tidak pernah makan nasi di pagi hari.",
+        "hint": "Tidak pernah: have never. V3 dari eat: eaten.",
+        "acceptedAnswers": ["I have never eaten rice in the morning.", "I've never eaten rice in the morning."],
+        "modelAnswer": "I have never eaten rice in the morning.",
+        "commonErrors": [{ "pattern": "I never eat rice", "feedbackId": "Pengalaman belum pernah memakai have never + V3." }]
+      },
+      {
+        "id": "B3",
+        "difficulty": "medium",
+        "kind": "translate_id_en",
+        "promptId": "Apakah kamu bisa membantu saya dengan uang ini?",
+        "hint": "Bisa: can. Uang: money, tidak bisa dihitung.",
+        "acceptedAnswers": ["Can you help me with this money?", "Can you help me with this money"],
+        "modelAnswer": "Can you help me with this money?",
+        "commonErrors": [{ "pattern": "Do you can help me", "feedbackId": "Setelah can, tidak ada do." }]
+      },
+      {
+        "id": "B4",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Siapa yang sudah mengunjungi Paris, dan di mana dia tinggal?",
+        "hint": "Siapa sebagai subjek: who. Sudah mengunjungi: has visited. Di mana: where. Tinggal: did he stay.",
+        "acceptedAnswers": [
+          "Who has visited Paris, and where did he stay?",
+          "Who has visited Paris and where did he stay?"
+        ],
+        "modelAnswer": "Who has visited Paris, and where did he stay?",
+        "commonErrors": [
+          { "pattern": "Who did visit Paris", "feedbackId": "Who sebagai subjek tidak memakai did. Gunakan who has visited." },
+          { "pattern": "where he has stayed", "feedbackId": "Tempat tinggal yang sudah selesai memakai simple past: did he stay." }
+        ]
+      },
+      {
+        "id": "B5",
+        "difficulty": "hard",
+        "kind": "translate_id_en",
+        "promptId": "Bagaimana caranya dia akan pergi ke Singapura, jika dia belum punya uang?",
+        "hint": "Bagaimana: how. Akan pergi: will go. Belum punya uang: does not have any money yet.",
+        "acceptedAnswers": [
+          "How will she go to Singapore if she does not have any money yet?",
+          "How will she go to Singapore if she doesn't have any money yet?"
+        ],
+        "modelAnswer": "How will she go to Singapore if she does not have any money yet?",
+        "commonErrors": [
+          { "pattern": "How she will go", "feedbackId": "Dalam pertanyaan dengan will, will berada di depan subjek." },
+          { "pattern": "if she has not any money", "feedbackId": "Any dipakai untuk kata benda tidak bisa dihitung dalam negatif: does not have any money." }
+        ]
+      }
+    ],
+    "hardChallenge": [
+      {
+        "id": "H1",
+        "type": "mcq",
+        "prompt": "Next year I ___ take the English exam, and I ___ speak better soon.",
+        "options": [
+          { "id": "A", "text": "will take / will speak" },
+          { "id": "B", "text": "take / will speaks" },
+          { "id": "C", "text": "will took / will speak" },
+          { "id": "D", "text": "am take / speak" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Next year dan soon menunjukkan masa depan. Setelah will, kata kerja bentuk dasar.",
+        "stepByStep": [
+          "Kedua kejadian ada di masa depan: next year dan soon.",
+          "Gunakan will, lalu kata kerja bentuk dasar: take dan speak.",
+          "Pilihan B memakai speaks setelah will. Pilihan C memakai took setelah will. Pilihan D memakai am take, yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Setelah will, tidak ada -s. Speaks salah." },
+          { "optionId": "C", "reasonId": "Setelah will, kata kerja bentuk dasar. Took salah." },
+          { "optionId": "D", "reasonId": "Am take tidak benar. Untuk rencana gunakan am going to take." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Setelah will, kata kerja bentuk dasar, termasuk dalam klausa kedua yang menyatakan masa depan.",
+          "examples": [
+            { "en": "I will study hard and I will pass the test.", "id": "Saya akan belajar keras dan saya akan lulus tes." },
+            { "en": "We will travel next week and we will stay two nights.", "id": "Kami akan bepergian minggu depan dan kami akan menginap dua malam." }
+          ]
+        },
+        "examTrap": "Klausa kedua sering terlupa. Setiap klausa yang menyatakan masa depan harus memakai will atau be going to."
+      },
+      {
+        "id": "H2",
+        "type": "mcq",
+        "prompt": "Which sentence is correct?",
+        "options": [
+          { "id": "A", "text": "I have been to Bali last year." },
+          { "id": "B", "text": "I went to Bali last year." },
+          { "id": "C", "text": "I have went to Bali last year." },
+          { "id": "D", "text": "I was been to Bali last year." }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Last year adalah penanda waktu yang sudah selesai, sehingga simple past: went.",
+        "stepByStep": [
+          "Last year menunjukkan waktu yang sudah selesai.",
+          "Dengan penanda selesai, gunakan simple past: went.",
+          "Pilihan A dan C memakai present perfect dengan last year. Pilihan D memakai bentuk yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Present perfect tidak boleh dengan last year." },
+          { "optionId": "C", "reasonId": "Present perfect tidak boleh dengan last year, dan went bukan V3." },
+          { "optionId": "D", "reasonId": "Was been tidak benar. Pola ini tidak dipakai untuk kejadian ini." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Penanda waktu yang sudah selesai (last year, yesterday, in 2019) memakai simple past, bukan present perfect.",
+          "examples": [
+            { "en": "We moved to Bandung in 2020.", "id": "Kami pindah ke Bandung tahun 2020." },
+            { "en": "Have you ever been to Bandung?", "id": "Apakah kamu pernah pergi ke Bandung?" }
+          ]
+        },
+        "examTrap": "Pilihan A terlihat seperti present perfect yang benar, tetapi last year membuatnya salah."
+      },
+      {
+        "id": "H3",
+        "type": "mcq",
+        "prompt": "You ___ wear a coat because it is cold, but you ___ wear a hat if you want.",
+        "options": [
+          { "id": "A", "text": "should / may" },
+          { "id": "B", "text": "must / can't" },
+          { "id": "C", "text": "can / must not" },
+          { "id": "D", "text": "should / don't have to" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Should untuk saran, dan may untuk izin atau pilihan yang diperbolehkan.",
+        "stepByStep": [
+          "Kalimat pertama memberi saran: sebaiknya memakai jaket karena dingin.",
+          "Kalimat kedua memberi pilihan yang diizinkan: boleh memakai topi jika mau.",
+          "Pilihan B memakai must yang terlalu kuat dan can't yang tidak sesuai. Pilihan C memakai must not, yang berarti dilarang. Pilihan D memakai don't have to di kalimat pertama, yang tidak sesuai dengan saran."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Must terlalu kuat untuk saran, dan can't tidak sesuai dengan 'if you want'." },
+          { "optionId": "C", "reasonId": "Must not berarti dilarang. Kalimat ini tidak melarang topi." },
+          { "optionId": "D", "reasonId": "Don't have to berarti tidak perlu, tidak sesuai dengan saran memakai jaket." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Should untuk saran. May untuk pilihan yang diizinkan atau kemungkinan.",
+          "examples": [
+            { "en": "You should drink more water.", "id": "Kamu sebaiknya minum lebih banyak air." },
+            { "en": "You may leave early if you want.", "id": "Kamu boleh pulang lebih awal jika mau." }
+          ]
+        },
+        "examTrap": "Pilihan D terlihat seperti saran yang tidak perlu. Padahal don't have to berarti tidak wajib, bukan saran."
+      },
+      {
+        "id": "H4",
+        "type": "mcq",
+        "prompt": "Choose the correct quantifiers: 'There is ___ rice in the kitchen, and we need ___ more sugar.'",
+        "options": [
+          { "id": "A", "text": "not much / a little" },
+          { "id": "B", "text": "not many / a few" },
+          { "id": "C", "text": "much / few" },
+          { "id": "D", "text": "not many / a little" }
+        ],
+        "difficulty": "hard",
+        "correct": "A",
+        "explanationId": "Rice dan sugar tidak bisa dihitung, sehingga not much dan a little.",
+        "stepByStep": [
+          "Rice tidak bisa dihitung, sehingga not much rice.",
+          "Sugar tidak bisa dihitung, sehingga a little sugar.",
+          "Pilihan B memakai not many untuk rice dan a few untuk sugar, keduanya salah. Pilihan C memakai few untuk sugar. Pilihan D memakai not many untuk rice."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "B", "reasonId": "Not many dan a few hanya untuk benda yang bisa dihitung. Rice dan sugar tidak bisa dihitung." },
+          { "optionId": "C", "reasonId": "Few untuk sugar salah. Sugar tidak bisa dihitung." },
+          { "optionId": "D", "reasonId": "Not many untuk rice salah. Rice tidak bisa dihitung." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Much dan little untuk kata benda tidak bisa dihitung. Many dan few untuk kata benda bisa dihitung.",
+          "examples": [
+            { "en": "We don't have much water.", "id": "Kami tidak punya banyak air." },
+            { "en": "Add a little salt to the soup.", "id": "Tambahkan sedikit garam ke sup." }
+          ]
+        },
+        "examTrap": "Pilihan B (not many / a few) terlihat seperti pasangan yang masuk akal, tetapi rice dan sugar tidak bisa dihitung."
+      },
+      {
+        "id": "H5",
+        "type": "mcq",
+        "prompt": "Which question is correct?",
+        "options": [
+          { "id": "A", "text": "Who will you visit, and where you will stay?" },
+          { "id": "B", "text": "Who will you visit, and where will you stay?" },
+          { "id": "C", "text": "Whom will you visit and where you stay?" },
+          { "id": "D", "text": "Who you will visit, and where will you stay?" }
+        ],
+        "difficulty": "hard",
+        "correct": "B",
+        "explanationId": "Pertanyaan kedua memakai will di depan subjek you: where will you stay. Pertanyaan pertama memakai who sebagai objek dengan urutan kata yang benar.",
+        "stepByStep": [
+          "Klausa pertama: who will you visit. Who adalah objek, dan will berada di depan subjek you.",
+          "Klausa kedua: where will you stay. Will berada di depan subjek.",
+          "Pilihan A memakai where you will stay tanpa pembalikan. Pilihan C dan D punya pola yang salah."
+        ],
+        "whyOthersWrong": [
+          { "optionId": "A", "reasonId": "Dalam klausa kedua, will harus berada di depan you: where will you stay." },
+          { "optionId": "C", "reasonId": "Setelah whom, pola pertanyaan tidak lengkap. Klausa kedua juga tidak dibalik." },
+          { "optionId": "D", "reasonId": "Who you will visit salah. Pertanyaan dengan objek membalik will di depan subjek." }
+        ],
+        "ruleAndExamples": {
+          "rule": "Dalam pertanyaan dengan will, will berada di depan subjek. Setiap klausa pertanyaan memakai pola ini.",
+          "examples": [
+            { "en": "Where will you go, and when will you come back?", "id": "Kamu akan pergi ke mana, dan kapan kamu akan kembali?" },
+            { "en": "Who will you invite?", "id": "Siapa yang akan kamu undang?" }
+          ]
+        },
+        "examTrap": "Pilihan A tampak seperti pertanyaan yang lengkap, tetapi klausa kedua tidak dibalik. Cek setiap pertanyaan secara terpisah."
+      }
+    ]
+  }
+}
