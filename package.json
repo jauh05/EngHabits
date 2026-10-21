@@ -11,7 +11,8 @@
     "typecheck": "tsc --noEmit",
     "test": "vitest run --passWithNoTests",
     "validate:content": "tsx scripts/validate-content.ts",
-    "content:status": "tsx scripts/content-status.ts"
+    "content:status": "tsx scripts/content-status.ts",
+    "validate:curriculum": "tsx scripts/validate-curriculum.ts"
   },
   "dependencies": {
     "@fontsource-variable/plus-jakarta-sans": "^5.3.0",

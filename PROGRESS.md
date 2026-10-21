@@ -9,7 +9,7 @@ Terakhir diperbarui: 2026-10-21
 | 0. Persiapan (proyek, git, dependensi, struktur) | Selesai (`50cacad`) |
 | 0b. Desain UI/UX (`DESIGN_SPEC.md`, tokens, komponen, `/design`) | Selesai (`ff0468e`), disetujui |
 | 1. Fondasi aplikasi, skema, validator, IndexedDB, routing, sesi, evaluasi | Selesai (lihat commit Fase 1) |
-| 2. Kurikulum rinci 90 hari (`content/curriculum.json`) | Belum mulai |
+| 2. Kurikulum rinci 90 hari (`content/curriculum.json`) | Selesai, menunggu persetujuan ringkasan per minggu |
 | 3-10. Konten hari 1-90 (Hari 1 saat ini hanya contoh sementara) | Belum mulai |
 | 11. Fitur lanjutan (sesi perbaikan, latihan bebas, laporan kesiapan, statistik, ekspor/impor, koreksi AI, pengingat, PWA offline penuh) | Belum mulai |
 | 11b. Deploy GitHub Pages | Belum mulai |
@@ -38,5 +38,5 @@ Lihat [DECISIONS.md](DECISIONS.md).
 
 ## Sesi berikutnya
 
-- Fase 2: `content/curriculum.json` (rincian 90 hari) untuk disetujui sebelum menulis konten.
+- Menunggu persetujuan kurikulum 90 hari (`content/curriculum.json`, ringkasan per minggu di chat). Setelah disetujui: Fase 3, Hari 1-7 sebagai standar rujukan.
 - Catatan sebelum Fase 3: audit Hari 1 (grammar, kunci, terjemahan) dan periksa ulang rasio komposisi.

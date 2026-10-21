@@ -24,6 +24,7 @@ npm run dev              # server pengembangan (http://localhost:5173)
 npm run typecheck        # cek tipe TypeScript
 npm test                 # Vitest (grading, SRS, progresi, validator)
 npm run validate:content # validasi semua file content/days/
+npm run validate:curriculum # validasi content/curriculum.json
 npm run content:status   # tulis CONTENT_STATUS.md
 npm run build            # build produksi (PWA)
 npm run preview          # cek hasil build secara lokal

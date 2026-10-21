@@ -1,0 +1,2330 @@
+{
+  "version": 1,
+  "note": "Kurikulum 90 hari. Sumber: bagian 7 prompt induk. Kosakata tidak boleh berulang dalam 10 hari, kecuali hari review dan exam.",
+  "weeks": [
+    {
+      "week": 1,
+      "month": 1,
+      "title": "Anatomi Kalimat Dasar",
+      "topic": "Grammar dasar (Bulan 1)"
+    },
+    {
+      "week": 2,
+      "month": 1,
+      "title": "Kejadian Saat Ini, Masa Lalu, Kata Depan",
+      "topic": "Grammar dasar (Bulan 1)"
+    },
+    {
+      "week": 3,
+      "month": 1,
+      "title": "Masa Depan, Modalitas, Pengalaman",
+      "topic": "Grammar dasar (Bulan 1)"
+    },
+    {
+      "week": 4,
+      "month": 1,
+      "title": "Kalimat Majemuk Dasar, Perbandingan, Pasif",
+      "topic": "Grammar dasar (Bulan 1)"
+    },
+    {
+      "week": 5,
+      "month": 2,
+      "title": "Structure Core",
+      "topic": "TOEFL Structure"
+    },
+    {
+      "week": 6,
+      "month": 2,
+      "title": "Clauses dan Connectors",
+      "topic": "TOEFL Structure"
+    },
+    {
+      "week": 7,
+      "month": 2,
+      "title": "Written Expression dan Strategi Reading",
+      "topic": "TOEFL Written Expression & Reading"
+    },
+    {
+      "week": 8,
+      "month": 2,
+      "title": "Listening Kampus dan Simulasi TOEFL",
+      "topic": "TOEFL Listening & simulasi"
+    },
+    {
+      "week": 9,
+      "month": 3,
+      "title": "Format dan Teknik IELTS Reading & Listening",
+      "topic": "IELTS Reading & Listening"
+    },
+    {
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1",
+      "topic": "IELTS Writing Task 1"
+    },
+    {
+      "week": 11,
+      "month": 3,
+      "title": "Writing Task 2",
+      "topic": "IELTS Writing Task 2"
+    },
+    {
+      "week": 12,
+      "month": 3,
+      "title": "Speaking dan Simulasi IELTS",
+      "topic": "IELTS Speaking & simulasi"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "week": 1,
+      "month": 1,
+      "title": "Subjek & To Be (am/is/are)",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "student",
+        "teacher",
+        "classmate",
+        "tired",
+        "happy",
+        "kind",
+        "city",
+        "friend",
+        "early",
+        "interesting"
+      ],
+      "summary": "Pola am, is, are untuk setiap subjek, lalu bentuk negatif dan tanya dengan to be.",
+      "youtubeKeywords": [
+        "am is are for beginners",
+        "verb to be English basics"
+      ]
+    },
+    {
+      "day": 2,
+      "week": 1,
+      "month": 1,
+      "title": "Singular, Plural, a/an/the, This/That/These/Those",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "book",
+        "pencil",
+        "chair",
+        "table",
+        "window",
+        "apple",
+        "banana",
+        "bag",
+        "phone",
+        "flower"
+      ],
+      "summary": "Membedakan benda tunggal dan jamak, artikel a/an/the, dan penunjuk this/that/these/those.",
+      "youtubeKeywords": [
+        "singular and plural nouns English",
+        "articles a an the explained"
+      ]
+    },
+    {
+      "day": 3,
+      "week": 1,
+      "month": 1,
+      "title": "Possessive & Object Pronouns",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "mine",
+        "yours",
+        "ours",
+        "theirs",
+        "brother",
+        "sister",
+        "parent",
+        "cousin",
+        "family",
+        "grandmother"
+      ],
+      "summary": "Kata ganti kepemilikan (my, your, his) dan bentuk objek (me, him, them).",
+      "youtubeKeywords": [
+        "possessive pronouns English",
+        "object pronouns me him her"
+      ]
+    },
+    {
+      "day": 4,
+      "week": 1,
+      "month": 1,
+      "title": "Simple Present 1: I, You, We, They",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "wake",
+        "eat",
+        "drink",
+        "study",
+        "work",
+        "read",
+        "write",
+        "play",
+        "sleep",
+        "walk"
+      ],
+      "summary": "Kebiasaan rutin dengan subjek I, you, we, dan they tanpa akhiran -s.",
+      "youtubeKeywords": [
+        "simple present daily routine English",
+        "present simple I you we they"
+      ]
+    },
+    {
+      "day": 5,
+      "week": 1,
+      "month": 1,
+      "title": "Simple Present 2: He/She/It, Do/Does",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "cook",
+        "watch",
+        "go",
+        "teach",
+        "live",
+        "love",
+        "like",
+        "need",
+        "want",
+        "know"
+      ],
+      "summary": "Akhiran -s atau -es untuk he, she, it, serta pertanyaan dengan do dan does.",
+      "youtubeKeywords": [
+        "simple present third person s es",
+        "do does questions English"
+      ]
+    },
+    {
+      "day": 6,
+      "week": 1,
+      "month": 1,
+      "title": "To Be vs Kata Kerja (Do/Does)",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "think",
+        "understand",
+        "forget",
+        "remember",
+        "answer",
+        "ask",
+        "listen",
+        "speak",
+        "call",
+        "visit"
+      ],
+      "summary": "Membedakan kalimat to be dari kalimat kata kerja biasa. Ini titik paling krusial bagi pemula.",
+      "youtubeKeywords": [
+        "verb to be or verb English grammar",
+        "do does or to be beginners"
+      ]
+    },
+    {
+      "day": 7,
+      "week": 1,
+      "month": 1,
+      "title": "Evaluasi & Mini Test Minggu 1",
+      "topic": "Review: Grammar dasar (Bulan 1)",
+      "skillFocus": "review",
+      "vocab": [
+        "student",
+        "teacher",
+        "happy",
+        "book",
+        "mine",
+        "brother",
+        "wake",
+        "cook",
+        "understand",
+        "ask"
+      ],
+      "summary": "Meninjau ulang kosakata dan pola minggu 1 lewat mini test.",
+      "youtubeKeywords": [
+        "English grammar test beginners present simple",
+        "to be quiz English"
+      ]
+    },
+    {
+      "day": 8,
+      "week": 2,
+      "month": 1,
+      "title": "Present Continuous",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "waiting",
+        "raining",
+        "shopping",
+        "typing",
+        "cleaning",
+        "dancing",
+        "driving",
+        "laughing",
+        "sitting",
+        "smiling"
+      ],
+      "summary": "Kejadian yang sedang berlangsung dengan am, is, are dan V-ing.",
+      "youtubeKeywords": [
+        "present continuous tense English",
+        "ing verb spelling English"
+      ]
+    },
+    {
+      "day": 9,
+      "week": 2,
+      "month": 1,
+      "title": "Preposisi Waktu & Tempat",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "in",
+        "on",
+        "at",
+        "under",
+        "between",
+        "next to",
+        "behind",
+        "near",
+        "above",
+        "inside"
+      ],
+      "summary": "Perbedaan in, on, at untuk waktu dan tempat, serta posisi benda.",
+      "youtubeKeywords": [
+        "prepositions of time and place English",
+        "in on at explained"
+      ]
+    },
+    {
+      "day": 10,
+      "week": 2,
+      "month": 1,
+      "title": "To Be Masa Lalu (was/were)",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "yesterday",
+        "last",
+        "ago",
+        "weekend",
+        "holiday",
+        "morning",
+        "evening",
+        "tonight",
+        "once",
+        "already"
+      ],
+      "summary": "Bentuk lampau to be: was untuk I, he, she, it dan were untuk you, we, they.",
+      "youtubeKeywords": [
+        "was and were English beginners",
+        "past tense to be English"
+      ]
+    },
+    {
+      "day": 11,
+      "week": 2,
+      "month": 1,
+      "title": "Simple Past 1: -ed dan did",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "started",
+        "played",
+        "cleaned",
+        "walked",
+        "opened",
+        "closed",
+        "danced",
+        "finished",
+        "arrived",
+        "stopped"
+      ],
+      "summary": "Kata kerja beraturan dengan -ed, serta negatif dan tanya dengan did.",
+      "youtubeKeywords": [
+        "regular past tense -ed English",
+        "did not questions English"
+      ]
+    },
+    {
+      "day": 12,
+      "week": 2,
+      "month": 1,
+      "title": "Simple Past 2: Kata Kerja Tidak Beraturan",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "went",
+        "ate",
+        "bought",
+        "saw",
+        "took",
+        "made",
+        "got",
+        "came",
+        "drank",
+        "ran"
+      ],
+      "summary": "Daftar kata kerja tidak beraturan yang paling sering dipakai.",
+      "youtubeKeywords": [
+        "irregular verbs past tense English",
+        "irregular verbs list"
+      ]
+    },
+    {
+      "day": 13,
+      "week": 2,
+      "month": 1,
+      "title": "Menyusun Cerita Pengalaman Masa Lalu",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "story",
+        "experience",
+        "journey",
+        "memory",
+        "adventure",
+        "beach",
+        "mountain",
+        "festival",
+        "market",
+        "museum"
+      ],
+      "summary": "Menyusun cerita pendek tentang pengalaman dengan urutan waktu.",
+      "youtubeKeywords": [
+        "telling a story in English past tense",
+        "English storytelling beginners"
+      ]
+    },
+    {
+      "day": 14,
+      "week": 2,
+      "month": 1,
+      "title": "Evaluasi & Mini Test Minggu 2",
+      "topic": "Review: Grammar dasar (Bulan 1)",
+      "skillFocus": "review",
+      "vocab": [
+        "waiting",
+        "in",
+        "yesterday",
+        "played",
+        "went",
+        "ate",
+        "story",
+        "beach",
+        "mountain",
+        "bought"
+      ],
+      "summary": "Meninjau kejadian kini, masa lalu, dan preposisi minggu 2.",
+      "youtubeKeywords": [
+        "past tense English test",
+        "prepositions English quiz"
+      ]
+    },
+    {
+      "day": 15,
+      "week": 3,
+      "month": 1,
+      "title": "Simple Future: will vs be going to",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "will",
+        "tomorrow",
+        "plan",
+        "promise",
+        "decide",
+        "future",
+        "next",
+        "soon",
+        "prepare",
+        "hope"
+      ],
+      "summary": "Prediksi dan rencana: will untuk keputusan spontan, be going to untuk rencana.",
+      "youtubeKeywords": [
+        "will vs going to English",
+        "future tense English"
+      ]
+    },
+    {
+      "day": 16,
+      "week": 3,
+      "month": 1,
+      "title": "Modal Dasar: can, could, may, might, must, should",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "ability",
+        "permission",
+        "advice",
+        "necessary",
+        "possible",
+        "allowed",
+        "rule",
+        "duty",
+        "obligation",
+        "suggest"
+      ],
+      "summary": "Modal untuk kemampuan, izin, saran, dan kemungkinan, selalu diikuti V1.",
+      "youtubeKeywords": [
+        "modal verbs English beginners",
+        "can could may might must should"
+      ]
+    },
+    {
+      "day": 17,
+      "week": 3,
+      "month": 1,
+      "title": "Present Perfect 1: have/has + V3",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "visited",
+        "learned",
+        "achieved",
+        "completed",
+        "broken",
+        "lost",
+        "found",
+        "met",
+        "seen",
+        "tried"
+      ],
+      "summary": "Pengalaman dan hasil yang masih berhubungan dengan sekarang.",
+      "youtubeKeywords": [
+        "present perfect tense English",
+        "have has past participle"
+      ]
+    },
+    {
+      "day": 18,
+      "week": 3,
+      "month": 1,
+      "title": "Simple Past vs Present Perfect",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "since",
+        "for",
+        "yet",
+        "still",
+        "recently",
+        "lately",
+        "ever",
+        "never",
+        "just",
+        "before"
+      ],
+      "summary": "Membedakan waktu spesifik di masa lalu dari pengalaman tanpa waktu.",
+      "youtubeKeywords": [
+        "present perfect vs simple past English",
+        "present perfect time words"
+      ]
+    },
+    {
+      "day": 19,
+      "week": 3,
+      "month": 1,
+      "title": "Countable, Uncountable & Quantifiers",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "water",
+        "rice",
+        "sugar",
+        "milk",
+        "coffee",
+        "bread",
+        "money",
+        "traffic",
+        "furniture",
+        "equipment"
+      ],
+      "summary": "Benda yang bisa dan tidak bisa dihitung, serta many, much, some, any, a few, a little.",
+      "youtubeKeywords": [
+        "countable and uncountable nouns English",
+        "much many a lot of English"
+      ]
+    },
+    {
+      "day": 20,
+      "week": 3,
+      "month": 1,
+      "title": "Pertanyaan Lengkap 5W+1H",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "who",
+        "what",
+        "where",
+        "when",
+        "why",
+        "how",
+        "which",
+        "whose",
+        "whom",
+        "how many"
+      ],
+      "summary": "Membuat pertanyaan lengkap dengan kata tanya dan urutan kalimat tanya.",
+      "youtubeKeywords": [
+        "wh questions English beginners",
+        "question words English"
+      ]
+    },
+    {
+      "day": 21,
+      "week": 3,
+      "month": 1,
+      "title": "Evaluasi & Mini Test Minggu 3",
+      "topic": "Review: Grammar dasar (Bulan 1)",
+      "skillFocus": "review",
+      "vocab": [
+        "will",
+        "can",
+        "have",
+        "visited",
+        "never",
+        "rice",
+        "money",
+        "who",
+        "where",
+        "how"
+      ],
+      "summary": "Meninjau masa depan, modal, present perfect, dan pertanyaan minggu 3.",
+      "youtubeKeywords": [
+        "future and modal English test",
+        "present perfect quiz English"
+      ]
+    },
+    {
+      "day": 22,
+      "week": 4,
+      "month": 1,
+      "title": "Adjective vs Adverb (-ly)",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "quickly",
+        "slowly",
+        "carefully",
+        "quietly",
+        "easily",
+        "happily",
+        "badly",
+        "well",
+        "hard",
+        "really"
+      ],
+      "summary": "Kata sifat menerangkan benda, kata keterangan menerangkan kata kerja.",
+      "youtubeKeywords": [
+        "adjective vs adverb English",
+        "adverbs ending in -ly"
+      ]
+    },
+    {
+      "day": 23,
+      "week": 4,
+      "month": 1,
+      "title": "Comparative & Superlative",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "bigger",
+        "taller",
+        "faster",
+        "expensive",
+        "cheaper",
+        "best",
+        "worst",
+        "larger",
+        "easier",
+        "more"
+      ],
+      "summary": "Membandingkan dua hal dengan -er atau more, dan yang paling dengan -est atau most.",
+      "youtubeKeywords": [
+        "comparative and superlative English",
+        "comparing adjectives English"
+      ]
+    },
+    {
+      "day": 24,
+      "week": 4,
+      "month": 1,
+      "title": "Passive Voice Dasar",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "built",
+        "painted",
+        "designed",
+        "repaired",
+        "delivered",
+        "produced",
+        "invented",
+        "discovered",
+        "announced",
+        "prepared"
+      ],
+      "summary": "Kalimat pasif dengan be + V3 dan kapan pasif dipakai.",
+      "youtubeKeywords": [
+        "passive voice English beginners",
+        "passive voice be past participle"
+      ]
+    },
+    {
+      "day": 25,
+      "week": 4,
+      "month": 1,
+      "title": "Konjungsi Setara: and, but, or, so",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "and",
+        "but",
+        "or",
+        "so",
+        "both",
+        "either",
+        "neither",
+        "also",
+        "instead",
+        "otherwise"
+      ],
+      "summary": "Menggabungkan dua ide setara dengan penghubung yang tepat.",
+      "youtubeKeywords": [
+        "coordinating conjunctions English",
+        "and but or so English"
+      ]
+    },
+    {
+      "day": 26,
+      "week": 4,
+      "month": 1,
+      "title": "Sebab-Akibat & Pertentangan",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "listening",
+      "vocab": [
+        "because",
+        "although",
+        "even though",
+        "while",
+        "in case",
+        "after",
+        "unless",
+        "until",
+        "whereas",
+        "though"
+      ],
+      "summary": "Menghubungkan alasan, waktu, dan pertentangan dalam kalimat majemuk.",
+      "youtubeKeywords": [
+        "subordinating conjunctions English",
+        "because although English"
+      ]
+    },
+    {
+      "day": 27,
+      "week": 4,
+      "month": 1,
+      "title": "Conditional Tipe 1 & 2",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "if",
+        "would",
+        "wish",
+        "imagine",
+        "condition",
+        "result",
+        "possibility",
+        "situation",
+        "hypothetical",
+        "real"
+      ],
+      "summary": "Kalimat syarat untuk kenyataan (tipe 1) dan khayalan (tipe 2).",
+      "youtubeKeywords": [
+        "first and second conditional English",
+        "if clauses English"
+      ]
+    },
+    {
+      "day": 28,
+      "week": 4,
+      "month": 1,
+      "title": "Review Tata Bahasa Bulan 1",
+      "topic": "Review: Grammar dasar (Bulan 1)",
+      "skillFocus": "review",
+      "vocab": [
+        "teacher",
+        "happy",
+        "cook",
+        "will",
+        "can",
+        "have",
+        "rice",
+        "which",
+        "quickly",
+        "bigger"
+      ],
+      "summary": "Meninjau pola tata bahasa minggu 1 sampai 4 dalam satu sesi grammar.",
+      "youtubeKeywords": [
+        "English grammar review beginners",
+        "present past future review English"
+      ]
+    },
+    {
+      "day": 29,
+      "week": 4,
+      "month": 1,
+      "title": "Membaca & Kosakata Bulan 1",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "reading",
+      "vocab": [
+        "summarize",
+        "paragraph",
+        "main",
+        "detail",
+        "passage",
+        "meaning",
+        "topic",
+        "guess",
+        "reading",
+        "comprehension"
+      ],
+      "summary": "Membaca teks pendek dan memahami isinya dengan menebak arti dari konteks.",
+      "youtubeKeywords": [
+        "reading comprehension for beginners English",
+        "reading strategies English"
+      ]
+    },
+    {
+      "day": 30,
+      "week": 4,
+      "month": 1,
+      "title": "Ujian Akhir Bulan 1",
+      "topic": "Grammar dasar (Bulan 1)",
+      "skillFocus": "exam",
+      "vocab": [
+        "exam",
+        "result",
+        "report",
+        "practice",
+        "progress",
+        "improve",
+        "mistake",
+        "goal",
+        "confidence",
+        "review"
+      ],
+      "summary": "Ujian gabungan bulan 1 dan laporan kesiapan awal.",
+      "youtubeKeywords": [
+        "English test for beginners",
+        "A1 A2 English exam practice"
+      ]
+    },
+    {
+      "day": 31,
+      "week": 5,
+      "month": 2,
+      "title": "Subjek & Kata Kerja Utama dalam Kalimat Panjang",
+      "topic": "TOEFL Structure",
+      "skillFocus": "reading",
+      "vocab": [
+        "subject",
+        "verb",
+        "clause",
+        "phrase",
+        "object",
+        "modifier",
+        "complete",
+        "identify",
+        "structure",
+        "element"
+      ],
+      "summary": "Menemukan subjek dan kata kerja utama di kalimat panjang yang berisi sisipan.",
+      "youtubeKeywords": [
+        "TOEFL structure subject and verb",
+        "finding the main verb in long sentences"
+      ]
+    },
+    {
+      "day": 32,
+      "week": 5,
+      "month": 2,
+      "title": "Object of Preposition: Jebakan Frasa Depan",
+      "topic": "TOEFL Structure",
+      "skillFocus": "listening",
+      "vocab": [
+        "beside",
+        "across",
+        "throughout",
+        "beneath",
+        "toward",
+        "within",
+        "despite",
+        "unlike",
+        "among",
+        "around"
+      ],
+      "summary": "Kata benda setelah preposisi bukan subjek, dan jebakan frasa depan dalam soal TOEFL.",
+      "youtubeKeywords": [
+        "TOEFL object of preposition",
+        "prepositional phrase trap TOEFL"
+      ]
+    },
+    {
+      "day": 33,
+      "week": 5,
+      "month": 2,
+      "title": "Appositive (Keterangan Tambahan)",
+      "topic": "TOEFL Structure",
+      "skillFocus": "reading",
+      "vocab": [
+        "appositive",
+        "founder",
+        "author",
+        "scientist",
+        "professor",
+        "engineer",
+        "painter",
+        "director",
+        "nickname",
+        "title"
+      ],
+      "summary": "Frasa keterangan tambahan yang memberi identitas pada kata benda tanpa kata kerja.",
+      "youtubeKeywords": [
+        "appositive English grammar",
+        "TOEFL appositive examples"
+      ]
+    },
+    {
+      "day": 34,
+      "week": 5,
+      "month": 2,
+      "title": "Subject-Verb Agreement: each, every, either/neither",
+      "topic": "TOEFL Structure",
+      "skillFocus": "listening",
+      "vocab": [
+        "each",
+        "every",
+        "each one",
+        "no one",
+        "everyone",
+        "anybody",
+        "somebody",
+        "everything",
+        "nothing",
+        "someone"
+      ],
+      "summary": "Kata kerja tunggal atau jamak untuk each, every, either/neither, dan kata benda gabungan.",
+      "youtubeKeywords": [
+        "subject verb agreement TOEFL",
+        "each every either neither English"
+      ]
+    },
+    {
+      "day": 35,
+      "week": 5,
+      "month": 2,
+      "title": "Subjek dengan One of the, Majority, dan Sejenisnya",
+      "topic": "TOEFL Structure",
+      "skillFocus": "reading",
+      "vocab": [
+        "majority",
+        "portion",
+        "percentage",
+        "several",
+        "numerous",
+        "collection",
+        "series",
+        "variety",
+        "number",
+        "amount"
+      ],
+      "summary": "Kata benda utama setelah one of the, a number of, dan the majority menentukan kata kerja.",
+      "youtubeKeywords": [
+        "one of the subject verb agreement",
+        "a number of the number of English"
+      ]
+    },
+    {
+      "day": 36,
+      "week": 5,
+      "month": 2,
+      "title": "Latihan Struktur Campuran",
+      "topic": "TOEFL Structure",
+      "skillFocus": "listening",
+      "vocab": [
+        "accurate",
+        "correct",
+        "error",
+        "check",
+        "confirm",
+        "detect",
+        "revise",
+        "proofread",
+        "edit",
+        "polish"
+      ],
+      "summary": "Menerapkan semua aturan struktur untuk menemukan bagian yang salah dalam kalimat.",
+      "youtubeKeywords": [
+        "TOEFL written expression practice",
+        "find the error TOEFL"
+      ]
+    },
+    {
+      "day": 37,
+      "week": 5,
+      "month": 2,
+      "title": "Review Minggu 5",
+      "topic": "Review: TOEFL Structure",
+      "skillFocus": "review",
+      "vocab": [
+        "subject",
+        "verb",
+        "clause",
+        "each",
+        "several",
+        "appositive",
+        "correct",
+        "check",
+        "structure",
+        "majority"
+      ],
+      "summary": "Meninjau kembali struktur inti TOEFL minggu 5.",
+      "youtubeKeywords": [
+        "TOEFL structure review",
+        "TOEFL grammar practice"
+      ]
+    },
+    {
+      "day": 38,
+      "week": 6,
+      "month": 2,
+      "title": "Coordinate Connectors (Penghubung Setara)",
+      "topic": "TOEFL Structure",
+      "skillFocus": "listening",
+      "vocab": [
+        "furthermore",
+        "moreover",
+        "however",
+        "therefore",
+        "consequently",
+        "nevertheless",
+        "meanwhile",
+        "hence",
+        "thus",
+        "accordingly"
+      ],
+      "summary": "Penghubung antarkalimat untuk tambahan, kontras, dan akibat.",
+      "youtubeKeywords": [
+        "transition words English",
+        "coordinate connectors TOEFL"
+      ]
+    },
+    {
+      "day": 39,
+      "week": 6,
+      "month": 2,
+      "title": "Adverb Clauses: Waktu dan Syarat",
+      "topic": "TOEFL Structure",
+      "skillFocus": "reading",
+      "vocab": [
+        "whenever",
+        "wherever",
+        "whether",
+        "provided",
+        "given",
+        "as",
+        "by the time",
+        "as soon as",
+        "so that",
+        "in order to"
+      ],
+      "summary": "Anak kalimat keterangan waktu, syarat, dan tujuan.",
+      "youtubeKeywords": [
+        "adverb clauses English",
+        "adverb clauses TOEFL"
+      ]
+    },
+    {
+      "day": 40,
+      "week": 6,
+      "month": 2,
+      "title": "Adverb Clauses: Kontras dan Konsesi",
+      "topic": "TOEFL Structure",
+      "skillFocus": "listening",
+      "vocab": [
+        "regardless",
+        "albeit",
+        "whatever",
+        "whoever",
+        "whichever",
+        "notwithstanding",
+        "nonetheless",
+        "conversely",
+        "contrary",
+        "opposite"
+      ],
+      "summary": "Anak kalimat yang menunjukkan pertentangan dan kebalikan.",
+      "youtubeKeywords": [
+        "concession clauses English",
+        "although even though English"
+      ]
+    },
+    {
+      "day": 41,
+      "week": 6,
+      "month": 2,
+      "title": "Adjective Clauses: who, whom, whose, which, that",
+      "topic": "TOEFL Structure",
+      "skillFocus": "reading",
+      "vocab": [
+        "relative",
+        "antecedent",
+        "describe",
+        "refer",
+        "define",
+        "specify",
+        "mention",
+        "indicate",
+        "reveal",
+        "explain"
+      ],
+      "summary": "Anak kalimat sifat untuk menerangkan kata benda dengan who, which, that, whose.",
+      "youtubeKeywords": [
+        "relative clauses English",
+        "who which that clauses TOEFL"
+      ]
+    },
+    {
+      "day": 42,
+      "week": 6,
+      "month": 2,
+      "title": "Noun Clauses",
+      "topic": "TOEFL Structure",
+      "skillFocus": "listening",
+      "vocab": [
+        "wonder",
+        "realize",
+        "believe",
+        "suppose",
+        "expect",
+        "consider",
+        "assume",
+        "agree",
+        "admit",
+        "doubt"
+      ],
+      "summary": "Anak kalimat yang berfungsi sebagai kata benda, biasanya setelah kata kerja pikiran.",
+      "youtubeKeywords": [
+        "noun clauses English",
+        "that clauses noun TOEFL"
+      ]
+    },
+    {
+      "day": 43,
+      "week": 6,
+      "month": 2,
+      "title": "Reduced Clauses: V-ing vs V3",
+      "topic": "TOEFL Structure",
+      "skillFocus": "reading",
+      "vocab": [
+        "participle",
+        "gerund",
+        "reduced",
+        "shortened",
+        "following",
+        "having",
+        "being",
+        "leaving",
+        "presenting",
+        "opening"
+      ],
+      "summary": "Memendekkan anak kalimat menjadi frasa V-ing atau V3.",
+      "youtubeKeywords": [
+        "reduced clauses English",
+        "participle phrases TOEFL"
+      ]
+    },
+    {
+      "day": 44,
+      "week": 6,
+      "month": 2,
+      "title": "Review Minggu 6",
+      "topic": "Review: TOEFL Structure",
+      "skillFocus": "review",
+      "vocab": [
+        "however",
+        "whenever",
+        "regardless",
+        "who",
+        "wonder",
+        "participle",
+        "believe",
+        "reduced",
+        "therefore",
+        "describe"
+      ],
+      "summary": "Meninjau penghubung dan anak kalimat minggu 6.",
+      "youtubeKeywords": [
+        "TOEFL clauses review",
+        "English clauses practice"
+      ]
+    },
+    {
+      "day": 45,
+      "week": 7,
+      "month": 2,
+      "title": "Parallel Structure",
+      "topic": "TOEFL Written Expression & Reading",
+      "skillFocus": "reading",
+      "vocab": [
+        "parallel",
+        "balance",
+        "consistent",
+        "similar",
+        "match",
+        "equal",
+        "pattern",
+        "sequence",
+        "list",
+        "symmetry"
+      ],
+      "summary": "Bentuk kata yang sejajar dalam daftar dan perbandingan.",
+      "youtubeKeywords": [
+        "parallel structure English",
+        "parallelism TOEFL"
+      ]
+    },
+    {
+      "day": 46,
+      "week": 7,
+      "month": 2,
+      "title": "Word Form: -tion dan -ment",
+      "topic": "TOEFL Written Expression & Reading",
+      "skillFocus": "listening",
+      "vocab": [
+        "celebration",
+        "invention",
+        "contribution",
+        "attention",
+        "solution",
+        "discussion",
+        "performance",
+        "population",
+        "development",
+        "improvement"
+      ],
+      "summary": "Mengenali kata benda dari kata kerja dengan akhiran -tion dan -ment.",
+      "youtubeKeywords": [
+        "word form suffix tion ment",
+        "TOEFL word form"
+      ]
+    },
+    {
+      "day": 47,
+      "week": 7,
+      "month": 2,
+      "title": "Word Form: -ive, -al, -ly",
+      "topic": "TOEFL Written Expression & Reading",
+      "skillFocus": "reading",
+      "vocab": [
+        "creative",
+        "effective",
+        "positive",
+        "national",
+        "global",
+        "typical",
+        "personal",
+        "physical",
+        "logical",
+        "critical"
+      ],
+      "summary": "Mengenali kata sifat dan kata keterangan dari akhiran -ive, -al, dan -ly.",
+      "youtubeKeywords": [
+        "word form suffix ive al ly",
+        "TOEFL word form adjectives"
+      ]
+    },
+    {
+      "day": 48,
+      "week": 7,
+      "month": 2,
+      "title": "Inversion Dasar",
+      "topic": "TOEFL Written Expression & Reading",
+      "skillFocus": "listening",
+      "vocab": [
+        "rarely",
+        "seldom",
+        "hardly",
+        "scarcely",
+        "barely",
+        "nowhere",
+        "not only",
+        "only then",
+        "no sooner",
+        "little"
+      ],
+      "summary": "Membalik urutan subjek dan kata kerja setelah kata keterangan negatif.",
+      "youtubeKeywords": [
+        "inversion in English",
+        "negative inversion TOEFL"
+      ]
+    },
+    {
+      "day": 49,
+      "week": 7,
+      "month": 2,
+      "title": "Strategi Membaca: Skimming dan Scanning",
+      "topic": "TOEFL Written Expression & Reading",
+      "skillFocus": "reading",
+      "vocab": [
+        "skim",
+        "scan",
+        "overview",
+        "headline",
+        "keyword",
+        "locate",
+        "highlight",
+        "outline",
+        "glance",
+        "speed"
+      ],
+      "summary": "Membaca cepat untuk gambaran umum dan mencari informasi spesifik.",
+      "youtubeKeywords": [
+        "skimming and scanning English",
+        "reading strategies TOEFL"
+      ]
+    },
+    {
+      "day": 50,
+      "week": 7,
+      "month": 2,
+      "title": "Main Idea dan Supporting Detail",
+      "topic": "TOEFL Written Expression & Reading",
+      "skillFocus": "listening",
+      "vocab": [
+        "theme",
+        "thesis",
+        "argument",
+        "purpose",
+        "conclusion",
+        "example",
+        "illustrate",
+        "emphasize",
+        "imply",
+        "support"
+      ],
+      "summary": "Menemukan ide utama dan detail pendukung dalam teks.",
+      "youtubeKeywords": [
+        "main idea and supporting details",
+        "TOEFL main idea"
+      ]
+    },
+    {
+      "day": 51,
+      "week": 7,
+      "month": 2,
+      "title": "Review Minggu 7",
+      "topic": "Review: TOEFL Written Expression & Reading",
+      "skillFocus": "review",
+      "vocab": [
+        "parallel",
+        "skim",
+        "scan",
+        "creative",
+        "celebration",
+        "rarely",
+        "thesis",
+        "reference",
+        "context",
+        "locate"
+      ],
+      "summary": "Meninjau strategi reading dan Written Expression minggu 7.",
+      "youtubeKeywords": [
+        "TOEFL reading strategies review",
+        "TOEFL written expression review"
+      ]
+    },
+    {
+      "day": 52,
+      "week": 8,
+      "month": 2,
+      "title": "Dialog Pendek dan Second Speaker",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "listening",
+      "vocab": [
+        "dialogue",
+        "speaker",
+        "response",
+        "reply",
+        "respond",
+        "conversation",
+        "remark",
+        "comment",
+        "suggestion",
+        "complaint"
+      ],
+      "summary": "Memahami jawaban pembicara kedua dalam dialog pendek.",
+      "youtubeKeywords": [
+        "TOEFL short conversations",
+        "listening second speaker TOEFL"
+      ]
+    },
+    {
+      "day": 53,
+      "week": 8,
+      "month": 2,
+      "title": "Sinonim dan Parafrasa",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "reading",
+      "vocab": [
+        "alternative",
+        "equivalent",
+        "comparable",
+        "replace",
+        "substitute",
+        "identical",
+        "rephrase",
+        "paraphrase",
+        "express",
+        "synonym"
+      ],
+      "summary": "Mengenali makna sama dalam kata atau kalimat yang berbeda bentuk.",
+      "youtubeKeywords": [
+        "synonyms and paraphrase English",
+        "paraphrasing TOEFL"
+      ]
+    },
+    {
+      "day": 54,
+      "week": 8,
+      "month": 2,
+      "title": "Idiom Dasar",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "listening",
+      "vocab": [
+        "idiom",
+        "figurative",
+        "literal",
+        "slang",
+        "expression",
+        "metaphor",
+        "colloquial",
+        "informal",
+        "formal",
+        "casual"
+      ],
+      "summary": "Mengenali idiom dan makna kiasan dalam percakapan.",
+      "youtubeKeywords": [
+        "common English idioms beginners",
+        "idioms TOEFL listening"
+      ]
+    },
+    {
+      "day": 55,
+      "week": 8,
+      "month": 2,
+      "title": "Ekspresi Negatif",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "reading",
+      "vocab": [
+        "unlikely",
+        "impossible",
+        "unable",
+        "unwilling",
+        "absence",
+        "lack",
+        "none",
+        "fail",
+        "refuse",
+        "reluctant"
+      ],
+      "summary": "Ekspresi yang menyatakan penolakan, ketidakmampuan, dan kekurangan.",
+      "youtubeKeywords": [
+        "negative expressions English",
+        "TOEFL negative words"
+      ]
+    },
+    {
+      "day": 56,
+      "week": 8,
+      "month": 2,
+      "title": "Percakapan Panjang: Kehidupan Kampus",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "listening",
+      "vocab": [
+        "campus",
+        "dormitory",
+        "registration",
+        "schedule",
+        "deadline",
+        "assignment",
+        "lecture",
+        "tutor",
+        "library",
+        "semester"
+      ],
+      "summary": "Memahami percakapan panjang tentang kehidupan kampus.",
+      "youtubeKeywords": [
+        "TOEFL long conversation campus",
+        "campus life English listening"
+      ]
+    },
+    {
+      "day": 57,
+      "week": 8,
+      "month": 2,
+      "title": "Academic Talk: Pidato Akademik",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "reading",
+      "vocab": [
+        "academic",
+        "research",
+        "hypothesis",
+        "data",
+        "experiment",
+        "analysis",
+        "theory",
+        "method",
+        "sample",
+        "variable"
+      ],
+      "summary": "Memahami kuliah singkat yang berisi penjelasan dan contoh.",
+      "youtubeKeywords": [
+        "TOEFL academic talk",
+        "academic lecture English listening"
+      ]
+    },
+    {
+      "day": 58,
+      "week": 8,
+      "month": 2,
+      "title": "Review Minggu 8",
+      "topic": "Review: TOEFL Listening & simulasi",
+      "skillFocus": "review",
+      "vocab": [
+        "dialogue",
+        "alternative",
+        "idiom",
+        "unlikely",
+        "campus",
+        "deadline",
+        "research",
+        "method",
+        "reply",
+        "figurative"
+      ],
+      "summary": "Meninjau listening kampus dan percakapan minggu 8.",
+      "youtubeKeywords": [
+        "TOEFL listening practice",
+        "TOEFL academic talk practice"
+      ]
+    },
+    {
+      "day": 59,
+      "week": 8,
+      "month": 2,
+      "title": "Simulasi TOEFL ITP Bagian 1",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "exam",
+      "vocab": [
+        "simulation",
+        "timer",
+        "section",
+        "question",
+        "booklet",
+        "benchmark",
+        "estimate",
+        "percentile",
+        "rubric",
+        "pace"
+      ],
+      "summary": "Simulasi penuh TOEFL ITP, dibagi dua hari. Bagian 1: Listening dan Structure.",
+      "youtubeKeywords": [
+        "TOEFL ITP full simulation",
+        "TOEFL ITP practice test"
+      ]
+    },
+    {
+      "day": 60,
+      "week": 8,
+      "month": 2,
+      "title": "Simulasi TOEFL ITP Bagian 2 & Estimasi Skor",
+      "topic": "TOEFL Listening & simulasi",
+      "skillFocus": "exam",
+      "vocab": [
+        "transition",
+        "readiness",
+        "weakness",
+        "strength",
+        "roadmap",
+        "milestone",
+        "reflection",
+        "target",
+        "plateau",
+        "momentum"
+      ],
+      "summary": "Simulasi bagian 2 (Reading), estimasi skor, dan kesiapan transisi ke IELTS.",
+      "youtubeKeywords": [
+        "TOEFL ITP score conversion",
+        "TOEFL reading practice"
+      ]
+    },
+    {
+      "day": 61,
+      "week": 9,
+      "month": 3,
+      "title": "Format IELTS: True / False / Not Given",
+      "topic": "IELTS Reading & Listening",
+      "skillFocus": "reading",
+      "vocab": [
+        "statement",
+        "claim",
+        "contradict",
+        "unstated",
+        "assumption",
+        "distort",
+        "verify",
+        "exaggerate",
+        "mislead",
+        "valid"
+      ],
+      "summary": "Membedakan pernyataan yang benar, salah, atau tidak disebutkan dalam teks.",
+      "youtubeKeywords": [
+        "IELTS true false not given",
+        "IELTS reading strategies"
+      ]
+    },
+    {
+      "day": 62,
+      "week": 9,
+      "month": 3,
+      "title": "Yes / No / Not Given",
+      "topic": "IELTS Reading & Listening",
+      "skillFocus": "listening",
+      "vocab": [
+        "opinion",
+        "viewpoint",
+        "writer",
+        "argue",
+        "dispute",
+        "endorse",
+        "criticize",
+        "belief",
+        "stance",
+        "persuade"
+      ],
+      "summary": "Membedakan pendapat penulis dari fakta dalam teks.",
+      "youtubeKeywords": [
+        "IELTS yes no not given",
+        "IELTS writer opinion"
+      ]
+    },
+    {
+      "day": 63,
+      "week": 9,
+      "month": 3,
+      "title": "Matching Headings",
+      "topic": "IELTS Reading & Listening",
+      "skillFocus": "reading",
+      "vocab": [
+        "heading",
+        "chapter",
+        "section",
+        "subheading",
+        "gist",
+        "summary",
+        "scope",
+        "arrangement",
+        "flow",
+        "order"
+      ],
+      "summary": "Mencocokkan judul dengan paragraf berdasarkan ide utamanya.",
+      "youtubeKeywords": [
+        "IELTS matching headings",
+        "IELTS reading strategies"
+      ]
+    },
+    {
+      "day": 64,
+      "week": 9,
+      "month": 3,
+      "title": "Summary Completion",
+      "topic": "IELTS Reading & Listening",
+      "skillFocus": "listening",
+      "vocab": [
+        "gap",
+        "blank",
+        "notes",
+        "wording",
+        "extract",
+        "fill",
+        "finish",
+        "excerpt",
+        "transfer",
+        "limit"
+      ],
+      "summary": "Melengkapi ringkasan dengan kata dari teks dan batas jumlah kata.",
+      "youtubeKeywords": [
+        "IELTS summary completion",
+        "IELTS summary tips"
+      ]
+    },
+    {
+      "day": 65,
+      "week": 9,
+      "month": 3,
+      "title": "Listening: Distraktor dan Koreksi",
+      "topic": "IELTS Reading & Listening",
+      "skillFocus": "reading",
+      "vocab": [
+        "correction",
+        "distractor",
+        "actually",
+        "rather",
+        "mistaken",
+        "misunderstand",
+        "amend",
+        "revision",
+        "retract",
+        "update"
+      ],
+      "summary": "Mengenali koreksi di tengah audio, misalnya kata yang diralat pembicara.",
+      "youtubeKeywords": [
+        "IELTS listening distractors",
+        "IELTS listening corrections"
+      ]
+    },
+    {
+      "day": 66,
+      "week": 9,
+      "month": 3,
+      "title": "Listening: Ejaan dan Angka",
+      "topic": "IELTS Reading & Listening",
+      "skillFocus": "listening",
+      "vocab": [
+        "spelling",
+        "alphabet",
+        "capital",
+        "letter",
+        "digit",
+        "decimal",
+        "postcode",
+        "initial",
+        "abbreviation",
+        "surname"
+      ],
+      "summary": "Menulis ejaan, huruf, dan angka dengan tepat saat mendengarkan.",
+      "youtubeKeywords": [
+        "IELTS listening spelling",
+        "IELTS listening numbers"
+      ]
+    },
+    {
+      "day": 67,
+      "week": 9,
+      "month": 3,
+      "title": "Review Minggu 9",
+      "topic": "Review: IELTS Reading & Listening",
+      "skillFocus": "review",
+      "vocab": [
+        "statement",
+        "opinion",
+        "heading",
+        "gap",
+        "correction",
+        "spelling",
+        "claim",
+        "writer",
+        "summary",
+        "actually"
+      ],
+      "summary": "Meninjau teknik reading dan listening IELTS minggu 9.",
+      "youtubeKeywords": [
+        "IELTS reading practice",
+        "IELTS listening practice"
+      ]
+    },
+    {
+      "day": 68,
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1: Line Graph",
+      "topic": "IELTS Writing Task 1",
+      "skillFocus": "listening",
+      "vocab": [
+        "line graph",
+        "axis",
+        "trend",
+        "fluctuate",
+        "peak",
+        "plunge",
+        "steady",
+        "surge",
+        "rise",
+        "decline"
+      ],
+      "summary": "Menulis ringkasan grafik garis dengan kosakata tren yang tepat.",
+      "youtubeKeywords": [
+        "IELTS writing task 1 line graph",
+        "IELTS line graph vocabulary"
+      ]
+    },
+    {
+      "day": 69,
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1: Bar Chart",
+      "topic": "IELTS Writing Task 1",
+      "skillFocus": "reading",
+      "vocab": [
+        "bar chart",
+        "comparison",
+        "proportion",
+        "category",
+        "segment",
+        "outperform",
+        "significant",
+        "substantial",
+        "slight",
+        "gradual"
+      ],
+      "summary": "Membandingkan kategori dalam grafik batang.",
+      "youtubeKeywords": [
+        "IELTS writing task 1 bar chart",
+        "IELTS bar chart comparison"
+      ]
+    },
+    {
+      "day": 70,
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1: Pie Chart dan Table",
+      "topic": "IELTS Writing Task 1",
+      "skillFocus": "listening",
+      "vocab": [
+        "slice",
+        "fraction",
+        "total",
+        "dominate",
+        "constitute",
+        "breakdown",
+        "ratio",
+        "account",
+        "tabulate",
+        "figure"
+      ],
+      "summary": "Merangkum komposisi dari diagram lingkaran dan tabel.",
+      "youtubeKeywords": [
+        "IELTS writing task 1 pie chart",
+        "IELTS writing task 1 table"
+      ]
+    },
+    {
+      "day": 71,
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1: Process",
+      "topic": "IELTS Writing Task 1",
+      "skillFocus": "reading",
+      "vocab": [
+        "process",
+        "stage",
+        "phase",
+        "procedure",
+        "transform",
+        "convert",
+        "generate",
+        "cycle",
+        "subsequently",
+        "finally"
+      ],
+      "summary": "Menjelaskan tahapan proses dengan kata penghubung urutan.",
+      "youtubeKeywords": [
+        "IELTS writing task 1 process",
+        "IELTS process diagram vocabulary"
+      ]
+    },
+    {
+      "day": 72,
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1: Map",
+      "topic": "IELTS Writing Task 1",
+      "skillFocus": "listening",
+      "vocab": [
+        "map",
+        "layout",
+        "original",
+        "redevelop",
+        "construct",
+        "demolish",
+        "relocate",
+        "surrounding",
+        "north",
+        "residential"
+      ],
+      "summary": "Membandingkan dua peta sebelum dan sesudah perubahan.",
+      "youtubeKeywords": [
+        "IELTS writing task 1 map",
+        "IELTS map comparison"
+      ]
+    },
+    {
+      "day": 73,
+      "week": 10,
+      "month": 3,
+      "title": "Writing Task 1: Overview Paragraph",
+      "topic": "IELTS Writing Task 1",
+      "skillFocus": "reading",
+      "vocab": [
+        "overall",
+        "generally",
+        "broadly",
+        "notably",
+        "chiefly",
+        "primarily",
+        "mainly",
+        "key",
+        "prominent",
+        "noticeable"
+      ],
+      "summary": "Menulis paragraf overview yang merangkum tren utama.",
+      "youtubeKeywords": [
+        "IELTS writing overview paragraph",
+        "IELTS task 1 overview"
+      ]
+    },
+    {
+      "day": 74,
+      "week": 10,
+      "month": 3,
+      "title": "Review Minggu 10",
+      "topic": "Review: IELTS Writing Task 1",
+      "skillFocus": "review",
+      "vocab": [
+        "trend",
+        "bar chart",
+        "slice",
+        "cycle",
+        "redevelop",
+        "overall",
+        "rise",
+        "significant",
+        "breakdown",
+        "notably"
+      ],
+      "summary": "Meninjau tren, perbandingan, dan proses pada Writing Task 1.",
+      "youtubeKeywords": [
+        "IELTS writing task 1 review",
+        "IELTS writing task 1 band 7"
+      ]
+    },
+    {
+      "day": 75,
+      "week": 11,
+      "month": 3,
+      "title": "Writing Task 2: Opinion Essay",
+      "topic": "IELTS Writing Task 2",
+      "skillFocus": "reading",
+      "vocab": [
+        "conviction",
+        "standpoint",
+        "persuasive",
+        "justify",
+        "reasonable",
+        "debatable",
+        "contention",
+        "rationale",
+        "credible",
+        "weigh"
+      ],
+      "summary": "Menulis esai opini dengan posisi yang jelas.",
+      "youtubeKeywords": [
+        "IELTS writing task 2 opinion essay",
+        "IELTS opinion essay band 7"
+      ]
+    },
+    {
+      "day": 76,
+      "week": 11,
+      "month": 3,
+      "title": "Writing Task 2: Discussion Essay",
+      "topic": "IELTS Writing Task 2",
+      "skillFocus": "listening",
+      "vocab": [
+        "perspective",
+        "counterpoint",
+        "merit",
+        "drawback",
+        "counterargument",
+        "concession",
+        "alternatively",
+        "debate",
+        "scrutinize",
+        "reconcile"
+      ],
+      "summary": "Membahas dua sisi argumen dalam esai diskusi.",
+      "youtubeKeywords": [
+        "IELTS discussion essay",
+        "IELTS discussion essay structure"
+      ]
+    },
+    {
+      "day": 77,
+      "week": 11,
+      "month": 3,
+      "title": "Writing Task 2: Problem and Solution",
+      "topic": "IELTS Writing Task 2",
+      "skillFocus": "reading",
+      "vocab": [
+        "problem",
+        "fix",
+        "cause",
+        "effect",
+        "tackle",
+        "address",
+        "mitigate",
+        "prevent",
+        "remedy",
+        "initiative"
+      ],
+      "summary": "Menjelaskan masalah, penyebab, dan solusi dalam esai.",
+      "youtubeKeywords": [
+        "IELTS problem solution essay",
+        "IELTS problem solution structure"
+      ]
+    },
+    {
+      "day": 78,
+      "week": 11,
+      "month": 3,
+      "title": "Writing Task 2: Advantages dan Disadvantages",
+      "topic": "IELTS Writing Task 2",
+      "skillFocus": "listening",
+      "vocab": [
+        "advantage",
+        "disadvantage",
+        "benefit",
+        "risk",
+        "hazard",
+        "downside",
+        "upside",
+        "trade-off",
+        "consequence",
+        "impact"
+      ],
+      "summary": "Menulis esai kelebihan dan kekurangan dengan contoh.",
+      "youtubeKeywords": [
+        "IELTS advantages disadvantages essay",
+        "IELTS essay examples"
+      ]
+    },
+    {
+      "day": 79,
+      "week": 11,
+      "month": 3,
+      "title": "Thesis Statement",
+      "topic": "IELTS Writing Task 2",
+      "skillFocus": "reading",
+      "vocab": [
+        "assertion",
+        "premise",
+        "proposition",
+        "cornerstone",
+        "framework",
+        "foundation",
+        "focus",
+        "essence",
+        "direction",
+        "guideline"
+      ],
+      "summary": "Menulis pernyataan tesis yang jelas di paragraf pembuka.",
+      "youtubeKeywords": [
+        "thesis statement English essay",
+        "IELTS thesis statement"
+      ]
+    },
+    {
+      "day": 80,
+      "week": 11,
+      "month": 3,
+      "title": "Topic Sentence dan Pengembangan Argumen",
+      "topic": "IELTS Writing Task 2",
+      "skillFocus": "listening",
+      "vocab": [
+        "elaborate",
+        "reasoning",
+        "substantiate",
+        "logic",
+        "coherent",
+        "cohesive",
+        "progression",
+        "digression",
+        "transition",
+        "bridge"
+      ],
+      "summary": "Menulis topic sentence dan mengembangkan argumen dengan contoh.",
+      "youtubeKeywords": [
+        "IELTS topic sentence",
+        "IELTS coherence and cohesion"
+      ]
+    },
+    {
+      "day": 81,
+      "week": 11,
+      "month": 3,
+      "title": "Review Minggu 11",
+      "topic": "Review: IELTS Writing Task 2",
+      "skillFocus": "review",
+      "vocab": [
+        "justify",
+        "merit",
+        "cause",
+        "benefit",
+        "cohesive",
+        "transition",
+        "perspective",
+        "mitigate",
+        "reasoning",
+        "thesis"
+      ],
+      "summary": "Meninjau struktur esai, argumen, dan penghubung minggu 11.",
+      "youtubeKeywords": [
+        "IELTS writing task 2 review",
+        "IELTS essay practice"
+      ]
+    },
+    {
+      "day": 82,
+      "week": 12,
+      "month": 3,
+      "title": "Speaking Part 1: Topik Akrab",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "listening",
+      "vocab": [
+        "hobby",
+        "hometown",
+        "routine",
+        "favourite",
+        "pastime",
+        "commute",
+        "neighbourhood",
+        "childhood",
+        "housework",
+        "weather"
+      ],
+      "summary": "Menjawab pertanyaan singkat tentang diri sendiri dengan kalimat lengkap.",
+      "youtubeKeywords": [
+        "IELTS speaking part 1",
+        "IELTS speaking part 1 sample answers"
+      ]
+    },
+    {
+      "day": 83,
+      "week": 12,
+      "month": 3,
+      "title": "Speaking Part 1: Kebiasaan dan Preferensi",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "reading",
+      "vocab": [
+        "preference",
+        "habit",
+        "enjoy",
+        "prefer",
+        "frequently",
+        "occasionally",
+        "regularly",
+        "usually",
+        "normally",
+        "spare time"
+      ],
+      "summary": "Menjawab tentang kebiasaan dan pilihan dengan kata keterangan frekuensi.",
+      "youtubeKeywords": [
+        "IELTS speaking habits and preferences",
+        "IELTS speaking part 1 frequency"
+      ]
+    },
+    {
+      "day": 84,
+      "week": 12,
+      "month": 3,
+      "title": "Speaking Part 2: Cue Card",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "listening",
+      "vocab": [
+        "cue card",
+        "narrate",
+        "anecdote",
+        "memorable",
+        "timeline",
+        "recall",
+        "vivid",
+        "sensation",
+        "prompt",
+        "reflect"
+      ],
+      "summary": "Berbicara dua menit tentang cue card dengan struktur cerita.",
+      "youtubeKeywords": [
+        "IELTS speaking part 2 cue card",
+        "IELTS speaking part 2 structure"
+      ]
+    },
+    {
+      "day": 85,
+      "week": 12,
+      "month": 3,
+      "title": "Speaking Part 2: Memperluas Ide",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "reading",
+      "vocab": [
+        "extend",
+        "expand",
+        "background",
+        "insight",
+        "emotion",
+        "significance",
+        "vantage",
+        "nostalgia",
+        "gratitude",
+        "pride"
+      ],
+      "summary": "Memperluas jawaban dengan latar belakang, alasan, dan perasaan.",
+      "youtubeKeywords": [
+        "IELTS speaking part 2 extend answer",
+        "IELTS speaking fluency tips"
+      ]
+    },
+    {
+      "day": 86,
+      "week": 12,
+      "month": 3,
+      "title": "Speaking Part 3: Diskusi Abstrak",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "listening",
+      "vocab": [
+        "society",
+        "generation",
+        "technology",
+        "influence",
+        "economy",
+        "globalisation",
+        "urbanisation",
+        "tradition",
+        "innovation",
+        "sustainability"
+      ],
+      "summary": "Membahas topik umum seperti masyarakat dan teknologi dengan argumen.",
+      "youtubeKeywords": [
+        "IELTS speaking part 3",
+        "IELTS speaking part 3 abstract discussion"
+      ]
+    },
+    {
+      "day": 87,
+      "week": 12,
+      "month": 3,
+      "title": "Speaking Part 3: Membandingkan dan Spekulasi",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "reading",
+      "vocab": [
+        "speculate",
+        "probably",
+        "possibly",
+        "presumably",
+        "arguably",
+        "conceivably",
+        "doubtless",
+        "undoubtedly",
+        "apparently",
+        "seemingly"
+      ],
+      "summary": "Membuat perkiraan dan membandingkan masa lalu dengan sekarang.",
+      "youtubeKeywords": [
+        "IELTS speaking speculate",
+        "IELTS speaking part 3 comparison"
+      ]
+    },
+    {
+      "day": 88,
+      "week": 12,
+      "month": 3,
+      "title": "Simulasi Penuh IELTS: Listening dan Reading",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "exam",
+      "vocab": [
+        "band",
+        "mock",
+        "sections",
+        "timing",
+        "accuracy",
+        "pressure",
+        "endurance",
+        "calibration",
+        "feedback",
+        "stamina"
+      ],
+      "summary": "Simulasi penuh Listening dan Reading dengan waktu asli.",
+      "youtubeKeywords": [
+        "IELTS full mock test listening reading",
+        "IELTS practice test"
+      ]
+    },
+    {
+      "day": 89,
+      "week": 12,
+      "month": 3,
+      "title": "Simulasi Penuh IELTS: Writing dan Speaking",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "exam",
+      "vocab": [
+        "coherence",
+        "cohesion",
+        "fluency",
+        "pronunciation",
+        "criteria",
+        "examiner",
+        "descriptor",
+        "consistency",
+        "precision",
+        "versatility"
+      ],
+      "summary": "Simulasi penuh Writing dan Speaking dengan rubrik empat kriteria.",
+      "youtubeKeywords": [
+        "IELTS full mock test writing speaking",
+        "IELTS band descriptors"
+      ]
+    },
+    {
+      "day": 90,
+      "week": 12,
+      "month": 3,
+      "title": "Rencana Aksi Akhir",
+      "topic": "IELTS Speaking & simulasi",
+      "skillFocus": "exam",
+      "vocab": [
+        "commitment",
+        "discipline",
+        "priority",
+        "sustain",
+        "checkpoint",
+        "reminder",
+        "accountable",
+        "celebrate",
+        "pledge",
+        "continuity"
+      ],
+      "summary": "Menyusun rencana belajar setelah 90 hari dan titik evaluasi berikutnya.",
+      "youtubeKeywords": [
+        "how to keep learning English after a course",
+        "English study plan"
+      ]
+    }
+  ]
+}

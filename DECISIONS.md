@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-21: Fase 2 (kurikulum 90 hari)
+
+1. **Generator sekali pakai, hasil di-commit.** `content/curriculum.json` dibuat dari data yang ditulis langsung (judul, kosakata, ringkasan, kata kunci YouTube per hari). Generator tidak disimpan di repositori. Hasil JSON-nya yang menjadi sumber kebenaran, dan bisa diedit langsung.
+2. **Pola skillFocus:** hari ganjil reading, hari genap listening. Hari review: 7, 14, 21, 28, 37, 44, 51, 58, 67, 74, 81. Hari exam: 30, 59, 60, 88, 89, 90. Hari 28-30 mengikuti ujian akhir bulan 1 (28 grammar, 29 reading, 30 ujian).
+3. **Kosakata unik.** Dari 900 slot, 730 kosakata di hari reading dan listening semuanya unik. Hari review dan exam boleh mengulang kata dari minggu itu, sesuai tujuannya. `scripts/validate-curriculum.ts` (`npm run validate:curriculum`) memeriksa ini, plus urutan hari, minggu, bulan, dan kesesuaian dengan file konten yang sudah ada (kosakata Hari 1 cocok).
+4. **Field `topic`** berisi label minggu (misalnya "IELTS Writing Task 1"). Judul hari lebih spesifik. Review diberi awalan "Review: ".
+
 ## 2026-10-21: Fase 1 (fondasi aplikasi)
 
 1. **Skema dengan zod.** `content/schema.ts` berisi zod schema, tipe TypeScript (`z.infer`), dan konstanta kurikulum (rentang minggu, target kesulitan). Validator memakai schema ini ditambah aturan tambahan. Tidak ada file JSON Schema terpisah karena zod sudah menjadi sumber tunggal.
