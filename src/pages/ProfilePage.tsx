@@ -18,11 +18,11 @@ import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
  * Ungu tetap dipakai untuk pilihan yang aktif.
  */
 const SECTION_TINT = {
-  display: 'bg-tint-sun',
-  voice: 'bg-tint-sky',
-  reminder: 'bg-tint-mint',
-  backup: 'bg-tint-peach',
-  data: 'bg-tint-rose',
+  display: { box: 'bg-orange', icon: 'text-ink' },
+  voice: { box: 'bg-periwinkle', icon: 'text-ink' },
+  reminder: { box: 'bg-tint-mint', icon: 'text-ink' },
+  backup: { box: 'bg-brown', icon: 'text-white' },
+  data: { box: 'bg-tint-rose', icon: 'text-ink' },
 } as const;
 
 function SectionCard({
@@ -33,7 +33,7 @@ function SectionCard({
   className = '',
 }: {
   icon: LucideIcon;
-  tint: string;
+  tint: { box: string; icon: string };
   title: string;
   children: ReactNode;
   className?: string;
@@ -41,8 +41,8 @@ function SectionCard({
   return (
     <Card className={`flex flex-col gap-4 ${className}`}>
       <div className="flex items-center gap-3">
-        <span className={`grid size-11 shrink-0 place-items-center rounded-2xl ${tint}`}>
-          <Icon size={20} aria-hidden="true" className="text-ink" />
+        <span className={`grid size-11 shrink-0 place-items-center rounded-2xl ${tint.box}`}>
+          <Icon size={20} aria-hidden="true" className={tint.icon} />
         </span>
         <h2 className="text-lg font-bold text-ink">{title}</h2>
       </div>

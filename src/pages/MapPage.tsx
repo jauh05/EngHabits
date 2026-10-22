@@ -20,7 +20,7 @@ const GRID_STATUS: Record<DayStatus, string> = {
 };
 
 /** Warna kartu minggu di kisi, bergilir. */
-const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-tint-rose', 'bg-tint-mint'];
+const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-orange', 'bg-tint-rose', 'bg-periwinkle', 'bg-tint-mint'];
 
 /** Warna minggu, sama dengan kartu di kisi. Dipakai juga di roadmap supaya warnanya tidak hanya ungu. */
 function tintFor(week: number): string {

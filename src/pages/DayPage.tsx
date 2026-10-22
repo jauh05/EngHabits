@@ -172,9 +172,9 @@ function DaySession({ day }: { day: number }) {
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 pb-10 pt-5 sm:max-w-2xl lg:max-w-4xl">
       {/* Kartu sesi: pola gambar 3 dan 5. Latar lilac dengan bola peach, bar soal terjawab, dan langkah berwarna. */}
-      <header className="relative flex flex-col gap-4 overflow-clip rounded-card bg-tint-lilac p-5 shadow-card">
-        <Blob className="-right-12 -top-12 size-44 bg-tint-peach/80" />
-        <Blob className="-bottom-12 -left-10 size-36 bg-tint-sky/80" />
+      <header className="relative flex flex-col gap-4 overflow-clip rounded-card bg-periwinkle p-5 shadow-card">
+        <Blob className="-right-12 -top-12 size-44 bg-orange/80" />
+        <Blob className="-bottom-12 -left-10 size-36 bg-tint-sun/80" />
         <div className="relative flex items-center justify-between gap-3">
           <Link
             to="/"
@@ -188,7 +188,7 @@ function DaySession({ day }: { day: number }) {
           </span>
         </div>
         <div className="relative">
-          <p className="text-sm font-bold text-primary-700">
+          <p className="text-sm font-bold text-ink">
             Hari {day} · Minggu {view.week}
           </p>
           <h1 className="text-2xl font-extrabold leading-tight text-ink sm:text-3xl">{view.title}</h1>

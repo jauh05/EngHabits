@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Palet baru diterapkan ke Profil, Peta, dan Materi
+
+1. **Profil.** Kotak ikon di tiap kartu sekarang punya warna sendiri lewat `SECTION_TINT`. Tampilan oranye, Suara periwinkle, Pengingat mint, Cadangan coklat dengan ikon putih, dan Data belajar rose.
+2. **Peta.** Kartu minggu di kisi bergilir sun, sky, oranye, rose, periwinkle, dan mint. Node dan peti tidak berubah.
+3. **Materi.** Header sesi berwarna periwinkle, dengan blob oranye dan sun. Label "Hari ... Minggu ..." memakai teks gelap, karena `primary-700` di atas periwinkle hanya 3,79:1. Kartu kosakata bergilir sun, oranye, sky, periwinkle, rose, dan mint, menggantikan peach dan lavender.
+4. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser, Profil, Peta mode roadmap, dan Materi hari 1 sudah dicek. Kisi di Peta dan mode gelap belum dicek.
+
 ## 2026-10-22: Batang grafik coklat, status jadi titik di atas batang
 
 1. **Semua batang grafik skor inti berwarna coklat `#A95B23`** di Statistik dan Beranda.
