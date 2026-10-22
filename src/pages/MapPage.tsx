@@ -15,12 +15,22 @@ const GRID_STATUS: Record<DayStatus, string> = {
   completed: 'bg-success text-on-accent border-transparent',
   available: 'bg-banner text-ink border-transparent shadow-card',
   repair: 'bg-tint-peach text-ink border-transparent',
-  locked: 'bg-surface text-muted border-transparent',
-  nocontent: 'bg-surface text-muted border-dashed border-line',
+  locked: 'bg-surface/70 text-muted border-transparent',
+  nocontent: 'bg-surface/70 text-muted border-dashed border-ink/20',
 };
 
 /** Warna kartu minggu di kisi, bergilir. */
 const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-tint-rose', 'bg-tint-mint'];
+
+/** Warna minggu, sama dengan kartu di kisi. Dipakai juga di roadmap supaya warnanya tidak hanya ungu. */
+function tintFor(week: number): string {
+  const index = WEEK_RANGES.findIndex(([value]) => value === week);
+  return WEEK_BG[Math.max(0, index) % WEEK_BG.length];
+}
+
+function weekOf(day: number): number {
+  return WEEK_RANGES.find(([, from, to]) => day >= from && day <= to)?.[0] ?? 1;
+}
 
 /** Posisi horizontal node dalam persen, berselang kiri dan kanan seperti jalur di gambar 1. */
 const X_PATTERN = [50, 30, 18, 30, 50, 70, 82, 70];
@@ -165,7 +175,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               className="absolute inset-x-0 flex flex-col items-center gap-1 text-center"
               style={{ top: item.y, height: HEADER_HEIGHT - 12 }}
             >
-              <span className="rounded-full bg-surface px-4 py-1.5 text-xs font-bold text-primary-700 shadow-card">
+              <span className={`rounded-full px-4 py-1.5 text-xs font-bold text-ink shadow-card ${tintFor(item.week)}`}>
                 Minggu {item.week} · Bulan {monthOfWeek(item.week)}
               </span>
               <span className="text-xs font-semibold text-muted">
@@ -186,7 +196,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               }
               aria-label={`Peti minggu ${item.week}${item.open ? ', terbuka' : ', terkunci'}`}
               className={`absolute grid -translate-x-1/2 place-items-center rounded-2xl border-b-4 shadow-card outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
-                item.open ? 'border-streak bg-tint-sun text-ink' : 'border-line bg-surface text-muted'
+                item.open ? 'border-streak bg-surface text-ink' : `border-transparent text-ink/60 ${tintFor(item.week)}`
               }`}
               style={{ left: `${item.x}%`, top: item.y - 26, width: 52, height: 52 }}
             >
@@ -206,8 +216,8 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
                 ? 'bg-tint-peach text-ink border-streak'
                 : 'bg-banner text-ink border-primary-500'
               : item.status === 'locked'
-                ? 'bg-surface text-muted border-line'
-                : 'bg-surface text-muted border-dashed border-line';
+                ? `${tintFor(weekOf(item.day))} border-transparent text-ink/60`
+                : `${tintFor(weekOf(item.day))} border-dashed border-ink/20 text-ink/50`;
 
         return (
           <div

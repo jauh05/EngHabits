@@ -2,6 +2,12 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Warna Peta dan Profil disesuaikan, dan dua bug alur akun diverifikasi
+
+1. **Profil tidak lagi bertabrakan.** Semua kartu bagian berlatar putih. Warna pastel hanya dipakai di kotak ikon kecil (sun untuk tampilan, sky untuk suara, mint untuk pengingat, peach untuk cadangan, rose untuk data belajar). Kartu akun memakai avatar ungu sebagai sorotan. Pilihan yang aktif tetap ungu.
+2. **Peta roadmap tidak hanya ungu.** Node yang belum terbuka dan peti mengikuti warna minggunya, sama dengan kartu di kisi (sun, sky, rose, mint). Node aktif tetap ungu, yang lulus hijau, dan yang perlu perbaikan peach. Pill minggu juga berwarna.
+3. **Dua bug alur akun sudah diverifikasi di browser.** Masuk dengan akun yang ada berakhir di `/sambutan`, dan daftar dari awal (setelah data browser dihapus) juga berakhir di `/sambutan`. Lebar Beranda di HP sama dengan viewport (375px), tidak ada geser horizontal. Satu-satunya elemen yang melewati batas adalah blob dekoratif yang terpotong oleh `overflow-hidden`.
+
 ## 2026-10-22: Akun lokal, rombak palet, roadmap, dan navbar desktop
 
 1. **Akun hanya lokal.** Daftar dan masuk memakai email dan kata sandi di perangkat ini. Kata sandi di-hash dengan PBKDF2-SHA256 (100.000 iterasi, salt 16 byte acak) lewat Web Crypto. Hasilnya disimpan di `Settings.account`. Ini bukan autentikasi sungguhan. Tidak ada server, tidak ada sinkronisasi, dan tidak ada reset kata sandi. Pemilik proyek perlu memutuskan layanan identitas (misalnya Supabase atau Firebase) sebelum akun bisa dipakai di banyak perangkat.

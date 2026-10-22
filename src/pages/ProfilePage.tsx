@@ -1,6 +1,6 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, type ReactNode } from 'react';
 import { motion } from 'motion/react';
-import { Bell, Check, Download, Upload, Volume2 } from 'lucide-react';
+import { Bell, Check, Download, Palette, RotateCcw, UserRound, Upload, Volume2, type LucideIcon } from 'lucide-react';
 import { spring } from '../lib/motion';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
@@ -12,6 +12,44 @@ import { localISO } from '../lib/dates';
 import { hasEnglishVoice, speak, ttsSupported } from '../lib/tts';
 import { useSettings } from '../lib/settings';
 import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
+
+/**
+ * Satu warna per bagian, hanya di kotak ikon. Latar kartu tetap putih supaya warna tidak bertabrakan.
+ * Ungu tetap dipakai untuk pilihan yang aktif.
+ */
+const SECTION_TINT = {
+  display: 'bg-tint-sun',
+  voice: 'bg-tint-sky',
+  reminder: 'bg-tint-mint',
+  backup: 'bg-tint-peach',
+  data: 'bg-tint-rose',
+} as const;
+
+function SectionCard({
+  icon: Icon,
+  tint,
+  title,
+  children,
+  className = '',
+}: {
+  icon: LucideIcon;
+  tint: string;
+  title: string;
+  children: ReactNode;
+  className?: string;
+}) {
+  return (
+    <Card className={`flex flex-col gap-4 ${className}`}>
+      <div className="flex items-center gap-3">
+        <span className={`grid size-11 shrink-0 place-items-center rounded-2xl ${tint}`}>
+          <Icon size={20} aria-hidden="true" className="text-ink" />
+        </span>
+        <h2 className="text-lg font-bold text-ink">{title}</h2>
+      </div>
+      {children}
+    </Card>
+  );
+}
 
 function Choice<T extends string>({
   name,
@@ -154,34 +192,14 @@ export function ProfilePage() {
         <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Profil & pengaturan</h1>
       </header>
 
-      <Card className="flex flex-col gap-4">
-        <h2 className="text-lg font-bold text-ink">Tampilan</h2>
-        <Choice
-          name="Tema"
-          value={settings.theme}
-          options={[
-            { value: 'light', label: 'Terang' },
-            { value: 'dark', label: 'Gelap' },
-          ]}
-          onChange={(theme) => set({ theme })}
-        />
-        <label className="flex min-h-11 items-center justify-between gap-4">
-          <span className="flex flex-col">
-            <span className="font-semibold text-ink">Kurangi animasi</span>
-            <span className="text-sm text-muted">Mematikan gerakan dan confetti. Transisi menjadi fade sederhana.</span>
+      {/* Satu-satunya kartu berlatar ungu terang: akun, sebagai sorotan utama halaman. */}
+      <Card className="flex flex-col gap-4 lg:col-span-2">
+        <div className="flex items-center gap-3">
+          <span className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-ink">
+            <UserRound size={22} aria-hidden="true" />
           </span>
-          <input
-            type="checkbox"
-            role="switch"
-            checked={settings.reduceMotion}
-            onChange={(event) => set({ reduceMotion: event.target.checked })}
-            className="size-6 accent-[var(--primary-500)]"
-          />
-        </label>
-      </Card>
-
-      <Card tone="lavender" className="flex flex-col gap-4 lg:col-span-2">
-        <h2 className="text-lg font-bold text-ink">Akun</h2>
+          <h2 className="text-lg font-bold text-ink">Akun</h2>
+        </div>
         {settings.account ? (
           <div className="flex flex-wrap items-center justify-between gap-3">
             <div className="flex flex-col">
@@ -204,8 +222,32 @@ export function ProfilePage() {
         )}
       </Card>
 
-      <Card tone="sky" className="flex flex-col gap-4">
-        <h2 className="text-lg font-bold text-ink">Suara (text-to-speech)</h2>
+      <SectionCard icon={Palette} tint={SECTION_TINT.display} title="Tampilan">
+        <Choice
+          name="Tema"
+          value={settings.theme}
+          options={[
+            { value: 'light', label: 'Terang' },
+            { value: 'dark', label: 'Gelap' },
+          ]}
+          onChange={(theme) => set({ theme })}
+        />
+        <label className="flex min-h-11 items-center justify-between gap-4">
+          <span className="flex flex-col">
+            <span className="font-semibold text-ink">Kurangi animasi</span>
+            <span className="text-sm text-muted">Mematikan gerakan dan confetti. Transisi menjadi fade sederhana.</span>
+          </span>
+          <input
+            type="checkbox"
+            role="switch"
+            checked={settings.reduceMotion}
+            onChange={(event) => set({ reduceMotion: event.target.checked })}
+            className="size-6 accent-primary-500"
+          />
+        </label>
+      </SectionCard>
+
+      <SectionCard icon={Volume2} tint={SECTION_TINT.voice} title="Suara (text-to-speech)">
         <Choice
           name="Aksen"
           value={settings.accent}
@@ -227,7 +269,7 @@ export function ProfilePage() {
             step={0.1}
             value={settings.rate}
             onChange={(event) => set({ rate: Number(event.target.value) })}
-            className="h-11 accent-[var(--primary-500)]"
+            className="h-11 accent-primary-500"
           />
         </label>
         <Button
@@ -247,16 +289,12 @@ export function ProfilePage() {
               ? 'Suara bahasa Inggris terdeteksi di perangkat ini.'
               : 'Belum ada suara bahasa Inggris. Pasang voice English di pengaturan teks-ke-ucapan perangkatmu (Android, iOS, atau Windows), lalu muat ulang halaman.'}
         </p>
-      </Card>
+      </SectionCard>
 
-      <Card tone="mint" className="flex flex-col gap-4">
-        <h2 className="text-lg font-bold text-ink">Pengingat harian</h2>
+      <SectionCard icon={Bell} tint={SECTION_TINT.reminder} title="Pengingat harian">
         <label className="flex min-h-11 items-center justify-between gap-4">
           <span className="flex flex-col">
-            <span className="flex items-center gap-2 font-semibold text-ink">
-              <Bell size={18} aria-hidden="true" />
-              Ingatkan jam {String(REMINDER_HOUR).padStart(2, '0')}.00
-            </span>
+            <span className="font-semibold text-ink">Ingatkan jam {String(REMINDER_HOUR).padStart(2, '0')}.00</span>
             <span className="text-sm text-muted">Notifikasi muncul sekali sehari. Butuh izin dari browser.</span>
           </span>
           <input
@@ -264,14 +302,13 @@ export function ProfilePage() {
             role="switch"
             checked={settings.reminderEnabled}
             onChange={(event) => void toggleReminder(event.target.checked)}
-            className="size-6 accent-[var(--primary-500)]"
+            className="size-6 accent-primary-500"
           />
         </label>
         {reminderNote && <p className="text-sm text-muted">{reminderNote}</p>}
-      </Card>
+      </SectionCard>
 
-      <Card tone="peach" className="flex flex-col gap-3">
-        <h2 className="text-lg font-bold text-ink">Cadangan data</h2>
+      <SectionCard icon={Download} tint={SECTION_TINT.backup} title="Cadangan data">
         <p className="text-sm text-muted">
           Ekspor menyimpan progres, percobaan, Buku Kesalahan, dan catatan ke berkas JSON. Impor menggantikan semua data
           yang ada sekarang dengan isi berkas.
@@ -294,17 +331,16 @@ export function ProfilePage() {
             onChange={(event) => void handleFile(event.target.files?.[0])}
           />
         </div>
-      </Card>
+      </SectionCard>
 
-      <Card tone="rose" className="flex flex-col gap-3">
-        <h2 className="text-lg font-bold text-ink">Data belajar</h2>
+      <SectionCard icon={RotateCcw} tint={SECTION_TINT.data} title="Data belajar">
         <p className="text-sm text-muted">
           Reset menghapus semua progres, percobaan, dan Buku Kesalahan. Pengaturan tampilan tetap tersimpan.
         </p>
         <Button variant="secondary" onClick={() => setConfirmReset(true)}>
           Reset progres
         </Button>
-      </Card>
+      </SectionCard>
 
       <Modal open={confirmReset} onClose={() => setConfirmReset(false)} title="Hapus semua progres?">
         <p className="mb-5 text-muted">Tindakan ini tidak bisa dibatalkan. Simpan cadangan jika masih perlu datanya.</p>
