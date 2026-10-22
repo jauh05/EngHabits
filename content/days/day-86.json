@@ -447,13 +447,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Tradisi keluarga itu harus dijaga demi keberlanjutan budaya.",
-        "hint": "Tradisi keluarga: family traditions. Harus dijaga: must be preserved. Demi keberlanjutan budaya: for the sustainability of culture.",
-        "acceptedAnswers": ["Family traditions must be kept for the sustainability of culture.", "Family traditions must be preserved for the sustainability of culture."],
-        "modelAnswer": "Family traditions must be kept for the sustainability of culture.",
-        "commonErrors": [{ "pattern": "Family tradition must keeps for sustainable of culture", "feedbackId": "Setelah must memakai kata kerja dasar keep, dan sustainability adalah kata benda." }],
-        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+        "kind": "ielts_speaking_p3",
+        "promptId": "Menurutmu apakah buku cetak akan hilang di masa depan? Jelaskan pendapatmu dengan alasan.",
+        "hint": "Sebutkan pendapatmu, lalu alasannya, lalu kemungkinan lain.",
+        "modelAnswer": "I don't think printed books will disappear completely. Digital books are convenient, but many people still enjoy the feel of paper and the lack of screen distractions. However, printed books may become more of a choice than a necessity, and they might be valued more as objects to collect.",
+        "commonErrors": [{ "pattern": "Printed book will disappear. Digital is better. Everyone use phone.", "feedbackId": "Jawaban p3 perlu alasan yang lebih umum. Hindari klaim absolut seperti everyone." }],
+        "rubric": [{ "criterion": "Argumen", "whatGoodLooksLike": "Pendapat disertai alasan yang masuk akal." }, { "criterion": "Perbandingan", "whatGoodLooksLike": "Jawaban membandingkan dua hal atau mempertimbangkan sisi lain." }]
       }
     ],
     "hardChallenge": [

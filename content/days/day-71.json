@@ -891,30 +891,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Setiap tahap merupakan bagian dari prosedur yang lebih besar.",
-        "hint": "Setiap tahap: each stage. Merupakan bagian dari: is part of. Prosedur yang lebih besar: a larger procedure.",
-        "acceptedAnswers": [
-          "Each stage is part of a larger procedure.",
-          "Each stage forms part of a larger procedure."
-        ],
-        "modelAnswer": "Each stage is part of a larger procedure.",
-        "commonErrors": [
-          {
-            "pattern": "Each stages are part of larger procedure",
-            "feedbackId": "Setelah each, kata benda memakai bentuk tunggal stage, dan gunakan a larger procedure."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task1_outline",
+        "promptId": "Diagram menunjukkan proses daur ulang botol plastik: botol dikumpulkan, dicuci, dicacah, dilelehkan, lalu dibentuk menjadi produk baru. Tulis outline dengan pengantar, gambaran umum, dan dua paragraf isi.",
+        "hint": "Proses diurutkan. Gunakan kata urutan seperti first, then, dan finally.",
+        "modelAnswer": "Introduction: The diagram illustrates how plastic bottles are recycled into new products.\nOverview: The process has five main stages, from collection to shaping, and it moves in one direction without loops.\nBody 1: First, bottles are collected and washed, then they are shredded into small flakes.\nBody 2: Next, the flakes are melted and shaped into pellets, which are finally made into new products.",
+        "commonErrors": [{ "pattern": "First the bottle is washed. After that is cut. Then is melt. Finally is make new.", "feedbackId": "Gunakan bentuk pasif dengan tepat dan kata urutan yang jelas. Pastikan tiap langkah punya satu kalimat." }],
+        "rubric": [{ "criterion": "Gambaran umum", "whatGoodLooksLike": "Outline memuat tren utama, bukan hanya daftar angka." }, { "criterion": "Organisasi", "whatGoodLooksLike": "Ada pengantar, gambaran umum, dan paragraf isi yang terpisah." }]
       }
     ],
     "hardChallenge": [

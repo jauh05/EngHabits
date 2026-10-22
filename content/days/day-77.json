@@ -891,30 +891,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Tidak ada satu tindakan pun yang menjadi obat yang sempurna.",
-        "hint": "Tidak ada satu tindakan pun: no single measure. Obat yang sempurna: a complete remedy.",
-        "acceptedAnswers": [
-          "No single measure is a complete remedy.",
-          "No single measure is a full remedy."
-        ],
-        "modelAnswer": "No single measure is a complete remedy.",
-        "commonErrors": [
-          {
-            "pattern": "No single measure are a complete remedy",
-            "feedbackId": "Subjek measure tunggal memakai is."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Banyak kota mengalami kemacetan setiap pagi. Tulis satu paragraf yang menjelaskan satu masalah akibat kemacetan dan satu solusi yang bisa dilakukan.",
+        "hint": "Gunakan pola: masalah, dampaknya, lalu solusi.",
+        "modelAnswer": "Traffic congestion in many cities is a serious problem, especially during rush hours. It wastes time, increases fuel use, and raises air pollution. One effective solution is to improve public transport, such as more frequent buses and dedicated bus lanes. When people have a reliable alternative to driving, fewer cars will be on the road.",
+        "commonErrors": [{ "pattern": "Traffic is bad. So we need to fix it. Government should do something.", "feedbackId": "Sebutkan masalah dan dampaknya dengan jelas, lalu solusi yang spesifik." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       }
     ],
     "hardChallenge": [

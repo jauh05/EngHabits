@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import day1 from '../../content/days/day-01.json';
+import day68 from '../../content/days/day-68.json';
 import type { Day, ProductionTask, Question } from '../../content/schema';
 import { normalizeAnswer } from '../../content/normalize';
 import { gradeDay, gradeMcq, gradeProduction } from './grading';
@@ -50,6 +51,27 @@ describe('gradeProduction', () => {
     expect(gradeProduction(task, 'We not are hungry.')).toBe(false);
     expect(gradeProduction(task, '   ')).toBe(false);
     expect(gradeProduction(task, undefined)).toBe(false);
+  });
+});
+
+describe('tugas tulis dan lisan', () => {
+  // Hari 68 punya satu tugas ielts_task1_outline (B5). Tugas itu tidak boleh masuk skor otomatis.
+  const writingDay = day68 as unknown as Day;
+
+  it('tidak masuk skor inti, tetapi tetap ditampilkan di selfItems', () => {
+    const result = gradeDay(writingDay, answersFromDay());
+    const selfIds = result.selfItems.map((item) => item.id);
+    expect(selfIds).toEqual(['B5']);
+    expect(result.selfItems[0].selfAssessed).toBe(true);
+    expect(result.selfItems[0].correct).toBe(false);
+    expect(result.items.some((item) => item.id === 'B5')).toBe(false);
+    expect(result.core.total).toBe(14);
+    expect(result.parts.partB.total).toBe(4);
+  });
+
+  it('tidak dihitung salah di Buku Kesalahan, karena tidak ada di items', () => {
+    const result = gradeDay(writingDay, {});
+    expect(result.items.filter((item) => !item.correct && item.part === 'partB')).toHaveLength(4);
   });
 });
 

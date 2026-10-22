@@ -939,30 +939,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Argumen itu harus dibuktikan dengan data yang kredibel.",
-        "hint": "Argumen itu: the argument. Harus dibuktikan: must be substantiated. Dengan data: with data. Yang kredibel: credible.",
-        "acceptedAnswers": [
-          "The argument must be substantiated with credible data.",
-          "The argument must be supported with credible data."
-        ],
-        "modelAnswer": "The argument must be substantiated with credible data.",
-        "commonErrors": [
-          {
-            "pattern": "The argument must substantiates with credible datas",
-            "feedbackId": "Setelah must be, pakai V3 substantiated; data tetap bentuk kata benda."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Tulis satu paragraf isi untuk esai tentang pendidikan daring. Mulai dengan topic sentence yang jelas, lalu beri satu contoh dan satu penjelasan.",
+        "hint": "Topic sentence menyatakan satu ide utama. Contoh dan penjelasan mendukung ide itu.",
+        "modelAnswer": "Online education can make learning more accessible for students who live far from good schools. For example, a learner in a remote village can join a lesson given by a teacher in the city, using only a phone and an internet connection. This means that students who would otherwise have no access to certain subjects can still learn them.",
+        "commonErrors": [{ "pattern": "Online education is good. For example online education is good. This is why online education is good.", "feedbackId": "Topic sentence harus memperkenalkan ide baru, dan contoh harus memberi bukti, bukan mengulang klaim." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       }
     ],
     "hardChallenge": [

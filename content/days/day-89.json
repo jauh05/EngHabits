@@ -411,24 +411,22 @@
       {
         "id": "B4",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Ketepatan pilihan kata membuat maksud saya jelas, bukan samar.",
-        "hint": "Ketepatan pilihan kata: precision in word choice. Membuat maksud saya jelas: makes my meaning clear. Bukan samar: not vague.",
-        "acceptedAnswers": ["Precision in word choice makes my meaning clear, not vague.", "Precision in my word choice makes my meaning clear, not vague."],
-        "modelAnswer": "Precision in word choice makes my meaning clear, not vague.",
-        "commonErrors": [{ "pattern": "Precisions in word choices make my meaning clears, not vagues", "feedbackId": "Precision tidak dijamakkan, make memakai bentuk dasar, dan clear serta vague adalah kata sifat tanpa -s." }],
-        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Sebagian orang berpendapat bekerja dari rumah membuat produktivitas turun. Tulis satu paragraf yang menyatakan pendapatmu dengan alasan dan contoh.",
+        "hint": "Tentukan posisimu di kalimat pertama, lalu beri satu alasan dan satu contoh.",
+        "modelAnswer": "I disagree with the view that working from home reduces productivity. Although distractions at home are real, many employees produce more work when they avoid long commutes and can plan their own schedule. For example, a team that sets clear deadlines and holds regular check-ins can often match the output of an office team. Therefore, productivity depends more on management than on location.",
+        "commonErrors": [{ "pattern": "Working from home is not good because people are lazy at home.", "feedbackId": "Hindari generalisasi tentang orang. Fokus pada faktor yang bisa dijelaskan, seperti jadwal dan manajemen." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       },
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Konsistensi dari awal sampai akhir tes lebih penting daripada satu jawaban yang sempurna.",
-        "hint": "Konsistensi dari awal sampai akhir: consistency from start to finish. Lebih penting daripada: is more important than. Satu jawaban yang sempurna: one perfect answer.",
-        "acceptedAnswers": ["Consistency from start to finish is more important than one perfect answer.", "Consistency from the start to the end of the test is more important than one perfect answer."],
-        "modelAnswer": "Consistency from start to finish is more important than one perfect answer.",
-        "commonErrors": [{ "pattern": "Consistencies from start to finish are more important than one perfect answers", "feedbackId": "Consistency tidak dijamakkan, subjek tunggal memakai is, dan answer tunggal setelah one." }],
-        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+        "kind": "ielts_speaking_p2",
+        "promptId": "Ceritakan tentang tantangan yang pernah kamu atasi. Jelaskan apa tantangannya, apa yang kamu lakukan, dan apa yang kamu pelajari.",
+        "hint": "Susun jawaban sebagai cerita singkat dengan tiga bagian.",
+        "modelAnswer": "A challenge I overcame was preparing for an important exam with only a few months left. I made a weekly plan, studied for an hour every morning, and asked a friend to test me on the difficult topics. At first it felt overwhelming, but gradually I became more confident. What I learned is that a big goal becomes manageable when you break it into small, regular steps.",
+        "commonErrors": [{ "pattern": "I have challenge. I study hard. Now I pass.", "feedbackId": "Jawaban cue card perlu urutan jelas dan detail. Ceritakan langkah yang kamu ambil, bukan hanya hasilnya." }],
+        "rubric": [{ "criterion": "Urutan cerita", "whatGoodLooksLike": "Ada tiga bagian: apa, kapan, dan mengapa." }, { "criterion": "Detail", "whatGoodLooksLike": "Ada contoh atau detail konkret yang membuat cerita hidup." }]
       }
     ],
     "hardChallenge": [

@@ -947,30 +947,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Kantor pos dipindahkan ke sudut kota, dan tata letaknya berubah.",
-        "hint": "Kantor pos: the post office. Dipindahkan: was relocated. Ke sudut kota: to the corner of the town. Tata letaknya berubah: its layout changed.",
-        "acceptedAnswers": [
-          "The post office was relocated to the corner of the town, and its layout changed.",
-          "The post office was relocated to the corner of town, and the layout changed."
-        ],
-        "modelAnswer": "The post office was relocated to the corner of the town, and its layout changed.",
-        "commonErrors": [
-          {
-            "pattern": "The post office relocate to the corner of town and layout change",
-            "feedbackId": "Gunakan pasif was relocated dan bentuk lampau changed."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task1_outline",
+        "promptId": "Dua peta sebuah desa menunjukkan perubahan dari 1990 ke 2020. Lahan pertanian berubah menjadi perumahan, sebuah jalan baru menghubungkan pasar dengan sekolah, dan danau kecil ditimbun. Tulis outline dengan gambaran umum dan dua paragraf isi.",
+        "hint": "Sebut perubahan terbesar dulu. Gunakan preposisi lokasi seperti in the north.",
+        "modelAnswer": "Introduction: The two maps show how a village changed between 1990 and 2020.\nOverview: Overall, the village became more urbanised, with farmland replaced by housing.\nBody 1: Most of the farmland in the north was converted into residential areas, and the small lake was filled in.\nBody 2: A new road now links the market with the school.",
+        "commonErrors": [{ "pattern": "In 1990 there is a lake. In 2020 the lake is gone. There is a new road. There are houses.", "feedbackId": "Peta perlu dibandingkan dengan preposisi lokasi. Sebutkan perubahan, bukan hanya keadaan." }],
+        "rubric": [{ "criterion": "Gambaran umum", "whatGoodLooksLike": "Outline memuat tren utama, bukan hanya daftar angka." }, { "criterion": "Organisasi", "whatGoodLooksLike": "Ada pengantar, gambaran umum, dan paragraf isi yang terpisah." }]
       }
     ],
     "hardChallenge": [

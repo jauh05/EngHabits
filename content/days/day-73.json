@@ -896,30 +896,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Grafik ini tidak menunjukkan nilai ekonomi dari pariwisata.",
-        "hint": "Grafik ini: this chart. Tidak menunjukkan: does not show. Nilai ekonomi: the economic value. Pariwisata: tourism.",
-        "acceptedAnswers": [
-          "The chart does not show the economic value of tourism.",
-          "This chart does not show the economic value of tourism."
-        ],
-        "modelAnswer": "The chart does not show the economic value of tourism.",
-        "commonErrors": [
-          {
-            "pattern": "The chart does not shows the economic value of tourism",
-            "feedbackId": "Setelah does not, pakai kata kerja dasar show."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task1_outline",
+        "promptId": "Grafik garis menunjukkan harga beras naik perlahan selama empat tahun, lalu turun tajam pada tahun kelima. Tulis outline untuk paragraf gambaran umum saja: tren utama dan titik perubahan terpenting.",
+        "hint": "Paragraf gambaran umum tidak berisi angka detail.",
+        "modelAnswer": "Overview: Overall, the price of rice rose gradually over the first four years before falling sharply in the fifth year.\nMain trend: The steady increase was followed by the most important change, a sudden drop.\nNo detailed figures are needed in this paragraph.",
+        "commonErrors": [{ "pattern": "In year 1 the price is 10,000. In year 2 the price is 10,500. In year 3 the price is 11,000.", "feedbackId": "Paragraf gambaran umum tidak memuat angka detail. Angka dipakai di paragraf isi." }],
+        "rubric": [{ "criterion": "Gambaran umum", "whatGoodLooksLike": "Outline memuat tren utama, bukan hanya daftar angka." }, { "criterion": "Organisasi", "whatGoodLooksLike": "Ada pengantar, gambaran umum, dan paragraf isi yang terpisah." }]
       }
     ],
     "hardChallenge": [

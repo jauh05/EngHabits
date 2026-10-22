@@ -947,30 +947,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Garis waktu peristiwa itu membantu saya mengingat detailnya.",
-        "hint": "Garis waktu peristiwa: the timeline of the events. Membantu: helps. Mengingat detailnya: recall the details.",
-        "acceptedAnswers": [
-          "The timeline of the events helps me recall the details.",
-          "The timeline of events helps me recall the details."
-        ],
-        "modelAnswer": "The timeline of the events helps me recall the details.",
-        "commonErrors": [
-          {
-            "pattern": "The timeline of the events help me recalls the detail",
-            "feedbackId": "Subjek timeline tunggal memakai helps, dan setelah help me memakai kata kerja dasar recall."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_speaking_p2",
+        "promptId": "Ceritakan tentang sebuah buku yang pernah mengubah cara pandangmu. Jelaskan judul atau isinya, kapan kamu membacanya, dan kenapa itu penting bagimu.",
+        "hint": "Gunakan urutan: apa, kapan, dan mengapa.",
+        "modelAnswer": "A book that changed my mind was a biography of a scientist who failed many times before she succeeded. I read it during a difficult year, when I doubted my own abilities. The story taught me that mistakes are part of learning, so I now try to see failure as information rather than a judgement. That is why this book is still important to me.",
+        "commonErrors": [{ "pattern": "The book is good. I read it. It change me. It is important.", "feedbackId": "Jawaban cue card perlu beberapa kalimat dengan detail, bukan satu atau dua kalimat pendek." }],
+        "rubric": [{ "criterion": "Urutan cerita", "whatGoodLooksLike": "Ada tiga bagian: apa, kapan, dan mengapa." }, { "criterion": "Detail", "whatGoodLooksLike": "Ada contoh atau detail konkret yang membuat cerita hidup." }]
       }
     ],
     "hardChallenge": [

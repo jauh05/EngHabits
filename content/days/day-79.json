@@ -877,30 +877,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Fokus tesis yang sempit membantu penulis tetap pada topik.",
-        "hint": "Fokus tesis yang sempit: a narrow focus in the thesis. Membantu: helps. Tetap pada topik: stay on topic.",
-        "acceptedAnswers": [
-          "A narrow focus in the thesis helps the writer stay on topic.",
-          "A narrow focus of the thesis helps the writer stay on topic."
-        ],
-        "modelAnswer": "A narrow focus in the thesis helps the writer stay on topic.",
-        "commonErrors": [
-          {
-            "pattern": "A narrow focus in the thesis help the writer stays on topic",
-            "feedbackId": "Subjek focus tunggal memakai helps, dan setelah help the writer memakai stay."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Tulis paragraf pengantar untuk esai tentang media sosial bagi remaja. Akhiri paragraf dengan kalimat tesis yang menyebut posisimu dan dua alasannya.",
+        "hint": "Kalimat tesis ada di akhir pengantar dan menyebut dua alasan.",
+        "modelAnswer": "Social media has become a major part of teenagers' daily lives. It helps them stay connected and learn new things, but it can also harm their sleep and self-esteem. For this reason, I believe teenagers need clear limits on social media use, supported by both schools and families.",
+        "commonErrors": [{ "pattern": "Social media is popular. Teenagers use it every day. Social media is good and bad.", "feedbackId": "Kalimat tesis harus menyatakan posisi yang bisa diperdebatkan, bukan fakta umum." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       }
     ],
     "hardChallenge": [

@@ -41,8 +41,10 @@ export function DrillBlock({ block, answers, onAnswer, onSubmit, submitting }: P
 
       <section aria-labelledby="part-b" className="flex flex-col gap-4">
         <div id="part-b">
-          <SectionHeading>Bagian B · Terjemahan</SectionHeading>
-          <p className="text-sm text-muted">Tulis terjemahan dalam bahasa Inggris. Ejaan dan tanda baca tidak dihitung.</p>
+          <SectionHeading>Bagian B · Produksi</SectionHeading>
+          <p className="text-sm text-muted">
+            Terjemahan dinilai otomatis, ejaan dan tanda baca tidak dihitung. Tugas tulis dan lisan dinilai sendiri lewat rubrik di halaman hasil.
+          </p>
         </div>
         {block.partB.map((task, index) => (
           <TaskInput

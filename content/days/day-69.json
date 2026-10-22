@@ -417,13 +417,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Bus mengungguli sepeda dalam hal ketepatan waktu.",
-        "hint": "Bus: buses. Mengungguli: outperform. Sepeda: bicycles. Dalam hal ketepatan waktu: in punctuality.",
-        "acceptedAnswers": ["Buses outperform bicycles in punctuality.", "Buses outperform cycling in punctuality."],
-        "modelAnswer": "Buses outperform bicycles in punctuality.",
-        "commonErrors": [{ "pattern": "Buses outperforms bicycles in punctuality", "feedbackId": "Subjek buses jamak memakai outperform." }],
-        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+        "kind": "ielts_task1_outline",
+        "promptId": "Diagram batang membandingkan jumlah kunjungan ke empat museum (A sampai D) pada 2018 dan 2023. Museum A paling ramai di kedua tahun, sedangkan museum D naik paling cepat. Tulis outline dengan pengantar, gambaran umum, dan dua paragraf isi.",
+        "hint": "Bandingkan dua tahun, bukan setiap batang satu per satu.",
+        "modelAnswer": "Introduction: The bar chart compares visitor numbers at four museums in 2018 and 2023.\nOverview: Museum A was the most visited in both years, while Museum D showed the fastest growth.\nBody 1: Museums A and B had the highest numbers in 2018, and both kept a similar lead in 2023.\nBody 2: Museum D started as the least visited but more than doubled by 2023.",
+        "commonErrors": [{ "pattern": "Museum A had 5,000, Museum B had 4,000, Museum C had 3,000, Museum D had 2,000 in 2018.", "feedbackId": "Mulai dengan gambaran umum. Daftar semua angka membuat pembaca sulit menangkap perbandingannya." }],
+        "rubric": [{ "criterion": "Gambaran umum", "whatGoodLooksLike": "Outline memuat tren utama, bukan hanya daftar angka." }, { "criterion": "Organisasi", "whatGoodLooksLike": "Ada pengantar, gambaran umum, dan paragraf isi yang terpisah." }]
       }
     ],
     "hardChallenge": [

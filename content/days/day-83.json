@@ -878,30 +878,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Mereka menikmati aktivitas di luar ruangan secara teratur.",
-        "hint": "Mereka menikmati: they enjoy. Aktivitas di luar ruangan: outdoor activities. Secara teratur: regularly.",
-        "acceptedAnswers": [
-          "They enjoy outdoor activities regularly.",
-          "They regularly enjoy outdoor activities."
-        ],
-        "modelAnswer": "They enjoy outdoor activities regularly.",
-        "commonErrors": [
-          {
-            "pattern": "They enjoys outdoor activity regular",
-            "feedbackId": "Subjek they memakai enjoy, dan keterangan regularly memakai -ly."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_speaking_p1",
+        "promptId": "Apa kebiasaanmu di pagi hari? Apakah kamu lebih suka pagi atau malam, dan kenapa?",
+        "hint": "Sebut kebiasaan, lalu pilihanmu dan alasannya.",
+        "modelAnswer": "In the morning, I usually drink a cup of tea and check my messages before I start work. I prefer the morning, because my mind feels clearer and I can focus better before noon.",
+        "commonErrors": [{ "pattern": "Morning I drink tea. I like morning because good.", "feedbackId": "Jawaban speaking perlu kalimat utuh. Tambahkan alasan dengan because." }],
+        "rubric": [{ "criterion": "Menjawab langsung", "whatGoodLooksLike": "Pertanyaan dijawab di kalimat pertama." }, { "criterion": "Pengembangan", "whatGoodLooksLike": "Jawaban menambahkan alasan atau detail singkat." }]
       }
     ],
     "hardChallenge": [

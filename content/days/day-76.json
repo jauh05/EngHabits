@@ -947,30 +947,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Kita perlu menyatukan kedua pandangan itu dalam kesimpulan.",
-        "hint": "Kita perlu: we need to. Menyatukan: reconcile. Kedua pandangan: the two views. Dalam kesimpulan: in the conclusion.",
-        "acceptedAnswers": [
-          "We need to reconcile both views in the conclusion.",
-          "We need to reconcile the two views in the conclusion."
-        ],
-        "modelAnswer": "We need to reconcile both views in the conclusion.",
-        "commonErrors": [
-          {
-            "pattern": "We need reconcile both views in conclusion",
-            "feedbackId": "Setelah need to, pakai kata kerja dasar reconcile, dan gunakan the conclusion."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Ada yang berpendapat pemerintah harus membiayai transportasi umum, sementara yang lain berpendapat penumpang harus membayar lebih. Bahas kedua pandangan dalam satu paragraf, lalu beri pendapatmu.",
+        "hint": "Bahas dua sisi dulu, baru tutup dengan pendapatmu.",
+        "modelAnswer": "Some people believe that public transport should be funded by the government, while others think passengers should pay more. Both views have merit. Government funding keeps fares affordable for everyone, whereas higher fares can keep the service sustainable. On balance, I think a mixed system is the fairest option, because it shares the cost between the public and frequent users.",
+        "commonErrors": [{ "pattern": "I think government must pay. But some people think passengers must pay. I agree with government.", "feedbackId": "Bahas kedua pandangan secara seimbang sebelum memilih satu. Hindari hanya menyebut setuju tanpa alasan." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       }
     ],
     "hardChallenge": [

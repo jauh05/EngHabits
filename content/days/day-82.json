@@ -955,30 +955,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Rutinitas harian saya berubah sejak saya pindah ke lingkungan baru.",
-        "hint": "Rutinitas harian: my daily routine. Berubah: has changed. Sejak: since. Pindah ke lingkungan baru: I moved to a new neighbourhood.",
-        "acceptedAnswers": [
-          "My daily routine has changed since I moved to a new neighbourhood.",
-          "My daily routine has changed since I moved into a new neighbourhood."
-        ],
-        "modelAnswer": "My daily routine has changed since I moved to a new neighbourhood.",
-        "commonErrors": [
-          {
-            "pattern": "My daily routine change since I move to new neighbourhood",
-            "feedbackId": "Gunakan has changed dan moved, serta a new neighbourhood."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_speaking_p1",
+        "promptId": "Ceritakan tentang tempat tinggalmu. Kamu tinggal di kota atau desa mana?",
+        "hint": "Jawab langsung, lalu tambahkan satu detail.",
+        "modelAnswer": "I live in a small city in East Java. It's not very big, but it's quite lively, with many local markets and friendly neighbours.",
+        "commonErrors": [{ "pattern": "I live in city. City is small. I like it.", "feedbackId": "Gunakan artikel dan kalimat lengkap. Tambahkan satu detail yang membuat jawabanmu hidup." }],
+        "rubric": [{ "criterion": "Menjawab langsung", "whatGoodLooksLike": "Pertanyaan dijawab di kalimat pertama." }, { "criterion": "Pengembangan", "whatGoodLooksLike": "Jawaban menambahkan alasan atau detail singkat." }]
       }
     ],
     "hardChallenge": [

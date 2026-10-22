@@ -891,30 +891,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Dari sudut pandang saya, rasa syukur membuat cerita terasa hangat.",
-        "hint": "Dari sudut pandang saya: from my vantage point. Rasa syukur: gratitude. Membuat cerita terasa hangat: makes the story feel warm.",
-        "acceptedAnswers": [
-          "From my vantage point, gratitude makes the story feel warm.",
-          "From my vantage point, gratitude makes the story feel warmer."
-        ],
-        "modelAnswer": "From my vantage point, gratitude makes the story feel warm.",
-        "commonErrors": [
-          {
-            "pattern": "From my vantage, gratitudes make the story feels warm",
-            "feedbackId": "Vantage point adalah frasa utuh, gratitude tidak dijamakkan, dan setelah make the story memakai feel."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_speaking_p2",
+        "promptId": "Ceritakan tentang satu tempat yang ingin kamu kunjungi suatu hari nanti. Jelaskan di mana tempatnya, kenapa kamu ingin ke sana, dan apa yang akan kamu lakukan.",
+        "hint": "Tambahkan contoh pemandangan atau kegiatan yang konkret.",
+        "modelAnswer": "One place I would really like to visit is Iceland. I'm fascinated by its landscapes, such as waterfalls, volcanoes, and glaciers. I would probably spend a week there, hiking during the day and watching the northern lights at night. It would be a memorable trip, because the scenery looks completely different from anywhere I have been.",
+        "commonErrors": [{ "pattern": "I want go to Iceland. It is nice place. I will see many things.", "feedbackId": "Gunakan bentuk to dan kata sifat yang lebih spesifik, misalnya fascinating atau breathtaking." }],
+        "rubric": [{ "criterion": "Urutan cerita", "whatGoodLooksLike": "Ada tiga bagian: apa, kapan, dan mengapa." }, { "criterion": "Detail", "whatGoodLooksLike": "Ada contoh atau detail konkret yang membuat cerita hidup." }]
       }
     ],
     "hardChallenge": [

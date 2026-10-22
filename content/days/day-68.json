@@ -442,13 +442,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Penurunan itu terjadi secara bertahap, bukan tiba-tiba.",
-        "hint": "Penurunan itu: the decline. Secara bertahap: gradually. Bukan tiba-tiba: not suddenly.",
-        "acceptedAnswers": ["The decline happened gradually, not suddenly.", "The decline occurred gradually rather than suddenly."],
-        "modelAnswer": "The decline happened gradually, not suddenly.",
-        "commonErrors": [{ "pattern": "The decline happen gradual, not sudden", "feedbackId": "Subjek decline tunggal memakai happened, dan gunakan keterangan gradually." }],
-        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+        "kind": "ielts_task1_outline",
+        "promptId": "Grafik garis menunjukkan jumlah pengguna sepeda listrik di satu kota dari 2015 sampai 2022. Jumlahnya naik dari sekitar 2.000 menjadi 9.000 pada 2019, turun sedikit pada 2020, lalu naik lagi hingga sekitar 11.000 pada 2022. Tulis outline dengan pengantar, gambaran umum, dan dua paragraf isi.",
+        "hint": "Mulai dari tren utama. Cukup dua atau tiga angka sebagai contoh.",
+        "modelAnswer": "Introduction: The line graph shows the number of electric bike users in one city from 2015 to 2022.\nOverview: Overall, the number rose steadily, with one small dip in 2020.\nBody 1: From 2015 to 2019, users grew from about 2,000 to 9,000.\nBody 2: After a slight fall in 2020, the number climbed again to about 11,000 by 2022.",
+        "commonErrors": [{ "pattern": "Introduction: The graph is about bikes. Body 1: 2,000 in 2015, 3,000 in 2016, 4,000 in 2017.", "feedbackId": "Outline yang hanya berisi daftar angka belum menunjukkan tren. Tulis gambaran umum dulu, lalu pilih beberapa angka sebagai contoh." }],
+        "rubric": [{ "criterion": "Gambaran umum", "whatGoodLooksLike": "Outline memuat tren utama, bukan hanya daftar angka." }, { "criterion": "Organisasi", "whatGoodLooksLike": "Ada pengantar, gambaran umum, dan paragraf isi yang terpisah." }]
       }
     ],
     "hardChallenge": [

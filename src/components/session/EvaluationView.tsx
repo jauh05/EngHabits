@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from 'motion/react';
-import { Check, ChevronDown, Copy, Home, RotateCcw, X } from 'lucide-react';
+import { Check, ChevronDown, ClipboardCheck, Copy, Home, RotateCcw, X } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import { buttonClass } from '../ui/Button';
@@ -31,7 +31,7 @@ export type EvaluationProps = {
 const PART_LABELS: Record<Part, string> = {
   comprehension: 'Membaca & mendengar',
   partA: 'Tata bahasa (A)',
-  partB: 'Terjemahan (B)',
+  partB: 'Produksi (B)',
   hard: 'Hard Challenge (bonus)',
 };
 
@@ -144,20 +144,26 @@ function ItemReview({
             </span>
             <p className="font-semibold leading-relaxed text-ink">{prompt}</p>
           </div>
-          <span
-            className={`grid size-8 shrink-0 place-items-center rounded-full ${
-              item.correct ? 'bg-success text-on-accent' : 'bg-error text-on-accent'
-            }`}
-          >
-            {item.correct ? <Check size={18} strokeWidth={2.5} aria-label="Benar" /> : <X size={18} strokeWidth={2.5} aria-label="Salah" />}
-          </span>
+          {item.selfAssessed ? (
+            <span className="grid size-8 shrink-0 place-items-center rounded-full bg-tint-pale text-ink">
+              <ClipboardCheck size={18} strokeWidth={2.5} aria-label="Dinilai sendiri" />
+            </span>
+          ) : (
+            <span
+              className={`grid size-8 shrink-0 place-items-center rounded-full ${
+                item.correct ? 'bg-success text-on-accent' : 'bg-error text-on-accent'
+              }`}
+            >
+              {item.correct ? <Check size={18} strokeWidth={2.5} aria-label="Benar" /> : <X size={18} strokeWidth={2.5} aria-label="Salah" />}
+            </span>
+          )}
         </div>
 
         <div className="grid gap-1 text-sm">
           <p className="text-muted">
             Jawabanmu: <span className="font-semibold text-ink">{givenText}</span>
           </p>
-          {!item.correct && (
+          {!item.correct && !item.selfAssessed && (
             <p className="text-muted">
               Jawaban benar: <span className="font-semibold text-ink">{question ? optionLabel(question, question.correct) : item.expected}</span>
             </p>
@@ -180,6 +186,19 @@ function ItemReview({
             )}
             {question?.evidence && <p className="text-muted">Bukti dari teks: “{question.evidence}”</p>}
           </Layer>
+
+          {item.selfAssessed && task?.rubric && (
+            <Layer title="2 · Nilai dirimu dengan rubrik">
+              <ul className="flex flex-col gap-2">
+                {task.rubric.map((criterion) => (
+                  <li key={criterion.criterion}>
+                    <span className="font-semibold">{criterion.criterion}</span>
+                    <span className="block text-muted">{criterion.whatGoodLooksLike}</span>
+                  </li>
+                ))}
+              </ul>
+            </Layer>
+          )}
 
           {question?.stepByStep && (
             <Layer title="2 · Logika langkah demi langkah">
@@ -258,7 +277,7 @@ export function EvaluationView({ day, result, attempt, progress, isFirst, passed
   }));
 
   let number = 0;
-  const reviewItems = result.items.map((item) => {
+  const reviewItems = [...result.items, ...result.selfItems].map((item) => {
     number += 1;
     const question = findQuestion(day, item.id);
     const task = item.kind === 'production' ? findTask(day, item.id) : undefined;
@@ -291,6 +310,11 @@ export function EvaluationView({ day, result, attempt, progress, isFirst, passed
               ? ' Ini percobaan pertamamu, jadi skor ini yang dicatat untuk hari ini.'
               : ` Skor pertama hari ini tetap ${progress.firstCorePercent}%. Percobaan ulang tidak mengubahnya.`}
           </p>
+          {result.selfItems.length > 0 && (
+            <p className="text-sm text-muted">
+              Tugas tulis dan lisan ({result.selfItems.length}) dinilai sendiri dengan rubrik dan tidak masuk skor.
+            </p>
+          )}
           {!passed && (
             <p className="text-sm font-semibold text-ink">
               Skor inti terbaik belum {MASTERY_THRESHOLD}%. Ulangi hari ini untuk membuka hari berikutnya.

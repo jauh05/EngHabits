@@ -886,30 +886,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Alasan di balik kebijakan itu harus kuat dan jelas.",
-        "hint": "Alasan di balik kebijakan itu: the rationale behind the policy. Harus kuat dan jelas: must be strong and clear.",
-        "acceptedAnswers": [
-          "The rationale behind the policy must be strong and clear.",
-          "The rationale for the policy must be strong and clear."
-        ],
-        "modelAnswer": "The rationale behind the policy must be strong and clear.",
-        "commonErrors": [
-          {
-            "pattern": "The rationale behind the policy must strong and clear",
-            "feedbackId": "Setelah must be, gunakan kata sifat strong dan clear."
-          }
-        ],
-        "rubric": [
-          {
-            "criterion": "Makna",
-            "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh."
-          },
-          {
-            "criterion": "Tata bahasa",
-            "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris."
-          }
-        ]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Sebagian orang berpendapat bahwa setiap sekolah harus mewajibkan pelajaran bahasa asing. Tulis satu paragraf yang menyatakan pendapatmu, dengan satu alasan dan satu contoh.",
+        "hint": "Mulai dengan pendapatmu di kalimat pertama.",
+        "modelAnswer": "In my opinion, every school should make foreign language lessons compulsory. Knowing another language opens access to information, jobs, and other cultures. For example, students who read English can understand research articles and communicate with people from many countries. Therefore, schools should start these lessons early.",
+        "commonErrors": [{ "pattern": "Foreign language is very important. It is good for many things. Many people speak language.", "feedbackId": "Kalimat umum seperti itu belum meyakinkan. Sebutkan alasan spesifik dan beri satu contoh nyata." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       }
     ],
     "hardChallenge": [

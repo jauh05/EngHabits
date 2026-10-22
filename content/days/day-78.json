@@ -442,13 +442,12 @@
       {
         "id": "B5",
         "difficulty": "hard",
-        "kind": "translate_id_en",
-        "promptId": "Ada pertukaran antara kecepatan dan ketelitian dalam setiap pilihan.",
-        "hint": "Ada pertukaran: there is a trade-off. Antara kecepatan dan ketelitian: between speed and accuracy. Dalam setiap pilihan: in every choice.",
-        "acceptedAnswers": ["There is a trade-off between speed and accuracy in every choice.", "There is a trade-off between speed and accuracy in each choice."],
-        "modelAnswer": "There is a trade-off between speed and accuracy in every choice.",
-        "commonErrors": [{ "pattern": "There are a trade-off between speed and accurate in every choices", "feedbackId": "Gunakan there is untuk satu trade-off, accuracy kata benda, dan every choice tunggal." }],
-        "rubric": [{ "criterion": "Makna", "whatGoodLooksLike": "Terjemahan mempertahankan makna kalimat Indonesia secara utuh." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Subjek, kata kerja, dan bentuk kata sudah sesuai aturan bahasa Inggris." }]
+        "kind": "ielts_task2_paragraph",
+        "promptId": "Bekerja dari rumah punya kelebihan dan kekurangan. Tulis satu paragraf yang membahas satu kelebihan dan satu kekurangannya, lalu beri kesimpulanmu.",
+        "hint": "Pisahkan kelebihan dan kekurangan dengan kata penghubung seperti however.",
+        "modelAnswer": "Working from home offers clear advantages. Employees can save the time they would spend commuting, and they often find it easier to balance work and family. However, there are disadvantages as well. Some workers feel isolated, and it can be hard to separate work hours from personal time. Overall, the benefits are significant, but companies should provide clear routines.",
+        "commonErrors": [{ "pattern": "Working from home is good. But it is also bad. Good is save time. Bad is lonely.", "feedbackId": "Gunakan kalimat lengkap dan penghubung seperti however. Jelaskan dampaknya dengan satu contoh." }],
+        "rubric": [{ "criterion": "Jawaban langsung", "whatGoodLooksLike": "Pendapat atau pembahasan jelas sejak kalimat pertama." }, { "criterion": "Alasan dan contoh", "whatGoodLooksLike": "Ada minimal satu alasan dan satu contoh yang mendukung." }, { "criterion": "Tata bahasa", "whatGoodLooksLike": "Kalimat lengkap, dengan subjek dan kata kerja yang sesuai." }]
       }
     ],
     "hardChallenge": [

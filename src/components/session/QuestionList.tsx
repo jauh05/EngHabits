@@ -59,6 +59,17 @@ export function QuestionCard({ question, index, selected, onSelect }: Props) {
   );
 }
 
+/** Instruksi dan tinggi kotak jawaban per jenis tugas produksi. */
+const TASK_STYLE: Record<TaskView['kind'], { instruction: string; rows: number }> = {
+  translate_id_en: { instruction: 'Terjemahkan ke bahasa Inggris:', rows: 2 },
+  ielts_task1_outline: { instruction: 'Tulis outline dalam bahasa Inggris untuk tugas berikut:', rows: 6 },
+  ielts_task2_outline: { instruction: 'Tulis outline dalam bahasa Inggris untuk tugas berikut:', rows: 6 },
+  ielts_task2_paragraph: { instruction: 'Tulis satu paragraf dalam bahasa Inggris untuk tugas berikut:', rows: 8 },
+  ielts_speaking_p1: { instruction: 'Jawab dalam bahasa Inggris, seperti saat berbicara:', rows: 4 },
+  ielts_speaking_p2: { instruction: 'Jawab dalam bahasa Inggris, seperti saat berbicara:', rows: 6 },
+  ielts_speaking_p3: { instruction: 'Jawab dalam bahasa Inggris, seperti saat berbicara:', rows: 5 },
+};
+
 export function TaskInput({
   task,
   index,
@@ -71,20 +82,27 @@ export function TaskInput({
   onChange: (text: string) => void;
 }) {
   const fieldId = `task-${task.id}`;
+  const style = TASK_STYLE[task.kind];
+  const selfAssessed = task.kind !== 'translate_id_en';
   return (
     <Card className="flex flex-col gap-3">
-      <div className="flex items-center justify-between gap-2">
-        <span className="rounded-full bg-tint-pale px-3 py-1 text-xs font-extrabold text-ink">{task.id}</span>
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <span className="rounded-full bg-tint-pale px-3 py-1 text-xs font-extrabold text-ink">{task.id}</span>
+          {selfAssessed && (
+            <span className="rounded-full bg-surface px-3 py-1 text-xs font-bold text-ink">Dinilai sendiri</span>
+          )}
+        </div>
         <Badge tone={task.difficulty} />
       </div>
       <label htmlFor={fieldId} className="text-lg font-bold leading-relaxed text-ink">
-        {index + 1}. Terjemahkan ke bahasa Inggris:
+        {index + 1}. {style.instruction}
         <span className="mt-1 block text-lg text-primary-700">{task.promptId}</span>
       </label>
       {task.hint && <p className="text-sm text-muted">Petunjuk: {task.hint}</p>}
       <textarea
         id={fieldId}
-        rows={2}
+        rows={style.rows}
         value={value ?? ''}
         onChange={(event) => onChange(event.target.value)}
         placeholder="Tulis jawabanmu di sini"

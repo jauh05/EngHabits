@@ -2,6 +2,16 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Tugas writing dan speaking di hari IELTS
+
+1. **20 tugas baru di 19 hari.** Hari 68-73 memakai `ielts_task1_outline`, hari 75-80 memakai `ielts_task2_paragraph`, hari 82-87 memakai `ielts_speaking_p1`, `p2`, atau `p3` sesuai topiknya, dan hari 89 memakai `ielts_task2_paragraph` (B4) dan `ielts_speaking_p2` (B5). Hari 74 dan 81 (review) tidak diubah.
+2. **Penggantian, bukan penambahan.** Setiap hari tetap punya 5 tugas di bagian B, karena validator mewajibkan 15 soal inti. Tugas terjemahan yang diganti adalah B5, dan B4 di hari 89. Tingkat kesulitannya sama dengan tugas yang diganti, jadi komposisi per hari tetap lolos.
+3. **Tugas tulis dan lisan dinilai sendiri.** `isAutoGraded` hanya menganggap terjemahan sebagai nilai otomatis. Tugas lain masuk `selfItems` di `DayResult`, tidak masuk skor inti dan tidak masuk `items`, jadi tidak ikut Buku Kesalahan. Di halaman hasil, tugas ini memakai lencana "Dinilai sendiri", contoh jawaban, dan rubrik.
+4. **Akibat untuk skor.** Hari dengan tugas tulis atau lisan punya 14 soal inti, bukan 15. Persentase skor dihitung dari 14 pada hari itu.
+5. **Input sesuai jenis tugas.** Label instruksi dan tinggi kotak jawaban berbeda per jenis: outline 6 baris, paragraf 8 baris, speaking 4 sampai 6 baris.
+6. **Verifikasi.** Validator 90 hari lolos. Typecheck lolos, 53 tes lolos (dua tes baru untuk tugas dinilai sendiri), dan build lolos. Di browser, hari 68 sudah dicek: label, lencana, dan kotak jawaban tampil benar. Halaman hasil dengan tugas dinilai sendiri juga sudah dicek. Data uji sudah dihapus.
+7. **Yang belum.** Isi tugas ini belum melewati persetujuan kualitas. Jawaban model dan rubrik perlu dibaca ulang sebelum dipakai untuk pembelajar.
+
 ## 2026-10-22: Layar masuk selalu selebar HP, dengan logo Google dan Apple
 
 1. **Layar mulai, masuk, daftar, dan sambutan selalu selebar HP.** `AuthFrame` sekarang satu kolom dengan lebar maksimal `max-w-md`, di tengah, juga di desktop. Di layar lebar, kartu itu diberi sudut membulat dan bayangan seperti ponsel di atas latar lime. Sebelumnya desktop memakai dua kolom.
