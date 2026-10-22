@@ -1,5 +1,5 @@
 // Membuat ikon PWA (PNG 192 dan 512) tanpa dependensi tambahan.
-// Latar ungu merek dengan huruf E putih. Huruf berada di tengah, jadi aman untuk ikon maskable.
+// Latar hijau merek dengan huruf E putih. Huruf berada di tengah, jadi aman untuk ikon maskable.
 // Jalankan: node scripts/make-icons.mjs
 import { deflateSync } from 'node:zlib';
 import { mkdirSync, writeFileSync } from 'node:fs';
@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const outDir = join(root, 'public', 'icons');
-const BACKGROUND = [0x8b, 0x6b, 0xe6];
+const BACKGROUND = [0x1f, 0x7a, 0x3a];
 const FOREGROUND = [0xff, 0xff, 0xff];
 const SUPERSAMPLE = 4;
 

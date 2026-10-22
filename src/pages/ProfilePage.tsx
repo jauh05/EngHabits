@@ -18,10 +18,10 @@ import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
  * Ungu tetap dipakai untuk pilihan yang aktif.
  */
 const SECTION_TINT = {
-  display: { box: 'bg-orange', icon: 'text-ink' },
-  voice: { box: 'bg-periwinkle', icon: 'text-ink' },
+  display: { box: 'bg-lime', icon: 'text-ink' },
+  voice: { box: 'bg-mint-deep', icon: 'text-ink' },
   reminder: { box: 'bg-tint-mint', icon: 'text-ink' },
-  backup: { box: 'bg-brown', icon: 'text-white' },
+  backup: { box: 'bg-forest', icon: 'text-white' },
   data: { box: 'bg-tint-rose', icon: 'text-ink' },
 } as const;
 

@@ -5,6 +5,7 @@ import { easeOut, spring } from '../../lib/motion';
 import { currentDay, TOTAL_DAYS } from '../../lib/progression';
 import { useSettings } from '../../lib/settings';
 import { useProgressData } from '../../lib/useProgressData';
+import { BackgroundArt } from '../ui/BackgroundArt';
 import { ReminderWatcher } from './ReminderWatcher';
 
 type NavItem = { to: string; label: string; icon: LucideIcon };
@@ -140,11 +141,12 @@ function Sidebar() {
 export function AppShell() {
   const location = useLocation();
   return (
-    <div className="min-h-dvh lg:bg-bg lg:p-6">
+    <div className="isolate relative min-h-dvh overflow-hidden bg-bg lg:p-6">
+      <BackgroundArt />
       <ReminderWatcher />
       <div className="lg:mx-auto lg:flex lg:min-h-[calc(100dvh-3rem)] lg:max-w-[1240px] lg:overflow-hidden lg:rounded-[32px] lg:bg-surface lg:shadow-card">
         <Sidebar />
-        <main className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:mx-0 lg:max-w-none lg:min-w-0 lg:flex-1 lg:bg-bg lg:px-10 lg:pb-12 lg:pt-10">
+        <main className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:mx-0 lg:max-w-none lg:min-w-0 lg:flex-1 lg:bg-surface lg:px-10 lg:pb-12 lg:pt-10">
           {/* Pindah halaman: fade dan geser 12px, 250ms. Dikunci per rute supaya setiap halaman ikut animasi masuk. */}
           <motion.div
             key={location.pathname}

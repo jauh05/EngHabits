@@ -2,6 +2,19 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Palet hijau, kartu 3D, dan latar lime
+
+1. **Palet diganti dari ungu ke hijau.** Latar lime `#9CD548` di semua layar (gambar 28), kartu putih, tombol dan banner hijau tua `#1F7A3A` dengan teks putih. Keputusan dari pemilik proyek. Latar lime dipilih penuh, bukan mint.
+2. **Nama token diganti.** `orange` menjadi `lime`, `periwinkle` menjadi `mint-deep`, `brown` menjadi `forest`, dan `tint-lilac` menjadi `tint-pale`. Kelas Tailwind ikut berganti di seluruh `src`.
+3. **Kartu 3D.** `--shadow-card` memakai sorotan putih, tepi 6px dengan warna `--edge`, dan bayangan lembut. `Card` mengisi `--edge` per tone. Tombol primer dan sekunder juga 3D dan tepinya hilang saat ditekan.
+   Catatan teknis: `--edge` tidak boleh dipakai di `:root` lewat `var()`, karena nilainya akan dikunci di sana dan tidak mengikuti kartu. Karena itu bayangan ditulis di `@theme`, sehingga dihitung di tiap elemen.
+4. **Latar visual.** Komponen `BackgroundArt` (blob, jalur putus, daun, percikan) dipasang di AppShell dan AuthFrame. Frame desktop tetap putih di atas latar lime.
+5. **Tombol di atas banner.** Tombol hero Beranda memakai lime, karena tombol hijau tua hilang di atas banner hijau tua.
+6. **Kontras teks.** `primary-700` tidak dipakai di atas lime (3,08:1). Muted gelap dipakai di latar lime. Mint tua mode gelap dibuat terang, karena teks gelap di atasnya sebelumnya hanya 2,15:1.
+7. **Ikon dan manifest.** `favicon.svg`, `theme-color`, `background_color`, dan ikon PWA (dibuat ulang dari `scripts/make-icons.mjs`) diganti ke hijau.
+8. **Verifikasi.** Typecheck, 51 tes, dan build lolos. Pemeriksa kontras di browser, yang membaca warna teks dan latar tiap elemen, lolos di Beranda, Statistik, Profil, Masuk, Materi (`/hari/1`), Peta kisi, dan Kesalahan. Di Beranda (HP), tombol hero dan kartu sudah dicek. Desktop 1280px dicek hanya di Beranda. Di mode gelap, tiga tanda merah di `/design` ternyata artefak transisi warna. Setelah transisi selesai, nilainya benar.
+9. **Yang belum dicek.** Halaman Latihan, dan mode gelap di Beranda, Peta, dan Materi (mode gelap baru dicek di `/design`). Roadmap sudah dicek dengan data uji setelah perubahan ke hijau. Maskot dengan warna pink masih ada.
+
 ## 2026-10-22: Roadmap jadi panel ungu dengan jalur pita
 
 1. **Panel ungu membulat** (`bg-banner`, radius 32px) membungkus roadmap, dengan dua blob dekoratif. Jalurnya berupa pita putih transparan 64px dengan garis putus di tengah. Bagian yang sudah dilalui digaris hijau.

@@ -1,75 +1,83 @@
 /*
  * Design tokens EngHabits. Sumber kebenaran warna, radius, dan bayangan.
- * Warna diambil dari bagian dalam ponsel di gambar 6 (Olympiads): krem, ungu banner, oranye, charcoal.
- * Latar poster di belakang ponsel tidak dipakai.
+ * Palet hijau: latar lime seperti gambar 28, kartu putih, dan tepi 3D seperti gambar 29.
  * Nilai di sini harus sama dengan tabel di DESIGN_SPEC.md.
  * Mode gelap aktif lewat <html data-theme="dark">. Default: terang.
  */
 
 :root {
   color-scheme: light;
-  --bg: #ffffff;
+  --bg: #9cd548;
   --surface: #ffffff;
-  --primary-100: #e9e5fb;
-  --primary-300: #b6aef2;
-  --primary-500: #7366db;
-  --primary-700: #4d41b5;
-  --ink: #23222c;
-  --muted: #66626d;
-  --line: #efe3d6;
-  --track: #f8dfc9;
-  --success: #3dbe8b;
-  --error: #f26b6b;
-  --streak: #f59a5c;
-  --on-accent: #23222c;
-  /* Tombol utama: oranye dengan teks gelap, seperti tombol di ponsel. */
-  --btn-bg: #f59a5c;
-  --btn-fg: #23222c;
-  --shadow: 0 16px 34px -18px rgb(35 34 44 / 0.22);
-  /* Kartu pastel, seperti kartu di ponsel. */
-  --tint-sun: #ffefc4;
-  --tint-sky: #d5e8f7;
-  --tint-rose: #ffd9e6;
-  --tint-mint: #cfefe2;
-  --tint-peach: #fbdcc4;
-  --tint-lilac: #e5e0fa;
-  /* Dari gambar 26: coklat untuk bar grafik (teks putih), oranye penuh dan periwinkle untuk kartu (teks on-accent). Mode gelap memakai nilai yang sama. */
-  --brown: #a95b23;
-  --orange: #ffa265;
-  --periwinkle: #aab2f3;
-  /* Latar banner ungu, teksnya putih. Kontras putih di atasnya 4,61:1 (AA). */
-  --banner: #7165d8;
-  /* Kartu gelap, dengan teks putih dan tombol bulat. */
-  --charcoal: #2a2934;
+  --primary-100: #e4f7cf;
+  --primary-300: #b8e882;
+  --primary-500: #5bbf3e;
+  --primary-700: #1f7a3a;
+  --ink: #12331d;
+  --muted: #2f4a36;
+  --line: #cde7d2;
+  --track: #d9f0d0;
+  --success: #237a38;
+  --error: #e5484d;
+  --streak: #f5b82e;
+  --on-accent: #12331d;
+  /* Tombol utama hijau tua dengan teks putih. Di atas latar lime, tombol lime akan hilang. */
+  --btn-bg: #1f7a3a;
+  --btn-fg: #ffffff;
+  /* Tepi 3D: --edge diisi per kartu (lihat Card), --shade untuk menggelapkan tepi, --hl dan --drop untuk sorotan dan bayangan. */
+  --edge: #b9dcc0;
+  --shade: #12331d;
+  --hl: rgb(255 255 255 / 0.55);
+  --drop: rgb(18 51 29 / 0.45);
+  --tint-sun: #fff3c4;
+  --tint-sky: #d6f0ee;
+  --tint-rose: #ffe1d6;
+  --tint-mint: #d7f3df;
+  --tint-peach: #ffe6cc;
+  --tint-pale: #eef9df;
+  /* Warna aksen tambahan: lime untuk sorotan, mint tua untuk kartu sedang, coklat hijau untuk batang grafik. */
+  --lime: #d6f57f;
+  --mint-deep: #bde8d0;
+  --forest: #2f6b3f;
+  /* Latar banner hijau tua, teksnya putih (6,43:1 di mode gelap, 5,38:1 di terang). */
+  --banner: #1f7a3a;
+  /* Kartu gelap dengan teks putih. */
+  --charcoal: #173d25;
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #17151f;
-  --surface: #22202c;
-  --primary-100: #2c2846;
-  --primary-300: #5e56a8;
-  --primary-500: #a59cf0;
-  --primary-700: #d4ccff;
-  --ink: #f7f3ff;
-  --muted: #b5afc4;
-  --line: #35324a;
-  --track: #2f2b40;
-  --success: #5bd6a2;
+  --bg: #0e1f15;
+  --surface: #16301f;
+  --primary-100: #1d3d28;
+  --primary-300: #3b7a4a;
+  --primary-500: #7ed957;
+  --primary-700: #b7f29a;
+  --ink: #e8f7e6;
+  --muted: #a9c7b0;
+  --line: #24472f;
+  --track: #1f3d2a;
+  --success: #5bd28a;
   --error: #ff8a8a;
-  --streak: #ffb27a;
-  --on-accent: #17151f;
-  --btn-bg: #ffa96e;
-  --btn-fg: #17151f;
-  --shadow: 0 16px 34px -18px rgb(0 0 0 / 0.6);
-  --tint-sun: #4a4020;
-  --tint-sky: #1f3550;
-  --tint-rose: #4a2a3c;
-  --tint-mint: #1c4537;
-  --tint-peach: #5a3a2b;
-  --tint-lilac: #2f2a55;
-  --banner: #4a3fa0;
-  --charcoal: #0e0d13;
+  --streak: #ffc857;
+  --on-accent: #0e1f15;
+  --btn-bg: #7ed957;
+  --btn-fg: #0e1f15;
+  --edge: #0a170f;
+  --shade: #000000;
+  --hl: rgb(255 255 255 / 0.08);
+  --drop: rgb(0 0 0 / 0.6);
+  --tint-sun: #3d3a1a;
+  --tint-sky: #17363a;
+  --tint-rose: #3d2228;
+  --tint-mint: #1c4530;
+  --tint-peach: #3e3020;
+  --tint-pale: #213c1c;
+  --lime: #7ed957;
+  --mint-deep: #7fcfa0;
+  --forest: #3f8a55;
+  --banner: #2a6b3c;
+  --charcoal: #0a170f;
 }
 
 @theme inline {
@@ -94,13 +102,14 @@
   --color-tint-rose: var(--tint-rose);
   --color-tint-mint: var(--tint-mint);
   --color-tint-peach: var(--tint-peach);
-  --color-tint-lilac: var(--tint-lilac);
-  --color-brown: var(--brown);
-  --color-orange: var(--orange);
-  --color-periwinkle: var(--periwinkle);
+  --color-tint-pale: var(--tint-pale);
+  --color-lime: var(--lime);
+  --color-mint-deep: var(--mint-deep);
+  --color-forest: var(--forest);
   --color-banner: var(--banner);
   --color-charcoal: var(--charcoal);
-  --shadow-card: var(--shadow);
+  --color-edge: var(--edge);
+  --shadow-card: inset 0 2px 0 var(--hl), 0 6px 0 var(--edge), 0 16px 24px -14px var(--drop);
   --radius-card: 28px;
   --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
 }

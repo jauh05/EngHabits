@@ -9,7 +9,7 @@ import { SpeakButton } from './SpeakButton';
 type Vocab = DayView['block1']['vocab'][number];
 
 /** Warna kartu kosakata bergilir, supaya tiap kata punya warna sendiri seperti kartu di referensi. */
-const TONES: CardTone[] = ['sun', 'orange', 'sky', 'periwinkle', 'rose', 'mint'];
+const TONES: CardTone[] = ['sun', 'lime', 'sky', 'mint-deep', 'rose', 'mint'];
 
 function VocabCard({ item, tone }: { item: Vocab; tone: CardTone }) {
   return (

@@ -22,12 +22,12 @@ const GRID_STATUS: Record<DayStatus, string> = {
 };
 
 /** Warna kartu minggu di kisi, bergilir. */
-const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-orange', 'bg-tint-rose', 'bg-periwinkle', 'bg-tint-mint'];
+const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-tint-peach', 'bg-tint-rose', 'bg-mint-deep', 'bg-tint-mint'];
 
-/** Warna node roadmap di atas panel ungu: hijau untuk lulus, oranye untuk hari aktif, kuning muda untuk perbaikan, lilac untuk terkunci. */
+/** Warna node roadmap di atas panel hijau tua: putih untuk lulus, lime untuk hari aktif, kuning untuk perbaikan, pucat untuk terkunci. */
 const ROAD_FACE = {
-  completed: { color: 'var(--success)', edge: 'color-mix(in srgb, var(--success), var(--ink) 35%)', text: 'text-on-accent' },
-  available: { color: 'var(--btn-bg)', edge: 'color-mix(in srgb, var(--btn-bg), var(--ink) 30%)', text: 'text-btn-fg' },
+  completed: { color: 'var(--surface)', edge: 'var(--primary-300)', text: 'text-success' },
+  available: { color: 'var(--lime)', edge: 'color-mix(in srgb, var(--lime), var(--shade) 30%)', text: 'text-ink' },
   repair: { color: 'var(--tint-sun)', edge: 'var(--streak)', text: 'text-ink' },
   locked: { color: 'var(--primary-100)', edge: 'var(--primary-300)', text: 'text-primary-700' },
 } as const;

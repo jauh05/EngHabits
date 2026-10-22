@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { Blob } from '../ui/Blob';
+import { BackgroundArt } from '../ui/BackgroundArt';
 
 /**
  * Kerangka layar mulai, daftar, dan masuk. Pola gambar 1 dan 2: bagian atas berwarna dengan karakter,
@@ -8,9 +8,8 @@ import { Blob } from '../ui/Blob';
 export function AuthFrame({ art, children }: { art: ReactNode; children: ReactNode }) {
   return (
     <div className="flex min-h-dvh flex-col bg-bg lg:flex-row">
-      <section className="relative flex min-h-[44dvh] items-center justify-center overflow-hidden bg-linear-to-b from-tint-sky via-tint-lilac to-tint-sky px-6 py-10 lg:min-h-dvh lg:flex-1 lg:px-16">
-        <Blob className="-right-16 -top-16 size-64 bg-white/60" />
-        <Blob className="-left-10 bottom-10 size-40 bg-tint-peach/70" />
+      <section className="isolate relative flex min-h-[44dvh] items-center justify-center overflow-hidden bg-linear-to-b from-lime via-primary-100 to-bg px-6 py-10 lg:min-h-dvh lg:flex-1 lg:px-16">
+        <BackgroundArt />
         <div className="relative flex w-full max-w-sm flex-col items-center">{art}</div>
       </section>
       <section className="relative -mt-8 flex flex-1 flex-col gap-6 rounded-t-[36px] bg-surface px-6 pb-10 pt-8 shadow-card lg:mt-0 lg:min-h-dvh lg:max-w-lg lg:justify-center lg:rounded-none lg:px-14 lg:shadow-none">

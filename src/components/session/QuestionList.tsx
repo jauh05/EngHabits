@@ -17,7 +17,7 @@ export function QuestionCard({ question, index, selected, onSelect }: Props) {
   return (
     <Card className="flex flex-col gap-4">
       <div className="flex items-center justify-between gap-2">
-        <span className="rounded-full bg-tint-lilac px-3 py-1 text-xs font-extrabold text-ink">{question.id}</span>
+        <span className="rounded-full bg-tint-pale px-3 py-1 text-xs font-extrabold text-ink">{question.id}</span>
         <Badge tone={question.difficulty} />
       </div>
       <p className="text-lg font-bold leading-relaxed text-ink">
@@ -44,7 +44,7 @@ export function QuestionCard({ question, index, selected, onSelect }: Props) {
             >
               <span
                 className={`grid size-8 shrink-0 place-items-center rounded-full text-sm font-extrabold shadow-card ${
-                  isSelected ? 'bg-primary-500 text-white' : 'bg-surface text-ink'
+                  isSelected ? 'bg-btn-bg text-btn-fg' : 'bg-surface text-ink'
                 }`}
                 aria-hidden="true"
               >
@@ -74,7 +74,7 @@ export function TaskInput({
   return (
     <Card className="flex flex-col gap-3">
       <div className="flex items-center justify-between gap-2">
-        <span className="rounded-full bg-tint-lilac px-3 py-1 text-xs font-extrabold text-ink">{task.id}</span>
+        <span className="rounded-full bg-tint-pale px-3 py-1 text-xs font-extrabold text-ink">{task.id}</span>
         <Badge tone={task.difficulty} />
       </div>
       <label htmlFor={fieldId} className="text-lg font-bold leading-relaxed text-ink">

@@ -171,9 +171,9 @@ function DaySession({ day }: { day: number }) {
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 pb-10 pt-5 sm:max-w-2xl lg:max-w-4xl">
-      {/* Kartu sesi: pola gambar 3 dan 5. Latar lilac dengan bola peach, bar soal terjawab, dan langkah berwarna. */}
-      <header className="relative flex flex-col gap-4 overflow-clip rounded-card bg-periwinkle p-5 shadow-card">
-        <Blob className="-right-12 -top-12 size-44 bg-orange/80" />
+      {/* Kartu sesi: pola gambar 3 dan 5. Latar mint tua dengan bola lime, bar soal terjawab, dan langkah berwarna. */}
+      <header className="relative flex flex-col gap-4 overflow-clip rounded-card bg-mint-deep p-5 shadow-card">
+        <Blob className="-right-12 -top-12 size-44 bg-lime/80" />
         <Blob className="-bottom-12 -left-10 size-36 bg-tint-sun/80" />
         <div className="relative flex items-center justify-between gap-3">
           <Link

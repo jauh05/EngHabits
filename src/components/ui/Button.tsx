@@ -9,9 +9,15 @@ export type ButtonProps = HTMLMotionProps<'button'> & {
   size?: Size;
 };
 
+/**
+ * Tombol 3D: tepi di bawah (--edge) menghilang saat ditekan, dan tombol ikut turun sedikit.
+ * Ghost tidak punya latar, jadi tetap datar.
+ */
 const variants: Record<Variant, string> = {
-  primary: 'bg-btn-bg text-btn-fg shadow-card',
-  secondary: 'bg-primary-100 text-primary-700',
+  primary:
+    'bg-btn-bg text-btn-fg shadow-card [--edge:color-mix(in_srgb,var(--btn-bg),var(--shade)_40%)] active:translate-y-[5px] active:[--edge:transparent]',
+  secondary:
+    'bg-primary-100 text-primary-700 shadow-card [--edge:var(--primary-300)] active:translate-y-[3px] active:[--edge:transparent]',
   ghost: 'bg-transparent text-primary-700 hover:bg-primary-100',
 };
 

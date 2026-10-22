@@ -34,7 +34,7 @@ export function BarChart({ items, label }: { items: BarItem[]; label: string }) 
           return (
             <div key={item.key} role="listitem" title={item.title} className="relative flex h-full flex-1 flex-col justify-end">
               <motion.div
-                className="w-full rounded-t-xl bg-brown"
+                className="w-full rounded-t-xl bg-forest"
                 style={{ height, transformOrigin: 'bottom' }}
                 initial={{ scaleY: 0 }}
                 animate={{ scaleY: 1 }}

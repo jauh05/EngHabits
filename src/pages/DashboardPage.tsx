@@ -51,8 +51,8 @@ const TINT_CLASS: Record<CardTone, string> = {
   mint: 'bg-tint-mint',
   peach: 'bg-tint-peach',
   deep: 'bg-primary-700',
-  orange: 'bg-orange',
-  periwinkle: 'bg-periwinkle',
+  lime: 'bg-lime',
+  'mint-deep': 'bg-mint-deep',
 };
 
 const PART_LABELS: Record<Part, string> = {
@@ -260,7 +260,7 @@ export function DashboardPage() {
               {startHref && (nextStatus === 'available' || nextStatus === 'repair') && (
                 <Link
                   to={startHref}
-                  className="relative mt-5 inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-full bg-btn-bg px-5 font-bold text-btn-fg shadow-card outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-btn-bg"
+                  className="relative mt-5 inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-full bg-lime px-5 font-bold text-ink shadow-card [--edge:color-mix(in_srgb,var(--lime),var(--shade)_30%)] outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-btn-bg"
                 >
                   <Play size={18} aria-hidden="true" />
                   {nextStatus === 'repair' ? `Ulangi Hari ke-${next}` : 'Mulai sesi'}
