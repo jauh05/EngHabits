@@ -44,13 +44,13 @@ export function DaftarPage() {
   };
 
   return (
-    <AuthFrame art={<BlobCluster bubble="Yay!" className="w-72 sm:w-80" />}>
+    <AuthFrame art={<BlobCluster bubble="Yay!" className="w-48 lg:w-44" />}>
       <div className="flex flex-col gap-2 text-center lg:text-left">
-        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Buat akun</h1>
+        <h1 className="text-3xl font-extrabold text-ink lg:text-3xl">Buat akun</h1>
         <p className="text-muted">Akun disimpan di perangkat ini. Belum tersinkron ke server.</p>
       </div>
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3 lg:gap-2.5" noValidate>
         <Input
           label="Nama panggilan"
           name="nama"
@@ -91,9 +91,9 @@ export function DaftarPage() {
 
       <SocialButtons />
 
-      <div className="flex flex-col items-center gap-3 text-center text-sm text-muted">
+      <div className="flex items-center justify-between gap-3 text-sm text-muted">
         <p>Sudah punya akun?</p>
-        <Link to="/masuk" className={buttonClass('secondary', 'lg', 'w-full hover:scale-[1.02]')}>
+        <Link to="/masuk" className={buttonClass('secondary', 'md', 'hover:scale-[1.02]')}>
           Masuk
         </Link>
       </div>

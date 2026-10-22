@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Layar masuk dan daftar seperti layar HP
+
+1. **Ilustrasi karakter diperkecil.** `BlobCluster` di Masuk, Daftar, dan Sambutan memakai `w-48` di HP dan `lg:w-44` di desktop. Sebelumnya `sm:w-80` ikut aktif di desktop dan membuat bagian atas setinggi 392px.
+2. **Form dirapatkan.** Jarak antar isian `gap-3`, dan di desktop `lg:gap-2.5`. Footer "Belum punya akun?" dan "Sudah punya akun?" sekarang satu baris dengan tombol sekunder kecil.
+3. **Tombol Google dan Apple jadi dua lingkaran logo.** Tombol berlabel panjang diganti lingkaran 56px dengan logo, dengan keterangan "segera hadir" di bawahnya. Tetap nonaktif dan memakai `aria-label`.
+4. **Desktop tanpa scroll di dalam kartu.** Kartu setinggi `min(844px, 100dvh - 2rem)`. Di 1280×800, kartu Masuk dan Daftar setinggi 768px dan bagian bawah sheet tidak lagi terpotong. Bagian atas memakai tinggi konten di desktop, bukan tinggi minimum.
+5. **HP.** Di 375×667, tidak ada halaman yang melebar. Tombol Google dan Apple terlihat, dan halaman hanya digulir normal di bagian bawah.
+6. **Verifikasi.** Typecheck, 53 tes, dan build lolos. Di browser: Masuk dan Daftar dicek di desktop dan HP. Sambutan belum bisa dibuka karena browser belum masuk.
+
 ## 2026-10-22: Layar /mulai seperti HP dengan ilustrasi 3D
 
 1. **Ilustrasi 3D.** `SlideScene` menggambar tiga adegan SVG sendiri: matahari terbit di atas alas bertingkat, tumpukan buku dengan tanda centang, dan grafik batang silinder dengan panah dan koin. Memakai sorotan radial, sisi gelap, bayangan blur, dan warna token. Melayang pelan, dimatikan dengan "Kurangi animasi". Kotak ikon `ArtTile` dihapus karena tidak dipakai lagi.

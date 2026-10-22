@@ -47,16 +47,16 @@ export function MasukPage() {
       art={
         <div className="flex flex-col items-center gap-2">
           <p className="text-4xl font-black tracking-tight text-ink">EngHabits</p>
-          <BlobCluster bubble="Hello~" className="w-72 sm:w-80" />
+          <BlobCluster bubble="Hello~" className="w-48 lg:w-44" />
         </div>
       }
     >
       <div className="flex flex-col gap-2 text-center lg:text-left">
-        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Masuk untuk mulai</h1>
+        <h1 className="text-3xl font-extrabold text-ink lg:text-3xl">Masuk untuk mulai</h1>
         <p className="text-muted">Lanjutkan kebiasaanmu dari perangkat ini.</p>
       </div>
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-4" noValidate>
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3 lg:gap-2.5" noValidate>
         <Input
           label="Email"
           name="email"
@@ -87,9 +87,9 @@ export function MasukPage() {
 
       <SocialButtons />
 
-      <div className="flex flex-col items-center gap-3 text-center text-sm text-muted">
+      <div className="flex items-center justify-between gap-3 text-sm text-muted">
         <p>Belum punya akun?</p>
-        <Link to="/daftar" className={buttonClass('secondary', 'lg', 'w-full hover:scale-[1.02]')}>
+        <Link to="/daftar" className={buttonClass('secondary', 'md', 'hover:scale-[1.02]')}>
           Daftar
         </Link>
       </div>
