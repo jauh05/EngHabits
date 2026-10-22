@@ -93,9 +93,9 @@ export function DashboardPage() {
       </Reveal>
 
       <Reveal index={1}>
-        <section className="relative overflow-hidden rounded-card bg-btn-bg p-6 text-btn-fg shadow-card">
-          <Blob className="-right-10 -top-10 size-40 bg-primary-300/40" />
-          <Blob className="-bottom-12 right-12 size-24 bg-primary-100/30" />
+        <section className="relative overflow-hidden rounded-card bg-banner p-6 text-ink shadow-card">
+          <Blob className="-right-10 -top-10 size-40 bg-white/40" />
+          <Blob className="-bottom-12 right-12 size-24 bg-white/25" />
           <StackIllustration className="pointer-events-none absolute -right-2 top-3 w-32 sm:w-40" />
           <div className="relative pr-24 sm:pr-32">
             <p className="text-sm font-semibold opacity-90">Tantangan hari ini</p>
