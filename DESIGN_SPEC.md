@@ -33,7 +33,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 3. Palet (design tokens)
 
-**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar krem `#FFF5EC`, banner ungu `#7E72E6` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu.
+**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar krem `#FFF5EC`, banner ungu `#7165D8` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu.
 
 | Token | Terang | Gelap | Pemakaian |
 |---|---|---|---|
@@ -51,7 +51,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | `error` | `#F26B6B` | `#FF8A8A` | Jawaban salah (latar lembut, bukan merah keras) |
 | `streak` | `#F59A5C` | `#FFB27A` | Streak, api, lencana medium |
 | `on-accent` | `#23222C` | `#17151F` | Teks di atas success, error, streak |
-| `banner` | `#7E72E6` | `#4A3FA0` | Banner ungu (hero, kartu promo, avatar), teks putih |
+| `banner` | `#7165D8` | `#4A3FA0` | Banner ungu (hero, kartu promo, avatar), teks putih |
 | `charcoal` | `#2A2934` | `#0E0D13` | Kartu gelap (tone `deep`), teks putih |
 | `btn-bg` / `btn-fg` | `#F59A5C` / `#23222C` | `#FFA96E` / `#17151F` | Tombol utama |
 | `tint-sun` | `#FFEFC4` | `#4A4020` | Kartu kuning (rencana, streak, hari lulus) |
@@ -68,7 +68,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | Teks `ink` di `bg` (terang) | 14.61:1 | AA |
 | Teks `ink` di `bg` (gelap) | 16.52:1 | AA |
 | `btn-fg` di `btn-bg` (terang / gelap) | 7.23 / 9.59:1 | AA |
-| Putih di `banner` (terang) | 3.86:1 | Hanya teks besar (AA large). Teks kecil di atasnya belum lolos |
+| Putih di `banner` (terang) | 4.61:1 | AA |
 | Putih di `banner` (gelap) | 8.37:1 | AA |
 | Putih di `charcoal` (terang / gelap) | 14.33 / 19.34:1 | AA |
 | `primary-700` di `primary-100` (terang / gelap) | 6.23 / 9.26:1 | AA |

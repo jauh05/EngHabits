@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Banner diturunkan sedikit agar teks putih lolos AA
+
+1. **Warna banner terang diubah dari `#7E72E6` ke `#7165D8`.** Kontras teks putih naik dari 3,86:1 ke 4,61:1, sehingga lolos AA untuk teks kecil. Warnanya tetap ungu, hanya sedikit lebih dalam. Nilai ini dipilih sebagai perubahan terkecil yang lolos dengan sedikit margin.
+2. **Efek samping.** `#7165D8` sekarang hampir sama dengan `primary-500` (`#7366DB`), yang dipakai untuk progres dan fokus. Keduanya dibedakan lewat peran, bukan warna, tetapi jika di layar terlihat menyatu, `primary-500` perlu digeser sedikit.
+3. **Yang belum diubah.** Teks `muted` di latar krem masih 4,34:1 dan belum lolos AA. Mode gelap tidak berubah.
+4. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser (mode terang), warna banner di Beranda terukur `rgb(113, 101, 216)` dan kontras putih 4,61:1.
+
 ## 2026-10-22: Palet dari dalam ponsel gambar 25, teks putih di banner, dan kartu charcoal
 
 1. **Palet mengikuti bagian dalam ponsel, bukan latar poster.** Latar krem `#FFF5EC`, banner ungu `#7E72E6`, tombol oranye `#F59A5C` dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel (gambar 25) tidak diambil.

@@ -33,8 +33,8 @@
   --tint-mint: #cfefe2;
   --tint-peach: #fbdcc4;
   --tint-lilac: #e5e0fa;
-  /* Latar banner ungu, teksnya putih. */
-  --banner: #7e72e6;
+  /* Latar banner ungu, teksnya putih. Kontras putih di atasnya 4,61:1 (AA). */
+  --banner: #7165d8;
   /* Kartu gelap, dengan teks putih dan tombol bulat. */
   --charcoal: #2a2934;
 }
