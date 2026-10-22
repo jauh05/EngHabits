@@ -27,9 +27,9 @@ export function SocialButtons() {
   return (
     <div className="flex flex-col gap-2">
       <div className="flex items-center gap-3 text-xs font-semibold text-muted" aria-hidden="true">
-        <span className="h-px flex-1 bg-line" />
+        <span className="h-[3px] flex-1 rounded-full bg-line" />
         atau
-        <span className="h-px flex-1 bg-line" />
+        <span className="h-[3px] flex-1 rounded-full bg-line" />
       </div>
       <div className="flex justify-center gap-4">
         <button

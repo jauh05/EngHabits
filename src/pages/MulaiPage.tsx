@@ -53,7 +53,7 @@ export function MulaiPage() {
           <button
             type="button"
             onClick={() => navigate('/daftar')}
-            className="absolute right-0 top-0 z-10 min-h-11 rounded-full px-3 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
+            className="absolute right-0 top-0 z-10 min-h-11 rounded-full px-3 font-semibold text-white outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
           >
             Lewati
           </button>

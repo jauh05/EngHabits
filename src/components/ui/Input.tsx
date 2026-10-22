@@ -18,7 +18,7 @@ export function Input({ label, hint, id, className = '', ...props }: InputProps)
       <input
         id={inputId}
         aria-describedby={hint ? hintId : undefined}
-        className={`min-h-11 rounded-2xl border border-line bg-surface px-4 text-base text-ink transition-[border-color,box-shadow] outline-none placeholder:text-muted focus:border-primary-500 focus:shadow-[0_0_0_4px_var(--primary-100)] ${className}`}
+        className={`min-h-14 rounded-full border-0 bg-field px-6 text-base text-ink transition-shadow outline-none placeholder:text-muted focus:shadow-[0_0_0_3px_var(--primary-300)] ${className}`}
         {...props}
       />
       {hint && (

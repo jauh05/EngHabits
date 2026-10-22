@@ -17,6 +17,8 @@
   --muted: #2f4a36;
   --line: #cde7d2;
   --track: #d9f0d0;
+  /* Isian formulir: pill abu-abu kehijauan, tanpa garis tepi seperti contoh gambar 30. */
+  --field: #f1f6ee;
   --success: #237a38;
   --error: #e5484d;
   --streak: #f5b82e;
@@ -57,6 +59,7 @@
   --muted: #a9c7b0;
   --line: #24472f;
   --track: #1f3d2a;
+  --field: #1d3d28;
   --success: #5bd28a;
   --error: #ff8a8a;
   --streak: #ffc857;
@@ -87,6 +90,7 @@
   --color-muted: var(--muted);
   --color-line: var(--line);
   --color-track: var(--track);
+  --color-field: var(--field);
   --color-primary-100: var(--primary-100);
   --color-primary-300: var(--primary-300);
   --color-primary-500: var(--primary-500);

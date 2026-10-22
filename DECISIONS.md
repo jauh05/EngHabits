@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Gaya kartu login mengikuti contoh gambar 30
+
+1. **Bagian atas berwarna hijau tua** (`bg-banner`) dengan tiga lingkaran lembut (`Blob`) di sudut, bukan gradasi lime. Judul "EngHabits" dan tombol "Lewati" dibuat putih agar terbaca di atas warna itu.
+2. **Isian formulir pill.** `Input` memakai `rounded-full`, `bg-field` (token baru, `#F1F6EE` terang dan `#1D3D28` gelap), tanpa garis tepi, tinggi 56px. Fokus memakai bayangan cincin `primary-300`.
+3. **Garis dan sudut dibuat tumpul.** Daun dekoratif yang runcing diganti elips. Garis putus di latar memakai ketebalan 5 dan ujung bulat. Garis pemisah "atau" dibuat 3px dengan ujung bulat. Tujuannya menghilangkan titik dan garis yang tajam saat layar diperbesar.
+4. **Tampilan desktop** tetap kartu setinggi layar. Di 1280×800, kartu Masuk dan Mulai sama-sama 768px tanpa bagian yang terpotong.
+5. **Verifikasi.** Typecheck, 53 tes, dan build lolos. Di browser: `/mulai` dan `/masuk` dicek di HP 375×812 dan desktop 1280×800. Tombol "Lewati" berwarna putih dan tidak ada halaman yang melebar. Sambutan belum dibuka karena browser belum masuk.
+
 ## 2026-10-22: Layar masuk dan daftar seperti layar HP
 
 1. **Ilustrasi karakter diperkecil.** `BlobCluster` di Masuk, Daftar, dan Sambutan memakai `w-48` di HP dan `lg:w-44` di desktop. Sebelumnya `sm:w-80` ikut aktif di desktop dan membuat bagian atas setinggi 392px.

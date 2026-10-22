@@ -46,7 +46,7 @@ export function MasukPage() {
     <AuthFrame
       art={
         <div className="flex flex-col items-center gap-2">
-          <p className="text-4xl font-black tracking-tight text-ink">EngHabits</p>
+          <p className="text-4xl font-black tracking-tight text-white">EngHabits</p>
           <BlobCluster bubble="Hello~" className="w-48 lg:w-44" />
         </div>
       }
