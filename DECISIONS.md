@@ -2,6 +2,11 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Bayangan kartu auth lembut, tanpa tepi hijau
+
+1. **Kartu auth tidak lagi memakai `shadow-card`.** Bayangan `shadow-card` punya tepi 3D hijau 6px di bawah, yang di latar putih terlihat sebagai garis hijau di bagian bawah. Sekarang kartu memakai bayangan lembut `0 14px 34px -14px` dengan warna hijau gelap transparan.
+2. **Verifikasi.** Di browser, HP 375px: bagian bawah kartu bersih saat digulir sampai akhir. Desktop 1280px: kartu 390×768 di tengah dengan bayangan lembut.
+
 ## 2026-10-22: Latar layar masuk, daftar, dan mulai putih
 
 1. **Latar luar kartu auth dibuat putih** (`bg-surface`, bukan `bg-bg`). Berlaku untuk `/mulai`, `/masuk`, `/daftar`, dan `/sambutan`, karena keempatnya memakai `AuthFrame`. Latar lime di halaman lain tidak berubah.
