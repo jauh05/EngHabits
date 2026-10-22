@@ -9,13 +9,17 @@ import { dayStatus, MASTERY_THRESHOLD, type DayStatus } from '../lib/progression
 import { useProgressData } from '../lib/useProgressData';
 import { easeOut } from '../lib/motion';
 
+/** Kotak hari di dalam kartu minggu. Kartu minggu berwarna pastel, jadi kotaknya putih atau berwarna status. */
 const STATUS_CLASS: Record<DayStatus, string> = {
-  completed: 'bg-success text-on-accent border-success',
-  available: 'bg-surface text-primary-700 border-primary-500 shadow-card',
-  repair: 'bg-surface text-ink border-streak shadow-card',
-  locked: 'bg-surface text-muted border-line',
+  completed: 'bg-success text-on-accent border-transparent',
+  available: 'bg-banner text-ink border-transparent shadow-card',
+  repair: 'bg-tint-peach text-ink border-transparent',
+  locked: 'bg-surface text-muted border-transparent',
   nocontent: 'bg-surface text-muted border-dashed border-line',
 };
+
+/** Warna kartu minggu bergilir: kuning, biru, pink, mint, seperti kartu referensi. */
+const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-tint-rose', 'bg-tint-mint'];
 
 function DayChip({ day, status, onPick }: { day: number; status: DayStatus; onPick: () => void }) {
   const [scope, animate] = useAnimate();
@@ -95,7 +99,7 @@ export function MapPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.35, ease: easeOut, delay: weekIndex * 0.05 }}
           aria-labelledby={`week-${week}`}
-          className="flex flex-col gap-3 rounded-card border border-line bg-surface p-4 shadow-card"
+          className={`flex flex-col gap-3 rounded-card p-5 shadow-card ${WEEK_BG[weekIndex % WEEK_BG.length]}`}
         >
           <div className="flex items-center justify-between gap-3">
             <div className="flex flex-col">
@@ -106,16 +110,18 @@ export function MapPage() {
                 Bulan {monthOfWeek(week)} · Hari {from}-{to}
               </span>
             </div>
-            <ProgressRing
-              value={masteredIn(from, to) / (to - from + 1)}
-              size={52}
-              stroke={6}
-              ariaLabel={`Minggu ${week}: ${masteredIn(from, to)} dari ${to - from + 1} hari lulus`}
-            >
-              <span className="text-xs font-bold tabular-nums text-ink">
-                {masteredIn(from, to)}/{to - from + 1}
-              </span>
-            </ProgressRing>
+            <span className="rounded-full bg-surface p-1 shadow-card">
+              <ProgressRing
+                value={masteredIn(from, to) / (to - from + 1)}
+                size={52}
+                stroke={6}
+                ariaLabel={`Minggu ${week}: ${masteredIn(from, to)} dari ${to - from + 1} hari lulus`}
+              >
+                <span className="text-xs font-bold tabular-nums text-ink">
+                  {masteredIn(from, to)}/{to - from + 1}
+                </span>
+              </ProgressRing>
+            </span>
           </div>
           <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
             {Array.from({ length: to - from + 1 }, (_, index) => from + index).map((day) => {

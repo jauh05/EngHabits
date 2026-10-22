@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Peta 90 hari gaya kartu referensi
+
+1. **Kartu minggu berwarna pastel bergilir** (`WEEK_BG`: sun, sky, rose, mint), padding 20px, radius kartu. Cincin progres di dalam lingkaran putih kecil.
+2. **Kotak hari.** Lulus memakai `success`, tersedia memakai `banner` dengan tepi tidak terlihat, perlu perbaikan memakai `tint-peach`, terkunci memakai putih dengan teks muted. Hari tanpa konten tetap bertepi putus-putus.
+3. **Desktop.** Minggu tampil dua kolom (`lg:grid-cols-2`), sama seperti sebelumnya.
+4. **Verifikasi.** Typecheck lolos. Di browser, desktop dan HP sudah dicek. Di desktop, screenshot sempat tampak sempit, padahal DOM menunjukkan lebar 864px dan dua kolom, jadi layout dinilai dari DOM.
+
 ## 2026-10-22: Layout desktop mengikuti referensi (sidebar ungu, grid dua kolom)
 
 1. **Sidebar ungu terang** (`bg-banner`, pojok kanan membulat) seperti MedBoard. Item aktif berupa pil putih. Kontainer konten melebar ke `lg:max-w-6xl`.
