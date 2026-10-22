@@ -8,7 +8,7 @@ import { CountUp } from '../components/ui/CountUp';
 import { ProgressRing } from '../components/ui/ProgressRing';
 import { addDays, computeStreak, localISO } from '../lib/dates';
 import { loadDay } from '../lib/content';
-import { currentDay, dayStatus, TOTAL_DAYS } from '../lib/progression';
+import { currentDay, dayStatus, MASTERY_THRESHOLD, TOTAL_DAYS } from '../lib/progression';
 import { isDue } from '../lib/srs';
 import { useProgressData } from '../lib/useProgressData';
 import { easeOut } from '../lib/motion';
@@ -47,13 +47,13 @@ function formatToday(date: Date): string {
 export function DashboardPage() {
   const data = useProgressData();
   const today = localISO();
-  const next = currentDay(data.completed);
-  const nextStatus = next ? dayStatus(next, data.completed, data.content) : undefined;
+  const next = currentDay(data.mastered);
+  const nextStatus = next ? dayStatus(next, data.completed, data.content, data.mastered) : undefined;
   const [nextTitle, setNextTitle] = useState<string>();
 
   useEffect(() => {
     let active = true;
-    if (!next || nextStatus !== 'available') {
+    if (!next || (nextStatus !== 'available' && nextStatus !== 'repair')) {
       setNextTitle(undefined);
       return;
     }
@@ -76,7 +76,7 @@ export function DashboardPage() {
   });
 
   const days = Array.from({ length: 7 }, (_, index) => addDays(today, index - 6));
-  const completedRatio = data.completed.size / TOTAL_DAYS;
+  const completedRatio = data.mastered.size / TOTAL_DAYS;
 
   return (
     <div className="flex flex-col gap-6">
@@ -108,6 +108,20 @@ export function DashboardPage() {
               <Play size={18} aria-hidden="true" />
               Mulai Sesi Hari Ini
             </Link>
+          )}
+          {next && nextStatus === 'repair' && (
+            <div className="relative mt-5 flex flex-col gap-3">
+              <p className="text-sm font-semibold opacity-90">
+                Skor inti terbaik belum {MASTERY_THRESHOLD}%. Ulangi sesi ini untuk membuka hari berikutnya.
+              </p>
+              <Link
+                to={`/hari/${next}`}
+                className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-surface px-5 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
+              >
+                <Play size={18} aria-hidden="true" />
+                Ulangi Hari ke-{next}
+              </Link>
+            </div>
           )}
           {next && nextStatus === 'nocontent' && (
             <p className="relative mt-4 text-sm font-semibold">Konten Hari ke-{next} belum tersedia. Kembali lagi nanti.</p>
@@ -191,16 +205,16 @@ export function DashboardPage() {
         <Card className="flex items-center gap-5">
           <ProgressRing value={completedRatio} size={112} stroke={11}>
             <span className="text-xl font-extrabold text-ink">
-              <CountUp value={data.completed.size} />
+              <CountUp value={data.mastered.size} />
             </span>
             <span className="text-xs font-semibold text-muted">/ {TOTAL_DAYS}</span>
           </ProgressRing>
           <div className="flex flex-col gap-1">
             <h2 className="text-lg font-bold text-ink">Progres 90 hari</h2>
             <p className="text-sm text-muted">
-              {data.completed.size === 0
-                ? 'Mulai dari hari pertama. Setiap hari menambah satu langkah.'
-                : `${data.completed.size} hari selesai. Terus lanjutkan!`}
+              {data.mastered.size === 0
+                ? 'Mulai dari hari pertama. Setiap hari yang lulus menambah satu langkah.'
+                : `${data.mastered.size} hari lulus. Terus lanjutkan!`}
             </p>
           </div>
         </Card>

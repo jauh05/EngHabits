@@ -11,6 +11,7 @@ import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
 import { Confetti } from '../ui/Confetti';
 import { CountUp } from '../ui/CountUp';
+import { MASTERY_THRESHOLD } from '../../lib/progression';
 import { ProgressRing } from '../ui/ProgressRing';
 import { useToast } from '../ui/Toast';
 
@@ -20,6 +21,8 @@ export type EvaluationProps = {
   attempt: Attempt;
   progress: DayProgress;
   isFirst: boolean;
+  /** Skor inti terbaik sudah mencapai ambang. Hari berikutnya hanya terbuka bila true. */
+  passed: boolean;
   nextDay?: number;
   onRetake: () => void;
 };
@@ -234,7 +237,7 @@ function ItemReview({
   );
 }
 
-export function EvaluationView({ day, result, attempt, progress, isFirst, nextDay, onRetake }: EvaluationProps) {
+export function EvaluationView({ day, result, attempt, progress, isFirst, passed, nextDay, onRetake }: EvaluationProps) {
   const [celebrate, setCelebrate] = useState(true);
   const percent = result.corePercent;
   const message =
@@ -287,6 +290,11 @@ export function EvaluationView({ day, result, attempt, progress, isFirst, nextDa
               ? ' Ini percobaan pertamamu, jadi skor ini yang dicatat untuk hari ini.'
               : ` Skor pertama hari ini tetap ${progress.firstCorePercent}%. Percobaan ulang tidak mengubahnya.`}
           </p>
+          {!passed && (
+            <p className="text-sm font-semibold text-ink">
+              Skor inti terbaik belum {MASTERY_THRESHOLD}%. Ulangi hari ini untuk membuka hari berikutnya.
+            </p>
+          )}
           {hardBadge && <Badge tone="streak">Lencana Hard Challenge</Badge>}
         </div>
       </Card>
@@ -355,7 +363,7 @@ export function EvaluationView({ day, result, attempt, progress, isFirst, nextDa
       </section>
 
       <div className="flex flex-col gap-3 sm:flex-row">
-        {nextDay ? (
+        {passed && nextDay ? (
           <Link
             to={`/hari/${nextDay}`}
             className="inline-flex min-h-14 flex-1 items-center justify-center gap-2 rounded-full bg-btn-bg px-6 text-lg font-semibold text-btn-fg shadow-card outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500"
@@ -363,7 +371,11 @@ export function EvaluationView({ day, result, attempt, progress, isFirst, nextDa
             Lanjut Hari ke-{nextDay}
           </Link>
         ) : (
-          <p className="flex-1 text-center text-sm font-semibold text-muted">Hari berikutnya belum tersedia.</p>
+          <p className="flex-1 text-center text-sm font-semibold text-muted">
+            {!passed
+              ? `Hari berikutnya terbuka setelah skor inti minimal ${MASTERY_THRESHOLD}%.`
+              : 'Hari berikutnya belum tersedia.'}
+          </p>
         )}
         <Button variant="secondary" size="md" onClick={onRetake}>
           <RotateCcw size={18} aria-hidden="true" />

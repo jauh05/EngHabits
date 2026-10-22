@@ -1,5 +1,6 @@
 import type { DayProgress } from './db';
 import type { Part } from './grading';
+import { isMastered } from './progression';
 import type { MistakeEntry } from './srs';
 
 /** Jumlah hari selesai minimum sebelum laporan kesiapan menampilkan perkiraan. */
@@ -15,7 +16,12 @@ export const PART_LABELS: Record<Part, string> = {
 export type PartPercents = Record<Part, number | undefined>;
 
 export type Stats = {
+  /** Hari yang sudah dikirim, lulus atau belum. */
   completedDays: number;
+  /** Hari yang lulus: skor inti terbaik minimal ambang mastery. */
+  masteredDays: number;
+  /** Hari yang sudah dikirim tetapi belum lulus. */
+  repairDays: number;
   /** Rata-rata skor inti percobaan pertama, 0-100. Undefined bila belum ada hari selesai. */
   averageCorePercent: number | undefined;
   /** Akurasi per bagian dari percobaan pertama, 0-100. Undefined bila bagian itu belum dijawab. */
@@ -57,8 +63,12 @@ export function computeStats(progress: DayProgress[], mistakes: MistakeEntry[]):
     partPercents[part] = percent(sums[part].correct, sums[part].total);
   }
 
+  const masteredDays = progress.filter((row) => isMastered(row.bestCorePercent)).length;
+
   return {
     completedDays: progress.length,
+    masteredDays,
+    repairDays: progress.length - masteredDays,
     averageCorePercent: progress.length === 0 ? undefined : Math.round(coreSum / progress.length),
     partPercents,
     hardPercent: percent(hardCorrect, hardTotal),

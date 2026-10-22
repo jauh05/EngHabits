@@ -1,12 +1,16 @@
 import { useCallback, useEffect, useState } from 'react';
 import { contentDays } from './content';
 import { getAllMistakes, getAllProgress, type DayProgress } from './db';
+import { isMastered } from './progression';
 import type { MistakeEntry } from './srs';
 
 export type ProgressData = {
   loaded: boolean;
   progress: DayProgress[];
+  /** Hari yang sudah pernah dikirim, lulus atau belum. */
   completed: Set<number>;
+  /** Hari yang lulus: skor inti terbaik minimal ambang mastery. Dipakai untuk membuka hari berikutnya. */
+  mastered: Set<number>;
   completedDates: Set<string>;
   content: Set<number>;
   mistakes: MistakeEntry[];
@@ -19,6 +23,7 @@ export function useProgressData(): ProgressData {
     loaded: false,
     progress: [],
     completed: new Set(),
+    mastered: new Set(),
     completedDates: new Set(),
     content: new Set(contentDays()),
     mistakes: [],
@@ -32,6 +37,7 @@ export function useProgressData(): ProgressData {
         loaded: true,
         progress,
         completed: new Set(progress.map((item) => item.day)),
+        mastered: new Set(progress.filter((item) => isMastered(item.bestCorePercent)).map((item) => item.day)),
         completedDates: new Set(progress.map((item) => item.completedDate)),
         mistakes,
       }));

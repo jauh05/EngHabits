@@ -19,7 +19,7 @@ import { loadDay, toDayView, type DayView, contentDays } from '../lib/content';
 import { localISO } from '../lib/dates';
 import { recordAttempt, type Attempt, type DayProgress } from '../lib/db';
 import { gradeDay, type Answers, type DayResult } from '../lib/grading';
-import { dayStatus } from '../lib/progression';
+import { dayStatus, isMastered, MASTERY_THRESHOLD } from '../lib/progression';
 import { easeOut } from '../lib/motion';
 import { useProgressData } from '../lib/useProgressData';
 
@@ -74,9 +74,9 @@ function DaySession({ day }: { day: number }) {
     return <p className="py-16 text-center text-muted">Memuat sesi...</p>;
   }
 
-  const status = dayStatus(day, data.completed, data.content);
+  const status = dayStatus(day, data.completed, data.content, data.mastered);
   const contentReady = contentDays().includes(day);
-  const previousDone = day === 1 || data.completed.has(day - 1);
+  const previousDone = day === 1 || data.mastered.has(day - 1);
 
   if (!contentReady || missing || !view) {
     return (
@@ -88,7 +88,7 @@ function DaySession({ day }: { day: number }) {
     return (
       <Message
         title="Hari ini masih terkunci"
-        body={`Selesaikan Hari ke-${day - 1} dan kirim jawabannya dulu. Setelah itu hari ini terbuka.`}
+        body={`Capai skor inti minimal ${MASTERY_THRESHOLD}% di Hari ke-${day - 1} dulu. Setelah itu hari ini terbuka.`}
       />
     );
   }
@@ -133,6 +133,7 @@ function DaySession({ day }: { day: number }) {
           attempt={evaluation.attempt}
           progress={evaluation.progress}
           isFirst={evaluation.isFirst}
+          passed={isMastered(evaluation.progress.bestCorePercent)}
           nextDay={contentDays().includes(nextDay) ? nextDay : undefined}
           onRetake={() => {
             setEvaluation(undefined);
@@ -188,7 +189,9 @@ function DaySession({ day }: { day: number }) {
 
       {completedBefore && previousScore && (
         <Card tone="lavender" className="flex items-center gap-3 text-sm text-ink">
-          Hari ini sudah selesai dengan skor inti {previousScore.firstCorePercent}%. Mengulang tidak mengubah skor pertama.
+          {isMastered(previousScore.bestCorePercent)
+            ? `Hari ini sudah lulus dengan skor inti terbaik ${previousScore.bestCorePercent}%. Mengulang tidak mengubah skor pertama, yaitu ${previousScore.firstCorePercent}%.`
+            : `Skor pertama hari ini ${previousScore.firstCorePercent}%, terbaik ${previousScore.bestCorePercent}%. Capai ${MASTERY_THRESHOLD}% untuk membuka hari berikutnya.`}
         </Card>
       )}
 

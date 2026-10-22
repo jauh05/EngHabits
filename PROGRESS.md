@@ -19,7 +19,7 @@ Terakhir diperbarui: 2026-10-22
 | 9. Konten hari 45-51 dan bank Hard minggu 7 | Selesai (disetujui) |
 | 10. Konten hari 52-60 dan bank Hard minggu 8 | Selesai (disetujui) |
 | 10b. Konten hari 61-90 dan bank Hard minggu 9-12 | Selesai (disetujui) |
-| 11. Fitur lanjutan (statistik, laporan kesiapan, latihan perbaikan, ekspor/impor, pengingat, ikon PWA) | Sebagian selesai, menunggu keputusan: mastery gate, perekam suara, koreksi AI |
+| 11. Fitur lanjutan (mastery gate 60%, statistik, laporan kesiapan, latihan perbaikan, ekspor/impor, pengingat, ikon PWA) | Sebagian selesai, menunggu keputusan: perekam suara, koreksi AI |
 | 11b. Deploy GitHub Pages | Belum mulai |
 | 12. QA akhir | Belum mulai |
 
@@ -31,11 +31,13 @@ Terakhir diperbarui: 2026-10-22
 - Routing: Beranda, Peta 90 hari, Buku Kesalahan, Profil (pengaturan), Statistik (belum), sesi `/hari/:n`.
 - Sesi 4 blok dengan stepper, timer panduan, kosakata 10 item + flashcard, materi 2A/2B dengan catatan, blok 3 membaca atau mendengarkan, blok 4 dengan Bagian A, B, dan Hard Challenge.
 - Kunci tidak dirender sebelum kirim. Penilaian lokal, evaluasi mendalam 4 lapis, tombol salin "Aku masih bingung".
-- Penguncian progresi: hari N+1 terbuka setelah hari N dikirim.
+- Penguncian progresi: hari N+1 terbuka setelah hari N lulus, yaitu skor inti terbaik minimal 60% (`MASTERY_THRESHOLD`).
 - Buku Kesalahan dengan jadwal Leitner (+1, +3, +7, +14 hari).
 - Progres, percobaan, dan Buku Kesalahan disimpan di IndexedDB. Reset tersedia di Profil.
 
 ## Yang sudah jalan (Fase 11, sebagian)
+
+- Mastery gate 60% skor inti: hari berikutnya terbuka setelah skor inti terbaik minimal 60%. Hari yang belum lulus berstatus "perlu perbaikan" dan bisa diulang.
 
 - Statistik (`/statistik`) dan laporan kesiapan perkiraan (`/laporan`, minimal 7 hari selesai).
 - Latihan perbaikan dari Buku Kesalahan yang jatuh tempo (`/latihan`).
@@ -54,6 +56,6 @@ Lihat [DECISIONS.md](DECISIONS.md).
 
 ## Sesi berikutnya
 
-- Keputusan untuk melanjutkan Fase 11: ambang mastery gate dan perilaku sesi perbaikan otomatis, apakah perekam suara dibuat, dan penyedia serta kunci API untuk koreksi AI.
+- Keputusan untuk melanjutkan Fase 11: apakah perekam suara dibuat, dan penyedia serta kunci API untuk koreksi AI.
 - Audit mutu penuh tetap dijadwalkan di Fase 12, termasuk pemisahan chunk bundel yang besar.
 - Audit mutu penuh tetap dijadwalkan di Fase 12.

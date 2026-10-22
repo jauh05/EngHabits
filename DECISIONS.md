@@ -2,6 +2,16 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Mastery gate 60% skor inti
+
+1. **Ambang 60%.** Disimpan sebagai konstanta `MASTERY_THRESHOLD` di `src/lib/progression.ts`. Dari 15 soal inti, 60% berarti 9 benar. Hanya soal inti yang dihitung, sama dengan skor inti hari.
+2. **Gate memakai skor terbaik, bukan skor pertama.** Hari N+1 terbuka bila `bestCorePercent` hari N minimal 60. Skor pertama tetap menjadi nilai resmi untuk statistik dan tampilan, tetapi mengulang hari yang gagal bisa membuka hari berikutnya. Tanpa aturan ini, hari yang sudah gagal sekali tidak pernah bisa membuka hari berikutnya.
+3. **Status `repair`.** Hari yang sudah dikirim tetapi belum mencapai ambang berstatus `repair`. Peta menampilkannya dengan label "perlu perbaikan" dan tetap bisa dibuka. Beranda menampilkan tombol "Ulangi Hari ke-N".
+4. **Sesi perbaikan.** Soal yang salah sudah masuk Buku Kesalahan dengan jatuh tempo besok, jadi Latihan perbaikan memuat soal itu secara otomatis. Itulah sesi perbaikan otomatis. Gate tetap dibuka dengan mengulang hari itu, karena latihan Buku Kesalahan tidak menghitung skor inti.
+5. **Tombol Lanjut hanya setelah lulus.** Di hasil evaluasi, tombol "Lanjut Hari ke-N" muncul bila skor terbaik sudah mencapai ambang. Bila belum, tampil pesan bahwa hari berikutnya terbuka setelah 60%.
+6. **Data lama.** Hari yang sudah dikirim sebelum perubahan ini dinilai dengan skor terbaik yang tersimpan. Hari yang masih di bawah 60% sekarang berstatus `repair`.
+7. **Verifikasi.** Vitest 46 tes lolos, termasuk tes ambang, status `repair`, dan kunci hari berikutnya. `tsc --noEmit` dan `npm run build` lolos. Di browser, hari 1 dengan skor 40% membuat hari 2 terkunci dan Beranda menawarkan "Ulangi Hari ke-1". Setelah skor terbaik 60%, hari 2 terbuka.
+
 ## 2026-10-22: Fase 11 (fitur lanjutan, sebagian)
 
 Persetujuan hari 61 sampai 90 dicatat sebagai selesai. Fase 11 dikerjakan dalam dua bagian. Bagian pertama dibuat sekarang, bagian kedua menunggu keputusan.

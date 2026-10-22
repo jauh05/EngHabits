@@ -4,13 +4,14 @@ import { useNavigate } from 'react-router';
 import { WEEK_RANGES, monthOfWeek } from '../../content/schema';
 import { useToast } from '../components/ui/Toast';
 import { contentDays } from '../lib/content';
-import { dayStatus, type DayStatus } from '../lib/progression';
+import { dayStatus, MASTERY_THRESHOLD, type DayStatus } from '../lib/progression';
 import { useProgressData } from '../lib/useProgressData';
 import { easeOut } from '../lib/motion';
 
 const STATUS_CLASS: Record<DayStatus, string> = {
   completed: 'bg-success text-on-accent border-success',
   available: 'bg-surface text-primary-700 border-primary-500 shadow-card',
+  repair: 'bg-surface text-ink border-streak shadow-card',
   locked: 'bg-surface text-muted border-line',
   nocontent: 'bg-surface text-muted border-dashed border-line',
 };
@@ -26,8 +27,9 @@ function DayChip({ day, status, onPick }: { day: number; status: DayStatus; onPi
   };
 
   const label = {
-    completed: 'selesai',
+    completed: 'lulus',
     available: 'tersedia',
+    repair: 'perlu perbaikan',
     locked: 'terkunci',
     nocontent: 'belum tersedia',
   }[status];
@@ -59,10 +61,10 @@ export function MapPage() {
   const content = new Set(contentDays());
 
   const handlePick = (day: number, status: DayStatus) => {
-    if (status === 'available' || status === 'completed') {
+    if (status === 'available' || status === 'completed' || status === 'repair') {
       navigate(`/hari/${day}`);
     } else if (status === 'locked') {
-      show(`Selesaikan Hari ke-${day - 1} dulu.`);
+      show(`Capai skor inti ${MASTERY_THRESHOLD}% di Hari ke-${day - 1} dulu.`);
     } else {
       show(`Konten Hari ke-${day} belum tersedia.`);
     }
@@ -72,7 +74,9 @@ export function MapPage() {
     <div className="flex flex-col gap-6">
       <header>
         <h1 className="text-3xl font-extrabold text-ink">Peta 90 hari</h1>
-        <p className="text-muted">Setiap hari terbuka setelah hari sebelumnya selesai.</p>
+        <p className="text-muted">
+          Hari berikutnya terbuka setelah skor inti hari ini minimal {MASTERY_THRESHOLD}%. Hari yang belum lulus bisa diulang.
+        </p>
       </header>
 
       {WEEK_RANGES.map(([week, from, to], weekIndex) => (
@@ -94,7 +98,7 @@ export function MapPage() {
           </div>
           <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
             {Array.from({ length: to - from + 1 }, (_, index) => from + index).map((day) => {
-              const status = dayStatus(day, data.completed, content);
+              const status = dayStatus(day, data.completed, content, data.mastered);
               return <DayChip key={day} day={day} status={status} onPick={() => handlePick(day, status)} />;
             })}
           </div>

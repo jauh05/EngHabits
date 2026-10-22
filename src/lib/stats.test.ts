@@ -50,6 +50,15 @@ describe('computeStats', () => {
   });
 });
 
+describe('hari lulus dan perlu perbaikan', () => {
+  it('membedakan hari yang lulus dari hari yang belum mencapai ambang', () => {
+    const stats = computeStats([row(1), row(2, { firstCorePercent: 40, bestCorePercent: 40 })], []);
+    expect(stats.completedDays).toBe(2);
+    expect(stats.masteredDays).toBe(1);
+    expect(stats.repairDays).toBe(1);
+  });
+});
+
 describe('readinessLevel', () => {
   it('memetakan persentase ke label', () => {
     expect(readinessLevel(40)).toBe('perlu-banyak-latihan');

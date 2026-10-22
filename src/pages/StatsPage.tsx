@@ -32,10 +32,11 @@ export function StatsPage() {
 
       <div className="grid grid-cols-2 gap-3">
         <Card className="flex flex-col gap-1">
-          <span className="text-sm text-muted">Hari selesai</span>
+          <span className="text-sm text-muted">Hari lulus</span>
           <span className="text-2xl font-extrabold tabular-nums text-ink">
-            {stats.completedDays} <span className="text-base font-semibold text-muted">/ {TOTAL_DAYS}</span>
+            {stats.masteredDays} <span className="text-base font-semibold text-muted">/ {TOTAL_DAYS}</span>
           </span>
+          <span className="text-sm text-muted">{stats.repairDays} perlu perbaikan</span>
         </Card>
         <Card className="flex flex-col gap-1">
           <span className="text-sm text-muted">Rata-rata skor inti</span>

@@ -1,31 +1,45 @@
 import { describe, expect, it } from 'vitest';
 import { addDays, computeStreak } from './dates';
 import { applyResult, isDue, MAX_BOX } from './srs';
-import { currentDay, dayStatus } from './progression';
+import { currentDay, dayStatus, isMastered, MASTERY_THRESHOLD } from './progression';
 
 describe('dayStatus', () => {
   const content = new Set([1, 2, 3]);
+  const none = new Set<number>();
 
   it('hari 1 selalu tersedia bila kontennya ada', () => {
-    expect(dayStatus(1, new Set(), content)).toBe('available');
+    expect(dayStatus(1, none, content, none)).toBe('available');
   });
 
-  it('hari N+1 terkunci sampai hari N selesai', () => {
-    expect(dayStatus(2, new Set(), content)).toBe('locked');
-    expect(dayStatus(2, new Set([1]), content)).toBe('available');
+  it('hari N+1 terkunci sampai hari N lulus, bukan hanya dikirim', () => {
+    expect(dayStatus(2, none, content, none)).toBe('locked');
+    expect(dayStatus(2, new Set([1]), content, none)).toBe('locked');
+    expect(dayStatus(2, new Set([1]), content, new Set([1]))).toBe('available');
   });
 
-  it('hari yang sudah selesai tetap completed', () => {
-    expect(dayStatus(1, new Set([1]), content)).toBe('completed');
+  it('hari yang sudah dikirim tetapi belum lulus berstatus repair', () => {
+    expect(dayStatus(1, new Set([1]), content, none)).toBe('repair');
+  });
+
+  it('hari yang sudah lulus tetap completed', () => {
+    expect(dayStatus(1, new Set([1]), content, new Set([1]))).toBe('completed');
   });
 
   it('hari tanpa konten ditandai nocontent, bukan terkunci', () => {
-    expect(dayStatus(4, new Set([1, 2, 3]), content)).toBe('nocontent');
+    expect(dayStatus(4, new Set([1, 2, 3]), content, new Set([1, 2, 3]))).toBe('nocontent');
+  });
+});
+
+describe('isMastered', () => {
+  it('ambang 60% skor inti, 9 dari 15 soal', () => {
+    expect(MASTERY_THRESHOLD).toBe(60);
+    expect(isMastered(59)).toBe(false);
+    expect(isMastered(60)).toBe(true);
   });
 });
 
 describe('currentDay', () => {
-  it('mengembalikan hari pertama yang belum selesai', () => {
+  it('mengembalikan hari pertama yang belum lulus', () => {
     expect(currentDay(new Set())).toBe(1);
     expect(currentDay(new Set([1, 2]))).toBe(3);
   });
