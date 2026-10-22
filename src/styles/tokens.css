@@ -30,6 +30,7 @@
   --tint-mint: #c9f3e1;
   /* Latar banner Beranda: ungu terang seperti referensi. Teksnya `ink`. */
   --banner: #b49bff;
+  --tint-peach: #ffd9bd;
 }
 
 :root[data-theme='dark'] {
@@ -56,6 +57,7 @@
   --tint-rose: #4a2339;
   --tint-mint: #1b4439;
   --banner: #a98bff;
+  --tint-peach: #5a3a2a;
 }
 
 @theme inline {
@@ -80,7 +82,8 @@
   --color-tint-rose: var(--tint-rose);
   --color-tint-mint: var(--tint-mint);
   --color-banner: var(--banner);
+  --color-tint-peach: var(--tint-peach);
   --shadow-card: var(--shadow);
-  --radius-card: 24px;
+  --radius-card: 28px;
   --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;
 }

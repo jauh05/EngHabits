@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Layar awal, dashboard gaya MedBoard, dan kartu gaya Olympiads
+
+1. **Layar awal `/masuk` bukan login.** Aplikasi tidak punya akun, jadi tidak ada kata sandi. Layar ini hanya meminta nama panggilan (opsional) yang disimpan di IndexedDB perangkat ini. Teks di layar menyebutkan itu. Pengguna yang belum melewati layar awal diarahkan ke `/masuk` oleh `OnboardingGate` di `App.tsx`. "Lewati" juga menandai onboarding selesai.
+2. **Field baru di `Settings`.** `name` dan `onboarded`. Keduanya tidak ikut ekspor cadangan, karena cadangan hanya berisi data belajar.
+3. **Dashboard mengikuti MedBoard.** Sapaan memakai nama panggilan, dengan avatar berisi inisial. Di bawahnya ada banner ungu terang, tiga kartu mini (hari lulus, streak, poin), kalender bulan berjalan, rencana, grafik skor 7 hari, dan rata-rata per bagian. Di layar lebar (1024px ke atas) ada panel kanan berisi cincin progres 90 hari dan soal yang jatuh tempo.
+4. **Kartu mengikuti Olympiads.** Sudut kartu naik ke 28px (`--radius-card`). Ada warna peach (`tint-peach`). Kartu `deep` (ungu tua dengan teks putih) hanya dipakai untuk Buku Kesalahan, dengan tombol panah putih, sebagai satu sorotan.
+5. **Verifikasi.** Typecheck dan 46 tes lolos. Di browser (HP): alur layar awal dengan nama dan redirect ke beranda, lalu sapaan dan kalender tampil dengan benar. Layar desktop belum dicek karena pratinjau di bawah 1024px. Panel kanan belum dilihat langsung.
+
 ## 2026-10-22: Tampilan mengikuti referensi awal (kartu pastel dan animasi)
 
 1. **Keputusan atas pertanyaan di DESIGN_SPEC bagian 11.** Permintaan pengguna mengubah pilihan pertama: kartu memakai warna pastel seperti referensi (sun, sky, rose, mint), bukan satu keluarga ungu. Token baru ada di `src/styles/tokens.css` untuk mode terang dan gelap. Kartu kecil tetap memakai `surface` dengan tepi `line`.

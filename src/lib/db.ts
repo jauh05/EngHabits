@@ -41,6 +41,10 @@ export type Settings = {
   reminderEnabled: boolean;
   /** Tanggal pengingat terakhir ditampilkan, YYYY-MM-DD (lokal). */
   lastReminderDate: string;
+  /** Nama panggilan. Hanya disimpan di perangkat ini, bukan akun. */
+  name: string;
+  /** Layar awal sudah dilewati, baik dengan memasukkan nama maupun dengan "Lewati". */
+  onboarded: boolean;
 };
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -50,6 +54,8 @@ export const DEFAULT_SETTINGS: Settings = {
   rate: 0.9,
   reminderEnabled: false,
   lastReminderDate: '',
+  name: '',
+  onboarded: false,
 };
 
 interface EngHabitsDB extends DBSchema {

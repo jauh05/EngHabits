@@ -1,4 +1,7 @@
-import { BrowserRouter, Link, Route, Routes } from 'react-router';
+import type { ReactNode } from 'react';
+import { BrowserRouter, Link, Navigate, Route, Routes, useLocation } from 'react-router';
+import { useSettings } from './lib/settings';
+import { WelcomePage } from './pages/WelcomePage';
 import { AppShell } from './components/layout/AppShell';
 import { DashboardPage } from './pages/DashboardPage';
 import { DayPage } from './pages/DayPage';
@@ -20,10 +23,24 @@ function NotFound() {
   );
 }
 
+/**
+ * Pengguna yang belum melewati layar awal diarahkan ke /masuk. Menunggu pengaturan termuat dulu,
+ * supaya tidak ada kilasan beranda sebelum pengalihan.
+ */
+function OnboardingGate({ children }: { children: ReactNode }) {
+  const { settings, loaded } = useSettings();
+  const location = useLocation();
+  if (!loaded) return null;
+  if (!settings.onboarded && location.pathname !== '/masuk') return <Navigate to="/masuk" replace />;
+  return <>{children}</>;
+}
+
 export function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <OnboardingGate>
       <Routes>
+        <Route path="masuk" element={<WelcomePage />} />
         <Route element={<AppShell />}>
           <Route index element={<DashboardPage />} />
           <Route path="peta" element={<MapPage />} />
@@ -36,6 +53,7 @@ export function App() {
         <Route path="hari/:n" element={<DayPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      </OnboardingGate>
     </BrowserRouter>
   );
 }
