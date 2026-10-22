@@ -418,9 +418,9 @@
         "id": "B5",
         "difficulty": "hard",
         "kind": "ielts_task1_outline",
-        "promptId": "Diagram batang membandingkan jumlah kunjungan ke empat museum (A sampai D) pada 2018 dan 2023. Museum A paling ramai di kedua tahun, sedangkan museum D naik paling cepat. Tulis outline dengan pengantar, gambaran umum, dan dua paragraf isi.",
+        "promptId": "Diagram batang membandingkan jumlah pengunjung empat museum (A sampai D) pada 2018 dan 2023. Museum A dari 50.000 menjadi 62.000, museum B dari 40.000 menjadi 41.000, museum C dari 30.000 menjadi 28.000, dan museum D dari 12.000 menjadi 30.000. Tulis outline dengan pengantar, gambaran umum, dan dua paragraf isi.",
         "hint": "Bandingkan dua tahun, bukan setiap batang satu per satu.",
-        "modelAnswer": "Introduction: The bar chart compares visitor numbers at four museums in 2018 and 2023.\nOverview: Museum A was the most visited in both years, while Museum D showed the fastest growth.\nBody 1: Museums A and B had the highest numbers in 2018, and both kept a similar lead in 2023.\nBody 2: Museum D started as the least visited but more than doubled by 2023.",
+        "modelAnswer": "Introduction: The bar chart compares visitor numbers at four museums in 2018 and 2023.\nOverview: Museum A was the most visited in both years, while Museum D showed the fastest growth.\nBody 1: Museum A rose from 50,000 to 62,000, and Museum B stayed almost the same at around 40,000.\nBody 2: Museum D more than doubled, from 12,000 to 30,000, while Museum C fell slightly to 28,000.",
         "commonErrors": [{ "pattern": "Museum A had 5,000, Museum B had 4,000, Museum C had 3,000, Museum D had 2,000 in 2018.", "feedbackId": "Mulai dengan gambaran umum. Daftar semua angka membuat pembaca sulit menangkap perbandingannya." }],
         "rubric": [{ "criterion": "Gambaran umum", "whatGoodLooksLike": "Outline memuat tren utama, bukan hanya daftar angka." }, { "criterion": "Organisasi", "whatGoodLooksLike": "Ada pengantar, gambaran umum, dan paragraf isi yang terpisah." }]
       }

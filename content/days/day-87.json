@@ -425,7 +425,7 @@
         "kind": "ielts_speaking_p3",
         "promptId": "Menurutmu apakah generasi sekarang lebih mandiri dibanding generasi orang tuamu? Bandingkan keduanya dan jelaskan alasanmu.",
         "hint": "Sebut satu aspek yang lebih mandiri dan satu aspek yang kurang.",
-        "modelAnswer": "I think young people today are more independent in some ways, because they can learn almost anything online and manage their own schedules. However, our parents' generation often had to rely on themselves in practical matters, such as fixing things or making plans without help. So it depends on what kind of independence we mean.",
+        "modelAnswer": "I think young people today are more independent in some ways, because they can learn almost anything online and manage their own schedules. However, my parents' generation often had to rely on themselves in practical matters, such as fixing things or making plans without help. So it depends on what kind of independence we mean.",
         "commonErrors": [{ "pattern": "Young people is more independent. Parents is less. It is because of internet.", "feedbackId": "Perhatikan kesesuaian subjek dan kata kerja. Bandingkan dengan pola seperti compared with atau while." }],
         "rubric": [{ "criterion": "Argumen", "whatGoodLooksLike": "Pendapat disertai alasan yang masuk akal." }, { "criterion": "Perbandingan", "whatGoodLooksLike": "Jawaban membandingkan dua hal atau mempertimbangkan sisi lain." }]
       }

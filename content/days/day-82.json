@@ -958,7 +958,7 @@
         "kind": "ielts_speaking_p1",
         "promptId": "Ceritakan tentang tempat tinggalmu. Kamu tinggal di kota atau desa mana?",
         "hint": "Jawab langsung, lalu tambahkan satu detail.",
-        "modelAnswer": "I live in a small city in East Java. It's not very big, but it's quite lively, with many local markets and friendly neighbours.",
+        "modelAnswer": "I live in a small city. It's not very big, but it's quite lively, with many local markets and friendly neighbours.",
         "commonErrors": [{ "pattern": "I live in city. City is small. I like it.", "feedbackId": "Gunakan artikel dan kalimat lengkap. Tambahkan satu detail yang membuat jawabanmu hidup." }],
         "rubric": [{ "criterion": "Menjawab langsung", "whatGoodLooksLike": "Pertanyaan dijawab di kalimat pertama." }, { "criterion": "Pengembangan", "whatGoodLooksLike": "Jawaban menambahkan alasan atau detail singkat." }]
       }

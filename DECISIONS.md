@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Tinjauan isi tugas IELTS dan cek hari 75-89
+
+1. **Perbaikan isi.** Hari 69: prompt diberi angka per museum, supaya jawaban model tidak menyebut "lebih dari dua kali lipat" tanpa data. Hari 70, 71, dan 72: jawaban model disamakan dengan prompt, tanpa detail yang tidak ada di prompt. Hari 82: contoh jawaban tidak menyebut lokasi tertentu. Hari 87: "my parents' generation", sesuai pertanyaan.
+2. **Cek di browser.** Hari 75, 82, 84, 86, dan 89 dibuka. Label instruksi, jumlah baris kotak jawaban, dan jumlah lencana "Dinilai sendiri" sudah sesuai jenis tugas. Hari 89 punya dua tugas tulis dan lisan.
+3. **Yang masih perlu tinjauan manusia.** Jawaban model dan rubrik ditulis dan dicek oleh saya, belum oleh pemilik proyek atau pengajar. Sebelum dipakai pembelajar, perlu persetujuan kualitas seperti hari lain.
+4. **Validator.** Lolos untuk 90 hari setelah perbaikan, dan 53 tes lulus.
+
 ## 2026-10-22: Tugas writing dan speaking di hari IELTS
 
 1. **20 tugas baru di 19 hari.** Hari 68-73 memakai `ielts_task1_outline`, hari 75-80 memakai `ielts_task2_paragraph`, hari 82-87 memakai `ielts_speaking_p1`, `p2`, atau `p3` sesuai topiknya, dan hari 89 memakai `ielts_task2_paragraph` (B4) dan `ielts_speaking_p2` (B5). Hari 74 dan 81 (review) tidak diubah.
