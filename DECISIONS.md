@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Layar /mulai seperti HP dengan ilustrasi 3D
+
+1. **Ilustrasi 3D.** `SlideScene` menggambar tiga adegan SVG sendiri: matahari terbit di atas alas bertingkat, tumpukan buku dengan tanda centang, dan grafik batang silinder dengan panah dan koin. Memakai sorotan radial, sisi gelap, bayangan blur, dan warna token. Melayang pelan, dimatikan dengan "Kurangi animasi". Kotak ikon `ArtTile` dihapus karena tidak dipakai lagi.
+2. **Tinggi seperti HP.** Bagian atas memakai `min-h-[38dvh]` dan `sm:min-h-[42dvh]`, bukan tinggi tetap, supaya ilustrasi karakter di Masuk dan Daftar tidak terpotong. Tombol "Masuk" di HP 667px tetap terlihat.
+3. **Desktop seperti ponsel.** Kartu 390px dengan tinggi `min(844px, 100dvh - 3rem)`, sudut 44px, dan bagian bawah bisa digulir di dalamnya. Pada 1280×800, kartu setinggi 752px dan halaman tidak punya scroll sendiri.
+4. **Judul tidak patah.** Kata berstrip seperti "terburu-buru" dibungkus `whitespace-nowrap` lewat `keepHyphenated`.
+5. **Dekorasi.** `BackgroundArt` punya varian `auth` tanpa lingkaran di pojok kanan atas dan tanpa daun di kanan, sehingga "Lewati" tidak tertutup. "Lewati" sekarang berada di atas dekorasi (`z-10`).
+6. **Verifikasi.** Typecheck, 53 tes, dan build lolos. Di browser: 375×667 dan 1280×800 sudah dicek untuk ketiga slide. Tidak ada scroll horizontal, tombol "Masuk" terlihat, dan "Lewati" bisa diklik. Mode gelap tidak punya teks yang kontrasnya kurang. Halaman Masuk di desktop sudah dicek. Sambutan dan Daftar belum dibuka satu per satu.
+
 ## 2026-10-22: Tinjauan isi tugas IELTS dan cek hari 75-89
 
 1. **Perbaikan isi.** Hari 69: prompt diberi angka per museum, supaya jawaban model tidak menyebut "lebih dari dua kali lipat" tanpa data. Hari 70, 71, dan 72: jawaban model disamakan dengan prompt, tanpa detail yang tidak ada di prompt. Hari 82: contoh jawaban tidak menyebut lokasi tertentu. Hari 87: "my parents' generation", sesuai pertanyaan.

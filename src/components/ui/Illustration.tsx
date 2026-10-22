@@ -1,7 +1,7 @@
 import { useId } from 'react';
 
 /**
- * Ilustrasi SVG buatan sendiri untuk banner: tumpukan bentuk membulat dengan gradien ungu dan kuning.
+ * Ilustrasi SVG buatan sendiri untuk banner: tumpukan bentuk membulat dengan gradien hijau dan oranye.
  * Tidak meniru gaya 3D dari referensi. Warnanya tetap sama di mode terang dan gelap.
  */
 export function StackIllustration({ className = '' }: { className?: string }) {

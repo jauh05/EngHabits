@@ -2,8 +2,11 @@
  * Latar visual hijau untuk halaman: blob lembut, jalur putus berkelok, daun, dan percikan.
  * Semua bentuk asli, bukan salinan gambar referensi. Warnanya diambil dari token supaya ikut mode gelap.
  * Dipakai sebagai lapisan absolut di belakang konten. Induknya harus punya `isolate`.
+ * Varian `auth` untuk bagian atas layar masuk: blob di pojok kanan atas dan daun di kanan dihilangkan,
+ * karena di sana ada tombol "Lewati" dan tepi ilustrasi.
  */
-export function BackgroundArt({ className = '' }: { className?: string }) {
+export function BackgroundArt({ className = '', variant = 'full' }: { className?: string; variant?: 'full' | 'auth' }) {
+  const full = variant === 'full';
   return (
     <svg
       aria-hidden="true"
@@ -11,18 +14,22 @@ export function BackgroundArt({ className = '' }: { className?: string }) {
       preserveAspectRatio="xMidYMid slice"
       className={`pointer-events-none absolute inset-0 -z-10 h-full w-full ${className}`}
     >
-      <path
-        d="M 250 -20 C 430 40 420 230 300 262 C 190 292 150 150 250 -20 Z"
-        style={{ fill: 'color-mix(in srgb, var(--bg), var(--shade) 16%)' }}
-      />
+      {full && (
+        <path
+          d="M 250 -20 C 430 40 420 230 300 262 C 190 292 150 150 250 -20 Z"
+          style={{ fill: 'color-mix(in srgb, var(--bg), var(--shade) 16%)' }}
+        />
+      )}
       <path
         d="M -40 520 C 40 470 150 520 140 610 C 130 700 20 760 -40 720 Z"
         style={{ fill: 'color-mix(in srgb, var(--bg), var(--shade) 10%)' }}
       />
-      <path
-        d="M 390 430 C 470 470 470 580 390 600 C 320 620 300 500 390 430 Z"
-        style={{ fill: 'color-mix(in srgb, var(--bg), var(--surface) 40%)' }}
-      />
+      {full && (
+        <path
+          d="M 390 430 C 470 470 470 580 390 600 C 320 620 300 500 390 430 Z"
+          style={{ fill: 'color-mix(in srgb, var(--bg), var(--surface) 40%)' }}
+        />
+      )}
       <path
         d="M 40 330 C 160 280 250 410 170 480 S 40 570 120 670 S 300 780 360 700"
         fill="none"

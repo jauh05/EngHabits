@@ -1,32 +1,43 @@
 import { useState } from 'react';
-import { ArrowLeft, ArrowRight, BookOpen, Sunrise, TrendingUp } from 'lucide-react';
+import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
-import { ArtTile, AuthFrame } from '../components/auth/AuthFrame';
+import { AuthFrame } from '../components/auth/AuthFrame';
 import { Button, buttonClass } from '../components/ui/Button';
+import { SlideScene, type SceneKind } from '../components/ui/SlideScene';
 
 const SLIDES = [
   {
-    icon: Sunrise,
-    tint: 'bg-tint-sun',
+    scene: 'sunrise' as SceneKind,
     first: 'Ambil napas.',
     second: 'Belajar tanpa terburu-buru.',
     body: 'Dua jam sehari selama 90 hari. Satu kebiasaan kecil setiap pagi.',
   },
   {
-    icon: BookOpen,
-    tint: 'bg-tint-sky',
+    scene: 'books' as SceneKind,
     first: 'Setiap hari',
     second: 'satu langkah kecil.',
     body: 'Kosakata, materi, latihan, dan soal dalam satu sesi yang tertata.',
   },
   {
-    icon: TrendingUp,
-    tint: 'bg-tint-mint',
+    scene: 'chart' as SceneKind,
     first: 'Pantau',
     second: 'kemajuanmu.',
     body: 'Lihat skor, kesalahan, dan jadwal ulang yang diatur otomatis.',
   },
 ];
+
+/** Kata yang memakai tanda hubung tidak boleh patah di tengah, misalnya "terburu-buru". */
+function keepHyphenated(text: string) {
+  return text.split(/(\S*-\S*)/).map((part, index) =>
+    part.includes('-') ? (
+      <span key={index} className="whitespace-nowrap">
+        {part}
+      </span>
+    ) : (
+      part
+    ),
+  );
+}
 
 /** Layar mulai tiga slide, pola seperti gambar 5. Tombol "Lewati" langsung ke daftar. */
 export function MulaiPage() {
@@ -34,32 +45,27 @@ export function MulaiPage() {
   const [index, setIndex] = useState(0);
   const slide = SLIDES[index];
   const last = index === SLIDES.length - 1;
-  const Icon = slide.icon;
 
   return (
     <AuthFrame
       art={
         <>
-          <div className="mb-6 flex w-full justify-end">
-            <button
-              type="button"
-              onClick={() => navigate('/daftar')}
-              className="min-h-11 rounded-full px-3 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
-            >
-              Lewati
-            </button>
-          </div>
-          <ArtTile tint={slide.tint}>
-            <Icon size={56} aria-hidden="true" strokeWidth={1.75} />
-          </ArtTile>
+          <button
+            type="button"
+            onClick={() => navigate('/daftar')}
+            className="absolute right-0 top-0 z-10 min-h-11 rounded-full px-3 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
+          >
+            Lewati
+          </button>
+          <SlideScene kind={slide.scene} />
         </>
       }
     >
       <div className="flex flex-col gap-3 text-center lg:text-left">
-        <h1 className="text-3xl font-extrabold leading-tight text-ink lg:text-4xl">
+        <h1 className="text-balance text-[1.75rem] font-extrabold leading-tight text-ink sm:text-3xl lg:text-4xl">
           {slide.first}
           <br />
-          <span className="text-muted">{slide.second}</span>
+          <span className="text-muted">{keepHyphenated(slide.second)}</span>
         </h1>
         <p className="text-base text-muted">{slide.body}</p>
       </div>
