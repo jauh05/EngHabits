@@ -78,6 +78,7 @@ function formatToday(date: Date): string {
 export function DashboardPage() {
   const data = useProgressData();
   const { settings } = useSettings();
+  const [range, setRange] = useState<7 | 14>(7);
   const today = localISO();
   const next = currentDay(data.mastered);
   const nextStatus = next ? dayStatus(next, data.completed, data.content, data.mastered) : undefined;
@@ -111,29 +112,30 @@ export function DashboardPage() {
     return { part, percent: total === 0 ? 0 : Math.round((correct / total) * 100), total };
   });
 
-  // Grafik batang: skor inti 7 hari terakhir yang sudah dikirim.
-  const recent: BarItem[] = [...data.progress]
-    .sort((a, b) => a.day - b.day)
-    .slice(-7)
-    .map((row) => ({
-      key: String(row.day),
-      label: String(row.day),
-      value: row.firstCorePercent,
-      title: `Hari ${row.day}: ${row.firstCorePercent}%`,
-      className: row.firstCorePercent >= 70 ? 'bg-primary-500' : row.firstCorePercent >= 50 ? 'bg-primary-300' : 'bg-error',
-    }));
+  // Skor inti hari terakhir yang sudah dikirim, urut dari yang terbaru.
+  const sorted = [...data.progress].sort((a, b) => a.day - b.day);
+  const lastThree = sorted.slice(-3).reverse();
+
+  // Grafik batang: skor inti 7 atau 14 hari terakhir yang sudah dikirim.
+  const recent: BarItem[] = sorted.slice(-range).map((row) => ({
+    key: String(row.day),
+    label: String(row.day),
+    value: row.firstCorePercent,
+    title: `Hari ${row.day}: ${row.firstCorePercent}%`,
+    className: row.firstCorePercent >= 70 ? 'bg-primary-500' : row.firstCorePercent >= 50 ? 'bg-primary-300' : 'bg-error',
+  }));
 
   const completedRatio = data.mastered.size / TOTAL_DAYS;
   const greeting = name ? `Halo, ${name}!` : 'Halo, kamu!';
 
   return (
-    <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_260px] lg:items-start lg:gap-6">
+    <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_300px] lg:items-start lg:gap-6">
       <div className="flex flex-col gap-6">
         <Reveal index={0}>
           <header className="flex items-center justify-between gap-3">
             <div className="min-w-0">
               <p className="text-sm font-semibold capitalize text-muted">{formatToday(new Date())}</p>
-              <h1 className="truncate text-3xl font-extrabold text-ink">{greeting}</h1>
+              <h1 className="truncate text-3xl font-extrabold text-ink lg:text-4xl">{greeting}</h1>
             </div>
             <span
               aria-hidden="true"
@@ -145,6 +147,7 @@ export function DashboardPage() {
         </Reveal>
 
         <Reveal index={1}>
+          <div>
           <section className="relative overflow-hidden rounded-card bg-banner p-6 text-ink shadow-card">
             <Blob className="-right-10 -top-10 size-40 bg-white/40" />
             <Blob className="-bottom-12 right-12 size-24 bg-white/25" />
@@ -185,10 +188,12 @@ export function DashboardPage() {
               <p className="relative mt-4 text-sm font-semibold">Konten Hari ke-{next} belum tersedia. Kembali lagi nanti.</p>
             )}
           </section>
+
+          </div>
         </Reveal>
 
         <Reveal index={2}>
-          <section aria-label="Ringkasan" className="grid grid-cols-3 gap-3">
+          <section aria-label="Ringkasan" className="grid grid-cols-3 gap-3 lg:gap-4">
             <MiniStat icon={Trophy} tint="bg-tint-sun" label="Hari lulus">
               <CountUp value={data.mastered.size} />
             </MiniStat>
@@ -208,80 +213,98 @@ export function DashboardPage() {
         </Reveal>
 
         <Reveal index={3}>
-          <Card className="flex flex-col gap-4">
-            <h2 className="text-lg font-bold text-ink">Kalender</h2>
-            <MonthCalendar sessionDates={data.completedDates} today={today} />
-          </Card>
+          <div className="grid gap-6 lg:grid-cols-2">
+            <Card className="flex flex-col gap-4">
+              <h2 className="text-lg font-bold text-ink">Kalender</h2>
+              <MonthCalendar sessionDates={data.completedDates} today={today} />
+            </Card>
+
+            <section aria-labelledby="plan-title" className="flex flex-col gap-3">
+              <div className="flex items-center justify-between">
+                <h2 id="plan-title" className="text-lg font-bold text-ink">
+                  Rencana hari ini
+                </h2>
+                <Badge tone="lavender">120 menit</Badge>
+              </div>
+              <ol className="grid grid-cols-2 gap-3">
+                {BLOCK_PLAN.map((block, index) => (
+                  <li key={block.label}>
+                    <Card interactive tone={PLAN_TONES[index]} className="flex h-full flex-col gap-3">
+                      <span className="grid size-8 place-items-center rounded-full bg-surface text-sm font-bold text-ink">
+                        {index + 1}
+                      </span>
+                      <span className="text-sm font-bold leading-snug text-ink">{block.label}</span>
+                      <span className="mt-auto flex items-center gap-1 text-xs font-semibold text-ink/80">
+                        <Clock size={14} aria-hidden="true" />
+                        {block.minutes} menit
+                      </span>
+                    </Card>
+                  </li>
+                ))}
+              </ol>
+            </section>
+          </div>
         </Reveal>
 
         <Reveal index={4}>
-          <section aria-labelledby="plan-title" className="flex flex-col gap-3">
-            <div className="flex items-center justify-between">
-              <h2 id="plan-title" className="text-lg font-bold text-ink">
-                Rencana hari ini
-              </h2>
-              <Badge tone="lavender">120 menit</Badge>
-            </div>
-            <ol className="grid grid-cols-2 gap-3">
-              {BLOCK_PLAN.map((block, index) => (
-                <li key={block.label}>
-                  <Card interactive tone={PLAN_TONES[index]} className="flex h-full flex-col gap-3">
-                    <span className="grid size-8 place-items-center rounded-full bg-surface text-sm font-bold text-ink">
-                      {index + 1}
-                    </span>
-                    <span className="text-sm font-bold leading-snug text-ink">{block.label}</span>
-                    <span className="mt-auto flex items-center gap-1 text-xs font-semibold text-ink/80">
-                      <Clock size={14} aria-hidden="true" />
-                      {block.minutes} menit
-                    </span>
-                  </Card>
-                </li>
-              ))}
-            </ol>
-          </section>
+          <div className="grid gap-6 lg:grid-cols-2">
+            <Card className="flex flex-col gap-4">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <h2 className="text-lg font-bold text-ink">Skor inti {range} hari terakhir</h2>
+                  <p className="text-sm text-muted">Dari percobaan pertama setiap hari.</p>
+                </div>
+                <div role="radiogroup" aria-label="Rentang grafik" className="flex rounded-full bg-primary-100 p-1">
+                  {([7, 14] as const).map((value) => (
+                    <button
+                      key={value}
+                      type="button"
+                      role="radio"
+                      aria-checked={range === value}
+                      onClick={() => setRange(value)}
+                      className={`min-h-9 rounded-full px-3 text-sm font-semibold outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
+                        range === value ? 'bg-surface text-primary-700 shadow-card' : 'text-primary-700/70'
+                      }`}
+                    >
+                      {value} hari
+                    </button>
+                  ))}
+                </div>
+              </div>
+              {recent.length === 0 ? (
+                <p className="text-sm text-muted">Grafik muncul setelah hari pertama dikirim.</p>
+              ) : (
+                <BarChart items={recent} label={`Grafik skor inti ${range} hari terakhir`} />
+              )}
+            </Card>
+
+            <Card tone="lavender" className="flex flex-col gap-4">
+              <h2 className="text-lg font-bold text-ink">Rata-rata per skill</h2>
+              <p className="text-sm text-ink/80">Dari percobaan pertama setiap hari yang sudah selesai.</p>
+              <ul className="flex flex-col gap-4">
+                {parts.map((item) => (
+                  <li key={item.part} className="flex flex-col gap-1.5">
+                    <div className="flex justify-between text-sm font-semibold text-ink">
+                      <span>{PART_LABELS[item.part]}</span>
+                      <span className="tabular-nums">{item.total === 0 ? '-' : `${item.percent}%`}</span>
+                    </div>
+                    <div className="h-2.5 overflow-hidden rounded-full bg-surface" aria-hidden="true">
+                      <motion.div
+                        className="h-full origin-left rounded-full bg-primary-500"
+                        initial={{ scaleX: 0 }}
+                        animate={{ scaleX: item.percent / 100 }}
+                        transition={{ duration: 0.6, ease: easeOut }}
+                        style={{ width: '100%' }}
+                      />
+                    </div>
+                  </li>
+                ))}
+              </ul>
+            </Card>
+          </div>
         </Reveal>
 
         <Reveal index={5}>
-          <Card className="flex flex-col gap-4">
-            <div className="flex flex-col gap-1">
-              <h2 className="text-lg font-bold text-ink">Skor inti 7 hari terakhir</h2>
-              <p className="text-sm text-muted">Dari percobaan pertama setiap hari.</p>
-            </div>
-            {recent.length === 0 ? (
-              <p className="text-sm text-muted">Grafik muncul setelah hari pertama dikirim.</p>
-            ) : (
-              <BarChart items={recent} label="Grafik skor inti 7 hari terakhir" />
-            )}
-          </Card>
-        </Reveal>
-
-        <Reveal index={6}>
-          <Card className="flex flex-col gap-4">
-            <h2 className="text-lg font-bold text-ink">Rata-rata per skill</h2>
-            <p className="text-sm text-muted">Dari percobaan pertama setiap hari yang sudah selesai.</p>
-            <ul className="flex flex-col gap-4">
-              {parts.map((item) => (
-                <li key={item.part} className="flex flex-col gap-1.5">
-                  <div className="flex justify-between text-sm font-semibold text-ink">
-                    <span>{PART_LABELS[item.part]}</span>
-                    <span className="tabular-nums">{item.total === 0 ? '-' : `${item.percent}%`}</span>
-                  </div>
-                  <div className="h-2 overflow-hidden rounded-full bg-track" aria-hidden="true">
-                    <motion.div
-                      className="h-full origin-left rounded-full bg-primary-500"
-                      initial={{ scaleX: 0 }}
-                      animate={{ scaleX: item.percent / 100 }}
-                      transition={{ duration: 0.6, ease: easeOut }}
-                      style={{ width: '100%' }}
-                    />
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </Card>
-        </Reveal>
-
-        <Reveal index={7}>
           <Link to="/kesalahan" className="block rounded-card outline-none focus-visible:outline-2 focus-visible:outline-primary-500">
             <Card tone="deep" interactive className="flex items-center gap-4">
               <BookX size={28} aria-hidden="true" className="shrink-0" />
@@ -307,6 +330,13 @@ export function DashboardPage() {
       <aside className="flex flex-col gap-6">
         <Reveal index={2}>
           <Card className="flex flex-col items-center gap-4 text-center">
+            <span className="grid size-14 place-items-center rounded-full bg-banner text-xl font-extrabold text-ink">
+              {initial}
+            </span>
+            <div>
+              <p className="text-lg font-bold text-ink">{name || 'Pelajar'}</p>
+              <p className="text-sm text-muted">Pembelajar EngHabits</p>
+            </div>
             <ProgressRing value={completedRatio} size={132} stroke={12}>
               <span className="flex flex-col items-center">
                 <span className="text-2xl font-extrabold text-ink">
@@ -315,21 +345,50 @@ export function DashboardPage() {
                 <span className="text-xs font-semibold text-muted">dari {TOTAL_DAYS} hari</span>
               </span>
             </ProgressRing>
-            <div>
-              <h2 className="text-lg font-bold text-ink">Progres 90 hari</h2>
-              <p className="text-sm text-muted">
-                {data.mastered.size === 0
-                  ? 'Mulai dari hari pertama. Setiap hari yang lulus menambah satu langkah.'
-                  : `${data.mastered.size} hari lulus. Terus lanjutkan!`}
-              </p>
-            </div>
+            <p className="text-sm text-muted">
+              {data.mastered.size === 0
+                ? 'Mulai dari hari pertama. Setiap hari yang lulus menambah satu langkah.'
+                : `${data.mastered.size} hari lulus. Terus lanjutkan!`}
+            </p>
           </Card>
         </Reveal>
 
         <Reveal index={3}>
-          <Card tone="lavender" className="flex flex-col gap-3">
+              <Card tone="sky" className="flex flex-col gap-4">
+                <div>
+                  <h2 className="text-lg font-bold text-ink">Skor inti terakhir</h2>
+                  <p className="text-sm text-ink/80">Tiga hari terakhir yang sudah dikirim.</p>
+                </div>
+                {lastThree.length === 0 ? (
+                  <p className="text-sm text-ink/80">Hasil muncul setelah hari pertama dikirim.</p>
+                ) : (
+                  <ul className="flex flex-col gap-3">
+                    {lastThree.map((row) => (
+                      <li key={row.day} className="flex items-center gap-3">
+                        <span className="w-16 shrink-0 text-sm font-bold text-ink">Hari {row.day}</span>
+                        <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-surface" aria-hidden="true">
+                          <motion.span
+                            className="block h-full origin-left rounded-full bg-primary-500"
+                            initial={{ scaleX: 0 }}
+                            animate={{ scaleX: row.firstCorePercent / 100 }}
+                            transition={{ duration: 0.6, ease: easeOut }}
+                            style={{ width: '100%', display: 'block' }}
+                          />
+                        </span>
+                        <span className="w-12 shrink-0 text-right text-sm font-bold tabular-nums text-ink">
+                          {row.firstCorePercent}%
+                        </span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </Card>
+        </Reveal>
+
+        <Reveal index={3}>
+          <Card tone="sun" className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
-              <CalendarCheck size={20} aria-hidden="true" className="text-primary-700" />
+              <CalendarCheck size={20} aria-hidden="true" className="text-ink" />
               <h2 className="text-lg font-bold text-ink">Jatuh tempo</h2>
             </div>
             {dueEntries.length === 0 ? (

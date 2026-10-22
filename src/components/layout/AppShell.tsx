@@ -59,16 +59,17 @@ function BottomNav() {
 
 function Sidebar() {
   return (
-    <aside className="fixed inset-y-0 left-0 hidden w-60 flex-col gap-1 border-r border-line bg-surface p-4 lg:flex">
-      <p className="px-3 pb-6 pt-2 text-xl font-extrabold text-primary-700">EngHabits</p>
+    // Sidebar ungu terang seperti MedBoard. Item aktif berupa pil putih.
+    <aside className="fixed inset-y-0 left-0 hidden w-60 flex-col gap-1 rounded-r-[32px] bg-banner p-4 shadow-card lg:flex">
+      <p className="px-3 pb-6 pt-2 text-xl font-extrabold text-ink">EngHabits</p>
       {DESKTOP_ITEMS.map((item) => (
         <NavLink
           key={item.to}
           to={item.to}
           end={item.to === '/'}
           className={({ isActive }) =>
-            `flex min-h-11 items-center gap-3 rounded-2xl px-3 text-sm font-semibold transition-colors outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
-              isActive ? 'bg-primary-100 text-primary-700' : 'text-muted hover:bg-bg'
+            `flex min-h-11 items-center gap-3 rounded-2xl px-3 text-sm font-semibold transition-colors outline-none focus-visible:outline-2 focus-visible:outline-primary-700 ${
+              isActive ? 'bg-surface text-primary-700 shadow-card' : 'text-ink/80 hover:bg-white/40'
             }`
           }
         >
@@ -87,7 +88,7 @@ export function AppShell() {
     <div className="min-h-dvh">
       <ReminderWatcher />
       <Sidebar />
-      <div className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:max-w-4xl lg:pb-12 lg:pl-64 lg:pr-8 lg:pt-10">
+      <div className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:max-w-6xl lg:pb-12 lg:pl-64 lg:pr-8 lg:pt-10">
         {/* Pindah halaman: fade dan geser 12px, 250ms. Dikunci per rute supaya setiap halaman ikut animasi masuk. */}
         <motion.div
           key={location.pathname}

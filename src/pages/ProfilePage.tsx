@@ -149,9 +149,9 @@ export function ProfilePage() {
   };
 
   return (
-    <div className="flex flex-col gap-6">
-      <header>
-        <h1 className="text-3xl font-extrabold text-ink">Profil & pengaturan</h1>
+    <div className="grid gap-6 lg:grid-cols-2">
+      <header className="lg:col-span-2">
+        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Profil & pengaturan</h1>
       </header>
 
       <Card className="flex flex-col gap-4">
@@ -180,7 +180,7 @@ export function ProfilePage() {
         </label>
       </Card>
 
-      <Card className="flex flex-col gap-4">
+      <Card tone="sky" className="flex flex-col gap-4">
         <h2 className="text-lg font-bold text-ink">Suara (text-to-speech)</h2>
         <Choice
           name="Aksen"
@@ -225,7 +225,7 @@ export function ProfilePage() {
         </p>
       </Card>
 
-      <Card className="flex flex-col gap-4">
+      <Card tone="mint" className="flex flex-col gap-4">
         <h2 className="text-lg font-bold text-ink">Pengingat harian</h2>
         <label className="flex min-h-11 items-center justify-between gap-4">
           <span className="flex flex-col">
@@ -246,7 +246,7 @@ export function ProfilePage() {
         {reminderNote && <p className="text-sm text-muted">{reminderNote}</p>}
       </Card>
 
-      <Card className="flex flex-col gap-3">
+      <Card tone="peach" className="flex flex-col gap-3">
         <h2 className="text-lg font-bold text-ink">Cadangan data</h2>
         <p className="text-sm text-muted">
           Ekspor menyimpan progres, percobaan, Buku Kesalahan, dan catatan ke berkas JSON. Impor menggantikan semua data
@@ -272,7 +272,7 @@ export function ProfilePage() {
         </div>
       </Card>
 
-      <Card className="flex flex-col gap-3">
+      <Card tone="rose" className="flex flex-col gap-3">
         <h2 className="text-lg font-bold text-ink">Data belajar</h2>
         <p className="text-sm text-muted">
           Reset menghapus semua progres, percobaan, dan Buku Kesalahan. Pengaturan tampilan tetap tersimpan.

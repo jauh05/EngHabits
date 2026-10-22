@@ -20,13 +20,13 @@ export function ReadinessPage() {
   const overall = stats.averageCorePercent;
 
   return (
-    <div className="flex flex-col gap-6">
-      <header className="flex flex-col gap-1">
-        <h1 className="text-3xl font-extrabold text-ink">Laporan kesiapan</h1>
+    <div className="grid gap-6 lg:grid-cols-2">
+      <header className="flex flex-col gap-1 lg:col-span-2">
+        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Laporan kesiapan</h1>
         <p className="text-muted">Perkiraan dari latihan di aplikasi ini. Ini bukan skor resmi dari ETS atau IELTS.</p>
       </header>
 
-      <Card className="flex items-start gap-3 bg-primary-100">
+      <Card tone="lavender" className="flex items-start gap-3 lg:col-span-2">
         <AlertTriangle size={20} aria-hidden="true" className="mt-0.5 shrink-0 text-primary-700" />
         <p className="text-sm text-primary-700">
           Angka di sini memakai soal buatan sendiri dan percobaan pertama setiap hari. Gunakan sebagai arah latihan, bukan

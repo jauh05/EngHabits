@@ -87,6 +87,7 @@ export function MapPage() {
         </p>
       </header>
 
+      <div className="grid gap-4 lg:grid-cols-2">
       {WEEK_RANGES.map(([week, from, to], weekIndex) => (
         <motion.section
           key={week}
@@ -124,6 +125,7 @@ export function MapPage() {
           </div>
         </motion.section>
       ))}
+      </div>
     </div>
   );
 }

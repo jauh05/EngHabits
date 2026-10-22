@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Layout desktop mengikuti referensi (sidebar ungu, grid dua kolom)
+
+1. **Sidebar ungu terang** (`bg-banner`, pojok kanan membulat) seperti MedBoard. Item aktif berupa pil putih. Kontainer konten melebar ke `lg:max-w-6xl`.
+2. **Beranda desktop.** Banner selebar konten utama. Tiga kartu mini di bawahnya. Kalender dan rencana dua kolom, grafik dan rata-rata per skill dua kolom. Panel kanan berisi profil dengan cincin progres, skor inti terakhir (kartu biru), dan jatuh tempo (kartu kuning). Grafik punya pilihan 7 atau 14 hari.
+3. **Statistik desktop.** Empat kartu angka dalam satu baris. Grafik dan akurasi per bagian dua kolom. Peta skor 15 kolom. Laporan kesiapan ditampilkan sebagai kartu ungu tua dengan tombol panah.
+4. **Halaman lain di desktop.** Peta menampilkan minggu dalam dua kolom. Profil dan laporan kesiapan dua kolom, dengan kartu bertint (suara biru, pengingat mint, cadangan peach, data merah muda). Daftar Buku Kesalahan dua kolom.
+5. **Verifikasi.** Typecheck dan 46 tes lolos. Di browser (1280px): Beranda dan Statistik sudah dicek. Halaman lain di desktop belum dilihat satu per satu.
+
 ## 2026-10-22: Layar awal, dashboard gaya MedBoard, dan kartu gaya Olympiads
 
 1. **Layar awal `/masuk` bukan login.** Aplikasi tidak punya akun, jadi tidak ada kata sandi. Layar ini hanya meminta nama panggilan (opsional) yang disimpan di IndexedDB perangkat ini. Teks di layar menyebutkan itu. Pengguna yang belum melewati layar awal diarahkan ke `/masuk` oleh `OnboardingGate` di `App.tsx`. "Lewati" juga menandai onboarding selesai.

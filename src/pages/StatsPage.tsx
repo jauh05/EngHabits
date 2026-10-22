@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { BookX, ClipboardCheck, Sparkles, Target, Trophy, type LucideIcon } from 'lucide-react';
+import { ArrowRight, BookX, ClipboardCheck, Sparkles, Target, Trophy, type LucideIcon } from 'lucide-react';
 import { motion } from 'motion/react';
 import { BarChart, type BarItem } from '../components/ui/BarChart';
 import { Card, type CardTone } from '../components/ui/Card';
@@ -27,15 +27,27 @@ function barTone(percent: number): string {
   return 'bg-error';
 }
 
-/** Kartu angka dengan ikon di kotak berwarna, seperti kartu Lessons dan Hours di referensi. */
-function StatCard({ tone, icon: Icon, label, value, note }: { tone: CardTone; icon: LucideIcon; label: string; value: string; note?: string }) {
+/** Kartu angka dengan ikon di kotak putih, seperti kartu Lessons dan Hours di referensi Olympiads. */
+function StatCard({
+  tone,
+  icon: Icon,
+  label,
+  value,
+  note,
+}: {
+  tone: CardTone;
+  icon: LucideIcon;
+  label: string;
+  value: string;
+  note?: string;
+}) {
   return (
     <Card tone={tone} className="flex flex-col gap-2">
       <span className="inline-flex w-fit rounded-xl bg-surface p-2">
         <Icon size={22} aria-hidden="true" className="text-primary-700" />
       </span>
       <span className="text-sm font-semibold text-ink/80">{label}</span>
-      <span className="text-2xl font-extrabold tabular-nums text-ink">{value}</span>
+      <span className="text-2xl font-extrabold tabular-nums text-ink lg:text-3xl">{value}</span>
       {note && <span className="text-sm text-ink/70">{note}</span>}
     </Card>
   );
@@ -60,13 +72,13 @@ export function StatsPage() {
   return (
     <div className="flex flex-col gap-6">
       <header className="flex flex-col gap-1">
-        <h1 className="text-3xl font-extrabold text-ink">Statistik</h1>
+        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Statistik</h1>
         <p className="text-muted">Angka dari percobaan pertama setiap hari. Percobaan ulang tidak mengubah angka ini.</p>
       </header>
 
       {!data.loaded ? (
         <div className="flex flex-col gap-4" aria-label="Memuat statistik">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-3 lg:grid-cols-4">
             <Skeleton className="h-36 rounded-card" />
             <Skeleton className="h-36 rounded-card" />
             <Skeleton className="h-36 rounded-card" />
@@ -76,7 +88,7 @@ export function StatsPage() {
         </div>
       ) : (
         <>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-2 gap-3 lg:grid-cols-4 lg:gap-4">
             <StatCard
               tone="sun"
               icon={Trophy}
@@ -95,60 +107,62 @@ export function StatsPage() {
             />
           </div>
 
-          <Card className="flex flex-col gap-4">
-            <div className="flex flex-col gap-1">
-              <h2 className="text-lg font-bold text-ink">Skor inti 14 hari terakhir</h2>
-              <p className="text-sm text-muted">Hijau 70% ke atas, kuning 50 sampai 69%, merah di bawah 50%.</p>
-            </div>
-            {barItems.length === 0 ? (
-              <p className="text-sm text-muted">Grafik muncul setelah hari pertama dikirim.</p>
-            ) : (
-              <BarChart items={barItems} label="Grafik skor inti 14 hari terakhir" />
-            )}
-          </Card>
+          <div className="grid gap-6 lg:grid-cols-2">
+            <Card className="flex flex-col gap-4">
+              <div className="flex flex-col gap-1">
+                <h2 className="text-lg font-bold text-ink">Skor inti 14 hari terakhir</h2>
+                <p className="text-sm text-muted">Hijau 70% ke atas, kuning 50 sampai 69%, merah di bawah 50%.</p>
+              </div>
+              {barItems.length === 0 ? (
+                <p className="text-sm text-muted">Grafik muncul setelah hari pertama dikirim.</p>
+              ) : (
+                <BarChart items={barItems} label="Grafik skor inti 14 hari terakhir" />
+              )}
+            </Card>
 
-          <Card className="flex flex-col gap-4">
-            <h2 className="text-lg font-bold text-ink">Akurasi per bagian</h2>
-            {stats.completedDays === 0 && (
-              <p className="text-sm text-muted">Angka per bagian muncul setelah hari pertama selesai.</p>
-            )}
-            <ul className="flex flex-col gap-3">
-              {parts.map((part) => {
-                const value = stats.partPercents[part];
-                return (
-                  <li key={part} className="flex flex-col gap-1">
-                    <span className="flex justify-between text-sm font-semibold text-ink">
-                      <span>{PART_LABELS[part]}</span>
-                      <span className="tabular-nums">{percentText(value)}</span>
-                    </span>
-                    <div
-                      role="progressbar"
-                      aria-label={PART_LABELS[part]}
-                      aria-valuemin={0}
-                      aria-valuemax={100}
-                      aria-valuenow={value ?? 0}
-                      className="h-3 overflow-hidden rounded-full bg-track"
-                    >
-                      <motion.div
-                        className="h-full rounded-full bg-primary-500"
-                        initial={{ scaleX: 0 }}
-                        animate={{ scaleX: (value ?? 0) / 100 }}
-                        transition={{ duration: 0.6, ease: easeOut }}
-                        style={{ width: '100%', transformOrigin: 'left' }}
-                      />
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
-          </Card>
+            <Card tone="sky" className="flex flex-col gap-4">
+              <h2 className="text-lg font-bold text-ink">Akurasi per bagian</h2>
+              {stats.completedDays === 0 && (
+                <p className="text-sm text-ink/80">Angka per bagian muncul setelah hari pertama selesai.</p>
+              )}
+              <ul className="flex flex-col gap-4">
+                {parts.map((part) => {
+                  const value = stats.partPercents[part];
+                  return (
+                    <li key={part} className="flex flex-col gap-1.5">
+                      <span className="flex justify-between text-sm font-semibold text-ink">
+                        <span>{PART_LABELS[part]}</span>
+                        <span className="tabular-nums">{percentText(value)}</span>
+                      </span>
+                      <div
+                        role="progressbar"
+                        aria-label={PART_LABELS[part]}
+                        aria-valuemin={0}
+                        aria-valuemax={100}
+                        aria-valuenow={value ?? 0}
+                        className="h-2.5 overflow-hidden rounded-full bg-surface"
+                      >
+                        <motion.div
+                          className="h-full rounded-full bg-primary-500"
+                          initial={{ scaleX: 0 }}
+                          animate={{ scaleX: (value ?? 0) / 100 }}
+                          transition={{ duration: 0.6, ease: easeOut }}
+                          style={{ width: '100%', transformOrigin: 'left' }}
+                        />
+                      </div>
+                    </li>
+                  );
+                })}
+              </ul>
+            </Card>
+          </div>
 
           <Card className="flex flex-col gap-4">
             <div className="flex flex-col gap-1">
               <h2 className="text-lg font-bold text-ink">Peta skor per hari</h2>
               <p className="text-sm text-muted">Abu-abu berarti belum dikirim.</p>
             </div>
-            <div className="grid grid-cols-10 gap-1.5">
+            <div className="grid grid-cols-10 gap-1.5 lg:grid-cols-[repeat(15,minmax(0,1fr))]">
               {Array.from({ length: TOTAL_DAYS }, (_, index) => {
                 const day = index + 1;
                 const percent = scoreByDay.get(day);
@@ -166,12 +180,17 @@ export function StatsPage() {
             </div>
           </Card>
 
-          <Link
-            to="/laporan"
-            className="flex min-h-11 items-center gap-3 rounded-2xl border border-line bg-surface px-4 font-semibold text-primary-700 shadow-card"
-          >
-            <ClipboardCheck size={20} aria-hidden="true" />
-            Lihat laporan kesiapan (perkiraan)
+          <Link to="/laporan" className="block rounded-card outline-none focus-visible:outline-2 focus-visible:outline-primary-500">
+            <Card tone="deep" interactive className="flex items-center gap-4">
+              <ClipboardCheck size={28} aria-hidden="true" className="shrink-0" />
+              <span className="flex-1">
+                <span className="block font-bold">Laporan kesiapan</span>
+                <span className="block text-sm opacity-90">Perkiraan dari latihan, bukan skor resmi.</span>
+              </span>
+              <span aria-hidden="true" className="grid size-11 shrink-0 place-items-center rounded-full bg-surface text-ink">
+                <ArrowRight size={20} />
+              </span>
+            </Card>
           </Link>
         </>
       )}
