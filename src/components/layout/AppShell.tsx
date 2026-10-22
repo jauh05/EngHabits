@@ -1,7 +1,10 @@
 import { motion } from 'motion/react';
-import { BarChart3, BookX, Dumbbell, Home, LayoutGrid, User, type LucideIcon } from 'lucide-react';
-import { NavLink, Outlet, useLocation } from 'react-router';
+import { BarChart3, BookX, Dumbbell, Home, LayoutGrid, Play, Trophy, User, type LucideIcon } from 'lucide-react';
+import { Link, NavLink, Outlet, useLocation } from 'react-router';
 import { easeOut, spring } from '../../lib/motion';
+import { currentDay, TOTAL_DAYS } from '../../lib/progression';
+import { useSettings } from '../../lib/settings';
+import { useProgressData } from '../../lib/useProgressData';
 import { ReminderWatcher } from './ReminderWatcher';
 
 type NavItem = { to: string; label: string; icon: LucideIcon };
@@ -57,47 +60,101 @@ function BottomNav() {
   );
 }
 
+/**
+ * Sidebar desktop seperti gambar 7: logo, menu dalam kotak lavender, kartu promo hari berikutnya,
+ * lalu profil dan dua angka kecil di bawah.
+ */
 function Sidebar() {
+  const { settings } = useSettings();
+  const data = useProgressData();
+  const next = currentDay(data.mastered);
+  const points = data.progress.reduce((sum, item) => sum + item.firstCorrect, 0);
+  const percent = Math.round((data.mastered.size / TOTAL_DAYS) * 100);
+  const name = settings.name.trim();
+  const initial = (name || 'E').charAt(0).toUpperCase();
+
   return (
-    // Sidebar ungu terang seperti MedBoard. Item aktif berupa pil putih.
-    <aside className="fixed inset-y-0 left-0 hidden w-60 flex-col gap-1 rounded-r-[32px] bg-banner p-4 shadow-card lg:flex">
-      <p className="px-3 pb-6 pt-2 text-xl font-extrabold text-ink">EngHabits</p>
-      {DESKTOP_ITEMS.map((item) => (
-        <NavLink
-          key={item.to}
-          to={item.to}
-          end={item.to === '/'}
-          className={({ isActive }) =>
-            `flex min-h-11 items-center gap-3 rounded-2xl px-3 text-sm font-semibold transition-colors outline-none focus-visible:outline-2 focus-visible:outline-primary-700 ${
-              isActive ? 'bg-surface text-primary-700 shadow-card' : 'text-ink/80 hover:bg-white/40'
-            }`
-          }
-        >
-          <item.icon size={20} aria-hidden="true" />
-          {item.label}
-        </NavLink>
-      ))}
+    <aside className="hidden w-64 shrink-0 flex-col gap-6 border-r border-line p-6 lg:flex">
+      <div className="flex items-center gap-3">
+        <span className="grid size-10 place-items-center rounded-2xl bg-btn-bg text-lg font-extrabold text-btn-fg">E</span>
+        <p className="text-lg font-extrabold text-ink">EngHabits</p>
+      </div>
+
+      <nav aria-label="Menu desktop" className="flex flex-col gap-1 rounded-3xl bg-bg p-2">
+        {DESKTOP_ITEMS.map((item) => (
+          <NavLink
+            key={item.to}
+            to={item.to}
+            end={item.to === '/'}
+            className={({ isActive }) =>
+              `flex min-h-11 items-center gap-3 rounded-2xl px-4 text-sm font-semibold outline-none transition-colors focus-visible:outline-2 focus-visible:outline-primary-500 ${
+                isActive ? 'bg-surface text-primary-700 shadow-card' : 'text-muted hover:text-ink'
+              }`
+            }
+          >
+            <item.icon size={20} aria-hidden="true" />
+            {item.label}
+          </NavLink>
+        ))}
+      </nav>
+
+      <div className="flex flex-col gap-3 rounded-3xl bg-banner p-5 text-ink">
+        <p className="text-sm font-semibold">Hari berikutnya</p>
+        <p className="text-xl font-extrabold">{next ? `Hari ke-${next}` : 'Semua selesai'}</p>
+        {next && (
+          <Link
+            to={`/hari/${next}`}
+            className="inline-flex min-h-10 w-fit items-center gap-2 rounded-full bg-surface px-4 text-sm font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-primary-700"
+          >
+            <Play size={16} aria-hidden="true" />
+            Lanjut
+          </Link>
+        )}
+      </div>
+
+      <div className="mt-auto flex flex-col gap-4">
+        <div className="grid grid-cols-2 gap-2">
+          <div className="flex flex-col gap-1 rounded-2xl bg-bg p-3">
+            <Trophy size={16} aria-hidden="true" className="text-primary-700" />
+            <span className="text-base font-extrabold tabular-nums text-ink">{points}</span>
+            <span className="text-[11px] font-semibold text-muted">poin</span>
+          </div>
+          <div className="flex flex-col gap-1 rounded-2xl bg-bg p-3">
+            <span className="text-base font-extrabold tabular-nums text-ink">{percent}%</span>
+            <span className="text-[11px] font-semibold text-muted">selesai</span>
+          </div>
+        </div>
+        <div className="flex items-center gap-3 rounded-3xl border border-line p-3">
+          <span className="grid size-10 place-items-center rounded-full bg-tint-sky font-extrabold text-ink">{initial}</span>
+          <span className="min-w-0 flex-1">
+            <span className="block truncate text-sm font-bold text-ink">{name || 'Pelajar'}</span>
+            <span className="block truncate text-xs text-muted">{settings.account?.email ?? 'Belum masuk'}</span>
+          </span>
+        </div>
+      </div>
     </aside>
   );
 }
 
-/** Kerangka halaman utama: navigasi bawah di HP, sidebar di layar lebar. */
+/** Kerangka halaman utama: navigasi bawah di HP, frame putih dengan sidebar di layar lebar. */
 export function AppShell() {
   const location = useLocation();
   return (
-    <div className="min-h-dvh">
+    <div className="min-h-dvh lg:bg-bg lg:p-6">
       <ReminderWatcher />
-      <Sidebar />
-      <div className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:max-w-6xl lg:pb-12 lg:pl-64 lg:pr-8 lg:pt-10">
-        {/* Pindah halaman: fade dan geser 12px, 250ms. Dikunci per rute supaya setiap halaman ikut animasi masuk. */}
-        <motion.div
-          key={location.pathname}
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.25, ease: easeOut }}
-        >
-          <Outlet />
-        </motion.div>
+      <div className="lg:mx-auto lg:flex lg:min-h-[calc(100dvh-3rem)] lg:max-w-[1240px] lg:overflow-hidden lg:rounded-[32px] lg:bg-surface lg:shadow-card">
+        <Sidebar />
+        <main className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:mx-0 lg:max-w-none lg:min-w-0 lg:flex-1 lg:bg-bg lg:px-10 lg:pb-12 lg:pt-10">
+          {/* Pindah halaman: fade dan geser 12px, 250ms. Dikunci per rute supaya setiap halaman ikut animasi masuk. */}
+          <motion.div
+            key={location.pathname}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.25, ease: easeOut }}
+          >
+            <Outlet />
+          </motion.div>
+        </main>
       </div>
       <BottomNav />
     </div>

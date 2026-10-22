@@ -20,7 +20,7 @@ export function ReadinessPage() {
   const overall = stats.averageCorePercent;
 
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
+    <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
       <header className="flex flex-col gap-1 lg:col-span-2">
         <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Laporan kesiapan</h1>
         <p className="text-muted">Perkiraan dari latihan di aplikasi ini. Ini bukan skor resmi dari ETS atau IELTS.</p>

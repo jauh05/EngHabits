@@ -149,7 +149,7 @@ export function ProfilePage() {
   };
 
   return (
-    <div className="grid gap-6 lg:grid-cols-2">
+    <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
       <header className="lg:col-span-2">
         <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Profil & pengaturan</h1>
       </header>
@@ -178,6 +178,30 @@ export function ProfilePage() {
             className="size-6 accent-[var(--primary-500)]"
           />
         </label>
+      </Card>
+
+      <Card tone="lavender" className="flex flex-col gap-4 lg:col-span-2">
+        <h2 className="text-lg font-bold text-ink">Akun</h2>
+        {settings.account ? (
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="flex flex-col">
+              <p className="font-bold text-ink">{settings.account.name}</p>
+              <p className="text-sm text-ink/80">{settings.account.email}</p>
+              <p className="text-xs text-muted">Tersimpan di perangkat ini. Belum tersinkron ke server.</p>
+            </div>
+            <Button
+              variant="secondary"
+              onClick={() => {
+                update({ signedIn: false });
+                show('Kamu sudah keluar. Masuk lagi kapan saja.');
+              }}
+            >
+              Keluar
+            </Button>
+          </div>
+        ) : (
+          <p className="text-sm text-ink/80">Belum ada akun di perangkat ini.</p>
+        )}
       </Card>
 
       <Card tone="sky" className="flex flex-col gap-4">

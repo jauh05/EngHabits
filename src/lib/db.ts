@@ -1,4 +1,5 @@
 import { openDB, type DBSchema, type IDBPDatabase } from 'idb';
+import type { Account } from './auth';
 import type { Answers, DayResult, Part } from './grading';
 import { applyResult, mistakeKey, type MistakeEntry } from './srs';
 
@@ -41,10 +42,14 @@ export type Settings = {
   reminderEnabled: boolean;
   /** Tanggal pengingat terakhir ditampilkan, YYYY-MM-DD (lokal). */
   lastReminderDate: string;
-  /** Nama panggilan. Hanya disimpan di perangkat ini, bukan akun. */
+  /** Nama panggilan dari akun lokal. */
   name: string;
-  /** Layar awal sudah dilewati, baik dengan memasukkan nama maupun dengan "Lewati". */
-  onboarded: boolean;
+  /** Akun lokal di perangkat ini. Null bila belum pernah daftar. */
+  account: Account | null;
+  /** Sedang masuk. Dihapus saat keluar. */
+  signedIn: boolean;
+  /** Tampilan Peta 90 hari: roadmap seperti gambar referensi, atau kisi minggu. */
+  mapView: 'roadmap' | 'grid';
 };
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -55,7 +60,9 @@ export const DEFAULT_SETTINGS: Settings = {
   reminderEnabled: false,
   lastReminderDate: '',
   name: '',
-  onboarded: false,
+  account: null,
+  signedIn: false,
+  mapView: 'roadmap',
 };
 
 interface EngHabitsDB extends DBSchema {

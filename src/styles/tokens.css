@@ -1,63 +1,65 @@
 /*
  * Design tokens EngHabits. Sumber kebenaran warna, radius, dan bayangan.
+ * Palet mengikuti referensi Wordsy: ungu cerah, biru muda, mint, dan teks hampir hitam.
  * Nilai di sini harus sama dengan tabel di DESIGN_SPEC.md.
  * Mode gelap aktif lewat <html data-theme="dark">. Default: terang.
  */
 
 :root {
   color-scheme: light;
-  --bg: #faf7ff;
+  --bg: #f5f3ff;
   --surface: #ffffff;
-  --primary-100: #ebe1ff;
-  --primary-300: #c4a8ff;
-  --primary-500: #8b6be6;
-  --primary-700: #5c3fa6;
-  --ink: #2b2140;
-  --muted: #6b5f80;
-  --line: #e6dcf7;
-  --track: #ebe1ff;
-  --success: #4cc9a0;
-  --error: #ff7a93;
-  --streak: #ffb84d;
-  --on-accent: #2b2140;
-  --btn-bg: #7c5ce0;
+  --primary-100: #ede7ff;
+  --primary-300: #b9a5ff;
+  --primary-500: #8a6cf2;
+  --primary-700: #5b3fd0;
+  --ink: #161330;
+  --muted: #6b6786;
+  --line: #e4dff5;
+  --track: #ece7fa;
+  --success: #46c9a4;
+  --error: #ff7a8f;
+  --streak: #ffb950;
+  --on-accent: #161330;
+  /* Tombol utama: ungu cerah dengan teks putih (kontras 5,5:1). */
+  --btn-bg: #6a4fe0;
   --btn-fg: #ffffff;
-  --shadow: 0 12px 32px -14px rgb(92 63 166 / 0.35);
-  /* Warna kartu pastel seperti referensi. Teks di atasnya selalu `ink`. */
-  --tint-sun: #ffe8a3;
-  --tint-sky: #cfe6ff;
-  --tint-rose: #ffd6e7;
-  --tint-mint: #c9f3e1;
-  /* Latar banner Beranda: ungu terang seperti referensi. Teksnya `ink`. */
-  --banner: #b49bff;
-  --tint-peach: #ffd9bd;
+  --shadow: 0 14px 34px -16px rgb(91 63 208 / 0.35);
+  /* Warna kartu pastel. Teks di atasnya selalu `ink`. */
+  --tint-sun: #fff0c7;
+  --tint-sky: #cbe8ff;
+  --tint-rose: #ffd7ec;
+  --tint-mint: #c5f3e4;
+  --tint-peach: #ffdcc6;
+  /* Latar banner dan sorotan utama: ungu terang. */
+  --banner: #b7a2ff;
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #1b1530;
-  --surface: #251d40;
-  --primary-100: #3a2f5c;
-  --primary-300: #7c66b8;
-  --primary-500: #a98bff;
-  --primary-700: #cdbbff;
-  --ink: #f3efff;
-  --muted: #b9aed6;
-  --line: #3d3262;
-  --track: #3a2f5c;
-  --success: #5fd9b0;
-  --error: #ff8fa3;
+  --bg: #120f24;
+  --surface: #1d1936;
+  --primary-100: #2e2656;
+  --primary-300: #6c5bc9;
+  --primary-500: #a593ff;
+  --primary-700: #cfc2ff;
+  --ink: #f3f0ff;
+  --muted: #b5afd6;
+  --line: #343058;
+  --track: #2e2656;
+  --success: #5fd9ba;
+  --error: #ff8fa0;
   --streak: #ffc46b;
-  --on-accent: #1b1530;
-  --btn-bg: #a98bff;
-  --btn-fg: #1b1530;
-  --shadow: 0 12px 32px -14px rgb(0 0 0 / 0.6);
-  --tint-sun: #4d4019;
-  --tint-sky: #1f3552;
-  --tint-rose: #4a2339;
-  --tint-mint: #1b4439;
-  --banner: #a98bff;
-  --tint-peach: #5a3a2a;
+  --on-accent: #120f24;
+  --btn-bg: #a593ff;
+  --btn-fg: #120f24;
+  --shadow: 0 14px 34px -16px rgb(0 0 0 / 0.6);
+  --tint-sun: #4a3f1c;
+  --tint-sky: #1e3550;
+  --tint-rose: #4a2440;
+  --tint-mint: #1b4640;
+  --tint-peach: #5a3a2b;
+  --banner: #4b3c8a;
 }
 
 @theme inline {
@@ -81,8 +83,8 @@
   --color-tint-sky: var(--tint-sky);
   --color-tint-rose: var(--tint-rose);
   --color-tint-mint: var(--tint-mint);
-  --color-banner: var(--banner);
   --color-tint-peach: var(--tint-peach);
+  --color-banner: var(--banner);
   --shadow-card: var(--shadow);
   --radius-card: 28px;
   --font-sans: 'Plus Jakarta Sans Variable', ui-sans-serif, system-ui, sans-serif;

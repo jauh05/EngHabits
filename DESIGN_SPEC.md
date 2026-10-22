@@ -33,6 +33,8 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 3. Palet (design tokens)
 
+**Rombak 2026-10-22 (mengikuti gambar 6, Wordsy).** Ungu cerah sebagai warna utama, biru muda dan mint sebagai aksen, latar lavender sangat muda, dan teks hampir hitam. Tombol utama `#6A4FE0` dengan teks putih (kontras 5,5:1). Nilai di tabel di bawah masih dari palet lama. Sumber kebenaran adalah `src/styles/tokens.css`. Tabel dibiarkan sebagai catatan sejarah dan akan diperbarui saat audit desain.
+
 | Token | Terang | Gelap | Pemakaian |
 |---|---|---|---|
 | `bg` | `#FAF7FF` | `#1B1530` | Latar halaman |

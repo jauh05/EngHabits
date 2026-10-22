@@ -1,16 +1,22 @@
 import type { ReactNode } from 'react';
 import { BrowserRouter, Link, Navigate, Route, Routes, useLocation } from 'react-router';
 import { useSettings } from './lib/settings';
-import { WelcomePage } from './pages/WelcomePage';
 import { AppShell } from './components/layout/AppShell';
 import { DashboardPage } from './pages/DashboardPage';
+import { DaftarPage } from './pages/DaftarPage';
 import { DayPage } from './pages/DayPage';
 import { MapPage } from './pages/MapPage';
+import { MasukPage } from './pages/MasukPage';
 import { MistakesPage } from './pages/MistakesPage';
+import { MulaiPage } from './pages/MulaiPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { PracticePage } from './pages/PracticePage';
 import { ReadinessPage } from './pages/ReadinessPage';
+import { SambutanPage } from './pages/SambutanPage';
 import { StatsPage } from './pages/StatsPage';
+
+/** Halaman yang boleh dibuka tanpa masuk. */
+const PUBLIC_PATHS = ['/mulai', '/masuk', '/daftar'];
 
 function NotFound() {
   return (
@@ -24,36 +30,47 @@ function NotFound() {
 }
 
 /**
- * Pengguna yang belum melewati layar awal diarahkan ke /masuk. Menunggu pengaturan termuat dulu,
- * supaya tidak ada kilasan beranda sebelum pengalihan.
+ * Pengguna yang belum masuk hanya boleh membuka halaman publik. Tanpa akun diarahkan ke /mulai,
+ * dengan akun ke /masuk. Yang sudah masuk tidak perlu melihat halaman publik lagi.
+ * Menunggu pengaturan termuat dulu, supaya tidak ada kilasan halaman sebelum pengalihan.
  */
-function OnboardingGate({ children }: { children: ReactNode }) {
+function AuthGate({ children }: { children: ReactNode }) {
   const { settings, loaded } = useSettings();
-  const location = useLocation();
+  const { pathname, state } = useLocation();
   if (!loaded) return null;
-  if (!settings.onboarded && location.pathname !== '/masuk') return <Navigate to="/masuk" replace />;
+  const isPublic = PUBLIC_PATHS.includes(pathname);
+  // Sambutan dibuka tepat setelah daftar atau masuk. Statusnya bisa belum terbaca saat navigasi, jadi ditandai lewat state.
+  const fromAuth = pathname === '/sambutan' && Boolean((state as { welcome?: boolean } | null)?.welcome);
+  if (!settings.signedIn) {
+    if (isPublic || fromAuth) return <>{children}</>;
+    return <Navigate to={settings.account ? '/masuk' : '/mulai'} replace />;
+  }
+  // Halaman publik tidak dialihkan saat sudah masuk. Alihkan di sana akan berbenturan dengan navigasi ke sambutan.
   return <>{children}</>;
 }
 
 export function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
-      <OnboardingGate>
-      <Routes>
-        <Route path="masuk" element={<WelcomePage />} />
-        <Route element={<AppShell />}>
-          <Route index element={<DashboardPage />} />
-          <Route path="peta" element={<MapPage />} />
-          <Route path="kesalahan" element={<MistakesPage />} />
-          <Route path="statistik" element={<StatsPage />} />
-          <Route path="laporan" element={<ReadinessPage />} />
-          <Route path="latihan" element={<PracticePage />} />
-          <Route path="profil" element={<ProfilePage />} />
-        </Route>
-        <Route path="hari/:n" element={<DayPage />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-      </OnboardingGate>
+      <AuthGate>
+        <Routes>
+          <Route path="mulai" element={<MulaiPage />} />
+          <Route path="masuk" element={<MasukPage />} />
+          <Route path="daftar" element={<DaftarPage />} />
+          <Route path="sambutan" element={<SambutanPage />} />
+          <Route element={<AppShell />}>
+            <Route index element={<DashboardPage />} />
+            <Route path="peta" element={<MapPage />} />
+            <Route path="kesalahan" element={<MistakesPage />} />
+            <Route path="statistik" element={<StatsPage />} />
+            <Route path="laporan" element={<ReadinessPage />} />
+            <Route path="latihan" element={<PracticePage />} />
+            <Route path="profil" element={<ProfilePage />} />
+          </Route>
+          <Route path="hari/:n" element={<DayPage />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </AuthGate>
     </BrowserRouter>
   );
 }

@@ -70,7 +70,7 @@ export function MistakesPage() {
         </Card>
       )}
 
-      <ul className="grid gap-3 lg:grid-cols-2">
+      <ul className="grid grid-cols-1 gap-3 lg:grid-cols-2">
         {entries.map((entry) => {
           const detail = details[entry.key];
           const due = isDue(entry, today);

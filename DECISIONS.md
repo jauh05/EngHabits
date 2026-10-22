@@ -2,6 +2,18 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Akun lokal, rombak palet, roadmap, dan navbar desktop
+
+1. **Akun hanya lokal.** Daftar dan masuk memakai email dan kata sandi di perangkat ini. Kata sandi di-hash dengan PBKDF2-SHA256 (100.000 iterasi, salt 16 byte acak) lewat Web Crypto. Hasilnya disimpan di `Settings.account`. Ini bukan autentikasi sungguhan. Tidak ada server, tidak ada sinkronisasi, dan tidak ada reset kata sandi. Pemilik proyek perlu memutuskan layanan identitas (misalnya Supabase atau Firebase) sebelum akun bisa dipakai di banyak perangkat.
+2. **Google dan Apple nonaktif.** Tombolnya tampil dengan keterangan "segera hadir" karena butuh layanan identitas dan kunci dari pemilik proyek.
+3. **Alur.** `/mulai` (tiga slide) lalu `/daftar`. Setelah masuk atau daftar, pengguna ke `/sambutan`. `AuthGate` di `App.tsx` mengalihkan pengguna yang belum masuk ke `/masuk` atau `/mulai`. Navigasi ke sambutan membawa `state.welcome`, supaya gerbang tidak berbenturan dengan pembaruan status masuk. Halaman publik tidak dialihkan saat sudah masuk.
+4. **Palet dirombak** mengikuti gambar 6 (ungu cerah, biru muda, mint, teks hampir hitam). Tombol utama `#6A4FE0`. Nama token tidak berubah, jadi komponen tidak perlu diubah.
+5. **Navbar desktop** mengikuti gambar 7: frame putih membulat, logo, menu dalam kotak lavender, kartu promo "Hari berikutnya", dan profil dengan dua angka kecil di bawah. Mobile tetap memakai navigasi bawah.
+6. **Beranda.** Banner "Sesi hari ini" dengan tombol ungu. Kartu "Target hari ini" (gambar 3) berisi tiga target dengan bar kemajuan. Rencana hari ini berbentuk kartu putih dengan tombol panah yang memulai sesi (gambar 2).
+7. **Peta mode roadmap** (gambar 1). Node hari dengan jalur melengkung, bintang untuk hari yang lulus (1 bintang di 60%, 2 di 75%, 3 di 90%), gelembung "Mulai" di hari aktif, dan peti di akhir minggu yang terbuka saat semua hari minggu itu lulus. Mode kisi tetap ada. Pilihannya disimpan di `Settings.mapView`.
+8. **Grid dua kolom.** Semua grid `lg:grid-cols-2` sekarang diberi `grid-cols-1` untuk HP. Tanpa itu kolom melebar sesuai isi dan keluar dari layar.
+9. **Verifikasi.** Typecheck lolos. Tes bertambah dari 46 menjadi 51 (tes validasi dan akun). Di browser: slide mulai, daftar, salah dan benar saat masuk, keluar, sambutan, Beranda HP dan desktop, roadmap, dan mode kisi. Peti dan bintang belum diuji dengan data yang lulus.
+
 ## 2026-10-22: Peta 90 hari gaya kartu referensi
 
 1. **Kartu minggu berwarna pastel bergilir** (`WEEK_BG`: sun, sky, rose, mint), padding 20px, radius kartu. Cincin progres di dalam lingkaran putih kecil.

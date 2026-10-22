@@ -1,6 +1,22 @@
 import { motion } from 'motion/react';
-import { ArrowRight, BookX, CalendarCheck, Clock, Flame, Layers, Play, Trophy, type LucideIcon } from 'lucide-react';
-import { useEffect, useState, type ReactNode } from 'react';
+import {
+  ArrowRight,
+  BookX,
+  CalendarCheck,
+  Check,
+  ClipboardCheck,
+  Clock,
+  Flame,
+  Headphones,
+  Languages,
+  Layers,
+  Play,
+  Target,
+  Trophy,
+  Video,
+  type LucideIcon,
+} from 'lucide-react';
+import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import { Badge } from '../components/ui/Badge';
 import { BarChart, type BarItem } from '../components/ui/BarChart';
@@ -11,7 +27,6 @@ import { MonthCalendar } from '../components/ui/MonthCalendar';
 import { StackIllustration } from '../components/ui/Illustration';
 import { ProgressRing } from '../components/ui/ProgressRing';
 import { computeStreak, localISO } from '../lib/dates';
-import { loadDay } from '../lib/content';
 import type { Part } from '../lib/grading';
 import { easeOut } from '../lib/motion';
 import { currentDay, dayStatus, MASTERY_THRESHOLD, TOTAL_DAYS } from '../lib/progression';
@@ -19,15 +34,24 @@ import { isDue } from '../lib/srs';
 import { useSettings } from '../lib/settings';
 import { useProgressData } from '../lib/useProgressData';
 
-const BLOCK_PLAN = [
-  { label: 'Kosakata & pelafalan', minutes: 25 },
-  { label: 'Materi & video', minutes: 35 },
-  { label: 'Membaca atau mendengarkan', minutes: 30 },
-  { label: 'Soal & Hard Challenge', minutes: 30 },
+/** Blok rencana harian. Ikon dan warna mengikuti kartu di referensi. */
+const BLOCK_PLAN: Array<{ label: string; minutes: number; icon: LucideIcon; tint: CardTone }> = [
+  { label: 'Kosakata & pelafalan', minutes: 25, icon: Languages, tint: 'sun' },
+  { label: 'Materi & video', minutes: 35, icon: Video, tint: 'sky' },
+  { label: 'Membaca atau mendengarkan', minutes: 30, icon: Headphones, tint: 'rose' },
+  { label: 'Soal & Hard Challenge', minutes: 30, icon: ClipboardCheck, tint: 'mint' },
 ];
 
-/** Warna kartu rencana: peach, biru, pink, lalu mint. */
-const PLAN_TONES: CardTone[] = ['peach', 'sky', 'rose', 'mint'];
+const TINT_CLASS: Record<CardTone, string> = {
+  surface: 'bg-bg',
+  lavender: 'bg-primary-100',
+  sun: 'bg-tint-sun',
+  sky: 'bg-tint-sky',
+  rose: 'bg-tint-rose',
+  mint: 'bg-tint-mint',
+  peach: 'bg-tint-peach',
+  deep: 'bg-primary-700',
+};
 
 const PART_LABELS: Record<Part, string> = {
   comprehension: 'Membaca & mendengar',
@@ -71,6 +95,60 @@ function MiniStat({
   );
 }
 
+/** Satu target di kartu "Target hari ini", dengan bar kemajuan seperti goal board di gambar 3. */
+function GoalRow({
+  icon: Icon,
+  tint,
+  title,
+  detail,
+  progress,
+  done,
+}: {
+  icon: LucideIcon;
+  tint: string;
+  title: string;
+  detail: string;
+  progress: number;
+  done: boolean;
+}) {
+  const percent = Math.round(Math.min(1, Math.max(0, progress)) * 100);
+  return (
+    <li className="flex items-center gap-3">
+      <span className={`grid size-11 shrink-0 place-items-center rounded-2xl ${tint}`}>
+        <Icon size={20} aria-hidden="true" className="text-ink" />
+      </span>
+      <div className="flex min-w-0 flex-1 flex-col gap-1.5">
+        <div className="flex items-baseline justify-between gap-2">
+          <span className="truncate text-sm font-bold text-ink">{title}</span>
+          <span className="shrink-0 text-xs font-semibold tabular-nums text-muted">{detail}</span>
+        </div>
+        <div
+          role="progressbar"
+          aria-label={title}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-valuenow={percent}
+          className="h-2.5 overflow-hidden rounded-full bg-track"
+        >
+          <motion.div
+            className="h-full origin-left rounded-full bg-primary-500"
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: percent / 100 }}
+            transition={{ duration: 0.6, ease: easeOut }}
+            style={{ width: '100%' }}
+          />
+        </div>
+      </div>
+      <span
+        aria-label={done ? 'Selesai' : 'Belum selesai'}
+        className={`grid size-8 shrink-0 place-items-center rounded-full ${done ? 'bg-success text-on-accent' : 'bg-bg text-muted'}`}
+      >
+        <Check size={16} aria-hidden="true" />
+      </span>
+    </li>
+  );
+}
+
 function formatToday(date: Date): string {
   return new Intl.DateTimeFormat('id-ID', { weekday: 'long', day: 'numeric', month: 'long' }).format(date);
 }
@@ -82,21 +160,6 @@ export function DashboardPage() {
   const today = localISO();
   const next = currentDay(data.mastered);
   const nextStatus = next ? dayStatus(next, data.completed, data.content, data.mastered) : undefined;
-  const [nextTitle, setNextTitle] = useState<string>();
-
-  useEffect(() => {
-    let active = true;
-    if (!next || (nextStatus !== 'available' && nextStatus !== 'repair')) {
-      setNextTitle(undefined);
-      return;
-    }
-    loadDay(next).then((day) => {
-      if (active) setNextTitle(day?.title);
-    });
-    return () => {
-      active = false;
-    };
-  }, [next, nextStatus]);
 
   const name = settings.name.trim();
   const initial = (name || 'E').charAt(0).toUpperCase();
@@ -105,6 +168,7 @@ export function DashboardPage() {
   const dueEntries = data.mistakes
     .filter((entry) => isDue(entry, today))
     .sort((a, b) => a.due.localeCompare(b.due) || a.day - b.day);
+  const activeMistakes = data.mistakes.filter((entry) => !entry.mastered).length;
 
   const parts = (Object.keys(PART_LABELS) as Part[]).map((part) => {
     const correct = data.progress.reduce((sum, item) => sum + item.firstParts[part].correct, 0);
@@ -125,11 +189,41 @@ export function DashboardPage() {
     className: row.firstCorePercent >= 70 ? 'bg-primary-500' : row.firstCorePercent >= 50 ? 'bg-primary-300' : 'bg-error',
   }));
 
+  // Target hari ini: lulus hari berikutnya, streak seminggu, dan kesalahan jatuh tempo.
+  const nextBest = next ? data.progress.find((row) => row.day === next)?.bestCorePercent ?? 0 : 0;
+  const goals = [
+    {
+      icon: Target,
+      tint: 'bg-tint-sun',
+      title: next ? `Lulus Hari ke-${next}` : 'Semua hari sudah lulus',
+      detail: next ? `${nextBest}% / ${MASTERY_THRESHOLD}%` : 'Selesai',
+      progress: next ? nextBest / MASTERY_THRESHOLD : 1,
+      done: !next,
+    },
+    {
+      icon: Flame,
+      tint: 'bg-tint-peach',
+      title: 'Belajar 7 hari berturut-turut',
+      detail: `${Math.min(streak, 7)}/7 hari`,
+      progress: streak / 7,
+      done: streak >= 7,
+    },
+    {
+      icon: BookX,
+      tint: 'bg-tint-mint',
+      title: 'Ulas kesalahan yang jatuh tempo',
+      detail: dueEntries.length === 0 ? 'Tidak ada' : `${dueEntries.length} soal`,
+      progress: activeMistakes === 0 ? 1 : (activeMistakes - dueEntries.length) / activeMistakes,
+      done: dueEntries.length === 0,
+    },
+  ];
+
   const completedRatio = data.mastered.size / TOTAL_DAYS;
   const greeting = name ? `Halo, ${name}!` : 'Halo, kamu!';
+  const startHref = next ? `/hari/${next}` : undefined;
 
   return (
-    <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_300px] lg:items-start lg:gap-6">
+    <div className="flex flex-col gap-6 lg:grid lg:grid-cols-[minmax(0,1fr)_300px] lg:items-start lg:gap-8">
       <div className="flex flex-col gap-6">
         <Reveal index={0}>
           <header className="flex items-center justify-between gap-3">
@@ -139,7 +233,7 @@ export function DashboardPage() {
             </div>
             <span
               aria-hidden="true"
-              className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-lg font-extrabold text-ink shadow-card"
+              className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-lg font-extrabold text-ink shadow-card lg:hidden"
             >
               {initial}
             </span>
@@ -147,48 +241,55 @@ export function DashboardPage() {
         </Reveal>
 
         <Reveal index={1}>
-          <div>
-          <section className="relative overflow-hidden rounded-card bg-banner p-6 text-ink shadow-card">
-            <Blob className="-right-10 -top-10 size-40 bg-white/40" />
-            <Blob className="-bottom-12 right-12 size-24 bg-white/25" />
-            <StackIllustration className="pointer-events-none absolute -right-2 top-3 w-32 sm:w-40" />
-            <div className="relative pr-24 sm:pr-32">
-              <p className="text-sm font-semibold opacity-90">Tantangan hari ini</p>
-              <h2 className="mt-1 text-2xl font-extrabold">{next ? `Hari ke-${next}` : 'Semua 90 hari selesai!'}</h2>
-              <p className="mt-2 text-sm opacity-90">
-                {next
-                  ? nextTitle ?? 'Selesaikan sesi hari ini sebelum 09.00 untuk menjaga ritme belajarmu.'
-                  : 'Kamu sudah menyelesaikan seluruh kurikulum. Ulangi bagian yang masih lemah lewat Buku Kesalahan.'}
-              </p>
-            </div>
-            {next && nextStatus === 'available' && (
-              <Link
-                to={`/hari/${next}`}
-                className="relative mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-surface px-5 font-semibold whitespace-nowrap text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
-              >
-                <Play size={18} aria-hidden="true" />
-                Mulai Sesi Hari Ini
-              </Link>
-            )}
-            {next && nextStatus === 'repair' && (
-              <div className="relative mt-5 flex flex-col gap-3">
-                <p className="text-sm font-semibold opacity-90">
-                  Skor inti terbaik belum {MASTERY_THRESHOLD}%. Ulangi sesi ini untuk membuka hari berikutnya.
+          <div className="flex flex-col gap-4">
+            <section className="relative overflow-hidden rounded-card bg-banner p-6 text-ink shadow-card">
+              <Blob className="-right-10 -top-10 size-40 bg-white/40" />
+              <Blob className="-bottom-12 right-12 size-24 bg-white/25" />
+              <StackIllustration className="pointer-events-none absolute -right-2 top-3 w-32 sm:w-40" />
+              <div className="relative pr-24 sm:pr-32">
+                <p className="text-sm font-semibold">Sesi hari ini</p>
+                <h2 className="mt-1 text-2xl font-extrabold">{next ? `Hari ke-${next}` : 'Semua 90 hari selesai!'}</h2>
+                <p className="mt-2 text-sm">
+                  {next
+                    ? 'Empat blok, sekitar dua jam. Mulai dari kosakata, lalu soal.'
+                    : 'Kamu sudah menyelesaikan seluruh kurikulum. Ulangi bagian yang masih lemah lewat Buku Kesalahan.'}
                 </p>
+              </div>
+              {startHref && (nextStatus === 'available' || nextStatus === 'repair') && (
                 <Link
-                  to={`/hari/${next}`}
-                  className="inline-flex min-h-11 w-fit items-center gap-2 whitespace-nowrap rounded-full bg-surface px-5 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
+                  to={startHref}
+                  className="relative mt-5 inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-full bg-btn-bg px-5 font-bold text-btn-fg shadow-card outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-btn-bg"
                 >
                   <Play size={18} aria-hidden="true" />
-                  Ulangi Hari ke-{next}
+                  {nextStatus === 'repair' ? `Ulangi Hari ke-${next}` : 'Mulai sesi'}
                 </Link>
-              </div>
-            )}
-            {next && nextStatus === 'nocontent' && (
-              <p className="relative mt-4 text-sm font-semibold">Konten Hari ke-{next} belum tersedia. Kembali lagi nanti.</p>
-            )}
-          </section>
+              )}
+              {next && nextStatus === 'repair' && (
+                <p className="relative mt-3 text-sm font-semibold">
+                  Skor inti terbaik belum {MASTERY_THRESHOLD}%. Ulangi sesi ini untuk membuka hari berikutnya.
+                </p>
+              )}
+              {next && nextStatus === 'nocontent' && (
+                <p className="relative mt-4 text-sm font-semibold">Konten Hari ke-{next} belum tersedia. Kembali lagi nanti.</p>
+              )}
+            </section>
 
+            <Card className="flex flex-col gap-4">
+              <div className="flex items-start justify-between gap-3">
+                <div>
+                  <h2 className="text-lg font-bold text-ink">Target hari ini</h2>
+                  <p className="text-sm text-muted">Tiga target yang menjaga ritmemu.</p>
+                </div>
+                <span className="grid size-10 place-items-center rounded-2xl bg-primary-100 text-primary-700">
+                  <Target size={20} aria-hidden="true" />
+                </span>
+              </div>
+              <ul className="flex flex-col gap-4">
+                {goals.map((goal) => (
+                  <GoalRow key={goal.title} {...goal} />
+                ))}
+              </ul>
+            </Card>
           </div>
         </Reveal>
 
@@ -213,7 +314,7 @@ export function DashboardPage() {
         </Reveal>
 
         <Reveal index={3}>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <Card className="flex flex-col gap-4">
               <h2 className="text-lg font-bold text-ink">Kalender</h2>
               <MonthCalendar sessionDates={data.completedDates} today={today} />
@@ -226,28 +327,42 @@ export function DashboardPage() {
                 </h2>
                 <Badge tone="lavender">120 menit</Badge>
               </div>
-              <ol className="grid grid-cols-2 gap-3">
-                {BLOCK_PLAN.map((block, index) => (
-                  <li key={block.label}>
-                    <Card interactive tone={PLAN_TONES[index]} className="flex h-full flex-col gap-3">
-                      <span className="grid size-8 place-items-center rounded-full bg-surface text-sm font-bold text-ink">
-                        {index + 1}
-                      </span>
-                      <span className="text-sm font-bold leading-snug text-ink">{block.label}</span>
-                      <span className="mt-auto flex items-center gap-1 text-xs font-semibold text-ink/80">
-                        <Clock size={14} aria-hidden="true" />
-                        {block.minutes} menit
-                      </span>
-                    </Card>
-                  </li>
-                ))}
+              <ol className="flex flex-col gap-3">
+                {BLOCK_PLAN.map((block) => {
+                  const Icon = block.icon;
+                  return (
+                    <li key={block.label}>
+                      <Card className="flex items-center gap-4 p-4">
+                        <span className={`grid size-12 shrink-0 place-items-center rounded-2xl ${TINT_CLASS[block.tint]}`}>
+                          <Icon size={22} aria-hidden="true" className="text-ink" />
+                        </span>
+                        <span className="min-w-0 flex-1">
+                          <span className="block text-sm font-bold text-ink">{block.label}</span>
+                          <span className="flex items-center gap-1 text-xs font-semibold text-muted">
+                            <Clock size={12} aria-hidden="true" />
+                            {block.minutes} menit
+                          </span>
+                        </span>
+                        {startHref && (
+                          <Link
+                            to={startHref}
+                            aria-label={`Mulai ${block.label}`}
+                            className="grid size-10 shrink-0 place-items-center rounded-full bg-btn-bg text-btn-fg outline-none transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-btn-bg"
+                          >
+                            <ArrowRight size={18} aria-hidden="true" />
+                          </Link>
+                        )}
+                      </Card>
+                    </li>
+                  );
+                })}
               </ol>
             </section>
           </div>
         </Reveal>
 
         <Reveal index={4}>
-          <div className="grid gap-6 lg:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
             <Card className="flex flex-col gap-4">
               <div className="flex items-start justify-between gap-3">
                 <div>
@@ -316,10 +431,7 @@ export function DashboardPage() {
                     : `${dueEntries.length} soal jatuh tempo hari ini.`}
                 </span>
               </span>
-              <span
-                aria-hidden="true"
-                className="grid size-11 shrink-0 place-items-center rounded-full bg-surface text-ink"
-              >
+              <span aria-hidden="true" className="grid size-11 shrink-0 place-items-center rounded-full bg-surface text-ink">
                 <ArrowRight size={20} />
               </span>
             </Card>
@@ -354,38 +466,38 @@ export function DashboardPage() {
         </Reveal>
 
         <Reveal index={3}>
-              <Card tone="sky" className="flex flex-col gap-4">
-                <div>
-                  <h2 className="text-lg font-bold text-ink">Skor inti terakhir</h2>
-                  <p className="text-sm text-ink/80">Tiga hari terakhir yang sudah dikirim.</p>
-                </div>
-                {lastThree.length === 0 ? (
-                  <p className="text-sm text-ink/80">Hasil muncul setelah hari pertama dikirim.</p>
-                ) : (
-                  <ul className="flex flex-col gap-3">
-                    {lastThree.map((row) => (
-                      <li key={row.day} className="flex items-center gap-3">
-                        <span className="w-16 shrink-0 text-sm font-bold text-ink">Hari {row.day}</span>
-                        <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-surface" aria-hidden="true">
-                          <motion.span
-                            className="block h-full origin-left rounded-full bg-primary-500"
-                            initial={{ scaleX: 0 }}
-                            animate={{ scaleX: row.firstCorePercent / 100 }}
-                            transition={{ duration: 0.6, ease: easeOut }}
-                            style={{ width: '100%', display: 'block' }}
-                          />
-                        </span>
-                        <span className="w-12 shrink-0 text-right text-sm font-bold tabular-nums text-ink">
-                          {row.firstCorePercent}%
-                        </span>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-              </Card>
+          <Card tone="sky" className="flex flex-col gap-4">
+            <div>
+              <h2 className="text-lg font-bold text-ink">Skor inti terakhir</h2>
+              <p className="text-sm text-ink/80">Tiga hari terakhir yang sudah dikirim.</p>
+            </div>
+            {lastThree.length === 0 ? (
+              <p className="text-sm text-ink/80">Hasil muncul setelah hari pertama dikirim.</p>
+            ) : (
+              <ul className="flex flex-col gap-3">
+                {lastThree.map((row) => (
+                  <li key={row.day} className="flex items-center gap-3">
+                    <span className="w-16 shrink-0 text-sm font-bold text-ink">Hari {row.day}</span>
+                    <span className="h-2.5 flex-1 overflow-hidden rounded-full bg-surface" aria-hidden="true">
+                      <motion.span
+                        className="block h-full origin-left rounded-full bg-primary-500"
+                        initial={{ scaleX: 0 }}
+                        animate={{ scaleX: row.firstCorePercent / 100 }}
+                        transition={{ duration: 0.6, ease: easeOut }}
+                        style={{ width: '100%', display: 'block' }}
+                      />
+                    </span>
+                    <span className="w-12 shrink-0 text-right text-sm font-bold tabular-nums text-ink">
+                      {row.firstCorePercent}%
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </Card>
         </Reveal>
 
-        <Reveal index={3}>
+        <Reveal index={4}>
           <Card tone="sun" className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
               <CalendarCheck size={20} aria-hidden="true" className="text-ink" />
