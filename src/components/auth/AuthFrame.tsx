@@ -3,18 +3,21 @@ import { BackgroundArt } from '../ui/BackgroundArt';
 
 /**
  * Kerangka layar mulai, daftar, dan masuk. Pola gambar 1 dan 2: bagian atas berwarna dengan karakter,
- * bagian bawah lembar putih melengkung. HP: atas di atas, bawah di bawah. Desktop: dua kolom berdampingan.
+ * bagian bawah lembar putih melengkung. Selalu selebar HP, juga di desktop, dan ditaruh di tengah
+ * seperti kartu ponsel di atas latar lime.
  */
 export function AuthFrame({ art, children }: { art: ReactNode; children: ReactNode }) {
   return (
-    <div className="flex min-h-dvh flex-col bg-bg lg:flex-row">
-      <section className="isolate relative flex min-h-[44dvh] items-center justify-center overflow-hidden bg-linear-to-b from-lime via-primary-100 to-bg px-6 py-10 lg:min-h-dvh lg:flex-1 lg:px-16">
-        <BackgroundArt />
-        <div className="relative flex w-full max-w-sm flex-col items-center">{art}</div>
-      </section>
-      <section className="relative -mt-8 flex flex-1 flex-col gap-6 rounded-t-[36px] bg-surface px-6 pb-10 pt-8 shadow-card lg:mt-0 lg:min-h-dvh lg:max-w-lg lg:justify-center lg:rounded-none lg:px-14 lg:shadow-none">
-        {children}
-      </section>
+    <div className="flex min-h-dvh justify-center bg-bg lg:py-10">
+      <div className="relative flex w-full max-w-md flex-col overflow-hidden lg:rounded-[40px] lg:shadow-card">
+        <section className="isolate relative flex min-h-[44dvh] items-center justify-center overflow-hidden bg-linear-to-b from-lime via-primary-100 to-bg px-6 py-10">
+          <BackgroundArt />
+          <div className="relative flex w-full max-w-sm flex-col items-center">{art}</div>
+        </section>
+        <section className="relative -mt-8 flex flex-1 flex-col gap-6 rounded-t-[36px] bg-surface px-6 pb-10 pt-8 shadow-card">
+          {children}
+        </section>
+      </div>
     </div>
   );
 }

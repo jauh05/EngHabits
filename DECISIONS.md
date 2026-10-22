@@ -2,6 +2,12 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Layar masuk selalu selebar HP, dengan logo Google dan Apple
+
+1. **Layar mulai, masuk, daftar, dan sambutan selalu selebar HP.** `AuthFrame` sekarang satu kolom dengan lebar maksimal `max-w-md`, di tengah, juga di desktop. Di layar lebar, kartu itu diberi sudut membulat dan bayangan seperti ponsel di atas latar lime. Sebelumnya desktop memakai dua kolom.
+2. **Logo resmi Google dan Apple.** Logo Google berwarna empat warna dan logo Apple putih dibuat sebagai SVG di `SocialButtons.tsx`, menggantikan huruf "G" dan "A". Tombol Apple memakai latar charcoal. Kedua tombol masih nonaktif dengan keterangan "segera hadir", karena butuh layanan identitas.
+3. **Verifikasi.** Typecheck, 51 tes, dan build lolos. Di browser, lebar kartu login di desktop 448px dan posisinya di tengah. Di HP, logo Google dan Apple tampil dengan benar. Logo di desktop dicek lewat ukuran geometrinya, karena zoom browser terlalu kecil untuk menilai bentuknya.
+
 ## 2026-10-22: Tautan bergaris bawah jadi tombol
 
 1. **Tautan aksi jadi tombol sekunder atau primer.** "Kembali ke beranda" di sesi evaluasi dan di Laporan kesiapan (sekunder, ikon Home). Tautan "Masuk" dan "Daftar" di halaman Mulai, Masuk, dan Daftar: teks "Sudah punya akun?" atau "Belum punya akun?" di baris sendiri, lalu tombol sekunder selebar penuh.
