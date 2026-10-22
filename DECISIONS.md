@@ -2,6 +2,11 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Latar layar masuk, daftar, dan mulai putih
+
+1. **Latar luar kartu auth dibuat putih** (`bg-surface`, bukan `bg-bg`). Berlaku untuk `/mulai`, `/masuk`, `/daftar`, dan `/sambutan`, karena keempatnya memakai `AuthFrame`. Latar lime di halaman lain tidak berubah.
+2. **Verifikasi.** Di browser, latar kedua layar bernilai `rgb(255, 255, 255)` di HP 375px dan desktop 1280px. Tidak ada halaman yang melebar.
+
 ## 2026-10-22: Kartu auth selalu melengkung dan di tengah
 
 1. **Kartu di semua lebar.** `AuthFrame` memakai kartu bersudut 40px dengan lebar maksimal 390px di semua ukuran layar, dengan jarak 12px dari tepi di HP. Sebelumnya kartu baru melengkung di layar besar (`lg:`), sehingga di layar yang lebih sempit atau saat diperbesar tampil putih penuh dan sudutnya tajam.
