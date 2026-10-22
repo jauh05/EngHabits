@@ -4,13 +4,13 @@
 
 EngHabits adalah aplikasi web belajar Bahasa Inggris (CEFR A1 sampai B2, dengan latihan bergaya TOEFL ITP dan IELTS Academic). Seluruh materi 90 hari disimpan di dalam repositori sebagai file konten, bukan di-hardcode di komponen.
 
-Status: **Fase 1 (fondasi aplikasi)** selesai. Hari 1 saat ini masih contoh sementara. Progres lengkap ada di [PROGRESS.md](PROGRESS.md).
+Status: **Fase 11 (sebagian)** selesai. Materi 90 hari sudah lengkap dan lolos validator. Progres lengkap ada di [PROGRESS.md](PROGRESS.md).
 
 ## Stack
 
 - Vite, React, TypeScript, Tailwind CSS (v4)
 - Routing: react-router. Animasi: motion. Validasi konten: zod.
-- Penyimpanan progres: IndexedDB (idb). Ekspor dan impor JSON dijadwalkan di Fase 11.
+- Penyimpanan progres: IndexedDB (idb). Ekspor dan impor JSON ada di Profil.
 - PWA lewat vite-plugin-pwa
 - Test: Vitest
 

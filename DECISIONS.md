@@ -2,6 +2,19 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Fase 11 (fitur lanjutan, sebagian)
+
+Persetujuan hari 61 sampai 90 dicatat sebagai selesai. Fase 11 dikerjakan dalam dua bagian. Bagian pertama dibuat sekarang, bagian kedua menunggu keputusan.
+
+1. **Statistik dan laporan kesiapan.** `/statistik` menampilkan hari selesai, rata-rata skor inti, akurasi per bagian, akurasi Hard Challenge, jumlah kesalahan aktif dan terkuasai, serta peta 90 hari yang berwarna menurut skor. Semua angka memakai percobaan pertama, sama dengan nilai resmi hari itu. `/laporan` baru menampilkan perkiraan setelah minimal 7 hari selesai. Label "perkiraan" dan penyangkalan bahwa ini bukan skor ETS atau IELTS tampil di halaman. Logika ada di `src/lib/stats.ts` dengan tes.
+2. **Latihan perbaikan.** `/latihan` mengambil entri Buku Kesalahan yang jatuh tempo hari ini, lalu menjalankan soal pilihan ganda. Antrean dikunci saat sesi mulai, supaya soal yang baru dijawab tidak hilang dari layar. Jawaban memakai `applyResult` yang sama dengan Buku Kesalahan, jadi jadwal Leitner konsisten. Terjemahan tidak ikut sesi ini dan dihitung sebagai dilewati. Buku Kesalahan punya tautan ke halaman ini.
+3. **Ekspor dan impor JSON.** Ekspor di Profil menulis `enghabits-backup` versi 1 dengan progres, percobaan, Buku Kesalahan, dan catatan. Pengaturan tampilan tidak ikut. Impor memeriksa berkas dengan zod, menampilkan pratinjau jumlah data, lalu mengganti semua data dalam satu transaksi. Berkas yang tidak valid ditolak sebelum menyentuh data lama.
+4. **Pengingat jam 06.00.** Pengaturan `reminderEnabled` dan `lastReminderDate` ditambahkan ke `Settings`. Izin notifikasi diminta saat pengingat dinyalakan. Notifikasi dikirim lewat service worker jika tersedia, karena Chrome Android tidak mengizinkan `new Notification`. Pengingat hanya berjalan saat aplikasi terbuka atau berjalan di latar belakang. Tidak ada server push, jadi kalau aplikasi tidak pernah dibuka setelah jam 06.00, pengingat tidak muncul.
+5. **Ikon PWA.** `scripts/make-icons.mjs` membuat `public/icons/icon-192.png` dan `icon-512.png` tanpa dependensi tambahan. Latarnya ungu merek dengan huruf E putih di tengah, sehingga aman untuk ikon maskable. Manifest dan `apple-touch-icon` memakainya. Placeholder `ComingSoonPage` dihapus.
+6. **Belum dikerjakan, perlu keputusan.** (a) Mastery gate dan sesi perbaikan otomatis. Ambang lulus belum ditentukan, dan itu mengubah cara hari berikutnya terbuka. (b) Perekam suara dengan MediaRecorder. Belum dibuat. (c) Koreksi AI. Butuh pilihan penyedia dan kunci API, dan belum ada server. Tombol salin untuk jawaban tulis juga belum dibuat, karena menunggu keputusan (c).
+7. **Verifikasi.** `tsc --noEmit` bersih. Vitest 43 tes lolos, termasuk 9 tes baru untuk statistik dan validasi cadangan. `npm run build` lolos dan manifest memuat tiga ikon. Di browser (dev server) sudah diuji: statistik dengan data contoh, laporan, latihan (jawab benar, jawab salah, dan ringkasan), ekspor (isi berkas dicek), serta impor (pratinjau, konfirmasi, dan data benar-benar diganti). Izin notifikasi belum diuji di browser.
+8. **Peringatan build.** Vite memberi peringatan bahwa chunk `index` lebih dari 500 kB. Belum ditangani. Pemisahan kode dicatat untuk Fase 12.
+
 ## 2026-10-22: Fase 10b (konten hari 61-90 dan bank minggu 9-12)
 
 1. **Pola minggu 9 sampai 12.** Setiap hari lolos validator dengan 15 soal inti (blok 3, Bagian A, dan Bagian B) dalam rentang kesulitan: mudah 2 sampai 4, sedang 3 sampai 7, sulit 6 sampai 10. Target minggu 9 sampai 12 adalah 2 mudah, 5 sedang, 8 sulit, dengan toleransi 2. Hard Challenge 5 soal sulit dengan jebakan ujian.

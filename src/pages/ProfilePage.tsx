@@ -1,12 +1,15 @@
-import { useState } from 'react';
-import { Volume2 } from 'lucide-react';
+import { useRef, useState } from 'react';
+import { Bell, Download, Upload, Volume2 } from 'lucide-react';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Modal } from '../components/ui/Modal';
 import { useToast } from '../components/ui/Toast';
-import { resetProgress, type Settings } from '../lib/db';
+import { applyBackup, buildBackupText, parseBackupText } from '../lib/backup';
+import { resetProgress, type BackupData, type Settings } from '../lib/db';
+import { localISO } from '../lib/dates';
 import { hasEnglishVoice, speak, ttsSupported } from '../lib/tts';
 import { useSettings } from '../lib/settings';
+import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
 
 function Choice<T extends string>({
   name,
@@ -42,10 +45,18 @@ function Choice<T extends string>({
   );
 }
 
+/** Ringkasan isi cadangan untuk konfirmasi sebelum impor. */
+function describeBackup(data: BackupData): string {
+  return `${data.progress.length} hari selesai, ${data.attempts.length} percobaan, ${data.mistakes.length} entri Buku Kesalahan, ${data.notes.length} catatan.`;
+}
+
 export function ProfilePage() {
   const { settings, update } = useSettings();
   const { show } = useToast();
   const [confirmReset, setConfirmReset] = useState(false);
+  const [reminderNote, setReminderNote] = useState('');
+  const [pendingImport, setPendingImport] = useState<BackupData>();
+  const fileInput = useRef<HTMLInputElement>(null);
   const voiceReady = ttsSupported() && hasEnglishVoice();
 
   const set = (patch: Partial<Settings>) => update(patch);
@@ -58,6 +69,65 @@ export function ProfilePage() {
       show('Progres gagal dihapus. Coba lagi.', 'error');
     } finally {
       setConfirmReset(false);
+    }
+  };
+
+  const toggleReminder = async (enabled: boolean) => {
+    if (!enabled) {
+      set({ reminderEnabled: false });
+      setReminderNote('');
+      return;
+    }
+    if (!('Notification' in window)) {
+      setReminderNote('Browser ini tidak mendukung notifikasi. Coba browser lain.');
+      return;
+    }
+    const permission = Notification.permission === 'default' ? await Notification.requestPermission() : Notification.permission;
+    if (permission !== 'granted') {
+      setReminderNote('Izin notifikasi ditolak. Aktifkan lewat pengaturan browser, lalu coba lagi.');
+      return;
+    }
+    set({ reminderEnabled: true });
+    setReminderNote(
+      `Pengingat aktif. Notifikasi muncul sekali sehari setelah jam ${String(REMINDER_HOUR).padStart(2, '0')}.00, selama aplikasi terbuka atau berjalan di latar belakang.`,
+    );
+  };
+
+  const handleExport = async () => {
+    try {
+      const text = await buildBackupText();
+      const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `enghabits-${localISO()}.json`;
+      link.click();
+      URL.revokeObjectURL(url);
+      show('Data diekspor. Simpan berkasnya di tempat aman.', 'success');
+    } catch {
+      show('Ekspor gagal. Coba lagi.', 'error');
+    }
+  };
+
+  const handleFile = async (file: File | undefined) => {
+    if (!file) return;
+    try {
+      setPendingImport(parseBackupText(await file.text()));
+    } catch (error) {
+      show(error instanceof Error ? error.message : 'Impor gagal.', 'error');
+    } finally {
+      if (fileInput.current) fileInput.current.value = '';
+    }
+  };
+
+  const confirmImport = async () => {
+    if (!pendingImport) return;
+    try {
+      await applyBackup(pendingImport);
+      show('Data diimpor. Buka Beranda untuk melihat progres.', 'success');
+    } catch {
+      show('Impor gagal. Data lama tidak berubah.', 'error');
+    } finally {
+      setPendingImport(undefined);
     }
   };
 
@@ -138,12 +208,59 @@ export function ProfilePage() {
         </p>
       </Card>
 
+      <Card className="flex flex-col gap-4">
+        <h2 className="text-lg font-bold text-ink">Pengingat harian</h2>
+        <label className="flex min-h-11 items-center justify-between gap-4">
+          <span className="flex flex-col">
+            <span className="flex items-center gap-2 font-semibold text-ink">
+              <Bell size={18} aria-hidden="true" />
+              Ingatkan jam {String(REMINDER_HOUR).padStart(2, '0')}.00
+            </span>
+            <span className="text-sm text-muted">Notifikasi muncul sekali sehari. Butuh izin dari browser.</span>
+          </span>
+          <input
+            type="checkbox"
+            role="switch"
+            checked={settings.reminderEnabled}
+            onChange={(event) => void toggleReminder(event.target.checked)}
+            className="size-6 accent-[var(--primary-500)]"
+          />
+        </label>
+        {reminderNote && <p className="text-sm text-muted">{reminderNote}</p>}
+      </Card>
+
+      <Card className="flex flex-col gap-3">
+        <h2 className="text-lg font-bold text-ink">Cadangan data</h2>
+        <p className="text-sm text-muted">
+          Ekspor menyimpan progres, percobaan, Buku Kesalahan, dan catatan ke berkas JSON. Impor menggantikan semua data
+          yang ada sekarang dengan isi berkas.
+        </p>
+        <div className="flex flex-wrap gap-2">
+          <Button variant="secondary" onClick={handleExport}>
+            <Download size={18} aria-hidden="true" />
+            Ekspor data
+          </Button>
+          <Button variant="secondary" onClick={() => fileInput.current?.click()}>
+            <Upload size={18} aria-hidden="true" />
+            Impor data
+          </Button>
+          <input
+            ref={fileInput}
+            type="file"
+            accept="application/json,.json"
+            aria-label="Pilih berkas cadangan"
+            className="sr-only"
+            onChange={(event) => void handleFile(event.target.files?.[0])}
+          />
+        </div>
+      </Card>
+
       <Card className="flex flex-col gap-3">
         <h2 className="text-lg font-bold text-ink">Data belajar</h2>
         <p className="text-sm text-muted">
           Reset menghapus semua progres, percobaan, dan Buku Kesalahan. Pengaturan tampilan tetap tersimpan.
         </p>
-        <Button variant="secondary" onClick={() => setConfirmReset(true)} >
+        <Button variant="secondary" onClick={() => setConfirmReset(true)}>
           Reset progres
         </Button>
       </Card>
@@ -155,6 +272,17 @@ export function ProfilePage() {
             Batal
           </Button>
           <Button onClick={handleReset}>Ya, hapus</Button>
+        </div>
+      </Modal>
+
+      <Modal open={pendingImport !== undefined} onClose={() => setPendingImport(undefined)} title="Ganti data dengan berkas ini?">
+        <p className="mb-2 text-muted">Berkas berisi {pendingImport ? describeBackup(pendingImport) : ''}</p>
+        <p className="mb-5 text-muted">Semua data yang ada sekarang akan diganti. Tindakan ini tidak bisa dibatalkan.</p>
+        <div className="flex justify-end gap-2">
+          <Button variant="secondary" onClick={() => setPendingImport(undefined)}>
+            Batal
+          </Button>
+          <Button onClick={confirmImport}>Ya, ganti data</Button>
         </div>
       </Modal>
     </div>

@@ -5,7 +5,9 @@ import { DayPage } from './pages/DayPage';
 import { MapPage } from './pages/MapPage';
 import { MistakesPage } from './pages/MistakesPage';
 import { ProfilePage } from './pages/ProfilePage';
-import { ComingSoonPage } from './pages/ComingSoonPage';
+import { PracticePage } from './pages/PracticePage';
+import { ReadinessPage } from './pages/ReadinessPage';
+import { StatsPage } from './pages/StatsPage';
 
 function NotFound() {
   return (
@@ -26,7 +28,9 @@ export function App() {
           <Route index element={<DashboardPage />} />
           <Route path="peta" element={<MapPage />} />
           <Route path="kesalahan" element={<MistakesPage />} />
-          <Route path="statistik" element={<ComingSoonPage title="Statistik" />} />
+          <Route path="statistik" element={<StatsPage />} />
+          <Route path="laporan" element={<ReadinessPage />} />
+          <Route path="latihan" element={<PracticePage />} />
           <Route path="profil" element={<ProfilePage />} />
         </Route>
         <Route path="hari/:n" element={<DayPage />} />

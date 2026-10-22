@@ -37,6 +37,10 @@ export type Settings = {
   reduceMotion: boolean;
   accent: 'en-US' | 'en-GB';
   rate: number;
+  /** Pengingat harian jam 06.00 saat aplikasi terbuka. */
+  reminderEnabled: boolean;
+  /** Tanggal pengingat terakhir ditampilkan, YYYY-MM-DD (lokal). */
+  lastReminderDate: string;
 };
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -44,6 +48,8 @@ export const DEFAULT_SETTINGS: Settings = {
   reduceMotion: false,
   accent: 'en-US',
   rate: 0.9,
+  reminderEnabled: false,
+  lastReminderDate: '',
 };
 
 interface EngHabitsDB extends DBSchema {
@@ -166,6 +172,47 @@ export async function recordAttempt(
   await tx.done;
   return { attempt, progress, isFirst };
 }
+
+/** Simpan satu entri Buku Kesalahan, dipakai oleh sesi latihan perbaikan. */
+export async function updateMistake(entry: MistakeEntry): Promise<void> {
+  await (await getDb()).put('mistakes', entry);
+}
+
+/** Semua data belajar untuk diekspor. Pengaturan tampilan tidak ikut. */
+export async function readAllData(): Promise<BackupData> {
+  const db = await getDb();
+  const [progress, attempts, mistakes, notes] = await Promise.all([
+    db.getAll('progress'),
+    db.getAll('attempts'),
+    db.getAll('mistakes'),
+    db.getAll('notes'),
+  ]);
+  return { progress, attempts, mistakes, notes };
+}
+
+/** Ganti seluruh data belajar dengan isi cadangan, dalam satu transaksi. */
+export async function replaceAllData(data: BackupData): Promise<void> {
+  const db = await getDb();
+  const tx = db.transaction(['progress', 'attempts', 'mistakes', 'notes'], 'readwrite');
+  await Promise.all([
+    tx.objectStore('progress').clear(),
+    tx.objectStore('attempts').clear(),
+    tx.objectStore('mistakes').clear(),
+    tx.objectStore('notes').clear(),
+  ]);
+  for (const row of data.progress) await tx.objectStore('progress').put(row);
+  for (const row of data.attempts) await tx.objectStore('attempts').put(row);
+  for (const row of data.mistakes) await tx.objectStore('mistakes').put(row);
+  for (const row of data.notes) await tx.objectStore('notes').put(row);
+  await tx.done;
+}
+
+export type BackupData = {
+  progress: DayProgress[];
+  attempts: Attempt[];
+  mistakes: MistakeEntry[];
+  notes: Array<{ day: number; text: string; updatedAt: string }>;
+};
 
 /** Hapus semua progres dan data belajar. Pengaturan tetap disimpan. */
 export async function resetProgress(): Promise<void> {

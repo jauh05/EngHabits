@@ -18,8 +18,8 @@ Terakhir diperbarui: 2026-10-22
 | 8. Konten hari 38-44 dan bank Hard minggu 6 | Selesai (disetujui) |
 | 9. Konten hari 45-51 dan bank Hard minggu 7 | Selesai (disetujui) |
 | 10. Konten hari 52-60 dan bank Hard minggu 8 | Selesai (disetujui) |
-| 10b. Konten hari 61-90 dan bank Hard minggu 9-12 | Selesai, menunggu persetujuan kualitas |
-| 11. Fitur lanjutan (sesi perbaikan, latihan bebas, laporan kesiapan, statistik, ekspor/impor, koreksi AI, pengingat, PWA offline penuh) | Belum mulai |
+| 10b. Konten hari 61-90 dan bank Hard minggu 9-12 | Selesai (disetujui) |
+| 11. Fitur lanjutan (statistik, laporan kesiapan, latihan perbaikan, ekspor/impor, pengingat, ikon PWA) | Sebagian selesai, menunggu keputusan: mastery gate, perekam suara, koreksi AI |
 | 11b. Deploy GitHub Pages | Belum mulai |
 | 12. QA akhir | Belum mulai |
 
@@ -35,6 +35,13 @@ Terakhir diperbarui: 2026-10-22
 - Buku Kesalahan dengan jadwal Leitner (+1, +3, +7, +14 hari).
 - Progres, percobaan, dan Buku Kesalahan disimpan di IndexedDB. Reset tersedia di Profil.
 
+## Yang sudah jalan (Fase 11, sebagian)
+
+- Statistik (`/statistik`) dan laporan kesiapan perkiraan (`/laporan`, minimal 7 hari selesai).
+- Latihan perbaikan dari Buku Kesalahan yang jatuh tempo (`/latihan`).
+- Ekspor dan impor JSON di Profil, dengan pratinjau sebelum data diganti.
+- Pengingat jam 06.00 saat aplikasi terbuka, dan ikon PWA 192 dan 512.
+
 ## Konten
 
 - Hari konten yang lolos validator: **90 dari 90** (hari 1 sampai 90).
@@ -47,5 +54,6 @@ Lihat [DECISIONS.md](DECISIONS.md).
 
 ## Sesi berikutnya
 
-- Menunggu persetujuan kualitas hari 61 sampai 90 dan bank minggu 9 sampai 12. Setelah disetujui: Fase 11 (fitur lanjutan).
+- Keputusan untuk melanjutkan Fase 11: ambang mastery gate dan perilaku sesi perbaikan otomatis, apakah perekam suara dibuat, dan penyedia serta kunci API untuk koreksi AI.
+- Audit mutu penuh tetap dijadwalkan di Fase 12, termasuk pemisahan chunk bundel yang besar.
 - Audit mutu penuh tetap dijadwalkan di Fase 12.

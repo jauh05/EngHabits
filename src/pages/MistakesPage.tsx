@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router';
 import { BookX, CheckCircle2 } from 'lucide-react';
 import { Badge } from '../components/ui/Badge';
 import { Card } from '../components/ui/Card';
@@ -56,6 +57,9 @@ export function MistakesPage() {
       <header>
         <h1 className="text-3xl font-extrabold text-ink">Buku Kesalahan</h1>
         <p className="text-muted">Soal yang salah masuk ke sini dan diulang sesuai jadwal (1, 3, 7, lalu 14 hari).</p>
+        <Link to="/latihan" className="mt-2 inline-flex min-h-11 w-fit items-center rounded-full bg-primary-100 px-5 font-semibold text-primary-700">
+          Mulai latihan perbaikan
+        </Link>
       </header>
 
       {entries.length === 0 && (

@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
-import { BarChart3, BookX, Home, LayoutGrid, User, type LucideIcon } from 'lucide-react';
+import { BarChart3, BookX, Dumbbell, Home, LayoutGrid, User, type LucideIcon } from 'lucide-react';
 import { NavLink, Outlet } from 'react-router';
 import { spring } from '../../lib/motion';
+import { ReminderWatcher } from './ReminderWatcher';
 
 type NavItem = { to: string; label: string; icon: LucideIcon };
 
@@ -15,6 +16,7 @@ const MOBILE_ITEMS: NavItem[] = [
 const DESKTOP_ITEMS: NavItem[] = [
   ...MOBILE_ITEMS,
   { to: '/kesalahan', label: 'Kesalahan', icon: BookX },
+  { to: '/latihan', label: 'Latihan', icon: Dumbbell },
 ];
 
 function BottomNav() {
@@ -82,6 +84,7 @@ function Sidebar() {
 export function AppShell() {
   return (
     <div className="min-h-dvh">
+      <ReminderWatcher />
       <Sidebar />
       <div className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:max-w-4xl lg:pb-12 lg:pl-64 lg:pr-8 lg:pt-10">
         <Outlet />
