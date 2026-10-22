@@ -23,7 +23,7 @@ function BottomNav() {
   return (
     <nav
       aria-label="Navigasi utama"
-      className="fixed inset-x-4 bottom-4 z-40 mx-auto flex max-w-md items-center justify-between rounded-full bg-ink p-2 shadow-card lg:hidden"
+      className="fixed inset-x-4 bottom-4 z-40 mx-auto flex max-w-md items-center justify-between rounded-full border border-line bg-surface p-2 shadow-card lg:hidden"
     >
       {MOBILE_ITEMS.map((item) => (
         <NavLink
@@ -39,14 +39,14 @@ function BottomNav() {
                 <motion.span
                   layoutId="bottom-nav-active"
                   transition={spring}
-                  className="absolute inset-0 rounded-full bg-surface"
+                  className="absolute inset-0 rounded-full bg-primary-100"
                 />
               )}
               <item.icon
                 size={22}
                 strokeWidth={2}
                 aria-hidden="true"
-                className={`relative ${isActive ? 'text-primary-700' : 'text-surface/80'}`}
+                className={`relative ${isActive ? 'text-primary-700' : 'text-muted'}`}
               />
               <span className="sr-only">{item.label}</span>
             </>

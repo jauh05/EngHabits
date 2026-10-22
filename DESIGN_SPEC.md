@@ -49,7 +49,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | `error` | `#FF7A93` | `#FF8FA3` | Jawaban salah (latar lembut, bukan merah keras) |
 | `streak` | `#FFB84D` | `#FFC46B` | Streak, api, lencana medium |
 | `on-accent` | `#2B2140` | `#1B1530` | Teks di atas success, error, streak |
-| `btn-bg` / `btn-fg` | `#5C3FA6` / `#FFFFFF` | `#A98BFF` / `#1B1530` | Tombol utama |
+| `btn-bg` / `btn-fg` | `#7C5CE0` / `#FFFFFF` | `#A98BFF` / `#1B1530` | Tombol utama |
 | `tint-sun` | `#FFE8A3` | `#4D4019` | Kartu kuning (rencana, streak, hari lulus) |
 | `tint-sky` | `#CFE6FF` | `#1F3552` | Kartu biru (rata-rata, poin, pemutar audio) |
 | `tint-rose` | `#FFD6E7` | `#4A2339` | Kartu pink (Hard Challenge, rencana 3) |
@@ -101,7 +101,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 6. Navigasi
 
-- **HP (di bawah 1024px):** navigasi bawah berbentuk pil gelap dengan 4 item: **Beranda, Peta, Statistik, Profil**. Item aktif ditandai lingkaran yang meluncur (`layoutId`). Di mode terang pil memakai `ink`, di mode gelap memakai `surface`.
+- **HP (di bawah 1024px):** navigasi bawah berbentuk pil putih dengan 4 item: **Beranda, Peta, Statistik, Profil**. Item aktif ditandai lingkaran yang meluncur (`layoutId`). Pil putih (`surface`) dengan indikator aktif `primary-100`. Ikon tidak aktif memakai `muted`. Arah ini dipilih agar warna dominan tetap ungu muda dan putih.
 - **Saat mengerjakan sesi atau soal:** navigasi bawah disembunyikan. Yang tampil hanya Stepper dan tombol kembali. Ini supaya fokus tidak terpecah. *(Keputusan, bisa diubah.)*
 - **Desktop (1024px ke atas):** sidebar kiri 240px dengan item yang sama, ditambah **Kesalahan** dan **Pengaturan**. Konten maksimal 1120px.
 - **Beranda:** header sapaan ("Halo, {nama}" dan tanggal), tombol cari dan notifikasi berbentuk lingkaran.
