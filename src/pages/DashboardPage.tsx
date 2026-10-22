@@ -6,6 +6,7 @@ import {
   Check,
   ClipboardCheck,
   Clock,
+  Dumbbell,
   Flame,
   Headphones,
   Languages,
@@ -18,6 +19,7 @@ import {
 } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
+import { buttonClass } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
 import { BarChart, scoreDot, type BarItem } from '../components/ui/BarChart';
 import { Blob } from '../components/ui/Blob';
@@ -519,7 +521,8 @@ export function DashboardPage() {
                 ))}
               </ul>
             )}
-            <Link to="/latihan" className="font-semibold text-primary-700 underline underline-offset-4">
+            <Link to="/latihan" className={buttonClass('primary', 'md', 'self-start hover:scale-[1.02]')}>
+              <Dumbbell size={18} aria-hidden="true" />
               Mulai latihan perbaikan
             </Link>
           </Card>

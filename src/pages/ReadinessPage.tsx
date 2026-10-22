@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
-import { AlertTriangle } from 'lucide-react';
+import { AlertTriangle, Dumbbell } from 'lucide-react';
+import { buttonClass } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
 import {
@@ -85,7 +86,8 @@ export function ReadinessPage() {
               mengulang soal yang masih lemah.
             </p>
           )}
-          <Link to="/latihan" className="font-semibold text-primary-700 underline">
+          <Link to="/latihan" className={buttonClass('primary', 'md', 'self-start hover:scale-[1.02]')}>
+            <Dumbbell size={18} aria-hidden="true" />
             Mulai latihan dari Buku Kesalahan
           </Link>
         </Card>

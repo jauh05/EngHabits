@@ -3,7 +3,6 @@ import type { CSSProperties } from 'react';
 import { Check, Gift, Lock, PackageOpen, RotateCcw, Star } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import { WEEK_RANGES, monthOfWeek } from '../../content/schema';
-import { Blob } from '../components/ui/Blob';
 import { ProgressRing } from '../components/ui/ProgressRing';
 import { useToast } from '../components/ui/Toast';
 import { useSettings } from '../lib/settings';
@@ -27,7 +26,7 @@ const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-tint-peach', 'bg-tint-rose', 
 /** Warna node roadmap di atas panel hijau tua: putih untuk lulus, lime untuk hari aktif, kuning untuk perbaikan, pucat untuk terkunci. */
 const ROAD_FACE = {
   completed: { color: 'var(--surface)', edge: 'var(--primary-300)', text: 'text-success' },
-  available: { color: 'var(--lime)', edge: 'color-mix(in srgb, var(--lime), var(--shade) 30%)', text: 'text-ink' },
+  available: { color: 'var(--btn-bg)', edge: 'color-mix(in srgb, var(--btn-bg), var(--shade) 40%)', text: 'text-btn-fg' },
   repair: { color: 'var(--tint-sun)', edge: 'var(--streak)', text: 'text-ink' },
   locked: { color: 'var(--primary-100)', edge: 'var(--primary-300)', text: 'text-primary-700' },
 } as const;
@@ -104,7 +103,7 @@ function Stars({ count }: { count: number }) {
   return (
     <span className="flex gap-0.5" aria-hidden="true">
       {[1, 2, 3].map((star) => (
-        <Star key={star} size={12} className={star <= count ? 'fill-streak text-streak' : 'text-white/50'} />
+        <Star key={star} size={12} className={star <= count ? 'fill-streak text-streak' : 'text-ink/30'} />
       ))}
     </span>
   );
@@ -146,9 +145,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
   };
 
   return (
-    <div className="relative mx-auto w-full max-w-sm overflow-hidden rounded-[32px] bg-banner shadow-card" style={{ height }}>
-      <Blob className="-left-16 top-24 size-48 bg-white/15" />
-      <Blob className="-right-16 bottom-40 size-56 bg-primary-300/50" />
+    <div className="relative mx-auto w-full max-w-sm" style={{ height }}>
       <svg
         className="pointer-events-none absolute inset-0 h-full w-full overflow-visible"
         viewBox={`0 0 100 ${height}`}
@@ -160,7 +157,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
           d={fullPath}
           fill="none"
           vectorEffect="non-scaling-stroke"
-          className="stroke-white/20"
+          className="stroke-white/40"
           strokeWidth={64}
           strokeLinecap="round"
         />
@@ -168,7 +165,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
           d={fullPath}
           fill="none"
           vectorEffect="non-scaling-stroke"
-          className="stroke-white/70"
+          className="stroke-white"
           strokeWidth={4}
           strokeLinecap="round"
           strokeDasharray="10 12"
@@ -197,7 +194,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               <span className="rounded-full bg-surface px-4 py-1.5 text-xs font-bold text-ink shadow-card">
                 Minggu {item.week} · Bulan {monthOfWeek(item.week)}
               </span>
-              <span className="text-xs font-semibold text-white/85">
+              <span className="text-xs font-semibold text-ink">
                 {item.mastered}/{item.total} hari lulus · hari {item.from}-{item.to}
               </span>
             </div>
@@ -250,7 +247,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
                 item.status === 'completed' ? 'lulus' : item.status === 'repair' ? 'perlu perbaikan' : item.status === 'locked' ? 'terkunci' : item.status === 'available' ? 'tersedia' : 'belum tersedia'
               }`}
               className={`relative grid place-items-center rounded-full text-lg font-extrabold outline-none transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-primary-500 ${
-                face ? face.text : 'border-2 border-dashed border-white/60 bg-white/15 text-white'
+                face ? face.text : 'border-2 border-dashed border-ink/30 bg-white/40 text-ink/70'
               }`}
               style={face ? { ...style, ...faceStyle(face.color, face.edge) } : style}
             >

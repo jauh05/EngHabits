@@ -2,6 +2,12 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Roadmap tanpa panel hijau, dan latihan perbaikan jadi tombol
+
+1. **Panel hijau tua roadmap dihapus.** Roadmap langsung di atas latar lime. Node aktif jadi hijau tua (`btn-bg`), karena lime akan menyatu dengan latar. Teks progres memakai `ink`, bintang kosong memakai `ink/30`, dan jalur memakai pita putih 40% dengan garis putus putih. Blob dekoratif dihapus, karena terpotong menjadi kotak samar.
+2. **Tautan "Mulai latihan perbaikan" jadi tombol.** Di Beranda (panel Jatuh tempo) dan di Laporan kesiapan ("Mulai latihan dari Buku Kesalahan"). Keduanya memakai `buttonClass` dan ikon Dumbbell, seperti tombol di Buku Kesalahan.
+3. **Verifikasi.** Typecheck, 51 tes, dan build lolos. Di browser (HP): roadmap dengan data uji untuk lulus, perbaikan, aktif, dan terkunci sudah dicek. Data uji sudah dihapus dan mode kembali ke kisi. Beranda juga sudah dicek. Laporan kesiapan belum dilihat, karena kartu tautannya hanya muncul setelah ada data. Desktop belum dicek.
+
 ## 2026-10-22: Tautan Buku Kesalahan jadi tombol 3D
 
 1. **Kelas tombol bisa dipakai tautan.** `buttonClass` di `Button.tsx` berisi kelas dasar tombol, dan `Button` memakainya. `Link` tidak bisa dibungkus `Button`, jadi tautan memakai `buttonClass` langsung.
