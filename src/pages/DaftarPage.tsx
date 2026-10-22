@@ -44,13 +44,13 @@ export function DaftarPage() {
   };
 
   return (
-    <AuthFrame art={<BlobCluster bubble="Yay!" className="w-48 lg:w-44" />}>
+    <AuthFrame art={<BlobCluster bubble="Yay!" className="w-48 sm:w-44" />}>
       <div className="flex flex-col gap-2 text-center lg:text-left">
-        <h1 className="text-3xl font-extrabold text-ink lg:text-3xl">Buat akun</h1>
+        <h1 className="text-3xl font-extrabold text-ink">Buat akun</h1>
         <p className="text-muted">Akun disimpan di perangkat ini. Belum tersinkron ke server.</p>
       </div>
 
-      <form onSubmit={handleSubmit} className="flex flex-col gap-3 lg:gap-2.5" noValidate>
+      <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:gap-2.5" noValidate>
         <Input
           label="Nama panggilan"
           name="nama"

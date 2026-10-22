@@ -2,6 +2,12 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Kartu auth selalu melengkung dan di tengah
+
+1. **Kartu di semua lebar.** `AuthFrame` memakai kartu bersudut 40px dengan lebar maksimal 390px di semua ukuran layar, dengan jarak 12px dari tepi di HP. Sebelumnya kartu baru melengkung di layar besar (`lg:`), sehingga di layar yang lebih sempit atau saat diperbesar tampil putih penuh dan sudutnya tajam.
+2. **Penyesuaian desktop berpindah ke `sm:`** (640px ke atas): tinggi kartu tetap, bagian bawah bisa digulir, jarak form dirapatkan, dan ilustrasi karakter 176px.
+3. **Verifikasi.** Typecheck, 53 tes, dan build lolos. Di browser: 375px kartu berjarak 12px dari tepi dan sudut 40px. 768px kartu 390px di tengah dengan tinggi 844px dan sheet tidak terpotong. Lebar sekitar 655px kartu 390×768 di tengah. Tidak ada halaman yang melebar.
+
 ## 2026-10-22: Gaya kartu login mengikuti contoh gambar 30
 
 1. **Bagian atas berwarna hijau tua** (`bg-banner`) dengan tiga lingkaran lembut (`Blob`) di sudut, bukan gradasi lime. Judul "EngHabits" dan tombol "Lewati" dibuat putih agar terbaca di atas warna itu.

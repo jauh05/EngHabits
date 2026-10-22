@@ -17,7 +17,7 @@ export function SambutanPage() {
   const firstTime = data.mastered.size === 0;
 
   return (
-    <AuthFrame art={<BlobCluster className="w-48 lg:w-44" />}>
+    <AuthFrame art={<BlobCluster className="w-48 sm:w-44" />}>
       <div className="flex flex-col gap-3 text-center lg:text-left">
         <h1 className="text-4xl font-extrabold leading-tight text-ink lg:text-5xl">
           Selamat datang,
