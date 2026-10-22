@@ -33,11 +33,11 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 3. Palet (design tokens)
 
-**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar krem `#FFF5EC`, banner ungu `#7165D8` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu.
+**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar putih `#FFFFFF`, banner ungu `#7165D8` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu.
 
 | Token | Terang | Gelap | Pemakaian |
 |---|---|---|---|
-| `bg` | `#FFF5EC` | `#17151F` | Latar halaman |
+| `bg` | `#FFFFFF` | `#17151F` | Latar halaman |
 | `surface` | `#FFFFFF` | `#22202C` | Kartu, input |
 | `primary-100` | `#E9E5FB` | `#2C2846` | Latar lembut, chip, indikator stepper |
 | `primary-300` | `#B6AEF2` | `#5E56A8` | Garis dekoratif, ilustrasi |
@@ -65,7 +65,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 | Pasangan | Rasio | Lolos |
 |---|---|---|
-| Teks `ink` di `bg` (terang) | 14.61:1 | AA |
+| Teks `ink` di `bg` (terang) | 15.71:1 | AA |
 | Teks `ink` di `bg` (gelap) | 16.52:1 | AA |
 | `btn-fg` di `btn-bg` (terang / gelap) | 7.23 / 9.59:1 | AA |
 | Putih di `banner` (terang) | 4.61:1 | AA |
@@ -73,7 +73,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | Putih di `charcoal` (terang / gelap) | 14.33 / 19.34:1 | AA |
 | `primary-700` di `primary-100` (terang / gelap) | 6.23 / 9.26:1 | AA |
 | `muted` di `surface` (terang / gelap) | 5.94 / 7.55:1 | AA |
-| `muted` di `bg` (terang) | 5.53:1 | AA |
+| `muted` di `bg` (terang) | 5.94:1 | AA |
 | `muted` di kartu pastel (terang: sun, sky, rose, mint, peach, lilac) | 4.57 sampai 5.21:1 | AA |
 | `on-accent` di `success` / `error` / `streak` (terang) | 6.69 / 5.30 / 7.23:1 | AA |
 | `on-accent` di `success` / `error` / `streak` (gelap) | 9.96 / 7.95 / 10.23:1 | AA |

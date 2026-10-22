@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Latar halaman dibuat putih
+
+1. **Latar halaman terang diubah dari krem `#FFF5EC` ke putih `#FFFFFF`.** Permintaan langsung dari pemilik proyek. Kartu putih (`surface`) sekarang sama warnanya dengan latar, sehingga kartu dibedakan lewat garis tepi `line` dan bayangan `shadow-card`. Di sidebar desktop, menu dan item aktifnya sama-sama putih, jadi item aktif hanya dibedakan lewat bayangan dan warna teks ungu.
+2. **Ikut diubah.** Warna splash PWA (`background_color` di `vite.config.ts`) dari `#FAF7FF` ke `#FFFFFF`.
+3. **Yang belum diubah.** `theme_color` PWA masih `#8B6BE6` (ungu lama). Mode gelap tidak berubah.
+4. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser (mode terang), latar Beranda terukur `rgb(255, 255, 255)` di HP dan desktop, dan tidak ada geser horizontal di HP.
+
 ## 2026-10-22: Teks muted digelapkan agar lolos AA di latar dan kartu pastel
 
 1. **Warna teks `muted` terang diubah dari `#77727F` ke `#66626D`.** Di latar krem kontrasnya naik dari 4,34:1 ke 5,53:1. Sebelumnya teks ini juga gagal di kartu pastel, bukan hanya di latar, dengan nilai terendah 3,59:1 di kartu peach. Sekarang nilai terendahnya 4,57:1, dan semua latar terang lolos AA untuk teks kecil.

@@ -15,7 +15,7 @@ export default defineConfig({
         short_name: 'EngHabits',
         description: 'Bangun kebiasaan Inggris, 2 jam setiap pagi, 90 hari.',
         theme_color: '#8B6BE6',
-        background_color: '#FAF7FF',
+        background_color: '#FFFFFF',
         display: 'standalone',
         start_url: '.',
         icons: [
