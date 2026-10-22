@@ -195,7 +195,7 @@ export function ProfilePage() {
       {/* Satu-satunya kartu berlatar ungu terang: akun, sebagai sorotan utama halaman. */}
       <Card className="flex flex-col gap-4 lg:col-span-2">
         <div className="flex items-center gap-3">
-          <span className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-ink">
+          <span className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-white">
             <UserRound size={22} aria-hidden="true" />
           </span>
           <h2 className="text-lg font-bold text-ink">Akun</h2>

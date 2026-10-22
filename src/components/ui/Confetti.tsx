@@ -1,14 +1,14 @@
 import { motion, useReducedMotion } from 'motion/react';
 import { useMemo } from 'react';
 
-const COLORS = ['#8B6BE6', '#C4A8FF', '#EBE1FF', '#5C3FA6', '#4CC9A0', '#FFB84D'];
+const COLORS = ['#7366DB', '#B6AEF2', '#E9E5FB', '#4D41B5', '#3DBE8B', '#F59A5C'];
 
 export type ConfettiProps = {
   count?: number;
 };
 
 /**
- * Confetti ungu-lavender untuk layar perayaan. Sekali main lalu diam.
+ * Confetti ungu, lavender, hijau, dan oranye untuk layar perayaan. Sekali main lalu diam.
  * Tidak tampil sama sekali bila pengguna meminta animasi dikurangi.
  */
 export function Confetti({ count = 48 }: ConfettiProps) {

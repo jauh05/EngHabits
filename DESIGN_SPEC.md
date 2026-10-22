@@ -33,46 +33,52 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 3. Palet (design tokens)
 
-**Rombak terbaru 2026-10-22 (mengikuti gambar 6, Olympiads).** Latar krem peach `#FFF4EA`, ungu `#6F5FE0` sebagai aksen, oranye `#FF8A3D` untuk tombol utama dengan teks gelap (kontras 7,2:1), dan charcoal `#1F1B2E` untuk teks. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Palet sebelumnya (Wordsy, lalu lavender) sudah digantikan. Nilai di tabel di bawah masih dari palet lama. Sumber kebenaran adalah `src/styles/tokens.css`. Tabel dibiarkan sebagai catatan sejarah dan akan diperbarui saat audit desain.
+**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar krem `#FFF5EC`, banner ungu `#7E72E6` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu.
 
 | Token | Terang | Gelap | Pemakaian |
 |---|---|---|---|
-| `bg` | `#FAF7FF` | `#1B1530` | Latar halaman |
-| `surface` | `#FFFFFF` | `#251D40` | Kartu, input |
-| `primary-100` | `#EBE1FF` | `#3A2F5C` | Latar lembut, chip, indikator stepper |
-| `primary-300` | `#C4A8FF` | `#7C66B8` | Garis dekoratif, ilustrasi |
-| `primary-500` | `#8B6BE6` | `#A98BFF` | Progres, fokus, ikon besar (non-teks) |
-| `primary-700` | `#5C3FA6` | `#CDBBFF` | Teks aksen, tombol utama (terang) |
-| `ink` | `#2B2140` | `#F3EFFF` | Teks utama |
-| `muted` | `#6B5F80` | `#B9AED6` | Teks sekunder, hint |
-| `line` | `#E6DCF7` | `#3D3262` | Garis tepi kartu dan input |
-| `track` | `#EBE1FF` | `#3A2F5C` | Jalur progres |
-| `success` | `#4CC9A0` | `#5FD9B0` | Jawaban benar (latar, ikon) |
-| `error` | `#FF7A93` | `#FF8FA3` | Jawaban salah (latar lembut, bukan merah keras) |
-| `streak` | `#FFB84D` | `#FFC46B` | Streak, api, lencana medium |
-| `on-accent` | `#2B2140` | `#1B1530` | Teks di atas success, error, streak |
-| `btn-bg` / `btn-fg` | `#7C5CE0` / `#FFFFFF` | `#A98BFF` / `#1B1530` | Tombol utama |
-| `tint-sun` | `#FFE8A3` | `#4D4019` | Kartu kuning (rencana, streak, hari lulus) |
-| `tint-sky` | `#CFE6FF` | `#1F3552` | Kartu biru (rata-rata, poin, pemutar audio) |
-| `tint-rose` | `#FFD6E7` | `#4A2339` | Kartu pink (Hard Challenge, rencana 3) |
-| `tint-mint` | `#C9F3E1` | `#1B4439` | Kartu mint (kesalahan, rencana 4) |
+| `bg` | `#FFF5EC` | `#17151F` | Latar halaman |
+| `surface` | `#FFFFFF` | `#22202C` | Kartu, input |
+| `primary-100` | `#E9E5FB` | `#2C2846` | Latar lembut, chip, indikator stepper |
+| `primary-300` | `#B6AEF2` | `#5E56A8` | Garis dekoratif, ilustrasi |
+| `primary-500` | `#7366DB` | `#A59CF0` | Progres, fokus, ikon besar (non-teks) |
+| `primary-700` | `#4D41B5` | `#D4CCFF` | Teks aksen |
+| `ink` | `#23222C` | `#F7F3FF` | Teks utama |
+| `muted` | `#77727F` | `#B5AFC4` | Teks sekunder, hint |
+| `line` | `#EFE3D6` | `#35324A` | Garis tepi kartu dan input |
+| `track` | `#F8DFC9` | `#2F2B40` | Jalur progres |
+| `success` | `#3DBE8B` | `#5BD6A2` | Jawaban benar (latar, ikon) |
+| `error` | `#F26B6B` | `#FF8A8A` | Jawaban salah (latar lembut, bukan merah keras) |
+| `streak` | `#F59A5C` | `#FFB27A` | Streak, api, lencana medium |
+| `on-accent` | `#23222C` | `#17151F` | Teks di atas success, error, streak |
+| `banner` | `#7E72E6` | `#4A3FA0` | Banner ungu (hero, kartu promo, avatar), teks putih |
+| `charcoal` | `#2A2934` | `#0E0D13` | Kartu gelap (tone `deep`), teks putih |
+| `btn-bg` / `btn-fg` | `#F59A5C` / `#23222C` | `#FFA96E` / `#17151F` | Tombol utama |
+| `tint-sun` | `#FFEFC4` | `#4A4020` | Kartu kuning (rencana, streak, hari lulus) |
+| `tint-sky` | `#D5E8F7` | `#1F3550` | Kartu biru (rata-rata, poin, pemutar audio) |
+| `tint-rose` | `#FFD9E6` | `#4A2A3C` | Kartu pink (Hard Challenge, rencana 3) |
+| `tint-mint` | `#CFEFE2` | `#1C4537` | Kartu mint (kesalahan, rencana 4) |
+| `tint-peach` | `#FBDCC4` | `#5A3A2B` | Kartu peach (cadangan, peringatan ringan) |
+| `tint-lilac` | `#E5E0FA` | `#2F2A55` | Kartu lilac (header sesi) |
 
 **Kontras yang sudah dihitung (rasio WCAG):**
 
 | Pasangan | Rasio | Lolos |
 |---|---|---|
-| Teks `ink` di `bg` (terang) | 14.2:1 | AA |
-| Teks `ink` di `bg` (gelap) | 15.6:1 | AA |
-| Putih di `primary-700` (tombol utama terang) | 7.7:1 | AA |
-| `#1B1530` di `primary-500` gelap (tombol utama gelap) | 6.5:1 | AA |
-| `primary-700` di `primary-100` | 6.2:1 | AA |
-| `muted` di `surface` (terang) | 5.9:1 | AA |
-| `muted` di `surface` (gelap) | 7.6:1 | AA |
-| `on-accent` di `success` / `error` / `streak` (terang) | 7.3 / 6.1 / 8.8:1 | AA |
-| `on-accent` di `success` / `error` / `streak` (gelap) | 10.1 / 8.1 / 11.2:1 | AA |
-| `primary-500` (terang) di `bg`, untuk fokus dan ikon | 3.7:1 | non-teks ≥3:1 |
+| Teks `ink` di `bg` (terang) | 14.61:1 | AA |
+| Teks `ink` di `bg` (gelap) | 16.52:1 | AA |
+| `btn-fg` di `btn-bg` (terang / gelap) | 7.23 / 9.59:1 | AA |
+| Putih di `banner` (terang) | 3.86:1 | Hanya teks besar (AA large). Teks kecil di atasnya belum lolos |
+| Putih di `banner` (gelap) | 8.37:1 | AA |
+| Putih di `charcoal` (terang / gelap) | 14.33 / 19.34:1 | AA |
+| `primary-700` di `primary-100` (terang / gelap) | 6.23 / 9.26:1 | AA |
+| `muted` di `surface` (terang / gelap) | 4.67 / 7.55:1 | AA |
+| `muted` di `bg` (terang) | 4.34:1 | Di bawah AA untuk teks kecil. Perlu ditinjau |
+| `on-accent` di `success` / `error` / `streak` (terang) | 6.69 / 5.30 / 7.23:1 | AA |
+| `on-accent` di `success` / `error` / `streak` (gelap) | 9.96 / 7.95 / 10.23:1 | AA |
+| `primary-500` (terang) di `surface` | 4.51:1 | AA, dan non-teks ≥3:1 |
 
-**Aturan:** `primary-500`, `success`, `error`, dan `streak` **tidak** dipakai sebagai warna teks di atas latar putih. Kontrasnya hanya 2.1 sampai 3.9:1. Warna itu dipakai untuk latar, ikon, dan progres, dan teks di atasnya memakai `on-accent`. Tombol utama memakai `primary-700` (bukan `primary-500`) untuk alasan yang sama.
+**Aturan:** `success`, `error`, dan `streak` **tidak** dipakai sebagai warna teks di atas latar putih. Kontrasnya hanya 2.2 sampai 3.0:1. Warna itu dipakai untuk latar, ikon, dan progres, dan teks di atasnya memakai `on-accent`. Tombol utama memakai `btn-bg` dengan teks `btn-fg` yang gelap, bukan teks putih di atas ungu.
 
 ## 4. Tipografi
 

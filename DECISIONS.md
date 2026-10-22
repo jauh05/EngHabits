@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Palet dari dalam ponsel gambar 25, teks putih di banner, dan kartu charcoal
+
+1. **Palet mengikuti bagian dalam ponsel, bukan latar poster.** Latar krem `#FFF5EC`, banner ungu `#7E72E6`, tombol oranye `#F59A5C` dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel (gambar 25) tidak diambil.
+2. **Teks di atas banner dibuat putih** (`text-white`) di Beranda, peta, profil, kalender, dan sidebar. Teks gelap di atas ungu yang baru tidak terbaca.
+3. **Tone `deep` sekarang berwarna.** Sebelumnya memakai `bg-charcoal`, tetapi token itu belum terdaftar di `@theme`, sehingga kartu tanpa warna. Sekarang `--charcoal` ada di `:root` dan mode gelap, dan `--color-charcoal` didaftarkan di `@theme inline`. Di browser, kartu Buku Kesalahan di Beranda sudah berwarna `#2A2934` dengan teks putih.
+4. **Confetti** memakai warna palet baru (ungu, lavender, hijau, oranye), supaya tidak tertinggal dari palet lama.
+5. **Dua kontras belum memenuhi AA, dan belum diubah.** Teks putih di banner terang hanya 3,86:1, sehingga hanya lolos untuk teks besar. Teks `muted` di latar krem hanya 4,34:1. Nilainya sengaja mengikuti ponsel, jadi pemilik proyek perlu memutuskan apakah banner atau teks abu-abu digelapkan sedikit. Angkanya ada di DESIGN_SPEC.md bagian 3.
+6. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser (mode terang): Beranda HP dan desktop, profil, peta, masuk, dan sesi hari 1 desktop sudah dicek. Mode gelap belum dicek di browser.
+
 ## 2026-10-22: Palet Olympiads, login ala moimoi, sambutan ala Readly, dan sesi yang lebih hidup
 
 1. **Palet diganti total mengikuti gambar 6 (Olympiads).** Latar krem peach, ungu aksen, oranye untuk tombol utama dengan teks gelap, charcoal untuk teks, dan kartu pastel (sun, sky, rose, mint, peach, lilac). Tidak ada perubahan nama token, jadi komponen tidak perlu diubah.

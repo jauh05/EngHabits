@@ -31,7 +31,7 @@ export function MonthCalendar({ sessionDates, today }: { sessionDates: ReadonlyS
           const isToday = iso === today;
           const done = sessionDates.has(iso);
           const tone = isToday
-            ? 'bg-banner font-extrabold text-ink'
+            ? 'bg-banner font-extrabold text-white'
             : done
               ? 'bg-tint-mint font-bold text-ink'
               : 'text-ink';

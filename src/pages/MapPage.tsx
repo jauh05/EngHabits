@@ -13,7 +13,7 @@ import { easeOut } from '../lib/motion';
 /** Kotak hari di kisi minggu. */
 const GRID_STATUS: Record<DayStatus, string> = {
   completed: 'bg-success text-on-accent border-transparent',
-  available: 'bg-banner text-ink border-transparent shadow-card',
+  available: 'bg-banner text-white border-transparent shadow-card',
   repair: 'bg-tint-peach text-ink border-transparent',
   locked: 'bg-surface/70 text-muted border-transparent',
   nocontent: 'bg-surface/70 text-muted border-dashed border-ink/20',
@@ -214,7 +214,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
             : item.status === 'available' || item.status === 'repair'
               ? item.status === 'repair'
                 ? 'bg-tint-peach text-ink border-streak'
-                : 'bg-banner text-ink border-primary-500'
+                : 'bg-banner text-white border-primary-500'
               : item.status === 'locked'
                 ? `${tintFor(weekOf(item.day))} border-transparent text-ink/60`
                 : `${tintFor(weekOf(item.day))} border-dashed border-ink/20 text-ink/50`;

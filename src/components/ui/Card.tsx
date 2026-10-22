@@ -18,7 +18,7 @@ const TONES: Record<CardTone, string> = {
   mint: 'bg-tint-mint border-transparent',
   peach: 'bg-tint-peach border-transparent',
   /** Kartu ungu tua dengan teks putih, untuk satu sorotan seperti kartu gelap di referensi. */
-  deep: 'bg-primary-700 border-transparent text-white',
+  deep: 'bg-charcoal border-transparent text-white',
 };
 
 export function Card({

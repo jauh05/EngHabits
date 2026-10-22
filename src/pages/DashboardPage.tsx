@@ -233,7 +233,7 @@ export function DashboardPage() {
             </div>
             <span
               aria-hidden="true"
-              className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-lg font-extrabold text-ink shadow-card lg:hidden"
+              className="grid size-12 shrink-0 place-items-center rounded-full bg-banner text-lg font-extrabold text-white shadow-card lg:hidden"
             >
               {initial}
             </span>
@@ -242,7 +242,7 @@ export function DashboardPage() {
 
         <Reveal index={1}>
           <div className="flex flex-col gap-4">
-            <section className="relative overflow-hidden rounded-card bg-banner p-6 text-ink shadow-card">
+            <section className="relative overflow-hidden rounded-card bg-banner p-6 text-white shadow-card">
               <Blob className="-right-10 -top-10 size-40 bg-white/40" />
               <Blob className="-bottom-12 right-12 size-24 bg-white/25" />
               <StackIllustration className="pointer-events-none absolute -right-2 top-3 w-32 sm:w-40" />
@@ -442,7 +442,7 @@ export function DashboardPage() {
       <aside className="flex flex-col gap-6">
         <Reveal index={2}>
           <Card className="flex flex-col items-center gap-4 text-center">
-            <span className="grid size-14 place-items-center rounded-full bg-banner text-xl font-extrabold text-ink">
+            <span className="grid size-14 place-items-center rounded-full bg-banner text-xl font-extrabold text-white">
               {initial}
             </span>
             <div>

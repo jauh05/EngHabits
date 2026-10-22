@@ -98,7 +98,7 @@ function Sidebar() {
         ))}
       </nav>
 
-      <div className="flex flex-col gap-3 rounded-3xl bg-banner p-5 text-ink">
+      <div className="flex flex-col gap-3 rounded-3xl bg-banner p-5 text-white">
         <p className="text-sm font-semibold">Hari berikutnya</p>
         <p className="text-xl font-extrabold">{next ? `Hari ke-${next}` : 'Semua selesai'}</p>
         {next && (
