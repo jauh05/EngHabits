@@ -44,7 +44,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | `primary-500` | `#7366DB` | `#A59CF0` | Progres, fokus, ikon besar (non-teks) |
 | `primary-700` | `#4D41B5` | `#D4CCFF` | Teks aksen |
 | `ink` | `#23222C` | `#F7F3FF` | Teks utama |
-| `muted` | `#77727F` | `#B5AFC4` | Teks sekunder, hint |
+| `muted` | `#66626D` | `#B5AFC4` | Teks sekunder, hint |
 | `line` | `#EFE3D6` | `#35324A` | Garis tepi kartu dan input |
 | `track` | `#F8DFC9` | `#2F2B40` | Jalur progres |
 | `success` | `#3DBE8B` | `#5BD6A2` | Jawaban benar (latar, ikon) |
@@ -72,8 +72,9 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | Putih di `banner` (gelap) | 8.37:1 | AA |
 | Putih di `charcoal` (terang / gelap) | 14.33 / 19.34:1 | AA |
 | `primary-700` di `primary-100` (terang / gelap) | 6.23 / 9.26:1 | AA |
-| `muted` di `surface` (terang / gelap) | 4.67 / 7.55:1 | AA |
-| `muted` di `bg` (terang) | 4.34:1 | Di bawah AA untuk teks kecil. Perlu ditinjau |
+| `muted` di `surface` (terang / gelap) | 5.94 / 7.55:1 | AA |
+| `muted` di `bg` (terang) | 5.53:1 | AA |
+| `muted` di kartu pastel (terang: sun, sky, rose, mint, peach, lilac) | 4.57 sampai 5.21:1 | AA |
 | `on-accent` di `success` / `error` / `streak` (terang) | 6.69 / 5.30 / 7.23:1 | AA |
 | `on-accent` di `success` / `error` / `streak` (gelap) | 9.96 / 7.95 / 10.23:1 | AA |
 | `primary-500` (terang) di `surface` | 4.51:1 | AA, dan non-teks ≥3:1 |

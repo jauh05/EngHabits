@@ -2,6 +2,12 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Teks muted digelapkan agar lolos AA di latar dan kartu pastel
+
+1. **Warna teks `muted` terang diubah dari `#77727F` ke `#66626D`.** Di latar krem kontrasnya naik dari 4,34:1 ke 5,53:1. Sebelumnya teks ini juga gagal di kartu pastel, bukan hanya di latar, dengan nilai terendah 3,59:1 di kartu peach. Sekarang nilai terendahnya 4,57:1, dan semua latar terang lolos AA untuk teks kecil.
+2. **Yang tidak berubah.** Warna `muted` mode gelap tetap (`#B5AFC4`).
+3. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser (mode terang), `--muted` terbaca `#66626d` dan teks muted di Beranda terukur `rgb(102, 98, 109)`.
+
 ## 2026-10-22: Banner diturunkan sedikit agar teks putih lolos AA
 
 1. **Warna banner terang diubah dari `#7E72E6` ke `#7165D8`.** Kontras teks putih naik dari 3,86:1 ke 4,61:1, sehingga lolos AA untuk teks kecil. Warnanya tetap ungu, hanya sedikit lebih dalam. Nilai ini dipilih sebagai perubahan terkecil yang lolos dengan sedikit margin.
