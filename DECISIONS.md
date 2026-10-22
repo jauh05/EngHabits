@@ -2,6 +2,12 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Tautan bergaris bawah jadi tombol
+
+1. **Tautan aksi jadi tombol sekunder atau primer.** "Kembali ke beranda" di sesi evaluasi dan di Laporan kesiapan (sekunder, ikon Home). Tautan "Masuk" dan "Daftar" di halaman Mulai, Masuk, dan Daftar: teks "Sudah punya akun?" atau "Belum punya akun?" di baris sendiri, lalu tombol sekunder selebar penuh.
+2. **Yang tetap bergaris bawah.** Kata kosakata di blok latihan (`PracticeBlock`) memakai garis titik-titik. Itu kata di dalam paragraf bacaan, bukan tombol aksi. Kalau semuanya dijadikan tombol, paragraf bacaannya tidak terbaca. Kalau diminta, bisa diubah ke gaya lain.
+3. **Verifikasi.** Typecheck, 51 tes, dan build lolos. Di browser, halaman Masuk sudah dicek di HP. Sesi evaluasi dan Laporan kesiapan belum bisa dilihat di browser, karena keduanya hanya muncul setelah ada data.
+
 ## 2026-10-22: Roadmap tanpa panel hijau, dan latihan perbaikan jadi tombol
 
 1. **Panel hijau tua roadmap dihapus.** Roadmap langsung di atas latar lime. Node aktif jadi hijau tua (`btn-bg`), karena lime akan menyatu dengan latar. Teks progres memakai `ink`, bintang kosong memakai `ink/30`, dan jalur memakai pita putih 40% dengan garis putus putih. Blob dekoratif dihapus, karena terpotong menjadi kotak samar.

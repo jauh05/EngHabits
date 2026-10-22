@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router';
 import { AuthFrame } from '../components/auth/AuthFrame';
 import { SocialButtons } from '../components/auth/SocialButtons';
 import { BlobCluster } from '../components/ui/BlobCluster';
-import { Button } from '../components/ui/Button';
+import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { createAccount, PASSWORD_MIN_LENGTH, validateRegistration } from '../lib/auth';
 import { useSettings } from '../lib/settings';
@@ -91,12 +91,12 @@ export function DaftarPage() {
 
       <SocialButtons />
 
-      <p className="text-center text-sm text-muted">
-        Sudah punya akun?{' '}
-        <Link to="/masuk" className="font-semibold text-primary-700 underline underline-offset-4">
+      <div className="flex flex-col items-center gap-3 text-center text-sm text-muted">
+        <p>Sudah punya akun?</p>
+        <Link to="/masuk" className={buttonClass('secondary', 'lg', 'w-full hover:scale-[1.02]')}>
           Masuk
         </Link>
-      </p>
+      </div>
     </AuthFrame>
   );
 }

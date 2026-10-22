@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { AlertTriangle, Dumbbell } from 'lucide-react';
+import { AlertTriangle, Dumbbell, Home } from 'lucide-react';
 import { buttonClass } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Badge } from '../components/ui/Badge';
@@ -42,7 +42,8 @@ export function ReadinessPage() {
             Selesaikan minimal {MIN_DAYS_FOR_READINESS} hari dulu, lalu laporan ini menampilkan perkiraan. Sekarang ada{' '}
             {stats.completedDays} hari selesai.
           </p>
-          <Link to="/" className="font-semibold text-primary-700 underline">
+          <Link to="/" className={buttonClass('secondary', 'md', 'self-start hover:scale-[1.02]')}>
+            <Home size={18} aria-hidden="true" />
             Kembali ke beranda
           </Link>
         </Card>

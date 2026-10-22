@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ArrowLeft, ArrowRight, BookOpen, Sunrise, TrendingUp } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { ArtTile, AuthFrame } from '../components/auth/AuthFrame';
-import { Button } from '../components/ui/Button';
+import { Button, buttonClass } from '../components/ui/Button';
 
 const SLIDES = [
   {
@@ -97,12 +97,12 @@ export function MulaiPage() {
         )}
       </div>
 
-      <p className="text-center text-sm text-muted">
-        Sudah punya akun?{' '}
-        <Link to="/masuk" className="font-semibold text-primary-700 underline underline-offset-4">
+      <div className="flex flex-col items-center gap-3 text-center text-sm text-muted">
+        <p>Sudah punya akun?</p>
+        <Link to="/masuk" className={buttonClass('secondary', 'lg', 'w-full hover:scale-[1.02]')}>
           Masuk
         </Link>
-      </p>
+      </div>
     </AuthFrame>
   );
 }

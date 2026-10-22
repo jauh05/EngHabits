@@ -1,7 +1,8 @@
 import { AnimatePresence, motion } from 'motion/react';
-import { Check, ChevronDown, Copy, RotateCcw, X } from 'lucide-react';
+import { Check, ChevronDown, Copy, Home, RotateCcw, X } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
+import { buttonClass } from '../ui/Button';
 import type { Day, ProductionTask, Question } from '../../../content/schema';
 import type { DayProgress, Attempt } from '../../lib/db';
 import type { DayResult, ItemResult, Part } from '../../lib/grading';
@@ -382,7 +383,8 @@ export function EvaluationView({ day, result, attempt, progress, isFirst, passed
           Ulangi hari ini
         </Button>
       </div>
-      <Link to="/" className="self-center text-sm font-semibold text-primary-700 underline underline-offset-4">
+      <Link to="/" className={buttonClass('secondary', 'md', 'self-center hover:scale-[1.02]')}>
+        <Home size={18} aria-hidden="true" />
         Kembali ke beranda
       </Link>
 
