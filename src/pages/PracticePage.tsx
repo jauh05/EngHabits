@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router';
-import { CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowLeft, BookOpen, CheckCircle2, XCircle } from 'lucide-react';
 import { easeOut } from '../lib/motion';
 import type { Day, Question } from '../../content/schema';
 import { Badge } from '../components/ui/Badge';
-import { Button } from '../components/ui/Button';
+import { Button, buttonClass } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { loadDay } from '../lib/content';
 import { updateMistake } from '../lib/db';
@@ -106,19 +106,21 @@ export function PracticePage() {
           <CheckCircle2 size={32} aria-hidden="true" className="mx-auto text-success" />
           <p className="font-semibold text-ink">Tidak ada soal jatuh tempo hari ini.</p>
           <p className="text-sm text-muted">Kembali besok, atau kerjakan hari berikutnya di peta.</p>
-          <Link to="/kesalahan" className="font-semibold text-primary-700 underline">
+          <Link to="/kesalahan" className={buttonClass('primary', 'lg', 'mt-2 self-center hover:scale-[1.02]')}>
+            <BookOpen size={20} aria-hidden="true" />
             Lihat Buku Kesalahan
           </Link>
         </Card>
       )}
 
-      {finished && queue && (
+      {finished && queue && queue.length > 0 && (
         <Card className="flex flex-col gap-3">
           <h2 className="text-xl font-bold text-ink">Sesi selesai</h2>
           <p className="text-ink">
             Benar {correctCount} dari {queue.length} soal.
           </p>
-          <Link to="/kesalahan" className="font-semibold text-primary-700 underline">
+          <Link to="/kesalahan" className={buttonClass('primary', 'lg', 'self-start hover:scale-[1.02]')}>
+            <ArrowLeft size={20} aria-hidden="true" />
             Kembali ke Buku Kesalahan
           </Link>
         </Card>

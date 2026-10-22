@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Tautan Buku Kesalahan jadi tombol 3D
+
+1. **Kelas tombol bisa dipakai tautan.** `buttonClass` di `Button.tsx` berisi kelas dasar tombol, dan `Button` memakainya. `Link` tidak bisa dibungkus `Button`, jadi tautan memakai `buttonClass` langsung.
+2. **Tiga tautan jadi tombol primer dengan ikon.** "Lihat Buku Kesalahan" di Latihan (ikon buku), "Kembali ke Buku Kesalahan" di kartu sesi selesai (ikon panah), dan "Mulai latihan perbaikan" di Buku Kesalahan (ikon latihan).
+3. **Kartu "Sesi selesai" hanya muncul jika ada soal.** Sebelumnya muncul "Benar 0 dari 0 soal" saat antrean kosong.
+4. **Verifikasi.** Typecheck, 51 tes, dan build lolos. Di browser (HP), Latihan dalam keadaan kosong dan Buku Kesalahan sudah dicek. Kartu sesi selesai dengan soal, dan tampilan desktop, belum dicek.
+
 ## 2026-10-22: Palet hijau, kartu 3D, dan latar lime
 
 1. **Palet diganti dari ungu ke hijau.** Latar lime `#9CD548` di semua layar (gambar 28), kartu putih, tombol dan banner hijau tua `#1F7A3A` dengan teks putih. Keputusan dari pemilik proyek. Latar lime dipilih penuh, bukan mint.

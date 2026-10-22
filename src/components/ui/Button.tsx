@@ -27,6 +27,13 @@ const sizes: Record<Size, string> = {
   icon: 'size-11 p-0',
 };
 
+/**
+ * Kelas tombol. Dipakai juga oleh tautan yang tampil sebagai tombol (Link), karena Link tidak bisa dibungkus Button.
+ */
+export function buttonClass(variant: Variant = 'primary', size: Size = 'md', className = ''): string {
+  return `inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 disabled:cursor-not-allowed disabled:opacity-50 ${variants[variant]} ${sizes[size]} ${className}`;
+}
+
 export function Button({
   variant = 'primary',
   size = 'md',
@@ -40,7 +47,7 @@ export function Button({
       whileHover={{ scale: 1.02 }}
       whileTap={{ scale: 0.97 }}
       transition={spring}
-      className={`inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-colors outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary-500 disabled:cursor-not-allowed disabled:opacity-50 ${variants[variant]} ${sizes[size]} ${className}`}
+      className={buttonClass(variant, size, className)}
       {...props}
     />
   );
