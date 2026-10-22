@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Plus } from 'lucide-react';
 import { Button } from '../ui/Button';
 import { ProgressRing } from '../ui/ProgressRing';
 
@@ -22,20 +23,21 @@ export function BlockTimer({ minutes }: { minutes: number }) {
   const lastFive = remaining > 0 && remaining <= 300;
 
   return (
-    <div className="flex items-center gap-4 rounded-card border border-line bg-surface p-3 shadow-card">
-      <ProgressRing value={remaining / total} size={56} stroke={6} tone={lastFive ? 'warning' : 'default'}>
-        <span className="text-xs font-bold tabular-nums text-ink">{minutesLeft}m</span>
+    <div className="flex items-center gap-4 rounded-card bg-surface p-4 shadow-card">
+      <ProgressRing value={remaining / total} size={72} stroke={8} tone={lastFive ? 'warning' : 'default'}>
+        <span className="text-xs font-extrabold tabular-nums text-ink">{minutesLeft}m</span>
       </ProgressRing>
       <div className="flex flex-1 flex-col">
-        <p className="text-sm font-bold tabular-nums text-ink">
+        <p className="text-2xl font-extrabold tabular-nums text-ink">
           {String(minutesLeft).padStart(2, '0')}:{secondsLeft}
         </p>
-        <p className="text-xs text-muted">
+        <p className="text-xs font-semibold text-muted">
           {remaining === 0 ? 'Waktu panduan habis. Lanjutkan saja.' : lastFive ? 'Lima menit terakhir' : 'Waktu panduan blok ini'}
         </p>
       </div>
-      <Button variant="ghost" size="md" onClick={() => setExtraMinutes((value) => value + 5)}>
-        +5 menit
+      <Button variant="secondary" size="md" onClick={() => setExtraMinutes((value) => value + 5)}>
+        <Plus size={16} aria-hidden="true" />
+        5 menit
       </Button>
     </div>
   );

@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Palet Olympiads, login ala moimoi, sambutan ala Readly, dan sesi yang lebih hidup
+
+1. **Palet diganti total mengikuti gambar 6 (Olympiads).** Latar krem peach, ungu aksen, oranye untuk tombol utama dengan teks gelap, charcoal untuk teks, dan kartu pastel (sun, sky, rose, mint, peach, lilac). Tidak ada perubahan nama token, jadi komponen tidak perlu diubah.
+2. **Login mengikuti gambar 1 (moimoi).** Bagian atas berisi wordmark, karakter bulat berwarna (`BlobCluster`, dibuat sendiri dengan SVG), dan balon "Hello~". Bagian bawah berisi judul, email, kata sandi, tombol oranye, dan tombol Google dan Apple yang masih nonaktif.
+3. **Sambutan mengikuti gambar 2 (Readly).** Karakter besar di atas, judul dua baris dengan nama tebal, dan tombol oranye.
+4. **Halaman sesi mengikuti gambar 3, 4, dan 5, dan contoh kosakata di paste.** Header berupa kartu lilac dengan bola peach, bar soal terjawab, dan langkah berwarna (selesai hijau, aktif oranye). Timer berbentuk kartu dengan cincin besar. Kosakata berupa kartu berwarna berselang, tidak lagi tabel. Soal berupa pilihan pil dengan huruf dalam lingkaran.
+5. **Bug kecil.** Header sesi sempat bergeser saat fokus berpindah ke langkah, karena `overflow-hidden` masih bisa digeser. Diganti `overflow-clip`.
+6. **Verifikasi.** Typecheck dan 51 tes lolos. Di browser (HP): login, sambutan, sesi blok kosakata dan blok latihan, serta Beranda dengan palet baru sudah dicek. Desktop dan mode gelap belum dicek ulang.
+
 ## 2026-10-22: Warna Peta dan Profil disesuaikan, dan dua bug alur akun diverifikasi
 
 1. **Profil tidak lagi bertabrakan.** Semua kartu bagian berlatar putih. Warna pastel hanya dipakai di kotak ikon kecil (sun untuk tampilan, sky untuk suara, mint untuk pengingat, peach untuk cadangan, rose untuk data belajar). Kartu akun memakai avatar ungu sebagai sorotan. Pilihan yang aktif tetap ungu.

@@ -2,26 +2,25 @@ import type { ReactNode } from 'react';
 import { Blob } from '../ui/Blob';
 
 /**
- * Kerangka layar mulai, daftar, dan masuk, seperti gambar 5.
- * HP: area ilustrasi di atas, lembar putih melengkung di bawah.
- * Desktop: ilustrasi di kiri, formulir di kanan.
+ * Kerangka layar mulai, daftar, dan masuk. Pola gambar 1 dan 2: bagian atas berwarna dengan karakter,
+ * bagian bawah lembar putih melengkung. HP: atas di atas, bawah di bawah. Desktop: dua kolom berdampingan.
  */
 export function AuthFrame({ art, children }: { art: ReactNode; children: ReactNode }) {
   return (
     <div className="flex min-h-dvh flex-col bg-bg lg:flex-row">
-      <section className="relative flex min-h-[42dvh] items-center justify-center overflow-hidden bg-linear-to-b from-primary-100 via-bg to-banner px-6 py-10 lg:min-h-dvh lg:flex-1 lg:px-16">
+      <section className="relative flex min-h-[44dvh] items-center justify-center overflow-hidden bg-linear-to-b from-tint-sky via-tint-lilac to-tint-sky px-6 py-10 lg:min-h-dvh lg:flex-1 lg:px-16">
         <Blob className="-right-16 -top-16 size-64 bg-white/60" />
-        <Blob className="-left-10 bottom-10 size-40 bg-white/40" />
+        <Blob className="-left-10 bottom-10 size-40 bg-tint-peach/70" />
         <div className="relative flex w-full max-w-sm flex-col items-center">{art}</div>
       </section>
-      <section className="relative -mt-8 flex flex-1 flex-col gap-6 rounded-t-[32px] bg-surface px-6 pb-10 pt-8 shadow-card lg:mt-0 lg:min-h-dvh lg:max-w-lg lg:justify-center lg:rounded-none lg:px-14 lg:shadow-none">
+      <section className="relative -mt-8 flex flex-1 flex-col gap-6 rounded-t-[36px] bg-surface px-6 pb-10 pt-8 shadow-card lg:mt-0 lg:min-h-dvh lg:max-w-lg lg:justify-center lg:rounded-none lg:px-14 lg:shadow-none">
         {children}
       </section>
     </div>
   );
 }
 
-/** Ilustrasi kotak berwarna dengan ikon besar, untuk slide mulai. */
+/** Kotak berwarna dengan isi di tengah, untuk slide mulai. */
 export function ArtTile({ tint, children }: { tint: string; children: ReactNode }) {
   return (
     <div className={`relative grid size-56 place-items-center rounded-[40px] shadow-card sm:size-64 ${tint}`}>

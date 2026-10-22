@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
-import { ArtTile, AuthFrame } from '../components/auth/AuthFrame';
+import { AuthFrame } from '../components/auth/AuthFrame';
 import { SocialButtons } from '../components/auth/SocialButtons';
-import { StackIllustration } from '../components/ui/Illustration';
+import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { checkCredentials } from '../lib/auth';
@@ -43,9 +43,16 @@ export function MasukPage() {
   };
 
   return (
-    <AuthFrame art={<ArtTile tint="bg-tint-sky"><StackIllustration className="w-20 sm:w-24" /></ArtTile>}>
+    <AuthFrame
+      art={
+        <div className="flex flex-col items-center gap-2">
+          <p className="text-4xl font-black tracking-tight text-ink">EngHabits</p>
+          <BlobCluster bubble="Hello~" className="w-72 sm:w-80" />
+        </div>
+      }
+    >
       <div className="flex flex-col gap-2 text-center lg:text-left">
-        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Masuk</h1>
+        <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Masuk untuk mulai</h1>
         <p className="text-muted">Lanjutkan kebiasaanmu dari perangkat ini.</p>
       </div>
 

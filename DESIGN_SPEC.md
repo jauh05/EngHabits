@@ -33,7 +33,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 3. Palet (design tokens)
 
-**Rombak 2026-10-22 (mengikuti gambar 6, Wordsy).** Ungu cerah sebagai warna utama, biru muda dan mint sebagai aksen, latar lavender sangat muda, dan teks hampir hitam. Tombol utama `#6A4FE0` dengan teks putih (kontras 5,5:1). Nilai di tabel di bawah masih dari palet lama. Sumber kebenaran adalah `src/styles/tokens.css`. Tabel dibiarkan sebagai catatan sejarah dan akan diperbarui saat audit desain.
+**Rombak terbaru 2026-10-22 (mengikuti gambar 6, Olympiads).** Latar krem peach `#FFF4EA`, ungu `#6F5FE0` sebagai aksen, oranye `#FF8A3D` untuk tombol utama dengan teks gelap (kontras 7,2:1), dan charcoal `#1F1B2E` untuk teks. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Palet sebelumnya (Wordsy, lalu lavender) sudah digantikan. Nilai di tabel di bawah masih dari palet lama. Sumber kebenaran adalah `src/styles/tokens.css`. Tabel dibiarkan sebagai catatan sejarah dan akan diperbarui saat audit desain.
 
 | Token | Terang | Gelap | Pemakaian |
 |---|---|---|---|

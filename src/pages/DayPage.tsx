@@ -10,6 +10,7 @@ import { PracticeBlock } from '../components/session/PracticeBlock';
 import { VocabBlock } from '../components/session/VocabBlock';
 import { answeredCount } from '../components/session/QuestionList';
 import { BlockTimer } from '../components/session/BlockTimer';
+import { Blob } from '../components/ui/Blob';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Modal } from '../components/ui/Modal';
@@ -170,21 +171,48 @@ function DaySession({ day }: { day: number }) {
 
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-md flex-col gap-5 px-4 pb-10 pt-5 sm:max-w-2xl lg:max-w-4xl">
-      <header className="flex flex-col gap-3">
-        <Link
-          to="/"
-          className="inline-flex min-h-11 w-fit items-center gap-1 rounded-full text-sm font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
-        >
-          <ArrowLeft size={18} aria-hidden="true" />
-          Beranda
-        </Link>
-        <div>
-          <p className="text-sm font-bold text-primary-700">
-            Hari {day} · Minggu {view.week} · {view.skillFocus === 'reading' ? 'Membaca' : 'Mendengarkan'}
-          </p>
-          <h1 className="text-2xl font-extrabold text-ink">{view.title}</h1>
+      {/* Kartu sesi: pola gambar 3 dan 5. Latar lilac dengan bola peach, bar soal terjawab, dan langkah berwarna. */}
+      <header className="relative flex flex-col gap-4 overflow-clip rounded-card bg-tint-lilac p-5 shadow-card">
+        <Blob className="-right-12 -top-12 size-44 bg-tint-peach/80" />
+        <Blob className="-bottom-12 -left-10 size-36 bg-tint-sky/80" />
+        <div className="relative flex items-center justify-between gap-3">
+          <Link
+            to="/"
+            className="inline-flex min-h-11 items-center gap-1 rounded-full bg-surface px-4 text-sm font-bold text-ink shadow-card outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
+          >
+            <ArrowLeft size={18} aria-hidden="true" />
+            Beranda
+          </Link>
+          <span className="rounded-full bg-surface px-3 py-1.5 text-xs font-bold text-ink shadow-card">
+            {view.skillFocus === 'reading' ? 'Membaca' : 'Mendengarkan'}
+          </span>
         </div>
-        <Stepper steps={BLOCKS} current={block} onSelect={setBlock} label="Blok sesi harian" />
+        <div className="relative">
+          <p className="text-sm font-bold text-primary-700">
+            Hari {day} · Minggu {view.week}
+          </p>
+          <h1 className="text-2xl font-extrabold leading-tight text-ink sm:text-3xl">{view.title}</h1>
+        </div>
+        <div className="relative flex flex-col gap-2">
+          <div className="flex justify-between text-sm font-bold text-ink">
+            <span>Soal terjawab</span>
+            <span className="tabular-nums">
+              {allIds.length - unanswered}/{allIds.length}
+            </span>
+          </div>
+          <div className="h-3 overflow-hidden rounded-full bg-surface" role="progressbar" aria-label="Soal terjawab" aria-valuemin={0} aria-valuemax={allIds.length} aria-valuenow={allIds.length - unanswered}>
+            <motion.div
+              className="h-full origin-left rounded-full bg-primary-500"
+              initial={false}
+              animate={{ scaleX: allIds.length === 0 ? 0 : (allIds.length - unanswered) / allIds.length }}
+              transition={{ duration: 0.4, ease: easeOut }}
+              style={{ width: '100%' }}
+            />
+          </div>
+        </div>
+        <div className="relative">
+          <Stepper steps={BLOCKS} current={block} onSelect={setBlock} label="Blok sesi harian" />
+        </div>
       </header>
 
       {completedBefore && previousScore && (

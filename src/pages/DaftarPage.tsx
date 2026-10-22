@@ -1,9 +1,9 @@
 import { useState, type FormEvent } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
-import { ArtTile, AuthFrame } from '../components/auth/AuthFrame';
+import { AuthFrame } from '../components/auth/AuthFrame';
 import { SocialButtons } from '../components/auth/SocialButtons';
-import { StackIllustration } from '../components/ui/Illustration';
+import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { createAccount, PASSWORD_MIN_LENGTH, validateRegistration } from '../lib/auth';
@@ -44,7 +44,7 @@ export function DaftarPage() {
   };
 
   return (
-    <AuthFrame art={<ArtTile tint="bg-tint-rose"><StackIllustration className="w-20 sm:w-24" /></ArtTile>}>
+    <AuthFrame art={<BlobCluster bubble="Yay!" className="w-72 sm:w-80" />}>
       <div className="flex flex-col gap-2 text-center lg:text-left">
         <h1 className="text-3xl font-extrabold text-ink lg:text-4xl">Buat akun</h1>
         <p className="text-muted">Akun disimpan di perangkat ini. Belum tersinkron ke server.</p>

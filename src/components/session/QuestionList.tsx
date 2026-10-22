@@ -12,15 +12,15 @@ type Props = {
   onSelect: (optionId: string) => void;
 };
 
-/** Satu soal pilihan ganda. Kunci dan penjelasan tidak dimuat di sini. */
+/** Satu soal pilihan ganda, gaya kuis seperti gambar 5. Kunci dan penjelasan tidak dimuat di sini. */
 export function QuestionCard({ question, index, selected, onSelect }: Props) {
   return (
     <Card className="flex flex-col gap-4">
       <div className="flex items-center justify-between gap-2">
-        <span className="text-sm font-bold text-muted">{question.id}</span>
+        <span className="rounded-full bg-tint-lilac px-3 py-1 text-xs font-extrabold text-ink">{question.id}</span>
         <Badge tone={question.difficulty} />
       </div>
-      <p className="text-base font-semibold leading-relaxed text-ink">
+      <p className="text-lg font-bold leading-relaxed text-ink">
         {index + 1}. {question.prompt}
       </p>
       <div role="radiogroup" aria-label={question.prompt} className="flex flex-col gap-2">
@@ -36,15 +36,15 @@ export function QuestionCard({ question, index, selected, onSelect }: Props) {
               animate={{ scale: isSelected ? 1.02 : 1 }}
               whileTap={{ scale: 0.97 }}
               transition={bounce}
-              className={`flex min-h-11 items-center gap-3 rounded-2xl border px-4 py-3 text-left text-base outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
+              className={`flex min-h-12 items-center gap-3 rounded-full border-2 px-4 py-2.5 text-left text-base outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
                 isSelected
-                  ? 'border-primary-500 bg-primary-100 font-semibold text-primary-700'
-                  : 'border-line bg-surface text-ink hover:border-primary-300'
+                  ? 'border-primary-500 bg-primary-100 font-bold text-ink'
+                  : 'border-transparent bg-bg text-ink hover:border-primary-300'
               }`}
             >
               <span
-                className={`grid size-7 shrink-0 place-items-center rounded-full border text-sm font-bold ${
-                  isSelected ? 'border-primary-700 bg-primary-700 text-btn-fg' : 'border-line text-muted'
+                className={`grid size-8 shrink-0 place-items-center rounded-full text-sm font-extrabold shadow-card ${
+                  isSelected ? 'bg-primary-500 text-white' : 'bg-surface text-ink'
                 }`}
                 aria-hidden="true"
               >
@@ -74,10 +74,10 @@ export function TaskInput({
   return (
     <Card className="flex flex-col gap-3">
       <div className="flex items-center justify-between gap-2">
-        <span className="text-sm font-bold text-muted">{task.id}</span>
+        <span className="rounded-full bg-tint-lilac px-3 py-1 text-xs font-extrabold text-ink">{task.id}</span>
         <Badge tone={task.difficulty} />
       </div>
-      <label htmlFor={fieldId} className="text-base font-semibold leading-relaxed text-ink">
+      <label htmlFor={fieldId} className="text-lg font-bold leading-relaxed text-ink">
         {index + 1}. Terjemahkan ke bahasa Inggris:
         <span className="mt-1 block text-lg text-primary-700">{task.promptId}</span>
       </label>
@@ -88,7 +88,7 @@ export function TaskInput({
         value={value ?? ''}
         onChange={(event) => onChange(event.target.value)}
         placeholder="Tulis jawabanmu di sini"
-        className="w-full resize-none rounded-2xl border border-line bg-surface p-3 text-base text-ink outline-none placeholder:text-muted focus:border-primary-500 focus:shadow-[0_0_0_4px_var(--primary-100)]"
+        className="w-full resize-none rounded-2xl border border-line bg-bg p-3 text-base text-ink outline-none placeholder:text-muted focus:border-primary-500 focus:shadow-[0_0_0_4px_var(--primary-100)]"
       />
     </Card>
   );

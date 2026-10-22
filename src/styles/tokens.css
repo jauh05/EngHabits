@@ -1,65 +1,67 @@
 /*
  * Design tokens EngHabits. Sumber kebenaran warna, radius, dan bayangan.
- * Palet mengikuti referensi Wordsy: ungu cerah, biru muda, mint, dan teks hampir hitam.
+ * Palet mengikuti gambar 6 (Olympiads): krem peach, ungu, oranye, dan charcoal, dengan kartu pastel.
  * Nilai di sini harus sama dengan tabel di DESIGN_SPEC.md.
  * Mode gelap aktif lewat <html data-theme="dark">. Default: terang.
  */
 
 :root {
   color-scheme: light;
-  --bg: #f5f3ff;
+  --bg: #fff4ea;
   --surface: #ffffff;
-  --primary-100: #ede7ff;
-  --primary-300: #b9a5ff;
-  --primary-500: #8a6cf2;
-  --primary-700: #5b3fd0;
-  --ink: #161330;
-  --muted: #6b6786;
-  --line: #e4dff5;
-  --track: #ece7fa;
-  --success: #46c9a4;
-  --error: #ff7a8f;
-  --streak: #ffb950;
-  --on-accent: #161330;
-  /* Tombol utama: ungu cerah dengan teks putih (kontras 5,5:1). */
-  --btn-bg: #6a4fe0;
-  --btn-fg: #ffffff;
-  --shadow: 0 14px 34px -16px rgb(91 63 208 / 0.35);
+  --primary-100: #ece7ff;
+  --primary-300: #b9aef7;
+  --primary-500: #6f5fe0;
+  --primary-700: #4b3bb5;
+  --ink: #1f1b2e;
+  --muted: #7a7388;
+  --line: #eadfd3;
+  --track: #fbe3cf;
+  --success: #3dbe8b;
+  --error: #ff6b6b;
+  --streak: #ffa53d;
+  --on-accent: #1f1b2e;
+  /* Tombol utama: oranye dengan teks gelap (kontras 7,2:1), seperti tombol di referensi. */
+  --btn-bg: #ff8a3d;
+  --btn-fg: #1f1b2e;
+  --shadow: 0 16px 34px -18px rgb(31 27 46 / 0.28);
   /* Warna kartu pastel. Teks di atasnya selalu `ink`. */
-  --tint-sun: #fff0c7;
-  --tint-sky: #cbe8ff;
-  --tint-rose: #ffd7ec;
-  --tint-mint: #c5f3e4;
-  --tint-peach: #ffdcc6;
-  /* Latar banner dan sorotan utama: ungu terang. */
-  --banner: #b7a2ff;
+  --tint-sun: #ffe9a0;
+  --tint-sky: #cde7ff;
+  --tint-rose: #ffd3e6;
+  --tint-mint: #c9f1df;
+  --tint-peach: #ffd2b0;
+  --tint-lilac: #e4ddff;
+  /* Latar banner dan sorotan utama: ungu sedang, teks gelap. */
+  --banner: #a99cf7;
 }
 
 :root[data-theme='dark'] {
   color-scheme: dark;
-  --bg: #120f24;
-  --surface: #1d1936;
-  --primary-100: #2e2656;
-  --primary-300: #6c5bc9;
-  --primary-500: #a593ff;
-  --primary-700: #cfc2ff;
-  --ink: #f3f0ff;
-  --muted: #b5afd6;
-  --line: #343058;
-  --track: #2e2656;
-  --success: #5fd9ba;
-  --error: #ff8fa0;
-  --streak: #ffc46b;
-  --on-accent: #120f24;
-  --btn-bg: #a593ff;
-  --btn-fg: #120f24;
-  --shadow: 0 14px 34px -16px rgb(0 0 0 / 0.6);
-  --tint-sun: #4a3f1c;
-  --tint-sky: #1e3550;
-  --tint-rose: #4a2440;
-  --tint-mint: #1b4640;
-  --tint-peach: #5a3a2b;
-  --banner: #4b3c8a;
+  --bg: #1b1726;
+  --surface: #26213a;
+  --primary-100: #2f2850;
+  --primary-300: #7d6fd6;
+  --primary-500: #a99cf7;
+  --primary-700: #d6cfff;
+  --ink: #fff6ee;
+  --muted: #b9b2c9;
+  --line: #3a3350;
+  --track: #322b48;
+  --success: #5fd9a6;
+  --error: #ff8a8a;
+  --streak: #ffb86b;
+  --on-accent: #1b1726;
+  --btn-bg: #ff9d5c;
+  --btn-fg: #1b1726;
+  --shadow: 0 16px 34px -18px rgb(0 0 0 / 0.6);
+  --tint-sun: #4a4020;
+  --tint-sky: #1f3550;
+  --tint-rose: #4a2a3c;
+  --tint-mint: #1c4537;
+  --tint-peach: #5a3a2a;
+  --tint-lilac: #2f2a55;
+  --banner: #5b4fb8;
 }
 
 @theme inline {
@@ -84,6 +86,7 @@
   --color-tint-rose: var(--tint-rose);
   --color-tint-mint: var(--tint-mint);
   --color-tint-peach: var(--tint-peach);
+  --color-tint-lilac: var(--tint-lilac);
   --color-banner: var(--banner);
   --shadow-card: var(--shadow);
   --radius-card: 28px;
