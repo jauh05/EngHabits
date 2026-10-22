@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Node roadmap 3D dengan warna satu keluarga
+
+1. **Node dibuat 3D.** Sorotan radial di kiri atas, tepi gelap 6px di bawah, dan bayangan lembut. Warnanya dihitung dari token lewat `color-mix`, jadi ikut mode gelap.
+2. **Warna dibuat satu keluarga.** Ungu (`banner`) untuk hari aktif, hijau (`success`) untuk lulus, oranye (`streak`) untuk perbaikan, dan lilac (`primary-100`) untuk yang terkunci. Sebelumnya setiap minggu punya warna pastel sendiri, sehingga roadmap terlihat tidak serasi.
+3. **Peti dan pill minggu ikut.** Peti memakai efek 3D yang sama: lilac saat terkunci, hijau saat terbuka. Pill minggu sekarang putih, tidak lagi pastel per minggu. Warna minggu tetap dipakai di kisi.
+4. **Hari tanpa konten** tetap kotak putih bergaris putus, tanpa efek 3D.
+5. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser, roadmap dicek dengan data uji untuk hari lulus, perbaikan, aktif, dan terkunci, lalu data uji dihapus dan mode peta dikembalikan ke kisi. Mode gelap belum dicek.
+
 ## 2026-10-22: Palet baru diterapkan ke Profil, Peta, dan Materi
 
 1. **Profil.** Kotak ikon di tiap kartu sekarang punya warna sendiri lewat `SECTION_TINT`. Tampilan oranye, Suara periwinkle, Pengingat mint, Cadangan coklat dengan ikon putih, dan Data belajar rose.

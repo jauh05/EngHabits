@@ -1,4 +1,5 @@
 import { motion } from 'motion/react';
+import type { CSSProperties } from 'react';
 import { Check, Gift, Lock, PackageOpen, RotateCcw, Star } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import { WEEK_RANGES, monthOfWeek } from '../../content/schema';
@@ -22,14 +23,20 @@ const GRID_STATUS: Record<DayStatus, string> = {
 /** Warna kartu minggu di kisi, bergilir. */
 const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-orange', 'bg-tint-rose', 'bg-periwinkle', 'bg-tint-mint'];
 
-/** Warna minggu, sama dengan kartu di kisi. Dipakai juga di roadmap supaya warnanya tidak hanya ungu. */
-function tintFor(week: number): string {
-  const index = WEEK_RANGES.findIndex(([value]) => value === week);
-  return WEEK_BG[Math.max(0, index) % WEEK_BG.length];
-}
+/** Warna node roadmap dalam satu keluarga: ungu untuk hari aktif, hijau untuk lulus, oranye untuk perbaikan, lilac untuk terkunci. */
+const ROAD_FACE = {
+  completed: { color: 'var(--success)', text: 'text-on-accent' },
+  available: { color: 'var(--banner)', text: 'text-white' },
+  repair: { color: 'var(--streak)', text: 'text-ink' },
+  locked: { color: 'var(--primary-100)', text: 'text-primary-700' },
+} as const;
 
-function weekOf(day: number): number {
-  return WEEK_RANGES.find(([, from, to]) => day >= from && day <= to)?.[0] ?? 1;
+/** Efek 3D: sorotan di atas kiri, tepi gelap di bawah, dan bayangan lembut. */
+function faceStyle(color: string): CSSProperties {
+  return {
+    background: `radial-gradient(circle at 32% 26%, color-mix(in srgb, ${color}, white 45%), ${color} 62%)`,
+    boxShadow: `inset 0 2px 1px rgb(255 255 255 / 0.4), 0 6px 0 color-mix(in srgb, ${color}, black 30%), 0 14px 18px -10px rgb(35 34 44 / 0.4)`,
+  };
 }
 
 /** Posisi horizontal node dalam persen, berselang kiri dan kanan seperti jalur di gambar 1. */
@@ -175,7 +182,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               className="absolute inset-x-0 flex flex-col items-center gap-1 text-center"
               style={{ top: item.y, height: HEADER_HEIGHT - 12 }}
             >
-              <span className={`rounded-full px-4 py-1.5 text-xs font-bold text-ink shadow-card ${tintFor(item.week)}`}>
+              <span className="rounded-full bg-surface px-4 py-1.5 text-xs font-bold text-ink shadow-card">
                 Minggu {item.week} · Bulan {monthOfWeek(item.week)}
               </span>
               <span className="text-xs font-semibold text-muted">
@@ -187,6 +194,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
 
         if (item.kind === 'chest') {
           const Icon = item.open ? PackageOpen : Gift;
+          const face = item.open ? ROAD_FACE.completed : ROAD_FACE.locked;
           return (
             <button
               key={item.key}
@@ -195,10 +203,8 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
                 show(item.open ? `Minggu ${item.week} selesai. Peti terbuka.` : `Lulus semua hari minggu ${item.week} untuk membuka peti.`)
               }
               aria-label={`Peti minggu ${item.week}${item.open ? ', terbuka' : ', terkunci'}`}
-              className={`absolute grid -translate-x-1/2 place-items-center rounded-2xl border-b-4 shadow-card outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
-                item.open ? 'border-streak bg-surface text-ink' : `border-transparent text-ink/60 ${tintFor(item.week)}`
-              }`}
-              style={{ left: `${item.x}%`, top: item.y - 26, width: 52, height: 52 }}
+              className={`absolute grid -translate-x-1/2 place-items-center rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${face.text}`}
+              style={{ left: `${item.x}%`, top: item.y - 26, width: 52, height: 52, ...faceStyle(face.color) }}
             >
               <Icon size={22} aria-hidden="true" />
             </button>
@@ -208,16 +214,8 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
         const isNext = nodes.indexOf(item) === nextIndex;
         // Posisi sudah diatur oleh pembungkusnya. Tombol hanya perlu ukuran.
         const style = { width: NODE_SIZE, height: NODE_SIZE };
-        const tone =
-          item.status === 'completed'
-            ? 'bg-success text-on-accent border-success'
-            : item.status === 'available' || item.status === 'repair'
-              ? item.status === 'repair'
-                ? 'bg-tint-peach text-ink border-streak'
-                : 'bg-banner text-white border-primary-500'
-              : item.status === 'locked'
-                ? `${tintFor(weekOf(item.day))} border-transparent text-ink/60`
-                : `${tintFor(weekOf(item.day))} border-dashed border-ink/20 text-ink/50`;
+        // Belum ada konten: kotak putih bergaris putus, tanpa efek 3D.
+        const face = item.status === 'nocontent' ? null : ROAD_FACE[item.status];
 
         return (
           <div
@@ -239,8 +237,10 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               aria-label={`Hari ${item.day}, ${
                 item.status === 'completed' ? 'lulus' : item.status === 'repair' ? 'perlu perbaikan' : item.status === 'locked' ? 'terkunci' : item.status === 'available' ? 'tersedia' : 'belum tersedia'
               }`}
-              className={`relative grid place-items-center rounded-full border-b-4 text-lg font-extrabold shadow-card outline-none transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-primary-500 ${tone}`}
-              style={style}
+              className={`relative grid place-items-center rounded-full text-lg font-extrabold outline-none transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-primary-500 ${
+                face ? face.text : 'border-2 border-dashed border-ink/20 bg-surface text-muted'
+              }`}
+              style={face ? { ...style, ...faceStyle(face.color) } : style}
             >
               {item.status === 'completed' ? (
                 <Check size={26} strokeWidth={3} aria-hidden="true" />
