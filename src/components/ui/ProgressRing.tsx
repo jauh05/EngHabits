@@ -28,18 +28,21 @@ export function ProgressRing({ value, size = 120, stroke = 10, children, ariaLab
     >
       <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="-rotate-90" aria-hidden="true">
         <circle cx={center} cy={center} r={radius} fill="none" strokeWidth={stroke} className="stroke-track" />
-        <motion.circle
-          cx={center}
-          cy={center}
-          r={radius}
-          fill="none"
-          strokeWidth={stroke}
-          strokeLinecap="round"
-          className={tone === 'warning' ? 'stroke-error' : 'stroke-primary-500'}
-          initial={{ pathLength: 0 }}
-          animate={{ pathLength: clamped }}
-          transition={{ duration: durations.slow * 3, ease: easeOut }}
-        />
+        {/* Nilai 0 tidak digambar: ujung bulat akan tampak sebagai titik. */}
+        {clamped > 0 && (
+          <motion.circle
+            cx={center}
+            cy={center}
+            r={radius}
+            fill="none"
+            strokeWidth={stroke}
+            strokeLinecap="round"
+            className={tone === 'warning' ? 'stroke-error' : 'stroke-primary-500'}
+            initial={{ pathLength: 0 }}
+            animate={{ pathLength: clamped }}
+            transition={{ duration: durations.slow * 3, ease: easeOut }}
+          />
+        )}
       </svg>
       {children && <div className="absolute inset-0 grid place-items-center text-center">{children}</div>}
     </div>

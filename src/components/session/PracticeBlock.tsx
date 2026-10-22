@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { motion } from 'motion/react';
 import { Eye, EyeOff, Play } from 'lucide-react';
+import { easeOut } from '../../lib/motion';
 import type { BlockView } from '../../lib/content';
 import type { Answers } from '../../lib/grading';
 import { useSettings } from '../../lib/settings';
@@ -80,11 +82,50 @@ function ListeningPart({ block }: { block: Extract<BlockView, { type: 'listening
 
   return (
     <div className="flex flex-col gap-4">
-      <Card className="flex flex-col gap-4">
+      <Card tone="sky" className="flex flex-col gap-4">
         <h3 className="text-xl font-bold text-ink">{block.script.title}</h3>
-        <p className="text-sm text-muted">
+        <p className="text-sm text-ink/80">
           Langkah 1: dengarkan tanpa teks. Langkah 2: tampilkan teks dan ulangi per baris (shadowing).
         </p>
+        {/* Pemutar seperti referensi: tombol putar, baris yang sedang dibacakan, dan bilah kemajuan. */}
+        <div className="flex flex-col gap-3 rounded-2xl bg-surface p-4">
+          <div className="flex items-center gap-3">
+            <Button
+              size="icon"
+              aria-label="Putar semua baris"
+              disabled={!ttsSupported() || playingAll}
+              onClick={() => playFrom(0)}
+            >
+              <Play size={18} aria-hidden="true" />
+            </Button>
+            <div className="flex min-w-0 flex-1 flex-col">
+              <span className="truncate text-sm font-bold text-ink">
+                {current === undefined ? 'Siap diputar' : block.script.lines[current].speaker}
+              </span>
+              <span className="text-xs font-semibold tabular-nums text-muted">
+                {current === undefined
+                  ? `${block.script.lines.length} baris`
+                  : `Baris ${current + 1} dari ${block.script.lines.length}`}
+              </span>
+            </div>
+          </div>
+          <div
+            role="progressbar"
+            aria-label="Kemajuan audio"
+            aria-valuemin={0}
+            aria-valuemax={block.script.lines.length}
+            aria-valuenow={(current ?? -1) + 1}
+            className="h-2 overflow-hidden rounded-full bg-track"
+          >
+            <motion.div
+              className="h-full rounded-full bg-primary-500"
+              initial={{ scaleX: 0 }}
+              animate={{ scaleX: ((current ?? -1) + 1) / block.script.lines.length }}
+              transition={{ duration: 0.3, ease: easeOut }}
+              style={{ width: '100%', transformOrigin: 'left' }}
+            />
+          </div>
+        </div>
         <div className="flex flex-wrap gap-2">
           <Button
             variant="secondary"

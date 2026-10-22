@@ -27,7 +27,9 @@ Ada 8 gambar referensi yang diunggah dan sudah disalin ke `design-reference/` (n
 | Dashboard Animal Crossing (sidebar kiri, kartu, grafik) | Layout dua kolom dengan sidebar | Layout desktop (≥1024px) |
 | Medboard (kalender, sidebar, panel kanan) | Kalender, panel kanan | Peta 90 hari (layar lebar) |
 
-Yang **tidak** diambil: palet warna pastel bercampur dari referensi, ilustrasi 3D, dan maskot milik referensi. Warna dan ilustrasi memakai aturan di bagian 3 dan 5.
+Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memakai SVG buatan sendiri (bagian 5).
+
+**Revisi 2026-10-22 (atas permintaan pengguna): kartu mengikuti referensi.** Kartu bisa memakai warna pastel (`sun`, `sky`, `rose`, `mint`) seperti kartu di referensi. Teks di atasnya tetap `ink`. Kartu rencana hari ini memakai empat warna itu. Kartu statistik memakai ikon di kotak putih. Pilihan pengaturan memakai kartu dengan tanda centang. Animasi di bagian 8 juga dilengkapi: transisi pindah halaman, denyut streak, getar jawaban salah, pop jawaban benar, skeleton, blob latar, dan grafik batang yang tumbuh.
 
 ## 3. Palet (design tokens)
 
@@ -48,6 +50,10 @@ Yang **tidak** diambil: palet warna pastel bercampur dari referensi, ilustrasi 3
 | `streak` | `#FFB84D` | `#FFC46B` | Streak, api, lencana medium |
 | `on-accent` | `#2B2140` | `#1B1530` | Teks di atas success, error, streak |
 | `btn-bg` / `btn-fg` | `#5C3FA6` / `#FFFFFF` | `#A98BFF` / `#1B1530` | Tombol utama |
+| `tint-sun` | `#FFE8A3` | `#4D4019` | Kartu kuning (rencana, streak, hari lulus) |
+| `tint-sky` | `#CFE6FF` | `#1F3552` | Kartu biru (rata-rata, poin, pemutar audio) |
+| `tint-rose` | `#FFD6E7` | `#4A2339` | Kartu pink (Hard Challenge, rencana 3) |
+| `tint-mint` | `#C9F3E1` | `#1B4439` | Kartu mint (kesalahan, rencana 4) |
 
 **Kontras yang sudah dihitung (rasio WCAG):**
 

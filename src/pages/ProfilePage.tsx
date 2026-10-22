@@ -1,5 +1,7 @@
 import { useRef, useState } from 'react';
-import { Bell, Download, Upload, Volume2 } from 'lucide-react';
+import { motion } from 'motion/react';
+import { Bell, Check, Download, Upload, Volume2 } from 'lucide-react';
+import { spring } from '../lib/motion';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Modal } from '../components/ui/Modal';
@@ -33,11 +35,26 @@ function Choice<T extends string>({
             role="radio"
             aria-checked={selected}
             onClick={() => onChange(option.value)}
-            className={`flex min-h-11 items-center justify-center rounded-2xl border px-3 text-sm font-semibold outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
+            className={`flex min-h-14 items-center justify-between gap-2 rounded-2xl border px-4 text-left text-sm font-semibold outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
               selected ? 'border-primary-500 bg-primary-100 text-primary-700' : 'border-line bg-surface text-ink'
             }`}
           >
-            {option.label}
+            <span>{option.label}</span>
+            <span
+              aria-hidden="true"
+              className={`grid size-6 shrink-0 place-items-center rounded-full ${selected ? 'bg-primary-500 text-on-accent' : 'border border-line'}`}
+            >
+              {selected && (
+                <motion.span
+                  initial={{ scale: 0 }}
+                  animate={{ scale: 1 }}
+                  transition={spring}
+                  className="grid place-items-center"
+                >
+                  <Check size={14} strokeWidth={3} />
+                </motion.span>
+              )}
+            </span>
           </button>
         );
       })}

@@ -1,9 +1,21 @@
 import { motion, type HTMLMotionProps } from 'motion/react';
 import { spring } from '../../lib/motion';
 
+export type CardTone = 'surface' | 'lavender' | 'sun' | 'sky' | 'rose' | 'mint';
+
 export type CardProps = HTMLMotionProps<'div'> & {
   interactive?: boolean;
-  tone?: 'surface' | 'lavender';
+  tone?: CardTone;
+};
+
+/** Kartu pastel seperti referensi. Warna kartu bertint memakai border transparan supaya tidak terlihat kotak. */
+const TONES: Record<CardTone, string> = {
+  surface: 'bg-surface border-line',
+  lavender: 'bg-primary-100 border-transparent',
+  sun: 'bg-tint-sun border-transparent',
+  sky: 'bg-tint-sky border-transparent',
+  rose: 'bg-tint-rose border-transparent',
+  mint: 'bg-tint-mint border-transparent',
 };
 
 export function Card({
@@ -12,12 +24,11 @@ export function Card({
   className = '',
   ...props
 }: CardProps) {
-  const bg = tone === 'lavender' ? 'bg-primary-100' : 'bg-surface';
   return (
     <motion.div
       whileHover={interactive ? { y: -3 } : undefined}
       transition={spring}
-      className={`rounded-card border border-line p-5 shadow-card ${bg} ${interactive ? 'cursor-pointer' : ''} ${className}`}
+      className={`rounded-card border p-5 shadow-card ${TONES[tone]} ${interactive ? 'cursor-pointer' : ''} ${className}`}
       {...props}
     />
   );

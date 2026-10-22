@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Tampilan mengikuti referensi awal (kartu pastel dan animasi)
+
+1. **Keputusan atas pertanyaan di DESIGN_SPEC bagian 11.** Permintaan pengguna mengubah pilihan pertama: kartu memakai warna pastel seperti referensi (sun, sky, rose, mint), bukan satu keluarga ungu. Token baru ada di `src/styles/tokens.css` untuk mode terang dan gelap. Kartu kecil tetap memakai `surface` dengan tepi `line`.
+2. **Komponen baru.** `StackIllustration` (ilustrasi SVG untuk banner), `Blob` (latar bergerak 20 detik, mati saat reduce motion), `Skeleton` (kilau 1,4 detik), dan `BarChart` (batang tumbuh bertahap 40ms). Card punya varian warna baru.
+3. **Animasi yang sebelumnya belum ada.** Pindah halaman (fade dan geser 12px, 250ms, dikunci per rute). Denyut streak memakai skala, bukan `animate-pulse` dari Tailwind. Chip hari bertahap 40ms. Jawaban salah bergetar ±6px tiga kali (350ms). Jawaban benar pop (500ms). Pemutar audio pada blok mendengarkan bergerak per baris.
+4. **Cincin progres dengan nilai nol** tidak digambar lagi, karena ujung bulat akan tampak sebagai titik.
+5. **Verifikasi.** Typecheck dan 46 tes lolos. Build lolos. Di browser (375px dan desktop, terang dan gelap): Beranda, Statistik, Profil, Peta, dan blok latihan mendengarkan sudah dicek. Animasi getar dan pop belum dilihat langsung di browser, hanya lewat kode.
+
 ## 2026-10-22: Mastery gate 60% skor inti
 
 1. **Ambang 60%.** Disimpan sebagai konstanta `MASTERY_THRESHOLD` di `src/lib/progression.ts`. Dari 15 soal inti, 60% berarti 9 benar. Hanya soal inti yang dihitung, sama dengan skor inti hari.

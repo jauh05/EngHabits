@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
+import { motion } from 'motion/react';
 import { Link } from 'react-router';
 import { CheckCircle2, XCircle } from 'lucide-react';
+import { easeOut } from '../lib/motion';
 import type { Day, Question } from '../../content/schema';
 import { Badge } from '../components/ui/Badge';
 import { Button } from '../components/ui/Button';
@@ -65,6 +67,7 @@ export function PracticePage() {
 
   const item = queue?.[index];
   const finished = queue !== undefined && index >= queue.length;
+  const answeredRight = item !== undefined && selected === item.question.correct;
 
   const check = async () => {
     if (!item || !selected) return;
@@ -161,7 +164,14 @@ export function PracticePage() {
           </div>
 
           {checked && (
-            <div className="flex flex-col gap-2 rounded-2xl bg-bg p-4" role="status">
+            // Jawaban benar: pop kecil. Jawaban salah: getar horizontal ±6px tiga kali (350ms), sesuai DESIGN_SPEC.
+            <motion.div
+              initial={answeredRight ? { scale: 0.96 } : { x: 0 }}
+              animate={answeredRight ? { scale: [0.96, 1.03, 1] } : { x: [0, -6, 6, -6, 6, 0] }}
+              transition={{ duration: answeredRight ? 0.5 : 0.35, ease: easeOut }}
+              className="flex flex-col gap-2 rounded-2xl bg-bg p-4"
+              role="status"
+            >
               <p className="flex items-center gap-2 font-semibold text-ink">
                 {selected === item.question.correct ? (
                   <>
@@ -178,7 +188,7 @@ export function PracticePage() {
               </p>
               {item.question.explanationId && <p className="text-sm text-muted">{item.question.explanationId}</p>}
               {saveFailed && <p className="text-sm text-error">Jadwal ulang gagal disimpan. Coba lagi nanti.</p>}
-            </div>
+            </motion.div>
           )}
 
           <div className="flex justify-end">

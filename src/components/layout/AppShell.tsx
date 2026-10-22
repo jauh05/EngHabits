@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { BarChart3, BookX, Dumbbell, Home, LayoutGrid, User, type LucideIcon } from 'lucide-react';
-import { NavLink, Outlet } from 'react-router';
-import { spring } from '../../lib/motion';
+import { NavLink, Outlet, useLocation } from 'react-router';
+import { easeOut, spring } from '../../lib/motion';
 import { ReminderWatcher } from './ReminderWatcher';
 
 type NavItem = { to: string; label: string; icon: LucideIcon };
@@ -82,12 +82,21 @@ function Sidebar() {
 
 /** Kerangka halaman utama: navigasi bawah di HP, sidebar di layar lebar. */
 export function AppShell() {
+  const location = useLocation();
   return (
     <div className="min-h-dvh">
       <ReminderWatcher />
       <Sidebar />
       <div className="mx-auto w-full max-w-md px-4 pb-32 pt-6 sm:max-w-xl lg:max-w-4xl lg:pb-12 lg:pl-64 lg:pr-8 lg:pt-10">
-        <Outlet />
+        {/* Pindah halaman: fade dan geser 12px, 250ms. Dikunci per rute supaya setiap halaman ikut animasi masuk. */}
+        <motion.div
+          key={location.pathname}
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.25, ease: easeOut }}
+        >
+          <Outlet />
+        </motion.div>
       </div>
       <BottomNav />
     </div>

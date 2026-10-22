@@ -4,7 +4,9 @@ import { useEffect, useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import { Badge } from '../components/ui/Badge';
 import { Card } from '../components/ui/Card';
+import { Blob } from '../components/ui/Blob';
 import { CountUp } from '../components/ui/CountUp';
+import { StackIllustration } from '../components/ui/Illustration';
 import { ProgressRing } from '../components/ui/ProgressRing';
 import { addDays, computeStreak, localISO } from '../lib/dates';
 import { loadDay } from '../lib/content';
@@ -20,6 +22,9 @@ const BLOCK_PLAN = [
   { label: 'Membaca atau mendengarkan', minutes: 30 },
   { label: 'Soal & Hard Challenge', minutes: 30 },
 ];
+
+/** Warna kartu rencana: kuning, biru, pink, lalu mint, seperti referensi. */
+const PLAN_TONES = ['sun', 'sky', 'rose', 'mint'] as const;
 
 const PART_LABELS: Record<Part, string> = {
   comprehension: 'Membaca & mendengar',
@@ -89,21 +94,22 @@ export function DashboardPage() {
 
       <Reveal index={1}>
         <section className="relative overflow-hidden rounded-card bg-btn-bg p-6 text-btn-fg shadow-card">
-          <span aria-hidden="true" className="absolute -right-10 -top-10 size-40 rounded-full bg-primary-300/40" />
-          <span aria-hidden="true" className="absolute -bottom-12 right-12 size-24 rounded-full bg-primary-100/30" />
-          <p className="relative text-sm font-semibold opacity-90">Tantangan hari ini</p>
-          <h2 className="relative mt-1 text-2xl font-extrabold">
-            {next ? `Hari ke-${next}` : 'Semua 90 hari selesai!'}
-          </h2>
-          <p className="relative mt-2 text-sm opacity-90">
-            {next
-              ? nextTitle ?? 'Selesaikan sesi hari ini sebelum 09.00 untuk menjaga ritme belajarmu.'
-              : 'Kamu sudah menyelesaikan seluruh kurikulum. Ulangi bagian yang masih lemah lewat Buku Kesalahan.'}
-          </p>
+          <Blob className="-right-10 -top-10 size-40 bg-primary-300/40" />
+          <Blob className="-bottom-12 right-12 size-24 bg-primary-100/30" />
+          <StackIllustration className="pointer-events-none absolute -right-2 top-3 w-32 sm:w-40" />
+          <div className="relative pr-24 sm:pr-32">
+            <p className="text-sm font-semibold opacity-90">Tantangan hari ini</p>
+            <h2 className="mt-1 text-2xl font-extrabold">{next ? `Hari ke-${next}` : 'Semua 90 hari selesai!'}</h2>
+            <p className="mt-2 text-sm opacity-90">
+              {next
+                ? nextTitle ?? 'Selesaikan sesi hari ini sebelum 09.00 untuk menjaga ritme belajarmu.'
+                : 'Kamu sudah menyelesaikan seluruh kurikulum. Ulangi bagian yang masih lemah lewat Buku Kesalahan.'}
+            </p>
+          </div>
           {next && nextStatus === 'available' && (
             <Link
               to={`/hari/${next}`}
-              className="relative mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-surface px-5 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
+              className="relative mt-5 inline-flex min-h-11 items-center gap-2 rounded-full bg-surface px-5 font-semibold whitespace-nowrap text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
             >
               <Play size={18} aria-hidden="true" />
               Mulai Sesi Hari Ini
@@ -116,7 +122,7 @@ export function DashboardPage() {
               </p>
               <Link
                 to={`/hari/${next}`}
-                className="inline-flex min-h-11 w-fit items-center gap-2 rounded-full bg-surface px-5 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
+                className="inline-flex min-h-11 w-fit items-center gap-2 whitespace-nowrap rounded-full bg-surface px-5 font-semibold text-primary-700 outline-none focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-surface"
               >
                 <Play size={18} aria-hidden="true" />
                 Ulangi Hari ke-{next}
@@ -131,12 +137,15 @@ export function DashboardPage() {
 
       <Reveal index={2}>
         <section aria-label="Minggu ini" className="grid grid-cols-7 gap-2">
-          {days.map((iso) => {
+          {days.map((iso, index) => {
             const done = data.completedDates.has(iso);
             const date = new Date(`${iso}T00:00:00`);
             return (
-              <div
+              <motion.div
                 key={iso}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.3, ease: easeOut, delay: index * 0.04 }}
                 className={`flex flex-col items-center gap-1 rounded-2xl border py-2 text-center ${
                   iso === today ? 'border-btn-bg bg-btn-bg text-btn-fg' : 'border-line bg-surface text-ink'
                 }`}
@@ -149,54 +158,61 @@ export function DashboardPage() {
                   aria-label={done ? 'Ada sesi selesai' : 'Belum ada sesi'}
                   className={`size-1.5 rounded-full ${done ? 'bg-success' : 'bg-transparent'}`}
                 />
-              </div>
+              </motion.div>
             );
           })}
         </section>
       </Reveal>
 
       <Reveal index={3}>
-        <Card>
+        <section aria-labelledby="plan-title" className="flex flex-col gap-3">
           <div className="flex items-center justify-between">
-            <h2 className="text-lg font-bold text-ink">Rencana hari ini</h2>
+            <h2 id="plan-title" className="text-lg font-bold text-ink">Rencana hari ini</h2>
             <Badge tone="lavender">120 menit</Badge>
           </div>
-          <ol className="mt-4 flex flex-col gap-3">
+          <ol className="grid grid-cols-2 gap-3">
             {BLOCK_PLAN.map((block, index) => (
-              <li key={block.label} className="flex items-center gap-3">
-                <span className="grid size-8 shrink-0 place-items-center rounded-full bg-primary-100 text-sm font-bold text-primary-700">
-                  {index + 1}
-                </span>
-                <span className="flex-1 text-sm font-semibold text-ink">{block.label}</span>
-                <span className="flex items-center gap-1 text-sm text-muted">
-                  <Clock size={14} aria-hidden="true" />
-                  {block.minutes} menit
-                </span>
+              <li key={block.label}>
+                <Card interactive tone={PLAN_TONES[index]} className="flex h-full flex-col gap-3">
+                  <span className="grid size-8 place-items-center rounded-full bg-surface text-sm font-bold text-ink">
+                    {index + 1}
+                  </span>
+                  <span className="text-sm font-bold leading-snug text-ink">{block.label}</span>
+                  <span className="mt-auto flex items-center gap-1 text-xs font-semibold text-ink/80">
+                    <Clock size={14} aria-hidden="true" />
+                    {block.minutes} menit
+                  </span>
+                </Card>
               </li>
             ))}
           </ol>
-        </Card>
+        </section>
       </Reveal>
 
       <Reveal index={4}>
         <div className="grid grid-cols-2 gap-4">
-          <Card className="flex flex-col gap-2">
-            <Flame
-              size={28}
+          <Card tone="sun" className="flex flex-col gap-2">
+            <motion.span
               aria-hidden="true"
-              className={`fill-streak text-primary-700 ${streak > 0 ? 'animate-pulse' : ''}`}
-            />
+              className="inline-flex w-fit rounded-xl bg-surface p-2"
+              animate={streak > 0 ? { scale: [1, 1.08, 1] } : undefined}
+              transition={{ duration: 1.6, repeat: Infinity, ease: 'easeInOut' }}
+            >
+              <Flame size={24} className="fill-streak text-ink" />
+            </motion.span>
             <p className="text-3xl font-extrabold text-ink">
               <CountUp value={streak} />
             </p>
-            <p className="text-sm text-muted">hari berturut-turut</p>
+            <p className="text-sm font-semibold text-ink/80">hari berturut-turut</p>
           </Card>
-          <Card className="flex flex-col gap-2">
-            <Layers size={28} aria-hidden="true" className="text-primary-500" />
+          <Card tone="sky" className="flex flex-col gap-2">
+            <span className="inline-flex w-fit rounded-xl bg-surface p-2">
+              <Layers size={24} aria-hidden="true" className="text-primary-700" />
+            </span>
             <p className="text-3xl font-extrabold text-ink">
               <CountUp value={points} />
             </p>
-            <p className="text-sm text-muted">poin inti terkumpul</p>
+            <p className="text-sm font-semibold text-ink/80">poin inti terkumpul</p>
           </Card>
         </div>
       </Reveal>

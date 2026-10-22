@@ -2,6 +2,7 @@ import { motion, useAnimate } from 'motion/react';
 import { Check, Lock } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import { WEEK_RANGES, monthOfWeek } from '../../content/schema';
+import { ProgressRing } from '../components/ui/ProgressRing';
 import { useToast } from '../components/ui/Toast';
 import { contentDays } from '../lib/content';
 import { dayStatus, MASTERY_THRESHOLD, type DayStatus } from '../lib/progression';
@@ -60,6 +61,13 @@ export function MapPage() {
   const data = useProgressData();
   const content = new Set(contentDays());
 
+  /** Jumlah hari yang lulus dalam rentang minggu, untuk cincin progres per minggu. */
+  const masteredIn = (from: number, to: number): number => {
+    let count = 0;
+    for (let day = from; day <= to; day += 1) if (data.mastered.has(day)) count += 1;
+    return count;
+  };
+
   const handlePick = (day: number, status: DayStatus) => {
     if (status === 'available' || status === 'completed' || status === 'repair') {
       navigate(`/hari/${day}`);
@@ -88,13 +96,25 @@ export function MapPage() {
           aria-labelledby={`week-${week}`}
           className="flex flex-col gap-3 rounded-card border border-line bg-surface p-4 shadow-card"
         >
-          <div className="flex items-baseline justify-between">
-            <h2 id={`week-${week}`} className="text-lg font-bold text-ink">
-              Minggu {week}
-            </h2>
-            <span className="text-sm text-muted">
-              Bulan {monthOfWeek(week)} · Hari {from}-{to}
-            </span>
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex flex-col">
+              <h2 id={`week-${week}`} className="text-lg font-bold text-ink">
+                Minggu {week}
+              </h2>
+              <span className="text-sm text-muted">
+                Bulan {monthOfWeek(week)} · Hari {from}-{to}
+              </span>
+            </div>
+            <ProgressRing
+              value={masteredIn(from, to) / (to - from + 1)}
+              size={52}
+              stroke={6}
+              ariaLabel={`Minggu ${week}: ${masteredIn(from, to)} dari ${to - from + 1} hari lulus`}
+            >
+              <span className="text-xs font-bold tabular-nums text-ink">
+                {masteredIn(from, to)}/{to - from + 1}
+              </span>
+            </ProgressRing>
           </div>
           <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
             {Array.from({ length: to - from + 1 }, (_, index) => from + index).map((day) => {
