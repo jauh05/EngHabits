@@ -3,6 +3,7 @@ import type { CSSProperties } from 'react';
 import { Check, Gift, Lock, PackageOpen, RotateCcw, Star } from 'lucide-react';
 import { useNavigate } from 'react-router';
 import { WEEK_RANGES, monthOfWeek } from '../../content/schema';
+import { Blob } from '../components/ui/Blob';
 import { ProgressRing } from '../components/ui/ProgressRing';
 import { useToast } from '../components/ui/Toast';
 import { useSettings } from '../lib/settings';
@@ -23,19 +24,19 @@ const GRID_STATUS: Record<DayStatus, string> = {
 /** Warna kartu minggu di kisi, bergilir. */
 const WEEK_BG = ['bg-tint-sun', 'bg-tint-sky', 'bg-orange', 'bg-tint-rose', 'bg-periwinkle', 'bg-tint-mint'];
 
-/** Warna node roadmap dalam satu keluarga: ungu untuk hari aktif, hijau untuk lulus, oranye untuk perbaikan, lilac untuk terkunci. */
+/** Warna node roadmap di atas panel ungu: hijau untuk lulus, oranye untuk hari aktif, kuning muda untuk perbaikan, lilac untuk terkunci. */
 const ROAD_FACE = {
-  completed: { color: 'var(--success)', text: 'text-on-accent' },
-  available: { color: 'var(--banner)', text: 'text-white' },
-  repair: { color: 'var(--streak)', text: 'text-ink' },
-  locked: { color: 'var(--primary-100)', text: 'text-primary-700' },
+  completed: { color: 'var(--success)', edge: 'color-mix(in srgb, var(--success), var(--ink) 35%)', text: 'text-on-accent' },
+  available: { color: 'var(--btn-bg)', edge: 'color-mix(in srgb, var(--btn-bg), var(--ink) 30%)', text: 'text-btn-fg' },
+  repair: { color: 'var(--tint-sun)', edge: 'var(--streak)', text: 'text-ink' },
+  locked: { color: 'var(--primary-100)', edge: 'var(--primary-300)', text: 'text-primary-700' },
 } as const;
 
-/** Efek 3D: sorotan di atas kiri, tepi gelap di bawah, dan bayangan lembut. */
-function faceStyle(color: string): CSSProperties {
+/** Efek 3D: sorotan di atas kiri, tepi berwarna gelap di bawah, dan bayangan lembut. */
+function faceStyle(color: string, edge: string): CSSProperties {
   return {
     background: `radial-gradient(circle at 32% 26%, color-mix(in srgb, ${color}, white 45%), ${color} 62%)`,
-    boxShadow: `inset 0 2px 1px rgb(255 255 255 / 0.4), 0 6px 0 color-mix(in srgb, ${color}, black 30%), 0 14px 18px -10px rgb(35 34 44 / 0.4)`,
+    boxShadow: `inset 0 2px 1px rgb(255 255 255 / 0.4), 0 6px 0 ${edge}, 0 14px 18px -10px rgb(35 34 44 / 0.4)`,
   };
 }
 
@@ -43,7 +44,7 @@ function faceStyle(color: string): CSSProperties {
 const X_PATTERN = [50, 30, 18, 30, 50, 70, 82, 70];
 const NODE_GAP = 104;
 const HEADER_HEIGHT = 88;
-const NODE_SIZE = 64;
+const NODE_SIZE = 72;
 
 type RoadItem =
   | { kind: 'header'; key: string; y: number; week: number; from: number; to: number; mastered: number; total: number }
@@ -103,7 +104,7 @@ function Stars({ count }: { count: number }) {
   return (
     <span className="flex gap-0.5" aria-hidden="true">
       {[1, 2, 3].map((star) => (
-        <Star key={star} size={12} className={star <= count ? 'fill-streak text-streak' : 'text-muted/40'} />
+        <Star key={star} size={12} className={star <= count ? 'fill-streak text-streak' : 'text-white/50'} />
       ))}
     </span>
   );
@@ -145,28 +146,39 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
   };
 
   return (
-    <div className="relative mx-auto w-full max-w-sm" style={{ height }}>
+    <div className="relative mx-auto w-full max-w-sm overflow-hidden rounded-[32px] bg-banner shadow-card" style={{ height }}>
+      <Blob className="-left-16 top-24 size-48 bg-white/15" />
+      <Blob className="-right-16 bottom-40 size-56 bg-primary-300/50" />
       <svg
         className="pointer-events-none absolute inset-0 h-full w-full overflow-visible"
         viewBox={`0 0 100 ${height}`}
         preserveAspectRatio="none"
         aria-hidden="true"
       >
+        {/* Pita jalur, garis putus di tengahnya, lalu garis hijau untuk bagian yang sudah dilalui. */}
         <path
           d={fullPath}
           fill="none"
           vectorEffect="non-scaling-stroke"
-          className="stroke-primary-300"
-          strokeWidth={10}
+          className="stroke-white/20"
+          strokeWidth={64}
           strokeLinecap="round"
-          strokeDasharray="2 14"
+        />
+        <path
+          d={fullPath}
+          fill="none"
+          vectorEffect="non-scaling-stroke"
+          className="stroke-white/70"
+          strokeWidth={4}
+          strokeLinecap="round"
+          strokeDasharray="10 12"
         />
         <motion.path
           d={donePath}
           fill="none"
           vectorEffect="non-scaling-stroke"
           className="stroke-success"
-          strokeWidth={10}
+          strokeWidth={8}
           strokeLinecap="round"
           initial={{ pathLength: 0 }}
           animate={{ pathLength: 1 }}
@@ -185,7 +197,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               <span className="rounded-full bg-surface px-4 py-1.5 text-xs font-bold text-ink shadow-card">
                 Minggu {item.week} · Bulan {monthOfWeek(item.week)}
               </span>
-              <span className="text-xs font-semibold text-muted">
+              <span className="text-xs font-semibold text-white/85">
                 {item.mastered}/{item.total} hari lulus · hari {item.from}-{item.to}
               </span>
             </div>
@@ -204,7 +216,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
               }
               aria-label={`Peti minggu ${item.week}${item.open ? ', terbuka' : ', terkunci'}`}
               className={`absolute grid -translate-x-1/2 place-items-center rounded-2xl outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${face.text}`}
-              style={{ left: `${item.x}%`, top: item.y - 26, width: 52, height: 52, ...faceStyle(face.color) }}
+              style={{ left: `${item.x}%`, top: item.y - 26, width: 52, height: 52, ...faceStyle(face.color, face.edge) }}
             >
               <Icon size={22} aria-hidden="true" />
             </button>
@@ -214,7 +226,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
         const isNext = nodes.indexOf(item) === nextIndex;
         // Posisi sudah diatur oleh pembungkusnya. Tombol hanya perlu ukuran.
         const style = { width: NODE_SIZE, height: NODE_SIZE };
-        // Belum ada konten: kotak putih bergaris putus, tanpa efek 3D.
+        // Belum ada konten: kotak transparan bergaris putus, tanpa efek 3D.
         const face = item.status === 'nocontent' ? null : ROAD_FACE[item.status];
 
         return (
@@ -226,7 +238,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
             {isNext && (
               <motion.span
                 aria-hidden="true"
-                className="absolute inset-0 rounded-full bg-primary-500/30"
+                className="absolute inset-0 rounded-full bg-white/50"
                 animate={{ scale: [1, 1.35], opacity: [0.6, 0] }}
                 transition={{ duration: 1.6, repeat: Infinity, ease: 'easeOut' }}
               />
@@ -238,9 +250,9 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
                 item.status === 'completed' ? 'lulus' : item.status === 'repair' ? 'perlu perbaikan' : item.status === 'locked' ? 'terkunci' : item.status === 'available' ? 'tersedia' : 'belum tersedia'
               }`}
               className={`relative grid place-items-center rounded-full text-lg font-extrabold outline-none transition-transform hover:scale-105 focus-visible:outline-2 focus-visible:outline-primary-500 ${
-                face ? face.text : 'border-2 border-dashed border-ink/20 bg-surface text-muted'
+                face ? face.text : 'border-2 border-dashed border-white/60 bg-white/15 text-white'
               }`}
-              style={face ? { ...style, ...faceStyle(face.color) } : style}
+              style={face ? { ...style, ...faceStyle(face.color, face.edge) } : style}
             >
               {item.status === 'completed' ? (
                 <Check size={26} strokeWidth={3} aria-hidden="true" />

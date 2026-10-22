@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Roadmap jadi panel ungu dengan jalur pita
+
+1. **Panel ungu membulat** (`bg-banner`, radius 32px) membungkus roadmap, dengan dua blob dekoratif. Jalurnya berupa pita putih transparan 64px dengan garis putus di tengah. Bagian yang sudah dilalui digaris hijau.
+2. **Node lebih besar** (72px) dengan tepi berwarna yang diambil dari palet: hijau untuk lulus, oranye untuk hari aktif, kuning muda dengan tepi oranye untuk perbaikan, dan lilac dengan tepi `primary-300` untuk terkunci.
+3. **Pill minggu dan teks progres** sekarang berada di atas panel dengan warna putih atau putih transparan. Bintang kosong juga putih transparan.
+4. **Arah tetap dari atas ke bawah.** Gambar acuan mulai dari bawah. Ini belum diubah, dan bisa dibalik kalau diminta.
+5. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser, bagian atas panel sudah dicek dengan data uji untuk hari lulus, perbaikan, aktif, dan terkunci. Data uji sudah dihapus dan mode peta dikembalikan ke kisi. Desktop dan mode gelap belum dicek.
+
 ## 2026-10-22: Node roadmap 3D dengan warna satu keluarga
 
 1. **Node dibuat 3D.** Sorotan radial di kiri atas, tepi gelap 6px di bawah, dan bayangan lembut. Warnanya dihitung dari token lewat `color-mix`, jadi ikut mode gelap.
