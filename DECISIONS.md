@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Batang grafik coklat, status jadi titik di atas batang
+
+1. **Semua batang grafik skor inti berwarna coklat `#A95B23`** di Statistik dan Beranda.
+2. **Status skor pindah ke titik kecil di atas batang.** Hijau untuk 70 ke atas (`success`), kuning untuk 50 sampai 69 (`streak`), dan merah di bawah 50 (`error`). Aturannya ada di satu tempat, yaitu `scoreDot` di `BarChart.tsx`.
+3. **Beranda disamakan dengan Statistik.** Sebelumnya Beranda memakai ungu dan merah untuk status yang sama. Sekarang keduanya memakai aturan yang sama.
+4. **Teks legenda Statistik** sekarang menyebut titik di atas batang.
+5. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di browser dengan 14 hari data uji (sudah dihapus lagi): semua batang `rgb(169, 91, 35)`, titik hijau untuk 70 ke atas, oranye untuk 50 sampai 69, dan merah di bawah 50. Titik berada 6px di atas batang.
+
 ## 2026-10-22: Tambah coklat, oranye penuh, dan periwinkle dari gambar 26
 
 1. **Tiga token baru di `tokens.css`.** `--brown` `#A95B23` untuk bar grafik, `--orange` `#FFA265` untuk kartu oranye penuh, dan `--periwinkle` `#AAB2F3` untuk kartu sedang. Ketiganya juga terdaftar di `@theme inline` sebagai `brown`, `orange`, dan `periwinkle`.

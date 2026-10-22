@@ -19,7 +19,7 @@ import {
 import { useState, type ReactNode } from 'react';
 import { Link } from 'react-router';
 import { Badge } from '../components/ui/Badge';
-import { BarChart, type BarItem } from '../components/ui/BarChart';
+import { BarChart, scoreDot, type BarItem } from '../components/ui/BarChart';
 import { Blob } from '../components/ui/Blob';
 import { Card, type CardTone } from '../components/ui/Card';
 import { CountUp } from '../components/ui/CountUp';
@@ -188,7 +188,7 @@ export function DashboardPage() {
     label: String(row.day),
     value: row.firstCorePercent,
     title: `Hari ${row.day}: ${row.firstCorePercent}%`,
-    className: row.firstCorePercent >= 70 ? 'bg-primary-500' : row.firstCorePercent >= 50 ? 'bg-primary-300' : 'bg-error',
+    dotClassName: scoreDot(row.firstCorePercent),
   }));
 
   // Target hari ini: lulus hari berikutnya, streak seminggu, dan kesalahan jatuh tempo.

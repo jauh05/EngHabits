@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import { ArrowRight, BookX, ClipboardCheck, Sparkles, Target, Trophy, type LucideIcon } from 'lucide-react';
 import { motion } from 'motion/react';
-import { BarChart, type BarItem } from '../components/ui/BarChart';
+import { BarChart, scoreDot, type BarItem } from '../components/ui/BarChart';
 import { Card, type CardTone } from '../components/ui/Card';
 import { Skeleton } from '../components/ui/Skeleton';
 import { TOTAL_DAYS } from '../lib/progression';
@@ -19,12 +19,6 @@ function tileTone(percent: number | undefined): string {
   if (percent >= 70) return 'border-success bg-success text-on-accent';
   if (percent >= 50) return 'border-streak bg-streak text-on-accent';
   return 'border-error bg-error text-on-accent';
-}
-
-function barTone(percent: number): string {
-  if (percent >= 70) return 'bg-success';
-  if (percent >= 50) return 'bg-streak';
-  return 'bg-error';
 }
 
 /** Kartu angka dengan ikon di kotak putih, seperti kartu Lessons dan Hours di referensi Olympiads. */
@@ -66,7 +60,7 @@ export function StatsPage() {
     label: String(row.day),
     value: row.firstCorePercent,
     title: `Hari ${row.day}: ${row.firstCorePercent}%`,
-    className: barTone(row.firstCorePercent),
+    dotClassName: scoreDot(row.firstCorePercent),
   }));
 
   return (
@@ -111,7 +105,7 @@ export function StatsPage() {
             <Card className="flex flex-col gap-4">
               <div className="flex flex-col gap-1">
                 <h2 className="text-lg font-bold text-ink">Skor inti 14 hari terakhir</h2>
-                <p className="text-sm text-muted">Hijau 70% ke atas, kuning 50 sampai 69%, merah di bawah 50%.</p>
+                <p className="text-sm text-muted">Titik di atas batang: hijau 70% ke atas, kuning 50 sampai 69%, merah di bawah 50%.</p>
               </div>
               {barItems.length === 0 ? (
                 <p className="text-sm text-muted">Grafik muncul setelah hari pertama dikirim.</p>

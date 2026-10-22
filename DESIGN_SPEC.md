@@ -60,7 +60,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | `tint-mint` | `#CFEFE2` | `#1C4537` | Kartu mint (kesalahan, rencana 4) |
 | `tint-peach` | `#FBDCC4` | `#5A3A2B` | Kartu peach (cadangan, peringatan ringan) |
 | `tint-lilac` | `#E5E0FA` | `#2F2A55` | Kartu lilac (header sesi) |
-| `brown` | `#A95B23` | `#A95B23` | Bar grafik (teks putih di atasnya) |
+| `brown` | `#A95B23` | `#A95B23` | Batang grafik skor inti. Titik status di atasnya memakai `success`, `streak`, dan `error` |
 | `orange` | `#FFA265` | `#FFA265` | Kartu oranye penuh untuk sorotan (teks `on-accent`) |
 | `periwinkle` | `#AAB2F3` | `#AAB2F3` | Kartu periwinkle untuk kartu sedang (teks `on-accent`) |
 
