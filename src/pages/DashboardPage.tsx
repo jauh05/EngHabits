@@ -51,6 +51,8 @@ const TINT_CLASS: Record<CardTone, string> = {
   mint: 'bg-tint-mint',
   peach: 'bg-tint-peach',
   deep: 'bg-primary-700',
+  orange: 'bg-orange',
+  periwinkle: 'bg-periwinkle',
 };
 
 const PART_LABELS: Record<Part, string> = {

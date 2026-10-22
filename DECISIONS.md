@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-22: Tambah coklat, oranye penuh, dan periwinkle dari gambar 26
+
+1. **Tiga token baru di `tokens.css`.** `--brown` `#A95B23` untuk bar grafik, `--orange` `#FFA265` untuk kartu oranye penuh, dan `--periwinkle` `#AAB2F3` untuk kartu sedang. Ketiganya juga terdaftar di `@theme inline` sebagai `brown`, `orange`, dan `periwinkle`.
+2. **Teks di atasnya.** Coklat memakai teks putih (4,99:1). Oranye dan periwinkle memakai `on-accent`, yaitu gelap di kedua mode (7,94:1 dan 7,76:1).
+3. **Mode gelap memakai nilai yang sama.** Ketiganya tidak diredeklarasi di blok gelap, jadi tetap sama. Kontras tetap lolos.
+4. **Tone kartu baru.** `Card` punya tone `orange` dan `periwinkle`. Coklat tidak dijadikan tone kartu, karena teksnya harus putih.
+5. **Belum dipakai di layar utama.** Ketiganya sudah ada di katalog `/design`. Bar grafik di Statistik dan Beranda belum memakai coklat, dan belum ada kartu oranye atau periwinkle di layar utama. Latar poster yang coklat dan bergradasi tetap tidak dipakai.
+6. **Verifikasi.** Typecheck lolos, 51 tes lolos, dan build lolos. Di katalog `/design` (mode terang), kartu oranye terukur `rgb(255, 162, 101)` dan periwinkle `rgb(170, 178, 243)`, keduanya dengan teks `rgb(35, 34, 44)`. Swatch coklat terukur `rgb(169, 91, 35)`.
+
 ## 2026-10-22: Latar halaman dibuat putih
 
 1. **Latar halaman terang diubah dari krem `#FFF5EC` ke putih `#FFFFFF`.** Permintaan langsung dari pemilik proyek. Kartu putih (`surface`) sekarang sama warnanya dengan latar, sehingga kartu dibedakan lewat garis tepi `line` dan bayangan `shadow-card`. Di sidebar desktop, menu dan item aktifnya sama-sama putih, jadi item aktif hanya dibedakan lewat bayangan dan warna teks ungu.

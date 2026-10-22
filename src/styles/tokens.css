@@ -33,6 +33,10 @@
   --tint-mint: #cfefe2;
   --tint-peach: #fbdcc4;
   --tint-lilac: #e5e0fa;
+  /* Dari gambar 26: coklat untuk bar grafik (teks putih), oranye penuh dan periwinkle untuk kartu (teks on-accent). Mode gelap memakai nilai yang sama. */
+  --brown: #a95b23;
+  --orange: #ffa265;
+  --periwinkle: #aab2f3;
   /* Latar banner ungu, teksnya putih. Kontras putih di atasnya 4,61:1 (AA). */
   --banner: #7165d8;
   /* Kartu gelap, dengan teks putih dan tombol bulat. */
@@ -91,6 +95,9 @@
   --color-tint-mint: var(--tint-mint);
   --color-tint-peach: var(--tint-peach);
   --color-tint-lilac: var(--tint-lilac);
+  --color-brown: var(--brown);
+  --color-orange: var(--orange);
+  --color-periwinkle: var(--periwinkle);
   --color-banner: var(--banner);
   --color-charcoal: var(--charcoal);
   --shadow-card: var(--shadow);

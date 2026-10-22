@@ -33,7 +33,7 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 
 ## 3. Palet (design tokens)
 
-**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar putih `#FFFFFF`, banner ungu `#7165D8` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu.
+**Rombak terbaru 2026-10-22 (mengikuti bagian dalam ponsel gambar 25, Olympiads).** Latar putih `#FFFFFF`, banner ungu `#7165D8` dengan teks putih, oranye `#F59A5C` untuk tombol utama dengan teks gelap, dan charcoal `#2A2934` untuk kartu gelap. Latar poster di belakang ponsel tidak dipakai. Kartu pastel: sun, sky, rose, mint, peach, dan lilac. Sumber kebenaran adalah `src/styles/tokens.css`, dan tabel di bawah sama dengan file itu. Tiga warna dari gambar 26 (coklat, oranye penuh, dan periwinkle) ditambahkan setelahnya.
 
 | Token | Terang | Gelap | Pemakaian |
 |---|---|---|---|
@@ -60,6 +60,9 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | `tint-mint` | `#CFEFE2` | `#1C4537` | Kartu mint (kesalahan, rencana 4) |
 | `tint-peach` | `#FBDCC4` | `#5A3A2B` | Kartu peach (cadangan, peringatan ringan) |
 | `tint-lilac` | `#E5E0FA` | `#2F2A55` | Kartu lilac (header sesi) |
+| `brown` | `#A95B23` | `#A95B23` | Bar grafik (teks putih di atasnya) |
+| `orange` | `#FFA265` | `#FFA265` | Kartu oranye penuh untuk sorotan (teks `on-accent`) |
+| `periwinkle` | `#AAB2F3` | `#AAB2F3` | Kartu periwinkle untuk kartu sedang (teks `on-accent`) |
 
 **Kontras yang sudah dihitung (rasio WCAG):**
 
@@ -78,6 +81,10 @@ Yang **tidak** diambil: ilustrasi 3D dan maskot milik referensi. Ilustrasi memak
 | `on-accent` di `success` / `error` / `streak` (terang) | 6.69 / 5.30 / 7.23:1 | AA |
 | `on-accent` di `success` / `error` / `streak` (gelap) | 9.96 / 7.95 / 10.23:1 | AA |
 | `primary-500` (terang) di `surface` | 4.51:1 | AA, dan non-teks ≥3:1 |
+| Putih di `brown` (terang / gelap) | 4.99 / 4.99:1 | AA |
+| `on-accent` di `orange` (terang / gelap) | 7.94 / 9.12:1 | AA |
+| `on-accent` di `periwinkle` (terang / gelap) | 7.76 / 8.91:1 | AA |
+| `brown` terhadap latar (non-teks, terang / gelap) | 4.99 / 3.62:1 | non-teks ≥3:1 |
 
 **Aturan:** `success`, `error`, dan `streak` **tidak** dipakai sebagai warna teks di atas latar putih. Kontrasnya hanya 2.2 sampai 3.0:1. Warna itu dipakai untuk latar, ikon, dan progres, dan teks di atasnya memakai `on-accent`. Tombol utama memakai `btn-bg` dengan teks `btn-fg` yang gelap, bukan teks putih di atas ungu.
 

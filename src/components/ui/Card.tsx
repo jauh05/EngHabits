@@ -1,7 +1,7 @@
 import { motion, type HTMLMotionProps } from 'motion/react';
 import { spring } from '../../lib/motion';
 
-export type CardTone = 'surface' | 'lavender' | 'sun' | 'sky' | 'rose' | 'mint' | 'peach' | 'deep';
+export type CardTone = 'surface' | 'lavender' | 'sun' | 'sky' | 'rose' | 'mint' | 'peach' | 'deep' | 'orange' | 'periwinkle';
 
 export type CardProps = HTMLMotionProps<'div'> & {
   interactive?: boolean;
@@ -19,6 +19,10 @@ const TONES: Record<CardTone, string> = {
   peach: 'bg-tint-peach border-transparent',
   /** Kartu ungu tua dengan teks putih, untuk satu sorotan seperti kartu gelap di referensi. */
   deep: 'bg-charcoal border-transparent text-white',
+  /** Kartu oranye penuh (gambar 26) untuk sorotan. Teksnya gelap seperti tombol utama. */
+  orange: 'bg-orange border-transparent text-on-accent',
+  /** Kartu periwinkle (gambar 26) untuk kartu sedang. */
+  periwinkle: 'bg-periwinkle border-transparent text-on-accent',
 };
 
 export function Card({

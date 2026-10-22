@@ -24,6 +24,9 @@ const SWATCHES = [
   { name: 'success', label: 'Benar' },
   { name: 'error', label: 'Salah' },
   { name: 'streak', label: 'Streak' },
+  { name: 'brown', label: 'Coklat' },
+  { name: 'orange', label: 'Oranye' },
+  { name: 'periwinkle', label: 'Periwinkle' },
 ];
 
 const STEPS: StepperStep[] = [
@@ -151,6 +154,14 @@ export function DesignCatalog() {
             <Card tone="lavender">
               <p className="text-sm text-muted">Kartu lavender</p>
               <p className="text-lg font-bold">Balance</p>
+            </Card>
+            <Card tone="orange">
+              <p className="text-sm">Kartu oranye penuh</p>
+              <p className="text-lg font-bold">Sorotan</p>
+            </Card>
+            <Card tone="periwinkle">
+              <p className="text-sm">Kartu periwinkle</p>
+              <p className="text-lg font-bold">Sedang</p>
             </Card>
           </div>
           <div className="flex flex-wrap gap-2">
