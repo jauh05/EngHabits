@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router';
-import { ArrowLeft, BookOpen, CheckCircle2, XCircle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, XCircle } from 'lucide-react';
 import { easeOut } from '../lib/motion';
-import type { Day, Question } from '../../content/schema';
+import { monthOfWeek, WEEK_RANGES, type Day, type Question } from '../../content/schema';
 import { Badge } from '../components/ui/Badge';
 import { Button, buttonClass } from '../components/ui/Button';
-import { Card } from '../components/ui/Card';
+import { Card, type CardTone } from '../components/ui/Card';
+import { bankWeeks } from '../lib/bank';
 import { loadDay } from '../lib/content';
 import { updateMistake } from '../lib/db';
 import { localISO } from '../lib/dates';
@@ -25,6 +26,9 @@ function findQuestion(day: Day, questionId: string): Question | undefined {
 function optionText(question: Question, optionId: string): string {
   return question.options?.find((option) => option.id === optionId)?.text ?? '';
 }
+
+const BANK_WEEKS = bankWeeks();
+const BANK_TONES: CardTone[] = ['sun', 'sky', 'rose', 'mint', 'peach', 'lavender'];
 
 export function PracticePage() {
   const data = useProgressData();
@@ -210,6 +214,39 @@ export function PracticePage() {
           {skipped} soal terjemahan atau soal yang kontennya tidak tersedia tidak ikut sesi ini. Buka harinya untuk mengerjakannya.
         </p>
       )}
+
+      <section className="flex flex-col gap-3">
+        <div className="flex flex-col gap-1">
+          <h2 className="text-xl font-bold text-ink">Latihan Hard per minggu</h2>
+          <p className="text-sm text-muted">
+            30 soal sulit untuk setiap minggu. Jawaban dan penjelasan muncul setelah tiap soal diperiksa. Latihan ini tidak mengubah jadwal Buku Kesalahan.
+          </p>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {BANK_WEEKS.map((week, index) => {
+            const range = WEEK_RANGES.find(([value]) => value === week);
+            return (
+              <Link
+                key={week}
+                to={`/latihan/bank/${week}`}
+                className="block rounded-card outline-none focus-visible:outline-2 focus-visible:outline-primary-500"
+              >
+                <Card interactive tone={BANK_TONES[index % BANK_TONES.length]} className="flex items-center justify-between gap-3">
+                  <div className="flex flex-col gap-0.5">
+                    <span className="text-xs font-bold text-muted">
+                      Bulan {monthOfWeek(week)}
+                      {range && ` · Hari ${range[1]}–${range[2]}`}
+                    </span>
+                    <span className="text-lg font-bold text-ink">Minggu {week}</span>
+                    <span className="text-sm text-muted">30 soal sulit</span>
+                  </div>
+                  <ArrowRight size={20} aria-hidden="true" className="shrink-0 text-ink" />
+                </Card>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
     </div>
   );
 }

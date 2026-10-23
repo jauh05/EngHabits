@@ -2,6 +2,13 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-23: Latihan Hard per minggu di halaman Latihan
+
+1. **Bank Hard tersambung ke halaman Latihan.** `/latihan` menampilkan 12 kartu minggu, dan tiap kartu membuka `/latihan/bank/:week` dengan 30 soal sulit. Soal diperiksa satu per satu. Setelah "Periksa", muncul jawaban benar, penjelasan, langkah demi langkah, alasan tiap pilihan yang salah, aturan dengan contoh, dan jebakan ujian.
+2. **Sesi bank tidak menyimpan progres.** Skor harian dan Buku Kesalahan tidak berubah. "Ulangi minggu ini" memulai dari soal pertama.
+3. **Pemuat per minggu lewat `src/lib/bank.ts`.** Memakai `import.meta.glob` seperti file hari, sehingga tiap minggu menjadi chunk sendiri dan tidak masuk bundle utama. Kunci jawaban ikut terkirim ke browser karena latihan ini memeriksa jawaban langsung.
+4. **Verifikasi.** Typecheck lolos, 57 tes lolos (53 lama dan 4 baru di `bank.test.ts`), dan build lolos. Di browser: `/latihan` menampilkan 12 kartu. `/latihan/bank/1` menampilkan jawaban benar dan penjelasan setelah jawaban salah. Tiga puluh soal berurutan sampai "Sesi selesai" dengan skor yang cocok dengan hitungan manual (8 dari 30). `/latihan/bank/13` menampilkan "Minggu ini belum tersedia".
+
 ## 2026-10-22: Bayangan kartu auth lembut, tanpa tepi hijau
 
 1. **Kartu auth tidak lagi memakai `shadow-card`.** Bayangan `shadow-card` punya tepi 3D hijau 6px di bawah, yang di latar putih terlihat sebagai garis hijau di bagian bawah. Sekarang kartu memakai bayangan lembut `0 14px 34px -14px` dengan warna hijau gelap transparan.

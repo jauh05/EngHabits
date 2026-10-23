@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { BrowserRouter, Link, Navigate, Route, Routes, useLocation } from 'react-router';
 import { useSettings } from './lib/settings';
 import { AppShell } from './components/layout/AppShell';
+import { BankSessionPage } from './pages/BankSessionPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { DaftarPage } from './pages/DaftarPage';
 import { DayPage } from './pages/DayPage';
@@ -65,6 +66,7 @@ export function App() {
             <Route path="statistik" element={<StatsPage />} />
             <Route path="laporan" element={<ReadinessPage />} />
             <Route path="latihan" element={<PracticePage />} />
+            <Route path="latihan/bank/:week" element={<BankSessionPage />} />
             <Route path="profil" element={<ProfilePage />} />
           </Route>
           <Route path="hari/:n" element={<DayPage />} />
