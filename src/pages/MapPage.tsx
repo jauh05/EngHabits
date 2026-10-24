@@ -157,7 +157,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
           d={fullPath}
           fill="none"
           vectorEffect="non-scaling-stroke"
-          className="stroke-white/40"
+          className="stroke-primary-100"
           strokeWidth={64}
           strokeLinecap="round"
         />
@@ -165,7 +165,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
           d={fullPath}
           fill="none"
           vectorEffect="non-scaling-stroke"
-          className="stroke-white"
+          className="stroke-primary-500"
           strokeWidth={4}
           strokeLinecap="round"
           strokeDasharray="10 12"
