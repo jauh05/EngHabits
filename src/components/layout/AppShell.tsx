@@ -77,7 +77,7 @@ function Sidebar() {
   return (
     <aside className="hidden w-64 shrink-0 flex-col gap-6 border-r border-line p-6 lg:flex">
       <div className="flex items-center gap-3">
-        <span className="grid size-10 place-items-center rounded-2xl bg-btn-bg text-lg font-extrabold text-btn-fg">E</span>
+        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo EngHabits" width={40} height={40} className="size-10 object-contain" />
         <p className="text-lg font-extrabold text-ink">EngHabits</p>
       </div>
 

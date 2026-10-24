@@ -11,6 +11,7 @@ import {
   Headphones,
   Languages,
   Layers,
+  LogOut,
   Play,
   Target,
   Trophy,
@@ -18,13 +19,14 @@ import {
   type LucideIcon,
 } from 'lucide-react';
 import { useState, type ReactNode } from 'react';
-import { Link } from 'react-router';
-import { buttonClass } from '../components/ui/Button';
+import { Link, useNavigate } from 'react-router';
+import { Button, buttonClass } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
 import { BarChart, scoreDot, type BarItem } from '../components/ui/BarChart';
 import { Blob } from '../components/ui/Blob';
 import { Card, type CardTone } from '../components/ui/Card';
 import { CountUp } from '../components/ui/CountUp';
+import { Modal } from '../components/ui/Modal';
 import { MonthCalendar } from '../components/ui/MonthCalendar';
 import { StackIllustration } from '../components/ui/Illustration';
 import { ProgressRing } from '../components/ui/ProgressRing';
@@ -159,8 +161,16 @@ function formatToday(date: Date): string {
 
 export function DashboardPage() {
   const data = useProgressData();
-  const { settings } = useSettings();
+  const { settings, update } = useSettings();
+  const navigate = useNavigate();
   const [range, setRange] = useState<7 | 14>(7);
+  const [confirmLogout, setConfirmLogout] = useState(false);
+
+  // Keluar hanya mematikan status masuk. Akun tetap ada di perangkat, jadi bisa masuk lagi.
+  const logout = () => {
+    update({ signedIn: false });
+    navigate('/masuk', { replace: true });
+  };
   const today = localISO();
   const next = currentDay(data.mastered);
   const nextStatus = next ? dayStatus(next, data.completed, data.content, data.mastered) : undefined;
@@ -527,7 +537,39 @@ export function DashboardPage() {
             </Link>
           </Card>
         </Reveal>
+        <Reveal index={5}>
+          <Card className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-primary-100 text-primary-700">
+                <LogOut size={20} aria-hidden="true" />
+              </span>
+              <div className="min-w-0">
+                <h2 className="text-lg font-bold text-ink">Akun</h2>
+                <p className="truncate text-sm text-muted">{settings.account?.email ?? 'Belum ada akun'}</p>
+              </div>
+            </div>
+            <Button variant="secondary" className="self-start" onClick={() => setConfirmLogout(true)}>
+              <LogOut size={18} aria-hidden="true" />
+              Keluar
+            </Button>
+          </Card>
+        </Reveal>
       </aside>
+
+      <Modal open={confirmLogout} onClose={() => setConfirmLogout(false)} title="Keluar dari akun ini?">
+        <p className="text-sm text-muted">
+          Akunmu tetap tersimpan di perangkat ini. Kamu bisa masuk lagi kapan saja dengan email dan kata sandi yang sama.
+        </p>
+        <div className="mt-6 flex flex-wrap justify-end gap-3">
+          <Button variant="secondary" onClick={() => setConfirmLogout(false)}>
+            Batal
+          </Button>
+          <Button onClick={logout}>
+            <LogOut size={18} aria-hidden="true" />
+            Ya, keluar
+          </Button>
+        </div>
+      </Modal>
     </div>
   );
 }

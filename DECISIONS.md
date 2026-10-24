@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-24: Keluar dari beranda, sambutan seperti beranda, dan logo baru
+
+1. **Keluar ada di kartu Akun di beranda.** Tombol membuka modal konfirmasi (`Modal`) dulu. Keluar hanya mematikan `signedIn`. Akun tetap ada di perangkat, jadi bisa masuk lagi dengan email dan kata sandi yang sama. Tombol di Profil tidak diubah.
+2. **Layar sambutan memakai latar beranda.** `BackgroundArt` hijau dengan kartu bayangan di tengah, menggantikan bingkai `AuthFrame` yang putih.
+3. **Logo baru dari gambar owl.** `public/logo.png` dipotong dari gambar mockup dan latar dinding dibuat transparan lewat flood fill dari tepi. Ikon PWA `public/icons/icon-192.png` dan `icon-512.png` memakai latar hijau muda `#E4F7CF`, dengan owl di 78% area supaya aman untuk ikon maskable. Logo dipakai di sidebar desktop dan layar sambutan. `scripts/make-icons.mjs` masih menghasilkan ikon huruf E, jadi jangan dijalankan lagi tanpa memperbarui skrip.
+4. **Login dari perangkat lain tidak bisa, dan ini bukan bug login.** Akun disimpan di IndexedDB, dan IndexedDB terpisah untuk setiap perangkat dan setiap origin. Akun dari laptop tidak ada di Mac atau HP, dan `localhost` tidak berbagi data dengan domain produksi. Perbaikan permanen butuh akun di server.
+5. **Verifikasi.** Typecheck, 57 tes, dan build lolos. Di browser: daftar, keluar lewat modal, lalu masuk lagi dan sampai ke sambutan. Sambutan di 375px tidak punya scroll horizontal.
+
 ## 2026-10-23: Latihan Hard per minggu di halaman Latihan
 
 1. **Bank Hard tersambung ke halaman Latihan.** `/latihan` menampilkan 12 kartu minggu, dan tiap kartu membuka `/latihan/bank/:week` dengan 30 soal sulit. Soal diperiksa satu per satu. Setelah "Periksa", muncul jawaban benar, penjelasan, langkah demi langkah, alasan tiap pilihan yang salah, aturan dengan contoh, dan jebakan ujian.
