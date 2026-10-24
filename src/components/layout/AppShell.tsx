@@ -6,6 +6,7 @@ import { currentDay, TOTAL_DAYS } from '../../lib/progression';
 import { useSettings } from '../../lib/settings';
 import { useProgressData } from '../../lib/useProgressData';
 import { BackgroundArt } from '../ui/BackgroundArt';
+import { Logo } from '../ui/Logo';
 import { ReminderWatcher } from './ReminderWatcher';
 
 type NavItem = { to: string; label: string; icon: LucideIcon };
@@ -77,7 +78,7 @@ function Sidebar() {
   return (
     <aside className="hidden w-64 shrink-0 flex-col gap-6 border-r border-line p-6 lg:flex">
       <div className="flex items-center gap-3">
-        <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo EngHabits" width={40} height={40} className="size-10 object-contain" />
+        <Logo className="size-10" />
         <p className="text-lg font-extrabold text-ink">EngHabits</p>
       </div>
 

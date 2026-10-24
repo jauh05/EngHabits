@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router';
 import { BackgroundArt } from '../components/ui/BackgroundArt';
 import { Button } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
+import { Logo } from '../components/ui/Logo';
 import { currentDay, TOTAL_DAYS } from '../lib/progression';
 import { useSettings } from '../lib/settings';
 import { useProgressData } from '../lib/useProgressData';
@@ -23,13 +24,7 @@ export function SambutanPage() {
     <div className="relative isolate flex min-h-dvh items-center justify-center overflow-hidden bg-bg p-4">
       <BackgroundArt />
       <Card className="relative flex w-full max-w-md flex-col items-center gap-6 p-6 text-center sm:p-8">
-        <img
-          src={`${import.meta.env.BASE_URL}logo.png`}
-          alt="Logo EngHabits"
-          width={144}
-          height={144}
-          className="h-36 w-auto"
-        />
+        <Logo className="h-36 w-auto" />
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl font-extrabold leading-tight text-ink">
             Selamat datang,

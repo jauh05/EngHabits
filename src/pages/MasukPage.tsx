@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { AuthFrame } from '../components/auth/AuthFrame';
 import { SocialButtons } from '../components/auth/SocialButtons';
-import { BlobCluster } from '../components/ui/BlobCluster';
+import { Logo } from '../components/ui/Logo';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { loginAccount } from '../lib/auth';
@@ -36,9 +36,11 @@ export function MasukPage() {
   return (
     <AuthFrame
       art={
-        <div className="flex flex-col items-center gap-2">
+        <div className="flex flex-col items-center gap-3">
+          <span className="grid place-items-center rounded-full bg-surface/90 p-3 shadow-card">
+            <Logo className="h-28 w-auto sm:h-24" />
+          </span>
           <p className="text-4xl font-black tracking-tight text-white">EngHabits</p>
-          <BlobCluster bubble="Hello~" className="w-48 sm:w-44" />
         </div>
       }
     >
