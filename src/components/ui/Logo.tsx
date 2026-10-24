@@ -5,7 +5,8 @@
 export function Logo({ className = '' }: { className?: string }) {
   return (
     <img
-      src={`${import.meta.env.BASE_URL}logo.png`}
+      // Penanda versi memaksa browser dan service worker mengambil logo baru, bukan salinan lama.
+      src={`${import.meta.env.BASE_URL}logo.png?v=2`}
       alt="Logo EngHabits"
       width={458}
       height={439}
