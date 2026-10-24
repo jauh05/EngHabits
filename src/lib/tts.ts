@@ -22,6 +22,20 @@ export type SpeakOptions = {
   onEnd?: () => void;
 };
 
+// Peramban di Android dan iOS kadang membuang utterance yang tidak punya referensi, sehingga suara berhenti
+// atau onend tidak terpanggil. Referensi disimpan di sini sampai suara selesai.
+let activeUtterance: SpeechSynthesisUtterance | null = null;
+
+/** Memberi tahu saat daftar voice berubah. Di Android dan iOS daftar voice sering kosong saat halaman baru dibuka. */
+export function subscribeVoices(listener: () => void): () => void {
+  if (!ttsSupported()) return () => undefined;
+  const synth = window.speechSynthesis;
+  synth.addEventListener('voiceschanged', listener);
+  // Membaca daftar voice sekali membantu peramban memuatnya lebih cepat.
+  synth.getVoices();
+  return () => synth.removeEventListener('voiceschanged', listener);
+}
+
 /** Bacakan teks. Memotong suara yang sedang berjalan agar tidak bertumpuk. */
 export function speak(text: string, options: SpeakOptions): void {
   if (!ttsSupported()) {
@@ -30,14 +44,21 @@ export function speak(text: string, options: SpeakOptions): void {
   }
   const synth = window.speechSynthesis;
   synth.cancel();
+  // Chrome di Android kadang tetap pause setelah cancel. Resume memastikan suara baru bisa berbunyi.
+  synth.resume();
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = options.accent;
   utterance.rate = options.rate;
   const voice = pickVoice(options.accent);
   if (voice) utterance.voice = voice;
+  const finish = () => {
+    if (activeUtterance === utterance) activeUtterance = null;
+    options.onEnd?.();
+  };
   utterance.onstart = () => options.onStart?.();
-  utterance.onend = () => options.onEnd?.();
-  utterance.onerror = () => options.onEnd?.();
+  utterance.onend = finish;
+  utterance.onerror = finish;
+  activeUtterance = utterance;
   synth.speak(utterance);
 }
 

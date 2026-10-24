@@ -1,4 +1,4 @@
-import { useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { motion } from 'motion/react';
 import { Bell, Check, Download, Palette, RotateCcw, UserRound, Upload, Volume2, type LucideIcon } from 'lucide-react';
 import { spring } from '../lib/motion';
@@ -9,7 +9,7 @@ import { useToast } from '../components/ui/Toast';
 import { applyBackup, buildBackupText, parseBackupText } from '../lib/backup';
 import { resetProgress, type BackupData, type Settings } from '../lib/db';
 import { localISO } from '../lib/dates';
-import { hasEnglishVoice, speak, ttsSupported } from '../lib/tts';
+import { hasEnglishVoice, speak, subscribeVoices, ttsSupported } from '../lib/tts';
 import { logoutAccount } from '../lib/auth';
 import { useSettings } from '../lib/settings';
 import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
@@ -113,7 +113,10 @@ export function ProfilePage() {
   const [reminderNote, setReminderNote] = useState('');
   const [pendingImport, setPendingImport] = useState<BackupData>();
   const fileInput = useRef<HTMLInputElement>(null);
-  const voiceReady = ttsSupported() && hasEnglishVoice();
+  const [voiceReady, setVoiceReady] = useState(() => ttsSupported() && hasEnglishVoice());
+
+  // Status suara diperbarui saat perangkat selesai memuat daftar voice, supaya tidak tertinggal di "belum ada suara".
+  useEffect(() => subscribeVoices(() => setVoiceReady(hasEnglishVoice())), []);
 
   const set = (patch: Partial<Settings>) => update(patch);
 
