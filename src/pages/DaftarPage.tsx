@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { AuthFrame } from '../components/auth/AuthFrame';
 import { SocialButtons } from '../components/auth/SocialButtons';
-import { Logo } from '../components/ui/Logo';
+import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { PASSWORD_MIN_LENGTH, registerAccount, validateRegistration } from '../lib/auth';
@@ -40,13 +40,7 @@ export function DaftarPage() {
   };
 
   return (
-    <AuthFrame
-      art={
-        <span className="grid place-items-center rounded-full bg-surface/90 p-3 shadow-card">
-          <Logo className="h-28 w-auto sm:h-24" />
-        </span>
-      }
-    >
+    <AuthFrame art={<BlobCluster bubble="Yay!" className="w-48 sm:w-44" />}>
       <div className="flex flex-col gap-2 text-center lg:text-left">
         <h1 className="text-3xl font-extrabold text-ink">Buat akun</h1>
         <p className="text-muted">Akunmu disimpan di server, jadi bisa dipakai dari perangkat mana pun.</p>
