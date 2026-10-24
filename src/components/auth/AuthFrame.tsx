@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import { BackgroundArt } from '../ui/BackgroundArt';
 import { Blob } from '../ui/Blob';
 
 /**
@@ -8,7 +9,8 @@ import { Blob } from '../ui/Blob';
  */
 export function AuthFrame({ art, children }: { art: ReactNode; children: ReactNode }) {
   return (
-    <div className="flex min-h-dvh justify-center bg-surface p-3 sm:items-center sm:p-4">
+    <div className="relative isolate flex min-h-dvh justify-center overflow-hidden bg-bg p-3 sm:items-center sm:p-4">
+      <BackgroundArt />
       <div className="relative flex w-full max-w-[390px] flex-col overflow-hidden rounded-[40px] shadow-[0_14px_34px_-14px_rgb(18_51_29/0.28)] sm:h-[min(844px,calc(100dvh-2rem))]">
         <section className="isolate relative flex min-h-[38dvh] flex-none items-center justify-center overflow-hidden bg-banner px-6 pb-8 pt-5 sm:min-h-0 sm:pb-6 sm:pt-4">
           <Blob className="-left-14 -top-12 size-48 bg-tint-sun/90" />

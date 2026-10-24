@@ -10,6 +10,7 @@ import { applyBackup, buildBackupText, parseBackupText } from '../lib/backup';
 import { resetProgress, type BackupData, type Settings } from '../lib/db';
 import { localISO } from '../lib/dates';
 import { hasEnglishVoice, speak, ttsSupported } from '../lib/tts';
+import { logoutAccount } from '../lib/auth';
 import { useSettings } from '../lib/settings';
 import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
 
@@ -210,7 +211,9 @@ export function ProfilePage() {
             <Button
               variant="secondary"
               onClick={() => {
-                update({ signedIn: false });
+                const token = settings.token;
+                update({ signedIn: false, token: '' });
+                if (token) void logoutAccount(token);
                 show('Kamu sudah keluar. Masuk lagi kapan saja.');
               }}
             >

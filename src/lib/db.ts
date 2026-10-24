@@ -44,8 +44,10 @@ export type Settings = {
   lastReminderDate: string;
   /** Nama panggilan dari akun lokal. */
   name: string;
-  /** Akun lokal di perangkat ini. Null bila belum pernah daftar. */
+  /** Akun yang terakhir dipakai di perangkat ini. Null bila belum pernah daftar atau masuk. */
   account: Account | null;
+  /** Token sesi dari server. Kosong saat keluar. */
+  token: string;
   /** Sedang masuk. Dihapus saat keluar. */
   signedIn: boolean;
   /** Tampilan Peta 90 hari: roadmap seperti gambar referensi, atau kisi minggu. */
@@ -61,6 +63,7 @@ export const DEFAULT_SETTINGS: Settings = {
   lastReminderDate: '',
   name: '',
   account: null,
+  token: '',
   signedIn: false,
   mapView: 'roadmap',
 };

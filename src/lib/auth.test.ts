@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { checkCredentials, createAccount, normalizeEmail, validateRegistration } from './auth';
+import { afterEach, describe, expect, it, vi } from 'vitest';
+import { loginAccount, normalizeEmail, registerAccount, validateRegistration } from './auth';
 
 describe('validateRegistration', () => {
   it('menolak nama kosong, email salah, dan kata sandi pendek', () => {
@@ -13,23 +13,46 @@ describe('validateRegistration', () => {
   });
 });
 
-describe('akun lokal', () => {
+describe('akun di server', () => {
+  afterEach(() => {
+    vi.unstubAllGlobals();
+  });
+
   it('email dinormalisasi ke huruf kecil tanpa spasi', () => {
     expect(normalizeEmail('  Sinta@Contoh.ID ')).toBe('sinta@contoh.id');
   });
 
-  it('kata sandi yang benar lolos, yang salah ditolak', async () => {
-    const account = await createAccount({ name: 'Sinta', email: 'sinta@contoh.id', password: 'rahasia123' });
-    expect(account.hash).not.toContain('rahasia123');
-    expect(await checkCredentials(account, 'SINTA@contoh.id', 'rahasia123')).toBe(true);
-    expect(await checkCredentials(account, 'sinta@contoh.id', 'salah-sandi')).toBe(false);
-    expect(await checkCredentials(account, 'orang@lain.id', 'rahasia123')).toBe(false);
+  it('daftar mengirim email yang sudah dinormalisasi dan mengembalikan sesi', async () => {
+    const fetchMock = vi.fn(
+      async (_url: string, _init?: RequestInit) =>
+        new Response(JSON.stringify({ token: 'token-uji', account: { email: 'sinta@contoh.id', name: 'Sinta' } }), {
+          status: 201,
+        }),
+    );
+    vi.stubGlobal('fetch', fetchMock);
+
+    const session = await registerAccount({ name: ' Sinta ', email: 'Sinta@Contoh.id', password: 'rahasia123' });
+
+    expect(session).toEqual({ token: 'token-uji', account: { email: 'sinta@contoh.id', name: 'Sinta' } });
+    const sent = JSON.parse(String(fetchMock.mock.calls[0][1]?.body));
+    expect(sent).toEqual({ name: 'Sinta', email: 'sinta@contoh.id', password: 'rahasia123' });
   });
 
-  it('salt berbeda membuat hash berbeda untuk kata sandi yang sama', async () => {
-    const first = await createAccount({ name: 'A', email: 'a@b.id', password: 'rahasia123' });
-    const second = await createAccount({ name: 'A', email: 'a@b.id', password: 'rahasia123' });
-    expect(first.salt).not.toBe(second.salt);
-    expect(first.hash).not.toBe(second.hash);
+  it('pesan galat dari server ditampilkan apa adanya', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => new Response(JSON.stringify({ error: 'Email atau kata sandi salah.' }), { status: 401 })),
+    );
+    await expect(loginAccount('sinta@contoh.id', 'salah-sandi')).rejects.toThrow('Email atau kata sandi salah.');
+  });
+
+  it('kalau server tidak bisa dihubungi, pesannya jelas', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async () => {
+        throw new TypeError('Failed to fetch');
+      }),
+    );
+    await expect(loginAccount('sinta@contoh.id', 'rahasia123')).rejects.toThrow('Tidak bisa terhubung ke server');
   });
 });

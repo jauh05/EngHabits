@@ -2,6 +2,16 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-24: Akun disimpan di server (API dan SQLite)
+
+1. **Akun di server.** `server/app.mjs` menyediakan `/api/register`, `/api/login`, `/api/logout`, dan `/api/me`. Basis datanya SQLite lewat `node:sqlite`, jadi butuh Node 22.13 atau lebih baru dan tidak menambah dependensi.
+2. **Kata sandi di-hash dengan scrypt.** Token sesi acak 32 byte, dan di database hanya hash SHA-256-nya yang disimpan. Sesi berlaku 180 hari.
+3. **Klien hanya menyimpan email, nama, dan token.** `src/lib/auth.ts` memanggil `/api/*`. Akun lama dari versi lokal tidak ikut pindah, jadi perlu daftar ulang sekali.
+4. **Rute API.** Saat pengembangan, Vite meneruskan `/api` ke `127.0.0.1:3001`. Di server, nginx meneruskan `/api/` ke port yang sama, dan Cloudflare tetap mengarah ke nginx.
+5. **Progres belajar tetap lokal per perangkat.** Sinkronisasi progres belum dibuat dan akan menjadi langkah berikutnya.
+6. **Favicon tab memakai logo owl** (`public/favicon.png`).
+7. **Verifikasi.** Lima tes API dan empat tes klien lolos, total 63 tes. Di browser: daftar, lalu hapus IndexedDB untuk meniru perangkat baru, lalu masuk dengan akun yang sama dan berhasil. Baris akun juga terlihat di database.
+
 ## 2026-10-24: Keluar dari beranda, sambutan seperti beranda, dan logo baru
 
 1. **Keluar ada di kartu Akun di beranda.** Tombol membuka modal konfirmasi (`Modal`) dulu. Keluar hanya mematikan `signedIn`. Akun tetap ada di perangkat, jadi bisa masuk lagi dengan email dan kata sandi yang sama. Tombol di Profil tidak diubah.

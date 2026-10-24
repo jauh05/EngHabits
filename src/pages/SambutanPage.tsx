@@ -41,7 +41,7 @@ export function SambutanPage() {
               ? `Hari ke-${next} dari ${TOTAL_DAYS} sudah menunggumu. Dua jam setiap pagi sudah cukup untuk hari ini.`
               : 'Kamu sudah menyelesaikan seluruh 90 hari. Ulangi bagian yang masih lemah lewat Buku Kesalahan.'}
           </p>
-          <p className="text-sm text-muted">Akunmu tersimpan di perangkat ini. Belum tersinkron ke server.</p>
+          <p className="text-sm text-muted">Akunmu tersimpan di server. Progres belajarmu tetap di perangkat ini.</p>
         </div>
 
         <Button size="lg" className="w-full" onClick={() => navigate('/', { replace: true })}>

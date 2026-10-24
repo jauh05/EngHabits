@@ -6,37 +6,28 @@ import { SocialButtons } from '../components/auth/SocialButtons';
 import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
-import { checkCredentials } from '../lib/auth';
+import { loginAccount } from '../lib/auth';
 import { useSettings } from '../lib/settings';
 
 /** Masuk ke akun lokal di perangkat ini. */
 export function MasukPage() {
-  const { settings, update } = useSettings();
+  const { update } = useSettings();
   const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string>();
   const [busy, setBusy] = useState(false);
-  const account = settings.account;
 
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
     setError(undefined);
-    if (!account) {
-      setError('Belum ada akun di perangkat ini. Daftar dulu.');
-      return;
-    }
     setBusy(true);
     try {
-      const ok = await checkCredentials(account, email, password);
-      if (!ok) {
-        setError('Email atau kata sandi salah.');
-        return;
-      }
-      update({ name: account.name, signedIn: true });
+      const session = await loginAccount(email, password);
+      update({ account: session.account, name: session.account.name, token: session.token, signedIn: true });
       navigate('/sambutan', { replace: true, state: { welcome: true } });
-    } catch {
-      setError('Masuk gagal. Coba lagi.');
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : 'Masuk gagal. Coba lagi.');
     } finally {
       setBusy(false);
     }
@@ -53,7 +44,7 @@ export function MasukPage() {
     >
       <div className="flex flex-col gap-2 text-center lg:text-left">
         <h1 className="text-3xl font-extrabold text-ink">Masuk untuk mulai</h1>
-        <p className="text-muted">Lanjutkan kebiasaanmu dari perangkat ini.</p>
+        <p className="text-muted">Pakai email dan kata sandi yang sama di perangkat mana pun.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:gap-2.5" noValidate>

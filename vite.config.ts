@@ -9,7 +9,7 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg'],
+      includeAssets: ['favicon.png'],
       manifest: {
         name: 'EngHabits',
         short_name: 'EngHabits',
@@ -26,4 +26,8 @@ export default defineConfig({
       },
     }),
   ],
+  // Saat pengembangan, /api diteruskan ke API akun di server/index.mjs.
+  server: {
+    proxy: { '/api': 'http://127.0.0.1:3001' },
+  },
 });

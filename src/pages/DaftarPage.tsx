@@ -6,12 +6,12 @@ import { SocialButtons } from '../components/auth/SocialButtons';
 import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
-import { createAccount, PASSWORD_MIN_LENGTH, validateRegistration } from '../lib/auth';
+import { PASSWORD_MIN_LENGTH, registerAccount, validateRegistration } from '../lib/auth';
 import { useSettings } from '../lib/settings';
 
 /** Daftar akun lokal. Hanya satu akun per perangkat, karena belum ada server. */
 export function DaftarPage() {
-  const { settings, update } = useSettings();
+  const { update } = useSettings();
   const navigate = useNavigate();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -22,10 +22,6 @@ export function DaftarPage() {
   const handleSubmit = async (event: FormEvent) => {
     event.preventDefault();
     setError(undefined);
-    if (settings.account) {
-      setError('Akun sudah ada di perangkat ini. Silakan masuk.');
-      return;
-    }
     const problem = validateRegistration({ name, email, password });
     if (problem) {
       setError(problem);
@@ -33,11 +29,11 @@ export function DaftarPage() {
     }
     setBusy(true);
     try {
-      const account = await createAccount({ name, email, password });
-      update({ account, name: account.name, signedIn: true });
+      const session = await registerAccount({ name, email, password });
+      update({ account: session.account, name: session.account.name, token: session.token, signedIn: true });
       navigate('/sambutan', { replace: true, state: { welcome: true } });
-    } catch {
-      setError('Akun gagal dibuat. Coba lagi.');
+    } catch (caught) {
+      setError(caught instanceof Error ? caught.message : 'Akun gagal dibuat. Coba lagi.');
     } finally {
       setBusy(false);
     }
@@ -47,7 +43,7 @@ export function DaftarPage() {
     <AuthFrame art={<BlobCluster bubble="Yay!" className="w-48 sm:w-44" />}>
       <div className="flex flex-col gap-2 text-center lg:text-left">
         <h1 className="text-3xl font-extrabold text-ink">Buat akun</h1>
-        <p className="text-muted">Akun disimpan di perangkat ini. Belum tersinkron ke server.</p>
+        <p className="text-muted">Akunmu disimpan di server, jadi bisa dipakai dari perangkat mana pun.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 sm:gap-2.5" noValidate>

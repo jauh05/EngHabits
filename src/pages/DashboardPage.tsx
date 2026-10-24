@@ -35,6 +35,7 @@ import type { Part } from '../lib/grading';
 import { easeOut } from '../lib/motion';
 import { currentDay, dayStatus, MASTERY_THRESHOLD, TOTAL_DAYS } from '../lib/progression';
 import { isDue } from '../lib/srs';
+import { logoutAccount } from '../lib/auth';
 import { useSettings } from '../lib/settings';
 import { useProgressData } from '../lib/useProgressData';
 
@@ -168,7 +169,9 @@ export function DashboardPage() {
 
   // Keluar hanya mematikan status masuk. Akun tetap ada di perangkat, jadi bisa masuk lagi.
   const logout = () => {
-    update({ signedIn: false });
+    const token = settings.token;
+    update({ signedIn: false, token: '' });
+    if (token) void logoutAccount(token);
     navigate('/masuk', { replace: true });
   };
   const today = localISO();

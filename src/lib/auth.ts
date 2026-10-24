@@ -1,42 +1,22 @@
 /**
- * Akun lokal. Akun hanya ada di perangkat ini (IndexedDB) dan belum tersinkron ke server.
- * Kata sandi tidak disimpan. Yang disimpan adalah hasil PBKDF2-SHA256 dengan salt acak,
- * supaya kata sandi tidak terbaca dari isi penyimpanan.
+ * Akun disimpan di server (API di server/app.mjs), jadi bisa dipakai dari perangkat mana pun.
+ * Kata sandi hanya dikirim sekali saat masuk atau daftar, lalu di-hash di server.
+ * Di perangkat hanya disimpan email, nama panggilan, dan token sesi.
  */
 
 export type Account = {
   email: string;
   name: string;
-  /** Salt acak, base64. */
-  salt: string;
-  /** Hasil PBKDF2, base64. */
-  hash: string;
+};
+
+export type AuthSession = {
+  token: string;
+  account: Account;
 };
 
 export const PASSWORD_MIN_LENGTH = 8;
-const ITERATIONS = 100_000;
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-const encoder = new TextEncoder();
-
-function toBase64(bytes: Uint8Array): string {
-  let binary = '';
-  for (const byte of bytes) binary += String.fromCharCode(byte);
-  return btoa(binary);
-}
-
-function fromBase64(text: string): Uint8Array {
-  return Uint8Array.from(atob(text), (char) => char.charCodeAt(0));
-}
-
-async function derive(password: string, salt: Uint8Array): Promise<string> {
-  const key = await crypto.subtle.importKey('raw', encoder.encode(password), 'PBKDF2', false, ['deriveBits']);
-  const bits = await crypto.subtle.deriveBits(
-    { name: 'PBKDF2', salt: salt as BufferSource, iterations: ITERATIONS, hash: 'SHA-256' },
-    key,
-    256,
-  );
-  return toBase64(new Uint8Array(bits));
-}
+const API = '/api';
 
 export function normalizeEmail(email: string): string {
   return email.trim().toLowerCase();
@@ -50,19 +30,36 @@ export function validateRegistration(input: { name: string; email: string; passw
   return null;
 }
 
-export async function createAccount(input: { name: string; email: string; password: string }): Promise<Account> {
-  const salt = crypto.getRandomValues(new Uint8Array(16));
-  return {
-    email: normalizeEmail(input.email),
-    name: input.name.trim(),
-    salt: toBase64(salt),
-    hash: await derive(input.password, salt),
-  };
+async function post<T>(path: string, body: unknown, token?: string): Promise<T> {
+  let response: Response;
+  try {
+    response = await fetch(`${API}${path}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+      body: JSON.stringify(body),
+    });
+  } catch {
+    throw new Error('Tidak bisa terhubung ke server. Periksa koneksi lalu coba lagi.');
+  }
+  // Keluar membalas 204 tanpa isi, jadi isi kosong tidak dianggap galat.
+  const data = (await response.json().catch(() => ({}))) as T & { error?: string };
+  if (!response.ok) throw new Error(data.error ?? 'Permintaan gagal. Coba lagi.');
+  return data;
 }
 
-/** Cocokkan email dan kata sandi dengan akun lokal. */
-export async function checkCredentials(account: Account, email: string, password: string): Promise<boolean> {
-  if (normalizeEmail(email) !== account.email) return false;
-  const candidate = await derive(password, fromBase64(account.salt));
-  return candidate === account.hash;
+export function registerAccount(input: { name: string; email: string; password: string }): Promise<AuthSession> {
+  return post<AuthSession>('/register', {
+    name: input.name.trim(),
+    email: normalizeEmail(input.email),
+    password: input.password,
+  });
+}
+
+export function loginAccount(email: string, password: string): Promise<AuthSession> {
+  return post<AuthSession>('/login', { email: normalizeEmail(email), password });
+}
+
+/** Mencabut sesi di server. Kegagalan tidak menghalangi keluar di perangkat ini. */
+export async function logoutAccount(token: string): Promise<void> {
+  await post('/logout', {}, token).catch(() => undefined);
 }
