@@ -2,6 +2,15 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-25: Sinkron progres penuh dan mode gabungan
+
+1. **Sinkron penuh.** Progres harian, percobaan, Buku Kesalahan, dan catatan dikirim ke `PUT /api/sync` lalu digabung di server. Hasil gabungan dikembalikan ke perangkat. Sinkron dijalankan saat aplikasi dibuka, setiap 60 detik, dan saat jendela kembali aktif. Aturan gabungan ada di `server/sync.mjs` dan `src/lib/syncMerge.ts`, dan harus tetap sama.
+2. **Aturan gabungan.** Hari pertama yang lulus jadi acuan, nilai terbaik diambil. Percobaan tidak pernah berubah. Buku Kesalahan memakai entri yang terakhir salah. Catatan memakai yang paling baru.
+3. **Hari lulus untuk battle** sekarang dihitung ulang dari progres yang sudah digabung, bukan dari pengiriman terpisah.
+4. **Batasan.** Penghapusan progres di satu perangkat belum ikut tersinkron. Data akan kembali saat sinkron berikutnya.
+5. **Mode gabungan battle.** Pemain bisa memilih sampai 3 mode. Jenis soal diambil dari gabungan mode itu. Campuran tetap berdiri sendiri.
+6. **Kartu mode** diberi warna, ikon, dan tepi 3D, dengan tanda centang saat dipilih.
+
 ## 2026-10-25: Battle real-time dengan ID publik
 
 1. **ID publik** `EH-XXXXXX` (tanpa 0, O, 1, I) untuk setiap akun. Akun lama mendapat ID saat migrasi, dan ID hanya bisa diganti sekali dari Profil.

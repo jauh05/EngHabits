@@ -203,3 +203,38 @@ describe('normalisasi jawaban', () => {
     expect(normalizeAnswer('café')).toBe('cafe');
   });
 });
+
+describe('gabungan mode', () => {
+  it('menerima hingga 3 mode dan menolak lebih dari 3', async () => {
+    const a = await registerUser('Rama', 'rama.mode@contoh.id');
+    const b = await registerUser('Sari', 'sari.mode@contoh.id');
+    const ok = await call('POST', '/api/battles', a.token, {
+      opponentPublicId: b.publicId,
+      mode: 'kilat+esai',
+      total: 8,
+      composition: { mcq: 4, essay: 4 },
+    });
+    expect(ok.status).toBe(201);
+    const c = await registerUser('Wawan', 'wawan.mode@contoh.id');
+    const x = await registerUser('Xena', 'xena.mode@contoh.id');
+    const tooMany = await call('POST', '/api/battles', c.token, {
+      opponentPublicId: x.publicId,
+      mode: 'kilat+esai+cerita+dengar',
+      total: 8,
+      composition: { mcq: 8 },
+    });
+    expect(tooMany.status).toBe(400);
+  });
+
+  it('komposisi gabungan hanya boleh memakai jenis soal dari mode yang dipilih', async () => {
+    const a = await registerUser('Tika', 'tika.mode@contoh.id');
+    const b = await registerUser('Umar', 'umar.mode@contoh.id');
+    const bad = await call('POST', '/api/battles', a.token, {
+      opponentPublicId: b.publicId,
+      mode: 'kilat+esai',
+      total: 8,
+      composition: { mcq: 4, story: 4 },
+    });
+    expect(bad.status).toBe(400);
+  });
+});

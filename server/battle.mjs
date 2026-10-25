@@ -24,6 +24,45 @@ export const MODES = {
 
 const DEFAULT_SECONDS = { mcq: 15, translate: 40, story: 60, essay: 120, listen: 25, reorder: 30 };
 
+const MAX_MODES = 3;
+const ORDER = ['mcq', 'translate', 'story', 'essay', 'listen', 'reorder'];
+
+/**
+ * Aturan satu mode atau gabungan mode (dipisah '+', maksimal 3). Gabungan memakai union tipe soal,
+ * dan batas tag hanya berlaku bila setiap mode pilihan ganda yang dipilih punya tag.
+ */
+export function specFor(modeString) {
+  const ids = String(modeString ?? '').split('+').filter(Boolean);
+  if (ids.length === 0 || ids.length > MAX_MODES || new Set(ids).size !== ids.length) return undefined;
+  const specs = ids.map((id) => MODES[id]);
+  if (specs.some((spec) => !spec)) return undefined;
+  if (ids.length === 1) {
+    const only = specs[0];
+    return { ...only, id: ids[0], tags: only.tag ? [only.tag] : undefined };
+  }
+  if (ids.includes('campuran')) return undefined;
+  const types = ORDER.filter((type) => specs.some((spec) => spec.types.includes(type)));
+  const mcqSpecs = specs.filter((spec) => spec.types.includes('mcq'));
+  const tags = mcqSpecs.length > 0 && mcqSpecs.every((spec) => spec.tag)
+    ? [...new Set(mcqSpecs.map((spec) => spec.tag))]
+    : undefined;
+  return {
+    id: ids.join('+'),
+    label: specs.map((spec) => spec.label).join(' + '),
+    types,
+    tags,
+    lives: specs.some((spec) => spec.lives) ? LIVES : null,
+    seconds: undefined,
+  };
+}
+
+/** Pembagian merata jenis soal untuk gabungan mode, dimulai dari pilihan ganda. */
+function evenComposition(types, total) {
+  const out = Object.fromEntries(types.map((type) => [type, 0]));
+  for (let index = 0; index < total; index += 1) out[types[index % types.length]] += 1;
+  return out;
+}
+
 /** Komposisi standar untuk mode Campuran dan Bertahan, mengikuti total soal. */
 export const DEFAULT_COMPOSITION = {
   8: { mcq: 4, translate: 2, story: 1, essay: 1 },
@@ -56,8 +95,10 @@ export function levelFromMastered(mastered) {
 }
 
 export function compositionFor(mode, total, custom) {
-  const spec = MODES[mode];
+  const spec = specFor(mode);
+  if (!spec) return custom ?? {};
   if (mode === 'campuran') return custom ?? DEFAULT_COMPOSITION[total];
+  if (spec && spec.id.includes('+')) return custom ?? evenComposition(spec.types, total);
   if (mode === 'bertahan') {
     const translate = Math.floor(total / 3);
     return { mcq: total - translate, translate };
@@ -66,8 +107,8 @@ export function compositionFor(mode, total, custom) {
 }
 
 export function validateComposition(mode, total, composition) {
-  const spec = MODES[mode];
-  if (!spec) return 'Mode battle tidak dikenal.';
+  const spec = specFor(mode);
+  if (!spec) return 'Mode battle tidak dikenal, atau lebih dari 3 mode.';
   if (!TOTALS.includes(total)) return 'Jumlah soal harus 8, 10, 15, atau 20.';
   const entries = Object.entries(composition);
   if (entries.some(([type, count]) => !spec.types.includes(type) || !Number.isInteger(count) || count < 0)) {
@@ -156,7 +197,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
 
   /** Memilih soal yang belum pernah dipakai salah satu pemain, dengan batas hari dan tipe mode. */
   function pickItems({ mode, total, composition, poolDay, playerIds }) {
-    const spec = MODES[mode];
+    const spec = specFor(mode);
     const used = new Set(playerIds.flatMap((id) => usedBy.all(id).map((row) => row.item_id)));
     const picked = [];
     const shortage = [];
@@ -167,7 +208,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
           item.type === type &&
           item.day <= poolDay &&
           !used.has(item.id) &&
-          (!spec.tag || item.tag === spec.tag),
+          (item.type !== 'mcq' || !spec.tags || spec.tags.includes(item.tag)),
       );
       if (pool.length < count) {
         shortage.push(`${type}: butuh ${count}, tersedia ${pool.length}`);
@@ -225,7 +266,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       items,
       round: -1,
       phase: row.status === 'active' ? 'idle' : row.status,
-      lives: { [row.creator_id]: MODES[row.mode].lives ?? null, [row.opponent_id]: MODES[row.mode].lives ?? null },
+      lives: { [row.creator_id]: specFor(row.mode).lives ?? null, [row.opponent_id]: specFor(row.mode).lives ?? null },
       answers: new Map(),
       scores: {},
       timers: [],
@@ -248,7 +289,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     return {
       id: room.id,
       mode: room.mode,
-      modeLabel: MODES[room.mode].label,
+      modeLabel: specFor(room.mode).label,
       status: room.status,
       phase: room.phase,
       total: room.total,
@@ -416,6 +457,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       const mode = String(input.mode ?? '');
       const total = Number(input.total);
       const custom = input.composition ? normalizeComposition(input.composition) : undefined;
+      if (!specFor(mode)) throw new BattleError(400, 'Mode battle tidak dikenal, atau lebih dari 3 mode.');
       const composition = compositionFor(mode, total, custom);
       const problem = validateComposition(mode, total, composition);
       if (problem) throw new BattleError(400, problem);
@@ -522,7 +564,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
           id: battleId,
           status: row.status,
           mode: row.mode,
-          modeLabel: MODES[row.mode].label,
+          modeLabel: specFor(row.mode).label,
           winnerId: row.winner_id,
           you: userId,
           answers: answersOf.all(battleId),
@@ -538,7 +580,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       return historyOf.all(userId, userId).map((row) => ({
         id: row.id,
         mode: row.mode,
-        modeLabel: MODES[row.mode].label,
+        modeLabel: specFor(row.mode).label,
         status: row.status,
         total: row.total,
         winner: row.winner_id === userId ? 'you' : row.winner_id ? 'opponent' : null,
@@ -555,7 +597,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
         .map((row) => ({
           battleId: row.id,
           mode: row.mode,
-          modeLabel: MODES[row.mode].label,
+          modeLabel: specFor(row.mode).label,
           total: row.total,
           from: nameOf(row.creator_id),
         }));
@@ -573,7 +615,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     return {
       battleId: room.id,
       mode: room.mode,
-      modeLabel: MODES[room.mode].label,
+      modeLabel: specFor(room.mode).label,
       total: room.total,
       from: nameOf(room.creatorId),
     };

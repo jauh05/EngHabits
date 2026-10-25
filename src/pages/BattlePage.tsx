@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { ArrowRight, Check, Copy, Swords, X } from 'lucide-react';
+import { ArrowRight, BookOpen, Brain, Check, Copy, Ear, FileText, Heart, Languages, Library, ListOrdered, Sparkles, Swords, X, Zap, type LucideIcon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { BattleCrest, VersusBadge } from '../components/ui/BattleIllustrations';
 import { Badge } from '../components/ui/Badge';
@@ -20,7 +20,7 @@ import {
   type Invite,
   type QuestionType,
 } from '../lib/battle';
-import { DEFAULT_COMPOSITION, MIX_TYPES } from '../lib/battleRules';
+import { defaultCompositionFor, needsComposition, typesFor } from '../lib/battleRules';
 import { useSettings } from '../lib/settings';
 
 const TYPE_LABEL: Record<QuestionType, string> = {
@@ -32,6 +32,35 @@ const TYPE_LABEL: Record<QuestionType, string> = {
   reorder: 'Susun kalimat',
 };
 
+const MODE_ICON: Record<BattleMode, LucideIcon> = {
+  kilat: Zap,
+  terjemahan: Languages,
+  tata_bahasa: Brain,
+  kosakata: Library,
+  cerita: BookOpen,
+  esai: FileText,
+  campuran: Sparkles,
+  dengar: Ear,
+  susun: ListOrdered,
+  bertahan: Heart,
+};
+
+/** Warna kartu mode, dengan tepi 3D seperti kartu lain di aplikasi. */
+const MODE_TONE: Record<BattleMode, string> = {
+  kilat: 'bg-tint-sun [--edge:color-mix(in_srgb,var(--tint-sun),var(--shade)_18%)]',
+  terjemahan: 'bg-tint-sky [--edge:color-mix(in_srgb,var(--tint-sky),var(--shade)_18%)]',
+  tata_bahasa: 'bg-primary-100 [--edge:color-mix(in_srgb,var(--primary-100),var(--shade)_18%)]',
+  kosakata: 'bg-tint-mint [--edge:color-mix(in_srgb,var(--tint-mint),var(--shade)_18%)]',
+  cerita: 'bg-tint-peach [--edge:color-mix(in_srgb,var(--tint-peach),var(--shade)_18%)]',
+  esai: 'bg-tint-rose [--edge:color-mix(in_srgb,var(--tint-rose),var(--shade)_18%)]',
+  campuran: 'bg-lime [--edge:color-mix(in_srgb,var(--lime),var(--shade)_18%)]',
+  dengar: 'bg-mint-deep [--edge:color-mix(in_srgb,var(--mint-deep),var(--shade)_18%)]',
+  susun: 'bg-tint-pale [--edge:color-mix(in_srgb,var(--tint-pale),var(--shade)_18%)]',
+  bertahan: 'bg-tint-rose [--edge:color-mix(in_srgb,var(--tint-rose),var(--shade)_18%)]',
+};
+
+const MAX_MODES = 3;
+
 /** Lobi battle: ID saya, undangan masuk, kirim undangan, dan riwayat. */
 export function BattlePage() {
   const { settings } = useSettings();
@@ -42,9 +71,9 @@ export function BattlePage() {
   const [invites, setInvites] = useState<Invite[]>([]);
   const [history, setHistory] = useState<BattleSummary[]>([]);
   const [opponentId, setOpponentId] = useState('');
-  const [mode, setMode] = useState<BattleMode>('campuran');
+  const [modes, setModes] = useState<BattleMode[]>(['kilat']);
   const [total, setTotal] = useState<(typeof BATTLE_TOTALS)[number]>(8);
-  const [composition, setComposition] = useState<Composition>(DEFAULT_COMPOSITION[8]);
+  const [composition, setComposition] = useState<Composition>(defaultCompositionFor(['kilat'], 8));
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string>();
   const [connected, setConnected] = useState(true);
@@ -79,25 +108,42 @@ export function BattlePage() {
     );
   }, [token, navigate, show]);
 
-  const changeMode = (next: BattleMode) => {
-    setMode(next);
-    setComposition(next === 'campuran' ? DEFAULT_COMPOSITION[total] : {});
+  const resetComposition = (nextModes: BattleMode[], nextTotal: (typeof BATTLE_TOTALS)[number]) => {
+    setComposition(defaultCompositionFor(nextModes, nextTotal));
+  };
+
+  const toggleMode = (mode: BattleMode) => {
+    let next: BattleMode[];
+    if (mode === 'campuran') {
+      next = modes.includes('campuran') && modes.length === 1 ? ['kilat'] : ['campuran'];
+    } else if (modes.includes(mode)) {
+      next = modes.filter((item) => item !== mode);
+      if (next.length === 0) next = ['kilat'];
+    } else {
+      const base = modes.filter((item) => item !== 'campuran');
+      if (base.length >= MAX_MODES) {
+        show(`Pilih paling banyak ${MAX_MODES} mode.`, 'error');
+        return;
+      }
+      next = [...base, mode];
+    }
+    setModes(next);
+    resetComposition(next, total);
   };
 
   const changeTotal = (next: (typeof BATTLE_TOTALS)[number]) => {
     setTotal(next);
-    if (mode === 'campuran') setComposition(DEFAULT_COMPOSITION[next]);
+    resetComposition(modes, next);
   };
 
   const adjust = (type: QuestionType, delta: number) => {
-    setComposition((current) => {
-      const value = Math.max(0, (current[type] ?? 0) + delta);
-      return { ...current, [type]: value };
-    });
+    setComposition((current) => ({ ...current, [type]: Math.max(0, (current[type] ?? 0) + delta) }));
   };
 
+  const editable = needsComposition(modes);
+  const types = editable ? typesFor(modes) : [];
   const sum = Object.values(composition).reduce((acc, value) => acc + (value ?? 0), 0);
-  const compositionOk = mode !== 'campuran' || sum === total;
+  const compositionOk = !editable || sum === total;
 
   const invite = async (event: FormEvent) => {
     event.preventDefault();
@@ -111,9 +157,9 @@ export function BattlePage() {
     try {
       const result = await createBattle(token, {
         opponentPublicId: opponentId.trim(),
-        mode,
+        mode: modes.join('+') as BattleMode,
         total,
-        composition: mode === 'campuran' ? composition : undefined,
+        composition: editable ? composition : undefined,
       });
       show(`Undangan terkirim. Level battle: hari 1 sampai ${result.poolDay}.`, 'success');
       setOpponentId('');
@@ -143,6 +189,8 @@ export function BattlePage() {
       show('ID tidak bisa disalin. Catat manual.', 'error');
     }
   };
+
+  const modeLabel = modes.map((mode) => BATTLE_MODES.find((item) => item.id === mode)?.label ?? mode).join(' + ');
 
   return (
     <div className="flex flex-col gap-6">
@@ -205,7 +253,7 @@ export function BattlePage() {
           </div>
         </div>
 
-        <form onSubmit={invite} className="flex flex-col gap-5" noValidate>
+        <form onSubmit={invite} className="flex flex-col gap-6" noValidate>
           <Input
             label="ID lawan"
             name="lawan"
@@ -215,24 +263,39 @@ export function BattlePage() {
             placeholder="EH-XXXXXX"
           />
 
-          <fieldset className="flex flex-col gap-2">
-            <legend className="text-sm font-semibold text-ink">Mode</legend>
-            <div className="grid grid-cols-2 gap-2 sm:grid-cols-3">
-              {BATTLE_MODES.map((option) => (
-                <button
-                  key={option.id}
-                  type="button"
-                  aria-pressed={mode === option.id}
-                  onClick={() => changeMode(option.id)}
-                  className={`flex min-h-14 flex-col items-start rounded-2xl border px-3 py-2 text-left outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
-                    mode === option.id ? 'border-primary-500 bg-primary-100 text-primary-700' : 'border-line bg-surface text-ink'
-                  }`}
-                >
-                  <span className="text-sm font-bold">{option.label}</span>
-                  <span className="text-xs text-muted">{option.hint}</span>
-                </button>
-              ))}
+          <fieldset className="flex flex-col gap-3">
+            <legend className="text-sm font-semibold text-ink">
+              Mode <span className="font-normal text-muted">(pilih sampai {MAX_MODES})</span>
+            </legend>
+            <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+              {BATTLE_MODES.map((option) => {
+                const selected = modes.includes(option.id);
+                const Icon = MODE_ICON[option.id];
+                return (
+                  <button
+                    key={option.id}
+                    type="button"
+                    aria-pressed={selected}
+                    onClick={() => toggleMode(option.id)}
+                    className={`relative flex min-h-28 flex-col items-start gap-2 rounded-card p-3 text-left text-ink shadow-card outline-none transition-transform active:translate-y-[3px] focus-visible:outline-2 focus-visible:outline-primary-500 ${MODE_TONE[option.id]} ${
+                      selected ? 'ring-4 ring-primary-500/70' : ''
+                    }`}
+                  >
+                    <span className="grid size-9 place-items-center rounded-xl bg-surface/80 text-primary-700">
+                      <Icon size={20} aria-hidden="true" />
+                    </span>
+                    <span className="text-sm font-extrabold leading-tight">{option.label}</span>
+                    <span className="text-xs font-semibold leading-snug text-ink/75">{option.hint}</span>
+                    {selected && (
+                      <span className="absolute right-2 top-2 grid size-6 place-items-center rounded-full bg-btn-bg text-btn-fg">
+                        <Check size={14} aria-hidden="true" />
+                      </span>
+                    )}
+                  </button>
+                );
+              })}
             </div>
+            <p className="text-sm text-muted">Dipilih: {modeLabel}</p>
           </fieldset>
 
           <fieldset className="flex flex-col gap-2">
@@ -254,10 +317,10 @@ export function BattlePage() {
             </div>
           </fieldset>
 
-          {mode === 'campuran' && (
+          {editable && (
             <fieldset className="flex flex-col gap-3 rounded-2xl bg-bg p-4">
               <legend className="px-1 text-sm font-semibold text-ink">Jenis soal</legend>
-              {MIX_TYPES.map((type) => (
+              {types.map((type) => (
                 <div key={type} className="flex items-center justify-between gap-3">
                   <span className="text-sm font-semibold text-ink">{TYPE_LABEL[type]}</span>
                   <div className="flex items-center gap-2">

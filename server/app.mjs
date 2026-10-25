@@ -9,11 +9,13 @@ import { fileURLToPath } from 'node:url';
 import { DatabaseSync } from 'node:sqlite';
 import { promisify } from 'node:util';
 import { BattleError, createBattleService, ensureBattleSchema, levelFromMastered } from './battle.mjs';
+import { ensureSyncSchema, readSync, syncUser } from './sync.mjs';
 
 const scryptAsync = promisify(scrypt);
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const PASSWORD_MIN_LENGTH = 8;
 const MAX_BODY_BYTES = 10_000;
+const MAX_SYNC_BYTES = 5_000_000;
 const SESSION_DAYS = 180;
 const PUBLIC_ID_ALPHABET = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
 const PUBLIC_ID_PATTERN = /^EH-[A-HJ-NP-Z2-9]{6}$/;
@@ -89,6 +91,7 @@ function migrate(db) {
   for (const row of missing) assign.run(uniquePublicId(db), row.id);
   db.exec('CREATE UNIQUE INDEX IF NOT EXISTS users_public_id ON users(public_id)');
   ensureBattleSchema(db);
+  ensureSyncSchema(db);
 }
 
 export function openDatabase(path) {
@@ -146,12 +149,12 @@ function validateRegistration({ name, email, password }) {
   return null;
 }
 
-async function readJson(req) {
+async function readJson(req, maxBytes = MAX_BODY_BYTES) {
   let size = 0;
   const chunks = [];
   for await (const chunk of req) {
     size += chunk.length;
-    if (size > MAX_BODY_BYTES) throw new HttpError(413, 'Data terlalu besar.');
+    if (size > maxBytes) throw new HttpError(413, 'Data terlalu besar.');
     chunks.push(chunk);
   }
   try {
@@ -327,6 +330,18 @@ export function createApp(db, options = {}) {
       return { status: 200, body: { level: levelFromMastered(valid), count: valid.length } };
     },
 
+    async syncGet({ req }) {
+      const user = requireUser(req);
+      return { status: 200, body: readSync(db, user.id) };
+    },
+
+    /** Data dari perangkat digabung dengan data server. Hasil gabungan dikembalikan ke perangkat. */
+    async syncPut({ req }) {
+      const user = requireUser(req);
+      const input = await readJson(req, MAX_SYNC_BYTES);
+      return { status: 200, body: syncUser(db, user.id, input) };
+    },
+
     async battleCreate({ req }) {
       const user = requireUser(req);
       const input = await readJson(req);
@@ -393,6 +408,8 @@ export function createApp(db, options = {}) {
     ['POST', '/api/me/public-id/regenerate', handlers.regeneratePublicId],
     ['GET', '/api/users/:publicId', handlers.userLookup],
     ['PUT', '/api/progress/mastered', handlers.saveMastered],
+    ['GET', '/api/sync', handlers.syncGet],
+    ['PUT', '/api/sync', handlers.syncPut],
     ['GET', '/api/battles/events', handlers.battleEvents],
     ['GET', '/api/battles', handlers.battleList],
     ['POST', '/api/battles', handlers.battleCreate],
