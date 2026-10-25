@@ -2,6 +2,7 @@ import { useState, type FormEvent } from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { AuthFrame } from '../components/auth/AuthFrame';
+import { InstallButton } from '../components/auth/InstallButton';
 import { SocialButtons } from '../components/auth/SocialButtons';
 import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button, buttonClass } from '../components/ui/Button';
@@ -84,6 +85,8 @@ export function MasukPage() {
           Daftar
         </Link>
       </div>
+
+      <InstallButton />
     </AuthFrame>
   );
 }
