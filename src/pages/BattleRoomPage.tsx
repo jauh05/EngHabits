@@ -381,11 +381,18 @@ function RevealPanel({ snap, meId, opponentId }: { snap: BattleSnapshot; meId: s
   const theirs = reveal.results[opponentId];
   return (
     <Card className="flex flex-col gap-4">
-      <div className="flex flex-wrap items-center gap-2">
-        <Badge tone={mine?.correct ? 'easy' : 'hard'}>{mine?.correct ? 'Benar' : mine?.answered ? 'Belum tepat' : 'Tidak menjawab'}</Badge>
-        <span className="text-sm font-semibold text-ink">+{mine?.points ?? 0} poin</span>
-        <span className="text-sm text-muted">Lawan: +{theirs?.points ?? 0}</span>
-      </div>
+      {reveal.type === 'essay' ? (
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge>{mine?.answered ? 'Esai terkirim' : 'Tidak menjawab'}</Badge>
+          <span className="text-sm text-muted">Esai dinilai sendiri setelah semua soal selesai.</span>
+        </div>
+      ) : (
+        <div className="flex flex-wrap items-center gap-2">
+          <Badge tone={mine?.correct ? 'easy' : 'hard'}>{mine?.correct ? 'Benar' : mine?.answered ? 'Belum tepat' : 'Tidak menjawab'}</Badge>
+          <span className="text-sm font-semibold text-ink">+{mine?.points ?? 0} poin</span>
+          <span className="text-sm text-muted">Lawan: +{theirs?.points ?? 0}</span>
+        </div>
+      )}
       {reveal.correct && (
         <p className="text-sm text-ink">
           Jawaban benar: <span className="font-bold">{reveal.correct}</span>

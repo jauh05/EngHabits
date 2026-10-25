@@ -166,7 +166,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
   const answersOf = db.prepare('SELECT idx, user_id, answer, correct, points, elapsed_ms FROM battle_answers WHERE battle_id = ?');
   const insertRating = db.prepare('INSERT OR REPLACE INTO battle_ratings (battle_id, idx, user_id, points) VALUES (?, ?, ?, ?)');
   const ratingsOf = db.prepare('SELECT idx, user_id, points FROM battle_ratings WHERE battle_id = ?');
-  const usedBy = db.prepare('SELECT item_id FROM used_items WHERE user_id = ?');
+  const usedByStmt = db.prepare('SELECT item_id FROM used_items WHERE user_id = ?');
   const markUsed = db.prepare('INSERT OR IGNORE INTO used_items (user_id, item_id) VALUES (?, ?)');
   const masteredOf = db.prepare('SELECT day FROM mastered_days WHERE user_id = ?');
   const userPublic = db.prepare('SELECT id, public_id, name FROM users WHERE id = ?');
@@ -195,33 +195,52 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     inviteLog.set(key, hits);
   }
 
-  /** Memilih soal yang belum pernah dipakai salah satu pemain, dengan batas hari dan tipe mode. */
-  function pickItems({ mode, total, composition, poolDay, playerIds }) {
+  /** Soal yang boleh dipakai untuk satu jenis soal: di bawah batas hari, belum pernah dipakai, dan sesuai tag. */
+  function candidates(spec, type, poolDay, used) {
+    return bank.filter(
+      (item) =>
+        item.type === type &&
+        item.day <= poolDay &&
+        !used.has(item.id) &&
+        (item.type !== 'mcq' || !spec.tags || spec.tags.includes(item.tag)),
+    );
+  }
+
+  function usedBy(playerIds) {
+    return new Set(playerIds.flatMap((id) => usedByStmt.all(id).map((row) => row.item_id)));
+  }
+
+  /** Ketersediaan soal per jenis. Dipakai untuk peringatan sebelum undangan dikirim. */
+  function availability({ mode, poolDay, playerIds }) {
     const spec = specFor(mode);
-    const used = new Set(playerIds.flatMap((id) => usedBy.all(id).map((row) => row.item_id)));
+    const used = usedBy(playerIds);
+    return Object.fromEntries(spec.types.map((type) => [type, candidates(spec, type, poolDay, used).length]));
+  }
+
+  /**
+   * Memilih soal. Jika bank kurang untuk suatu jenis, jumlahnya diturunkan ke yang tersedia,
+   * sehingga battle tetap bisa jalan. Komposisi dan total akhir ikut dikembalikan.
+   */
+  function pickItems({ mode, composition, poolDay, playerIds }) {
+    const spec = specFor(mode);
+    const used = usedBy(playerIds);
     const picked = [];
-    const shortage = [];
+    const adjusted = {};
     for (const [type, count] of Object.entries(composition)) {
       if (count === 0) continue;
-      const pool = bank.filter(
-        (item) =>
-          item.type === type &&
-          item.day <= poolDay &&
-          !used.has(item.id) &&
-          (item.type !== 'mcq' || !spec.tags || spec.tags.includes(item.tag)),
-      );
-      if (pool.length < count) {
-        shortage.push(`${type}: butuh ${count}, tersedia ${pool.length}`);
-        continue;
-      }
+      const pool = candidates(spec, type, poolDay, used);
+      const take = Math.min(count, pool.length);
+      if (take === 0) continue;
+      adjusted[type] = take;
       const shuffled = [...pool].sort(() => randomInt(3) - 1);
-      picked.push(...shuffled.slice(0, count));
+      picked.push(...shuffled.slice(0, take));
     }
-    if (shortage.length > 0) {
-      throw new BattleError(422, `Bank soal belum cukup untuk level ini (${shortage.join('; ')}).`);
+    const total = Object.values(adjusted).reduce((sum, value) => sum + value, 0);
+    if (total === 0) {
+      throw new BattleError(422, 'Bank soal untuk level ini belum punya soal yang bisa dipakai.');
     }
     const order = picked.sort(() => randomInt(3) - 1);
-    return order.map((item, index) => ({
+    const items = order.map((item, index) => ({
       index,
       id: item.id,
       day: item.day,
@@ -238,6 +257,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       explanation: item.explanation,
       seconds: spec.seconds ?? DEFAULT_SECONDS[item.type],
     }));
+    return { items, composition: adjusted, total };
   }
 
   function shuffleWords(sentence) {
@@ -376,6 +396,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     room.deadlineAt = null;
     room.lastReveal = {
       round: room.round,
+      type: item.type,
       correct: item.type === 'essay' ? null : item.correct ?? item.acceptedAnswers?.[0] ?? null,
       explanation: item.explanation ?? null,
       modelAnswer: item.type === 'essay' ? item.modelAnswer : null,
@@ -425,9 +446,8 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       totals[userId] += points;
     }
     const [a, b] = playersOf(room);
-    let winnerId = null;
-    if (totals[a] !== totals[b]) winnerId = totals[a] > totals[b] ? a : b;
-    else if (timeTotals[a] !== timeTotals[b]) winnerId = timeTotals[a] < timeTotals[b] ? a : b;
+    // Total poin yang sama berarti seri.
+    const winnerId = totals[a] === totals[b] ? null : totals[a] > totals[b] ? a : b;
     room.results = {
       winnerId,
       totals,
@@ -445,39 +465,87 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     rooms.delete(room.id);
   }
 
+  const insertFriend = db.prepare('INSERT OR IGNORE INTO friends (user_id, friend_id) VALUES (?, ?)');
+  const deleteFriend = db.prepare('DELETE FROM friends WHERE user_id = ? AND friend_id = ?');
+  const friendsOf = db.prepare(
+    'SELECT users.public_id, users.name FROM friends JOIN users ON users.id = friends.friend_id WHERE friends.user_id = ? ORDER BY users.name',
+  );
+
+  /** Validasi undangan yang dipakai bersama oleh pratinjau dan pengiriman. */
+  function prepareInvite(creatorId, input) {
+    const opponent = userByPublic.get(String(input.opponentPublicId ?? '').toUpperCase());
+    if (!opponent) throw new BattleError(404, 'ID lawan tidak ditemukan.');
+    if (opponent.id === creatorId) throw new BattleError(400, 'Kamu tidak bisa mengundang diri sendiri.');
+    if (activeFor.get(creatorId, creatorId) || activeFor.get(opponent.id, opponent.id)) {
+      throw new BattleError(409, 'Salah satu pemain masih punya battle yang belum selesai.');
+    }
+    const mode = String(input.mode ?? '');
+    const total = Number(input.total);
+    const custom = input.composition ? normalizeComposition(input.composition) : undefined;
+    if (!specFor(mode)) throw new BattleError(400, 'Mode battle tidak dikenal, atau lebih dari 3 mode.');
+    const composition = compositionFor(mode, total, custom);
+    const problem = validateComposition(mode, total, composition);
+    if (problem) throw new BattleError(400, problem);
+    const poolDay = Math.min(levelOf(creatorId), levelOf(opponent.id));
+    return { opponent, mode, total, composition, poolDay };
+  }
+
   return {
     /** Undangan baru dari pengguna ke lawan dengan ID publik. */
+    /** Pratinjau sebelum undangan dikirim: jumlah soal yang tersedia dan jenis yang kurang. */
+    preview(creatorId, input) {
+      const prepared = prepareInvite(creatorId, input);
+      const available = availability({ mode: prepared.mode, poolDay: prepared.poolDay, playerIds: [creatorId, prepared.opponent.id] });
+      const shortage = Object.entries(prepared.composition)
+        .filter(([type, count]) => count > (available[type] ?? 0))
+        .map(([type, count]) => ({ type, requested: count, available: available[type] ?? 0 }));
+      const adjustedTotal = Object.entries(prepared.composition).reduce(
+        (sum, [type, count]) => sum + Math.min(count, available[type] ?? 0),
+        0,
+      );
+      return { poolDay: prepared.poolDay, requested: prepared.total, adjustedTotal, shortage, available };
+    },
+
+    /** Undangan baru dari pengguna ke lawan dengan ID publik. */
     createInvite(creatorId, input) {
-      const opponent = userByPublic.get(String(input.opponentPublicId ?? '').toUpperCase());
-      if (!opponent) throw new BattleError(404, 'ID lawan tidak ditemukan.');
-      if (opponent.id === creatorId) throw new BattleError(400, 'Kamu tidak bisa mengundang diri sendiri.');
-      if (activeFor.get(creatorId, creatorId) || activeFor.get(opponent.id, opponent.id)) {
-        throw new BattleError(409, 'Salah satu pemain masih punya battle yang belum selesai.');
-      }
-      const mode = String(input.mode ?? '');
-      const total = Number(input.total);
-      const custom = input.composition ? normalizeComposition(input.composition) : undefined;
-      if (!specFor(mode)) throw new BattleError(400, 'Mode battle tidak dikenal, atau lebih dari 3 mode.');
-      const composition = compositionFor(mode, total, custom);
-      const problem = validateComposition(mode, total, composition);
-      if (problem) throw new BattleError(400, problem);
+      const prepared = prepareInvite(creatorId, input);
+      const { opponent, mode, total, composition, poolDay } = prepared;
       checkInviteLimit(creatorId);
-      const poolDay = Math.min(levelOf(creatorId), levelOf(opponent.id));
       const id = randomUUID();
       const stamp = iso();
       insertBattle.run(id, creatorId, opponent.id, mode, total, poolDay, JSON.stringify(composition), 'pending', stamp, stamp);
-      const room = {
-        id,
-        creatorId,
-        opponentId: opponent.id,
-        mode,
-        total,
-        composition,
-        poolDay,
-        createdAt: now(),
-      };
+      const room = { id, creatorId, opponentId: opponent.id, mode, total, composition, poolDay, createdAt: now() };
       notify(opponent.id, 'invite', inviteView(room));
       return { battleId: id, poolDay, composition, opponent: nameOf(opponent.id) };
+    },
+
+    /** Daftar teman: ditambah sekali dengan ID, lalu bisa diundang tanpa mengetik ID lagi. */
+    addFriend(userId, publicId) {
+      const friend = userByPublic.get(String(publicId ?? '').toUpperCase());
+      if (!friend) throw new BattleError(404, 'ID tidak ditemukan.');
+      if (friend.id === userId) throw new BattleError(400, 'Kamu tidak bisa menambahkan diri sendiri.');
+      db.exec('BEGIN');
+      try {
+        insertFriend.run(userId, friend.id);
+        insertFriend.run(friend.id, userId);
+        db.exec('COMMIT');
+      } catch (error) {
+        db.exec('ROLLBACK');
+        throw error;
+      }
+      return { publicId: friend.public_id, name: friend.name };
+    },
+
+    listFriends(userId) {
+      return friendsOf.all(userId).map((row) => ({ publicId: row.public_id, name: row.name }));
+    },
+
+    removeFriend(userId, publicId) {
+      const friend = userByPublic.get(String(publicId ?? '').toUpperCase());
+      if (!friend) throw new BattleError(404, 'ID tidak ditemukan.');
+      deleteFriend.run(userId, friend.id);
+      deleteFriend.run(friend.id, userId);
+      return { removed: true };
     },
 
     respond(battleId, userId, accept) {
@@ -493,14 +561,14 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
         notify(row.creator_id, 'battle', { id: battleId, status: 'declined' });
         return { status: 'declined' };
       }
-      const composition = JSON.parse(row.composition);
-      const items = pickItems({
+      const requested = JSON.parse(row.composition);
+      const { items, composition, total } = pickItems({
         mode: row.mode,
-        total: row.total,
-        composition,
+        composition: requested,
         poolDay: row.pool_day,
         playerIds: [row.creator_id, row.opponent_id],
       });
+      db.prepare('UPDATE battles SET total = ?, composition = ? WHERE id = ?').run(total, JSON.stringify(composition), battleId);
       for (const item of items) {
         markUsed.run(row.creator_id, item.id);
         markUsed.run(row.opponent_id, item.id);
@@ -677,6 +745,11 @@ export function ensureBattleSchema(db) {
       user_id TEXT NOT NULL,
       points INTEGER NOT NULL,
       PRIMARY KEY (battle_id, idx, user_id)
+    );
+    CREATE TABLE IF NOT EXISTS friends (
+      user_id TEXT NOT NULL REFERENCES users(id),
+      friend_id TEXT NOT NULL REFERENCES users(id),
+      PRIMARY KEY (user_id, friend_id)
     );
     CREATE TABLE IF NOT EXISTS used_items (
       user_id TEXT NOT NULL,

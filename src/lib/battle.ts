@@ -66,6 +66,7 @@ export type BattleSnapshot = {
   answered: { you: boolean; opponent: boolean };
   reveal: null | {
     round: number;
+    type: QuestionType;
     correct: string | null;
     explanation: string | null;
     modelAnswer: string | null;
@@ -229,4 +230,33 @@ export function remainingMs(snapshot: BattleSnapshot, clientNow: number): number
   if (snapshot.deadlineAt === null) return 0;
   const skew = snapshot.serverNow - clientNow;
   return Math.max(0, snapshot.deadlineAt - (clientNow + skew));
+}
+
+export type Preview = {
+  poolDay: number;
+  requested: number;
+  adjustedTotal: number;
+  shortage: Array<{ type: QuestionType; requested: number; available: number }>;
+  available: Partial<Record<QuestionType, number>>;
+};
+
+export function previewBattle(
+  token: string,
+  input: { opponentPublicId: string; mode: BattleMode; total: number; composition?: Composition },
+) {
+  return request<Preview>('POST', '/battles/preview', token, input);
+}
+
+export type Friend = { publicId: string; name: string };
+
+export function listFriends(token: string) {
+  return request<{ friends: Friend[] }>('GET', '/friends', token).then((data) => data.friends);
+}
+
+export function addFriend(token: string, publicId: string) {
+  return request<Friend>('POST', '/friends', token, { publicId });
+}
+
+export function removeFriend(token: string, publicId: string) {
+  return request<{ removed: boolean }>('DELETE', `/friends/${encodeURIComponent(publicId)}`, token);
 }

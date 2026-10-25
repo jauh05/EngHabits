@@ -35,8 +35,16 @@ async function call(method, path, token, body) {
   return { status: response.status, data: text ? JSON.parse(text) : null };
 }
 
+let registerCount = 0;
 async function registerUser(name, email) {
-  const { data } = await call('POST', '/api/register', null, { name, email, password: 'Uji12345' });
+  // Setiap pendaftaran memakai alamat berbeda, supaya batas pendaftaran per alamat tidak menghalangi tes.
+  registerCount += 1;
+  const response = await fetch(`${base}/api/register`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'cf-connecting-ip': `10.0.${Math.floor(registerCount / 250)}.${registerCount % 250}` },
+    body: JSON.stringify({ name, email, password: 'Uji12345' }),
+  });
+  const data = await response.json();
   return { token: data.token, publicId: data.account.publicId };
 }
 
@@ -129,7 +137,7 @@ describe('battle real-time', () => {
     expect(finished.winnerId).not.toBeNull();
   });
 
-  it('soal yang sudah dipakai tidak bisa dipakai lagi, dan bank yang habis ditolak', async () => {
+  it('soal yang sudah dipakai tidak dipakai lagi, dan bank yang habis ditolak', async () => {
     const a = await registerUser('Ivan', 'ivan@contoh.id');
     const b = await registerUser('Jasmin', 'jasmin@contoh.id');
     await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
@@ -142,7 +150,7 @@ describe('battle real-time', () => {
     const second = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'campuran', total: 8 });
     const response = await call('POST', `/api/battles/${second.data.battleId}/respond`, b.token, { accept: true });
     expect(response.status).toBe(422);
-    expect(response.data.error).toMatch(/Bank soal belum cukup/);
+    expect(response.data.error).toMatch(/belum punya soal yang bisa dipakai/);
   });
 
   it('komposisi harus tepat sama dengan total soal', async () => {
@@ -236,5 +244,37 @@ describe('gabungan mode', () => {
       composition: { mcq: 4, story: 4 },
     });
     expect(bad.status).toBe(400);
+  });
+});
+
+describe('kekurangan bank dan teman', () => {
+  it('pratinjau menurunkan jumlah ke soal yang tersedia dan menyebut jenis yang kurang', async () => {
+    const a = await registerUser('Yoga', 'yoga.pre@contoh.id');
+    const b = await registerUser('Zara', 'zara.pre@contoh.id');
+    await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
+    await call('PUT', '/api/progress/mastered', b.token, { days: [1, 2, 3] });
+    const preview = await call('POST', '/api/battles/preview', a.token, {
+      opponentPublicId: b.publicId,
+      mode: 'campuran',
+      total: 10,
+      composition: { mcq: 5, translate: 2, story: 2, essay: 1 },
+    });
+    expect(preview.status).toBe(200);
+    expect(preview.data.adjustedTotal).toBe(8);
+    expect(preview.data.shortage.map((item) => item.type).sort()).toEqual(['mcq', 'story']);
+  });
+
+  it('teman ditambah sekali dengan ID dan bisa dilihat serta dihapus', async () => {
+    const a = await registerUser('Ulfa', 'ulfa.friend@contoh.id');
+    const b = await registerUser('Vino', 'vino.friend@contoh.id');
+    const add = await call('POST', '/api/friends', a.token, { publicId: b.publicId });
+    expect(add.status).toBe(200);
+    const list = await call('GET', '/api/friends', a.token);
+    expect(list.data.friends.map((item) => item.publicId)).toContain(b.publicId);
+    const back = await call('GET', '/api/friends', b.token);
+    expect(back.data.friends.map((item) => item.publicId)).toContain(a.publicId);
+    await call('DELETE', `/api/friends/${b.publicId}`, a.token);
+    const after = await call('GET', '/api/friends', a.token);
+    expect(after.data.friends).toHaveLength(0);
   });
 });

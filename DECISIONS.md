@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-25: Teman, seri, dan bank yang kurang
+
+1. **Teman.** Teman ditambahkan sekali dengan ID, dan hubungannya dua arah. Undangan ke teman memakai pengaturan mode dan jumlah soal yang sedang dipilih, tanpa mengetik ID lagi. Teman bisa dihapus.
+2. **Seri.** Total poin yang sama berarti seri. Waktu tidak lagi dipakai sebagai penentu.
+3. **Bank kurang tidak menghentikan battle.** Pratinjau menampilkan jumlah soal yang tersedia dan jenis yang kurang. Peringatan muncul sebelum undangan dikirim, dan pemain bisa melanjutkan. Saat undangan diterima, jumlah soal diturunkan ke yang tersedia dan total battle diperbarui.
+4. **Esai pada reveal** tidak lagi ditandai "Belum tepat", karena esai dinilai sendiri setelah semua soal selesai.
+5. **ID di HP** dibuat lebih kecil dan boleh turun baris, supaya seluruh ID terlihat.
+
 ## 2026-10-25: Sinkron progres penuh dan mode gabungan
 
 1. **Sinkron penuh.** Progres harian, percobaan, Buku Kesalahan, dan catatan dikirim ke `PUT /api/sync` lalu digabung di server. Hasil gabungan dikembalikan ke perangkat. Sinkron dijalankan saat aplikasi dibuka, setiap 60 detik, dan saat jendela kembali aktif. Aturan gabungan ada di `server/sync.mjs` dan `src/lib/syncMerge.ts`, dan harus tetap sama.

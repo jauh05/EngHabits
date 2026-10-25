@@ -1,20 +1,27 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { ArrowRight, BookOpen, Brain, Check, Copy, Ear, FileText, Heart, Languages, Library, ListOrdered, Sparkles, Swords, X, Zap, type LucideIcon } from 'lucide-react';
+import { BookOpen, Brain, Check, Copy, Ear, FileText, Heart, Languages, Library, ListOrdered, Sparkles, Swords, Trash2, UserPlus, X, Zap, type LucideIcon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { BattleCrest, VersusBadge } from '../components/ui/BattleIllustrations';
 import { Badge } from '../components/ui/Badge';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Input } from '../components/ui/Input';
+import { Modal } from '../components/ui/Modal';
 import { useToast } from '../components/ui/Toast';
 import {
+  addFriend,
   BATTLE_MODES,
   BATTLE_TOTALS,
   createBattle,
+  type Friend,
   listBattles,
+  listFriends,
   openBattleStream,
+  previewBattle,
+  removeFriend,
   respondBattle,
   type BattleMode,
+  type Preview,
   type BattleSummary,
   type Composition,
   type Invite,
@@ -70,13 +77,22 @@ export function BattlePage() {
   const myId = settings.account?.publicId ?? '';
   const [invites, setInvites] = useState<Invite[]>([]);
   const [history, setHistory] = useState<BattleSummary[]>([]);
-  const [opponentId, setOpponentId] = useState('');
+  const [friends, setFriends] = useState<Friend[]>([]);
+  const [friendId, setFriendId] = useState('');
+  const [warning, setWarning] = useState<{ publicId: string; preview: Preview }>();
   const [modes, setModes] = useState<BattleMode[]>(['kilat']);
   const [total, setTotal] = useState<(typeof BATTLE_TOTALS)[number]>(8);
   const [composition, setComposition] = useState<Composition>(defaultCompositionFor(['kilat'], 8));
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string>();
   const [connected, setConnected] = useState(true);
+
+  useEffect(() => {
+    if (!token) return;
+    listFriends(token)
+      .then(setFriends)
+      .catch(() => undefined);
+  }, [token]);
 
   useEffect(() => {
     if (!token) return;
@@ -145,9 +161,27 @@ export function BattlePage() {
   const sum = Object.values(composition).reduce((acc, value) => acc + (value ?? 0), 0);
   const compositionOk = !editable || sum === total;
 
-  const invite = async (event: FormEvent) => {
-    event.preventDefault();
-    if (!token || !opponentId.trim()) return;
+  const sendInvite = async (publicId: string) => {
+    if (!token) return;
+    setBusy(true);
+    try {
+      const result = await createBattle(token, {
+        opponentPublicId: publicId,
+        mode: modes.join('+') as BattleMode,
+        total,
+        composition: editable ? composition : undefined,
+      });
+      show(`Undangan terkirim. Level battle: hari 1 sampai ${result.poolDay}.`, 'success');
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'Undangan gagal dikirim.', 'error');
+    } finally {
+      setBusy(false);
+    }
+  };
+
+  /** Undang teman: periksa dulu ketersediaan soal, lalu tampilkan peringatan bila bank kurang. */
+  const invite = async (publicId: string) => {
+    if (!token) return;
     if (!compositionOk) {
       setError(`Jumlah tipe soal harus tepat ${total}.`);
       return;
@@ -155,18 +189,44 @@ export function BattlePage() {
     setError(undefined);
     setBusy(true);
     try {
-      const result = await createBattle(token, {
-        opponentPublicId: opponentId.trim(),
+      const preview = await previewBattle(token, {
+        opponentPublicId: publicId,
         mode: modes.join('+') as BattleMode,
         total,
         composition: editable ? composition : undefined,
       });
-      show(`Undangan terkirim. Level battle: hari 1 sampai ${result.poolDay}.`, 'success');
-      setOpponentId('');
+      if (preview.shortage.length > 0) {
+        setWarning({ publicId, preview });
+        return;
+      }
+      await sendInvite(publicId);
     } catch (caught) {
-      setError(caught instanceof Error ? caught.message : 'Undangan gagal dikirim.');
+      show(caught instanceof Error ? caught.message : 'Undangan gagal dicek.', 'error');
     } finally {
       setBusy(false);
+    }
+  };
+
+  const addFriendById = async (event: FormEvent) => {
+    event.preventDefault();
+    if (!token || !friendId.trim()) return;
+    try {
+      const friend = await addFriend(token, friendId.trim());
+      setFriends((list) => [...list.filter((item) => item.publicId !== friend.publicId), friend]);
+      setFriendId('');
+      show(`${friend.name} ditambahkan ke teman.`, 'success');
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'Teman tidak bisa ditambahkan.', 'error');
+    }
+  };
+
+  const deleteFriend = async (publicId: string) => {
+    if (!token) return;
+    try {
+      await removeFriend(token, publicId);
+      setFriends((list) => list.filter((item) => item.publicId !== publicId));
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'Teman tidak bisa dihapus.', 'error');
     }
   };
 
@@ -204,7 +264,7 @@ export function BattlePage() {
           <BattleCrest className="size-20 shrink-0" />
           <div className="min-w-0 flex-1">
             <p className="text-sm font-semibold text-ink/80">ID battle kamu</p>
-            <p className="truncate text-2xl font-extrabold tracking-wide text-ink">{myId || 'Memuat ID…'}</p>
+            <p className="break-all text-lg font-extrabold tracking-wide text-ink sm:text-2xl">{myId || 'Memuat ID…'}</p>
           </div>
           <Button variant="secondary" size="icon" aria-label="Salin ID" onClick={copyId} disabled={!myId}>
             <Copy size={18} aria-hidden="true" />
@@ -242,26 +302,67 @@ export function BattlePage() {
         </section>
       )}
 
+      <Card className="flex flex-col gap-4">
+        <div className="flex items-center gap-3">
+          <span className="grid size-10 place-items-center rounded-2xl bg-primary-100 text-primary-700">
+            <UserPlus size={20} aria-hidden="true" />
+          </span>
+          <div>
+            <h2 className="text-lg font-bold text-ink">Teman</h2>
+            <p className="text-sm text-muted">Tambahkan sekali dengan ID, lalu undang tanpa mengetik ID lagi.</p>
+          </div>
+        </div>
+
+        {friends.length === 0 ? (
+          <p className="text-sm text-muted">Belum ada teman. Tambahkan dengan ID di bawah.</p>
+        ) : (
+          <ul className="flex flex-col gap-2">
+            {friends.map((friend) => (
+              <li key={friend.publicId} className="flex items-center gap-3 rounded-2xl bg-bg p-3">
+                <div className="min-w-0 flex-1">
+                  <p className="truncate font-bold text-ink">{friend.name}</p>
+                  <p className="break-all text-xs font-semibold text-muted">{friend.publicId}</p>
+                </div>
+                <Button size="md" onClick={() => invite(friend.publicId)} disabled={busy}>
+                  Undang
+                </Button>
+                <Button variant="ghost" size="icon" aria-label={`Hapus ${friend.name} dari teman`} onClick={() => deleteFriend(friend.publicId)}>
+                  <Trash2 size={18} aria-hidden="true" />
+                </Button>
+              </li>
+            ))}
+          </ul>
+        )}
+
+        <form onSubmit={addFriendById} className="flex flex-col gap-3 sm:flex-row sm:items-end" noValidate>
+          <div className="min-w-0 flex-1">
+            <Input
+              label="Tambah teman dengan ID"
+              name="id-teman"
+              autoComplete="off"
+              value={friendId}
+              onChange={(event) => setFriendId(event.target.value)}
+              placeholder="EH-XXXXXX"
+            />
+          </div>
+          <Button type="submit" size="md" disabled={!friendId.trim()}>
+            Tambah teman
+          </Button>
+        </form>
+      </Card>
+
       <Card className="flex flex-col gap-5">
         <div className="flex items-center gap-3">
           <span className="grid size-10 place-items-center rounded-2xl bg-primary-100 text-primary-700">
             <Swords size={20} aria-hidden="true" />
           </span>
           <div>
-            <h2 className="text-lg font-bold text-ink">Undang lawan</h2>
-            <p className="text-sm text-muted">Masukkan ID lawan, misalnya EH-7K3QPX.</p>
+            <h2 className="text-lg font-bold text-ink">Atur battle</h2>
+            <p className="text-sm text-muted">Pengaturan ini dipakai saat kamu menekan Undang.</p>
           </div>
         </div>
 
-        <form onSubmit={invite} className="flex flex-col gap-6" noValidate>
-          <Input
-            label="ID lawan"
-            name="lawan"
-            autoComplete="off"
-            value={opponentId}
-            onChange={(event) => setOpponentId(event.target.value)}
-            placeholder="EH-XXXXXX"
-          />
+        <div className="flex flex-col gap-6">
 
           <fieldset className="flex flex-col gap-3">
             <legend className="text-sm font-semibold text-ink">
@@ -346,12 +447,45 @@ export function BattlePage() {
             </p>
           )}
 
-          <Button type="submit" size="lg" className="w-full" disabled={busy || !opponentId.trim()}>
-            {busy ? 'Mengirim…' : 'Kirim undangan'}
-            <ArrowRight size={20} aria-hidden="true" />
-          </Button>
-        </form>
+        </div>
       </Card>
+
+      <Modal open={Boolean(warning)} onClose={() => setWarning(undefined)} title="Bank soal belum cukup">
+        {warning && (
+          <div className="flex flex-col gap-4">
+            <p className="text-sm text-ink">
+              Battle ini membutuhkan {warning.preview.requested} soal, tetapi bank untuk hari 1 sampai {warning.preview.poolDay} belum cukup:
+            </p>
+            <ul className="flex flex-col gap-2 text-sm text-ink">
+              {warning.preview.shortage.map((item) => (
+                <li key={item.type} className="flex justify-between gap-3 rounded-2xl bg-bg px-3 py-2">
+                  <span className="font-semibold">{TYPE_LABEL[item.type]}</span>
+                  <span className="tabular-nums">
+                    butuh {item.requested}, tersedia {item.available}
+                  </span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-sm text-muted">
+              Battle tetap bisa dilanjutkan dengan {warning.preview.adjustedTotal} soal. Jenis soal yang kurang akan dikurangi.
+            </p>
+            <div className="flex flex-wrap justify-end gap-3">
+              <Button variant="secondary" onClick={() => setWarning(undefined)}>
+                Batal
+              </Button>
+              <Button
+                onClick={async () => {
+                  const target = warning.publicId;
+                  setWarning(undefined);
+                  await sendInvite(target);
+                }}
+              >
+                Lanjut tetap
+              </Button>
+            </div>
+          </div>
+        )}
+      </Modal>
 
       <section className="flex flex-col gap-3" aria-label="Riwayat battle">
         <h2 className="text-xl font-bold text-ink">Riwayat</h2>

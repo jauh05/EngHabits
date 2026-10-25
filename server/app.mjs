@@ -342,6 +342,28 @@ export function createApp(db, options = {}) {
       return { status: 200, body: syncUser(db, user.id, input) };
     },
 
+    async battlePreview({ req }) {
+      const user = requireUser(req);
+      const input = await readJson(req);
+      return { status: 200, body: battles.preview(user.id, input) };
+    },
+
+    async friendList({ req }) {
+      const user = requireUser(req);
+      return { status: 200, body: { friends: battles.listFriends(user.id) } };
+    },
+
+    async friendAdd({ req }) {
+      const user = requireUser(req);
+      const input = await readJson(req);
+      return { status: 200, body: battles.addFriend(user.id, input.publicId) };
+    },
+
+    async friendRemove({ req, params }) {
+      const user = requireUser(req);
+      return { status: 200, body: battles.removeFriend(user.id, params.publicId) };
+    },
+
     async battleCreate({ req }) {
       const user = requireUser(req);
       const input = await readJson(req);
@@ -412,6 +434,10 @@ export function createApp(db, options = {}) {
     ['PUT', '/api/sync', handlers.syncPut],
     ['GET', '/api/battles/events', handlers.battleEvents],
     ['GET', '/api/battles', handlers.battleList],
+    ['POST', '/api/battles/preview', handlers.battlePreview],
+    ['GET', '/api/friends', handlers.friendList],
+    ['POST', '/api/friends', handlers.friendAdd],
+    ['DELETE', '/api/friends/:publicId', handlers.friendRemove],
     ['POST', '/api/battles', handlers.battleCreate],
     ['GET', '/api/battles/:id', handlers.battleGet],
     ['POST', '/api/battles/:id/respond', handlers.battleRespond],
