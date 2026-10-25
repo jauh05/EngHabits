@@ -7,6 +7,10 @@
 export type Account = {
   email: string;
   name: string;
+  /** ID publik untuk diundang battle, format EH-XXXXXX. */
+  publicId?: string;
+  /** False setelah ID pernah diganti sekali. */
+  canChangePublicId?: boolean;
 };
 
 export type AuthSession = {

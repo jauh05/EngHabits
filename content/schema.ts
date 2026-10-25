@@ -214,3 +214,43 @@ export const bankQuestionSchema = z.object({
 });
 
 export type BankQuestion = z.infer<typeof bankQuestionSchema>;
+
+/** Tipe soal battle. Battle memakai bank terpisah dari materi hari dan bank Hard. */
+export const BATTLE_TYPES = ['mcq', 'translate', 'story', 'essay', 'listen', 'reorder'] as const;
+
+/** Soal battle: dibaca server saja, kunci jawabannya tidak pernah dikirim ke klien sebelum jawaban dikunci. */
+export const battleItemSchema = z
+  .object({
+    id: z.string().regex(/^BT\d{3}-\d{3}$/, 'id battle harus berformat BT###-###'),
+    day: z.number().int().min(1).max(90),
+    type: z.enum(BATTLE_TYPES),
+    tag: z.enum(['grammar', 'vocab', 'general']).optional(),
+    prompt: text,
+    passage: text.optional(),
+    script: text.optional(),
+    options: z.array(optionSchema).min(2).optional(),
+    correct: text.optional(),
+    acceptedAnswers: z.array(text).min(1).optional(),
+    modelAnswer: text.optional(),
+    rubric: z.array(z.object({ criterion: text })).length(3).optional(),
+    explanation: text,
+  })
+  .superRefine((item, ctx) => {
+    const needsOptions = item.type === 'mcq' || item.type === 'story' || item.type === 'listen';
+    if (needsOptions) {
+      if (!item.options || !item.correct) ctx.addIssue({ code: 'custom', message: 'pilihan ganda butuh options dan correct' });
+      else if (!item.options.some((option) => option.id === item.correct)) {
+        ctx.addIssue({ code: 'custom', message: 'correct harus salah satu opsi' });
+      }
+    }
+    if ((item.type === 'translate' || item.type === 'reorder') && !item.acceptedAnswers) {
+      ctx.addIssue({ code: 'custom', message: 'terjemahan dan susun kalimat butuh acceptedAnswers' });
+    }
+    if (item.type === 'essay' && (!item.modelAnswer || !item.rubric)) {
+      ctx.addIssue({ code: 'custom', message: 'esai butuh modelAnswer dan rubric tiga kriteria' });
+    }
+    if (item.type === 'story' && !item.passage) ctx.addIssue({ code: 'custom', message: 'cerita butuh passage' });
+    if (item.type === 'listen' && !item.script) ctx.addIssue({ code: 'custom', message: 'dengar butuh script' });
+  });
+
+export type BattleItem = z.infer<typeof battleItemSchema>;

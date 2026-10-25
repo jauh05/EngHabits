@@ -3,6 +3,8 @@ import { BrowserRouter, Link, Navigate, Route, Routes, useLocation } from 'react
 import { useSettings } from './lib/settings';
 import { AppShell } from './components/layout/AppShell';
 import { BankSessionPage } from './pages/BankSessionPage';
+import { BattlePage } from './pages/BattlePage';
+import { BattleRoomPage } from './pages/BattleRoomPage';
 import { DashboardPage } from './pages/DashboardPage';
 import { DaftarPage } from './pages/DaftarPage';
 import { DayPage } from './pages/DayPage';
@@ -67,6 +69,8 @@ export function App() {
             <Route path="laporan" element={<ReadinessPage />} />
             <Route path="latihan" element={<PracticePage />} />
             <Route path="latihan/bank/:week" element={<BankSessionPage />} />
+            <Route path="battle" element={<BattlePage />} />
+            <Route path="battle/:id" element={<BattleRoomPage />} />
             <Route path="profil" element={<ProfilePage />} />
           </Route>
           <Route path="hari/:n" element={<DayPage />} />

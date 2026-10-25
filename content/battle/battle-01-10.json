@@ -1,0 +1,2132 @@
+[
+  {
+    "id": "BT001-001",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Mina and I ___ from the same city.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Mina and I setara dengan we, jadi kata kerja to be-nya memakai are."
+  },
+  {
+    "id": "BT001-002",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which negative sentence about Dimas uses the verb correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dimas is not a doctor."
+      },
+      {
+        "id": "B",
+        "text": "Dimas not is a doctor."
+      },
+      {
+        "id": "C",
+        "text": "Dimas are not a doctor."
+      },
+      {
+        "id": "D",
+        "text": "Dimas does not a doctor."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Negatif to be memakai subjek + is + not. Does tidak dipakai bersama to be, dan urutan not is salah."
+  },
+  {
+    "id": "BT001-003",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: My ___ sits next to me in English class and always shares his notes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "city"
+      },
+      {
+        "id": "B",
+        "text": "early"
+      },
+      {
+        "id": "C",
+        "text": "tired"
+      },
+      {
+        "id": "D",
+        "text": "classmate"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Classmate berarti teman yang satu kelas dengan kita."
+  },
+  {
+    "id": "BT001-004",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'before the usual time'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "friend"
+      },
+      {
+        "id": "B",
+        "text": "early"
+      },
+      {
+        "id": "C",
+        "text": "interesting"
+      },
+      {
+        "id": "D",
+        "text": "happy"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Early berarti lebih awal dari waktu biasa, misalnya datang ke sekolah sebelum jam masuk."
+  },
+  {
+    "id": "BT001-005",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Saya dan teman saya sedang di perpustakaan sekarang.",
+    "acceptedAnswers": [
+      "My friend and I are at the library now",
+      "My friend and I are at the library right now"
+    ],
+    "explanation": "Pasangan my friend and I setara dengan we, sehingga memakai are untuk keadaan saat ini."
+  },
+  {
+    "id": "BT001-006",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Ratna bukan guru, tetapi dia seorang siswa.",
+    "acceptedAnswers": [
+      "Ratna is not a teacher but she is a student",
+      "Ratna is not a teacher but a student"
+    ],
+    "explanation": "Ratna adalah subjek she, jadi negatifnya memakai is not, dan identitas siswa ditulis dengan a student."
+  },
+  {
+    "id": "BT001-007",
+    "day": 1,
+    "type": "story",
+    "prompt": "Berdasarkan teks, Lia berasal dari kota mana?",
+    "passage": "Hi, my name is Yuda. I am a first-year student at a university in Malang. My classmates are kind, and our teacher is funny. My best friend Lia is from Bali. She is very smart, and she is always early for class.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Malang"
+      },
+      {
+        "id": "B",
+        "text": "Surabaya"
+      },
+      {
+        "id": "C",
+        "text": "Bali"
+      },
+      {
+        "id": "D",
+        "text": "Jakarta"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menulis 'My best friend Lia is from Bali', sedangkan Malang adalah kampus tempat Yuda kuliah."
+  },
+  {
+    "id": "BT001-008",
+    "day": 1,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang dirimu. Sebutkan nama, kota asalmu, dan status atau pekerjaanmu.",
+    "modelAnswer": "My name is Sinta. I am from Semarang, and I am a student at a private university. My friends and I are happy to study English together every week.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan to be untuk identitas, asal, dan keadaan. Subjek I memakai am, bukan is."
+  },
+  {
+    "id": "BT001-009",
+    "day": 1,
+    "type": "listen",
+    "prompt": "Apa status Rudi menurut pembicara?",
+    "script": "Hello, I am Rudi, and I am not a teacher. I am a student at a university in Makassar.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A student"
+      },
+      {
+        "id": "B",
+        "text": "A teacher"
+      },
+      {
+        "id": "C",
+        "text": "A doctor"
+      },
+      {
+        "id": "D",
+        "text": "A driver"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Rudi menyebut dirinya bukan guru dan berkata 'I am a student', jadi statusnya mahasiswa."
+  },
+  {
+    "id": "BT001-010",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami semua senang hari ini).",
+    "acceptedAnswers": [
+      "We are all happy today"
+    ],
+    "explanation": "Pola subjek we + are, lalu all sebagai penegas dan happy sebagai keterangan keadaan."
+  },
+  {
+    "id": "BT002-001",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct plural form: There are two ___ in the fridge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tomatos"
+      },
+      {
+        "id": "B",
+        "text": "tomatoes"
+      },
+      {
+        "id": "C",
+        "text": "tomatoe"
+      },
+      {
+        "id": "D",
+        "text": "tomato's"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kata benda yang berakhiran -o setelah konsonan umumnya memakai -es pada bentuk jamak, jadi tomatoes."
+  },
+  {
+    "id": "BT002-002",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Ani wants ___ orange and ___ apple for breakfast.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a / an"
+      },
+      {
+        "id": "B",
+        "text": "an / a"
+      },
+      {
+        "id": "C",
+        "text": "a / a"
+      },
+      {
+        "id": "D",
+        "text": "an / an"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Orange dan apple diawali bunyi vokal, sehingga keduanya memakai an."
+  },
+  {
+    "id": "BT002-003",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which object is used to write or draw on paper?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pencil"
+      },
+      {
+        "id": "B",
+        "text": "bag"
+      },
+      {
+        "id": "C",
+        "text": "flower"
+      },
+      {
+        "id": "D",
+        "text": "table"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pencil berarti pensil, alat tulis yang dipakai untuk menulis atau menggambar."
+  },
+  {
+    "id": "BT002-004",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which piece of furniture do you put plates and food on when you eat?",
+    "options": [
+      {
+        "id": "A",
+        "text": "window"
+      },
+      {
+        "id": "B",
+        "text": "bag"
+      },
+      {
+        "id": "C",
+        "text": "table"
+      },
+      {
+        "id": "D",
+        "text": "banana"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Table berarti meja, tempat meletakkan piring dan makanan saat makan."
+  },
+  {
+    "id": "BT002-005",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Bunga ini sangat indah, dan itu kursi baru saya.",
+    "acceptedAnswers": [
+      "This flower is very beautiful and that is my new chair",
+      "This flower is so beautiful and that is my new chair"
+    ],
+    "explanation": "This dipakai untuk benda tunggal yang dekat, sedangkan that untuk benda tunggal yang lebih jauh."
+  },
+  {
+    "id": "BT002-006",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Setiap pagi saya membeli dua apel dan tiga pisang.",
+    "acceptedAnswers": [
+      "Every morning I buy two apples and three bananas",
+      "I buy two apples and three bananas every morning"
+    ],
+    "explanation": "Benda yang lebih dari satu harus berbentuk jamak, seperti apples dan bananas."
+  },
+  {
+    "id": "BT002-007",
+    "day": 2,
+    "type": "story",
+    "prompt": "Menurut teks, benda apa yang Dina butuhkan hari ini?",
+    "passage": "Dina's desk is near the window. On it are one book, two pencils, and a small flower. Her bag hangs on the back of the chair. Dina is a careful student, so her things are always neat. Today she needs a new notebook for English class.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pensil baru"
+      },
+      {
+        "id": "B",
+        "text": "Kursi baru"
+      },
+      {
+        "id": "C",
+        "text": "Buku catatan baru"
+      },
+      {
+        "id": "D",
+        "text": "Tas baru"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menulis 'she needs a new notebook', yaitu buku catatan baru."
+  },
+  {
+    "id": "BT002-008",
+    "day": 2,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang benda-benda di meja belajarmu. Gunakan this, that, these, atau those.",
+    "modelAnswer": "On my desk, there are two books and three pencils. This lamp is new, and those flowers by the window are from my mother. The chair is comfortable, so I often study here.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan this atau these untuk benda yang dekat, dan that atau those untuk benda yang lebih jauh."
+  },
+  {
+    "id": "BT002-009",
+    "day": 2,
+    "type": "listen",
+    "prompt": "Buah apa yang masih hijau menurut pembicara?",
+    "script": "Look at these bananas and those apples. The apples are fresh, but the bananas are still a little green.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The apples"
+      },
+      {
+        "id": "B",
+        "text": "The bananas"
+      },
+      {
+        "id": "C",
+        "text": "The flowers"
+      },
+      {
+        "id": "D",
+        "text": "The chairs"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara berkata 'the bananas are still a little green', sedangkan apel disebut segar."
+  },
+  {
+    "id": "BT002-010",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Jendela kelas itu besar).",
+    "acceptedAnswers": [
+      "The classroom window is big"
+    ],
+    "explanation": "Frasa classroom window berfungsi sebagai satu subjek, lalu diikuti is dan sifat big."
+  },
+  {
+    "id": "BT003-001",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: ___ parents live in Medan, and we visit them every holiday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "We"
+      },
+      {
+        "id": "B",
+        "text": "Ours"
+      },
+      {
+        "id": "C",
+        "text": "Us"
+      },
+      {
+        "id": "D",
+        "text": "Our"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Our adalah kata ganti kepemilikan yang diikuti kata benda, di sini parents."
+  },
+  {
+    "id": "BT003-002",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence uses 'mine' correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The pen is mine book."
+      },
+      {
+        "id": "B",
+        "text": "This is mine pen."
+      },
+      {
+        "id": "C",
+        "text": "The notebook is mine, so please give it back."
+      },
+      {
+        "id": "D",
+        "text": "Mine pen is on the table."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Mine berdiri sendiri sebagai pengganti my pen, sehingga tidak boleh diikuti kata benda."
+  },
+  {
+    "id": "BT003-003",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which family member is your mother's mother?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "grandmother"
+      },
+      {
+        "id": "C",
+        "text": "sister"
+      },
+      {
+        "id": "D",
+        "text": "parent"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Grandmother berarti nenek, yaitu ibu dari ibu atau ayah kita."
+  },
+  {
+    "id": "BT003-004",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "My uncle's son is my ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "brother"
+      },
+      {
+        "id": "C",
+        "text": "parent"
+      },
+      {
+        "id": "D",
+        "text": "sister"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Anak dari paman atau bibi kita disebut cousin, yaitu sepupu."
+  },
+  {
+    "id": "BT003-005",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Buku ini milik saya, dan pensil itu milik mereka.",
+    "acceptedAnswers": [
+      "This book is mine and that pencil is theirs",
+      "This book is mine and the pencil is theirs"
+    ],
+    "explanation": "Mine dan theirs dipakai sebagai kata ganti kepemilikan tanpa kata benda sesudahnya."
+  },
+  {
+    "id": "BT003-006",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Kakek dan nenek saya tinggal bersama kami di rumah.",
+    "acceptedAnswers": [
+      "My grandfather and grandmother live with us at home",
+      "My grandfather and my grandmother live with us at home"
+    ],
+    "explanation": "Kata ganti objek us dipakai setelah preposisi with, sedangkan my dipakai sebelum kata benda."
+  },
+  {
+    "id": "BT003-007",
+    "day": 3,
+    "type": "story",
+    "prompt": "Menurut teks, siapa pemilik tas biru?",
+    "passage": "This is a photo of my family. My sister is holding a cat, and my cousin stands next to her. The notebook on the table is mine, but the blue bag belongs to my cousin. Our house is near the beach, so we often walk there.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Saya"
+      },
+      {
+        "id": "B",
+        "text": "Sepupu saya"
+      },
+      {
+        "id": "C",
+        "text": "Saudara perempuan saya"
+      },
+      {
+        "id": "D",
+        "text": "Orang tua saya"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menulis 'the blue bag belongs to my cousin', jadi pemilik tas biru adalah sepupu."
+  },
+  {
+    "id": "BT003-008",
+    "day": 3,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang anggota keluargamu. Gunakan kata ganti kepemilikan dan kata ganti objek.",
+    "modelAnswer": "My grandmother lives in Solo with my aunt. I visit her every holiday, and she always cooks special soup for us. Our family is very close, so we call each other every week.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan my atau our sebelum kata benda, dan her, us, atau them setelah kata kerja atau preposisi."
+  },
+  {
+    "id": "BT003-009",
+    "day": 3,
+    "type": "listen",
+    "prompt": "Payung itu milik siapa menurut pembicara?",
+    "script": "Is this umbrella yours? I think it belongs to my sister, not to me.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The speaker"
+      },
+      {
+        "id": "B",
+        "text": "The listener"
+      },
+      {
+        "id": "C",
+        "text": "The speaker's sister"
+      },
+      {
+        "id": "D",
+        "text": "The teacher"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara berkata payung itu 'belongs to my sister, not to me', jadi milik saudara perempuannya."
+  },
+  {
+    "id": "BT003-010",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mobil merah itu milik kami).",
+    "acceptedAnswers": [
+      "That red car is ours"
+    ],
+    "explanation": "Ours adalah kata ganti kepemilikan yang berdiri sendiri, artinya milik kami."
+  },
+  {
+    "id": "BT004-001",
+    "day": 4,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative sentence: We ___ coffee at night because it keeps us awake.",
+    "options": [
+      {
+        "id": "A",
+        "text": "do not drink"
+      },
+      {
+        "id": "B",
+        "text": "does not drink"
+      },
+      {
+        "id": "C",
+        "text": "not drink"
+      },
+      {
+        "id": "D",
+        "text": "are not drink"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Untuk we, negatif simple present memakai do not diikuti kata kerja dasar tanpa -s."
+  },
+  {
+    "id": "BT004-002",
+    "day": 4,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question uses the simple present correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Do they works in this office?"
+      },
+      {
+        "id": "B",
+        "text": "Does they work in this office?"
+      },
+      {
+        "id": "C",
+        "text": "Do they work in this office?"
+      },
+      {
+        "id": "D",
+        "text": "Are they work in this office?"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pertanyaan dengan do memakai kata kerja dasar, jadi they bersama do dan work tanpa -s."
+  },
+  {
+    "id": "BT004-003",
+    "day": 4,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which verb means 'to do a job to earn money'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "walk"
+      },
+      {
+        "id": "B",
+        "text": "work"
+      },
+      {
+        "id": "C",
+        "text": "sleep"
+      },
+      {
+        "id": "D",
+        "text": "wake"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Work berarti bekerja, yaitu melakukan pekerjaan untuk mendapatkan penghasilan."
+  },
+  {
+    "id": "BT004-004",
+    "day": 4,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which verb means the opposite of 'wake up'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "walk"
+      },
+      {
+        "id": "B",
+        "text": "eat"
+      },
+      {
+        "id": "C",
+        "text": "write"
+      },
+      {
+        "id": "D",
+        "text": "sleep"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Lawan dari wake up (bangun tidur) adalah sleep, yaitu tidur."
+  },
+  {
+    "id": "BT004-005",
+    "day": 4,
+    "type": "translate",
+    "prompt": "Kami belajar bersama setiap Selasa di perpustakaan.",
+    "acceptedAnswers": [
+      "We study together every Tuesday at the library",
+      "We study together at the library every Tuesday"
+    ],
+    "explanation": "Subjek we memakai kata kerja dasar study tanpa -s pada simple present."
+  },
+  {
+    "id": "BT004-006",
+    "day": 4,
+    "type": "translate",
+    "prompt": "Mereka tidak bekerja di kantor pada hari Minggu.",
+    "acceptedAnswers": [
+      "They do not work at the office on Sunday",
+      "They don't work at the office on Sunday"
+    ],
+    "explanation": "Negatif untuk they memakai do not atau don't diikuti kata kerja dasar."
+  },
+  {
+    "id": "BT004-007",
+    "day": 4,
+    "type": "story",
+    "prompt": "Kapan narator menulis catatannya?",
+    "passage": "Every weekday, I wake up at half past five. I read the news for ten minutes. My roommates and I walk to campus together. They study in the morning, but I write my notes after lunch. We eat dinner in the canteen and play badminton on Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebelum jam enam pagi"
+      },
+      {
+        "id": "B",
+        "text": "Pada pagi hari"
+      },
+      {
+        "id": "C",
+        "text": "Setelah makan siang"
+      },
+      {
+        "id": "D",
+        "text": "Pada malam hari"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menulis 'I write my notes after lunch', yaitu setelah makan siang."
+  },
+  {
+    "id": "BT004-008",
+    "day": 4,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang kebiasaanmu belajar bahasa Inggris.",
+    "modelAnswer": "I study English every evening for thirty minutes. My friends and I read short articles together on Sunday. We also write a short diary, and we practice speaking whenever we can.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan simple present dengan subjek I dan we untuk menyatakan kebiasaan rutin."
+  },
+  {
+    "id": "BT004-009",
+    "day": 4,
+    "type": "listen",
+    "prompt": "Di mana mereka biasanya sarapan?",
+    "script": "We usually wake up early, but we do not eat breakfast at home. We eat it at the canteen with our friends.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At home"
+      },
+      {
+        "id": "B",
+        "text": "At the canteen"
+      },
+      {
+        "id": "C",
+        "text": "At the library"
+      },
+      {
+        "id": "D",
+        "text": "In the park"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara berkata mereka tidak sarapan di rumah dan makan di kantin bersama teman-teman."
+  },
+  {
+    "id": "BT004-010",
+    "day": 4,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami minum teh setiap sore).",
+    "acceptedAnswers": [
+      "We drink tea every evening"
+    ],
+    "explanation": "Subjek we memakai kata kerja dasar drink, lalu keterangan every evening di akhir kalimat."
+  },
+  {
+    "id": "BT005-001",
+    "day": 5,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which form completes the sentence? 'The baker ___ fresh bread at five every morning.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "bake"
+      },
+      {
+        "id": "B",
+        "text": "bakes"
+      },
+      {
+        "id": "C",
+        "text": "baked"
+      },
+      {
+        "id": "D",
+        "text": "baking"
+      }
+    ],
+    "correct": "B",
+    "explanation": "The baker setara dengan he, sehingga kata kerja simple present mendapat akhiran -s menjadi bakes."
+  },
+  {
+    "id": "BT005-002",
+    "day": 5,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Pick the correct negative sentence: The library ___ on Sundays, so we study at home.",
+    "options": [
+      {
+        "id": "A",
+        "text": "does not open"
+      },
+      {
+        "id": "B",
+        "text": "do not open"
+      },
+      {
+        "id": "C",
+        "text": "is not opens"
+      },
+      {
+        "id": "D",
+        "text": "does not opens"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Subjek the library bersifat he, she, it, sehingga negatifnya memakai does not diikuti kata kerja dasar."
+  },
+  {
+    "id": "BT005-003",
+    "day": 5,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which verb means 'to have knowledge or information about something'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cook"
+      },
+      {
+        "id": "B",
+        "text": "live"
+      },
+      {
+        "id": "C",
+        "text": "watch"
+      },
+      {
+        "id": "D",
+        "text": "know"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Know berarti tahu atau mengetahui sesuatu."
+  },
+  {
+    "id": "BT005-004",
+    "day": 5,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: I ___ this song so much that I listen to it every day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "love"
+      },
+      {
+        "id": "B",
+        "text": "live"
+      },
+      {
+        "id": "C",
+        "text": "teach"
+      },
+      {
+        "id": "D",
+        "text": "cook"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Love berarti sangat menyukai sesuatu, sedangkan live berarti tinggal."
+  },
+  {
+    "id": "BT005-005",
+    "day": 5,
+    "type": "translate",
+    "prompt": "Fajar tinggal di Bandung bersama kakak laki-lakinya.",
+    "acceptedAnswers": [
+      "Fajar lives in Bandung with his older brother",
+      "Fajar lives in Bandung together with his older brother"
+    ],
+    "explanation": "Subjek Fajar bersifat he, sehingga kata kerja live mendapat -s dan kepemilikannya memakai his."
+  },
+  {
+    "id": "BT005-006",
+    "day": 5,
+    "type": "translate",
+    "prompt": "Ayah saya selalu memasak sarapan untuk keluarga, tetapi dia tidak suka kopi.",
+    "acceptedAnswers": [
+      "My father always cooks breakfast for the family but he does not like coffee",
+      "My father always cooks breakfast for our family but he does not like coffee"
+    ],
+    "explanation": "Subjek he memakai cooks pada kalimat positif, sedangkan pada negatif kata kerja kembali ke bentuk dasar."
+  },
+  {
+    "id": "BT005-007",
+    "day": 5,
+    "type": "story",
+    "prompt": "Apa pekerjaan Andi?",
+    "passage": "My friend Andi is a graphic designer. He works at a small office near the station. He wakes up at six and drinks tea. Andi needs quiet music to focus, so he plays it while he designs posters. His cat, Mochi, sleeps on his chair all day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Guru"
+      },
+      {
+        "id": "B",
+        "text": "Koki"
+      },
+      {
+        "id": "C",
+        "text": "Dokter"
+      },
+      {
+        "id": "D",
+        "text": "Desainer grafis"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menulis 'Andi is a graphic designer', jadi pekerjaannya desainer grafis."
+  },
+  {
+    "id": "BT005-008",
+    "day": 5,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang seseorang yang kamu kenal, termasuk pekerjaan dan kebiasaannya.",
+    "modelAnswer": "My neighbor Pak Budi works as a driver. He leaves home at five and comes back before dinner. He always cooks a simple meal for his wife, who teaches at a kindergarten.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan kata kerja dengan -s untuk subjek he, she, atau it dalam kalimat kebiasaan."
+  },
+  {
+    "id": "BT005-009",
+    "day": 5,
+    "type": "listen",
+    "prompt": "Apa yang dilakukan perempuan itu setiap malam?",
+    "script": "She lives near the sea, but she does not like swimming. She watches the waves from her balcony every evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She goes swimming"
+      },
+      {
+        "id": "B",
+        "text": "She cooks dinner"
+      },
+      {
+        "id": "C",
+        "text": "She watches the waves"
+      },
+      {
+        "id": "D",
+        "text": "She teaches English"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara berkata 'She watches the waves from her balcony every evening', jadi ia menonton ombak setiap malam."
+  },
+  {
+    "id": "BT005-010",
+    "day": 5,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Rudi selalu bangun pagi untuk berlari).",
+    "acceptedAnswers": [
+      "Rudi always wakes up early to run"
+    ],
+    "explanation": "Subjek Rudi memakai wakes, dan keterangan always diletakkan sebelum kata kerja utama."
+  },
+  {
+    "id": "BT006-001",
+    "day": 6,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which verb fits the sentence? 'Our teacher ___ very patient with new students.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "does"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "is do"
+      },
+      {
+        "id": "D",
+        "text": "do"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Patient adalah sifat, sehingga memakai to be, bukan kata kerja do."
+  },
+  {
+    "id": "BT006-002",
+    "day": 6,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct pair: 'Sinta ___ her homework before dinner, and she ___ tired after school.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "does / is"
+      },
+      {
+        "id": "B",
+        "text": "is / does"
+      },
+      {
+        "id": "C",
+        "text": "does / does"
+      },
+      {
+        "id": "D",
+        "text": "is / is"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Do dipakai untuk kegiatan (does her homework), sedangkan is dipakai untuk keadaan (is tired)."
+  },
+  {
+    "id": "BT006-003",
+    "day": 6,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Please ___ the teacher if you do not understand the instructions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "forget"
+      },
+      {
+        "id": "B",
+        "text": "visit"
+      },
+      {
+        "id": "C",
+        "text": "ask"
+      },
+      {
+        "id": "D",
+        "text": "remember"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Ask berarti bertanya, yaitu meminta penjelasan kepada guru."
+  },
+  {
+    "id": "BT006-004",
+    "day": 6,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Pick the word that means the opposite of 'remember'.",
+    "options": [
+      {
+        "id": "A",
+        "text": "forget"
+      },
+      {
+        "id": "B",
+        "text": "answer"
+      },
+      {
+        "id": "C",
+        "text": "call"
+      },
+      {
+        "id": "D",
+        "text": "listen"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Forget berarti lupa, lawan dari remember yang berarti ingat."
+  },
+  {
+    "id": "BT006-005",
+    "day": 6,
+    "type": "translate",
+    "prompt": "Saya tidak mengerti jawaban soal nomor tiga.",
+    "acceptedAnswers": [
+      "I do not understand the answer to number three",
+      "I don't understand the answer to number three"
+    ],
+    "explanation": "Negatif untuk I memakai do not, dan kata kerja understand tetap bentuk dasar."
+  },
+  {
+    "id": "BT006-006",
+    "day": 6,
+    "type": "translate",
+    "prompt": "Apakah kamu ingat alamat rumah barumu?",
+    "acceptedAnswers": [
+      "Do you remember the address of your new house",
+      "Do you remember your new house address"
+    ],
+    "explanation": "Remember adalah kata kerja tindakan, sehingga pertanyaannya memakai do, bukan to be."
+  },
+  {
+    "id": "BT006-007",
+    "day": 6,
+    "type": "story",
+    "prompt": "Apa yang membantu Lina di kelas barunya?",
+    "passage": "Hi, I am Lina, and I am new in this class. My teacher speaks slowly, and she is very patient. Every day I listen and take notes. I do not know many people yet, but my classmate Bayu helps me. He does not mind when I ask questions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Buku yang sangat tebal"
+      },
+      {
+        "id": "B",
+        "text": "Guru yang tidak sabar"
+      },
+      {
+        "id": "C",
+        "text": "Teman sekelas yang membantu"
+      },
+      {
+        "id": "D",
+        "text": "Kelas yang selalu kosong"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut teman sekelasnya, Bayu, membantu Lina, sedangkan gurunya justru sabar."
+  },
+  {
+    "id": "BT006-008",
+    "day": 6,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang apa yang kamu lakukan dan rasakan di kelas bahasa Inggris.",
+    "modelAnswer": "In my English class, I listen to the teacher and ask questions when I am confused. My best friend does not speak much, but he always finishes the homework quickly. I am happy in this class because the lessons are interesting.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan kata kerja tindakan dengan do atau does, dan to be untuk perasaan atau keadaan."
+  },
+  {
+    "id": "BT006-009",
+    "day": 6,
+    "type": "listen",
+    "prompt": "Apa yang tidak diingat pembicara?",
+    "script": "Excuse me, is this the English class? I think it is, but I do not remember the room number.",
+    "options": [
+      {
+        "id": "A",
+        "text": "His name"
+      },
+      {
+        "id": "B",
+        "text": "The homework"
+      },
+      {
+        "id": "C",
+        "text": "The teacher's name"
+      },
+      {
+        "id": "D",
+        "text": "The room number"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara berkata 'I do not remember the room number', jadi yang tidak ia ingat adalah nomor ruangan."
+  },
+  {
+    "id": "BT006-010",
+    "day": 6,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Lina menelepon gurunya setiap malam).",
+    "acceptedAnswers": [
+      "Lina calls her teacher every night"
+    ],
+    "explanation": "Subjek Lina bersifat she, sehingga kata kerja calls mendapat -s, dan her adalah kata ganti kepemilikan sebelum teacher."
+  },
+  {
+    "id": "BT007-001",
+    "day": 7,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: She is ___ engineer who works at a large company.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "the"
+      },
+      {
+        "id": "C",
+        "text": "an"
+      },
+      {
+        "id": "D",
+        "text": "some"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Engineer diawali bunyi vokal, sehingga memakai an, bukan a."
+  },
+  {
+    "id": "BT007-002",
+    "day": 7,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Ben and I are students, so this classroom is ___ too.",
+    "options": [
+      {
+        "id": "A",
+        "text": "our"
+      },
+      {
+        "id": "B",
+        "text": "us"
+      },
+      {
+        "id": "C",
+        "text": "we"
+      },
+      {
+        "id": "D",
+        "text": "ours"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Ours berdiri sendiri sebagai kata ganti kepemilikan, tanpa kata benda setelahnya."
+  },
+  {
+    "id": "BT007-003",
+    "day": 7,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a person who is still learning at a school or university'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "teacher"
+      },
+      {
+        "id": "B",
+        "text": "cook"
+      },
+      {
+        "id": "C",
+        "text": "student"
+      },
+      {
+        "id": "D",
+        "text": "brother"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Student berarti siswa atau mahasiswa, yaitu orang yang sedang belajar."
+  },
+  {
+    "id": "BT007-004",
+    "day": 7,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which verb means 'to know the meaning of something'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cook"
+      },
+      {
+        "id": "B",
+        "text": "understand"
+      },
+      {
+        "id": "C",
+        "text": "wake"
+      },
+      {
+        "id": "D",
+        "text": "ask"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Understand berarti mengerti, yaitu paham maksud sesuatu."
+  },
+  {
+    "id": "BT007-005",
+    "day": 7,
+    "type": "translate",
+    "prompt": "Kakak laki-laki saya suka memasak nasi goreng untuk keluarga.",
+    "acceptedAnswers": [
+      "My older brother likes to cook fried rice for the family",
+      "My big brother likes to cook fried rice for the family"
+    ],
+    "explanation": "Subjek my older brother bersifat he, sehingga kata kerja like mendapat -s."
+  },
+  {
+    "id": "BT007-006",
+    "day": 7,
+    "type": "translate",
+    "prompt": "Budi bangun pukul lima, sedangkan saya baru bangun pukul delapan.",
+    "acceptedAnswers": [
+      "Budi wakes up at five but I wake up at eight",
+      "Budi gets up at five but I wake up at eight"
+    ],
+    "explanation": "Budi memakai wakes up karena subjeknya he, sedangkan I memakai bentuk dasar wake up."
+  },
+  {
+    "id": "BT007-007",
+    "day": 7,
+    "type": "story",
+    "prompt": "Apa pekerjaan kakak Mira?",
+    "passage": "Mira is a student at a university. Her teacher is kind, and her classmates are friendly. Every morning she wakes up early and reads her notes. Her brother is a cook in a restaurant, so he makes breakfast for the family. Mira is happy because she understands the lesson.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Koki"
+      },
+      {
+        "id": "B",
+        "text": "Guru"
+      },
+      {
+        "id": "C",
+        "text": "Mahasiswa"
+      },
+      {
+        "id": "D",
+        "text": "Dokter"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menulis 'Her brother is a cook in a restaurant', jadi pekerjaannya koki."
+  },
+  {
+    "id": "BT007-008",
+    "day": 7,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang teman dekatmu. Gunakan to be dan simple present.",
+    "modelAnswer": "My best friend is a kind student from Medan. She wakes up at six and reads English books before class. We study together on Friday, and she always helps me understand difficult words.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan is untuk identitas dan keadaan, serta kata kerja dengan -s untuk subjek she."
+  },
+  {
+    "id": "BT007-009",
+    "day": 7,
+    "type": "listen",
+    "prompt": "Tas di sana milik siapa menurut pembicara?",
+    "script": "This is my book, and that bag over there is mine. My parents are at home now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Her mother's"
+      },
+      {
+        "id": "B",
+        "text": "The speaker's"
+      },
+      {
+        "id": "C",
+        "text": "The teacher's"
+      },
+      {
+        "id": "D",
+        "text": "Her brother's"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara berkata 'that bag over there is mine', jadi tas itu miliknya sendiri."
+  },
+  {
+    "id": "BT007-010",
+    "day": 7,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Teman saya pandai memasak sup).",
+    "acceptedAnswers": [
+      "My friend is good at cooking soup"
+    ],
+    "explanation": "Frasa good at diikuti kata kerja tambahan berakhiran -ing, yaitu cooking."
+  },
+  {
+    "id": "BT008-001",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Right now, the kids ___ a song in the living room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sing"
+      },
+      {
+        "id": "B",
+        "text": "sang"
+      },
+      {
+        "id": "C",
+        "text": "are singing"
+      },
+      {
+        "id": "D",
+        "text": "is singing"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Right now menandakan kejadian yang sedang berlangsung, dan subjek the kids jamak sehingga memakai are singing."
+  },
+  {
+    "id": "BT008-002",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: My mother ___ dinner now, so she cannot answer the phone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is not cooking"
+      },
+      {
+        "id": "B",
+        "text": "does not cook"
+      },
+      {
+        "id": "C",
+        "text": "not cooking"
+      },
+      {
+        "id": "D",
+        "text": "am not cook"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Negatif present continuous memakai is not diikuti kata kerja-ing, bukan does not."
+  },
+  {
+    "id": "BT008-003",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word describes moving your body to music?",
+    "options": [
+      {
+        "id": "A",
+        "text": "waiting"
+      },
+      {
+        "id": "B",
+        "text": "typing"
+      },
+      {
+        "id": "C",
+        "text": "sitting"
+      },
+      {
+        "id": "D",
+        "text": "dancing"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Dancing berarti menari, yaitu menggerakkan tubuh mengikuti musik."
+  },
+  {
+    "id": "BT008-004",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The clouds are dark, so it is ___ outside.",
+    "options": [
+      {
+        "id": "A",
+        "text": "raining"
+      },
+      {
+        "id": "B",
+        "text": "smiling"
+      },
+      {
+        "id": "C",
+        "text": "shopping"
+      },
+      {
+        "id": "D",
+        "text": "laughing"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Raining berarti hujan sedang turun, sesuai dengan awan yang gelap."
+  },
+  {
+    "id": "BT008-005",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Rendi sedang mengetik surat sekarang.",
+    "acceptedAnswers": [
+      "Rendi is typing a letter now",
+      "Rendi is typing a letter right now"
+    ],
+    "explanation": "Present continuous memakai is typing untuk kejadian yang sedang berlangsung."
+  },
+  {
+    "id": "BT008-006",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kami sedang menunggu teman kami di depan gerbang sekolah.",
+    "acceptedAnswers": [
+      "We are waiting for our friend at the school gate",
+      "We are waiting for our friend outside the school gate"
+    ],
+    "explanation": "Subjek we memakai are, lalu kata kerja waiting dengan akhiran -ing."
+  },
+  {
+    "id": "BT008-007",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan ibu?",
+    "passage": "It is a Saturday morning. My father is cleaning the kitchen, and my mother is cooking breakfast. My little sister is dancing to music in the living room. I am typing an email to my teacher. Outside, the children are laughing in the park, and it is not raining.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Membersihkan dapur"
+      },
+      {
+        "id": "B",
+        "text": "Mengetik email"
+      },
+      {
+        "id": "C",
+        "text": "Memasak sarapan"
+      },
+      {
+        "id": "D",
+        "text": "Menari di ruang tamu"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menulis 'my mother is cooking breakfast', jadi ibu sedang memasak sarapan."
+  },
+  {
+    "id": "BT008-008",
+    "day": 8,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang apa yang sedang terjadi di sekitarmu sekarang.",
+    "modelAnswer": "Right now, my roommate is studying at the desk next to me. Outside, a motorcycle is passing by, and the children near the gate are laughing loudly. I am typing this sentence while my coffee is getting cold.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan present continuous dengan am, is, atau are untuk kejadian yang sedang berlangsung."
+  },
+  {
+    "id": "BT008-009",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan pembicara sekarang?",
+    "script": "Hi Ayu, where are you right now? I am waiting outside the library, and it is still raining.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shopping at the mall"
+      },
+      {
+        "id": "B",
+        "text": "Waiting outside the library"
+      },
+      {
+        "id": "C",
+        "text": "Driving to school"
+      },
+      {
+        "id": "D",
+        "text": "Cleaning the room"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara berkata 'I am waiting outside the library', jadi ia sedang menunggu di luar perpustakaan."
+  },
+  {
+    "id": "BT008-010",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ibu saya sedang menyapu lantai dapur sekarang).",
+    "acceptedAnswers": [
+      "My mother is sweeping the kitchen floor now"
+    ],
+    "explanation": "Pola present continuous memakai is + sweeping, dan keterangan now diletakkan di akhir kalimat."
+  },
+  {
+    "id": "BT009-001",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct prepositions: The concert starts ___ 7 p.m. ___ Saturday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in / on"
+      },
+      {
+        "id": "B",
+        "text": "at / on"
+      },
+      {
+        "id": "C",
+        "text": "on / at"
+      },
+      {
+        "id": "D",
+        "text": "at / in"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Jam tertentu memakai at, dan nama hari dalam seminggu memakai on."
+  },
+  {
+    "id": "BT009-002",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which preposition completes the sentence? 'My grandmother lives ___ a small village in East Java.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "under"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Wilayah atau desa yang luas dipakai dengan in."
+  },
+  {
+    "id": "BT009-003",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'beside' or 'at the side of something'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "next to"
+      },
+      {
+        "id": "B",
+        "text": "inside"
+      },
+      {
+        "id": "C",
+        "text": "above"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Next to berarti di samping sesuatu, dekat dan bersebelahan."
+  },
+  {
+    "id": "BT009-004",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Please put the spare keys ___ the drawer, not on the table.",
+    "options": [
+      {
+        "id": "A",
+        "text": "above"
+      },
+      {
+        "id": "B",
+        "text": "behind"
+      },
+      {
+        "id": "C",
+        "text": "inside"
+      },
+      {
+        "id": "D",
+        "text": "near"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Inside berarti di dalam, dan kunci cadangan disimpan di dalam laci."
+  },
+  {
+    "id": "BT009-005",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Mereka bertemu di kantin pada pukul dua belas siang.",
+    "acceptedAnswers": [
+      "They meet at the canteen at twelve noon",
+      "They meet at the canteen at noon"
+    ],
+    "explanation": "Tempat tertentu dan jam tertentu sama-sama memakai at."
+  },
+  {
+    "id": "BT009-006",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Tas merah saya ada di bawah sofa, dekat pintu.",
+    "acceptedAnswers": [
+      "My red bag is under the sofa near the door",
+      "My red bag is under the couch near the door"
+    ],
+    "explanation": "Under menunjukkan posisi di bawah, sedangkan near menunjukkan jarak yang dekat."
+  },
+  {
+    "id": "BT009-007",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana tas hijau Rian berada?",
+    "passage": "Rian's room is on the second floor. His desk is near the window, and a green bag hangs behind the door. There is a lamp on the desk, and a small plant is between the lamp and the books. Rian keeps his shoes under the bed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di atas meja"
+      },
+      {
+        "id": "B",
+        "text": "Di bawah tempat tidur"
+      },
+      {
+        "id": "C",
+        "text": "Di belakang pintu"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam lemari"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menulis 'a green bag hangs behind the door', jadi tas hijau ada di belakang pintu."
+  },
+  {
+    "id": "BT009-008",
+    "day": 9,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang posisi benda di kamarmu. Gunakan in, on, under, atau next to.",
+    "modelAnswer": "My desk is next to the window, and my laptop is on the desk. A small box is under the bed, and my keys are inside it. My notebook is on the shelf above the desk.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan on untuk posisi di atas permukaan, under untuk posisi di bawah, dan next to untuk posisi di samping."
+  },
+  {
+    "id": "BT009-009",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana pembicara meminta pendengar menunggu?",
+    "script": "The meeting is at nine on Monday, in room five on the second floor. Please wait for me next to the elevator.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inside room five"
+      },
+      {
+        "id": "B",
+        "text": "Under the stairs"
+      },
+      {
+        "id": "C",
+        "text": "At the library"
+      },
+      {
+        "id": "D",
+        "text": "Next to the elevator"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara meminta pendengar menunggu 'next to the elevator', yaitu di sebelah lift."
+  },
+  {
+    "id": "BT009-010",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami duduk di belakang kelas).",
+    "acceptedAnswers": [
+      "We sit at the back of the class"
+    ],
+    "explanation": "Frasa at the back of dipakai untuk menyebut bagian belakang sebuah ruangan."
+  },
+  {
+    "id": "BT010-001",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Yesterday, my cousins ___ at the zoo with their father.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Cousins adalah kata benda jamak, sehingga bentuk lampau to be-nya were."
+  },
+  {
+    "id": "BT010-002",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: The shop ___ open last night, so we went home.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was not"
+      },
+      {
+        "id": "B",
+        "text": "were not"
+      },
+      {
+        "id": "C",
+        "text": "did not"
+      },
+      {
+        "id": "D",
+        "text": "is not"
+      }
+    ],
+    "correct": "A",
+    "explanation": "The shop adalah subjek tunggal, sehingga bentuk negatif lampaunya was not."
+  },
+  {
+    "id": "BT010-003",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the phrase: We visited Bali three weeks ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tonight"
+      },
+      {
+        "id": "B",
+        "text": "ago"
+      },
+      {
+        "id": "C",
+        "text": "already"
+      },
+      {
+        "id": "D",
+        "text": "holiday"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Ago dipakai setelah rentang waktu untuk menyatakan bahwa sesuatu sudah berlalu."
+  },
+  {
+    "id": "BT010-004",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: We are going to the beach this ___, because it is a long holiday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tonight"
+      },
+      {
+        "id": "B",
+        "text": "ago"
+      },
+      {
+        "id": "C",
+        "text": "weekend"
+      },
+      {
+        "id": "D",
+        "text": "already"
+      }
+    ],
+    "correct": "C",
+    "explanation": "This weekend berarti akhir pekan ini, dan kata itu cocok dengan rencana ke pantai."
+  },
+  {
+    "id": "BT010-005",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kemarin pagi kami sudah di pasar.",
+    "acceptedAnswers": [
+      "Yesterday morning we were already at the market",
+      "We were already at the market yesterday morning"
+    ],
+    "explanation": "Keterangan yesterday menandakan waktu lampau, sehingga subjek we memakai were."
+  },
+  {
+    "id": "BT010-006",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Minggu lalu mereka tidak di rumah karena sedang berlibur.",
+    "acceptedAnswers": [
+      "Last week they were not at home because they were on holiday",
+      "Last week they were not at home because they were on vacation"
+    ],
+    "explanation": "Bentuk negatif lampau untuk they memakai were not, dan on holiday berarti sedang berlibur."
+  },
+  {
+    "id": "BT010-007",
+    "day": 10,
+    "type": "story",
+    "prompt": "Berapa lama Dewi dan teman-temannya berada di kafe?",
+    "passage": "Last weekend, Dewi and her friends were at a small café near the river. The weather was cool, and the music was pleasant. Dewi was tired after her exam, but she felt happy. They were there for three hours, and they took many photos together.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satu jam"
+      },
+      {
+        "id": "B",
+        "text": "Dua jam"
+      },
+      {
+        "id": "C",
+        "text": "Setengah hari"
+      },
+      {
+        "id": "D",
+        "text": "Tiga jam"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menulis 'They were there for three hours', jadi mereka di kafe selama tiga jam."
+  },
+  {
+    "id": "BT010-008",
+    "day": 10,
+    "type": "essay",
+    "prompt": "Tulis 3 kalimat tentang akhir pekan atau liburanmu yang lalu. Gunakan was atau were.",
+    "modelAnswer": "Last weekend I was at my grandmother's house in Solo. We were very happy because the whole family came together. The food was delicious, and we talked until late at night.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Gunakan was untuk I, he, she, it dan were untuk we, you, they dalam kalimat lampau."
+  },
+  {
+    "id": "BT010-009",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Mengapa tim mereka terlambat?",
+    "script": "Our team was late this morning because the bus was full. We were still happy when we finally arrived at the stadium.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The bus was full"
+      },
+      {
+        "id": "B",
+        "text": "The stadium was closed"
+      },
+      {
+        "id": "C",
+        "text": "The coach was sick"
+      },
+      {
+        "id": "D",
+        "text": "The match was canceled"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara berkata tim terlambat 'because the bus was full', yaitu karena bus penuh."
+  },
+  {
+    "id": "BT010-010",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Lestari berada di Jakarta dua minggu yang lalu).",
+    "acceptedAnswers": [
+      "Lestari was in Jakarta two weeks ago"
+    ],
+    "explanation": "Subjek Lestari memakai was, dan ago menunjukkan waktu yang sudah berlalu."
+  }
+]

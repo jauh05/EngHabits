@@ -1,7 +1,8 @@
 import { motion } from 'motion/react';
-import { BarChart3, BookX, Dumbbell, Home, LayoutGrid, Play, Trophy, User, type LucideIcon } from 'lucide-react';
+import { BarChart3, BookX, Dumbbell, Home, LayoutGrid, Play, Swords, Trophy, User, type LucideIcon } from 'lucide-react';
 import { Link, NavLink, Outlet, useLocation } from 'react-router';
 import { easeOut, spring } from '../../lib/motion';
+import { useAccountSync } from '../../lib/useAccountSync';
 import { currentDay, TOTAL_DAYS } from '../../lib/progression';
 import { useSettings } from '../../lib/settings';
 import { useProgressData } from '../../lib/useProgressData';
@@ -14,6 +15,7 @@ type NavItem = { to: string; label: string; icon: LucideIcon };
 const MOBILE_ITEMS: NavItem[] = [
   { to: '/', label: 'Beranda', icon: Home },
   { to: '/peta', label: 'Peta', icon: LayoutGrid },
+  { to: '/battle', label: 'Battle', icon: Swords },
   { to: '/statistik', label: 'Statistik', icon: BarChart3 },
   { to: '/profil', label: 'Profil', icon: User },
 ];
@@ -141,6 +143,7 @@ function Sidebar() {
 /** Kerangka halaman utama: navigasi bawah di HP, frame putih dengan sidebar di layar lebar. */
 export function AppShell() {
   const location = useLocation();
+  useAccountSync();
   return (
     <div className="isolate relative min-h-dvh overflow-hidden bg-bg lg:p-6">
       <BackgroundArt />

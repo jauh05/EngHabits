@@ -2,6 +2,51 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-25: Battle real-time dengan ID publik
+
+1. **ID publik** `EH-XXXXXX` (tanpa 0, O, 1, I) untuk setiap akun. Akun lama mendapat ID saat migrasi, dan ID hanya bisa diganti sekali dari Profil.
+2. **Sinkron hanya hari lulus.** Klien mengirim daftar hari lulus ke `PUT /api/progress/mastered`. Level = hari pertama yang belum lulus. Batas soal battle = level terendah dari kedua pemain.
+3. **Mesin real-time di server** (`server/battle.mjs`). Undangan, hitung mundur, soal dengan batas waktu, reveal, esai yang dinilai sendiri lewat rubrik 3 kriteria, dan mode Bertahan dengan tiga nyawa. Aliran perubahan memakai SSE, dibaca klien dengan `fetch` karena `EventSource` tidak bisa mengirim header Bearer.
+4. **Kunci jawaban tidak pernah dikirim sebelum dikunci.** Bank battle di `content/battle/` hanya dibaca server. Battle tidak memakai materi hari 1–90 atau bank Hard, dan soal yang sudah dipakai salah satu pemain tidak dipakai lagi.
+5. **Komposisi.** Mode Campuran dan Bertahan mengikuti total soal. Mode lain memakai satu jenis soal. Esai paling banyak setengah dari total.
+6. **Volume bank: 10 soal per hari** (sekitar 900 soal), dengan komposisi per hari: 4 pilihan ganda (2 tata bahasa, 2 kosakata), 2 terjemahan, 1 cerita, 1 esai, 1 dengar, dan 1 susun kalimat. Validasi di `scripts/validate-battle.ts`.
+7. **Deploy.** `deploy/nginx/battle-events.conf` wajib ditempel agar SSE tidak tertahan. Setelah `content/battle/` berubah, service API harus di-restart.
+8. **Batasan yang diketahui.** Battle yang sedang berjalan hilang jika service dimulai ulang. Kunci jawaban ikut terkirim saat mode Dengar karena naskah dibacakan dari klien. Lawan yang tidak online tidak bisa menerima undangan.
+
+## 2026-10-24: Logo lama tampil dari cache, dan penanda versi untuk logo
+
+1. **File logo di server sudah logo baru.** Ukuran dan checksum `logo.png` di `https://enghabits.jauharfauzi.my.id` sama dengan `public/logo.png` di repo. Tampilan lama berasal dari cache browser atau dari service worker aplikasi yang sudah terpasang.
+2. **Penanda versi.** `Logo` memakai `logo.png?v=2`, dan favicon di `index.html` memakai `favicon.png?v=2`. Dengan begitu, URL baru tidak cocok dengan salinan lama di cache service worker.
+
+## 2026-10-24: Logo dari gambar 4, maskot tetap di halaman masuk dan daftar
+
+1. **Logo baru dari gambar 4 (sisi kiri).** `public/logo.png`, ikon PWA, dan `favicon.png` dibuat ulang dari gambar 4 dengan latar putih dibuat transparan.
+2. **Hanya logo yang diganti.** Logo merek tetap dipakai di sidebar dan layar sambutan lewat komponen `Logo`. Gambar maskot (`BlobCluster`) dikembalikan di halaman masuk dan daftar, seperti sebelum perubahan logo.
+
+## 2026-10-24: Logo kucing dipakai di semua halaman
+
+1. **Satu komponen `Logo`** (`src/components/ui/Logo.tsx`) untuk `public/logo.png`. Dipakai di sidebar desktop, layar sambutan, halaman masuk, dan halaman daftar. Sebelumnya halaman masuk dan daftar memakai maskot `BlobCluster`.
+2. **Halaman masuk dan daftar.** Logo ditaruh di lingkaran putih di atas banner hijau, supaya garis luar gelapnya tetap terlihat. Halaman masuk tetap menampilkan tulisan "EngHabits" di bawah logo.
+3. **`BlobCluster` tidak lagi dipakai** di halaman mana pun. Berkasnya belum dihapus, supaya perubahan ini tetap kecil.
+
+## 2026-10-24: Logo kucing baru dan suara di HP
+
+1. **Logo baru dari gambar kucing sisi kiri.** `public/logo.png` dipotong dari sisi kiri gambar, dan latar putihnya dibuat transparan lewat flood fill dari tepi. Ikon PWA dan `favicon.png` dibuat ulang dari logo yang sama.
+2. **Suara di HP.** Pemutaran memakai Web Speech API. Ada tiga perbaikan di `src/lib/tts.ts`:
+   - Utterance disimpan dalam variabel, supaya tidak dibuang peramban sebelum selesai.
+   - `resume()` dipanggil sebelum berbicara, karena Chrome di Android kadang tetap pause setelah `cancel()`.
+   - Daftar voice dipantau dengan `voiceschanged`. Status "Suara bahasa Inggris" di Profil ikut diperbarui, jadi tidak tertinggal di "belum ada suara".
+3. **Belum diuji dengan suara sungguhan.** Lingkungan pengujian tidak bisa memutar audio, jadi perbaikan ini perlu dicek di HP. Kalau masih diam, periksa mode senyap dan volume media, dan di iPhone pastikan voice Inggris sudah diunduh di Pengaturan > Aksesibilitas > Konten yang Diucapkan.
+
+## 2026-10-24: Batas percobaan, header keamanan, dan tombol pasang aplikasi
+
+1. **Batas percobaan di API.** Gagal masuk dibatasi 5 kali per email dan 20 kali per alamat dalam 15 menit. Pendaftaran dibatasi 20 kali per alamat dalam satu jam. Balasannya 429 dengan header `Retry-After`. Penghitung disimpan di memori, jadi hilang saat service dimulai ulang.
+2. **Alamat asli diambil dari `CF-Connecting-IP`.** API hanya mendengarkan di `127.0.0.1`, jadi header itu hanya bisa datang dari nginx atau Cloudflare.
+3. **Header keamanan di `deploy/nginx/security-headers.conf`.** Di server, file ini disalin ke `/etc/nginx/snippets/`. Karena nginx tidak mewarisi `add_header` ke blok `location` yang punya `add_header` sendiri, file ini harus di-`include` di blok server dan di `location /assets/` serta blok regex sw.js. HSTS tanpa `includeSubDomains`, supaya subdomain lain tidak terpengaruh.
+4. **Content-Security-Policy belum diuji dengan header asli di server.** Aplikasi memakai script dan style dari origin sendiri, tetapi kalau ada halaman yang rusak setelah dipasang, hapus baris CSP dari file itu.
+5. **Tombol "Pasang aplikasi" di halaman masuk.** `src/lib/install.ts` menyimpan sinyal `beforeinstallprompt` sejak aplikasi dimuat. Browser Chromium membuka dialog pasang langsung. iPhone (Safari) dan browser lain menampilkan petunjuk manual. Tombol hilang kalau aplikasi sudah terpasang.
+6. **Verifikasi.** Tes API 6 lolos, termasuk batas percobaan. Tes pemasangan 3 lolos. Total 67 tes, typecheck dan build lolos. Di browser, tombol tampil dan petunjuk muncul di desktop.
+
 ## 2026-10-24: Akun disimpan di server (API dan SQLite)
 
 1. **Akun di server.** `server/app.mjs` menyediakan `/api/register`, `/api/login`, `/api/logout`, dan `/api/me`. Basis datanya SQLite lewat `node:sqlite`, jadi butuh Node 22.13 atau lebih baru dan tidak menambah dependensi.

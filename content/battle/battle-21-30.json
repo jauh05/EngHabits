@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "BT021-001",
+    "day": 21,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Ali has already bought his train ticket. He ___ to Surabaya tomorrow morning.",
+    "options": [
+      { "id": "A", "text": "is going to travel" },
+      { "id": "B", "text": "has traveled" },
+      { "id": "C", "text": "travels" },
+      { "id": "D", "text": "to travel" }
+    ],
+    "correct": "A",
+    "explanation": "Be going to dipakai untuk rencana yang sudah disiapkan, misalnya tiket yang sudah dibeli. Has traveled dan travels tidak cocok dengan keterangan waktu 'tomorrow morning'."
+  },
+  {
+    "id": "BT021-002",
+    "day": 21,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The shop ___ closed since the morning, so we cannot buy the bread.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "has been" },
+      { "id": "C", "text": "was" },
+      { "id": "D", "text": "will be" }
+    ],
+    "correct": "B",
+    "explanation": "Keadaan yang dimulai di masa lalu dan masih berlanjut sampai sekarang memakai present perfect, yaitu has been. Since menandai titik awal waktu tersebut."
+  },
+  {
+    "id": "BT021-003",
+    "day": 21,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which noun is uncountable?",
+    "options": [
+      { "id": "A", "text": "pencil" },
+      { "id": "B", "text": "orange" },
+      { "id": "C", "text": "rice" },
+      { "id": "D", "text": "chair" }
+    ],
+    "correct": "C",
+    "explanation": "Rice adalah kata benda tak terhitung, jadi tidak memakai angka atau bentuk jamak. Pencil, orange, dan chair bisa dihitung satu per satu."
+  },
+  {
+    "id": "BT021-004",
+    "day": 21,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "'Never' has the opposite meaning of which word?",
+    "options": [
+      { "id": "A", "text": "rarely" },
+      { "id": "B", "text": "seldom" },
+      { "id": "C", "text": "maybe" },
+      { "id": "D", "text": "always" }
+    ],
+    "correct": "D",
+    "explanation": "Always berarti selalu dan merupakan kebalikan dari never yang berarti tidak pernah. Rarely dan seldom berarti jarang, bukan kebalikannya."
+  },
+  {
+    "id": "BT021-005",
+    "day": 21,
+    "type": "translate",
+    "prompt": "Saya akan mulai kursus menyetir bulan depan.",
+    "acceptedAnswers": [
+      "I will start a driving course next month.",
+      "I am going to start a driving course next month."
+    ],
+    "explanation": "Rencana masa depan bisa memakai will atau be going to, dan keduanya benar untuk kalimat ini."
+  },
+  {
+    "id": "BT021-006",
+    "day": 21,
+    "type": "translate",
+    "prompt": "Dia sudah tiga kali pergi ke Singapura.",
+    "acceptedAnswers": [
+      "She has been to Singapore three times.",
+      "She has visited Singapore three times."
+    ],
+    "explanation": "Pengalaman yang pernah terjadi memakai present perfect dengan has + V3, misalnya been atau visited."
+  },
+  {
+    "id": "BT021-007",
+    "day": 21,
+    "type": "story",
+    "prompt": "Apa yang akan dilakukan Rina pada hari Jumat?",
+    "passage": "Rina has a busy week. On Monday she will start a new English course, and on Friday she is going to meet her aunt in Bogor. She has never taken a course before, so she feels a little nervous. She can already say simple sentences, but she cannot write long paragraphs yet. Her teacher said that she must practice every day. Rina has already bought a notebook, and she has written three goals inside it. She wants to speak English with her aunt by the end of the month.",
+    "options": [
+      { "id": "A", "text": "Mendaftar kursus bahasa Inggris yang baru" },
+      { "id": "B", "text": "Bertemu bibinya di Bogor" },
+      { "id": "C", "text": "Membeli buku catatan baru" },
+      { "id": "D", "text": "Belajar present perfect bersama gurunya" }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut 'on Friday she is going to meet her aunt in Bogor'. Kursus dimulai hari Senin, dan buku catatan sudah dibeli sebelumnya."
+  },
+  {
+    "id": "BT021-008",
+    "day": 21,
+    "type": "essay",
+    "prompt": "Ceritakan rencana kamu untuk akhir pekan ini dan satu pengalaman yang pernah kamu lakukan. Gunakan will atau be going to untuk rencana, dan present perfect untuk pengalaman.",
+    "modelAnswer": "This weekend I am going to clean my room and cook dinner for my family. On Sunday, I will visit my cousin in the afternoon. I have visited many cities in Java, but I have never been to Bali. Last year I joined a short English course, and it helped me speak more confidently. Next year, I want to travel abroad, and I hope I will practice English there.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Jawaban yang baik memisahkan rencana masa depan (will atau be going to) dari pengalaman (present perfect). Perhatikan juga bentuk kata kerja setelah modal."
+  },
+  {
+    "id": "BT021-009",
+    "day": 21,
+    "type": "listen",
+    "prompt": "Apa yang akan dilakukan Dimas besok pagi?",
+    "script": "Hi, this is Dimas. I am going to call the shop tomorrow morning to ask about the bicycle. I have never bought a bike from this shop, so I need some advice. Please remind me to bring my money.",
+    "options": [
+      { "id": "A", "text": "He will visit his grandmother." },
+      { "id": "B", "text": "He has already bought a bicycle." },
+      { "id": "C", "text": "He is going to call the shop." },
+      { "id": "D", "text": "He can cook dinner for his family." }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara berkata 'I am going to call the shop tomorrow morning', yang menyatakan rencana untuk besok pagi."
+  },
+  {
+    "id": "BT021-010",
+    "day": 21,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: never / have / visited / I / Japan. Artinya: Saya tidak pernah mengunjungi Jepang.",
+    "acceptedAnswers": [
+      "I have never visited Japan"
+    ],
+    "explanation": "Pada present perfect, never diletakkan di antara have dan bentuk ketiga kata kerja (V3)."
+  },
+  {
+    "id": "BT022-001",
+    "day": 22,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "She sings very ___ when she is happy.",
+    "options": [
+      { "id": "A", "text": "beautiful" },
+      { "id": "B", "text": "beautifully" },
+      { "id": "C", "text": "beauty" },
+      { "id": "D", "text": "beautify" }
+    ],
+    "correct": "B",
+    "explanation": "Kata keterangan menerangkan kata kerja sings, jadi bentuknya beautifully. Beautiful adalah kata sifat yang menerangkan benda."
+  },
+  {
+    "id": "BT022-002",
+    "day": 22,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "He is a ___ driver, so everyone trusts him on the highway.",
+    "options": [
+      { "id": "A", "text": "carefully" },
+      { "id": "B", "text": "carefulness" },
+      { "id": "C", "text": "careful" },
+      { "id": "D", "text": "care" }
+    ],
+    "correct": "C",
+    "explanation": "Kata sifat careful dipakai sebelum kata benda driver. Carefully adalah kata keterangan dan tidak bisa menerangkan benda."
+  },
+  {
+    "id": "BT022-003",
+    "day": 22,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "'Slowly' has the opposite meaning of which word?",
+    "options": [
+      { "id": "A", "text": "happily" },
+      { "id": "B", "text": "quietly" },
+      { "id": "C", "text": "badly" },
+      { "id": "D", "text": "quickly" }
+    ],
+    "correct": "D",
+    "explanation": "Quickly berarti cepat, kebalikan dari slowly yang berarti lambat. Happily, quietly, dan badly juga kata keterangan tetapi maknanya berbeda."
+  },
+  {
+    "id": "BT022-004",
+    "day": 22,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'without much difficulty'?",
+    "options": [
+      { "id": "A", "text": "easily" },
+      { "id": "B", "text": "badly" },
+      { "id": "C", "text": "quietly" },
+      { "id": "D", "text": "slowly" }
+    ],
+    "correct": "A",
+    "explanation": "Easily berarti dengan mudah atau tanpa banyak kesulitan. Badly, quietly, dan slowly punya arti lain."
+  },
+  {
+    "id": "BT022-005",
+    "day": 22,
+    "type": "translate",
+    "prompt": "Dia menjawab pertanyaan itu dengan teliti.",
+    "acceptedAnswers": [
+      "She answered the question carefully.",
+      "She answered the question with care."
+    ],
+    "explanation": "Kata keterangan carefully menerangkan kata kerja answered. Frasa with care juga bisa dipakai sebagai padanan."
+  },
+  {
+    "id": "BT022-006",
+    "day": 22,
+    "type": "translate",
+    "prompt": "Ujiannya sangat mudah bagi saya.",
+    "acceptedAnswers": [
+      "The exam was very easy for me.",
+      "The test was very easy for me."
+    ],
+    "explanation": "Setelah to be, kata sifat easy dipakai untuk menerangkan benda, bukan easily. Exam dan test sama-sama bisa dipakai."
+  },
+  {
+    "id": "BT022-007",
+    "day": 22,
+    "type": "story",
+    "prompt": "Bagaimana adik perempuan Arief memakan sup itu?",
+    "passage": "Arief is a quiet boy, but he is very helpful at home. Last week his mother was sick, so he decided to cook dinner. He read the recipe carefully and chopped the vegetables slowly. The soup was not perfect, but it tasted good. His little sister ate it happily and said that the meal was delicious. Arief smiled because he had worked hard all evening. Now he wants to cook every Sunday, and he says that cooking is easier than he thought.",
+    "options": [
+      { "id": "A", "text": "Dengan marah" },
+      { "id": "B", "text": "Dengan sedih" },
+      { "id": "C", "text": "Dengan senang hati" },
+      { "id": "D", "text": "Sambil menangis" }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut 'ate it happily', yang berarti makan dengan senang hati. Kata keterangan happily menerangkan kata kerja ate."
+  },
+  {
+    "id": "BT022-008",
+    "day": 22,
+    "type": "essay",
+    "prompt": "Ceritakan cara kamu mengerjakan satu pekerjaan rumah dengan baik. Gunakan kata sifat dan kata keterangan yang sesuai.",
+    "modelAnswer": "I like to cook simple meals for my family on weekends. I cut the vegetables carefully so that they look nice. My little brother helps me, and he always works happily beside me. When the food is ready, we eat together and talk quietly. This habit makes me feel calm and proud.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Kata sifat dipakai setelah to be atau sebelum kata benda, sedangkan kata keterangan dipakai setelah kata kerja. Contohnya cut carefully dan works happily."
+  },
+  {
+    "id": "BT022-009",
+    "day": 22,
+    "type": "listen",
+    "prompt": "Mengapa Sam terjatuh kemarin?",
+    "script": "Good morning, Mr. Adi. Your son, Sam, is a very fast runner. However, he does not always run carefully. Yesterday he fell down because he ran too quickly on the wet road.",
+    "options": [
+      { "id": "A", "text": "He ran too slowly." },
+      { "id": "B", "text": "He was sick and stayed home." },
+      { "id": "C", "text": "He did not run at all." },
+      { "id": "D", "text": "He ran too quickly on a wet road." }
+    ],
+    "correct": "D",
+    "explanation": "Dialog menyebut Sam terjatuh karena berlari terlalu cepat di jalan yang basah. Perhatikan kata keterangan quickly."
+  },
+  {
+    "id": "BT022-010",
+    "day": 22,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: quietly / the students / worked / in the library. Artinya: Para siswa bekerja dengan tenang di perpustakaan.",
+    "acceptedAnswers": [
+      "The students worked quietly in the library"
+    ],
+    "explanation": "Kata keterangan quietly diletakkan setelah kata kerja worked, lalu diikuti keterangan tempat."
+  },
+  {
+    "id": "BT023-001",
+    "day": 23,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "This road is ___ than the old road, so cars can move faster.",
+    "options": [
+      { "id": "A", "text": "wide" },
+      { "id": "B", "text": "more wide" },
+      { "id": "C", "text": "wider" },
+      { "id": "D", "text": "widest" }
+    ],
+    "correct": "C",
+    "explanation": "Kata sifat pendek wide membentuk pembanding dengan -er, yaitu wider, lalu dipakai bersama than. More wide salah karena kata sifat pendek tidak memakai more."
+  },
+  {
+    "id": "BT023-002",
+    "day": 23,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Of all the mountains in our country, this one is the ___.",
+    "options": [
+      { "id": "A", "text": "higher" },
+      { "id": "B", "text": "most high" },
+      { "id": "C", "text": "the more high" },
+      { "id": "D", "text": "highest" }
+    ],
+    "correct": "D",
+    "explanation": "Untuk membandingkan lebih dari dua hal, pakai superlatif the + kata sifat + -est, yaitu the highest. Higher adalah pembanding dan tidak cocok dengan the."
+  },
+  {
+    "id": "BT023-003",
+    "day": 23,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word has the opposite meaning of 'expensive'?",
+    "options": [
+      { "id": "A", "text": "cheap" },
+      { "id": "B", "text": "large" },
+      { "id": "C", "text": "heavy" },
+      { "id": "D", "text": "fast" }
+    ],
+    "correct": "A",
+    "explanation": "Cheap berarti murah, kebalikan dari expensive yang berarti mahal. Large, heavy, dan fast tidak berlawanan dengan expensive."
+  },
+  {
+    "id": "BT023-004",
+    "day": 23,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'very large in size'?",
+    "options": [
+      { "id": "A", "text": "tiny" },
+      { "id": "B", "text": "huge" },
+      { "id": "C", "text": "thin" },
+      { "id": "D", "text": "quick" }
+    ],
+    "correct": "B",
+    "explanation": "Huge berarti sangat besar. Tiny berarti sangat kecil, thin berarti tipis, dan quick berarti cepat."
+  },
+  {
+    "id": "BT023-005",
+    "day": 23,
+    "type": "translate",
+    "prompt": "Kamar ini lebih luas daripada kamar saya yang dulu.",
+    "acceptedAnswers": [
+      "This room is larger than my old room.",
+      "This bedroom is larger than my old room."
+    ],
+    "explanation": "Kata sifat large membentuk pembanding larger dengan menambah -r, lalu dihubungkan dengan than."
+  },
+  {
+    "id": "BT023-006",
+    "day": 23,
+    "type": "translate",
+    "prompt": "Dia adalah siswa paling pintar di kelas kami.",
+    "acceptedAnswers": [
+      "She is the smartest student in our class.",
+      "He is the smartest student in our class."
+    ],
+    "explanation": "Superlatif untuk kata sifat pendek memakai the + kata sifat + -est, sehingga menjadi the smartest."
+  },
+  {
+    "id": "BT023-007",
+    "day": 23,
+    "type": "story",
+    "prompt": "Mengapa Ahmad memilih laptop ketiga?",
+    "passage": "Ahmad is choosing a new laptop. He visits two stores in one afternoon. The first laptop is lighter than the second one, but its screen is smaller. The second laptop is more expensive, and its battery lasts longer. Ahmad checks online reviews and finds that the third laptop is the best value for students. It is not the fastest model, but it is the most reliable one. He decides to buy it before the weekend.",
+    "options": [
+      { "id": "A", "text": "Karena itu laptop yang paling cepat" },
+      { "id": "B", "text": "Karena itu laptop yang paling mahal" },
+      { "id": "C", "text": "Karena layarnya paling besar di antara ketiganya" },
+      { "id": "D", "text": "Karena nilainya paling baik untuk pelajar dan paling andal" }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut laptop ketiga sebagai pilihan dengan nilai terbaik untuk pelajar dan paling andal, bukan yang tercepat."
+  },
+  {
+    "id": "BT023-008",
+    "day": 23,
+    "type": "essay",
+    "prompt": "Bandingkan dua tempat yang kamu kenal dengan baik, misalnya kampung halamanmu dan kota besar. Gunakan bentuk pembanding dan superlatif.",
+    "modelAnswer": "I want to compare my hometown with Jakarta. Jakarta is bigger than my hometown, and its traffic is much heavier. However, my hometown is quieter and cleaner. In my opinion, it is the most peaceful place I know. Living there is also cheaper, so I feel more comfortable.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Pembanding memakai -er atau more, sedangkan superlatif memakai the + -est atau the most. Periksa juga bentuk tidak beraturan seperti heavier."
+  },
+  {
+    "id": "BT023-009",
+    "day": 23,
+    "type": "listen",
+    "prompt": "Bus mana yang paling nyaman menurut para turis?",
+    "script": "Welcome to the city tour. The red bus is faster than the green bus, but the green bus is cheaper. Most tourists think the blue bus is the most comfortable of all. Please keep your ticket until the end of the trip.",
+    "options": [
+      { "id": "A", "text": "The blue bus" },
+      { "id": "B", "text": "The red bus" },
+      { "id": "C", "text": "The green bus" },
+      { "id": "D", "text": "The yellow bus" }
+    ],
+    "correct": "A",
+    "explanation": "Pemandu menyebut bus biru sebagai yang paling nyaman menurut kebanyakan turis, memakai bentuk superlatif the most comfortable."
+  },
+  {
+    "id": "BT023-010",
+    "day": 23,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: the / bakery / near / my / house / is / the / busiest / in / town. Artinya: Toko roti dekat rumah saya adalah yang paling ramai di kota.",
+    "acceptedAnswers": [
+      "The bakery near my house is the busiest in town"
+    ],
+    "explanation": "Kata sifat busy berubah menjadi busiest dengan -y menjadi -iest, dan didahului the."
+  },
+  {
+    "id": "BT024-001",
+    "day": 24,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The new library ___ next year by the government.",
+    "options": [
+      { "id": "A", "text": "builds" },
+      { "id": "B", "text": "will build" },
+      { "id": "C", "text": "is building" },
+      { "id": "D", "text": "will be built" }
+    ],
+    "correct": "D",
+    "explanation": "Kalimat pasif masa depan memakai will be + V3, yaitu will be built. Bentuk lain adalah kalimat aktif, sedangkan subjek library menerima tindakan."
+  },
+  {
+    "id": "BT024-002",
+    "day": 24,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The windows ___ yesterday by the strong wind.",
+    "options": [
+      { "id": "A", "text": "were broken" },
+      { "id": "B", "text": "broke" },
+      { "id": "C", "text": "are broken" },
+      { "id": "D", "text": "was breaking" }
+    ],
+    "correct": "A",
+    "explanation": "Subjek windows berbentuk jamak dan kejadiannya di masa lalu, jadi memakai were + V3, yaitu were broken."
+  },
+  {
+    "id": "BT024-003",
+    "day": 24,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which verb means 'to create something for the first time'?",
+    "options": [
+      { "id": "A", "text": "delivered" },
+      { "id": "B", "text": "invented" },
+      { "id": "C", "text": "painted" },
+      { "id": "D", "text": "announced" }
+    ],
+    "correct": "B",
+    "explanation": "Invented berarti menciptakan sesuatu yang baru untuk pertama kali. Delivered berarti dikirim, painted berarti dicat, dan announced berarti diumumkan."
+  },
+  {
+    "id": "BT024-004",
+    "day": 24,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to fix something that is broken'?",
+    "options": [
+      { "id": "A", "text": "designed" },
+      { "id": "B", "text": "produced" },
+      { "id": "C", "text": "repaired" },
+      { "id": "D", "text": "prepared" }
+    ],
+    "correct": "C",
+    "explanation": "Repaired berarti memperbaiki sesuatu yang rusak. Designed berarti dirancang, produced berarti dihasilkan, dan prepared berarti disiapkan."
+  },
+  {
+    "id": "BT024-005",
+    "day": 24,
+    "type": "translate",
+    "prompt": "Pagar kayu itu dibuat oleh ayah saya dua tahun lalu.",
+    "acceptedAnswers": [
+      "The wooden fence was made by my father two years ago.",
+      "The wooden fence was built by my father two years ago."
+    ],
+    "explanation": "Kalimat pasif lampau memakai was atau were + V3, dan pelaku ditandai dengan by."
+  },
+  {
+    "id": "BT024-006",
+    "day": 24,
+    "type": "translate",
+    "prompt": "Rapat itu akan dimulai pukul sembilan pagi.",
+    "acceptedAnswers": [
+      "The meeting will be started at nine in the morning.",
+      "The meeting will be started at nine o'clock in the morning."
+    ],
+    "explanation": "Pasif masa depan memakai will be + V3, yaitu will be started. Bentuk pasif dipakai karena yang penting adalah rapatnya, bukan siapa yang memulai."
+  },
+  {
+    "id": "BT024-007",
+    "day": 24,
+    "type": "story",
+    "prompt": "Apa yang terjadi pada dinding pasar itu?",
+    "passage": "The old market in our town was closed for two years. Last year, the local government decided to repair it. New roofs were added, and the walls were painted bright yellow. The stalls were rebuilt by local workers, and the paths were cleaned every week. Today, the market is open again. Fresh vegetables are sold there every morning, and handmade bags are produced by young artists in the back room. Many visitors say that the market is now more beautiful than before. The project will be finished next month.",
+    "options": [
+      { "id": "A", "text": "Dinding itu dicat dengan warna kuning cerah" },
+      { "id": "B", "text": "Dinding itu dihancurkan sepenuhnya" },
+      { "id": "C", "text": "Dinding itu dipindahkan ke tempat lain" },
+      { "id": "D", "text": "Dinding itu tidak pernah diperbaiki" }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut 'the walls were painted bright yellow', yang berarti dinding dicat dengan warna kuning cerah."
+  },
+  {
+    "id": "BT024-008",
+    "day": 24,
+    "type": "essay",
+    "prompt": "Ceritakan satu tempat atau benda yang pernah diperbaiki atau dibuat ulang, dan jelaskan prosesnya. Gunakan kalimat pasif.",
+    "modelAnswer": "Last year, my school library was renovated by the local government. New shelves were built, and the old books were cleaned carefully. The walls were painted light blue, so the room looks brighter now. Many students visit the library every afternoon. I think the new library will be used by even more students next year.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Gunakan be yang sesuai waktu kejadian diikuti V3, dan sebutkan pelaku dengan by jika perlu."
+  },
+  {
+    "id": "BT024-009",
+    "day": 24,
+    "type": "listen",
+    "prompt": "Apa yang dikatakan tentang tiket museum?",
+    "script": "Attention, please. The science museum is closed on Monday for repairs. The new exhibition will be opened next Friday. Tickets are sold online only, and they must be bought before the visit.",
+    "options": [
+      { "id": "A", "text": "Tickets are sold only at the door." },
+      { "id": "B", "text": "Tickets are sold online only." },
+      { "id": "C", "text": "Tickets are not sold at all." },
+      { "id": "D", "text": "Tickets are given for free every day." }
+    ],
+    "correct": "B",
+    "explanation": "Pengumuman menyebut tiket hanya dijual secara online dan harus dibeli sebelum kunjungan."
+  },
+  {
+    "id": "BT024-010",
+    "day": 24,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat pasif yang benar: was / the wall / painted / by / the teacher. Artinya: Dinding itu dicat oleh guru.",
+    "acceptedAnswers": [
+      "The wall was painted by the teacher"
+    ],
+    "explanation": "Pola pasif lampau adalah subjek + was + V3 + by + pelaku."
+  },
+  {
+    "id": "BT025-001",
+    "day": 25,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "I wanted to go to the beach, ___ it started to rain.",
+    "options": [
+      { "id": "A", "text": "but" },
+      { "id": "B", "text": "so" },
+      { "id": "C", "text": "or" },
+      { "id": "D", "text": "and" }
+    ],
+    "correct": "A",
+    "explanation": "But dipakai untuk menghubungkan dua ide yang bertentangan. Keinginan pergi ke pantai bertentangan dengan hujan yang mulai turun."
+  },
+  {
+    "id": "BT025-002",
+    "day": 25,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Neither Rina ___ Dedi came to the meeting.",
+    "options": [
+      { "id": "A", "text": "or" },
+      { "id": "B", "text": "nor" },
+      { "id": "C", "text": "and" },
+      { "id": "D", "text": "also" }
+    ],
+    "correct": "B",
+    "explanation": "Pasangan tetap neither dipasangkan dengan nor, bukan or atau and. Neither dan nor berarti tidak satu pun dari keduanya."
+  },
+  {
+    "id": "BT025-003",
+    "day": 25,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'in addition to' or 'too'?",
+    "options": [
+      { "id": "A", "text": "instead" },
+      { "id": "B", "text": "otherwise" },
+      { "id": "C", "text": "also" },
+      { "id": "D", "text": "neither" }
+    ],
+    "correct": "C",
+    "explanation": "Also berarti juga, yaitu menambahkan informasi lain. Instead berarti sebagai gantinya, otherwise berarti jika tidak, dan neither berarti tidak satu pun."
+  },
+  {
+    "id": "BT025-004",
+    "day": 25,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'if not, or else'?",
+    "options": [
+      { "id": "A", "text": "instead" },
+      { "id": "B", "text": "also" },
+      { "id": "C", "text": "both" },
+      { "id": "D", "text": "otherwise" }
+    ],
+    "correct": "D",
+    "explanation": "Otherwise berarti jika tidak, biasanya dipakai untuk memperingatkan akibat dari suatu tindakan. Both berarti keduanya."
+  },
+  {
+    "id": "BT025-005",
+    "day": 25,
+    "type": "translate",
+    "prompt": "Kamu bisa minum teh atau kopi.",
+    "acceptedAnswers": [
+      "You can drink tea or coffee.",
+      "You can have tea or coffee."
+    ],
+    "explanation": "Or dipakai untuk memberi pilihan di antara dua hal yang setara, yaitu teh dan kopi."
+  },
+  {
+    "id": "BT025-006",
+    "day": 25,
+    "type": "translate",
+    "prompt": "Saya kehabisan tenaga, jadi saya memilih pulang lebih cepat.",
+    "acceptedAnswers": [
+      "I ran out of energy, so I chose to go home early.",
+      "I was out of energy, so I decided to go home early."
+    ],
+    "explanation": "So menghubungkan sebab dan akibat dalam dua klausa setara, dengan koma sebelum so."
+  },
+  {
+    "id": "BT025-007",
+    "day": 25,
+    "type": "story",
+    "prompt": "Apa saran Yudi untuk acara itu?",
+    "passage": "Lina and Yudi are planning a small birthday party for their teacher. They want a cake, but they do not have much money. Lina can bake a simple cake, or she can buy one from the bakery near school. Yudi suggests making cards instead, and both of them agree to do it. The cards are colorful, and the whole class signs them carefully. Neither Lina nor Yudi likes big parties, so they keep the event short. The teacher smiles and says that the cards are better than any cake.",
+    "options": [
+      { "id": "A", "text": "Membuat kue sendiri di rumah" },
+      { "id": "B", "text": "Membuat kartu sebagai ganti kue" },
+      { "id": "C", "text": "Membeli kue di toko roti dekat sekolah" },
+      { "id": "D", "text": "Mengadakan pesta besar di kelas" }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Yudi menyarankan membuat kartu instead, yaitu sebagai pengganti kue."
+  },
+  {
+    "id": "BT025-008",
+    "day": 25,
+    "type": "essay",
+    "prompt": "Ceritakan pilihan yang pernah kamu buat ketika harus memilih antara dua hal, misalnya makanan, transportasi, atau kegiatan akhir pekan. Gunakan and, but, or, atau so.",
+    "modelAnswer": "On Sundays, I can go to the park or stay home and read. I wanted to go outside, but it was very hot this afternoon. So I decided to read a book in my room. I also made a cup of tea and listened to some music. Instead of going out, I enjoyed a calm afternoon at home.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Konjungsi setara menghubungkan dua ide yang sejajar, dan koma biasanya muncul sebelum and, but, atau so."
+  },
+  {
+    "id": "BT025-009",
+    "day": 25,
+    "type": "listen",
+    "prompt": "Menurut Tomi, apa yang harus dibeli agar minuman tetap dingin?",
+    "script": "Hi, this is Tomi. Neither Lia nor Doni can come to the party tonight. I can either pick up the cake or bring some drinks. Also, we should buy ice, otherwise the drinks will be warm.",
+    "options": [
+      { "id": "A", "text": "Bread" },
+      { "id": "B", "text": "Napkins" },
+      { "id": "C", "text": "Ice" },
+      { "id": "D", "text": "Flowers" }
+    ],
+    "correct": "C",
+    "explanation": "Tomi berkata 'we should buy ice, otherwise the drinks will be warm', yang berarti es dibutuhkan supaya minuman tidak hangat."
+  },
+  {
+    "id": "BT025-010",
+    "day": 25,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: both / my parents / and / my brother / like / tea. Artinya: Kedua orang tua saya dan saudara laki-laki saya suka teh.",
+    "acceptedAnswers": [
+      "Both my parents and my brother like tea"
+    ],
+    "explanation": "Pasangan tetap both dan and dipakai untuk menghubungkan dua hal sekaligus."
+  },
+  {
+    "id": "BT026-001",
+    "day": 26,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "She stayed at home ___ she had a bad headache.",
+    "options": [
+      { "id": "A", "text": "unless" },
+      { "id": "B", "text": "because" },
+      { "id": "C", "text": "until" },
+      { "id": "D", "text": "in case" }
+    ],
+    "correct": "B",
+    "explanation": "Because menjelaskan alasan, yaitu sakit kepala. Unless berarti kecuali jika, until berarti sampai, dan in case berarti untuk jaga-jaga."
+  },
+  {
+    "id": "BT026-002",
+    "day": 26,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Please wait here ___ I come back from the shop.",
+    "options": [
+      { "id": "A", "text": "because" },
+      { "id": "B", "text": "although" },
+      { "id": "C", "text": "until" },
+      { "id": "D", "text": "whereas" }
+    ],
+    "correct": "C",
+    "explanation": "Until menunjukkan batas waktu, yaitu sampai saya kembali. Although dan whereas menunjukkan pertentangan, sedangkan because menunjukkan alasan."
+  },
+  {
+    "id": "BT026-003",
+    "day": 26,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'despite the fact that'?",
+    "options": [
+      { "id": "A", "text": "until" },
+      { "id": "B", "text": "after" },
+      { "id": "C", "text": "in case" },
+      { "id": "D", "text": "although" }
+    ],
+    "correct": "D",
+    "explanation": "Although berarti meskipun atau walaupun, dan dipakai untuk menyatakan pertentangan. Until, after, dan in case tidak punya arti itu."
+  },
+  {
+    "id": "BT026-004",
+    "day": 26,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'except if'?",
+    "options": [
+      { "id": "A", "text": "unless" },
+      { "id": "B", "text": "while" },
+      { "id": "C", "text": "after" },
+      { "id": "D", "text": "until" }
+    ],
+    "correct": "A",
+    "explanation": "Unless berarti kecuali jika, sehingga bisa diganti dengan if not. While berarti sementara, after berarti setelah, dan until berarti sampai."
+  },
+  {
+    "id": "BT026-005",
+    "day": 26,
+    "type": "translate",
+    "prompt": "Dia menyimpan uang cadangan untuk jaga-jaga kalau mobilnya rusak.",
+    "acceptedAnswers": [
+      "She keeps some spare money in case the car breaks down.",
+      "She keeps some extra money in case the car breaks down."
+    ],
+    "explanation": "In case berarti untuk berjaga-jaga, dan klausa setelahnya memakai bentuk sekarang seperti breaks, bukan will break."
+  },
+  {
+    "id": "BT026-006",
+    "day": 26,
+    "type": "translate",
+    "prompt": "Walaupun hujan deras, panitia tetap membuka acara tepat waktu.",
+    "acceptedAnswers": [
+      "Although the rain was heavy, the committee still opened the event on time.",
+      "Even though the rain was heavy, the committee still opened the event on time."
+    ],
+    "explanation": "Although dan even though menyatakan pertentangan, sedangkan on time berarti tepat waktu."
+  },
+  {
+    "id": "BT026-007",
+    "day": 26,
+    "type": "story",
+    "prompt": "Mengapa Budi menunggu di shelter?",
+    "passage": "Budi wanted to climb the hill near his village. Although the sky was cloudy in the morning, he decided to start early. He packed some water and a small snack, in case he got hungry. While he was walking, the weather changed, and it began to rain. He did not stop until he reached a small shelter near the top. There he waited because the path was too slippery. After the rain stopped, he continued to the peak and took many photos. He was happy that he did not give up, even though the trip was difficult.",
+    "options": [
+      { "id": "A", "text": "Karena dia merasa lapar" },
+      { "id": "B", "text": "Karena temannya belum datang" },
+      { "id": "C", "text": "Karena jalannya terlalu licin" },
+      { "id": "D", "text": "Karena dia ingin tidur sebentar" }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut 'the path was too slippery', yaitu jalannya terlalu licin, sebagai alasan Budi menunggu."
+  },
+  {
+    "id": "BT026-008",
+    "day": 26,
+    "type": "essay",
+    "prompt": "Ceritakan satu kegiatan yang sulit tetapi tetap kamu lakukan, dan jelaskan alasanmu. Gunakan because, although, atau until.",
+    "modelAnswer": "Last year, I joined a weekend running club even though I was not very fit. Although my legs hurt after the first week, I kept practicing every Saturday. I went to the park early because the air was fresh and quiet. I did not stop until I could run for thirty minutes without a break. Now I feel stronger, and I want to join a longer race next year.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Because menjelaskan alasan, although menyatakan pertentangan, dan until menunjukkan batas waktu. Ketiganya perlu dipakai dengan klausa yang lengkap."
+  },
+  {
+    "id": "BT026-009",
+    "day": 26,
+    "type": "listen",
+    "prompt": "Kapan mereka akan naik taksi?",
+    "script": "Please remember our plan for tomorrow. We will meet at the station at eight, unless it rains. If it rains, we will take a taxi instead. Bring a small bag of snacks in case we get hungry on the way.",
+    "options": [
+      { "id": "A", "text": "If it is sunny" },
+      { "id": "B", "text": "Every morning" },
+      { "id": "C", "text": "At eight in the morning" },
+      { "id": "D", "text": "If it rains" }
+    ],
+    "correct": "D",
+    "explanation": "Pesan itu menyebut 'If it rains, we will take a taxi instead', sehingga taksi dipakai ketika hujan turun."
+  },
+  {
+    "id": "BT026-010",
+    "day": 26,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: until / the bus / arrives / wait / please. Artinya: Tolong tunggu sampai bus datang.",
+    "acceptedAnswers": [
+      "Please wait until the bus arrives"
+    ],
+    "explanation": "Until diletakkan sebelum klausa waktu, dan klausa itu memakai bentuk sekarang untuk menyatakan masa depan."
+  },
+  {
+    "id": "BT027-001",
+    "day": 27,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "If she ___ the bus, she will be late for class.",
+    "options": [
+      { "id": "A", "text": "will miss" },
+      { "id": "B", "text": "missed" },
+      { "id": "C", "text": "misses" },
+      { "id": "D", "text": "would miss" }
+    ],
+    "correct": "C",
+    "explanation": "Conditional tipe 1 memakai if + simple present untuk kemungkinan nyata, jadi klausa if memakai misses. Will miss, missed, dan would miss tidak sesuai pola itu."
+  },
+  {
+    "id": "BT027-002",
+    "day": 27,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "If the house ___ closer to the school, I would walk every day.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "will be" },
+      { "id": "C", "text": "has been" },
+      { "id": "D", "text": "were" }
+    ],
+    "correct": "D",
+    "explanation": "Conditional tipe 2 untuk khayalan memakai if + simple past, dan to be untuk semua subjek menjadi were. Is, will be, dan has been tidak cocok."
+  },
+  {
+    "id": "BT027-003",
+    "day": 27,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a situation that is not real, only imagined'?",
+    "options": [
+      { "id": "A", "text": "hypothetical" },
+      { "id": "B", "text": "realistic" },
+      { "id": "C", "text": "certain" },
+      { "id": "D", "text": "usual" }
+    ],
+    "correct": "A",
+    "explanation": "Hypothetical berarti berdasarkan pengandaian atau khayalan. Realistic berarti realistis, certain berarti pasti, dan usual berarti biasa."
+  },
+  {
+    "id": "BT027-004",
+    "day": 27,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the outcome that happens because of something else'?",
+    "options": [
+      { "id": "A", "text": "wish" },
+      { "id": "B", "text": "result" },
+      { "id": "C", "text": "imagine" },
+      { "id": "D", "text": "possibility" }
+    ],
+    "correct": "B",
+    "explanation": "Result berarti hasil atau akibat dari suatu kondisi atau tindakan. Wish berarti harapan, imagine berarti membayangkan, dan possibility berarti kemungkinan."
+  },
+  {
+    "id": "BT027-005",
+    "day": 27,
+    "type": "translate",
+    "prompt": "Jika kamu tidur cukup malam ini, besok kamu akan merasa segar.",
+    "acceptedAnswers": [
+      "If you sleep enough tonight, you will feel fresh tomorrow.",
+      "If you get enough sleep tonight, you will feel fresh tomorrow."
+    ],
+    "explanation": "Conditional tipe 1 memakai if + simple present, lalu will + kata kerja dasar pada klausa utama."
+  },
+  {
+    "id": "BT027-006",
+    "day": 27,
+    "type": "translate",
+    "prompt": "Seandainya saya tinggal dekat laut, saya akan pergi memancing setiap pagi.",
+    "acceptedAnswers": [
+      "If I lived near the sea, I would go fishing every morning.",
+      "If I lived close to the sea, I would go fishing every morning."
+    ],
+    "explanation": "Conditional tipe 2 untuk khayalan memakai if + simple past, lalu would + kata kerja dasar."
+  },
+  {
+    "id": "BT027-007",
+    "day": 27,
+    "type": "story",
+    "prompt": "Apa yang akan terjadi jika Sari berlatih setiap malam?",
+    "passage": "Sari is a student who loves painting. Next month, there will be a big art competition in her city. If she practices every evening, she will have a good chance to win. She knows that the judges usually choose original ideas. If she had more free time, she would paint a large picture of her village. However, she has to study for her exams, so she draws small sketches instead. Her mother says that if Sari keeps working hard, she will feel proud of herself no matter what the result is.",
+    "options": [
+      { "id": "A", "text": "Dia pasti akan kalah dalam lomba" },
+      { "id": "B", "text": "Dia akan berhenti melukis" },
+      { "id": "C", "text": "Dia tidak akan pernah mengikuti lomba" },
+      { "id": "D", "text": "Dia akan punya peluang bagus untuk menang" }
+    ],
+    "correct": "D",
+    "explanation": "Teks memakai conditional tipe 1: 'If she practices every evening, she will have a good chance to win'."
+  },
+  {
+    "id": "BT027-008",
+    "day": 27,
+    "type": "essay",
+    "prompt": "Bayangkan kamu punya waktu luang satu bulan penuh, lalu ceritakan apa yang akan kamu kerjakan. Gunakan conditional tipe 2 dan satu kalimat tipe 1.",
+    "modelAnswer": "If I had one free month, I would travel to a new island with my best friend. We would swim, take photos, and try local food every day. If the weather is nice, we will go hiking in the mountains. I wish I could learn to surf during that trip. I think it would be the best vacation of my life.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Tipe 2 untuk khayalan memakai would, sedangkan tipe 1 untuk kemungkinan nyata memakai will. Wish dipakai dengan could untuk menyatakan harapan."
+  },
+  {
+    "id": "BT027-009",
+    "day": 27,
+    "type": "listen",
+    "prompt": "Apa yang akan Rudi lakukan jika kereta terlambat besok?",
+    "script": "Hi Ani, this is Rudi. If the train is late tomorrow, I will call you from the station. If I were you, I would bring a book to read while we wait. I wish I could come earlier, but I have to finish my report first.",
+    "options": [
+      { "id": "A", "text": "He will call Ani from the station." },
+      { "id": "B", "text": "He will cancel the trip." },
+      { "id": "C", "text": "He will walk to the office." },
+      { "id": "D", "text": "He will give Ani his report." }
+    ],
+    "correct": "A",
+    "explanation": "Rudi berkata 'I will call you from the station' jika kereta terlambat, yang merupakan conditional tipe 1."
+  },
+  {
+    "id": "BT027-010",
+    "day": 27,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: would / she / plant / more / trees / if / she / had / a / bigger / garden. Artinya: Dia akan menanam lebih banyak pohon jika dia punya kebun yang lebih luas.",
+    "acceptedAnswers": [
+      "She would plant more trees if she had a bigger garden"
+    ],
+    "explanation": "Conditional tipe 2 menaruh would pada klausa utama dan had pada klausa if."
+  },
+  {
+    "id": "BT028-001",
+    "day": 28,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Every morning, my father ___ coffee before he goes to work.",
+    "options": [
+      { "id": "A", "text": "drink" },
+      { "id": "B", "text": "is drinking" },
+      { "id": "C", "text": "drinking" },
+      { "id": "D", "text": "drinks" }
+    ],
+    "correct": "D",
+    "explanation": "Every morning menunjukkan kebiasaan, jadi memakai present simple. Subjek he atau she, he, dan it butuh tambahan -s pada kata kerja, yaitu drinks."
+  },
+  {
+    "id": "BT028-002",
+    "day": 28,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The laptop ___ I bought last month is very fast.",
+    "options": [
+      { "id": "A", "text": "which" },
+      { "id": "B", "text": "who" },
+      { "id": "C", "text": "whom" },
+      { "id": "D", "text": "what" }
+    ],
+    "correct": "A",
+    "explanation": "Which dipakai untuk benda seperti laptop. Who dipakai untuk orang, sedangkan whom dan what tidak tepat di sini."
+  },
+  {
+    "id": "BT028-003",
+    "day": 28,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a person who prepares food in a kitchen'?",
+    "options": [
+      { "id": "A", "text": "teacher" },
+      { "id": "B", "text": "cook" },
+      { "id": "C", "text": "driver" },
+      { "id": "D", "text": "singer" }
+    ],
+    "correct": "B",
+    "explanation": "Cook berarti juru masak, yaitu orang yang menyiapkan makanan di dapur. Teacher, driver, dan singer punya pekerjaan yang berbeda."
+  },
+  {
+    "id": "BT028-004",
+    "day": 28,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "'Cheap' is the reverse of which word?",
+    "options": [
+      { "id": "A", "text": "small" },
+      { "id": "B", "text": "quiet" },
+      { "id": "C", "text": "expensive" },
+      { "id": "D", "text": "heavy" }
+    ],
+    "correct": "C",
+    "explanation": "Expensive berarti mahal, kebalikan dari cheap yang berarti murah. Small, quiet, dan heavy tidak berlawanan dengan cheap."
+  },
+  {
+    "id": "BT028-005",
+    "day": 28,
+    "type": "translate",
+    "prompt": "Ibu saya memasak sup setiap hari Minggu.",
+    "acceptedAnswers": [
+      "My mother cooks soup every Sunday.",
+      "My mom cooks soup every Sunday."
+    ],
+    "explanation": "Kebiasaan dinyatakan dengan present simple, dan kata kerja cooks mendapat -s karena subjeknya orang ketiga tunggal."
+  },
+  {
+    "id": "BT028-006",
+    "day": 28,
+    "type": "translate",
+    "prompt": "Saya belum pernah naik kereta cepat, tetapi saya ingin mencobanya.",
+    "acceptedAnswers": [
+      "I have never ridden a bullet train, but I want to try it.",
+      "I have never ridden a bullet train, but I would like to try it."
+    ],
+    "explanation": "Pengalaman yang belum pernah terjadi memakai never dengan present perfect, yaitu have never ridden."
+  },
+  {
+    "id": "BT028-007",
+    "day": 28,
+    "type": "story",
+    "prompt": "Apa yang akan dilakukan Pak Hadi jika cuaca kering bulan depan?",
+    "passage": "Pak Hadi is a farmer in a small village near the lake. Every morning, he gets up early and feeds his chickens. Last year, he planted rice and corn, and this year the rice is taller than before. The corn was sold quickly at the market because it was fresh and sweet. Pak Hadi has been a farmer for twenty years, and he has never stopped learning. He reads books about modern farming, and he says that good soil is the key. If the weather is dry next month, he will water the fields every evening.",
+    "options": [
+      { "id": "A", "text": "Dia akan menyiram sawah setiap sore" },
+      { "id": "B", "text": "Dia akan menjual semua ayamnya" },
+      { "id": "C", "text": "Dia akan pindah ke kota" },
+      { "id": "D", "text": "Dia akan berhenti menanam padi" }
+    ],
+    "correct": "A",
+    "explanation": "Teks memakai conditional tipe 1: 'If the weather is dry next month, he will water the fields every evening'."
+  },
+  {
+    "id": "BT028-008",
+    "day": 28,
+    "type": "essay",
+    "prompt": "Ceritakan rutinitas harianmu dan satu hal yang sudah pernah kamu lakukan. Gunakan present simple dan present perfect dengan benar.",
+    "modelAnswer": "On weekdays I get up at half past five and drink warm water. I usually study English for thirty minutes before I go to school. I have already read three short books this month. I have never missed my morning practice, so I feel more confident now. Next week, I will try to write a short diary every night.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Present simple dipakai untuk kebiasaan, sedangkan present perfect dipakai untuk pengalaman atau hal yang sudah terjadi sampai sekarang."
+  },
+  {
+    "id": "BT028-009",
+    "day": 28,
+    "type": "listen",
+    "prompt": "Apa yang dikatakan tentang jembatan baru?",
+    "script": "Good afternoon, everyone. The new bridge was opened last Monday. It is longer than the old bridge, and it is safer for cars and bicycles. If you want to see it, you should walk there on Sunday morning.",
+    "options": [
+      { "id": "A", "text": "It was closed last Monday." },
+      { "id": "B", "text": "It is longer and safer than the old one." },
+      { "id": "C", "text": "It is shorter than the old one." },
+      { "id": "D", "text": "It is only for cars." }
+    ],
+    "correct": "B",
+    "explanation": "Pengumuman menyebut jembatan baru lebih panjang dan lebih aman daripada jembatan lama."
+  },
+  {
+    "id": "BT028-010",
+    "day": 28,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: the / exam / was / harder / than / I / expected. Artinya: Ujiannya lebih sulit daripada yang saya perkirakan.",
+    "acceptedAnswers": [
+      "The exam was harder than I expected"
+    ],
+    "explanation": "Pembanding harder memakai -er dan diikuti than sebelum klausa pembanding."
+  },
+  {
+    "id": "BT029-001",
+    "day": 29,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The writer ___ the main idea in the first paragraph yesterday.",
+    "options": [
+      { "id": "A", "text": "explained" },
+      { "id": "B", "text": "explains" },
+      { "id": "C", "text": "is explain" },
+      { "id": "D", "text": "explaining" }
+    ],
+    "correct": "A",
+    "explanation": "Kata keterangan yesterday menunjukkan waktu lampau, sehingga kata kerja memakai simple past, yaitu explained. Explains adalah bentuk sekarang."
+  },
+  {
+    "id": "BT029-002",
+    "day": 29,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Each detail in the text ___ important for the summary.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "be" }
+    ],
+    "correct": "B",
+    "explanation": "Each menunjukkan satuan tunggal, sehingga to be yang dipakai adalah is. Are dan were tidak sesuai dengan subjek tunggal ini."
+  },
+  {
+    "id": "BT029-003",
+    "day": 29,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "What do we call a short block of writing that forms one idea inside a longer text?",
+    "options": [
+      { "id": "A", "text": "headline" },
+      { "id": "B", "text": "dictionary" },
+      { "id": "C", "text": "paragraph" },
+      { "id": "D", "text": "calendar" }
+    ],
+    "correct": "C",
+    "explanation": "Paragraph adalah bagian pendek dari sebuah teks yang berisi satu gagasan utama. Headline, dictionary, dan calendar bukan bagian dari teks panjang."
+  },
+  {
+    "id": "BT029-004",
+    "day": 29,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which noun is a brief version that keeps only the key points?",
+    "options": [
+      { "id": "A", "text": "detail" },
+      { "id": "B", "text": "guess" },
+      { "id": "C", "text": "topic" },
+      { "id": "D", "text": "summary" }
+    ],
+    "correct": "D",
+    "explanation": "Summary adalah ringkasan, yaitu versi pendek yang memuat poin paling penting. Detail berarti rincian, guess berarti menebak, dan topic berarti topik."
+  },
+  {
+    "id": "BT029-005",
+    "day": 29,
+    "type": "translate",
+    "prompt": "Penulis itu menjelaskan cara membaca dengan teliti.",
+    "acceptedAnswers": [
+      "The writer explains how to read carefully.",
+      "The author explains how to read carefully."
+    ],
+    "explanation": "Kata kerja explains berbentuk sekarang karena subjeknya orang ketiga tunggal, sedangkan carefully menerangkan cara membaca."
+  },
+  {
+    "id": "BT029-006",
+    "day": 29,
+    "type": "translate",
+    "prompt": "Saya sudah membaca dua paragraf, tetapi saya belum mengerti tujuan cerita ini.",
+    "acceptedAnswers": [
+      "I have read two paragraphs, but I do not know the point of the story yet.",
+      "I have read two paragraphs, but I have not understood the point of the story yet."
+    ],
+    "explanation": "Sudah dan belum dinyatakan dengan present perfect, misalnya have read dan yet pada kalimat negatif."
+  },
+  {
+    "id": "BT029-007",
+    "day": 29,
+    "type": "story",
+    "prompt": "Apa arti kata 'harvest' menurut teks?",
+    "passage": "Maya went to the library after school because she needed a book for her report. The librarian gave her a short guide about rice farming. Maya read the first paragraph and found the main idea quickly: rice is important for many families in Asia. She also found a detail about how farmers plant seeds. One word was new to her: 'harvest'. She worked out its meaning from a nearby sentence, which said that farmers collect the crops when the rice is ripe. At the end, Maya summarized the guide in two sentences for her report.",
+    "options": [
+      { "id": "A", "text": "Menanam benih di sawah" },
+      { "id": "B", "text": "Mengumpulkan hasil panen" },
+      { "id": "C", "text": "Menjual beras di pasar" },
+      { "id": "D", "text": "Membersihkan sawah setelah hujan" }
+    ],
+    "correct": "B",
+    "explanation": "Kalimat di sekitarnya menyebut petani mengumpulkan tanaman saat padi matang, jadi harvest berarti panen."
+  },
+  {
+    "id": "BT029-008",
+    "day": 29,
+    "type": "essay",
+    "prompt": "Ceritakan cara kamu membaca sebuah teks, misalnya artikel atau cerita pendek. Jelaskan langkah yang kamu ambil untuk memahami isinya, termasuk cara menebak arti kata baru.",
+    "modelAnswer": "When I read an article, I start by checking the heading and predicting what it is about. Next, I go through every paragraph carefully to find its central point. I also note the facts that support that point. If I meet an unfamiliar word, I work out its meaning from the nearby sentences. Finally, I retell the article in one short sentence to test whether I understood it.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Jawaban yang kuat menjelaskan langkah membaca: topik, ide utama, detail, menebak arti kata, dan meringkas."
+  },
+  {
+    "id": "BT029-009",
+    "day": 29,
+    "type": "listen",
+    "prompt": "Apa langkah pertama dalam membuat ringkasan menurut penjelasan itu?",
+    "script": "Today we will talk about how to summarize a text. First, find the topic, and second, state the central point in a single sentence. Finally, leave out the small details.",
+    "options": [
+      { "id": "A", "text": "Write the longest sentence." },
+      { "id": "B", "text": "Read only the last paragraph." },
+      { "id": "C", "text": "Find the topic." },
+      { "id": "D", "text": "Leave out the small details." }
+    ],
+    "correct": "C",
+    "explanation": "Penjelasan menyebut langkah pertama adalah mencari topik, yaitu find the topic."
+  },
+  {
+    "id": "BT029-010",
+    "day": 29,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: the / paragraph / is / about / recycling / plastic / bottles. Artinya: Paragraf ini membahas tentang daur ulang botol plastik.",
+    "acceptedAnswers": [
+      "The paragraph is about recycling plastic bottles"
+    ],
+    "explanation": "Pola about dipakai untuk menyatakan topik atau isi bacaan, diikuti kata kerja bentuk -ing."
+  },
+  {
+    "id": "BT030-001",
+    "day": 30,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Last week, my sister ___ three books in the library.",
+    "options": [
+      { "id": "A", "text": "borrows" },
+      { "id": "B", "text": "borrowed" },
+      { "id": "C", "text": "has borrow" },
+      { "id": "D", "text": "will borrowing" }
+    ],
+    "correct": "B",
+    "explanation": "Last week menunjukkan waktu lampau yang sudah selesai, sehingga memakai simple past borrowed."
+  },
+  {
+    "id": "BT030-002",
+    "day": 30,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The students ___ by their teacher every Friday.",
+    "options": [
+      { "id": "A", "text": "teach" },
+      { "id": "B", "text": "is teaching" },
+      { "id": "C", "text": "are taught" },
+      { "id": "D", "text": "was taught" }
+    ],
+    "correct": "C",
+    "explanation": "Kalimat pasif kebiasaan memakai be sekarang yang sesuai subjek jamak, yaitu are + V3 (taught). Was taught dipakai untuk waktu lampau."
+  },
+  {
+    "id": "BT030-003",
+    "day": 30,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a plan or result that you want to achieve in the future'?",
+    "options": [
+      { "id": "A", "text": "mistake" },
+      { "id": "B", "text": "score" },
+      { "id": "C", "text": "confidence" },
+      { "id": "D", "text": "goal" }
+    ],
+    "correct": "D",
+    "explanation": "Goal berarti tujuan yang ingin dicapai di masa depan. Mistake berarti kesalahan, score berarti nilai, dan confidence berarti rasa percaya diri."
+  },
+  {
+    "id": "BT030-004",
+    "day": 30,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a mark or number that shows how well you did in a test'?",
+    "options": [
+      { "id": "A", "text": "score" },
+      { "id": "B", "text": "review" },
+      { "id": "C", "text": "progress" },
+      { "id": "D", "text": "practice" }
+    ],
+    "correct": "A",
+    "explanation": "Score adalah nilai atau angka yang menunjukkan hasil tes. Review berarti meninjau ulang, progress berarti kemajuan, dan practice berarti latihan."
+  },
+  {
+    "id": "BT030-005",
+    "day": 30,
+    "type": "translate",
+    "prompt": "Sejak awal bulan ini, saya sudah membaca tiga artikel bahasa Inggris.",
+    "acceptedAnswers": [
+      "Since the beginning of this month, I have read three English articles.",
+      "Since the start of this month, I have read three English articles."
+    ],
+    "explanation": "Since menandai titik awal waktu, dan kejadian yang berlanjut sampai sekarang memakai present perfect."
+  },
+  {
+    "id": "BT030-006",
+    "day": 30,
+    "type": "translate",
+    "prompt": "Saya ingin lulus ujian berikutnya dengan nilai yang baik.",
+    "acceptedAnswers": [
+      "I want to pass the next exam with a good score.",
+      "I want to pass my next exam with a good score."
+    ],
+    "explanation": "Want diikuti to + kata kerja dasar, dan score berarti nilai."
+  },
+  {
+    "id": "BT030-007",
+    "day": 30,
+    "type": "story",
+    "prompt": "Apa yang membuat nilai Yoga meningkat?",
+    "passage": "Yoga started studying English three months ago. At first, he made many mistakes in grammar, and he was not confident when he spoke. He wrote a daily journal and practiced for twenty minutes each evening. His teacher said that his writing was better than before. Last week, he took a mini test, and his score was higher than in the first month. He still makes mistakes with the passive form, but he is learning from them. His next goal is to join a speaking club in May.",
+    "options": [
+      { "id": "A", "text": "Dia berhenti belajar selama sebulan" },
+      { "id": "B", "text": "Dia pindah ke sekolah lain" },
+      { "id": "C", "text": "Dia rutin berlatih dan belajar dari kesalahannya" },
+      { "id": "D", "text": "Dia hanya menulis jurnal sekali seminggu" }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut Yoga berlatih 20 menit setiap malam dan belajar dari kesalahannya, sehingga nilainya naik."
+  },
+  {
+    "id": "BT030-008",
+    "day": 30,
+    "type": "essay",
+    "prompt": "Ceritakan perkembangan bahasa Inggrismu selama satu bulan terakhir. Sebutkan satu kemajuan, satu kesalahan yang sering kamu buat, dan satu target untuk bulan depan.",
+    "modelAnswer": "Over the last month, my English has improved a lot, especially in reading. I can now understand short articles more quickly than before. However, I still make mistakes with the passive form, and I often forget the past participle. I have started to review these rules every evening. My goal for next month is to write a short report without any grammar mistakes.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Jawaban yang baik menyebut kemajuan, kesalahan, dan target dengan kalimat yang jelas. Perbandingan seperti more quickly than before juga menambah nilai."
+  },
+  {
+    "id": "BT030-009",
+    "day": 30,
+    "type": "listen",
+    "prompt": "Materi apa yang akan diujikan minggu ini?",
+    "script": "Hello, class. This week's exam will focus on the past simple and the passive voice. Please remember that the scores will be posted by Friday afternoon. If your score is low, you can come to my office and ask for extra practice.",
+    "options": [
+      { "id": "A", "text": "Present perfect and conditionals only." },
+      { "id": "B", "text": "Comparatives and superlatives only." },
+      { "id": "C", "text": "Question words and modals." },
+      { "id": "D", "text": "Past simple and passive voice." }
+    ],
+    "correct": "D",
+    "explanation": "Pengumuman menyebut ujian akan membahas past simple dan passive voice."
+  },
+  {
+    "id": "BT030-010",
+    "day": 30,
+    "type": "reorder",
+    "prompt": "Susun kata-kata ini menjadi kalimat bahasa Inggris yang benar: the / test / will / be / given / on / Monday. Artinya: Tesnya akan diberikan pada hari Senin.",
+    "acceptedAnswers": [
+      "The test will be given on Monday"
+    ],
+    "explanation": "Pasif masa depan memakai will be + V3, yaitu will be given."
+  }
+]

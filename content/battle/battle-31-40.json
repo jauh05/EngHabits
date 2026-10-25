@@ -1,0 +1,1361 @@
+[
+  {
+    "id": "BT031-001",
+    "day": 31,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The engineers who designed the new bridge across the river ___ the final inspection next week.",
+    "options": [
+      { "id": "A", "text": "conducts" },
+      { "id": "B", "text": "conducting" },
+      { "id": "C", "text": "will conduct" },
+      { "id": "D", "text": "to conduct" }
+    ],
+    "correct": "C",
+    "explanation": "Subjek utamanya adalah engineers yang jamak, sedangkan bridge dan river hanya berada di dalam klausa sisipan. Karena itu kata kerja yang tepat adalah will conduct."
+  },
+  {
+    "id": "BT031-002",
+    "day": 31,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The collection of rare coins, along with the old maps in the study, ___ kept in a locked cabinet.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "have been" }
+    ],
+    "correct": "A",
+    "explanation": "Subjek utamanya adalah collection yang tunggal, sedangkan coins dan maps berada di frasa along with. Karena itu gunakan is."
+  },
+  {
+    "id": "BT031-003",
+    "day": 31,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In a sentence, a word or phrase that gives extra detail about another word is called a ___.",
+    "options": [
+      { "id": "A", "text": "object" },
+      { "id": "B", "text": "verb" },
+      { "id": "C", "text": "clause" },
+      { "id": "D", "text": "modifier" }
+    ],
+    "correct": "D",
+    "explanation": "Modifier adalah kata atau frasa penerang yang menambah detail pada kata lain. Object, verb, dan clause memiliki fungsi yang berbeda dalam kalimat."
+  },
+  {
+    "id": "BT031-004",
+    "day": 31,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Before checking agreement, a careful reader should ___ the main verb of each sentence instead of guessing it.",
+    "options": [
+      { "id": "A", "text": "complete" },
+      { "id": "B", "text": "identify" },
+      { "id": "C", "text": "decorate" },
+      { "id": "D", "text": "forget" }
+    ],
+    "correct": "B",
+    "explanation": "Identify berarti mengenali atau menemukan sesuatu. Sebelum mengecek kesesuaian, pembaca perlu menemukan kata kerja utama dengan tepat."
+  },
+  {
+    "id": "BT031-005",
+    "day": 31,
+    "type": "translate",
+    "prompt": "Pelanggan yang baru saja membeli tiket di loket itu meminta pengembalian uang.",
+    "acceptedAnswers": [
+      "The customers who had just bought a ticket at the counter asked for a refund.",
+      "The customers who just bought a ticket at the counter asked for a refund."
+    ],
+    "explanation": "Klausa who had just bought ditempatkan setelah subjek the customers yang jamak, sehingga kata kerja utamanya asked tetap berbentuk lampau."
+  },
+  {
+    "id": "BT031-006",
+    "day": 31,
+    "type": "translate",
+    "prompt": "Laporan keuangan tahunan yang disusun para auditor itu sudah diserahkan kepada direktur.",
+    "acceptedAnswers": [
+      "The annual financial report prepared by the auditors has been submitted to the director.",
+      "The annual financial report that the auditors prepared has been submitted to the director."
+    ],
+    "explanation": "Subjek utamanya report yang tunggal, sehingga memakai has been, meskipun auditors berbentuk jamak di dalam frasa."
+  },
+  {
+    "id": "BT031-007",
+    "day": 31,
+    "type": "story",
+    "passage": "Every Friday, the students who volunteer at the school library gather in the reading room after lunch. The head librarian, a quiet woman who has worked there for fifteen years, prepares a list of books that need repair. Dara, one of the newest volunteers, usually carries the list to the workshop at the back of the building. Her friends, however, prefer to sort the returned books by subject. Last Friday, the group finished both tasks before the bell rang, and the librarian thanked them for their careful work.",
+    "options": [
+      { "id": "A", "text": "Buku-buku yang sudah diurutkan menurut subjek" },
+      { "id": "B", "text": "Daftar buku yang perlu diperbaiki" },
+      { "id": "C", "text": "Kotak makan siang untuk pustakawan" },
+      { "id": "D", "text": "Kursi-kursi untuk ruang baca" }
+    ],
+    "correct": "B",
+    "prompt": "Apa yang biasanya dibawa Dara ke bengkel di bagian belakang gedung?",
+    "explanation": "Bacaan menyebut Dara biasanya membawa daftar buku yang perlu diperbaiki ke bengkel. Teman-temannya yang mengurutkan buku menurut subjek, bukan Dara."
+  },
+  {
+    "id": "BT031-008",
+    "day": 31,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang kegiatan belajarmu bersama teman. Gunakan minimal satu kalimat yang memiliki sisipan antara subjek dan kata kerja utama, lalu pastikan kata kerjanya sesuai dengan subjek.",
+    "modelAnswer": "My study group meets every Thursday evening in the library. The students who prepare the most questions usually lead the discussion. Each member, however, must read the chapter before the meeting starts. When the group finishes its work, we review the grammar points that caused the most confusion. This routine helps us remember the structure of long sentences.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih kalimat dengan sisipan. Subjek utamanya harus dicari sebelum memilih kata kerja."
+  },
+  {
+    "id": "BT031-009",
+    "day": 31,
+    "type": "listen",
+    "script": "The ceremony, which took place in the main hall, honored the teachers who had retired this year. Each of the speakers, along with the principal, thanked the staff for their long service. One of the graduates, a student named Lila, recited a short poem about patience. Everyone in the audience agreed that the event was memorable.",
+    "options": [
+      { "id": "A", "text": "the opening of a new library" },
+      { "id": "B", "text": "the graduation of the principal" },
+      { "id": "C", "text": "a sports competition for students" },
+      { "id": "D", "text": "the retirement of several teachers" }
+    ],
+    "correct": "D",
+    "prompt": "Apa yang dihormati dalam acara tersebut?",
+    "explanation": "Naskah menyebut acara itu menghormati guru-guru yang pensiun tahun ini. Pilihan lain tidak disebutkan dalam naskah."
+  },
+  {
+    "id": "BT031-010",
+    "day": 31,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Pelatih tim, bersama para pemainnya, sedang menonton video pertandingan kemarin.'",
+    "acceptedAnswers": [
+      "The coach along with the players is watching the match video from yesterday"
+    ],
+    "explanation": "Subjek utamanya adalah coach yang tunggal, sehingga kata kerjanya is watching. Frasa along with the players tidak mengubah bentuk kata kerja."
+  },
+
+  {
+    "id": "BT032-001",
+    "day": 32,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The cables beneath the old bridge, which nobody has inspected since 2010, ___ badly corroded.",
+    "options": [
+      { "id": "A", "text": "was" },
+      { "id": "B", "text": "being" },
+      { "id": "C", "text": "are" },
+      { "id": "D", "text": "be" }
+    ],
+    "correct": "C",
+    "explanation": "Subjek utamanya cables yang jamak, sedangkan bridge dan klausa which nobody has inspected berada di antara subjek dan kata kerja. Karena itu gunakan are."
+  },
+  {
+    "id": "BT032-002",
+    "day": 32,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "In addition to the cookies, the bakery ___ a variety of fresh breads every morning.",
+    "options": [
+      { "id": "A", "text": "sell" },
+      { "id": "B", "text": "selling" },
+      { "id": "C", "text": "sells" },
+      { "id": "D", "text": "to sell" }
+    ],
+    "correct": "C",
+    "explanation": "In addition to adalah frasa depan, sehingga cookies bukan subjek. Subjek utamanya bakery yang tunggal, jadi kata kerjanya sells."
+  },
+  {
+    "id": "BT032-003",
+    "day": 32,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The cat slept ___ the wooden table in the kitchen, where the floor was cool.",
+    "options": [
+      { "id": "A", "text": "across" },
+      { "id": "B", "text": "beneath" },
+      { "id": "C", "text": "toward" },
+      { "id": "D", "text": "unlike" }
+    ],
+    "correct": "B",
+    "explanation": "Beneath berarti di bawah, sesuai dengan posisi kucing yang tidur di bawah meja kayu. Across, toward, dan unlike tidak cocok dengan makna kalimat."
+  },
+  {
+    "id": "BT032-004",
+    "day": 32,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "___ the strong wind, the kite stayed in the air for almost an hour.",
+    "options": [
+      { "id": "A", "text": "Despite" },
+      { "id": "B", "text": "Unlike" },
+      { "id": "C", "text": "Among" },
+      { "id": "D", "text": "Around" }
+    ],
+    "correct": "A",
+    "explanation": "Despite berarti meskipun dan diikuti frasa benda. Kalimat ini menyatakan layangan tetap terbang walaupun angin kencang."
+  },
+  {
+    "id": "BT032-005",
+    "day": 32,
+    "type": "translate",
+    "prompt": "Di antara para pendaki, hanya dua orang yang berhasil mencapai puncak.",
+    "acceptedAnswers": [
+      "Among the climbers, only two people managed to reach the summit.",
+      "Only two people among the climbers managed to reach the summit."
+    ],
+    "explanation": "Among adalah kata depan, sehingga climbers bukan subjek. Subjek sebenarnya two people yang jamak, dengan kata kerja managed."
+  },
+  {
+    "id": "BT032-006",
+    "day": 32,
+    "type": "translate",
+    "prompt": "Tidak seperti adiknya yang pendiam, Rita selalu berbicara dengan lantang di depan kelas.",
+    "acceptedAnswers": [
+      "Unlike her quiet younger sibling, Rita always speaks loudly in front of the class.",
+      "Unlike her younger sibling, who is quiet, Rita always speaks loudly in front of the class."
+    ],
+    "explanation": "Unlike adalah kata depan yang berarti tidak seperti, sehingga frasa sesudahnya bukan subjek. Subjek kalimat tetap Rita yang tunggal, sehingga kata kerjanya speaks."
+  },
+  {
+    "id": "BT032-007",
+    "day": 32,
+    "type": "story",
+    "passage": "The hikers started their journey at sunrise. Throughout the morning, they followed a narrow path beside a small river. Beneath the tall pine trees, the air was cool and quiet, but the sun grew brighter near noon. Among the group, Hasan carried the map, while Ayu carried water for everyone. Unlike the others, Hasan did not mind the steep slope toward the summit. By evening, the team reached a wooden cabin within sight of the lake.",
+    "options": [
+      { "id": "A", "text": "Pemilik kabin kayu" },
+      { "id": "B", "text": "Ayu" },
+      { "id": "C", "text": "Seorang pemandu dari desa" },
+      { "id": "D", "text": "Hasan" }
+    ],
+    "correct": "D",
+    "prompt": "Siapa yang membawa peta dalam kelompok pendaki tersebut?",
+    "explanation": "Bacaan menyebut Hasan yang membawa peta, sedangkan Ayu membawa air. Pilihan lain tidak disebut sebagai pembawa peta."
+  },
+  {
+    "id": "BT032-008",
+    "day": 32,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang tempat favoritmu di kota. Gunakan preposisi seperti beside, beneath, throughout, atau despite, dan pastikan kata kerja utama sesuai dengan subjek, bukan dengan kata benda setelah preposisi.",
+    "modelAnswer": "My favorite place in the city is a small park beside the old train station. Throughout the day, families and students sit on the benches under the big trees. Despite the noise from the nearby road, the park feels calm and peaceful. The fountain in the center is surrounded by flowers, and the scent of the flowers drifts toward the benches. Unlike the crowded mall downtown, this park gives me a quiet place to think.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini menguji penggunaan preposisi tanpa salah memilih subjek. Kata benda setelah preposisi tidak menentukan bentuk kata kerja."
+  },
+  {
+    "id": "BT032-009",
+    "day": 32,
+    "type": "listen",
+    "script": "Mr Hadi, along with two volunteers, is checking the boats near the harbor. Beneath the wooden dock, a small group of children is watching the fish. Throughout the morning, the wind has been strong, so the ferry is running late. Among all the workers, only one has finished the safety check.",
+    "options": [
+      { "id": "A", "text": "only one worker" },
+      { "id": "B", "text": "all of the workers" },
+      { "id": "C", "text": "two of the workers" },
+      { "id": "D", "text": "none of the workers" }
+    ],
+    "correct": "A",
+    "prompt": "Berapa banyak pekerja yang sudah menyelesaikan pemeriksaan keselamatan?",
+    "explanation": "Naskah menyebut hanya satu pekerja yang sudah menyelesaikan pemeriksaan keselamatan. Pilihan lain bertentangan dengan naskah."
+  },
+  {
+    "id": "BT032-010",
+    "day": 32,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Di samping jendela, seekor kucing hitam tidur di atas kursi tua.'",
+    "acceptedAnswers": [
+      "A black cat sleeps on the old chair beside the window"
+    ],
+    "explanation": "Subjek a black cat bersifat tunggal, sehingga kata kerjanya sleeps. Frasa beside the window menerangkan letak kursi tua."
+  },
+
+  {
+    "id": "BT033-001",
+    "day": 33,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "A former gymnast from Medan, Sinta ___ the national team since 2019.",
+    "options": [
+      { "id": "A", "text": "have coached" },
+      { "id": "B", "text": "has coached" },
+      { "id": "C", "text": "coaching" },
+      { "id": "D", "text": "to coach" }
+    ],
+    "correct": "B",
+    "explanation": "Frasa A former gymnast from Medan adalah appositive yang menerangkan Sinta. Subjek utamanya Sinta yang tunggal, sehingga memakai has coached."
+  },
+  {
+    "id": "BT033-002",
+    "day": 33,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The Amazon, the largest rainforest in the world, ___ home to thousands of plant species.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "be" },
+      { "id": "C", "text": "is" },
+      { "id": "D", "text": "being" }
+    ],
+    "correct": "C",
+    "explanation": "The Amazon adalah subjek tunggal, sedangkan the largest rainforest in the world hanya appositive yang menerangkan namanya. Karena itu kata kerjanya is."
+  },
+  {
+    "id": "BT033-003",
+    "day": 33,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Her ___ among her classmates was 'Miss Calculator', because she solved every math problem so quickly.",
+    "options": [
+      { "id": "A", "text": "nickname" },
+      { "id": "B", "text": "title" },
+      { "id": "C", "text": "founder" },
+      { "id": "D", "text": "painter" }
+    ],
+    "correct": "A",
+    "explanation": "Nickname adalah nama panggilan yang diberikan teman atau orang lain. Title, founder, dan painter tidak sesuai dengan makna nama panggilan."
+  },
+  {
+    "id": "BT033-004",
+    "day": 33,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "___ of the company is the person who started it and guided its first years.",
+    "options": [
+      { "id": "A", "text": "The engineer" },
+      { "id": "B", "text": "The painter" },
+      { "id": "C", "text": "The founder" },
+      { "id": "D", "text": "The author" }
+    ],
+    "correct": "C",
+    "explanation": "Founder berarti pendiri, yaitu orang yang memulai perusahaan. Engineer, painter, dan author tidak menggambarkan orang yang memulai perusahaan."
+  },
+  {
+    "id": "BT033-005",
+    "day": 33,
+    "type": "translate",
+    "prompt": "Ibu Sari, kepala perpustakaan yang baru, akan mengumumkan jadwal ujian besok.",
+    "acceptedAnswers": [
+      "Mrs Sari, the new head of the library, will announce the exam schedule tomorrow.",
+      "Ms Sari, the new head of the library, will announce the exam schedule tomorrow."
+    ],
+    "explanation": "Frasa the new head of the library adalah appositive yang diapit koma setelah nama Sari. Kata kerja will announce mengikuti subjek Sari."
+  },
+  {
+    "id": "BT033-006",
+    "day": 33,
+    "type": "translate",
+    "prompt": "Rafi, seorang penulis cerita anak, telah menerbitkan lima buku tahun ini.",
+    "acceptedAnswers": [
+      "Rafi, a children's author, has published five books this year.",
+      "Rafi, a writer of children's stories, has published five books this year."
+    ],
+    "explanation": "Frasa a children's author menerangkan Rafi dan diapit koma. Subjek Rafi yang tunggal membuat kata kerjanya has published."
+  },
+  {
+    "id": "BT033-007",
+    "day": 33,
+    "type": "story",
+    "passage": "The Harbor Museum in Ambon opened in 1998. Its founder, Pak Wahyu, was a retired teacher who collected old photographs of the port. Today the museum has a small team of guides. One of them, Lestari, a former history student, explains each exhibit in simple language. The museum's most popular room is dedicated to Rudi Harsono, a painter whose colorful works hang near the entrance. Visitors often say that the building itself, a restored colonial house, feels like a story.",
+    "options": [
+      { "id": "A", "text": "Lukisan modern dari Eropa" },
+      { "id": "B", "text": "Foto-foto lama pelabuhan" },
+      { "id": "C", "text": "Buku-buku sejarah kolonial" },
+      { "id": "D", "text": "Peta laut kuno" }
+    ],
+    "correct": "B",
+    "prompt": "Apa yang dikumpulkan oleh pendiri museum tersebut?",
+    "explanation": "Bacaan menyebut pendiri museum, Pak Wahyu, mengumpulkan foto-foto lama pelabuhan. Pilihan lain tidak disebutkan dalam bacaan."
+  },
+  {
+    "id": "BT033-008",
+    "day": 33,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris untuk memperkenalkan satu tokoh favoritmu. Gunakan minimal satu appositive yang diapit koma dengan benar.",
+    "modelAnswer": "My favorite teacher, Dewi Santoso, has inspired me since my first year in high school. He is a physics teacher who always explains difficult ideas with simple examples. His students, many of whom are now engineers, often return to thank him. Once, he invited us to his small laboratory, a room full of old machines and handmade tools. That visit made me want to become a scientist too.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih penulisan appositive dengan tanda koma yang benar. Kata kerja tetap mengikuti subjek utama kalimat."
+  },
+  {
+    "id": "BT033-009",
+    "day": 33,
+    "type": "listen",
+    "script": "Ms Ratna, the director of the language center, welcomes all new students on Monday. Her assistant, a former teacher from Yogyakarta, will guide them through the library. The center offers classes in English, Japanese, and Arabic. Every student receives a schedule, a map, and a short guide.",
+    "options": [
+      { "id": "A", "text": "the director of the center" },
+      { "id": "B", "text": "a student from Yogyakarta" },
+      { "id": "C", "text": "the head of the library" },
+      { "id": "D", "text": "an assistant who used to be a teacher" }
+    ],
+    "correct": "D",
+    "prompt": "Siapa yang akan memandu mahasiswa baru melewati perpustakaan?",
+    "explanation": "Naskah menyebut asisten Ms Ratna, yang dulu seorang guru, akan memandu mahasiswa baru melewati perpustakaan. Pilihan lain tidak sesuai dengan naskah."
+  },
+  {
+    "id": "BT033-010",
+    "day": 33,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Penyanyi terkenal itu, seorang mantan guru musik, akan tampil di festival kota.'",
+    "acceptedAnswers": [
+      "The famous singer a former music teacher will perform at the city festival"
+    ],
+    "explanation": "Frasa a former music teacher adalah appositive yang menerangkan penyanyi. Kata kerja will perform tetap mengikuti subjek singer yang tunggal."
+  },
+
+  {
+    "id": "BT034-001",
+    "day": 34,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The gift boxes that the volunteers wrapped yesterday, each with a handwritten card, ___ ready for pickup.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "was" },
+      { "id": "C", "text": "are" },
+      { "id": "D", "text": "being" }
+    ],
+    "correct": "C",
+    "explanation": "Subjek utamanya gift boxes yang jamak. Kata each di dalam frasa sisipan tidak menjadi subjek, sehingga kata kerjanya are."
+  },
+  {
+    "id": "BT034-002",
+    "day": 34,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Either the printer in the office or the two scanners beside it ___ broken, so the staff must use the copy room.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "be" },
+      { "id": "D", "text": "being" }
+    ],
+    "correct": "A",
+    "explanation": "Pada pola either dan or, kata kerja mengikuti subjek yang paling dekat, yaitu two scanners yang jamak, sehingga memakai are."
+  },
+  {
+    "id": "BT034-003",
+    "day": 34,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The class was so noisy that ___ could hear the teacher, so she raised her voice.",
+    "options": [
+      { "id": "A", "text": "everyone" },
+      { "id": "B", "text": "everything" },
+      { "id": "C", "text": "each one" },
+      { "id": "D", "text": "no one" }
+    ],
+    "correct": "D",
+    "explanation": "No one berarti tidak seorang pun, sesuai dengan kelas yang sangat ribut sehingga tidak ada yang bisa mendengar guru. Everyone akan berarti semua orang bisa mendengar, sehingga tidak cocok."
+  },
+  {
+    "id": "BT034-004",
+    "day": 34,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Of all the things in the box, ___ was damaged, which surprised the buyer.",
+    "options": [
+      { "id": "A", "text": "Somebody" },
+      { "id": "B", "text": "Everyone" },
+      { "id": "C", "text": "Nothing" },
+      { "id": "D", "text": "Anybody" }
+    ],
+    "correct": "C",
+    "explanation": "Nothing berarti tidak ada apa pun dan dipakai untuk benda. Somebody, everyone, dan anybody merujuk pada orang, sehingga tidak cocok dengan kalimat ini."
+  },
+  {
+    "id": "BT034-005",
+    "day": 34,
+    "type": "translate",
+    "prompt": "Tidak ada seorang pun di rumah itu yang mendengar suara ketukan.",
+    "acceptedAnswers": [
+      "No one in the house heard the knocking.",
+      "Nobody in the house heard the knocking."
+    ],
+    "explanation": "No one dan nobody bersifat tunggal, sehingga kata kerja lampaunya heard tidak berubah. Suara ketukan diterjemahkan sebagai the knocking."
+  },
+  {
+    "id": "BT034-006",
+    "day": 34,
+    "type": "translate",
+    "prompt": "Setiap kotak di gudang itu berisi buku bekas.",
+    "acceptedAnswers": [
+      "Each box in the warehouse contains used books.",
+      "Every box in the warehouse contains used books."
+    ],
+    "explanation": "Each dan every diikuti kata benda tunggal, sehingga kata kerjanya contains, bukan contain."
+  },
+  {
+    "id": "BT034-007",
+    "day": 34,
+    "type": "story",
+    "passage": "Before the field trip, the teachers checked the bus carefully. Each of the drivers had a copy of the route, and neither of the buses had a mechanical problem. Everyone on the list had signed the permission form, but nothing could start until the nurse arrived. When the nurse finally came, somebody noticed that one student had forgotten a water bottle. The group waited patiently, and within ten minutes, everything was ready.",
+    "options": [
+      { "id": "A", "text": "Bus yang rusak belum diperbaiki" },
+      { "id": "B", "text": "Perawat belum datang" },
+      { "id": "C", "text": "Surat izin belum ditandatangani" },
+      { "id": "D", "text": "Sopir belum mengetahui rute" }
+    ],
+    "correct": "B",
+    "prompt": "Mengapa keberangkatan belum bisa dimulai menurut bacaan?",
+    "explanation": "Bacaan menyebut kegiatan tidak bisa dimulai sampai perawat tiba. Bus tidak bermasalah dan surat izin sudah ditandatangani semua siswa."
+  },
+  {
+    "id": "BT034-008",
+    "day": 34,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang aturan di kelasmu. Gunakan minimal satu kata seperti each, everyone, atau nothing sebagai subjek, dan pastikan kata kerjanya sesuai.",
+    "modelAnswer": "In our class, everyone must submit homework before the deadline. Each student is responsible for checking the answers before submitting the paper. Neither the teacher nor the assistant accepts late work without a valid reason. Nothing in the rules is more important than honesty during exams. Somebody who breaks a rule usually receives a warning first, and the teacher explains the reason clearly.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih subjek yang memakai each, everyone, nothing, dan somebody. Setiap subjek tersebut selalu tunggal."
+  },
+  {
+    "id": "BT034-009",
+    "day": 34,
+    "type": "listen",
+    "script": "Every member of the rescue team carries a radio and a small first-aid kit. Either the leader or the medic checks the equipment before each trip. Nothing is left in the truck when the team returns, and everyone signs the logbook.",
+    "options": [
+      { "id": "A", "text": "They leave the radios in the truck." },
+      { "id": "B", "text": "They check the equipment before the trip." },
+      { "id": "C", "text": "They call the leader from the road." },
+      { "id": "D", "text": "They sign the logbook." }
+    ],
+    "correct": "D",
+    "prompt": "Apa yang dilakukan semua anggota tim saat mereka kembali?",
+    "explanation": "Naskah menyebut semua orang menandatangani buku catatan ketika tim kembali. Pilihan lain bertentangan dengan naskah atau terjadi sebelum perjalanan."
+  },
+  {
+    "id": "BT034-010",
+    "day": 34,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Setiap anak di kelas itu membawa bekal sendiri ke sekolah.'",
+    "acceptedAnswers": [
+      "Every child in that class brings a packed lunch to school"
+    ],
+    "explanation": "Every diikuti kata benda tunggal child, sehingga kata kerjanya brings. Bekal diterjemahkan sebagai a packed lunch."
+  },
+
+  {
+    "id": "BT035-001",
+    "day": 35,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "A group of tourists, several of them from Japan, ___ the old fort every morning.",
+    "options": [
+      { "id": "A", "text": "visit" },
+      { "id": "B", "text": "visiting" },
+      { "id": "C", "text": "visits" },
+      { "id": "D", "text": "to visit" }
+    ],
+    "correct": "C",
+    "explanation": "Subjek utamanya group yang tunggal, sedangkan several of them from Japan hanya keterangan tambahan. Karena itu kata kerjanya visits."
+  },
+  {
+    "id": "BT035-002",
+    "day": 35,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Two-thirds of the land near the river ___ flooded during the last storm.",
+    "options": [
+      { "id": "A", "text": "were" },
+      { "id": "B", "text": "have been" },
+      { "id": "C", "text": "being" },
+      { "id": "D", "text": "was" }
+    ],
+    "correct": "D",
+    "explanation": "Pecahan two-thirds yang diikuti kata benda tunggal land membutuhkan kata kerja tunggal. Karena itu bentuk yang tepat adalah was."
+  },
+  {
+    "id": "BT035-003",
+    "day": 35,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The old textbooks took up a sizeable ___ of the shelves in the storage room.",
+    "options": [
+      { "id": "A", "text": "portion" },
+      { "id": "B", "text": "series" },
+      { "id": "C", "text": "variety" },
+      { "id": "D", "text": "numerous" }
+    ],
+    "correct": "A",
+    "explanation": "Portion berarti bagian atau porsi, sesuai dengan buku-buku lama yang menempati sebagian rak. Series, variety, dan numerous tidak cocok di posisi ini."
+  },
+  {
+    "id": "BT035-004",
+    "day": 35,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The town library keeps a growing ___ of handwritten letters from the 1950s.",
+    "options": [
+      { "id": "A", "text": "majority" },
+      { "id": "B", "text": "numerous" },
+      { "id": "C", "text": "percentage" },
+      { "id": "D", "text": "collection" }
+    ],
+    "correct": "D",
+    "explanation": "Collection berarti koleksi, yaitu kumpulan benda sejenis yang disimpan. Majority dan percentage tidak sesuai dengan kumpulan surat, sedangkan numerous adalah kata sifat."
+  },
+  {
+    "id": "BT035-005",
+    "day": 35,
+    "type": "translate",
+    "prompt": "Lebih dari separuh peserta lomba berasal dari luar kota.",
+    "acceptedAnswers": [
+      "More than half of the contestants come from outside the city.",
+      "More than half of the participants come from outside the city."
+    ],
+    "explanation": "Pola more than half of diikuti kata benda jamak, sehingga kata kerjanya come. Peserta lomba dapat diterjemahkan sebagai the contestants atau the participants."
+  },
+  {
+    "id": "BT035-006",
+    "day": 35,
+    "type": "translate",
+    "prompt": "Sebagian besar bahan makanan itu sudah habis dipakai.",
+    "acceptedAnswers": [
+      "Most of the ingredients have already been used up.",
+      "Most of the food ingredients have already been used up."
+    ],
+    "explanation": "Most of diikuti kata benda jamak, sehingga memakai kata kerja jamak have. Bentuk pasif been used up menyatakan bahan yang sudah habis dipakai."
+  },
+  {
+    "id": "BT035-007",
+    "day": 35,
+    "type": "story",
+    "passage": "Last semester, the cafeteria asked students for their opinions about the menu. The majority of students wanted more vegetables, and a number of them asked for cheaper drinks. The number of complaints about the long queues, however, was higher than expected. Several teachers also noticed that one of the lunch counters closed too early. After the survey, the staff decided to open an extra counter and to change two dishes each week.",
+    "options": [
+      { "id": "A", "text": "Harga minuman yang terlalu mahal" },
+      { "id": "B", "text": "Antrean makan yang panjang" },
+      { "id": "C", "text": "Menu yang terlalu banyak sayur" },
+      { "id": "D", "text": "Konter makan yang tutup terlalu cepat" }
+    ],
+    "correct": "B",
+    "prompt": "Keluhan apa yang jumlahnya lebih banyak dari perkiraan?",
+    "explanation": "Bacaan menyebut jumlah keluhan tentang antrean yang panjang lebih tinggi dari perkiraan. Pilihan lain tidak disebut sebagai keluhan dengan jumlah yang lebih tinggi."
+  },
+  {
+    "id": "BT035-008",
+    "day": 35,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang masalah lalu lintas di kotamu. Gunakan frasa one of the atau the number of, dan pastikan kata kerjanya sesuai dengan subjek.",
+    "modelAnswer": "Traffic jams are a common problem in my city. One of the main roads near the market is often blocked every morning. The number of motorbikes on the streets has increased sharply in the last five years. A number of drivers now use side roads to avoid the congestion. The majority of residents believe that the city needs a better bus system.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih perbedaan one of the, the number of, dan a number of. Kata kerja harus mengikuti kata benda yang menentukan bentuk jumlahnya."
+  },
+  {
+    "id": "BT035-009",
+    "day": 35,
+    "type": "listen",
+    "script": "Our library has three reading rooms, and one of them is closed for repairs this week. The number of visitors on weekdays has grown, but a large number of students still prefer the quiet room upstairs. The majority of the librarians, however, believe that the new lamps will help. Only one of the computers on the second floor needs a new battery.",
+    "options": [
+      { "id": "A", "text": "All of them need new batteries." },
+      { "id": "B", "text": "None of them work anymore." },
+      { "id": "C", "text": "Only one of them needs a new battery." },
+      { "id": "D", "text": "They were moved to the basement." }
+    ],
+    "correct": "C",
+    "prompt": "Apa yang dikatakan tentang komputer di lantai dua?",
+    "explanation": "Naskah menyebut hanya satu dari komputer di lantai dua yang membutuhkan baterai baru. Pilihan lain bertentangan dengan naskah."
+  },
+  {
+    "id": "BT035-010",
+    "day": 35,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Jumlah pelamar beasiswa tahun ini sudah dua kali lipat.'",
+    "acceptedAnswers": [
+      "The number of applicants for the scholarship has doubled this year"
+    ],
+    "explanation": "Pola the number of diikuti kata benda jamak, tetapi kata kerjanya tetap tunggal has doubled karena subjek utamanya number."
+  },
+
+  {
+    "id": "BT036-001",
+    "day": 36,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Ahmad and his brother, who ___ the bakery since last spring, plan to open a second branch.",
+    "options": [
+      { "id": "A", "text": "have run" },
+      { "id": "B", "text": "has run" },
+      { "id": "C", "text": "running" },
+      { "id": "D", "text": "to run" }
+    ],
+    "correct": "B",
+    "explanation": "Kata who merujuk pada his brother yang tunggal, sehingga memakai has run. Kata kerja utama plan tetap jamak karena subjeknya Ahmad and his brother."
+  },
+  {
+    "id": "BT036-002",
+    "day": 36,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The cost of the new computers, along with the software licenses, ___ higher than the school budget allowed.",
+    "options": [
+      { "id": "A", "text": "were" },
+      { "id": "B", "text": "have been" },
+      { "id": "C", "text": "being" },
+      { "id": "D", "text": "was" }
+    ],
+    "correct": "D",
+    "explanation": "Subjek utamanya cost yang tunggal, sedangkan computers dan licenses berada dalam frasa along with. Karena itu gunakan was."
+  },
+  {
+    "id": "BT036-003",
+    "day": 36,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The new software can ___ spelling mistakes automatically, so teachers spend less time marking.",
+    "options": [
+      { "id": "A", "text": "detect" },
+      { "id": "B", "text": "decorate" },
+      { "id": "C", "text": "deliver" },
+      { "id": "D", "text": "dissolve" }
+    ],
+    "correct": "A",
+    "explanation": "Detect berarti mendeteksi atau menemukan sesuatu, dalam hal ini kesalahan ejaan. Pilihan lain tidak cocok dengan makna kalimat."
+  },
+  {
+    "id": "BT036-004",
+    "day": 36,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The student wanted the report to be ___, so she checked every date and name twice.",
+    "options": [
+      { "id": "A", "text": "generous" },
+      { "id": "B", "text": "accurate" },
+      { "id": "C", "text": "anxious" },
+      { "id": "D", "text": "fragile" }
+    ],
+    "correct": "B",
+    "explanation": "Accurate berarti akurat atau tepat. Laporan yang setiap tanggal dan namanya diperiksa dua kali harus akurat."
+  },
+  {
+    "id": "BT036-005",
+    "day": 36,
+    "type": "translate",
+    "prompt": "Dia menggunakan kamus setiap kali menemukan kata yang asing.",
+    "acceptedAnswers": [
+      "She uses a dictionary whenever she finds an unfamiliar word.",
+      "She uses a dictionary every time she finds an unfamiliar word."
+    ],
+    "explanation": "Whenever dan every time menyatakan setiap kali suatu kejadian terjadi. Subjek she yang tunggal membuat kata kerjanya uses."
+  },
+  {
+    "id": "BT036-006",
+    "day": 36,
+    "type": "translate",
+    "prompt": "Kedua kepala sekolah itu, bersama wakilnya, telah menandatangani surat keputusan.",
+    "acceptedAnswers": [
+      "Both principals, along with their deputy, have signed the decision letter.",
+      "Both of the principals, along with their deputy, have signed the decision letter."
+    ],
+    "explanation": "Subjek both principals bersifat jamak, sehingga memakai have signed. Frasa along with their deputy hanya memberi keterangan tambahan."
+  },
+  {
+    "id": "BT036-007",
+    "day": 36,
+    "type": "story",
+    "passage": "The editors of the school magazine met on Tuesday to review the articles. Each of the writers had submitted a draft, but several of the drafts still contained errors. Ayu, one of the editors, found that the number of spelling mistakes was higher in the sports section. Nobody in the group wanted to delay the printing, so they divided the work carefully. By Thursday, the team had corrected every article, and the magazine was ready for printing.",
+    "options": [
+      { "id": "A", "text": "Bagian puisi" },
+      { "id": "B", "text": "Bagian berita sekolah" },
+      { "id": "C", "text": "Bagian wawancara" },
+      { "id": "D", "text": "Bagian olahraga" }
+    ],
+    "correct": "D",
+    "prompt": "Di bagian mana jumlah kesalahan ejaan lebih tinggi?",
+    "explanation": "Bacaan menyebut jumlah kesalahan ejaan lebih tinggi di bagian olahraga. Tiga bagian lain tidak disebut sebagai bagian dengan kesalahan terbanyak."
+  },
+  {
+    "id": "BT036-008",
+    "day": 36,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang kesalahan yang sering kamu temukan saat menulis. Jelaskan minimal satu kesalahan kesesuaian subjek dan kata kerja, lalu tulis perbaikannya.",
+    "modelAnswer": "A common mistake in my writing is the wrong agreement between the subject and the verb. For example, I once wrote 'The schedule of the classes are full', but the correct form is 'The schedule of the classes is full'. The noun schedule is the subject, so it needs a singular verb. Another mistake happens when a phrase such as along with appears in the middle of a sentence. I now check the main subject before I choose the verb, and this habit has improved my writing.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini meminta contoh kesalahan kesesuaian subjek dan kata kerja beserta perbaikannya. Kata kerja harus mengikuti subjek utama, bukan kata benda di dalam frasa."
+  },
+  {
+    "id": "BT036-009",
+    "day": 36,
+    "type": "listen",
+    "script": "Nadia asks Raka to check her essay before she submits it. Raka says the sentence 'The results of the survey was clear' is wrong, because results is plural and needs the verb were. He also notices that nobody in her group has checked the final draft yet.",
+    "options": [
+      { "id": "A", "text": "The word results should be singular." },
+      { "id": "B", "text": "The essay is missing a conclusion." },
+      { "id": "C", "text": "The verb should be were instead of was." },
+      { "id": "D", "text": "The title of the essay is too long." }
+    ],
+    "correct": "C",
+    "prompt": "Apa kesalahan yang ditunjukkan Raka dalam esai Nadia?",
+    "explanation": "Raka menunjukkan bahwa results berbentuk jamak, sehingga kata kerjanya harus were, bukan was. Pilihan lain tidak disebut dalam naskah."
+  },
+  {
+    "id": "BT036-010",
+    "day": 36,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Semua laporan keuangan di meja itu harus diperiksa ulang hari ini.'",
+    "acceptedAnswers": [
+      "All the financial reports on the desk must be checked again today"
+    ],
+    "explanation": "All diikuti kata benda jamak reports, sehingga kata kerja pasifnya memakai must be checked. Kata again menunjukkan pemeriksaan ulang."
+  },
+
+  {
+    "id": "BT037-001",
+    "day": 37,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The coach, together with the two assistants who travel with the team, ___ the training schedule for next season.",
+    "options": [
+      { "id": "A", "text": "written" },
+      { "id": "B", "text": "has written" },
+      { "id": "C", "text": "have written" },
+      { "id": "D", "text": "writing" }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utamanya coach yang tunggal, sedangkan the two assistants berada dalam frasa sisipan. Karena itu gunakan has written."
+  },
+  {
+    "id": "BT037-002",
+    "day": 37,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The principal, a former physicist with a passion for teaching, ___ three new courses every spring.",
+    "options": [
+      { "id": "A", "text": "approved" },
+      { "id": "B", "text": "approve" },
+      { "id": "C", "text": "approving" },
+      { "id": "D", "text": "approves" }
+    ],
+    "correct": "D",
+    "explanation": "Subjek utamanya principal yang tunggal, sehingga kata kerjanya approves. Bentuk approved menunjukkan waktu lampau, yang tidak sesuai dengan every spring."
+  },
+  {
+    "id": "BT037-003",
+    "day": 37,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Before submitting the test, Ria will ___ each answer to make sure no word is missing.",
+    "options": [
+      { "id": "A", "text": "celebrate" },
+      { "id": "B", "text": "invite" },
+      { "id": "C", "text": "check" },
+      { "id": "D", "text": "carry" }
+    ],
+    "correct": "C",
+    "explanation": "Check berarti memeriksa, sesuai dengan kebiasaan memastikan tidak ada kata yang tertinggal. Pilihan lain tidak cocok dengan makna kalimat."
+  },
+  {
+    "id": "BT037-004",
+    "day": 37,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A ___ is a noun phrase placed beside another noun to identify it or add information about it.",
+    "options": [
+      { "id": "A", "text": "subject" },
+      { "id": "B", "text": "appositive" },
+      { "id": "C", "text": "majority" },
+      { "id": "D", "text": "structure" }
+    ],
+    "correct": "B",
+    "explanation": "Appositive adalah keterangan tambahan yang berdampingan dengan kata benda dan menjelaskannya. Subject, majority, dan structure tidak memiliki makna itu."
+  },
+  {
+    "id": "BT037-005",
+    "day": 37,
+    "type": "translate",
+    "prompt": "Setiap guru di sekolah ini memakai aplikasi baru untuk menilai tugas.",
+    "acceptedAnswers": [
+      "Every teacher at this school uses a new application to grade assignments.",
+      "Every teacher in this school uses a new app to grade assignments."
+    ],
+    "explanation": "Every diikuti kata benda tunggal teacher, sehingga kata kerjanya uses. Frasa untuk menilai tugas diterjemahkan sebagai to grade assignments."
+  },
+  {
+    "id": "BT037-006",
+    "day": 37,
+    "type": "translate",
+    "prompt": "Sebagian besar siswa kelas dua sudah lulus ujian bahasa Inggris.",
+    "acceptedAnswers": [
+      "Most of the second-year students have passed the English exam.",
+      "The majority of the second-year students have passed the English exam."
+    ],
+    "explanation": "Kata benda setelah most of atau the majority of berbentuk jamak, sehingga memakai have passed. Sebagian besar diterjemahkan sebagai most of atau the majority of."
+  },
+  {
+    "id": "BT037-007",
+    "day": 37,
+    "type": "story",
+    "passage": "Sinta had a tutoring session every Wednesday afternoon. Her tutor, a patient man who had studied linguistics abroad, asked her to read a long sentence aloud. The sentence was about a bridge that connected two villages, and the tutor asked her to find the subject first. Sinta answered quickly, but she missed the main verb. Her tutor smiled and explained that the verb had to match the subject, not the nearest noun. By the end of the hour, Sinta could identify the structure of almost every sentence on the page.",
+    "options": [
+      { "id": "A", "text": "Kata kerja harus sesuai dengan subjek, bukan kata benda terdekat" },
+      { "id": "B", "text": "Kata kerja selalu harus berbentuk jamak" },
+      { "id": "C", "text": "Subjek selalu berada di akhir kalimat" },
+      { "id": "D", "text": "Kata sifat bisa menggantikan kata kerja" }
+    ],
+    "correct": "A",
+    "prompt": "Apa yang dijelaskan tutor agar Sinta tidak keliru memilih kata kerja?",
+    "explanation": "Tutor menjelaskan bahwa kata kerja harus cocok dengan subjek, bukan dengan kata benda yang paling dekat. Pilihan lain tidak sesuai dengan bacaan."
+  },
+  {
+    "id": "BT037-008",
+    "day": 37,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris yang merangkum apa yang kamu pelajari minggu ini tentang subjek, kata kerja, dan appositive. Gunakan satu contoh kalimat dengan appositive.",
+    "modelAnswer": "This week I reviewed how to find the subject and the main verb in long sentences. The subject is never inside a prepositional phrase, so I ignore words after of, beside, or along with. Appositives give extra information about a noun, and they are placed between commas, as in 'Hana, a nurse at the clinic, works every weekend.' Finally, I learned that words such as each, neither, and one of usually decide whether the verb is singular or plural. Practicing these rules daily makes long sentences much easier to read.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini meminta rangkuman materi minggu kelima beserta contoh appositive. Setiap kalimat harus menunjukkan pemahaman tentang subjek dan kata kerja."
+  },
+  {
+    "id": "BT037-009",
+    "day": 37,
+    "type": "listen",
+    "script": "A tutor tells a student that the appositive, a painter from Ubud, does not change the main verb. The subject is still the founder, so the verb must be singular. Each of the paintings in the hall, however, was chosen by the students.",
+    "options": [
+      { "id": "A", "text": "It changes the main verb into a plural form." },
+      { "id": "B", "text": "It becomes the main subject of the sentence." },
+      { "id": "C", "text": "It does not change the main verb." },
+      { "id": "D", "text": "It must always come at the end of a sentence." }
+    ],
+    "correct": "C",
+    "prompt": "Apa yang dijelaskan tutor tentang appositive dalam kalimat tersebut?",
+    "explanation": "Naskah menjelaskan bahwa appositive a painter from Ubud tidak mengubah kata kerja utama, karena subjeknya tetap the founder. Pilihan lain bertentangan dengan penjelasan itu."
+  },
+  {
+    "id": "BT037-010",
+    "day": 37,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Kepala desa, seorang petani muda, membuka pasar baru di alun-alun.'",
+    "acceptedAnswers": [
+      "The village head a young farmer opens a new market in the town square"
+    ],
+    "explanation": "Frasa a young farmer adalah appositive yang menerangkan kepala desa. Subjek village head yang tunggal membuat kata kerjanya opens."
+  },
+
+  {
+    "id": "BT038-001",
+    "day": 38,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The printer ran out of ink halfway through the job, ___ the staff finished the copies by hand.",
+    "options": [
+      { "id": "A", "text": "so" },
+      { "id": "B", "text": "however" },
+      { "id": "C", "text": "although" },
+      { "id": "D", "text": "because" }
+    ],
+    "correct": "A",
+    "explanation": "Setelah koma, penghubung setara so menyatakan akibat. Karena tinta habis, staf akhirnya menyelesaikan salinan dengan tangan."
+  },
+  {
+    "id": "BT038-002",
+    "day": 38,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The bridge was under repair; ___, the buses took a longer route through the hills.",
+    "options": [
+      { "id": "A", "text": "However" },
+      { "id": "B", "text": "Nevertheless" },
+      { "id": "C", "text": "Consequently" },
+      { "id": "D", "text": "Otherwise" }
+    ],
+    "correct": "C",
+    "explanation": "Perbaikan jembatan menyebabkan bus memakai rute lebih panjang, sehingga penanda akibat consequently tepat. However dan nevertheless menyatakan kontras, sehingga tidak sesuai dengan hubungan ini."
+  },
+  {
+    "id": "BT038-003",
+    "day": 38,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The manager's plan was ___, because it lowered costs and improved safety at the same time.",
+    "options": [
+      { "id": "A", "text": "furious" },
+      { "id": "B", "text": "efficient" },
+      { "id": "C", "text": "fragile" },
+      { "id": "D", "text": "foolish" }
+    ],
+    "correct": "B",
+    "explanation": "Efficient berarti efisien, yaitu menghasilkan hasil baik dengan usaha atau biaya kecil. Furious, fragile, dan foolish tidak menggambarkan rencana yang menurunkan biaya."
+  },
+  {
+    "id": "BT038-004",
+    "day": 38,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Most staff members ___ the new policy because they felt it treated them unfairly.",
+    "options": [
+      { "id": "A", "text": "offered" },
+      { "id": "B", "text": "observed" },
+      { "id": "C", "text": "opposed" },
+      { "id": "D", "text": "obtained" }
+    ],
+    "correct": "C",
+    "explanation": "Opposed berarti menentang. Karena staf merasa diperlakukan tidak adil, kata kerja yang tepat adalah opposed."
+  },
+  {
+    "id": "BT038-005",
+    "day": 38,
+    "type": "translate",
+    "prompt": "Selain itu, kantor ini dekat dengan stasiun dan pasar.",
+    "acceptedAnswers": [
+      "Furthermore, the office is close to the station and the market.",
+      "Moreover, the office is close to the station and the market."
+    ],
+    "explanation": "Furthermore dan moreover menambahkan informasi yang sejalan dengan kalimat sebelumnya. Kata kerja is mengikuti subjek the office yang tunggal."
+  },
+  {
+    "id": "BT038-006",
+    "day": 38,
+    "type": "translate",
+    "prompt": "Oleh karena itu, mereka memutuskan untuk menunda rapat sampai minggu depan.",
+    "acceptedAnswers": [
+      "Consequently, they decided to postpone the meeting until next week.",
+      "Therefore, they decided to postpone the meeting until next week."
+    ],
+    "explanation": "Consequently dan therefore menyatakan akibat dari keadaan sebelumnya. Subjek they yang jamak diikuti kata kerja decided dalam bentuk lampau."
+  },
+  {
+    "id": "BT038-007",
+    "day": 38,
+    "type": "story",
+    "passage": "The community garden had struggled for two years. Every Saturday, the members met near the old well to discuss what had gone wrong. Moreover, the soil near the fence was poor, and the water pump often broke down. However, the volunteers refused to give up. Therefore, they tested three kinds of compost and recorded the results carefully. Consequently, the vegetables grew faster than before, and the neighbors began to join the weekend work days.",
+    "options": [
+      { "id": "A", "text": "Pompa air dijual kepada tetangga" },
+      { "id": "B", "text": "Sayuran tumbuh lebih cepat dari sebelumnya" },
+      { "id": "C", "text": "Kebun ditutup untuk umum" },
+      { "id": "D", "text": "Tetangga berhenti datang ke kebun" }
+    ],
+    "correct": "B",
+    "prompt": "Apa akibat dari pengujian tiga jenis kompos oleh para sukarelawan?",
+    "explanation": "Bacaan menyebut sayuran tumbuh lebih cepat setelah sukarelawan menguji tiga jenis kompos. Pilihan lain tidak disebutkan dalam bacaan."
+  },
+  {
+    "id": "BT038-008",
+    "day": 38,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang proyek kelompokmu. Gunakan minimal tiga penghubung seperti furthermore, however, atau therefore, dan pastikan setiap penghubung dipakai di tempat yang tepat.",
+    "modelAnswer": "Our group project began with a simple plan to clean the school garden. However, the first week was difficult because it rained almost every day. Therefore, we changed the schedule and worked on the plants indoors. Furthermore, each member agreed to write a short report after every meeting. Consequently, the project finished on time, and the teacher praised our teamwork.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih penghubung antarkalimat untuk tambahan, kontras, dan akibat. Setiap penanda harus sesuai dengan hubungan antara dua kalimat."
+  },
+  {
+    "id": "BT038-009",
+    "day": 38,
+    "type": "listen",
+    "script": "The bus to the museum leaves every twenty minutes. However, the last bus of the day leaves at six. Therefore, we should reach the stop before five thirty. Furthermore, the ticket counter closes early on Saturdays.",
+    "options": [
+      { "id": "A", "text": "Because the taxi is cheaper." },
+      { "id": "B", "text": "Because the museum opens late." },
+      { "id": "C", "text": "Because the bus leaves every hour." },
+      { "id": "D", "text": "Because the last bus leaves at six." }
+    ],
+    "correct": "D",
+    "prompt": "Mengapa kelompok harus tiba di halte sebelum pukul 17.30?",
+    "explanation": "Naskah menyebut bus terakhir berangkat pukul enam, sehingga kelompok harus tiba lebih awal di halte. Pilihan lain tidak disebut sebagai alasan."
+  },
+  {
+    "id": "BT038-010",
+    "day": 38,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Hujan turun deras sehingga jalan utama tergenang.'",
+    "acceptedAnswers": [
+      "The rain fell heavily so the main road was flooded"
+    ],
+    "explanation": "Penghubung setara so menyatakan akibat dari hujan deras. Kata kerja was flooded mengikuti subjek the main road yang tunggal."
+  },
+
+  {
+    "id": "BT039-001",
+    "day": 39,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Alya always calls her grandmother ___ she finishes her homework.",
+    "options": [
+      { "id": "A", "text": "so that" },
+      { "id": "B", "text": "whenever" },
+      { "id": "C", "text": "in order to" },
+      { "id": "D", "text": "unless" }
+    ],
+    "correct": "B",
+    "explanation": "Whenever berarti setiap kali dan cocok dengan kebiasaan yang diulang oleh always. So that dan in order to menyatakan tujuan, sedangkan unless berarti kecuali."
+  },
+  {
+    "id": "BT039-002",
+    "day": 39,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "We will bring extra water ___ the hikers can stay on the trail longer.",
+    "options": [
+      { "id": "A", "text": "unless" },
+      { "id": "B", "text": "provided" },
+      { "id": "C", "text": "so that" },
+      { "id": "D", "text": "whether" }
+    ],
+    "correct": "C",
+    "explanation": "So that menyatakan tujuan, yaitu agar pendaki dapat tetap berada di jalur lebih lama. Unless, provided, dan whether tidak menunjukkan tujuan dalam kalimat ini."
+  },
+  {
+    "id": "BT039-003",
+    "day": 39,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The guide asked the group to ___ their voices so the birds would not be disturbed.",
+    "options": [
+      { "id": "A", "text": "widen" },
+      { "id": "B", "text": "stretch" },
+      { "id": "C", "text": "lower" },
+      { "id": "D", "text": "fold" }
+    ],
+    "correct": "C",
+    "explanation": "Lower berarti menurunkan, sesuai dengan permintaan agar suara dikecilkan dan burung tidak terganggu. Widen, stretch, dan fold tidak cocok dengan makna itu."
+  },
+  {
+    "id": "BT039-004",
+    "day": 39,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The bakery will ___ its prices next month because the cost of flour has increased.",
+    "options": [
+      { "id": "A", "text": "erase" },
+      { "id": "B", "text": "raise" },
+      { "id": "C", "text": "spray" },
+      { "id": "D", "text": "collect" }
+    ],
+    "correct": "B",
+    "explanation": "Raise berarti menaikkan, yang sesuai dengan harga yang naik karena biaya tepung meningkat. Erase, spray, dan collect tidak cocok dengan makna kalimat."
+  },
+  {
+    "id": "BT039-005",
+    "day": 39,
+    "type": "translate",
+    "prompt": "Kami akan mengirim pesan begitu hasil ujian keluar.",
+    "acceptedAnswers": [
+      "We will send the message as soon as the exam results are released.",
+      "We will send a message as soon as the exam results are released."
+    ],
+    "explanation": "Anak kalimat waktu memakai as soon as dengan kata kerja bentuk sekarang are released, sedangkan kalimat utama memakai will send."
+  },
+  {
+    "id": "BT039-006",
+    "day": 39,
+    "type": "translate",
+    "prompt": "Dia akan menunggu di sini sampai hujan berhenti.",
+    "acceptedAnswers": [
+      "She will wait here until the rain stops.",
+      "She will wait here until the rain has stopped."
+    ],
+    "explanation": "Sampai menyatakan batas waktu sehingga dipakai until. Subjek she yang tunggal, dan kedua bentuk stops maupun has stopped dapat diterima."
+  },
+  {
+    "id": "BT039-007",
+    "day": 39,
+    "type": "story",
+    "passage": "Dina works at a small bakery on the corner of Pasar Street. She arrives before sunrise, so she can prepare the dough while the streets are still quiet. Whenever the oven needs more wood, she asks her cousin to bring it from the storage room. As soon as the first batch of bread is ready, Dina packs it into paper bags so that customers can take it home warm. On rainy days, the shop still opens at six, and Dina says she loves the work because she can see the happy faces of people at breakfast.",
+    "options": [
+      { "id": "A", "text": "Ia membuka toko setelah pukul enam" },
+      { "id": "B", "text": "Ia menyiapkan adonan pada malam hari" },
+      { "id": "C", "text": "Ia meminta sepupunya membawa kayu bakar" },
+      { "id": "D", "text": "Ia mengemas roti ke dalam kantong kertas" }
+    ],
+    "correct": "D",
+    "prompt": "Apa yang dilakukan Dina setelah roti pertama matang?",
+    "explanation": "Bacaan menyebut setelah roti pertama matang, Dina mengemasnya ke dalam kantong kertas. Pilihan lain adalah kegiatan yang tidak terkait waktu itu."
+  },
+  {
+    "id": "BT039-008",
+    "day": 39,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang rencana belajarmu minggu depan. Gunakan minimal dua anak kalimat keterangan, misalnya whenever, as soon as, provided, atau so that.",
+    "modelAnswer": "Next week, I will study English every evening so that I can improve my writing. Whenever I finish my classes, I will review the sentences from my notes. As soon as I understand a rule, I will write three examples of my own. I will ask my friend to check my essay, provided that she has enough time. By the time the week ends, I hope to feel more confident with long sentences.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih anak kalimat keterangan waktu, syarat, dan tujuan. Setiap anak kalimat harus diletakkan dengan tanda koma yang tepat bila berada di awal kalimat."
+  },
+  {
+    "id": "BT039-009",
+    "day": 39,
+    "type": "listen",
+    "script": "The boat will leave the harbor as soon as the weather improves. Passengers must wear life jackets, whether the sea is calm or rough. The crew will check the engine so that the trip is safe for everyone.",
+    "options": [
+      { "id": "A", "text": "As soon as the weather improves." },
+      { "id": "B", "text": "Only after the passengers arrive." },
+      { "id": "C", "text": "Whenever the captain decides." },
+      { "id": "D", "text": "Before the crew checks the engine." }
+    ],
+    "correct": "A",
+    "prompt": "Kapan kapal akan berangkat?",
+    "explanation": "Naskah menyebut kapal akan berangkat segera setelah cuaca membaik. Pilihan lain tidak sesuai dengan naskah."
+  },
+  {
+    "id": "BT039-010",
+    "day": 39,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Kami akan menunggu di pos jaga sampai petugas datang.'",
+    "acceptedAnswers": [
+      "We will wait at the guard post until the officer arrives"
+    ],
+    "explanation": "Until menyatakan batas waktu menunggu. Dalam anak kalimat waktu ini, kata kerja arrives memakai bentuk sekarang."
+  },
+
+  {
+    "id": "BT040-001",
+    "day": 40,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ the forecast predicted rain, the organizers decided to hold the picnic outdoors.",
+    "options": [
+      { "id": "A", "text": "Despite" },
+      { "id": "B", "text": "Even though" },
+      { "id": "C", "text": "Regardless" },
+      { "id": "D", "text": "Whichever" }
+    ],
+    "correct": "B",
+    "explanation": "Even though diikuti klausa lengkap yang terdiri dari subjek dan kata kerja. Despite dan regardless memerlukan frasa benda, bukan klausa."
+  },
+  {
+    "id": "BT040-002",
+    "day": 40,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ wants to join the club must submit a short application before Friday.",
+    "options": [
+      { "id": "A", "text": "Whoever" },
+      { "id": "B", "text": "Whichever" },
+      { "id": "C", "text": "Whatever" },
+      { "id": "D", "text": "Wherever" }
+    ],
+    "correct": "A",
+    "explanation": "Whoever dipakai untuk orang dan berfungsi sebagai subjek klausa. Whichever dan whatever dipakai untuk benda atau pilihan, sedangkan wherever menunjuk tempat."
+  },
+  {
+    "id": "BT040-003",
+    "day": 40,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Please choose ___ option works best for your schedule.",
+    "options": [
+      { "id": "A", "text": "whenever" },
+      { "id": "B", "text": "wherever" },
+      { "id": "C", "text": "whichever" },
+      { "id": "D", "text": "however" }
+    ],
+    "correct": "C",
+    "explanation": "Whichever berarti yang mana pun, sesuai dengan pilihan dari beberapa opsi. Whenever, wherever, dan however tidak cocok dengan makna ini."
+  },
+  {
+    "id": "BT040-004",
+    "day": 40,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Most of the team wanted to stay late. ___, Rafi insisted on going home at five.",
+    "options": [
+      { "id": "A", "text": "Thereafter" },
+      { "id": "B", "text": "Likewise" },
+      { "id": "C", "text": "Furthermore" },
+      { "id": "D", "text": "Nonetheless" }
+    ],
+    "correct": "D",
+    "explanation": "Nonetheless berarti meskipun begitu, yang menunjukkan kontras dengan keinginan mayoritas tim. Thereafter, likewise, dan furthermore tidak menyatakan kontras."
+  },
+  {
+    "id": "BT040-005",
+    "day": 40,
+    "type": "translate",
+    "prompt": "Meskipun cuacanya dingin, anak-anak tetap bermain di lapangan.",
+    "acceptedAnswers": [
+      "Even though the weather is cold, the children still play on the field.",
+      "Although the weather is cold, the children still play on the field."
+    ],
+    "explanation": "Meskipun menyatakan pertentangan dan diikuti klausa lengkap. Subjek the children yang jamak membuat kata kerjanya play."
+  },
+  {
+    "id": "BT040-006",
+    "day": 40,
+    "type": "translate",
+    "prompt": "Apa pun pendapat mereka, keputusan itu sudah final.",
+    "acceptedAnswers": [
+      "Whatever their opinion is, the decision is final.",
+      "Whatever they think, the decision is final."
+    ],
+    "explanation": "Whatever dipakai untuk menyatakan bahwa hasilnya sama apa pun isi pendapatnya. Subjek the decision yang tunggal membuat kata kerjanya is."
+  },
+  {
+    "id": "BT040-007",
+    "day": 40,
+    "type": "story",
+    "passage": "Two engineers, Pak Arif and Ibu Ratna, disagreed about the design of a new footbridge. Although Pak Arif believed the plan was safe, Ibu Ratna worried about the strong winds in the valley. Nonetheless, both agreed to build a small model first. Whereas Arif wanted to use steel, Ratna preferred a lighter material. The model made from steel survived every test, while the lighter one bent badly after only two days. Even so, Ratna admitted that the steel model was heavier and more expensive.",
+    "options": [
+      { "id": "A", "text": "Karena angin kencang di lembah" },
+      { "id": "B", "text": "Karena jembatannya tidak diberi pagar pengaman" },
+      { "id": "C", "text": "Karena jembatannya terlalu pendek" },
+      { "id": "D", "text": "Karena Pak Arif menolak membuat model" }
+    ],
+    "correct": "A",
+    "prompt": "Mengapa Ibu Ratna khawatir tentang desain jembatan?",
+    "explanation": "Bacaan menyebut Ibu Ratna khawatir karena angin kencang di lembah. Pilihan lain tidak disebut sebagai kekhawatirannya."
+  },
+  {
+    "id": "BT040-008",
+    "day": 40,
+    "type": "essay",
+    "prompt": "Tulis paragraf 4-5 kalimat bahasa Inggris tentang pendapatmu mengenai kebiasaan membaca. Gunakan minimal dua penanda kontras, misalnya although, nonetheless, atau conversely.",
+    "modelAnswer": "Many people believe that reading on screens is harmful, but I disagree. Although screens can distract readers, they also give access to many useful articles. Nonetheless, the habit of reading slowly with a printed book still has clear benefits. Conversely, some learners find that digital dictionaries help them understand difficult words more quickly. Whatever method people choose, the most important thing is to read regularly.",
+    "rubric": [
+      { "criterion": "Isi dan ide" },
+      { "criterion": "Tata bahasa" },
+      { "criterion": "Kosakata dan kelancaran" }
+    ],
+    "explanation": "Esai ini melatih penanda kontras dan konsesi dalam argumen. Setiap penanda harus menunjukkan hubungan pertentangan yang tepat."
+  },
+  {
+    "id": "BT040-009",
+    "day": 40,
+    "type": "listen",
+    "script": "Although the bus was late, the students arrived on time for the field trip. Whatever the reason for the delay, the teacher decided to start the tour without waiting for the rest of the group. Nonetheless, one student, Fajar, kept asking when the museum would open.",
+    "options": [
+      { "id": "A", "text": "He wanted to eat lunch first." },
+      { "id": "B", "text": "He was afraid of the bus." },
+      { "id": "C", "text": "He wanted to know when the museum would open." },
+      { "id": "D", "text": "He had forgotten his ticket." }
+    ],
+    "correct": "C",
+    "prompt": "Apa yang membuat Fajar terus bertanya?",
+    "explanation": "Naskah menyebut Fajar terus bertanya kapan museum akan dibuka. Tiga pilihan lain tidak disebutkan dalam naskah."
+  },
+  {
+    "id": "BT040-010",
+    "day": 40,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris yang artinya: 'Terlepas dari harga tiketnya, konser itu tetap penuh.'",
+    "acceptedAnswers": [
+      "Regardless of the ticket price the concert was still full"
+    ],
+    "explanation": "Regardless of diikuti frasa benda, lalu klausa utama memakai subjek the concert yang tunggal dengan kata kerja was."
+  }
+]

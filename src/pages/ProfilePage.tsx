@@ -11,6 +11,7 @@ import { resetProgress, type BackupData, type Settings } from '../lib/db';
 import { localISO } from '../lib/dates';
 import { hasEnglishVoice, speak, subscribeVoices, ttsSupported } from '../lib/tts';
 import { logoutAccount } from '../lib/auth';
+import { regeneratePublicId } from '../lib/battle';
 import { useSettings } from '../lib/settings';
 import { REMINDER_HOUR } from '../components/layout/ReminderWatcher';
 
@@ -109,6 +110,17 @@ function describeBackup(data: BackupData): string {
 export function ProfilePage() {
   const { settings, update } = useSettings();
   const { show } = useToast();
+
+  const regenerateId = async () => {
+    if (!settings.token || !settings.account) return;
+    try {
+      const { account } = await regeneratePublicId(settings.token);
+      update({ account: { ...settings.account, publicId: account.publicId, canChangePublicId: false } });
+      show('ID battle sudah diganti.', 'success');
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'ID tidak bisa diganti.', 'error');
+    }
+  };
   const [confirmReset, setConfirmReset] = useState(false);
   const [reminderNote, setReminderNote] = useState('');
   const [pendingImport, setPendingImport] = useState<BackupData>();
@@ -209,7 +221,13 @@ export function ProfilePage() {
             <div className="flex flex-col">
               <p className="font-bold text-ink">{settings.account.name}</p>
               <p className="text-sm text-ink/80">{settings.account.email}</p>
-              <p className="text-xs text-muted">Tersimpan di perangkat ini. Belum tersinkron ke server.</p>
+              <p className="text-sm font-semibold text-ink">ID battle: {settings.account.publicId ?? 'memuat…'}</p>
+              {settings.account.publicId && settings.account.canChangePublicId !== false && (
+                <button type="button" onClick={regenerateId} className="w-fit text-sm font-semibold text-primary-700 underline-offset-4 hover:underline">
+                  Ganti ID (sekali saja)
+                </button>
+              )}
+              <p className="text-xs text-muted">Tersimpan di server dan bisa dipakai dari perangkat mana pun.</p>
             </div>
             <Button
               variant="secondary"

@@ -25,7 +25,8 @@ describe('API akun', () => {
     const response = await post('/api/register', { name: 'Sinta', email: 'Sinta@Contoh.id', password: 'Uji12345' });
     expect(response.status).toBe(201);
     const data = await response.json();
-    expect(data.account).toEqual({ name: 'Sinta', email: 'sinta@contoh.id' });
+    expect(data.account).toMatchObject({ name: 'Sinta', email: 'sinta@contoh.id', canChangePublicId: true });
+    expect(data.account.publicId).toMatch(/^EH-[A-HJ-NP-Z2-9]{6}$/);
     expect(typeof data.token).toBe('string');
   });
 
@@ -52,6 +53,17 @@ describe('API akun', () => {
     await post('/api/logout', {}, login.token);
     const after = await fetch(`${base}/api/me`, { headers: { Authorization: `Bearer ${login.token}` } });
     expect(after.status).toBe(401);
+  });
+
+  it('gagal masuk berkali-kali membuat email itu kena batas sementara', async () => {
+    await post('/api/register', { name: 'Dewi', email: 'dewi@contoh.id', password: 'Uji12345' });
+    for (let attempt = 0; attempt < 5; attempt += 1) {
+      const response = await post('/api/login', { email: 'dewi@contoh.id', password: 'salah-sekali' });
+      expect(response.status).toBe(401);
+    }
+    const blocked = await post('/api/login', { email: 'dewi@contoh.id', password: 'Uji12345' });
+    expect(blocked.status).toBe(429);
+    expect(Number(blocked.headers.get('retry-after'))).toBeGreaterThan(0);
   });
 
   it('kata sandi pendek ditolak saat daftar', async () => {
