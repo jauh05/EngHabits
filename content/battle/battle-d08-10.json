@@ -1,0 +1,2401 @@
+[
+  {
+    "id": "BT008-020",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Right now, Nadia ___ her homework at the kitchen table.",
+    "options": [
+      {
+        "id": "A",
+        "text": "does"
+      },
+      {
+        "id": "B",
+        "text": "is doing"
+      },
+      {
+        "id": "C",
+        "text": "do"
+      },
+      {
+        "id": "D",
+        "text": "doing"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Right now menandakan kejadian yang sedang berlangsung, jadi dipakai is + V-ing."
+  },
+  {
+    "id": "BT008-021",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: They ___ to the market at the moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are not going"
+      },
+      {
+        "id": "B",
+        "text": "not are going"
+      },
+      {
+        "id": "C",
+        "text": "do not going"
+      },
+      {
+        "id": "D",
+        "text": "is not go"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Negatif present continuous memakai am, is, atau are, lalu not, lalu V-ing."
+  },
+  {
+    "id": "BT008-022",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Are you watching the news now?"
+      },
+      {
+        "id": "B",
+        "text": "Do you are watching the news now?"
+      },
+      {
+        "id": "C",
+        "text": "Is you watching the news now?"
+      },
+      {
+        "id": "D",
+        "text": "You are watching the news now?"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pertanyaan present continuous diawali dengan am, is, atau are, lalu subjek, lalu V-ing."
+  },
+  {
+    "id": "BT008-023",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct -ing form of the verb 'run'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "runing"
+      },
+      {
+        "id": "B",
+        "text": "runnning"
+      },
+      {
+        "id": "C",
+        "text": "running"
+      },
+      {
+        "id": "D",
+        "text": "runned"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Run berpola konsonan-vokal-konsonan, jadi huruf n digandakan sebelum -ing."
+  },
+  {
+    "id": "BT008-024",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Please be quiet. The baby ___ now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sleeps"
+      },
+      {
+        "id": "B",
+        "text": "is sleeping"
+      },
+      {
+        "id": "C",
+        "text": "sleep"
+      },
+      {
+        "id": "D",
+        "text": "slept"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kejadian yang sedang berlangsung saat ini memakai is + V-ing, bukan bentuk sederhana."
+  },
+  {
+    "id": "BT008-025",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I am knowing the answer now."
+      },
+      {
+        "id": "B",
+        "text": "I know the answer now."
+      },
+      {
+        "id": "C",
+        "text": "I am know the answer now."
+      },
+      {
+        "id": "D",
+        "text": "I knowing the answer now."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Know adalah kata kerja keadaan yang biasanya tidak dipakai dalam bentuk -ing."
+  },
+  {
+    "id": "BT008-026",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Dina ___ a letter to her teacher at the moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "writes"
+      },
+      {
+        "id": "B",
+        "text": "is writing"
+      },
+      {
+        "id": "C",
+        "text": "write"
+      },
+      {
+        "id": "D",
+        "text": "wrote"
+      }
+    ],
+    "correct": "B",
+    "explanation": "At the moment menandakan kejadian yang sedang berlangsung, jadi memakai is writing."
+  },
+  {
+    "id": "BT008-027",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to wash clothes or dishes with water and soap'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cooking"
+      },
+      {
+        "id": "B",
+        "text": "washing"
+      },
+      {
+        "id": "C",
+        "text": "walking"
+      },
+      {
+        "id": "D",
+        "text": "waiting"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Washing berarti mencuci, misalnya mencuci pakaian atau piring dengan air dan sabun."
+  },
+  {
+    "id": "BT008-028",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to move through water using your arms and legs'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "swimming"
+      },
+      {
+        "id": "B",
+        "text": "shopping"
+      },
+      {
+        "id": "C",
+        "text": "sleeping"
+      },
+      {
+        "id": "D",
+        "text": "sitting"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Swimming berarti berenang."
+  },
+  {
+    "id": "BT008-029",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to repair something that is broken'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fixing"
+      },
+      {
+        "id": "B",
+        "text": "crossing"
+      },
+      {
+        "id": "C",
+        "text": "studying"
+      },
+      {
+        "id": "D",
+        "text": "waiting"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Fixing berarti memperbaiki sesuatu yang rusak."
+  },
+  {
+    "id": "BT008-030",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The students are ___ for the final exam in the library.",
+    "options": [
+      {
+        "id": "A",
+        "text": "studying"
+      },
+      {
+        "id": "B",
+        "text": "driving"
+      },
+      {
+        "id": "C",
+        "text": "laughing"
+      },
+      {
+        "id": "D",
+        "text": "raining"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Studying berarti belajar, dan cocok dengan konteks persiapan ujian di perpustakaan."
+  },
+  {
+    "id": "BT008-031",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The road is wet, so Pak Joko is ___ very slowly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "crossing"
+      },
+      {
+        "id": "B",
+        "text": "driving"
+      },
+      {
+        "id": "C",
+        "text": "painting"
+      },
+      {
+        "id": "D",
+        "text": "smiling"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Driving berarti mengemudi, jadi kalimat tentang mobil yang berjalan pelan memakai driving."
+  },
+  {
+    "id": "BT008-032",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to walk over a road or street from one side to the other'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cleaning"
+      },
+      {
+        "id": "B",
+        "text": "sitting"
+      },
+      {
+        "id": "C",
+        "text": "crossing"
+      },
+      {
+        "id": "D",
+        "text": "shopping"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Crossing berarti menyeberang jalan dari satu sisi ke sisi lainnya."
+  },
+  {
+    "id": "BT008-033",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to put paint on a wall, a canvas, or paper to make a picture'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "raining"
+      },
+      {
+        "id": "B",
+        "text": "painting"
+      },
+      {
+        "id": "C",
+        "text": "waiting"
+      },
+      {
+        "id": "D",
+        "text": "laughing"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Painting berarti melukis atau mengecat untuk membuat gambar."
+  },
+  {
+    "id": "BT008-034",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Rina sedang membaca buku di kamarnya.",
+    "acceptedAnswers": [
+      "Rina is reading a book in her room",
+      "Rina is reading a book in her bedroom"
+    ],
+    "explanation": "Subjek Rina memakai is, lalu kata read menjadi reading."
+  },
+  {
+    "id": "BT008-035",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Mereka sedang bermain bulu tangkis di lapangan.",
+    "acceptedAnswers": [
+      "They are playing badminton on the court",
+      "They are playing badminton on the field"
+    ],
+    "explanation": "Subjek jamak They memakai are, lalu play menjadi playing."
+  },
+  {
+    "id": "BT008-036",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Saya sedang tidak mendengarkan musik sekarang.",
+    "acceptedAnswers": [
+      "I am not listening to music now",
+      "I am not listening to music right now"
+    ],
+    "explanation": "Bentuk negatif memakai am not + V-ing."
+  },
+  {
+    "id": "BT008-037",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Apakah kamu sedang menunggu bus di halte?",
+    "acceptedAnswers": [
+      "Are you waiting for the bus at the bus stop",
+      "Are you waiting for a bus at the bus stop"
+    ],
+    "explanation": "Pertanyaan present continuous diawali Are, lalu subjek dan V-ing."
+  },
+  {
+    "id": "BT008-038",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Toni sedang memasak nasi goreng untuk makan malam.",
+    "acceptedAnswers": [
+      "Toni is cooking fried rice for dinner",
+      "Toni is cooking fried rice for supper"
+    ],
+    "explanation": "Subjek tunggal Toni memakai is, dan cook menjadi cooking."
+  },
+  {
+    "id": "BT008-039",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Hujan sedang turun ketika kami sampai di stasiun.",
+    "acceptedAnswers": [
+      "It is raining when we arrive at the station",
+      "It is raining when we reach the station"
+    ],
+    "explanation": "Kejadian yang sedang berlangsung memakai is raining, sedangkan kami sampai memakai bentuk sederhana."
+  },
+  {
+    "id": "BT008-040",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kami sedang membangun rumah pohon di halaman belakang.",
+    "acceptedAnswers": [
+      "We are building a treehouse in the backyard",
+      "We are building a tree house in the backyard"
+    ],
+    "explanation": "Kata build menjadi building setelah are."
+  },
+  {
+    "id": "BT008-041",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Dia sedang tersenyum dan melambaikan tangan kepada kami.",
+    "acceptedAnswers": [
+      "She is smiling and waving at us",
+      "She is smiling and waving to us"
+    ],
+    "explanation": "Kedua kata kerja memakai bentuk -ing setelah is."
+  },
+  {
+    "id": "BT008-042",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kucing itu sedang tidur di atas kursi.",
+    "acceptedAnswers": [
+      "The cat is sleeping on the chair",
+      "The cat is sleeping on a chair"
+    ],
+    "explanation": "Sleeping adalah bentuk -ing dari sleep, dipakai dengan is."
+  },
+  {
+    "id": "BT008-043",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Pelatih sedang melatih para pemain di lapangan basket sore ini.",
+    "acceptedAnswers": [
+      "The coach is training the players on the basketball court this afternoon",
+      "The coach is training the players on the court this afternoon"
+    ],
+    "explanation": "Kejadian sekarang memakai is training, dan sore ini menjadi this afternoon."
+  },
+  {
+    "id": "BT008-044",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan seekor anjing di taman?",
+    "passage": "It is a sunny Saturday morning at Merdeka Park. Lina is riding her bicycle near the lake. Two boys are feeding the ducks by the bench. An old man is reading a newspaper under a big tree. A dog is running after a red ball on the grass. Everyone looks relaxed because the weather is warm and the sky is clear.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedang berlari mengejar bola merah"
+      },
+      {
+        "id": "B",
+        "text": "Sedang tidur di bawah pohon"
+      },
+      {
+        "id": "C",
+        "text": "Sedang makan roti di bangku"
+      },
+      {
+        "id": "D",
+        "text": "Sedang berenang di danau"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut anjing itu running after a red ball, jadi jawabannya berlari mengejar bola merah."
+  },
+  {
+    "id": "BT008-045",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang ditulis Kevin di kelas?",
+    "passage": "It is 10 a.m. in the science lab, and the students of class 8B are working in groups. Maya is measuring water in a glass, while Kevin is writing the results in a notebook. Their teacher is standing near the window and checking every table. Nobody is talking loudly because everyone is focused on the experiment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hasil percobaan di buku catatan"
+      },
+      {
+        "id": "B",
+        "text": "Surat untuk gurunya"
+      },
+      {
+        "id": "C",
+        "text": "Daftar belanja bahan"
+      },
+      {
+        "id": "D",
+        "text": "Nama teman sekelasnya"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut Kevin is writing the results in a notebook, jadi ia menulis hasil percobaan."
+  },
+  {
+    "id": "BT008-046",
+    "day": 8,
+    "type": "story",
+    "prompt": "Mengapa orang-orang menunggu di dalam kafe?",
+    "passage": "Tonight the Sunset Cafe is very busy. The chef is cooking pasta in the kitchen, and a waiter is carrying two plates to table five. A group of friends by the window is laughing at a funny story. Outside, it is raining heavily, so people are waiting inside until the rain stops.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena kafe itu sedang tutup"
+      },
+      {
+        "id": "B",
+        "text": "Karena di luar sedang turun hujan deras"
+      },
+      {
+        "id": "C",
+        "text": "Karena mereka sedang menunggu koki selesai"
+      },
+      {
+        "id": "D",
+        "text": "Karena mereka sedang membersihkan meja"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menjelaskan bahwa di luar hujan deras, sehingga orang menunggu di dalam."
+  },
+  {
+    "id": "BT008-047",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilipat Putri?",
+    "passage": "Putri is cleaning her room this afternoon. She is folding her clothes and putting her books on the shelf. Her cat is sleeping on the bed, but it wakes up when Putri opens the window. Her desk near the window is covered with dust, so she is wiping it with a soft cloth. Now fresh air is coming into the room, and Putri is smiling.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pakaiannya"
+      },
+      {
+        "id": "B",
+        "text": "Seprai tempat tidurnya"
+      },
+      {
+        "id": "C",
+        "text": "Buku pelajarannya"
+      },
+      {
+        "id": "D",
+        "text": "Tas sekolahnya"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut Putri is folding her clothes, jadi yang dilipat adalah pakaiannya."
+  },
+  {
+    "id": "BT008-048",
+    "day": 8,
+    "type": "story",
+    "prompt": "Kendaraan apa yang sedang dikendarai Pak Hadi?",
+    "passage": "It is early morning in the village, and the sky is still pale. The road to the market is quiet and wet. Pak Hadi is driving his small truck to the market, and his workers are picking tomatoes in the field. A young girl is watering the plants near the fence. The farmers are talking happily because the harvest looks good this year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sepeda motor"
+      },
+      {
+        "id": "B",
+        "text": "Truk kecil"
+      },
+      {
+        "id": "C",
+        "text": "Becak"
+      },
+      {
+        "id": "D",
+        "text": "Sepeda"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Pak Hadi is driving his small truck, jadi kendaraannya truk kecil."
+  },
+  {
+    "id": "BT008-049",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan anak-anak sekarang?",
+    "script": "Right now, the children are dancing in the hall. Some of them are laughing because the music is loud.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are sleeping in the hall"
+      },
+      {
+        "id": "B",
+        "text": "They are dancing in the hall"
+      },
+      {
+        "id": "C",
+        "text": "They are cooking in the kitchen"
+      },
+      {
+        "id": "D",
+        "text": "They are reading in the library"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut the children are dancing in the hall, jadi jawabannya dancing."
+  },
+  {
+    "id": "BT008-050",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan para penumpang?",
+    "script": "Listen carefully. The train is leaving the station, and the passengers are finding their seats.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are finding their seats"
+      },
+      {
+        "id": "B",
+        "text": "They are buying tickets at the counter"
+      },
+      {
+        "id": "C",
+        "text": "They are getting off the train"
+      },
+      {
+        "id": "D",
+        "text": "They are waiting for the rain to stop"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut the passengers are finding their seats."
+  },
+  {
+    "id": "BT008-051",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Mengapa para pendaki beristirahat di dalam pondok?",
+    "script": "The hikers are resting in a wooden hut because it is raining heavily outside.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are cooking soup in the hut"
+      },
+      {
+        "id": "B",
+        "text": "Because it is raining heavily outside"
+      },
+      {
+        "id": "C",
+        "text": "Because the road is being repaired"
+      },
+      {
+        "id": "D",
+        "text": "Because they have already reached the top"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menjelaskan bahwa hujan deras di luar membuat para pendaki beristirahat di pondok."
+  },
+  {
+    "id": "BT008-052",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dicuci tetangga itu?",
+    "script": "My neighbor is washing his car in the driveway while his dog is barking at the gate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "His bicycle"
+      },
+      {
+        "id": "B",
+        "text": "His car"
+      },
+      {
+        "id": "C",
+        "text": "The front gate"
+      },
+      {
+        "id": "D",
+        "text": "His dog"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut his neighbor is washing his car."
+  },
+  {
+    "id": "BT008-053",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya sedang membaca artikel di ponsel)",
+    "acceptedAnswers": [
+      "I am reading an article on my phone"
+    ],
+    "explanation": "Subjek I memakai am, lalu kata read menjadi reading."
+  },
+  {
+    "id": "BT008-054",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mereka sedang menonton film di bioskop)",
+    "acceptedAnswers": [
+      "They are watching a movie at the cinema"
+    ],
+    "explanation": "Subjek jamak They memakai are, lalu watching setelah are."
+  },
+  {
+    "id": "BT008-055",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dia sedang tidak bekerja hari ini)",
+    "acceptedAnswers": [
+      "She is not working today"
+    ],
+    "explanation": "Negatif memakai is not sebelum V-ing working."
+  },
+  {
+    "id": "BT008-056",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah ayam itu sedang makan di halaman)",
+    "acceptedAnswers": [
+      "Is the chicken eating in the yard"
+    ],
+    "explanation": "Pertanyaan diawali Is, lalu subjek the chicken, lalu eating."
+  },
+  {
+    "id": "BT008-057",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami sedang menyiapkan pesta ulang tahun untuk Dina)",
+    "acceptedAnswers": [
+      "We are preparing a birthday party for Dina"
+    ],
+    "explanation": "Kata prepare menjadi preparing dengan menghapus e sebelum -ing."
+  },
+  {
+    "id": "BT008-058",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Air sungai sedang naik karena hujan deras)",
+    "acceptedAnswers": [
+      "The river is rising because of the heavy rain"
+    ],
+    "explanation": "Rise menjadi rising karena e dihilangkan sebelum -ing."
+  },
+  {
+    "id": "BT008-059",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Pekerja itu sedang memperbaiki atap rumah)",
+    "acceptedAnswers": [
+      "The worker is fixing the roof of the house"
+    ],
+    "explanation": "Subjek tunggal The worker memakai is, lalu fixing."
+  },
+  {
+    "id": "BT009-020",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The meeting starts ___ half past eight in the morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Jam tertentu memakai at, misalnya at half past eight."
+  },
+  {
+    "id": "BT009-021",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: My birthday is ___ June.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Nama bulan memakai in, sedangkan tanggal tertentu memakai on."
+  },
+  {
+    "id": "BT009-022",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The library is open ___ Sunday morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Nama hari memakai on, termasuk ketika disertai pagi atau sore."
+  },
+  {
+    "id": "BT009-023",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The keys are ___ the drawer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Benda di dalam laci memakai in."
+  },
+  {
+    "id": "BT009-024",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I wake up in 6 o'clock."
+      },
+      {
+        "id": "B",
+        "text": "I wake up at 6 o'clock."
+      },
+      {
+        "id": "C",
+        "text": "I wake up on 6 o'clock."
+      },
+      {
+        "id": "D",
+        "text": "I wake up under 6 o'clock."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Jam tepat memakai at, jadi kita katakan at 6 o'clock."
+  },
+  {
+    "id": "BT009-025",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Our class is ___ the second floor of the building.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "between"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Lantai gedung memakai on, misalnya on the second floor."
+  },
+  {
+    "id": "BT009-026",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The flight arrives ___ the evening after a long trip.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bagian hari seperti evening memakai in, misalnya in the evening."
+  },
+  {
+    "id": "BT009-027",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'directly across from something, on the other side'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "opposite"
+      },
+      {
+        "id": "B",
+        "text": "beneath"
+      },
+      {
+        "id": "C",
+        "text": "beside"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Opposite berarti di seberang, berhadapan dengan sesuatu."
+  },
+  {
+    "id": "BT009-028",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'at a short distance from a place'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "far"
+      },
+      {
+        "id": "B",
+        "text": "near"
+      },
+      {
+        "id": "C",
+        "text": "behind"
+      },
+      {
+        "id": "D",
+        "text": "beyond"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Near berarti dekat, tidak jauh dari suatu tempat."
+  },
+  {
+    "id": "BT009-029",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The post office is ___ the bank, so we can visit both in one trip.",
+    "options": [
+      {
+        "id": "A",
+        "text": "across from"
+      },
+      {
+        "id": "B",
+        "text": "under"
+      },
+      {
+        "id": "C",
+        "text": "inside"
+      },
+      {
+        "id": "D",
+        "text": "above"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Across from berarti di seberang, cocok untuk posisi kantor pos terhadap bank."
+  },
+  {
+    "id": "BT009-030",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The sign hangs ___ the door so visitors can see it from the street.",
+    "options": [
+      {
+        "id": "A",
+        "text": "above"
+      },
+      {
+        "id": "B",
+        "text": "between"
+      },
+      {
+        "id": "C",
+        "text": "behind"
+      },
+      {
+        "id": "D",
+        "text": "into"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Above berarti di atas, dan papan nama digantung di atas pintu."
+  },
+  {
+    "id": "BT009-031",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'inside a building, not outside'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "outdoors"
+      },
+      {
+        "id": "B",
+        "text": "indoors"
+      },
+      {
+        "id": "C",
+        "text": "upstairs"
+      },
+      {
+        "id": "D",
+        "text": "nearby"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Indoors berarti di dalam ruangan, lawan dari outdoors."
+  },
+  {
+    "id": "BT009-032",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'on a higher floor of a building'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "downstairs"
+      },
+      {
+        "id": "B",
+        "text": "outside"
+      },
+      {
+        "id": "C",
+        "text": "upstairs"
+      },
+      {
+        "id": "D",
+        "text": "beside"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Upstairs berarti di lantai atas."
+  },
+  {
+    "id": "BT009-033",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the top inside surface of a room'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ceiling"
+      },
+      {
+        "id": "B",
+        "text": "carpet"
+      },
+      {
+        "id": "C",
+        "text": "window"
+      },
+      {
+        "id": "D",
+        "text": "doorway"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Ceiling berarti langit-langit, yaitu bagian atas dalam sebuah ruangan."
+  },
+  {
+    "id": "BT009-034",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Pertemuan itu dimulai pukul sembilan pagi di ruang rapat lantai dua.",
+    "acceptedAnswers": [
+      "The meeting starts at nine in the morning in the meeting room on the second floor",
+      "The meeting starts at 9 a.m. in the meeting room on the second floor"
+    ],
+    "explanation": "Jam memakai at, sedangkan lantai memakai on."
+  },
+  {
+    "id": "BT009-035",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Buku catatan saya ada di atas meja belajar.",
+    "acceptedAnswers": [
+      "My notebook is on the study desk",
+      "My notebook is on the desk"
+    ],
+    "explanation": "Benda di atas permukaan meja memakai on."
+  },
+  {
+    "id": "BT009-036",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kami tiba di bandara pada malam hari.",
+    "acceptedAnswers": [
+      "We arrived at the airport at night",
+      "We reached the airport at night"
+    ],
+    "explanation": "Untuk waktu malam hari, bahasa Inggris memakai at night."
+  },
+  {
+    "id": "BT009-037",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Toko roti itu berada di antara apotek dan kantor pos.",
+    "acceptedAnswers": [
+      "The bakery is between the pharmacy and the post office",
+      "The bakery lies between the pharmacy and the post office"
+    ],
+    "explanation": "Between dipakai untuk posisi di antara dua tempat."
+  },
+  {
+    "id": "BT009-038",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Pensil itu terletak di dalam kotak merah.",
+    "acceptedAnswers": [
+      "The pencil is inside the red box",
+      "The pencil is in the red box"
+    ],
+    "explanation": "Inside dan in sama-sama berarti di dalam sebuah wadah."
+  },
+  {
+    "id": "BT009-039",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Rika merayakan ulang tahunnya pada bulan Mei.",
+    "acceptedAnswers": [
+      "Rika has her birthday in May",
+      "Rika celebrates her birthday in May"
+    ],
+    "explanation": "Nama bulan memakai in."
+  },
+  {
+    "id": "BT009-040",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Sepedanya diparkir di samping pintu pagar.",
+    "acceptedAnswers": [
+      "Her bicycle is parked next to the gate",
+      "Her bike is parked next to the gate"
+    ],
+    "explanation": "Next to berarti di samping dan dipakai dengan to."
+  },
+  {
+    "id": "BT009-041",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kami akan bertemu di depan perpustakaan pukul empat sore.",
+    "acceptedAnswers": [
+      "We will meet in front of the library at four in the afternoon",
+      "We will meet at the front of the library at four in the afternoon"
+    ],
+    "explanation": "In front of dipakai untuk posisi depan sesuatu, dan at dipakai untuk jam."
+  },
+  {
+    "id": "BT009-042",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Lampu di atas meja makan itu menyala setiap malam.",
+    "acceptedAnswers": [
+      "The lamp above the dining table is on every night",
+      "The lamp over the dining table is on every night"
+    ],
+    "explanation": "Above berarti di atas tanpa menyentuh, dan on dipakai untuk lampu yang menyala."
+  },
+  {
+    "id": "BT009-043",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Anak-anak itu bermain di halaman sekolah tepat pukul dua belas siang.",
+    "acceptedAnswers": [
+      "The children play in the schoolyard at noon",
+      "The children play in the school yard at 12 noon"
+    ],
+    "explanation": "Jam tepat memakai at, dan dua belas siang menjadi at noon."
+  },
+  {
+    "id": "BT009-044",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana tas merah Nina?",
+    "passage": "Nina's new room is on the second floor of her house. Her desk is next to the window, and her bed is between two bookshelves. Her red bag is under the desk, and her school shoes are behind the door. Every night at nine, she turns off the lamp above her bed and goes to sleep.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di atas meja"
+      },
+      {
+        "id": "B",
+        "text": "Di bawah meja"
+      },
+      {
+        "id": "C",
+        "text": "Di belakang pintu"
+      },
+      {
+        "id": "D",
+        "text": "Di antara dua rak buku"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut her red bag is under the desk, jadi tasnya di bawah meja."
+  },
+  {
+    "id": "BT009-045",
+    "day": 9,
+    "type": "story",
+    "prompt": "Pada hari apa bus tidak beroperasi di pagi hari?",
+    "passage": "The city bus leaves the terminal at 6:30 a.m. on weekdays. It stops at the market, then at the hospital near the river. The last stop is at the school in the east part of town. On Sunday, the bus does not run in the morning, so people walk or take a taxi to the terminal.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Setiap hari kerja"
+      },
+      {
+        "id": "B",
+        "text": "Pada hari Minggu"
+      },
+      {
+        "id": "C",
+        "text": "Pada hari Sabtu malam"
+      },
+      {
+        "id": "D",
+        "text": "Pada pukul enam sore"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut bus tidak beroperasi pada pagi hari Minggu."
+  },
+  {
+    "id": "BT009-046",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana patung-patung dipamerkan?",
+    "passage": "The art gallery opens at ten in the morning on Saturday. Visitors can see paintings on the first floor, while the sculptures are in the garden behind the building. A small cafe is inside the gallery, next to the gift shop. Tickets are sold at the entrance, and children under twelve enter for free.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di lantai pertama"
+      },
+      {
+        "id": "B",
+        "text": "Di dalam kafe"
+      },
+      {
+        "id": "C",
+        "text": "Di taman di belakang gedung"
+      },
+      {
+        "id": "D",
+        "text": "Di dekat pintu masuk"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut the sculptures are in the garden behind the building."
+  },
+  {
+    "id": "BT009-047",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana bahan kimia disimpan?",
+    "passage": "Our science lab is in the old building, at the end of the hallway. The microscopes are on the shelf above the sink, and the chemicals are inside the cabinet near the door. Students must wash their hands at the sink before they leave. The lab is closed on Friday afternoon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di atas wastafel"
+      },
+      {
+        "id": "B",
+        "text": "Di dalam lemari dekat pintu"
+      },
+      {
+        "id": "C",
+        "text": "Di ujung lorong"
+      },
+      {
+        "id": "D",
+        "text": "Di dekat jendela"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut the chemicals are inside the cabinet near the door."
+  },
+  {
+    "id": "BT009-048",
+    "day": 9,
+    "type": "story",
+    "prompt": "Pada jam berapa Pak Yoga menutup lapaknya?",
+    "passage": "Pak Yoga's stall is at the corner of the market, across from the fish seller. In the morning, customers buy fresh vegetables from baskets on the table. At noon, he moves the umbrella to the left side because the sun is hot. At night, he closes his stall at 9 p.m. and walks home with his bicycle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pukul sembilan malam"
+      },
+      {
+        "id": "B",
+        "text": "Pukul dua belas siang"
+      },
+      {
+        "id": "C",
+        "text": "Pukul sembilan pagi"
+      },
+      {
+        "id": "D",
+        "text": "Pukul enam sore"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut At night, he closes his stall at 9 p.m."
+  },
+  {
+    "id": "BT009-049",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana kunci itu berada?",
+    "script": "The keys are in the drawer next to the phone, not on the table.",
+    "options": [
+      {
+        "id": "A",
+        "text": "On the table"
+      },
+      {
+        "id": "B",
+        "text": "Under the phone"
+      },
+      {
+        "id": "C",
+        "text": "In the drawer"
+      },
+      {
+        "id": "D",
+        "text": "Behind the door"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut the keys are in the drawer."
+  },
+  {
+    "id": "BT009-050",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Kapan kereta ke Bandung berangkat?",
+    "script": "The train to Bandung leaves at 5 a.m. on Monday, so please arrive at the station early.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At 5 p.m. on Monday"
+      },
+      {
+        "id": "B",
+        "text": "At 5 a.m. on Monday"
+      },
+      {
+        "id": "C",
+        "text": "At 5 a.m. on Sunday"
+      },
+      {
+        "id": "D",
+        "text": "At 5 p.m. on Sunday"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut leaves at 5 a.m. on Monday."
+  },
+  {
+    "id": "BT009-051",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di antara apa pendengar diminta berdiri?",
+    "script": "Please stand between the two big pillars at the entrance of the library.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between two big pillars"
+      },
+      {
+        "id": "B",
+        "text": "Behind the bookshelf"
+      },
+      {
+        "id": "C",
+        "text": "On the staircase"
+      },
+      {
+        "id": "D",
+        "text": "Near the canteen"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara meminta pendengar stand between the two big pillars."
+  },
+  {
+    "id": "BT009-052",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Apa yang berada di seberang kafe?",
+    "script": "The cafe is opposite the post office, and it opens at 8 a.m. every day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A bank"
+      },
+      {
+        "id": "B",
+        "text": "A post office"
+      },
+      {
+        "id": "C",
+        "text": "A school"
+      },
+      {
+        "id": "D",
+        "text": "A hospital"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut the cafe is opposite the post office."
+  },
+  {
+    "id": "BT009-053",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Buku itu ada di atas rak)",
+    "acceptedAnswers": [
+      "The book is on the shelf"
+    ],
+    "explanation": "Benda di atas permukaan rak memakai on."
+  },
+  {
+    "id": "BT009-054",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami akan bertemu di stasiun pukul tujuh pagi)",
+    "acceptedAnswers": [
+      "We will meet at the station at seven in the morning"
+    ],
+    "explanation": "Jam memakai at, dan pagi hari menjadi in the morning."
+  },
+  {
+    "id": "BT009-055",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Gelas itu ada di belakang piring)",
+    "acceptedAnswers": [
+      "The glass is behind the plate"
+    ],
+    "explanation": "Behind berarti di belakang."
+  },
+  {
+    "id": "BT009-056",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Pesta itu diadakan pada hari Sabtu malam)",
+    "acceptedAnswers": [
+      "The party is held on Saturday night"
+    ],
+    "explanation": "Nama hari memakai on, dan Saturday night menjadi keterangan waktu."
+  },
+  {
+    "id": "BT009-057",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Motor saya diparkir di seberang gerbang)",
+    "acceptedAnswers": [
+      "My motorcycle is parked across from the gate"
+    ],
+    "explanation": "Across from berarti di seberang."
+  },
+  {
+    "id": "BT009-058",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sepatu itu berada di bawah tempat tidur)",
+    "acceptedAnswers": [
+      "The shoes are under the bed"
+    ],
+    "explanation": "Under berarti di bawah sesuatu."
+  },
+  {
+    "id": "BT009-059",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Jam dinding itu tergantung di atas pintu)",
+    "acceptedAnswers": [
+      "The wall clock hangs above the door"
+    ],
+    "explanation": "Above berarti di atas, dan hang berarti tergantung."
+  },
+  {
+    "id": "BT010-020",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Yesterday, my friends ___ late for the movie.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Subjek jamak seperti my friends memakai were di waktu lampau."
+  },
+  {
+    "id": "BT010-021",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: The restaurant ___ crowded last night, so we found a table quickly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were not"
+      },
+      {
+        "id": "B",
+        "text": "was not"
+      },
+      {
+        "id": "C",
+        "text": "did not be"
+      },
+      {
+        "id": "D",
+        "text": "is not"
+      }
+    ],
+    "correct": "B",
+    "explanation": "The restaurant adalah subjek tunggal, jadi negatifnya was not."
+  },
+  {
+    "id": "BT010-022",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Was you at the stadium yesterday?"
+      },
+      {
+        "id": "B",
+        "text": "Were you at the stadium yesterday?"
+      },
+      {
+        "id": "C",
+        "text": "Did you were at the stadium yesterday?"
+      },
+      {
+        "id": "D",
+        "text": "Is you at the stadium yesterday?"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Dengan you, pertanyaan lampau memakai were di depan subjek."
+  },
+  {
+    "id": "BT010-023",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ the exam difficult last week?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Was"
+      },
+      {
+        "id": "C",
+        "text": "Were"
+      },
+      {
+        "id": "D",
+        "text": "Be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Exam adalah subjek tunggal, jadi pertanyaan lampaunya memakai Was."
+  },
+  {
+    "id": "BT010-024",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I were tired after the long trip."
+      },
+      {
+        "id": "B",
+        "text": "I was tired after the long trip."
+      },
+      {
+        "id": "C",
+        "text": "I be tired after the long trip."
+      },
+      {
+        "id": "D",
+        "text": "I are tired after the long trip."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Untuk I, bentuk lampau to be adalah was."
+  },
+  {
+    "id": "BT010-025",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: The students ___ in the library at ten o'clock this morning, not in the classroom.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "B",
+    "explanation": "The students adalah jamak, jadi memakai were."
+  },
+  {
+    "id": "BT010-026",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: She ___ at home on Sunday, so she did not see the new cafe.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "She adalah subjek tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-027",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a short time ago, not long before now'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "recently"
+      },
+      {
+        "id": "B",
+        "text": "tomorrow"
+      },
+      {
+        "id": "C",
+        "text": "soon"
+      },
+      {
+        "id": "D",
+        "text": "tonight"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Recently berarti baru-baru ini atau belum lama berselang."
+  },
+  {
+    "id": "BT010-028",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The concert was amazing, but it finished two hours ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "later"
+      },
+      {
+        "id": "B",
+        "text": "ago"
+      },
+      {
+        "id": "C",
+        "text": "tonight"
+      },
+      {
+        "id": "D",
+        "text": "already"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Ago dipakai untuk menyatakan waktu yang sudah berlalu dari sekarang."
+  },
+  {
+    "id": "BT010-029",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'at a time before the present moment'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "earlier"
+      },
+      {
+        "id": "B",
+        "text": "later"
+      },
+      {
+        "id": "C",
+        "text": "tomorrow"
+      },
+      {
+        "id": "D",
+        "text": "yet"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Earlier berarti lebih awal atau sebelumnya."
+  },
+  {
+    "id": "BT010-030",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: We went camping during the long ___ in December.",
+    "options": [
+      {
+        "id": "A",
+        "text": "holiday"
+      },
+      {
+        "id": "B",
+        "text": "weekday"
+      },
+      {
+        "id": "C",
+        "text": "midnight"
+      },
+      {
+        "id": "D",
+        "text": "lunch"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Holiday berarti libur panjang, misalnya libur akhir tahun."
+  },
+  {
+    "id": "BT010-031",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'twelve o'clock at night'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "midnight"
+      },
+      {
+        "id": "B",
+        "text": "noon"
+      },
+      {
+        "id": "C",
+        "text": "dawn"
+      },
+      {
+        "id": "D",
+        "text": "dusk"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Midnight berarti tengah malam, yaitu pukul dua belas malam."
+  },
+  {
+    "id": "BT010-032",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word describes the time of day between noon and evening?",
+    "options": [
+      {
+        "id": "A",
+        "text": "afternoon"
+      },
+      {
+        "id": "B",
+        "text": "dawn"
+      },
+      {
+        "id": "C",
+        "text": "midnight"
+      },
+      {
+        "id": "D",
+        "text": "tonight"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Afternoon berarti sore hari, setelah siang sampai menjelang malam."
+  },
+  {
+    "id": "BT010-033",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the two days at the end of a week'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "weekday"
+      },
+      {
+        "id": "B",
+        "text": "weekend"
+      },
+      {
+        "id": "C",
+        "text": "fortnight"
+      },
+      {
+        "id": "D",
+        "text": "morning"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Weekend berarti akhir pekan, yaitu Sabtu dan Minggu."
+  },
+  {
+    "id": "BT010-034",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kemarin sore saya berada di perpustakaan.",
+    "acceptedAnswers": [
+      "I was in the library yesterday afternoon",
+      "I was at the library yesterday afternoon"
+    ],
+    "explanation": "Subjek I memakai was pada bentuk lampau."
+  },
+  {
+    "id": "BT010-035",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Mereka tidak berada di kelas tadi pagi.",
+    "acceptedAnswers": [
+      "They were not in class this morning",
+      "They were not in the classroom this morning"
+    ],
+    "explanation": "Subjek They memakai were, dan negatifnya were not."
+  },
+  {
+    "id": "BT010-036",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Apakah cuaca hari Sabtu lalu cerah?",
+    "acceptedAnswers": [
+      "Was the weather sunny last Saturday"
+    ],
+    "explanation": "Weather adalah subjek tunggal, jadi pertanyaannya memakai was."
+  },
+  {
+    "id": "BT010-037",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Tiga hari yang lalu, pesta itu sangat ramai.",
+    "acceptedAnswers": [
+      "Three days ago, the party was very crowded",
+      "The party was very crowded three days ago"
+    ],
+    "explanation": "Ago dipakai bersama was untuk kejadian tiga hari sebelumnya."
+  },
+  {
+    "id": "BT010-038",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Saya sudah berada di rumah tadi malam.",
+    "acceptedAnswers": [
+      "I was already at home last night"
+    ],
+    "explanation": "Already diletakkan setelah was untuk kondisi yang sudah terjadi."
+  },
+  {
+    "id": "BT010-039",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kami berada di kota yang sama bulan lalu.",
+    "acceptedAnswers": [
+      "We were in the same city last month"
+    ],
+    "explanation": "Subjek kami memakai were."
+  },
+  {
+    "id": "BT010-040",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Sepeda saya rusak kemarin, jadi saya tidak bisa ke kampus.",
+    "acceptedAnswers": [
+      "My bicycle was broken yesterday so I could not go to campus",
+      "My bike was broken yesterday so I could not go to campus"
+    ],
+    "explanation": "Subjek tunggal dalam kondisi lampau memakai was broken."
+  },
+  {
+    "id": "BT010-041",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Dia sangat lelah setelah perjalanan jauh semalam.",
+    "acceptedAnswers": [
+      "She was very tired after the long trip last night",
+      "She was very tired after the long journey last night"
+    ],
+    "explanation": "Subjek She memakai was dalam bentuk lampau."
+  },
+  {
+    "id": "BT010-042",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Tiket konser itu tidak murah, tetapi tempat duduknya bagus.",
+    "acceptedAnswers": [
+      "The concert tickets were not cheap but the seats were good"
+    ],
+    "explanation": "Tickets dan seats adalah jamak, jadi memakai were."
+  },
+  {
+    "id": "BT010-043",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Di mana kamu saat pertandingan kemarin?",
+    "acceptedAnswers": [
+      "Where were you during the match yesterday",
+      "Where were you at the match yesterday"
+    ],
+    "explanation": "Pertanyaan dengan where dan you memakai were."
+  },
+  {
+    "id": "BT010-044",
+    "day": 10,
+    "type": "story",
+    "prompt": "Apa yang dijual Ani di pasar desa?",
+    "passage": "Last Sunday, the village held a small market day. Ani was at a stall near the big tree, selling homemade cookies. Her customers were mostly children from the school next door, and they were very excited. Yesterday, she counted the money, and it was more than she expected. Ani was tired but happy with her work.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sayur segar"
+      },
+      {
+        "id": "B",
+        "text": "Kue buatan sendiri"
+      },
+      {
+        "id": "C",
+        "text": "Pakaian anak"
+      },
+      {
+        "id": "D",
+        "text": "Buah-buahan"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Ani was at a stall selling homemade cookies."
+  },
+  {
+    "id": "BT010-045",
+    "day": 10,
+    "type": "story",
+    "prompt": "Berapa lama Bima dan teman-temannya berada di Bromo?",
+    "passage": "Last summer, Bima and his friends were in Bromo for three days. The morning air was cold, but the sunrise was clear and bright. They were tired after the long walk, so they went to bed early. On the last day, they were at the top of the hill to take photos.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dua hari"
+      },
+      {
+        "id": "B",
+        "text": "Tiga hari"
+      },
+      {
+        "id": "C",
+        "text": "Satu minggu"
+      },
+      {
+        "id": "D",
+        "text": "Satu malam"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut were in Bromo for three days."
+  },
+  {
+    "id": "BT010-046",
+    "day": 10,
+    "type": "story",
+    "prompt": "Di mana Rina menemukan kuncinya?",
+    "passage": "Yesterday morning, Rina was looking for her keys. They were not on the table, and they were not in her bag. She checked her jacket pockets and the kitchen counter too, but the keys were not there. Finally, she found them under the sofa. The keys were there last night, when she was reading on the sofa.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di dalam tasnya"
+      },
+      {
+        "id": "B",
+        "text": "Di atas meja"
+      },
+      {
+        "id": "C",
+        "text": "Di bawah sofa"
+      },
+      {
+        "id": "D",
+        "text": "Di kamar mandi"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut she found them under the sofa."
+  },
+  {
+    "id": "BT010-047",
+    "day": 10,
+    "type": "story",
+    "prompt": "Mengapa pelatih tidak senang di akhir pertandingan?",
+    "passage": "Last Friday, the football match at the city stadium was very exciting. The home team was leading for most of the game, but the visitors scored in the final minute. Many people in the stands stood up to cheer, and the stadium lights were bright. The fans were shouting loudly, and the coach was not happy at the end.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena timnya menang dengan mudah"
+      },
+      {
+        "id": "B",
+        "text": "Karena hujan turun deras sekali"
+      },
+      {
+        "id": "C",
+        "text": "Karena tim lawan mencetak gol di menit akhir"
+      },
+      {
+        "id": "D",
+        "text": "Karena stadionnya kosong"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut the visitors scored in the final minute, sehingga pelatih tidak senang."
+  },
+  {
+    "id": "BT010-048",
+    "day": 10,
+    "type": "story",
+    "prompt": "Mengapa kelas itu pergi ke museum pada hari Selasa?",
+    "passage": "Our class visited the museum last month. The museum was closed on Monday, so we went on Tuesday instead. The guide was friendly, and the dinosaur bones were very big. After the tour, we were hungry, so we ate lunch in the park. It was a good trip, and everyone was tired but happy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena museum tutup pada hari Senin"
+      },
+      {
+        "id": "B",
+        "text": "Karena pemandunya sedang sakit"
+      },
+      {
+        "id": "C",
+        "text": "Karena mereka ingin makan siang di museum"
+      },
+      {
+        "id": "D",
+        "text": "Karena tiket hari Senin habis"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut the museum was closed on Monday, sehingga mereka pergi pada hari Selasa."
+  },
+  {
+    "id": "BT010-049",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Mengapa toko itu tutup kemarin?",
+    "script": "Yesterday, the shop was closed because the owner was sick. It was open again this morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The owner was sick"
+      },
+      {
+        "id": "B",
+        "text": "The roads were flooded"
+      },
+      {
+        "id": "C",
+        "text": "The electricity was cut off"
+      },
+      {
+        "id": "D",
+        "text": "The shelves were empty"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut the shop was closed because the owner was sick."
+  },
+  {
+    "id": "BT010-050",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Di mana mereka berada akhir pekan lalu?",
+    "script": "We were at the beach last weekend, and the water was very warm.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the beach"
+      },
+      {
+        "id": "B",
+        "text": "At a hospital"
+      },
+      {
+        "id": "C",
+        "text": "At the airport"
+      },
+      {
+        "id": "D",
+        "text": "At a market"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut We were at the beach last weekend."
+  },
+  {
+    "id": "BT010-051",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Mengapa para pekerja datang terlambat pagi ini?",
+    "script": "The workers were late this morning because the bus was full.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Their bus was full"
+      },
+      {
+        "id": "B",
+        "text": "Their car broke down"
+      },
+      {
+        "id": "C",
+        "text": "The office was closed"
+      },
+      {
+        "id": "D",
+        "text": "They forgot the way"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut the bus was full sebagai alasan keterlambatan."
+  },
+  {
+    "id": "BT010-052",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Berapa ekor kucing yang berada di taman tadi malam?",
+    "script": "There were three cats in the garden last night, and they were sleeping under the car.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two"
+      },
+      {
+        "id": "B",
+        "text": "Three"
+      },
+      {
+        "id": "C",
+        "text": "Four"
+      },
+      {
+        "id": "D",
+        "text": "Five"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut There were three cats in the garden last night."
+  },
+  {
+    "id": "BT010-053",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami sudah di rumah ketika hujan mulai turun)",
+    "acceptedAnswers": [
+      "We were already at home when the rain started"
+    ],
+    "explanation": "Subjek We memakai were, dan already diletakkan sebelum at."
+  },
+  {
+    "id": "BT010-054",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mereka tidak berada di kantor kemarin siang)",
+    "acceptedAnswers": [
+      "They were not at the office yesterday afternoon"
+    ],
+    "explanation": "Subjek They memakai were, dan negatifnya were not."
+  },
+  {
+    "id": "BT010-055",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Pertunjukan itu sangat seru tadi malam)",
+    "acceptedAnswers": [
+      "The show was very exciting last night"
+    ],
+    "explanation": "Subjek tunggal The show memakai was."
+  },
+  {
+    "id": "BT010-056",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah tasmu ada di kelas minggu lalu)",
+    "acceptedAnswers": [
+      "Was your bag in the classroom last week"
+    ],
+    "explanation": "Pertanyaan lampau dengan subjek tunggal your bag memakai Was."
+  },
+  {
+    "id": "BT010-057",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya dan teman saya berada di Bandung dua hari yang lalu)",
+    "acceptedAnswers": [
+      "My friend and I were in Bandung two days ago"
+    ],
+    "explanation": "Subjek jamak My friend and I memakai were."
+  },
+  {
+    "id": "BT010-058",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Cuaca di pantai sangat panas kemarin)",
+    "acceptedAnswers": [
+      "The weather at the beach was very hot yesterday"
+    ],
+    "explanation": "Subjek tunggal The weather memakai was."
+  },
+  {
+    "id": "BT010-059",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Hasil ujian kami bagus minggu lalu)",
+    "acceptedAnswers": [
+      "Our test results were good last week"
+    ],
+    "explanation": "Subjek jamak test results memakai were."
+  }
+]
