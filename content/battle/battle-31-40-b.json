@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "BT031-011",
+    "day": 31,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Photographs taken by the research team during the expedition, which lasted nearly three months, ___ the coral reefs in remarkable detail.",
+    "options": [
+      { "id": "A", "text": "revealed" },
+      { "id": "B", "text": "reveals" },
+      { "id": "C", "text": "reveal" },
+      { "id": "D", "text": "revealing" }
+    ],
+    "correct": "C",
+    "explanation": "Subjek utamanya adalah Photographs yang jamak, sedangkan klausa taken by the research team dan which lasted hanya menjadi keterangan. Karena itu kata kerja yang tepat adalah reveal."
+  },
+  {
+    "id": "BT031-012",
+    "day": 31,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The decision of the board members to relocate the factory, together with the reports from three consultants, ___ still under debate.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "have been" },
+      { "id": "D", "text": "being" }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utamanya adalah decision yang tunggal, sehingga kata kerjanya is. Frasa together with the reports from three consultants tidak mengubah bentuk kata kerja."
+  },
+  {
+    "id": "BT031-013",
+    "day": 31,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The report was so ___ that even readers without a background in economics could follow every argument.",
+    "options": [
+      { "id": "A", "text": "convoluted" },
+      { "id": "B", "text": "lucid" },
+      { "id": "C", "text": "tentative" },
+      { "id": "D", "text": "obsolete" }
+    ],
+    "correct": "B",
+    "explanation": "Lucid berarti jelas dan mudah dipahami, sesuai dengan laporan yang bisa diikuti pembaca awam. Convoluted justru berarti rumit, kebalikan dari makna yang dimaksud."
+  },
+  {
+    "id": "BT031-014",
+    "day": 31,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The teacher asked the class to ___ the long sentence into two shorter ones without changing its meaning.",
+    "options": [
+      { "id": "A", "text": "divide" },
+      { "id": "B", "text": "invent" },
+      { "id": "C", "text": "forget" },
+      { "id": "D", "text": "abandon" }
+    ],
+    "correct": "A",
+    "explanation": "Divide berarti membagi sesuatu menjadi beberapa bagian, dan memecah kalimat panjang menjadi dua kalimat pendek sesuai dengan maknanya. Invent, forget, dan abandon tidak cocok dengan konteks tersebut."
+  },
+  {
+    "id": "BT031-015",
+    "day": 31,
+    "type": "translate",
+    "prompt": "Mahasiswa yang mengikuti kelas tambahan itu, bersama dua asistennya, sudah menyelesaikan laporan praktikum.",
+    "acceptedAnswers": [
+      "The students who joined the extra class, along with their two assistants, have finished the lab report.",
+      "The students who attended the extra class, together with their two assistants, have finished the lab report."
+    ],
+    "explanation": "Subjek utamanya adalah students yang jamak, sehingga kata kerjanya have finished. Frasa along with their two assistants hanya memberi keterangan tambahan."
+  },
+  {
+    "id": "BT031-016",
+    "day": 31,
+    "type": "translate",
+    "prompt": "Lukisan tua yang dipajang di ruang depan museum itu ternyata palsu.",
+    "acceptedAnswers": [
+      "The old painting that is displayed in the front room of the museum turned out to be a fake.",
+      "The old painting displayed in the front room of the museum turned out to be a fake."
+    ],
+    "explanation": "Kata benda painting menjadi subjek tunggal, sehingga kata kerjanya turned out to be. Klausa yang dipajang hanya menerangkan lukisan tersebut."
+  },
+  {
+    "id": "BT031-017",
+    "day": 31,
+    "type": "story",
+    "passage": "The committee that manages the city's water supply meets on the first Monday of each month. Its members, who come from the public works office and from two universities, review pipe repairs and water quality reports. Last month, however, the meeting was delayed because the engineer responsible for the northern district had not submitted the inspection data. When the data finally arrived, it showed that three old pipes near the market needed replacement before the rainy season. The members voted to start the work in November and to publish the schedule on the city website.",
+    "prompt": "Apa yang menyebabkan rapat tertunda bulan lalu?",
+    "options": [
+      { "id": "A", "text": "Anggota komite tidak hadir pada hari Senin" },
+      { "id": "B", "text": "Insinyur wilayah utara belum menyerahkan data inspeksi" },
+      { "id": "C", "text": "Pipa di dekat pasar sudah diganti seluruhnya" },
+      { "id": "D", "text": "Universitas menarik wakilnya dari komite" }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut rapat tertunda karena insinyur wilayah utara belum menyerahkan data inspeksi. Pilihan lain tidak sesuai dengan isi bacaan."
+  },
+  {
+    "id": "BT031-018",
+    "day": 31,
+    "type": "listen",
+    "script": "The museum will close early on Saturday because of a private event in the east wing. Each of the guides, along with two volunteers, will lead the final tour at three in the afternoon. Visitors who arrive after two thirty will not be admitted.",
+    "prompt": "Pukul berapa tur terakhir akan dimulai?",
+    "options": [
+      { "id": "A", "text": "at two thirty in the afternoon" },
+      { "id": "B", "text": "at three in the afternoon" },
+      { "id": "C", "text": "at noon on Saturday" },
+      { "id": "D", "text": "at five in the evening" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut tur terakhir dipimpin pukul tiga sore. Pukul dua lewat tiga puluh hanya batas waktu kedatangan pengunjung."
+  },
+  {
+    "id": "BT031-019",
+    "day": 31,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Para dosen, bersama asisten penelitinya, sedang menyusun laporan akhir.)",
+    "acceptedAnswers": [
+      "The lecturers along with their research assistant are preparing the final report"
+    ],
+    "explanation": "Subjek utamanya adalah lecturers yang jamak, sehingga kata kerjanya are preparing. Frasa along with their research assistant tidak mengubah bentuk kata kerja."
+  },
+  {
+    "id": "BT032-011",
+    "day": 32,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ the heavy rain that fell all night, the match between the two schools went ahead as scheduled.",
+    "options": [
+      { "id": "A", "text": "Despite" },
+      { "id": "B", "text": "Although" },
+      { "id": "C", "text": "However" },
+      { "id": "D", "text": "Because" }
+    ],
+    "correct": "A",
+    "explanation": "Despite adalah preposisi yang diikuti kata benda, sedangkan although dan because harus diikuti klausa lengkap. However adalah kata keterangan, bukan penghubung klausa."
+  },
+  {
+    "id": "BT032-012",
+    "day": 32,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Instead of ___ the report by Friday, the team asked for an extension.",
+    "options": [
+      { "id": "A", "text": "finish" },
+      { "id": "B", "text": "finishing" },
+      { "id": "C", "text": "finished" },
+      { "id": "D", "text": "to finish" }
+    ],
+    "correct": "B",
+    "explanation": "Setelah preposisi, kata kerja harus berbentuk -ing, jadi bentuk yang benar adalah finishing. Bentuk to finish tidak boleh muncul setelah preposisi seperti instead of."
+  },
+  {
+    "id": "BT032-013",
+    "day": 32,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Unlike the older model, the new scooter is so ___ that it can be folded and carried onto a train.",
+    "options": [
+      { "id": "A", "text": "compact" },
+      { "id": "B", "text": "vague" },
+      { "id": "C", "text": "sturdy" },
+      { "id": "D", "text": "reluctant" }
+    ],
+    "correct": "A",
+    "explanation": "Compact berarti kecil dan padat, sehingga skuter bisa dilipat dan dibawa naik kereta. Vague berarti samar, sturdy berarti kokoh, dan reluctant berarti enggan, dan ketiganya tidak sesuai."
+  },
+  {
+    "id": "BT032-014",
+    "day": 32,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The mayor's speech was so ___ that the audience stopped talking the moment she began.",
+    "options": [
+      { "id": "A", "text": "captivating" },
+      { "id": "B", "text": "tedious" },
+      { "id": "C", "text": "awkward" },
+      { "id": "D", "text": "hostile" }
+    ],
+    "correct": "A",
+    "explanation": "Captivating berarti sangat menarik perhatian, sesuai dengan audiens yang langsung diam. Tedious berarti membosankan, sehingga justru bertentangan dengan reaksi tersebut."
+  },
+  {
+    "id": "BT032-015",
+    "day": 32,
+    "type": "translate",
+    "prompt": "Selain jadwal yang padat, para relawan juga harus membawa perlengkapan sendiri ke lokasi.",
+    "acceptedAnswers": [
+      "In addition to the busy schedule, the volunteers must also bring their own equipment to the site.",
+      "Besides the busy schedule, the volunteers must also bring their own equipment to the site."
+    ],
+    "explanation": "Frasa in addition to diikuti kata benda, bukan klausa. Kata kerja utama bring tetap berbentuk dasar setelah must."
+  },
+  {
+    "id": "BT032-016",
+    "day": 32,
+    "type": "translate",
+    "prompt": "Berkat bantuan dari para tetangga, warga desa itu berhasil membangun jembatan kecil.",
+    "acceptedAnswers": [
+      "Thanks to the help of the neighbors, the villagers managed to build a small bridge.",
+      "Thanks to the help from their neighbors, the villagers managed to build a small bridge."
+    ],
+    "explanation": "Thanks to adalah frasa preposisi yang diikuti kata benda, bukan klausa. Kata kerja utama managed memakai bentuk lampau sesuai kejadian di masa lalu."
+  },
+  {
+    "id": "BT032-017",
+    "day": 32,
+    "type": "story",
+    "passage": "The biology club spent the spring studying the pond behind the science building. Despite the cold weather, members visited the site every Thursday to collect water samples. Instead of relying on their old microscopes, they borrowed a digital one from the chemistry lab. Among the samples, the most surprising was a small green alga that had never been recorded in the area. Thanks to careful notes, the members were able to share their discovery with a university team in June.",
+    "prompt": "Apa yang membuat anggota klub mampu membagikan penemuan mereka?",
+    "options": [
+      { "id": "A", "text": "Mereka membeli mikroskop digital baru" },
+      { "id": "B", "text": "Mereka mencatat temuan dengan cermat" },
+      { "id": "C", "text": "Tim universitas datang ke kolam" },
+      { "id": "D", "text": "Alga itu sudah tercatat sebelumnya" }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut anggota klub mampu berbagi penemuan berkat catatan yang cermat. Mikroskop digital hanya dipinjam, dan alga itu justru belum pernah tercatat."
+  },
+  {
+    "id": "BT032-018",
+    "day": 32,
+    "type": "listen",
+    "script": "The river tour starts at the old bridge, beside the fishing market. Across the water, the guide will point out three historic temples. Throughout the trip, visitors should stay inside the boat unless the captain gives permission.",
+    "prompt": "Di mana tur sungai dimulai?",
+    "options": [
+      { "id": "A", "text": "at the new train station" },
+      { "id": "B", "text": "at the old bridge beside the fishing market" },
+      { "id": "C", "text": "across from the three temples" },
+      { "id": "D", "text": "inside the captain's office" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut tur dimulai di jembatan tua, di samping pasar ikan. Stasiun kereta baru dan kantor kapten tidak disebut sebagai titik awal."
+  },
+  {
+    "id": "BT032-019",
+    "day": 32,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Tanpa mempedulikan cuaca buruk, para pendaki tetap melanjutkan perjalanan ke puncak.)",
+    "acceptedAnswers": [
+      "Despite the bad weather the hikers continued their journey to the summit"
+    ],
+    "explanation": "Despite adalah preposisi sehingga diikuti frasa kata benda the bad weather, bukan klausa. Subjek the hikers jamak, dan kata kerjanya continued memakai bentuk lampau."
+  },
+  {
+    "id": "BT033-011",
+    "day": 33,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Marco Ruiz, ___ of the award-winning documentary about coral reefs, will speak at the festival.",
+    "options": [
+      { "id": "A", "text": "the director" },
+      { "id": "B", "text": "directing" },
+      { "id": "C", "text": "directed" },
+      { "id": "D", "text": "to direct" }
+    ],
+    "correct": "A",
+    "explanation": "Frasa the director of the documentary adalah appositive yang menjelaskan nama Marco Ruiz. Appositive harus berupa frasa benda, bukan kata kerja atau infinitif."
+  },
+  {
+    "id": "BT033-012",
+    "day": 33,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The city's oldest bridge, a steel structure built in 1902, ___ closed for repairs since March.",
+    "options": [
+      { "id": "A", "text": "have been" },
+      { "id": "B", "text": "has been" },
+      { "id": "C", "text": "are being" },
+      { "id": "D", "text": "were" }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utamanya adalah bridge yang tunggal, sehingga kata kerjanya has been. Frasa a steel structure built in 1902 hanya appositive di antara dua koma."
+  },
+  {
+    "id": "BT033-013",
+    "day": 33,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The novelist's latest book is a ___ of letters written by soldiers during the war.",
+    "options": [
+      { "id": "A", "text": "compilation" },
+      { "id": "B", "text": "warranty" },
+      { "id": "C", "text": "dispute" },
+      { "id": "D", "text": "lantern" }
+    ],
+    "correct": "A",
+    "explanation": "Compilation berarti kumpulan karya yang disusun dari berbagai sumber, sesuai dengan surat-surat tentara. Warranty, dispute, dan lantern tidak cocok maknanya."
+  },
+  {
+    "id": "BT033-014",
+    "day": 33,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The town's ___ 'City of Lanterns' comes from the festival held every August.",
+    "options": [
+      { "id": "A", "text": "nickname" },
+      { "id": "B", "text": "citizen" },
+      { "id": "C", "text": "pension" },
+      { "id": "D", "text": "harvest" }
+    ],
+    "correct": "A",
+    "explanation": "Nickname adalah julukan, yaitu nama tambahan yang dikenal publik untuk sebuah kota. Citizen, pension, dan harvest tidak berarti julukan."
+  },
+  {
+    "id": "BT033-015",
+    "day": 33,
+    "type": "translate",
+    "prompt": "Budi Santoso, seorang insinyur yang baru pindah dari Surabaya, memimpin proyek jembatan itu.",
+    "acceptedAnswers": [
+      "Budi Santoso, an engineer who recently moved from Surabaya, leads the bridge project.",
+      "Budi Santoso, an engineer who has recently moved from Surabaya, leads the bridge project."
+    ],
+    "explanation": "Frasa seorang insinyur menjadi appositive yang diapit koma, dan kata kerja utama leads mengikuti subjek tunggal Budi Santoso. Klausa yang baru pindah diterjemahkan dengan who recently moved."
+  },
+  {
+    "id": "BT033-016",
+    "day": 33,
+    "type": "translate",
+    "prompt": "Perpustakaan itu, sebuah gedung tua dengan atap kayu, menyimpan ribuan naskah kuno.",
+    "acceptedAnswers": [
+      "The library, an old building with a wooden roof, holds thousands of ancient manuscripts.",
+      "The library, an old building with a wooden roof, keeps thousands of ancient manuscripts."
+    ],
+    "explanation": "Frasa sebuah gedung tua dengan atap kayu adalah appositive yang diapit koma. Subjek The library tunggal, sehingga kata kerjanya holds atau keeps."
+  },
+  {
+    "id": "BT033-017",
+    "day": 33,
+    "type": "story",
+    "passage": "The Harbor Gallery opened its doors last autumn with an exhibition of coastal paintings. Its founder, Lestari Wulandari, a former sailor turned painter, wanted a space where local artists could show their work without high fees. Among the featured artists is Pak Hendra, a fisherman who taught himself to paint during long nights at sea. His largest canvas, a view of the harbor at dawn, was bought by the city museum. The gallery now plans a second exhibition, a showcase of photographs taken by students from the nearby school.",
+    "prompt": "Siapa pendiri galeri tersebut?",
+    "options": [
+      { "id": "A", "text": "Pak Hendra, seorang nelayan" },
+      { "id": "B", "text": "Lestari Wulandari, mantan pelaut yang menjadi pelukis" },
+      { "id": "C", "text": "Kurator dari museum kota" },
+      { "id": "D", "text": "Murid-murid dari sekolah terdekat" }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut Lestari Wulandari sebagai pendiri galeri, seorang mantan pelaut yang menjadi pelukis. Pak Hendra hanya salah satu seniman yang dipamerkan."
+  },
+  {
+    "id": "BT033-018",
+    "day": 33,
+    "type": "listen",
+    "script": "The new science center, a three-story building beside the library, opens on Monday. Its director, Dr. Ayu Pratama, a chemist from Bandung, will give the first lecture. Students who register before Friday will receive a free ticket.",
+    "prompt": "Siapa yang akan memberikan kuliah pertama?",
+    "options": [
+      { "id": "A", "text": "the head of the library" },
+      { "id": "B", "text": "Dr. Ayu Pratama, a chemist from Bandung" },
+      { "id": "C", "text": "the students who register early" },
+      { "id": "D", "text": "a visiting professor from Jakarta" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut direktur pusat sains, Dr. Ayu Pratama, akan memberikan kuliah pertama. Kepala perpustakaan dan profesor tamu tidak disebut."
+  },
+  {
+    "id": "BT033-019",
+    "day": 33,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Joko, kepala desa itu, membuka program belajar di balai desa.)",
+    "acceptedAnswers": [
+      "Joko the village head opened the learning program at the village hall"
+    ],
+    "explanation": "Frasa the village head adalah appositive yang menjelaskan nama Joko. Tanpa tanda koma, susunan katanya tetap sama seperti kalimat aslinya."
+  },
+  {
+    "id": "BT034-011",
+    "day": 34,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Neither the manager nor the two accountants ___ aware of the mistake in the budget until Monday.",
+    "options": [
+      { "id": "A", "text": "was" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "has been" }
+    ],
+    "correct": "C",
+    "explanation": "Pada pola neither nor, kata kerja mengikuti subjek yang paling dekat, yaitu the two accountants yang jamak. Karena itu bentuk yang benar adalah were."
+  },
+  {
+    "id": "BT034-012",
+    "day": 34,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Every one of the seats in the stadium ___ reserved for members of the club.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "have been" },
+      { "id": "D", "text": "were" }
+    ],
+    "correct": "B",
+    "explanation": "Every one tetap tunggal walaupun diikuti of dan kata benda jamak, sehingga kata kerjanya is. Bentuk reserved berfungsi sebagai bagian pasif dari kalimat."
+  },
+  {
+    "id": "BT034-013",
+    "day": 34,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Each applicant must ___ a copy of the passport and two recent photos.",
+    "options": [
+      { "id": "A", "text": "submit" },
+      { "id": "B", "text": "invent" },
+      { "id": "C", "text": "erase" },
+      { "id": "D", "text": "prefer" }
+    ],
+    "correct": "A",
+    "explanation": "Submit berarti menyerahkan dokumen secara resmi, sesuai dengan syarat berkas pendaftaran. Invent, erase, dan prefer tidak cocok dengan konteks penyerahan berkas."
+  },
+  {
+    "id": "BT034-014",
+    "day": 34,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Neither plan was ___ enough to satisfy the board, so the project was delayed.",
+    "options": [
+      { "id": "A", "text": "adequate" },
+      { "id": "B", "text": "hostile" },
+      { "id": "C", "text": "timid" },
+      { "id": "D", "text": "gentle" }
+    ],
+    "correct": "A",
+    "explanation": "Adequate berarti memadai atau cukup, dan makna ini sejalan dengan proyek yang ditunda karena kedua rencana belum memuaskan dewan. Hostile, timid, dan gentle tidak cocok dengan konteks."
+  },
+  {
+    "id": "BT034-015",
+    "day": 34,
+    "type": "translate",
+    "prompt": "Setiap pesan yang dikirim lewat aplikasi ini harus diperiksa oleh petugas.",
+    "acceptedAnswers": [
+      "Every message sent through this app must be checked by an officer.",
+      "Each message sent through this app must be checked by an officer."
+    ],
+    "explanation": "Every dan each diikuti kata benda tunggal, sehingga subjeknya tunggal dan kata kerjanya memakai must be checked. Frasa sent through this app hanya menerangkan pesan."
+  },
+  {
+    "id": "BT034-016",
+    "day": 34,
+    "type": "translate",
+    "prompt": "Tidak satu pun dari kelima proposal itu yang disetujui oleh dewan.",
+    "acceptedAnswers": [
+      "None of the five proposals was approved by the board.",
+      "Not one of the five proposals was approved by the board."
+    ],
+    "explanation": "Pola none of dan not one of dalam kalimat ini memakai kata kerja tunggal was approved sesuai aturan bahasa Inggris formal. Frasa of the five proposals tidak menentukan bentuk kata kerja."
+  },
+  {
+    "id": "BT034-017",
+    "day": 34,
+    "type": "story",
+    "passage": "The robotics team at Harapan Junior High has ten members this year. Each student has a specific job, from wiring the sensors to writing the code. Every Tuesday, the group meets in the computer room to test their latest machine. Neither the sensors nor the motors worked properly during the first trial, so the team spent a week repairing them. Now, one of the newest members, Sari, leads the testing session because she found the loose wire that caused the problem.",
+    "prompt": "Mengapa Sari memimpin sesi pengujian?",
+    "options": [
+      { "id": "A", "text": "Dia menemukan kabel longgar yang menjadi penyebab masalah" },
+      { "id": "B", "text": "Dia menulis semua kode untuk mesin" },
+      { "id": "C", "text": "Dia anggota tertua dalam tim" },
+      { "id": "D", "text": "Dia membeli motor baru untuk tim" }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut Sari memimpin sesi karena ia menemukan kabel longgar yang menyebabkan masalah. Pilihan lain tidak disebutkan dalam bacaan."
+  },
+  {
+    "id": "BT034-018",
+    "day": 34,
+    "type": "listen",
+    "script": "Every bus to the airport leaves from the main terminal. Either the blue line or the red line will take you there, but the red one is faster. None of the drivers stops at the old station.",
+    "prompt": "Jalur mana yang lebih cepat menuju bandara?",
+    "options": [
+      { "id": "A", "text": "the blue line" },
+      { "id": "B", "text": "the red line" },
+      { "id": "C", "text": "the line that stops at the old station" },
+      { "id": "D", "text": "both lines at the same speed" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut jalur merah lebih cepat daripada jalur biru. Tidak ada jalur yang berhenti di stasiun lama, dan kedua jalur tidak sama cepatnya."
+  },
+  {
+    "id": "BT034-019",
+    "day": 34,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Setiap peserta harus membawa kartu identitas dan surat izin dari sekolah.)",
+    "acceptedAnswers": [
+      "Each participant must bring an identity card and a permission letter from the school"
+    ],
+    "explanation": "Subjek Each participant tunggal, dan kata kerja modal must diikuti bentuk dasar bring. Frasa a permission letter from the school adalah objek dari kata kerja tersebut."
+  },
+  {
+    "id": "BT035-011",
+    "day": 35,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "One of the reasons for the delay ___ the shortage of qualified drivers.",
+    "options": [
+      { "id": "A", "text": "are" },
+      { "id": "B", "text": "is" },
+      { "id": "C", "text": "were" },
+      { "id": "D", "text": "have been" }
+    ],
+    "correct": "B",
+    "explanation": "Pada pola one of the reasons, subjek utamanya adalah one yang tunggal, sehingga kata kerjanya is. Frasa the reasons for the delay hanya menjelaskan kata one."
+  },
+  {
+    "id": "BT035-012",
+    "day": 35,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Forty percent of the factory's workers ___ on night shifts this month.",
+    "options": [
+      { "id": "A", "text": "works" },
+      { "id": "B", "text": "work" },
+      { "id": "C", "text": "is working" },
+      { "id": "D", "text": "has worked" }
+    ],
+    "correct": "B",
+    "explanation": "Setelah forty percent of diikuti kata benda jamak workers, kata kerjanya memakai bentuk jamak work. Bentuk works dan is working mengikuti subjek tunggal, sedangkan has worked tidak cocok dengan keterangan present simple."
+  },
+  {
+    "id": "BT035-013",
+    "day": 35,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The archive's ___ of letters from wartime soldiers is so large that it fills three basement rooms.",
+    "options": [
+      { "id": "A", "text": "stockpile" },
+      { "id": "B", "text": "tremor" },
+      { "id": "C", "text": "verdict" },
+      { "id": "D", "text": "outfit" }
+    ],
+    "correct": "A",
+    "explanation": "Stockpile berarti persediaan atau kumpulan dalam jumlah besar, sesuai dengan arsip yang memenuhi tiga ruang bawah tanah. Tremor, verdict, dan outfit tidak cocok dengan konteks."
+  },
+  {
+    "id": "BT035-014",
+    "day": 35,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The hiking club owns an ___ of tents, ropes, and cooking gear that members can borrow for free.",
+    "options": [
+      { "id": "A", "text": "assortment" },
+      { "id": "B", "text": "sentence" },
+      { "id": "C", "text": "dialect" },
+      { "id": "D", "text": "cathedral" }
+    ],
+    "correct": "A",
+    "explanation": "Assortment berarti campuran berbagai barang yang berbeda jenis, sesuai dengan tenda, tali, dan peralatan masak. Sentence, dialect, dan cathedral tidak tepat dalam konteks ini."
+  },
+  {
+    "id": "BT035-015",
+    "day": 35,
+    "type": "translate",
+    "prompt": "Lebih dari separuh warga kampung itu sekarang bekerja di kota.",
+    "acceptedAnswers": [
+      "More than half of the villagers now work in the city.",
+      "More than half of the residents of the village now work in the city."
+    ],
+    "explanation": "Frasa more than half of diikuti kata benda jamak, sehingga kata kerjanya work tanpa -s. Bentuk jamak ini mengikuti kata benda villagers."
+  },
+  {
+    "id": "BT035-016",
+    "day": 35,
+    "type": "translate",
+    "prompt": "Sejumlah besar pengunjung mengeluh karena antrean terlalu panjang.",
+    "acceptedAnswers": [
+      "A large number of visitors complained because the line was too long.",
+      "A large number of visitors complained because the queue was too long."
+    ],
+    "explanation": "Pola a large number of diikuti kata benda jamak, sehingga kata kerjanya jamak complained. Berbeda dengan the number of yang memakai kata kerja tunggal."
+  },
+  {
+    "id": "BT035-017",
+    "day": 35,
+    "type": "story",
+    "passage": "The city council surveyed 1,200 residents about public transport. The results showed that a large number of commuters preferred the new bus route, although the amount of complaints about late arrivals had also grown. Nearly two-thirds of the respondents said they walk to work, while only a small portion of them use the train. The council was surprised that the majority of young people wanted more bike lanes instead of extra buses. A series of meetings will be held next month to discuss the findings.",
+    "prompt": "Apa yang mengejutkan dewan kota?",
+    "options": [
+      { "id": "A", "text": "Banyak anak muda ingin jalur sepeda ditambah, bukan bus" },
+      { "id": "B", "text": "Sebagian besar responden naik kereta setiap hari" },
+      { "id": "C", "text": "Jumlah pengaduan turun dibanding tahun lalu" },
+      { "id": "D", "text": "Rute bus baru tidak disukai siapa pun" }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut mayoritas anak muda ingin jalur sepeda ditambah, bukan bus tambahan, dan hal itu mengejutkan dewan. Sebagian besar responden justru berjalan kaki, bukan naik kereta."
+  },
+  {
+    "id": "BT035-018",
+    "day": 35,
+    "type": "listen",
+    "script": "One of the three ferries has been repaired and will sail again on Thursday. The majority of passengers prefer the morning trip because the sea is calmer. A number of tourists, however, want the afternoon schedule.",
+    "prompt": "Kapan feri yang sudah diperbaiki mulai berlayar lagi?",
+    "options": [
+      { "id": "A", "text": "on Monday morning" },
+      { "id": "B", "text": "on Thursday" },
+      { "id": "C", "text": "on Saturday afternoon" },
+      { "id": "D", "text": "on the first day of the month" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut feri yang diperbaiki akan berlayar lagi pada hari Kamis. Hari Senin, Sabtu, dan awal bulan tidak disebut untuk feri tersebut."
+  },
+  {
+    "id": "BT035-019",
+    "day": 35,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Lebih dari sepertiga anggota tim berasal dari luar negeri.)",
+    "acceptedAnswers": [
+      "More than a third of the team members come from abroad"
+    ],
+    "explanation": "Pola more than a third of diikuti kata benda jamak members, sehingga kata kerjanya come. Bentuk jamak ini mengikuti kata benda, bukan frasa more than a third."
+  },
+  {
+    "id": "BT036-011",
+    "day": 36,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The packages that the courier left at the reception desk, together with the letter from the bank, ___ expected to be signed by the manager before noon.",
+    "options": [
+      { "id": "A", "text": "is expected" },
+      { "id": "B", "text": "are expected" },
+      { "id": "C", "text": "be expected" },
+      { "id": "D", "text": "expecting" }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utamanya adalah packages yang jamak, sehingga kata kerjanya are expected. Frasa together with the letter from the bank hanya menjadi sisipan."
+  },
+  {
+    "id": "BT036-012",
+    "day": 36,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The report explains ___ the bridge collapsed after the earthquake.",
+    "options": [
+      { "id": "A", "text": "why" },
+      { "id": "B", "text": "because" },
+      { "id": "C", "text": "although" },
+      { "id": "D", "text": "so that" }
+    ],
+    "correct": "A",
+    "explanation": "Why memperkenalkan klausa yang menjelaskan alasan suatu kejadian, sehingga cocok dengan pola explains why. Because, although, dan so that tidak tepat dalam pola ini."
+  },
+  {
+    "id": "BT036-013",
+    "day": 36,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The engineers ___ the cracks in the wall before deciding whether the building was safe.",
+    "options": [
+      { "id": "A", "text": "examined" },
+      { "id": "B", "text": "bargained" },
+      { "id": "C", "text": "adorned" },
+      { "id": "D", "text": "vanished" }
+    ],
+    "correct": "A",
+    "explanation": "Examined berarti memeriksa dengan teliti, sesuai dengan langkah sebelum menentukan keamanan bangunan. Bargained, adorned, dan vanished tidak cocok dengan konteks tersebut."
+  },
+  {
+    "id": "BT036-014",
+    "day": 36,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Her argument was so ___ that the judges could not find a single weak point.",
+    "options": [
+      { "id": "A", "text": "flawless" },
+      { "id": "B", "text": "reckless" },
+      { "id": "C", "text": "tedious" },
+      { "id": "D", "text": "fragile" }
+    ],
+    "correct": "A",
+    "explanation": "Flawless berarti tanpa cacat, sesuai dengan argumen yang tidak memiliki titik lemah. Fragile justru berarti mudah rusak, sehingga bertentangan dengan konteks."
+  },
+  {
+    "id": "BT036-015",
+    "day": 36,
+    "type": "translate",
+    "prompt": "Karena hujan turun sejak pagi, pertandingan itu ditunda sampai minggu depan.",
+    "acceptedAnswers": [
+      "Because it had been raining since morning, the match was postponed until next week.",
+      "The match was postponed until next week because it had been raining since morning."
+    ],
+    "explanation": "Klausa because it had been raining since morning memakai past perfect continuous untuk menunjukkan hujan yang sudah berlangsung sebelum penundaan. Kata kerja utama was postponed mengikuti bentuk lampau."
+  },
+  {
+    "id": "BT036-016",
+    "day": 36,
+    "type": "translate",
+    "prompt": "Siapa pun yang menemukan dompet itu diminta segera melapor ke pos satpam.",
+    "acceptedAnswers": [
+      "Whoever finds the wallet is asked to report to the security post immediately.",
+      "Anyone who finds the wallet is asked to report to the security post immediately."
+    ],
+    "explanation": "Whoever dan anyone berfungsi sebagai subjek tunggal dalam klausa, sehingga kata kerja pasifnya is asked. Klausa who finds the wallet menjelaskan orang yang dimaksud."
+  },
+  {
+    "id": "BT036-017",
+    "day": 36,
+    "type": "story",
+    "passage": "The school library reopened after a two-month renovation. Its new reading corner, which has soft chairs and large windows, is the favorite place for students who want quiet study. The librarian, who joined the school in 2015, says that the room was redesigned because students kept asking for more space to work in groups. Whatever the reason, the new layout works well. Before the renovation, the old shelves blocked the light, so many readers chose to leave. Now the library stays open until six o'clock, which gives students extra time after classes end.",
+    "prompt": "Mengapa ruang baca diubah tata letaknya?",
+    "options": [
+      { "id": "A", "text": "Karena pustakawan baru ingin pindah kantor" },
+      { "id": "B", "text": "Karena siswa sering meminta ruang untuk belajar berkelompok" },
+      { "id": "C", "text": "Karena rak lama harus dibuang semua" },
+      { "id": "D", "text": "Karena perpustakaan harus tutup lebih awal" }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut ruang itu didesain ulang karena siswa terus meminta ruang untuk bekerja dalam kelompok. Pilihan lain tidak disebutkan sebagai alasan."
+  },
+  {
+    "id": "BT036-018",
+    "day": 36,
+    "type": "listen",
+    "script": "The student who wrote the essay had a clear plan, but the teacher noticed that the conclusion was too short. Because the argument was strong, she suggested adding one more example. Whether the class agrees or not, the final draft is due on Friday.",
+    "prompt": "Apa saran guru untuk esai tersebut?",
+    "options": [
+      { "id": "A", "text": "shorten the introduction" },
+      { "id": "B", "text": "add one more example" },
+      { "id": "C", "text": "change the title of the essay" },
+      { "id": "D", "text": "delete the conclusion completely" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut guru menyarankan penambahan satu contoh karena argumennya sudah kuat. Memperpendek pendahuluan, mengganti judul, dan menghapus kesimpulan tidak disebut."
+  },
+  {
+    "id": "BT036-019",
+    "day": 36,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Apa pun yang terjadi, kami akan tetap datang ke rapat besok.)",
+    "acceptedAnswers": [
+      "Whatever happens we will still come to the meeting tomorrow"
+    ],
+    "explanation": "Whatever happens adalah klausa konsesif yang berdiri sebagai anak kalimat di awal. Klausa utama tetap memakai will still come sesuai subjek we."
+  },
+  {
+    "id": "BT037-011",
+    "day": 37,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The manager, together with her two assistants, ___ the annual report before the board meeting.",
+    "options": [
+      { "id": "A", "text": "review" },
+      { "id": "B", "text": "reviews" },
+      { "id": "C", "text": "reviewing" },
+      { "id": "D", "text": "reviewed" }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utamanya adalah manager yang tunggal, sehingga kata kerjanya reviews. Frasa together with her two assistants hanya memberi keterangan tambahan."
+  },
+  {
+    "id": "BT037-012",
+    "day": 37,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Several of the boxes on the shelf ___ labeled with a number, so the staff can find items quickly.",
+    "options": [
+      { "id": "A", "text": "is" },
+      { "id": "B", "text": "are" },
+      { "id": "C", "text": "has been" },
+      { "id": "D", "text": "being" }
+    ],
+    "correct": "B",
+    "explanation": "Several of diikuti kata benda jamak boxes, sehingga kata kerjanya are labeled. Frasa on the shelf tidak mengubah bentuk kata kerja."
+  },
+  {
+    "id": "BT037-013",
+    "day": 37,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The new guideline is meant to ___ the risk of errors in the lab reports.",
+    "options": [
+      { "id": "A", "text": "reduce" },
+      { "id": "B", "text": "forecast" },
+      { "id": "C", "text": "insult" },
+      { "id": "D", "text": "decorate" }
+    ],
+    "correct": "A",
+    "explanation": "Reduce berarti mengurangi, sesuai dengan tujuan pedoman untuk menekan risiko kesalahan. Forecast, insult, dan decorate tidak cocok maknanya."
+  },
+  {
+    "id": "BT037-014",
+    "day": 37,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The author's ___ in the appendix explains each technical term used in the book.",
+    "options": [
+      { "id": "A", "text": "glossary" },
+      { "id": "B", "text": "garage" },
+      { "id": "C", "text": "grievance" },
+      { "id": "D", "text": "gratitude" }
+    ],
+    "correct": "A",
+    "explanation": "Glossary adalah daftar istilah beserta penjelasannya, biasanya terletak di bagian lampiran. Garage, grievance, dan gratitude tidak berarti daftar istilah."
+  },
+  {
+    "id": "BT037-015",
+    "day": 37,
+    "type": "translate",
+    "prompt": "Setiap orang di tim itu sudah mengerjakan bagiannya sendiri.",
+    "acceptedAnswers": [
+      "Each member of the team has finished his or her own part.",
+      "Everyone on the team has finished their own part."
+    ],
+    "explanation": "Subjek each member dan everyone sama-sama tunggal, sehingga kata kerjanya has finished. Bentuk his or her atau their hanya menyesuaikan kata ganti kepemilikan."
+  },
+  {
+    "id": "BT037-016",
+    "day": 37,
+    "type": "translate",
+    "prompt": "Banyak mahasiswa datang ke perpustakaan setelah jam kuliah, tetapi hanya sedikit yang membawa buku.",
+    "acceptedAnswers": [
+      "Many students come to the library after class, but only a few of them bring books.",
+      "Many students come to the library after classes, but only a few bring books."
+    ],
+    "explanation": "Pola only a few diikuti kata benda jamak, sehingga kata kerjanya bring tanpa -s. Kalimat pertama Many students come juga memakai bentuk jamak."
+  },
+  {
+    "id": "BT037-017",
+    "day": 37,
+    "type": "story",
+    "passage": "Rina is preparing for an English test next week. Her teacher reminded the class that every sentence needs a verb that agrees with its subject. Rina wrote a long paragraph about the city market, but she noticed that one of the sentences had two subjects that were not connected properly. She also joined two ideas with so, even though a subordinate clause would have been clearer. After revising the draft, she read it aloud to a friend, who helped her find a missing comma after an introductory phrase.",
+    "prompt": "Apa yang diperbaiki Rina setelah temannya membaca naskahnya?",
+    "options": [
+      { "id": "A", "text": "Ia menambahkan koma setelah frasa pembuka" },
+      { "id": "B", "text": "Ia mengganti semua kata kerja menjadi bentuk jamak" },
+      { "id": "C", "text": "Ia menghapus seluruh paragraf tentang pasar" },
+      { "id": "D", "text": "Ia menulis ulang judul ujian" }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut temannya membantu Rina menemukan koma yang hilang setelah frasa pembuka. Perubahan lain, seperti mengganti semua kata kerja atau menghapus paragraf, tidak disebutkan."
+  },
+  {
+    "id": "BT037-018",
+    "day": 37,
+    "type": "listen",
+    "script": "The workshop covers three topics: subject-verb agreement, appositives, and coordinate connectors. Each participant will receive a checklist, which should be completed before the second session. Anyone who misses the first session can ask the tutor for a recording.",
+    "prompt": "Apa yang akan diterima setiap peserta?",
+    "options": [
+      { "id": "A", "text": "a checklist to complete before the second session" },
+      { "id": "B", "text": "a certificate from the university" },
+      { "id": "C", "text": "a copy of the slides by email" },
+      { "id": "D", "text": "a list of optional exercises" }
+    ],
+    "correct": "A",
+    "explanation": "Naskah menyebut setiap peserta menerima daftar periksa yang harus diselesaikan sebelum sesi kedua. Sertifikat, slide lewat email, dan latihan opsional tidak disebut."
+  },
+  {
+    "id": "BT037-019",
+    "day": 37,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Sebagian besar peserta sudah menyelesaikan latihan, tetapi beberapa orang masih bingung.)",
+    "acceptedAnswers": [
+      "Most of the participants have finished the exercise but some people are still confused"
+    ],
+    "explanation": "Subjek Most of the participants adalah jamak, sehingga kata kerjanya have finished. Klausa kedua some people are still confused juga memakai bentuk jamak."
+  },
+  {
+    "id": "BT038-011",
+    "day": 38,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The software update was delayed by two days; ___, the staff had to work overtime to finish the reports.",
+    "options": [
+      { "id": "A", "text": "Consequently" },
+      { "id": "B", "text": "In spite of" },
+      { "id": "C", "text": "Whereas" },
+      { "id": "D", "text": "Unless" }
+    ],
+    "correct": "A",
+    "explanation": "Consequently menunjukkan akibat dari penundaan, dan setelah tanda titik koma ia diikuti koma. In spite of adalah preposisi, sedangkan whereas dan unless adalah penghubung yang membutuhkan klausa."
+  },
+  {
+    "id": "BT038-012",
+    "day": 38,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The plan seemed simple on paper; ___, it failed during the first week because no one had checked the budget.",
+    "options": [
+      { "id": "A", "text": "Nevertheless" },
+      { "id": "B", "text": "Because" },
+      { "id": "C", "text": "Unless" },
+      { "id": "D", "text": "Therefore" }
+    ],
+    "correct": "A",
+    "explanation": "Nevertheless menunjukkan kontras dengan kesan bahwa rencana tampak sederhana. Because dan unless membutuhkan klausa, sedangkan therefore memberi hasil yang tidak masuk akal di sini."
+  },
+  {
+    "id": "BT038-013",
+    "day": 38,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The new policy was ___ by the board in June and takes effect in August.",
+    "options": [
+      { "id": "A", "text": "ratified" },
+      { "id": "B", "text": "devoured" },
+      { "id": "C", "text": "misplaced" },
+      { "id": "D", "text": "inflated" }
+    ],
+    "correct": "A",
+    "explanation": "Ratified berarti disahkan secara resmi, sesuai dengan kebijakan yang disetujui dewan sebelum berlaku. Devoured, misplaced, dan inflated tidak cocok dengan konteks."
+  },
+  {
+    "id": "BT038-014",
+    "day": 38,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Her presentation was ___ and clear, with each point supported by a single chart.",
+    "options": [
+      { "id": "A", "text": "concise" },
+      { "id": "B", "text": "verbose" },
+      { "id": "C", "text": "ambiguous" },
+      { "id": "D", "text": "tentative" }
+    ],
+    "correct": "A",
+    "explanation": "Concise berarti singkat dan padat, sesuai dengan presentasi yang jelas dan didukung satu grafik di tiap poin. Verbose justru berarti bertele-tele."
+  },
+  {
+    "id": "BT038-015",
+    "day": 38,
+    "type": "translate",
+    "prompt": "Akibatnya, banyak pelanggan memilih berbelanja secara daring.",
+    "acceptedAnswers": [
+      "As a result, many customers chose to shop online.",
+      "Consequently, many customers chose to shop online."
+    ],
+    "explanation": "As a result dan consequently adalah penghubung yang menunjukkan akibat, dan biasanya diikuti koma. Kata kerja utama chose memakai bentuk lampau."
+  },
+  {
+    "id": "BT038-016",
+    "day": 38,
+    "type": "translate",
+    "prompt": "Namun demikian, para petani tetap optimis bahwa panen tahun ini akan melimpah.",
+    "acceptedAnswers": [
+      "Nevertheless, the farmers remain optimistic that this year's harvest will be abundant.",
+      "However, the farmers remain optimistic that this year's harvest will be abundant."
+    ],
+    "explanation": "Namun demikian diterjemahkan dengan nevertheless atau however sebagai penghubung kontras. Kata kerja remain memakai bentuk jamak karena subjeknya the farmers."
+  },
+  {
+    "id": "BT038-017",
+    "day": 38,
+    "type": "story",
+    "passage": "The village cooperative bought a new water pump in March. Meanwhile, the farmers in the eastern fields were still waiting for their seeds. Therefore, the leader of the cooperative organized a meeting to plan the delivery. Furthermore, she asked the local store to donate extra sacks. However, a storm damaged the road two days later, so the seeds arrived late. Consequently, the planting season began a week after the usual date, but the harvest was healthy.",
+    "prompt": "Mengapa musim tanam dimulai seminggu lebih lambat?",
+    "options": [
+      { "id": "A", "text": "Pompa air baru tidak bisa dipasang" },
+      { "id": "B", "text": "Badai merusak jalan sehingga benih tiba terlambat" },
+      { "id": "C", "text": "Toko setempat menolak memberi karung" },
+      { "id": "D", "text": "Para petani menolak menanam padi" }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut badai merusak jalan sehingga benih datang terlambat, dan akibatnya musim tanam mundur. Pompa air, karung, dan penolakan petani tidak menjadi penyebabnya."
+  },
+  {
+    "id": "BT038-018",
+    "day": 38,
+    "type": "listen",
+    "script": "The company will open a second warehouse in the spring. Moreover, it plans to hire forty new drivers. Thus, the delivery time should drop by almost half.",
+    "prompt": "Apa rencana tambahan perusahaan selain gudang baru?",
+    "options": [
+      { "id": "A", "text": "a new office in the city center" },
+      { "id": "B", "text": "forty new drivers" },
+      { "id": "C", "text": "a shorter training period" },
+      { "id": "D", "text": "a fleet of electric trucks" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut perusahaan juga berencana mempekerjakan empat puluh pengemudi baru. Kantor baru, masa pelatihan, dan truk listrik tidak disebut."
+  },
+  {
+    "id": "BT038-019",
+    "day": 38,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Oleh karena itu, kami memutuskan untuk mengurangi jumlah pesanan.)",
+    "acceptedAnswers": [
+      "Therefore we decided to reduce the number of orders"
+    ],
+    "explanation": "Therefore adalah penghubung yang menunjukkan akibat dan diletakkan di awal kalimat. Kata kerja decided tetap berbentuk lampau mengikuti subjek we."
+  },
+  {
+    "id": "BT039-011",
+    "day": 39,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "We will not start the experiment until the temperature ___ the required level.",
+    "options": [
+      { "id": "A", "text": "will reach" },
+      { "id": "B", "text": "reaches" },
+      { "id": "C", "text": "reaching" },
+      { "id": "D", "text": "to reach" }
+    ],
+    "correct": "B",
+    "explanation": "Dalam klausa waktu yang diawali until, kata kerja memakai bentuk sekarang reaches meskipun maknanya masa depan. Bentuk will reach tidak dipakai dalam klausa waktu."
+  },
+  {
+    "id": "BT039-012",
+    "day": 39,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "If the workers ___ the inspection tomorrow, the factory can start its new production line.",
+    "options": [
+      { "id": "A", "text": "will finish" },
+      { "id": "B", "text": "finish" },
+      { "id": "C", "text": "finished" },
+      { "id": "D", "text": "to finish" }
+    ],
+    "correct": "B",
+    "explanation": "Dalam klausa if untuk kondisi di masa depan, kata kerjanya memakai bentuk sekarang finish. Bentuk will finish tidak boleh dipakai di dalam klausa if."
+  },
+  {
+    "id": "BT039-013",
+    "day": 39,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The club will ___ the event if the weather report shows heavy rain.",
+    "options": [
+      { "id": "A", "text": "postpone" },
+      { "id": "B", "text": "purchase" },
+      { "id": "C", "text": "conquer" },
+      { "id": "D", "text": "interpret" }
+    ],
+    "correct": "A",
+    "explanation": "Postpone berarti menunda, sesuai dengan keputusan jika laporan cuaca menunjukkan hujan lebat. Purchase, conquer, dan interpret tidak cocok dengan konteks."
+  },
+  {
+    "id": "BT039-014",
+    "day": 39,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Please ___ your seat belt once the plane begins its descent.",
+    "options": [
+      { "id": "A", "text": "fasten" },
+      { "id": "B", "text": "hoist" },
+      { "id": "C", "text": "scatter" },
+      { "id": "D", "text": "brew" }
+    ],
+    "correct": "A",
+    "explanation": "Fasten berarti mengencangkan atau mengaitkan, dan itulah arti yang dipakai untuk sabuk pengaman. Hoist, scatter, dan brew tidak cocok dengan konteks."
+  },
+  {
+    "id": "BT039-015",
+    "day": 39,
+    "type": "translate",
+    "prompt": "Kami akan mengumumkan pemenangnya setelah juri selesai menilai semua karya.",
+    "acceptedAnswers": [
+      "We will announce the winner after the judges finish scoring all the entries.",
+      "We will announce the winner once the judges finish scoring all the entries."
+    ],
+    "explanation": "Klausa waktu yang diawali after atau once memakai bentuk sekarang finish, meskipun peristiwanya di masa depan. Kata kerja utama will announce memakai bentuk masa depan."
+  },
+  {
+    "id": "BT039-016",
+    "day": 39,
+    "type": "translate",
+    "prompt": "Jika cuaca memburuk, kapal itu tidak akan berangkat sampai besok.",
+    "acceptedAnswers": [
+      "If the weather gets worse, the ship will not leave until tomorrow.",
+      "If the weather worsens, the ship will not depart until tomorrow."
+    ],
+    "explanation": "Dalam klausa if untuk kondisi masa depan, kata kerja memakai bentuk sekarang gets atau worsens. Klausa utama memakai will not leave atau will not depart."
+  },
+  {
+    "id": "BT039-017",
+    "day": 39,
+    "type": "story",
+    "passage": "The town's ferry service is run by a small team of workers. They start loading the boats as soon as the tide allows, and they keep the schedule until the last passenger has boarded. Whenever a storm is forecast, the captain cancels the afternoon trips. If the wind is strong enough to make the waves dangerous, the ferry waits at the port until conditions improve. Once the weather clears, the crew sends a message to the ticket office so that passengers can plan their return.",
+    "prompt": "Kapan kru mengirim pesan ke loket tiket?",
+    "options": [
+      { "id": "A", "text": "setelah cuaca kembali cerah" },
+      { "id": "B", "text": "setiap kali badai diramalkan" },
+      { "id": "C", "text": "sebelum penumpang naik ke kapal" },
+      { "id": "D", "text": "ketika angin mulai berhenti sepenuhnya" }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut kru mengirim pesan setelah cuaca kembali cerah, agar penumpang bisa merencanakan kepulangan. Badai diramalkan hanya membuat kapten membatalkan perjalanan sore."
+  },
+  {
+    "id": "BT039-018",
+    "day": 39,
+    "type": "listen",
+    "script": "Please keep this door closed during the test. If you hear the alarm, leave the room quickly, but do not use the elevator. Whenever the team finishes a test, they should write the result in the log.",
+    "prompt": "Apa yang harus dilakukan jika alarm berbunyi?",
+    "options": [
+      { "id": "A", "text": "keep the door open until the alarm stops" },
+      { "id": "B", "text": "use the elevator to leave quickly" },
+      { "id": "C", "text": "leave the room quickly without using the elevator" },
+      { "id": "D", "text": "write the result in the log before leaving" }
+    ],
+    "correct": "C",
+    "explanation": "Naskah menyebut jika alarm berbunyi, orang harus keluar ruangan dengan cepat dan tidak memakai lift. Pilihan lain bertentangan dengan instruksi tersebut."
+  },
+  {
+    "id": "BT039-019",
+    "day": 39,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Kita harus menunggu sampai hujan reda sebelum mendaki gunung itu.)",
+    "acceptedAnswers": [
+      "We must wait until the rain stops before climbing the mountain"
+    ],
+    "explanation": "Klausa waktu until the rain stops memakai bentuk sekarang stops meskipun maksudnya masa depan. Frasa before climbing menunjukkan urutan kejadian setelah menunggu."
+  },
+  {
+    "id": "BT040-011",
+    "day": 40,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ the new road is shorter, drivers still choose the old highway.",
+    "options": [
+      { "id": "A", "text": "Although" },
+      { "id": "B", "text": "Despite" },
+      { "id": "C", "text": "Nevertheless" },
+      { "id": "D", "text": "Unless" }
+    ],
+    "correct": "A",
+    "explanation": "Although adalah konjungsi yang diikuti klausa lengkap. Despite diikuti kata benda, nevertheless adalah kata keterangan, dan unless berarti kecuali jika sehingga tidak sesuai dengan makna kontras."
+  },
+  {
+    "id": "BT040-012",
+    "day": 40,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "While the first chapter is written in formal English, the second chapter ___ a casual tone.",
+    "options": [
+      { "id": "A", "text": "uses" },
+      { "id": "B", "text": "used" },
+      { "id": "C", "text": "using" },
+      { "id": "D", "text": "to use" }
+    ],
+    "correct": "A",
+    "explanation": "Kalimat utamanya membutuhkan kata kerja finit dalam bentuk sekarang uses agar sejalan dengan is written. Used dan using tidak sesuai bentuk utama, sedangkan to use tidak dapat menjadi predikat."
+  },
+  {
+    "id": "BT040-013",
+    "day": 40,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Notwithstanding the heavy rain, the organizers ___ the schedule without any changes.",
+    "options": [
+      { "id": "A", "text": "maintained" },
+      { "id": "B", "text": "confessed" },
+      { "id": "C", "text": "dissolved" },
+      { "id": "D", "text": "postponed" }
+    ],
+    "correct": "A",
+    "explanation": "Maintained berarti mempertahankan, sesuai dengan jadwal yang tetap berjalan meski hujan deras. Postponed bertentangan dengan frasa without any changes."
+  },
+  {
+    "id": "BT040-014",
+    "day": 40,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The guide's advice was ___ to what the map suggested, so the group took a different path.",
+    "options": [
+      { "id": "A", "text": "contrary" },
+      { "id": "B", "text": "similar" },
+      { "id": "C", "text": "careless" },
+      { "id": "D", "text": "ordinary" }
+    ],
+    "correct": "A",
+    "explanation": "Contrary to berarti bertentangan dengan, sehingga kelompok mengambil jalur yang berbeda. Similar, careless, dan ordinary tidak sesuai dengan makna tersebut."
+  },
+  {
+    "id": "BT040-015",
+    "day": 40,
+    "type": "translate",
+    "prompt": "Meskipun harganya mahal, tiket konser itu habis terjual dalam waktu satu jam.",
+    "acceptedAnswers": [
+      "Although the price was high, the concert tickets sold out within an hour.",
+      "Even though the price was high, the concert tickets sold out within an hour."
+    ],
+    "explanation": "Klausa although the price was high memakai bentuk lampau was untuk kondisi dalam cerita, dan klausa utama juga memakai bentuk lampau sold out. Penghubung although atau even though tidak diikuti kata benda seperti despite."
+  },
+  {
+    "id": "BT040-016",
+    "day": 40,
+    "type": "translate",
+    "prompt": "Apa pun alasannya, mereka tetap menolak tawaran dari perusahaan itu.",
+    "acceptedAnswers": [
+      "Whatever the reason, they still refused the offer from the company.",
+      "Whatever their reason, they still refused the company's offer."
+    ],
+    "explanation": "Whatever the reason adalah klausa konsesif yang menunjukkan bahwa alasan apa pun tidak mengubah keputusan. Kata kerja utama refused memakai bentuk lampau."
+  },
+  {
+    "id": "BT040-017",
+    "day": 40,
+    "type": "story",
+    "passage": "The science fair was held in a crowded gym on Saturday. Although the room was noisy, the judges worked carefully through the forty projects. While most teams used simple posters, one group built a working model of a water filter. Even though their table was small, the model attracted a long line of visitors. Nonetheless, the first-place award went to a student who measured soil samples from the school garden, whereas the water filter team received a special mention for creativity.",
+    "prompt": "Apa yang diterima tim saringan air?",
+    "options": [
+      { "id": "A", "text": "Penghargaan juara pertama" },
+      { "id": "B", "text": "Penyebutan khusus untuk kreativitas" },
+      { "id": "C", "text": "Tempat khusus di dekat pintu gym" },
+      { "id": "D", "text": "Hadiah berupa tanah dari kebun sekolah" }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut tim saringan air menerima penyebutan khusus untuk kreativitas. Juara pertama diberikan kepada proyek lain yang mengukur sampel tanah."
+  },
+  {
+    "id": "BT040-018",
+    "day": 40,
+    "type": "listen",
+    "script": "Although the bus was late, most passengers stayed calm. Whereas the first group complained loudly, the second group offered to help the driver. Whichever seat you choose, please keep your bag under the seat in front of you.",
+    "prompt": "Apa yang dilakukan kelompok kedua?",
+    "options": [
+      { "id": "A", "text": "They complained loudly to the driver" },
+      { "id": "B", "text": "They offered to help the driver" },
+      { "id": "C", "text": "They left the bus early" },
+      { "id": "D", "text": "They chose new seats" }
+    ],
+    "correct": "B",
+    "explanation": "Naskah menyebut kelompok kedua menawarkan bantuan kepada sopir, berbeda dengan kelompok pertama yang mengeluh keras. Pilihan lain tidak disebut."
+  },
+  {
+    "id": "BT040-019",
+    "day": 40,
+    "type": "reorder",
+    "prompt": "Susun kata-kata menjadi kalimat bahasa Inggris (artinya: Walaupun ia lelah, dokter itu tetap menyelesaikan operasi sampai larut malam.)",
+    "acceptedAnswers": [
+      "Although she was tired the doctor still finished the operation late at night"
+    ],
+    "explanation": "Although she was tired adalah klausa konsesif, sehingga klausa utama tidak perlu kata penghubung kedua seperti but. Kata kerja utama finished memakai bentuk lampau."
+  }
+]

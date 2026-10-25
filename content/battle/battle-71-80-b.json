@@ -1,0 +1,1222 @@
+[
+  {
+    "id": "BT071-011",
+    "day": 71,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Once the clay has dried, the bricks ___ in a kiln for two days.",
+    "options": [
+      { "id": "A", "text": "are fired" },
+      { "id": "B", "text": "fire" },
+      { "id": "C", "text": "firing" },
+      { "id": "D", "text": "have fired" }
+    ],
+    "correct": "A",
+    "explanation": "Bata menerima aksi dibakar di dalam tungku, jadi dipakai pasif are fired. Fire dan have fired membuat bata terkesan melakukan aksi sendiri, sedangkan firing tidak bisa berdiri sebagai predikat."
+  },
+  {
+    "id": "BT071-012",
+    "day": 71,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The compost must be turned regularly ___ oxygen can reach the bottom layer.",
+    "options": [
+      { "id": "A", "text": "unless" },
+      { "id": "B", "text": "whereas" },
+      { "id": "C", "text": "although" },
+      { "id": "D", "text": "so that" }
+    ],
+    "correct": "D",
+    "explanation": "So that menyatakan tujuan, yaitu agar oksigen mencapai lapisan bawah. Unless, whereas, dan although tidak sesuai dengan makna tujuan dalam kalimat ini."
+  },
+  {
+    "id": "BT071-013",
+    "day": 71,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In glass recycling, used bottles are ___ into small pieces called cullet before they are melted.",
+    "options": [
+      { "id": "A", "text": "crushed" },
+      { "id": "B", "text": "woven" },
+      { "id": "C", "text": "spun" },
+      { "id": "D", "text": "stitched" }
+    ],
+    "correct": "A",
+    "explanation": "Crush berarti menghancurkan dengan tekanan hingga menjadi pecahan kecil. Woven, spun, dan stitched berkaitan dengan proses tekstil, bukan kaca."
+  },
+  {
+    "id": "BT071-014",
+    "day": 71,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The tea leaves are left to ___ in the open air until they lose much of their moisture.",
+    "options": [
+      { "id": "A", "text": "sprout" },
+      { "id": "B", "text": "wither" },
+      { "id": "C", "text": "grind" },
+      { "id": "D", "text": "freeze" }
+    ],
+    "correct": "B",
+    "explanation": "Wither berarti layu atau mengering karena kehilangan kelembapan, yang merupakan tahap awal pengolahan teh. Sprout berarti bertunas, grind berarti menggiling, dan freeze berarti membeku."
+  },
+  {
+    "id": "BT071-015",
+    "day": 71,
+    "type": "translate",
+    "prompt": "Setelah botol dicuci, tutupnya dilepas dan label dibuang sebelum botol masuk ke mesin peleburan.",
+    "acceptedAnswers": [
+      "After the bottles are washed, the caps are removed and the labels are thrown away before the bottles enter the melting machine",
+      "Once the bottles have been washed, the caps are taken off and the labels are discarded before they go into the melting machine"
+    ],
+    "explanation": "Kalimat ini memakai after atau once untuk urutan waktu, lalu pasif are removed dan are thrown away untuk aksi yang dikenakan pada botol."
+  },
+  {
+    "id": "BT071-016",
+    "day": 71,
+    "type": "translate",
+    "prompt": "Tahap pengeringan menghilangkan sebagian besar air dari bata sebelum bata dibakar.",
+    "acceptedAnswers": [
+      "The drying stage removes most of the water from the bricks before they are fired",
+      "The drying stage takes most of the water out of the bricks before they are fired"
+    ],
+    "explanation": "Removes most of the water from berarti menghilangkan sebagian besar air dari, sedangkan before they are fired menunjukkan urutan sebelum pembakaran."
+  },
+  {
+    "id": "BT071-017",
+    "day": 71,
+    "type": "story",
+    "prompt": "Menurut teks, tahap apa yang paling menuntut menurut Yusuf?",
+    "options": [
+      { "id": "A", "text": "Penggalian tanah liat dari tepi sungai" },
+      { "id": "B", "text": "Pembakaran bata di dalam tungku yang harus diawasi siang dan malam" },
+      { "id": "C", "text": "Pencetakan bata dengan cetakan kayu" },
+      { "id": "D", "text": "Pengiriman bata ke kota setiap minggu" }
+    ],
+    "correct": "B",
+    "passage": "Yusuf runs a small brick factory beside a river in central Java. Each week, his workers dig clay from the riverbank and leave it in the sun for about two weeks. The dried clay is ground into powder, mixed with water, and pressed into wooden moulds. After three days of drying in the shade, the bricks are stacked inside a kiln and fired at high temperature. Yusuf says firing is the most demanding stage, because the kiln must be watched day and night. Last year he added a simple chimney filter, which reduces the smoke that reaches nearby houses. The equipment was expensive, but customers in the city now prefer his bricks because they are cleaner and more consistent.",
+    "explanation": "Teks menyebut Yusuf menilai pembakaran sebagai tahap paling menuntut karena tungku harus diawasi siang dan malam. Pilihan lain adalah tahap yang disebut dalam teks, tetapi tidak dinyatakan sebagai yang paling menuntut."
+  },
+  {
+    "id": "BT071-018",
+    "day": 71,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa yang dilakukan setelah botol dikumpulkan?",
+    "options": [
+      { "id": "A", "text": "The bottles are melted immediately." },
+      { "id": "B", "text": "The bottles are sorted by colour." },
+      { "id": "C", "text": "The bottles are shaped into new products." },
+      { "id": "D", "text": "The bottles are sold to factories." }
+    ],
+    "correct": "B",
+    "script": "Good afternoon. This diagram shows how glass bottles are recycled. First, used bottles are collected and sorted by colour. Next, they are crushed into small pieces called cullet. The cullet is then melted at high temperature and shaped into new bottles.",
+    "explanation": "Setelah dikumpulkan, botol dipilah berdasarkan warna sebelum dihancurkan menjadi cullet. Peleburan dan pembentukan baru terjadi pada tahap berikutnya."
+  },
+  {
+    "id": "BT071-019",
+    "day": 71,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: tahap ini dilakukan sebelum bata masuk ke tungku.",
+    "acceptedAnswers": [
+      "This stage is carried out before the bricks enter the kiln"
+    ],
+    "explanation": "Carried out berarti dilakukan, dan before the bricks enter the kiln menunjukkan urutan waktu sebelum bata masuk tungku."
+  },
+  {
+    "id": "BT072-011",
+    "day": 72,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The new library lies ___ the river, west of the old town hall.",
+    "options": [
+      { "id": "A", "text": "beside" },
+      { "id": "B", "text": "beside of" },
+      { "id": "C", "text": "besides" },
+      { "id": "D", "text": "besides to" }
+    ],
+    "correct": "A",
+    "explanation": "Beside berarti di samping atau di sebelah sesuatu, dan dipakai langsung sebelum kata benda. Besides berarti selain atau sebagai tambahan, sedangkan beside of dan besides to tidak baku."
+  },
+  {
+    "id": "BT072-012",
+    "day": 72,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The new road is ___ than the old one, so cars can travel faster.",
+    "options": [
+      { "id": "A", "text": "wide" },
+      { "id": "B", "text": "wider" },
+      { "id": "C", "text": "widest" },
+      { "id": "D", "text": "more wide" }
+    ],
+    "correct": "B",
+    "explanation": "Wide adalah kata sifat satu suku kata, sehingga bentuk perbandingan lebih dibuat dengan -er dan dipakai bersama than. More wide tidak benar, dan widest adalah bentuk superlatif."
+  },
+  {
+    "id": "BT072-013",
+    "day": 72,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The council plans to ___ the old factory into a community centre.",
+    "options": [
+      { "id": "A", "text": "convert" },
+      { "id": "B", "text": "demolish" },
+      { "id": "C", "text": "bury" },
+      { "id": "D", "text": "measure" }
+    ],
+    "correct": "A",
+    "explanation": "Convert berarti mengubah fungsi atau bentuk sesuatu, sehingga pabrik itu menjadi pusat komunitas. Demolish berarti merobohkan, yang tidak sesuai dengan rencana mengubah fungsi bangunan."
+  },
+  {
+    "id": "BT072-014",
+    "day": 72,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The map shows a small bridge that was ___ in 2015 because it was no longer safe.",
+    "options": [
+      { "id": "A", "text": "constructed" },
+      { "id": "B", "text": "dismantled" },
+      { "id": "C", "text": "cultivated" },
+      { "id": "D", "text": "exhibited" }
+    ],
+    "correct": "B",
+    "explanation": "Dismantled berarti dibongkar hingga tidak lagi berdiri. Constructed berarti dibangun, cultivated berarti dibudidayakan, dan exhibited berarti dipamerkan."
+  },
+  {
+    "id": "BT072-015",
+    "day": 72,
+    "type": "translate",
+    "prompt": "Di peta kedua, tempat parkir baru berada di sebelah timur gedung sekolah.",
+    "acceptedAnswers": [
+      "In the second map, the new car park is located to the east of the school building",
+      "On the second map, the new car park is situated east of the school building"
+    ],
+    "explanation": "Frasa to the east of atau east of dipakai untuk menyebut arah relatif terhadap bangunan. Located dan situated sama-sama berarti berada."
+  },
+  {
+    "id": "BT072-016",
+    "day": 72,
+    "type": "translate",
+    "prompt": "Jalur sepeda yang lebih lebar kini menghubungkan pasar dengan stasiun kereta.",
+    "acceptedAnswers": [
+      "A wider cycle lane now connects the market with the railway station",
+      "A wider bicycle path now links the market to the train station"
+    ],
+    "explanation": "Wider dipakai sebagai perbandingan untuk jalur yang lebih lebar, dan connects atau links berarti menghubungkan dua tempat."
+  },
+  {
+    "id": "BT072-017",
+    "day": 72,
+    "type": "story",
+    "prompt": "Menurut teks, apa perubahan terbesar di Sukamaju antara 2005 dan 2025?",
+    "options": [
+      { "id": "A", "text": "Sungai dialihkan ke arah hutan" },
+      { "id": "B", "text": "Sawah di sebelah barat diubah menjadi perumahan" },
+      { "id": "C", "text": "Pasar lama dipindahkan ke tepi sungai" },
+      { "id": "D", "text": "Sekolah dibangun kembali di dekat pasar lama" }
+    ],
+    "correct": "B",
+    "passage": "The two maps show the village of Sukamaju in 2005 and in 2025. In 2005, the village was small, with rice fields covering most of the land to the west of the main road. A primary school stood in the centre, and a small market was located beside the river. By 2025, much of the rice land had been converted into housing estates, which now stretch from the main road to the edge of the forest. The school was relocated to a larger site on the north side of the village, and the old market was replaced by a covered market near the bus stop. The river itself has not changed, but a new footbridge now crosses it, linking the eastern neighbourhoods with the centre.",
+    "explanation": "Teks menyebut sawah di sebelah barat jalan utama telah berubah menjadi kawasan perumahan, dan itu perubahan paling besar. Pilihan lain tidak sesuai dengan keterangan peta."
+  },
+  {
+    "id": "BT072-018",
+    "day": 72,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa yang ditambahkan di sisi timur taman?",
+    "options": [
+      { "id": "A", "text": "A second lake" },
+      { "id": "B", "text": "A playground" },
+      { "id": "C", "text": "A bus stop" },
+      { "id": "D", "text": "A car park" }
+    ],
+    "correct": "B",
+    "script": "Good morning. The map I'm showing you compares a city park in 2000 with the same park in 2020. In 2000, the park had a large lake in the centre and a single path around it. In 2020, the lake has been reduced in size, and a playground has been added on the eastern side. Also, two new footpaths now cross the park.",
+    "explanation": "Pembicara menyebut taman bermain ditambahkan di sisi timur pada 2020. Danau tidak bertambah, tetapi dikurangi ukurannya."
+  },
+  {
+    "id": "BT072-019",
+    "day": 72,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: jalan baru itu dibuat lurus melewati tepi hutan.",
+    "acceptedAnswers": [
+      "The new road was built straight along the edge of the forest"
+    ],
+    "explanation": "Kalimat ini memakai pasif was built untuk aksi membangun jalan, dan along the edge of the forest menunjukkan jalurnya."
+  },
+  {
+    "id": "BT073-011",
+    "day": 73,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Between 2015 and 2020, the percentage of households with broadband ___ steadily.",
+    "options": [
+      { "id": "A", "text": "rose" },
+      { "id": "B", "text": "has risen" },
+      { "id": "C", "text": "rises" },
+      { "id": "D", "text": "is rising" }
+    ],
+    "correct": "A",
+    "explanation": "Between 2015 and 2020 adalah periode yang sudah selesai, sehingga dipakai simple past rose. Has risen, rises, dan is rising tidak sesuai dengan periode lampau yang tertutup."
+  },
+  {
+    "id": "BT073-012",
+    "day": 73,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "A small ___ of students chose the science course, but this figure doubled the following year.",
+    "options": [
+      { "id": "A", "text": "amount" },
+      { "id": "B", "text": "number" },
+      { "id": "C", "text": "quantity" },
+      { "id": "D", "text": "volume" }
+    ],
+    "correct": "B",
+    "explanation": "Students adalah kata benda yang bisa dihitung, sehingga dipakai a small number of. Amount, quantity, dan volume dipakai untuk kata benda yang tidak dihitung satu per satu."
+  },
+  {
+    "id": "BT073-013",
+    "day": 73,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The graph shows a sharp ___ in sales in 2019, followed by a gradual recovery.",
+    "options": [
+      { "id": "A", "text": "dip" },
+      { "id": "B", "text": "pile" },
+      { "id": "C", "text": "plant" },
+      { "id": "D", "text": "stripe" }
+    ],
+    "correct": "A",
+    "explanation": "Dip berarti penurunan tajam dan singkat pada grafik. Pile berarti tumpukan, plant berarti tanaman atau pabrik, dan stripe berarti garis atau jalur."
+  },
+  {
+    "id": "BT073-014",
+    "day": 73,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Prices remained ___ throughout the decade, rising by less than one percent each year.",
+    "options": [
+      { "id": "A", "text": "stable" },
+      { "id": "B", "text": "reckless" },
+      { "id": "C", "text": "cautious" },
+      { "id": "D", "text": "fragile" }
+    ],
+    "correct": "A",
+    "explanation": "Stable berarti tetap atau tidak banyak berubah, sesuai dengan kenaikan harga yang kurang dari satu persen per tahun. Reckless berarti ceroboh, cautious berarti hati-hati, dan fragile berarti rapuh."
+  },
+  {
+    "id": "BT073-015",
+    "day": 73,
+    "type": "translate",
+    "prompt": "Secara keseluruhan, jumlah pengunjung meningkat, meskipun ada penurunan kecil pada musim hujan.",
+    "acceptedAnswers": [
+      "Overall, the number of visitors increased, although there was a slight drop during the rainy season",
+      "Overall, visitor numbers rose, although there was a small decline in the rainy season"
+    ],
+    "explanation": "Overall dipakai untuk kalimat gambaran umum, sedangkan although menandai kontras dengan penurunan kecil."
+  },
+  {
+    "id": "BT073-016",
+    "day": 73,
+    "type": "translate",
+    "prompt": "Angka tertinggi tercatat pada tahun 2018, ketika lebih dari separuh responden memilih layanan daring.",
+    "acceptedAnswers": [
+      "The highest figure was recorded in 2018, when more than half of the respondents chose online services",
+      "The peak figure was recorded in 2018, when over half of the respondents preferred online services"
+    ],
+    "explanation": "Recorded dipakai untuk data yang dicatat, dan when menunjukkan keterangan waktu tahun 2018."
+  },
+  {
+    "id": "BT073-017",
+    "day": 73,
+    "type": "story",
+    "prompt": "Berdasarkan teks, kota mana yang paling sedikit berubah jumlah kunjungannya?",
+    "options": [
+      { "id": "A", "text": "Bandung" },
+      { "id": "B", "text": "Surabaya" },
+      { "id": "C", "text": "Medan" },
+      { "id": "D", "text": "Semua kota berubah dengan besaran yang sama" }
+    ],
+    "correct": "C",
+    "passage": "The bar chart compares the number of library visitors in three cities between 2016 and 2022. In Bandung, visits rose steadily from about 40,000 to nearly 65,000, with the sharpest increase in 2019. In Surabaya, visits fell during 2020 when many libraries were closed, but they recovered quickly and reached their highest point in 2022. Medan showed the smallest overall change: its figures stayed between 20,000 and 25,000 for most of the period, apart from a dip in 2020. Across all three cities, the pattern in 2020 was clearly the most unusual, because the pandemic restrictions affected every location at the same time.",
+    "explanation": "Teks menyebut Medan memiliki perubahan keseluruhan paling kecil, dengan angka yang stabil antara 20.000 dan 25.000. Bandung dan Surabaya mengalami perubahan yang lebih besar."
+  },
+  {
+    "id": "BT073-018",
+    "day": 73,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa gambaran umum dari perubahan tersebut?",
+    "options": [
+      { "id": "A", "text": "The town used more coal in 2020." },
+      { "id": "B", "text": "Solar power replaced all coal." },
+      { "id": "C", "text": "The town became less dependent on coal." },
+      { "id": "D", "text": "Energy use stayed the same." }
+    ],
+    "correct": "C",
+    "script": "Good evening. This chart shows the share of energy sources used in a small town. Most of the energy in 2010 came from coal, which made up nearly seventy percent. By 2020, the share of coal had dropped to around forty percent, while solar power had grown from almost nothing to about twenty percent. Overall, the town became far less dependent on coal.",
+    "explanation": "Pembicara merangkum bahwa kota itu jauh lebih sedikit bergantung pada batu bara. Pangsa batu bara turun, tetapi belum digantikan seluruhnya oleh tenaga surya."
+  },
+  {
+    "id": "BT073-019",
+    "day": 73,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: secara garis besar, pola ini tetap sama sepanjang periode itu.",
+    "acceptedAnswers": [
+      "Broadly speaking the pattern remained the same throughout the period"
+    ],
+    "explanation": "Broadly speaking dipakai untuk gambaran umum, dan remained the same berarti tetap sama sepanjang periode."
+  },
+  {
+    "id": "BT074-011",
+    "day": 74,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Of the four categories, electricity was the ___ expensive item on the list in 2024.",
+    "options": [
+      { "id": "A", "text": "most" },
+      { "id": "B", "text": "more" },
+      { "id": "C", "text": "much" },
+      { "id": "D", "text": "very" }
+    ],
+    "correct": "A",
+    "explanation": "Dengan the, bentuk superlatif dibuat dengan most untuk kata sifat panjang seperti expensive. More dan much tidak membentuk superlatif, sedangkan very tidak boleh diletakkan di antara the dan kata sifat untuk perbandingan ini."
+  },
+  {
+    "id": "BT074-012",
+    "day": 74,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "If the trend ___ over the next decade, the share of renewable energy will exceed half.",
+    "options": [
+      { "id": "A", "text": "continues" },
+      { "id": "B", "text": "continued" },
+      { "id": "C", "text": "continue" },
+      { "id": "D", "text": "would continue" }
+    ],
+    "correct": "A",
+    "explanation": "Ini kalimat kondisional tipe pertama, sehingga if-clause memakai simple present continues dan induk kalimat memakai will. Continued dan would continue tidak sesuai, sedangkan continue tidak cocok dengan subjek tunggal trend."
+  },
+  {
+    "id": "BT074-013",
+    "day": 74,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The pie chart ___ the proportion of each category as a percentage of the total budget.",
+    "options": [
+      { "id": "A", "text": "illustrates" },
+      { "id": "B", "text": "dissolves" },
+      { "id": "C", "text": "multiplies" },
+      { "id": "D", "text": "reverses" }
+    ],
+    "correct": "A",
+    "explanation": "Illustrates berarti menggambarkan atau menunjukkan secara visual, cocok untuk diagram lingkaran. Dissolves, multiplies, dan reverses tidak sesuai dengan fungsi diagram."
+  },
+  {
+    "id": "BT074-014",
+    "day": 74,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The figures ___ slightly from one year to the next, with no clear upward or downward direction.",
+    "options": [
+      { "id": "A", "text": "fluctuate" },
+      { "id": "B", "text": "accelerate" },
+      { "id": "C", "text": "hesitate" },
+      { "id": "D", "text": "celebrate" }
+    ],
+    "correct": "A",
+    "explanation": "Fluctuate berarti naik turun secara tidak menentu. Accelerate berarti mempercepat, hesitate berarti ragu, dan celebrate berarti merayakan."
+  },
+  {
+    "id": "BT074-015",
+    "day": 74,
+    "type": "translate",
+    "prompt": "Diagram batang itu menunjukkan bahwa penjualan power bank naik tiga kali lipat dalam lima tahun.",
+    "acceptedAnswers": [
+      "The bar chart shows that sales of power banks tripled in five years",
+      "The bar chart shows that power bank sales tripled over five years"
+    ],
+    "explanation": "Tripled berarti naik tiga kali lipat, dan shows that dipakai untuk menyampaikan temuan dari diagram batang."
+  },
+  {
+    "id": "BT074-016",
+    "day": 74,
+    "type": "translate",
+    "prompt": "Pangsa pasar terbesar dikuasai oleh tiga perusahaan, sedangkan sisanya dibagi di antara banyak pemain kecil.",
+    "acceptedAnswers": [
+      "The largest market share is held by three companies, while the rest is divided among many smaller players",
+      "Three companies hold the largest market share, whereas the remainder is split between many small players"
+    ],
+    "explanation": "While atau whereas menandai kontras antara pangsa terbesar dan sisanya. Divided among dan split between sama-sama berarti dibagi di antara."
+  },
+  {
+    "id": "BT074-017",
+    "day": 74,
+    "type": "story",
+    "prompt": "Berdasarkan teks, kategori mana yang persentasenya paling kecil?",
+    "options": [
+      { "id": "A", "text": "Gaji guru" },
+      { "id": "B", "text": "Perawatan gedung" },
+      { "id": "C", "text": "Perpustakaan dan laboratorium" },
+      { "id": "D", "text": "Transportasi kegiatan sekolah" }
+    ],
+    "correct": "D",
+    "passage": "The pie chart shows how a secondary school spent its annual budget in 2024. Teaching salaries made up the largest share, at 46 percent of the total. Building maintenance took 18 percent, and the library and laboratory together received 12 percent. Transport for school trips accounted for 9 percent, while the remaining 15 percent was spent on sports equipment and student meals. The headteacher noted that the library's share had been slightly larger in the previous year, because several new books had been purchased at that time. Although the proportions look different, the school's total budget was almost the same as in 2023.",
+    "explanation": "Teks menyebut transportasi untuk kegiatan sekolah sebesar 9 persen, angka terkecil di antara pilihan. Perpustakaan dan laboratorium digabung 12 persen, sedangkan gaji guru paling besar."
+  },
+  {
+    "id": "BT074-018",
+    "day": 74,
+    "type": "listen",
+    "prompt": "Menurut pembicara, kegiatan apa yang memakan porsi terkecil?",
+    "options": [
+      { "id": "A", "text": "Sleep" },
+      { "id": "B", "text": "Work" },
+      { "id": "C", "text": "Travel" },
+      { "id": "D", "text": "Leisure" }
+    ],
+    "correct": "D",
+    "script": "Good morning. This pie chart shows how time is spent on a typical weekday by a group of office workers. Sleep accounts for roughly one third of the day. Work takes the second largest share, followed by travel, which is about ten percent. Leisure is the smallest category.",
+    "explanation": "Pembicara menyebut leisure sebagai kategori terkecil. Sleep dan work memakan porsi lebih besar, sedangkan travel sekitar sepuluh persen."
+  },
+  {
+    "id": "BT074-019",
+    "day": 74,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: diagram lingkaran ini memperlihatkan kontribusi setiap sektor terhadap total.",
+    "acceptedAnswers": [
+      "The pie chart shows the contribution of each sector to the total"
+    ],
+    "explanation": "Shows the contribution of berarti memperlihatkan kontribusi, dan of each sector to the total menyebut porsi setiap sektor dari keseluruhan."
+  },
+  {
+    "id": "BT075-011",
+    "day": 75,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Rarely ___ such strong evidence for a single policy.",
+    "options": [
+      { "id": "A", "text": "have we seen" },
+      { "id": "B", "text": "we have seen" },
+      { "id": "C", "text": "we did see" },
+      { "id": "D", "text": "we seen" }
+    ],
+    "correct": "A",
+    "explanation": "Setelah kata keterangan negatif seperti rarely, susunan kalimat dibalik menjadi have we seen. Bentuk we have seen, we did see, dan we seen tidak memakai inversi yang benar."
+  },
+  {
+    "id": "BT075-012",
+    "day": 75,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Governments would reduce pollution faster if they ___ diesel fuel more heavily.",
+    "options": [
+      { "id": "A", "text": "tax" },
+      { "id": "B", "text": "taxed" },
+      { "id": "C", "text": "would tax" },
+      { "id": "D", "text": "have taxed" }
+    ],
+    "correct": "B",
+    "explanation": "Ini kalimat kondisional tipe kedua untuk situasi hipotetis, sehingga if-clause memakai bentuk lampau taxed. Would tax tidak boleh berada di if-clause, dan have taxed tidak sesuai untuk hipotesis sekarang."
+  },
+  {
+    "id": "BT075-013",
+    "day": 75,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The writer ___ that schools should ban phones during lessons, and supports this with evidence from two studies.",
+    "options": [
+      { "id": "A", "text": "contends" },
+      { "id": "B", "text": "contaminates" },
+      { "id": "C", "text": "contracts" },
+      { "id": "D", "text": "contributes" }
+    ],
+    "correct": "A",
+    "explanation": "Contend berarti berpendapat atau menegaskan suatu klaim yang didukung argumen. Contaminate berarti mencemari, contract berarti mengecil atau mengikat kontrak, dan contribute berarti menyumbang."
+  },
+  {
+    "id": "BT075-014",
+    "day": 75,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Her ___ is that tax should fall more heavily on luxury goods than on basic food.",
+    "options": [
+      { "id": "A", "text": "stance" },
+      { "id": "B", "text": "stamina" },
+      { "id": "C", "text": "stampede" },
+      { "id": "D", "text": "stadium" }
+    ],
+    "correct": "A",
+    "explanation": "Stance berarti sikap atau posisi yang diambil seseorang dalam perdebatan. Stamina berarti daya tahan, stampede berarti kepanikan kawanan, dan stadium berarti stadion."
+  },
+  {
+    "id": "BT075-015",
+    "day": 75,
+    "type": "translate",
+    "prompt": "Pemerintah sebaiknya memberi insentif bagi pekerja yang mengikuti kursus keterampilan.",
+    "acceptedAnswers": [
+      "Governments should offer incentives to workers who take skills courses",
+      "Governments should give incentives to workers who enrol in skills training"
+    ],
+    "explanation": "Should menyatakan saran atau kewajaran, dan who menghubungkan kata workers dengan klausa keterangannya. Incentives berarti insentif."
+  },
+  {
+    "id": "BT075-016",
+    "day": 75,
+    "type": "translate",
+    "prompt": "Pertanyaan utamanya adalah apakah manfaat jangka panjang lebih besar daripada biaya awal.",
+    "acceptedAnswers": [
+      "The central question is whether the long-term benefits outweigh the initial costs",
+      "The key question is whether long-term benefits are greater than the up-front costs"
+    ],
+    "explanation": "Whether dipakai untuk pertanyaan tentang dua kemungkinan, dan outweigh atau are greater than berarti lebih besar dari."
+  },
+  {
+    "id": "BT075-017",
+    "day": 75,
+    "type": "story",
+    "prompt": "Menurut teks, apa posisi yang diambil penulis tentang buka hari Minggu perpustakaan?",
+    "options": [
+      { "id": "A", "text": "Perpustakaan sebaiknya tutup pada hari Minggu untuk menghemat biaya" },
+      { "id": "B", "text": "Perpustakaan sebaiknya tetap buka pada hari Minggu, dengan uji coba singkat terlebih dahulu" },
+      { "id": "C", "text": "Layanan digital sepenuhnya menggantikan perpustakaan fisik" },
+      { "id": "D", "text": "Jumlah pengunjung di kota-kota tidak pernah berubah" }
+    ],
+    "correct": "B",
+    "passage": "Many cities are debating whether to keep their public libraries open on Sunday. Supporters argue that weekend opening gives people with weekday jobs access to books, computers, and quiet study spaces. Critics respond that staffing costs are high and that most visitors could use digital services at home instead. The writer of this article takes a clear position: libraries should remain open on Sundays, because the benefit to students and low-income residents outweighs the expense. She supports her view with data from two cities where weekend visits doubled after extended hours. However, she admits that a short trial would be wiser than a permanent change, since budgets are limited and the results may vary from one district to another.",
+    "explanation": "Penulis menyatakan perpustakaan sebaiknya tetap buka pada hari Minggu, tetapi menyarankan uji coba singkat dahulu. Pilihan lain bertentangan dengan isi teks."
+  },
+  {
+    "id": "BT075-018",
+    "day": 75,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa argumen pendukung jam masuk sekolah yang lebih siang?",
+    "options": [
+      { "id": "A", "text": "A later start improves attention in class." },
+      { "id": "B", "text": "A later start reduces the cost of school buses." },
+      { "id": "C", "text": "Teenagers should sleep less." },
+      { "id": "D", "text": "Sports clubs must close." }
+    ],
+    "correct": "A",
+    "script": "Good morning. The debate today is whether secondary schools should start later than they do now. Supporters point out that teenagers tend to sleep later, so a later start can improve attention in class. Opponents, however, argue that a later finish would reduce time for sports and after-school activities. A compromise may therefore be the most practical option.",
+    "explanation": "Pendukung menyebut jam masuk yang lebih siang dapat meningkatkan perhatian siswa di kelas. Pilihan lain tidak disebut sebagai argumen pendukung."
+  },
+  {
+    "id": "BT075-019",
+    "day": 75,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: esai ini membela posisi bahwa jam kerja fleksibel bermanfaat.",
+    "acceptedAnswers": [
+      "This essay defends the position that flexible working hours are beneficial"
+    ],
+    "explanation": "Defends the position that dipakai untuk menyatakan posisi yang dibela, dan flexible working hours are beneficial berarti jam kerja fleksibel bermanfaat."
+  },
+  {
+    "id": "BT076-011",
+    "day": 76,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ support the policy say it creates jobs, whereas opponents focus on the cost.",
+    "options": [
+      { "id": "A", "text": "Those who" },
+      { "id": "B", "text": "Those which" },
+      { "id": "C", "text": "Those whom" },
+      { "id": "D", "text": "Those whose" }
+    ],
+    "correct": "A",
+    "explanation": "Those who dipakai untuk merujuk pada orang yang melakukan tindakan, yaitu mereka yang mendukung kebijakan. Which tidak dipakai untuk orang, whom merujuk pada objek, dan whose menunjukkan kepemilikan."
+  },
+  {
+    "id": "BT076-012",
+    "day": 76,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Although the first view is persuasive, the second ___ deserves equal attention.",
+    "options": [
+      { "id": "A", "text": "argument" },
+      { "id": "B", "text": "argue" },
+      { "id": "C", "text": "arguing" },
+      { "id": "D", "text": "argued" }
+    ],
+    "correct": "A",
+    "explanation": "Setelah the second, kata yang dibutuhkan adalah kata benda argument, sehingga subjek kalimat jelas. Argue, arguing, dan argued adalah bentuk kata kerja yang tidak bisa mengisi posisi itu."
+  },
+  {
+    "id": "BT076-013",
+    "day": 76,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The essay gives a ___ view of the debate by considering the strengths of both sides.",
+    "options": [
+      { "id": "A", "text": "balanced" },
+      { "id": "B", "text": "bitter" },
+      { "id": "C", "text": "bitten" },
+      { "id": "D", "text": "bored" }
+    ],
+    "correct": "A",
+    "explanation": "Balanced berarti seimbang, yaitu menimbang kelebihan kedua pihak secara adil. Bitter berarti pahit atau penuh dendam, bitten adalah bentuk lampau gigit, dan bored berarti bosan."
+  },
+  {
+    "id": "BT076-014",
+    "day": 76,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Critics often overlook the cost of maintenance, which can be ___ over several years.",
+    "options": [
+      { "id": "A", "text": "substantial" },
+      { "id": "B", "text": "superficial" },
+      { "id": "C", "text": "sensational" },
+      { "id": "D", "text": "scarce" }
+    ],
+    "correct": "A",
+    "explanation": "Substantial berarti besar atau bernilai banyak, sesuai dengan biaya perawatan yang menumpuk selama bertahun-tahun. Superficial berarti dangkal, sensational berarti menghebohkan, dan scarce berarti langka."
+  },
+  {
+    "id": "BT076-015",
+    "day": 76,
+    "type": "translate",
+    "prompt": "Di satu sisi, toko daring menawarkan harga lebih murah; di sisi lain, toko fisik menciptakan lapangan kerja lokal.",
+    "acceptedAnswers": [
+      "On the one hand, online shops offer lower prices; on the other hand, physical stores create local jobs",
+      "On the one hand, online retailers offer cheaper prices, while on the other hand, brick-and-mortar shops generate local employment"
+    ],
+    "explanation": "On the one hand dan on the other hand dipakai untuk menyusun dua sisi argumen yang berimbang. Lower dan cheaper sama-sama berarti lebih murah."
+  },
+  {
+    "id": "BT076-016",
+    "day": 76,
+    "type": "translate",
+    "prompt": "Kedua pandangan ini memiliki kekuatan, sehingga kesimpulan yang seimbang lebih tepat.",
+    "acceptedAnswers": [
+      "Both views have strengths, so a balanced conclusion is more appropriate",
+      "Both perspectives have merit, which makes a balanced conclusion more suitable"
+    ],
+    "explanation": "Both views have strengths menyatakan bahwa kedua sisi punya kekuatan, dan more appropriate atau more suitable berarti lebih tepat."
+  },
+  {
+    "id": "BT076-017",
+    "day": 76,
+    "type": "story",
+    "prompt": "Menurut teks, apa usulan penulis?",
+    "options": [
+      { "id": "A", "text": "Semua karyawan harus kembali bekerja di kantor setiap hari" },
+      { "id": "B", "text": "Karyawan selalu bekerja dari rumah tanpa pertemuan tim" },
+      { "id": "C", "text": "Tim bertemu di kantor dua hari per minggu dan bekerja mandiri sisanya" },
+      { "id": "D", "text": "Kantor sebaiknya ditutup dan diganti dengan pertemuan daring" }
+    ],
+    "correct": "C",
+    "passage": "A recent essay debates whether employees should work from home or return to the office full time. The first argument presented in the essay is that remote work saves commuting time, which improves both productivity and wellbeing. The second argument is that offices encourage teamwork and make it easier for new staff to learn from experienced colleagues. The writer admits that each side has strengths, but suggests that neither view is complete on its own. Instead, the essay proposes a hybrid model in which teams meet in the office for two days each week and work independently for the rest of the time. This conclusion, the writer explains, reflects the reality that different jobs require different kinds of collaboration.",
+    "explanation": "Penulis mengusulkan model hibrida: tim bertemu di kantor dua hari per minggu dan bekerja mandiri sisanya. Pilihan lain bertentangan dengan usulan itu."
+  },
+  {
+    "id": "BT076-018",
+    "day": 76,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa yang diusulkan sebagai kompromi?",
+    "options": [
+      { "id": "A", "text": "Homework is banned for all students." },
+      { "id": "B", "text": "Homework is limited to short tasks that support classroom learning." },
+      { "id": "C", "text": "Homework is given only during holidays." },
+      { "id": "D", "text": "Homework replaces every classroom lesson." }
+    ],
+    "correct": "B",
+    "script": "Good afternoon. Some people believe that homework should be banned in primary schools, because children need time to play and rest. Others argue that regular homework builds discipline and helps students review what they learned. Both views have value. A reasonable compromise would limit homework to short tasks that support classroom learning.",
+    "explanation": "Pembicara mengusulkan kompromi berupa pembatasan pekerjaan rumah pada tugas singkat yang mendukung pembelajaran di kelas. Pilihan lain adalah posisi ekstrem yang tidak diusulkan."
+  },
+  {
+    "id": "BT076-019",
+    "day": 76,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: kedua kubu sama-sama memiliki alasan yang kuat.",
+    "acceptedAnswers": [
+      "Both sides have strong reasons for their position"
+    ],
+    "explanation": "Both sides have strong reasons menyatakan bahwa kedua pihak punya alasan kuat, dan for their position menjelaskan alasan itu untuk posisi masing-masing."
+  },
+  {
+    "id": "BT077-011",
+    "day": 77,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The council ___ new drains last year, which has reduced flooding in the low-lying streets.",
+    "options": [
+      { "id": "A", "text": "builds" },
+      { "id": "B", "text": "built" },
+      { "id": "C", "text": "has built" },
+      { "id": "D", "text": "is building" }
+    ],
+    "correct": "B",
+    "explanation": "Last year adalah penanda waktu lampau yang sudah selesai, sehingga dipakai simple past built. Has built dan is building tidak sesuai dengan penanda waktu itu, sedangkan builds adalah present simple."
+  },
+  {
+    "id": "BT077-012",
+    "day": 77,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Unless the government ___ action now, the river will become even more polluted.",
+    "options": [
+      { "id": "A", "text": "takes" },
+      { "id": "B", "text": "took" },
+      { "id": "C", "text": "will take" },
+      { "id": "D", "text": "has taken" }
+    ],
+    "correct": "A",
+    "explanation": "Unless berarti if not, sehingga anak kalimat memakai simple present takes. Will take tidak boleh berada dalam anak kalimat unless, sedangkan took dan has taken tidak sesuai dengan makna kondisi masa depan ini."
+  },
+  {
+    "id": "BT077-013",
+    "day": 77,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A better bus schedule would help to ___ the number of cars on the road during peak hours.",
+    "options": [
+      { "id": "A", "text": "reduce" },
+      { "id": "B", "text": "enlarge" },
+      { "id": "C", "text": "celebrate" },
+      { "id": "D", "text": "explode" }
+    ],
+    "correct": "A",
+    "explanation": "Reduce berarti mengurangi jumlah, sesuai dengan tujuan jadwal bus yang lebih baik. Enlarge berarti memperbesar, celebrate berarti merayakan, dan explode berarti meledak."
+  },
+  {
+    "id": "BT077-014",
+    "day": 77,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Planting trees is a practical ___ to the heat problem in dense neighbourhoods.",
+    "options": [
+      { "id": "A", "text": "solution" },
+      { "id": "B", "text": "suspicion" },
+      { "id": "C", "text": "salary" },
+      { "id": "D", "text": "siren" }
+    ],
+    "correct": "A",
+    "explanation": "Solution berarti jalan keluar atau penyelesaian untuk suatu masalah. Suspicion berarti kecurigaan, salary berarti gaji, dan siren berarti sirene."
+  },
+  {
+    "id": "BT077-015",
+    "day": 77,
+    "type": "translate",
+    "prompt": "Solusi yang paling realistis adalah memperluas jalur bus dan membatasi parkir di pusat kota.",
+    "acceptedAnswers": [
+      "The most realistic solution is to extend bus lanes and restrict parking in the city centre",
+      "The most realistic solution is to expand bus routes and limit parking in the city centre"
+    ],
+    "explanation": "Pola to be followed by to infinitive dipakai untuk menjelaskan solusi, dan restrict atau limit berarti membatasi."
+  },
+  {
+    "id": "BT077-016",
+    "day": 77,
+    "type": "translate",
+    "prompt": "Banjir sering terjadi karena saluran air tersumbat oleh sampah plastik.",
+    "acceptedAnswers": [
+      "Flooding often occurs because drainage channels are blocked by plastic waste",
+      "Floods often happen because plastic waste blocks the drainage channels"
+    ],
+    "explanation": "Because menyatakan sebab, dan are blocked by adalah pasif untuk saluran yang tersumbat oleh sampah."
+  },
+  {
+    "id": "BT077-017",
+    "day": 77,
+    "type": "story",
+    "prompt": "Menurut teks, mengapa banjir di Kelurahan Pinang terjadi?",
+    "options": [
+      { "id": "A", "text": "Pompa air yang rusak" },
+      { "id": "B", "text": "Sungai meluap karena hujan lebat" },
+      { "id": "C", "text": "Saluran air tersumbat oleh sampah" },
+      { "id": "D", "text": "Jalan raya terlalu sempit untuk dilalui kendaraan" }
+    ],
+    "correct": "C",
+    "passage": "Every rainy season, the streets of Kelurahan Pinang flood within an hour of heavy rain. Residents first blamed the river, but a survey by the local office found a more direct cause: most drains were blocked by plastic bags and food waste. The council considered building a larger pump, yet the engineers warned that a pump would only treat the symptoms. Instead, they chose a combination of measures. Volunteers now clean the drains every two weeks, and new bins have been placed at the market entrance. After one year, the flooding lasted about twenty minutes instead of two hours, although residents admit that the problem has not disappeared completely.",
+    "explanation": "Survei menemukan penyebab langsungnya adalah saluran yang tersumbat plastik dan sisa makanan. Warga sempat menyalahkan sungai, tetapi itu bukan penyebab utama yang ditemukan."
+  },
+  {
+    "id": "BT077-018",
+    "day": 77,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa solusi yang diusulkan untuk kebisingan?",
+    "options": [
+      { "id": "A", "text": "Build a new truck factory near the town." },
+      { "id": "B", "text": "Set a curfew for heavy vehicles after ten o'clock." },
+      { "id": "C", "text": "Close all the residential roads to traffic." },
+      { "id": "D", "text": "Move the school to a quieter district." }
+    ],
+    "correct": "B",
+    "script": "Good morning. The main problem in this town is noise from trucks that deliver goods at night. Residents complain that the noise prevents children from sleeping. The local government could solve this by setting a curfew for heavy vehicles after ten o'clock, and by building sound barriers along the main road.",
+    "explanation": "Pembicara mengusulkan jam malam untuk kendaraan berat setelah pukul sepuluh. Pilihan lain tidak disebut sebagai solusi dalam rekaman."
+  },
+  {
+    "id": "BT077-019",
+    "day": 77,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: menanam pohon membantu mengurangi polusi udara di kawasan industri.",
+    "acceptedAnswers": [
+      "Planting trees helps reduce air pollution in industrial areas"
+    ],
+    "explanation": "Kalimat ini memakai gerund Planting trees sebagai subjek, dengan helps reduce untuk menyebut manfaat yang dicapai."
+  },
+  {
+    "id": "BT078-011",
+    "day": 78,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Tourism brings jobs to the island, ___ it also places pressure on the water supply.",
+    "options": [
+      { "id": "A", "text": "but" },
+      { "id": "B", "text": "unless" },
+      { "id": "C", "text": "so that" },
+      { "id": "D", "text": "therefore" }
+    ],
+    "correct": "A",
+    "explanation": "But menandai kontras antara manfaat berupa lapangan kerja dan dampak berupa tekanan pada air. Unless, so that, dan therefore tidak sesuai dengan hubungan makna dalam kalimat ini."
+  },
+  {
+    "id": "BT078-012",
+    "day": 78,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Electric buses, ___ are quieter than diesel models, cost more to buy at first.",
+    "options": [
+      { "id": "A", "text": "which" },
+      { "id": "B", "text": "who" },
+      { "id": "C", "text": "where" },
+      { "id": "D", "text": "whose" }
+    ],
+    "correct": "A",
+    "explanation": "Which dipakai untuk benda, yaitu bus listrik, sebagai subjek klausa relatif. Who dipakai untuk orang, where untuk tempat, dan whose untuk kepemilikan yang tidak sesuai dengan kalimat ini."
+  },
+  {
+    "id": "BT078-013",
+    "day": 78,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The main ___ of online classes is that students lose direct contact with their teachers.",
+    "options": [
+      { "id": "A", "text": "drawback" },
+      { "id": "B", "text": "destination" },
+      { "id": "C", "text": "timetable" },
+      { "id": "D", "text": "wardrobe" }
+    ],
+    "correct": "A",
+    "explanation": "Drawback berarti kelemahan atau kekurangan, sesuai dengan kalimat yang menyebut kerugian kelas daring. Destination berarti tujuan, timetable berarti jadwal, dan wardrobe berarti lemari pakaian."
+  },
+  {
+    "id": "BT078-014",
+    "day": 78,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Critics warn that the new airport could ___ the environment by destroying nearby wetlands.",
+    "options": [
+      { "id": "A", "text": "damage" },
+      { "id": "B", "text": "decorate" },
+      { "id": "C", "text": "delight" },
+      { "id": "D", "text": "dictate" }
+    ],
+    "correct": "A",
+    "explanation": "Damage berarti merusak, sesuai dengan kekhawatiran bahwa lahan basah akan hancur. Decorate berarti menghias, delight berarti menyenangkan, dan dictate berarti mendikte atau menentukan."
+  },
+  {
+    "id": "BT078-015",
+    "day": 78,
+    "type": "translate",
+    "prompt": "Keuntungan utama dari transportasi umum adalah biaya perjalanan yang lebih rendah bagi warga.",
+    "acceptedAnswers": [
+      "The main benefit of public transport is lower travel costs for residents",
+      "The main advantage of public transport is that it costs residents less to travel"
+    ],
+    "explanation": "Benefit atau advantage dipakai untuk menyebut keuntungan, dan lower travel costs menggambarkan biaya perjalanan yang lebih rendah."
+  },
+  {
+    "id": "BT078-016",
+    "day": 78,
+    "type": "translate",
+    "prompt": "Namun, kelemahannya adalah jadwal yang sering berubah sehingga penumpang sulit merencanakan perjalanan.",
+    "acceptedAnswers": [
+      "However, the drawback is that timetables often change, so passengers find it hard to plan their trips",
+      "However, the disadvantage is that schedules change often, making it difficult for passengers to plan journeys"
+    ],
+    "explanation": "Drawback atau disadvantage menyebut kelemahan, dan so passengers find it hard to plan menjelaskan akibat dari jadwal yang berubah."
+  },
+  {
+    "id": "BT078-017",
+    "day": 78,
+    "type": "story",
+    "prompt": "Menurut teks, apa kelemahan utama dari kebijakan empat hari kerja?",
+    "options": [
+      { "id": "A", "text": "Karyawan menjadi lebih sering sakit" },
+      { "id": "B", "text": "Balasan kepada klien terkadang lebih lambat pada hari Jumat" },
+      { "id": "C", "text": "Perusahaan harus menutup kantor sepenuhnya" },
+      { "id": "D", "text": "Karyawan dilarang bekerja lembur sama sekali" }
+    ],
+    "correct": "B",
+    "passage": "A company in Jakarta tested a four-day working week for six months. Employees worked longer hours on Monday to Thursday and enjoyed Fridays off. The manager reported that staff were less tired and that sick leave fell by almost a fifth. However, some clients complained that replies took longer on Fridays, and the team struggled to meet deadlines during the busiest weeks. The manager concluded that the arrangement had clear benefits, but it needed a better system for handling urgent requests. As a result, the company decided to extend the trial for another six months while it improved its planning.",
+    "explanation": "Teks menyebut beberapa klien mengeluh balasan lebih lambat pada hari Jumat. Penurunan cuti sakit justru disebut sebagai manfaat, bukan kelemahan."
+  },
+  {
+    "id": "BT078-018",
+    "day": 78,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa salah satu kekurangan panel surya?",
+    "options": [
+      { "id": "A", "text": "They increase electricity bills." },
+      { "id": "B", "text": "The initial cost is high." },
+      { "id": "C", "text": "They never need cleaning." },
+      { "id": "D", "text": "They produce no electricity at all." }
+    ],
+    "correct": "B",
+    "script": "Good afternoon. Let's look at the advantages and disadvantages of solar panels for homes. The main advantage is that they reduce electricity bills over time. However, the initial cost is high, and panels need regular cleaning. On balance, solar power is a worthwhile investment for households that can afford the early expense.",
+    "explanation": "Pembicara menyebut biaya awal yang tinggi sebagai kekurangan. Panel surya disebut mengurangi tagihan listrik, dan perlu dibersihkan secara berkala."
+  },
+  {
+    "id": "BT078-019",
+    "day": 78,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: manfaat utamanya lebih besar daripada risiko yang kecil.",
+    "acceptedAnswers": [
+      "The main benefit outweighs the small risks"
+    ],
+    "explanation": "Outweighs berarti lebih besar nilainya daripada, dan the small risks adalah objek yang dibandingkan."
+  },
+  {
+    "id": "BT079-011",
+    "day": 79,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The thesis, together with the three supporting reasons, ___ in the introduction.",
+    "options": [
+      { "id": "A", "text": "appears" },
+      { "id": "B", "text": "appear" },
+      { "id": "C", "text": "are appearing" },
+      { "id": "D", "text": "appearing" }
+    ],
+    "correct": "A",
+    "explanation": "Subjek utamanya adalah thesis yang tunggal, sehingga kata kerjanya appears. Together with the three supporting reasons hanya keterangan tambahan dan tidak mengubah bentuk kata kerja."
+  },
+  {
+    "id": "BT079-012",
+    "day": 79,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Only when the writer ___ specific evidence will the thesis be convincing.",
+    "options": [
+      { "id": "A", "text": "provides" },
+      { "id": "B", "text": "will provide" },
+      { "id": "C", "text": "provide" },
+      { "id": "D", "text": "providing" }
+    ],
+    "correct": "A",
+    "explanation": "Dalam anak kalimat when, bentuk simple present provides dipakai, bukan will provide. Provide tidak sesuai dengan subjek tunggal the writer, dan providing tidak bisa menjadi predikat utama."
+  },
+  {
+    "id": "BT079-013",
+    "day": 79,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The thesis must ___ a clear position that the reader can agree or disagree with.",
+    "options": [
+      { "id": "A", "text": "assert" },
+      { "id": "B", "text": "assemble" },
+      { "id": "C", "text": "avoid" },
+      { "id": "D", "text": "adore" }
+    ],
+    "correct": "A",
+    "explanation": "Assert berarti menegaskan atau menyatakan dengan tegas suatu klaim. Assemble berarti merakit, avoid berarti menghindari, dan adore berarti memuja."
+  },
+  {
+    "id": "BT079-014",
+    "day": 79,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A weak thesis is often too ___, so it covers everything but proves nothing.",
+    "options": [
+      { "id": "A", "text": "broad" },
+      { "id": "B", "text": "bright" },
+      { "id": "C", "text": "brave" },
+      { "id": "D", "text": "brisk" }
+    ],
+    "correct": "A",
+    "explanation": "Broad berarti luas atau umum, sehingga tesis mencakup banyak hal tanpa membuktikan apa pun. Bright berarti cerah, brave berarti berani, dan brisk berarti cepat atau segar."
+  },
+  {
+    "id": "BT079-015",
+    "day": 79,
+    "type": "translate",
+    "prompt": "Tesis yang baik harus menyebutkan posisi dengan jelas sejak paragraf pertama.",
+    "acceptedAnswers": [
+      "A good thesis must state the position clearly from the first paragraph",
+      "A strong thesis should state its position clearly in the first paragraph"
+    ],
+    "explanation": "Must atau should dipakai untuk menyatakan keharusan dalam menulis tesis, dan state clearly berarti menyebutkan dengan jelas."
+  },
+  {
+    "id": "BT079-016",
+    "day": 79,
+    "type": "translate",
+    "prompt": "Pernyataan ini terlalu umum karena tidak bisa diperdebatkan oleh siapa pun.",
+    "acceptedAnswers": [
+      "This statement is too general because no one can argue against it",
+      "This claim is too broad, since nobody could reasonably disagree with it"
+    ],
+    "explanation": "Too general atau too broad menunjukkan pernyataan yang terlalu luas, dan because atau since menyatakan alasan."
+  },
+  {
+    "id": "BT079-017",
+    "day": 79,
+    "type": "story",
+    "prompt": "Menurut teks, mengapa tesis pertama Dina dianggap terlalu luas?",
+    "options": [
+      { "id": "A", "text": "Karena tidak ada yang akan membantah pernyataan itu" },
+      { "id": "B", "text": "Karena tesis itu terlalu panjang untuk satu kalimat" },
+      { "id": "C", "text": "Karena Dina tidak menulis tentang kota" },
+      { "id": "D", "text": "Karena tesis itu menyebut polusi udara" }
+    ],
+    "correct": "A",
+    "passage": "Dina was writing an essay about whether cities should ban cars from their centres. Her first thesis was Cars are bad for cities. Her teacher said it was too broad and that nobody would disagree with it. Her second draft said Cars pollute the air. This was more specific, but it still did not explain what the city should do. In her final version, Dina wrote that cities should ban private cars from the historic centre on weekends, because the change would reduce air pollution and make walking safer for tourists. Her teacher noted that the new thesis was narrower, clearly arguable, and supported by the evidence that followed in the body paragraphs.",
+    "explanation": "Guru menilai tesis pertama terlalu luas karena tidak ada yang akan membantahnya. Tesis kedua lebih spesifik, tetapi belum menjelaskan tindakan yang diusulkan."
+  },
+  {
+    "id": "BT079-018",
+    "day": 79,
+    "type": "listen",
+    "prompt": "Menurut pembicara, di mana tesis biasanya diletakkan?",
+    "options": [
+      { "id": "A", "text": "At the very end of the conclusion." },
+      { "id": "B", "text": "At the end of the introduction." },
+      { "id": "C", "text": "In the middle of the second body paragraph." },
+      { "id": "D", "text": "Before the title of the essay." }
+    ],
+    "correct": "B",
+    "script": "Good morning. A strong thesis statement usually appears at the end of the introduction. It presents the writer's main claim and often previews the reasons that will be discussed. For example, a thesis might say that libraries should be funded because they support literacy, reduce inequality, and provide free access to information.",
+    "explanation": "Pembicara menyebut tesis yang kuat biasanya muncul di akhir pendahuluan. Pilihan lain tidak sesuai dengan penjelasan dalam rekaman."
+  },
+  {
+    "id": "BT079-019",
+    "day": 79,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: tesis ini membatasi fokus pada dampak sosial dari kebijakan itu.",
+    "acceptedAnswers": [
+      "This thesis narrows its focus to the social impact of the policy"
+    ],
+    "explanation": "Narrows its focus to berarti mempersempit fokus ke, dan the social impact of the policy adalah objek yang dibatasi."
+  },
+  {
+    "id": "BT080-011",
+    "day": 80,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Each body paragraph ___ with a topic sentence that introduces one main idea.",
+    "options": [
+      { "id": "A", "text": "begins" },
+      { "id": "B", "text": "begin" },
+      { "id": "C", "text": "beginning" },
+      { "id": "D", "text": "has begun" }
+    ],
+    "correct": "A",
+    "explanation": "Each dipakai dengan kata kerja tunggal, sehingga bentuk yang benar adalah begins. Begin, beginning, dan has begun tidak sesuai dengan subjek tunggal dan pola kalimat ini."
+  },
+  {
+    "id": "BT080-012",
+    "day": 80,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "A good paragraph ___ states a claim but also explains why that claim matters to the reader.",
+    "options": [
+      { "id": "A", "text": "not only" },
+      { "id": "B", "text": "neither" },
+      { "id": "C", "text": "either" },
+      { "id": "D", "text": "both" }
+    ],
+    "correct": "A",
+    "explanation": "Pola not only dan but also adalah pasangan korelatif yang menyatakan dua fungsi sekaligus. Neither, either, dan both tidak membentuk pasangan yang tepat dengan but also dalam kalimat ini."
+  },
+  {
+    "id": "BT080-013",
+    "day": 80,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The supporting sentences should ___ the topic sentence with examples and data.",
+    "options": [
+      { "id": "A", "text": "reinforce" },
+      { "id": "B", "text": "retire" },
+      { "id": "C", "text": "revive" },
+      { "id": "D", "text": "retrieve" }
+    ],
+    "correct": "A",
+    "explanation": "Reinforce berarti memperkuat, sesuai dengan fungsi kalimat pendukung bagi kalimat topik. Retire berarti pensiun, revive berarti menghidupkan kembali, dan retrieve berarti mengambil kembali."
+  },
+  {
+    "id": "BT080-014",
+    "day": 80,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A weak paragraph often lacks ___, so the reader cannot see how one idea leads to the next.",
+    "options": [
+      { "id": "A", "text": "coherence" },
+      { "id": "B", "text": "coordinates" },
+      { "id": "C", "text": "costume" },
+      { "id": "D", "text": "currency" }
+    ],
+    "correct": "A",
+    "explanation": "Coherence berarti keterkaitan yang runtut antarbagian paragraf. Coordinates berarti koordinat, costume berarti kostum, dan currency berarti mata uang."
+  },
+  {
+    "id": "BT080-015",
+    "day": 80,
+    "type": "translate",
+    "prompt": "Kalimat topik harus menyebut gagasan utama paragraf, lalu kalimat berikutnya memberi bukti.",
+    "acceptedAnswers": [
+      "The topic sentence should state the main idea of the paragraph, and the following sentences should provide evidence",
+      "A topic sentence must state the paragraph's main idea, and the next sentences should supply evidence"
+    ],
+    "explanation": "Should atau must menyatakan kewajiban dalam menulis paragraf, dan the following sentences should provide evidence menjelaskan fungsi kalimat pendukung."
+  },
+  {
+    "id": "BT080-016",
+    "day": 80,
+    "type": "translate",
+    "prompt": "Transisi yang tepat membuat argumen mengalir dari satu paragraf ke paragraf berikutnya.",
+    "acceptedAnswers": [
+      "Appropriate transitions help the argument flow from one paragraph to the next",
+      "Suitable transitions make the argument move smoothly from one paragraph to the following one"
+    ],
+    "explanation": "Help atau make dipakai untuk menyatakan akibat, dan flow atau move smoothly berarti mengalir dengan lancar."
+  },
+  {
+    "id": "BT080-017",
+    "day": 80,
+    "type": "story",
+    "prompt": "Menurut teks, apa fungsi kalimat Public parks improve the health of city residents dalam paragraf Bima?",
+    "options": [
+      { "id": "A", "text": "Sebagai kesimpulan dari seluruh esai" },
+      { "id": "B", "text": "Sebagai kalimat topik yang menyebut gagasan utama paragraf" },
+      { "id": "C", "text": "Sebagai daftar sumber penelitian" },
+      { "id": "D", "text": "Sebagai contoh statistik tentang biaya perawatan" }
+    ],
+    "correct": "B",
+    "passage": "Bima's body paragraph about public parks began with the sentence Public parks improve the health of city residents. This topic sentence gave the reader a clear direction. The next sentence explained the reason: parks encourage people to walk, jog, and exercise outdoors. To support this point, Bima cited a study showing that residents living within walking distance of a park were more active. He then linked the paragraph to the following one by saying that physical health also affects mental wellbeing. His teacher praised the logical progression, although she suggested that he add a counterargument about maintenance costs in the final paragraph.",
+    "explanation": "Kalimat pertama paragraf menyebut gagasan utama yang kemudian dijelaskan oleh kalimat-kalimat berikutnya. Bukan kesimpulan, sumber, atau data biaya."
+  },
+  {
+    "id": "BT080-018",
+    "day": 80,
+    "type": "listen",
+    "prompt": "Menurut pembicara, apa yang dilakukan penulis setelah menyatakan klaim?",
+    "options": [
+      { "id": "A", "text": "Writes a conclusion for the whole essay." },
+      { "id": "B", "text": "Explains the reasoning behind the claim." },
+      { "id": "C", "text": "Changes the topic to a new subject." },
+      { "id": "D", "text": "Deletes the claim from the paragraph." }
+    ],
+    "correct": "B",
+    "script": "Good afternoon. In a well-developed body paragraph, the writer first states a clear claim. Then the writer explains the reasoning behind that claim. Finally, the writer gives a specific example to show that the reasoning is true. Each stage should connect smoothly to the next.",
+    "explanation": "Setelah klaim, penulis menjelaskan alasan di balik klaim itu sebelum memberi contoh. Pilihan lain tidak sesuai dengan urutan yang dijelaskan."
+  },
+  {
+    "id": "BT080-019",
+    "day": 80,
+    "type": "reorder",
+    "prompt": "Rangkai kata-kata ini menjadi satu kalimat bahasa Inggris. Maknanya: contoh yang konkret membuat argumen lebih meyakinkan bagi pembaca.",
+    "acceptedAnswers": [
+      "Concrete examples make the argument more convincing to readers"
+    ],
+    "explanation": "Make dipakai dengan objek the argument dan kata sifat more convincing untuk menyatakan akibat bagi pembaca."
+  }
+]

@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "BT081-011",
+    "day": 81,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: 'Had the committee ___ the proposal earlier, the budget would have been approved before the deadline.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "reviewed"
+      },
+      {
+        "id": "B",
+        "text": "reviewing"
+      },
+      {
+        "id": "C",
+        "text": "to review"
+      },
+      {
+        "id": "D",
+        "text": "review"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Inversi dengan had menggantikan if pada pengandaian masa lampau, sehingga kata kerja setelah subjek memakai bentuk past participle reviewed."
+  },
+  {
+    "id": "BT081-012",
+    "day": 81,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the best option: 'Rarely ___ a thesis so clearly stated that an examiner could summarise it in a single sentence.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "a writer has produced"
+      },
+      {
+        "id": "B",
+        "text": "has a writer produced"
+      },
+      {
+        "id": "C",
+        "text": "a writer produces"
+      },
+      {
+        "id": "D",
+        "text": "a writer had produced"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Setelah Rarely, urutan kalimat dibalik sehingga kata bantu has mendahului subjek a writer, lalu diikuti past participle produced."
+  },
+  {
+    "id": "BT081-013",
+    "day": 81,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'The essay offers a balanced ___ of the policy, weighing its economic gains against its social costs.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "appraisal"
+      },
+      {
+        "id": "B",
+        "text": "vacuum"
+      },
+      {
+        "id": "C",
+        "text": "cargo"
+      },
+      {
+        "id": "D",
+        "text": "tremor"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Appraisal berarti penilaian atau evaluasi. Vacuum, cargo, dan tremor tidak cocok dengan konteks menimbang untung dan biaya."
+  },
+  {
+    "id": "BT081-014",
+    "day": 81,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'mitigate' in this sentence: 'Flexible working hours may mitigate the stress of long commutes.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "intensify"
+      },
+      {
+        "id": "B",
+        "text": "alleviate"
+      },
+      {
+        "id": "C",
+        "text": "postpone"
+      },
+      {
+        "id": "D",
+        "text": "publicise"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Mitigate berarti mengurangi atau meringankan dampak buruk. Alleviate memiliki makna paling dekat, sedangkan intensify berarti memperkuat."
+  },
+  {
+    "id": "BT081-015",
+    "day": 81,
+    "type": "translate",
+    "prompt": "Meskipun biaya awalnya tinggi, proyek ini tetap layak dijalankan karena manfaat jangka panjangnya jelas.",
+    "acceptedAnswers": [
+      "Although the initial cost is high, the project remains worthwhile because its long-term benefits are clear.",
+      "Even though the upfront cost is high, the project is still worth pursuing because its long-term benefits are obvious."
+    ],
+    "explanation": "Layak dijalankan dapat diterjemahkan worthwhile atau worth pursuing, sedangkan biaya awal menjadi initial cost atau upfront cost."
+  },
+  {
+    "id": "BT081-016",
+    "day": 81,
+    "type": "translate",
+    "prompt": "Kebijakan itu menuai kritik karena para perancangnya tidak mempertimbangkan dampaknya terhadap kelompok berpenghasilan rendah.",
+    "acceptedAnswers": [
+      "The policy drew criticism because its designers did not consider its impact on low-income groups.",
+      "The policy attracted criticism because its designers failed to consider its effect on low-income groups."
+    ],
+    "explanation": "Menuai kritik dapat diterjemahkan drew criticism atau attracted criticism, sedangkan tidak mempertimbangkan menjadi did not consider atau failed to consider."
+  },
+  {
+    "id": "BT081-017",
+    "day": 81,
+    "type": "story",
+    "prompt": "Mengapa Rania memisahkan dua poin dalam paragraf pertamanya?",
+    "passage": "Rania received her practice essay with a note in the margin: 'Your ideas are good, but readers cannot tell where one argument ends and the next begins.' She had written about whether cities should charge drivers for entering the centre. Her first body paragraph contained two separate points, the reduction in traffic and the funding for buses, and the examiner found them tangled together. Rania split these points into two paragraphs, each opening with a topic sentence that stated its purpose. She then checked whether every paragraph returned to the thesis. In the revised version, a concession about small businesses appeared before her rebuttal, which showed that she had weighed the opposing view fairly. Rania realised that a band score depends not only on what you think, but also on how easily the examiner can follow your reasoning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agar esainya menjadi lebih panjang dari 250 kata"
+      },
+      {
+        "id": "B",
+        "text": "Agar setiap paragraf membahas satu gagasan yang jelas"
+      },
+      {
+        "id": "C",
+        "text": "Karena gurunya meminta ia menghapus semua contoh"
+      },
+      {
+        "id": "D",
+        "text": "Agar ia tidak perlu lagi menulis tesis di akhir esai"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut pembaca sulit memisahkan dua argumen, sehingga Rania membuat setiap paragraf fokus pada satu gagasan."
+  },
+  {
+    "id": "BT081-018",
+    "day": 81,
+    "type": "listen",
+    "prompt": "Menurut audio, apa yang sebaiknya dilakukan saat merencanakan esai?",
+    "script": "Before you start writing, spend about five minutes on planning. Decide your position, then choose two main reasons that directly support it. For each reason, note one example that you could explain in a sentence or two. Finally, write down one counterargument you will address. A plan like this stops you from drifting off topic halfway through the essay.",
+    "options": [
+      {
+        "id": "A",
+        "text": "write the conclusion first and leave the thesis for later"
+      },
+      {
+        "id": "B",
+        "text": "decide a position, pick two reasons with examples, and note one counterargument"
+      },
+      {
+        "id": "C",
+        "text": "memorise a complete model essay before the test"
+      },
+      {
+        "id": "D",
+        "text": "count every word of the introduction before writing"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menjelaskan langkah perencanaan: menentukan posisi, dua alasan dengan contoh, dan satu keberatan yang akan dijawab."
+  },
+  {
+    "id": "BT081-019",
+    "day": 81,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Argumen menjadi lemah ketika bukti yang diberikan tidak relevan dengan klaimnya).",
+    "acceptedAnswers": [
+      "An argument becomes weak when the evidence given is not relevant to its claim"
+    ],
+    "explanation": "Kalimat memakai klausa waktu when, subjek the evidence given, kata kerja is, dan keterangan relevant to its claim."
+  },
+  {
+    "id": "BT082-011",
+    "day": 82,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Not until the commute became unbearable ___ I seriously consider moving closer to the office.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "did"
+      },
+      {
+        "id": "B",
+        "text": "had I"
+      },
+      {
+        "id": "C",
+        "text": "I did"
+      },
+      {
+        "id": "D",
+        "text": "I had"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah Not until di awal kalimat, kata bantu did harus mendahului subjek I, sehingga bentuknya did I seriously consider."
+  },
+  {
+    "id": "BT082-012",
+    "day": 82,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'The river park, ___ the city council renovated last year, has become my favourite place to walk.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "which"
+      },
+      {
+        "id": "B",
+        "text": "where"
+      },
+      {
+        "id": "C",
+        "text": "whose"
+      },
+      {
+        "id": "D",
+        "text": "that"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Klausa relatif yang diapit koma memakai which untuk benda, sedangkan that tidak dipakai setelah koma."
+  },
+  {
+    "id": "BT082-013",
+    "day": 82,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Because traffic on the road to my office has become so heavy, my daily ___ now takes nearly ninety minutes.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "pastime"
+      },
+      {
+        "id": "B",
+        "text": "commute"
+      },
+      {
+        "id": "C",
+        "text": "childhood"
+      },
+      {
+        "id": "D",
+        "text": "housework"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Commute berarti perjalanan rutin dari rumah ke tempat kerja. Pastime berarti kegiatan santai, sedangkan childhood dan housework tidak cocok dengan konteks."
+  },
+  {
+    "id": "BT082-014",
+    "day": 82,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'The ___ where I grew up was so close-knit that everyone recognised each other's dogs.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "neighbourhood"
+      },
+      {
+        "id": "B",
+        "text": "neighbouring"
+      },
+      {
+        "id": "C",
+        "text": "neighbourly"
+      },
+      {
+        "id": "D",
+        "text": "neighbours"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Neighbourhood adalah kata benda untuk lingkungan tempat tinggal. Neighbouring dan neighbourly adalah kata sifat, sedangkan neighbours berbentuk jamak."
+  },
+  {
+    "id": "BT082-015",
+    "day": 82,
+    "type": "translate",
+    "prompt": "Saya biasanya mengerjakan pekerjaan rumah tangga pada Sabtu pagi sebelum cuacanya menjadi terlalu panas.",
+    "acceptedAnswers": [
+      "I usually do the housework on Saturday morning before the weather gets too hot.",
+      "I usually do my housework on Saturday morning before the weather becomes too hot."
+    ],
+    "explanation": "Pekerjaan rumah tangga diterjemahkan housework, dan sebelum cuaca menjadi panas memakai before the weather gets too hot."
+  },
+  {
+    "id": "BT082-016",
+    "day": 82,
+    "type": "translate",
+    "prompt": "Kampung halaman saya berubah cukup banyak dalam sepuluh tahun terakhir, tetapi suasananya masih terasa hangat.",
+    "acceptedAnswers": [
+      "My hometown has changed quite a lot over the last ten years, but it still feels warm.",
+      "My hometown has changed a great deal in the past decade, yet it still feels warm and welcoming."
+    ],
+    "explanation": "Kampung halaman diterjemahkan hometown, sedangkan dalam sepuluh tahun terakhir dapat memakai over the last ten years atau in the past decade."
+  },
+  {
+    "id": "BT082-017",
+    "day": 82,
+    "type": "story",
+    "prompt": "Apa yang membuat jawaban Lina terdengar lengkap menurut bacaan?",
+    "passage": "Lina had prepared for her speaking test by writing short notes about her neighbourhood. She lives on a quiet street near a canal, and she described it to the examiner as a place where shops and parks are within walking distance. When the examiner asked about her commute, Lina did not stop at saying that it takes forty minutes by bus. She explained that the route passes a busy market, so she often stops to buy vegetables on the way home. Her answer also included a comparison with her childhood home in a larger city, where traffic made every journey slower. Lina had practised these details until they sounded natural, not memorised. Her examiner later commented that the answers were full and easy to follow, because each one included a reason and a small example from daily life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ia menghafal satu naskah panjang tentang kotanya"
+      },
+      {
+        "id": "B",
+        "text": "Ia hanya menyebut waktu tempuh tanpa penjelasan tambahan"
+      },
+      {
+        "id": "C",
+        "text": "Setiap jawabannya memuat alasan dan contoh dari kehidupan sehari-hari"
+      },
+      {
+        "id": "D",
+        "text": "Ia membandingkan semua kota besar di negaranya satu per satu"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bacaan menyebut setiap jawaban Lina berisi alasan dan contoh kecil, sehingga pemeriksa menilainya lengkap. Pilihan lain bertentangan dengan teks."
+  },
+  {
+    "id": "BT082-018",
+    "day": 82,
+    "type": "listen",
+    "prompt": "Menurut audio, apa cara terbaik menjawab pertanyaan Part 1 tentang kampung halaman?",
+    "script": "When the examiner asks about your hometown, do not answer with a single word. Start with a direct answer, then add one or two details about the place. You might mention its location, its character, or a feature that people usually notice first. Finally, connect the answer to your own experience. This keeps your response natural and gives the examiner enough language to assess.",
+    "options": [
+      {
+        "id": "A",
+        "text": "give a one-word answer to save time"
+      },
+      {
+        "id": "B",
+        "text": "start with a direct answer, add details, then connect it to your experience"
+      },
+      {
+        "id": "C",
+        "text": "memorise a long speech about the city"
+      },
+      {
+        "id": "D",
+        "text": "describe a city you have never visited"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menyarankan jawaban langsung, lalu detail tentang tempat, dan diakhiri dengan koneksi ke pengalaman pribadi."
+  },
+  {
+    "id": "BT082-019",
+    "day": 82,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Saya sudah tinggal di lingkungan ini sejak kecil).",
+    "acceptedAnswers": [
+      "I have lived in this neighbourhood since childhood"
+    ],
+    "explanation": "Pola present perfect have lived dipakai untuk kegiatan yang dimulai di masa lalu dan masih berlanjut, dengan since childhood sebagai penanda waktu."
+  },
+  {
+    "id": "BT083-011",
+    "day": 83,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: 'I would rather ___ at home on weekends than go to crowded places.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "stay"
+      },
+      {
+        "id": "B",
+        "text": "staying"
+      },
+      {
+        "id": "C",
+        "text": "to stay"
+      },
+      {
+        "id": "D",
+        "text": "stayed"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah would rather, kata kerja dipakai dalam bentuk dasar tanpa to, sehingga bentuk yang tepat adalah stay."
+  },
+  {
+    "id": "BT083-012",
+    "day": 83,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Hardly ___ the lecture when the projector suddenly stopped working.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "had we begun"
+      },
+      {
+        "id": "B",
+        "text": "we had begun"
+      },
+      {
+        "id": "C",
+        "text": "we have begun"
+      },
+      {
+        "id": "D",
+        "text": "were we beginning"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Hardly di awal kalimat membalik urutan kata: had mendahului subjek we, lalu diikuti past participle begun."
+  },
+  {
+    "id": "BT083-013",
+    "day": 83,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Between coffee and tea, I have a clear ___ for tea, especially when I need to concentrate.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "habit"
+      },
+      {
+        "id": "B",
+        "text": "pastime"
+      },
+      {
+        "id": "C",
+        "text": "preference"
+      },
+      {
+        "id": "D",
+        "text": "routine"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Preference berarti pilihan atau kecenderungan lebih menyukai sesuatu, dan pola preference for cocok dengan konteks memilih teh."
+  },
+  {
+    "id": "BT083-014",
+    "day": 83,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'occasionally' in this sentence: 'I occasionally go hiking, but only when the weather is dry.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "constantly"
+      },
+      {
+        "id": "B",
+        "text": "frequently"
+      },
+      {
+        "id": "C",
+        "text": "now and then"
+      },
+      {
+        "id": "D",
+        "text": "every morning"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Occasionally berarti kadang-kadang atau sesekali. Frequently berarti sering, sedangkan constantly berarti terus-menerus."
+  },
+  {
+    "id": "BT083-015",
+    "day": 83,
+    "type": "translate",
+    "prompt": "Saya lebih suka membaca buku di kafe daripada di rumah karena suasananya membantu saya fokus.",
+    "acceptedAnswers": [
+      "I prefer reading books in a cafe rather than at home because the atmosphere helps me focus.",
+      "I prefer to read books in a cafe instead of at home because the atmosphere helps me concentrate."
+    ],
+    "explanation": "Lebih suka daripada dapat diterjemahkan prefer ___ rather than atau prefer ___ to, sedangkan membantu saya fokus memakai helps me focus."
+  },
+  {
+    "id": "BT083-016",
+    "day": 83,
+    "type": "translate",
+    "prompt": "Saya jarang minum kopi setelah pukul empat sore karena kafein membuat saya sulit tidur.",
+    "acceptedAnswers": [
+      "I rarely drink coffee after four in the afternoon because caffeine makes it hard for me to sleep.",
+      "I seldom have coffee after four in the afternoon because caffeine makes it difficult for me to sleep."
+    ],
+    "explanation": "Jarang dapat diterjemahkan rarely atau seldom, dan pola makes it hard for me to sleep dipakai untuk menyatakan akibat."
+  },
+  {
+    "id": "BT083-017",
+    "day": 83,
+    "type": "story",
+    "prompt": "Mengapa Hana jarang menonton televisi setelah makan malam?",
+    "passage": "Hana works as a freelance translator, and her daily habits reflect how she likes to organise her time. She usually starts work before seven in the morning, when the streets are quiet and her mind is fresh. Most evenings she avoids screens because bright light makes it harder for her to sleep. Instead, she prefers to read paper books or listen to podcasts about history. Hana rarely watches television after dinner, and she says this habit has improved her concentration during the day. On weekends she sometimes meets friends at a café, although she keeps these meetings short so that her schedule stays balanced. Hana admits that her routine is not perfect, but she enjoys the structure it gives her work and her free time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena televisinya rusak dan belum sempat diperbaiki"
+      },
+      {
+        "id": "B",
+        "text": "Karena ia lebih suka menghabiskan waktu bersama teman di kafe"
+      },
+      {
+        "id": "C",
+        "text": "Karena kebiasaan itu membantu konsentrasinya selama siang hari"
+      },
+      {
+        "id": "D",
+        "text": "Karena pekerjaannya mengharuskan ia bekerja sampai larut malam"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bacaan menyebut kebiasaan itu meningkatkan konsentrasi Hana di siang hari. Pilihan lain tidak disebut dalam teks."
+  },
+  {
+    "id": "BT083-018",
+    "day": 83,
+    "type": "listen",
+    "prompt": "Menurut audio, di mana posisi kata keterangan frekuensi seperti usually dalam kalimat?",
+    "script": "In Part one, the examiner often asks how frequently you do something. Answering with only 'often' is acceptable, but a stronger answer adds a time reference and a reason. For example, you might say you go swimming roughly twice a week because it relaxes you. Be careful with word order, since most frequency adverbs come before the main verb but after the verb to be.",
+    "options": [
+      {
+        "id": "A",
+        "text": "always at the end of the sentence"
+      },
+      {
+        "id": "B",
+        "text": "before the main verb but after the verb to be"
+      },
+      {
+        "id": "C",
+        "text": "before the subject in every sentence"
+      },
+      {
+        "id": "D",
+        "text": "only after the object"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menjelaskan bahwa kata keterangan frekuensi biasanya berada sebelum kata kerja utama, tetapi sesudah kata kerja to be."
+  },
+  {
+    "id": "BT083-019",
+    "day": 83,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Saya biasanya menghindari kopi setelah makan malam).",
+    "acceptedAnswers": [
+      "I usually avoid coffee after dinner"
+    ],
+    "explanation": "Kata keterangan usually diletakkan sebelum kata kerja utama avoid, lalu after dinner menjadi keterangan waktu."
+  },
+  {
+    "id": "BT084-011",
+    "day": 84,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: 'By the time we reached the summit, the clouds ___ over the valley, so we could not see the view we had hoped for.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "had already rolled in"
+      },
+      {
+        "id": "B",
+        "text": "have already rolled in"
+      },
+      {
+        "id": "C",
+        "text": "will already roll in"
+      },
+      {
+        "id": "D",
+        "text": "already roll in"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Awan masuk terjadi sebelum kelompok itu sampai di puncak, sehingga dipakai past perfect had already rolled in."
+  },
+  {
+    "id": "BT084-012",
+    "day": 84,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'When I was twelve, our class ___ to a fishing village every October to study the coast.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "used to go"
+      },
+      {
+        "id": "B",
+        "text": "use to go"
+      },
+      {
+        "id": "C",
+        "text": "is used to go"
+      },
+      {
+        "id": "D",
+        "text": "would to go"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Used to dipakai untuk kebiasaan di masa lalu yang sudah tidak berlaku, dan kata kerja sesudahnya berbentuk dasar."
+  },
+  {
+    "id": "BT084-013",
+    "day": 84,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Her description of the night market was so ___ that I could almost smell the spices and hear the vendors calling.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "vacant"
+      },
+      {
+        "id": "B",
+        "text": "vague"
+      },
+      {
+        "id": "C",
+        "text": "vivid"
+      },
+      {
+        "id": "D",
+        "text": "vertical"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Vivid berarti jelas dan hidup sehingga pendengar seolah melihat dan merasakan sesuatu. Vacant, vague, dan vertical tidak menggambarkan detail yang kuat."
+  },
+  {
+    "id": "BT084-014",
+    "day": 84,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'When you plan a Part 2 answer, sketching a rough ___ of events helps you keep your story in the right order.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "blister"
+      },
+      {
+        "id": "B",
+        "text": "lantern"
+      },
+      {
+        "id": "C",
+        "text": "timeline"
+      },
+      {
+        "id": "D",
+        "text": "tissue"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Timeline berarti garis waktu atau urutan peristiwa. Blister, lantern, dan tissue tidak cocok dengan konteks menyusun cerita."
+  },
+  {
+    "id": "BT084-015",
+    "day": 84,
+    "type": "translate",
+    "prompt": "Saat saya mengingat hari pertama di kota ini, yang paling jelas adalah bau roti dari toko di seberang stasiun.",
+    "acceptedAnswers": [
+      "When I recall my first day in this city, what I remember most clearly is the smell of bread from the bakery across from the station.",
+      "When I think back to my first day in the city, the clearest memory is the smell of bread from the bakery across the station."
+    ],
+    "explanation": "Mengingat dapat diterjemahkan recall atau think back to, sedangkan yang paling jelas memakai what I remember most clearly atau the clearest memory."
+  },
+  {
+    "id": "BT084-016",
+    "day": 84,
+    "type": "translate",
+    "prompt": "Cerita itu singkat, tetapi setiap detailnya membuat saya merasa seolah sedang berada di tempat itu lagi.",
+    "acceptedAnswers": [
+      "The story is short, but every detail makes me feel as though I am back in that place again.",
+      "The story is brief, yet each detail makes me feel as if I were standing in that place once more."
+    ],
+    "explanation": "Seolah sedang berada dapat diterjemahkan as though atau as if, dan variasi kedua memakai bentuk pengandaian were."
+  },
+  {
+    "id": "BT084-017",
+    "day": 84,
+    "type": "story",
+    "prompt": "Apa yang paling membuat Sinta mengingat pengalaman di pasar malam itu?",
+    "passage": "Sinta still remembers a night market in her hometown, which she visited with classmates when she was twelve. The market stretched along a narrow road, and every stall had a lantern hanging above it. What stayed with her most was the smell of grilled corn mixed with ginger tea, a combination she has never found anywhere else. A street musician played the same song again and again, and the crowd moved slowly between the stalls. Sinta bought a small wooden bird that she carried home in her pocket. Years later she tells this story often, not because the market was grand, but because it was the first time she felt that a place could be entirely her own. She describes the scene vividly whenever someone asks about her childhood.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ia memenangkan lomba di pasar malam itu"
+      },
+      {
+        "id": "B",
+        "text": "Aroma jagung bakar dan teh jahe yang tidak pernah ia temukan di tempat lain"
+      },
+      {
+        "id": "C",
+        "text": "Ia kehilangan barang berharga di tengah keramaian"
+      },
+      {
+        "id": "D",
+        "text": "Ia bertemu seorang pemusik yang sudah terkenal"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut aroma jagung bakar bercampur teh jahe sebagai hal yang paling melekat dalam ingatannya. Pilihan lain tidak disebut dalam teks."
+  },
+  {
+    "id": "BT084-018",
+    "day": 84,
+    "type": "listen",
+    "prompt": "Menurut audio, apa yang sebaiknya dilakukan saat menyiapkan cue card?",
+    "script": "The cue card usually asks you to describe a person, a place, or an event. Before you speak, use the one minute of preparation to note three or four key points in order. Begin with a short setting that tells the examiner when and where the story happened. Then describe the main event with sensory details, and finish by explaining why it still matters to you.",
+    "options": [
+      {
+        "id": "A",
+        "text": "write a complete script and read it aloud"
+      },
+      {
+        "id": "B",
+        "text": "note three or four key points in order, starting with the setting"
+      },
+      {
+        "id": "C",
+        "text": "choose the longest possible event to impress the examiner"
+      },
+      {
+        "id": "D",
+        "text": "skip the preparation time and speak immediately"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menyarankan mencatat tiga atau empat poin berurutan, dimulai dari latar cerita, bukan menulis naskah lengkap."
+  },
+  {
+    "id": "BT084-019",
+    "day": 84,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Cerita itu masih saya ingat dengan jelas sampai sekarang).",
+    "acceptedAnswers": [
+      "I still remember that story clearly to this day"
+    ],
+    "explanation": "Still diletakkan sebelum kata kerja remember, lalu clearly dan to this day menjadi keterangan cara dan waktu."
+  },
+  {
+    "id": "BT085-011",
+    "day": 85,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Had I known how demanding the course would be, I ___ the registration form sooner.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "would have submitted"
+      },
+      {
+        "id": "B",
+        "text": "submit"
+      },
+      {
+        "id": "C",
+        "text": "would submit"
+      },
+      {
+        "id": "D",
+        "text": "had submitted"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Inversi Had I known menggantikan if pada pengandaian masa lampau, sehingga induk kalimat memakai would have plus past participle."
+  },
+  {
+    "id": "BT085-012",
+    "day": 85,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'The festival, ___ thousands of visitors every year, has become the most important event in the town.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "attracting"
+      },
+      {
+        "id": "B",
+        "text": "attracted"
+      },
+      {
+        "id": "C",
+        "text": "attract"
+      },
+      {
+        "id": "D",
+        "text": "to attract"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Partisip sekarang attracting menjelaskan festival yang menarik banyak pengunjung setiap tahun, sehingga bentuk aktif dipakai."
+  },
+  {
+    "id": "BT085-013",
+    "day": 85,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Looking back on my first year at university, I feel a deep sense of ___ for the teachers who believed in me when I doubted myself.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "clutter"
+      },
+      {
+        "id": "B",
+        "text": "gratitude"
+      },
+      {
+        "id": "C",
+        "text": "casualty"
+      },
+      {
+        "id": "D",
+        "text": "tremor"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Gratitude berarti rasa terima kasih. Clutter, casualty, dan tremor tidak sesuai dengan konteks rasa terima kasih kepada guru."
+  },
+  {
+    "id": "BT085-014",
+    "day": 85,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'significance' in this sentence: 'The award held great significance for the small village, because it proved that the community's efforts had been noticed.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "importance"
+      },
+      {
+        "id": "B",
+        "text": "delay"
+      },
+      {
+        "id": "C",
+        "text": "fragrance"
+      },
+      {
+        "id": "D",
+        "text": "obligation"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Significance berarti arti penting atau nilai sebuah peristiwa. Delay, fragrance, dan obligation memiliki makna yang berbeda."
+  },
+  {
+    "id": "BT085-015",
+    "day": 85,
+    "type": "translate",
+    "prompt": "Ketika saya mengenang masa kecil di desa itu, rasa rindu selalu datang lebih dulu daripada hal lainnya.",
+    "acceptedAnswers": [
+      "When I think back on my childhood in that village, a sense of nostalgia always comes before anything else.",
+      "Whenever I look back on growing up in that village, nostalgia always arrives before anything else."
+    ],
+    "explanation": "Rasa rindu terhadap masa lalu diterjemahkan nostalgia, sedangkan mengenang dapat memakai think back on atau look back on."
+  },
+  {
+    "id": "BT085-016",
+    "day": 85,
+    "type": "translate",
+    "prompt": "Dari sudut pandang guru, keberhasilan murid tidak selalu terlihat pada nilai ujian, melainkan pada keberanian mereka mencoba.",
+    "acceptedAnswers": [
+      "From a teacher's vantage point, students' success is not always visible in their exam scores but in their willingness to try.",
+      "From the perspective of a teacher, a student's success does not always show in exam marks, but in the courage to try."
+    ],
+    "explanation": "Sudut pandang dapat diterjemahkan vantage point atau perspective, dan pola tidak selalu ___ melainkan dipadankan dengan not always ___ but."
+  },
+  {
+    "id": "BT085-017",
+    "day": 85,
+    "type": "story",
+    "prompt": "Mengapa Sari merasa bangga dengan kebun komunitas tersebut?",
+    "passage": "The community garden on the edge of Sari's neighbourhood began with four raised beds and a handful of volunteers. For the first year, the crops were small and the soil was poor, so many people doubted that the project would survive. Sari, who coordinated the volunteers, kept a record of every harvest and every failed attempt. By the third year, the garden supplied vegetables to a food bank and taught local children how seeds grow. When a regional newspaper featured the project, the volunteers held a small celebration. Sari felt a deep sense of pride, not because the garden was famous, but because she had watched strangers become friends while working side by side. She now says the achievement belongs to everyone who refused to give up.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena kebun itu menjadi terkenal di seluruh negeri"
+      },
+      {
+        "id": "B",
+        "text": "Karena para relawan berhasil membuat kebunnya penuh bunga"
+      },
+      {
+        "id": "C",
+        "text": "Karena orang-orang yang asing berubah menjadi teman saat bekerja bersama"
+      },
+      {
+        "id": "D",
+        "text": "Karena hasil panen pertamanya mengalahkan semua kebun lain"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bacaan menyebut Sari bangga karena orang asing menjadi teman saat bekerja berdampingan, bukan karena ketenaran kebun."
+  },
+  {
+    "id": "BT085-018",
+    "day": 85,
+    "type": "listen",
+    "prompt": "Menurut audio, apa tiga lapisan yang dapat memperluas jawaban Part 2?",
+    "script": "A short answer can be extended by adding background, a reason, and a reflection. Background tells the examiner the context, such as when something began. A reason explains why it matters to you. Reflection shows how the experience changed your view. You do not need to speak for very long, but an answer with these three layers usually sounds fuller and more fluent.",
+    "options": [
+      {
+        "id": "A",
+        "text": "background, reason, and reflection"
+      },
+      {
+        "id": "B",
+        "text": "a list of dates, numbers, and prices"
+      },
+      {
+        "id": "C",
+        "text": "a memorised poem and a joke"
+      },
+      {
+        "id": "D",
+        "text": "a question back to the examiner"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Audio menyebut tiga lapisan: latar belakang, alasan, dan refleksi, yang membuat jawaban terdengar lebih lengkap."
+  },
+  {
+    "id": "BT085-019",
+    "day": 85,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Rasa bangga itu muncul ketika saya memahami bahwa pekerjaan kami berguna bagi orang lain).",
+    "acceptedAnswers": [
+      "The sense of pride came when I understood that our work helped other people"
+    ],
+    "explanation": "Pola came when dipakai untuk peristiwa di masa lalu, dan klausa that our work helped other people menjadi isi kesadaran tersebut."
+  },
+  {
+    "id": "BT086-011",
+    "day": 86,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Were governments to invest more seriously in public transport, the streets ___ far less congested than they are today.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "would be"
+      },
+      {
+        "id": "B",
+        "text": "will be"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "had been"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bentuk Were ___ to dengan inversi dipakai untuk pengandaian tentang keadaan yang belum terjadi, sehingga induk kalimat memakai would be."
+  },
+  {
+    "id": "BT086-012",
+    "day": 86,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'The pace of technological change has been ___ that many skills learned at university become outdated within a few years.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "so rapid"
+      },
+      {
+        "id": "B",
+        "text": "such rapid"
+      },
+      {
+        "id": "C",
+        "text": "rapid enough as"
+      },
+      {
+        "id": "D",
+        "text": "rapidly as"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pola so dengan kata sifat diikuti that menyatakan akibat. Such tidak tepat di sini karena has been tidak diikuti kata benda."
+  },
+  {
+    "id": "BT086-013",
+    "day": 86,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Many economists argue that globalisation has a strong ___ on wages in developing countries, although the exact effect remains debated.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "generation"
+      },
+      {
+        "id": "B",
+        "text": "influence"
+      },
+      {
+        "id": "C",
+        "text": "sustainability"
+      },
+      {
+        "id": "D",
+        "text": "tradition"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Influence berarti pengaruh, dan pola has a strong influence on sesuai dengan konteks ekonomi dan upah."
+  },
+  {
+    "id": "BT086-014",
+    "day": 86,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Critics warn that the rapid ___ of rural villages is eroding local customs that took centuries to develop.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "innovation"
+      },
+      {
+        "id": "B",
+        "text": "urbanisation"
+      },
+      {
+        "id": "C",
+        "text": "sustainability"
+      },
+      {
+        "id": "D",
+        "text": "generation"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Urbanisation berarti berkembangnya wilayah menjadi bersifat kota. Konteks desa yang berubah dan adat yang terkikis menunjuk pada urbanisasi."
+  },
+  {
+    "id": "BT086-015",
+    "day": 86,
+    "type": "translate",
+    "prompt": "Perkembangan teknologi telah mengubah cara generasi muda belajar dan berinteraksi dengan masyarakat.",
+    "acceptedAnswers": [
+      "Technological development has changed the way younger generations learn and interact with society.",
+      "Advances in technology have transformed how the younger generation learns and engages with society."
+    ],
+    "explanation": "Generasi muda diterjemahkan younger generations, dan mengubah cara dapat memakai has changed the way atau has transformed how."
+  },
+  {
+    "id": "BT086-016",
+    "day": 86,
+    "type": "translate",
+    "prompt": "Pemerintah perlu memastikan bahwa pertumbuhan ekonomi tidak merusak lingkungan bagi generasi berikutnya.",
+    "acceptedAnswers": [
+      "Governments need to ensure that economic growth does not damage the environment for future generations.",
+      "Governments must make sure that economic growth does not harm the environment for the generations to come."
+    ],
+    "explanation": "Merusak lingkungan dapat diterjemahkan damage atau harm the environment, dan generasi berikutnya memakai future generations atau generations to come."
+  },
+  {
+    "id": "BT086-017",
+    "day": 86,
+    "type": "story",
+    "prompt": "Menurut bacaan, apa dampak urbanisasi yang paling disebut di Marlow?",
+    "passage": "Over the past three decades, the town of Marlow has changed from a farming community into a busy centre for logistics and small manufacturing. Urbanisation brought new jobs, but it also pushed rents upward and made older neighbourhoods feel crowded. Local residents disagreed about the rate of change. Some argued that innovation in transport and digital services had made the town more attractive to young families, while others feared that long-standing traditions, such as the weekly market and the harvest festival, were slowly disappearing. The council responded by protecting several historic buildings and funding a bus route that connects new housing with the town centre. Early reports suggest that the measures have reduced traffic, although residents still debate whether the town is becoming more sustainable or simply more expensive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harga sewa meningkat dan lingkungan lama terasa lebih padat"
+      },
+      {
+        "id": "B",
+        "text": "Pasar mingguan dihapus sepenuhnya oleh dewan kota"
+      },
+      {
+        "id": "C",
+        "text": "Semua penduduk pindah ke desa di sekitarnya"
+      },
+      {
+        "id": "D",
+        "text": "Pertanian menjadi satu-satunya sumber pendapatan"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut urbanisasi menaikkan sewa dan membuat lingkungan lama terasa padat. Pilihan lain bertentangan dengan teks."
+  },
+  {
+    "id": "BT086-018",
+    "day": 86,
+    "type": "listen",
+    "prompt": "Menurut audio, apa yang sebaiknya dihindari dalam jawaban Part 3?",
+    "script": "In Part three, the examiner may ask about society or the economy. A good answer begins by responding directly to the question. Then explain the mechanism that connects the cause and the effect. Finally, offer a broader implication or an example from another country. Avoid repeating the question word for word, because that wastes time and does not show your range.",
+    "options": [
+      {
+        "id": "A",
+        "text": "responding directly to the question"
+      },
+      {
+        "id": "B",
+        "text": "explaining the mechanism behind a cause"
+      },
+      {
+        "id": "C",
+        "text": "repeating the question word for word"
+      },
+      {
+        "id": "D",
+        "text": "giving an example from another country"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Audio menyatakan mengulang pertanyaan kata demi kata membuang waktu dan tidak menunjukkan kemampuan berbicara. Tiga pilihan lain justru dianjurkan."
+  },
+  {
+    "id": "BT086-019",
+    "day": 86,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Inovasi sering kali lahir dari tradisi yang diperbarui).",
+    "acceptedAnswers": [
+      "Innovation often emerges from traditions that have been renewed"
+    ],
+    "explanation": "Often diletakkan sebelum kata kerja emerges, dan that have been renewed menjelaskan tradisi yang sudah diperbarui."
+  },
+  {
+    "id": "BT087-011",
+    "day": 87,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'The ticket is not in my bag, so I ___ it at the station, although I cannot remember doing so.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "must have left"
+      },
+      {
+        "id": "B",
+        "text": "must leave"
+      },
+      {
+        "id": "C",
+        "text": "must be leaving"
+      },
+      {
+        "id": "D",
+        "text": "should leave"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Dugaan kuat tentang kejadian di masa lalu memakai must have plus past participle, sedangkan must leave dan should leave merujuk pada masa kini atau masa depan."
+  },
+  {
+    "id": "BT087-012",
+    "day": 87,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'The proposal seems ___ attractive at first glance, but its long-term costs are far from clear.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "to be"
+      },
+      {
+        "id": "B",
+        "text": "being"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "to been"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pola seem to be dipakai untuk menyatakan kesan awal, dan kata kerja setelah to tetap berbentuk be."
+  },
+  {
+    "id": "BT087-013",
+    "day": 87,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'The second study is ___ the more reliable of the two, although a careful reader might still disagree with its conclusions.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "arguably"
+      },
+      {
+        "id": "B",
+        "text": "undoubtedly"
+      },
+      {
+        "id": "C",
+        "text": "apparently"
+      },
+      {
+        "id": "D",
+        "text": "carelessly"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Arguably berarti bisa dibilang atau masih dapat diperdebatkan, sesuai dengan klausa bahwa pembaca yang cermat mungkin tetap tidak setuju."
+  },
+  {
+    "id": "BT087-014",
+    "day": 87,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'presumably' in this sentence: 'Presumably, the delay was caused by the heavy rain last night.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "certainly"
+      },
+      {
+        "id": "B",
+        "text": "accidentally"
+      },
+      {
+        "id": "C",
+        "text": "probably"
+      },
+      {
+        "id": "D",
+        "text": "unexpectedly"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Presumably berarti kemungkinan besar berdasarkan dugaan yang masuk akal. Probably memiliki makna paling dekat, sedangkan certainly menyatakan kepastian."
+  },
+  {
+    "id": "BT087-015",
+    "day": 87,
+    "type": "translate",
+    "prompt": "Mungkin saja kebijakan baru itu berhasil, tetapi hasilnya belum bisa dipastikan.",
+    "acceptedAnswers": [
+      "The new policy may well succeed, but the result cannot yet be confirmed.",
+      "The new policy could well succeed, but its outcome cannot be confirmed yet."
+    ],
+    "explanation": "Mungkin saja dapat diterjemahkan may well atau could well, sedangkan belum bisa dipastikan memakai cannot yet be confirmed."
+  },
+  {
+    "id": "BT087-016",
+    "day": 87,
+    "type": "translate",
+    "prompt": "Tampaknya para pelajar lebih memilih belajar lewat video daripada membaca buku teks.",
+    "acceptedAnswers": [
+      "Apparently, students now prefer learning through videos rather than reading textbooks.",
+      "It seems that students increasingly prefer learning from videos to reading textbooks."
+    ],
+    "explanation": "Tampaknya dapat diterjemahkan apparently atau it seems that, dan lebih memilih daripada memakai prefer ___ rather than atau prefer ___ to."
+  },
+  {
+    "id": "BT087-017",
+    "day": 87,
+    "type": "story",
+    "prompt": "Apa yang dinyatakan bacaan tentang perbandingan metode tanam lama dan baru?",
+    "passage": "Apparently, the village's rice harvest fell by almost a fifth last season. Farmers presumably blamed the unusually dry months, but a local researcher suggested that a recent change in fertiliser might also have played a role. Doubtless, the weather was a factor, yet the researcher admitted that the data remain incomplete. Seemingly, the older planting methods produced steadier yields, although no one has compared the two systems directly. The village council plans to conduct a full study next year before recommending any change to the farmers. Until then, the explanation remains a matter of informed guesswork rather than established fact.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Keduanya pernah diuji langsung dan hasilnya sama"
+      },
+      {
+        "id": "B",
+        "text": "Belum ada yang membandingkan kedua sistem itu secara langsung"
+      },
+      {
+        "id": "C",
+        "text": "Metode baru terbukti menurunkan hasil panen"
+      },
+      {
+        "id": "D",
+        "text": "Dewan desa sudah menghentikan metode tanam lama"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyatakan belum ada yang membandingkan kedua sistem secara langsung. Pilihan lain bertentangan dengan teks."
+  },
+  {
+    "id": "BT087-018",
+    "day": 87,
+    "type": "listen",
+    "prompt": "Menurut audio, mengapa klaim yang terlalu pasti sebaiknya dihindari saat berspekulasi?",
+    "script": "When the examiner asks you to speculate about the future, avoid claiming certainty. Phrases such as probably or it seems likely help you sound measured. An absolute claim such as this will definitely happen can sound unconvincing. Good speakers support each prediction with a reason, so the listener can see why it is plausible.",
+    "options": [
+      {
+        "id": "A",
+        "text": "because examiners prefer very short answers"
+      },
+      {
+        "id": "B",
+        "text": "because absolute predictions can sound unconvincing"
+      },
+      {
+        "id": "C",
+        "text": "because speculation is not allowed in Part 3"
+      },
+      {
+        "id": "D",
+        "text": "because every prediction must include a number"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menjelaskan klaim yang mutlak terdengar kurang meyakinkan, sehingga pembicara sebaiknya memakai bahasa yang terukur."
+  },
+  {
+    "id": "BT087-019",
+    "day": 87,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Tampaknya cuaca akan membaik besok pagi).",
+    "acceptedAnswers": [
+      "It seems that the weather will improve tomorrow morning"
+    ],
+    "explanation": "Pola It seems that dipakai untuk dugaan, lalu will improve tomorrow morning menyatakan kejadian yang diperkirakan."
+  },
+  {
+    "id": "BT088-011",
+    "day": 88,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'The reading section was so long that I wish I ___ more time for the final passage.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "had allocated"
+      },
+      {
+        "id": "B",
+        "text": "allocated"
+      },
+      {
+        "id": "C",
+        "text": "would allocate"
+      },
+      {
+        "id": "D",
+        "text": "have allocated"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Wish untuk penyesalan atas kejadian masa lalu memakai past perfect, sehingga bentuknya had allocated."
+  },
+  {
+    "id": "BT088-012",
+    "day": 88,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Each candidate must bring two forms of identification, ___ the test cannot begin.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "without which"
+      },
+      {
+        "id": "B",
+        "text": "which without"
+      },
+      {
+        "id": "C",
+        "text": "which"
+      },
+      {
+        "id": "D",
+        "text": "whom"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Klausa without which menyatakan bahwa tanpa dokumen itu ujian tidak bisa dimulai, sehingga pola ini tepat."
+  },
+  {
+    "id": "BT088-013",
+    "day": 88,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'After a three-hour mock test, most candidates feel mentally drained, so building ___ through regular practice is essential.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "stain"
+      },
+      {
+        "id": "B",
+        "text": "stature"
+      },
+      {
+        "id": "C",
+        "text": "stamina"
+      },
+      {
+        "id": "D",
+        "text": "stanza"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Stamina berarti daya tahan fisik atau mental untuk bertahan lama. Stain, stature, dan stanza tidak cocok dengan konteks ujian panjang."
+  },
+  {
+    "id": "BT088-014",
+    "day": 88,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'calibration' in this sentence: 'The teacher's calibration of the marking scale ensured that every essay was judged in the same way.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "adjustment"
+      },
+      {
+        "id": "B",
+        "text": "decoration"
+      },
+      {
+        "id": "C",
+        "text": "collection"
+      },
+      {
+        "id": "D",
+        "text": "celebration"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Calibration berarti penyesuaian alat atau standar agar hasilnya konsisten. Adjustment paling dekat maknanya, sedangkan pilihan lain tidak berkaitan."
+  },
+  {
+    "id": "BT088-015",
+    "day": 88,
+    "type": "translate",
+    "prompt": "Simulasi penuh membantu kita mengukur ketahanan dan ketepatan jawaban di bawah tekanan waktu.",
+    "acceptedAnswers": [
+      "A full simulation helps us measure our stamina and accuracy under time pressure.",
+      "Full simulations help us gauge our endurance and accuracy under the pressure of time."
+    ],
+    "explanation": "Ketahanan dapat diterjemahkan stamina atau endurance, sedangkan di bawah tekanan waktu memakai under time pressure."
+  },
+  {
+    "id": "BT088-016",
+    "day": 88,
+    "type": "translate",
+    "prompt": "Setelah tes tiruan selesai, peserta sebaiknya mencatat bagian mana yang paling sering membuat mereka kehilangan poin.",
+    "acceptedAnswers": [
+      "After the mock test is finished, candidates should note which sections most often cost them marks.",
+      "Once the practice test is over, candidates should record the sections where they most frequently lose marks."
+    ],
+    "explanation": "Tes tiruan dapat diterjemahkan mock test atau practice test, dan kehilangan poin memakai cost them marks atau lose marks."
+  },
+  {
+    "id": "BT088-017",
+    "day": 88,
+    "type": "story",
+    "prompt": "Apa masalah utama Yudi pada bagian reading?",
+    "passage": "Yudi took a full mock test on Saturday morning, hoping to finish every section within the official time. He felt confident during the listening paper, and his answers matched the audio closely. The reading paper was different. He spent almost twenty minutes on a single long passage about marine biology, trying to understand every technical term before answering. By the time he reached the last section, he had only a few minutes left and guessed several answers. His score was acceptable, but his feedback showed that the weakness was not vocabulary. It was the pace. After reviewing the test, Yudi decided to practise with a timer and to move on from difficult questions after one minute, returning to them only if time allowed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ia kehabisan waktu karena terlalu lama di satu bacaan yang sulit"
+      },
+      {
+        "id": "B",
+        "text": "Ia tidak memahami kosakata sama sekali pada semua teks"
+      },
+      {
+        "id": "C",
+        "text": "Ia lupa membawa alat tulis untuk bagian listening"
+      },
+      {
+        "id": "D",
+        "text": "Ia menjawab semua soal dengan benar tetapi menulis terlalu lambat"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut Yudi menghabiskan hampir dua puluh menit pada satu teks dan kelemahannya ada pada tempo, bukan kosakata."
+  },
+  {
+    "id": "BT088-018",
+    "day": 88,
+    "type": "listen",
+    "prompt": "Menurut audio, apa yang sebaiknya dilakukan setelah simulasi penuh?",
+    "script": "After a full simulation, do not look only at your total score. Check each section separately, because listening and reading may reveal different weaknesses. Mark every question you guessed, even if you answered it correctly, since a lucky guess can hide a gap in knowledge. Then choose one skill to focus on for the next week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "check only the total score and move on"
+      },
+      {
+        "id": "B",
+        "text": "tag every guessed answer and review each section separately"
+      },
+      {
+        "id": "C",
+        "text": "repeat the same test without reviewing it"
+      },
+      {
+        "id": "D",
+        "text": "ignore the guessed answers because they were correct"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menyarankan memeriksa tiap bagian, menandai tebakan yang benar sekalipun, lalu memilih satu keterampilan untuk diperbaiki."
+  },
+  {
+    "id": "BT088-019",
+    "day": 88,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Ketahanan fisik dan mental sama pentingnya dalam simulasi panjang).",
+    "acceptedAnswers": [
+      "Physical and mental stamina are equally important during a long simulation"
+    ],
+    "explanation": "Physical and mental stamina menjadi subjek, are equally important menjadi predikat, dan during a long simulation menjadi keterangan."
+  },
+  {
+    "id": "BT089-011",
+    "day": 89,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Only after the examiner had explained the criteria ___ the candidates understand why their scores were lower than expected.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "did"
+      },
+      {
+        "id": "B",
+        "text": "the candidates did"
+      },
+      {
+        "id": "C",
+        "text": "they understood"
+      },
+      {
+        "id": "D",
+        "text": "understood"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah Only after di awal kalimat, kata bantu did mendahului subjek the candidates, sehingga urutannya dibalik."
+  },
+  {
+    "id": "BT089-012",
+    "day": 89,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Each of the descriptors ___ a separate band, so candidates should read all four before deciding on a strategy.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "describes"
+      },
+      {
+        "id": "B",
+        "text": "describe"
+      },
+      {
+        "id": "C",
+        "text": "are describing"
+      },
+      {
+        "id": "D",
+        "text": "describing"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Subjek each of the descriptors tetap tunggal, sehingga kata kerja yang dipakai adalah describes."
+  },
+  {
+    "id": "BT089-013",
+    "day": 89,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'Her answer was accurate but lacked ___, because the ideas jumped from one point to another without clear links.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "candour"
+      },
+      {
+        "id": "B",
+        "text": "coherence"
+      },
+      {
+        "id": "C",
+        "text": "cargo"
+      },
+      {
+        "id": "D",
+        "text": "cuisine"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Coherence berarti keterpaduan atau alur logis antar-ide. Candour berarti keterusterangan, sedangkan cargo dan cuisine tidak sesuai."
+  },
+  {
+    "id": "BT089-014",
+    "day": 89,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'precision' in this sentence: 'The examiner praised the precision of her vocabulary, since she always chose the word that matched her exact meaning.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "exactness"
+      },
+      {
+        "id": "B",
+        "text": "haste"
+      },
+      {
+        "id": "C",
+        "text": "volume"
+      },
+      {
+        "id": "D",
+        "text": "hesitation"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Precision berarti ketepatan atau kecermatan. Exactness paling dekat maknanya, sedangkan haste, volume, dan hesitation tidak sesuai."
+  },
+  {
+    "id": "BT089-015",
+    "day": 89,
+    "type": "translate",
+    "prompt": "Pemeriksa menilai kelancaran berbicara, keterpaduan ide, dan ketepatan tata bahasa.",
+    "acceptedAnswers": [
+      "The examiner assesses fluency, coherence, and grammatical accuracy.",
+      "The examiner judges fluency, coherence, and grammatical accuracy."
+    ],
+    "explanation": "Menilai dapat diterjemahkan assesses atau judges, sedangkan ketepatan tata bahasa menjadi grammatical accuracy."
+  },
+  {
+    "id": "BT089-016",
+    "day": 89,
+    "type": "translate",
+    "prompt": "Deskriptor band yang lebih tinggi biasanya menunjukkan konsistensi dalam penggunaan kosakata dan struktur kalimat.",
+    "acceptedAnswers": [
+      "Higher band descriptors usually show consistency in vocabulary use and sentence structure.",
+      "Higher band descriptors typically reflect consistency in the use of vocabulary and sentence structures."
+    ],
+    "explanation": "Biasanya dapat diterjemahkan usually atau typically, dan konsistensi dalam penggunaan memakai consistency in the use of."
+  },
+  {
+    "id": "BT089-017",
+    "day": 89,
+    "type": "story",
+    "prompt": "Apa kelemahan utama esai Maya menurut bacaan?",
+    "passage": "Maya wrote a practice essay about public libraries and then marked it herself using the official criteria. At first she felt satisfied, because her vocabulary seemed varied and her sentences were mostly accurate. However, when she read the essay again, she noticed a problem with the flow of her argument. Each paragraph contained a good idea, but the ideas did not connect clearly, and she had used few linking words to guide the reader. Her introduction promised a comparison that the body paragraphs never fully delivered. Maya decided that her score for coherence should be lower than her score for vocabulary. She rewrote the second paragraph so that each sentence built on the previous one, and she checked that the conclusion answered the question directly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Paragraf-paragrafnya tidak terhubung dengan jelas sehingga alurnya terputus"
+      },
+      {
+        "id": "B",
+        "text": "Kosakatanya terlalu sedikit untuk mencapai nilai sedang"
+      },
+      {
+        "id": "C",
+        "text": "Ia menulis esai dengan jumlah kata yang jauh di bawah ketentuan"
+      },
+      {
+        "id": "D",
+        "text": "Ia terlalu banyak memakai kata penghubung dalam setiap kalimat"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Maya menilai koherensinya lemah karena setiap paragraf tidak terhubung jelas dan kata penghubungnya sedikit. Pilihan lain tidak sesuai dengan teks."
+  },
+  {
+    "id": "BT089-018",
+    "day": 89,
+    "type": "listen",
+    "prompt": "Menurut audio, kriteria mana yang menilai ketepatan dan keberagaman kosakata?",
+    "script": "The writing rubric has four criteria, and each one carries equal weight. Task response asks whether you addressed every part of the question. Coherence and cohesion examine how your ideas are organised and linked. Lexical resource looks at the range and precision of your vocabulary, while grammatical range and accuracy checks control of sentence structure.",
+    "options": [
+      {
+        "id": "A",
+        "text": "task response"
+      },
+      {
+        "id": "B",
+        "text": "coherence and cohesion"
+      },
+      {
+        "id": "C",
+        "text": "lexical resource"
+      },
+      {
+        "id": "D",
+        "text": "grammatical range and accuracy"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Audio menyebut lexical resource menilai rentang dan ketepatan kosakata, sedangkan grammatical range and accuracy menilai struktur kalimat."
+  },
+  {
+    "id": "BT089-019",
+    "day": 89,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Kelancaran berbicara tidak sama dengan berbicara cepat).",
+    "acceptedAnswers": [
+      "Fluency does not mean speaking quickly"
+    ],
+    "explanation": "Fluency menjadi subjek, does not mean menyatakan penolakan makna, dan speaking quickly sebagai objek."
+  },
+  {
+    "id": "BT090-011",
+    "day": 90,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Unless I ___ my study plan every Sunday, I will drift back into old habits within a month.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "review"
+      },
+      {
+        "id": "B",
+        "text": "will review"
+      },
+      {
+        "id": "C",
+        "text": "reviewed"
+      },
+      {
+        "id": "D",
+        "text": "would review"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Dalam klausa unless yang membahas kondisi nyata di masa depan, kata kerja memakai present simple, bukan will atau would."
+  },
+  {
+    "id": "BT090-012",
+    "day": 90,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct option: 'Having ___ my weak areas, I can now focus on the skills that need the most attention.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "identified"
+      },
+      {
+        "id": "B",
+        "text": "identify"
+      },
+      {
+        "id": "C",
+        "text": "identifying"
+      },
+      {
+        "id": "D",
+        "text": "identifies"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Having plus past participle dipakai untuk tindakan yang sudah selesai sebelum tindakan utama, sehingga bentuknya identified."
+  },
+  {
+    "id": "BT090-013",
+    "day": 90,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the best word: 'After the programme ends, I plan to find a study partner who can hold me ___ for my progress each week.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "accessible"
+      },
+      {
+        "id": "B",
+        "text": "accessory"
+      },
+      {
+        "id": "C",
+        "text": "accountable"
+      },
+      {
+        "id": "D",
+        "text": "acceptable"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Accountable berarti bertanggung jawab kepada pihak lain atas hasil. Pola hold someone accountable cocok dengan rencana meminta pemantauan mingguan."
+  },
+  {
+    "id": "BT090-014",
+    "day": 90,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word closest in meaning to 'pledge' in this sentence: 'Before the course ends, I pledge to practise speaking for fifteen minutes each day.'",
+    "options": [
+      {
+        "id": "A",
+        "text": "deny"
+      },
+      {
+        "id": "B",
+        "text": "promise"
+      },
+      {
+        "id": "C",
+        "text": "forget"
+      },
+      {
+        "id": "D",
+        "text": "suspect"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pledge berarti berjanji secara sungguh-sungguh. Promise adalah makna yang paling dekat, sedangkan deny, forget, dan suspect tidak sesuai."
+  },
+  {
+    "id": "BT090-015",
+    "day": 90,
+    "type": "translate",
+    "prompt": "Saya akan meninjau kemajuan saya setiap akhir pekan dan mencatat hal yang perlu diperbaiki.",
+    "acceptedAnswers": [
+      "I will review my progress every weekend and note what still needs improvement.",
+      "Every weekend I will check my progress and write down what still needs to be improved."
+    ],
+    "explanation": "Meninjau kemajuan dapat diterjemahkan review my progress atau check my progress, dan perlu diperbaiki memakai needs improvement."
+  },
+  {
+    "id": "BT090-016",
+    "day": 90,
+    "type": "translate",
+    "prompt": "Konsistensi jauh lebih penting daripada belajar sekali dalam jumlah jam yang besar.",
+    "acceptedAnswers": [
+      "Consistency matters far more than studying for many hours just once.",
+      "Consistency is much more important than a single long session of study."
+    ],
+    "explanation": "Jauh lebih penting dapat diterjemahkan matters far more atau much more important, dan sekali dalam jumlah jam yang besar memakai a single long session."
+  },
+  {
+    "id": "BT090-017",
+    "day": 90,
+    "type": "story",
+    "prompt": "Menurut bacaan, apa fungsi utama titik pemeriksaan bagi Dina?",
+    "passage": "Dina finished her ninety-day programme with a long list of goals, but she knew that a list alone would not keep her on track. She chose three checkpoints: the end of each month, the first weekend after each mock test, and a monthly review with a friend who agreed to hold her accountable. Each checkpoint required her to answer three questions: what improved, what stayed weak, and what she would change next. She also set reminders on her phone so that the sessions did not depend on memory. Dina realised that continuity matters more than speed. When she missed a day, she returned to the plan the following morning rather than waiting for a perfect moment. Every month she celebrated a small milestone, such as finishing a full practice essay, because recognition kept her motivated.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menjadi alasan untuk berhenti belajar setelah tiga bulan"
+      },
+      {
+        "id": "B",
+        "text": "Menggantikan kebutuhan akan jadwal belajar harian"
+      },
+      {
+        "id": "C",
+        "text": "Membantu ia meninjau kemajuan dan menentukan langkah berikutnya"
+      },
+      {
+        "id": "D",
+        "text": "Memastikan ia selalu mendapatkan nilai sempurna dalam ujian"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bacaan menyebut setiap titik pemeriksaan dipakai untuk menilai apa yang membaik, apa yang masih lemah, dan apa yang diubah berikutnya."
+  },
+  {
+    "id": "BT090-018",
+    "day": 90,
+    "type": "listen",
+    "prompt": "Menurut audio, apa yang sebaiknya dilakukan jika melewatkan satu sesi belajar?",
+    "script": "After a long programme, it is tempting to stop once the final lesson is complete. However, sustaining your progress requires a simple structure. Set one checkpoint each week, schedule a reminder for it, and celebrate small improvements. If you miss a session, return to the plan on the next day rather than waiting for a perfect moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "abandon the whole plan until next month"
+      },
+      {
+        "id": "B",
+        "text": "wait until you feel perfectly motivated"
+      },
+      {
+        "id": "C",
+        "text": "return to the plan on the next day"
+      },
+      {
+        "id": "D",
+        "text": "double the session the same evening"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Audio menyarankan kembali ke rencana keesokan harinya, bukan menunggu momen yang sempurna atau meninggalkan rencana."
+  },
+  {
+    "id": "BT090-019",
+    "day": 90,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (artinya: Saya berjanji untuk menjaga kebiasaan belajar ini setelah program berakhir).",
+    "acceptedAnswers": [
+      "I pledge to sustain this study habit after the programme ends"
+    ],
+    "explanation": "Pola pledge to dipakai untuk janji, sustain this study habit menjadi objek, dan after the programme ends menjadi keterangan waktu."
+  }
+]

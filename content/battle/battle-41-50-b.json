@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "BT041-011",
+    "day": 41,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The author ___ novels were translated into twelve languages will visit our school next week.",
+    "options": [
+      {
+        "id": "A",
+        "text": "whose"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "who"
+      },
+      {
+        "id": "D",
+        "text": "whom"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Whose' menunjukkan kepemilikan, karena novel-novel itu milik sang penulis."
+  },
+  {
+    "id": "BT041-012",
+    "day": 41,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The engineer with ___ we spoke at the workshop gave us a useful tip about solar panels.",
+    "options": [
+      {
+        "id": "A",
+        "text": "who"
+      },
+      {
+        "id": "B",
+        "text": "whose"
+      },
+      {
+        "id": "C",
+        "text": "which"
+      },
+      {
+        "id": "D",
+        "text": "whom"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah preposisi 'with', bentuk objek untuk orang adalah 'whom', bukan 'who'."
+  },
+  {
+    "id": "BT041-013",
+    "day": 41,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The map ___ the exact location of the hidden cave with a small red X.",
+    "options": [
+      {
+        "id": "A",
+        "text": "borrows"
+      },
+      {
+        "id": "B",
+        "text": "indicates"
+      },
+      {
+        "id": "C",
+        "text": "divides"
+      },
+      {
+        "id": "D",
+        "text": "forgets"
+      }
+    ],
+    "correct": "B",
+    "explanation": "'Indicate' berarti menunjukkan atau menandai, sesuai dengan tanda X pada peta."
+  },
+  {
+    "id": "BT041-014",
+    "day": 41,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The dictionary ___ the word 'citizen' as a person who has the legal right to live in a country.",
+    "options": [
+      {
+        "id": "A",
+        "text": "damages"
+      },
+      {
+        "id": "B",
+        "text": "delivers"
+      },
+      {
+        "id": "C",
+        "text": "defines"
+      },
+      {
+        "id": "D",
+        "text": "dislikes"
+      }
+    ],
+    "correct": "C",
+    "explanation": "'Define' berarti menjelaskan arti sebuah kata, dan kamus melakukannya untuk 'citizen'."
+  },
+  {
+    "id": "BT041-015",
+    "day": 41,
+    "type": "translate",
+    "prompt": "Buku yang saya pinjam dari perpustakaan kemarin ternyata sangat menarik.",
+    "acceptedAnswers": [
+      "The book that I borrowed from the library yesterday turned out to be very interesting",
+      "The book which I borrowed from the library yesterday turned out to be very interesting"
+    ],
+    "explanation": "Anak kalimat sifat dengan 'that' atau 'which' menerangkan 'the book' sebagai benda."
+  },
+  {
+    "id": "BT041-016",
+    "day": 41,
+    "type": "translate",
+    "prompt": "Mahasiswa yang nilainya tertinggi di kelas itu berasal dari Medan.",
+    "acceptedAnswers": [
+      "The student whose score was the highest in the class comes from Medan",
+      "The student who had the highest score in the class comes from Medan"
+    ],
+    "explanation": "'Whose' menunjukkan kepemilikan: nilai (score) milik mahasiswa itu."
+  },
+  {
+    "id": "BT041-017",
+    "day": 41,
+    "type": "story",
+    "prompt": "Menurut bacaan, apa rencana pemerintah untuk Jembatan Batu Tua?",
+    "passage": "The Old Stone Bridge, built in 1872, still stands above the Musi River in Palembang. Engineers who inspected it last year found that its arches are stronger than expected. Many residents, who grew up crossing it on foot, say the view from the middle is the best in the city. Recently, the local government announced that the bridge will be closed to cars next spring. Traffic will move to a new road completed in 2019. Pedestrians, however, will still be allowed to cross, and the bridge will be repainted and lit with soft lamps. The plan, which the city council approved in June, aims to protect the old structure while keeping its character alive for future visitors.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Menghancurkannya dan membangun jembatan baru"
+      },
+      {
+        "id": "B",
+        "text": "Menutupnya untuk mobil, tetapi tetap terbuka untuk pejalan kaki"
+      },
+      {
+        "id": "C",
+        "text": "Memindahkan semua batunya ke museum"
+      },
+      {
+        "id": "D",
+        "text": "Mengubahnya menjadi jalur sepeda sepanjang tahun"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut jembatan akan ditutup untuk mobil, sementara pejalan kaki tetap boleh menyeberang."
+  },
+  {
+    "id": "BT041-018",
+    "day": 41,
+    "type": "listen",
+    "prompt": "Apa yang diketahui tentang roti kayu manis di toko itu?",
+    "script": "The woman who runs the bakery on Elm Street has won a national award. Her cinnamon rolls, which are baked before sunrise, sell out by noon. The shop, whose owner started it with only two ovens, now employs twelve people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They sell out by noon"
+      },
+      {
+        "id": "B",
+        "text": "They are baked at noon"
+      },
+      {
+        "id": "C",
+        "text": "They are sold only on weekends"
+      },
+      {
+        "id": "D",
+        "text": "They cost less than the bread"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Rekaman menyebut roti kayu manis habis terjual sebelum tengah hari."
+  },
+  {
+    "id": "BT041-019",
+    "day": 41,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Pekerja yang menyelesaikan proyek itu sudah pindah ke kota lain).",
+    "acceptedAnswers": [
+      "The worker who completed the project has moved to another city"
+    ],
+    "explanation": "Anak kalimat sifat dengan 'who' dipakai untuk orang, dan kalimat utamanya memakai present perfect 'has moved'."
+  },
+  {
+    "id": "BT042-011",
+    "day": 42,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ the new bridge will be finished on time is still unclear to the city council.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whereas"
+      },
+      {
+        "id": "B",
+        "text": "Unless"
+      },
+      {
+        "id": "C",
+        "text": "Whether"
+      },
+      {
+        "id": "D",
+        "text": "Since"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Anak kalimat nomina sebagai subjek memakai 'whether' yang berarti apakah; pilihan lain tidak membentuk arti itu."
+  },
+  {
+    "id": "BT042-012",
+    "day": 42,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The guide ___ the hikers will reach the summit before noon if the weather stays dry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "expects"
+      },
+      {
+        "id": "B",
+        "text": "expecting"
+      },
+      {
+        "id": "C",
+        "text": "expectation"
+      },
+      {
+        "id": "D",
+        "text": "expectedly"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Kalimat butuh kata kerja finit sebagai predikat; anak kalimat 'the hikers will reach' menjadi objek dari 'expects'."
+  },
+  {
+    "id": "BT042-013",
+    "day": 42,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "I ___ that my first plan was too ambitious for one semester.",
+    "options": [
+      {
+        "id": "A",
+        "text": "adopt"
+      },
+      {
+        "id": "B",
+        "text": "adore"
+      },
+      {
+        "id": "C",
+        "text": "attach"
+      },
+      {
+        "id": "D",
+        "text": "admit"
+      }
+    ],
+    "correct": "D",
+    "explanation": "'Admit that' berarti mengakui bahwa sesuatu benar, di sini mengakui rencana awal terlalu ambisius."
+  },
+  {
+    "id": "BT042-014",
+    "day": 42,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In the sentence 'She assumed that the store was open,' the word 'assumed' means:",
+    "options": [
+      {
+        "id": "A",
+        "text": "proved something through a test"
+      },
+      {
+        "id": "B",
+        "text": "believed something to be true without checking"
+      },
+      {
+        "id": "C",
+        "text": "forgot something important"
+      },
+      {
+        "id": "D",
+        "text": "measured something carefully"
+      }
+    ],
+    "correct": "B",
+    "explanation": "'Assume' berarti menganggap sesuatu benar tanpa memeriksanya terlebih dahulu."
+  },
+  {
+    "id": "BT042-015",
+    "day": 42,
+    "type": "translate",
+    "prompt": "Kami tidak yakin apakah keputusan itu akan diterima oleh semua anggota.",
+    "acceptedAnswers": [
+      "We are not sure whether the decision will be accepted by all members",
+      "We are not certain whether the decision will be accepted by all members"
+    ],
+    "explanation": "'Whether' memulai anak kalimat nomina setelah 'not sure' dan berarti apakah."
+  },
+  {
+    "id": "BT042-016",
+    "day": 42,
+    "type": "translate",
+    "prompt": "Dia menyadari bahwa dompetnya tertinggal di kereta.",
+    "acceptedAnswers": [
+      "She realized that her wallet was left on the train",
+      "She realized that she had left her wallet on the train"
+    ],
+    "explanation": "'Realize that' diikuti anak kalimat nomina yang menjelaskan apa yang disadari."
+  },
+  {
+    "id": "BT042-017",
+    "day": 42,
+    "type": "story",
+    "prompt": "Menurut bacaan, apa yang disadari siswa setelah enam minggu?",
+    "passage": "The science club at Riverside High School meets every Thursday in a small lab. Last month, the club decided to test whether plants grow faster under blue light than under white light. Nobody was certain how the results would look, so they agreed to record every measurement carefully. After six weeks, the students realized that the plants under blue light were taller, although the difference was small. They also admitted that their first data set contained mistakes. Instead of hiding the errors, the members repeated the test with new seeds and wrote a clear report explaining why the second results were more reliable.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tanaman di bawah cahaya putih tumbuh lebih tinggi"
+      },
+      {
+        "id": "B",
+        "text": "Eksperimen itu tidak menghasilkan data sama sekali"
+      },
+      {
+        "id": "C",
+        "text": "Tanaman di bawah cahaya biru lebih tinggi, meski selisihnya kecil"
+      },
+      {
+        "id": "D",
+        "text": "Penasihat mereka sudah berhenti mengajar"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bacaan menyebut siswa menyadari tanaman di bawah cahaya biru lebih tinggi, walaupun selisihnya kecil."
+  },
+  {
+    "id": "BT042-018",
+    "day": 42,
+    "type": "listen",
+    "prompt": "Apa yang belum pasti menurut pembicara?",
+    "script": "The coach believed that the team would improve after the winter break. Nobody expected the striker to leave the club so soon. Whether the club can find a replacement before the season starts is still an open question.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Why the coach changed the lineup"
+      },
+      {
+        "id": "B",
+        "text": "When the winter break starts"
+      },
+      {
+        "id": "C",
+        "text": "How many goals the team scored"
+      },
+      {
+        "id": "D",
+        "text": "Whether the club can find a replacement"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Rekaman menyebut belum pasti apakah klub bisa menemukan pengganti striker sebelum musim dimulai."
+  },
+  {
+    "id": "BT042-019",
+    "day": 42,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Dia berharap bahwa hasil ujiannya akan diumumkan minggu depan).",
+    "acceptedAnswers": [
+      "She hopes that her exam results will be announced next week"
+    ],
+    "explanation": "'Hope that' diikuti anak kalimat nomina, dan 'will be announced' dipakai untuk rencana di masa depan."
+  },
+  {
+    "id": "BT043-011",
+    "day": 43,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ on the top shelf, the old atlas was difficult to reach without a ladder.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Placing"
+      },
+      {
+        "id": "B",
+        "text": "Placed"
+      },
+      {
+        "id": "C",
+        "text": "To place"
+      },
+      {
+        "id": "D",
+        "text": "Places"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bentuk V3 'placed' mempersingkat 'which was placed' dengan makna pasif."
+  },
+  {
+    "id": "BT043-012",
+    "day": 43,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ in the library, Mina found the book she needed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Studied"
+      },
+      {
+        "id": "B",
+        "text": "Studies"
+      },
+      {
+        "id": "C",
+        "text": "Studying"
+      },
+      {
+        "id": "D",
+        "text": "Study"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bentuk V-ing 'studying' mempersingkat 'while she was studying' dengan makna aktif sesuai subjek Mina."
+  },
+  {
+    "id": "BT043-013",
+    "day": 43,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The manager wrote a ___ version of the long contract so that employees could read the main points quickly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "shortened"
+      },
+      {
+        "id": "B",
+        "text": "extended"
+      },
+      {
+        "id": "C",
+        "text": "hidden"
+      },
+      {
+        "id": "D",
+        "text": "frozen"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Shortened' berarti dipersingkat, sesuai dengan versi kontrak yang lebih ringkas."
+  },
+  {
+    "id": "BT043-014",
+    "day": 43,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The ___ week, the class will visit a museum.",
+    "options": [
+      {
+        "id": "A",
+        "text": "forgetful"
+      },
+      {
+        "id": "B",
+        "text": "forgiving"
+      },
+      {
+        "id": "C",
+        "text": "fearful"
+      },
+      {
+        "id": "D",
+        "text": "following"
+      }
+    ],
+    "correct": "D",
+    "explanation": "'Following' berarti berikutnya, sehingga 'the following week' berarti minggu berikutnya."
+  },
+  {
+    "id": "BT043-015",
+    "day": 43,
+    "type": "translate",
+    "prompt": "Setelah mendengar pengumuman itu, para siswa langsung bertepuk tangan.",
+    "acceptedAnswers": [
+      "Having heard the announcement, the students immediately applauded",
+      "After hearing the announcement the students immediately applauded"
+    ],
+    "explanation": "Frasa 'having heard' adalah bentuk tereduksi dari anak kalimat 'after they heard'."
+  },
+  {
+    "id": "BT043-016",
+    "day": 43,
+    "type": "translate",
+    "prompt": "Dikelilingi oleh pegunungan, desa itu tetap tenang sepanjang tahun.",
+    "acceptedAnswers": [
+      "Surrounded by mountains, the village remains calm throughout the year",
+      "Surrounded by mountains the village stays calm all year"
+    ],
+    "explanation": "Bentuk V3 'surrounded' menerangkan 'the village' dengan makna pasif."
+  },
+  {
+    "id": "BT043-017",
+    "day": 43,
+    "type": "story",
+    "prompt": "Menurut bacaan, apa yang menarik pengunjung ke sudut baca di dekat jendela?",
+    "passage": "Located near the old harbor, the Blue Anchor Bookshop has become a favorite meeting place for readers. Opened in 1998 by a retired sailor, the shop still keeps its original wooden shelves. Walking through the narrow aisles, visitors often discover rare maps and handwritten notes tucked between the pages of old novels. Last year, the owner set up a small reading corner by the window. Surrounded by plants and soft lights, the corner quickly filled with students and writers. Hoping to attract more young readers, the shop now hosts a poetry night every second Friday. Having seen the crowds grow, the owner plans to add a second room next year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tempat itu menjual buku bekas dengan harga murah"
+      },
+      {
+        "id": "B",
+        "text": "Pemiliknya menyediakan makanan gratis"
+      },
+      {
+        "id": "C",
+        "text": "Sudut itu hanya dibuka pada malam hari"
+      },
+      {
+        "id": "D",
+        "text": "Tempatnya dikelilingi tanaman dan cahaya lembut"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Bacaan menyebut sudut baca dikelilingi tanaman dan cahaya lembut, sehingga pengunjung dan penulis berdatangan."
+  },
+  {
+    "id": "BT043-018",
+    "day": 43,
+    "type": "listen",
+    "prompt": "Apa yang dilakukan Dita setelah melihat kalung anjing itu?",
+    "script": "Walking home from school, Dita noticed a small dog near the gate. Surprised by the dog's collar, she called the number on the tag. Waiting for the owner, she gave the dog some water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She took the dog home with her"
+      },
+      {
+        "id": "B",
+        "text": "She called the number on the tag"
+      },
+      {
+        "id": "C",
+        "text": "She ran back to school"
+      },
+      {
+        "id": "D",
+        "text": "She ignored the dog and walked away"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Rekaman menyebut Dita menelepon nomor yang tertera pada kalung untuk mencari pemilik anjing."
+  },
+  {
+    "id": "BT043-019",
+    "day": 43,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Setelah membaca semua pesan, dia langsung membalas).",
+    "acceptedAnswers": [
+      "Having read all the messages she replied immediately"
+    ],
+    "explanation": "Frasa 'having read' adalah bentuk tereduksi untuk tindakan yang terjadi lebih dulu."
+  },
+  {
+    "id": "BT044-011",
+    "day": 44,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The road was flooded; ___, the delivery trucks took a longer route through the hills.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Although"
+      },
+      {
+        "id": "B",
+        "text": "Despite"
+      },
+      {
+        "id": "C",
+        "text": "Therefore"
+      },
+      {
+        "id": "D",
+        "text": "Unless"
+      }
+    ],
+    "correct": "C",
+    "explanation": "'Therefore' menunjukkan akibat: jalan banjir sehingga truk mengambil rute yang lebih panjang."
+  },
+  {
+    "id": "BT044-012",
+    "day": 44,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ it rains, the small café on the corner fills with students who want a warm drink.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Unless"
+      },
+      {
+        "id": "B",
+        "text": "Whenever"
+      },
+      {
+        "id": "C",
+        "text": "Regardless"
+      },
+      {
+        "id": "D",
+        "text": "Whereas"
+      }
+    ],
+    "correct": "B",
+    "explanation": "'Whenever' berarti setiap kali; 'regardless' harus diikuti 'of' dan 'whereas' menunjukkan kontras."
+  },
+  {
+    "id": "BT044-013",
+    "day": 44,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Ask the guide to ___ the route in simple words so that every hiker understands it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "erase"
+      },
+      {
+        "id": "B",
+        "text": "swallow"
+      },
+      {
+        "id": "C",
+        "text": "ignore"
+      },
+      {
+        "id": "D",
+        "text": "describe"
+      }
+    ],
+    "correct": "D",
+    "explanation": "'Describe' berarti menjelaskan dengan kata-kata, sesuai dengan permintaan agar rute dipahami pendaki."
+  },
+  {
+    "id": "BT044-014",
+    "day": 44,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The students began to ___ why the museum closed early on Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "wonder"
+      },
+      {
+        "id": "B",
+        "text": "wander"
+      },
+      {
+        "id": "C",
+        "text": "wind"
+      },
+      {
+        "id": "D",
+        "text": "wound"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Wonder' berarti bertanya-tanya atau ingin tahu, dan biasanya diikuti 'why' atau 'whether'."
+  },
+  {
+    "id": "BT044-015",
+    "day": 44,
+    "type": "translate",
+    "prompt": "Tidak peduli seberapa keras dia belajar, nilainya tetap rendah.",
+    "acceptedAnswers": [
+      "No matter how hard he studies his grades remain low",
+      "Regardless of how hard he studies his grades remain low"
+    ],
+    "explanation": "'No matter how' dan 'regardless of' memperkenalkan anak kalimat konsesi yang berarti tidak peduli seberapa."
+  },
+  {
+    "id": "BT044-016",
+    "day": 44,
+    "type": "translate",
+    "prompt": "Ia bisa mengerjakan tugas itu sambil mendengarkan musik, tetapi hasilnya kurang rapi.",
+    "acceptedAnswers": [
+      "He can finish the task while listening to music but the result is less neat",
+      "He can do the task while listening to music but the result is less neat"
+    ],
+    "explanation": "'While' menyatakan dua kegiatan yang terjadi bersamaan, dan 'but' menyatakan kontras pada hasilnya."
+  },
+  {
+    "id": "BT044-017",
+    "day": 44,
+    "type": "story",
+    "prompt": "Mengapa Dimas memutuskan pergi ke bengkel sepeda?",
+    "passage": "Riding a bicycle to school was not always easy for Dimas. The road crosses a steep hill, and whenever it rained, the path became slippery. Therefore, he decided to visit the bicycle repair shop near his house. The mechanic, who had repaired bicycles for thirty years, checked the brakes and replaced the worn tires. However, he also warned Dimas that the chain needed oil every week. Regardless of the weather, Dimas followed this advice. A month later, his ride was smoother and faster. Some classmates asked whether he would switch to the bus. He answered that cycling gave him time to think before class and kept him alert during lessons.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena jalan menuju sekolah licin saat hujan dan dia ingin sepedanya diperbaiki"
+      },
+      {
+        "id": "B",
+        "text": "Karena sepedanya baru dibeli"
+      },
+      {
+        "id": "C",
+        "text": "Karena temannya memintanya naik bus"
+      },
+      {
+        "id": "D",
+        "text": "Karena mekanik itu memintanya datang"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut jalan licin saat hujan, sehingga Dimas memutuskan mengunjungi bengkel di dekat rumahnya."
+  },
+  {
+    "id": "BT044-018",
+    "day": 44,
+    "type": "listen",
+    "prompt": "Apa yang harus dilakukan siswa sebelum mendaftar?",
+    "script": "Anyone who wants to join the debate club must attend the first meeting. Whenever a student misses a session, the club leader must be informed. Therefore, please check the schedule before you sign up.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Check the schedule"
+      },
+      {
+        "id": "B",
+        "text": "Pay the membership fee first"
+      },
+      {
+        "id": "C",
+        "text": "Write a speech for the leader"
+      },
+      {
+        "id": "D",
+        "text": "Join a different club"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Rekaman meminta siswa memeriksa jadwal sebelum mendaftar."
+  },
+  {
+    "id": "BT044-019",
+    "day": 44,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Siapa pun yang ingin mengikuti kelas itu harus mendaftar lebih awal).",
+    "acceptedAnswers": [
+      "Anyone who wants to join the class must register early"
+    ],
+    "explanation": "'Anyone who' menerangkan orang yang ingin mengikuti kelas, dan 'must' menyatakan keharusan."
+  },
+  {
+    "id": "BT045-011",
+    "day": 45,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The club offers swimming, climbing, ___ and cycling to students in the summer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "hiked"
+      },
+      {
+        "id": "B",
+        "text": "to hike"
+      },
+      {
+        "id": "C",
+        "text": "hikers"
+      },
+      {
+        "id": "D",
+        "text": "hiking"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Daftar kegiatan harus sejajar dalam bentuk V-ing: swimming, climbing, dan cycling."
+  },
+  {
+    "id": "BT045-012",
+    "day": 45,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The new policy is designed not only to reduce costs but also ___ the quality of service.",
+    "options": [
+      {
+        "id": "A",
+        "text": "improving"
+      },
+      {
+        "id": "B",
+        "text": "to improve"
+      },
+      {
+        "id": "C",
+        "text": "improve"
+      },
+      {
+        "id": "D",
+        "text": "improvement"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pola not only dan but also harus sejajar, sehingga bentuk infinitif 'to reduce' diikuti 'to improve'."
+  },
+  {
+    "id": "BT045-013",
+    "day": 45,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The building's ___ design, with two identical towers on each side, makes it easy to recognize.",
+    "options": [
+      {
+        "id": "A",
+        "text": "silent"
+      },
+      {
+        "id": "B",
+        "text": "slippery"
+      },
+      {
+        "id": "C",
+        "text": "symmetrical"
+      },
+      {
+        "id": "D",
+        "text": "shallow"
+      }
+    ],
+    "correct": "C",
+    "explanation": "'Symmetrical' berarti simetris, yaitu kedua sisi bangunan sama bentuknya."
+  },
+  {
+    "id": "BT045-014",
+    "day": 45,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The list of instructions follows a clear ___, starting with preparation and ending with cleaning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sequence"
+      },
+      {
+        "id": "B",
+        "text": "sculpture"
+      },
+      {
+        "id": "C",
+        "text": "silence"
+      },
+      {
+        "id": "D",
+        "text": "sandwich"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Sequence' berarti urutan, sesuai dengan langkah yang berurutan dari persiapan hingga pembersihan."
+  },
+  {
+    "id": "BT045-015",
+    "day": 45,
+    "type": "translate",
+    "prompt": "Kami memilih lokasi yang dekat dengan stasiun, sekolah, dan pusat perbelanjaan.",
+    "acceptedAnswers": [
+      "We chose a location close to the station, the school, and the shopping center",
+      "We chose a place close to the station, the school, and the shopping center"
+    ],
+    "explanation": "Tiga tempat dalam daftar harus sejajar dalam bentuk frasa benda yang sama."
+  },
+  {
+    "id": "BT045-016",
+    "day": 45,
+    "type": "translate",
+    "prompt": "Tim itu harus bekerja cepat, teliti, dan tetap tenang selama pertandingan berlangsung.",
+    "acceptedAnswers": [
+      "The team must work quickly, carefully, and remain calm during the match",
+      "The team must work quickly, carefully, and stay calm during the match"
+    ],
+    "explanation": "Setelah modal 'must', kata kerja dan keterangan dalam daftar harus sejajar."
+  },
+  {
+    "id": "BT045-017",
+    "day": 45,
+    "type": "story",
+    "prompt": "Menurut bacaan, mengapa jumlah anggota pusat komunitas itu meningkat pesat?",
+    "passage": "The Greenway Community Center opened last March with a simple goal: to give residents a place to learn, exercise, and relax. The center offers yoga, painting, and computer classes for adults. Its library holds more than four thousand books, magazines, and maps. Staff members schedule activities in the morning, afternoon, and evening so that working residents can attend. The building has large windows, wide hallways, and a shaded courtyard where neighbors meet and share recipes. The director explained that the team listens to feedback, adjusts the schedule each month, and invites local artists to lead workshops. Because of this approach, membership has doubled in less than one year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena biaya keanggotaan diturunkan setengahnya"
+      },
+      {
+        "id": "B",
+        "text": "Karena pusat itu mendengarkan masukan dan menyesuaikan jadwal setiap bulan"
+      },
+      {
+        "id": "C",
+        "text": "Karena hanya kelas melukis yang tersedia"
+      },
+      {
+        "id": "D",
+        "text": "Karena pusat itu hanya buka pada akhir pekan"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut pusat itu mendengarkan umpan balik dan mengatur ulang jadwal setiap bulan."
+  },
+  {
+    "id": "BT045-018",
+    "day": 45,
+    "type": "listen",
+    "prompt": "Mana yang tidak disebutkan sebagai fasilitas taman itu?",
+    "script": "The riverside park includes a playground, a skating rink, and a reading room. Guests may hire bikes, plant trees, or attend the Saturday yoga session. It opens at six in the morning and closes at nine at night.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A playground"
+      },
+      {
+        "id": "B",
+        "text": "A reading room"
+      },
+      {
+        "id": "C",
+        "text": "A swimming pool"
+      },
+      {
+        "id": "D",
+        "text": "A skating rink"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Rekaman menyebut taman itu punya taman bermain, arena seluncur, dan ruang baca, tetapi tidak ada kolam renang."
+  },
+  {
+    "id": "BT045-019",
+    "day": 45,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Membaca buku dan menulis cerita adalah kegemarannya).",
+    "acceptedAnswers": [
+      "Reading books and writing stories are his favorite pastimes"
+    ],
+    "explanation": "Dua kegiatan sebagai subjek harus sejajar dalam bentuk V-ing, dan subjek jamak memakai kata kerja 'are'."
+  },
+  {
+    "id": "BT046-011",
+    "day": 46,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The city council approved the ___ of a new bridge after months of study.",
+    "options": [
+      {
+        "id": "A",
+        "text": "construction"
+      },
+      {
+        "id": "B",
+        "text": "construct"
+      },
+      {
+        "id": "C",
+        "text": "constructive"
+      },
+      {
+        "id": "D",
+        "text": "constructed"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah 'the' dan sebelum 'of' dibutuhkan kata benda 'construction' dari 'construct'."
+  },
+  {
+    "id": "BT046-012",
+    "day": 46,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The ___ in the team's results was clear after the new coach joined in March.",
+    "options": [
+      {
+        "id": "A",
+        "text": "improve"
+      },
+      {
+        "id": "B",
+        "text": "improving"
+      },
+      {
+        "id": "C",
+        "text": "improved"
+      },
+      {
+        "id": "D",
+        "text": "improvement"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah 'the' dan sebelum 'in' dibutuhkan kata benda 'improvement' dari 'improve'."
+  },
+  {
+    "id": "BT046-013",
+    "day": 46,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The ___ of the city has grown to more than two million people in the last decade.",
+    "options": [
+      {
+        "id": "A",
+        "text": "promotion"
+      },
+      {
+        "id": "B",
+        "text": "permission"
+      },
+      {
+        "id": "C",
+        "text": "population"
+      },
+      {
+        "id": "D",
+        "text": "portion"
+      }
+    ],
+    "correct": "C",
+    "explanation": "'Population' berarti jumlah penduduk, sesuai dengan jumlah orang yang meningkat."
+  },
+  {
+    "id": "BT046-014",
+    "day": 46,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The class held a long ___ about the best way to reduce plastic waste at school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "discount"
+      },
+      {
+        "id": "B",
+        "text": "discussion"
+      },
+      {
+        "id": "C",
+        "text": "disguise"
+      },
+      {
+        "id": "D",
+        "text": "dismissal"
+      }
+    ],
+    "correct": "B",
+    "explanation": "'Discussion' berarti diskusi atau pembahasan bersama."
+  },
+  {
+    "id": "BT046-015",
+    "day": 46,
+    "type": "translate",
+    "prompt": "Penemuan vaksin baru itu membantu banyak orang di seluruh dunia.",
+    "acceptedAnswers": [
+      "The discovery of the new vaccine helped many people around the world",
+      "The discovery of this new vaccine helped many people around the world"
+    ],
+    "explanation": "'Discovery' adalah kata benda dari 'discover' dan dipakai sebagai subjek kalimat."
+  },
+  {
+    "id": "BT046-016",
+    "day": 46,
+    "type": "translate",
+    "prompt": "Perbaikan jalan di dekat sekolah sudah selesai sejak minggu lalu.",
+    "acceptedAnswers": [
+      "The road improvement near the school has been completed since last week",
+      "The improvement of the road near the school has been completed since last week"
+    ],
+    "explanation": "'Improvement' adalah kata benda dari 'improve' dan dipakai dengan present perfect 'has been completed'."
+  },
+  {
+    "id": "BT046-017",
+    "day": 46,
+    "type": "story",
+    "prompt": "Menurut bacaan, apa yang membuat proyek air bersih di desa itu selesai lebih cepat dari perkiraan?",
+    "passage": "In the village of Sukamaju, the main concern for years was the shortage of clean water. Households walked nearly two kilometers to collect water from the river. Last year, a development team arrived with a plan for a small water tank and a filtration system. The installation took four months, and villagers contributed their time and tools. Their cooperation made the project faster and cheaper than expected. Sari, a local teacher, organized a discussion every Saturday to explain how the system works. Her dedication encouraged many residents to join regular cleaning sessions. Today, a government laboratory tests the water every month, and the results show a clear improvement in quality.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Warga ikut bekerja dan membantu dengan waktu serta peralatan"
+      },
+      {
+        "id": "B",
+        "text": "Pemerintah pusat menyediakan semua pekerja dari kota"
+      },
+      {
+        "id": "C",
+        "text": "Air sungai dipompa langsung tanpa penyaringan"
+      },
+      {
+        "id": "D",
+        "text": "Sistem itu dibangun hanya dalam satu minggu"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut warga menyumbang waktu dan alat, sehingga proyek berjalan lebih cepat dari perkiraan."
+  },
+  {
+    "id": "BT046-018",
+    "day": 46,
+    "type": "listen",
+    "prompt": "Kapan diskusi publik itu akan diadakan?",
+    "script": "The city's population has grown quickly, so the government plans a new transportation system. The development will include two new bus routes and a bicycle lane. Residents can share their suggestions at the public discussion next Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Next Friday"
+      },
+      {
+        "id": "B",
+        "text": "Next Monday"
+      },
+      {
+        "id": "C",
+        "text": "Last Friday"
+      },
+      {
+        "id": "D",
+        "text": "Next month"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Rekaman menyebut diskusi publik akan diadakan pada Jumat depan."
+  },
+  {
+    "id": "BT046-019",
+    "day": 46,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Pemerintah menyetujui pembangunan sekolah baru di desa itu).",
+    "acceptedAnswers": [
+      "The government approved the development of a new school in the village"
+    ],
+    "explanation": "'Development' adalah kata benda dari 'develop' yang berarti pembangunan."
+  },
+  {
+    "id": "BT047-011",
+    "day": 47,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The team made a ___ decision after reviewing all of the data.",
+    "options": [
+      {
+        "id": "A",
+        "text": "decision"
+      },
+      {
+        "id": "B",
+        "text": "decisive"
+      },
+      {
+        "id": "C",
+        "text": "decide"
+      },
+      {
+        "id": "D",
+        "text": "decisively"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Sebelum kata benda 'decision' dibutuhkan kata sifat berakhiran -ive, yaitu 'decisive'."
+  },
+  {
+    "id": "BT047-012",
+    "day": 47,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Ahmad answered the questions ___ during the oral test, so the examiners praised him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "confident"
+      },
+      {
+        "id": "B",
+        "text": "confidence"
+      },
+      {
+        "id": "C",
+        "text": "confidently"
+      },
+      {
+        "id": "D",
+        "text": "confide"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Kata yang menerangkan kata kerja 'answered' harus berbentuk kata keterangan -ly, yaitu 'confidently'."
+  },
+  {
+    "id": "BT047-013",
+    "day": 47,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Scientists say that regular exercise is ___ for keeping the heart healthy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "essay"
+      },
+      {
+        "id": "B",
+        "text": "estate"
+      },
+      {
+        "id": "C",
+        "text": "escape"
+      },
+      {
+        "id": "D",
+        "text": "essential"
+      }
+    ],
+    "correct": "D",
+    "explanation": "'Essential' berarti sangat penting atau mutlak diperlukan."
+  },
+  {
+    "id": "BT047-014",
+    "day": 47,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The company now has a ___ network of offices in more than thirty countries.",
+    "options": [
+      {
+        "id": "A",
+        "text": "global"
+      },
+      {
+        "id": "B",
+        "text": "golden"
+      },
+      {
+        "id": "C",
+        "text": "gloomy"
+      },
+      {
+        "id": "D",
+        "text": "gravel"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Global' berarti mencakup seluruh dunia, sesuai dengan jaringan kantor di banyak negara."
+  },
+  {
+    "id": "BT047-015",
+    "day": 47,
+    "type": "translate",
+    "prompt": "Dia menjawab pertanyaan dengan tenang dan percaya diri.",
+    "acceptedAnswers": [
+      "She answered the questions calmly and confidently",
+      "She answered the questions calmly and with confidence"
+    ],
+    "explanation": "'Calmly' dan 'confidently' adalah kata keterangan -ly yang menerangkan cara menjawab."
+  },
+  {
+    "id": "BT047-016",
+    "day": 47,
+    "type": "translate",
+    "prompt": "Pendekatan kreatif itu membuat pelajaran matematika terasa lebih menarik.",
+    "acceptedAnswers": [
+      "The creative approach made math lessons feel more interesting",
+      "The creative approach made the math lesson feel more interesting"
+    ],
+    "explanation": "'Creative' adalah kata sifat -ive yang menerangkan 'approach', sedangkan 'interesting' menerangkan hasilnya."
+  },
+  {
+    "id": "BT047-017",
+    "day": 47,
+    "type": "story",
+    "prompt": "Menurut bacaan, mengapa juri memberi nilai tertinggi kepada tim dari SMP Harapan?",
+    "passage": "At the national robotics contest in Surabaya, most teams built machines that could move, climb, or lift objects. The team from Harapan Junior High, however, earned the highest score for its design. Their robot was small, practical, and inexpensive to build. Each part was easy to replace, and the wiring was neat and logical. In the final round, the robot completed the course in under two minutes without a single error. The judges noted that the team had clearly planned each step. Its captain, a quiet student named Yudi, explained every decision with confidence during the interview. Observers described the performance as truly impressive, especially because the team had practiced for only six months.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Desainnya sederhana, praktis, dan rapi, serta menyelesaikan lintasan tanpa kesalahan"
+      },
+      {
+        "id": "B",
+        "text": "Robot mereka paling besar dan paling cepat"
+      },
+      {
+        "id": "C",
+        "text": "Tim itu sudah berlatih selama dua tahun"
+      },
+      {
+        "id": "D",
+        "text": "Mereka membawa robot yang dapat terbang"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut desain robot praktis dan rapi serta menyelesaikan lintasan tanpa satu kesalahan pun."
+  },
+  {
+    "id": "BT047-018",
+    "day": 47,
+    "type": "listen",
+    "prompt": "Apa keunggulan utama desain itu menurut pembicara?",
+    "script": "Our final design is practical and cheap to produce. Its main advantage is a simple, logical structure that anyone can understand. The team presented it confidently at the meeting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses expensive materials"
+      },
+      {
+        "id": "B",
+        "text": "It was made for large factories"
+      },
+      {
+        "id": "C",
+        "text": "It has a simple and logical structure"
+      },
+      {
+        "id": "D",
+        "text": "It needs special training to use"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Rekaman menyebut keunggulan utama desain itu adalah struktur yang sederhana dan logis."
+  },
+  {
+    "id": "BT047-019",
+    "day": 47,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Penjelasannya sangat logis, sehingga semua siswa mudah memahaminya).",
+    "acceptedAnswers": [
+      "The explanation is so logical that all students can understand it easily"
+    ],
+    "explanation": "Pola so dan that menyatakan akibat, dan 'logical' adalah kata sifat -al."
+  },
+  {
+    "id": "BT048-011",
+    "day": 48,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Seldom ___ such a clear explanation of photosynthesis in a textbook.",
+    "options": [
+      {
+        "id": "A",
+        "text": "we find"
+      },
+      {
+        "id": "B",
+        "text": "we do find"
+      },
+      {
+        "id": "C",
+        "text": "finding"
+      },
+      {
+        "id": "D",
+        "text": "do we find"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah 'seldom' di awal kalimat, urutannya dibalik menjadi 'do we find' dengan auxiliary sebelum subjek."
+  },
+  {
+    "id": "BT048-012",
+    "day": 48,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "No sooner ___ the exam started than the students began to complain about the length.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the exam had started"
+      },
+      {
+        "id": "B",
+        "text": "the exam started"
+      },
+      {
+        "id": "C",
+        "text": "had the exam started"
+      },
+      {
+        "id": "D",
+        "text": "did the exam start"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pola 'No sooner' memakai inversi past perfect, yaitu 'had + subjek + V3', lalu diikuti 'than'."
+  },
+  {
+    "id": "BT048-013",
+    "day": 48,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The shy boy ___ spoke in class, but today he asked three questions.",
+    "options": [
+      {
+        "id": "A",
+        "text": "constantly"
+      },
+      {
+        "id": "B",
+        "text": "rarely"
+      },
+      {
+        "id": "C",
+        "text": "eagerly"
+      },
+      {
+        "id": "D",
+        "text": "completely"
+      }
+    ],
+    "correct": "B",
+    "explanation": "'Rarely' berarti jarang sekali, sesuai dengan kontras 'but today'."
+  },
+  {
+    "id": "BT048-014",
+    "day": 48,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The lost keys were ___ to be found, even after we searched the whole house twice.",
+    "options": [
+      {
+        "id": "A",
+        "text": "somewhere"
+      },
+      {
+        "id": "B",
+        "text": "everywhere"
+      },
+      {
+        "id": "C",
+        "text": "nowhere"
+      },
+      {
+        "id": "D",
+        "text": "sometimes"
+      }
+    ],
+    "correct": "C",
+    "explanation": "'Nowhere to be found' adalah ungkapan yang berarti tidak ditemukan di mana pun."
+  },
+  {
+    "id": "BT048-015",
+    "day": 48,
+    "type": "translate",
+    "prompt": "Jarang sekali kami pergi ke luar kota pada akhir pekan.",
+    "acceptedAnswers": [
+      "Rarely do we travel out of town on weekends",
+      "Seldom do we travel out of town on weekends"
+    ],
+    "explanation": "Kata 'rarely' atau 'seldom' di awal kalimat diikuti inversi 'do we'."
+  },
+  {
+    "id": "BT048-016",
+    "day": 48,
+    "type": "translate",
+    "prompt": "Baru setelah ujian selesai, Rani menyadari kesalahan kecil di jawabannya.",
+    "acceptedAnswers": [
+      "Only after the exam was over did Rani realize a small mistake in her answer",
+      "Only after the exam had finished did Rani realize a small mistake in her answer"
+    ],
+    "explanation": "'Only after' di awal kalimat diikuti inversi 'did Rani realize'."
+  },
+  {
+    "id": "BT048-017",
+    "day": 48,
+    "type": "story",
+    "prompt": "Kapan para aktor merasa benar-benar percaya diri?",
+    "passage": "The Lantern Theatre Group had never performed a full musical before. Rarely had its members worked on such a demanding project, and few people believed the show would succeed. Not only did the actors need to memorize long scenes, but the crew also had to build sets in only three weeks. No sooner had the director announced the schedule than several students asked to change their roles. Still, the group refused to give up. Under no circumstances would they cancel the premiere, the director said. Only after the final dress rehearsal did the actors feel confident. On opening night, the audience applauded for nearly five minutes. Seldom had the small theatre been so full.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Saat direktur mengumumkan jadwal"
+      },
+      {
+        "id": "B",
+        "text": "Setelah gladi bersih terakhir"
+      },
+      {
+        "id": "C",
+        "text": "Pada malam pembukaan sebelum tirai dibuka"
+      },
+      {
+        "id": "D",
+        "text": "Ketika beberapa siswa meminta peran lain"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Bacaan menyebut para aktor baru merasa percaya diri setelah gladi bersih terakhir."
+  },
+  {
+    "id": "BT048-018",
+    "day": 48,
+    "type": "listen",
+    "prompt": "Apa yang terjadi setelah para penumpang turun dari bus?",
+    "script": "Not only did the bus arrive late, but it also broke down near the bridge. Scarcely had we stepped off when the rain started. Under no circumstances should passengers leave the station without a ticket.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It stopped raining at once"
+      },
+      {
+        "id": "B",
+        "text": "It started to rain right after they got off"
+      },
+      {
+        "id": "C",
+        "text": "They waited for another bus"
+      },
+      {
+        "id": "D",
+        "text": "The driver gave them a free ticket"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Rekaman menyebut hujan mulai turun segera setelah mereka turun, lewat pola scarcely dan when."
+  },
+  {
+    "id": "BT048-019",
+    "day": 48,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Tidak hanya dia memenangkan lomba, tetapi dia juga memecahkan rekor sekolah).",
+    "acceptedAnswers": [
+      "Not only did she win the contest but she also broke the school record"
+    ],
+    "explanation": "Pola 'not only' di awal kalimat memakai inversi 'did she win'."
+  },
+  {
+    "id": "BT049-011",
+    "day": 49,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "___ the table of contents first, the reader can locate the chapter about climate in a few seconds.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Scanned"
+      },
+      {
+        "id": "B",
+        "text": "Scans"
+      },
+      {
+        "id": "C",
+        "text": "Scan"
+      },
+      {
+        "id": "D",
+        "text": "Scanning"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Bentuk V-ing 'scanning' menunjukkan tindakan aktif pembaca, sehingga cocok sebagai frasa pembuka."
+  },
+  {
+    "id": "BT049-012",
+    "day": 49,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Students who skim a passage before answering the questions usually ___ less time on each item.",
+    "options": [
+      {
+        "id": "A",
+        "text": "spends"
+      },
+      {
+        "id": "B",
+        "text": "spending"
+      },
+      {
+        "id": "C",
+        "text": "spend"
+      },
+      {
+        "id": "D",
+        "text": "spent"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek 'students' jamak sehingga kata kerjanya bentuk dasar 'spend', dan 'usually' menyatakan kebiasaan."
+  },
+  {
+    "id": "BT049-013",
+    "day": 49,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The editor asked the writer to ___ the main points in a short list at the end of the article.",
+    "options": [
+      {
+        "id": "A",
+        "text": "outline"
+      },
+      {
+        "id": "B",
+        "text": "outlaw"
+      },
+      {
+        "id": "C",
+        "text": "outdo"
+      },
+      {
+        "id": "D",
+        "text": "outrage"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Outline' berarti menguraikan garis besar, sesuai dengan daftar singkat poin utama."
+  },
+  {
+    "id": "BT049-014",
+    "day": 49,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Before reading the whole chapter, take a quick ___ at the first and last paragraphs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "gallery"
+      },
+      {
+        "id": "B",
+        "text": "glance"
+      },
+      {
+        "id": "C",
+        "text": "gravity"
+      },
+      {
+        "id": "D",
+        "text": "garment"
+      }
+    ],
+    "correct": "B",
+    "explanation": "'Glance' berarti pandangan sekilas, sesuai dengan membaca cepat paragraf awal dan akhir."
+  },
+  {
+    "id": "BT049-015",
+    "day": 49,
+    "type": "translate",
+    "prompt": "Saya hanya membaca sekilas bagian pembuka artikel itu tadi pagi.",
+    "acceptedAnswers": [
+      "I only glanced at the opening part of the article this morning",
+      "I just skimmed the opening part of the article this morning"
+    ],
+    "explanation": "'Glance' dan 'skim' sama-sama berarti membaca cepat, dan 'skim' sering dipakai untuk gambaran umum."
+  },
+  {
+    "id": "BT049-016",
+    "day": 49,
+    "type": "translate",
+    "prompt": "Angka dan tanggal penting biasanya mudah ditemukan dengan cara memindai teks.",
+    "acceptedAnswers": [
+      "Important numbers and dates are usually easy to find by scanning the text",
+      "Important figures and dates are usually easy to locate by scanning the text"
+    ],
+    "explanation": "'Scanning' adalah cara mencari informasi spesifik dengan memindai teks."
+  },
+  {
+    "id": "BT049-017",
+    "day": 49,
+    "type": "story",
+    "prompt": "Berapa harga tiket untuk pelajar yang membawa kartu pelajar yang sah?",
+    "passage": "Visitors planning a trip to the National Science Museum should read the schedule carefully before arriving. The museum opens at half past eight on weekdays and closes at four, but it stays open until seven on Saturdays. Tickets for adults cost 50,000 rupiah, while students with valid cards pay half that amount. The main exhibition, which explains how ocean currents affect the weather, is on the second floor. Guided tours start every hour from the entrance hall. Photography is allowed in most rooms, except the planetarium. Groups of more than fifteen people must book in advance by sending an email to the front desk. Visitors who need a wheelchair can request one at the information counter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "25.000 rupiah"
+      },
+      {
+        "id": "B",
+        "text": "50.000 rupiah"
+      },
+      {
+        "id": "C",
+        "text": "100.000 rupiah"
+      },
+      {
+        "id": "D",
+        "text": "Gratis"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bacaan menyebut pelajar membayar setengah dari tiket dewasa 50.000 rupiah, yaitu 25.000 rupiah."
+  },
+  {
+    "id": "BT049-018",
+    "day": 49,
+    "type": "listen",
+    "prompt": "Bagian mana yang dibaca pada langkah awal menurut pembicara?",
+    "script": "Here is a quick reading method. First, read the title and the first sentence of each paragraph. Then search for keywords, such as a year or a place name, and read only the lines around them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only the last paragraph"
+      },
+      {
+        "id": "B",
+        "text": "The footnotes and references"
+      },
+      {
+        "id": "C",
+        "text": "Every word from top to bottom"
+      },
+      {
+        "id": "D",
+        "text": "The title and the first sentence of each paragraph"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Rekaman menyebut langkah awal adalah membaca judul dan kalimat pertama setiap paragraf."
+  },
+  {
+    "id": "BT049-019",
+    "day": 49,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Dia memindai daftar harga dengan cepat untuk mencari harga tiket).",
+    "acceptedAnswers": [
+      "She scanned the price list quickly to find the ticket price"
+    ],
+    "explanation": "'Scanned' adalah bentuk lampau dari 'scan' untuk tindakan yang sudah terjadi."
+  },
+  {
+    "id": "BT050-011",
+    "day": 50,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The three examples in the paragraph ___ the claim that bees are vital to farming.",
+    "options": [
+      {
+        "id": "A",
+        "text": "supports"
+      },
+      {
+        "id": "B",
+        "text": "supporting"
+      },
+      {
+        "id": "C",
+        "text": "supported"
+      },
+      {
+        "id": "D",
+        "text": "support"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Subjek 'the three examples' jamak, sehingga kata kerjanya bentuk dasar 'support'."
+  },
+  {
+    "id": "BT050-012",
+    "day": 50,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Either the thesis or the supporting details ___ clearly stated in the first paragraph.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "being"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pada pola either dan or, kata kerja mengikuti subjek terdekat, yaitu 'details' yang jamak."
+  },
+  {
+    "id": "BT050-013",
+    "day": 50,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Her silence in the meeting seemed to ___ that she disagreed with the plan.",
+    "options": [
+      {
+        "id": "A",
+        "text": "impose"
+      },
+      {
+        "id": "B",
+        "text": "implement"
+      },
+      {
+        "id": "C",
+        "text": "imply"
+      },
+      {
+        "id": "D",
+        "text": "improve"
+      }
+    ],
+    "correct": "C",
+    "explanation": "'Imply' berarti menyiratkan atau menyatakan secara tidak langsung."
+  },
+  {
+    "id": "BT050-014",
+    "day": 50,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The final example ___ the author's point by showing a real case from the city's history.",
+    "options": [
+      {
+        "id": "A",
+        "text": "illustrates"
+      },
+      {
+        "id": "B",
+        "text": "interrupts"
+      },
+      {
+        "id": "C",
+        "text": "invites"
+      },
+      {
+        "id": "D",
+        "text": "invests"
+      }
+    ],
+    "correct": "A",
+    "explanation": "'Illustrate' berarti memberi contoh untuk memperjelas sesuatu."
+  },
+  {
+    "id": "BT050-015",
+    "day": 50,
+    "type": "translate",
+    "prompt": "Penulis menegaskan bahwa membaca dengan teliti membantu kita memahami gagasan utama.",
+    "acceptedAnswers": [
+      "The author emphasizes that careful reading helps us understand the main idea",
+      "The writer emphasizes that careful reading helps us understand the main idea"
+    ],
+    "explanation": "'Emphasize' berarti menegaskan, dan 'careful reading' menjadi subjek anak kalimat."
+  },
+  {
+    "id": "BT050-016",
+    "day": 50,
+    "type": "translate",
+    "prompt": "Kesimpulan artikel itu didukung oleh tiga contoh dari penelitian terbaru.",
+    "acceptedAnswers": [
+      "The article's conclusion is supported by three examples from recent research",
+      "The conclusion of the article is supported by three examples from recent research"
+    ],
+    "explanation": "Kalimat pasif 'is supported by' menyatakan bahwa kesimpulan didukung oleh contoh."
+  },
+  {
+    "id": "BT050-017",
+    "day": 50,
+    "type": "story",
+    "prompt": "Pernyataan manakah yang paling tepat merangkum gagasan utama bacaan?",
+    "passage": "Many students believe that studying late at night is the best way to prepare for an exam. Researchers, however, have found that the brain consolidates memories while we sleep. In one study, students who slept seven hours after learning a list of words remembered about twenty percent more than those who stayed awake. Another example comes from a school that moved its exams to later in the morning. These examples suggest that sleep is part of the learning process itself, not a waste of study time. Her conclusion is clear: good rest is one of the most useful study tools a student can have.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Belajar hingga larut malam adalah cara terbaik untuk lulus ujian"
+      },
+      {
+        "id": "B",
+        "text": "Tidur yang cukup mendukung ingatan, sehingga merupakan bagian penting dari belajar"
+      },
+      {
+        "id": "C",
+        "text": "Sekolah sebaiknya menghapus semua ujian pagi hari"
+      },
+      {
+        "id": "D",
+        "text": "Siswa tidak perlu merencanakan belajar karena otak bekerja sendiri"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Gagasan utama bacaan adalah tidur membantu ingatan sehingga menjadi bagian dari proses belajar."
+  },
+  {
+    "id": "BT050-018",
+    "day": 50,
+    "type": "listen",
+    "prompt": "Apa fungsi tiga contoh yang disebutkan pembicara?",
+    "script": "The speaker argues that schools should teach budgeting. She gives three examples: students who save money for trips, young workers who plan part-time jobs, and adults who track monthly bills. These examples show that money skills are useful at every stage of life.",
+    "options": [
+      {
+        "id": "A",
+        "text": "To change the topic of the talk"
+      },
+      {
+        "id": "B",
+        "text": "To criticize the school staff"
+      },
+      {
+        "id": "C",
+        "text": "To support her main argument"
+      },
+      {
+        "id": "D",
+        "text": "To end the talk early"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Rekaman menyebut tiga contoh itu menunjukkan bahwa keterampilan mengelola uang berguna di setiap tahap hidup."
+  },
+  {
+    "id": "BT050-019",
+    "day": 50,
+    "type": "reorder",
+    "prompt": "Susun kalimat bahasa Inggris (arti: Gagasan utama artikel ini adalah bahwa kota harus memiliki lebih banyak taman).",
+    "acceptedAnswers": [
+      "The main idea of this article is that cities should have more parks"
+    ],
+    "explanation": "Pola the main idea is that dipakai untuk menyatakan gagasan utama, dan 'should' menyatakan anjuran."
+  }
+]

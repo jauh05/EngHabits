@@ -1,0 +1,1942 @@
+[
+  {
+    "id": "BT061-011",
+    "day": 61,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Had the team ___ the data more carefully, the error would have been caught much earlier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "checked"
+      },
+      {
+        "id": "B",
+        "text": "checking"
+      },
+      {
+        "id": "C",
+        "text": "to check"
+      },
+      {
+        "id": "D",
+        "text": "been checking"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Inversi pada kalimat pengandaian tipe 3 memakai Had + subjek + bentuk lampau ketiga, jadi checked dipakai sebagai pengganti if the team had checked."
+  },
+  {
+    "id": "BT061-012",
+    "day": 61,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The study, ___ in a journal with strict peer review, has been cited by several textbooks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "publishing"
+      },
+      {
+        "id": "B",
+        "text": "published"
+      },
+      {
+        "id": "C",
+        "text": "to publish"
+      },
+      {
+        "id": "D",
+        "text": "which publish"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Partisip lampau published mempersingkat which was published, yaitu keterangan pasif yang menjelaskan studi tersebut."
+  },
+  {
+    "id": "BT061-013",
+    "day": 61,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The editor asked the team to ___ each quotation against the original recording before the article went to print.",
+    "options": [
+      {
+        "id": "A",
+        "text": "mislead"
+      },
+      {
+        "id": "B",
+        "text": "invent"
+      },
+      {
+        "id": "C",
+        "text": "verify"
+      },
+      {
+        "id": "D",
+        "text": "ignore"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Verify berarti memeriksa kebenaran sesuatu, sehingga kutipan dicocokkan dengan rekaman asli."
+  },
+  {
+    "id": "BT061-014",
+    "day": 61,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The survey was ___, because it asked only members of one club, so its results cannot represent the wider public.",
+    "options": [
+      {
+        "id": "A",
+        "text": "representative"
+      },
+      {
+        "id": "B",
+        "text": "exhaustive"
+      },
+      {
+        "id": "C",
+        "text": "neutral"
+      },
+      {
+        "id": "D",
+        "text": "unrepresentative"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Unrepresentative berarti tidak mewakili populasi yang lebih luas, sehingga hasil survei tidak bisa digeneralisasi."
+  },
+  {
+    "id": "BT061-015",
+    "day": 61,
+    "type": "translate",
+    "prompt": "Klaim itu belum bisa dibuktikan karena sumbernya tidak jelas.",
+    "acceptedAnswers": [
+      "The claim cannot be proven because its source is unclear",
+      "The claim cannot be verified because its source is unclear"
+    ],
+    "explanation": "Kata proven dan verified sama-sama berarti dibuktikan, sedangkan unclear berarti tidak jelas."
+  },
+  {
+    "id": "BT061-016",
+    "day": 61,
+    "type": "translate",
+    "prompt": "Artikel itu tidak menyebutkan tahun penelitian, sehingga pembaca sulit menilai keakuratannya.",
+    "acceptedAnswers": [
+      "The article does not mention the year of the study so readers find it hard to judge its accuracy",
+      "The article does not state the year of the research so readers find it difficult to assess its accuracy"
+    ],
+    "explanation": "Hard to judge dan difficult to assess sama-sama menerjemahkan sulit menilai."
+  },
+  {
+    "id": "BT061-017",
+    "day": 61,
+    "type": "story",
+    "passage": "The fishing village of Pell Bay has run an oyster cooperative for thirty years. In 2021, its members installed a new cage system to protect young oysters from strong waves. Researchers followed the farm through two seasons and recorded survival rates. According to their report, the new cages increased survival by about eighteen percent. The cooperative paid for the cages with a grant from the regional government, although the report does not say how much the grant was worth. The cages also needed more maintenance in winter, when storms damaged several frames. Some members argued that repair costs could cancel out the gains, but the report did not include any figures on repair spending. Local buyers have not yet agreed to pay higher prices for the new oysters.",
+    "prompt": "Manakah pernyataan yang bernilai Not Given menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hibah itu diberikan kepada setiap anggota koperasi secara merata."
+      },
+      {
+        "id": "B",
+        "text": "Badai musim dingin merusak beberapa rangka kandang."
+      },
+      {
+        "id": "C",
+        "text": "Sistem kandang baru meningkatkan kelangsungan hidup tiram sekitar delapan belas persen menurut laporan."
+      },
+      {
+        "id": "D",
+        "text": "Pembeli lokal belum setuju membayar harga yang lebih tinggi."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks tidak menyebutkan cara pembagian hibah, sehingga pernyataan ini termasuk Not Given, bukan True atau False."
+  },
+  {
+    "id": "BT061-018",
+    "day": 61,
+    "type": "listen",
+    "script": "Good morning. In today's talk, I want to look at a study of rainfall in the northern districts. The team measured daily rain for three years, but the gauges in two villages were broken for most of the second winter. Because of that gap, the researchers say their figures for winter should be treated with caution. They did not, however, change the summer numbers, which they checked against satellite data.",
+    "prompt": "Apa yang dikatakan pembicara tentang data musim dingin?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The winter data is fully reliable because the gauges were repaired quickly."
+      },
+      {
+        "id": "B",
+        "text": "The winter data should be treated with caution because some gauges were broken."
+      },
+      {
+        "id": "C",
+        "text": "The summer numbers were checked by the villagers themselves."
+      },
+      {
+        "id": "D",
+        "text": "The winter data was removed completely from the final report."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut alat ukur di dua desa rusak selama sebagian besar musim dingin, sehingga data musim dingin perlu hati-hati."
+  },
+  {
+    "id": "BT061-019",
+    "day": 61,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Sumber itu tidak dapat dipercaya karena tidak pernah diperiksa)",
+    "acceptedAnswers": [
+      "The source cannot be trusted because it has never been checked"
+    ],
+    "explanation": "Has never been checked adalah pasif perfect yang menyatakan bahwa pemeriksaan belum pernah dilakukan sampai sekarang."
+  },
+  {
+    "id": "BT062-011",
+    "day": 62,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The editor suggested that the writer ___ the claim before the article went to print.",
+    "options": [
+      {
+        "id": "A",
+        "text": "verifies"
+      },
+      {
+        "id": "B",
+        "text": "verified"
+      },
+      {
+        "id": "C",
+        "text": "verify"
+      },
+      {
+        "id": "D",
+        "text": "verifying"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Setelah suggest that, kata kerja memakai bentuk dasar tanpa -s dan tanpa bentuk lampau."
+  },
+  {
+    "id": "BT062-012",
+    "day": 62,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Not only ___ the survey ignore the control group, but it also relied on an unreliable questionnaire.",
+    "options": [
+      {
+        "id": "A",
+        "text": "does"
+      },
+      {
+        "id": "B",
+        "text": "had"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "did"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah Not only di awal kalimat, subjek dan kata bantu harus dibalik, sehingga memakai did."
+  },
+  {
+    "id": "BT062-013",
+    "day": 62,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The minister's speech was so ___ that the audience could not tell whether he supported the plan.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ambiguous"
+      },
+      {
+        "id": "B",
+        "text": "obvious"
+      },
+      {
+        "id": "C",
+        "text": "explicit"
+      },
+      {
+        "id": "D",
+        "text": "generous"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Ambiguous berarti memiliki lebih dari satu makna, sehingga pendengar sulit menafsirkan sikap pembicara."
+  },
+  {
+    "id": "BT062-014",
+    "day": 62,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The reviewer ___ the novel's ending, calling it rushed and unconvincing after the long build-up.",
+    "options": [
+      {
+        "id": "A",
+        "text": "praised"
+      },
+      {
+        "id": "B",
+        "text": "condemned"
+      },
+      {
+        "id": "C",
+        "text": "summarised"
+      },
+      {
+        "id": "D",
+        "text": "translated"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Condemn berarti mengecam keras, sehingga cocok untuk ulasan yang sangat negatif."
+  },
+  {
+    "id": "BT062-015",
+    "day": 62,
+    "type": "translate",
+    "prompt": "Pernyataan penulis itu sejalan dengan data yang dikumpulkan pemerintah.",
+    "acceptedAnswers": [
+      "The writer's statement is consistent with the data collected by the government",
+      "The writer's claim is in line with the data collected by the government"
+    ],
+    "explanation": "Consistent with dan in line with sama-sama berarti sejalan atau sesuai."
+  },
+  {
+    "id": "BT062-016",
+    "day": 62,
+    "type": "translate",
+    "prompt": "Meskipun sampelnya kecil, penelitian itu tetap menarik perhatian media.",
+    "acceptedAnswers": [
+      "Although the sample was small the study still attracted media attention",
+      "Even though the sample was small the research still drew media attention"
+    ],
+    "explanation": "Although dan even though sama-sama dipakai untuk menyatakan pertentangan."
+  },
+  {
+    "id": "BT062-017",
+    "day": 62,
+    "type": "story",
+    "passage": "In a recent column, the urban planner Dara Lim argued that rooftop gardens can cut the temperature of dense districts by several degrees. She cited a study from a city where the roofs of forty buildings were planted over one summer. According to the column, the gardens lowered average afternoon temperatures in surrounding streets by almost two degrees. Lim went further, claiming that every city should require new office blocks to include green roofs. She did not, however, mention what installation would cost, and she offered no evidence about how the plants would survive harsh winters. Critics responded that the study was too small to justify such a rule. Lim replied that small pilots are often the first step toward larger change.",
+    "prompt": "Manakah pernyataan yang sesuai dengan klaim Lim dalam teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Lim menyebut biaya pemasangan atap hijau itu murah."
+      },
+      {
+        "id": "B",
+        "text": "Lim mengatakan studinya berlangsung selama dua musim dingin."
+      },
+      {
+        "id": "C",
+        "text": "Setiap kota seharusnya mewajibkan atap hijau pada gedung perkantoran baru."
+      },
+      {
+        "id": "D",
+        "text": "Lim menyatakan tanaman atap pasti bertahan di musim dingin yang keras."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Lim secara eksplisit menyatakan bahwa setiap kota harus mewajibkan atap hijau, sedangkan pilihan lain tidak disebutkan atau bertentangan dengan teks."
+  },
+  {
+    "id": "BT062-018",
+    "day": 62,
+    "type": "listen",
+    "script": "Thank you for joining the session. The sleep study we discussed last week relied on diaries rather than sensors, so participants may have underestimated how often they woke up. The researchers admit this limitation in the discussion section. However, they argue that the main pattern, later bedtimes among teenagers, still appears across all the groups they tested.",
+    "prompt": "Apa yang dikatakan pembicara tentang studi tidur tersebut?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The study used sensors to measure how often participants woke up."
+      },
+      {
+        "id": "B",
+        "text": "The researchers rejected the link between later bedtimes and teenagers."
+      },
+      {
+        "id": "C",
+        "text": "The sample included only adults over fifty years old."
+      },
+      {
+        "id": "D",
+        "text": "The study may have underestimated night waking because it relied on diaries."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut penggunaan buku harian sebagai keterbatasan yang mungkin membuat jumlah terbangun kurang tercatat."
+  },
+  {
+    "id": "BT062-019",
+    "day": 62,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Kebijakan itu harus ditinjau ulang sebelum diterapkan)",
+    "acceptedAnswers": [
+      "The policy must be reviewed before it is implemented"
+    ],
+    "explanation": "Must be reviewed adalah pola pasif modal untuk kewajiban, dan before it is implemented menunjukkan urutan waktu."
+  },
+  {
+    "id": "BT063-011",
+    "day": 63,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Neither the title nor the subheadings ___ the main argument of the chapter clearly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "reflect"
+      },
+      {
+        "id": "B",
+        "text": "reflects"
+      },
+      {
+        "id": "C",
+        "text": "reflecting"
+      },
+      {
+        "id": "D",
+        "text": "to reflect"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pada pola neither nor, kata kerja mengikuti subjek yang paling dekat, yaitu subheadings yang jamak, sehingga memakai reflect."
+  },
+  {
+    "id": "BT063-012",
+    "day": 63,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The paragraph would have been much clearer if the writer ___ a heading that matched its main idea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "chose"
+      },
+      {
+        "id": "B",
+        "text": "had chosen"
+      },
+      {
+        "id": "C",
+        "text": "choose"
+      },
+      {
+        "id": "D",
+        "text": "has chosen"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kalimat pengandaian tipe 3 memakai had dan bentuk lampau ketiga pada klausa if, sehingga had chosen tepat."
+  },
+  {
+    "id": "BT063-013",
+    "day": 63,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The essay was hard to follow because its paragraphs lacked a clear ___, so ideas jumped from one topic to another.",
+    "options": [
+      {
+        "id": "A",
+        "text": "abundance"
+      },
+      {
+        "id": "B",
+        "text": "vacancy"
+      },
+      {
+        "id": "C",
+        "text": "coherence"
+      },
+      {
+        "id": "D",
+        "text": "reluctance"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Coherence berarti keterhubungan logis antargagasan, sehingga pembaca bisa mengikuti alur tulisan."
+  },
+  {
+    "id": "BT063-014",
+    "day": 63,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The summary ___ the three main findings into one short paragraph, so readers can skim the report quickly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "excludes"
+      },
+      {
+        "id": "B",
+        "text": "assumes"
+      },
+      {
+        "id": "C",
+        "text": "invents"
+      },
+      {
+        "id": "D",
+        "text": "condenses"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Condense berarti meringkas isi menjadi bentuk yang lebih padat tanpa menghilangkan inti."
+  },
+  {
+    "id": "BT063-015",
+    "day": 63,
+    "type": "translate",
+    "prompt": "Kepala bagian ini harus mencerminkan isi paragraf secara tepat.",
+    "acceptedAnswers": [
+      "This section heading must accurately reflect the content of the paragraph",
+      "This section heading should accurately reflect the paragraph content"
+    ],
+    "explanation": "Reflect di sini berarti mencerminkan atau sesuai dengan isi, bukan memantulkan cahaya."
+  },
+  {
+    "id": "BT063-016",
+    "day": 63,
+    "type": "translate",
+    "prompt": "Penulis membagi laporan itu menjadi empat bab dengan alur yang logis.",
+    "acceptedAnswers": [
+      "The writer divided the report into four chapters with a logical structure",
+      "The author split the report into four chapters with a logical flow"
+    ],
+    "explanation": "Divided into dan split into sama-sama berarti membagi menjadi, sedangkan structure atau flow menerjemahkan alur."
+  },
+  {
+    "id": "BT063-017",
+    "day": 63,
+    "type": "story",
+    "passage": "The central market in Sukamaju was built in 1978 on land that once held a rice warehouse. For decades it was the main source of fresh vegetables for nearby villages. Traders arrive before dawn, and prices often change several times before eight in the morning. A recent survey found that most small vendors depend on the market for at least three-quarters of their income. The municipal government plans to renovate the building next year, adding covered stalls and a cold storage room. Some vendors worry that higher rents will push them out, while others believe the upgrade will attract more shoppers. The planning report also describes how the market could host a weekend food festival, which would bring visitors from other districts.",
+    "prompt": "Judul mana yang terlalu sempit untuk seluruh teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Harga sayuran yang berubah setiap pagi"
+      },
+      {
+        "id": "B",
+        "text": "Sejarah dan perkembangan pasar kota"
+      },
+      {
+        "id": "C",
+        "text": "Peran pasar bagi warga sekitar"
+      },
+      {
+        "id": "D",
+        "text": "Rencana renovasi dan dampaknya bagi pedagang"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Judul yang hanya menyebut satu detail kecil tidak mencakup seluruh isi teks, sehingga terlalu sempit."
+  },
+  {
+    "id": "BT063-018",
+    "day": 63,
+    "type": "listen",
+    "script": "Let's look at the heading for the third section. The current title talks about the cost of the new bridge, but most of that section explains how the traffic plan changed after public meetings. A better heading would focus on the consultation process. Please compare your choice with the paragraph's final sentence before you decide.",
+    "prompt": "Menurut tutor, mengapa judul bagian ketiga perlu diubah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is written in the passive voice, which is not allowed in headings."
+      },
+      {
+        "id": "B",
+        "text": "It focuses on the cost, but the section mainly describes the consultation process."
+      },
+      {
+        "id": "C",
+        "text": "It is too long and should be shortened to two words."
+      },
+      {
+        "id": "D",
+        "text": "It repeats the heading of the first section word for word."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Tutor menyebut judul hanya membahas biaya, padahal isi bagian itu lebih banyak tentang proses konsultasi."
+  },
+  {
+    "id": "BT063-019",
+    "day": 63,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Judul itu terlalu luas untuk isi paragraf ini)",
+    "acceptedAnswers": [
+      "The heading is too broad for the content of this paragraph"
+    ],
+    "explanation": "Too broad berarti terlalu luas, sedangkan for the content of this paragraph menunjukkan kesesuaian dengan isi paragraf."
+  },
+  {
+    "id": "BT064-011",
+    "day": 64,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Only after the summary ___ reviewed did the teacher decide that the answers were complete.",
+    "options": [
+      {
+        "id": "A",
+        "text": "being"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Setelah Only after yang diikuti inversi, kalimat ini memakai bentuk lampau was untuk subjek tunggal."
+  },
+  {
+    "id": "BT064-012",
+    "day": 64,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Every word ___ in the summary must come directly from the passage, not from your memory.",
+    "options": [
+      {
+        "id": "A",
+        "text": "using"
+      },
+      {
+        "id": "B",
+        "text": "uses"
+      },
+      {
+        "id": "C",
+        "text": "be used"
+      },
+      {
+        "id": "D",
+        "text": "used"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Used adalah partisip lampau yang menerangkan every word, yaitu kata yang dipakai dalam ringkasan."
+  },
+  {
+    "id": "BT064-013",
+    "day": 64,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In the summary, you should ___ the speaker's sentences rather than copying them word for word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "paraphrase"
+      },
+      {
+        "id": "B",
+        "text": "delete"
+      },
+      {
+        "id": "C",
+        "text": "memorise"
+      },
+      {
+        "id": "D",
+        "text": "ignore"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Paraphrase berarti menyatakan ulang gagasan dengan kata-kata sendiri tanpa mengubah maknanya."
+  },
+  {
+    "id": "BT064-014",
+    "day": 64,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The examiner's note ___ each answer to a maximum of two words, so longer answers receive no marks.",
+    "options": [
+      {
+        "id": "A",
+        "text": "revises"
+      },
+      {
+        "id": "B",
+        "text": "restricts"
+      },
+      {
+        "id": "C",
+        "text": "reveals"
+      },
+      {
+        "id": "D",
+        "text": "recalls"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Restrict berarti membatasi, dan di sini catatan penguji membatasi jawaban maksimal dua kata."
+  },
+  {
+    "id": "BT064-015",
+    "day": 64,
+    "type": "translate",
+    "prompt": "Jawaban Anda harus singkat dan sesuai dengan kata-kata yang dipakai dalam teks.",
+    "acceptedAnswers": [
+      "Your answer must be short and match the wording used in the passage",
+      "Your answer should be brief and match the words used in the passage"
+    ],
+    "explanation": "Short dan brief sama-sama berarti singkat, sedangkan match the wording menerjemahkan sesuai dengan kata-kata."
+  },
+  {
+    "id": "BT064-016",
+    "day": 64,
+    "type": "translate",
+    "prompt": "Bagian yang hilang itu dapat ditemukan di paragraf kedua.",
+    "acceptedAnswers": [
+      "The missing part can be found in the second paragraph",
+      "The missing information can be found in the second paragraph"
+    ],
+    "explanation": "Part dan information sama-sama bisa menerjemahkan bagian yang hilang, tergantung konteks kalimatnya."
+  },
+  {
+    "id": "BT064-017",
+    "day": 64,
+    "type": "story",
+    "passage": "At the Riverside Science Centre, staff used to record visitor feedback on long paper forms. Many visitors wrote only a few lines, and the team found it hard to compare answers. Last spring, the manager, Ruth Adeyemi, introduced a shorter template with five boxes: date, group size, favourite exhibit, one problem, and one suggestion. The new template was printed on card, so it could be filled in while standing. Within a month, the number of completed forms rose from about forty per cent to nearly eighty. Adeyemi said the change was not about saving paper. Instead, she wanted staff to summarise feedback quickly, using short phrases that could be counted each week. Older visitors still preferred longer forms, so a few remain at the front desk.",
+    "prompt": "Apa alasan utama Ruth Adeyemi mengganti formulir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agar pengunjung lanjut usia lebih mudah mengisi formulir"
+      },
+      {
+        "id": "B",
+        "text": "Agar pusat sains menghemat kertas secara besar-besaran"
+      },
+      {
+        "id": "C",
+        "text": "Agar staf dapat meringkas umpan balik dengan cepat dalam frasa singkat"
+      },
+      {
+        "id": "D",
+        "text": "Agar formulir dapat diisi sambil berdiri di depan pintu"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Adeyemi menyebut bahwa tujuannya bukan menghemat kertas, melainkan agar staf dapat merangkum umpan balik dengan cepat."
+  },
+  {
+    "id": "BT064-018",
+    "day": 64,
+    "type": "listen",
+    "script": "Before you start the summary task, read the instructions carefully. If the question asks for no more than two words, do not write a full phrase, even if it sounds more accurate. Also check whether the answer is a number or a name, because the spelling rules are different. If you cannot find the answer in the passage, leave the gap blank rather than guessing.",
+    "prompt": "Apa yang harus dilakukan jika jawaban tidak dapat ditemukan dalam teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Write the closest phrase you can think of."
+      },
+      {
+        "id": "B",
+        "text": "Use a longer phrase so the answer sounds more accurate."
+      },
+      {
+        "id": "C",
+        "text": "Ask the examiner to read the passage again."
+      },
+      {
+        "id": "D",
+        "text": "Leave the gap blank instead of guessing."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyarankan mengosongkan celah daripada menebak jawaban yang tidak ada dalam teks."
+  },
+  {
+    "id": "BT064-019",
+    "day": 64,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Pastikan setiap jawaban berasal dari bagian teks yang kamu baca)",
+    "acceptedAnswers": [
+      "Make sure every answer comes from the part of the text you read"
+    ],
+    "explanation": "Make sure diikuti klausa menunjukkan kewajiban untuk memastikan asal setiap jawaban dari teks."
+  },
+  {
+    "id": "BT065-011",
+    "day": 65,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Had the speaker ___ the correction earlier, the students would have written the right date.",
+    "options": [
+      {
+        "id": "A",
+        "text": "made"
+      },
+      {
+        "id": "B",
+        "text": "making"
+      },
+      {
+        "id": "C",
+        "text": "to make"
+      },
+      {
+        "id": "D",
+        "text": "make"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Inversi pengandaian memakai Had + subjek + bentuk lampau ketiga, sehingga made adalah bentuk yang tepat."
+  },
+  {
+    "id": "BT065-012",
+    "day": 65,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The listener, ___ attention had wandered, missed the second half of the instruction.",
+    "options": [
+      {
+        "id": "A",
+        "text": "who"
+      },
+      {
+        "id": "B",
+        "text": "whose"
+      },
+      {
+        "id": "C",
+        "text": "whom"
+      },
+      {
+        "id": "D",
+        "text": "which"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Whose menunjukkan kepemilikan, dalam hal ini perhatian pendengar yang melayang."
+  },
+  {
+    "id": "BT065-013",
+    "day": 65,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The speaker gave a ___ answer first and then corrected it, so the candidate had to wait for the final version.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tenacious"
+      },
+      {
+        "id": "B",
+        "text": "tedious"
+      },
+      {
+        "id": "C",
+        "text": "tentative"
+      },
+      {
+        "id": "D",
+        "text": "terminal"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Tentative berarti belum pasti atau bersifat sementara, sehingga jawaban itu belum bisa dianggap final."
+  },
+  {
+    "id": "BT065-014",
+    "day": 65,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The receptionist ___ the mistake on the sign within minutes, so visitors arrived at the right time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "recorded"
+      },
+      {
+        "id": "B",
+        "text": "resisted"
+      },
+      {
+        "id": "C",
+        "text": "resembled"
+      },
+      {
+        "id": "D",
+        "text": "rectified"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Rectify berarti memperbaiki kesalahan, dan di sini petugas langsung memperbaiki tanda yang salah."
+  },
+  {
+    "id": "BT065-015",
+    "day": 65,
+    "type": "translate",
+    "prompt": "Jadwal pemeriksaan itu sebenarnya dijadwalkan ulang untuk minggu depan.",
+    "acceptedAnswers": [
+      "The inspection was actually rescheduled for next week",
+      "The inspection has actually been rescheduled for next week"
+    ],
+    "explanation": "Rescheduled berarti dijadwalkan ulang, dan was maupun has been sama-sama tepat untuk konteks ini."
+  },
+  {
+    "id": "BT065-016",
+    "day": 65,
+    "type": "translate",
+    "prompt": "Jangan terkecoh oleh pilihan yang terdengar mirip dengan jawaban yang benar.",
+    "acceptedAnswers": [
+      "Do not be misled by options that sound like the correct answer",
+      "Do not be fooled by options that sound similar to the correct answer"
+    ],
+    "explanation": "Misled dan fooled sama-sama berarti terkecoh, sedangkan sound like dan sound similar menerjemahkan terdengar mirip."
+  },
+  {
+    "id": "BT065-017",
+    "day": 65,
+    "type": "story",
+    "passage": "Northline Transit posted its winter timetable before the holidays, but a printing error left the Sunday departures from the harbour terminal off the list. Several passengers complained after arriving at empty stops. The company apologised and published a corrected version within two days. The revised sheet adds four departures, starting at 7:15 in the morning and running every forty minutes until 9 pm. Staff also found that the earlier notice listed the last airport bus at 10 pm, when the real time is 10:40. A small notice now sits at each stop to show the correction, so riders can check the time before boarding. The company says it will review its printing process before the spring timetable is released.",
+    "prompt": "Mengapa perusahaan bus memasang catatan koreksi di setiap halte?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Agar penumpang memeriksa jadwal sebelum naik bus"
+      },
+      {
+        "id": "B",
+        "text": "Agar tarif bus ke bandara dinaikkan secara resmi"
+      },
+      {
+        "id": "C",
+        "text": "Agar jadwal musim semi dapat dicetak lebih cepat"
+      },
+      {
+        "id": "D",
+        "text": "Agar halte di pelabuhan ditutup sementara"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Catatan itu dipasang agar penumpang bisa mengecek jam keberangkatan yang sudah diperbaiki sebelum naik."
+  },
+  {
+    "id": "BT065-018",
+    "day": 65,
+    "type": "listen",
+    "script": "Listen carefully to the timing in this announcement. The lecture was first listed for half past eight, but that time was wrong. It now starts at nine o'clock in Room 241, on the second floor. The earlier notice that mentioned Saturday should be ignored. Please arrive five minutes early so you can find the room.",
+    "prompt": "Jam berapa kuliah dimulai menurut pengumuman?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At 8:30 in the morning"
+      },
+      {
+        "id": "B",
+        "text": "At 9:00 in the morning"
+      },
+      {
+        "id": "C",
+        "text": "On Saturday at 9:00"
+      },
+      {
+        "id": "D",
+        "text": "At 9:30 in the morning"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pengumuman meralat jam 8.30 dan menyatakan kuliah dimulai pukul 9.00 di ruang 241."
+  },
+  {
+    "id": "BT065-019",
+    "day": 65,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Dia mengoreksi tanggal yang tertulis di formulir)",
+    "acceptedAnswers": [
+      "She corrected the date written on the form"
+    ],
+    "explanation": "Written on the form adalah partisip lampau yang menerangkan the date, yaitu tanggal yang tertulis di formulir."
+  },
+  {
+    "id": "BT066-011",
+    "day": 66,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The number of incorrect letters in the surname ___ fallen since the new form was introduced.",
+    "options": [
+      {
+        "id": "A",
+        "text": "have"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "has"
+      },
+      {
+        "id": "D",
+        "text": "having"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek the number bersifat tunggal, sehingga kata kerja bantu yang tepat adalah has."
+  },
+  {
+    "id": "BT066-012",
+    "day": 66,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The clerk asked her ___ the surname twice, so that the spelling could be confirmed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "spelling"
+      },
+      {
+        "id": "B",
+        "text": "spelt"
+      },
+      {
+        "id": "C",
+        "text": "spell"
+      },
+      {
+        "id": "D",
+        "text": "to spell"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pola ask someone to do something memerlukan infinitif dengan to, sehingga to spell dipakai."
+  },
+  {
+    "id": "BT066-013",
+    "day": 66,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The operator asked the caller to ___ the reference code slowly, letter by letter.",
+    "options": [
+      {
+        "id": "A",
+        "text": "spell out"
+      },
+      {
+        "id": "B",
+        "text": "carry out"
+      },
+      {
+        "id": "C",
+        "text": "point out"
+      },
+      {
+        "id": "D",
+        "text": "work out"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Spell out berarti mengeja sesuatu secara rinci, huruf demi huruf."
+  },
+  {
+    "id": "BT066-014",
+    "day": 66,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The bank ___ each transfer a unique six-digit number, so payments are not sent to the wrong account.",
+    "options": [
+      {
+        "id": "A",
+        "text": "discloses"
+      },
+      {
+        "id": "B",
+        "text": "assigns"
+      },
+      {
+        "id": "C",
+        "text": "discards"
+      },
+      {
+        "id": "D",
+        "text": "dismisses"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Assign berarti memberikan atau menetapkan sesuatu kepada suatu hal tertentu."
+  },
+  {
+    "id": "BT066-015",
+    "day": 66,
+    "type": "translate",
+    "prompt": "Nama belakang saya memiliki dua huruf ganda.",
+    "acceptedAnswers": [
+      "My surname has two double letters",
+      "My family name contains two double letters"
+    ],
+    "explanation": "Double letters berarti huruf yang sama muncul dua kali berurutan, seperti pada ll atau ss."
+  },
+  {
+    "id": "BT066-016",
+    "day": 66,
+    "type": "translate",
+    "prompt": "Harap sebutkan setiap angka satu per satu, bukan dalam kelompok.",
+    "acceptedAnswers": [
+      "Please say each number one by one and not in groups",
+      "Please read out each number separately, not in groups"
+    ],
+    "explanation": "Say one by one dan read out separately sama-sama berarti menyebut angka satu per satu."
+  },
+  {
+    "id": "BT066-017",
+    "day": 66,
+    "type": "story",
+    "passage": "Tomas Reyes sent his exam registration form to the testing office in late June. Two weeks later, he received a letter saying his candidate number was invalid. A check showed that a clerk had typed 4817 instead of 4871, because the last two digits look similar on a faded printout. Reyes phoned the office and read the number aloud twice, spelling out each digit to avoid confusion. The office confirmed the correction and sent a new admission card by email. Officials now ask candidates to write numbers in groups of two, which they say makes errors easier to spot. Reyes was relieved, although he still needed to reprint his travel documents before the exam date.",
+    "prompt": "Berapa nomor kandidat yang benar menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "4817"
+      },
+      {
+        "id": "B",
+        "text": "4718"
+      },
+      {
+        "id": "C",
+        "text": "4871"
+      },
+      {
+        "id": "D",
+        "text": "8471"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menjelaskan bahwa petugas salah mengetik 4817, sedangkan nomor yang benar adalah 4871."
+  },
+  {
+    "id": "BT066-018",
+    "day": 66,
+    "type": "listen",
+    "script": "I'll spell your name for the record. It's Cathryn, C-A-T-H-R-Y-N, and the surname is O-A-K-L-E-Y. Please check the last letter carefully, since clerks often confuse it with an i. The reference number ends in seven, zero, nine.",
+    "prompt": "Apa ejaan nama belakang yang benar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Oakly"
+      },
+      {
+        "id": "B",
+        "text": "Okely"
+      },
+      {
+        "id": "C",
+        "text": "Oakleigh"
+      },
+      {
+        "id": "D",
+        "text": "Oakley"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara mengeja O-A-K-L-E-Y huruf demi huruf, sehingga ejaan yang benar adalah Oakley."
+  },
+  {
+    "id": "BT066-019",
+    "day": 66,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Kode pos saya terdiri dari tujuh karakter)",
+    "acceptedAnswers": [
+      "My postcode has seven characters"
+    ],
+    "explanation": "Has dipakai untuk menyatakan bahwa kode pos memiliki tujuh karakter."
+  },
+  {
+    "id": "BT067-011",
+    "day": 67,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Had the reviewers read the appendix, they ___ the missing sample size.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would have noticed"
+      },
+      {
+        "id": "B",
+        "text": "noticed"
+      },
+      {
+        "id": "C",
+        "text": "would notice"
+      },
+      {
+        "id": "D",
+        "text": "have noticed"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Inversi pengandaian tipe 3 memakai Had + subjek di awal, lalu klausa utama memakai would have + bentuk lampau ketiga."
+  },
+  {
+    "id": "BT067-012",
+    "day": 67,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The editor, along with the two reporters, ___ that the correction should appear on page one.",
+    "options": [
+      {
+        "id": "A",
+        "text": "insist"
+      },
+      {
+        "id": "B",
+        "text": "insists"
+      },
+      {
+        "id": "C",
+        "text": "insisting"
+      },
+      {
+        "id": "D",
+        "text": "have insisted"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utama adalah the editor yang tunggal, sedangkan frasa along with the two reporters tidak mengubah kesesuaian kata kerja."
+  },
+  {
+    "id": "BT067-013",
+    "day": 67,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The reviewer said the claim was ___ because the main source was never named.",
+    "options": [
+      {
+        "id": "A",
+        "text": "unanimous"
+      },
+      {
+        "id": "B",
+        "text": "unavoidable"
+      },
+      {
+        "id": "C",
+        "text": "unsubstantiated"
+      },
+      {
+        "id": "D",
+        "text": "unexpected"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Unsubstantiated berarti tidak didukung bukti yang cukup, sehingga klaim itu belum bisa dipercaya."
+  },
+  {
+    "id": "BT067-014",
+    "day": 67,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The conclusion was ___ by the new figures, which showed a different trend from the earlier study.",
+    "options": [
+      {
+        "id": "A",
+        "text": "underlined"
+      },
+      {
+        "id": "B",
+        "text": "undertaken"
+      },
+      {
+        "id": "C",
+        "text": "underwent"
+      },
+      {
+        "id": "D",
+        "text": "undermined"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Undermine berarti melemahkan, misalnya kesimpulan yang kehilangan dukungan karena data baru."
+  },
+  {
+    "id": "BT067-015",
+    "day": 67,
+    "type": "translate",
+    "prompt": "Ringkasan itu harus memuat gagasan utama tanpa detail yang tidak penting.",
+    "acceptedAnswers": [
+      "A summary should contain the main ideas without unimportant details",
+      "The summary should include the main ideas and leave out minor details"
+    ],
+    "explanation": "Contain dan include sama-sama berarti memuat, sedangkan leave out minor details menerjemahkan tanpa detail yang tidak penting."
+  },
+  {
+    "id": "BT067-016",
+    "day": 67,
+    "type": "translate",
+    "prompt": "Pembaca yang cermat akan menyadari perbedaan antara data dan dugaan.",
+    "acceptedAnswers": [
+      "Careful readers will notice the difference between data and speculation",
+      "Careful readers will recognise the difference between data and guesses"
+    ],
+    "explanation": "Speculation dan guesses sama-sama berarti dugaan, bukan fakta yang sudah diuji."
+  },
+  {
+    "id": "BT067-017",
+    "day": 67,
+    "type": "story",
+    "passage": "A year-long trial of free buses in the coastal town of Marlow began in March. The council hoped the scheme would reduce car journeys to the town centre. Data from the first six months showed that daily car trips fell by roughly nine percent, but the report warned that the drop was concentrated in the summer. Shop owners were divided: some reported more visitors on Saturdays, while others said sales had not changed. The council plans to publish a full evaluation in the autumn, including the cost of extra drivers and fuel. Officials have not decided whether the buses will stay free after the trial ends, although they confirmed that the routes would be kept.",
+    "prompt": "Manakah pernyataan yang bernilai False menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penurunan perjalanan mobil terjadi merata sepanjang tahun."
+      },
+      {
+        "id": "B",
+        "text": "Rute bus tetap dipertahankan meskipun status gratisnya belum jelas."
+      },
+      {
+        "id": "C",
+        "text": "Bus gratis itu mengurangi kemacetan lalu lintas di pusat kota secara signifikan."
+      },
+      {
+        "id": "D",
+        "text": "Jumlah perjalanan mobil harian turun sekitar sembilan persen dalam enam bulan pertama."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut penurunan perjalanan mobil terkonsentrasi di musim panas, sehingga klaim bahwa penurunannya merata bertentangan dengan teks."
+  },
+  {
+    "id": "BT067-018",
+    "day": 67,
+    "type": "listen",
+    "script": "When two answer options both seem possible, do not choose immediately. First, look for the exact word in the question, then check whether the passage says the opposite. If both options still seem correct, one of them probably depends on an assumption the text never makes. Eliminate that one and keep the option that is directly supported.",
+    "prompt": "Apa yang harus dilakukan pertama kali ketika dua pilihan tampak benar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Choose the longer option, since it usually contains more detail."
+      },
+      {
+        "id": "B",
+        "text": "Look for the exact word in the question and check for any opposite claim."
+      },
+      {
+        "id": "C",
+        "text": "Guess quickly and move on to the next question."
+      },
+      {
+        "id": "D",
+        "text": "Mark both options and return to them after the exam."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyarankan mencari kata kunci dalam pertanyaan dan memeriksa klaim yang berlawanan sebelum memilih."
+  },
+  {
+    "id": "BT067-019",
+    "day": 67,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Jangan memilih judul yang hanya membahas satu kalimat)",
+    "acceptedAnswers": [
+      "Do not choose a heading that covers only one sentence"
+    ],
+    "explanation": "Judul yang hanya membahas satu kalimat terlalu sempit untuk seluruh paragraf, sehingga larangan ini penting dipegang."
+  },
+  {
+    "id": "BT068-011",
+    "day": 68,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Between 2010 and 2014, the number of households connected to the grid ___ steadily from 40,000 to 52,000.",
+    "options": [
+      {
+        "id": "A",
+        "text": "risen"
+      },
+      {
+        "id": "B",
+        "text": "raised"
+      },
+      {
+        "id": "C",
+        "text": "rose"
+      },
+      {
+        "id": "D",
+        "text": "rising"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Rose adalah bentuk lampau dari rise yang tidak membutuhkan objek, sehingga cocok untuk kenaikan jumlah dalam grafik."
+  },
+  {
+    "id": "BT068-012",
+    "day": 68,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The line for online sales ___ above the line for store sales from 2018 onwards.",
+    "options": [
+      {
+        "id": "A",
+        "text": "remains"
+      },
+      {
+        "id": "B",
+        "text": "remaining"
+      },
+      {
+        "id": "C",
+        "text": "has remain"
+      },
+      {
+        "id": "D",
+        "text": "remained"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Keterangan from 2018 onwards menunjuk periode lampau, sehingga bentuk lampau remained tepat."
+  },
+  {
+    "id": "BT068-013",
+    "day": 68,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "After 2016 the figures reached a ___ and stayed at about 400 units until 2019.",
+    "options": [
+      {
+        "id": "A",
+        "text": "plateau"
+      },
+      {
+        "id": "B",
+        "text": "trough"
+      },
+      {
+        "id": "C",
+        "text": "slump"
+      },
+      {
+        "id": "D",
+        "text": "surge"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Plateau berarti nilai tetap stabil selama beberapa waktu setelah berubah."
+  },
+  {
+    "id": "BT068-014",
+    "day": 68,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Sales ___ slightly during the summer months before recovering in the autumn.",
+    "options": [
+      {
+        "id": "A",
+        "text": "soared"
+      },
+      {
+        "id": "B",
+        "text": "dipped"
+      },
+      {
+        "id": "C",
+        "text": "peaked"
+      },
+      {
+        "id": "D",
+        "text": "plateaued"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Dip berarti turun sedikit untuk sementara sebelum naik lagi."
+  },
+  {
+    "id": "BT068-015",
+    "day": 68,
+    "type": "translate",
+    "prompt": "Grafik garis itu memperlihatkan kenaikan bertahap selama dekade tersebut.",
+    "acceptedAnswers": [
+      "The line graph shows a gradual increase over the decade",
+      "The line chart illustrates a gradual rise throughout the decade"
+    ],
+    "explanation": "Line graph dan line chart sama-sama berarti grafik garis, sedangkan gradual increase dan gradual rise sama-sama menunjukkan kenaikan pelan."
+  },
+  {
+    "id": "BT068-016",
+    "day": 68,
+    "type": "translate",
+    "prompt": "Setelah 2017, angka pengangguran turun perlahan lalu stabil di sekitar lima persen.",
+    "acceptedAnswers": [
+      "After 2017 the unemployment rate fell gradually and then levelled off at around five percent",
+      "After 2017 the unemployment rate declined slowly before stabilising at approximately five percent"
+    ],
+    "explanation": "Levelled off dan stabilising sama-sama menggambarkan garis yang mendatar setelah turun."
+  },
+  {
+    "id": "BT068-017",
+    "day": 68,
+    "type": "story",
+    "passage": "The line graph tracks the number of households that installed solar panels in one coastal city between 2016 and 2022. Installations rose steadily from about 1,200 in 2016 to nearly 4,000 in 2019. In 2020, the figure dropped sharply, falling below 2,500. The fall followed the government's decision to pause its subsidy while officials reviewed the budget. Many households had relied on it to cover the upfront cost. At the same time, installation costs rose because of delays in the supply of panels. The number recovered in 2021 and reached a new peak of about 5,000 in 2022. Local engineers expect the growth to continue, provided the subsidy returns.",
+    "prompt": "Mengapa jumlah pemasangan panel surya turun tajam pada 2020?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Banyak rumah tangga memutuskan pindah ke kota lain"
+      },
+      {
+        "id": "B",
+        "text": "Perusahaan listrik melarang pemasangan baru sepanjang tahun"
+      },
+      {
+        "id": "C",
+        "text": "Subsidi pemerintah sementara dihentikan dan biaya pemasangan naik"
+      },
+      {
+        "id": "D",
+        "text": "Cuaca buruk membuat panel tidak bisa diangkut ke lokasi"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut dua penyebab, yaitu subsidi yang dihentikan sementara dan biaya pemasangan yang naik karena keterlambatan pasokan."
+  },
+  {
+    "id": "BT068-018",
+    "day": 68,
+    "type": "listen",
+    "script": "This line graph shows the number of visitors to a small museum from 2015 to 2021. The line rises gently for the first two years, then jumps sharply in 2017 after a new exhibition opens. In 2020 the number falls to its lowest point, which the speaker links to a temporary closure. By 2021 visitors had recovered to about the 2017 level.",
+    "prompt": "Apa yang dikatakan pembicara tentang tahun 2020?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Visitor numbers reached their highest point of the period."
+      },
+      {
+        "id": "B",
+        "text": "The exhibition opened for the first time."
+      },
+      {
+        "id": "C",
+        "text": "Visitor numbers doubled compared with 2015."
+      },
+      {
+        "id": "D",
+        "text": "Visitor numbers fell to their lowest point because of a temporary closure."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut jumlah pengunjung turun ke titik terendah pada 2020 dan mengaitkannya dengan penutupan sementara."
+  },
+  {
+    "id": "BT068-019",
+    "day": 68,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Garis itu mencapai titik terendah pada tahun 2020)",
+    "acceptedAnswers": [
+      "The line reached its lowest point in 2020"
+    ],
+    "explanation": "Reached its lowest point adalah ungkapan baku untuk menyatakan nilai terendah dalam grafik."
+  },
+  {
+    "id": "BT069-011",
+    "day": 69,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Of the four cities, Lakeview had ___ number of visitors in 2023.",
+    "options": [
+      {
+        "id": "A",
+        "text": "the largest"
+      },
+      {
+        "id": "B",
+        "text": "more"
+      },
+      {
+        "id": "C",
+        "text": "largest"
+      },
+      {
+        "id": "D",
+        "text": "the more"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Superlatif dengan the dipakai untuk membandingkan lebih dari dua kota, sehingga the largest tepat."
+  },
+  {
+    "id": "BT069-012",
+    "day": 69,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Once the new route opened, the number of passengers ___ rapidly, which surprised the planners.",
+    "options": [
+      {
+        "id": "A",
+        "text": "increasing"
+      },
+      {
+        "id": "B",
+        "text": "increased"
+      },
+      {
+        "id": "C",
+        "text": "increase"
+      },
+      {
+        "id": "D",
+        "text": "to increase"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kejadian lampau yang terjadi setelah once memakai bentuk lampau increased."
+  },
+  {
+    "id": "BT069-013",
+    "day": 69,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The bar for buses was ___ higher than the bar for trains, reaching almost double.",
+    "options": [
+      {
+        "id": "A",
+        "text": "considerate"
+      },
+      {
+        "id": "B",
+        "text": "considering"
+      },
+      {
+        "id": "C",
+        "text": "considerably"
+      },
+      {
+        "id": "D",
+        "text": "consideration"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Considerably berarti jauh lebih, sehingga cocok untuk menyatakan selisih yang besar."
+  },
+  {
+    "id": "BT069-014",
+    "day": 69,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The ___ of each bar shows how many students chose that method of travel.",
+    "options": [
+      {
+        "id": "A",
+        "text": "width"
+      },
+      {
+        "id": "B",
+        "text": "depth"
+      },
+      {
+        "id": "C",
+        "text": "weight"
+      },
+      {
+        "id": "D",
+        "text": "height"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Height berarti tinggi batang, dan pada diagram batang nilai digambarkan melalui tinggi batang."
+  },
+  {
+    "id": "BT069-015",
+    "day": 69,
+    "type": "translate",
+    "prompt": "Tinggi setiap batang menunjukkan jumlah pekerja di setiap sektor.",
+    "acceptedAnswers": [
+      "The height of each bar shows the number of workers in each sector",
+      "The height of every bar indicates the number of workers in each sector"
+    ],
+    "explanation": "Height dipakai karena nilai pada diagram batang digambarkan melalui tinggi batang."
+  },
+  {
+    "id": "BT069-016",
+    "day": 69,
+    "type": "translate",
+    "prompt": "Sektor pertanian mengalami penurunan paling besar selama lima tahun itu.",
+    "acceptedAnswers": [
+      "The agriculture sector experienced the largest decline over those five years",
+      "Agriculture saw the biggest drop during those five years"
+    ],
+    "explanation": "Largest decline dan biggest drop sama-sama menyatakan penurunan terbesar."
+  },
+  {
+    "id": "BT069-017",
+    "day": 69,
+    "type": "story",
+    "passage": "The bar chart compares smartphone repairs at four shops on Harbour Street in 2021 and 2023. Toko Maju increased most sharply, from 90 repairs to 160. Toko Sejahtera recorded the second-largest rise, from 120 to 180. Toko Sinar grew from 60 to 110. Toko Kencana had the most repairs in 2021 with 150, and it rose only slightly to 155 by 2023. Kencana remained the busiest shop in both years, even though its growth was modest. The chart uses the same scale for every shop, so the bar heights can be compared directly. The author suggests that shops with low growth may need new marketing to attract customers.",
+    "prompt": "Toko mana yang mengalami kenaikan paling kecil menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Toko Kencana"
+      },
+      {
+        "id": "B",
+        "text": "Toko Sejahtera"
+      },
+      {
+        "id": "C",
+        "text": "Toko Maju"
+      },
+      {
+        "id": "D",
+        "text": "Toko Sinar"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Toko Kencana hanya naik dari 150 ke 155, kenaikan paling kecil dibanding tiga toko lainnya."
+  },
+  {
+    "id": "BT069-018",
+    "day": 69,
+    "type": "listen",
+    "script": "This bar chart compares four bus routes over two years. Route 4 is the only one where the number of passengers went down. Route 2 has the tallest bar in 2023, although it started level with Route 1 in the earlier year. The gap between Route 1 and Route 3 remained small throughout.",
+    "prompt": "Rute mana yang memiliki penumpang terbanyak pada 2023?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Route 1"
+      },
+      {
+        "id": "B",
+        "text": "Route 2"
+      },
+      {
+        "id": "C",
+        "text": "Route 3"
+      },
+      {
+        "id": "D",
+        "text": "Route 4"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut rute 2 memiliki batang tertinggi pada 2023."
+  },
+  {
+    "id": "BT069-019",
+    "day": 69,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Jumlah pengguna meningkat dua kali lipat dalam tiga tahun)",
+    "acceptedAnswers": [
+      "The number of users doubled in three years"
+    ],
+    "explanation": "Doubled adalah bentuk lampau dari double, yang berarti menjadi dua kali lipat."
+  },
+  {
+    "id": "BT070-011",
+    "day": 70,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "A pie chart ___ best when there are only a few categories that add up to a whole.",
+    "options": [
+      {
+        "id": "A",
+        "text": "work"
+      },
+      {
+        "id": "B",
+        "text": "working"
+      },
+      {
+        "id": "C",
+        "text": "works"
+      },
+      {
+        "id": "D",
+        "text": "worked"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pie chart adalah subjek tunggal, sehingga kata kerjanya berbentuk tunggal: works."
+  },
+  {
+    "id": "BT070-012",
+    "day": 70,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Electricity accounts for a fifth of the budget, ___ is less than rent but more than transport.",
+    "options": [
+      {
+        "id": "A",
+        "text": "whom"
+      },
+      {
+        "id": "B",
+        "text": "whose"
+      },
+      {
+        "id": "C",
+        "text": "who"
+      },
+      {
+        "id": "D",
+        "text": "which"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Which dipakai untuk mengacu pada keseluruhan klausa sebelumnya, yaitu pangsa listrik dalam anggaran."
+  },
+  {
+    "id": "BT070-013",
+    "day": 70,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Fuel makes up a small ___ of the total, about one tenth of household spending.",
+    "options": [
+      {
+        "id": "A",
+        "text": "proportion"
+      },
+      {
+        "id": "B",
+        "text": "promotion"
+      },
+      {
+        "id": "C",
+        "text": "proposal"
+      },
+      {
+        "id": "D",
+        "text": "protection"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Proportion berarti bagian dari keseluruhan, biasanya dinyatakan dalam persen atau pecahan."
+  },
+  {
+    "id": "BT070-014",
+    "day": 70,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The table ___ the information into four categories, making it easier to compare the three years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "discards"
+      },
+      {
+        "id": "B",
+        "text": "organises"
+      },
+      {
+        "id": "C",
+        "text": "disposes"
+      },
+      {
+        "id": "D",
+        "text": "dislikes"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Organise berarti menyusun data secara teratur agar mudah dibandingkan."
+  },
+  {
+    "id": "BT070-015",
+    "day": 70,
+    "type": "translate",
+    "prompt": "Diagram lingkaran ini menunjukkan persentase pengeluaran rumah tangga.",
+    "acceptedAnswers": [
+      "This pie chart shows the percentage of household spending",
+      "The pie chart displays the percentage of household expenditure"
+    ],
+    "explanation": "Household spending dan household expenditure sama-sama berarti pengeluaran rumah tangga."
+  },
+  {
+    "id": "BT070-016",
+    "day": 70,
+    "type": "translate",
+    "prompt": "Transportasi umum hanya mencakup sebagian kecil dari total biaya itu.",
+    "acceptedAnswers": [
+      "Public transport accounts for only a small part of the total cost",
+      "Public transport makes up only a small share of the total cost"
+    ],
+    "explanation": "Accounts for dan makes up sama-sama berarti mencakup atau menyumbang, sedangkan small part dan small share menerjemahkan sebagian kecil."
+  },
+  {
+    "id": "BT070-017",
+    "day": 70,
+    "type": "story",
+    "passage": "The table shows how Cedar Valley Primary School divided its annual budget of 400 million rupiah among five areas. Teaching salaries took the largest share at 52 per cent, followed by building maintenance at 18 per cent. Learning materials received 10 per cent, while sports and clubs took 8 per cent. The library received 12 per cent, up from 9 per cent the previous year, since the school wanted to add digital reading resources. The school reported that its total budget had not changed from the previous year. The maintenance share, however, is expected to fall next year after the roof repairs are complete.",
+    "prompt": "Berapa persen anggaran yang dialokasikan untuk perpustakaan tahun ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "8 per cent"
+      },
+      {
+        "id": "B",
+        "text": "9 per cent"
+      },
+      {
+        "id": "C",
+        "text": "12 per cent"
+      },
+      {
+        "id": "D",
+        "text": "18 per cent"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut perpustakaan menerima 12 persen tahun ini, naik dari 9 persen tahun sebelumnya."
+  },
+  {
+    "id": "BT070-018",
+    "day": 70,
+    "type": "listen",
+    "script": "This table compares household energy costs in three regions. In the north, heating takes up the largest portion of the budget, while in the coastal region, water bills are the highest. The city region spends the least on heating, but it pays more for transport than either of the others. All figures are shown in pounds for a single year.",
+    "prompt": "Wilayah mana yang paling sedikit mengeluarkan biaya pemanas?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The north"
+      },
+      {
+        "id": "B",
+        "text": "The coastal region"
+      },
+      {
+        "id": "C",
+        "text": "All three regions spend the same."
+      },
+      {
+        "id": "D",
+        "text": "The city region"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut wilayah kota paling sedikit mengeluarkan biaya pemanas."
+  },
+  {
+    "id": "BT070-019",
+    "day": 70,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris (Tabel ini menunjukkan perbedaan biaya antar wilayah)",
+    "acceptedAnswers": [
+      "This table shows the difference in costs between regions"
+    ],
+    "explanation": "Difference in costs between adalah pola yang tepat untuk membandingkan dua atau lebih wilayah."
+  }
+]
