@@ -137,7 +137,7 @@ describe('battle real-time', () => {
     expect(finished.winnerId).not.toBeNull();
   });
 
-  it('soal yang sudah dipakai tidak dipakai lagi, dan bank yang habis ditolak', async () => {
+  it('soal yang sudah dipakai diganti soal lain, dan jika habis dipakai lagi tanpa batas', async () => {
     const a = await registerUser('Ivan', 'ivan@contoh.id');
     const b = await registerUser('Jasmin', 'jasmin@contoh.id');
     await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
@@ -149,8 +149,9 @@ describe('battle real-time', () => {
 
     const second = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'campuran', total: 8 });
     const response = await call('POST', `/api/battles/${second.data.battleId}/respond`, b.token, { accept: true });
-    expect(response.status).toBe(422);
-    expect(response.data.error).toMatch(/belum punya soal yang bisa dipakai/);
+    expect(response.status).toBe(200);
+    const row = db.prepare('SELECT total FROM battles WHERE id = ?').get(second.data.battleId);
+    expect(row.total).toBe(8);
   });
 
   it('komposisi harus tepat sama dengan total soal', async () => {

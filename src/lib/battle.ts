@@ -225,11 +225,13 @@ function parseSseChunk(chunk: string): BattleEvent | null {
   return null;
 }
 
-/** Hitung mundur dari server, dikoreksi dengan selisih jam server dan perangkat. */
-export function remainingMs(snapshot: BattleSnapshot, clientNow: number): number {
+/**
+ * Sisa waktu soal dalam milidetik. `offsetMs` adalah selisih jam server dan perangkat yang dihitung
+ * saat keadaan battle diterima, sehingga hitung mundur tetap berjalan di perangkat.
+ */
+export function remainingMs(snapshot: BattleSnapshot, clientNow: number, offsetMs: number): number {
   if (snapshot.deadlineAt === null) return 0;
-  const skew = snapshot.serverNow - clientNow;
-  return Math.max(0, snapshot.deadlineAt - (clientNow + skew));
+  return Math.max(0, snapshot.deadlineAt - (clientNow + offsetMs));
 }
 
 export type Preview = {

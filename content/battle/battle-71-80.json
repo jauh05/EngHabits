@@ -1009,25 +1009,6 @@
     "explanation": "Penulis mendukung pembukaan perpustakaan pada hari Minggu. Ia mengakui adanya biaya, tetapi menilai manfaatnya lebih besar."
   },
   {
-    "id": "BT075-008",
-    "day": 75,
-    "type": "essay",
-    "prompt": "Some people believe that governments should spend public money on libraries rather than on sports stadiums. To what extent do you agree or disagree with this view? Give reasons for your answer and include relevant examples from your own knowledge or experience. Write at least 250 words.",
-    "modelAnswer": "Many people argue that public funds should be directed to libraries instead of sports stadiums, and I largely agree with this view. Libraries serve everyone, including children, job seekers, and families who cannot afford books or internet access. Stadiums, by contrast, are often used for only a few events each year and can become costly to maintain. Nevertheless, sports facilities also promote public health and community pride, so governments should not abandon them altogether. Therefore, I believe governments should prioritise libraries when budgets are limited, while still supporting sport through smaller and more affordable facilities.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Esai opini harus punya posisi yang jelas sejak awal, lalu didukung alasan dan contoh. Bagian penutup menegaskan kembali posisi penulis."
-  },
-  {
     "id": "BT075-009",
     "day": 75,
     "type": "listen",
@@ -1220,25 +1201,6 @@
     "correct": "C",
     "passage": "The town council of Sidomulyo held a public meeting about a proposed tram line that would connect the train station with the university. Some residents supported the plan, arguing that the tram would reduce traffic jams and help students reach class on time. Dedi, a shop owner near the proposed route, was not convinced. He worried that construction would block the street for two years and that his customers would stop visiting. After listening to both sides, the council agreed to delay its decision for six months. Council members also promised to study how other towns handled construction disruption. Dedi said he could accept the delay, but he still hoped the final plan would protect small businesses along the route. Many residents agreed that the debate had been fair and useful.",
     "explanation": "Dedi khawatir pembangunan menutup jalan selama dua tahun sehingga pelanggannya berhenti datang. Ia mengkhawatirkan dampak bagi usahanya, bukan manfaat trem itu sendiri."
-  },
-  {
-    "id": "BT076-008",
-    "day": 76,
-    "type": "essay",
-    "prompt": "Some people think that zoos are essential for protecting endangered animals, because they run breeding programmes that can later restore wild populations. Others believe that animals belong in their natural habitats, and that keeping them in captivity is harmful regardless of the purpose. Discuss both views and give your own opinion. Write at least 250 words.",
-    "modelAnswer": "Some argue that zoos play an important role in conserving endangered species, while others believe that captivity is inherently harmful to animals. Supporters point out that breeding programmes have helped bring several species back from the brink of extinction. On the other hand, critics contend that animals in small enclosures often suffer from stress and boredom, and that natural habitats are the only real solution. Although both views have merit, I believe zoos can be justified only when they meet strict welfare standards and focus on genuine conservation work. In conclusion, zoos should be judged by their results, and those that fail to protect animals should be closed.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Esai diskusi membahas dua sisi secara seimbang sebelum menyatakan pendapat sendiri. Gunakan penghubung seperti on the other hand dan although."
   },
   {
     "id": "BT076-009",
@@ -1648,25 +1610,6 @@
     "explanation": "Teks menyebut komisi hampir 30 persen membuat keuntungan per porsi turun tajam. Sinta justru mendapat pelanggan baru dari aplikasi."
   },
   {
-    "id": "BT078-008",
-    "day": 78,
-    "type": "essay",
-    "prompt": "Some people believe that supermarkets should replace small local shops because they offer lower prices and more choice. Others argue that this trend harms local communities and independent businesses. Discuss the advantages and disadvantages of this trend and give your own opinion. Write at least 250 words.",
-    "modelAnswer": "Supermarkets offer lower prices and a wider range of products, but they can also weaken small local shops and the communities that depend on them. The main advantage is convenience, since shoppers can buy food, household goods, and fresh produce in one place at competitive prices. However, the downside is that independent shops often close, which reduces job opportunities and removes the personal service that many residents value. Another drawback is that large chains may send profits out of the local area, so less money circulates within the community. On balance, I believe the benefits are real, but governments should protect small businesses through fair rent rules and support for neighbourhood markets.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Esai kelebihan dan kekurangan membahas keduanya dengan contoh, lalu menutup dengan pendapat sendiri. Gunakan penghubung seperti the main advantage, however, dan another drawback."
-  },
-  {
     "id": "BT078-009",
     "day": 78,
     "type": "listen",
@@ -1861,25 +1804,6 @@
     "explanation": "Guru menyebut tidak ada yang akan membantah kalimat itu, sehingga tesis tidak bisa memandu esai. Tesis yang baik harus bisa diperdebatkan."
   },
   {
-    "id": "BT079-008",
-    "day": 79,
-    "type": "essay",
-    "prompt": "Some people believe that governments should make museums free for all visitors, while others think visitors should pay a fee to help cover the costs of maintaining collections. To what extent do you agree or disagree? Write the introduction of an essay on this topic in at least 100 words, and end it with a clear thesis statement.",
-    "modelAnswer": "Museums hold collections that belong to the public, so the question of whether they should charge admission has become a popular subject of debate. Supporters of free entry argue that knowledge of art and history should not depend on how much money a person earns. Opponents, however, contend that admission fees are an important source of income for conservation, research, and education programmes. Both arguments have merit, but each one addresses only part of the problem. For this reason, I argue that local residents should enter museums free of charge, while international visitors pay a modest fee that helps fund conservation.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Pengantar esai diakhiri dengan tesis yang jelas. Posisi penulis harus bisa diperdebatkan dan menjawab pertanyaan esai."
-  },
-  {
     "id": "BT079-009",
     "day": 79,
     "type": "listen",
@@ -2072,25 +1996,6 @@
     "correct": "C",
     "passage": "Bayu wrote a paragraph about why cities need more bike lanes. His topic sentence was clear: bike lanes reduce traffic and protect cyclists. He added a short example about a city in Denmark, which made the paragraph convincing. Then, however, he wrote three sentences about his favourite football team and the stadium's new seats. His teacher underlined those lines and wrote a note in the margin. 'This is interesting, but it does not support your claim,' she wrote. 'Readers will lose the thread of your argument.' She suggested that Bayu either delete those sentences or write a short bridge sentence that connects the stadium to the main idea. Bayu chose to delete them. The revised paragraph was shorter, but every sentence now served the topic sentence.",
     "explanation": "Guru menilai kalimat tentang tim sepak bola menyimpang dari klaim utama. Kalimat topik dan contohnya sudah jelas."
-  },
-  {
-    "id": "BT080-008",
-    "day": 80,
-    "type": "essay",
-    "prompt": "Some people think that tourism brings more harm than benefit to historic cities. To what extent do you agree or disagree? Write one body paragraph of at least 150 words that begins with a clear topic sentence, develops your reasoning, and includes one relevant example.",
-    "modelAnswer": "Tourism does more harm than good to historic cities, mainly because visitor numbers damage fragile buildings and push up rents for local residents. Crowds of visitors wear down old stone pavements and monuments, and the cost of repairs often falls on local taxpayers. For example, in some popular European cities, short-stay rentals have pushed families out of the historic centre because landlords earn more from tourists than from long-term tenants. This pattern shows that the damage is not only physical but also social, since communities lose the people who keep local traditions alive. Therefore, the protection of historic cities depends on managing visitor numbers rather than simply welcoming more tourists.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Topic sentence harus menyatakan gagasan utama paragraf. Setelah itu, kembangkan dengan penalaran dan satu contoh yang relevan."
   },
   {
     "id": "BT080-009",

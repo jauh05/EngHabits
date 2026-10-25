@@ -1,102 +1,2113 @@
 [
-{"id":"BT061-001","day":61,"type":"mcq","tag":"grammar","prompt":"The report said that the sample ___ too small to support a firm conclusion.","options":[{"id":"A","text":"is"},{"id":"B","text":"was"},{"id":"C","text":"be"},{"id":"D","text":"has been"}],"correct":"B","explanation":"Setelah kata kerja melapor dalam bentuk lampau (said), 'is' berubah menjadi 'was' dalam kalimat tidak langsung."},
-{"id":"BT061-002","day":61,"type":"mcq","tag":"grammar","prompt":"The figures ___ independently before the article was released, so readers could trust them more.","options":[{"id":"A","text":"check"},{"id":"B","text":"was checking"},{"id":"C","text":"have checked"},{"id":"D","text":"were checked"}],"correct":"D","explanation":"Figures adalah subjek jamak yang menerima tindakan, jadi dipakai passive voice bentuk lampau jamak: were checked."},
-{"id":"BT061-003","day":61,"type":"mcq","tag":"vocab","prompt":"The brochure ___ the benefits of the new gym, promising results that the trial never showed.","options":[{"id":"A","text":"verified"},{"id":"B","text":"measured"},{"id":"C","text":"exaggerated"},{"id":"D","text":"summarised"}],"correct":"C","explanation":"Exaggerate berarti melebih-lebihkan sesuatu dari kenyataannya."},
-{"id":"BT061-004","day":61,"type":"mcq","tag":"vocab","prompt":"The student's ___ that the survey sample was random turned out to be wrong, which weakened the whole argument.","options":[{"id":"A","text":"assumption"},{"id":"B","text":"verification"},{"id":"C","text":"correction"},{"id":"D","text":"summary"}],"correct":"A","explanation":"Assumption adalah anggapan yang diterima tanpa bukti, dan dalam kalimat ini anggapan tersebut ternyata keliru."},
-{"id":"BT061-005","day":61,"type":"translate","prompt":"Penulis tidak menyebutkan jumlah peserta dalam artikel itu.","acceptedAnswers":["The writer does not mention the number of participants in the article.","The author does not mention the number of participants in the article."],"explanation":"Does not mention dipakai untuk informasi yang tidak ada dalam teks, sehingga relevan untuk jawaban Not Given."},
-{"id":"BT061-006","day":61,"type":"translate","prompt":"Jika informasi itu tidak ada dalam teks, jawabannya adalah Not Given.","acceptedAnswers":["If the information is not in the text, the answer is Not Given.","If the information does not appear in the text, the answer is Not Given."],"explanation":"Not Given dipakai bila teks tidak memberi informasi apa pun, baik untuk mendukung maupun menolak pernyataan."},
-{"id":"BT061-007","day":61,"type":"story","passage":"A small bakery in Riverside claimed that its new sourdough reduced stomach problems among customers. The owner, Rina Hartono, said that sales rose by 30 percent in the first month after the launch. A local newspaper repeated the claim without checking it. However, the article did not mention how many customers were surveyed, and the bakery never published its survey results. A nutrition expert from the regional university called the claim interesting but unproven. She noted that sourdough contains less gluten than regular bread, which might help some people, although more studies are needed. The bakery has promised to release its data next spring, but no date has been announced yet.","prompt":"Manakah pernyataan yang TIDAK disebutkan dalam teks?","options":[{"id":"A","text":"Penjualan toko naik 30 persen pada bulan pertama."},{"id":"B","text":"Pakar gizi menganggap klaim itu menarik tetapi belum terbukti."},{"id":"C","text":"Roti itu dijual dengan harga lebih murah daripada roti biasa."},{"id":"D","text":"Surat kabar lokal mengulang klaim toko tanpa memeriksanya."}],"correct":"C","explanation":"Teks tidak membahas harga roti sama sekali, sehingga pernyataan itu Not Given. Tiga pilihan lain sesuai dengan isi teks."},
-{"id":"BT061-008","day":61,"type":"essay","prompt":"Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan mengapa jawaban False berbeda dari Not Given. Berikan satu contoh untuk masing-masing jawaban.","modelAnswer":"An answer of False means the text clearly contradicts the statement, so the writer has given information that says the opposite. Not Given means the text does not say anything about the statement at all, whether to agree or disagree. For example, if a passage says the bakery sold 500 loaves a day, the statement that it sold 800 loaves a day is False. If the passage never mentions the price of bread, the statement that bread is cheap is Not Given. Students often choose False just because a statement sounds unlikely, but they must check whether the text really contradicts it.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini melatih pembedaan antara pernyataan yang bertentangan dengan teks (False) dan yang tidak disebutkan sama sekali (Not Given)."},
-{"id":"BT061-009","day":61,"type":"listen","script":"Good morning, everyone. Today's talk looks at a study of sleep among teenagers. The students wore wristbands that tracked their sleep for seven nights, which gave the team reliable data. However, the researchers did not ask how the students felt during the day, so the study says nothing about their mood.","prompt":"Apa yang TIDAK dilakukan para peneliti dalam studi ini?","options":[{"id":"A","text":"They measured sleep for seven nights."},{"id":"B","text":"They tracked sleep with wristbands."},{"id":"C","text":"They studied sleep among teenagers."},{"id":"D","text":"They asked students how they felt during the day."}],"correct":"D","explanation":"Pembicara menyebut bahwa peneliti tidak menanyakan perasaan siswa, sedangkan tiga pilihan lain memang dilakukan."},
-{"id":"BT061-010","day":61,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Pernyataan itu tidak bisa diverifikasi dari teks.","acceptedAnswers":["The statement cannot be verified from the text"],"explanation":"Verify berarti memeriksa kebenaran, dan from the text dipakai untuk menunjukkan sumber bukti."},
-{"id":"BT062-001","day":62,"type":"mcq","tag":"grammar","prompt":"The panel's opinion, along with the views of two experts, ___ that the law is unfair.","options":[{"id":"A","text":"is"},{"id":"B","text":"are"},{"id":"C","text":"were"},{"id":"D","text":"have been"}],"correct":"A","explanation":"Subjek utamanya 'opinion' yang tunggal, sedangkan frasa along with tidak mengubah kata kerja menjadi jamak."},
-{"id":"BT062-002","day":62,"type":"mcq","tag":"grammar","prompt":"The minister insisted that the new rule ___ immediately, even though schools needed more time.","options":[{"id":"A","text":"takes effect"},{"id":"B","text":"took effect"},{"id":"C","text":"had taken effect"},{"id":"D","text":"take effect"}],"correct":"D","explanation":"Setelah kata kerja insist that, kata kerja dipakai dalam bentuk dasar (subjunctive), yaitu take effect."},
-{"id":"BT062-003","day":62,"type":"mcq","tag":"vocab","prompt":"The celebrity publicly ___ the new health campaign, so thousands of fans started to join it.","options":[{"id":"A","text":"criticised"},{"id":"B","text":"endorsed"},{"id":"C","text":"disputed"},{"id":"D","text":"ignored"}],"correct":"B","explanation":"Endorse berarti secara terbuka mendukung atau menyetujui sesuatu."},
-{"id":"BT062-004","day":62,"type":"mcq","tag":"vocab","prompt":"Her ___ that cities should ban cars is based on personal experience, not on a survey.","options":[{"id":"A","text":"belief"},{"id":"B","text":"statistic"},{"id":"C","text":"summary"},{"id":"D","text":"quotation"}],"correct":"A","explanation":"Belief adalah keyakinan atau pandangan pribadi, bukan fakta yang dibuktikan data."},
-{"id":"BT062-005","day":62,"type":"translate","prompt":"Menurut saya, penulis itu terlalu keras dalam mengkritik kebijakan tersebut.","acceptedAnswers":["In my opinion, the writer is too harsh when criticising the policy.","In my opinion, the writer is too harsh when criticizing the policy."],"explanation":"Too harsh berarti terlalu keras; ejaan criticising dan criticizing sama-sama dapat diterima."},
-{"id":"BT062-006","day":62,"type":"translate","prompt":"Pendapat itu didukung oleh sebagian besar peneliti, tetapi tidak oleh pemerintah.","acceptedAnswers":["The view is supported by most researchers, but not by the government.","This view is backed by most researchers, but not by the government."],"explanation":"Kalimat ini membandingkan dukungan dari dua kelompok, sehingga memakai but not by."},
-{"id":"BT062-007","day":62,"type":"story","passage":"In his review of the film Harbour Lights, Daniel Okafor described the story as slow and predictable. He believed that the director had wasted a strong cast on a weak script. Several viewers disagreed. A cinema manager said that ticket sales had doubled in the second week, which he called proof that audiences liked the film. Okafor replied that sales depend on advertising and do not measure quality. He also argued that the ending was the best part of the movie, although he admitted that several scenes were too long. The film was shot in only twelve days, but he did not say whether this affected the editing. He recommended the film only to readers who enjoy quiet dramas.","prompt":"Menurut teks, apa pendapat Okafor tentang akhir film?","options":[{"id":"A","text":"Akhir film itu adalah bagian paling buruk dari keseluruhan film."},{"id":"B","text":"Akhir film itu lemah dan membuat penonton bosan."},{"id":"C","text":"Akhir film itu tidak disebutkan dalam ulasannya."},{"id":"D","text":"Akhir film itu menjadi bagian terbaik menurut dia."}],"correct":"D","explanation":"Okafor menulis bahwa akhir film adalah bagian terbaik, meskipun ia juga mengakui sejumlah adegan terlalu panjang."},
-{"id":"BT062-008","day":62,"type":"essay","prompt":"Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan perbedaan antara fakta dan pendapat penulis dalam soal Yes, No, Not Given. Berikan satu contoh dari kalimat yang kamu buat sendiri.","modelAnswer":"In a Yes, No, Not Given task, a fact is something the writer states as true, while an opinion is what the writer believes or argues. If the writer agrees with a statement, the answer is Yes, and if the writer rejects it, the answer is No. When the writer says nothing about the statement, the answer is Not Given, even if the statement sounds reasonable. For example, the writer may say that the new park is beautiful, but if the text never says that the park reduced crime, the claim about crime is Not Given. Readers should focus on the writer's own words rather than on what they personally think is true.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Soal Yes, No, Not Given menilai sikap penulis, bukan kebenaran fakta, jadi jawaban harus berdasarkan pendapat yang tertulis."},
-{"id":"BT062-009","day":62,"type":"listen","script":"Thanks for joining the show. Our guest, a teacher, argues that homework should be shorter for younger children. She says the current workload is too heavy and that children lose interest quickly. She also mentioned that her school survey included four hundred families, though she did not share the results. Finally, she supports a ban on homework during weekends.","prompt":"Apa pendapat tamu tentang pekerjaan rumah untuk anak yang lebih kecil?","options":[{"id":"A","text":"Homework should be longer for younger children."},{"id":"B","text":"Homework is useful for children of every age."},{"id":"C","text":"Homework should be shorter for younger children."},{"id":"D","text":"The survey included one thousand families."}],"correct":"C","explanation":"Tamu menyatakan bahwa pekerjaan rumah sebaiknya lebih pendek untuk anak kecil, sedangkan survei tercatat empat ratus keluarga."},
-{"id":"BT062-010","day":62,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Penulis itu sangat tidak setuju dengan rencana tersebut.","acceptedAnswers":["The writer strongly disagrees with the plan"],"explanation":"Strongly disagrees dipakai untuk ketidaksetujuan yang kuat, sesuai dengan kata sangat dalam kalimat Indonesia."},
-{"id":"BT063-001","day":63,"type":"mcq","tag":"grammar","prompt":"The heading, ___ covers only the first section, is too narrow for the whole report.","options":[{"id":"A","text":"who"},{"id":"B","text":"which"},{"id":"C","text":"whose"},{"id":"D","text":"where"}],"correct":"B","explanation":"Untuk benda seperti judul, relative pronoun yang tepat adalah which."},
-{"id":"BT063-002","day":63,"type":"mcq","tag":"grammar","prompt":"Of the three headings, the second one is ___ because it covers the whole paragraph.","options":[{"id":"A","text":"more broad"},{"id":"B","text":"broader"},{"id":"C","text":"the broadest"},{"id":"D","text":"broadly"}],"correct":"C","explanation":"Untuk membandingkan lebih dari dua pilihan dipakai bentuk superlatif, yaitu the broadest."},
-{"id":"BT063-003","day":63,"type":"mcq","tag":"vocab","prompt":"Before writing the title, the editor asked the reporter to state the ___ of the story in one sentence.","options":[{"id":"A","text":"gist"},{"id":"B","text":"draft"},{"id":"C","text":"subheading"},{"id":"D","text":"arrangement"}],"correct":"A","explanation":"Gist berarti inti atau gagasan utama, yaitu hal yang paling penting dari sebuah teks."},
-{"id":"BT063-004","day":63,"type":"mcq","tag":"vocab","prompt":"The writer's ___ of the chapters follows time, starting with the 1990s and ending with today.","options":[{"id":"A","text":"draft"},{"id":"B","text":"subheading"},{"id":"C","text":"gist"},{"id":"D","text":"arrangement"}],"correct":"D","explanation":"Arrangement berarti susunan atau urutan bagian-bagian dalam sebuah teks."},
-{"id":"BT063-005","day":63,"type":"translate","prompt":"Judul bagian ini harus lebih luas daripada judul paragraf.","acceptedAnswers":["The heading of this section should be broader than the paragraph heading.","This section heading should be broader than the paragraph heading."],"explanation":"Broader adalah bentuk komparatif dari broad, yang berarti lebih luas cakupannya."},
-{"id":"BT063-006","day":63,"type":"translate","prompt":"Paragraf kedua membahas alasan di balik keputusan itu.","acceptedAnswers":["The second paragraph discusses the reasons behind the decision.","The second paragraph discusses the reasons for the decision."],"explanation":"Discuss dipakai langsung tanpa preposisi, lalu objeknya berupa reasons."},
-{"id":"BT063-007","day":63,"type":"story","passage":"The library reopened in March after eight months of renovation. The reading room now has large windows, and the children's corner has moved to the ground floor, so families no longer need to climb stairs.\n\nThe renovation was funded mainly by a regional grant, with the rest coming from local businesses. Some residents argued that the cost was too high, but the director said the new building would serve more people.\n\nFrom September, the library will open on Sunday mornings and offer free computer classes for older adults. The director hopes these changes will bring back visitors who stopped coming during the renovation.","prompt":"Manakah judul yang paling tepat untuk paragraf kedua?","options":[{"id":"A","text":"Rencana membuka perpustakaan pada hari Minggu"},{"id":"B","text":"Pendanaan renovasi dan perdebatan tentang biayanya"},{"id":"C","text":"Sejarah berdirinya gedung perpustakaan"},{"id":"D","text":"Ruang baca dan area anak yang baru"}],"correct":"B","explanation":"Paragraf kedua membahas sumber dana renovasi dan perdebatan soal biaya, bukan jadwal buka atau ruang baca."},
-{"id":"BT063-008","day":63,"type":"essay","prompt":"Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan bagaimana kamu memilih judul yang tepat untuk sebuah paragraf. Sebutkan juga satu kesalahan umum yang harus dihindari.","modelAnswer":"To choose a heading, I first find the main idea of the paragraph, which is usually stated in the first or last sentence. Then I check whether the heading covers the whole paragraph rather than only one example. A heading that is too narrow may leave out important points, while a heading that is too broad can be vague. A common mistake is to pick a heading that repeats a detail from the middle of the paragraph. Therefore, I compare two or three candidate headings before making the final choice.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini melatih kebiasaan mencari gagasan utama sebelum menentukan judul paragraf."},
-{"id":"BT063-009","day":63,"type":"listen","script":"Let's look at the second paragraph of the report. It explains why the new station was delayed, because the land survey took longer than expected and the contractor had to change its plan twice. The paragraph does not discuss future plans for the city, although the next section does. So the best heading should focus on the causes of the delay.","prompt":"Judul apa yang paling tepat untuk paragraf kedua menurut tutor?","options":[{"id":"A","text":"The main reasons for the delay"},{"id":"B","text":"A history of the old railway"},{"id":"C","text":"Costs of the new station"},{"id":"D","text":"Future plans for the city"}],"correct":"A","explanation":"Tutor menekankan bahwa paragraf itu menjelaskan penyebab keterlambatan, dan tidak membahas rencana masa depan."},
-{"id":"BT063-010","day":63,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Judul itu mencakup gagasan utama dari seluruh bab.","acceptedAnswers":["The heading covers the main idea of the whole chapter"],"explanation":"Cover di sini berarti mencakup seluruh isi, dan the whole chapter berarti seluruh bab."},
-{"id":"BT064-001","day":64,"type":"mcq","tag":"grammar","prompt":"The recording had ___ background noise, so the answers were hard to hear.","options":[{"id":"A","text":"many"},{"id":"B","text":"a great deal of"},{"id":"C","text":"a few"},{"id":"D","text":"several"}],"correct":"B","explanation":"Noise adalah kata benda tak terhitung, sehingga dipakai a great deal of, bukan many atau several."},
-{"id":"BT064-002","day":64,"type":"mcq","tag":"grammar","prompt":"Only ___ students left the answer box empty, so the teacher could summarise the results quickly.","options":[{"id":"A","text":"a little"},{"id":"B","text":"much"},{"id":"C","text":"an amount"},{"id":"D","text":"a few"}],"correct":"D","explanation":"Students adalah kata benda terhitung jamak, sehingga dipakai a few untuk jumlah yang sedikit."},
-{"id":"BT064-003","day":64,"type":"mcq","tag":"vocab","prompt":"A speaker often ___ a key word from the question, so you need to recognise its synonym in the recording.","options":[{"id":"A","text":"forgets"},{"id":"B","text":"translates"},{"id":"C","text":"paraphrases"},{"id":"D","text":"memorises"}],"correct":"C","explanation":"Paraphrase berarti menyatakan ulang sebuah gagasan dengan kata lain, dan ini sering terjadi dalam rekaman IELTS."},
-{"id":"BT064-004","day":64,"type":"mcq","tag":"vocab","prompt":"The teacher gave us a short ___ from the novel, and we had to find the words that matched the summary.","options":[{"id":"A","text":"excerpt"},{"id":"B","text":"caption"},{"id":"C","text":"outline"},{"id":"D","text":"footnote"}],"correct":"A","explanation":"Excerpt berarti kutipan atau bagian pendek dari sebuah teks."},
-{"id":"BT064-005","day":64,"type":"translate","prompt":"Jawabanmu tidak boleh lebih dari dua kata.","acceptedAnswers":["Your answer must not be longer than two words.","Your answer should be no longer than two words."],"explanation":"No more than dipakai untuk batas maksimum, dan pola ini sering muncul dalam instruksi summary completion."},
-{"id":"BT064-006","day":64,"type":"translate","prompt":"Ringkasan itu menggunakan kata yang berbeda dari rekaman asli.","acceptedAnswers":["The summary uses different words from the original recording.","The summary uses words that differ from the original recording."],"explanation":"Different from dipakai untuk menyatakan perbedaan, sedangkan original berarti asli atau pertama."},
-{"id":"BT064-007","day":64,"type":"story","passage":"A research team spent three weeks in a fishing village to study how families manage their savings. Instead of asking people to fill in long forms, the team recorded short interviews and later wrote the main points in notes. Many families kept money in small envelopes at home rather than in banks. Some said they trusted banks, but they still wanted cash ready for emergencies. The team decided to quote the exact words of residents in its final report, because paraphrasing might change the meaning. The report was published in June, and the village council then asked for a copy of the notes. Several residents said the summary of their answers was fair.","prompt":"Mengapa tim peneliti memilih mengutip kata-kata warga secara langsung?","options":[{"id":"A","text":"Karena warga menolak diwawancarai dengan rekaman."},{"id":"B","text":"Karena catatan mereka terlalu pendek untuk dipakai."},{"id":"C","text":"Karena menyadur ulang dapat mengubah makna."},{"id":"D","text":"Karena dewan desa memintanya sejak awal."}],"correct":"C","explanation":"Teks menyebut bahwa menyadur ulang bisa mengubah makna, sehingga tim memilih kutipan langsung."},
-{"id":"BT064-008","day":64,"type":"essay","prompt":"Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan mengapa kamu harus memeriksa batas jumlah kata sebelum mengisi celah. Gunakan kata penghubung seperti because atau therefore.","modelAnswer":"Before filling a gap, I always read the instructions to check the word limit. If the question says no more than two words, a longer answer will be marked wrong even when the meaning is correct. I also check whether the grammar of the sentence matches the gap, because a noun and a verb need different forms. Therefore, I compare the sentence in the summary with the recording before I write my answer. Keeping the answer short and accurate helps me finish every task before the time runs out.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini menekankan bahwa batas jumlah kata adalah bagian dari jawaban yang benar."},
-{"id":"BT064-009","day":64,"type":"listen","script":"Please note the instructions for the form. You must write your answer in no more than two words, and each answer should be copied from the recording. Do not add a title or a full sentence. If you make a mistake, put a line through the word and write the new one next to it.","prompt":"Berapa batas jumlah kata untuk setiap jawaban menurut instruksi?","options":[{"id":"A","text":"one word"},{"id":"B","text":"three words"},{"id":"C","text":"four words"},{"id":"D","text":"two words"}],"correct":"D","explanation":"Instruksi menyebut no more than two words, sehingga batas yang disebut adalah dua kata."},
-{"id":"BT064-010","day":64,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Isi setiap celah dengan jawaban yang sesuai dari rekaman.","acceptedAnswers":["Fill each gap with the matching answer from the recording"],"explanation":"Each gap berarti setiap celah, dan matching answer berarti jawaban yang sesuai."},
-{"id":"BT065-001","day":65,"type":"mcq","tag":"grammar","prompt":"If the speaker had been clearer about the date, the students ___ the change right away.","options":[{"id":"A","text":"would have noticed"},{"id":"B","text":"would notice"},{"id":"C","text":"noticed"},{"id":"D","text":"had noticed"}],"correct":"A","explanation":"Kondisi yang tidak terjadi di masa lalu memakai had been di klausa if dan would have dengan V3 di klausa utama."},
-{"id":"BT065-002","day":65,"type":"mcq","tag":"grammar","prompt":"Rather than ___ the wrong answer, the student crossed it out and wrote the correct one beside it.","options":[{"id":"A","text":"to correct"},{"id":"B","text":"corrected"},{"id":"C","text":"correcting"},{"id":"D","text":"correct"}],"correct":"C","explanation":"Setelah rather than, kata kerja dipakai dalam bentuk -ing, yaitu correcting."},
-{"id":"BT065-003","day":65,"type":"mcq","tag":"vocab","prompt":"Sorry, that was a ___: the meeting is on Friday, not on Monday as I said earlier.","options":[{"id":"A","text":"distractor"},{"id":"B","text":"correction"},{"id":"C","text":"summary"},{"id":"D","text":"heading"}],"correct":"B","explanation":"Correction adalah perbaikan atas informasi yang sebelumnya disebutkan keliru."},
-{"id":"BT065-004","day":65,"type":"mcq","tag":"vocab","prompt":"The speaker was ___ about the date, so the student wrote down the wrong day in her notes.","options":[{"id":"A","text":"accurate"},{"id":"B","text":"mistaken"},{"id":"C","text":"certain"},{"id":"D","text":"prepared"}],"correct":"B","explanation":"Mistaken berarti keliru atau salah, dan kata ini sesuai dengan akibat berupa hari yang salah dicatat."},
-{"id":"BT065-005","day":65,"type":"translate","prompt":"Maaf, saya salah. Pertemuan itu sebenarnya hari Kamis.","acceptedAnswers":["Sorry, I was wrong. The meeting is actually on Thursday.","Sorry, I made a mistake. The meeting is actually on Thursday."],"explanation":"Actually dipakai untuk meralat informasi sebelumnya, dan sering menjadi penanda koreksi dalam rekaman."},
-{"id":"BT065-006","day":65,"type":"translate","prompt":"Pengecoh itu sengaja dibuat mirip dengan jawaban yang benar.","acceptedAnswers":["The distractor was deliberately made similar to the correct answer.","The distractor is deliberately made to look similar to the correct answer."],"explanation":"Distractor adalah pilihan yang sengaja dibuat menyesatkan, dan deliberately berarti dengan sengaja."},
-{"id":"BT065-007","day":65,"type":"story","passage":"The school newsletter printed the timetable for the science fair on its first page. Two days later, the head teacher sent a short note to all parents. She explained that the fair had moved from Saturday to Sunday because a regional match had been scheduled for the same Saturday. The note also corrected the opening time: the fair starts at nine in the morning, not at eight. Actually, the first printed version was right about the room, but the time had been changed after the newsletter went to print. Parents who had already bought tickets for the Saturday session could exchange them at the front desk. The head teacher thanked everyone for their patience with the late change.","prompt":"Apa yang diralat oleh kepala sekolah dalam catatannya?","options":[{"id":"A","text":"Tempat pameran dipindahkan ke aula olahraga."},{"id":"B","text":"Pameran dibatalkan karena ada pertandingan regional."},{"id":"C","text":"Pameran dimulai pukul delapan, bukan pukul sembilan."},{"id":"D","text":"Waktu pameran dimulai pukul sembilan, bukan pukul delapan."}],"correct":"D","explanation":"Catatan itu meralat jam mulai pameran, dari pukul delapan menjadi pukul sembilan. Informasi tentang ruangan tidak diralat."},
-{"id":"BT065-008","day":65,"type":"essay","prompt":"Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan mengapa pembicara sering meralat ucapannya sendiri saat berbicara. Gunakan kata actually atau rather minimal sekali.","modelAnswer":"Speakers often correct themselves when they notice a mistake, especially when they are talking quickly. A typical correction begins with a phrase such as actually or sorry, let me correct that. Listeners should not panic, because the final version is usually the one that counts. Students who write down only the first version can therefore lose marks, so they must keep listening after a correction. In this way, they can replace the old information with the new one.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini melatih kebiasaan menunggu versi terakhir informasi sebelum menulis jawaban."},
-{"id":"BT065-009","day":65,"type":"listen","script":"Good afternoon, and welcome to the weekly update. The library will close at six on Friday. Sorry, let me correct that: the library closes at five on Friday, not six. The café will remain open until seven as usual.","prompt":"Jam berapa perpustakaan tutup pada hari Jumat menurut pengumuman terakhir?","options":[{"id":"A","text":"at six"},{"id":"B","text":"at seven"},{"id":"C","text":"at five"},{"id":"D","text":"at four"}],"correct":"C","explanation":"Pembicara meralat jam tutup dari pukul enam menjadi pukul lima, sedangkan pukul tujuh berlaku untuk kafe."},
-{"id":"BT065-010","day":65,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Dia meralat tanggal yang disebutkan tadi.","acceptedAnswers":["She corrected the date she mentioned earlier"],"explanation":"Corrected adalah bentuk lampau dari correct, dan earlier berarti sebelumnya."},
-{"id":"BT066-001","day":66,"type":"mcq","tag":"grammar","prompt":"Thirty of the 300 forms ___ a wrong postcode, so the office sent them back.","options":[{"id":"A","text":"has"},{"id":"B","text":"had"},{"id":"C","text":"having"},{"id":"D","text":"is"}],"correct":"B","explanation":"Subjek thirty of the forms bersifat jamak, sehingga kata kerjanya had, bukan has atau is."},
-{"id":"BT066-002","day":66,"type":"mcq","tag":"grammar","prompt":"The surname ___ incorrectly on the certificate, so she asked the office for a new copy.","options":[{"id":"A","text":"was spelled"},{"id":"B","text":"spelled"},{"id":"C","text":"is spelling"},{"id":"D","text":"has spell"}],"correct":"A","explanation":"Nama yang salah dieja menerima tindakan, jadi memakai passive voice bentuk lampau: was spelled."},
-{"id":"BT066-003","day":66,"type":"mcq","tag":"vocab","prompt":"The speaker used the NATO ___ to spell out the code, so every letter was clear over the noisy phone line.","options":[{"id":"A","text":"decimal"},{"id":"B","text":"digit"},{"id":"C","text":"surname"},{"id":"D","text":"alphabet"}],"correct":"D","explanation":"NATO alphabet adalah daftar kata pengucapan untuk setiap huruf, yang dipakai saat mengeja kode melalui telepon."},
-{"id":"BT066-004","day":66,"type":"mcq","tag":"vocab","prompt":"The bank code has six ___, and one wrong number would send the money to a different account.","options":[{"id":"A","text":"letters"},{"id":"B","text":"abbreviations"},{"id":"C","text":"digits"},{"id":"D","text":"surnames"}],"correct":"C","explanation":"Digit adalah satu angka dari 0 sampai 9, dan kode bank tersusun dari beberapa digit."},
-{"id":"BT066-005","day":66,"type":"translate","prompt":"Nomor telepon saya memiliki sebelas digit.","acceptedAnswers":["My phone number has eleven digits.","My phone number has 11 digits."],"explanation":"Sebelas dalam bahasa Inggris ditulis eleven, atau 11 dalam bentuk angka."},
-{"id":"BT066-006","day":66,"type":"translate","prompt":"Mohon eja nama keluarga saya dengan huruf kapital di awal.","acceptedAnswers":["Please spell my surname with a capital letter at the beginning.","Please spell my family name with a capital letter at the start."],"explanation":"Surname dan family name sama-sama berarti nama keluarga, dan capital letter berarti huruf kapital."},
-{"id":"BT066-007","day":66,"type":"story","passage":"The bus company changed its ticket codes last month. Each code now starts with two letters that show the route, followed by a four-digit number. For example, the code NR means the northern route, while SC stands for the city centre. Passengers sometimes confuse the letter O with the number zero, so the company asks people to write codes in capital letters. The old system used only numbers, and many customers found it easier to remember. The company kept the new system because machines check tickets more accurately. A printed guide with a sample ticket is available at every station. Staff at the front desk can also help passengers who are unsure about a code.","prompt":"Kode apa yang menunjukkan jalur pusat kota menurut teks?","options":[{"id":"A","text":"SC"},{"id":"B","text":"NR"},{"id":"C","text":"OC"},{"id":"D","text":"0420"}],"correct":"A","explanation":"Teks menyebut bahwa SC berarti pusat kota, sedangkan NR adalah jalur utara dan kode lainnya tidak disebutkan."},
-{"id":"BT066-008","day":66,"type":"essay","prompt":"Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan cara mengeja nama dengan jelas saat berbicara di telepon. Sebutkan dua contoh kata dari alfabet pengucapan.","modelAnswer":"When I spell my name on the phone, I say each letter clearly and pause after every few letters. I often use the phonetic alphabet, so I say B for Bravo or M for Mike to avoid confusion. Letters such as B and D can sound alike, so alphabet words make the spelling more accurate. I also repeat the full name at the end, so the listener can check it. Taking a little extra time to spell carefully helps prevent mistakes with postcodes and account numbers.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini melatih cara mengeja dengan jelas dan memakai alfabet pengucapan agar huruf yang mirip tidak tertukar."},
-{"id":"BT066-009","day":66,"type":"listen","script":"Thank you for waiting. Please spell your surname slowly, because I need to check your details. Let me repeat it back: T, A, Y, L, O, R. The annual fee is two hundred and forty-six pounds, so the monthly payment is twenty point five pounds.","prompt":"Berapa pembayaran bulanan untuk keanggotaan ini?","options":[{"id":"A","text":"twenty pounds"},{"id":"B","text":"twenty point five pounds"},{"id":"C","text":"two hundred and forty-six pounds"},{"id":"D","text":"twenty-five pounds"}],"correct":"B","explanation":"Biaya tahunan 246 pound dibagi dua belas bulan menjadi 20,5 pound, dan angka desimal itu dibaca point five."},
-{"id":"BT066-010","day":66,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Huruf pertama nama belakang saya adalah M.","acceptedAnswers":["The first letter of my surname is M"],"explanation":"Surname adalah nama belakang atau nama keluarga, dan first letter berarti huruf pertama."},
-{"id":"BT067-001","day":67,"type":"mcq","tag":"grammar","prompt":"If the writer ___ the data more carefully, she would not have made that claim.","options":[{"id":"A","text":"checked"},{"id":"B","text":"would check"},{"id":"C","text":"has checked"},{"id":"D","text":"had checked"}],"correct":"D","explanation":"Kalimat ini memakai conditional tipe tiga untuk kondisi di masa lalu, yaitu if + had checked dan would not have made."},
-{"id":"BT067-002","day":67,"type":"mcq","tag":"grammar","prompt":"Neither the heading nor the summary ___ the main idea of the paragraph accurately.","options":[{"id":"A","text":"captures"},{"id":"B","text":"capture"},{"id":"C","text":"are capturing"},{"id":"D","text":"captured"}],"correct":"A","explanation":"Pada pola neither nor, kata kerja mengikuti subjek yang paling dekat, yaitu summary yang tunggal."},
-{"id":"BT067-003","day":67,"type":"mcq","tag":"vocab","prompt":"The council's new report ___ the earlier statement, so readers cannot trust either version yet.","options":[{"id":"A","text":"supports"},{"id":"B","text":"contradicts"},{"id":"C","text":"summarises"},{"id":"D","text":"repeats"}],"correct":"B","explanation":"Contradict berarti bertentangan dengan, dan dua versi yang berlawanan membuat pembaca ragu."},
-{"id":"BT067-004","day":67,"type":"mcq","tag":"vocab","prompt":"The speaker said 'Monday' at first, but ___, the meeting is on Tuesday.","options":[{"id":"A","text":"already"},{"id":"B","text":"actually"},{"id":"C","text":"usually"},{"id":"D","text":"finally"}],"correct":"B","explanation":"Actually dipakai untuk meralat informasi sebelumnya, sedangkan kata lain tidak sesuai makna koreksi."},
-{"id":"BT067-005","day":67,"type":"translate","prompt":"Pernyataan itu tidak sesuai dengan data resmi dari kementerian.","acceptedAnswers":["The statement does not match the official data from the ministry.","The statement does not agree with the official data from the ministry."],"explanation":"Does not match dan does not agree with dipakai untuk menyatakan dua hal yang tidak cocok."},
-{"id":"BT067-006","day":67,"type":"translate","prompt":"Judul itu paling cocok untuk paragraf yang membahas biaya.","acceptedAnswers":["The heading fits the paragraph about costs best.","That heading is the most suitable for the paragraph about costs."],"explanation":"Fits best dan most suitable sama-sama berarti paling cocok, sedangkan costs adalah bentuk jamak dari biaya."},
-{"id":"BT067-007","day":67,"type":"story","passage":"A secondary school published its results for the English exam in early July. The report said that the average score rose by eight points compared with last year. A teacher, however, pointed out that the results included students who had taken the exam twice, which made the comparison unfair. The principal agreed and promised a revised report in August. In that report, the school separated first-time candidates from repeat candidates. The average score for first-time candidates rose by three points, a smaller improvement than the first report had suggested. The principal thanked the teacher for finding the mistake. The school also said it would check its data more carefully in future exams.","prompt":"Berdasarkan teks, berapa kenaikan rata-rata nilai untuk peserta yang mengikuti ujian pertama kali?","options":[{"id":"A","text":"delapan poin"},{"id":"B","text":"lima poin"},{"id":"C","text":"tiga poin"},{"id":"D","text":"dua poin"}],"correct":"C","explanation":"Laporan revisi menyebut kenaikan tiga poin untuk peserta yang mengikuti ujian pertama kali, bukan delapan poin seperti laporan awal."},
-{"id":"BT067-008","day":67,"type":"essay","prompt":"Tulis 4 sampai 6 kalimat bahasa Inggris untuk merangkum apa yang kamu pelajari minggu ini tentang soal True, False, Not Given dan Yes, No, Not Given. Sebutkan satu perbedaan utama antara keduanya.","modelAnswer":"This week I learned that True, False, and Not Given questions focus on whether a statement matches facts in the text. Yes, No, and Not Given questions, however, focus on whether the writer agrees with an opinion. In both types, Not Given means that the text does not provide enough information to decide. A key difference is that Yes and No depend on the writer's view, while True and False depend on factual information. Therefore, I should always check whether the question asks for facts or opinions before I answer.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini merangkum perbedaan fakta dan opini sebagai dasar memilih jawaban yang tepat."},
-{"id":"BT067-009","day":67,"type":"listen","script":"Let's review the last lesson. A student asked whether a claim in the article was true. The article actually corrected the date in its second paragraph, so the older date is no longer valid. Remember that a correction usually replaces the earlier information.","prompt":"Menurut tutor, apa yang harus dilakukan terhadap tanggal lama dalam artikel?","options":[{"id":"A","text":"Treat it as no longer valid because it was corrected."},{"id":"B","text":"Keep it as the main date for the answer."},{"id":"C","text":"Write down both dates in the answer."},{"id":"D","text":"Ignore the second paragraph completely."}],"correct":"A","explanation":"Tutor menjelaskan bahwa koreksi menggantikan informasi lama, sehingga tanggal lama tidak lagi berlaku."},
-{"id":"BT067-010","day":67,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Penulis tidak setuju dengan judul yang dipilih.","acceptedAnswers":["The writer disagrees with the selected heading"],"explanation":"Disagree with dipakai untuk menyatakan ketidaksetujuan, dan selected heading berarti judul yang dipilih."},
-{"id":"BT068-001","day":68,"type":"mcq","tag":"grammar","prompt":"In 2015 the price ___ sharply, and it stayed high for the next three years.","options":[{"id":"A","text":"rose"},{"id":"B","text":"rises"},{"id":"C","text":"is rising"},{"id":"D","text":"has risen"}],"correct":"A","explanation":"Keterangan waktu tertentu di masa lalu (In 2015) memakai past simple, yaitu rose."},
-{"id":"BT068-002","day":68,"type":"mcq","tag":"grammar","prompt":"The unemployment rate fell ___ four percentage points, from twelve to eight.","options":[{"id":"A","text":"to"},{"id":"B","text":"for"},{"id":"C","text":"at"},{"id":"D","text":"by"}],"correct":"D","explanation":"Untuk menyatakan besar perubahan dipakai by, sedangkan to menunjukkan titik akhir."},
-{"id":"BT068-003","day":68,"type":"mcq","tag":"vocab","prompt":"Sales reached their highest point in March, which was the ___ of the year.","options":[{"id":"A","text":"trough"},{"id":"B","text":"axis"},{"id":"C","text":"peak"},{"id":"D","text":"trend"}],"correct":"C","explanation":"Peak adalah titik tertinggi pada grafik garis, sedangkan trough adalah kebalikannya, yaitu titik terendah."},
-{"id":"BT068-004","day":68,"type":"mcq","tag":"vocab","prompt":"Between 2016 and 2018, the number of visitors showed a gradual ___, falling by about five percent each year.","options":[{"id":"A","text":"surge"},{"id":"B","text":"decline"},{"id":"C","text":"peak"},{"id":"D","text":"axis"}],"correct":"B","explanation":"Decline berarti penurunan, dan gradual decline menggambarkan penurunan yang sedikit demi sedikit."},
-{"id":"BT068-005","day":68,"type":"translate","prompt":"Grafik garis itu menunjukkan tren kenaikan yang stabil selama lima tahun.","acceptedAnswers":["The line graph displays a consistent rise over five years.","The chart displays a consistent rise across five years."],"explanation":"Consistent rise berarti kenaikan yang konsisten, dan over five years dipakai untuk rentang waktu."},
-{"id":"BT068-006","day":68,"type":"translate","prompt":"Angka penjualan turun tajam pada bulan Maret tahun lalu.","acceptedAnswers":["Sales dropped sharply in March last year.","Sales fell sharply in March last year."],"explanation":"Dropped dan fell sama-sama dipakai untuk penurunan, dan sharply berarti tajam."},
-{"id":"BT068-007","day":68,"type":"story","passage":"The city council's chart tracks monthly bike rentals from 2018 to 2023. Rentals started at about 12,000 in January 2018 and rose gradually for more than two years. The peak came in the summer of 2020, when the number reached almost 40,000. After that, the line fell sharply in 2021, when many offices reopened and people returned to commuting by car. From 2022 the figures became steadier, although they never returned to the earlier level. By the end of 2023, the monthly total had settled at around 25,000. The council says the chart shows a clear long-term pattern, but it warns that the data for 2020 may be affected by unusual conditions.","prompt":"Kapan jumlah penyewaan sepeda mencapai titik tertinggi menurut teks?","options":[{"id":"A","text":"Musim panas 2020"},{"id":"B","text":"Januari 2018"},{"id":"C","text":"Tahun 2021"},{"id":"D","text":"Akhir 2023"}],"correct":"A","explanation":"Teks menyebut puncak penyewaan terjadi pada musim panas 2020, ketika jumlahnya hampir 40.000."},
-{"id":"BT068-008","day":68,"type":"essay","prompt":"Tulis 4 sampai 6 kalimat bahasa Inggris yang merangkum grafik garis berikut: pada 2018 jumlah pengguna sekitar 40 ribu orang, naik ke puncak 65 ribu pada 2021, lalu turun perlahan menjadi 50 ribu pada 2023. Mulai dengan gambaran umum.","modelAnswer":"Overall, the number of users increased over the period, although it fell after reaching its peak. In 2018, there were about 40,000 users, and this figure rose steadily over the following three years. The number peaked at approximately 65,000 in 2021, which was the highest point on the graph. After that, the line declined gradually, and by 2023 it had dropped to around 50,000. In summary, the graph shows strong growth followed by a moderate decline.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Ringkasan grafik garis dimulai dengan gambaran umum, lalu menyebut titik awal, puncak, dan akhir tren."},
-{"id":"BT068-009","day":68,"type":"listen","script":"On the horizontal axis you can see the months, and on the vertical axis the number of riders. The line starts at about one thousand in January. It rises steadily until July, and then it drops sharply in August. By December it has recovered slightly, but it does not reach the summer peak.","prompt":"Apa yang terjadi pada bulan Agustus menurut pembicara?","options":[{"id":"A","text":"It rose steadily."},{"id":"B","text":"It dropped sharply."},{"id":"C","text":"It stayed flat."},{"id":"D","text":"It reached its peak."}],"correct":"B","explanation":"Pembicara menyebut garis turun tajam pada Agustus, sedangkan puncak terjadi pada Juli."},
-{"id":"BT068-010","day":68,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Jumlah pelanggan meningkat pesat pada kuartal kedua.","acceptedAnswers":["The number of customers increased rapidly in the second quarter"],"explanation":"Increased rapidly dipakai untuk kenaikan yang cepat, dan second quarter berarti kuartal kedua."},
-{"id":"BT069-001","day":69,"type":"mcq","tag":"grammar","prompt":"Public transport was ___ affordable than private cars, so most students chose the bus.","options":[{"id":"A","text":"more"},{"id":"B","text":"most"},{"id":"C","text":"much"},{"id":"D","text":"many"}],"correct":"A","explanation":"Perbandingan dua hal memakai bentuk komparatif more dengan kata sifat panjang, yaitu more affordable."},
-{"id":"BT069-002","day":69,"type":"mcq","tag":"grammar","prompt":"The number of students who walked to school ___ higher in 2022 than in 2019.","options":[{"id":"A","text":"were"},{"id":"B","text":"was"},{"id":"C","text":"have been"},{"id":"D","text":"are"}],"correct":"B","explanation":"Subjek utamanya number yang tunggal, sehingga kata kerjanya was, bukan were atau are."},
-{"id":"BT069-003","day":69,"type":"mcq","tag":"vocab","prompt":"Electric scooters ___ bicycles in speed, reaching twenty kilometres per hour compared with twelve for a typical bike.","options":[{"id":"A","text":"underperformed"},{"id":"B","text":"outnumbered"},{"id":"C","text":"outlined"},{"id":"D","text":"outperformed"}],"correct":"D","explanation":"Outperform berarti melampaui dalam hal tertentu, dan di sini skuter lebih cepat daripada sepeda."},
-{"id":"BT069-004","day":69,"type":"mcq","tag":"vocab","prompt":"The rise in bus fares was ___: it increased by almost half in just one year.","options":[{"id":"A","text":"slight"},{"id":"B","text":"gradual"},{"id":"C","text":"significant"},{"id":"D","text":"negligible"}],"correct":"C","explanation":"Significant berarti cukup besar untuk diperhatikan, dan kenaikan hampir setengah dalam setahun termasuk besar."},
-{"id":"BT069-005","day":69,"type":"translate","prompt":"Diagram batang itu membandingkan jumlah siswa di tiga kota.","acceptedAnswers":["The bar chart compares the number of students in three cities.","The bar chart compares the numbers of students in three cities."],"explanation":"Compare dipakai untuk membandingkan beberapa kelompok, dan the number of memakai kata kerja tunggal."},
-{"id":"BT069-006","day":69,"type":"translate","prompt":"Kategori transportasi umum tumbuh secara bertahap selama lima tahun.","acceptedAnswers":["The public transport category grew gradually over five years.","The public transport category increased gradually over five years."],"explanation":"Gradually berarti sedikit demi sedikit, dan grew atau increased sama-sama dipakai untuk pertumbuhan."},
-{"id":"BT069-007","day":69,"type":"story","passage":"A school canteen surveyed 500 students about their favourite drinks, and the results were shown in a bar chart. Water was the most common choice, with about 40 percent of students picking it. Fruit juice came second at around 25 percent, while milk was chosen by only 10 percent. Fizzy drinks and tea made up the rest, and the gap between them was about two percentage points. The canteen manager said the result for water was a significant improvement compared with five years ago, when water was only a minor choice. She plans to keep the water fountains open all day and to add more fruit juice options next term.","prompt":"Berapa persen siswa yang memilih susu menurut teks?","options":[{"id":"A","text":"25 persen"},{"id":"B","text":"40 persen"},{"id":"C","text":"10 persen"},{"id":"D","text":"50 persen"}],"correct":"C","explanation":"Teks menyebut bahwa susu dipilih hanya oleh 10 persen siswa."},
-{"id":"BT069-008","day":69,"type":"essay","prompt":"Tulis 4 sampai 6 kalimat bahasa Inggris yang membandingkan dua kategori dari diagram batang berikut: sepeda 45 persen, bus 30 persen, mobil 15 persen, dan jalan kaki 10 persen. Gunakan minimal dua kata perbandingan, misalnya higher atau lower.","modelAnswer":"The bar chart shows the proportion of commuters by four modes of transport. Cycling was the most popular option, accounting for 45 percent of commuters. Buses came second with 30 percent, roughly two thirds of the cycling figure. Private cars were used by 15 percent, which is half the number for buses, while walking was the least common choice at 10 percent. Overall, cycling outperformed every other mode of transport.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Esai ini melatih membandingkan kategori dengan angka persentase dan kata perbandingan yang tepat."},
-{"id":"BT069-009","day":69,"type":"listen","script":"Look at the bar chart on your screen. The tallest bar belongs to bicycles, which were chosen by almost half of the students. Buses come second, but the gap between them is substantial. Walking is the smallest category.","prompt":"Kategori apa yang paling tinggi menurut tutor?","options":[{"id":"A","text":"buses"},{"id":"B","text":"walking"},{"id":"C","text":"private cars"},{"id":"D","text":"bicycles"}],"correct":"D","explanation":"Tutor menyebut batang tertinggi milik sepeda, yang dipilih hampir separuh siswa."},
-{"id":"BT069-010","day":69,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Bus mengungguli sepeda dalam jumlah penumpang pada tahun itu.","acceptedAnswers":["Buses outperformed bicycles in passenger numbers that year"],"explanation":"Outperform berarti melampaui, dan passenger numbers berarti jumlah penumpang."},
-{"id":"BT070-001","day":70,"type":"mcq","tag":"grammar","prompt":"Rent ___ about one third of the monthly budget, according to the chart.","options":[{"id":"A","text":"accounts"},{"id":"B","text":"accounts for"},{"id":"C","text":"accounts of"},{"id":"D","text":"accounts on"}],"correct":"B","explanation":"Untuk menyatakan bagian dari total, kata kerja account memerlukan preposisi for, yaitu accounts for."},
-{"id":"BT070-002","day":70,"type":"mcq","tag":"grammar","prompt":"Every slice in the pie chart ___ a different expense, so the categories are easy to compare.","options":[{"id":"A","text":"represent"},{"id":"B","text":"are representing"},{"id":"C","text":"representing"},{"id":"D","text":"represents"}],"correct":"D","explanation":"Every menggunakan subjek tunggal, sehingga kata kerjanya represents."},
-{"id":"BT070-003","day":70,"type":"mcq","tag":"vocab","prompt":"In the chart, cars ___ the market, taking more than half of all sales.","options":[{"id":"A","text":"dominate"},{"id":"B","text":"tabulate"},{"id":"C","text":"rearrange"},{"id":"D","text":"estimate"}],"correct":"A","explanation":"Dominate berarti menguasai atau mendominasi, dan mobil di sini menguasai lebih dari separuh penjualan."},
-{"id":"BT070-004","day":70,"type":"mcq","tag":"vocab","prompt":"The researchers ___ the answers in a table, so each category could be compared easily.","options":[{"id":"A","text":"guessed"},{"id":"B","text":"ignored"},{"id":"C","text":"tabulated"},{"id":"D","text":"translated"}],"correct":"C","explanation":"Tabulate berarti menyusun data ke dalam bentuk tabel agar mudah dibandingkan."},
-{"id":"BT070-005","day":70,"type":"translate","prompt":"Diagram lingkaran itu menunjukkan bahwa makanan menyumbang seperlima dari anggaran bulanan.","acceptedAnswers":["The pie chart shows that food makes up one fifth of the monthly budget.","The pie chart shows that food accounts for one fifth of the monthly budget."],"explanation":"Make up dan account for sama-sama dipakai untuk menyatakan bagian dari total, dan one third berarti sepertiga."},
-{"id":"BT070-006","day":70,"type":"translate","prompt":"Tabel itu merinci pengeluaran rumah tangga berdasarkan kategori.","acceptedAnswers":["The table breaks down household spending by category.","The table breaks household spending down by category."],"explanation":"Break down berarti merinci atau memecah data menjadi bagian yang lebih kecil."},
-{"id":"BT070-007","day":70,"type":"story","passage":"The town council published a breakdown of its electricity sources for last year. Wind power provided the largest share, at 42 percent of the total supply. Solar panels made up about 18 percent, which was higher than the council had predicted. Natural gas still accounted for roughly a quarter of the electricity, mainly because two older power stations stayed open during the winter. The remaining share came from hydro power. The council promised that its next report would show the figures in a table, so residents can compare the years more easily. Several residents asked why the gas share had remained high, and the council agreed to explain it at the next public meeting.","prompt":"Sumber listrik mana yang menyumbang bagian terbesar menurut teks?","options":[{"id":"A","text":"Tenaga surya"},{"id":"B","text":"Tenaga angin"},{"id":"C","text":"Gas alam"},{"id":"D","text":"Tenaga air"}],"correct":"B","explanation":"Teks menyebut tenaga angin sebagai sumber terbesar dengan 42 persen dari total pasokan."},
-{"id":"BT070-008","day":70,"type":"essay","prompt":"Tulis 4 sampai 6 kalimat bahasa Inggris untuk merangkum diagram lingkaran berikut: transportasi 40 persen, makanan 25 persen, hiburan 20 persen, dan lainnya 15 persen. Sebutkan kategori terbesar dan terkecil.","modelAnswer":"The pie chart shows how a household's monthly spending was divided among four categories. Transport was the largest category, accounting for 40 percent of the total. Food came second with 25 percent, which is more than half of the transport share. Entertainment made up 20 percent, while other expenses formed the smallest slice at 15 percent. Overall, transport and food together constitute almost two thirds of the spending.","rubric":[{"criterion":"Isi dan ide"},{"criterion":"Tata bahasa"},{"criterion":"Kosakata dan kelancaran"}],"explanation":"Ringkasan diagram lingkaran menyebut kategori terbesar dan terkecil, lalu menutup dengan gabungan dua kategori utama."},
-{"id":"BT070-009","day":70,"type":"listen","script":"The whole circle in this pie chart represents the total monthly spending of the households surveyed. The largest slice is rent, which takes about a third of the budget. Food is the second-largest slice, slightly bigger than transport. Entertainment is the smallest slice, at about five percent.","prompt":"Apa kategori terkecil menurut tutor?","options":[{"id":"A","text":"Food"},{"id":"B","text":"Transport"},{"id":"C","text":"Entertainment"},{"id":"D","text":"Rent"}],"correct":"C","explanation":"Tutor menyebut hiburan sebagai potongan terkecil, sekitar lima persen dari total."},
-{"id":"BT070-010","day":70,"type":"reorder","prompt":"Susun kata menjadi kalimat bahasa Inggris yang berarti: Sewa rumah menyumbang sekitar sepertiga dari anggaran bulanan.","acceptedAnswers":["Rent makes up about a third of the monthly budget"],"explanation":"Make up dan account for dipakai untuk menyatakan bagian dari total, dan about a third berarti sekitar sepertiga."}
+  {
+    "id": "BT061-001",
+    "day": 61,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The report said that the sample ___ too small to support a firm conclusion.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "was"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "has been"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Setelah kata kerja melapor dalam bentuk lampau (said), 'is' berubah menjadi 'was' dalam kalimat tidak langsung."
+  },
+  {
+    "id": "BT061-002",
+    "day": 61,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The figures ___ independently before the article was released, so readers could trust them more.",
+    "options": [
+      {
+        "id": "A",
+        "text": "check"
+      },
+      {
+        "id": "B",
+        "text": "was checking"
+      },
+      {
+        "id": "C",
+        "text": "have checked"
+      },
+      {
+        "id": "D",
+        "text": "were checked"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Figures adalah subjek jamak yang menerima tindakan, jadi dipakai passive voice bentuk lampau jamak: were checked."
+  },
+  {
+    "id": "BT061-003",
+    "day": 61,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The brochure ___ the benefits of the new gym, promising results that the trial never showed.",
+    "options": [
+      {
+        "id": "A",
+        "text": "verified"
+      },
+      {
+        "id": "B",
+        "text": "measured"
+      },
+      {
+        "id": "C",
+        "text": "exaggerated"
+      },
+      {
+        "id": "D",
+        "text": "summarised"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Exaggerate berarti melebih-lebihkan sesuatu dari kenyataannya."
+  },
+  {
+    "id": "BT061-004",
+    "day": 61,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The student's ___ that the survey sample was random turned out to be wrong, which weakened the whole argument.",
+    "options": [
+      {
+        "id": "A",
+        "text": "assumption"
+      },
+      {
+        "id": "B",
+        "text": "verification"
+      },
+      {
+        "id": "C",
+        "text": "correction"
+      },
+      {
+        "id": "D",
+        "text": "summary"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Assumption adalah anggapan yang diterima tanpa bukti, dan dalam kalimat ini anggapan tersebut ternyata keliru."
+  },
+  {
+    "id": "BT061-005",
+    "day": 61,
+    "type": "translate",
+    "prompt": "Penulis tidak menyebutkan jumlah peserta dalam artikel itu.",
+    "acceptedAnswers": [
+      "The writer does not mention the number of participants in the article.",
+      "The author does not mention the number of participants in the article."
+    ],
+    "explanation": "Does not mention dipakai untuk informasi yang tidak ada dalam teks, sehingga relevan untuk jawaban Not Given."
+  },
+  {
+    "id": "BT061-006",
+    "day": 61,
+    "type": "translate",
+    "prompt": "Jika informasi itu tidak ada dalam teks, jawabannya adalah Not Given.",
+    "acceptedAnswers": [
+      "If the information is not in the text, the answer is Not Given.",
+      "If the information does not appear in the text, the answer is Not Given."
+    ],
+    "explanation": "Not Given dipakai bila teks tidak memberi informasi apa pun, baik untuk mendukung maupun menolak pernyataan."
+  },
+  {
+    "id": "BT061-007",
+    "day": 61,
+    "type": "story",
+    "passage": "A small bakery in Riverside claimed that its new sourdough reduced stomach problems among customers. The owner, Rina Hartono, said that sales rose by 30 percent in the first month after the launch. A local newspaper repeated the claim without checking it. However, the article did not mention how many customers were surveyed, and the bakery never published its survey results. A nutrition expert from the regional university called the claim interesting but unproven. She noted that sourdough contains less gluten than regular bread, which might help some people, although more studies are needed. The bakery has promised to release its data next spring, but no date has been announced yet.",
+    "prompt": "Manakah pernyataan yang TIDAK disebutkan dalam teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penjualan toko naik 30 persen pada bulan pertama."
+      },
+      {
+        "id": "B",
+        "text": "Pakar gizi menganggap klaim itu menarik tetapi belum terbukti."
+      },
+      {
+        "id": "C",
+        "text": "Roti itu dijual dengan harga lebih murah daripada roti biasa."
+      },
+      {
+        "id": "D",
+        "text": "Surat kabar lokal mengulang klaim toko tanpa memeriksanya."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks tidak membahas harga roti sama sekali, sehingga pernyataan itu Not Given. Tiga pilihan lain sesuai dengan isi teks."
+  },
+  {
+    "id": "BT061-008",
+    "day": 61,
+    "type": "essay",
+    "prompt": "Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan mengapa jawaban False berbeda dari Not Given. Berikan satu contoh untuk masing-masing jawaban.",
+    "modelAnswer": "An answer of False means the text clearly contradicts the statement, so the writer has given information that says the opposite. Not Given means the text does not say anything about the statement at all, whether to agree or disagree. For example, if a passage says the bakery sold 500 loaves a day, the statement that it sold 800 loaves a day is False. If the passage never mentions the price of bread, the statement that bread is cheap is Not Given. Students often choose False just because a statement sounds unlikely, but they must check whether the text really contradicts it.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini melatih pembedaan antara pernyataan yang bertentangan dengan teks (False) dan yang tidak disebutkan sama sekali (Not Given)."
+  },
+  {
+    "id": "BT061-009",
+    "day": 61,
+    "type": "listen",
+    "script": "Good morning, everyone. Today's talk looks at a study of sleep among teenagers. The students wore wristbands that tracked their sleep for seven nights, which gave the team reliable data. However, the researchers did not ask how the students felt during the day, so the study says nothing about their mood.",
+    "prompt": "Apa yang TIDAK dilakukan para peneliti dalam studi ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They measured sleep for seven nights."
+      },
+      {
+        "id": "B",
+        "text": "They tracked sleep with wristbands."
+      },
+      {
+        "id": "C",
+        "text": "They studied sleep among teenagers."
+      },
+      {
+        "id": "D",
+        "text": "They asked students how they felt during the day."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut bahwa peneliti tidak menanyakan perasaan siswa, sedangkan tiga pilihan lain memang dilakukan."
+  },
+  {
+    "id": "BT061-010",
+    "day": 61,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Pernyataan itu tidak bisa diverifikasi dari teks.",
+    "acceptedAnswers": [
+      "The statement cannot be verified from the text"
+    ],
+    "explanation": "Verify berarti memeriksa kebenaran, dan from the text dipakai untuk menunjukkan sumber bukti."
+  },
+  {
+    "id": "BT062-001",
+    "day": 62,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The panel's opinion, along with the views of two experts, ___ that the law is unfair.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "have been"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Subjek utamanya 'opinion' yang tunggal, sedangkan frasa along with tidak mengubah kata kerja menjadi jamak."
+  },
+  {
+    "id": "BT062-002",
+    "day": 62,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The minister insisted that the new rule ___ immediately, even though schools needed more time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "takes effect"
+      },
+      {
+        "id": "B",
+        "text": "took effect"
+      },
+      {
+        "id": "C",
+        "text": "had taken effect"
+      },
+      {
+        "id": "D",
+        "text": "take effect"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah kata kerja insist that, kata kerja dipakai dalam bentuk dasar (subjunctive), yaitu take effect."
+  },
+  {
+    "id": "BT062-003",
+    "day": 62,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The celebrity publicly ___ the new health campaign, so thousands of fans started to join it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "criticised"
+      },
+      {
+        "id": "B",
+        "text": "endorsed"
+      },
+      {
+        "id": "C",
+        "text": "disputed"
+      },
+      {
+        "id": "D",
+        "text": "ignored"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Endorse berarti secara terbuka mendukung atau menyetujui sesuatu."
+  },
+  {
+    "id": "BT062-004",
+    "day": 62,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Her ___ that cities should ban cars is based on personal experience, not on a survey.",
+    "options": [
+      {
+        "id": "A",
+        "text": "belief"
+      },
+      {
+        "id": "B",
+        "text": "statistic"
+      },
+      {
+        "id": "C",
+        "text": "summary"
+      },
+      {
+        "id": "D",
+        "text": "quotation"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Belief adalah keyakinan atau pandangan pribadi, bukan fakta yang dibuktikan data."
+  },
+  {
+    "id": "BT062-005",
+    "day": 62,
+    "type": "translate",
+    "prompt": "Menurut saya, penulis itu terlalu keras dalam mengkritik kebijakan tersebut.",
+    "acceptedAnswers": [
+      "In my opinion, the writer is too harsh when criticising the policy.",
+      "In my opinion, the writer is too harsh when criticizing the policy."
+    ],
+    "explanation": "Too harsh berarti terlalu keras; ejaan criticising dan criticizing sama-sama dapat diterima."
+  },
+  {
+    "id": "BT062-006",
+    "day": 62,
+    "type": "translate",
+    "prompt": "Pendapat itu didukung oleh sebagian besar peneliti, tetapi tidak oleh pemerintah.",
+    "acceptedAnswers": [
+      "The view is supported by most researchers, but not by the government.",
+      "This view is backed by most researchers, but not by the government."
+    ],
+    "explanation": "Kalimat ini membandingkan dukungan dari dua kelompok, sehingga memakai but not by."
+  },
+  {
+    "id": "BT062-007",
+    "day": 62,
+    "type": "story",
+    "passage": "In his review of the film Harbour Lights, Daniel Okafor described the story as slow and predictable. He believed that the director had wasted a strong cast on a weak script. Several viewers disagreed. A cinema manager said that ticket sales had doubled in the second week, which he called proof that audiences liked the film. Okafor replied that sales depend on advertising and do not measure quality. He also argued that the ending was the best part of the movie, although he admitted that several scenes were too long. The film was shot in only twelve days, but he did not say whether this affected the editing. He recommended the film only to readers who enjoy quiet dramas.",
+    "prompt": "Menurut teks, apa pendapat Okafor tentang akhir film?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Akhir film itu adalah bagian paling buruk dari keseluruhan film."
+      },
+      {
+        "id": "B",
+        "text": "Akhir film itu lemah dan membuat penonton bosan."
+      },
+      {
+        "id": "C",
+        "text": "Akhir film itu tidak disebutkan dalam ulasannya."
+      },
+      {
+        "id": "D",
+        "text": "Akhir film itu menjadi bagian terbaik menurut dia."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Okafor menulis bahwa akhir film adalah bagian terbaik, meskipun ia juga mengakui sejumlah adegan terlalu panjang."
+  },
+  {
+    "id": "BT062-009",
+    "day": 62,
+    "type": "listen",
+    "script": "Thanks for joining the show. Our guest, a teacher, argues that homework should be shorter for younger children. She says the current workload is too heavy and that children lose interest quickly. She also mentioned that her school survey included four hundred families, though she did not share the results. Finally, she supports a ban on homework during weekends.",
+    "prompt": "Apa pendapat tamu tentang pekerjaan rumah untuk anak yang lebih kecil?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Homework should be longer for younger children."
+      },
+      {
+        "id": "B",
+        "text": "Homework is useful for children of every age."
+      },
+      {
+        "id": "C",
+        "text": "Homework should be shorter for younger children."
+      },
+      {
+        "id": "D",
+        "text": "The survey included one thousand families."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Tamu menyatakan bahwa pekerjaan rumah sebaiknya lebih pendek untuk anak kecil, sedangkan survei tercatat empat ratus keluarga."
+  },
+  {
+    "id": "BT062-010",
+    "day": 62,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Penulis itu sangat tidak setuju dengan rencana tersebut.",
+    "acceptedAnswers": [
+      "The writer strongly disagrees with the plan"
+    ],
+    "explanation": "Strongly disagrees dipakai untuk ketidaksetujuan yang kuat, sesuai dengan kata sangat dalam kalimat Indonesia."
+  },
+  {
+    "id": "BT063-001",
+    "day": 63,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The heading, ___ covers only the first section, is too narrow for the whole report.",
+    "options": [
+      {
+        "id": "A",
+        "text": "who"
+      },
+      {
+        "id": "B",
+        "text": "which"
+      },
+      {
+        "id": "C",
+        "text": "whose"
+      },
+      {
+        "id": "D",
+        "text": "where"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Untuk benda seperti judul, relative pronoun yang tepat adalah which."
+  },
+  {
+    "id": "BT063-002",
+    "day": 63,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Of the three headings, the second one is ___ because it covers the whole paragraph.",
+    "options": [
+      {
+        "id": "A",
+        "text": "more broad"
+      },
+      {
+        "id": "B",
+        "text": "broader"
+      },
+      {
+        "id": "C",
+        "text": "the broadest"
+      },
+      {
+        "id": "D",
+        "text": "broadly"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Untuk membandingkan lebih dari dua pilihan dipakai bentuk superlatif, yaitu the broadest."
+  },
+  {
+    "id": "BT063-003",
+    "day": 63,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Before writing the title, the editor asked the reporter to state the ___ of the story in one sentence.",
+    "options": [
+      {
+        "id": "A",
+        "text": "gist"
+      },
+      {
+        "id": "B",
+        "text": "draft"
+      },
+      {
+        "id": "C",
+        "text": "subheading"
+      },
+      {
+        "id": "D",
+        "text": "arrangement"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Gist berarti inti atau gagasan utama, yaitu hal yang paling penting dari sebuah teks."
+  },
+  {
+    "id": "BT063-004",
+    "day": 63,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The writer's ___ of the chapters follows time, starting with the 1990s and ending with today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "draft"
+      },
+      {
+        "id": "B",
+        "text": "subheading"
+      },
+      {
+        "id": "C",
+        "text": "gist"
+      },
+      {
+        "id": "D",
+        "text": "arrangement"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Arrangement berarti susunan atau urutan bagian-bagian dalam sebuah teks."
+  },
+  {
+    "id": "BT063-005",
+    "day": 63,
+    "type": "translate",
+    "prompt": "Judul bagian ini harus lebih luas daripada judul paragraf.",
+    "acceptedAnswers": [
+      "The heading of this section should be broader than the paragraph heading.",
+      "This section heading should be broader than the paragraph heading."
+    ],
+    "explanation": "Broader adalah bentuk komparatif dari broad, yang berarti lebih luas cakupannya."
+  },
+  {
+    "id": "BT063-006",
+    "day": 63,
+    "type": "translate",
+    "prompt": "Paragraf kedua membahas alasan di balik keputusan itu.",
+    "acceptedAnswers": [
+      "The second paragraph discusses the reasons behind the decision.",
+      "The second paragraph discusses the reasons for the decision."
+    ],
+    "explanation": "Discuss dipakai langsung tanpa preposisi, lalu objeknya berupa reasons."
+  },
+  {
+    "id": "BT063-007",
+    "day": 63,
+    "type": "story",
+    "passage": "The library reopened in March after eight months of renovation. The reading room now has large windows, and the children's corner has moved to the ground floor, so families no longer need to climb stairs.\n\nThe renovation was funded mainly by a regional grant, with the rest coming from local businesses. Some residents argued that the cost was too high, but the director said the new building would serve more people.\n\nFrom September, the library will open on Sunday mornings and offer free computer classes for older adults. The director hopes these changes will bring back visitors who stopped coming during the renovation.",
+    "prompt": "Manakah judul yang paling tepat untuk paragraf kedua?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rencana membuka perpustakaan pada hari Minggu"
+      },
+      {
+        "id": "B",
+        "text": "Pendanaan renovasi dan perdebatan tentang biayanya"
+      },
+      {
+        "id": "C",
+        "text": "Sejarah berdirinya gedung perpustakaan"
+      },
+      {
+        "id": "D",
+        "text": "Ruang baca dan area anak yang baru"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Paragraf kedua membahas sumber dana renovasi dan perdebatan soal biaya, bukan jadwal buka atau ruang baca."
+  },
+  {
+    "id": "BT063-008",
+    "day": 63,
+    "type": "essay",
+    "prompt": "Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan bagaimana kamu memilih judul yang tepat untuk sebuah paragraf. Sebutkan juga satu kesalahan umum yang harus dihindari.",
+    "modelAnswer": "To choose a heading, I first find the main idea of the paragraph, which is usually stated in the first or last sentence. Then I check whether the heading covers the whole paragraph rather than only one example. A heading that is too narrow may leave out important points, while a heading that is too broad can be vague. A common mistake is to pick a heading that repeats a detail from the middle of the paragraph. Therefore, I compare two or three candidate headings before making the final choice.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini melatih kebiasaan mencari gagasan utama sebelum menentukan judul paragraf."
+  },
+  {
+    "id": "BT063-009",
+    "day": 63,
+    "type": "listen",
+    "script": "Let's look at the second paragraph of the report. It explains why the new station was delayed, because the land survey took longer than expected and the contractor had to change its plan twice. The paragraph does not discuss future plans for the city, although the next section does. So the best heading should focus on the causes of the delay.",
+    "prompt": "Judul apa yang paling tepat untuk paragraf kedua menurut tutor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The main reasons for the delay"
+      },
+      {
+        "id": "B",
+        "text": "A history of the old railway"
+      },
+      {
+        "id": "C",
+        "text": "Costs of the new station"
+      },
+      {
+        "id": "D",
+        "text": "Future plans for the city"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Tutor menekankan bahwa paragraf itu menjelaskan penyebab keterlambatan, dan tidak membahas rencana masa depan."
+  },
+  {
+    "id": "BT063-010",
+    "day": 63,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Judul itu mencakup gagasan utama dari seluruh bab.",
+    "acceptedAnswers": [
+      "The heading covers the main idea of the whole chapter"
+    ],
+    "explanation": "Cover di sini berarti mencakup seluruh isi, dan the whole chapter berarti seluruh bab."
+  },
+  {
+    "id": "BT064-001",
+    "day": 64,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The recording had ___ background noise, so the answers were hard to hear.",
+    "options": [
+      {
+        "id": "A",
+        "text": "many"
+      },
+      {
+        "id": "B",
+        "text": "a great deal of"
+      },
+      {
+        "id": "C",
+        "text": "a few"
+      },
+      {
+        "id": "D",
+        "text": "several"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Noise adalah kata benda tak terhitung, sehingga dipakai a great deal of, bukan many atau several."
+  },
+  {
+    "id": "BT064-002",
+    "day": 64,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Only ___ students left the answer box empty, so the teacher could summarise the results quickly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a little"
+      },
+      {
+        "id": "B",
+        "text": "much"
+      },
+      {
+        "id": "C",
+        "text": "an amount"
+      },
+      {
+        "id": "D",
+        "text": "a few"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Students adalah kata benda terhitung jamak, sehingga dipakai a few untuk jumlah yang sedikit."
+  },
+  {
+    "id": "BT064-003",
+    "day": 64,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A speaker often ___ a key word from the question, so you need to recognise its synonym in the recording.",
+    "options": [
+      {
+        "id": "A",
+        "text": "forgets"
+      },
+      {
+        "id": "B",
+        "text": "translates"
+      },
+      {
+        "id": "C",
+        "text": "paraphrases"
+      },
+      {
+        "id": "D",
+        "text": "memorises"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Paraphrase berarti menyatakan ulang sebuah gagasan dengan kata lain, dan ini sering terjadi dalam rekaman IELTS."
+  },
+  {
+    "id": "BT064-004",
+    "day": 64,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The teacher gave us a short ___ from the novel, and we had to find the words that matched the summary.",
+    "options": [
+      {
+        "id": "A",
+        "text": "excerpt"
+      },
+      {
+        "id": "B",
+        "text": "caption"
+      },
+      {
+        "id": "C",
+        "text": "outline"
+      },
+      {
+        "id": "D",
+        "text": "footnote"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Excerpt berarti kutipan atau bagian pendek dari sebuah teks."
+  },
+  {
+    "id": "BT064-005",
+    "day": 64,
+    "type": "translate",
+    "prompt": "Jawabanmu tidak boleh lebih dari dua kata.",
+    "acceptedAnswers": [
+      "Your answer must not be longer than two words.",
+      "Your answer should be no longer than two words."
+    ],
+    "explanation": "No more than dipakai untuk batas maksimum, dan pola ini sering muncul dalam instruksi summary completion."
+  },
+  {
+    "id": "BT064-006",
+    "day": 64,
+    "type": "translate",
+    "prompt": "Ringkasan itu menggunakan kata yang berbeda dari rekaman asli.",
+    "acceptedAnswers": [
+      "The summary uses different words from the original recording.",
+      "The summary uses words that differ from the original recording."
+    ],
+    "explanation": "Different from dipakai untuk menyatakan perbedaan, sedangkan original berarti asli atau pertama."
+  },
+  {
+    "id": "BT064-007",
+    "day": 64,
+    "type": "story",
+    "passage": "A research team spent three weeks in a fishing village to study how families manage their savings. Instead of asking people to fill in long forms, the team recorded short interviews and later wrote the main points in notes. Many families kept money in small envelopes at home rather than in banks. Some said they trusted banks, but they still wanted cash ready for emergencies. The team decided to quote the exact words of residents in its final report, because paraphrasing might change the meaning. The report was published in June, and the village council then asked for a copy of the notes. Several residents said the summary of their answers was fair.",
+    "prompt": "Mengapa tim peneliti memilih mengutip kata-kata warga secara langsung?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena warga menolak diwawancarai dengan rekaman."
+      },
+      {
+        "id": "B",
+        "text": "Karena catatan mereka terlalu pendek untuk dipakai."
+      },
+      {
+        "id": "C",
+        "text": "Karena menyadur ulang dapat mengubah makna."
+      },
+      {
+        "id": "D",
+        "text": "Karena dewan desa memintanya sejak awal."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut bahwa menyadur ulang bisa mengubah makna, sehingga tim memilih kutipan langsung."
+  },
+  {
+    "id": "BT064-008",
+    "day": 64,
+    "type": "essay",
+    "prompt": "Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan mengapa kamu harus memeriksa batas jumlah kata sebelum mengisi celah. Gunakan kata penghubung seperti because atau therefore.",
+    "modelAnswer": "Before filling a gap, I always read the instructions to check the word limit. If the question says no more than two words, a longer answer will be marked wrong even when the meaning is correct. I also check whether the grammar of the sentence matches the gap, because a noun and a verb need different forms. Therefore, I compare the sentence in the summary with the recording before I write my answer. Keeping the answer short and accurate helps me finish every task before the time runs out.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini menekankan bahwa batas jumlah kata adalah bagian dari jawaban yang benar."
+  },
+  {
+    "id": "BT064-009",
+    "day": 64,
+    "type": "listen",
+    "script": "Please note the instructions for the form. You must write your answer in no more than two words, and each answer should be copied from the recording. Do not add a title or a full sentence. If you make a mistake, put a line through the word and write the new one next to it.",
+    "prompt": "Berapa batas jumlah kata untuk setiap jawaban menurut instruksi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "one word"
+      },
+      {
+        "id": "B",
+        "text": "three words"
+      },
+      {
+        "id": "C",
+        "text": "four words"
+      },
+      {
+        "id": "D",
+        "text": "two words"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Instruksi menyebut no more than two words, sehingga batas yang disebut adalah dua kata."
+  },
+  {
+    "id": "BT064-010",
+    "day": 64,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Isi setiap celah dengan jawaban yang sesuai dari rekaman.",
+    "acceptedAnswers": [
+      "Fill each gap with the matching answer from the recording"
+    ],
+    "explanation": "Each gap berarti setiap celah, dan matching answer berarti jawaban yang sesuai."
+  },
+  {
+    "id": "BT065-001",
+    "day": 65,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "If the speaker had been clearer about the date, the students ___ the change right away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "would have noticed"
+      },
+      {
+        "id": "B",
+        "text": "would notice"
+      },
+      {
+        "id": "C",
+        "text": "noticed"
+      },
+      {
+        "id": "D",
+        "text": "had noticed"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Kondisi yang tidak terjadi di masa lalu memakai had been di klausa if dan would have dengan V3 di klausa utama."
+  },
+  {
+    "id": "BT065-002",
+    "day": 65,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Rather than ___ the wrong answer, the student crossed it out and wrote the correct one beside it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to correct"
+      },
+      {
+        "id": "B",
+        "text": "corrected"
+      },
+      {
+        "id": "C",
+        "text": "correcting"
+      },
+      {
+        "id": "D",
+        "text": "correct"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Setelah rather than, kata kerja dipakai dalam bentuk -ing, yaitu correcting."
+  },
+  {
+    "id": "BT065-003",
+    "day": 65,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Sorry, that was a ___: the meeting is on Friday, not on Monday as I said earlier.",
+    "options": [
+      {
+        "id": "A",
+        "text": "distractor"
+      },
+      {
+        "id": "B",
+        "text": "correction"
+      },
+      {
+        "id": "C",
+        "text": "summary"
+      },
+      {
+        "id": "D",
+        "text": "heading"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Correction adalah perbaikan atas informasi yang sebelumnya disebutkan keliru."
+  },
+  {
+    "id": "BT065-004",
+    "day": 65,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The speaker was ___ about the date, so the student wrote down the wrong day in her notes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accurate"
+      },
+      {
+        "id": "B",
+        "text": "mistaken"
+      },
+      {
+        "id": "C",
+        "text": "certain"
+      },
+      {
+        "id": "D",
+        "text": "prepared"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Mistaken berarti keliru atau salah, dan kata ini sesuai dengan akibat berupa hari yang salah dicatat."
+  },
+  {
+    "id": "BT065-005",
+    "day": 65,
+    "type": "translate",
+    "prompt": "Maaf, saya salah. Pertemuan itu sebenarnya hari Kamis.",
+    "acceptedAnswers": [
+      "Sorry, I was wrong. The meeting is actually on Thursday.",
+      "Sorry, I made a mistake. The meeting is actually on Thursday."
+    ],
+    "explanation": "Actually dipakai untuk meralat informasi sebelumnya, dan sering menjadi penanda koreksi dalam rekaman."
+  },
+  {
+    "id": "BT065-006",
+    "day": 65,
+    "type": "translate",
+    "prompt": "Pengecoh itu sengaja dibuat mirip dengan jawaban yang benar.",
+    "acceptedAnswers": [
+      "The distractor was deliberately made similar to the correct answer.",
+      "The distractor is deliberately made to look similar to the correct answer."
+    ],
+    "explanation": "Distractor adalah pilihan yang sengaja dibuat menyesatkan, dan deliberately berarti dengan sengaja."
+  },
+  {
+    "id": "BT065-007",
+    "day": 65,
+    "type": "story",
+    "passage": "The school newsletter printed the timetable for the science fair on its first page. Two days later, the head teacher sent a short note to all parents. She explained that the fair had moved from Saturday to Sunday because a regional match had been scheduled for the same Saturday. The note also corrected the opening time: the fair starts at nine in the morning, not at eight. Actually, the first printed version was right about the room, but the time had been changed after the newsletter went to print. Parents who had already bought tickets for the Saturday session could exchange them at the front desk. The head teacher thanked everyone for their patience with the late change.",
+    "prompt": "Apa yang diralat oleh kepala sekolah dalam catatannya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tempat pameran dipindahkan ke aula olahraga."
+      },
+      {
+        "id": "B",
+        "text": "Pameran dibatalkan karena ada pertandingan regional."
+      },
+      {
+        "id": "C",
+        "text": "Pameran dimulai pukul delapan, bukan pukul sembilan."
+      },
+      {
+        "id": "D",
+        "text": "Waktu pameran dimulai pukul sembilan, bukan pukul delapan."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Catatan itu meralat jam mulai pameran, dari pukul delapan menjadi pukul sembilan. Informasi tentang ruangan tidak diralat."
+  },
+  {
+    "id": "BT065-008",
+    "day": 65,
+    "type": "essay",
+    "prompt": "Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan mengapa pembicara sering meralat ucapannya sendiri saat berbicara. Gunakan kata actually atau rather minimal sekali.",
+    "modelAnswer": "Speakers often correct themselves when they notice a mistake, especially when they are talking quickly. A typical correction begins with a phrase such as actually or sorry, let me correct that. Listeners should not panic, because the final version is usually the one that counts. Students who write down only the first version can therefore lose marks, so they must keep listening after a correction. In this way, they can replace the old information with the new one.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini melatih kebiasaan menunggu versi terakhir informasi sebelum menulis jawaban."
+  },
+  {
+    "id": "BT065-009",
+    "day": 65,
+    "type": "listen",
+    "script": "Good afternoon, and welcome to the weekly update. The library will close at six on Friday. Sorry, let me correct that: the library closes at five on Friday, not six. The café will remain open until seven as usual.",
+    "prompt": "Jam berapa perpustakaan tutup pada hari Jumat menurut pengumuman terakhir?",
+    "options": [
+      {
+        "id": "A",
+        "text": "at six"
+      },
+      {
+        "id": "B",
+        "text": "at seven"
+      },
+      {
+        "id": "C",
+        "text": "at five"
+      },
+      {
+        "id": "D",
+        "text": "at four"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara meralat jam tutup dari pukul enam menjadi pukul lima, sedangkan pukul tujuh berlaku untuk kafe."
+  },
+  {
+    "id": "BT065-010",
+    "day": 65,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Dia meralat tanggal yang disebutkan tadi.",
+    "acceptedAnswers": [
+      "She corrected the date she mentioned earlier"
+    ],
+    "explanation": "Corrected adalah bentuk lampau dari correct, dan earlier berarti sebelumnya."
+  },
+  {
+    "id": "BT066-001",
+    "day": 66,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Thirty of the 300 forms ___ a wrong postcode, so the office sent them back.",
+    "options": [
+      {
+        "id": "A",
+        "text": "has"
+      },
+      {
+        "id": "B",
+        "text": "had"
+      },
+      {
+        "id": "C",
+        "text": "having"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Subjek thirty of the forms bersifat jamak, sehingga kata kerjanya had, bukan has atau is."
+  },
+  {
+    "id": "BT066-002",
+    "day": 66,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The surname ___ incorrectly on the certificate, so she asked the office for a new copy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was spelled"
+      },
+      {
+        "id": "B",
+        "text": "spelled"
+      },
+      {
+        "id": "C",
+        "text": "is spelling"
+      },
+      {
+        "id": "D",
+        "text": "has spell"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Nama yang salah dieja menerima tindakan, jadi memakai passive voice bentuk lampau: was spelled."
+  },
+  {
+    "id": "BT066-003",
+    "day": 66,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The speaker used the NATO ___ to spell out the code, so every letter was clear over the noisy phone line.",
+    "options": [
+      {
+        "id": "A",
+        "text": "decimal"
+      },
+      {
+        "id": "B",
+        "text": "digit"
+      },
+      {
+        "id": "C",
+        "text": "surname"
+      },
+      {
+        "id": "D",
+        "text": "alphabet"
+      }
+    ],
+    "correct": "D",
+    "explanation": "NATO alphabet adalah daftar kata pengucapan untuk setiap huruf, yang dipakai saat mengeja kode melalui telepon."
+  },
+  {
+    "id": "BT066-004",
+    "day": 66,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The bank code has six ___, and one wrong number would send the money to a different account.",
+    "options": [
+      {
+        "id": "A",
+        "text": "letters"
+      },
+      {
+        "id": "B",
+        "text": "abbreviations"
+      },
+      {
+        "id": "C",
+        "text": "digits"
+      },
+      {
+        "id": "D",
+        "text": "surnames"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Digit adalah satu angka dari 0 sampai 9, dan kode bank tersusun dari beberapa digit."
+  },
+  {
+    "id": "BT066-005",
+    "day": 66,
+    "type": "translate",
+    "prompt": "Nomor telepon saya memiliki sebelas digit.",
+    "acceptedAnswers": [
+      "My phone number has eleven digits.",
+      "My phone number has 11 digits."
+    ],
+    "explanation": "Sebelas dalam bahasa Inggris ditulis eleven, atau 11 dalam bentuk angka."
+  },
+  {
+    "id": "BT066-006",
+    "day": 66,
+    "type": "translate",
+    "prompt": "Mohon eja nama keluarga saya dengan huruf kapital di awal.",
+    "acceptedAnswers": [
+      "Please spell my surname with a capital letter at the beginning.",
+      "Please spell my family name with a capital letter at the start."
+    ],
+    "explanation": "Surname dan family name sama-sama berarti nama keluarga, dan capital letter berarti huruf kapital."
+  },
+  {
+    "id": "BT066-007",
+    "day": 66,
+    "type": "story",
+    "passage": "The bus company changed its ticket codes last month. Each code now starts with two letters that show the route, followed by a four-digit number. For example, the code NR means the northern route, while SC stands for the city centre. Passengers sometimes confuse the letter O with the number zero, so the company asks people to write codes in capital letters. The old system used only numbers, and many customers found it easier to remember. The company kept the new system because machines check tickets more accurately. A printed guide with a sample ticket is available at every station. Staff at the front desk can also help passengers who are unsure about a code.",
+    "prompt": "Kode apa yang menunjukkan jalur pusat kota menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "SC"
+      },
+      {
+        "id": "B",
+        "text": "NR"
+      },
+      {
+        "id": "C",
+        "text": "OC"
+      },
+      {
+        "id": "D",
+        "text": "0420"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut bahwa SC berarti pusat kota, sedangkan NR adalah jalur utara dan kode lainnya tidak disebutkan."
+  },
+  {
+    "id": "BT066-008",
+    "day": 66,
+    "type": "essay",
+    "prompt": "Dalam 4 sampai 6 kalimat bahasa Inggris, jelaskan cara mengeja nama dengan jelas saat berbicara di telepon. Sebutkan dua contoh kata dari alfabet pengucapan.",
+    "modelAnswer": "When I spell my name on the phone, I say each letter clearly and pause after every few letters. I often use the phonetic alphabet, so I say B for Bravo or M for Mike to avoid confusion. Letters such as B and D can sound alike, so alphabet words make the spelling more accurate. I also repeat the full name at the end, so the listener can check it. Taking a little extra time to spell carefully helps prevent mistakes with postcodes and account numbers.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini melatih cara mengeja dengan jelas dan memakai alfabet pengucapan agar huruf yang mirip tidak tertukar."
+  },
+  {
+    "id": "BT066-009",
+    "day": 66,
+    "type": "listen",
+    "script": "Thank you for waiting. Please spell your surname slowly, because I need to check your details. Let me repeat it back: T, A, Y, L, O, R. The annual fee is two hundred and forty-six pounds, so the monthly payment is twenty point five pounds.",
+    "prompt": "Berapa pembayaran bulanan untuk keanggotaan ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "twenty pounds"
+      },
+      {
+        "id": "B",
+        "text": "twenty point five pounds"
+      },
+      {
+        "id": "C",
+        "text": "two hundred and forty-six pounds"
+      },
+      {
+        "id": "D",
+        "text": "twenty-five pounds"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Biaya tahunan 246 pound dibagi dua belas bulan menjadi 20,5 pound, dan angka desimal itu dibaca point five."
+  },
+  {
+    "id": "BT066-010",
+    "day": 66,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Huruf pertama nama belakang saya adalah M.",
+    "acceptedAnswers": [
+      "The first letter of my surname is M"
+    ],
+    "explanation": "Surname adalah nama belakang atau nama keluarga, dan first letter berarti huruf pertama."
+  },
+  {
+    "id": "BT067-001",
+    "day": 67,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "If the writer ___ the data more carefully, she would not have made that claim.",
+    "options": [
+      {
+        "id": "A",
+        "text": "checked"
+      },
+      {
+        "id": "B",
+        "text": "would check"
+      },
+      {
+        "id": "C",
+        "text": "has checked"
+      },
+      {
+        "id": "D",
+        "text": "had checked"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Kalimat ini memakai conditional tipe tiga untuk kondisi di masa lalu, yaitu if + had checked dan would not have made."
+  },
+  {
+    "id": "BT067-002",
+    "day": 67,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Neither the heading nor the summary ___ the main idea of the paragraph accurately.",
+    "options": [
+      {
+        "id": "A",
+        "text": "captures"
+      },
+      {
+        "id": "B",
+        "text": "capture"
+      },
+      {
+        "id": "C",
+        "text": "are capturing"
+      },
+      {
+        "id": "D",
+        "text": "captured"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pada pola neither nor, kata kerja mengikuti subjek yang paling dekat, yaitu summary yang tunggal."
+  },
+  {
+    "id": "BT067-003",
+    "day": 67,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The council's new report ___ the earlier statement, so readers cannot trust either version yet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "supports"
+      },
+      {
+        "id": "B",
+        "text": "contradicts"
+      },
+      {
+        "id": "C",
+        "text": "summarises"
+      },
+      {
+        "id": "D",
+        "text": "repeats"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Contradict berarti bertentangan dengan, dan dua versi yang berlawanan membuat pembaca ragu."
+  },
+  {
+    "id": "BT067-004",
+    "day": 67,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The speaker said 'Monday' at first, but ___, the meeting is on Tuesday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "already"
+      },
+      {
+        "id": "B",
+        "text": "actually"
+      },
+      {
+        "id": "C",
+        "text": "usually"
+      },
+      {
+        "id": "D",
+        "text": "finally"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Actually dipakai untuk meralat informasi sebelumnya, sedangkan kata lain tidak sesuai makna koreksi."
+  },
+  {
+    "id": "BT067-005",
+    "day": 67,
+    "type": "translate",
+    "prompt": "Pernyataan itu tidak sesuai dengan data resmi dari kementerian.",
+    "acceptedAnswers": [
+      "The statement does not match the official data from the ministry.",
+      "The statement does not agree with the official data from the ministry."
+    ],
+    "explanation": "Does not match dan does not agree with dipakai untuk menyatakan dua hal yang tidak cocok."
+  },
+  {
+    "id": "BT067-006",
+    "day": 67,
+    "type": "translate",
+    "prompt": "Judul itu paling cocok untuk paragraf yang membahas biaya.",
+    "acceptedAnswers": [
+      "The heading fits the paragraph about costs best.",
+      "That heading is the most suitable for the paragraph about costs."
+    ],
+    "explanation": "Fits best dan most suitable sama-sama berarti paling cocok, sedangkan costs adalah bentuk jamak dari biaya."
+  },
+  {
+    "id": "BT067-007",
+    "day": 67,
+    "type": "story",
+    "passage": "A secondary school published its results for the English exam in early July. The report said that the average score rose by eight points compared with last year. A teacher, however, pointed out that the results included students who had taken the exam twice, which made the comparison unfair. The principal agreed and promised a revised report in August. In that report, the school separated first-time candidates from repeat candidates. The average score for first-time candidates rose by three points, a smaller improvement than the first report had suggested. The principal thanked the teacher for finding the mistake. The school also said it would check its data more carefully in future exams.",
+    "prompt": "Berdasarkan teks, berapa kenaikan rata-rata nilai untuk peserta yang mengikuti ujian pertama kali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "delapan poin"
+      },
+      {
+        "id": "B",
+        "text": "lima poin"
+      },
+      {
+        "id": "C",
+        "text": "tiga poin"
+      },
+      {
+        "id": "D",
+        "text": "dua poin"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Laporan revisi menyebut kenaikan tiga poin untuk peserta yang mengikuti ujian pertama kali, bukan delapan poin seperti laporan awal."
+  },
+  {
+    "id": "BT067-008",
+    "day": 67,
+    "type": "essay",
+    "prompt": "Tulis 4 sampai 6 kalimat bahasa Inggris untuk merangkum apa yang kamu pelajari minggu ini tentang soal True, False, Not Given dan Yes, No, Not Given. Sebutkan satu perbedaan utama antara keduanya.",
+    "modelAnswer": "This week I learned that True, False, and Not Given questions focus on whether a statement matches facts in the text. Yes, No, and Not Given questions, however, focus on whether the writer agrees with an opinion. In both types, Not Given means that the text does not provide enough information to decide. A key difference is that Yes and No depend on the writer's view, while True and False depend on factual information. Therefore, I should always check whether the question asks for facts or opinions before I answer.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini merangkum perbedaan fakta dan opini sebagai dasar memilih jawaban yang tepat."
+  },
+  {
+    "id": "BT067-009",
+    "day": 67,
+    "type": "listen",
+    "script": "Let's review the last lesson. A student asked whether a claim in the article was true. The article actually corrected the date in its second paragraph, so the older date is no longer valid. Remember that a correction usually replaces the earlier information.",
+    "prompt": "Menurut tutor, apa yang harus dilakukan terhadap tanggal lama dalam artikel?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Treat it as no longer valid because it was corrected."
+      },
+      {
+        "id": "B",
+        "text": "Keep it as the main date for the answer."
+      },
+      {
+        "id": "C",
+        "text": "Write down both dates in the answer."
+      },
+      {
+        "id": "D",
+        "text": "Ignore the second paragraph completely."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Tutor menjelaskan bahwa koreksi menggantikan informasi lama, sehingga tanggal lama tidak lagi berlaku."
+  },
+  {
+    "id": "BT067-010",
+    "day": 67,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Penulis tidak setuju dengan judul yang dipilih.",
+    "acceptedAnswers": [
+      "The writer disagrees with the selected heading"
+    ],
+    "explanation": "Disagree with dipakai untuk menyatakan ketidaksetujuan, dan selected heading berarti judul yang dipilih."
+  },
+  {
+    "id": "BT068-001",
+    "day": 68,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "In 2015 the price ___ sharply, and it stayed high for the next three years.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rose"
+      },
+      {
+        "id": "B",
+        "text": "rises"
+      },
+      {
+        "id": "C",
+        "text": "is rising"
+      },
+      {
+        "id": "D",
+        "text": "has risen"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Keterangan waktu tertentu di masa lalu (In 2015) memakai past simple, yaitu rose."
+  },
+  {
+    "id": "BT068-002",
+    "day": 68,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The unemployment rate fell ___ four percentage points, from twelve to eight.",
+    "options": [
+      {
+        "id": "A",
+        "text": "to"
+      },
+      {
+        "id": "B",
+        "text": "for"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "by"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Untuk menyatakan besar perubahan dipakai by, sedangkan to menunjukkan titik akhir."
+  },
+  {
+    "id": "BT068-003",
+    "day": 68,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Sales reached their highest point in March, which was the ___ of the year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "trough"
+      },
+      {
+        "id": "B",
+        "text": "axis"
+      },
+      {
+        "id": "C",
+        "text": "peak"
+      },
+      {
+        "id": "D",
+        "text": "trend"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Peak adalah titik tertinggi pada grafik garis, sedangkan trough adalah kebalikannya, yaitu titik terendah."
+  },
+  {
+    "id": "BT068-004",
+    "day": 68,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Between 2016 and 2018, the number of visitors showed a gradual ___, falling by about five percent each year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "surge"
+      },
+      {
+        "id": "B",
+        "text": "decline"
+      },
+      {
+        "id": "C",
+        "text": "peak"
+      },
+      {
+        "id": "D",
+        "text": "axis"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Decline berarti penurunan, dan gradual decline menggambarkan penurunan yang sedikit demi sedikit."
+  },
+  {
+    "id": "BT068-005",
+    "day": 68,
+    "type": "translate",
+    "prompt": "Grafik garis itu menunjukkan tren kenaikan yang stabil selama lima tahun.",
+    "acceptedAnswers": [
+      "The line graph displays a consistent rise over five years.",
+      "The chart displays a consistent rise across five years."
+    ],
+    "explanation": "Consistent rise berarti kenaikan yang konsisten, dan over five years dipakai untuk rentang waktu."
+  },
+  {
+    "id": "BT068-006",
+    "day": 68,
+    "type": "translate",
+    "prompt": "Angka penjualan turun tajam pada bulan Maret tahun lalu.",
+    "acceptedAnswers": [
+      "Sales dropped sharply in March last year.",
+      "Sales fell sharply in March last year."
+    ],
+    "explanation": "Dropped dan fell sama-sama dipakai untuk penurunan, dan sharply berarti tajam."
+  },
+  {
+    "id": "BT068-007",
+    "day": 68,
+    "type": "story",
+    "passage": "The city council's chart tracks monthly bike rentals from 2018 to 2023. Rentals started at about 12,000 in January 2018 and rose gradually for more than two years. The peak came in the summer of 2020, when the number reached almost 40,000. After that, the line fell sharply in 2021, when many offices reopened and people returned to commuting by car. From 2022 the figures became steadier, although they never returned to the earlier level. By the end of 2023, the monthly total had settled at around 25,000. The council says the chart shows a clear long-term pattern, but it warns that the data for 2020 may be affected by unusual conditions.",
+    "prompt": "Kapan jumlah penyewaan sepeda mencapai titik tertinggi menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Musim panas 2020"
+      },
+      {
+        "id": "B",
+        "text": "Januari 2018"
+      },
+      {
+        "id": "C",
+        "text": "Tahun 2021"
+      },
+      {
+        "id": "D",
+        "text": "Akhir 2023"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut puncak penyewaan terjadi pada musim panas 2020, ketika jumlahnya hampir 40.000."
+  },
+  {
+    "id": "BT068-008",
+    "day": 68,
+    "type": "essay",
+    "prompt": "Tulis 4 sampai 6 kalimat bahasa Inggris yang merangkum grafik garis berikut: pada 2018 jumlah pengguna sekitar 40 ribu orang, naik ke puncak 65 ribu pada 2021, lalu turun perlahan menjadi 50 ribu pada 2023. Mulai dengan gambaran umum.",
+    "modelAnswer": "Overall, the number of users increased over the period, although it fell after reaching its peak. In 2018, there were about 40,000 users, and this figure rose steadily over the following three years. The number peaked at approximately 65,000 in 2021, which was the highest point on the graph. After that, the line declined gradually, and by 2023 it had dropped to around 50,000. In summary, the graph shows strong growth followed by a moderate decline.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Ringkasan grafik garis dimulai dengan gambaran umum, lalu menyebut titik awal, puncak, dan akhir tren."
+  },
+  {
+    "id": "BT068-009",
+    "day": 68,
+    "type": "listen",
+    "script": "On the horizontal axis you can see the months, and on the vertical axis the number of riders. The line starts at about one thousand in January. It rises steadily until July, and then it drops sharply in August. By December it has recovered slightly, but it does not reach the summer peak.",
+    "prompt": "Apa yang terjadi pada bulan Agustus menurut pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It rose steadily."
+      },
+      {
+        "id": "B",
+        "text": "It dropped sharply."
+      },
+      {
+        "id": "C",
+        "text": "It stayed flat."
+      },
+      {
+        "id": "D",
+        "text": "It reached its peak."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut garis turun tajam pada Agustus, sedangkan puncak terjadi pada Juli."
+  },
+  {
+    "id": "BT068-010",
+    "day": 68,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Jumlah pelanggan meningkat pesat pada kuartal kedua.",
+    "acceptedAnswers": [
+      "The number of customers increased rapidly in the second quarter"
+    ],
+    "explanation": "Increased rapidly dipakai untuk kenaikan yang cepat, dan second quarter berarti kuartal kedua."
+  },
+  {
+    "id": "BT069-001",
+    "day": 69,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Public transport was ___ affordable than private cars, so most students chose the bus.",
+    "options": [
+      {
+        "id": "A",
+        "text": "more"
+      },
+      {
+        "id": "B",
+        "text": "most"
+      },
+      {
+        "id": "C",
+        "text": "much"
+      },
+      {
+        "id": "D",
+        "text": "many"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Perbandingan dua hal memakai bentuk komparatif more dengan kata sifat panjang, yaitu more affordable."
+  },
+  {
+    "id": "BT069-002",
+    "day": 69,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "The number of students who walked to school ___ higher in 2022 than in 2019.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "was"
+      },
+      {
+        "id": "C",
+        "text": "have been"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Subjek utamanya number yang tunggal, sehingga kata kerjanya was, bukan were atau are."
+  },
+  {
+    "id": "BT069-003",
+    "day": 69,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Electric scooters ___ bicycles in speed, reaching twenty kilometres per hour compared with twelve for a typical bike.",
+    "options": [
+      {
+        "id": "A",
+        "text": "underperformed"
+      },
+      {
+        "id": "B",
+        "text": "outnumbered"
+      },
+      {
+        "id": "C",
+        "text": "outlined"
+      },
+      {
+        "id": "D",
+        "text": "outperformed"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Outperform berarti melampaui dalam hal tertentu, dan di sini skuter lebih cepat daripada sepeda."
+  },
+  {
+    "id": "BT069-004",
+    "day": 69,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The rise in bus fares was ___: it increased by almost half in just one year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "slight"
+      },
+      {
+        "id": "B",
+        "text": "gradual"
+      },
+      {
+        "id": "C",
+        "text": "significant"
+      },
+      {
+        "id": "D",
+        "text": "negligible"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Significant berarti cukup besar untuk diperhatikan, dan kenaikan hampir setengah dalam setahun termasuk besar."
+  },
+  {
+    "id": "BT069-005",
+    "day": 69,
+    "type": "translate",
+    "prompt": "Diagram batang itu membandingkan jumlah siswa di tiga kota.",
+    "acceptedAnswers": [
+      "The bar chart compares the number of students in three cities.",
+      "The bar chart compares the numbers of students in three cities."
+    ],
+    "explanation": "Compare dipakai untuk membandingkan beberapa kelompok, dan the number of memakai kata kerja tunggal."
+  },
+  {
+    "id": "BT069-006",
+    "day": 69,
+    "type": "translate",
+    "prompt": "Kategori transportasi umum tumbuh secara bertahap selama lima tahun.",
+    "acceptedAnswers": [
+      "The public transport category grew gradually over five years.",
+      "The public transport category increased gradually over five years."
+    ],
+    "explanation": "Gradually berarti sedikit demi sedikit, dan grew atau increased sama-sama dipakai untuk pertumbuhan."
+  },
+  {
+    "id": "BT069-007",
+    "day": 69,
+    "type": "story",
+    "passage": "A school canteen surveyed 500 students about their favourite drinks, and the results were shown in a bar chart. Water was the most common choice, with about 40 percent of students picking it. Fruit juice came second at around 25 percent, while milk was chosen by only 10 percent. Fizzy drinks and tea made up the rest, and the gap between them was about two percentage points. The canteen manager said the result for water was a significant improvement compared with five years ago, when water was only a minor choice. She plans to keep the water fountains open all day and to add more fruit juice options next term.",
+    "prompt": "Berapa persen siswa yang memilih susu menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "25 persen"
+      },
+      {
+        "id": "B",
+        "text": "40 persen"
+      },
+      {
+        "id": "C",
+        "text": "10 persen"
+      },
+      {
+        "id": "D",
+        "text": "50 persen"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut bahwa susu dipilih hanya oleh 10 persen siswa."
+  },
+  {
+    "id": "BT069-008",
+    "day": 69,
+    "type": "essay",
+    "prompt": "Tulis 4 sampai 6 kalimat bahasa Inggris yang membandingkan dua kategori dari diagram batang berikut: sepeda 45 persen, bus 30 persen, mobil 15 persen, dan jalan kaki 10 persen. Gunakan minimal dua kata perbandingan, misalnya higher atau lower.",
+    "modelAnswer": "The bar chart shows the proportion of commuters by four modes of transport. Cycling was the most popular option, accounting for 45 percent of commuters. Buses came second with 30 percent, roughly two thirds of the cycling figure. Private cars were used by 15 percent, which is half the number for buses, while walking was the least common choice at 10 percent. Overall, cycling outperformed every other mode of transport.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Esai ini melatih membandingkan kategori dengan angka persentase dan kata perbandingan yang tepat."
+  },
+  {
+    "id": "BT069-009",
+    "day": 69,
+    "type": "listen",
+    "script": "Look at the bar chart on your screen. The tallest bar belongs to bicycles, which were chosen by almost half of the students. Buses come second, but the gap between them is substantial. Walking is the smallest category.",
+    "prompt": "Kategori apa yang paling tinggi menurut tutor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "buses"
+      },
+      {
+        "id": "B",
+        "text": "walking"
+      },
+      {
+        "id": "C",
+        "text": "private cars"
+      },
+      {
+        "id": "D",
+        "text": "bicycles"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Tutor menyebut batang tertinggi milik sepeda, yang dipilih hampir separuh siswa."
+  },
+  {
+    "id": "BT069-010",
+    "day": 69,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Bus mengungguli sepeda dalam jumlah penumpang pada tahun itu.",
+    "acceptedAnswers": [
+      "Buses outperformed bicycles in passenger numbers that year"
+    ],
+    "explanation": "Outperform berarti melampaui, dan passenger numbers berarti jumlah penumpang."
+  },
+  {
+    "id": "BT070-001",
+    "day": 70,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Rent ___ about one third of the monthly budget, according to the chart.",
+    "options": [
+      {
+        "id": "A",
+        "text": "accounts"
+      },
+      {
+        "id": "B",
+        "text": "accounts for"
+      },
+      {
+        "id": "C",
+        "text": "accounts of"
+      },
+      {
+        "id": "D",
+        "text": "accounts on"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Untuk menyatakan bagian dari total, kata kerja account memerlukan preposisi for, yaitu accounts for."
+  },
+  {
+    "id": "BT070-002",
+    "day": 70,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Every slice in the pie chart ___ a different expense, so the categories are easy to compare.",
+    "options": [
+      {
+        "id": "A",
+        "text": "represent"
+      },
+      {
+        "id": "B",
+        "text": "are representing"
+      },
+      {
+        "id": "C",
+        "text": "representing"
+      },
+      {
+        "id": "D",
+        "text": "represents"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Every menggunakan subjek tunggal, sehingga kata kerjanya represents."
+  },
+  {
+    "id": "BT070-003",
+    "day": 70,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In the chart, cars ___ the market, taking more than half of all sales.",
+    "options": [
+      {
+        "id": "A",
+        "text": "dominate"
+      },
+      {
+        "id": "B",
+        "text": "tabulate"
+      },
+      {
+        "id": "C",
+        "text": "rearrange"
+      },
+      {
+        "id": "D",
+        "text": "estimate"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Dominate berarti menguasai atau mendominasi, dan mobil di sini menguasai lebih dari separuh penjualan."
+  },
+  {
+    "id": "BT070-004",
+    "day": 70,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The researchers ___ the answers in a table, so each category could be compared easily.",
+    "options": [
+      {
+        "id": "A",
+        "text": "guessed"
+      },
+      {
+        "id": "B",
+        "text": "ignored"
+      },
+      {
+        "id": "C",
+        "text": "tabulated"
+      },
+      {
+        "id": "D",
+        "text": "translated"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Tabulate berarti menyusun data ke dalam bentuk tabel agar mudah dibandingkan."
+  },
+  {
+    "id": "BT070-005",
+    "day": 70,
+    "type": "translate",
+    "prompt": "Diagram lingkaran itu menunjukkan bahwa makanan menyumbang seperlima dari anggaran bulanan.",
+    "acceptedAnswers": [
+      "The pie chart shows that food makes up one fifth of the monthly budget.",
+      "The pie chart shows that food accounts for one fifth of the monthly budget."
+    ],
+    "explanation": "Make up dan account for sama-sama dipakai untuk menyatakan bagian dari total, dan one third berarti sepertiga."
+  },
+  {
+    "id": "BT070-006",
+    "day": 70,
+    "type": "translate",
+    "prompt": "Tabel itu merinci pengeluaran rumah tangga berdasarkan kategori.",
+    "acceptedAnswers": [
+      "The table breaks down household spending by category.",
+      "The table breaks household spending down by category."
+    ],
+    "explanation": "Break down berarti merinci atau memecah data menjadi bagian yang lebih kecil."
+  },
+  {
+    "id": "BT070-007",
+    "day": 70,
+    "type": "story",
+    "passage": "The town council published a breakdown of its electricity sources for last year. Wind power provided the largest share, at 42 percent of the total supply. Solar panels made up about 18 percent, which was higher than the council had predicted. Natural gas still accounted for roughly a quarter of the electricity, mainly because two older power stations stayed open during the winter. The remaining share came from hydro power. The council promised that its next report would show the figures in a table, so residents can compare the years more easily. Several residents asked why the gas share had remained high, and the council agreed to explain it at the next public meeting.",
+    "prompt": "Sumber listrik mana yang menyumbang bagian terbesar menurut teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tenaga surya"
+      },
+      {
+        "id": "B",
+        "text": "Tenaga angin"
+      },
+      {
+        "id": "C",
+        "text": "Gas alam"
+      },
+      {
+        "id": "D",
+        "text": "Tenaga air"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut tenaga angin sebagai sumber terbesar dengan 42 persen dari total pasokan."
+  },
+  {
+    "id": "BT070-008",
+    "day": 70,
+    "type": "essay",
+    "prompt": "Tulis 4 sampai 6 kalimat bahasa Inggris untuk merangkum diagram lingkaran berikut: transportasi 40 persen, makanan 25 persen, hiburan 20 persen, dan lainnya 15 persen. Sebutkan kategori terbesar dan terkecil.",
+    "modelAnswer": "The pie chart shows how a household's monthly spending was divided among four categories. Transport was the largest category, accounting for 40 percent of the total. Food came second with 25 percent, which is more than half of the transport share. Entertainment made up 20 percent, while other expenses formed the smallest slice at 15 percent. Overall, transport and food together constitute almost two thirds of the spending.",
+    "rubric": [
+      {
+        "criterion": "Isi dan ide"
+      },
+      {
+        "criterion": "Tata bahasa"
+      },
+      {
+        "criterion": "Kosakata dan kelancaran"
+      }
+    ],
+    "explanation": "Ringkasan diagram lingkaran menyebut kategori terbesar dan terkecil, lalu menutup dengan gabungan dua kategori utama."
+  },
+  {
+    "id": "BT070-009",
+    "day": 70,
+    "type": "listen",
+    "script": "The whole circle in this pie chart represents the total monthly spending of the households surveyed. The largest slice is rent, which takes about a third of the budget. Food is the second-largest slice, slightly bigger than transport. Entertainment is the smallest slice, at about five percent.",
+    "prompt": "Apa kategori terkecil menurut tutor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Food"
+      },
+      {
+        "id": "B",
+        "text": "Transport"
+      },
+      {
+        "id": "C",
+        "text": "Entertainment"
+      },
+      {
+        "id": "D",
+        "text": "Rent"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Tutor menyebut hiburan sebagai potongan terkecil, sekitar lima persen dari total."
+  },
+  {
+    "id": "BT070-010",
+    "day": 70,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat bahasa Inggris yang berarti: Sewa rumah menyumbang sekitar sepertiga dari anggaran bulanan.",
+    "acceptedAnswers": [
+      "Rent makes up about a third of the monthly budget"
+    ],
+    "explanation": "Make up dan account for dipakai untuk menyatakan bagian dari total, dan about a third berarti sekitar sepertiga."
+  }
 ]

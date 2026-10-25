@@ -583,25 +583,6 @@
     "explanation": "Teks menulis 'the blue bag belongs to my cousin', jadi pemilik tas biru adalah sepupu."
   },
   {
-    "id": "BT003-008",
-    "day": 3,
-    "type": "essay",
-    "prompt": "Tulis 3 kalimat tentang anggota keluargamu. Gunakan kata ganti kepemilikan dan kata ganti objek.",
-    "modelAnswer": "My grandmother lives in Solo with my aunt. I visit her every holiday, and she always cooks special soup for us. Our family is very close, so we call each other every week.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Gunakan my atau our sebelum kata benda, dan her, us, atau them setelah kata kerja atau preposisi."
-  },
-  {
     "id": "BT003-009",
     "day": 3,
     "type": "listen",

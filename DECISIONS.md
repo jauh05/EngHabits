@@ -2,6 +2,14 @@
 
 Catatan keputusan teknis, urut dari yang terbaru.
 
+## 2026-10-25: Bank tanpa batas, esai pendapat dihapus, dan timer
+
+1. **Bank tidak lagi membatasi battle.** Soal yang belum pernah dipakai pemain diutamakan. Kalau sudah habis, soal lama dipakai lagi secara acak. Batas yang tersisa hanya level hari.
+2. **Pilihan jawaban diacak** setiap kali soal dipakai. Kunci jawaban ikut disesuaikan.
+3. **Soal esai pendapat dan keluarga dihapus** dari bank: 10 soal (BT003-008, BT040-008, BT062-008, BT075-008, BT076-008, BT078-008, BT079-008, BT080-008, BT086-008, BT089-008). Esai lain yang tersisa tetap dinilai sendiri.
+4. **Validator** mengizinkan 9 atau 10 soal per hari, dan esai paling banyak 1 per hari.
+5. **Timer** sebelumnya membeku karena sisa waktu dihitung dari data yang tidak berubah. Sekarang selisih jam dihitung saat keadaan diterima, sehingga hitungan mundur berjalan.
+
 ## 2026-10-25: Teman, seri, dan bank yang kurang
 
 1. **Teman.** Teman ditambahkan sekali dengan ID, dan hubungannya dua arah. Undangan ke teman memakai pengaturan mode dan jumlah soal yang sedang dipilih, tanpa mengetik ID lagi. Teman bisa dihapus.

@@ -1222,25 +1222,6 @@
     "explanation": "Sari menilai teknologi tidak menghapus tradisi, melainkan mengubah cara orang membagikannya."
   },
   {
-    "id": "BT086-008",
-    "day": 86,
-    "type": "essay",
-    "prompt": "Some people argue that technological progress is making society more isolated, while others believe it brings people closer together. Discuss both views and give your own opinion.",
-    "modelAnswer": "Technological progress has changed the way people form relationships, and opinions on its effects are divided. Those who see it as harmful argue that screens encourage people to spend time alone, which weakens face-to-face conversation and community ties. On the other hand, supporters point out that digital platforms allow families to stay in touch across great distances and help communities organise support during emergencies. In my view, the effect depends on how technology is used rather than on the technology itself. Therefore, schools and families should teach young people to balance online and offline interaction so that innovation strengthens, rather than replaces, human connection.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Esai diskusi ini melatih penyajian dua pandangan secara seimbang, lalu ditutup dengan opini yang didukung alasan."
-  },
-  {
     "id": "BT086-009",
     "day": 86,
     "type": "listen",
@@ -1859,25 +1840,6 @@
     ],
     "correct": "A",
     "explanation": "Kevin mengunduh deskriptor agar tahu apa yang dinilai, sehingga ia merasa lebih tenang saat tes."
-  },
-  {
-    "id": "BT089-008",
-    "day": 89,
-    "type": "essay",
-    "prompt": "Some people think that governments should make public transport free for all citizens, while others believe that users should pay. Discuss both views and give your own opinion.",
-    "modelAnswer": "Some people argue that free public transport would reduce traffic and help low-income families, while others believe that fares are needed to maintain good services. Supporters of free travel point out that fewer cars on the road would reduce congestion and pollution, and that everyone would have fair access to jobs and education. Critics, however, warn that without fares, operators may struggle to fund new buses and trains, which could lead to overcrowding and poor reliability. In my opinion, a partial approach is most effective, with free travel for students and the elderly and fares for other passengers. This balance supports accessibility while keeping the system financially sustainable.",
-    "rubric": [
-      {
-        "criterion": "Isi dan ide"
-      },
-      {
-        "criterion": "Tata bahasa"
-      },
-      {
-        "criterion": "Kosakata dan kelancaran"
-      }
-    ],
-    "explanation": "Esai diskusi ini melatih kohesi: setiap pandangan dihubungkan dengan kata penghubung, lalu ditutup dengan opini yang seimbang."
   },
   {
     "id": "BT089-009",

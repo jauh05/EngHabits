@@ -195,13 +195,12 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     inviteLog.set(key, hits);
   }
 
-  /** Soal yang boleh dipakai untuk satu jenis soal: di bawah batas hari, belum pernah dipakai, dan sesuai tag. */
-  function candidates(spec, type, poolDay, used) {
+  /** Soal yang boleh dipakai untuk satu jenis soal: di bawah batas hari dan sesuai tag. */
+  function candidates(spec, type, poolDay) {
     return bank.filter(
       (item) =>
         item.type === type &&
         item.day <= poolDay &&
-        !used.has(item.id) &&
         (item.type !== 'mcq' || !spec.tags || spec.tags.includes(item.tag)),
     );
   }
@@ -210,16 +209,28 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     return new Set(playerIds.flatMap((id) => usedByStmt.all(id).map((row) => row.item_id)));
   }
 
-  /** Ketersediaan soal per jenis. Dipakai untuk peringatan sebelum undangan dikirim. */
-  function availability({ mode, poolDay, playerIds }) {
+  /** Ketersediaan soal per jenis, untuk pratinjau. Bank tidak lagi membatasi battle, hanya level hari. */
+  function availability({ mode, poolDay }) {
     const spec = specFor(mode);
-    const used = usedBy(playerIds);
-    return Object.fromEntries(spec.types.map((type) => [type, candidates(spec, type, poolDay, used).length]));
+    return Object.fromEntries(spec.types.map((type) => [type, candidates(spec, type, poolDay).length]));
+  }
+
+  /** Mengacak urutan pilihan jawaban dan menyesuaikan kunci, supaya soal yang sama tampil berbeda. */
+  function shuffleOptions(item) {
+    if (!item.options) return item;
+    const order = [...item.options].sort(() => randomInt(3) - 1);
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F'];
+    const correctIndex = order.findIndex((option) => option.id === item.correct);
+    return {
+      ...item,
+      options: order.map((option, index) => ({ id: letters[index], text: option.text })),
+      correct: letters[correctIndex],
+    };
   }
 
   /**
-   * Memilih soal. Jika bank kurang untuk suatu jenis, jumlahnya diturunkan ke yang tersedia,
-   * sehingga battle tetap bisa jalan. Komposisi dan total akhir ikut dikembalikan.
+   * Memilih soal. Soal yang belum pernah dipakai pemain diutamakan. Jika sudah habis, soal lama dipakai lagi
+   * secara acak, sehingga battle tidak pernah berhenti karena bank. Pilihan jawaban selalu diacak.
    */
   function pickItems({ mode, composition, poolDay, playerIds }) {
     const spec = specFor(mode);
@@ -228,18 +239,19 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     const adjusted = {};
     for (const [type, count] of Object.entries(composition)) {
       if (count === 0) continue;
-      const pool = candidates(spec, type, poolDay, used);
-      const take = Math.min(count, pool.length);
-      if (take === 0) continue;
-      adjusted[type] = take;
-      const shuffled = [...pool].sort(() => randomInt(3) - 1);
-      picked.push(...shuffled.slice(0, take));
+      const pool = candidates(spec, type, poolDay);
+      if (pool.length === 0) continue;
+      const fresh = pool.filter((item) => !used.has(item.id)).sort(() => randomInt(3) - 1);
+      const stale = pool.filter((item) => used.has(item.id)).sort(() => randomInt(3) - 1);
+      const chosen = [...fresh, ...stale].slice(0, count);
+      adjusted[type] = chosen.length;
+      picked.push(...chosen);
     }
     const total = Object.values(adjusted).reduce((sum, value) => sum + value, 0);
     if (total === 0) {
       throw new BattleError(422, 'Bank soal untuk level ini belum punya soal yang bisa dipakai.');
     }
-    const order = picked.sort(() => randomInt(3) - 1);
+    const order = picked.map((item) => shuffleOptions(item)).sort(() => randomInt(3) - 1);
     const items = order.map((item, index) => ({
       index,
       id: item.id,
@@ -495,7 +507,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     /** Pratinjau sebelum undangan dikirim: jumlah soal yang tersedia dan jenis yang kurang. */
     preview(creatorId, input) {
       const prepared = prepareInvite(creatorId, input);
-      const available = availability({ mode: prepared.mode, poolDay: prepared.poolDay, playerIds: [creatorId, prepared.opponent.id] });
+      const available = availability({ mode: prepared.mode, poolDay: prepared.poolDay });
       const shortage = Object.entries(prepared.composition)
         .filter(([type, count]) => count > (available[type] ?? 0))
         .map(([type, count]) => ({ type, requested: count, available: available[type] ?? 0 }));

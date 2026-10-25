@@ -43,9 +43,9 @@ function answerFor(item, right) {
 }
 
 describe('bank battle asli', () => {
-  it('memuat 900 soal dengan id unik', () => {
-    expect(BANK).toHaveLength(900);
-    expect(new Set(BANK.map((item) => item.id)).size).toBe(900);
+  it('memuat 890 soal dengan id unik', () => {
+    expect(BANK).toHaveLength(890);
+    expect(new Set(BANK.map((item) => item.id)).size).toBe(890);
   });
 
   it('battle campuran 8 soal di level hari 4 selesai dimainkan', async () => {

@@ -80,7 +80,7 @@ for (const { name, data } of readJsonFiles(BATTLE_DIR)) {
 for (let day = 1; day <= 90; day += 1) {
   const today = items.filter((item) => item.day === day);
   if (today.length === 0) continue;
-  if (today.length !== PER_DAY_TOTAL) fail(`hari ${day}: ${today.length} soal, harus ${PER_DAY_TOTAL}`);
+  if (today.length !== PER_DAY_TOTAL && today.length !== PER_DAY_TOTAL - 1) fail(`hari ${day}: ${today.length} soal, harus ${PER_DAY_TOTAL} atau ${PER_DAY_TOTAL - 1}`);
   const count = (predicate: (item: BattleItem) => boolean) => today.filter(predicate).length;
   const mcq = count((item) => item.type === 'mcq');
   if (mcq !== PER_DAY.mcq) fail(`hari ${day}: pilihan ganda ${mcq}, harus ${PER_DAY.mcq}`);
@@ -88,7 +88,9 @@ for (let day = 1; day <= 90; day += 1) {
   const vocab = count((item) => item.type === 'mcq' && item.tag === 'vocab');
   if (grammar !== PER_DAY.grammar) fail(`hari ${day}: tata bahasa ${grammar}, harus ${PER_DAY.grammar}`);
   if (vocab !== PER_DAY.vocab) fail(`hari ${day}: kosakata ${vocab}, harus ${PER_DAY.vocab}`);
-  for (const type of ['translate', 'story', 'essay', 'listen', 'reorder'] as const) {
+  const essays = count((item) => item.type === 'essay');
+  if (essays > 1) fail(`hari ${day}: esai ${essays}, paling banyak 1`);
+  for (const type of ['translate', 'story', 'listen', 'reorder'] as const) {
     const total = count((item) => item.type === type);
     if (total !== PER_DAY[type]) fail(`hari ${day}: ${type} ${total}, harus ${PER_DAY[type]}`);
   }

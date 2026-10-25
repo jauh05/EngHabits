@@ -30,11 +30,18 @@ export function BattleRoomPage() {
   const [loadError, setLoadError] = useState<string>();
   const [now, setNow] = useState(() => Date.now());
   const [streamKey, setStreamKey] = useState(0);
+  const [offset, setOffset] = useState(0);
+
+  // Selisih jam dihitung saat keadaan diterima, supaya hitung mundur tidak membeku.
+  const applySnapshot = (next: BattleSnapshot) => {
+    setSnap(next);
+    setOffset(next.serverNow - Date.now());
+  };
 
   useEffect(() => {
     if (!token) return;
     getBattle(token, id)
-      .then(setSnap)
+      .then(applySnapshot)
       .catch((caught) => setLoadError(caught instanceof Error ? caught.message : 'Battle tidak bisa dibuka.'));
   }, [token, id, streamKey]);
 
@@ -43,7 +50,7 @@ export function BattleRoomPage() {
     return openBattleStream(
       token,
       (event) => {
-        if (event.type === 'battle' && event.battle.id === id) setSnap(event.battle);
+        if (event.type === 'battle' && event.battle.id === id) applySnapshot(event.battle);
       },
       () => {
         // Koneksi putus: coba lagi setelah jeda singkat, dan muat ulang keadaan dari server.
@@ -107,7 +114,7 @@ export function BattleRoomPage() {
           key={snap.current.index}
           snap={snap}
           item={snap.current}
-          remaining={remainingMs(snap, now)}
+          remaining={remainingMs(snap, now, offset)}
           token={token}
           onError={(message) => show(message, 'error')}
         />
