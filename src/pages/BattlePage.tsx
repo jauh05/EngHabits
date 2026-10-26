@@ -66,6 +66,15 @@ const MODE_TONE: Record<BattleMode, string> = {
   bertahan: 'bg-tint-rose [--edge:color-mix(in_srgb,var(--tint-rose),var(--shade)_18%)]',
 };
 
+const STATUS_LABEL: Record<string, string> = {
+  pending: 'Menunggu',
+  active: 'Berjalan',
+  rating: 'Menilai esai',
+  expired: 'Kedaluwarsa',
+  declined: 'Ditolak',
+  cancelled: 'Dibatalkan',
+};
+
 const MAX_MODES = 3;
 
 /** Lobi battle: ID saya, undangan masuk, kirim undangan, dan riwayat. */
@@ -506,7 +515,7 @@ export function BattlePage() {
                   {item.winner === 'you' ? 'Menang' : item.winner === 'opponent' ? 'Kalah' : 'Seri'}
                 </Badge>
               ) : (
-                <Badge>{item.status}</Badge>
+                <Badge>{STATUS_LABEL[item.status] ?? item.status}</Badge>
               )}
             </Card>
           ))

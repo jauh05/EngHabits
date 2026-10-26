@@ -279,3 +279,27 @@ describe('kekurangan bank dan teman', () => {
     expect(after.data.friends).toHaveLength(0);
   });
 });
+
+describe('battle tidak menggantung', () => {
+  it('mode esai bisa dibuat, dan battle selesai walau penilaian tidak dikerjakan', async () => {
+    const a = await registerUser('Wina', 'wina.stuck@contoh.id');
+    const b = await registerUser('Xavi', 'xavi.stuck@contoh.id');
+    await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
+    await call('PUT', '/api/progress/mastered', b.token, { days: [1, 2, 3] });
+    const invite = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'esai', total: 8 });
+    expect(invite.status).toBe(201);
+    await call('POST', `/api/battles/${invite.data.battleId}/respond`, b.token, { accept: true });
+
+    let state;
+    for (let step = 0; step < 300; step += 1) {
+      state = (await call('GET', `/api/battles/${invite.data.battleId}`, a.token)).data;
+      if (state.status === 'finished') break;
+      if (state.phase === 'question' && state.current) {
+        await call('POST', `/api/battles/${state.id}/answer`, a.token, { idx: state.current.index, answer: 'tulisan' });
+        await call('POST', `/api/battles/${state.id}/answer`, b.token, { idx: state.current.index, answer: 'tulisan' });
+      }
+      await new Promise((resolve) => setTimeout(resolve, 20));
+    }
+    expect(state.status).toBe('finished');
+  }, 30_000);
+});

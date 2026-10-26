@@ -7,6 +7,8 @@ export const REVEAL_MS = 3500;
 export const INVITE_TTL_MS = 10 * 60_000;
 export const TOTALS = [8, 10, 15, 20];
 export const LIVES = 3;
+/** Batas waktu penilaian esai. Yang belum dinilai dihitung 0 saat waktu habis. */
+export const RATING_MS = 3 * 60_000;
 
 /** Mode battle: tipe soal yang boleh dipakai, filter tag opsional, dan waktu per soal (detik). */
 export const MODES = {
@@ -116,7 +118,8 @@ export function validateComposition(mode, total, composition) {
   }
   const sum = entries.reduce((total, [, count]) => total + count, 0);
   if (sum !== total) return `Jumlah tipe soal harus tepat ${total}.`;
-  if ((composition.essay ?? 0) > Math.floor(total / 2)) return 'Esai paling banyak setengah dari total soal.';
+  const mixed = mode === 'campuran' || mode.includes('+');
+  if (mixed && (composition.essay ?? 0) > Math.floor(total / 2)) return 'Esai paling banyak setengah dari total soal.';
   return null;
 }
 
@@ -438,6 +441,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     room.ratings = new Map();
     setStatus.run('rating', null, iso(), room.id);
     broadcast(room);
+    later(room, RATING_MS, () => finish(room));
   }
 
   function finish(room) {
@@ -657,6 +661,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     },
 
     history(userId) {
+      expireStaleInvites();
       return historyOf.all(userId, userId).map((row) => ({
         id: row.id,
         mode: row.mode,
@@ -670,6 +675,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     },
 
     pendingInvites(userId) {
+      expireStaleInvites();
       return db
         .prepare("SELECT * FROM battles WHERE opponent_id = ? AND status = 'pending' ORDER BY created_at DESC LIMIT 10")
         .all(userId)
@@ -690,6 +696,13 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
 
     userPublic: nameOf,
   };
+
+  function expireStaleInvites() {
+    db.prepare("UPDATE battles SET status = 'expired', updated_at = ? WHERE status = 'pending' AND created_at < ?").run(
+      iso(),
+      new Date(now() - INVITE_TTL_MS).toISOString(),
+    );
+  }
 
   function inviteView(room) {
     return {
