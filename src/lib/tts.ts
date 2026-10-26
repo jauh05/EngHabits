@@ -18,6 +18,9 @@ export function hasEnglishVoice(): boolean {
 export type SpeakOptions = {
   accent: Accent;
   rate: number;
+  /** Suara khusus untuk pembicara ini. Bila kosong, pakai voice default untuk aksen. */
+  voice?: SpeechSynthesisVoice;
+  pitch?: number;
   onStart?: () => void;
   onEnd?: () => void;
 };
@@ -49,8 +52,9 @@ export function speak(text: string, options: SpeakOptions): void {
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.lang = options.accent;
   utterance.rate = options.rate;
-  const voice = pickVoice(options.accent);
+  const voice = options.voice ?? pickVoice(options.accent);
   if (voice) utterance.voice = voice;
+  if (options.pitch !== undefined) utterance.pitch = options.pitch;
   const finish = () => {
     if (activeUtterance === utterance) activeUtterance = null;
     options.onEnd?.();
@@ -64,4 +68,28 @@ export function speak(text: string, options: SpeakOptions): void {
 
 export function stopSpeaking(): void {
   if (ttsSupported()) window.speechSynthesis.cancel();
+}
+
+/** Semua voice bahasa Inggris di perangkat. Voice untuk aksen yang dipilih diletakkan di depan. */
+export function englishVoices(accent: Accent): SpeechSynthesisVoice[] {
+  if (!ttsSupported()) return [];
+  const english = window.speechSynthesis.getVoices().filter((voice) => voice.lang.startsWith('en'));
+  return [...english.filter((voice) => voice.lang === accent), ...english.filter((voice) => voice.lang !== accent)];
+}
+
+/**
+ * Suara untuk satu pembicara dalam percakapan. Setiap pembicara dapat voice berbeda bila perangkat punya lebih
+ * dari satu voice Inggris. Bila hanya ada satu voice, nada dibedakan supaya pembicara tetap terdengar berbeda.
+ */
+export function speakerVoice(
+  speaker: string,
+  speakers: string[],
+  accent: Accent,
+): { voice?: SpeechSynthesisVoice; pitch: number } {
+  const index = Math.max(0, speakers.indexOf(speaker));
+  const voices = englishVoices(accent);
+  const voice = voices.length > 0 ? voices[index % voices.length] : undefined;
+  const sameVoice = voices.length <= 1;
+  const pitch = sameVoice ? [1, 1.35, 0.8, 1.2][index % 4] : 1;
+  return { voice, pitch };
 }

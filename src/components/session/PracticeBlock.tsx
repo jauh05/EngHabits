@@ -5,7 +5,7 @@ import { easeOut } from '../../lib/motion';
 import type { BlockView } from '../../lib/content';
 import type { Answers } from '../../lib/grading';
 import { useSettings } from '../../lib/settings';
-import { speak, ttsSupported } from '../../lib/tts';
+import { speak, speakerVoice, ttsSupported } from '../../lib/tts';
 import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
 import { QuestionCard } from './QuestionList';
@@ -72,9 +72,13 @@ function ListeningPart({ block }: { block: Extract<BlockView, { type: 'listening
       return;
     }
     setPlayingAll(true);
+    const speakers = [...new Set(lines.map((line) => line.speaker))];
+    const variant = speakerVoice(lines[index].speaker, speakers, settings.accent);
     speak(lines[index].text, {
       accent: settings.accent,
       rate: settings.rate,
+      voice: variant.voice,
+      pitch: variant.pitch,
       onStart: () => setCurrent(index),
       onEnd: () => playFrom(index + 1),
     });
