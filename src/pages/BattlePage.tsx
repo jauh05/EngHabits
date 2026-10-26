@@ -96,11 +96,13 @@ export function BattlePage() {
   const [error, setError] = useState<string>();
   const [connected, setConnected] = useState(true);
 
+  // Daftar teman dan status online diperbarui setiap 30 detik.
   useEffect(() => {
     if (!token) return;
-    listFriends(token)
-      .then(setFriends)
-      .catch(() => undefined);
+    const load = () => listFriends(token).then(setFriends).catch(() => undefined);
+    void load();
+    const timer = window.setInterval(() => void load(), 30_000);
+    return () => window.clearInterval(timer);
   }, [token]);
 
   useEffect(() => {
@@ -329,8 +331,16 @@ export function BattlePage() {
             {friends.map((friend) => (
               <li key={friend.publicId} className="flex items-center gap-3 rounded-2xl bg-bg p-3">
                 <div className="min-w-0 flex-1">
-                  <p className="truncate font-bold text-ink">{friend.name}</p>
-                  <p className="break-all text-xs font-semibold text-muted">{friend.publicId}</p>
+                  <p className="flex items-center gap-2 truncate font-bold text-ink">
+                    <span
+                      aria-hidden="true"
+                      className={`inline-block size-2.5 shrink-0 rounded-full ${friend.online ? 'bg-success' : 'bg-muted/40'}`}
+                    />
+                    {friend.name}
+                  </p>
+                  <p className="break-all text-xs font-semibold text-muted">
+                    {friend.online ? 'Online' : 'Offline'} · {friend.publicId}
+                  </p>
                 </div>
                 <Button size="md" onClick={() => invite(friend.publicId)} disabled={busy}>
                   Undang

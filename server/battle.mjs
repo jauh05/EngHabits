@@ -484,7 +484,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
   const insertFriend = db.prepare('INSERT OR IGNORE INTO friends (user_id, friend_id) VALUES (?, ?)');
   const deleteFriend = db.prepare('DELETE FROM friends WHERE user_id = ? AND friend_id = ?');
   const friendsOf = db.prepare(
-    'SELECT users.public_id, users.name FROM friends JOIN users ON users.id = friends.friend_id WHERE friends.user_id = ? ORDER BY users.name',
+    'SELECT users.id, users.public_id, users.name FROM friends JOIN users ON users.id = friends.friend_id WHERE friends.user_id = ? ORDER BY users.name',
   );
 
   /** Validasi undangan yang dipakai bersama oleh pratinjau dan pengiriman. */
@@ -553,7 +553,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     },
 
     listFriends(userId) {
-      return friendsOf.all(userId).map((row) => ({ publicId: row.public_id, name: row.name }));
+      return friendsOf.all(userId).map((row) => ({ id: row.id, publicId: row.public_id, name: row.name }));
     },
 
     removeFriend(userId, publicId) {

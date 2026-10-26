@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef } from 'react';
-import { fetchAccount } from './battle';
+import { fetchAccount, sendPresence } from './battle';
 import { readAllData, replaceAllData } from './db';
 import { mergeData } from './syncMerge';
 import { syncWithServer } from './sync';
@@ -53,6 +53,14 @@ export function useAccountSync() {
       running.current = false;
     }
   }, [signedIn, token, refresh]);
+
+  // Kehadiran: ping berkala selama aplikasi terbuka, supaya teman bisa melihat status online.
+  useEffect(() => {
+    if (!signedIn || !token) return;
+    void sendPresence(token);
+    const timer = window.setInterval(() => void sendPresence(token), 30_000);
+    return () => window.clearInterval(timer);
+  }, [signedIn, token]);
 
   useEffect(() => {
     if (!data.loaded) return;

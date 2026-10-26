@@ -194,6 +194,9 @@ export function createApp(db, options = {}) {
   const loginLimiter = createLimiter(LOGIN_WINDOW_MS);
   const registerLimiter = createLimiter(REGISTER_WINDOW_MS);
   const streams = new Map();
+  // Kehadiran: waktu terakhir pengguna mengirim ping. Dianggap online bila ping dalam 90 detik terakhir.
+  const lastSeen = new Map();
+  const ONLINE_MS = 90_000;
   const bank = options.bank ?? loadBattleBank();
 
   const insertUser = db.prepare(
@@ -350,7 +353,18 @@ export function createApp(db, options = {}) {
 
     async friendList({ req }) {
       const user = requireUser(req);
-      return { status: 200, body: { friends: battles.listFriends(user.id) } };
+      const friends = battles.listFriends(user.id).map((friend) => ({
+        publicId: friend.publicId,
+        name: friend.name,
+        online: Date.now() - (lastSeen.get(friend.id) ?? 0) < ONLINE_MS,
+      }));
+      return { status: 200, body: { friends } };
+    },
+
+    async presence({ req }) {
+      const user = requireUser(req);
+      lastSeen.set(user.id, Date.now());
+      return { status: 204, body: null };
     },
 
     async friendAdd({ req }) {
@@ -436,6 +450,7 @@ export function createApp(db, options = {}) {
     ['GET', '/api/battles', handlers.battleList],
     ['POST', '/api/battles/preview', handlers.battlePreview],
     ['GET', '/api/friends', handlers.friendList],
+    ['POST', '/api/presence', handlers.presence],
     ['POST', '/api/friends', handlers.friendAdd],
     ['DELETE', '/api/friends/:publicId', handlers.friendRemove],
     ['POST', '/api/battles', handlers.battleCreate],

@@ -249,7 +249,11 @@ export function previewBattle(
   return request<Preview>('POST', '/battles/preview', token, input);
 }
 
-export type Friend = { publicId: string; name: string };
+export type Friend = { publicId: string; name: string; online: boolean };
+
+export function sendPresence(token: string) {
+  return request<null>('POST', '/presence', token).catch(() => null);
+}
 
 export function listFriends(token: string) {
   return request<{ friends: Friend[] }>('GET', '/friends', token).then((data) => data.friends);

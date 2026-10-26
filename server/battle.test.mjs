@@ -303,3 +303,17 @@ describe('battle tidak menggantung', () => {
     expect(state.status).toBe('finished');
   }, 30_000);
 });
+
+describe('kehadiran teman', () => {
+  it('teman tampil online setelah mengirim ping, dan offline sebelumnya', async () => {
+    const a = await registerUser('Yuda', 'yuda.presence@contoh.id');
+    const b = await registerUser('Zelda', 'zelda.presence@contoh.id');
+    await call('POST', '/api/friends', a.token, { publicId: b.publicId });
+    const before = await call('GET', '/api/friends', a.token);
+    expect(before.data.friends[0].online).toBe(false);
+    expect(before.data.friends[0].id).toBeUndefined();
+    await call('POST', '/api/presence', b.token);
+    const after = await call('GET', '/api/friends', a.token);
+    expect(after.data.friends[0].online).toBe(true);
+  });
+});
