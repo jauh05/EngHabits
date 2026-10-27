@@ -1,0 +1,2452 @@
+[
+  {
+    "id": "BT010-200",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: My parents ___ in Surabaya two weeks ago.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Parents adalah jamak dan ada penanda two weeks ago, jadi dipakai were."
+  },
+  {
+    "id": "BT010-201",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Budi ___ very nervous before the interview yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "was"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek Budi (he) memakai was untuk waktu lampau."
+  },
+  {
+    "id": "BT010-202",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ you at the bus stop at seven this morning?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Was"
+      },
+      {
+        "id": "B",
+        "text": "Were"
+      },
+      {
+        "id": "C",
+        "text": "Are"
+      },
+      {
+        "id": "D",
+        "text": "Did"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Untuk subjek you, pertanyaan lampau diawali were."
+  },
+  {
+    "id": "BT010-203",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: It ___ a quiet weekend because everyone was away.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Subjek it memakai was untuk waktu lampau."
+  },
+  {
+    "id": "BT010-204",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: I ___ at the meeting last Friday because I was sick.",
+    "options": [
+      {
+        "id": "A",
+        "text": "weren't"
+      },
+      {
+        "id": "B",
+        "text": "am not"
+      },
+      {
+        "id": "C",
+        "text": "wasn't"
+      },
+      {
+        "id": "D",
+        "text": "didn't"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek I memakai was, bentuk negatifnya wasn't."
+  },
+  {
+    "id": "BT010-205",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: The children ___ hungry after the party, so they left the cake.",
+    "options": [
+      {
+        "id": "A",
+        "text": "wasn't"
+      },
+      {
+        "id": "B",
+        "text": "weren't"
+      },
+      {
+        "id": "C",
+        "text": "isn't"
+      },
+      {
+        "id": "D",
+        "text": "didn't"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Children adalah jamak, jadi negatif lampaunya weren't."
+  },
+  {
+    "id": "BT010-206",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct for talking about a family member in the past?",
+    "options": [
+      {
+        "id": "A",
+        "text": "My sister were ill two days ago."
+      },
+      {
+        "id": "B",
+        "text": "My sister is ill two days ago."
+      },
+      {
+        "id": "C",
+        "text": "My sister be ill two days ago."
+      },
+      {
+        "id": "D",
+        "text": "My sister was ill two days ago."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Subjek my sister (she) memakai was, dan two days ago menandakan masa lampau."
+  },
+  {
+    "id": "BT010-207",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question is correct for asking about last Sunday?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Were your parents at home last Sunday?"
+      },
+      {
+        "id": "B",
+        "text": "Was your parents at home last Sunday?"
+      },
+      {
+        "id": "C",
+        "text": "Are your parents at home last Sunday?"
+      },
+      {
+        "id": "D",
+        "text": "Were at home your parents last Sunday?"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Parents jamak, jadi pertanyaan diawali were lalu diikuti subjek."
+  },
+  {
+    "id": "BT010-208",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which short answer is correct? Was Sinta at the library yesterday?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, she weren't."
+      },
+      {
+        "id": "B",
+        "text": "No, she isn't."
+      },
+      {
+        "id": "C",
+        "text": "No, she wasn't."
+      },
+      {
+        "id": "D",
+        "text": "No, she don't."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pertanyaan dengan was dijawab dengan was atau wasn't."
+  },
+  {
+    "id": "BT010-209",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which short answer is correct? Were they happy with the result?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes, they were."
+      },
+      {
+        "id": "B",
+        "text": "Yes, they was."
+      },
+      {
+        "id": "C",
+        "text": "Yes, they did."
+      },
+      {
+        "id": "D",
+        "text": "Yes, they be."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pertanyaan dengan were dijawab Yes, they were."
+  },
+  {
+    "id": "BT010-210",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Rahmat and I ___ classmates in junior high school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Rahmat and I berarti we, jadi memakai were."
+  },
+  {
+    "id": "BT010-211",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Where ___ your keys last night?",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "did"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "were"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Keys jamak, jadi pertanyaan lampaunya memakai were."
+  },
+  {
+    "id": "BT010-212",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: The soup ___ too salty, so I did not finish it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "was"
+      }
+    ],
+    "correct": "D",
+    "explanation": "The soup tunggal (it), jadi memakai was."
+  },
+  {
+    "id": "BT010-213",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: There ___ three cats under the car yesterday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Three cats jamak, jadi memakai there were."
+  },
+  {
+    "id": "BT010-214",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: You ___ right about the answer, and I was wrong.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "were"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek you selalu memakai were di masa lampau."
+  },
+  {
+    "id": "BT010-215",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: You ___ late for the lesson because you arrived on time.",
+    "options": [
+      {
+        "id": "A",
+        "text": "weren't"
+      },
+      {
+        "id": "B",
+        "text": "wasn't"
+      },
+      {
+        "id": "C",
+        "text": "aren't"
+      },
+      {
+        "id": "D",
+        "text": "didn't"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Subjek you memakai were, bentuk negatifnya weren't."
+  },
+  {
+    "id": "BT010-216",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: My phone ___ in my bag when I looked for it an hour ago.",
+    "options": [
+      {
+        "id": "A",
+        "text": "weren't"
+      },
+      {
+        "id": "B",
+        "text": "wasn't"
+      },
+      {
+        "id": "C",
+        "text": "isn't"
+      },
+      {
+        "id": "D",
+        "text": "don't"
+      }
+    ],
+    "correct": "B",
+    "explanation": "My phone tunggal (it), jadi negatif lampaunya wasn't."
+  },
+  {
+    "id": "BT010-217",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ the film interesting last weekend?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Were"
+      },
+      {
+        "id": "B",
+        "text": "Are"
+      },
+      {
+        "id": "C",
+        "text": "Did"
+      },
+      {
+        "id": "D",
+        "text": "Was"
+      }
+    ],
+    "correct": "D",
+    "explanation": "The film tunggal, jadi pertanyaan lampaunya diawali was."
+  },
+  {
+    "id": "BT010-218",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Last year, my brother ___ a high school student.",
+    "options": [
+      {
+        "id": "A",
+        "text": "was"
+      },
+      {
+        "id": "B",
+        "text": "were"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "A",
+    "explanation": "My brother (he) memakai was, dan last year menandakan masa lampau."
+  },
+  {
+    "id": "BT010-219",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence has the correct past form of to be with the subject they?",
+    "options": [
+      {
+        "id": "A",
+        "text": "They was at the station an hour ago."
+      },
+      {
+        "id": "B",
+        "text": "They are at the station an hour ago."
+      },
+      {
+        "id": "C",
+        "text": "They were at the station an hour ago."
+      },
+      {
+        "id": "D",
+        "text": "They be at the station an hour ago."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek they memakai were di masa lampau."
+  },
+  {
+    "id": "BT010-220",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is a correct negative statement in the past?",
+    "options": [
+      {
+        "id": "A",
+        "text": "She not was at school on Monday."
+      },
+      {
+        "id": "B",
+        "text": "She wasn't be at school on Monday."
+      },
+      {
+        "id": "C",
+        "text": "She don't was at school on Monday."
+      },
+      {
+        "id": "D",
+        "text": "She wasn't at school on Monday."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Negatif dibentuk dengan menaruh not setelah was, menjadi wasn't."
+  },
+  {
+    "id": "BT010-221",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question asks about a place in the past?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Where were your cousin last night?"
+      },
+      {
+        "id": "B",
+        "text": "Where was your cousin last night?"
+      },
+      {
+        "id": "C",
+        "text": "Where your cousin was last night?"
+      },
+      {
+        "id": "D",
+        "text": "Where is your cousin last night?"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Your cousin tunggal, jadi memakai where was."
+  },
+  {
+    "id": "BT010-222",
+    "day": 10,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Both of the teachers ___ kind to us last semester.",
+    "options": [
+      {
+        "id": "A",
+        "text": "were"
+      },
+      {
+        "id": "B",
+        "text": "was"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Both of the teachers jamak, jadi memakai were."
+  },
+  {
+    "id": "BT010-223",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the phrase: Good ___! The sun is just coming up.",
+    "options": [
+      {
+        "id": "A",
+        "text": "evening"
+      },
+      {
+        "id": "B",
+        "text": "tonight"
+      },
+      {
+        "id": "C",
+        "text": "morning"
+      },
+      {
+        "id": "D",
+        "text": "yesterday"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Good morning dipakai saat matahari baru terbit."
+  },
+  {
+    "id": "BT010-224",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the time of day when the sun goes down'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "evening"
+      },
+      {
+        "id": "B",
+        "text": "morning"
+      },
+      {
+        "id": "C",
+        "text": "weekend"
+      },
+      {
+        "id": "D",
+        "text": "holiday"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Evening berarti sore menjelang malam."
+  },
+  {
+    "id": "BT010-225",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the phrase: We met two hours ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "last"
+      },
+      {
+        "id": "B",
+        "text": "once"
+      },
+      {
+        "id": "C",
+        "text": "already"
+      },
+      {
+        "id": "D",
+        "text": "ago"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Ago dipakai setelah durasi waktu, artinya yang lalu."
+  },
+  {
+    "id": "BT010-226",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the phrase: I saw her ___ Monday at the mall.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ago"
+      },
+      {
+        "id": "B",
+        "text": "yesterday"
+      },
+      {
+        "id": "C",
+        "text": "last"
+      },
+      {
+        "id": "D",
+        "text": "already"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Last Monday berarti hari Senin yang lalu."
+  },
+  {
+    "id": "BT010-227",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the sentence: I was at the dentist ___, so my mouth still hurts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tonight"
+      },
+      {
+        "id": "B",
+        "text": "yesterday"
+      },
+      {
+        "id": "C",
+        "text": "once"
+      },
+      {
+        "id": "D",
+        "text": "ago"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Yesterday berarti kemarin dan cocok dengan kejadian yang sudah lewat."
+  },
+  {
+    "id": "BT010-228",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Saturday and Sunday together are called the ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "weekend"
+      },
+      {
+        "id": "B",
+        "text": "holiday"
+      },
+      {
+        "id": "C",
+        "text": "evening"
+      },
+      {
+        "id": "D",
+        "text": "morning"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Weekend berarti akhir pekan, yaitu Sabtu dan Minggu."
+  },
+  {
+    "id": "BT010-229",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Everyone in the office was happy because Friday was a public ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "weekend"
+      },
+      {
+        "id": "B",
+        "text": "evening"
+      },
+      {
+        "id": "C",
+        "text": "holiday"
+      },
+      {
+        "id": "D",
+        "text": "morning"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Public holiday berarti hari libur nasional."
+  },
+  {
+    "id": "BT010-230",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: I cannot talk now, but I will call you ___ at eight.",
+    "options": [
+      {
+        "id": "A",
+        "text": "yesterday"
+      },
+      {
+        "id": "B",
+        "text": "tonight"
+      },
+      {
+        "id": "C",
+        "text": "ago"
+      },
+      {
+        "id": "D",
+        "text": "last"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Tonight berarti malam ini, jadi cocok untuk rencana pukul delapan."
+  },
+  {
+    "id": "BT010-231",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the sentence: Do not cook for me. I ___ ate dinner at six.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ago"
+      },
+      {
+        "id": "B",
+        "text": "last"
+      },
+      {
+        "id": "C",
+        "text": "tonight"
+      },
+      {
+        "id": "D",
+        "text": "already"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Already berarti sudah, menunjukkan sesuatu telah terjadi."
+  },
+  {
+    "id": "BT010-232",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the sentence: Please text me ___ you get home.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ago"
+      },
+      {
+        "id": "B",
+        "text": "last"
+      },
+      {
+        "id": "C",
+        "text": "yesterday"
+      },
+      {
+        "id": "D",
+        "text": "once"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Once di sini berarti begitu atau segera setelah."
+  },
+  {
+    "id": "BT010-233",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In the sentence 'Text me once you arrive,' what does 'once' mean?",
+    "options": [
+      {
+        "id": "A",
+        "text": "as soon as"
+      },
+      {
+        "id": "B",
+        "text": "two times a year"
+      },
+      {
+        "id": "C",
+        "text": "a long time ago"
+      },
+      {
+        "id": "D",
+        "text": "every day"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Once di sini berarti begitu, sama dengan as soon as."
+  },
+  {
+    "id": "BT010-234",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word shows that something happened earlier than now or earlier than expected?",
+    "options": [
+      {
+        "id": "A",
+        "text": "tonight"
+      },
+      {
+        "id": "B",
+        "text": "already"
+      },
+      {
+        "id": "C",
+        "text": "weekend"
+      },
+      {
+        "id": "D",
+        "text": "evening"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Already berarti sudah dan menandakan kejadian yang lebih awal."
+  },
+  {
+    "id": "BT010-235",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'this night, the night of today'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "yesterday"
+      },
+      {
+        "id": "B",
+        "text": "weekend"
+      },
+      {
+        "id": "C",
+        "text": "tonight"
+      },
+      {
+        "id": "D",
+        "text": "ago"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Tonight berarti malam ini."
+  },
+  {
+    "id": "BT010-236",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which time phrase refers to the past?",
+    "options": [
+      {
+        "id": "A",
+        "text": "two weeks ago"
+      },
+      {
+        "id": "B",
+        "text": "next week"
+      },
+      {
+        "id": "C",
+        "text": "tomorrow morning"
+      },
+      {
+        "id": "D",
+        "text": "tonight"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Two weeks ago berarti dua minggu yang lalu, yaitu masa lampau."
+  },
+  {
+    "id": "BT010-237",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which time phrase does NOT point to the past?",
+    "options": [
+      {
+        "id": "A",
+        "text": "last night"
+      },
+      {
+        "id": "B",
+        "text": "tonight"
+      },
+      {
+        "id": "C",
+        "text": "yesterday"
+      },
+      {
+        "id": "D",
+        "text": "three days ago"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Tonight merujuk ke malam ini, bukan ke masa lampau."
+  },
+  {
+    "id": "BT010-238",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the sentence: We were at the beach for the ___, and the weather was great.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ago"
+      },
+      {
+        "id": "B",
+        "text": "once"
+      },
+      {
+        "id": "C",
+        "text": "already"
+      },
+      {
+        "id": "D",
+        "text": "holiday"
+      }
+    ],
+    "correct": "D",
+    "explanation": "For the holiday berarti selama liburan."
+  },
+  {
+    "id": "BT010-239",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: It was cold in the ___, so we wore jackets at dinner.",
+    "options": [
+      {
+        "id": "A",
+        "text": "morning"
+      },
+      {
+        "id": "B",
+        "text": "ago"
+      },
+      {
+        "id": "C",
+        "text": "evening"
+      },
+      {
+        "id": "D",
+        "text": "last"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Makan malam terjadi di evening, sehingga jawabannya evening."
+  },
+  {
+    "id": "BT010-240",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which sentence uses 'ago' correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "My uncle was here ago ten minutes."
+      },
+      {
+        "id": "B",
+        "text": "My uncle was ago here ten minutes."
+      },
+      {
+        "id": "C",
+        "text": "My uncle was here ten minutes ago."
+      },
+      {
+        "id": "D",
+        "text": "Ago my uncle was here ten minutes."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Ago diletakkan setelah durasi waktu, misalnya ten minutes ago."
+  },
+  {
+    "id": "BT010-241",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which sentence uses 'last' correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "We were at the museum last Saturday."
+      },
+      {
+        "id": "B",
+        "text": "We were at the museum ago Saturday."
+      },
+      {
+        "id": "C",
+        "text": "We were at the museum last ago Saturday."
+      },
+      {
+        "id": "D",
+        "text": "We were at the museum Saturday last."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Last diletakkan sebelum nama hari, misalnya last Saturday."
+  },
+  {
+    "id": "BT010-242",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the sentence: The ___ was relaxing because we had no homework.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ago"
+      },
+      {
+        "id": "B",
+        "text": "already"
+      },
+      {
+        "id": "C",
+        "text": "once"
+      },
+      {
+        "id": "D",
+        "text": "weekend"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Weekend berarti akhir pekan dan cocok sebagai subjek kalimat ini."
+  },
+  {
+    "id": "BT010-243",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a day when people do not go to work or school'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "evening"
+      },
+      {
+        "id": "B",
+        "text": "holiday"
+      },
+      {
+        "id": "C",
+        "text": "morning"
+      },
+      {
+        "id": "D",
+        "text": "tonight"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Holiday berarti hari libur."
+  },
+  {
+    "id": "BT010-244",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that completes the sentence: ___ night, my sister was at her friend's house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Last"
+      },
+      {
+        "id": "B",
+        "text": "Ago"
+      },
+      {
+        "id": "C",
+        "text": "Once"
+      },
+      {
+        "id": "D",
+        "text": "Already"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Last night berarti tadi malam."
+  },
+  {
+    "id": "BT010-245",
+    "day": 10,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "In the sentence 'I was at school yesterday', what does 'yesterday' tell us?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The event will happen tomorrow."
+      },
+      {
+        "id": "B",
+        "text": "The event happened the day before today."
+      },
+      {
+        "id": "C",
+        "text": "The event happens every day."
+      },
+      {
+        "id": "D",
+        "text": "The event is happening now."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Yesterday berarti kemarin, jadi kejadiannya sudah lewat."
+  },
+  {
+    "id": "BT010-246",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Ayah saya sangat sibuk minggu lalu.",
+    "acceptedAnswers": [
+      "My father was very busy last week",
+      "Last week my father was very busy"
+    ],
+    "explanation": "Ayah saya (he) memakai was, dan minggu lalu menjadi last week."
+  },
+  {
+    "id": "BT010-247",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kami tidak di rumah kemarin malam.",
+    "acceptedAnswers": [
+      "We were not at home last night",
+      "We weren't at home last night",
+      "Last night we were not at home",
+      "Last night we weren't at home"
+    ],
+    "explanation": "Subjek we memakai were, lalu tambahkan not untuk negatif."
+  },
+  {
+    "id": "BT010-248",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Apakah kamu sakit dua hari yang lalu?",
+    "acceptedAnswers": [
+      "Were you sick two days ago",
+      "Were you ill two days ago"
+    ],
+    "explanation": "Pertanyaan dengan you diawali were, dan dua hari yang lalu menjadi two days ago."
+  },
+  {
+    "id": "BT010-249",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Film itu membosankan tadi malam.",
+    "acceptedAnswers": [
+      "The movie was boring last night",
+      "The film was boring last night",
+      "Last night the movie was boring",
+      "Last night the film was boring"
+    ],
+    "explanation": "The movie tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-250",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kakak perempuan saya ada di Medan sepanjang akhir pekan.",
+    "acceptedAnswers": [
+      "My sister was in Medan all weekend",
+      "My older sister was in Medan all weekend",
+      "My big sister was in Medan all weekend"
+    ],
+    "explanation": "Kakak perempuan saya (she) memakai was, dan sepanjang akhir pekan menjadi all weekend."
+  },
+  {
+    "id": "BT010-251",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Saya tidak lapar tadi pagi.",
+    "acceptedAnswers": [
+      "I was not hungry this morning",
+      "I wasn't hungry this morning"
+    ],
+    "explanation": "Subjek I memakai was, bentuk negatifnya was not atau wasn't."
+  },
+  {
+    "id": "BT010-252",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Di mana Dina kemarin?",
+    "acceptedAnswers": [
+      "Where was Dina yesterday"
+    ],
+    "explanation": "Dina tunggal, jadi pertanyaan memakai where was."
+  },
+  {
+    "id": "BT010-253",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Para siswa sangat senang selama liburan.",
+    "acceptedAnswers": [
+      "The students were very happy during the holiday",
+      "The students were very happy during the holidays"
+    ],
+    "explanation": "Para siswa jamak, jadi memakai were."
+  },
+  {
+    "id": "BT010-254",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Sore kemarin udaranya dingin.",
+    "acceptedAnswers": [
+      "It was cold yesterday evening",
+      "Yesterday evening it was cold",
+      "The air was cold yesterday evening",
+      "Yesterday evening the air was cold"
+    ],
+    "explanation": "Udara atau cuaca tunggal, sehingga memakai it was."
+  },
+  {
+    "id": "BT010-255",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Apakah rumah lamamu besar?",
+    "acceptedAnswers": [
+      "Was your old house big",
+      "Was your old house large"
+    ],
+    "explanation": "Rumah lamamu tunggal, jadi pertanyaan diawali was."
+  },
+  {
+    "id": "BT010-256",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kami sudah di bandara satu jam yang lalu.",
+    "acceptedAnswers": [
+      "We were already at the airport an hour ago",
+      "An hour ago we were already at the airport",
+      "We were at the airport an hour ago already"
+    ],
+    "explanation": "Subjek we memakai were, dan satu jam yang lalu menjadi an hour ago."
+  },
+  {
+    "id": "BT010-257",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Buku-buku itu tidak mahal bulan lalu.",
+    "acceptedAnswers": [
+      "The books were not expensive last month",
+      "The books weren't expensive last month",
+      "Last month the books were not expensive",
+      "Last month the books weren't expensive"
+    ],
+    "explanation": "Books jamak, jadi memakai were not atau weren't."
+  },
+  {
+    "id": "BT010-258",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Saya sudah di sekolah ketika bel berbunyi.",
+    "acceptedAnswers": [
+      "I was already at school when the bell rang",
+      "When the bell rang I was already at school"
+    ],
+    "explanation": "Subjek I memakai was, dan already menunjukkan sudah."
+  },
+  {
+    "id": "BT010-259",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Tono dan adiknya ada di kebun binatang kemarin.",
+    "acceptedAnswers": [
+      "Tono and his brother were at the zoo yesterday",
+      "Tono and his little brother were at the zoo yesterday",
+      "Tono and his younger brother were at the zoo yesterday"
+    ],
+    "explanation": "Tono dan adiknya berarti dua orang, jadi memakai were."
+  },
+  {
+    "id": "BT010-260",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Apakah mereka terlambat tadi pagi?",
+    "acceptedAnswers": [
+      "Were they late this morning"
+    ],
+    "explanation": "Subjek they memakai were, dan pertanyaan diawali were."
+  },
+  {
+    "id": "BT010-261",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Ujian itu mudah, tetapi soal terakhirnya sulit.",
+    "acceptedAnswers": [
+      "The exam was easy but the last question was difficult",
+      "The test was easy but the last question was difficult",
+      "The exam was easy but the last question was hard",
+      "The test was easy but the last question was hard"
+    ],
+    "explanation": "Exam dan question tunggal, jadi keduanya memakai was."
+  },
+  {
+    "id": "BT010-262",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Cuaca tidak bagus akhir pekan lalu.",
+    "acceptedAnswers": [
+      "The weather was not good last weekend",
+      "The weather wasn't good last weekend",
+      "Last weekend the weather was not good",
+      "Last weekend the weather wasn't good"
+    ],
+    "explanation": "The weather tunggal, jadi negatifnya was not atau wasn't."
+  },
+  {
+    "id": "BT010-263",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kami sangat lelah setelah liburan panjang itu.",
+    "acceptedAnswers": [
+      "We were very tired after the long holiday",
+      "We were really tired after the long holiday"
+    ],
+    "explanation": "Subjek we memakai were."
+  },
+  {
+    "id": "BT010-264",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Siapa gurumu tahun lalu?",
+    "acceptedAnswers": [
+      "Who was your teacher last year"
+    ],
+    "explanation": "Your teacher tunggal, jadi pertanyaan memakai who was."
+  },
+  {
+    "id": "BT010-265",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Mereka tidak ada di sini lima menit yang lalu.",
+    "acceptedAnswers": [
+      "They were not here five minutes ago",
+      "They weren't here five minutes ago"
+    ],
+    "explanation": "Subjek they memakai were not atau weren't."
+  },
+  {
+    "id": "BT010-266",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Dompetku ada di meja tadi malam.",
+    "acceptedAnswers": [
+      "My wallet was on the table last night",
+      "Last night my wallet was on the table"
+    ],
+    "explanation": "My wallet tunggal (it), jadi memakai was."
+  },
+  {
+    "id": "BT010-267",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Berapa umurmu sepuluh tahun yang lalu?",
+    "acceptedAnswers": [
+      "How old were you ten years ago"
+    ],
+    "explanation": "Untuk you, pertanyaan lampau memakai were."
+  },
+  {
+    "id": "BT010-268",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Hari itu sangat panas dan kami semua haus.",
+    "acceptedAnswers": [
+      "It was a very hot day and we were all thirsty",
+      "That day was very hot and we were all thirsty",
+      "The day was very hot and we were all thirsty"
+    ],
+    "explanation": "Hari itu tunggal memakai was, sedangkan we memakai were."
+  },
+  {
+    "id": "BT010-269",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Rumah makan itu tidak buka kemarin pagi.",
+    "acceptedAnswers": [
+      "The restaurant was not open yesterday morning",
+      "The restaurant wasn't open yesterday morning",
+      "Yesterday morning the restaurant was not open",
+      "Yesterday morning the restaurant wasn't open"
+    ],
+    "explanation": "The restaurant tunggal, jadi negatifnya was not atau wasn't."
+  },
+  {
+    "id": "BT010-270",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Apakah kamu dan Sari ada di pesta kemarin?",
+    "acceptedAnswers": [
+      "Were you and Sari at the party yesterday"
+    ],
+    "explanation": "You and Sari berarti jamak, jadi pertanyaan diawali were."
+  },
+  {
+    "id": "BT010-271",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Aku bukan murid yang baik waktu kecil.",
+    "acceptedAnswers": [
+      "I was not a good student when I was a child",
+      "I wasn't a good student when I was a child",
+      "I was not a good student when I was little",
+      "I wasn't a good student when I was little",
+      "I was not a good student when I was a kid",
+      "I wasn't a good student when I was a kid"
+    ],
+    "explanation": "Subjek I memakai was, dan waktu kecil menjadi when I was a child."
+  },
+  {
+    "id": "BT010-272",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Kopi itu terlalu panas tadi pagi.",
+    "acceptedAnswers": [
+      "The coffee was too hot this morning",
+      "This morning the coffee was too hot"
+    ],
+    "explanation": "The coffee tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-273",
+    "day": 10,
+    "type": "translate",
+    "prompt": "Tamu-tamu kami sudah ada di ruang tamu pukul delapan.",
+    "acceptedAnswers": [
+      "Our guests were already in the living room at eight",
+      "Our guests were already in the living room at eight o'clock",
+      "Our guests were in the living room at eight o'clock already"
+    ],
+    "explanation": "Guests jamak, jadi memakai were."
+  },
+  {
+    "id": "BT010-274",
+    "day": 10,
+    "type": "story",
+    "prompt": "Mengapa Hana dan sepupunya sibuk di peternakan?",
+    "passage": "Last Sunday, Hana and her cousins were at their grandfather's farm. The morning was cool, and the fields were green. They were busy because they helped him feed the chickens. In the evening, everyone was tired but happy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Mereka membantu memanen padi"
+      },
+      {
+        "id": "B",
+        "text": "Mereka bermain sepak bola seharian"
+      },
+      {
+        "id": "C",
+        "text": "Mereka membantu memberi makan ayam"
+      },
+      {
+        "id": "D",
+        "text": "Mereka membersihkan kandang sapi"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut they helped him feed the chickens, jadi mereka membantu memberi makan ayam."
+  },
+  {
+    "id": "BT010-275",
+    "day": 10,
+    "type": "story",
+    "prompt": "Siapa yang sakit minggu lalu?",
+    "passage": "Mr. Tan's shop was closed for three days last week. The owner was at a wedding in another city. His assistant was sick, so nobody was in the shop. On Thursday, the shop was open again, and the customers were glad.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemilik toko"
+      },
+      {
+        "id": "B",
+        "text": "Para pelanggan"
+      },
+      {
+        "id": "C",
+        "text": "Pengantin di pesta"
+      },
+      {
+        "id": "D",
+        "text": "Asisten pemilik toko"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut his assistant was sick, jadi yang sakit adalah asisten pemilik toko."
+  },
+  {
+    "id": "BT010-276",
+    "day": 10,
+    "type": "story",
+    "prompt": "Dika berada di posisi apa dalam lomba lari?",
+    "passage": "Yesterday was the school sports day. The weather was hot, but the students were excited. Dika was first in the running race, and his team was second in the relay. The teachers were proud of everyone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Juara kedua"
+      },
+      {
+        "id": "B",
+        "text": "Juara pertama"
+      },
+      {
+        "id": "C",
+        "text": "Juara ketiga"
+      },
+      {
+        "id": "D",
+        "text": "Paling akhir"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Dika was first in the running race, jadi ia juara pertama."
+  },
+  {
+    "id": "BT010-277",
+    "day": 10,
+    "type": "story",
+    "prompt": "Bagaimana perasaan adik perempuan penulis pada awalnya?",
+    "passage": "Two weeks ago, my family was in Bali for a holiday. The hotel was near the beach, and the rooms were clean. My little sister was afraid of the waves at first. After one day, she was happy in the water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Marah pada hotel"
+      },
+      {
+        "id": "B",
+        "text": "Bosan di kamar"
+      },
+      {
+        "id": "C",
+        "text": "Lapar sepanjang hari"
+      },
+      {
+        "id": "D",
+        "text": "Takut pada ombak"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut my little sister was afraid of the waves at first, jadi awalnya ia takut pada ombak."
+  },
+  {
+    "id": "BT010-278",
+    "day": 10,
+    "type": "story",
+    "prompt": "Pukul berapa lampu menyala kembali?",
+    "passage": "Last night, there was a power cut in our street. The houses were dark, and the neighbors were outside. Mrs. Wati was on her balcony with a candle. The lights were on again at nine o'clock.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pukul tujuh"
+      },
+      {
+        "id": "B",
+        "text": "Pukul delapan"
+      },
+      {
+        "id": "C",
+        "text": "Pukul sembilan"
+      },
+      {
+        "id": "D",
+        "text": "Pukul sepuluh"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut the lights were on again at nine o'clock, jadi lampu menyala pukul sembilan."
+  },
+  {
+    "id": "BT010-279",
+    "day": 10,
+    "type": "story",
+    "prompt": "Berapa lama Rudi berada di halte bus?",
+    "passage": "Rudi was late for school yesterday. The bus was full, so he was at the bus stop for forty minutes. When he was at the gate, the bell was already ringing. His teacher was not angry because many students were late that day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Empat puluh menit"
+      },
+      {
+        "id": "B",
+        "text": "Empat belas menit"
+      },
+      {
+        "id": "C",
+        "text": "Dua puluh menit"
+      },
+      {
+        "id": "D",
+        "text": "Satu jam"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut he was at the bus stop for forty minutes, jadi lamanya empat puluh menit."
+  },
+  {
+    "id": "BT010-280",
+    "day": 10,
+    "type": "story",
+    "prompt": "Siapa yang membuat semua orang tertawa?",
+    "passage": "On Saturday, my aunt and uncle were at our house for dinner. The food was delicious, and the kitchen was warm. My uncle was very funny, so we were all laughing. They were with us until ten o'clock.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bibi penulis"
+      },
+      {
+        "id": "B",
+        "text": "Ayah penulis"
+      },
+      {
+        "id": "C",
+        "text": "Ibu penulis"
+      },
+      {
+        "id": "D",
+        "text": "Paman penulis"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut my uncle was very funny, jadi pamanlah yang membuat semua tertawa."
+  },
+  {
+    "id": "BT010-281",
+    "day": 10,
+    "type": "story",
+    "prompt": "Di mana meja Ben?",
+    "passage": "Last month, Ben was a new student in our class. He was shy and quiet in the first week. His desk was next to mine, so we were soon friends. Now he is always the first person to say hello.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di depan meja guru"
+      },
+      {
+        "id": "B",
+        "text": "Dekat jendela di belakang"
+      },
+      {
+        "id": "C",
+        "text": "Di sebelah meja penulis"
+      },
+      {
+        "id": "D",
+        "text": "Di luar kelas"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut his desk was next to mine, jadi meja Ben di sebelah meja penulis."
+  },
+  {
+    "id": "BT010-282",
+    "day": 10,
+    "type": "story",
+    "prompt": "Apa yang ada di taman itu setahun yang lalu?",
+    "passage": "A year ago, this park was empty. There were only a few trees and one old bench. Now the park is full of flowers, and the children are happy here every afternoon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Hanya beberapa pohon dan satu bangku tua"
+      },
+      {
+        "id": "B",
+        "text": "Banyak bunga dan ayunan"
+      },
+      {
+        "id": "C",
+        "text": "Sebuah danau yang besar"
+      },
+      {
+        "id": "D",
+        "text": "Banyak anak yang bermain"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut there were only a few trees and one old bench pada setahun lalu."
+  },
+  {
+    "id": "BT010-283",
+    "day": 10,
+    "type": "story",
+    "prompt": "Bagaimana sifat nenek penulis sebagai guru?",
+    "passage": "My grandmother was a teacher when she was young. Her school was small, and her classes were full of children from the village. She was strict, but the students were fond of her. Today, many of them still visit her.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pemalu"
+      },
+      {
+        "id": "B",
+        "text": "Tegas"
+      },
+      {
+        "id": "C",
+        "text": "Pelupa"
+      },
+      {
+        "id": "D",
+        "text": "Tidak peduli"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut she was strict, jadi nenek penulis tegas."
+  },
+  {
+    "id": "BT010-284",
+    "day": 10,
+    "type": "story",
+    "prompt": "Berapa lama mereka berada di konser?",
+    "passage": "Tonight, we are at home, but last night was different. We were at a concert in the city center. The singers were great, and the crowd was loud. We were there for three hours.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tiga jam"
+      },
+      {
+        "id": "B",
+        "text": "Dua jam"
+      },
+      {
+        "id": "C",
+        "text": "Empat jam"
+      },
+      {
+        "id": "D",
+        "text": "Lima jam"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut we were there for three hours, jadi mereka berada di konser selama tiga jam."
+  },
+  {
+    "id": "BT010-285",
+    "day": 10,
+    "type": "story",
+    "prompt": "Mengapa Maya merasa bosan?",
+    "passage": "Maya was at the airport two hours ago. Her flight was late, so she was bored. She was happy when she saw her friends at the gate. They were on the same plane to Makassar.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bandaranya sangat dingin"
+      },
+      {
+        "id": "B",
+        "text": "Penerbangannya terlambat"
+      },
+      {
+        "id": "C",
+        "text": "Tiketnya hilang"
+      },
+      {
+        "id": "D",
+        "text": "Temannya tidak datang"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut her flight was late, so she was bored, jadi ia bosan karena penerbangan terlambat."
+  },
+  {
+    "id": "BT010-286",
+    "day": 10,
+    "type": "story",
+    "prompt": "Buah apa yang sudah habis terjual saat siang?",
+    "passage": "Yesterday morning, the market was crowded. Mr. Hadi was at his fruit stall with his two sons. The mangoes were fresh, and the price was low. By noon, all the mangoes were sold.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Jeruk"
+      },
+      {
+        "id": "B",
+        "text": "Pisang"
+      },
+      {
+        "id": "C",
+        "text": "Apel"
+      },
+      {
+        "id": "D",
+        "text": "Mangga"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut all the mangoes were sold by noon, jadi mangga yang habis terjual."
+  },
+  {
+    "id": "BT010-287",
+    "day": 10,
+    "type": "story",
+    "prompt": "Di mana penulis pada hari Minggu?",
+    "passage": "My weekend was busy. On Saturday, we were at a wedding in the morning, and in the evening we were at my uncle's house. On Sunday, I was at home, and I was very tired. I was already in bed at nine on Sunday night.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di pesta pernikahan"
+      },
+      {
+        "id": "B",
+        "text": "Di rumah pamannya"
+      },
+      {
+        "id": "C",
+        "text": "Di rumah"
+      },
+      {
+        "id": "D",
+        "text": "Di sekolah"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut on Sunday, I was at home, jadi penulis berada di rumah."
+  },
+  {
+    "id": "BT010-288",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Apa yang ditanyakan pembicara?",
+    "script": "Excuse me, were you at the library yesterday? I think I saw your bag on a desk there.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Whether the listener was at the library yesterday"
+      },
+      {
+        "id": "B",
+        "text": "Whether the listener is at the library now"
+      },
+      {
+        "id": "C",
+        "text": "Whether the library was open yesterday"
+      },
+      {
+        "id": "D",
+        "text": "Whether the listener will go to the library tomorrow"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara bertanya were you at the library yesterday, jadi ia menanyakan keberadaan lawan bicara kemarin."
+  },
+  {
+    "id": "BT010-289",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Bagaimana ujian itu menurut B?",
+    "script": "A: Was the test difficult? B: No, it wasn't. It was easy, but the last question was long.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It was very difficult"
+      },
+      {
+        "id": "B",
+        "text": "It was cancelled"
+      },
+      {
+        "id": "C",
+        "text": "It was easy"
+      },
+      {
+        "id": "D",
+        "text": "It was too short"
+      }
+    ],
+    "correct": "C",
+    "explanation": "B berkata it was easy, jadi ujiannya mudah."
+  },
+  {
+    "id": "BT010-290",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Berapa lama kereta itu terlambat?",
+    "script": "We were at the station at six, but the train was late. It was an hour late, so we were home at ten.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Two hours"
+      },
+      {
+        "id": "B",
+        "text": "Thirty minutes"
+      },
+      {
+        "id": "C",
+        "text": "Four hours"
+      },
+      {
+        "id": "D",
+        "text": "One hour"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut it was an hour late, jadi kereta terlambat satu jam."
+  },
+  {
+    "id": "BT010-291",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Apa pekerjaan kakak pembicara sekarang?",
+    "script": "My brother was a football player two years ago. He was very fast, but now he is a coach.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is a football player"
+      },
+      {
+        "id": "B",
+        "text": "He is a coach"
+      },
+      {
+        "id": "C",
+        "text": "He is a teacher"
+      },
+      {
+        "id": "D",
+        "text": "He is a doctor"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut now he is a coach, jadi sekarang ia pelatih."
+  },
+  {
+    "id": "BT010-292",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Mengapa mereka berada di rumput sepanjang hari?",
+    "script": "Last weekend, my friends and I were at the lake. The water was cold, so we were on the grass all day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it was raining"
+      },
+      {
+        "id": "B",
+        "text": "Because the lake was closed"
+      },
+      {
+        "id": "C",
+        "text": "Because the water was cold"
+      },
+      {
+        "id": "D",
+        "text": "Because they were hungry"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut the water was cold, so we were on the grass, jadi alasannya air dingin."
+  },
+  {
+    "id": "BT010-293",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Di mana B dan Tina tadi pagi?",
+    "script": "A: Were you and Tina at the mall this morning? B: No, we weren't. We were at the dentist.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the dentist"
+      },
+      {
+        "id": "B",
+        "text": "At the mall"
+      },
+      {
+        "id": "C",
+        "text": "At school"
+      },
+      {
+        "id": "D",
+        "text": "At the market"
+      }
+    ],
+    "correct": "A",
+    "explanation": "B menjawab we were at the dentist, jadi mereka berada di dokter gigi."
+  },
+  {
+    "id": "BT010-294",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Apa yang dikatakan sangat besar?",
+    "script": "It was my grandfather's birthday yesterday. Everyone was at his house, and the cake was huge.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The house"
+      },
+      {
+        "id": "B",
+        "text": "The cake"
+      },
+      {
+        "id": "C",
+        "text": "The party"
+      },
+      {
+        "id": "D",
+        "text": "The gift"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut the cake was huge, jadi kuenya sangat besar."
+  },
+  {
+    "id": "BT010-295",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Mengapa pembicara berada di rumah sepupunya?",
+    "script": "I wasn't at home last night. I was at my cousin's house because my parents were out of town.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the speaker's house was dirty"
+      },
+      {
+        "id": "B",
+        "text": "Because it was the speaker's birthday"
+      },
+      {
+        "id": "C",
+        "text": "Because the speaker was sick"
+      },
+      {
+        "id": "D",
+        "text": "Because the speaker's parents were out of town"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut my parents were out of town, jadi orang tuanya sedang ke luar kota."
+  },
+  {
+    "id": "BT010-296",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Hari apa museum itu tutup?",
+    "script": "The museum was open on Monday, but it was closed on Tuesday. It is open again today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Monday"
+      },
+      {
+        "id": "B",
+        "text": "Tuesday"
+      },
+      {
+        "id": "C",
+        "text": "Today"
+      },
+      {
+        "id": "D",
+        "text": "Sunday"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut it was closed on Tuesday, jadi museum tutup hari Selasa."
+  },
+  {
+    "id": "BT010-297",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Cuaca seperti apa dua hari yang lalu?",
+    "script": "Two days ago, the weather was terrible. It was windy and rainy, so the boats were in the harbor.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Windy and rainy"
+      },
+      {
+        "id": "B",
+        "text": "Sunny and hot"
+      },
+      {
+        "id": "C",
+        "text": "Cold and snowy"
+      },
+      {
+        "id": "D",
+        "text": "Cloudy but dry"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut it was windy and rainy, jadi cuacanya berangin dan hujan."
+  },
+  {
+    "id": "BT010-298",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Bagaimana keadaan kantor tadi pagi?",
+    "script": "Tonight we are free, but this morning we were very busy. The meeting was long, and the office was noisy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Empty"
+      },
+      {
+        "id": "B",
+        "text": "Cold"
+      },
+      {
+        "id": "C",
+        "text": "Clean"
+      },
+      {
+        "id": "D",
+        "text": "Noisy"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut the office was noisy, jadi kantornya bising."
+  },
+  {
+    "id": "BT010-299",
+    "day": 10,
+    "type": "listen",
+    "prompt": "Di mana Doni setelah pukul delapan?",
+    "script": "Where was Doni last night? He was at the gym until eight, and then he was at a restaurant with his team.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At the gym"
+      },
+      {
+        "id": "B",
+        "text": "At home"
+      },
+      {
+        "id": "C",
+        "text": "At a restaurant"
+      },
+      {
+        "id": "D",
+        "text": "At the office"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut then he was at a restaurant, jadi setelah pukul delapan Doni berada di restoran."
+  },
+  {
+    "id": "BT010-300",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kakak saya tidak di rumah tadi malam)",
+    "acceptedAnswers": [
+      "My brother was not at home last night"
+    ],
+    "explanation": "Subjek my brother memakai was, lalu tambahkan not."
+  },
+  {
+    "id": "BT010-301",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah mereka di toko buku kemarin)",
+    "acceptedAnswers": [
+      "Were they at the bookstore yesterday"
+    ],
+    "explanation": "Pertanyaan dengan they diawali were."
+  },
+  {
+    "id": "BT010-302",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Pesta itu sangat meriah dua hari yang lalu)",
+    "acceptedAnswers": [
+      "The party was very lively two days ago"
+    ],
+    "explanation": "The party tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-303",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya dan abang saya berada di taman tadi pagi)",
+    "acceptedAnswers": [
+      "My brother and I were in the park this morning"
+    ],
+    "explanation": "My brother and I berarti we, jadi memakai were."
+  },
+  {
+    "id": "BT010-304",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Di mana kamu minggu lalu)",
+    "acceptedAnswers": [
+      "Where were you last week"
+    ],
+    "explanation": "Pertanyaan dengan you memakai were setelah kata tanya where."
+  },
+  {
+    "id": "BT010-305",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kamarku tidak rapi kemarin)",
+    "acceptedAnswers": [
+      "My room was not tidy yesterday"
+    ],
+    "explanation": "My room tunggal, jadi memakai was not."
+  },
+  {
+    "id": "BT010-306",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Semua siswa sudah di kelas pukul tujuh)",
+    "acceptedAnswers": [
+      "All the students were already in the classroom at seven"
+    ],
+    "explanation": "All the students jamak, jadi memakai were."
+  },
+  {
+    "id": "BT010-307",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sopir itu sangat lelah setelah perjalanan)",
+    "acceptedAnswers": [
+      "The driver was very tired after the trip"
+    ],
+    "explanation": "The driver tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-308",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah kopinya panas tadi pagi)",
+    "acceptedAnswers": [
+      "Was the coffee hot this morning"
+    ],
+    "explanation": "The coffee tunggal, jadi pertanyaan diawali was."
+  },
+  {
+    "id": "BT010-309",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami tidak terlambat ke acara kemarin)",
+    "acceptedAnswers": [
+      "We were not late for the event yesterday"
+    ],
+    "explanation": "Subjek we memakai were, lalu tambahkan not."
+  },
+  {
+    "id": "BT010-310",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bulan lalu hotel itu penuh)",
+    "acceptedAnswers": [
+      "Last month the hotel was full"
+    ],
+    "explanation": "The hotel tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-311",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Pantai itu sepi pagi ini)",
+    "acceptedAnswers": [
+      "The beach was quiet this morning"
+    ],
+    "explanation": "The beach tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-312",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Nenek saya ada di desa saat liburan)",
+    "acceptedAnswers": [
+      "My grandmother was in the village during the holiday"
+    ],
+    "explanation": "My grandmother (she) memakai was."
+  },
+  {
+    "id": "BT010-313",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Soal-soal itu tidak sulit minggu lalu)",
+    "acceptedAnswers": [
+      "The questions were not difficult last week"
+    ],
+    "explanation": "Questions jamak, jadi memakai were not."
+  },
+  {
+    "id": "BT010-314",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Siapa pemenang lomba itu kemarin)",
+    "acceptedAnswers": [
+      "Who was the winner of the race yesterday"
+    ],
+    "explanation": "The winner tunggal, jadi memakai who was."
+  },
+  {
+    "id": "BT010-315",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah kamu dan Rani di kantin sore ini)",
+    "acceptedAnswers": [
+      "Were you and Rani in the canteen this afternoon"
+    ],
+    "explanation": "You and Rani jamak, jadi pertanyaan diawali were."
+  },
+  {
+    "id": "BT010-316",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bulan sangat terang tiga hari yang lalu)",
+    "acceptedAnswers": [
+      "The moon was very bright three days ago"
+    ],
+    "explanation": "The moon tunggal, jadi memakai was."
+  },
+  {
+    "id": "BT010-317",
+    "day": 10,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya tidak sakit minggu lalu)",
+    "acceptedAnswers": [
+      "I was not sick last week"
+    ],
+    "explanation": "Subjek I memakai was, lalu tambahkan not."
+  }
+]

@@ -249,7 +249,7 @@ describe('gabungan mode', () => {
 });
 
 describe('kekurangan bank dan teman', () => {
-  it('pratinjau menurunkan jumlah ke soal yang tersedia dan menyebut jenis yang kurang', async () => {
+  it('pratinjau menyebut jenis yang benar-benar kurang di seluruh bank', async () => {
     const a = await registerUser('Yoga', 'yoga.pre@contoh.id');
     const b = await registerUser('Zara', 'zara.pre@contoh.id');
     await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
@@ -261,8 +261,9 @@ describe('kekurangan bank dan teman', () => {
       composition: { mcq: 5, translate: 2, story: 2, essay: 1 },
     });
     expect(preview.status).toBe(200);
-    expect(preview.data.adjustedTotal).toBe(8);
-    expect(preview.data.shortage.map((item) => item.type).sort()).toEqual(['mcq', 'story']);
+    // Soal pilihan ganda hari 5 ikut dipakai dari level di atas, jadi hanya cerita yang kurang.
+    expect(preview.data.adjustedTotal).toBe(9);
+    expect(preview.data.shortage.map((item) => item.type)).toEqual(['story']);
   });
 
   it('teman ditambah sekali dengan ID dan bisa dilihat serta dihapus', async () => {

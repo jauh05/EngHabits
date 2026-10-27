@@ -9,6 +9,7 @@ export const TOTALS = [8, 10, 15, 20];
 export const LIVES = 3;
 /** Batas waktu penilaian esai. Yang belum dinilai dihitung 0 saat waktu habis. */
 export const RATING_MS = 3 * 60_000;
+const MAX_DAY = 90;
 
 /** Mode battle: tipe soal yang boleh dipakai, filter tag opsional, dan waktu per soal (detik). */
 export const MODES = {
@@ -215,7 +216,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
   /** Ketersediaan soal per jenis, untuk pratinjau. Bank tidak lagi membatasi battle, hanya level hari. */
   function availability({ mode, poolDay }) {
     const spec = specFor(mode);
-    return Object.fromEntries(spec.types.map((type) => [type, candidates(spec, type, poolDay).length]));
+    return Object.fromEntries(spec.types.map((type) => [type, candidates(spec, type, MAX_DAY).length]));
   }
 
   /** Mengacak urutan pilihan jawaban dan menyesuaikan kunci, supaya soal yang sama tampil berbeda. */
@@ -242,11 +243,23 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     const adjusted = {};
     for (const [type, count] of Object.entries(composition)) {
       if (count === 0) continue;
-      const pool = candidates(spec, type, poolDay);
-      if (pool.length === 0) continue;
-      const fresh = pool.filter((item) => !used.has(item.id)).sort(() => randomInt(3) - 1);
-      const stale = pool.filter((item) => used.has(item.id)).sort(() => randomInt(3) - 1);
-      const chosen = [...fresh, ...stale].slice(0, count);
+      // Urutan pengambilan: soal level sendiri yang belum dipakai, lalu yang sudah dipakai,
+      // lalu soal dari level di atasnya (dari yang terdekat), karena soal di level sendiri sudah habis.
+      const own = candidates(spec, type, poolDay);
+      const above = candidates(spec, type, MAX_DAY).filter((item) => item.day > poolDay).sort((a, b) => a.day - b.day);
+      const tiers = [
+        own.filter((item) => !used.has(item.id)),
+        own.filter((item) => used.has(item.id)),
+        above.filter((item) => !used.has(item.id)),
+        above.filter((item) => used.has(item.id)),
+      ];
+      const chosen = [];
+      for (const tier of tiers) {
+        if (chosen.length >= count) break;
+        const shuffled = tier.sort(() => randomInt(3) - 1);
+        chosen.push(...shuffled.slice(0, count - chosen.length));
+      }
+      if (chosen.length === 0) continue;
       adjusted[type] = chosen.length;
       picked.push(...chosen);
     }

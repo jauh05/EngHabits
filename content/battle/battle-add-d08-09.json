@@ -1,0 +1,4907 @@
+[
+  {
+    "id": "BT008-200",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Look! The kids ___ in the pool.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is swimming"
+      },
+      {
+        "id": "B",
+        "text": "swim"
+      },
+      {
+        "id": "C",
+        "text": "are swim"
+      },
+      {
+        "id": "D",
+        "text": "are swimming"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Look! menandakan kejadian yang sedang berlangsung, dan The kids memakai are + V-ing."
+  },
+  {
+    "id": "BT008-201",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: I ___ for my sister at the airport right now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is waiting"
+      },
+      {
+        "id": "B",
+        "text": "am wait"
+      },
+      {
+        "id": "C",
+        "text": "am waiting"
+      },
+      {
+        "id": "D",
+        "text": "waiting"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek I memakai am, lalu kata kerja memakai bentuk -ing."
+  },
+  {
+    "id": "BT008-202",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Listen! Somebody ___ at the door.",
+    "options": [
+      {
+        "id": "A",
+        "text": "knocks"
+      },
+      {
+        "id": "B",
+        "text": "is knocking"
+      },
+      {
+        "id": "C",
+        "text": "are knocking"
+      },
+      {
+        "id": "D",
+        "text": "knocking"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Listen! menandakan kejadian saat ini, dan somebody memakai is + V-ing."
+  },
+  {
+    "id": "BT008-203",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct -ing form of the verb 'write'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "writing"
+      },
+      {
+        "id": "B",
+        "text": "writting"
+      },
+      {
+        "id": "C",
+        "text": "writeing"
+      },
+      {
+        "id": "D",
+        "text": "writen"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Kata kerja berakhiran -e kehilangan e sebelum -ing, jadi write menjadi writing."
+  },
+  {
+    "id": "BT008-204",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct -ing form of the verb 'lie' (to lie down)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "lieing"
+      },
+      {
+        "id": "B",
+        "text": "lying"
+      },
+      {
+        "id": "C",
+        "text": "liing"
+      },
+      {
+        "id": "D",
+        "text": "lyeing"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kata kerja berakhiran -ie berubah menjadi -ying, jadi lie menjadi lying."
+  },
+  {
+    "id": "BT008-205",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct -ing form of the verb 'swim'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "swimming"
+      },
+      {
+        "id": "B",
+        "text": "swiming"
+      },
+      {
+        "id": "C",
+        "text": "swimeing"
+      },
+      {
+        "id": "D",
+        "text": "swimmming"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Kata kerja satu suku kata berakhiran vokal lalu konsonan menggandakan konsonannya, jadi swim menjadi swimming."
+  },
+  {
+    "id": "BT008-206",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct -ing form of the verb 'make'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "makeing"
+      },
+      {
+        "id": "B",
+        "text": "makking"
+      },
+      {
+        "id": "C",
+        "text": "making"
+      },
+      {
+        "id": "D",
+        "text": "maaking"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Huruf e di akhir make dihapus sebelum -ing, jadi menjadi making."
+  },
+  {
+    "id": "BT008-207",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: My brother ___ football now because he is resting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "not is playing"
+      },
+      {
+        "id": "B",
+        "text": "does not playing"
+      },
+      {
+        "id": "C",
+        "text": "are not playing"
+      },
+      {
+        "id": "D",
+        "text": "is not playing"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Negatif present continuous untuk subjek tunggal memakai is + not + V-ing."
+  },
+  {
+    "id": "BT008-208",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct negative: Sorry, I ___ to you because the music is too loud.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is not listening"
+      },
+      {
+        "id": "B",
+        "text": "not am listening"
+      },
+      {
+        "id": "C",
+        "text": "am not listening"
+      },
+      {
+        "id": "D",
+        "text": "do not listening"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek I memakai am, jadi bentuk negatifnya am not + V-ing."
+  },
+  {
+    "id": "BT008-209",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct question: ___ your parents watching TV in the living room now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Do"
+      },
+      {
+        "id": "C",
+        "text": "Does"
+      },
+      {
+        "id": "D",
+        "text": "Are"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Your parents berbentuk jamak, jadi pertanyaan present continuous diawali Are."
+  },
+  {
+    "id": "BT008-210",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct question: ___ Mr. Hadi teaching the class right now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Are"
+      },
+      {
+        "id": "B",
+        "text": "Is"
+      },
+      {
+        "id": "C",
+        "text": "Does"
+      },
+      {
+        "id": "D",
+        "text": "Do"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Mr. Hadi berbentuk tunggal, jadi pertanyaan diawali Is lalu kata kerja -ing."
+  },
+  {
+    "id": "BT008-211",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question about Sinta is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "What is Sinta cooking in the kitchen?"
+      },
+      {
+        "id": "B",
+        "text": "What Sinta is cooking in the kitchen?"
+      },
+      {
+        "id": "C",
+        "text": "What is Sinta cook in the kitchen?"
+      },
+      {
+        "id": "D",
+        "text": "What does Sinta cooking in the kitchen?"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Susunan yang benar adalah kata tanya, is, subjek, lalu kata kerja -ing."
+  },
+  {
+    "id": "BT008-212",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct short answer to the question 'Are they leaving now?'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes, they are."
+      },
+      {
+        "id": "B",
+        "text": "Yes, they do."
+      },
+      {
+        "id": "C",
+        "text": "Yes, they is."
+      },
+      {
+        "id": "D",
+        "text": "Yes, they leaving."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Jawaban singkat untuk pertanyaan yang diawali are adalah Yes, they are."
+  },
+  {
+    "id": "BT008-213",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct sentence about what Sari wants.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sari is wanting a new bag for her birthday."
+      },
+      {
+        "id": "B",
+        "text": "Sari wants a new bag for her birthday."
+      },
+      {
+        "id": "C",
+        "text": "Sari are want a new bag for her birthday."
+      },
+      {
+        "id": "D",
+        "text": "Sari wanting a new bag for her birthday."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Want menyatakan keinginan sehingga memakai simple present, bukan bentuk -ing."
+  },
+  {
+    "id": "BT008-214",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: I ___ the answer to this question.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am knowing"
+      },
+      {
+        "id": "B",
+        "text": "is knowing"
+      },
+      {
+        "id": "C",
+        "text": "knowing"
+      },
+      {
+        "id": "D",
+        "text": "know"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Know menyatakan keadaan pikiran sehingga tidak dipakai dalam bentuk -ing."
+  },
+  {
+    "id": "BT008-215",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Bimo ___ his grandmother, so he calls her every day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is loving"
+      },
+      {
+        "id": "B",
+        "text": "are loving"
+      },
+      {
+        "id": "C",
+        "text": "loves"
+      },
+      {
+        "id": "D",
+        "text": "loving"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Love menyatakan perasaan sehingga memakai simple present, bukan -ing."
+  },
+  {
+    "id": "BT008-216",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Don't call Hana now. She ___ a shower.",
+    "options": [
+      {
+        "id": "A",
+        "text": "takes"
+      },
+      {
+        "id": "B",
+        "text": "are taking"
+      },
+      {
+        "id": "C",
+        "text": "take"
+      },
+      {
+        "id": "D",
+        "text": "is taking"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Now menandakan aksi yang sedang terjadi, dan She memakai is + V-ing."
+  },
+  {
+    "id": "BT008-217",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Tom and Dewi ___ pictures of the mountain at the moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is drawing"
+      },
+      {
+        "id": "B",
+        "text": "draws"
+      },
+      {
+        "id": "C",
+        "text": "are drawing"
+      },
+      {
+        "id": "D",
+        "text": "drawing"
+      }
+    ],
+    "correct": "C",
+    "explanation": "At the moment menandakan aksi yang sedang berlangsung, dan Tom and Dewi memakai are + V-ing."
+  },
+  {
+    "id": "BT008-218",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Why ___ you laughing at me?",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "do"
+      },
+      {
+        "id": "D",
+        "text": "does"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pertanyaan present continuous dengan you memakai are sebelum kata kerja -ing."
+  },
+  {
+    "id": "BT008-219",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct spelling: The bus is ___ near the school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "stoping"
+      },
+      {
+        "id": "B",
+        "text": "stopping"
+      },
+      {
+        "id": "C",
+        "text": "stopeing"
+      },
+      {
+        "id": "D",
+        "text": "stopped"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Stop berakhiran vokal lalu konsonan, jadi p digandakan menjadi stopping."
+  },
+  {
+    "id": "BT008-220",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence has the correct spelling?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The boys are runing to school."
+      },
+      {
+        "id": "B",
+        "text": "The boys are running to school."
+      },
+      {
+        "id": "C",
+        "text": "The boys are runeing to school."
+      },
+      {
+        "id": "D",
+        "text": "The boys are runnning to school."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Run menggandakan n sebelum -ing, jadi bentuk yang benar adalah running."
+  },
+  {
+    "id": "BT008-221",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Mom ___ a new recipe in the kitchen at this moment.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are trying"
+      },
+      {
+        "id": "B",
+        "text": "try"
+      },
+      {
+        "id": "C",
+        "text": "trying"
+      },
+      {
+        "id": "D",
+        "text": "is trying"
+      }
+    ],
+    "correct": "D",
+    "explanation": "At this moment menandakan aksi yang sedang berlangsung, dan Mom memakai is + V-ing."
+  },
+  {
+    "id": "BT008-222",
+    "day": 8,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct negative sentence?",
+    "options": [
+      {
+        "id": "A",
+        "text": "We not are using the computer now."
+      },
+      {
+        "id": "B",
+        "text": "We are no using the computer now."
+      },
+      {
+        "id": "C",
+        "text": "We are not using the computer now."
+      },
+      {
+        "id": "D",
+        "text": "We do not are using the computer now."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Kata not diletakkan setelah are dan sebelum kata kerja -ing."
+  },
+  {
+    "id": "BT008-223",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to move up a mountain or a wall using your hands and feet'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "climbing"
+      },
+      {
+        "id": "B",
+        "text": "swimming"
+      },
+      {
+        "id": "C",
+        "text": "sweeping"
+      },
+      {
+        "id": "D",
+        "text": "sitting"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Climbing berarti memanjat atau mendaki dengan tangan dan kaki."
+  },
+  {
+    "id": "BT008-224",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to make music with your voice'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sitting"
+      },
+      {
+        "id": "B",
+        "text": "singing"
+      },
+      {
+        "id": "C",
+        "text": "sewing"
+      },
+      {
+        "id": "D",
+        "text": "sailing"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Singing berarti bernyanyi."
+  },
+  {
+    "id": "BT008-225",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to clean the floor with a broom'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sweeping"
+      },
+      {
+        "id": "B",
+        "text": "sleeping"
+      },
+      {
+        "id": "C",
+        "text": "sipping"
+      },
+      {
+        "id": "D",
+        "text": "swimming"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Sweeping berarti menyapu lantai dengan sapu."
+  },
+  {
+    "id": "BT008-226",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to cook a cake or bread in an oven'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "boiling"
+      },
+      {
+        "id": "B",
+        "text": "biking"
+      },
+      {
+        "id": "C",
+        "text": "baking"
+      },
+      {
+        "id": "D",
+        "text": "banking"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Baking berarti memanggang kue atau roti di dalam oven."
+  },
+  {
+    "id": "BT008-227",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to catch fish with a rod or a net'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fixing"
+      },
+      {
+        "id": "B",
+        "text": "filling"
+      },
+      {
+        "id": "C",
+        "text": "folding"
+      },
+      {
+        "id": "D",
+        "text": "fishing"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Fishing berarti memancing atau menangkap ikan."
+  },
+  {
+    "id": "BT008-228",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to hold something and take it from one place to another'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "crossing"
+      },
+      {
+        "id": "B",
+        "text": "cutting"
+      },
+      {
+        "id": "C",
+        "text": "carrying"
+      },
+      {
+        "id": "D",
+        "text": "cleaning"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Carrying berarti membawa sesuatu dari satu tempat ke tempat lain."
+  },
+  {
+    "id": "BT008-229",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to push yourself off the ground with both feet'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "jumping"
+      },
+      {
+        "id": "B",
+        "text": "jogging"
+      },
+      {
+        "id": "C",
+        "text": "joking"
+      },
+      {
+        "id": "D",
+        "text": "joining"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Jumping berarti melompat."
+  },
+  {
+    "id": "BT008-230",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to press clothes with a hot flat tool to remove wrinkles'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "washing"
+      },
+      {
+        "id": "B",
+        "text": "folding"
+      },
+      {
+        "id": "C",
+        "text": "hanging"
+      },
+      {
+        "id": "D",
+        "text": "ironing"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Ironing berarti menyetrika pakaian agar tidak kusut."
+  },
+  {
+    "id": "BT008-231",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to put seeds or young trees in the soil so they can grow'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "painting"
+      },
+      {
+        "id": "B",
+        "text": "planting"
+      },
+      {
+        "id": "C",
+        "text": "packing"
+      },
+      {
+        "id": "D",
+        "text": "parking"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Planting berarti menanam benih atau pohon di tanah."
+  },
+  {
+    "id": "BT008-232",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to clean your teeth with a small tool and toothpaste'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "rushing"
+      },
+      {
+        "id": "B",
+        "text": "crushing"
+      },
+      {
+        "id": "C",
+        "text": "painting"
+      },
+      {
+        "id": "D",
+        "text": "brushing"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Brushing berarti menyikat, misalnya menyikat gigi."
+  },
+  {
+    "id": "BT008-233",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to put clothes and things into a bag for a trip'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "parking"
+      },
+      {
+        "id": "B",
+        "text": "picking"
+      },
+      {
+        "id": "C",
+        "text": "packing"
+      },
+      {
+        "id": "D",
+        "text": "pouring"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Packing berarti mengemas barang ke dalam tas untuk perjalanan."
+  },
+  {
+    "id": "BT008-234",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to walk a long way in the mountains or countryside for fun'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "hiking"
+      },
+      {
+        "id": "B",
+        "text": "hiding"
+      },
+      {
+        "id": "C",
+        "text": "hugging"
+      },
+      {
+        "id": "D",
+        "text": "helping"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Hiking berarti mendaki atau berjalan jauh di alam untuk bersenang-senang."
+  },
+  {
+    "id": "BT008-235",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to leave a car or a motorbike in a place for some time'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "packing"
+      },
+      {
+        "id": "B",
+        "text": "parking"
+      },
+      {
+        "id": "C",
+        "text": "passing"
+      },
+      {
+        "id": "D",
+        "text": "pulling"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Parking berarti memarkir kendaraan."
+  },
+  {
+    "id": "BT008-236",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Gita is ___ the flowers in the garden because the soil is dry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ironing"
+      },
+      {
+        "id": "B",
+        "text": "baking"
+      },
+      {
+        "id": "C",
+        "text": "watering"
+      },
+      {
+        "id": "D",
+        "text": "typing"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Watering berarti menyiram, cocok untuk bunga di tanah yang kering."
+  },
+  {
+    "id": "BT008-237",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Dad is ___ the old chair with a hammer and some nails.",
+    "options": [
+      {
+        "id": "A",
+        "text": "repairing"
+      },
+      {
+        "id": "B",
+        "text": "cooking"
+      },
+      {
+        "id": "C",
+        "text": "smiling"
+      },
+      {
+        "id": "D",
+        "text": "dancing"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Repairing berarti memperbaiki, cocok dengan palu dan paku."
+  },
+  {
+    "id": "BT008-238",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The waiter is ___ hot soup to the customers at table five.",
+    "options": [
+      {
+        "id": "A",
+        "text": "skating"
+      },
+      {
+        "id": "B",
+        "text": "sweeping"
+      },
+      {
+        "id": "C",
+        "text": "fishing"
+      },
+      {
+        "id": "D",
+        "text": "serving"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Serving berarti menyajikan makanan kepada pelanggan."
+  },
+  {
+    "id": "BT008-239",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: It is very cold today, so the children are ___ warm jackets.",
+    "options": [
+      {
+        "id": "A",
+        "text": "waving"
+      },
+      {
+        "id": "B",
+        "text": "wearing"
+      },
+      {
+        "id": "C",
+        "text": "weighing"
+      },
+      {
+        "id": "D",
+        "text": "waiting"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Wearing berarti memakai pakaian, cocok dengan jaket hangat."
+  },
+  {
+    "id": "BT008-240",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The pilot is ___ the plane over the sea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "floating"
+      },
+      {
+        "id": "B",
+        "text": "flying"
+      },
+      {
+        "id": "C",
+        "text": "folding"
+      },
+      {
+        "id": "D",
+        "text": "fishing"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Flying berarti menerbangkan atau terbang, cocok untuk seorang pilot."
+  },
+  {
+    "id": "BT008-241",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Mia is ___ at the camera for the family photo.",
+    "options": [
+      {
+        "id": "A",
+        "text": "shouting"
+      },
+      {
+        "id": "B",
+        "text": "sleeping"
+      },
+      {
+        "id": "C",
+        "text": "smiling"
+      },
+      {
+        "id": "D",
+        "text": "crossing"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Smiling berarti tersenyum, biasa dilakukan saat difoto."
+  },
+  {
+    "id": "BT008-242",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to sit on a bicycle or a horse and move on it'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "riding"
+      },
+      {
+        "id": "B",
+        "text": "writing"
+      },
+      {
+        "id": "C",
+        "text": "rising"
+      },
+      {
+        "id": "D",
+        "text": "rinsing"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Riding berarti mengendarai sepeda atau menunggang kuda."
+  },
+  {
+    "id": "BT008-243",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to look at a film or a match for some time'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "washing"
+      },
+      {
+        "id": "B",
+        "text": "waiting"
+      },
+      {
+        "id": "C",
+        "text": "wearing"
+      },
+      {
+        "id": "D",
+        "text": "watching"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Watching berarti menonton."
+  },
+  {
+    "id": "BT008-244",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to talk in a friendly and relaxed way'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "chasing"
+      },
+      {
+        "id": "B",
+        "text": "cheering"
+      },
+      {
+        "id": "C",
+        "text": "checking"
+      },
+      {
+        "id": "D",
+        "text": "chatting"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Chatting berarti mengobrol dengan santai."
+  },
+  {
+    "id": "BT008-245",
+    "day": 8,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'to put your arms around someone to show love'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "hugging"
+      },
+      {
+        "id": "B",
+        "text": "hiking"
+      },
+      {
+        "id": "C",
+        "text": "helping"
+      },
+      {
+        "id": "D",
+        "text": "hiding"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Hugging berarti memeluk."
+  },
+  {
+    "id": "BT008-246",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Ayah sedang mencuci mobil di depan rumah.",
+    "acceptedAnswers": [
+      "My father is washing the car in front of the house",
+      "My dad is washing the car in front of the house",
+      "Dad is washing the car in front of the house"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu wash menjadi washing."
+  },
+  {
+    "id": "BT008-247",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Saya sedang menulis surat untuk nenek.",
+    "acceptedAnswers": [
+      "I am writing a letter to my grandmother",
+      "I am writing a letter for my grandmother",
+      "I am writing a letter to my grandma"
+    ],
+    "explanation": "Subjek I memakai am, dan write kehilangan e menjadi writing."
+  },
+  {
+    "id": "BT008-248",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Para siswa sedang mengerjakan ujian di aula.",
+    "acceptedAnswers": [
+      "The students are taking a test in the hall",
+      "The students are taking an exam in the hall",
+      "The students are doing a test in the hall"
+    ],
+    "explanation": "Students berbentuk jamak sehingga memakai are + V-ing."
+  },
+  {
+    "id": "BT008-249",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Apakah kamu sedang mendengarkan lagu itu?",
+    "acceptedAnswers": [
+      "Are you listening to that song",
+      "Are you listening to the song"
+    ],
+    "explanation": "Pertanyaan present continuous diawali Are, dan listen diikuti to."
+  },
+  {
+    "id": "BT008-250",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Adik saya tidak sedang bermain game sekarang.",
+    "acceptedAnswers": [
+      "My little brother is not playing games now",
+      "My younger brother is not playing games now",
+      "My little brother isn't playing games now",
+      "My little brother is not playing a game now"
+    ],
+    "explanation": "Bentuk negatif memakai is + not + V-ing."
+  },
+  {
+    "id": "BT008-251",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kami sedang berjalan menuju sekolah bersama-sama.",
+    "acceptedAnswers": [
+      "We are walking to school together"
+    ],
+    "explanation": "We memakai are, lalu walk menjadi walking."
+  },
+  {
+    "id": "BT008-252",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Ibu sedang menyiram bunga di taman.",
+    "acceptedAnswers": [
+      "Mother is watering the flowers in the garden",
+      "My mother is watering the flowers in the garden",
+      "Mom is watering the flowers in the garden"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu water menjadi watering."
+  },
+  {
+    "id": "BT008-253",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kenapa kamu menangis?",
+    "acceptedAnswers": [
+      "Why are you crying",
+      "Why are you crying?"
+    ],
+    "explanation": "Pertanyaan dengan you memakai are sebelum kata kerja -ing."
+  },
+  {
+    "id": "BT008-254",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Apa yang sedang dimakan Budi?",
+    "acceptedAnswers": [
+      "What is Budi eating",
+      "What is Budi eating?"
+    ],
+    "explanation": "Susunan pertanyaannya adalah what, is, subjek, lalu kata kerja -ing."
+  },
+  {
+    "id": "BT008-255",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Burung-burung sedang terbang di atas sungai.",
+    "acceptedAnswers": [
+      "The birds are flying over the river",
+      "The birds are flying above the river"
+    ],
+    "explanation": "Birds berbentuk jamak sehingga memakai are + flying."
+  },
+  {
+    "id": "BT008-256",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Saya tahu jawabannya.",
+    "acceptedAnswers": [
+      "I know the answer",
+      "I know the answer."
+    ],
+    "explanation": "Know tidak dipakai dalam bentuk -ing sehingga tetap simple present."
+  },
+  {
+    "id": "BT008-257",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kami sangat menyukai makanan ini.",
+    "acceptedAnswers": [
+      "We like this food very much",
+      "We really like this food",
+      "We like this food a lot"
+    ],
+    "explanation": "Like menyatakan perasaan sehingga memakai simple present, bukan -ing."
+  },
+  {
+    "id": "BT008-258",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Dia sedang berlari karena terlambat.",
+    "acceptedAnswers": [
+      "He is running because he is late",
+      "She is running because she is late"
+    ],
+    "explanation": "Run menggandakan n menjadi running setelah is."
+  },
+  {
+    "id": "BT008-259",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Langit mendung dan angin sedang bertiup kencang.",
+    "acceptedAnswers": [
+      "The sky is cloudy and the wind is blowing hard",
+      "The sky is cloudy and the wind is blowing strongly"
+    ],
+    "explanation": "Aksi yang sedang berlangsung memakai is + blowing."
+  },
+  {
+    "id": "BT008-260",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Teman-teman saya sedang menunggu di depan bioskop.",
+    "acceptedAnswers": [
+      "My friends are waiting in front of the cinema",
+      "My friends are waiting in front of the movie theater"
+    ],
+    "explanation": "Friends berbentuk jamak sehingga memakai are + waiting."
+  },
+  {
+    "id": "BT008-261",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kamu sedang melakukan apa sekarang?",
+    "acceptedAnswers": [
+      "What are you doing now",
+      "What are you doing right now"
+    ],
+    "explanation": "Pertanyaan dengan you memakai what are you + V-ing."
+  },
+  {
+    "id": "BT008-262",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Pak Anton sedang mengajar matematika di kelas.",
+    "acceptedAnswers": [
+      "Mr. Anton is teaching math in the classroom",
+      "Mr Anton is teaching math in the classroom",
+      "Mr. Anton is teaching mathematics in the classroom"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu teach menjadi teaching."
+  },
+  {
+    "id": "BT008-263",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Bayi itu sedang tidur, jadi tolong jangan berisik.",
+    "acceptedAnswers": [
+      "The baby is sleeping, so please do not make noise",
+      "The baby is sleeping, so please don't make noise",
+      "The baby is sleeping so please do not make any noise"
+    ],
+    "explanation": "Aksi yang sedang terjadi memakai is + sleeping."
+  },
+  {
+    "id": "BT008-264",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Saya tidak mengerti pertanyaan ini.",
+    "acceptedAnswers": [
+      "I do not understand this question",
+      "I don't understand this question"
+    ],
+    "explanation": "Understand tidak dipakai dalam bentuk -ing sehingga memakai simple present."
+  },
+  {
+    "id": "BT008-265",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Dua anak laki-laki sedang memancing di dekat jembatan.",
+    "acceptedAnswers": [
+      "Two boys are fishing near the bridge",
+      "Two boys are fishing by the bridge"
+    ],
+    "explanation": "Two boys berbentuk jamak sehingga memakai are + fishing."
+  },
+  {
+    "id": "BT008-266",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Apakah mereka sedang berlatih di lapangan sekarang?",
+    "acceptedAnswers": [
+      "Are they practicing on the field now",
+      "Are they practising on the field now",
+      "Are they training on the field now"
+    ],
+    "explanation": "Pertanyaan dengan they diawali Are lalu kata kerja -ing."
+  },
+  {
+    "id": "BT008-267",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Ani sedang mengetik laporan di laptopnya.",
+    "acceptedAnswers": [
+      "Ani is typing a report on her laptop",
+      "Ani is typing a report on her computer"
+    ],
+    "explanation": "Type kehilangan e menjadi typing setelah is."
+  },
+  {
+    "id": "BT008-268",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Dia tidak sedang bekerja karena hari ini hari libur.",
+    "acceptedAnswers": [
+      "She is not working because today is a holiday",
+      "He is not working because today is a holiday",
+      "She isn't working because today is a holiday",
+      "He isn't working because today is a holiday"
+    ],
+    "explanation": "Bentuk negatif memakai is + not + working."
+  },
+  {
+    "id": "BT008-269",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kakek sedang duduk di teras dan membaca koran.",
+    "acceptedAnswers": [
+      "Grandfather is sitting on the porch and reading a newspaper",
+      "My grandfather is sitting on the porch and reading a newspaper",
+      "Grandpa is sitting on the porch and reading the newspaper",
+      "My grandfather is sitting on the terrace and reading a newspaper"
+    ],
+    "explanation": "Sit menggandakan t menjadi sitting, dan dua aksi digabung dengan and."
+  },
+  {
+    "id": "BT008-270",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Kami sedang menyiapkan makan siang untuk para tamu.",
+    "acceptedAnswers": [
+      "We are preparing lunch for the guests",
+      "We are preparing lunch for our guests"
+    ],
+    "explanation": "We memakai are, dan prepare kehilangan e menjadi preparing."
+  },
+  {
+    "id": "BT008-271",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Anak-anak sedang berenang di kolam sekarang.",
+    "acceptedAnswers": [
+      "The children are swimming in the pool now",
+      "The kids are swimming in the pool now",
+      "The children are swimming in the swimming pool now"
+    ],
+    "explanation": "Swim menggandakan m menjadi swimming setelah are."
+  },
+  {
+    "id": "BT008-272",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Saya ingin segelas air dingin.",
+    "acceptedAnswers": [
+      "I want a glass of cold water",
+      "I would like a glass of cold water"
+    ],
+    "explanation": "Want menyatakan keinginan sehingga memakai simple present."
+  },
+  {
+    "id": "BT008-273",
+    "day": 8,
+    "type": "translate",
+    "prompt": "Dia sedang memotret pemandangan gunung.",
+    "acceptedAnswers": [
+      "She is taking photos of the mountain view",
+      "He is taking photos of the mountain view",
+      "She is taking pictures of the mountain view",
+      "He is taking pictures of the mountain view",
+      "She is taking a picture of the mountain view",
+      "He is taking a picture of the mountain view"
+    ],
+    "explanation": "Take kehilangan e menjadi taking setelah is."
+  },
+  {
+    "id": "BT008-274",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan Rani sekarang?",
+    "passage": "It is seven in the evening, and the Hartono family is at home. Dad is cooking noodles in the kitchen. Rani is setting the table, and her little brother is watching cartoons. Mom is talking to Grandma on the phone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedang memasak mi di dapur"
+      },
+      {
+        "id": "B",
+        "text": "Sedang menonton kartun"
+      },
+      {
+        "id": "C",
+        "text": "Sedang menata meja makan"
+      },
+      {
+        "id": "D",
+        "text": "Sedang menelepon nenek"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut Rani is setting the table, jadi ia sedang menata meja makan."
+  },
+  {
+    "id": "BT008-275",
+    "day": 8,
+    "type": "story",
+    "prompt": "Siapa yang sedang membawa payung besar?",
+    "passage": "It is raining hard in front of the school. Many students are waiting under the roof. Mr. Dani is carrying a big umbrella, and he is walking to the parking lot. Two girls are running to the bus without umbrellas.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dua siswi"
+      },
+      {
+        "id": "B",
+        "text": "Pak Dani"
+      },
+      {
+        "id": "C",
+        "text": "Seorang satpam"
+      },
+      {
+        "id": "D",
+        "text": "Ibu kantin"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Mr. Dani is carrying a big umbrella."
+  },
+  {
+    "id": "BT008-276",
+    "day": 8,
+    "type": "story",
+    "prompt": "Mengapa Tono tidak sedang bermain bola?",
+    "passage": "Tono wants to play football with his friends this afternoon. However, he is not playing now because his leg hurts. He is sitting on a bench and watching the match. His friends are shouting his name and waving at him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena hujan deras"
+      },
+      {
+        "id": "B",
+        "text": "Karena bolanya hilang"
+      },
+      {
+        "id": "C",
+        "text": "Karena ia sedang belajar"
+      },
+      {
+        "id": "D",
+        "text": "Karena kakinya sakit"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut he is not playing now because his leg hurts."
+  },
+  {
+    "id": "BT008-277",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan seorang polisi di dekat pasar?",
+    "passage": "A group of workers is repairing the road near the market. One man is mixing sand and cement. Two workers are carrying heavy stones to the center of the road. A police officer is directing the cars because the road is narrow now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedang memperbaiki jalan"
+      },
+      {
+        "id": "B",
+        "text": "Sedang membawa batu"
+      },
+      {
+        "id": "C",
+        "text": "Sedang mengatur kendaraan"
+      },
+      {
+        "id": "D",
+        "text": "Sedang mencampur pasir"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut a police officer is directing the cars."
+  },
+  {
+    "id": "BT008-278",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan Bu Rina di kantornya?",
+    "passage": "Ms. Rina is in her office on the third floor. She is typing a report for the director. Her phone is ringing, but she is not answering it now. She needs the report before lunch.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedang mengetik laporan"
+      },
+      {
+        "id": "B",
+        "text": "Sedang menjawab telepon"
+      },
+      {
+        "id": "C",
+        "text": "Sedang makan siang"
+      },
+      {
+        "id": "D",
+        "text": "Sedang rapat dengan direktur"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut she is typing a report for the director."
+  },
+  {
+    "id": "BT008-279",
+    "day": 8,
+    "type": "story",
+    "prompt": "Siapa yang sedang tidur di dalam kereta?",
+    "passage": "Dimas is on a train to Surabaya. He is listening to music with his headphones. The woman next to him is sleeping, and a boy across the aisle is eating a sandwich. Outside the window, the rice fields are passing quickly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dimas"
+      },
+      {
+        "id": "B",
+        "text": "Wanita di sebelah Dimas"
+      },
+      {
+        "id": "C",
+        "text": "Anak laki-laki di seberang lorong"
+      },
+      {
+        "id": "D",
+        "text": "Petugas kereta"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut the woman next to him is sleeping."
+  },
+  {
+    "id": "BT008-280",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan si pencerita di rumah Bibi Maya?",
+    "passage": "Aunt Maya is visiting us today. She is baking a chocolate cake in the kitchen. My cousins are helping her, and they are stirring the cream. I am washing the dishes, and the whole house smells sweet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedang mencuci piring"
+      },
+      {
+        "id": "B",
+        "text": "Sedang memanggang kue"
+      },
+      {
+        "id": "C",
+        "text": "Sedang mengaduk krim"
+      },
+      {
+        "id": "D",
+        "text": "Sedang mengunjungi bibi"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut I am washing the dishes."
+  },
+  {
+    "id": "BT008-281",
+    "day": 8,
+    "type": "story",
+    "prompt": "Mengapa Pak Ali memakai jaket tebal?",
+    "passage": "Mr. Ali is standing at the top of the hill. He is wearing a thick jacket because the wind is blowing hard. He is holding a camera and taking pictures of the sunrise. Below him, a small village is slowly waking up.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena ia sedang demam"
+      },
+      {
+        "id": "B",
+        "text": "Karena angin bertiup kencang"
+      },
+      {
+        "id": "C",
+        "text": "Karena ia akan berenang"
+      },
+      {
+        "id": "D",
+        "text": "Karena hujan deras turun"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut he is wearing a thick jacket because the wind is blowing hard."
+  },
+  {
+    "id": "BT008-282",
+    "day": 8,
+    "type": "story",
+    "prompt": "Siapa yang sedang membawa tas belanja di pasar?",
+    "passage": "The traditional market is very busy this morning. A fruit seller is shouting the prices of mangoes. A woman is choosing tomatoes, and her son is carrying the shopping bags. Next to them, an old man is selling fish.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Penjual buah"
+      },
+      {
+        "id": "B",
+        "text": "Kakek penjual ikan"
+      },
+      {
+        "id": "C",
+        "text": "Anak laki-laki ibu itu"
+      },
+      {
+        "id": "D",
+        "text": "Ibu yang memilih tomat"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut her son is carrying the shopping bags."
+  },
+  {
+    "id": "BT008-283",
+    "day": 8,
+    "type": "story",
+    "prompt": "Mengapa Putri menelepon Lia?",
+    "passage": "Lia's phone is ringing, but she is not answering it. She is studying for the English test tomorrow, and she needs quiet time. Her friend Putri is calling because she wants to borrow a pen.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ingin mengajak belajar"
+      },
+      {
+        "id": "B",
+        "text": "Ingin memberi tahu hasil tes"
+      },
+      {
+        "id": "C",
+        "text": "Ingin membeli buku"
+      },
+      {
+        "id": "D",
+        "text": "Ingin meminjam pulpen"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut Putri is calling because she wants to borrow a pen."
+  },
+  {
+    "id": "BT008-284",
+    "day": 8,
+    "type": "story",
+    "prompt": "Siapa yang sedang memotret para pemain di stadion?",
+    "passage": "The football stadium is full of people. A reporter is writing notes near the field. A photographer is taking pictures of the players, and a boy in the front row is waving a flag. The fans are singing loudly because their team is winning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seorang wartawan"
+      },
+      {
+        "id": "B",
+        "text": "Seorang fotografer"
+      },
+      {
+        "id": "C",
+        "text": "Anak laki-laki di barisan depan"
+      },
+      {
+        "id": "D",
+        "text": "Para pemain"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut a photographer is taking pictures of the players."
+  },
+  {
+    "id": "BT008-285",
+    "day": 8,
+    "type": "story",
+    "prompt": "Apa yang sedang dilakukan Bu Sari di halaman belakang?",
+    "passage": "Mrs. Sari is in her backyard with her grandchildren. She is planting small trees near the fence. The children are digging holes, and the youngest girl is pouring water on the soil. Everybody is wearing a big hat because the sun is hot.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sedang menggali lubang"
+      },
+      {
+        "id": "B",
+        "text": "Sedang menyiram tanah"
+      },
+      {
+        "id": "C",
+        "text": "Sedang memperbaiki pagar"
+      },
+      {
+        "id": "D",
+        "text": "Sedang menanam pohon kecil"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut she is planting small trees near the fence."
+  },
+  {
+    "id": "BT008-286",
+    "day": 8,
+    "type": "story",
+    "prompt": "Mengapa Reza tidak memakai ponselnya di perpustakaan?",
+    "passage": "Reza is in the library now. He is reading a thick book about space. He is not using his phone because the sign says silence. A librarian is putting new books on the shelf near him.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena baterainya habis"
+      },
+      {
+        "id": "B",
+        "text": "Karena ia sedang menelepon"
+      },
+      {
+        "id": "C",
+        "text": "Karena ada tanda yang meminta ketenangan"
+      },
+      {
+        "id": "D",
+        "text": "Karena pustakawan melarangnya membaca"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut he is not using his phone because the sign says silence."
+  },
+  {
+    "id": "BT008-287",
+    "day": 8,
+    "type": "story",
+    "prompt": "Di mana kucing keluarga itu sedang bersembunyi?",
+    "passage": "Mother is cleaning the living room this morning. She is moving the sofa, and our cat is hiding under it. My father is repairing the window, and I am helping him with the tools. Our cat is looking at us with big eyes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di bawah sofa"
+      },
+      {
+        "id": "B",
+        "text": "Di balik jendela"
+      },
+      {
+        "id": "C",
+        "text": "Di dalam lemari"
+      },
+      {
+        "id": "D",
+        "text": "Di atas meja"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut our cat is hiding under it, yaitu di bawah sofa."
+  },
+  {
+    "id": "BT008-288",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan ayah sekarang?",
+    "script": "Hello, Rina. Dad is repairing the fence in the yard right now. Please call back in ten minutes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is cooking dinner"
+      },
+      {
+        "id": "B",
+        "text": "He is repairing the fence"
+      },
+      {
+        "id": "C",
+        "text": "He is reading the news"
+      },
+      {
+        "id": "D",
+        "text": "He is sleeping in his room"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut Dad is repairing the fence."
+  },
+  {
+    "id": "BT008-289",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan Sinta?",
+    "script": "Sorry, Sinta cannot answer the phone. She is taking a shower now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is shopping at the mall"
+      },
+      {
+        "id": "B",
+        "text": "She is driving to work"
+      },
+      {
+        "id": "C",
+        "text": "She is cooking in the kitchen"
+      },
+      {
+        "id": "D",
+        "text": "She is taking a shower"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut she is taking a shower now."
+  },
+  {
+    "id": "BT008-290",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Bagaimana cuaca di luar sekarang?",
+    "script": "Look outside. It is raining heavily, so we are not going to the park today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is raining heavily"
+      },
+      {
+        "id": "B",
+        "text": "It is sunny and hot"
+      },
+      {
+        "id": "C",
+        "text": "It is snowing"
+      },
+      {
+        "id": "D",
+        "text": "It is windy but dry"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut it is raining heavily."
+  },
+  {
+    "id": "BT008-291",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan pria yang memegang laptop?",
+    "script": "Two men are sitting at the cafe. One of them is typing on a laptop, and the other is drinking coffee.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is drinking coffee"
+      },
+      {
+        "id": "B",
+        "text": "He is reading a menu"
+      },
+      {
+        "id": "C",
+        "text": "He is typing"
+      },
+      {
+        "id": "D",
+        "text": "He is talking on the phone"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut one of them is typing on a laptop."
+  },
+  {
+    "id": "BT008-292",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Siapa yang sedang menunggu di dalam mobil?",
+    "script": "A: Is Maya ready? B: Not yet. She is still brushing her hair. Her brother is waiting outside in the car.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Her mother"
+      },
+      {
+        "id": "B",
+        "text": "Her teacher"
+      },
+      {
+        "id": "C",
+        "text": "Her friend"
+      },
+      {
+        "id": "D",
+        "text": "Her brother"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut her brother is waiting outside in the car."
+  },
+  {
+    "id": "BT008-293",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Mengapa Doni tidak bermain game malam ini?",
+    "script": "Doni is not playing games tonight. He is studying for his math test in his room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is sick"
+      },
+      {
+        "id": "B",
+        "text": "He is studying for a math test"
+      },
+      {
+        "id": "C",
+        "text": "He is sleeping"
+      },
+      {
+        "id": "D",
+        "text": "He is cleaning his room"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut he is studying for his math test."
+  },
+  {
+    "id": "BT008-294",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan para turis sekarang?",
+    "script": "Right now, the tourists are taking photos of the old temple. A guide is explaining the history to them.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are buying tickets at the gate"
+      },
+      {
+        "id": "B",
+        "text": "They are eating lunch in a restaurant"
+      },
+      {
+        "id": "C",
+        "text": "They are taking photos of the temple"
+      },
+      {
+        "id": "D",
+        "text": "They are waiting for a taxi"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut the tourists are taking photos of the old temple."
+  },
+  {
+    "id": "BT008-295",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan ibu hari ini?",
+    "script": "Mom is not cooking today. She is ordering food on her phone because she is tired.",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is ordering food on her phone"
+      },
+      {
+        "id": "B",
+        "text": "She is cooking noodles"
+      },
+      {
+        "id": "C",
+        "text": "She is washing the dishes"
+      },
+      {
+        "id": "D",
+        "text": "She is shopping at the market"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut she is ordering food on her phone."
+  },
+  {
+    "id": "BT008-296",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang diperbaiki pembicara kedua?",
+    "script": "A: What are you doing? B: I am fixing my bicycle. The chain is broken.",
+    "options": [
+      {
+        "id": "A",
+        "text": "His bicycle"
+      },
+      {
+        "id": "B",
+        "text": "His phone"
+      },
+      {
+        "id": "C",
+        "text": "His watch"
+      },
+      {
+        "id": "D",
+        "text": "His laptop"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara kedua menyebut I am fixing my bicycle."
+  },
+  {
+    "id": "BT008-297",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Siapa yang sedang bernyanyi di kamar mandi?",
+    "script": "Listen! My sister is singing in the bathroom. She loves that song, and she knows every word.",
+    "options": [
+      {
+        "id": "A",
+        "text": "The speaker's mother"
+      },
+      {
+        "id": "B",
+        "text": "The speaker's sister"
+      },
+      {
+        "id": "C",
+        "text": "The speaker's teacher"
+      },
+      {
+        "id": "D",
+        "text": "The speaker's friend"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut my sister is singing in the bathroom."
+  },
+  {
+    "id": "BT008-298",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Apa yang sedang dilakukan anak-anak di tepi sungai?",
+    "script": "The children are standing by the river. They are throwing small stones into the water and laughing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "They are swimming across the river"
+      },
+      {
+        "id": "B",
+        "text": "They are fishing with a net"
+      },
+      {
+        "id": "C",
+        "text": "They are throwing stones into the water"
+      },
+      {
+        "id": "D",
+        "text": "They are washing clothes"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut they are throwing small stones into the water."
+  },
+  {
+    "id": "BT008-299",
+    "day": 8,
+    "type": "listen",
+    "prompt": "Mengapa pembicara tidak ikut bermain?",
+    "script": "I am not playing with them because I do not feel well. I am sitting in the shade and drinking water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is late for the game"
+      },
+      {
+        "id": "B",
+        "text": "He is doing homework"
+      },
+      {
+        "id": "C",
+        "text": "He does not like the game"
+      },
+      {
+        "id": "D",
+        "text": "He does not feel well"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut I do not feel well."
+  },
+  {
+    "id": "BT008-300",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ibu sedang memasak sup di dapur)",
+    "acceptedAnswers": [
+      "My mother is cooking soup in the kitchen"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu cook menjadi cooking."
+  },
+  {
+    "id": "BT008-301",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami tidak sedang menonton televisi)",
+    "acceptedAnswers": [
+      "We are not watching television"
+    ],
+    "explanation": "Bentuk negatif memakai are + not + V-ing."
+  },
+  {
+    "id": "BT008-302",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah kamu sedang mengerjakan tugas sekarang)",
+    "acceptedAnswers": [
+      "Are you doing your homework now"
+    ],
+    "explanation": "Pertanyaan present continuous diawali Are sebelum subjek."
+  },
+  {
+    "id": "BT008-303",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Burung itu sedang bernyanyi di atas pohon)",
+    "acceptedAnswers": [
+      "The bird is singing in the tree"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu sing menjadi singing."
+  },
+  {
+    "id": "BT008-304",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Guru sedang menulis soal di papan tulis)",
+    "acceptedAnswers": [
+      "The teacher is writing questions on the board"
+    ],
+    "explanation": "Write kehilangan e menjadi writing setelah is."
+  },
+  {
+    "id": "BT008-305",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya tahu nama gadis itu)",
+    "acceptedAnswers": [
+      "I know the girl's name"
+    ],
+    "explanation": "Know tidak dipakai dalam bentuk -ing sehingga tetap simple present."
+  },
+  {
+    "id": "BT008-306",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Anak-anak sedang membersihkan kelas mereka)",
+    "acceptedAnswers": [
+      "The children are cleaning their classroom"
+    ],
+    "explanation": "Children berbentuk jamak sehingga memakai are + cleaning."
+  },
+  {
+    "id": "BT008-307",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apa yang sedang kamu baca)",
+    "acceptedAnswers": [
+      "What are you reading"
+    ],
+    "explanation": "Susunan pertanyaannya adalah what, are, you, lalu kata kerja -ing."
+  },
+  {
+    "id": "BT008-308",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kakak saya sedang belajar mengemudi)",
+    "acceptedAnswers": [
+      "My brother is learning to drive"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu learn menjadi learning."
+  },
+  {
+    "id": "BT008-309",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bus itu sedang berhenti di depan sekolah)",
+    "acceptedAnswers": [
+      "The bus is stopping in front of the school"
+    ],
+    "explanation": "Stop menggandakan p menjadi stopping setelah is."
+  },
+  {
+    "id": "BT008-310",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mereka tidak sedang berbelanja hari ini)",
+    "acceptedAnswers": [
+      "They are not shopping today"
+    ],
+    "explanation": "Shop menggandakan p menjadi shopping, dengan are + not di depannya."
+  },
+  {
+    "id": "BT008-311",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ayah sedang membaca koran di teras)",
+    "acceptedAnswers": [
+      "My father is reading a newspaper on the porch"
+    ],
+    "explanation": "Subjek tunggal memakai is, lalu read menjadi reading."
+  },
+  {
+    "id": "BT008-312",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mengapa kamu tertawa)",
+    "acceptedAnswers": [
+      "Why are you laughing"
+    ],
+    "explanation": "Pertanyaan dengan you memakai are sebelum kata kerja -ing."
+  },
+  {
+    "id": "BT008-313",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Nenek sedang menyiapkan teh untuk para tamu)",
+    "acceptedAnswers": [
+      "Grandma is preparing tea for the guests"
+    ],
+    "explanation": "Prepare kehilangan e menjadi preparing setelah is."
+  },
+  {
+    "id": "BT008-314",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya sedang menunggu temanku di halte)",
+    "acceptedAnswers": [
+      "I am waiting for my friend at the bus stop"
+    ],
+    "explanation": "Subjek I memakai am, dan wait diikuti for."
+  },
+  {
+    "id": "BT008-315",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Adik sedang mengetik pesan untuk gurunya)",
+    "acceptedAnswers": [
+      "My brother is typing a message for his teacher"
+    ],
+    "explanation": "Type kehilangan e menjadi typing setelah is."
+  },
+  {
+    "id": "BT008-316",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sekarang hujan tidak sedang turun)",
+    "acceptedAnswers": [
+      "It is not raining now"
+    ],
+    "explanation": "Bentuk negatif memakai is + not + raining."
+  },
+  {
+    "id": "BT008-317",
+    "day": 8,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami sedang menari di atas panggung)",
+    "acceptedAnswers": [
+      "We are dancing on the stage"
+    ],
+    "explanation": "Dance kehilangan e menjadi dancing setelah are."
+  },
+  {
+    "id": "BT009-200",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The train leaves ___ 6.45 every morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "A",
+    "explanation": "At dipakai untuk jam atau waktu tertentu."
+  },
+  {
+    "id": "BT009-201",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: We have a math test ___ Wednesday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "near"
+      }
+    ],
+    "correct": "C",
+    "explanation": "On dipakai untuk nama hari."
+  },
+  {
+    "id": "BT009-202",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Independence Day is ___ 17 August.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "B",
+    "explanation": "On dipakai untuk tanggal."
+  },
+  {
+    "id": "BT009-203",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: I usually study English ___ the evening.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "near"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correct": "D",
+    "explanation": "In dipakai untuk bagian hari seperti the morning dan the evening."
+  },
+  {
+    "id": "BT009-204",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: It is very quiet ___ night in my village.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correct": "D",
+    "explanation": "At night adalah pengecualian yang dipakai untuk malam hari."
+  },
+  {
+    "id": "BT009-205",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: My grandfather was born ___ 1955.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "on"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "near"
+      }
+    ],
+    "correct": "A",
+    "explanation": "In dipakai untuk tahun."
+  },
+  {
+    "id": "BT009-206",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The fireworks begin ___ midnight on New Year's Eve.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "between"
+      }
+    ],
+    "correct": "B",
+    "explanation": "At dipakai untuk waktu tertentu seperti midnight."
+  },
+  {
+    "id": "BT009-207",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: There is a big clock ___ the wall of our classroom.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "between"
+      }
+    ],
+    "correct": "C",
+    "explanation": "On dipakai untuk permukaan seperti dinding."
+  },
+  {
+    "id": "BT009-208",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Rudi is waiting ___ the bus station.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "under"
+      },
+      {
+        "id": "D",
+        "text": "above"
+      }
+    ],
+    "correct": "B",
+    "explanation": "At dipakai untuk titik tertentu atau tempat aktivitas."
+  },
+  {
+    "id": "BT009-209",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The children are playing ___ the garden.",
+    "options": [
+      {
+        "id": "A",
+        "text": "in"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "between"
+      }
+    ],
+    "correct": "A",
+    "explanation": "In dipakai untuk sesuatu yang berada di dalam sebuah ruang."
+  },
+  {
+    "id": "BT009-210",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The bakery is ___ the bank and the pharmacy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "under"
+      },
+      {
+        "id": "B",
+        "text": "above"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Between dipakai untuk dua benda dan diikuti and."
+  },
+  {
+    "id": "BT009-211",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence about time is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The concert starts on 7 p.m. at Saturday."
+      },
+      {
+        "id": "B",
+        "text": "The concert starts in 7 p.m. on Saturday."
+      },
+      {
+        "id": "C",
+        "text": "The concert starts at 7 p.m. in Saturday."
+      },
+      {
+        "id": "D",
+        "text": "The concert starts at 7 p.m. on Saturday."
+      }
+    ],
+    "correct": "D",
+    "explanation": "At dipakai untuk jam dan on untuk hari."
+  },
+  {
+    "id": "BT009-212",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence about place is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The picture is in the wall above the sofa."
+      },
+      {
+        "id": "B",
+        "text": "The picture is on the wall above the sofa."
+      },
+      {
+        "id": "C",
+        "text": "The picture is at the wall above the sofa."
+      },
+      {
+        "id": "D",
+        "text": "The picture is on the wall between the sofa."
+      }
+    ],
+    "correct": "B",
+    "explanation": "On dipakai untuk permukaan dinding, dan above berarti di atas sofa."
+  },
+  {
+    "id": "BT009-213",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Pak Hari lives ___ 25 Melati Street.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "under"
+      },
+      {
+        "id": "D",
+        "text": "at"
+      }
+    ],
+    "correct": "D",
+    "explanation": "At dipakai untuk alamat dengan nomor rumah."
+  },
+  {
+    "id": "BT009-214",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: There is a lot of water ___ the bottle, so it is heavy.",
+    "options": [
+      {
+        "id": "A",
+        "text": "at"
+      },
+      {
+        "id": "B",
+        "text": "between"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "on"
+      }
+    ],
+    "correct": "C",
+    "explanation": "In dipakai untuk sesuatu yang berada di dalam wadah."
+  },
+  {
+    "id": "BT009-215",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Our family goes to the beach ___ Sundays.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "in"
+      },
+      {
+        "id": "C",
+        "text": "at"
+      },
+      {
+        "id": "D",
+        "text": "near"
+      }
+    ],
+    "correct": "A",
+    "explanation": "On dipakai untuk hari dalam seminggu."
+  },
+  {
+    "id": "BT009-216",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Students go on holiday ___ July.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "at"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "in"
+      }
+    ],
+    "correct": "D",
+    "explanation": "In dipakai untuk bulan."
+  },
+  {
+    "id": "BT009-217",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The lamp is hanging ___ the table, but it is not touching it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "on"
+      },
+      {
+        "id": "B",
+        "text": "above"
+      },
+      {
+        "id": "C",
+        "text": "in"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Above berarti di atas tanpa menyentuh."
+  },
+  {
+    "id": "BT009-218",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The dog is hiding ___ the bed, so we cannot see it.",
+    "options": [
+      {
+        "id": "A",
+        "text": "under"
+      },
+      {
+        "id": "B",
+        "text": "above"
+      },
+      {
+        "id": "C",
+        "text": "on"
+      },
+      {
+        "id": "D",
+        "text": "next to"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Under berarti di bawah, sehingga anjing itu tidak terlihat."
+  },
+  {
+    "id": "BT009-219",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The boy is standing ___ his mother and his father in the photo.",
+    "options": [
+      {
+        "id": "A",
+        "text": "under"
+      },
+      {
+        "id": "B",
+        "text": "above"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Between dipakai untuk posisi di antara dua orang."
+  },
+  {
+    "id": "BT009-220",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: There is a small park ___ my school, so it takes only two minutes to walk there.",
+    "options": [
+      {
+        "id": "A",
+        "text": "between"
+      },
+      {
+        "id": "B",
+        "text": "near"
+      },
+      {
+        "id": "C",
+        "text": "under"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Near berarti dekat dengan sebuah tempat."
+  },
+  {
+    "id": "BT009-221",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: Rina sits ___ me in class, so we often share a book.",
+    "options": [
+      {
+        "id": "A",
+        "text": "under"
+      },
+      {
+        "id": "B",
+        "text": "above"
+      },
+      {
+        "id": "C",
+        "text": "next to"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Next to berarti di samping."
+  },
+  {
+    "id": "BT009-222",
+    "day": 9,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct preposition: The thief is hiding ___ the door, so you cannot see him from the room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "under"
+      },
+      {
+        "id": "B",
+        "text": "between"
+      },
+      {
+        "id": "C",
+        "text": "inside"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Behind berarti di belakang, sehingga ia tidak terlihat dari ruangan."
+  },
+  {
+    "id": "BT009-223",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which phrase means the opposite of 'behind'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "in front of"
+      },
+      {
+        "id": "B",
+        "text": "under"
+      },
+      {
+        "id": "C",
+        "text": "above"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "A",
+    "explanation": "In front of berarti di depan, lawan dari behind."
+  },
+  {
+    "id": "BT009-224",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means the opposite of 'inside'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "beside"
+      },
+      {
+        "id": "B",
+        "text": "behind"
+      },
+      {
+        "id": "C",
+        "text": "between"
+      },
+      {
+        "id": "D",
+        "text": "outside"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Outside berarti di luar, lawan dari inside."
+  },
+  {
+    "id": "BT009-225",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word has almost the same meaning as 'next to'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "under"
+      },
+      {
+        "id": "B",
+        "text": "beside"
+      },
+      {
+        "id": "C",
+        "text": "above"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Beside berarti di samping, sama dengan next to."
+  },
+  {
+    "id": "BT009-226",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'on the lowest floor of a building'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "downstairs"
+      },
+      {
+        "id": "B",
+        "text": "upstairs"
+      },
+      {
+        "id": "C",
+        "text": "above"
+      },
+      {
+        "id": "D",
+        "text": "outside"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Downstairs berarti di lantai bawah."
+  },
+  {
+    "id": "BT009-227",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the place where people wait for a train at a station'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ceiling"
+      },
+      {
+        "id": "B",
+        "text": "shelf"
+      },
+      {
+        "id": "C",
+        "text": "platform"
+      },
+      {
+        "id": "D",
+        "text": "drawer"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Platform adalah peron tempat orang menunggu kereta."
+  },
+  {
+    "id": "BT009-228",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a flat board on a wall where you put books or things'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "drawer"
+      },
+      {
+        "id": "B",
+        "text": "shelf"
+      },
+      {
+        "id": "C",
+        "text": "corner"
+      },
+      {
+        "id": "D",
+        "text": "ceiling"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Shelf berarti rak."
+  },
+  {
+    "id": "BT009-229",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a box in a desk that you pull out to keep things'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "shelf"
+      },
+      {
+        "id": "B",
+        "text": "bridge"
+      },
+      {
+        "id": "C",
+        "text": "drawer"
+      },
+      {
+        "id": "D",
+        "text": "gate"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Drawer berarti laci."
+  },
+  {
+    "id": "BT009-230",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the place where two walls meet'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "entrance"
+      },
+      {
+        "id": "B",
+        "text": "ceiling"
+      },
+      {
+        "id": "C",
+        "text": "platform"
+      },
+      {
+        "id": "D",
+        "text": "corner"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Corner berarti sudut."
+  },
+  {
+    "id": "BT009-231",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a structure that lets people cross a river'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "bridge"
+      },
+      {
+        "id": "B",
+        "text": "fence"
+      },
+      {
+        "id": "C",
+        "text": "gate"
+      },
+      {
+        "id": "D",
+        "text": "wall"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bridge berarti jembatan."
+  },
+  {
+    "id": "BT009-232",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the place where you go into a building'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "entrance"
+      },
+      {
+        "id": "B",
+        "text": "corner"
+      },
+      {
+        "id": "C",
+        "text": "shelf"
+      },
+      {
+        "id": "D",
+        "text": "ceiling"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Entrance berarti pintu masuk."
+  },
+  {
+    "id": "BT009-233",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a long road or path under a mountain or a river'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "fence"
+      },
+      {
+        "id": "B",
+        "text": "ceiling"
+      },
+      {
+        "id": "C",
+        "text": "shelf"
+      },
+      {
+        "id": "D",
+        "text": "tunnel"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Tunnel berarti terowongan."
+  },
+  {
+    "id": "BT009-234",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The children are playing in the ___ behind the house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "ceiling"
+      },
+      {
+        "id": "B",
+        "text": "platform"
+      },
+      {
+        "id": "C",
+        "text": "yard"
+      },
+      {
+        "id": "D",
+        "text": "shelf"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Yard berarti halaman, tempat anak-anak bermain di belakang rumah."
+  },
+  {
+    "id": "BT009-235",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The ceiling fan is ___ us, so we do not feel hot.",
+    "options": [
+      {
+        "id": "A",
+        "text": "beside"
+      },
+      {
+        "id": "B",
+        "text": "above"
+      },
+      {
+        "id": "C",
+        "text": "inside"
+      },
+      {
+        "id": "D",
+        "text": "under"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kipas langit-langit berada di atas kita, jadi memakai above."
+  },
+  {
+    "id": "BT009-236",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The children walked ___ the bridge to reach the other side of the river.",
+    "options": [
+      {
+        "id": "A",
+        "text": "across"
+      },
+      {
+        "id": "B",
+        "text": "between"
+      },
+      {
+        "id": "C",
+        "text": "beside"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Across berarti menyeberang dari satu sisi ke sisi lain."
+  },
+  {
+    "id": "BT009-237",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'in the middle of two things or people'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "behind"
+      },
+      {
+        "id": "B",
+        "text": "between"
+      },
+      {
+        "id": "C",
+        "text": "above"
+      },
+      {
+        "id": "D",
+        "text": "near"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Between berarti di antara dua hal."
+  },
+  {
+    "id": "BT009-238",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a small covered area at the front of a house where people can sit'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "drawer"
+      },
+      {
+        "id": "B",
+        "text": "ceiling"
+      },
+      {
+        "id": "C",
+        "text": "porch"
+      },
+      {
+        "id": "D",
+        "text": "tunnel"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Porch berarti teras."
+  },
+  {
+    "id": "BT009-239",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the flat surface under your feet inside a room'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "wall"
+      },
+      {
+        "id": "B",
+        "text": "ceiling"
+      },
+      {
+        "id": "C",
+        "text": "roof"
+      },
+      {
+        "id": "D",
+        "text": "floor"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Floor berarti lantai."
+  },
+  {
+    "id": "BT009-240",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'the top outside part of a house that keeps the rain out'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "floor"
+      },
+      {
+        "id": "B",
+        "text": "roof"
+      },
+      {
+        "id": "C",
+        "text": "wall"
+      },
+      {
+        "id": "D",
+        "text": "gate"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Roof berarti atap."
+  },
+  {
+    "id": "BT009-241",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The two shops stand ___ each other, with the road in the middle.",
+    "options": [
+      {
+        "id": "A",
+        "text": "opposite"
+      },
+      {
+        "id": "B",
+        "text": "inside"
+      },
+      {
+        "id": "C",
+        "text": "under"
+      },
+      {
+        "id": "D",
+        "text": "behind"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Opposite each other berarti saling berhadapan."
+  },
+  {
+    "id": "BT009-242",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a room under a building, below the ground'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "balcony"
+      },
+      {
+        "id": "B",
+        "text": "garage"
+      },
+      {
+        "id": "C",
+        "text": "basement"
+      },
+      {
+        "id": "D",
+        "text": "corridor"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Basement berarti ruang bawah tanah."
+  },
+  {
+    "id": "BT009-243",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a small platform that sticks out from an upper floor of a building'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "basement"
+      },
+      {
+        "id": "B",
+        "text": "corridor"
+      },
+      {
+        "id": "C",
+        "text": "tunnel"
+      },
+      {
+        "id": "D",
+        "text": "balcony"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Balcony berarti balkon."
+  },
+  {
+    "id": "BT009-244",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'a long narrow space inside a building with rooms on each side'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "balcony"
+      },
+      {
+        "id": "B",
+        "text": "corridor"
+      },
+      {
+        "id": "C",
+        "text": "drawer"
+      },
+      {
+        "id": "D",
+        "text": "platform"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Corridor berarti lorong."
+  },
+  {
+    "id": "BT009-245",
+    "day": 9,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word is the opposite of 'above'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "between"
+      },
+      {
+        "id": "B",
+        "text": "behind"
+      },
+      {
+        "id": "C",
+        "text": "below"
+      },
+      {
+        "id": "D",
+        "text": "inside"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Below berarti di bawah, lawan dari above."
+  },
+  {
+    "id": "BT009-246",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Rapat itu dimulai pukul sepuluh pagi pada hari Senin.",
+    "acceptedAnswers": [
+      "The meeting starts at ten in the morning on Monday",
+      "The meeting starts at ten o'clock on Monday morning",
+      "The meeting starts at 10 a.m. on Monday"
+    ],
+    "explanation": "At untuk jam, in the morning untuk bagian hari, dan on untuk hari."
+  },
+  {
+    "id": "BT009-247",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Ulang tahun adik saya jatuh pada tanggal 12 Maret.",
+    "acceptedAnswers": [
+      "My little brother's birthday is on 12 March",
+      "My younger brother's birthday is on 12 March",
+      "My little brother's birthday is on March 12",
+      "My younger brother's birthday is on March 12"
+    ],
+    "explanation": "On dipakai untuk tanggal."
+  },
+  {
+    "id": "BT009-248",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kunci mobil ada di dalam laci.",
+    "acceptedAnswers": [
+      "The car key is in the drawer",
+      "The car keys are in the drawer"
+    ],
+    "explanation": "In dipakai untuk sesuatu yang berada di dalam wadah."
+  },
+  {
+    "id": "BT009-249",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Ada sebuah lukisan besar di dinding ruang tamu.",
+    "acceptedAnswers": [
+      "There is a big painting on the wall of the living room",
+      "There is a large painting on the wall of the living room",
+      "There is a big painting on the living room wall"
+    ],
+    "explanation": "On dipakai untuk permukaan dinding."
+  },
+  {
+    "id": "BT009-250",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kami biasanya makan malam pukul tujuh.",
+    "acceptedAnswers": [
+      "We usually have dinner at seven",
+      "We usually have dinner at seven o'clock",
+      "We usually eat dinner at seven",
+      "We usually have dinner at 7"
+    ],
+    "explanation": "At dipakai untuk jam."
+  },
+  {
+    "id": "BT009-251",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Rumah saya dekat dengan stasiun kereta.",
+    "acceptedAnswers": [
+      "My house is near the train station",
+      "My house is near the railway station",
+      "My house is close to the train station"
+    ],
+    "explanation": "Near berarti dekat dengan sebuah tempat."
+  },
+  {
+    "id": "BT009-252",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kucing itu bersembunyi di bawah tempat tidur.",
+    "acceptedAnswers": [
+      "The cat is hiding under the bed"
+    ],
+    "explanation": "Under berarti di bawah."
+  },
+  {
+    "id": "BT009-253",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Siswa itu duduk di antara Dina dan Rudi.",
+    "acceptedAnswers": [
+      "The student is sitting between Dina and Rudi",
+      "The student sits between Dina and Rudi"
+    ],
+    "explanation": "Between diikuti dua benda yang dihubungkan dengan and."
+  },
+  {
+    "id": "BT009-254",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Sekolah kami libur pada bulan Desember.",
+    "acceptedAnswers": [
+      "Our school is on holiday in December",
+      "Our school has a holiday in December",
+      "Our school holiday is in December"
+    ],
+    "explanation": "In dipakai untuk bulan."
+  },
+  {
+    "id": "BT009-255",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Sepatu saya ada di belakang pintu.",
+    "acceptedAnswers": [
+      "My shoes are behind the door"
+    ],
+    "explanation": "Behind berarti di belakang."
+  },
+  {
+    "id": "BT009-256",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Burung itu terbang di atas atap rumah kami.",
+    "acceptedAnswers": [
+      "The bird is flying above the roof of our house",
+      "The bird is flying over the roof of our house"
+    ],
+    "explanation": "Above berarti di atas tanpa menyentuh."
+  },
+  {
+    "id": "BT009-257",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Toko buku itu berada di sebelah kafe.",
+    "acceptedAnswers": [
+      "The bookstore is next to the cafe",
+      "The bookstore is next to the café",
+      "The bookshop is next to the cafe",
+      "The bookshop is next to the café"
+    ],
+    "explanation": "Next to berarti di samping."
+  },
+  {
+    "id": "BT009-258",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kami bertemu di taman pada hari Minggu sore.",
+    "acceptedAnswers": [
+      "We meet at the park on Sunday afternoon",
+      "We meet in the park on Sunday afternoon",
+      "We will meet at the park on Sunday afternoon",
+      "We will meet in the park on Sunday afternoon"
+    ],
+    "explanation": "On untuk hari, sedangkan at atau in untuk tempat."
+  },
+  {
+    "id": "BT009-259",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Ayah menaruh koran di atas meja.",
+    "acceptedAnswers": [
+      "Dad puts the newspaper on the table",
+      "Dad put the newspaper on the table",
+      "My father puts the newspaper on the table",
+      "My father put the newspaper on the table"
+    ],
+    "explanation": "On dipakai untuk benda yang berada di permukaan."
+  },
+  {
+    "id": "BT009-260",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Anak-anak berada di dalam kelas sekarang.",
+    "acceptedAnswers": [
+      "The children are inside the classroom now",
+      "The children are in the classroom now",
+      "The kids are in the classroom now",
+      "The kids are inside the classroom now"
+    ],
+    "explanation": "In atau inside dipakai untuk sesuatu di dalam ruangan."
+  },
+  {
+    "id": "BT009-261",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Bank itu buka pukul delapan pagi.",
+    "acceptedAnswers": [
+      "The bank opens at eight in the morning",
+      "The bank opens at eight o'clock in the morning",
+      "The bank opens at 8 a.m."
+    ],
+    "explanation": "At dipakai untuk jam."
+  },
+  {
+    "id": "BT009-262",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Ada pohon besar di antara rumah kami dan sekolah.",
+    "acceptedAnswers": [
+      "There is a big tree between our house and the school",
+      "There is a large tree between our house and the school",
+      "There is a big tree between our house and school"
+    ],
+    "explanation": "Between diikuti dua benda dengan and."
+  },
+  {
+    "id": "BT009-263",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Dompet saya tertinggal di rumah.",
+    "acceptedAnswers": [
+      "I left my wallet at home",
+      "My wallet is at home"
+    ],
+    "explanation": "At home dipakai untuk tempat tinggal atau rumah."
+  },
+  {
+    "id": "BT009-264",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Mereka duduk di samping jendela.",
+    "acceptedAnswers": [
+      "They are sitting next to the window",
+      "They sit next to the window",
+      "They are sitting beside the window",
+      "They sit beside the window"
+    ],
+    "explanation": "Next to berarti di samping."
+  },
+  {
+    "id": "BT009-265",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kami tidak sekolah pada hari Sabtu dan Minggu.",
+    "acceptedAnswers": [
+      "We do not go to school on Saturday and Sunday",
+      "We don't go to school on Saturday and Sunday",
+      "We do not go to school on Saturdays and Sundays",
+      "We have no school on Saturday and Sunday"
+    ],
+    "explanation": "On dipakai untuk nama hari."
+  },
+  {
+    "id": "BT009-266",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Mobil itu diparkir di depan toko.",
+    "acceptedAnswers": [
+      "The car is parked in front of the shop",
+      "The car is parked in front of the store"
+    ],
+    "explanation": "In front of berarti di depan."
+  },
+  {
+    "id": "BT009-267",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Dia tiba di bandara pada pukul lima sore.",
+    "acceptedAnswers": [
+      "She arrives at the airport at five in the afternoon",
+      "He arrives at the airport at five in the afternoon",
+      "She arrives at the airport at five o'clock in the afternoon",
+      "He arrives at the airport at five o'clock in the afternoon"
+    ],
+    "explanation": "At untuk tempat dan jam, in the afternoon untuk bagian hari."
+  },
+  {
+    "id": "BT009-268",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Peta itu tergantung di dinding di belakang meja guru.",
+    "acceptedAnswers": [
+      "The map is hanging on the wall behind the teacher's desk",
+      "The map hangs on the wall behind the teacher's desk"
+    ],
+    "explanation": "On untuk dinding dan behind untuk posisi di belakang."
+  },
+  {
+    "id": "BT009-269",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Bola itu ada di bawah sofa.",
+    "acceptedAnswers": [
+      "The ball is under the sofa",
+      "The ball is under the couch"
+    ],
+    "explanation": "Under berarti di bawah."
+  },
+  {
+    "id": "BT009-270",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Saya belajar di perpustakaan pada malam hari.",
+    "acceptedAnswers": [
+      "I study at the library at night",
+      "I study in the library at night"
+    ],
+    "explanation": "At night dipakai untuk malam hari."
+  },
+  {
+    "id": "BT009-271",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Kebun itu terletak di dekat sungai.",
+    "acceptedAnswers": [
+      "The garden is near the river",
+      "The garden is located near the river",
+      "The garden is by the river"
+    ],
+    "explanation": "Near berarti dekat."
+  },
+  {
+    "id": "BT009-272",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Ada banyak buku di dalam tas saya.",
+    "acceptedAnswers": [
+      "There are many books in my bag",
+      "There are a lot of books in my bag"
+    ],
+    "explanation": "In dipakai untuk sesuatu di dalam wadah."
+  },
+  {
+    "id": "BT009-273",
+    "day": 9,
+    "type": "translate",
+    "prompt": "Tolong taruh gelas itu di atas rak.",
+    "acceptedAnswers": [
+      "Please put the glass on the shelf",
+      "Please put the glass on the rack"
+    ],
+    "explanation": "On dipakai untuk benda yang berada di permukaan."
+  },
+  {
+    "id": "BT009-274",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana Dika menaruh tasnya?",
+    "passage": "Dika arrives at school at seven o'clock on Monday morning. He puts his bag under his desk and his lunch box in the drawer. Then he stands next to the window and waits for his friends. The teacher enters the classroom at a quarter past seven.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di dalam laci"
+      },
+      {
+        "id": "B",
+        "text": "Di atas lemari"
+      },
+      {
+        "id": "C",
+        "text": "Di belakang pintu"
+      },
+      {
+        "id": "D",
+        "text": "Di bawah mejanya"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut he puts his bag under his desk."
+  },
+  {
+    "id": "BT009-275",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana para tamu akan berkumpul pada pesta Bu Wati?",
+    "passage": "Mrs. Wati is planning a small party for her husband. The party is on Saturday, and it starts at six in the evening. The guests will meet in the garden behind the house. There will be a big cake on the table next to the pool.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di taman di belakang rumah"
+      },
+      {
+        "id": "B",
+        "text": "Di ruang tamu"
+      },
+      {
+        "id": "C",
+        "text": "Di garasi"
+      },
+      {
+        "id": "D",
+        "text": "Di halaman depan sekolah"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut the guests will meet in the garden behind the house."
+  },
+  {
+    "id": "BT009-276",
+    "day": 9,
+    "type": "story",
+    "prompt": "Pada jam berapa toko buku itu tutup pada hari Minggu?",
+    "passage": "The bookstore on Melati Street is open from nine in the morning to eight at night on weekdays. On Sunday, it opens at ten and closes at five in the afternoon. It is between a bakery and a flower shop. There is a small cafe inside the store.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pukul lima sore"
+      },
+      {
+        "id": "B",
+        "text": "Pukul delapan malam"
+      },
+      {
+        "id": "C",
+        "text": "Pukul sepuluh pagi"
+      },
+      {
+        "id": "D",
+        "text": "Pukul sembilan pagi"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut on Sunday it closes at five in the afternoon."
+  },
+  {
+    "id": "BT009-277",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana warung makanan di taman itu berada?",
+    "passage": "Our neighborhood has a small park near the river. There is a playground in the middle and some benches under the trees. A food stall stands next to the main gate. In the afternoon, many families come and relax there.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di tengah taman"
+      },
+      {
+        "id": "B",
+        "text": "Di samping gerbang utama"
+      },
+      {
+        "id": "C",
+        "text": "Di bawah pohon"
+      },
+      {
+        "id": "D",
+        "text": "Di atas jembatan"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut a food stall stands next to the main gate."
+  },
+  {
+    "id": "BT009-278",
+    "day": 9,
+    "type": "story",
+    "prompt": "Apa yang ada di belakang pintu kamar si pencerita?",
+    "passage": "My room is small, but I love it. My bed is next to the window, and my desk is opposite the bed. There are many books on the shelf above the desk. A small plant stands on the windowsill, and my guitar is behind the door.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tanaman kecil"
+      },
+      {
+        "id": "B",
+        "text": "Buku-buku"
+      },
+      {
+        "id": "C",
+        "text": "Meja belajar"
+      },
+      {
+        "id": "D",
+        "text": "Gitar"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut my guitar is behind the door."
+  },
+  {
+    "id": "BT009-279",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di antara siapa Sari duduk di dalam bus?",
+    "passage": "Sari takes the bus to Bandung on Friday evening. She sits between an old woman and a young man. Her bag is under the seat, and her jacket is on her lap. The bus leaves the terminal at six and arrives at nine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Seorang guru dan seorang anak"
+      },
+      {
+        "id": "B",
+        "text": "Sopir dan kondektur"
+      },
+      {
+        "id": "C",
+        "text": "Seorang wanita tua dan seorang pemuda"
+      },
+      {
+        "id": "D",
+        "text": "Dua orang siswa"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut she sits between an old woman and a young man."
+  },
+  {
+    "id": "BT009-280",
+    "day": 9,
+    "type": "story",
+    "prompt": "Pada jam berapa kereta Dani berangkat?",
+    "passage": "Tonight, Dani is waiting at Gambir Station. His train leaves from platform four at nine thirty. He is sitting on a bench near the ticket office. A small cafe is across from him, but he is not hungry.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pukul 19.30"
+      },
+      {
+        "id": "B",
+        "text": "Pukul 21.30"
+      },
+      {
+        "id": "C",
+        "text": "Pukul 04.30"
+      },
+      {
+        "id": "D",
+        "text": "Pukul 09.00 pagi"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut his train leaves at nine thirty tonight."
+  },
+  {
+    "id": "BT009-281",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana pengunjung bisa menyimpan tas mereka di pusat informasi turis?",
+    "passage": "The tourist information center is in the middle of the old town. A large map is on the wall behind the counter. Brochures are in boxes on the table next to the door. Visitors can also leave their bags in lockers under the stairs.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di meja dekat pintu"
+      },
+      {
+        "id": "B",
+        "text": "Di belakang konter"
+      },
+      {
+        "id": "C",
+        "text": "Di loker di bawah tangga"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam kotak brosur"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut visitors can leave their bags in lockers under the stairs."
+  },
+  {
+    "id": "BT009-282",
+    "day": 9,
+    "type": "story",
+    "prompt": "Pada waktu apa hujan turun hampir setiap hari di kota Rina?",
+    "passage": "In Rina's city, the rainy season starts in October and ends in March. It rains in the afternoon almost every day. Rina always keeps an umbrella inside her bag. On Sundays, she stays at home and reads novels.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Pada pagi hari"
+      },
+      {
+        "id": "B",
+        "text": "Pada tengah malam"
+      },
+      {
+        "id": "C",
+        "text": "Pada subuh"
+      },
+      {
+        "id": "D",
+        "text": "Pada sore hari"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut it rains in the afternoon almost every day."
+  },
+  {
+    "id": "BT009-283",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di lantai berapa perpustakaan sekolah baru itu berada?",
+    "passage": "A new school opens in our town in July. It is near the market and across from the mosque. The library is on the second floor, and the science lab is in the basement. The first day of school is on the fifteenth.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di lantai dua"
+      },
+      {
+        "id": "B",
+        "text": "Di ruang bawah tanah"
+      },
+      {
+        "id": "C",
+        "text": "Di lantai tiga"
+      },
+      {
+        "id": "D",
+        "text": "Di lantai satu"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut the library is on the second floor."
+  },
+  {
+    "id": "BT009-284",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana Pak Joko memarkir sepedanya?",
+    "passage": "Mr. Joko works at a small office on the third floor. He parks his bicycle behind the building, next to the garden. His desk is near the window, and a plant stands between his desk and the printer. He usually goes home at five o'clock.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di depan gedung dekat pintu masuk"
+      },
+      {
+        "id": "B",
+        "text": "Di dalam kantor di lantai tiga"
+      },
+      {
+        "id": "C",
+        "text": "Di bawah jendela kantornya"
+      },
+      {
+        "id": "D",
+        "text": "Di belakang gedung, di samping taman"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut he parks his bicycle behind the building, next to the garden."
+  },
+  {
+    "id": "BT009-285",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana keluarga Maya makan siang di kebun binatang?",
+    "passage": "Every Sunday, Maya's family visits the zoo at nine in the morning. They see the elephants near the entrance and the monkeys behind a tall fence. At noon, they eat lunch at a picnic table under a big tree. They go home at four.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dekat pintu masuk"
+      },
+      {
+        "id": "B",
+        "text": "Di balik pagar tinggi"
+      },
+      {
+        "id": "C",
+        "text": "Di meja piknik di bawah pohon besar"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam restoran"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut they eat lunch at a picnic table under a big tree."
+  },
+  {
+    "id": "BT009-286",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di dalam apa tomat Pak Yanto disimpan?",
+    "passage": "Pak Yanto sells vegetables at the traditional market. He arrives at five thirty in the morning and puts his boxes on a table in front of his stall. His tomatoes are in the red basket, and his carrots are in the blue one. He closes his stall at noon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di dalam keranjang biru"
+      },
+      {
+        "id": "B",
+        "text": "Di dalam keranjang merah"
+      },
+      {
+        "id": "C",
+        "text": "Di atas rak"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam kotak kayu"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut his tomatoes are in the red basket."
+  },
+  {
+    "id": "BT009-287",
+    "day": 9,
+    "type": "story",
+    "prompt": "Di mana tenda kecil si kembar berdiri?",
+    "passage": "In the afternoon, the twins play in the yard behind their grandmother's house. A small tent stands between two mango trees. Their ball is under the tent, and their bikes are against the fence. They go inside when their grandmother calls them for tea.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di antara dua pohon mangga"
+      },
+      {
+        "id": "B",
+        "text": "Di dalam rumah"
+      },
+      {
+        "id": "C",
+        "text": "Di bawah pagar"
+      },
+      {
+        "id": "D",
+        "text": "Di samping dapur nenek"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut a small tent stands between two mango trees."
+  },
+  {
+    "id": "BT009-288",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Pada jam berapa film dimulai?",
+    "script": "The movie starts at seven thirty tonight. Please arrive at the cinema fifteen minutes before it begins.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At seven fifteen"
+      },
+      {
+        "id": "B",
+        "text": "At eight thirty"
+      },
+      {
+        "id": "C",
+        "text": "At seven thirty"
+      },
+      {
+        "id": "D",
+        "text": "At six thirty"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut the movie starts at seven thirty."
+  },
+  {
+    "id": "BT009-289",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana sepatu Budi berada?",
+    "script": "Budi, your shoes are under the bed, and your socks are in the drawer next to the window.",
+    "options": [
+      {
+        "id": "A",
+        "text": "In the drawer"
+      },
+      {
+        "id": "B",
+        "text": "Behind the door"
+      },
+      {
+        "id": "C",
+        "text": "Next to the window"
+      },
+      {
+        "id": "D",
+        "text": "Under the bed"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut your shoes are under the bed."
+  },
+  {
+    "id": "BT009-290",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Pada hari apa toko itu tutup?",
+    "script": "Our shop is open from Monday to Saturday. It is closed on Sunday, but we open again at nine on Monday morning.",
+    "options": [
+      {
+        "id": "A",
+        "text": "On Saturday"
+      },
+      {
+        "id": "B",
+        "text": "On Sunday"
+      },
+      {
+        "id": "C",
+        "text": "On Monday"
+      },
+      {
+        "id": "D",
+        "text": "On Friday"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut it is closed on Sunday."
+  },
+  {
+    "id": "BT009-291",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di antara apa apotek itu berada?",
+    "script": "The pharmacy is between the bakery and the bank. It is across from the bus stop.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Between the bakery and the bank"
+      },
+      {
+        "id": "B",
+        "text": "Between the bank and the bus stop"
+      },
+      {
+        "id": "C",
+        "text": "Behind the bank"
+      },
+      {
+        "id": "D",
+        "text": "Inside the bakery"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut the pharmacy is between the bakery and the bank."
+  },
+  {
+    "id": "BT009-292",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Pada bulan apa ulang tahun Ayu?",
+    "script": "My sister Ayu has a birthday in September. We usually have a small party on the weekend, at her favorite restaurant.",
+    "options": [
+      {
+        "id": "A",
+        "text": "In December"
+      },
+      {
+        "id": "B",
+        "text": "In March"
+      },
+      {
+        "id": "C",
+        "text": "In July"
+      },
+      {
+        "id": "D",
+        "text": "In September"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut Ayu has a birthday in September."
+  },
+  {
+    "id": "BT009-293",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana pembicara menemukan paspornya?",
+    "script": "I do not know where my passport is. Wait, it is inside the blue bag, behind the pillow.",
+    "options": [
+      {
+        "id": "A",
+        "text": "On the table"
+      },
+      {
+        "id": "B",
+        "text": "Inside the blue bag"
+      },
+      {
+        "id": "C",
+        "text": "Under the pillow"
+      },
+      {
+        "id": "D",
+        "text": "In the kitchen drawer"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut it is inside the blue bag."
+  },
+  {
+    "id": "BT009-294",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana pembicara kedua akan menunggu?",
+    "script": "A: Where do we meet tomorrow? B: Let's meet at the station at eight o'clock. I will wait next to the ticket machine.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Next to the ticket machine"
+      },
+      {
+        "id": "B",
+        "text": "Inside the train"
+      },
+      {
+        "id": "C",
+        "text": "Behind the station"
+      },
+      {
+        "id": "D",
+        "text": "Under the bridge"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara kedua menyebut I will wait next to the ticket machine."
+  },
+  {
+    "id": "BT009-295",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Apa yang ada di atas lemari?",
+    "script": "There is a small box above the cupboard, and a big suitcase under the bed. Please bring the box to the kitchen.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A big suitcase"
+      },
+      {
+        "id": "B",
+        "text": "A blue lamp"
+      },
+      {
+        "id": "C",
+        "text": "A small box"
+      },
+      {
+        "id": "D",
+        "text": "A pair of shoes"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut there is a small box above the cupboard."
+  },
+  {
+    "id": "BT009-296",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Pada jam berapa pesawat itu mendarat?",
+    "script": "Flight 214 arrives at the airport at ten past five in the afternoon. The passengers will leave the plane through gate six.",
+    "options": [
+      {
+        "id": "A",
+        "text": "At five to ten in the morning"
+      },
+      {
+        "id": "B",
+        "text": "At ten to six in the afternoon"
+      },
+      {
+        "id": "C",
+        "text": "At ten past five in the afternoon"
+      },
+      {
+        "id": "D",
+        "text": "At ten past six in the afternoon"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut the flight arrives at ten past five in the afternoon."
+  },
+  {
+    "id": "BT009-297",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di belakang apa taman bermain itu berada?",
+    "script": "The playground is near our apartment, behind the supermarket. Children play there in the afternoon after school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Inside the supermarket"
+      },
+      {
+        "id": "B",
+        "text": "Behind the supermarket"
+      },
+      {
+        "id": "C",
+        "text": "Above the supermarket"
+      },
+      {
+        "id": "D",
+        "text": "Between two supermarkets"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut the playground is behind the supermarket."
+  },
+  {
+    "id": "BT009-298",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana keluarga pembicara akan menginap di Bali?",
+    "script": "We are going to Bali in August. We stay in a hotel near the beach for five days.",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a hotel near the beach"
+      },
+      {
+        "id": "B",
+        "text": "In a house on the hill"
+      },
+      {
+        "id": "C",
+        "text": "In a tent under the trees"
+      },
+      {
+        "id": "D",
+        "text": "In a friend's apartment"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut they stay in a hotel near the beach."
+  },
+  {
+    "id": "BT009-299",
+    "day": 9,
+    "type": "listen",
+    "prompt": "Di mana kucing itu sekarang?",
+    "script": "I cannot find the cat. She is not on the sofa, and she is not under the table. Oh, she is sleeping inside the box next to the door.",
+    "options": [
+      {
+        "id": "A",
+        "text": "On the sofa"
+      },
+      {
+        "id": "B",
+        "text": "Under the table"
+      },
+      {
+        "id": "C",
+        "text": "Behind the door"
+      },
+      {
+        "id": "D",
+        "text": "Inside the box next to the door"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut she is sleeping inside the box next to the door."
+  },
+  {
+    "id": "BT009-300",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Rapat itu dimulai pukul sembilan pada hari Senin)",
+    "acceptedAnswers": [
+      "The meeting starts at nine on Monday"
+    ],
+    "explanation": "At untuk jam dan on untuk hari."
+  },
+  {
+    "id": "BT009-301",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sekolah kami libur pada bulan Juni)",
+    "acceptedAnswers": [
+      "Our school has a holiday in June"
+    ],
+    "explanation": "In dipakai untuk bulan."
+  },
+  {
+    "id": "BT009-302",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Tasku ada di bawah meja)",
+    "acceptedAnswers": [
+      "My bag is under the table"
+    ],
+    "explanation": "Under berarti di bawah."
+  },
+  {
+    "id": "BT009-303",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Toko itu berada di antara bank dan restoran)",
+    "acceptedAnswers": [
+      "The shop is between the bank and the restaurant"
+    ],
+    "explanation": "Between diikuti dua benda dengan and."
+  },
+  {
+    "id": "BT009-304",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Anak laki-laki itu duduk di samping ibunya)",
+    "acceptedAnswers": [
+      "The boy sits next to his mother"
+    ],
+    "explanation": "Next to berarti di samping."
+  },
+  {
+    "id": "BT009-305",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Foto itu tergantung di dinding)",
+    "acceptedAnswers": [
+      "The photo is hanging on the wall"
+    ],
+    "explanation": "On dipakai untuk permukaan dinding."
+  },
+  {
+    "id": "BT009-306",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bus berangkat pukul tujuh pagi)",
+    "acceptedAnswers": [
+      "The bus leaves at seven in the morning"
+    ],
+    "explanation": "At untuk jam dan in the morning untuk pagi."
+  },
+  {
+    "id": "BT009-307",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kucing itu tidur di dalam kardus)",
+    "acceptedAnswers": [
+      "The cat is sleeping inside the box"
+    ],
+    "explanation": "Inside berarti di dalam wadah."
+  },
+  {
+    "id": "BT009-308",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Rumah kami dekat dengan masjid)",
+    "acceptedAnswers": [
+      "Our house is near the mosque"
+    ],
+    "explanation": "Near berarti dekat."
+  },
+  {
+    "id": "BT009-309",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sepeda itu ada di belakang rumah)",
+    "acceptedAnswers": [
+      "The bicycle is behind the house"
+    ],
+    "explanation": "Behind berarti di belakang."
+  },
+  {
+    "id": "BT009-310",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ulang tahun ibu jatuh pada hari Jumat)",
+    "acceptedAnswers": [
+      "My mother's birthday is on Friday"
+    ],
+    "explanation": "On dipakai untuk nama hari."
+  },
+  {
+    "id": "BT009-311",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya lahir pada tahun 2005)",
+    "acceptedAnswers": [
+      "I was born in 2005"
+    ],
+    "explanation": "In dipakai untuk tahun."
+  },
+  {
+    "id": "BT009-312",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dewi menunggu kami di depan sekolah)",
+    "acceptedAnswers": [
+      "Dewi is waiting for us in front of the school"
+    ],
+    "explanation": "In front of berarti di depan."
+  },
+  {
+    "id": "BT009-313",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Lampu itu menggantung di atas tangga)",
+    "acceptedAnswers": [
+      "The lamp is hanging above the stairs"
+    ],
+    "explanation": "Above berarti di atas tanpa menyentuh."
+  },
+  {
+    "id": "BT009-314",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami makan siang pada pukul dua belas)",
+    "acceptedAnswers": [
+      "We have lunch at twelve o'clock"
+    ],
+    "explanation": "At dipakai untuk jam."
+  },
+  {
+    "id": "BT009-315",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Buku-buku itu ada di dalam lemari)",
+    "acceptedAnswers": [
+      "The books are in the cupboard"
+    ],
+    "explanation": "In dipakai untuk sesuatu di dalam wadah."
+  },
+  {
+    "id": "BT009-316",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Anak-anak bermain di taman pada hari Minggu)",
+    "acceptedAnswers": [
+      "The children play in the park on Sunday"
+    ],
+    "explanation": "In untuk ruang taman dan on untuk hari."
+  },
+  {
+    "id": "BT009-317",
+    "day": 9,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mobil itu diparkir di antara dua pohon)",
+    "acceptedAnswers": [
+      "The car is parked between two trees"
+    ],
+    "explanation": "Between dipakai untuk posisi di antara dua benda."
+  }
+]

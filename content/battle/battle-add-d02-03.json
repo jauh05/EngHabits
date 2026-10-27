@@ -1,0 +1,4408 @@
+[
+  {
+    "id": "BT002-200",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: My father works as ___ engineer.",
+    "options": [
+      {
+        "id": "A",
+        "text": "an"
+      },
+      {
+        "id": "B",
+        "text": "a"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "some"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Engineer diawali bunyi vokal, jadi artikel yang tepat adalah an."
+  },
+  {
+    "id": "BT002-201",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which object do you use to draw a straight line?",
+    "options": [
+      {
+        "id": "A",
+        "text": "eraser"
+      },
+      {
+        "id": "B",
+        "text": "ruler"
+      },
+      {
+        "id": "C",
+        "text": "glue"
+      },
+      {
+        "id": "D",
+        "text": "scissors"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Ruler berarti penggaris, yang dipakai untuk menggambar garis lurus."
+  },
+  {
+    "id": "BT002-202",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct plural form: The teacher has five ___ on her desk.",
+    "options": [
+      {
+        "id": "A",
+        "text": "boxs"
+      },
+      {
+        "id": "B",
+        "text": "boxies"
+      },
+      {
+        "id": "C",
+        "text": "boxes"
+      },
+      {
+        "id": "D",
+        "text": "box's"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Kata yang berakhir dengan -x mendapat akhiran -es, jadi box menjadi boxes."
+  },
+  {
+    "id": "BT002-203",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which furniture do you sleep on at night?",
+    "options": [
+      {
+        "id": "A",
+        "text": "table"
+      },
+      {
+        "id": "B",
+        "text": "shelf"
+      },
+      {
+        "id": "C",
+        "text": "window"
+      },
+      {
+        "id": "D",
+        "text": "bed"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Bed berarti tempat tidur."
+  },
+  {
+    "id": "BT002-204",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: ___ shoes next to the door are my uncle's.",
+    "options": [
+      {
+        "id": "A",
+        "text": "That"
+      },
+      {
+        "id": "B",
+        "text": "Those"
+      },
+      {
+        "id": "C",
+        "text": "This"
+      },
+      {
+        "id": "D",
+        "text": "A"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Shoes itu jamak dan berada agak jauh, jadi penunjuk yang tepat adalah those."
+  },
+  {
+    "id": "BT002-205",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which thing has glass, and you look through it to see the street?",
+    "options": [
+      {
+        "id": "A",
+        "text": "window"
+      },
+      {
+        "id": "B",
+        "text": "door"
+      },
+      {
+        "id": "C",
+        "text": "wall"
+      },
+      {
+        "id": "D",
+        "text": "floor"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Window berarti jendela, yang biasanya berkaca dan dipakai untuk melihat ke luar."
+  },
+  {
+    "id": "BT002-206",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: We stayed in ___ hotel near the beach.",
+    "options": [
+      {
+        "id": "A",
+        "text": "an"
+      },
+      {
+        "id": "B",
+        "text": "two"
+      },
+      {
+        "id": "C",
+        "text": "a"
+      },
+      {
+        "id": "D",
+        "text": "those"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Hotel diawali bunyi konsonan /h/, jadi memakai a."
+  },
+  {
+    "id": "BT002-207",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: My clothes are in the ___ in my bedroom.",
+    "options": [
+      {
+        "id": "A",
+        "text": "oven"
+      },
+      {
+        "id": "B",
+        "text": "sink"
+      },
+      {
+        "id": "C",
+        "text": "rug"
+      },
+      {
+        "id": "D",
+        "text": "wardrobe"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Wardrobe berarti lemari pakaian."
+  },
+  {
+    "id": "BT002-208",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: ___ is my new notebook, and it is here in my hand.",
+    "options": [
+      {
+        "id": "A",
+        "text": "This"
+      },
+      {
+        "id": "B",
+        "text": "That"
+      },
+      {
+        "id": "C",
+        "text": "These"
+      },
+      {
+        "id": "D",
+        "text": "Those"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Notebook tunggal dan dekat dengan pembicara, jadi memakai this."
+  },
+  {
+    "id": "BT002-209",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Please turn on the ___; it is too dark to read.",
+    "options": [
+      {
+        "id": "A",
+        "text": "fan"
+      },
+      {
+        "id": "B",
+        "text": "towel"
+      },
+      {
+        "id": "C",
+        "text": "plate"
+      },
+      {
+        "id": "D",
+        "text": "lamp"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Lamp berarti lampu, yang dinyalakan saat ruangan gelap."
+  },
+  {
+    "id": "BT002-210",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct plural form: Please put the clean ___ on the shelf.",
+    "options": [
+      {
+        "id": "A",
+        "text": "glasss"
+      },
+      {
+        "id": "B",
+        "text": "glassies"
+      },
+      {
+        "id": "C",
+        "text": "glasses"
+      },
+      {
+        "id": "D",
+        "text": "glass's"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Kata yang berakhir dengan -ss mendapat akhiran -es, jadi glass menjadi glasses."
+  },
+  {
+    "id": "BT002-211",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which fruit is red or green and grows on a tree?",
+    "options": [
+      {
+        "id": "A",
+        "text": "banana"
+      },
+      {
+        "id": "B",
+        "text": "apple"
+      },
+      {
+        "id": "C",
+        "text": "carrot"
+      },
+      {
+        "id": "D",
+        "text": "potato"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Apple berarti apel, buah yang bisa berwarna merah atau hijau."
+  },
+  {
+    "id": "BT002-212",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: Look at ___ moon tonight. It is bright.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "an"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "these"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Bulan hanya ada satu dan semua orang tahu, jadi memakai the."
+  },
+  {
+    "id": "BT002-213",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which object do you use to call a friend?",
+    "options": [
+      {
+        "id": "A",
+        "text": "clock"
+      },
+      {
+        "id": "B",
+        "text": "brush"
+      },
+      {
+        "id": "C",
+        "text": "key"
+      },
+      {
+        "id": "D",
+        "text": "phone"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Phone berarti ponsel atau telepon, yang dipakai untuk menelepon."
+  },
+  {
+    "id": "BT002-214",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Do you see the birds on the roof over there? ___ birds are singing.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Those"
+      },
+      {
+        "id": "B",
+        "text": "This"
+      },
+      {
+        "id": "C",
+        "text": "That"
+      },
+      {
+        "id": "D",
+        "text": "A"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Birds itu jamak dan jauh dari pembicara, jadi memakai those."
+  },
+  {
+    "id": "BT002-215",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: We eat soup with a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "knife"
+      },
+      {
+        "id": "B",
+        "text": "spoon"
+      },
+      {
+        "id": "C",
+        "text": "plate"
+      },
+      {
+        "id": "D",
+        "text": "pillow"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Spoon berarti sendok, yang dipakai untuk makan sup."
+  },
+  {
+    "id": "BT002-216",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: Dewi waits for ___ hour every afternoon.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "an"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "these"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Hour dibaca dengan bunyi vokal (aur) karena h tidak berbunyi, jadi memakai an."
+  },
+  {
+    "id": "BT002-217",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which object shows your face when you look at it?",
+    "options": [
+      {
+        "id": "A",
+        "text": "lamp"
+      },
+      {
+        "id": "B",
+        "text": "towel"
+      },
+      {
+        "id": "C",
+        "text": "pillow"
+      },
+      {
+        "id": "D",
+        "text": "mirror"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Mirror berarti cermin."
+  },
+  {
+    "id": "BT002-218",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: My sister studies at ___ university in Jakarta.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "an"
+      },
+      {
+        "id": "C",
+        "text": "the"
+      },
+      {
+        "id": "D",
+        "text": "those"
+      }
+    ],
+    "correct": "A",
+    "explanation": "University diawali bunyi /yu/ yang termasuk konsonan, jadi memakai a."
+  },
+  {
+    "id": "BT002-219",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: The teacher writes on the ___ in the classroom.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sofa"
+      },
+      {
+        "id": "B",
+        "text": "fridge"
+      },
+      {
+        "id": "C",
+        "text": "board"
+      },
+      {
+        "id": "D",
+        "text": "bed"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Board berarti papan tulis."
+  },
+  {
+    "id": "BT002-220",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct verb: These tomatoes ___ very fresh.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Tomatoes jamak dan dekat, jadi kata kerjanya are."
+  },
+  {
+    "id": "BT002-221",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Mira puts the milk in the ___ to keep it cold.",
+    "options": [
+      {
+        "id": "A",
+        "text": "oven"
+      },
+      {
+        "id": "B",
+        "text": "fridge"
+      },
+      {
+        "id": "C",
+        "text": "shelf"
+      },
+      {
+        "id": "D",
+        "text": "fan"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Fridge berarti kulkas, tempat menyimpan makanan agar dingin."
+  },
+  {
+    "id": "BT002-222",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct verb: That car ___ very expensive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Car tunggal, jadi kata kerjanya is."
+  },
+  {
+    "id": "BT002-223",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which room in a house do you use to cook food?",
+    "options": [
+      {
+        "id": "A",
+        "text": "kitchen"
+      },
+      {
+        "id": "B",
+        "text": "bedroom"
+      },
+      {
+        "id": "C",
+        "text": "bathroom"
+      },
+      {
+        "id": "D",
+        "text": "garage"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Kitchen berarti dapur."
+  },
+  {
+    "id": "BT002-224",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct plural form: There are two old ___ in our town.",
+    "options": [
+      {
+        "id": "A",
+        "text": "churchs"
+      },
+      {
+        "id": "B",
+        "text": "churches"
+      },
+      {
+        "id": "C",
+        "text": "churchies"
+      },
+      {
+        "id": "D",
+        "text": "church's"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kata yang berakhir dengan -ch mendapat akhiran -es, jadi church menjadi churches."
+  },
+  {
+    "id": "BT002-225",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which room do you use to take a shower?",
+    "options": [
+      {
+        "id": "A",
+        "text": "bathroom"
+      },
+      {
+        "id": "B",
+        "text": "kitchen"
+      },
+      {
+        "id": "C",
+        "text": "garden"
+      },
+      {
+        "id": "D",
+        "text": "hall"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Bathroom berarti kamar mandi."
+  },
+  {
+    "id": "BT002-226",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: I saw a dog and a cat. ___ dog was very big.",
+    "options": [
+      {
+        "id": "A",
+        "text": "A"
+      },
+      {
+        "id": "B",
+        "text": "An"
+      },
+      {
+        "id": "C",
+        "text": "The"
+      },
+      {
+        "id": "D",
+        "text": "These"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Anjing itu sudah disebut sebelumnya, jadi memakai the."
+  },
+  {
+    "id": "BT002-227",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means the opposite of open?",
+    "options": [
+      {
+        "id": "A",
+        "text": "push"
+      },
+      {
+        "id": "B",
+        "text": "find"
+      },
+      {
+        "id": "C",
+        "text": "buy"
+      },
+      {
+        "id": "D",
+        "text": "close"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Close berarti menutup, lawan dari open."
+  },
+  {
+    "id": "BT002-228",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Are ___ your keys on the floor next to me?",
+    "options": [
+      {
+        "id": "A",
+        "text": "this"
+      },
+      {
+        "id": "B",
+        "text": "these"
+      },
+      {
+        "id": "C",
+        "text": "that"
+      },
+      {
+        "id": "D",
+        "text": "a"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Keys jamak dan dekat dengan pembicara, jadi memakai these."
+  },
+  {
+    "id": "BT002-229",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which things do you wear on your feet?",
+    "options": [
+      {
+        "id": "A",
+        "text": "hats"
+      },
+      {
+        "id": "B",
+        "text": "belts"
+      },
+      {
+        "id": "C",
+        "text": "gloves"
+      },
+      {
+        "id": "D",
+        "text": "shoes"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Shoes berarti sepatu, dipakai di kaki."
+  },
+  {
+    "id": "BT002-230",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: She eats ___ egg and drinks milk for breakfast.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "the"
+      },
+      {
+        "id": "C",
+        "text": "an"
+      },
+      {
+        "id": "D",
+        "text": "those"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Egg diawali bunyi vokal, jadi memakai an."
+  },
+  {
+    "id": "BT002-231",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which animal says meow?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cat"
+      },
+      {
+        "id": "B",
+        "text": "dog"
+      },
+      {
+        "id": "C",
+        "text": "cow"
+      },
+      {
+        "id": "D",
+        "text": "duck"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Cat berarti kucing, hewan yang bersuara meow."
+  },
+  {
+    "id": "BT002-232",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct verb: There ___ three apples on the plate.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Three apples jamak, jadi memakai there are."
+  },
+  {
+    "id": "BT002-233",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names a bag that you wear on your back?",
+    "options": [
+      {
+        "id": "A",
+        "text": "wallet"
+      },
+      {
+        "id": "B",
+        "text": "envelope"
+      },
+      {
+        "id": "C",
+        "text": "backpack"
+      },
+      {
+        "id": "D",
+        "text": "basket"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Backpack berarti ransel."
+  },
+  {
+    "id": "BT002-234",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct verb: There ___ a bank near my house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "D",
+    "explanation": "A bank tunggal, jadi memakai there is."
+  },
+  {
+    "id": "BT002-235",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: I wash my hands with soap at the ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "sink"
+      },
+      {
+        "id": "B",
+        "text": "stove"
+      },
+      {
+        "id": "C",
+        "text": "wardrobe"
+      },
+      {
+        "id": "D",
+        "text": "curtain"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Sink berarti bak cuci, tempat mencuci tangan."
+  },
+  {
+    "id": "BT002-236",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct plural form: I made three ___ before the exam.",
+    "options": [
+      {
+        "id": "A",
+        "text": "wishs"
+      },
+      {
+        "id": "B",
+        "text": "wishies"
+      },
+      {
+        "id": "C",
+        "text": "wish's"
+      },
+      {
+        "id": "D",
+        "text": "wishes"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Kata yang berakhir dengan -sh mendapat akhiran -es, jadi wish menjadi wishes."
+  },
+  {
+    "id": "BT002-237",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names something with many pages and a cover?",
+    "options": [
+      {
+        "id": "A",
+        "text": "book"
+      },
+      {
+        "id": "B",
+        "text": "plate"
+      },
+      {
+        "id": "C",
+        "text": "window"
+      },
+      {
+        "id": "D",
+        "text": "shoe"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Book berarti buku, yang memiliki banyak halaman dan sampul."
+  },
+  {
+    "id": "BT002-238",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct article: Budi has ___ old bike, and he rides it every day.",
+    "options": [
+      {
+        "id": "A",
+        "text": "a"
+      },
+      {
+        "id": "B",
+        "text": "these"
+      },
+      {
+        "id": "C",
+        "text": "an"
+      },
+      {
+        "id": "D",
+        "text": "those"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Old diawali bunyi vokal, jadi artikel sebelum old adalah an."
+  },
+  {
+    "id": "BT002-239",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Dad puts a picture on the ___ in the living room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "floor"
+      },
+      {
+        "id": "B",
+        "text": "wall"
+      },
+      {
+        "id": "C",
+        "text": "rug"
+      },
+      {
+        "id": "D",
+        "text": "soap"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Wall berarti dinding, tempat menaruh gambar."
+  },
+  {
+    "id": "BT002-240",
+    "day": 2,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct verb: ___ those your shoes by the door?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Are"
+      },
+      {
+        "id": "B",
+        "text": "Is"
+      },
+      {
+        "id": "C",
+        "text": "Am"
+      },
+      {
+        "id": "D",
+        "text": "Be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Those jamak, jadi pertanyaannya memakai are."
+  },
+  {
+    "id": "BT002-241",
+    "day": 2,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which place do you go to buy fruits and vegetables?",
+    "options": [
+      {
+        "id": "A",
+        "text": "library"
+      },
+      {
+        "id": "B",
+        "text": "bank"
+      },
+      {
+        "id": "C",
+        "text": "market"
+      },
+      {
+        "id": "D",
+        "text": "hospital"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Market berarti pasar, tempat membeli buah dan sayur."
+  },
+  {
+    "id": "BT002-242",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Ini adalah sebuah apel merah.",
+    "acceptedAnswers": [
+      "This is a red apple"
+    ],
+    "explanation": "Red diawali bunyi konsonan, jadi memakai a sebelum red apple."
+  },
+  {
+    "id": "BT002-243",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Itu bukan kursi saya.",
+    "acceptedAnswers": [
+      "That is not my chair",
+      "That isn't my chair",
+      "That's not my chair"
+    ],
+    "explanation": "That dipakai untuk benda tunggal yang jauh, dan not diletakkan setelah is."
+  },
+  {
+    "id": "BT002-244",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Apakah ini buku kamu?",
+    "acceptedAnswers": [
+      "Is this your book"
+    ],
+    "explanation": "Pertanyaan dengan is menempatkan is sebelum subjek this."
+  },
+  {
+    "id": "BT002-245",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Mereka membeli tiga tas baru.",
+    "acceptedAnswers": [
+      "They bought three new bags"
+    ],
+    "explanation": "Setelah angka tiga, kata bag menjadi jamak, yaitu bags."
+  },
+  {
+    "id": "BT002-246",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Ada sebuah jam di dinding.",
+    "acceptedAnswers": [
+      "There is a clock on the wall"
+    ],
+    "explanation": "Benda tunggal memakai there is dan artikel a."
+  },
+  {
+    "id": "BT002-247",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Bunga-bunga itu sangat cantik.",
+    "acceptedAnswers": [
+      "Those flowers are very beautiful"
+    ],
+    "explanation": "Flowers jamak dan jauh, jadi memakai those dan are."
+  },
+  {
+    "id": "BT002-248",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Saya makan sebuah jeruk setiap hari.",
+    "acceptedAnswers": [
+      "I eat an orange every day",
+      "Every day I eat an orange"
+    ],
+    "explanation": "Orange diawali bunyi vokal, jadi memakai an."
+  },
+  {
+    "id": "BT002-249",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Ada empat kotak di gudang.",
+    "acceptedAnswers": [
+      "There are four boxes in the storeroom",
+      "There are four boxes in the warehouse"
+    ],
+    "explanation": "Box berakhir dengan -x, jadi jamaknya boxes, dan memakai there are."
+  },
+  {
+    "id": "BT002-250",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Itu adalah sebuah jam tangan yang mahal.",
+    "acceptedAnswers": [
+      "That is an expensive watch"
+    ],
+    "explanation": "Expensive diawali bunyi vokal, jadi artikelnya an."
+  },
+  {
+    "id": "BT002-251",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Tolong buka jendela itu.",
+    "acceptedAnswers": [
+      "Please open the window",
+      "Please open that window"
+    ],
+    "explanation": "Benda yang sudah jelas dimaksud memakai the atau that."
+  },
+  {
+    "id": "BT002-252",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Apakah itu pensil-pensil kamu?",
+    "acceptedAnswers": [
+      "Are those your pencils"
+    ],
+    "explanation": "Pencils jamak dan jauh, jadi memakai are those."
+  },
+  {
+    "id": "BT002-253",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Ibu saya membeli enam telur di pasar setiap minggu.",
+    "acceptedAnswers": [
+      "My mother buys six eggs at the market every week",
+      "Every week my mother buys six eggs at the market"
+    ],
+    "explanation": "Setelah angka enam, egg menjadi jamak, dan buys memakai -s untuk subjek tunggal."
+  },
+  {
+    "id": "BT002-254",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Gadis itu punya sebuah topi biru.",
+    "acceptedAnswers": [
+      "That girl has a blue hat",
+      "The girl has a blue hat"
+    ],
+    "explanation": "Hat memakai a karena diawali bunyi konsonan, dan has dipakai untuk subjek tunggal."
+  },
+  {
+    "id": "BT002-255",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Kotak-kotak di sana sangat berat.",
+    "acceptedAnswers": [
+      "Those boxes over there are very heavy",
+      "Those boxes are very heavy"
+    ],
+    "explanation": "Boxes jamak dan jauh, jadi memakai those dan are."
+  },
+  {
+    "id": "BT002-256",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Ada sebuah taman di dekat sekolah kami.",
+    "acceptedAnswers": [
+      "There is a park near our school"
+    ],
+    "explanation": "Park tunggal dan diawali bunyi konsonan, jadi there is a park."
+  },
+  {
+    "id": "BT002-257",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Kita butuh dua gelas dan satu piring.",
+    "acceptedAnswers": [
+      "We need two glasses and a plate",
+      "We need two glasses and one plate"
+    ],
+    "explanation": "Glass berakhir dengan -ss, jadi jamaknya glasses."
+  },
+  {
+    "id": "BT002-258",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Ini bukan sebuah jeruk, tetapi sebuah lemon.",
+    "acceptedAnswers": [
+      "This is not an orange but a lemon",
+      "This is not an orange, but a lemon"
+    ],
+    "explanation": "Orange memakai an karena bunyi vokal, sedangkan lemon memakai a."
+  },
+  {
+    "id": "BT002-259",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Apakah ada sebuah toko buku di sini?",
+    "acceptedAnswers": [
+      "Is there a bookstore here",
+      "Is there a bookshop here",
+      "Is there a book store here"
+    ],
+    "explanation": "Pertanyaan tunggal memakai is there a."
+  },
+  {
+    "id": "BT002-260",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Gadis-gadis itu membawa dua tas.",
+    "acceptedAnswers": [
+      "Those girls carry two bags",
+      "The girls carry two bags"
+    ],
+    "explanation": "Girls dan bags jamak, dan kata kerja carry tidak berubah untuk subjek jamak."
+  },
+  {
+    "id": "BT002-261",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Saya melihat seekor burung di pohon itu.",
+    "acceptedAnswers": [
+      "I see a bird in that tree",
+      "I see a bird in the tree"
+    ],
+    "explanation": "Bird diawali bunyi konsonan, jadi memakai a."
+  },
+  {
+    "id": "BT002-262",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Jam itu ada di atas rak.",
+    "acceptedAnswers": [
+      "The clock is on the shelf",
+      "That clock is on the shelf"
+    ],
+    "explanation": "Benda yang sudah jelas dimaksud memakai the atau that."
+  },
+  {
+    "id": "BT002-263",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Mereka punya tiga kucing dan seekor anjing.",
+    "acceptedAnswers": [
+      "They have three cats and a dog",
+      "They have three cats and one dog"
+    ],
+    "explanation": "Cats jamak setelah angka tiga, sedangkan dog tunggal memakai a."
+  },
+  {
+    "id": "BT002-264",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Buku-buku ini ada di dalam tas saya.",
+    "acceptedAnswers": [
+      "These books are in my bag"
+    ],
+    "explanation": "Books jamak dan dekat, jadi memakai these dan are."
+  },
+  {
+    "id": "BT002-265",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Dia makan sebuah telur untuk sarapan.",
+    "acceptedAnswers": [
+      "He eats an egg for breakfast",
+      "She eats an egg for breakfast"
+    ],
+    "explanation": "Egg diawali bunyi vokal, jadi memakai an, dan eats memakai -s untuk he atau she."
+  },
+  {
+    "id": "BT002-266",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Apakah ini sebuah pisau atau sebuah sendok?",
+    "acceptedAnswers": [
+      "Is this a knife or a spoon"
+    ],
+    "explanation": "Knife dan spoon sama-sama tunggal berbunyi konsonan di awal, jadi memakai a."
+  },
+  {
+    "id": "BT002-267",
+    "day": 2,
+    "type": "translate",
+    "prompt": "Itu adalah sekolah yang bagus.",
+    "acceptedAnswers": [
+      "That is a good school",
+      "That is a nice school"
+    ],
+    "explanation": "School tunggal dan good diawali konsonan, jadi memakai a."
+  },
+  {
+    "id": "BT002-268",
+    "day": 2,
+    "type": "story",
+    "passage": "Rani has a small room. In her room, there is a bed, a desk, and two chairs. There is a lamp on the desk, and there are three books under the lamp. Rani studies there every night.",
+    "prompt": "Berapa kursi yang ada di kamar Rani?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satu kursi"
+      },
+      {
+        "id": "B",
+        "text": "Dua kursi"
+      },
+      {
+        "id": "C",
+        "text": "Tiga kursi"
+      },
+      {
+        "id": "D",
+        "text": "Empat kursi"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut there is a bed, a desk, and two chairs, jadi ada dua kursi."
+  },
+  {
+    "id": "BT002-269",
+    "day": 2,
+    "type": "story",
+    "passage": "Mr. Joko sells fruit at a market. Every morning he puts ten apples, six bananas, and a basket of oranges on his table. The apples are red and fresh. Many people buy bananas because they are cheap.",
+    "prompt": "Mengapa banyak orang membeli pisang di toko Pak Joko?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena pisangnya besar"
+      },
+      {
+        "id": "B",
+        "text": "Karena pisangnya merah"
+      },
+      {
+        "id": "C",
+        "text": "Karena pisangnya gratis"
+      },
+      {
+        "id": "D",
+        "text": "Karena pisangnya murah"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut banyak orang membeli pisang karena they are cheap, yaitu murah."
+  },
+  {
+    "id": "BT002-270",
+    "day": 2,
+    "type": "story",
+    "passage": "Tia is in the library. She has an English book, a notebook, and a green pencil. The book is on the table, and the notebook is in her bag. A boy near the window asks for a pencil, and Tia gives him the green pencil.",
+    "prompt": "Apa yang Tia berikan kepada anak laki-laki itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebuah buku bahasa Inggris"
+      },
+      {
+        "id": "B",
+        "text": "Sebuah buku catatan"
+      },
+      {
+        "id": "C",
+        "text": "Sebuah tas"
+      },
+      {
+        "id": "D",
+        "text": "Sebuah pensil hijau"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut Tia gives him the green pencil, jadi ia memberi pensil hijau."
+  },
+  {
+    "id": "BT002-271",
+    "day": 2,
+    "type": "story",
+    "passage": "Our classroom has two doors and four windows. The windows are big, so the room is bright. There is a clock above the board. The students put their bags under the chairs.",
+    "prompt": "Di mana para siswa meletakkan tas mereka?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di bawah kursi"
+      },
+      {
+        "id": "B",
+        "text": "Di atas meja"
+      },
+      {
+        "id": "C",
+        "text": "Di dekat pintu"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam lemari"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut the students put their bags under the chairs."
+  },
+  {
+    "id": "BT002-272",
+    "day": 2,
+    "type": "story",
+    "passage": "Dito wants a bag. At the shop, the red bag is expensive, but the blue bag is cheap. Dito likes the red bag. He buys the blue bag because he has only a little money.",
+    "prompt": "Tas mana yang dibeli Dito?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tas merah"
+      },
+      {
+        "id": "B",
+        "text": "Tas hitam"
+      },
+      {
+        "id": "C",
+        "text": "Tas biru"
+      },
+      {
+        "id": "D",
+        "text": "Tas hijau"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Dito membeli tas biru karena uangnya sedikit, meskipun ia menyukai tas merah."
+  },
+  {
+    "id": "BT002-273",
+    "day": 2,
+    "type": "story",
+    "passage": "There is a garden behind my house. It has red flowers, yellow flowers, and a small tree. A cat sleeps under the tree every afternoon. My mother likes the yellow flowers best.",
+    "prompt": "Bunga apa yang paling disukai ibu pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Bunga merah"
+      },
+      {
+        "id": "B",
+        "text": "Bunga kuning"
+      },
+      {
+        "id": "C",
+        "text": "Bunga putih"
+      },
+      {
+        "id": "D",
+        "text": "Bunga biru"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut my mother likes the yellow flowers best."
+  },
+  {
+    "id": "BT002-274",
+    "day": 2,
+    "type": "story",
+    "passage": "Sinta goes to a restaurant with her family. They order a pizza, two glasses of juice, and an egg salad. The waiter brings the food quickly. The pizza is hot.",
+    "prompt": "Berapa gelas jus yang dipesan keluarga Sinta?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Satu gelas"
+      },
+      {
+        "id": "B",
+        "text": "Tiga gelas"
+      },
+      {
+        "id": "C",
+        "text": "Empat gelas"
+      },
+      {
+        "id": "D",
+        "text": "Dua gelas"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut two glasses of juice."
+  },
+  {
+    "id": "BT002-275",
+    "day": 2,
+    "type": "story",
+    "passage": "Andi has a new phone. It is black, and it is in a blue case. He puts the phone in his bag every morning. At school, he does not use it in class.",
+    "prompt": "Di mana Andi menyimpan ponselnya setiap pagi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di dalam tasnya"
+      },
+      {
+        "id": "B",
+        "text": "Di atas mejanya"
+      },
+      {
+        "id": "C",
+        "text": "Di dalam kotak pensil"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam sepatunya"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut he puts the phone in his bag every morning."
+  },
+  {
+    "id": "BT002-276",
+    "day": 2,
+    "type": "story",
+    "passage": "Mr. Hasan has a small shop near the station. He sells pens, notebooks, and erasers. The pens are in a box on the left. The notebooks are on the shelf behind him. An old clock is above the door.",
+    "prompt": "Apa yang ada di atas pintu toko Pak Hasan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sebuah rak"
+      },
+      {
+        "id": "B",
+        "text": "Sebuah jam tua"
+      },
+      {
+        "id": "C",
+        "text": "Sebuah kotak pulpen"
+      },
+      {
+        "id": "D",
+        "text": "Sebuah lampu"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut an old clock is above the door."
+  },
+  {
+    "id": "BT002-277",
+    "day": 2,
+    "type": "story",
+    "passage": "Rina has two cats and a rabbit. The cats are white, and the rabbit is brown. The cats sleep on a sofa, but the rabbit stays in a box. Every evening Rina gives them food.",
+    "prompt": "Di mana kelinci Rina tinggal?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di atas sofa"
+      },
+      {
+        "id": "B",
+        "text": "Di bawah meja"
+      },
+      {
+        "id": "C",
+        "text": "Di dalam sebuah kotak"
+      },
+      {
+        "id": "D",
+        "text": "Di dalam taman"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut the rabbit stays in a box."
+  },
+  {
+    "id": "BT002-278",
+    "day": 2,
+    "type": "story",
+    "passage": "A new student comes to our class today. She has a big bag and an umbrella. The teacher says, \"Please sit on that chair near the window.\" The student smiles and sits there.",
+    "prompt": "Di mana siswa baru itu duduk?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di kursi dekat pintu"
+      },
+      {
+        "id": "B",
+        "text": "Di lantai"
+      },
+      {
+        "id": "C",
+        "text": "Di meja guru"
+      },
+      {
+        "id": "D",
+        "text": "Di kursi dekat jendela"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Guru meminta siswa baru duduk di kursi dekat jendela, dan ia duduk di sana."
+  },
+  {
+    "id": "BT002-279",
+    "day": 2,
+    "type": "story",
+    "passage": "It is Sunday morning. Lia makes a sandwich with an egg and a tomato. She puts the sandwich on a plate and takes it to the garden. She eats it under a big tree.",
+    "prompt": "Apa isi sandwich yang dibuat Lia?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Apel dan pisang"
+      },
+      {
+        "id": "B",
+        "text": "Roti dan susu"
+      },
+      {
+        "id": "C",
+        "text": "Telur dan tomat"
+      },
+      {
+        "id": "D",
+        "text": "Keju dan selada"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut Lia makes a sandwich with an egg and a tomato."
+  },
+  {
+    "id": "BT002-280",
+    "day": 2,
+    "type": "listen",
+    "script": "I have a new bag. It is red, and it has two big pockets.",
+    "prompt": "Berapa kantong yang dimiliki tas baru itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "one pocket"
+      },
+      {
+        "id": "B",
+        "text": "two pockets"
+      },
+      {
+        "id": "C",
+        "text": "three pockets"
+      },
+      {
+        "id": "D",
+        "text": "four pockets"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut tasnya punya dua kantong besar."
+  },
+  {
+    "id": "BT002-281",
+    "day": 2,
+    "type": "listen",
+    "script": "Look at those birds on the roof. They are small and brown.",
+    "prompt": "Bagaimana burung-burung di atap itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "small and brown"
+      },
+      {
+        "id": "B",
+        "text": "big and black"
+      },
+      {
+        "id": "C",
+        "text": "small and white"
+      },
+      {
+        "id": "D",
+        "text": "big and brown"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut burung-burung itu kecil dan cokelat."
+  },
+  {
+    "id": "BT002-282",
+    "day": 2,
+    "type": "listen",
+    "script": "Please put these books on the shelf, and put that box under the table.",
+    "prompt": "Di mana kotak itu harus diletakkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "on the shelf"
+      },
+      {
+        "id": "B",
+        "text": "under the table"
+      },
+      {
+        "id": "C",
+        "text": "in the bag"
+      },
+      {
+        "id": "D",
+        "text": "next to the door"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara meminta kotak diletakkan di bawah meja."
+  },
+  {
+    "id": "BT002-283",
+    "day": 2,
+    "type": "listen",
+    "script": "Dina wants an orange, a banana, and two apples for her lunch.",
+    "prompt": "Berapa apel yang diinginkan Dina?",
+    "options": [
+      {
+        "id": "A",
+        "text": "two apples"
+      },
+      {
+        "id": "B",
+        "text": "one apple"
+      },
+      {
+        "id": "C",
+        "text": "three apples"
+      },
+      {
+        "id": "D",
+        "text": "four apples"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Dina menginginkan dua apel untuk makan siang."
+  },
+  {
+    "id": "BT002-284",
+    "day": 2,
+    "type": "listen",
+    "script": "A: What is in the box? B: There are three books and an old clock.",
+    "prompt": "Apa isi kotak itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "two books and a new clock"
+      },
+      {
+        "id": "B",
+        "text": "three pens and an old phone"
+      },
+      {
+        "id": "C",
+        "text": "three books and an old clock"
+      },
+      {
+        "id": "D",
+        "text": "an old clock only"
+      }
+    ],
+    "correct": "C",
+    "explanation": "B menyebut ada tiga buku dan sebuah jam tua di dalam kotak."
+  },
+  {
+    "id": "BT002-285",
+    "day": 2,
+    "type": "listen",
+    "script": "The kitchen is next to the living room. There is a big table and six chairs in it.",
+    "prompt": "Berapa kursi yang ada di dapur?",
+    "options": [
+      {
+        "id": "A",
+        "text": "two chairs"
+      },
+      {
+        "id": "B",
+        "text": "four chairs"
+      },
+      {
+        "id": "C",
+        "text": "eight chairs"
+      },
+      {
+        "id": "D",
+        "text": "six chairs"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut ada enam kursi di dapur."
+  },
+  {
+    "id": "BT002-286",
+    "day": 2,
+    "type": "listen",
+    "script": "Excuse me. Where is the bathroom? It is on the left, next to the stairs.",
+    "prompt": "Di mana kamar mandinya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "on the right, next to the door"
+      },
+      {
+        "id": "B",
+        "text": "upstairs, near the kitchen"
+      },
+      {
+        "id": "C",
+        "text": "behind the garden"
+      },
+      {
+        "id": "D",
+        "text": "on the left, next to the stairs"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Jawabannya adalah di sebelah kiri, dekat tangga."
+  },
+  {
+    "id": "BT002-287",
+    "day": 2,
+    "type": "listen",
+    "script": "These glasses are clean, but those glasses on the table are dirty.",
+    "prompt": "Gelas yang mana yang kotor?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the glasses on the table"
+      },
+      {
+        "id": "B",
+        "text": "the glasses in the kitchen"
+      },
+      {
+        "id": "C",
+        "text": "these glasses"
+      },
+      {
+        "id": "D",
+        "text": "all the glasses"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Those glasses on the table disebut kotor, sedangkan these glasses bersih."
+  },
+  {
+    "id": "BT002-288",
+    "day": 2,
+    "type": "listen",
+    "script": "Tomorrow I need an umbrella, a jacket, and a small towel for the trip.",
+    "prompt": "Benda apa yang dibutuhkan pembicara untuk perjalanan besok?",
+    "options": [
+      {
+        "id": "A",
+        "text": "a hat, a jacket, and a towel"
+      },
+      {
+        "id": "B",
+        "text": "an umbrella, a jacket, and a towel"
+      },
+      {
+        "id": "C",
+        "text": "an umbrella, a map, and a bag"
+      },
+      {
+        "id": "D",
+        "text": "a jacket, a bag, and a camera"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut payung, jaket, dan handuk kecil."
+  },
+  {
+    "id": "BT002-289",
+    "day": 2,
+    "type": "listen",
+    "script": "My town has a big market, an old library, and two hospitals.",
+    "prompt": "Berapa rumah sakit yang ada di kota pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "one hospital"
+      },
+      {
+        "id": "B",
+        "text": "three hospitals"
+      },
+      {
+        "id": "C",
+        "text": "two hospitals"
+      },
+      {
+        "id": "D",
+        "text": "no hospitals"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut kotanya punya dua rumah sakit."
+  },
+  {
+    "id": "BT002-290",
+    "day": 2,
+    "type": "listen",
+    "script": "A: Is there a pharmacy near here? B: Yes, there is one next to the bank.",
+    "prompt": "Apotek itu ada di sebelah apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the school"
+      },
+      {
+        "id": "B",
+        "text": "the bank"
+      },
+      {
+        "id": "C",
+        "text": "the market"
+      },
+      {
+        "id": "D",
+        "text": "the station"
+      }
+    ],
+    "correct": "B",
+    "explanation": "B menyebut apotek ada di sebelah bank."
+  },
+  {
+    "id": "BT002-291",
+    "day": 2,
+    "type": "listen",
+    "script": "I have a cat and two dogs. The cat is white, and the dogs are black.",
+    "prompt": "Anjing-anjing itu berwarna apa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "white"
+      },
+      {
+        "id": "B",
+        "text": "brown"
+      },
+      {
+        "id": "C",
+        "text": "gray"
+      },
+      {
+        "id": "D",
+        "text": "black"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut the dogs are black, yaitu hitam."
+  },
+  {
+    "id": "BT002-292",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ada tiga burung di pohon)",
+    "acceptedAnswers": [
+      "There are three birds in the tree"
+    ],
+    "explanation": "Three birds jamak, jadi memakai there are dan birds."
+  },
+  {
+    "id": "BT002-293",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Itu adalah sebuah mobil putih)",
+    "acceptedAnswers": [
+      "That is a white car"
+    ],
+    "explanation": "White diawali bunyi konsonan, jadi memakai a."
+  },
+  {
+    "id": "BT002-294",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah ini tas kamu?)",
+    "acceptedAnswers": [
+      "Is this your bag"
+    ],
+    "explanation": "Pertanyaan dengan is menempatkan is sebelum this."
+  },
+  {
+    "id": "BT002-295",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dia membeli sebuah jam baru setiap tahun)",
+    "acceptedAnswers": [
+      "He buys a new clock every year"
+    ],
+    "explanation": "Subjek he memakai buys dan new diawali bunyi konsonan, jadi memakai a."
+  },
+  {
+    "id": "BT002-296",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ini bukan apel saya)",
+    "acceptedAnswers": [
+      "This is not my apple"
+    ],
+    "explanation": "Kata not diletakkan setelah is, lalu diikuti my apple."
+  },
+  {
+    "id": "BT002-297",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bunga-bunga itu berwarna merah)",
+    "acceptedAnswers": [
+      "Those flowers are red"
+    ],
+    "explanation": "Flowers jamak dan jauh, jadi memakai those dan are."
+  },
+  {
+    "id": "BT002-298",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ada sebuah kotak di bawah meja)",
+    "acceptedAnswers": [
+      "There is a box under the table"
+    ],
+    "explanation": "Benda tunggal memakai there is dan artikel a."
+  },
+  {
+    "id": "BT002-299",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami punya dua jendela besar)",
+    "acceptedAnswers": [
+      "We have two big windows"
+    ],
+    "explanation": "Setelah angka dua, window menjadi windows."
+  },
+  {
+    "id": "BT002-300",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah itu kursi baru?)",
+    "acceptedAnswers": [
+      "Is that a new chair"
+    ],
+    "explanation": "That dipakai untuk benda tunggal yang jauh, dan chair memakai a."
+  },
+  {
+    "id": "BT002-301",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dia makan sebuah jeruk)",
+    "acceptedAnswers": [
+      "She eats an orange"
+    ],
+    "explanation": "Orange diawali bunyi vokal, jadi memakai an."
+  },
+  {
+    "id": "BT002-302",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sepatu-sepatu ini murah)",
+    "acceptedAnswers": [
+      "These shoes are cheap"
+    ],
+    "explanation": "Shoes jamak dan dekat, jadi memakai these dan are."
+  },
+  {
+    "id": "BT002-303",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kucing itu ada di atas kursi)",
+    "acceptedAnswers": [
+      "The cat is on the chair"
+    ],
+    "explanation": "Benda yang sudah jelas dimaksud memakai the."
+  },
+  {
+    "id": "BT002-304",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ada dua gelas di dalam lemari)",
+    "acceptedAnswers": [
+      "There are two glasses in the cupboard"
+    ],
+    "explanation": "Glass menjadi glasses setelah angka dua, dan kalimatnya memakai there are."
+  },
+  {
+    "id": "BT002-305",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mereka tidak punya mobil)",
+    "acceptedAnswers": [
+      "They do not have a car"
+    ],
+    "explanation": "Bentuk negatif memakai do not sebelum have."
+  },
+  {
+    "id": "BT002-306",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah ada sebuah bank di sini?)",
+    "acceptedAnswers": [
+      "Is there a bank here"
+    ],
+    "explanation": "Pertanyaan tunggal memakai is there a."
+  },
+  {
+    "id": "BT002-307",
+    "day": 2,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Itu adalah sebuah pulpen yang bagus)",
+    "acceptedAnswers": [
+      "That is a good pen"
+    ],
+    "explanation": "Good diawali bunyi konsonan, jadi memakai a."
+  },
+  {
+    "id": "BT003-200",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Tina and Rudi love ___ new house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "they"
+      },
+      {
+        "id": "B",
+        "text": "them"
+      },
+      {
+        "id": "C",
+        "text": "theirs"
+      },
+      {
+        "id": "D",
+        "text": "their"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Sebelum kata benda house dipakai kata ganti kepemilikan their."
+  },
+  {
+    "id": "BT003-201",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Who is your father's brother?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "nephew"
+      },
+      {
+        "id": "C",
+        "text": "uncle"
+      },
+      {
+        "id": "D",
+        "text": "grandfather"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Uncle berarti paman, yaitu saudara laki-laki ayah atau ibu."
+  },
+  {
+    "id": "BT003-202",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: This red notebook is not yours. It is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "my"
+      },
+      {
+        "id": "B",
+        "text": "mine"
+      },
+      {
+        "id": "C",
+        "text": "me"
+      },
+      {
+        "id": "D",
+        "text": "I"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Mine berdiri sendiri tanpa kata benda dan berarti milik saya."
+  },
+  {
+    "id": "BT003-203",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Who is your uncle's daughter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "sister"
+      },
+      {
+        "id": "C",
+        "text": "aunt"
+      },
+      {
+        "id": "D",
+        "text": "niece"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Cousin berarti sepupu, yaitu anak dari paman atau bibi."
+  },
+  {
+    "id": "BT003-204",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct object pronoun: My brother is lost. Can you help ___?",
+    "options": [
+      {
+        "id": "A",
+        "text": "he"
+      },
+      {
+        "id": "B",
+        "text": "his"
+      },
+      {
+        "id": "C",
+        "text": "her"
+      },
+      {
+        "id": "D",
+        "text": "him"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah kata kerja help dipakai kata ganti objek, dan him untuk laki-laki."
+  },
+  {
+    "id": "BT003-205",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names your father's father?",
+    "options": [
+      {
+        "id": "A",
+        "text": "uncle"
+      },
+      {
+        "id": "B",
+        "text": "grandfather"
+      },
+      {
+        "id": "C",
+        "text": "brother"
+      },
+      {
+        "id": "D",
+        "text": "son"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Grandfather berarti kakek."
+  },
+  {
+    "id": "BT003-206",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: We are late, so the teacher is waiting for ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "we"
+      },
+      {
+        "id": "B",
+        "text": "our"
+      },
+      {
+        "id": "C",
+        "text": "us"
+      },
+      {
+        "id": "D",
+        "text": "ours"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Setelah preposisi for dipakai kata ganti objek us."
+  },
+  {
+    "id": "BT003-207",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names your mother's sister?",
+    "options": [
+      {
+        "id": "A",
+        "text": "aunt"
+      },
+      {
+        "id": "B",
+        "text": "niece"
+      },
+      {
+        "id": "C",
+        "text": "cousin"
+      },
+      {
+        "id": "D",
+        "text": "daughter"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Aunt berarti bibi."
+  },
+  {
+    "id": "BT003-208",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: I forgot my pen. May I use ___?",
+    "options": [
+      {
+        "id": "A",
+        "text": "your"
+      },
+      {
+        "id": "B",
+        "text": "you"
+      },
+      {
+        "id": "C",
+        "text": "yours"
+      },
+      {
+        "id": "D",
+        "text": "my"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Yours berdiri sendiri dan berarti milikmu, tanpa kata benda setelahnya."
+  },
+  {
+    "id": "BT003-209",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: My mother and father are my ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "parents"
+      },
+      {
+        "id": "B",
+        "text": "cousins"
+      },
+      {
+        "id": "C",
+        "text": "neighbors"
+      },
+      {
+        "id": "D",
+        "text": "friends"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Parents berarti orang tua, yaitu ayah dan ibu."
+  },
+  {
+    "id": "BT003-210",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Dewi loves ___ grandmother very much.",
+    "options": [
+      {
+        "id": "A",
+        "text": "she"
+      },
+      {
+        "id": "B",
+        "text": "her"
+      },
+      {
+        "id": "C",
+        "text": "hers"
+      },
+      {
+        "id": "D",
+        "text": "him"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Her dipakai sebelum kata benda grandmother untuk menunjukkan kepemilikan."
+  },
+  {
+    "id": "BT003-211",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names a boy who has the same parents as you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "uncle"
+      },
+      {
+        "id": "C",
+        "text": "nephew"
+      },
+      {
+        "id": "D",
+        "text": "brother"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Brother berarti saudara laki-laki."
+  },
+  {
+    "id": "BT003-212",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: The dog wags ___ tail when it sees me.",
+    "options": [
+      {
+        "id": "A",
+        "text": "it's"
+      },
+      {
+        "id": "B",
+        "text": "it"
+      },
+      {
+        "id": "C",
+        "text": "its"
+      },
+      {
+        "id": "D",
+        "text": "their"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Its adalah kata ganti kepemilikan untuk benda atau hewan, sedangkan it's berarti it is."
+  },
+  {
+    "id": "BT003-213",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names your brother's daughter?",
+    "options": [
+      {
+        "id": "A",
+        "text": "aunt"
+      },
+      {
+        "id": "B",
+        "text": "niece"
+      },
+      {
+        "id": "C",
+        "text": "cousin"
+      },
+      {
+        "id": "D",
+        "text": "sister"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Niece berarti keponakan perempuan."
+  },
+  {
+    "id": "BT003-214",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct object pronoun: I have two sisters. I often call ___ at night.",
+    "options": [
+      {
+        "id": "A",
+        "text": "they"
+      },
+      {
+        "id": "B",
+        "text": "their"
+      },
+      {
+        "id": "C",
+        "text": "theirs"
+      },
+      {
+        "id": "D",
+        "text": "them"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah kata kerja call dipakai kata ganti objek them."
+  },
+  {
+    "id": "BT003-215",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means to take something from someone for a short time and give it back later?",
+    "options": [
+      {
+        "id": "A",
+        "text": "borrow"
+      },
+      {
+        "id": "B",
+        "text": "lend"
+      },
+      {
+        "id": "C",
+        "text": "keep"
+      },
+      {
+        "id": "D",
+        "text": "sell"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Borrow berarti meminjam, sedangkan lend berarti meminjamkan."
+  },
+  {
+    "id": "BT003-216",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: These tickets are for you and me. They are ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "our"
+      },
+      {
+        "id": "B",
+        "text": "us"
+      },
+      {
+        "id": "C",
+        "text": "ours"
+      },
+      {
+        "id": "D",
+        "text": "we"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Ours berdiri sendiri dan berarti milik kami."
+  },
+  {
+    "id": "BT003-217",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Nina is my best ___. We have been friends since school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "friend"
+      },
+      {
+        "id": "B",
+        "text": "uncle"
+      },
+      {
+        "id": "C",
+        "text": "aunt"
+      },
+      {
+        "id": "D",
+        "text": "parent"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Friend berarti teman."
+  },
+  {
+    "id": "BT003-218",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Mr. and Mrs. Lee have a car. The car is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "their"
+      },
+      {
+        "id": "B",
+        "text": "them"
+      },
+      {
+        "id": "C",
+        "text": "they"
+      },
+      {
+        "id": "D",
+        "text": "theirs"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Theirs berdiri sendiri tanpa kata benda dan berarti milik mereka."
+  },
+  {
+    "id": "BT003-219",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Would you ___ me your charger? My phone is dead.",
+    "options": [
+      {
+        "id": "A",
+        "text": "borrow"
+      },
+      {
+        "id": "B",
+        "text": "lend"
+      },
+      {
+        "id": "C",
+        "text": "keep"
+      },
+      {
+        "id": "D",
+        "text": "sell"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Lend me berarti meminjamkan kepada saya."
+  },
+  {
+    "id": "BT003-220",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Rina is shy, so I always talk to ___ slowly.",
+    "options": [
+      {
+        "id": "A",
+        "text": "her"
+      },
+      {
+        "id": "B",
+        "text": "she"
+      },
+      {
+        "id": "C",
+        "text": "hers"
+      },
+      {
+        "id": "D",
+        "text": "they"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah preposisi to dipakai kata ganti objek her."
+  },
+  {
+    "id": "BT003-221",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names a person who lives in the house next to yours?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "parent"
+      },
+      {
+        "id": "C",
+        "text": "neighbor"
+      },
+      {
+        "id": "D",
+        "text": "guest"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Neighbor berarti tetangga."
+  },
+  {
+    "id": "BT003-222",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Whose book is this? It is ___, so please give it to Rani.",
+    "options": [
+      {
+        "id": "A",
+        "text": "her"
+      },
+      {
+        "id": "B",
+        "text": "hers"
+      },
+      {
+        "id": "C",
+        "text": "she"
+      },
+      {
+        "id": "D",
+        "text": "him"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Hers berdiri sendiri dan berarti milik dia perempuan."
+  },
+  {
+    "id": "BT003-223",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Please ___ the book to the library by Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "wear"
+      },
+      {
+        "id": "B",
+        "text": "cook"
+      },
+      {
+        "id": "C",
+        "text": "borrow"
+      },
+      {
+        "id": "D",
+        "text": "return"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Return berarti mengembalikan."
+  },
+  {
+    "id": "BT003-224",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Ali is my cousin. ___ house is near the station.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Him"
+      },
+      {
+        "id": "B",
+        "text": "He"
+      },
+      {
+        "id": "C",
+        "text": "His"
+      },
+      {
+        "id": "D",
+        "text": "Hers"
+      }
+    ],
+    "correct": "C",
+    "explanation": "His dipakai sebelum kata benda house untuk menunjukkan kepemilikan laki-laki."
+  },
+  {
+    "id": "BT003-225",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names the people in your house, such as your mother, father, and brother?",
+    "options": [
+      {
+        "id": "A",
+        "text": "family"
+      },
+      {
+        "id": "B",
+        "text": "team"
+      },
+      {
+        "id": "C",
+        "text": "class"
+      },
+      {
+        "id": "D",
+        "text": "crowd"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Family berarti keluarga."
+  },
+  {
+    "id": "BT003-226",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Please send ___ a message when you arrive.",
+    "options": [
+      {
+        "id": "A",
+        "text": "I"
+      },
+      {
+        "id": "B",
+        "text": "my"
+      },
+      {
+        "id": "C",
+        "text": "mine"
+      },
+      {
+        "id": "D",
+        "text": "me"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah kata kerja send dipakai kata ganti objek me."
+  },
+  {
+    "id": "BT003-227",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names a man who is married to a woman?",
+    "options": [
+      {
+        "id": "A",
+        "text": "son"
+      },
+      {
+        "id": "B",
+        "text": "husband"
+      },
+      {
+        "id": "C",
+        "text": "uncle"
+      },
+      {
+        "id": "D",
+        "text": "cousin"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Husband berarti suami."
+  },
+  {
+    "id": "BT003-228",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: My friends and I have a plan. ___ plan is simple.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Our"
+      },
+      {
+        "id": "B",
+        "text": "Ours"
+      },
+      {
+        "id": "C",
+        "text": "Us"
+      },
+      {
+        "id": "D",
+        "text": "We"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Our dipakai sebelum kata benda plan, sedangkan ours berdiri sendiri."
+  },
+  {
+    "id": "BT003-229",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names your sister's son?",
+    "options": [
+      {
+        "id": "A",
+        "text": "cousin"
+      },
+      {
+        "id": "B",
+        "text": "uncle"
+      },
+      {
+        "id": "C",
+        "text": "nephew"
+      },
+      {
+        "id": "D",
+        "text": "brother"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Nephew berarti keponakan laki-laki."
+  },
+  {
+    "id": "BT003-230",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Those students are noisy. The teacher asks ___ to be quiet.",
+    "options": [
+      {
+        "id": "A",
+        "text": "they"
+      },
+      {
+        "id": "B",
+        "text": "their"
+      },
+      {
+        "id": "C",
+        "text": "theirs"
+      },
+      {
+        "id": "D",
+        "text": "them"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah kata kerja asks dipakai kata ganti objek them."
+  },
+  {
+    "id": "BT003-231",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: My ___ makes fried rice every Sunday. She is my father's mother.",
+    "options": [
+      {
+        "id": "A",
+        "text": "aunt"
+      },
+      {
+        "id": "B",
+        "text": "grandmother"
+      },
+      {
+        "id": "C",
+        "text": "cousin"
+      },
+      {
+        "id": "D",
+        "text": "sister"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Ibu dari ayah adalah nenek, yaitu grandmother."
+  },
+  {
+    "id": "BT003-232",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Mom, I made this cake for ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "you"
+      },
+      {
+        "id": "B",
+        "text": "your"
+      },
+      {
+        "id": "C",
+        "text": "yours"
+      },
+      {
+        "id": "D",
+        "text": "I"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah preposisi for dipakai kata ganti objek you."
+  },
+  {
+    "id": "BT003-233",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names a girl who has the same parents as you?",
+    "options": [
+      {
+        "id": "A",
+        "text": "aunt"
+      },
+      {
+        "id": "B",
+        "text": "cousin"
+      },
+      {
+        "id": "C",
+        "text": "niece"
+      },
+      {
+        "id": "D",
+        "text": "sister"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Sister berarti saudara perempuan."
+  },
+  {
+    "id": "BT003-234",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Is it ___ turn to speak now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "you"
+      },
+      {
+        "id": "B",
+        "text": "yours"
+      },
+      {
+        "id": "C",
+        "text": "your"
+      },
+      {
+        "id": "D",
+        "text": "yourself"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Your dipakai sebelum kata benda turn."
+  },
+  {
+    "id": "BT003-235",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: Tono and Rani have the same parents. They are ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "neighbors"
+      },
+      {
+        "id": "B",
+        "text": "siblings"
+      },
+      {
+        "id": "C",
+        "text": "classmates"
+      },
+      {
+        "id": "D",
+        "text": "guests"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Siblings berarti saudara kandung."
+  },
+  {
+    "id": "BT003-236",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: Mr. Adi is our teacher. We respect ___ very much.",
+    "options": [
+      {
+        "id": "A",
+        "text": "he"
+      },
+      {
+        "id": "B",
+        "text": "his"
+      },
+      {
+        "id": "C",
+        "text": "hers"
+      },
+      {
+        "id": "D",
+        "text": "him"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Setelah kata kerja respect dipakai kata ganti objek him."
+  },
+  {
+    "id": "BT003-237",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Choose the word that best completes the sentence: I do not know that man. He is a ___ to me.",
+    "options": [
+      {
+        "id": "A",
+        "text": "stranger"
+      },
+      {
+        "id": "B",
+        "text": "cousin"
+      },
+      {
+        "id": "C",
+        "text": "brother"
+      },
+      {
+        "id": "D",
+        "text": "parent"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Stranger berarti orang asing."
+  },
+  {
+    "id": "BT003-238",
+    "day": 3,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: ___ shoes are these? They are under the sofa.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Who"
+      },
+      {
+        "id": "B",
+        "text": "Whose"
+      },
+      {
+        "id": "C",
+        "text": "Who's"
+      },
+      {
+        "id": "D",
+        "text": "Which's"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Whose dipakai untuk menanyakan pemilik suatu benda."
+  },
+  {
+    "id": "BT003-239",
+    "day": 3,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word names a person who comes to visit your home?",
+    "options": [
+      {
+        "id": "A",
+        "text": "owner"
+      },
+      {
+        "id": "B",
+        "text": "driver"
+      },
+      {
+        "id": "C",
+        "text": "guest"
+      },
+      {
+        "id": "D",
+        "text": "pilot"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Guest berarti tamu."
+  },
+  {
+    "id": "BT003-240",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Ini adalah tas saya, bukan tasmu.",
+    "acceptedAnswers": [
+      "This is my bag, not yours",
+      "This is my bag not yours"
+    ],
+    "explanation": "My diikuti kata benda, sedangkan yours berdiri sendiri tanpa kata benda."
+  },
+  {
+    "id": "BT003-241",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Rumah besar di ujung jalan itu milik mereka.",
+    "acceptedAnswers": [
+      "That big house at the end of the street is theirs",
+      "The big house at the end of the street is theirs"
+    ],
+    "explanation": "Theirs berdiri sendiri dan berarti milik mereka."
+  },
+  {
+    "id": "BT003-242",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Tolong bantu saya dengan pekerjaan rumah ini.",
+    "acceptedAnswers": [
+      "Please help me with this homework"
+    ],
+    "explanation": "Setelah kata kerja help dipakai kata ganti objek me."
+  },
+  {
+    "id": "BT003-243",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Kami mengundang mereka ke pesta ulang tahun kami.",
+    "acceptedAnswers": [
+      "We invite them to our birthday party",
+      "We invited them to our birthday party"
+    ],
+    "explanation": "Them adalah kata ganti objek, dan our dipakai sebelum kata benda party."
+  },
+  {
+    "id": "BT003-244",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Apakah buku ini milikmu?",
+    "acceptedAnswers": [
+      "Is this book yours"
+    ],
+    "explanation": "Yours berdiri sendiri tanpa kata benda dan berarti milikmu."
+  },
+  {
+    "id": "BT003-245",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Ibunya memasak makan malam untuk kami.",
+    "acceptedAnswers": [
+      "His mother cooks dinner for us",
+      "Her mother cooks dinner for us"
+    ],
+    "explanation": "His atau her dipakai sebelum kata benda, dan us dipakai setelah preposisi for."
+  },
+  {
+    "id": "BT003-246",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Saya sering menelepon dia pada malam hari.",
+    "acceptedAnswers": [
+      "I often call him at night",
+      "I often call her at night"
+    ],
+    "explanation": "Him atau her adalah kata ganti objek setelah kata kerja call."
+  },
+  {
+    "id": "BT003-247",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Sepupu saya tinggal dekat rumah kami.",
+    "acceptedAnswers": [
+      "My cousin lives near our house"
+    ],
+    "explanation": "Subjek tunggal my cousin memakai lives, dan our dipakai sebelum house."
+  },
+  {
+    "id": "BT003-248",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Payung itu bukan milik kami.",
+    "acceptedAnswers": [
+      "That umbrella is not ours",
+      "The umbrella is not ours",
+      "That umbrella isn't ours"
+    ],
+    "explanation": "Ours berdiri sendiri dan berarti milik kami."
+  },
+  {
+    "id": "BT003-249",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Dia membawa saudara perempuannya ke sekolah.",
+    "acceptedAnswers": [
+      "He brings his sister to school",
+      "She brings her sister to school",
+      "He takes his sister to school",
+      "She takes her sister to school"
+    ],
+    "explanation": "His atau her dipakai sebelum kata benda sister."
+  },
+  {
+    "id": "BT003-250",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Maukah kamu meminjamkan saya penghapusmu?",
+    "acceptedAnswers": [
+      "Can you lend me your eraser",
+      "Could you lend me your eraser",
+      "Will you lend me your eraser",
+      "Would you lend me your eraser"
+    ],
+    "explanation": "Me adalah kata ganti objek, dan your dipakai sebelum kata benda eraser."
+  },
+  {
+    "id": "BT003-251",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Orang tua mereka bekerja di bank.",
+    "acceptedAnswers": [
+      "Their parents work at a bank",
+      "Their parents work in a bank"
+    ],
+    "explanation": "Their dipakai sebelum kata benda parents, dan work tidak berubah untuk subjek jamak."
+  },
+  {
+    "id": "BT003-252",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Kakek saya suka bercerita kepada kami.",
+    "acceptedAnswers": [
+      "My grandfather likes to tell us stories",
+      "My grandfather likes telling us stories",
+      "My grandfather loves to tell us stories"
+    ],
+    "explanation": "Us adalah kata ganti objek untuk kami, dan likes memakai -s untuk subjek tunggal."
+  },
+  {
+    "id": "BT003-253",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Jangan berikan kunci ini kepada dia.",
+    "acceptedAnswers": [
+      "Do not give this key to him",
+      "Don't give this key to him",
+      "Do not give this key to her",
+      "Don't give this key to her"
+    ],
+    "explanation": "Setelah preposisi to dipakai kata ganti objek him atau her."
+  },
+  {
+    "id": "BT003-254",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Kucing itu suka mainannya.",
+    "acceptedAnswers": [
+      "The cat likes its toy",
+      "That cat likes its toy"
+    ],
+    "explanation": "Its adalah kata ganti kepemilikan untuk hewan atau benda."
+  },
+  {
+    "id": "BT003-255",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Teman-teman kami menunggu di luar.",
+    "acceptedAnswers": [
+      "Our friends wait outside",
+      "Our friends are waiting outside"
+    ],
+    "explanation": "Our dipakai sebelum kata benda friends untuk menunjukkan kepemilikan."
+  },
+  {
+    "id": "BT003-256",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Apakah ini sepatu kalian?",
+    "acceptedAnswers": [
+      "Are these your shoes",
+      "Are these shoes yours"
+    ],
+    "explanation": "Your dipakai sebelum kata benda, sedangkan yours berdiri sendiri."
+  },
+  {
+    "id": "BT003-257",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Paman saya punya dua anak, dan saya sering bermain dengan mereka.",
+    "acceptedAnswers": [
+      "My uncle has two children and I often play with them",
+      "My uncle has two children, and I often play with them"
+    ],
+    "explanation": "Setelah preposisi with dipakai kata ganti objek them."
+  },
+  {
+    "id": "BT003-258",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Hadiah ini untuk kamu dari kami.",
+    "acceptedAnswers": [
+      "This gift is for you from us",
+      "This present is for you from us"
+    ],
+    "explanation": "Setelah preposisi for dan from dipakai kata ganti objek you dan us."
+  },
+  {
+    "id": "BT003-259",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Bibi saya mengajar kami bahasa Inggris.",
+    "acceptedAnswers": [
+      "My aunt teaches us English"
+    ],
+    "explanation": "Teach menjadi teaches untuk subjek tunggal, dan us adalah kata ganti objek."
+  },
+  {
+    "id": "BT003-260",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Pensil merah itu bukan milik dia.",
+    "acceptedAnswers": [
+      "That red pencil is not his",
+      "That red pencil is not hers",
+      "That red pencil isn't his",
+      "That red pencil isn't hers"
+    ],
+    "explanation": "His atau hers berdiri sendiri tanpa kata benda."
+  },
+  {
+    "id": "BT003-261",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Dia tidak mengenal mereka.",
+    "acceptedAnswers": [
+      "He does not know them",
+      "She does not know them",
+      "He doesn't know them",
+      "She doesn't know them"
+    ],
+    "explanation": "Bentuk negatif memakai does not, dan them adalah kata ganti objek."
+  },
+  {
+    "id": "BT003-262",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Tolong kirim saya pesan nanti malam.",
+    "acceptedAnswers": [
+      "Please send me a message tonight",
+      "Please send me a message this evening"
+    ],
+    "explanation": "Me adalah kata ganti objek setelah kata kerja send."
+  },
+  {
+    "id": "BT003-263",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Kamar itu milikmu, dan kamar kecil itu milik saya.",
+    "acceptedAnswers": [
+      "That room is yours and that small room is mine",
+      "That room is yours and the small room is mine",
+      "That room is yours, and that small room is mine"
+    ],
+    "explanation": "Yours dan mine berdiri sendiri tanpa kata benda."
+  },
+  {
+    "id": "BT003-264",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Nenek kami membuat kue untuk kami.",
+    "acceptedAnswers": [
+      "Our grandmother makes a cake for us",
+      "Our grandmother makes cakes for us",
+      "Our grandmother bakes a cake for us"
+    ],
+    "explanation": "Our dipakai sebelum kata benda grandmother, dan us dipakai setelah preposisi for."
+  },
+  {
+    "id": "BT003-265",
+    "day": 3,
+    "type": "translate",
+    "prompt": "Dia duduk di sebelah saya di kelas.",
+    "acceptedAnswers": [
+      "He sits next to me in class",
+      "She sits next to me in class",
+      "He sits next to me in the class",
+      "She sits next to me in the class"
+    ],
+    "explanation": "Setelah preposisi next to dipakai kata ganti objek me."
+  },
+  {
+    "id": "BT003-266",
+    "day": 3,
+    "type": "story",
+    "passage": "Dewi has a big family. Her father is a driver, and her mother is a teacher. She has one brother and two sisters. Her brother works in Surabaya.",
+    "prompt": "Di mana kakak laki-laki Dewi bekerja?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Di Bandung"
+      },
+      {
+        "id": "B",
+        "text": "Di Medan"
+      },
+      {
+        "id": "C",
+        "text": "Di Surabaya"
+      },
+      {
+        "id": "D",
+        "text": "Di Jakarta"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut her brother works in Surabaya."
+  },
+  {
+    "id": "BT003-267",
+    "day": 3,
+    "type": "story",
+    "passage": "Ben and his cousin Sam go to the same school. Ben's bike is blue, and Sam's bike is red. Today Sam's bike is at home. So Ben takes Sam to school on the blue bike.",
+    "prompt": "Sepeda apa yang dipakai ke sekolah hari ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sepeda biru milik Ben"
+      },
+      {
+        "id": "B",
+        "text": "Sepeda merah milik Sam"
+      },
+      {
+        "id": "C",
+        "text": "Sepeda biru milik Sam"
+      },
+      {
+        "id": "D",
+        "text": "Sepeda merah milik Ben"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Sepeda Sam ada di rumah, jadi mereka memakai sepeda biru milik Ben."
+  },
+  {
+    "id": "BT003-268",
+    "day": 3,
+    "type": "story",
+    "passage": "Mrs. Lina has two children. The boy is Rafi, and the girl is Maya. Rafi likes football, but Maya likes drawing. Every Sunday Mrs. Lina plays with them in the park.",
+    "prompt": "Apa yang disukai Maya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sepak bola"
+      },
+      {
+        "id": "B",
+        "text": "Menggambar"
+      },
+      {
+        "id": "C",
+        "text": "Menyanyi"
+      },
+      {
+        "id": "D",
+        "text": "Berenang"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Maya likes drawing, yaitu menggambar."
+  },
+  {
+    "id": "BT003-269",
+    "day": 3,
+    "type": "story",
+    "passage": "I forgot my pen today, so I borrow a pen from my classmate. The pen is hers, not mine. After the lesson, I return it and say thank you.",
+    "prompt": "Pulpen itu milik siapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Milik pembicara"
+      },
+      {
+        "id": "B",
+        "text": "Milik guru"
+      },
+      {
+        "id": "C",
+        "text": "Milik kakak pembicara"
+      },
+      {
+        "id": "D",
+        "text": "Milik teman sekelas pembicara"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut the pen is hers, yaitu milik teman sekelas perempuan itu."
+  },
+  {
+    "id": "BT003-270",
+    "day": 3,
+    "type": "story",
+    "passage": "The Hendra family lives in a small house. Their house has a garden in front. Mr. Hendra plants roses, and his wife plants tomatoes. Their neighbor sometimes buys tomatoes from them.",
+    "prompt": "Apa yang ditanam istri Pak Hendra?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tomat"
+      },
+      {
+        "id": "B",
+        "text": "Mawar"
+      },
+      {
+        "id": "C",
+        "text": "Cabai"
+      },
+      {
+        "id": "D",
+        "text": "Bunga matahari"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut his wife plants tomatoes."
+  },
+  {
+    "id": "BT003-271",
+    "day": 3,
+    "type": "story",
+    "passage": "Today is my grandmother's birthday. Our family goes to her house with a big cake. My uncle brings flowers for her, and my cousins sing a song. She is very happy.",
+    "prompt": "Apa yang dibawa paman pembicara untuk nenek?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Kue besar"
+      },
+      {
+        "id": "B",
+        "text": "Sebuah lagu"
+      },
+      {
+        "id": "C",
+        "text": "Sebuah hadiah"
+      },
+      {
+        "id": "D",
+        "text": "Bunga"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut my uncle brings flowers for her."
+  },
+  {
+    "id": "BT003-272",
+    "day": 3,
+    "type": "story",
+    "passage": "Yuli is new in town. Her neighbors are kind to her. They give her fruit and invite her to dinner. Yuli wants to thank them, so she makes a cake for them.",
+    "prompt": "Mengapa Yuli membuat kue?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Untuk merayakan ulang tahun"
+      },
+      {
+        "id": "B",
+        "text": "Untuk berterima kasih kepada tetangganya"
+      },
+      {
+        "id": "C",
+        "text": "Untuk dijual di toko"
+      },
+      {
+        "id": "D",
+        "text": "Untuk dibawa ke sekolah"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Yuli wants to thank them, yaitu para tetangganya."
+  },
+  {
+    "id": "BT003-273",
+    "day": 3,
+    "type": "story",
+    "passage": "Tono has a red jacket, but it is too small for him now. His younger brother, Dito, wears it. The jacket is Dito's now. Tono buys a new blue jacket.",
+    "prompt": "Sekarang jaket merah itu milik siapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Milik Tono"
+      },
+      {
+        "id": "B",
+        "text": "Milik ayah mereka"
+      },
+      {
+        "id": "C",
+        "text": "Milik Dito"
+      },
+      {
+        "id": "D",
+        "text": "Milik tetangga mereka"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut the jacket is Dito's now."
+  },
+  {
+    "id": "BT003-274",
+    "day": 3,
+    "type": "story",
+    "passage": "There are three bags on the sofa. The black bag is mine. The brown bag is my sister's, and the white bag is my mother's. We are ready to go to the market.",
+    "prompt": "Tas yang mana milik ibu pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Tas hitam"
+      },
+      {
+        "id": "B",
+        "text": "Tas putih"
+      },
+      {
+        "id": "C",
+        "text": "Tas cokelat"
+      },
+      {
+        "id": "D",
+        "text": "Tas merah"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut the white bag is my mother's."
+  },
+  {
+    "id": "BT003-275",
+    "day": 3,
+    "type": "story",
+    "passage": "Rudi calls his friends, Anton and Beni. He asks them to come to his house on Saturday. They say yes. Rudi is happy because he wants to show them his new game.",
+    "prompt": "Apa yang ingin Rudi tunjukkan kepada teman-temannya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Game barunya"
+      },
+      {
+        "id": "B",
+        "text": "Rumah barunya"
+      },
+      {
+        "id": "C",
+        "text": "Sepeda barunya"
+      },
+      {
+        "id": "D",
+        "text": "Anjing barunya"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut Rudi wants to show them his new game."
+  },
+  {
+    "id": "BT003-276",
+    "day": 3,
+    "type": "story",
+    "passage": "Nita meets her aunt at the station. Her aunt has a heavy suitcase, so Nita helps her. They take a taxi to Nita's house. Her mother is waiting for them at home.",
+    "prompt": "Siapa yang menunggu mereka di rumah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Ayah Nita"
+      },
+      {
+        "id": "B",
+        "text": "Kakak Nita"
+      },
+      {
+        "id": "C",
+        "text": "Ibu Nita"
+      },
+      {
+        "id": "D",
+        "text": "Paman Nita"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut her mother is waiting for them at home."
+  },
+  {
+    "id": "BT003-277",
+    "day": 3,
+    "type": "story",
+    "passage": "Our teacher is Mr. Anwar. We like him because he explains the lesson slowly. He always helps us when we do not understand. This week he gives us a small test.",
+    "prompt": "Mengapa para siswa menyukai Pak Anwar?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena ia tidak memberi tes"
+      },
+      {
+        "id": "B",
+        "text": "Karena ia selalu pulang cepat"
+      },
+      {
+        "id": "C",
+        "text": "Karena ia membawa kue"
+      },
+      {
+        "id": "D",
+        "text": "Karena ia menjelaskan pelajaran dengan pelan"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut we like him because he explains the lesson slowly."
+  },
+  {
+    "id": "BT003-278",
+    "day": 3,
+    "type": "listen",
+    "script": "A: Is this pen yours? B: No, it is not mine. It is Rina's.",
+    "prompt": "Menurut B, pulpen dalam percakapan itu milik siapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "B's"
+      },
+      {
+        "id": "B",
+        "text": "A's"
+      },
+      {
+        "id": "C",
+        "text": "the teacher's"
+      },
+      {
+        "id": "D",
+        "text": "Rina's"
+      }
+    ],
+    "correct": "D",
+    "explanation": "B menyebut pulpen itu milik Rina."
+  },
+  {
+    "id": "BT003-279",
+    "day": 3,
+    "type": "listen",
+    "script": "Please give the keys to him. He is waiting at the gate.",
+    "prompt": "Di mana dia menunggu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "at the door"
+      },
+      {
+        "id": "B",
+        "text": "at the gate"
+      },
+      {
+        "id": "C",
+        "text": "in the car"
+      },
+      {
+        "id": "D",
+        "text": "at the station"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut he is waiting at the gate."
+  },
+  {
+    "id": "BT003-280",
+    "day": 3,
+    "type": "listen",
+    "script": "My parents are in Bali now. I call them every evening.",
+    "prompt": "Kapan pembicara menelepon orang tuanya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "every evening"
+      },
+      {
+        "id": "B",
+        "text": "every morning"
+      },
+      {
+        "id": "C",
+        "text": "every Sunday"
+      },
+      {
+        "id": "D",
+        "text": "every afternoon"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut I call them every evening."
+  },
+  {
+    "id": "BT003-281",
+    "day": 3,
+    "type": "listen",
+    "script": "Our grandmother lives with us, and she cooks soup for all of us.",
+    "prompt": "Siapa yang memasak sup?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the speaker's mother"
+      },
+      {
+        "id": "B",
+        "text": "the speaker's aunt"
+      },
+      {
+        "id": "C",
+        "text": "the speaker's grandmother"
+      },
+      {
+        "id": "D",
+        "text": "the speaker's sister"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut nenek mereka yang memasak sup."
+  },
+  {
+    "id": "BT003-282",
+    "day": 3,
+    "type": "listen",
+    "script": "A: Can you help me with these boxes? B: Sure. Give me the big one.",
+    "prompt": "Kotak apa yang diminta B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the big one"
+      },
+      {
+        "id": "B",
+        "text": "the small one"
+      },
+      {
+        "id": "C",
+        "text": "the blue one"
+      },
+      {
+        "id": "D",
+        "text": "all of them"
+      }
+    ],
+    "correct": "A",
+    "explanation": "B meminta give me the big one, yaitu kotak yang besar."
+  },
+  {
+    "id": "BT003-283",
+    "day": 3,
+    "type": "listen",
+    "script": "Those shoes are not mine. They are my brother's, and he wants them back.",
+    "prompt": "Sepatu itu milik siapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the speaker"
+      },
+      {
+        "id": "B",
+        "text": "the speaker's father"
+      },
+      {
+        "id": "C",
+        "text": "the speaker's cousin"
+      },
+      {
+        "id": "D",
+        "text": "the speaker's brother"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pembicara menyebut sepatu itu milik saudara laki-lakinya."
+  },
+  {
+    "id": "BT003-284",
+    "day": 3,
+    "type": "listen",
+    "script": "I have two cousins. I often play football with them on Saturday.",
+    "prompt": "Kapan pembicara bermain sepak bola dengan sepupunya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "on Sunday"
+      },
+      {
+        "id": "B",
+        "text": "on Friday"
+      },
+      {
+        "id": "C",
+        "text": "on Saturday"
+      },
+      {
+        "id": "D",
+        "text": "on Monday"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut mereka bermain pada hari Sabtu."
+  },
+  {
+    "id": "BT003-285",
+    "day": 3,
+    "type": "listen",
+    "script": "The red car is theirs, and the white car is ours.",
+    "prompt": "Mobil apa yang milik pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "the red car"
+      },
+      {
+        "id": "B",
+        "text": "the white car"
+      },
+      {
+        "id": "C",
+        "text": "the blue car"
+      },
+      {
+        "id": "D",
+        "text": "the black car"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Ours berarti milik kami, jadi mobil putih milik pembicara."
+  },
+  {
+    "id": "BT003-286",
+    "day": 3,
+    "type": "listen",
+    "script": "A: Where is Mr. Bima? B: He is in the office. Please call him.",
+    "prompt": "Di mana Pak Bima berada?",
+    "options": [
+      {
+        "id": "A",
+        "text": "at home"
+      },
+      {
+        "id": "B",
+        "text": "in the library"
+      },
+      {
+        "id": "C",
+        "text": "in the garden"
+      },
+      {
+        "id": "D",
+        "text": "in the office"
+      }
+    ],
+    "correct": "D",
+    "explanation": "B menyebut he is in the office."
+  },
+  {
+    "id": "BT003-287",
+    "day": 3,
+    "type": "listen",
+    "script": "A: Excuse me, is this seat yours? B: No, you can sit here. It is free.",
+    "prompt": "Apa yang B katakan tentang kursi itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is his."
+      },
+      {
+        "id": "B",
+        "text": "It is free."
+      },
+      {
+        "id": "C",
+        "text": "It is broken."
+      },
+      {
+        "id": "D",
+        "text": "It is hers."
+      }
+    ],
+    "correct": "B",
+    "explanation": "B menyebut it is free, artinya kursi itu kosong."
+  },
+  {
+    "id": "BT003-288",
+    "day": 3,
+    "type": "listen",
+    "script": "Dina's aunt sends her a letter every month. Dina reads it to us.",
+    "prompt": "Apa yang Dina lakukan dengan surat itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "She sends it to her aunt."
+      },
+      {
+        "id": "B",
+        "text": "She gives it to us."
+      },
+      {
+        "id": "C",
+        "text": "She reads it to us."
+      },
+      {
+        "id": "D",
+        "text": "She keeps it in a box."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut Dina reads it to us, yaitu membacakannya kepada kami."
+  },
+  {
+    "id": "BT003-289",
+    "day": 3,
+    "type": "listen",
+    "script": "I need to return this book to her. It is her book, not mine. I will see her at school.",
+    "prompt": "Di mana pembicara akan bertemu dengannya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "at school"
+      },
+      {
+        "id": "B",
+        "text": "at home"
+      },
+      {
+        "id": "C",
+        "text": "at the library"
+      },
+      {
+        "id": "D",
+        "text": "at the market"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut I will see her at school."
+  },
+  {
+    "id": "BT003-290",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Buku ini milik saya)",
+    "acceptedAnswers": [
+      "This book is mine"
+    ],
+    "explanation": "Mine berdiri sendiri tanpa kata benda."
+  },
+  {
+    "id": "BT003-291",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah itu payung mereka?)",
+    "acceptedAnswers": [
+      "Is that their umbrella"
+    ],
+    "explanation": "Their dipakai sebelum kata benda umbrella."
+  },
+  {
+    "id": "BT003-292",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Tolong bantu kami)",
+    "acceptedAnswers": [
+      "Please help us"
+    ],
+    "explanation": "Setelah kata kerja help dipakai kata ganti objek us."
+  },
+  {
+    "id": "BT003-293",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saudara perempuan saya suka musik)",
+    "acceptedAnswers": [
+      "My sister likes music"
+    ],
+    "explanation": "Subjek tunggal my sister memakai likes dengan -s."
+  },
+  {
+    "id": "BT003-294",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mobil itu bukan milik kami)",
+    "acceptedAnswers": [
+      "That car is not ours"
+    ],
+    "explanation": "Ours berdiri sendiri dan berarti milik kami."
+  },
+  {
+    "id": "BT003-295",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami melihat mereka di taman)",
+    "acceptedAnswers": [
+      "We see them in the park"
+    ],
+    "explanation": "Them adalah kata ganti objek setelah kata kerja see."
+  },
+  {
+    "id": "BT003-296",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah orang tua kamu ada di rumah?)",
+    "acceptedAnswers": [
+      "Are your parents at home"
+    ],
+    "explanation": "Your dipakai sebelum kata benda parents, dan parents jamak sehingga memakai are."
+  },
+  {
+    "id": "BT003-297",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dia memberi saya sebuah hadiah)",
+    "acceptedAnswers": [
+      "She gives me a gift"
+    ],
+    "explanation": "Me adalah kata ganti objek, dan gives memakai -s untuk she."
+  },
+  {
+    "id": "BT003-298",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Nenek mereka tinggal bersama kami)",
+    "acceptedAnswers": [
+      "Their grandmother lives with us"
+    ],
+    "explanation": "Their dipakai sebelum kata benda, dan us dipakai setelah preposisi with."
+  },
+  {
+    "id": "BT003-299",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Itu bukan sepupu saya)",
+    "acceptedAnswers": [
+      "That is not my cousin"
+    ],
+    "explanation": "Not diletakkan setelah is, lalu diikuti my cousin."
+  },
+  {
+    "id": "BT003-300",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Tas hijau itu milik dia)",
+    "acceptedAnswers": [
+      "The green bag is hers"
+    ],
+    "explanation": "Hers berdiri sendiri dan berarti milik dia perempuan."
+  },
+  {
+    "id": "BT003-301",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dia sering membantu adik laki-lakinya)",
+    "acceptedAnswers": [
+      "He often helps his brother"
+    ],
+    "explanation": "His dipakai sebelum kata benda brother, dan often diletakkan sebelum kata kerja."
+  },
+  {
+    "id": "BT003-302",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Jangan beri mereka kuncinya)",
+    "acceptedAnswers": [
+      "Do not give them the key"
+    ],
+    "explanation": "Bentuk perintah negatif memakai do not, lalu them sebagai kata ganti objek."
+  },
+  {
+    "id": "BT003-303",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah rumah ini milikmu?)",
+    "acceptedAnswers": [
+      "Is this house yours"
+    ],
+    "explanation": "Yours berdiri sendiri di akhir kalimat."
+  },
+  {
+    "id": "BT003-304",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ibu mereka mengajar kami)",
+    "acceptedAnswers": [
+      "Their mother teaches us"
+    ],
+    "explanation": "Their dipakai sebelum kata benda, dan teaches memakai -es untuk subjek tunggal."
+  },
+  {
+    "id": "BT003-305",
+    "day": 3,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Paman saya meminjam mobil kami)",
+    "acceptedAnswers": [
+      "My uncle borrows our car"
+    ],
+    "explanation": "Subjek tunggal memakai borrows, dan our dipakai sebelum kata benda car."
+  }
+]

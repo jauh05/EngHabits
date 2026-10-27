@@ -1,0 +1,4563 @@
+[
+  {
+    "id": "BT001-200",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'tall' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "thin"
+      },
+      {
+        "id": "B",
+        "text": "small"
+      },
+      {
+        "id": "C",
+        "text": "short"
+      },
+      {
+        "id": "D",
+        "text": "quiet"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Lawan kata tall (tinggi) untuk tinggi badan adalah short (pendek)."
+  },
+  {
+    "id": "BT001-201",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'kota'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "island"
+      },
+      {
+        "id": "B",
+        "text": "city"
+      },
+      {
+        "id": "C",
+        "text": "street"
+      },
+      {
+        "id": "D",
+        "text": "village"
+      }
+    ],
+    "correct": "B",
+    "explanation": "City berarti kota, sedangkan village berarti desa."
+  },
+  {
+    "id": "BT001-202",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'menarik' (not boring)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "interesting"
+      },
+      {
+        "id": "B",
+        "text": "terrible"
+      },
+      {
+        "id": "C",
+        "text": "quiet"
+      },
+      {
+        "id": "D",
+        "text": "ordinary"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Interesting berarti menarik, membuat kita ingin tahu lebih banyak."
+  },
+  {
+    "id": "BT001-203",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'pemalas' (does not want to work)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "young"
+      },
+      {
+        "id": "B",
+        "text": "smart"
+      },
+      {
+        "id": "C",
+        "text": "lazy"
+      },
+      {
+        "id": "D",
+        "text": "polite"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Lazy berarti malas."
+  },
+  {
+    "id": "BT001-204",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'muda'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "short"
+      },
+      {
+        "id": "B",
+        "text": "old"
+      },
+      {
+        "id": "C",
+        "text": "young"
+      },
+      {
+        "id": "D",
+        "text": "new"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Young berarti muda, lawannya old yang berarti tua."
+  },
+  {
+    "id": "BT001-205",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: It ___ a sunny day today.",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Subjek it berpasangan dengan is."
+  },
+  {
+    "id": "BT001-206",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: You and your friend ___ welcome here.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "A",
+    "explanation": "You and your friend adalah subjek jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-207",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who cooks food in a restaurant is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "farmer"
+      },
+      {
+        "id": "B",
+        "text": "chef"
+      },
+      {
+        "id": "C",
+        "text": "nurse"
+      },
+      {
+        "id": "D",
+        "text": "driver"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Chef berarti koki, orang yang memasak di restoran."
+  },
+  {
+    "id": "BT001-208",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ I late for the meeting?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Be"
+      },
+      {
+        "id": "C",
+        "text": "Are"
+      },
+      {
+        "id": "D",
+        "text": "Am"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Dalam pertanyaan dengan subjek I, to be yang dipakai adalah Am."
+  },
+  {
+    "id": "BT001-209",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is wrong?",
+    "options": [
+      {
+        "id": "A",
+        "text": "She is a student."
+      },
+      {
+        "id": "B",
+        "text": "We are happy."
+      },
+      {
+        "id": "C",
+        "text": "They is my friends."
+      },
+      {
+        "id": "D",
+        "text": "I am from Bali."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek they harus memakai are, jadi They is my friends salah."
+  },
+  {
+    "id": "BT001-210",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'quiet' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "noisy"
+      },
+      {
+        "id": "B",
+        "text": "shy"
+      },
+      {
+        "id": "C",
+        "text": "polite"
+      },
+      {
+        "id": "D",
+        "text": "early"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Quiet berarti tenang, lawannya noisy yang berarti bising."
+  },
+  {
+    "id": "BT001-211",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct about Budi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Budi not is at school today."
+      },
+      {
+        "id": "B",
+        "text": "Budi am not at school today."
+      },
+      {
+        "id": "C",
+        "text": "Budi are not at school today."
+      },
+      {
+        "id": "D",
+        "text": "Budi is not at school today."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Not diletakkan setelah to be, dan Budi (he) memakai is."
+  },
+  {
+    "id": "BT001-212",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ they from Medan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Be"
+      },
+      {
+        "id": "C",
+        "text": "Are"
+      },
+      {
+        "id": "D",
+        "text": "Am"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek they memakai are, dan are dipindahkan ke depan untuk bertanya."
+  },
+  {
+    "id": "BT001-213",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: We ___ in the same English class this year.",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Subjek we berpasangan dengan are."
+  },
+  {
+    "id": "BT001-214",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who studies at a school or university is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tourist"
+      },
+      {
+        "id": "B",
+        "text": "student"
+      },
+      {
+        "id": "C",
+        "text": "teacher"
+      },
+      {
+        "id": "D",
+        "text": "chef"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Student berarti siswa atau mahasiswa."
+  },
+  {
+    "id": "BT001-215",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'happy' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "early"
+      },
+      {
+        "id": "B",
+        "text": "sad"
+      },
+      {
+        "id": "C",
+        "text": "tall"
+      },
+      {
+        "id": "D",
+        "text": "kind"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Lawan kata happy (senang) adalah sad (sedih)."
+  },
+  {
+    "id": "BT001-216",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "After the long walk, we are very ___. We want some cold water.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tired"
+      },
+      {
+        "id": "B",
+        "text": "thirsty"
+      },
+      {
+        "id": "C",
+        "text": "famous"
+      },
+      {
+        "id": "D",
+        "text": "early"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Thirsty berarti haus, dan orang yang haus ingin minum."
+  },
+  {
+    "id": "BT001-217",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Those books ___ very interesting.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Those books jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-218",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: What time ___ it now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "D",
+    "explanation": "It berpasangan dengan is."
+  },
+  {
+    "id": "BT001-219",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word is NOT a job?",
+    "options": [
+      {
+        "id": "A",
+        "text": "teacher"
+      },
+      {
+        "id": "B",
+        "text": "doctor"
+      },
+      {
+        "id": "C",
+        "text": "happy"
+      },
+      {
+        "id": "D",
+        "text": "driver"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Happy adalah kata sifat untuk perasaan, bukan nama pekerjaan."
+  },
+  {
+    "id": "BT001-220",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'lelah' in English?",
+    "options": [
+      {
+        "id": "A",
+        "text": "tired"
+      },
+      {
+        "id": "B",
+        "text": "angry"
+      },
+      {
+        "id": "C",
+        "text": "early"
+      },
+      {
+        "id": "D",
+        "text": "hungry"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Tired berarti lelah atau capek."
+  },
+  {
+    "id": "BT001-221",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'terkenal'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "young"
+      },
+      {
+        "id": "B",
+        "text": "quiet"
+      },
+      {
+        "id": "C",
+        "text": "cheap"
+      },
+      {
+        "id": "D",
+        "text": "famous"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Famous berarti terkenal, dikenal banyak orang."
+  },
+  {
+    "id": "BT001-222",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: The weather ___ hot in July.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "D",
+    "explanation": "The weather adalah subjek tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-223",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: My phone ___ on the table, not in my bag.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "A",
+    "explanation": "My phone adalah subjek tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-224",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Dimas is very ___, and everyone laughs at his jokes.",
+    "options": [
+      {
+        "id": "A",
+        "text": "funny"
+      },
+      {
+        "id": "B",
+        "text": "sad"
+      },
+      {
+        "id": "C",
+        "text": "angry"
+      },
+      {
+        "id": "D",
+        "text": "tired"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Funny berarti lucu, membuat orang tertawa."
+  },
+  {
+    "id": "BT001-225",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who works in a shop and takes money from customers is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "singer"
+      },
+      {
+        "id": "B",
+        "text": "cashier"
+      },
+      {
+        "id": "C",
+        "text": "farmer"
+      },
+      {
+        "id": "D",
+        "text": "chef"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Cashier berarti kasir."
+  },
+  {
+    "id": "BT001-226",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'sibuk'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "busy"
+      },
+      {
+        "id": "B",
+        "text": "quiet"
+      },
+      {
+        "id": "C",
+        "text": "free"
+      },
+      {
+        "id": "D",
+        "text": "early"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Busy berarti sibuk."
+  },
+  {
+    "id": "BT001-227",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'marah'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "angry"
+      },
+      {
+        "id": "B",
+        "text": "shy"
+      },
+      {
+        "id": "C",
+        "text": "lazy"
+      },
+      {
+        "id": "D",
+        "text": "afraid"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Angry berarti marah."
+  },
+  {
+    "id": "BT001-228",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: How old ___ your sister?",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Your sister adalah subjek tunggal, jadi How old is your sister?"
+  },
+  {
+    "id": "BT001-229",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who lives next to your house is your ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "classmate"
+      },
+      {
+        "id": "B",
+        "text": "cashier"
+      },
+      {
+        "id": "C",
+        "text": "neighbor"
+      },
+      {
+        "id": "D",
+        "text": "teacher"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Neighbor berarti tetangga."
+  },
+  {
+    "id": "BT001-230",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word describes how a person feels?",
+    "options": [
+      {
+        "id": "A",
+        "text": "teacher"
+      },
+      {
+        "id": "B",
+        "text": "city"
+      },
+      {
+        "id": "C",
+        "text": "table"
+      },
+      {
+        "id": "D",
+        "text": "tired"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Tired adalah kata sifat yang menggambarkan perasaan atau keadaan seseorang."
+  },
+  {
+    "id": "BT001-231",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Where ___ my keys?",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Keys berbentuk jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-232",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: The teacher ___ in the classroom now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "A",
+    "explanation": "The teacher adalah subjek tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-233",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'umur' in English?",
+    "options": [
+      {
+        "id": "A",
+        "text": "age"
+      },
+      {
+        "id": "B",
+        "text": "name"
+      },
+      {
+        "id": "C",
+        "text": "class"
+      },
+      {
+        "id": "D",
+        "text": "city"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Age berarti umur, seperti dalam How old are you?"
+  },
+  {
+    "id": "BT001-234",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'baik hati'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "lazy"
+      },
+      {
+        "id": "B",
+        "text": "kind"
+      },
+      {
+        "id": "C",
+        "text": "rude"
+      },
+      {
+        "id": "D",
+        "text": "shy"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kind berarti baik hati dan suka membantu."
+  },
+  {
+    "id": "BT001-235",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct short form of 'I am'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I'is"
+      },
+      {
+        "id": "B",
+        "text": "I'ma"
+      },
+      {
+        "id": "C",
+        "text": "I'm"
+      },
+      {
+        "id": "D",
+        "text": "Iam"
+      }
+    ],
+    "correct": "C",
+    "explanation": "I am disingkat menjadi I'm dengan satu tanda apostrof."
+  },
+  {
+    "id": "BT001-236",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct for the subject 'Rina and Dimas'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Rina and Dimas are classmates."
+      },
+      {
+        "id": "B",
+        "text": "Rina and Dimas be classmates."
+      },
+      {
+        "id": "C",
+        "text": "Rina and Dimas am classmates."
+      },
+      {
+        "id": "D",
+        "text": "Rina and Dimas is classmates."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Dua nama yang digabung dengan and adalah subjek jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-237",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: I ___ not a good singer, but I like music.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Subjek I memakai am, lalu not diletakkan setelahnya."
+  },
+  {
+    "id": "BT001-238",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: There ___ five students in the room.",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Five students jamak, jadi there are yang dipakai."
+  },
+  {
+    "id": "BT001-239",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who visits a new place on holiday is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "neighbor"
+      },
+      {
+        "id": "B",
+        "text": "student"
+      },
+      {
+        "id": "C",
+        "text": "chef"
+      },
+      {
+        "id": "D",
+        "text": "tourist"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Tourist berarti turis atau wisatawan."
+  },
+  {
+    "id": "BT001-240",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: This ___ my new phone.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "B",
+    "explanation": "This adalah kata tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-241",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Mrs. Sari is a ___ teacher. She always helps her students and never shouts.",
+    "options": [
+      {
+        "id": "A",
+        "text": "rude"
+      },
+      {
+        "id": "B",
+        "text": "kind"
+      },
+      {
+        "id": "C",
+        "text": "noisy"
+      },
+      {
+        "id": "D",
+        "text": "lazy"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Kind cocok karena Mrs. Sari selalu membantu dan tidak membentak."
+  },
+  {
+    "id": "BT001-242",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ this seat free?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Be"
+      },
+      {
+        "id": "B",
+        "text": "Am"
+      },
+      {
+        "id": "C",
+        "text": "Is"
+      },
+      {
+        "id": "D",
+        "text": "Are"
+      }
+    ],
+    "correct": "C",
+    "explanation": "This seat adalah subjek tunggal, jadi diawali Is."
+  },
+  {
+    "id": "BT001-243",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Mr. and Mrs. Lee ___ teachers at my school.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Mr. and Mrs. Lee adalah dua orang, jadi subjek jamak dengan are."
+  },
+  {
+    "id": "BT001-244",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct word: ___ very happy today because it is Friday.",
+    "options": [
+      {
+        "id": "A",
+        "text": "Them"
+      },
+      {
+        "id": "B",
+        "text": "Their"
+      },
+      {
+        "id": "C",
+        "text": "There"
+      },
+      {
+        "id": "D",
+        "text": "They're"
+      }
+    ],
+    "correct": "D",
+    "explanation": "They're adalah singkatan they are, sedangkan their berarti milik mereka."
+  },
+  {
+    "id": "BT001-245",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A student feels ___ before a big exam because he is worried.",
+    "options": [
+      {
+        "id": "A",
+        "text": "proud"
+      },
+      {
+        "id": "B",
+        "text": "early"
+      },
+      {
+        "id": "C",
+        "text": "nervous"
+      },
+      {
+        "id": "D",
+        "text": "hungry"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Nervous berarti gugup, perasaan cemas sebelum sesuatu yang penting."
+  },
+  {
+    "id": "BT001-246",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ your mother at home now?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Be"
+      },
+      {
+        "id": "C",
+        "text": "Am"
+      },
+      {
+        "id": "D",
+        "text": "Are"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Your mother adalah subjek tunggal, jadi pertanyaannya diawali Is."
+  },
+  {
+    "id": "BT001-247",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: What ___ your name?",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Your name adalah subjek tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-248",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Who ___ your best friend?",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pertanyaan tentang satu orang memakai is."
+  },
+  {
+    "id": "BT001-249",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ Dimas your classmate?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is"
+      },
+      {
+        "id": "B",
+        "text": "Am"
+      },
+      {
+        "id": "C",
+        "text": "Are"
+      },
+      {
+        "id": "D",
+        "text": "Be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Dimas adalah subjek tunggal, jadi pertanyaannya diawali Is."
+  },
+  {
+    "id": "BT001-250",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: That ___ my teacher's car.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "A",
+    "explanation": "That adalah kata tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-251",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'teman sekelas'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "roommate"
+      },
+      {
+        "id": "B",
+        "text": "teammate"
+      },
+      {
+        "id": "C",
+        "text": "classmate"
+      },
+      {
+        "id": "D",
+        "text": "neighbor"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Classmate adalah orang yang belajar di kelas yang sama."
+  },
+  {
+    "id": "BT001-252",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: My brother and my sister ___ at home now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Dua orang (my brother and my sister) adalah subjek jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-253",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'negara'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "class"
+      },
+      {
+        "id": "B",
+        "text": "country"
+      },
+      {
+        "id": "C",
+        "text": "school"
+      },
+      {
+        "id": "D",
+        "text": "city"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Country berarti negara, sedangkan city berarti kota."
+  },
+  {
+    "id": "BT001-254",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: How ___ you today?",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Setelah how dengan subjek you, to be yang dipakai adalah are."
+  },
+  {
+    "id": "BT001-255",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who teaches students at school is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "farmer"
+      },
+      {
+        "id": "B",
+        "text": "cashier"
+      },
+      {
+        "id": "C",
+        "text": "teacher"
+      },
+      {
+        "id": "D",
+        "text": "driver"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teacher berarti guru, orang yang mengajar siswa."
+  },
+  {
+    "id": "BT001-256",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: My family ___ big, with six people.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "B",
+    "explanation": "My family dianggap satu kelompok tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-257",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'late' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "busy"
+      },
+      {
+        "id": "B",
+        "text": "slow"
+      },
+      {
+        "id": "C",
+        "text": "early"
+      },
+      {
+        "id": "D",
+        "text": "tired"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Lawan kata late (terlambat) adalah early (lebih awal)."
+  },
+  {
+    "id": "BT001-258",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'busy' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "nervous"
+      },
+      {
+        "id": "B",
+        "text": "free"
+      },
+      {
+        "id": "C",
+        "text": "famous"
+      },
+      {
+        "id": "D",
+        "text": "angry"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Busy berarti sibuk, lawannya free yang berarti tidak sibuk."
+  },
+  {
+    "id": "BT001-259",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'clean' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tall"
+      },
+      {
+        "id": "B",
+        "text": "noisy"
+      },
+      {
+        "id": "C",
+        "text": "dirty"
+      },
+      {
+        "id": "D",
+        "text": "cheap"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Clean berarti bersih, lawannya dirty yang berarti kotor."
+  },
+  {
+    "id": "BT001-260",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: There ___ a big tree in front of my house.",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "are"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Ada satu pohon (a big tree), jadi there is yang dipakai."
+  },
+  {
+    "id": "BT001-261",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: You ___ not alone in this class.",
+    "options": [
+      {
+        "id": "A",
+        "text": "is"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "am"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Subjek you selalu memakai are."
+  },
+  {
+    "id": "BT001-262",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Dimas and I ___ good friends.",
+    "options": [
+      {
+        "id": "A",
+        "text": "be"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "are"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Dimas and I adalah dua orang, jadi subjek jamak dengan are."
+  },
+  {
+    "id": "BT001-263",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence has the correct word order?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is interesting the class?"
+      },
+      {
+        "id": "B",
+        "text": "The class is interesting is?"
+      },
+      {
+        "id": "C",
+        "text": "Interesting is the class?"
+      },
+      {
+        "id": "D",
+        "text": "Is the class interesting?"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Dalam pertanyaan, to be diletakkan di depan subjek, lalu diikuti kata sifat."
+  },
+  {
+    "id": "BT001-264",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'keluarga'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "class"
+      },
+      {
+        "id": "B",
+        "text": "team"
+      },
+      {
+        "id": "C",
+        "text": "friend"
+      },
+      {
+        "id": "D",
+        "text": "family"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Family berarti keluarga."
+  },
+  {
+    "id": "BT001-265",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which pair of words has opposite meanings?",
+    "options": [
+      {
+        "id": "A",
+        "text": "kind - nice"
+      },
+      {
+        "id": "B",
+        "text": "tired - sleepy"
+      },
+      {
+        "id": "C",
+        "text": "big - large"
+      },
+      {
+        "id": "D",
+        "text": "happy - sad"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Happy dan sad berlawanan arti, sedangkan pasangan lainnya hampir sama."
+  },
+  {
+    "id": "BT001-266",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Mrs. Sari ___ very kind to her students.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Mrs. Sari adalah subjek tunggal (she), jadi memakai is."
+  },
+  {
+    "id": "BT001-267",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'cheap' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "polite"
+      },
+      {
+        "id": "B",
+        "text": "expensive"
+      },
+      {
+        "id": "C",
+        "text": "early"
+      },
+      {
+        "id": "D",
+        "text": "famous"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Cheap berarti murah, lawannya expensive yang berarti mahal."
+  },
+  {
+    "id": "BT001-268",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which question about a nurse is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Is she be a nurse?"
+      },
+      {
+        "id": "B",
+        "text": "Am she a nurse?"
+      },
+      {
+        "id": "C",
+        "text": "Is she a nurse?"
+      },
+      {
+        "id": "D",
+        "text": "Are she a nurse?"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Untuk she, bentuk tanya memakai Is di depan subjek."
+  },
+  {
+    "id": "BT001-269",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: Where ___ you from?",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "be"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "is"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek you selalu memakai are, termasuk dalam kata tanya where."
+  },
+  {
+    "id": "BT001-270",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: The coffee ___ not hot, so I can drink it now.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "am"
+      },
+      {
+        "id": "C",
+        "text": "is"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "The coffee adalah subjek tunggal, jadi memakai is dan not diletakkan setelahnya."
+  },
+  {
+    "id": "BT001-271",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence is correct about being tired?",
+    "options": [
+      {
+        "id": "A",
+        "text": "I is not tired today."
+      },
+      {
+        "id": "B",
+        "text": "I am no tired today."
+      },
+      {
+        "id": "C",
+        "text": "I am not tired today."
+      },
+      {
+        "id": "D",
+        "text": "I not am tired today."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pola negatifnya adalah subjek + am + not, dan I berpasangan dengan am."
+  },
+  {
+    "id": "BT001-272",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: I ___ ready for the test.",
+    "options": [
+      {
+        "id": "A",
+        "text": "are"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "be"
+      },
+      {
+        "id": "D",
+        "text": "am"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Subjek I selalu berpasangan dengan am."
+  },
+  {
+    "id": "BT001-273",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which negative sentence with a short form is correct?",
+    "options": [
+      {
+        "id": "A",
+        "text": "She isn't a teacher."
+      },
+      {
+        "id": "B",
+        "text": "She amn't a teacher."
+      },
+      {
+        "id": "C",
+        "text": "She not isn't a teacher."
+      },
+      {
+        "id": "D",
+        "text": "She aren't a teacher."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Is not disingkat menjadi isn't untuk subjek she."
+  },
+  {
+    "id": "BT001-274",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "The opposite of 'old' in 'an old phone' is ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "noisy"
+      },
+      {
+        "id": "B",
+        "text": "new"
+      },
+      {
+        "id": "C",
+        "text": "tall"
+      },
+      {
+        "id": "D",
+        "text": "tired"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Lawan kata old untuk benda adalah new (baru)."
+  },
+  {
+    "id": "BT001-275",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'malu' (not confident with other people)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "kind"
+      },
+      {
+        "id": "B",
+        "text": "proud"
+      },
+      {
+        "id": "C",
+        "text": "shy"
+      },
+      {
+        "id": "D",
+        "text": "rude"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Shy berarti malu atau pemalu."
+  },
+  {
+    "id": "BT001-276",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who grows rice and vegetables is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "tourist"
+      },
+      {
+        "id": "B",
+        "text": "farmer"
+      },
+      {
+        "id": "C",
+        "text": "driver"
+      },
+      {
+        "id": "D",
+        "text": "singer"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Farmer berarti petani, orang yang menanam padi dan sayur."
+  },
+  {
+    "id": "BT001-277",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "I wake up ___ because I need to leave home before the sun rises.",
+    "options": [
+      {
+        "id": "A",
+        "text": "late"
+      },
+      {
+        "id": "B",
+        "text": "early"
+      },
+      {
+        "id": "C",
+        "text": "slow"
+      },
+      {
+        "id": "D",
+        "text": "noisy"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Early berarti pagi-pagi atau lebih awal dari biasanya."
+  },
+  {
+    "id": "BT001-278",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'haus'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "hungry"
+      },
+      {
+        "id": "B",
+        "text": "angry"
+      },
+      {
+        "id": "C",
+        "text": "sleepy"
+      },
+      {
+        "id": "D",
+        "text": "thirsty"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Thirsty berarti haus, sedangkan hungry berarti lapar."
+  },
+  {
+    "id": "BT001-279",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'sahabat' (someone you like and trust)?",
+    "options": [
+      {
+        "id": "A",
+        "text": "friend"
+      },
+      {
+        "id": "B",
+        "text": "stranger"
+      },
+      {
+        "id": "C",
+        "text": "guest"
+      },
+      {
+        "id": "D",
+        "text": "boss"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Friend berarti teman atau sahabat."
+  },
+  {
+    "id": "BT001-280",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Jakarta is the biggest ___ in Indonesia.",
+    "options": [
+      {
+        "id": "A",
+        "text": "friend"
+      },
+      {
+        "id": "B",
+        "text": "city"
+      },
+      {
+        "id": "C",
+        "text": "village"
+      },
+      {
+        "id": "D",
+        "text": "country"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Jakarta adalah kota (city), bukan desa atau negara."
+  },
+  {
+    "id": "BT001-281",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'sopan'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "polite"
+      },
+      {
+        "id": "B",
+        "text": "rude"
+      },
+      {
+        "id": "C",
+        "text": "lazy"
+      },
+      {
+        "id": "D",
+        "text": "angry"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Polite berarti sopan, lawannya rude yang berarti kasar."
+  },
+  {
+    "id": "BT001-282",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'pintar'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "dirty"
+      },
+      {
+        "id": "B",
+        "text": "noisy"
+      },
+      {
+        "id": "C",
+        "text": "smart"
+      },
+      {
+        "id": "D",
+        "text": "lazy"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Smart berarti pintar atau cerdas."
+  },
+  {
+    "id": "BT001-283",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which sentence uses the short form correctly?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Shes' tired after the long trip."
+      },
+      {
+        "id": "B",
+        "text": "She'is tired after the long trip."
+      },
+      {
+        "id": "C",
+        "text": "S'he tired after the long trip."
+      },
+      {
+        "id": "D",
+        "text": "She's tired after the long trip."
+      }
+    ],
+    "correct": "D",
+    "explanation": "She is disingkat menjadi she's dengan apostrof sebelum s."
+  },
+  {
+    "id": "BT001-284",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Which is the correct short answer to 'Is Dimas tall?'",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes, he am."
+      },
+      {
+        "id": "B",
+        "text": "Yes, he does."
+      },
+      {
+        "id": "C",
+        "text": "Yes, he are."
+      },
+      {
+        "id": "D",
+        "text": "Yes, he is."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Pertanyaan dengan Is dijawab dengan jawaban pendek yang memakai is juga."
+  },
+  {
+    "id": "BT001-285",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "Which word means 'siap'?",
+    "options": [
+      {
+        "id": "A",
+        "text": "late"
+      },
+      {
+        "id": "B",
+        "text": "free"
+      },
+      {
+        "id": "C",
+        "text": "early"
+      },
+      {
+        "id": "D",
+        "text": "ready"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Ready berarti siap."
+  },
+  {
+    "id": "BT001-286",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who sings songs is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "singer"
+      },
+      {
+        "id": "B",
+        "text": "cashier"
+      },
+      {
+        "id": "C",
+        "text": "farmer"
+      },
+      {
+        "id": "D",
+        "text": "driver"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Singer berarti penyanyi."
+  },
+  {
+    "id": "BT001-287",
+    "day": 1,
+    "type": "mcq",
+    "tag": "vocab",
+    "prompt": "A person who drives a bus or a taxi is a ___.",
+    "options": [
+      {
+        "id": "A",
+        "text": "chef"
+      },
+      {
+        "id": "B",
+        "text": "driver"
+      },
+      {
+        "id": "C",
+        "text": "singer"
+      },
+      {
+        "id": "D",
+        "text": "teacher"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Driver berarti sopir atau pengemudi."
+  },
+  {
+    "id": "BT001-288",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: ___ the students tired after the long class?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Are"
+      },
+      {
+        "id": "B",
+        "text": "Am"
+      },
+      {
+        "id": "C",
+        "text": "Be"
+      },
+      {
+        "id": "D",
+        "text": "Is"
+      }
+    ],
+    "correct": "A",
+    "explanation": "The students jamak, jadi pertanyaannya diawali Are."
+  },
+  {
+    "id": "BT001-289",
+    "day": 1,
+    "type": "mcq",
+    "tag": "grammar",
+    "prompt": "Choose the correct form: They ___ not at the station.",
+    "options": [
+      {
+        "id": "A",
+        "text": "am"
+      },
+      {
+        "id": "B",
+        "text": "is"
+      },
+      {
+        "id": "C",
+        "text": "are"
+      },
+      {
+        "id": "D",
+        "text": "be"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Subjek they berpasangan dengan are."
+  },
+  {
+    "id": "BT001-290",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Ibu saya seorang dokter.",
+    "acceptedAnswers": [
+      "My mother is a doctor.",
+      "My mother's a doctor."
+    ],
+    "explanation": "Subjek my mother dianggap orang ketiga tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-291",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Dia seorang perawat.",
+    "acceptedAnswers": [
+      "She is a nurse.",
+      "He is a nurse.",
+      "She's a nurse.",
+      "He's a nurse."
+    ],
+    "explanation": "Dia bisa berarti she atau he, dan keduanya memakai is."
+  },
+  {
+    "id": "BT001-292",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kami siswa di sekolah ini.",
+    "acceptedAnswers": [
+      "We are students at this school.",
+      "We're students at this school."
+    ],
+    "explanation": "Subjek we memakai are, dan students berbentuk jamak."
+  },
+  {
+    "id": "BT001-293",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Mereka lelah hari ini.",
+    "acceptedAnswers": [
+      "They are tired today.",
+      "They're tired today."
+    ],
+    "explanation": "Subjek they memakai are, diikuti kata sifat tired."
+  },
+  {
+    "id": "BT001-294",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kamu sangat baik.",
+    "acceptedAnswers": [
+      "You are very kind.",
+      "You're very kind."
+    ],
+    "explanation": "Subjek you memakai are, dan very berada sebelum kata sifat kind."
+  },
+  {
+    "id": "BT001-295",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Ini rumah saya.",
+    "acceptedAnswers": [
+      "This is my house."
+    ],
+    "explanation": "Pola This is my dipakai untuk memperkenalkan benda milik kita yang dekat."
+  },
+  {
+    "id": "BT001-296",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Itu mobil baru.",
+    "acceptedAnswers": [
+      "That is a new car.",
+      "That's a new car."
+    ],
+    "explanation": "That is dipakai untuk benda yang jauh, dan artikel a dipakai sebelum new car."
+  },
+  {
+    "id": "BT001-297",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Hari ini dingin.",
+    "acceptedAnswers": [
+      "It is cold today.",
+      "It's cold today."
+    ],
+    "explanation": "Untuk cuaca dan keadaan umum, subjeknya it dengan is."
+  },
+  {
+    "id": "BT001-298",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Saya tidak lapar.",
+    "acceptedAnswers": [
+      "I am not hungry.",
+      "I'm not hungry."
+    ],
+    "explanation": "Kalimat negatif dengan I: am + not + kata sifat."
+  },
+  {
+    "id": "BT001-299",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Dia tidak sibuk hari ini.",
+    "acceptedAnswers": [
+      "She is not busy today.",
+      "He is not busy today.",
+      "She isn't busy today.",
+      "He isn't busy today.",
+      "She's not busy today.",
+      "He's not busy today."
+    ],
+    "explanation": "Negatif dengan is: is + not, dan dia bisa she atau he."
+  },
+  {
+    "id": "BT001-300",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Mereka tidak di rumah.",
+    "acceptedAnswers": [
+      "They are not at home.",
+      "They're not at home.",
+      "They aren't at home."
+    ],
+    "explanation": "Negatif dengan they: are + not, diikuti keterangan tempat at home."
+  },
+  {
+    "id": "BT001-301",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kami tidak terlambat.",
+    "acceptedAnswers": [
+      "We are not late.",
+      "We're not late.",
+      "We aren't late."
+    ],
+    "explanation": "Negatif dengan we: are + not + late."
+  },
+  {
+    "id": "BT001-302",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kamu tidak sendirian.",
+    "acceptedAnswers": [
+      "You are not alone.",
+      "You're not alone.",
+      "You aren't alone."
+    ],
+    "explanation": "Negatif dengan you: are + not + alone."
+  },
+  {
+    "id": "BT001-303",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah dia temanmu?",
+    "acceptedAnswers": [
+      "Is she your friend?",
+      "Is he your friend?"
+    ],
+    "explanation": "Pertanyaan dengan to be: Is diletakkan di depan subjek she atau he."
+  },
+  {
+    "id": "BT001-304",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah kamu lelah?",
+    "acceptedAnswers": [
+      "Are you tired?"
+    ],
+    "explanation": "Untuk you, pertanyaan diawali Are."
+  },
+  {
+    "id": "BT001-305",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah saya terlambat?",
+    "acceptedAnswers": [
+      "Am I late?"
+    ],
+    "explanation": "Pertanyaan dengan subjek I diawali Am."
+  },
+  {
+    "id": "BT001-306",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah mereka dari Bali?",
+    "acceptedAnswers": [
+      "Are they from Bali?"
+    ],
+    "explanation": "Pertanyaan dengan they diawali Are, lalu from untuk asal."
+  },
+  {
+    "id": "BT001-307",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah kelas ini menarik?",
+    "acceptedAnswers": [
+      "Is this class interesting?"
+    ],
+    "explanation": "This class tunggal, jadi pertanyaan diawali Is."
+  },
+  {
+    "id": "BT001-308",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Siapa nama gurumu?",
+    "acceptedAnswers": [
+      "What is your teacher's name?",
+      "What's your teacher's name?"
+    ],
+    "explanation": "Kata tanya what dengan is, dan milik ditulis teacher's."
+  },
+  {
+    "id": "BT001-309",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Berapa umurmu?",
+    "acceptedAnswers": [
+      "How old are you?"
+    ],
+    "explanation": "Menanyakan umur memakai How old are you?"
+  },
+  {
+    "id": "BT001-310",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Dari mana asalmu?",
+    "acceptedAnswers": [
+      "Where are you from?"
+    ],
+    "explanation": "Menanyakan asal memakai Where are you from?"
+  },
+  {
+    "id": "BT001-311",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Di mana tas saya?",
+    "acceptedAnswers": [
+      "Where is my bag?",
+      "Where's my bag?"
+    ],
+    "explanation": "Where is dipakai untuk benda tunggal seperti my bag."
+  },
+  {
+    "id": "BT001-312",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Bagaimana kabarmu?",
+    "acceptedAnswers": [
+      "How are you?"
+    ],
+    "explanation": "Sapaan tentang kabar memakai How are you?"
+  },
+  {
+    "id": "BT001-313",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Jam berapa sekarang?",
+    "acceptedAnswers": [
+      "What time is it?",
+      "What time is it now?",
+      "What's the time?"
+    ],
+    "explanation": "Menanyakan waktu memakai What time is it?"
+  },
+  {
+    "id": "BT001-314",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Dimas adalah teman sekelas saya.",
+    "acceptedAnswers": [
+      "Dimas is my classmate."
+    ],
+    "explanation": "Dimas adalah subjek tunggal dengan is, dan my classmate berarti teman sekelas saya."
+  },
+  {
+    "id": "BT001-315",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Ibu Sari adalah guru yang baik hati.",
+    "acceptedAnswers": [
+      "Mrs. Sari is a kind teacher."
+    ],
+    "explanation": "Kata sifat kind diletakkan sebelum kata benda teacher."
+  },
+  {
+    "id": "BT001-316",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kota itu besar dan ramai.",
+    "acceptedAnswers": [
+      "The city is big and busy.",
+      "The city is big and crowded."
+    ],
+    "explanation": "The city tunggal dengan is, diikuti dua kata sifat dengan and."
+  },
+  {
+    "id": "BT001-317",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kelas bahasa Inggris saya menarik.",
+    "acceptedAnswers": [
+      "My English class is interesting."
+    ],
+    "explanation": "My English class adalah subjek tunggal, jadi memakai is."
+  },
+  {
+    "id": "BT001-318",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Saya senang hari ini.",
+    "acceptedAnswers": [
+      "I am happy today.",
+      "I'm happy today."
+    ],
+    "explanation": "Subjek I dengan am, diikuti kata sifat happy."
+  },
+  {
+    "id": "BT001-319",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kakak laki-laki saya adalah mahasiswa.",
+    "acceptedAnswers": [
+      "My older brother is a student.",
+      "My brother is a student."
+    ],
+    "explanation": "Subjek tunggal my brother memakai is dan artikel a sebelum student."
+  },
+  {
+    "id": "BT001-320",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Orang tua saya ada di rumah.",
+    "acceptedAnswers": [
+      "My parents are at home."
+    ],
+    "explanation": "My parents jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-321",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Teman-teman saya ada di kantin.",
+    "acceptedAnswers": [
+      "My friends are in the canteen.",
+      "My friends are at the canteen."
+    ],
+    "explanation": "My friends jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-322",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Buku-buku ini mahal.",
+    "acceptedAnswers": [
+      "These books are expensive."
+    ],
+    "explanation": "These dipakai untuk benda jamak yang dekat, dengan are."
+  },
+  {
+    "id": "BT001-323",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kopi itu tidak panas.",
+    "acceptedAnswers": [
+      "The coffee is not hot.",
+      "The coffee isn't hot."
+    ],
+    "explanation": "The coffee tunggal, jadi is not atau isn't."
+  },
+  {
+    "id": "BT001-324",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Cuaca hari ini cerah.",
+    "acceptedAnswers": [
+      "The weather is sunny today.",
+      "It is sunny today.",
+      "It's sunny today."
+    ],
+    "explanation": "Cuaca dinyatakan dengan the weather is atau it is, diikuti sunny."
+  },
+  {
+    "id": "BT001-325",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Anak-anak itu senang.",
+    "acceptedAnswers": [
+      "The children are happy.",
+      "Those children are happy."
+    ],
+    "explanation": "Children adalah bentuk jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-326",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Adik perempuan saya masih kecil.",
+    "acceptedAnswers": [
+      "My younger sister is still small.",
+      "My younger sister is still little.",
+      "My younger sister is still young.",
+      "My little sister is still small."
+    ],
+    "explanation": "My younger sister tunggal dengan is, lalu still diletakkan setelah to be."
+  },
+  {
+    "id": "BT001-327",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Saya bukan orang yang pemalu.",
+    "acceptedAnswers": [
+      "I am not a shy person.",
+      "I'm not a shy person."
+    ],
+    "explanation": "Negatif dengan I memakai am not, dan a dipakai sebelum shy person."
+  },
+  {
+    "id": "BT001-328",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Dia bukan guru kami.",
+    "acceptedAnswers": [
+      "He is not our teacher.",
+      "She is not our teacher.",
+      "He isn't our teacher.",
+      "She isn't our teacher.",
+      "He's not our teacher.",
+      "She's not our teacher."
+    ],
+    "explanation": "Not diletakkan setelah is, dan our teacher berarti guru kami."
+  },
+  {
+    "id": "BT001-329",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Itu bukan masalah besar.",
+    "acceptedAnswers": [
+      "That is not a big problem.",
+      "That isn't a big problem.",
+      "That's not a big problem."
+    ],
+    "explanation": "That tunggal, jadi is not, lalu a big problem."
+  },
+  {
+    "id": "BT001-330",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah kalian siap untuk ujian?",
+    "acceptedAnswers": [
+      "Are you ready for the exam?"
+    ],
+    "explanation": "You jamak atau tunggal tetap memakai Are, lalu for the exam."
+  },
+  {
+    "id": "BT001-331",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah itu tas barumu?",
+    "acceptedAnswers": [
+      "Is that your new bag?"
+    ],
+    "explanation": "That tunggal, jadi pertanyaan diawali Is."
+  },
+  {
+    "id": "BT001-332",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah kita terlambat?",
+    "acceptedAnswers": [
+      "Are we late?"
+    ],
+    "explanation": "Pertanyaan dengan we diawali Are."
+  },
+  {
+    "id": "BT001-333",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah ibumu seorang guru?",
+    "acceptedAnswers": [
+      "Is your mother a teacher?"
+    ],
+    "explanation": "Your mother tunggal, jadi diawali Is, lalu a teacher."
+  },
+  {
+    "id": "BT001-334",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apakah anak-anak itu di taman?",
+    "acceptedAnswers": [
+      "Are the children in the park?",
+      "Are those children in the park?"
+    ],
+    "explanation": "Children jamak, jadi pertanyaan diawali Are."
+  },
+  {
+    "id": "BT001-335",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Siapa dia?",
+    "acceptedAnswers": [
+      "Who is he?",
+      "Who is she?",
+      "Who's he?",
+      "Who's she?"
+    ],
+    "explanation": "Menanyakan identitas satu orang memakai Who is, dan dia bisa he atau she."
+  },
+  {
+    "id": "BT001-336",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Apa ini?",
+    "acceptedAnswers": [
+      "What is this?",
+      "What's this?"
+    ],
+    "explanation": "Menanyakan benda yang dekat memakai What is this?"
+  },
+  {
+    "id": "BT001-337",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kapan ujiannya?",
+    "acceptedAnswers": [
+      "When is the exam?",
+      "When's the exam?"
+    ],
+    "explanation": "Menanyakan waktu suatu kejadian memakai When is."
+  },
+  {
+    "id": "BT001-338",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Mengapa kamu sedih?",
+    "acceptedAnswers": [
+      "Why are you sad?"
+    ],
+    "explanation": "Kata tanya why diikuti are you untuk menanyakan alasan."
+  },
+  {
+    "id": "BT001-339",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Berapa harga tas ini?",
+    "acceptedAnswers": [
+      "How much is this bag?"
+    ],
+    "explanation": "Menanyakan harga memakai How much is, dan this bag tunggal."
+  },
+  {
+    "id": "BT001-340",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Ayah saya tidak ada di kantor.",
+    "acceptedAnswers": [
+      "My father is not in the office.",
+      "My father isn't in the office.",
+      "My father is not at the office.",
+      "My father isn't at the office."
+    ],
+    "explanation": "My father tunggal, jadi is not, diikuti keterangan tempat."
+  },
+  {
+    "id": "BT001-341",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Saya berasal dari Surabaya.",
+    "acceptedAnswers": [
+      "I am from Surabaya.",
+      "I'm from Surabaya."
+    ],
+    "explanation": "Asal tempat dinyatakan dengan am from."
+  },
+  {
+    "id": "BT001-342",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kami berasal dari kota kecil.",
+    "acceptedAnswers": [
+      "We are from a small city.",
+      "We are from a small town.",
+      "We're from a small city.",
+      "We're from a small town."
+    ],
+    "explanation": "Subjek we dengan are, lalu from a small city."
+  },
+  {
+    "id": "BT001-343",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Teman saya sangat pintar.",
+    "acceptedAnswers": [
+      "My friend is very smart.",
+      "My friend is very clever."
+    ],
+    "explanation": "My friend tunggal dengan is, very diletakkan sebelum kata sifat."
+  },
+  {
+    "id": "BT001-344",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Pelajaran hari ini tidak sulit.",
+    "acceptedAnswers": [
+      "Today's lesson is not difficult.",
+      "Today's lesson isn't difficult.",
+      "Today's lesson is not hard.",
+      "Today's lesson isn't hard."
+    ],
+    "explanation": "Today's lesson tunggal, jadi is not diikuti difficult."
+  },
+  {
+    "id": "BT001-345",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kamu dan saya adalah tim yang baik.",
+    "acceptedAnswers": [
+      "You and I are a good team."
+    ],
+    "explanation": "You and I adalah subjek jamak, jadi memakai are."
+  },
+  {
+    "id": "BT001-346",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Dia sangat lelah karena bangun pagi-pagi.",
+    "acceptedAnswers": [
+      "She is very tired because she wakes up early.",
+      "He is very tired because he wakes up early.",
+      "She's very tired because she wakes up early.",
+      "He's very tired because he wakes up early."
+    ],
+    "explanation": "Bagian pertama memakai is, dan bagian alasan memakai wakes up karena subjeknya tunggal."
+  },
+  {
+    "id": "BT001-347",
+    "day": 1,
+    "type": "translate",
+    "prompt": "Kami senang karena kelasnya menarik.",
+    "acceptedAnswers": [
+      "We are happy because the class is interesting.",
+      "We're happy because the class is interesting."
+    ],
+    "explanation": "Dua klausa memakai to be yang sesuai: we are dan the class is."
+  },
+  {
+    "id": "BT001-348",
+    "day": 1,
+    "type": "story",
+    "passage": "Sinta is a nurse. She works at a small hospital in Malang. She is at the hospital from seven in the morning until three in the afternoon. She is kind to every patient.",
+    "prompt": "Sinta berada di rumah sakit sampai pukul berapa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pukul tujuh pagi"
+      },
+      {
+        "id": "B",
+        "text": "pukul lima sore"
+      },
+      {
+        "id": "C",
+        "text": "pukul tiga sore"
+      },
+      {
+        "id": "D",
+        "text": "pukul dua belas siang"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut Sinta di rumah sakit sampai pukul tiga sore, sedangkan pukul tujuh adalah jam mulainya."
+  },
+  {
+    "id": "BT001-349",
+    "day": 1,
+    "type": "story",
+    "passage": "Budi is a driver. He is thirty years old. He drives a big bus between Bandung and Jakarta. In the morning he is fresh, but at night he is very tired. His wife is a cook.",
+    "prompt": "Apa pekerjaan istri Budi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "guru"
+      },
+      {
+        "id": "B",
+        "text": "juru masak"
+      },
+      {
+        "id": "C",
+        "text": "sopir bus"
+      },
+      {
+        "id": "D",
+        "text": "perawat"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut his wife is a cook, jadi istrinya adalah juru masak."
+  },
+  {
+    "id": "BT001-350",
+    "day": 1,
+    "type": "story",
+    "passage": "Lina and her friends are at the beach today. The weather is sunny, and the sea is blue. The beach is not crowded because it is Tuesday. They are happy and they take many photos.",
+    "prompt": "Mengapa pantai itu tidak ramai?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena pantainya kotor."
+      },
+      {
+        "id": "B",
+        "text": "Karena pantainya ditutup."
+      },
+      {
+        "id": "C",
+        "text": "Karena hari ini hari Selasa."
+      },
+      {
+        "id": "D",
+        "text": "Karena cuaca sedang hujan."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut pantai tidak ramai because it is Tuesday."
+  },
+  {
+    "id": "BT001-351",
+    "day": 1,
+    "type": "story",
+    "passage": "My name is Anton. I am a student, and my brother Rudi is a student too. We are not in the same school. I am in a high school, and he is in a university in Semarang. Our mother is proud of us.",
+    "prompt": "Rudi belajar di mana?",
+    "options": [
+      {
+        "id": "A",
+        "text": "di sekolah dasar di Semarang"
+      },
+      {
+        "id": "B",
+        "text": "di universitas di Bandung"
+      },
+      {
+        "id": "C",
+        "text": "di universitas di Semarang"
+      },
+      {
+        "id": "D",
+        "text": "di SMA yang sama dengan Anton"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut Rudi is in a university in Semarang, sedangkan Anton di SMA."
+  },
+  {
+    "id": "BT001-352",
+    "day": 1,
+    "type": "story",
+    "passage": "It is Saturday morning. Dewi is at the market with her mother. The market is big and noisy. The vegetables are fresh, and the fruit is cheap. Dewi is happy because she likes the market.",
+    "prompt": "Bagaimana keadaan pasar itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "kecil dan bising"
+      },
+      {
+        "id": "B",
+        "text": "besar dan sepi"
+      },
+      {
+        "id": "C",
+        "text": "kecil dan sepi"
+      },
+      {
+        "id": "D",
+        "text": "besar dan bising"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut the market is big and noisy."
+  },
+  {
+    "id": "BT001-353",
+    "day": 1,
+    "type": "story",
+    "passage": "Mr. Hasan is our English teacher. He is forty years old. He is from Medan, but now he lives in Yogyakarta. His class is interesting because he is funny. Everyone in the class is happy to see him.",
+    "prompt": "Mengapa kelas Mr. Hasan menarik?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena dia lucu."
+      },
+      {
+        "id": "B",
+        "text": "Karena dia masih muda."
+      },
+      {
+        "id": "C",
+        "text": "Karena kelasnya kecil."
+      },
+      {
+        "id": "D",
+        "text": "Karena dia berasal dari Medan."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut his class is interesting because he is funny."
+  },
+  {
+    "id": "BT001-354",
+    "day": 1,
+    "type": "story",
+    "passage": "Today is Rani's first day at a new school. She is a little nervous. The classroom is big, and her classmates are friendly. A girl named Mira says hello to her. Now Rani is not nervous anymore.",
+    "prompt": "Bagaimana perasaan Rani di akhir teks?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dia lelah dan ingin pulang."
+      },
+      {
+        "id": "B",
+        "text": "Dia masih sangat gugup."
+      },
+      {
+        "id": "C",
+        "text": "Dia tidak gugup lagi."
+      },
+      {
+        "id": "D",
+        "text": "Dia marah kepada Mira."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Kalimat terakhir menyebut Rani is not nervous anymore, artinya dia tidak gugup lagi."
+  },
+  {
+    "id": "BT001-355",
+    "day": 1,
+    "type": "story",
+    "passage": "Our house is in a small village. It is not big, but it is clean and warm. There are two bedrooms, a kitchen, and a living room. My grandmother is in the kitchen every morning. She is a very good cook.",
+    "prompt": "Ada berapa kamar tidur di rumah itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "dua"
+      },
+      {
+        "id": "B",
+        "text": "tiga"
+      },
+      {
+        "id": "C",
+        "text": "satu"
+      },
+      {
+        "id": "D",
+        "text": "empat"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut there are two bedrooms."
+  },
+  {
+    "id": "BT001-356",
+    "day": 1,
+    "type": "story",
+    "passage": "Pak Joko is a farmer in a small village. His farm is big, and his rice is green and tall. He is up early every day. His two sons are students in the city, so they are not at home on weekdays.",
+    "prompt": "Mengapa kedua anak Pak Joko tidak di rumah pada hari kerja?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena mereka bersekolah di kota."
+      },
+      {
+        "id": "B",
+        "text": "Karena mereka sedang berlibur."
+      },
+      {
+        "id": "C",
+        "text": "Karena mereka sakit."
+      },
+      {
+        "id": "D",
+        "text": "Karena mereka bekerja di sawah."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut anak-anaknya adalah siswa di kota, jadi mereka tidak di rumah pada hari kerja."
+  },
+  {
+    "id": "BT001-357",
+    "day": 1,
+    "type": "story",
+    "passage": "Maya and her father are at the airport. They are early, and the plane is at ten o'clock. Maya is happy because she is on a trip to Bali. Her aunt is there, and she is happy to see Maya.",
+    "prompt": "Siapa yang menunggu Maya di Bali?",
+    "options": [
+      {
+        "id": "A",
+        "text": "ayahnya"
+      },
+      {
+        "id": "B",
+        "text": "bibinya"
+      },
+      {
+        "id": "C",
+        "text": "gurunya"
+      },
+      {
+        "id": "D",
+        "text": "temannya"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut her aunt is there, jadi yang menunggu adalah bibinya."
+  },
+  {
+    "id": "BT001-358",
+    "day": 1,
+    "type": "story",
+    "passage": "My friend Tika is a singer. She is not famous, but her voice is beautiful. She is on stage every Friday night at a small cafe. The cafe is always full. People are happy when they hear her songs.",
+    "prompt": "Kapan Tika tampil di kafe?",
+    "options": [
+      {
+        "id": "A",
+        "text": "setiap Sabtu malam"
+      },
+      {
+        "id": "B",
+        "text": "setiap Minggu sore"
+      },
+      {
+        "id": "C",
+        "text": "setiap Jumat pagi"
+      },
+      {
+        "id": "D",
+        "text": "setiap Jumat malam"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut Tika on stage every Friday night."
+  },
+  {
+    "id": "BT001-359",
+    "day": 1,
+    "type": "story",
+    "passage": "The library at my school is quiet and clean. It is open from eight to four. The woman at the desk is Mrs. Nita. She is very polite, and she is happy to help students. The books are on tall shelves.",
+    "prompt": "Di mana buku-buku diletakkan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "di lantai"
+      },
+      {
+        "id": "B",
+        "text": "di dalam tas"
+      },
+      {
+        "id": "C",
+        "text": "di rak yang tinggi"
+      },
+      {
+        "id": "D",
+        "text": "di atas meja"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut the books are on tall shelves."
+  },
+  {
+    "id": "BT001-360",
+    "day": 1,
+    "type": "story",
+    "passage": "Eko and Dani are brothers. Eko is tall, and Dani is short. Eko is twelve years old, and Dani is nine. They are in the same school, but they are not in the same class.",
+    "prompt": "Berapa umur Dani?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sepuluh tahun"
+      },
+      {
+        "id": "B",
+        "text": "dua belas tahun"
+      },
+      {
+        "id": "C",
+        "text": "delapan tahun"
+      },
+      {
+        "id": "D",
+        "text": "sembilan tahun"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut Dani is nine, sedangkan Eko berumur dua belas."
+  },
+  {
+    "id": "BT001-361",
+    "day": 1,
+    "type": "story",
+    "passage": "It is eight o'clock at night. Bayu is at home. He is not at the cinema because he is tired. His friends are at the cinema, and they are happy. Bayu is on the sofa, and he watches TV.",
+    "prompt": "Mengapa Bayu tidak ada di bioskop?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena dia tidak punya teman."
+      },
+      {
+        "id": "B",
+        "text": "Karena dia sakit."
+      },
+      {
+        "id": "C",
+        "text": "Karena dia lelah."
+      },
+      {
+        "id": "D",
+        "text": "Karena bioskopnya tutup."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Teks menyebut he is not at the cinema because he is tired."
+  },
+  {
+    "id": "BT001-362",
+    "day": 1,
+    "type": "story",
+    "passage": "Lisa is a new student from Canada. Her Indonesian is not good yet, but she is a fast learner. Her classmates are kind, and they teach her new words every day. Lisa is happy in her new class.",
+    "prompt": "Siapa yang mengajari Lisa kata-kata baru?",
+    "options": [
+      {
+        "id": "A",
+        "text": "teman sekelasnya"
+      },
+      {
+        "id": "B",
+        "text": "orang tuanya"
+      },
+      {
+        "id": "C",
+        "text": "tetangganya"
+      },
+      {
+        "id": "D",
+        "text": "gurunya"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut her classmates teach her new words every day."
+  },
+  {
+    "id": "BT001-363",
+    "day": 1,
+    "type": "story",
+    "passage": "My city is Surabaya. It is hot and busy, but it is also a fun city. There are many restaurants and parks. My favorite place is a small park near my house. It is green and quiet.",
+    "prompt": "Bagaimana taman favorit penulis?",
+    "options": [
+      {
+        "id": "A",
+        "text": "besar dan ramai"
+      },
+      {
+        "id": "B",
+        "text": "hijau dan tenang"
+      },
+      {
+        "id": "C",
+        "text": "kotor dan sepi"
+      },
+      {
+        "id": "D",
+        "text": "kecil dan bising"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut taman itu small, green, and quiet."
+  },
+  {
+    "id": "BT001-364",
+    "day": 1,
+    "type": "story",
+    "passage": "Today is Sunday. Nina is not at school, and her parents are not at work. The family is at home. Her father is in the garden, and her mother is in the kitchen. Nina is in her room, and she is on a video call with her friend.",
+    "prompt": "Di mana ayah Nina?",
+    "options": [
+      {
+        "id": "A",
+        "text": "di dapur"
+      },
+      {
+        "id": "B",
+        "text": "di kamar Nina"
+      },
+      {
+        "id": "C",
+        "text": "di kantor"
+      },
+      {
+        "id": "D",
+        "text": "di kebun"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut her father is in the garden."
+  },
+  {
+    "id": "BT001-365",
+    "day": 1,
+    "type": "story",
+    "passage": "Hendra is a young chef. His restaurant is small, but it is very popular. The food is not expensive, and the dishes are always hot. Many students are there at lunch time.",
+    "prompt": "Kapan banyak siswa datang ke restoran Hendra?",
+    "options": [
+      {
+        "id": "A",
+        "text": "saat makan siang"
+      },
+      {
+        "id": "B",
+        "text": "saat tengah malam"
+      },
+      {
+        "id": "C",
+        "text": "saat makan malam"
+      },
+      {
+        "id": "D",
+        "text": "saat sarapan"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut many students are there at lunch time."
+  },
+  {
+    "id": "BT001-366",
+    "day": 1,
+    "type": "story",
+    "passage": "The weather is cold in the morning in our village. The children are in thick jackets. They are at the bus stop, and the bus is late today. The children are not happy, but the driver says sorry.",
+    "prompt": "Apa yang terlambat hari ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "bus"
+      },
+      {
+        "id": "B",
+        "text": "ayah mereka"
+      },
+      {
+        "id": "C",
+        "text": "anak-anak"
+      },
+      {
+        "id": "D",
+        "text": "guru"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Teks menyebut the bus is late today."
+  },
+  {
+    "id": "BT001-367",
+    "day": 1,
+    "type": "story",
+    "passage": "Andi is a student, and he is also a waiter. He works at a small cafe after school. He is busy from four to eight in the evening. He is tired at night, but he is happy because the money helps his family.",
+    "prompt": "Pukul berapa Andi sibuk bekerja?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pukul delapan pagi sampai dua belas siang"
+      },
+      {
+        "id": "B",
+        "text": "pukul empat sampai delapan malam"
+      },
+      {
+        "id": "C",
+        "text": "pukul delapan malam sampai tengah malam"
+      },
+      {
+        "id": "D",
+        "text": "pukul dua sampai empat sore"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut he is busy from four to eight in the evening."
+  },
+  {
+    "id": "BT001-368",
+    "day": 1,
+    "type": "story",
+    "passage": "Rina has a pet cat. The cat's name is Mimi. Mimi is small and white. She is very lazy in the afternoon, but she is active at night. Rina is very happy to have Mimi.",
+    "prompt": "Kapan Mimi aktif?",
+    "options": [
+      {
+        "id": "A",
+        "text": "pada pagi hari"
+      },
+      {
+        "id": "B",
+        "text": "pada malam hari"
+      },
+      {
+        "id": "C",
+        "text": "pada sore hari"
+      },
+      {
+        "id": "D",
+        "text": "pada siang hari"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut Mimi lazy in the afternoon, but active at night."
+  },
+  {
+    "id": "BT001-369",
+    "day": 1,
+    "type": "story",
+    "passage": "Our English teacher gives us homework every Monday. The homework is not difficult, but it is long. Dimas is not happy about it. Rina is happy because she loves writing.",
+    "prompt": "Mengapa Rina senang dengan pekerjaan rumah itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Karena tugasnya pendek."
+      },
+      {
+        "id": "B",
+        "text": "Karena tidak ada tugas."
+      },
+      {
+        "id": "C",
+        "text": "Karena temannya membantu."
+      },
+      {
+        "id": "D",
+        "text": "Karena dia suka menulis."
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut Rina is happy because she loves writing."
+  },
+  {
+    "id": "BT001-370",
+    "day": 1,
+    "type": "story",
+    "passage": "Mr. and Mrs. Tan are our neighbors. They are old, but they are very healthy. They walk in the park every morning at six. Mrs. Tan is also very kind, and she gives us fruit from her garden.",
+    "prompt": "Apa yang dilakukan Mr. dan Mrs. Tan setiap pagi pukul enam?",
+    "options": [
+      {
+        "id": "A",
+        "text": "bekerja di kebun"
+      },
+      {
+        "id": "B",
+        "text": "membeli sayur di pasar"
+      },
+      {
+        "id": "C",
+        "text": "mengajar di sekolah"
+      },
+      {
+        "id": "D",
+        "text": "berjalan kaki di taman"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Teks menyebut they walk in the park every morning at six."
+  },
+  {
+    "id": "BT001-371",
+    "day": 1,
+    "type": "story",
+    "passage": "Hari's phone is not new, but it is very good. It is from his uncle. The screen is big, and the camera is clear. Hari is happy with it.",
+    "prompt": "Dari siapa Hari mendapat ponselnya?",
+    "options": [
+      {
+        "id": "A",
+        "text": "dari kakaknya"
+      },
+      {
+        "id": "B",
+        "text": "dari pamannya"
+      },
+      {
+        "id": "C",
+        "text": "dari temannya"
+      },
+      {
+        "id": "D",
+        "text": "dari ayahnya"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Teks menyebut the phone is from his uncle."
+  },
+  {
+    "id": "BT001-372",
+    "day": 1,
+    "type": "listen",
+    "script": "Good morning, class. I am Mr. Adi, and I am your new English teacher.",
+    "prompt": "Siapa Mr. Adi menurut pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is a new student."
+      },
+      {
+        "id": "B",
+        "text": "He is the school driver."
+      },
+      {
+        "id": "C",
+        "text": "He is the new English teacher."
+      },
+      {
+        "id": "D",
+        "text": "He is the principal."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut dirinya your new English teacher."
+  },
+  {
+    "id": "BT001-373",
+    "day": 1,
+    "type": "listen",
+    "script": "My sister is not at home. She is at the library with her friends.",
+    "prompt": "Di mana kakak pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At school"
+      },
+      {
+        "id": "B",
+        "text": "At home"
+      },
+      {
+        "id": "C",
+        "text": "At the market"
+      },
+      {
+        "id": "D",
+        "text": "At the library"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Audio menyebut she is at the library with her friends."
+  },
+  {
+    "id": "BT001-374",
+    "day": 1,
+    "type": "listen",
+    "script": "It is very hot today, so the children are at the swimming pool.",
+    "prompt": "Mengapa anak-anak berada di kolam renang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because it is very hot."
+      },
+      {
+        "id": "B",
+        "text": "Because it is cold."
+      },
+      {
+        "id": "C",
+        "text": "Because it is their birthday."
+      },
+      {
+        "id": "D",
+        "text": "Because it is Sunday."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Audio menyebut it is very hot today, so the children are at the swimming pool."
+  },
+  {
+    "id": "BT001-375",
+    "day": 1,
+    "type": "listen",
+    "script": "A: Are you hungry? B: Yes, I am. I want some fried rice.",
+    "prompt": "Apa yang diinginkan B?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Fried noodles"
+      },
+      {
+        "id": "B",
+        "text": "A cold drink"
+      },
+      {
+        "id": "C",
+        "text": "Some bread"
+      },
+      {
+        "id": "D",
+        "text": "Fried rice"
+      }
+    ],
+    "correct": "D",
+    "explanation": "B menjawab Yes, I am dan menyebut fried rice."
+  },
+  {
+    "id": "BT001-376",
+    "day": 1,
+    "type": "listen",
+    "script": "Rani and Sita are good friends. They are in the same class, and they are on the same team.",
+    "prompt": "Siapa Rani dan Sita?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Teachers at the same school"
+      },
+      {
+        "id": "B",
+        "text": "Sisters in the same house"
+      },
+      {
+        "id": "C",
+        "text": "Good friends in the same class"
+      },
+      {
+        "id": "D",
+        "text": "Neighbors at the same market"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Audio menyebut they are good friends in the same class."
+  },
+  {
+    "id": "BT001-377",
+    "day": 1,
+    "type": "listen",
+    "script": "I am not tired, but my brother is very tired.",
+    "prompt": "Siapa yang lelah?",
+    "options": [
+      {
+        "id": "A",
+        "text": "The speaker's brother"
+      },
+      {
+        "id": "B",
+        "text": "Both of them"
+      },
+      {
+        "id": "C",
+        "text": "The speaker's sister"
+      },
+      {
+        "id": "D",
+        "text": "The speaker"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara tidak lelah, sedangkan adiknya atau kakaknya very tired."
+  },
+  {
+    "id": "BT001-378",
+    "day": 1,
+    "type": "listen",
+    "script": "The test is on Wednesday, not on Thursday.",
+    "prompt": "Pada hari apa ujian itu diadakan?",
+    "options": [
+      {
+        "id": "A",
+        "text": "On Thursday"
+      },
+      {
+        "id": "B",
+        "text": "On Tuesday"
+      },
+      {
+        "id": "C",
+        "text": "On Wednesday"
+      },
+      {
+        "id": "D",
+        "text": "On Friday"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Audio menyebut the test is on Wednesday, not on Thursday."
+  },
+  {
+    "id": "BT001-379",
+    "day": 1,
+    "type": "listen",
+    "script": "Excuse me, is this seat free? Yes, it is. Please sit here.",
+    "prompt": "Apakah kursi itu kosong?",
+    "options": [
+      {
+        "id": "A",
+        "text": "No, it is not free."
+      },
+      {
+        "id": "B",
+        "text": "Yes, it is free."
+      },
+      {
+        "id": "C",
+        "text": "Yes, but it is dirty."
+      },
+      {
+        "id": "D",
+        "text": "No, it is broken."
+      }
+    ],
+    "correct": "B",
+    "explanation": "Jawaban kedua pembicara adalah Yes, it is, artinya kursi itu kosong."
+  },
+  {
+    "id": "BT001-380",
+    "day": 1,
+    "type": "listen",
+    "script": "My name is Dewi. I am fifteen years old, and I am from Medan.",
+    "prompt": "Berapa umur Dewi?",
+    "options": [
+      {
+        "id": "A",
+        "text": "sixteen"
+      },
+      {
+        "id": "B",
+        "text": "fifteen"
+      },
+      {
+        "id": "C",
+        "text": "fifty"
+      },
+      {
+        "id": "D",
+        "text": "fourteen"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Dewi menyebut I am fifteen years old."
+  },
+  {
+    "id": "BT001-381",
+    "day": 1,
+    "type": "listen",
+    "script": "The teacher is in the classroom. The students are in the yard.",
+    "prompt": "Di mana para siswa?",
+    "options": [
+      {
+        "id": "A",
+        "text": "In the library"
+      },
+      {
+        "id": "B",
+        "text": "In the classroom"
+      },
+      {
+        "id": "C",
+        "text": "In the canteen"
+      },
+      {
+        "id": "D",
+        "text": "In the yard"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Audio menyebut the students are in the yard, sedangkan guru di kelas."
+  },
+  {
+    "id": "BT001-382",
+    "day": 1,
+    "type": "listen",
+    "script": "Is your father at home? No, he is at the office.",
+    "prompt": "Di mana ayahnya sekarang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At school"
+      },
+      {
+        "id": "B",
+        "text": "At the office"
+      },
+      {
+        "id": "C",
+        "text": "At the market"
+      },
+      {
+        "id": "D",
+        "text": "At home"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Jawabannya No, he is at the office."
+  },
+  {
+    "id": "BT001-383",
+    "day": 1,
+    "type": "listen",
+    "script": "This is my friend, Tono. He is very funny.",
+    "prompt": "Seperti apa Tono?",
+    "options": [
+      {
+        "id": "A",
+        "text": "He is shy."
+      },
+      {
+        "id": "B",
+        "text": "He is angry."
+      },
+      {
+        "id": "C",
+        "text": "He is funny."
+      },
+      {
+        "id": "D",
+        "text": "He is quiet."
+      }
+    ],
+    "correct": "C",
+    "explanation": "Pembicara menyebut Tono is very funny."
+  },
+  {
+    "id": "BT001-384",
+    "day": 1,
+    "type": "listen",
+    "script": "We are not in Jakarta now. We are in Bali on holiday.",
+    "prompt": "Di mana mereka sekarang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "At school"
+      },
+      {
+        "id": "B",
+        "text": "In Jakarta"
+      },
+      {
+        "id": "C",
+        "text": "In Bali"
+      },
+      {
+        "id": "D",
+        "text": "At home"
+      }
+    ],
+    "correct": "C",
+    "explanation": "Audio menyebut we are in Bali on holiday."
+  },
+  {
+    "id": "BT001-385",
+    "day": 1,
+    "type": "listen",
+    "script": "How are you today? I am fine, thank you. And you?",
+    "prompt": "Bagaimana kabar orang yang menjawab?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Angry"
+      },
+      {
+        "id": "B",
+        "text": "Fine"
+      },
+      {
+        "id": "C",
+        "text": "Sick"
+      },
+      {
+        "id": "D",
+        "text": "Tired"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Orang yang menjawab berkata I am fine."
+  },
+  {
+    "id": "BT001-386",
+    "day": 1,
+    "type": "listen",
+    "script": "The new bag is blue. The old bag is black.",
+    "prompt": "Apa warna tas yang baru?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Blue"
+      },
+      {
+        "id": "B",
+        "text": "Red"
+      },
+      {
+        "id": "C",
+        "text": "Black"
+      },
+      {
+        "id": "D",
+        "text": "Green"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Audio menyebut the new bag is blue."
+  },
+  {
+    "id": "BT001-387",
+    "day": 1,
+    "type": "listen",
+    "script": "Mrs. Rina is not a doctor. She is a nurse at the clinic.",
+    "prompt": "Apa profesi Mrs. Rina?",
+    "options": [
+      {
+        "id": "A",
+        "text": "A doctor"
+      },
+      {
+        "id": "B",
+        "text": "A nurse"
+      },
+      {
+        "id": "C",
+        "text": "A teacher"
+      },
+      {
+        "id": "D",
+        "text": "A cook"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Audio menyebut she is a nurse at the clinic."
+  },
+  {
+    "id": "BT001-388",
+    "day": 1,
+    "type": "listen",
+    "script": "My bag is under the table, and my shoes are by the door.",
+    "prompt": "Di mana sepatu pembicara?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Under the table"
+      },
+      {
+        "id": "B",
+        "text": "On the chair"
+      },
+      {
+        "id": "C",
+        "text": "In the bag"
+      },
+      {
+        "id": "D",
+        "text": "By the door"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Audio menyebut my shoes are by the door."
+  },
+  {
+    "id": "BT001-389",
+    "day": 1,
+    "type": "listen",
+    "script": "Dimas is late today. The class starts at eight, and it is eight thirty now.",
+    "prompt": "Pukul berapa sekarang?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Eight thirty"
+      },
+      {
+        "id": "B",
+        "text": "Nine"
+      },
+      {
+        "id": "C",
+        "text": "Eight"
+      },
+      {
+        "id": "D",
+        "text": "Seven thirty"
+      }
+    ],
+    "correct": "A",
+    "explanation": "Pembicara menyebut it is eight thirty now."
+  },
+  {
+    "id": "BT001-390",
+    "day": 1,
+    "type": "listen",
+    "script": "There are twenty students in my class. Ten are boys, and ten are girls.",
+    "prompt": "Berapa siswa perempuan di kelas itu?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Five"
+      },
+      {
+        "id": "B",
+        "text": "Twenty"
+      },
+      {
+        "id": "C",
+        "text": "Fifteen"
+      },
+      {
+        "id": "D",
+        "text": "Ten"
+      }
+    ],
+    "correct": "D",
+    "explanation": "Audio menyebut ten are girls."
+  },
+  {
+    "id": "BT001-391",
+    "day": 1,
+    "type": "listen",
+    "script": "A: Is the soup hot? B: Yes, it is hot, so be careful.",
+    "prompt": "Mengapa B meminta A berhati-hati?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the soup is hot."
+      },
+      {
+        "id": "B",
+        "text": "Because the soup is salty."
+      },
+      {
+        "id": "C",
+        "text": "Because the soup is old."
+      },
+      {
+        "id": "D",
+        "text": "Because the soup is cold."
+      }
+    ],
+    "correct": "A",
+    "explanation": "B menyebut the soup is hot, so be careful."
+  },
+  {
+    "id": "BT001-392",
+    "day": 1,
+    "type": "listen",
+    "script": "I am happy today because my best friend is here. She is from Surabaya.",
+    "prompt": "Hal apa yang membuat pembicara bahagia pada hari ini?",
+    "options": [
+      {
+        "id": "A",
+        "text": "Because the class is over"
+      },
+      {
+        "id": "B",
+        "text": "Because her best friend is here"
+      },
+      {
+        "id": "C",
+        "text": "Because it is her birthday"
+      },
+      {
+        "id": "D",
+        "text": "Because she is on holiday"
+      }
+    ],
+    "correct": "B",
+    "explanation": "Pembicara menyebut happy because my best friend is here."
+  },
+  {
+    "id": "BT001-393",
+    "day": 1,
+    "type": "listen",
+    "script": "Our school is big, but our classroom is small. There are thirty chairs in it.",
+    "prompt": "Bagaimana ruang kelas mereka?",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is small."
+      },
+      {
+        "id": "B",
+        "text": "It is new."
+      },
+      {
+        "id": "C",
+        "text": "It is noisy."
+      },
+      {
+        "id": "D",
+        "text": "It is big."
+      }
+    ],
+    "correct": "A",
+    "explanation": "Audio menyebut our classroom is small."
+  },
+  {
+    "id": "BT001-394",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya lelah hari ini)",
+    "acceptedAnswers": [
+      "I am tired today",
+      "Today I am tired"
+    ],
+    "explanation": "Pola dasarnya subjek + am + kata sifat, lalu keterangan waktu today."
+  },
+  {
+    "id": "BT001-395",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bu Rina adalah guru yang baik hati)",
+    "acceptedAnswers": [
+      "Mrs. Rina is a kind teacher"
+    ],
+    "explanation": "Mrs. Rina tunggal dengan is, lalu artikel a, kata sifat kind, dan kata benda teacher."
+  },
+  {
+    "id": "BT001-396",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kamu tidak terlambat)",
+    "acceptedAnswers": [
+      "You are not late"
+    ],
+    "explanation": "Negatif dengan you memakai are not sebelum kata sifat late."
+  },
+  {
+    "id": "BT001-397",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah mereka di rumah)",
+    "acceptedAnswers": [
+      "Are they at home"
+    ],
+    "explanation": "Pertanyaan dibuat dengan memindahkan are ke depan they."
+  },
+  {
+    "id": "BT001-398",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Dimas adalah teman sekelas saya)",
+    "acceptedAnswers": [
+      "Dimas is my classmate"
+    ],
+    "explanation": "Dimas memakai is, lalu my classmate sebagai pelengkap."
+  },
+  {
+    "id": "BT001-399",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah ibumu sibuk hari ini)",
+    "acceptedAnswers": [
+      "Is your mother busy today"
+    ],
+    "explanation": "Your mother tunggal, jadi diawali Is, lalu kata sifat busy dan today."
+  },
+  {
+    "id": "BT001-400",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami adalah siswa baru)",
+    "acceptedAnswers": [
+      "We are new students"
+    ],
+    "explanation": "We memakai are, dan kata sifat new diletakkan sebelum students."
+  },
+  {
+    "id": "BT001-401",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ini bukan tas saya)",
+    "acceptedAnswers": [
+      "This is not my bag"
+    ],
+    "explanation": "Not diletakkan setelah is, lalu my bag."
+  },
+  {
+    "id": "BT001-402",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Di mana sepatu saya)",
+    "acceptedAnswers": [
+      "Where are my shoes"
+    ],
+    "explanation": "Shoes jamak, jadi where are my shoes."
+  },
+  {
+    "id": "BT001-403",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Berapa umur kakakmu)",
+    "acceptedAnswers": [
+      "How old is your brother"
+    ],
+    "explanation": "Menanyakan umur satu orang memakai How old is."
+  },
+  {
+    "id": "BT001-404",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kota itu sangat ramai)",
+    "acceptedAnswers": [
+      "The city is very busy"
+    ],
+    "explanation": "The city tunggal dengan is, dan very diletakkan sebelum busy."
+  },
+  {
+    "id": "BT001-405",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya tidak lapar sekarang)",
+    "acceptedAnswers": [
+      "I am not hungry now"
+    ],
+    "explanation": "Negatif dengan I: am not, lalu kata sifat hungry dan keterangan waktu now."
+  },
+  {
+    "id": "BT001-406",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah ruang kelas ini bersih)",
+    "acceptedAnswers": [
+      "Is this classroom clean"
+    ],
+    "explanation": "This classroom tunggal, jadi pertanyaan diawali Is."
+  },
+  {
+    "id": "BT001-407",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mereka adalah tetangga saya)",
+    "acceptedAnswers": [
+      "They are my neighbors"
+    ],
+    "explanation": "They memakai are, dan neighbors jamak."
+  },
+  {
+    "id": "BT001-408",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kelas itu sangat menarik)",
+    "acceptedAnswers": [
+      "The class is very interesting"
+    ],
+    "explanation": "The class tunggal dengan is, lalu very interesting."
+  },
+  {
+    "id": "BT001-409",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Hari ini hari Senin)",
+    "acceptedAnswers": [
+      "Today is Monday",
+      "It is Monday today"
+    ],
+    "explanation": "Menyebut hari memakai today is atau it is."
+  },
+  {
+    "id": "BT001-410",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kucing itu tidak ada di sini)",
+    "acceptedAnswers": [
+      "The cat is not here"
+    ],
+    "explanation": "The cat tunggal, jadi is not, lalu keterangan tempat here."
+  },
+  {
+    "id": "BT001-411",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Siapa guru bahasa Inggris kalian)",
+    "acceptedAnswers": [
+      "Who is your English teacher"
+    ],
+    "explanation": "Who is dipakai untuk menanyakan satu orang."
+  },
+  {
+    "id": "BT001-412",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Anak-anak itu senang di taman)",
+    "acceptedAnswers": [
+      "The children are happy in the park"
+    ],
+    "explanation": "Children jamak, jadi are, lalu happy dan keterangan tempat in the park."
+  },
+  {
+    "id": "BT001-413",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Saya berasal dari Yogyakarta)",
+    "acceptedAnswers": [
+      "I am from Yogyakarta"
+    ],
+    "explanation": "Asal tempat dinyatakan dengan am from."
+  },
+  {
+    "id": "BT001-414",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Apakah kamu dari Surabaya)",
+    "acceptedAnswers": [
+      "Are you from Surabaya"
+    ],
+    "explanation": "Pertanyaan dengan you diawali Are, lalu from untuk asal."
+  },
+  {
+    "id": "BT001-415",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ayah saya bukan seorang dokter)",
+    "acceptedAnswers": [
+      "My father is not a doctor"
+    ],
+    "explanation": "My father tunggal dengan is not, lalu a doctor."
+  },
+  {
+    "id": "BT001-416",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami bangun pagi-pagi setiap hari)",
+    "acceptedAnswers": [
+      "We wake up early every day"
+    ],
+    "explanation": "Kalimat present simple: we wake up, lalu early dan every day."
+  },
+  {
+    "id": "BT001-417",
+    "day": 1,
+    "type": "reorder",
+    "prompt": "Susun kata menjadi kalimat yang benar (artinya: Pagi ini cuaca dingin)",
+    "acceptedAnswers": [
+      "It is cold this morning",
+      "This morning it is cold"
+    ],
+    "explanation": "Cuaca dinyatakan dengan it is cold, lalu keterangan waktu this morning."
+  }
+]
