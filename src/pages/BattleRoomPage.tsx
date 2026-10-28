@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Volume2 } from 'lucide-react';
-import { Link, useParams } from 'react-router';
+import { Link, useLocation, useNavigate, useParams } from 'react-router';
 import { Badge } from '../components/ui/Badge';
+import { BattleLoading } from '../components/ui/BattleLoading';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Confetti } from '../components/ui/Confetti';
@@ -14,6 +15,7 @@ import {
   openBattleStream,
   rateBattle,
   remainingMs,
+  respondBattle,
   type BattleSnapshot,
   type PublicItem,
 } from '../lib/battle';
@@ -25,12 +27,17 @@ export function BattleRoomPage() {
   const { id = '' } = useParams();
   const { settings } = useSettings();
   const { show } = useToast();
+  const navigate = useNavigate();
+  const location = useLocation();
   const token = settings.token;
   const [snap, setSnap] = useState<BattleSnapshot | null>(null);
   const [loadError, setLoadError] = useState<string>();
   const [now, setNow] = useState(() => Date.now());
   const [streamKey, setStreamKey] = useState(0);
   const [offset, setOffset] = useState(0);
+  // Lobi membuka halaman ini langsung saat undangan diterima, jadi jawaban dikirim dari sini.
+  const acceptOnOpen = useRef((location.state as { accept?: boolean } | null)?.accept === true);
+  const acceptRef = useRef<Promise<void> | null>(null);
 
   // Selisih jam dihitung saat keadaan diterima, supaya hitung mundur tidak membeku.
   const applySnapshot = (next: BattleSnapshot) => {
@@ -40,10 +47,25 @@ export function BattleRoomPage() {
 
   useEffect(() => {
     if (!token) return;
-    getBattle(token, id)
-      .then(applySnapshot)
-      .catch((caught) => setLoadError(caught instanceof Error ? caught.message : 'Battle tidak bisa dibuka.'));
-  }, [token, id, streamKey]);
+    let cancelled = false;
+    if (acceptOnOpen.current && !acceptRef.current) {
+      acceptRef.current = respondBattle(token, id, true).then(() => {
+        // Penanda terima dihapus dari riwayat, supaya muat ulang halaman tidak menjawab undangan dua kali.
+        navigate(`/battle/${id}`, { replace: true });
+      });
+    }
+    Promise.resolve(acceptRef.current)
+      .then(() => getBattle(token, id))
+      .then((next) => {
+        if (!cancelled) applySnapshot(next);
+      })
+      .catch((caught) => {
+        if (!cancelled) setLoadError(caught instanceof Error ? caught.message : 'Battle tidak bisa dibuka.');
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [token, id, streamKey, navigate]);
 
   useEffect(() => {
     if (!token) return;
@@ -74,7 +96,9 @@ export function BattleRoomPage() {
       </div>
     );
   }
-  if (!snap) return <p className="text-muted">Memuat battle…</p>;
+  if (!snap) {
+    return <BattleLoading label={acceptOnOpen.current ? 'Menerima undangan…' : 'Membuka battle…'} />;
+  }
 
   const me = snap.players.find((player) => player?.id === snap.you);
   const opponent = snap.players.find((player) => player && player.id !== snap.you);

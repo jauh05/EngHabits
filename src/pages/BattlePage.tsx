@@ -3,6 +3,7 @@ import { BookOpen, Brain, Check, Copy, Ear, FileText, Heart, Languages, Library,
 import { Link, useNavigate } from 'react-router';
 import { BattleCrest, VersusBadge } from '../components/ui/BattleIllustrations';
 import { Badge } from '../components/ui/Badge';
+import { BattleLoading } from '../components/ui/BattleLoading';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Card } from '../components/ui/Card';
 import { Input } from '../components/ui/Input';
@@ -243,10 +244,15 @@ export function BattlePage() {
 
   const answer = async (item: Invite, accept: boolean) => {
     if (!token) return;
-    try {
-      await respondBattle(token, item.battleId, accept);
+    if (accept) {
+      // Langsung pindah ke ruang battle. Jawaban dikirim di sana sambil menampilkan loading, tanpa menunggu di lobi.
       setInvites((list) => list.filter((entry) => entry.battleId !== item.battleId));
-      if (accept) navigate(`/battle/${item.battleId}`);
+      navigate(`/battle/${item.battleId}`, { state: { accept: true } });
+      return;
+    }
+    try {
+      await respondBattle(token, item.battleId, false);
+      setInvites((list) => list.filter((entry) => entry.battleId !== item.battleId));
     } catch (caught) {
       show(caught instanceof Error ? caught.message : 'Undangan tidak bisa diproses.', 'error');
     }
@@ -262,6 +268,8 @@ export function BattlePage() {
   };
 
   const modeLabel = modes.map((mode) => BATTLE_MODES.find((item) => item.id === mode)?.label ?? mode).join(' + ');
+
+  if (busy) return <BattleLoading label="Mengirim undangan…" />;
 
   return (
     <div className="flex flex-col gap-6">
