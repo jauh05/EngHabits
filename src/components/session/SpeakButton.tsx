@@ -2,10 +2,25 @@ import { motion } from 'motion/react';
 import { Volume2 } from 'lucide-react';
 import { useState } from 'react';
 import { useSettings } from '../../lib/settings';
-import { speak, ttsSupported } from '../../lib/tts';
+import { speak, speakerVoice, ttsSupported } from '../../lib/tts';
 
-/** Tombol 🔊 dengan gelombang suara yang bergerak selama audio diputar. */
-export function SpeakButton({ text, label, className = '' }: { text: string; label: string; className?: string }) {
+/**
+ * Tombol 🔊 dengan gelombang suara yang bergerak selama audio diputar.
+ * Bila `speaker` diisi, baris dibacakan dengan suara pembicara itu, sama seperti saat percakapan diputar penuh.
+ */
+export function SpeakButton({
+  text,
+  label,
+  className = '',
+  speaker,
+  speakers = [],
+}: {
+  text: string;
+  label: string;
+  className?: string;
+  speaker?: string;
+  speakers?: string[];
+}) {
   const { settings } = useSettings();
   const [playing, setPlaying] = useState(false);
   const supported = ttsSupported();
@@ -20,6 +35,7 @@ export function SpeakButton({ text, label, className = '' }: { text: string; lab
         speak(text, {
           accent: settings.accent,
           rate: settings.rate,
+          ...(speaker === undefined ? {} : speakerVoice(speaker, speakers, settings.accent)),
           onStart: () => setPlaying(true),
           onEnd: () => setPlaying(false),
         })

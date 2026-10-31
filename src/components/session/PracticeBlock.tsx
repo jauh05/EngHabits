@@ -5,7 +5,7 @@ import { easeOut } from '../../lib/motion';
 import type { BlockView } from '../../lib/content';
 import type { Answers } from '../../lib/grading';
 import { useSettings } from '../../lib/settings';
-import { speak, speakerVoice, ttsSupported } from '../../lib/tts';
+import { speakDialog, ttsSupported } from '../../lib/tts';
 import { Button } from '../ui/Button';
 import { Card } from '../ui/Card';
 import { QuestionCard } from './QuestionList';
@@ -64,23 +64,18 @@ function ListeningPart({ block }: { block: Extract<BlockView, { type: 'listening
   const [current, setCurrent] = useState<number>();
   const [playingAll, setPlayingAll] = useState(false);
 
-  const playFrom = (index: number) => {
-    const lines = block.script.lines;
-    if (index >= lines.length) {
-      setCurrent(undefined);
-      setPlayingAll(false);
-      return;
-    }
+  const speakers = [...new Set(block.script.lines.map((line) => line.speaker))];
+
+  const playAll = () => {
     setPlayingAll(true);
-    const speakers = [...new Set(lines.map((line) => line.speaker))];
-    const variant = speakerVoice(lines[index].speaker, speakers, settings.accent);
-    speak(lines[index].text, {
+    speakDialog(block.script.lines, {
       accent: settings.accent,
       rate: settings.rate,
-      voice: variant.voice,
-      pitch: variant.pitch,
-      onStart: () => setCurrent(index),
-      onEnd: () => playFrom(index + 1),
+      onLine: setCurrent,
+      onEnd: () => {
+        setCurrent(undefined);
+        setPlayingAll(false);
+      },
     });
   };
 
@@ -98,7 +93,7 @@ function ListeningPart({ block }: { block: Extract<BlockView, { type: 'listening
               size="icon"
               aria-label="Putar semua baris"
               disabled={!ttsSupported() || playingAll}
-              onClick={() => playFrom(0)}
+              onClick={playAll}
             >
               <Play size={18} aria-hidden="true" />
             </Button>
@@ -134,7 +129,7 @@ function ListeningPart({ block }: { block: Extract<BlockView, { type: 'listening
           <Button
             variant="secondary"
             disabled={!ttsSupported() || playingAll}
-            onClick={() => playFrom(0)}
+            onClick={playAll}
           >
             <Play size={18} aria-hidden="true" />
             Dengarkan semua
@@ -157,7 +152,12 @@ function ListeningPart({ block }: { block: Extract<BlockView, { type: 'listening
                   <span className="block text-sm font-bold text-primary-700">{line.speaker}</span>
                   <span className="block text-base text-ink">{line.text}</span>
                 </span>
-                <SpeakButton text={line.text} label={`Putar baris ${index + 1}`} />
+                <SpeakButton
+                  text={line.text}
+                  label={`Putar baris ${index + 1}`}
+                  speaker={line.speaker}
+                  speakers={speakers}
+                />
               </li>
             ))}
           </ol>

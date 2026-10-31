@@ -19,7 +19,7 @@ import {
   type BattleSnapshot,
   type PublicItem,
 } from '../lib/battle';
-import { speak, ttsSupported } from '../lib/tts';
+import { speakDialog, splitDialog, stopSpeaking, ttsSupported } from '../lib/tts';
 import { useSettings } from '../lib/settings';
 
 /** Ruang battle real-time: soal, timer, reveal, penilaian esai, dan hasil. */
@@ -241,10 +241,25 @@ function QuestionPanel({
     }
   };
 
+  // Naskah dengar bisa berupa percakapan "A: ... B: ...". Setiap pembicara dibacakan dengan suaranya sendiri,
+  // dan labelnya ditampilkan supaya pertanyaan seperti "Apa kata B?" tetap bisa dijawab.
+  const lines = item.script ? splitDialog(item.script) : [];
+  const speakers = [...new Set(lines.map((line) => line.speaker))].filter(Boolean);
+  const [speaking, setSpeaking] = useState<number>();
+
+  // Suara berhenti saat soal berganti, supaya percakapan lama tidak ikut terbaca.
+  useEffect(() => stopSpeaking, []);
+
   const listen = () => {
-    if (!item.script) return;
-    speak(item.script, { accent: settings.accent, rate: settings.rate });
+    if (lines.length === 0) return;
+    speakDialog(lines, {
+      accent: settings.accent,
+      rate: settings.rate,
+      onLine: setSpeaking,
+      onEnd: () => setSpeaking(undefined),
+    });
   };
+  const activeSpeaker = speaking === undefined ? undefined : lines[speaking]?.speaker;
 
   return (
     <Card className="flex flex-col gap-5">
@@ -260,10 +275,27 @@ function QuestionPanel({
       )}
 
       {item.type === 'listen' && (
-        <Button variant="secondary" onClick={listen} disabled={!ttsSupported()} className="self-start">
-          <Volume2 size={18} aria-hidden="true" />
-          Putar lagi
-        </Button>
+        <div className="flex flex-wrap items-center gap-3">
+          <Button variant="secondary" onClick={listen} disabled={!ttsSupported()}>
+            <Volume2 size={18} aria-hidden="true" />
+            Putar lagi
+          </Button>
+          {speakers.length > 1 && (
+            <div className="flex flex-wrap gap-2" aria-label="Pembicara">
+              {speakers.map((speaker) => (
+                <span
+                  key={speaker}
+                  className={`rounded-full px-3 py-1 text-sm font-bold ${
+                    activeSpeaker === speaker ? 'bg-btn-bg text-btn-fg' : 'bg-primary-100 text-primary-700'
+                  }`}
+                >
+                  {speaker}
+                  {activeSpeaker === speaker ? ' sedang bicara' : ''}
+                </span>
+              ))}
+            </div>
+          )}
+        </div>
       )}
 
       <p className="text-lg font-bold leading-snug text-ink">{item.prompt}</p>
