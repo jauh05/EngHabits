@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { AuthFrame } from '../components/auth/AuthFrame';
 import { InstallButton } from '../components/auth/InstallButton';
-import { SocialButtons } from '../components/auth/SocialButtons';
+import { KauizButton } from '../components/auth/KauizButton';
 import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
@@ -77,7 +77,7 @@ export function MasukPage() {
         </Button>
       </form>
 
-      <SocialButtons />
+      <KauizButton />
 
       <div className="flex items-center justify-between gap-3 text-sm text-muted">
         <p>Belum punya akun?</p>

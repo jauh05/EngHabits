@@ -115,7 +115,7 @@ async function request<T>(method: string, path: string, token: string, body?: un
 }
 
 export function fetchAccount(token: string) {
-  return request<{ account: { email: string; name: string; publicId: string; canChangePublicId: boolean } }>(
+  return request<{ account: { email: string; name: string; publicId: string; canChangePublicId: boolean; kauizConnected: boolean } }>(
     'GET',
     '/me',
     token,
@@ -123,7 +123,7 @@ export function fetchAccount(token: string) {
 }
 
 export function regeneratePublicId(token: string) {
-  return request<{ account: { email: string; name: string; publicId: string; canChangePublicId: boolean } }>(
+  return request<{ account: { email: string; name: string; publicId: string; canChangePublicId: boolean; kauizConnected: boolean } }>(
     'POST',
     '/me/public-id/regenerate',
     token,

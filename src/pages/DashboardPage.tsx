@@ -163,6 +163,7 @@ function formatToday(date: Date): string {
 export function DashboardPage() {
   const data = useProgressData();
   const { settings, update } = useSettings();
+  const kauizConnected = settings.account?.kauizConnected === true;
   const navigate = useNavigate();
   const [range, setRange] = useState<7 | 14>(7);
   const [confirmLogout, setConfirmLogout] = useState(false);
@@ -541,6 +542,29 @@ export function DashboardPage() {
           </Card>
         </Reveal>
         <Reveal index={5}>
+          <Card tone={kauizConnected ? 'mint' : 'sun'} className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-surface">
+                <img src={`${import.meta.env.BASE_URL}kauiz-logo-mark.png`} alt="" width={24} height={19} />
+              </span>
+              <div className="min-w-0 flex-1">
+                <h2 className="text-lg font-bold text-ink">Akun Kauiz</h2>
+              </div>
+              <Badge tone={kauizConnected ? 'easy' : 'neutral'}>{kauizConnected ? 'Terhubung' : 'Belum terhubung'}</Badge>
+            </div>
+            <p className="text-sm text-ink">
+              {kauizConnected
+                ? 'Akunmu terhubung dengan Kauiz, jadi semua hari terbuka.'
+                : 'Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.'}
+            </p>
+            {!kauizConnected && (
+              <Button variant="secondary" className="self-start" disabled title="Segera hadir">
+                Hubungkan Kauiz
+              </Button>
+            )}
+          </Card>
+        </Reveal>
+        <Reveal index={6}>
           <Card className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
               <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-primary-100 text-primary-700">

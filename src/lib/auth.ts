@@ -11,6 +11,8 @@ export type Account = {
   publicId?: string;
   /** False setelah ID pernah diganti sekali. */
   canChangePublicId?: boolean;
+  /** True bila akun sudah terhubung dengan Kauiz. */
+  kauizConnected?: boolean;
 };
 
 export type AuthSession = {

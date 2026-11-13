@@ -20,7 +20,8 @@ import { loadDay, toDayView, type DayView, contentDays } from '../lib/content';
 import { localISO } from '../lib/dates';
 import { recordAttempt, type Attempt, type DayProgress } from '../lib/db';
 import { gradeDay, type Answers, type DayResult } from '../lib/grading';
-import { dayStatus, isMastered, MASTERY_THRESHOLD } from '../lib/progression';
+import { dayStatus, isMastered, kauizLocked, MASTERY_THRESHOLD } from '../lib/progression';
+import { useSettings } from '../lib/settings';
 import { easeOut } from '../lib/motion';
 import { useProgressData } from '../lib/useProgressData';
 
@@ -50,6 +51,8 @@ export function DayPage() {
 
 function DaySession({ day }: { day: number }) {
   const data = useProgressData();
+  const { settings } = useSettings();
+  const kauizConnected = settings.account?.kauizConnected === true;
   const { show } = useToast();
   const [view, setView] = useState<DayView>();
   const [missing, setMissing] = useState(false);
@@ -75,13 +78,22 @@ function DaySession({ day }: { day: number }) {
     return <p className="py-16 text-center text-muted">Memuat sesi...</p>;
   }
 
-  const status = dayStatus(day, data.completed, data.content, data.mastered);
+  const status = dayStatus(day, data.completed, data.content, data.mastered, kauizConnected);
   const contentReady = contentDays().includes(day);
   const previousDone = day === 1 || data.mastered.has(day - 1);
 
   if (!contentReady || missing || !view) {
     return (
       <Message title={`Hari ke-${day} belum tersedia`} body="Konten hari ini belum dibuat. Kembali lagi nanti." />
+    );
+  }
+
+  if (kauizLocked(day, kauizConnected)) {
+    return (
+      <Message
+        title="Perlu akun Kauiz"
+        body={`Hubungkan akunmu dengan Kauiz untuk membuka Hari ke-${day}. Hari 1 sampai 5 tetap bisa dipelajari tanpa Kauiz.`}
+      />
     );
   }
 

@@ -19,10 +19,9 @@ export function useAccountSync() {
   const { refresh } = data;
   const running = useRef(false);
   const { token, signedIn } = settings;
-  const publicId = settings.account?.publicId;
-
+  // Data akun dimuat ulang setiap sesi dibuka, supaya status Kauiz dan ID publik selalu terbaru.
   useEffect(() => {
-    if (!signedIn || !token || publicId) return;
+    if (!signedIn || !token) return;
     fetchAccount(token)
       .then(({ account }) => {
         update({
@@ -31,11 +30,12 @@ export function useAccountSync() {
             name: account.name,
             publicId: account.publicId,
             canChangePublicId: account.canChangePublicId,
+            kauizConnected: account.kauizConnected,
           },
         });
       })
       .catch(() => undefined);
-  }, [signedIn, token, publicId, update]);
+  }, [signedIn, token, update]);
 
   const sync = useCallback(async () => {
     if (!signedIn || !token || running.current) return;

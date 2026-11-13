@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { addDays, computeStreak } from './dates';
 import { applyResult, isDue, MAX_BOX } from './srs';
-import { currentDay, dayStatus, isMastered, MASTERY_THRESHOLD } from './progression';
+import { currentDay, dayStatus, isMastered, KAUIZ_FREE_DAYS, kauizLocked, MASTERY_THRESHOLD } from './progression';
 
 describe('dayStatus', () => {
   const content = new Set([1, 2, 3]);
@@ -101,5 +101,30 @@ describe('Buku Kesalahan (SRS)', () => {
     expect(isDue(entry, '2026-10-21')).toBe(false);
     expect(isDue(entry, '2026-10-22')).toBe(true);
     expect(isDue({ ...entry, mastered: true }, '2026-12-01')).toBe(false);
+  });
+});
+
+describe('kunci Kauiz', () => {
+  const content = new Set(Array.from({ length: 10 }, (_, index) => index + 1));
+  const all = new Set(Array.from({ length: 10 }, (_, index) => index + 1));
+
+  it('hari 1 sampai 5 terbuka tanpa Kauiz', () => {
+    expect(KAUIZ_FREE_DAYS).toBe(5);
+    expect(kauizLocked(5, false)).toBe(false);
+    expect(dayStatus(5, new Set([1, 2, 3, 4]), content, new Set([1, 2, 3, 4]), false)).toBe('available');
+  });
+
+  it('hari 6 ke atas terkunci tanpa Kauiz, walaupun hari sebelumnya sudah lulus', () => {
+    expect(kauizLocked(6, false)).toBe(true);
+    expect(dayStatus(6, all, content, all, false)).toBe('locked');
+  });
+
+  it('semua hari terbuka setelah akun Kauiz terhubung', () => {
+    expect(kauizLocked(6, true)).toBe(false);
+    expect(dayStatus(6, new Set([1, 2, 3, 4, 5]), content, new Set([1, 2, 3, 4, 5]), true)).toBe('available');
+  });
+
+  it('tanpa argumen Kauiz, aturan lama tetap berlaku', () => {
+    expect(dayStatus(6, new Set([1, 2, 3, 4, 5]), content, new Set([1, 2, 3, 4, 5]))).toBe('available');
   });
 });

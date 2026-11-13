@@ -7,7 +7,7 @@ import { ProgressRing } from '../components/ui/ProgressRing';
 import { useToast } from '../components/ui/Toast';
 import { useSettings } from '../lib/settings';
 import { contentDays } from '../lib/content';
-import { dayStatus, type DayStatus, MASTERY_THRESHOLD } from '../lib/progression';
+import { dayStatus, type DayStatus, MASTERY_THRESHOLD, kauizLocked } from '../lib/progression';
 import { useProgressData, type ProgressData } from '../lib/useProgressData';
 import { easeOut } from '../lib/motion';
 
@@ -59,7 +59,14 @@ function starsFor(best: number | undefined, status: DayStatus): number {
 }
 
 /** Susun roadmap: header tiap minggu, node tiap hari, dan peti di akhir minggu. */
-function buildRoadmap(data: ProgressData, content: Set<number>): { items: RoadItem[]; height: number } {
+/** Pesan saat hari terkunci: karena Kauiz belum terhubung, atau karena hari sebelumnya belum lulus. */
+function lockedMessage(day: number, kauizConnected: boolean): string {
+  return kauizLocked(day, kauizConnected)
+    ? `Hubungkan akun Kauiz untuk membuka Hari ke-${day}.`
+    : `Capai skor inti ${MASTERY_THRESHOLD}% di Hari ke-${day - 1} dulu.`;
+}
+
+function buildRoadmap(data: ProgressData, content: Set<number>, kauizConnected: boolean): { items: RoadItem[]; height: number } {
   const items: RoadItem[] = [];
   let y = 0;
   let nodeIndex = 0;
@@ -72,7 +79,7 @@ function buildRoadmap(data: ProgressData, content: Set<number>): { items: RoadIt
     for (let day = from; day <= to; day += 1) {
       const x = X_PATTERN[nodeIndex % X_PATTERN.length];
       nodeIndex += 1;
-      const status = dayStatus(day, data.completed, content, data.mastered);
+      const status = dayStatus(day, data.completed, content, data.mastered, kauizConnected);
       const best = data.progress.find((row) => row.day === day)?.bestCorePercent;
       items.push({
         kind: 'node',
@@ -113,7 +120,9 @@ function Stars({ count }: { count: number }) {
 function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }) {
   const navigate = useNavigate();
   const { show } = useToast();
-  const { items, height } = buildRoadmap(data, content);
+  const { settings } = useSettings();
+  const kauizConnected = settings.account?.kauizConnected === true;
+  const { items, height } = buildRoadmap(data, content, kauizConnected);
   const nodes = items.filter((item) => item.kind === 'node' || item.kind === 'chest') as Array<
     Extract<RoadItem, { kind: 'node' | 'chest' }>
   >;
@@ -138,7 +147,7 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
     if (item.status === 'available' || item.status === 'completed' || item.status === 'repair') {
       navigate(`/hari/${item.day}`);
     } else if (item.status === 'locked') {
-      show(`Capai skor inti ${MASTERY_THRESHOLD}% di Hari ke-${item.day - 1} dulu.`);
+      show(lockedMessage(item.day, kauizConnected));
     } else {
       show(`Konten Hari ke-${item.day} belum tersedia.`);
     }
@@ -286,6 +295,8 @@ function Roadmap({ data, content }: { data: ProgressData; content: Set<number> }
 function Grid({ data, content }: { data: ProgressData; content: Set<number> }) {
   const navigate = useNavigate();
   const { show } = useToast();
+  const { settings } = useSettings();
+  const kauizConnected = settings.account?.kauizConnected === true;
   const masteredIn = (from: number, to: number): number => {
     let count = 0;
     for (let day = from; day <= to; day += 1) if (data.mastered.has(day)) count += 1;
@@ -296,7 +307,7 @@ function Grid({ data, content }: { data: ProgressData; content: Set<number> }) {
     if (status === 'available' || status === 'completed' || status === 'repair') {
       navigate(`/hari/${day}`);
     } else if (status === 'locked') {
-      show(`Capai skor inti ${MASTERY_THRESHOLD}% di Hari ke-${day - 1} dulu.`);
+      show(lockedMessage(day, kauizConnected));
     } else {
       show(`Konten Hari ke-${day} belum tersedia.`);
     }
@@ -334,7 +345,7 @@ function Grid({ data, content }: { data: ProgressData; content: Set<number> }) {
           </div>
           <div className="grid grid-cols-4 gap-2 sm:grid-cols-7">
             {Array.from({ length: to - from + 1 }, (_, index) => from + index).map((day) => {
-              const status = dayStatus(day, data.completed, content, data.mastered);
+              const status = dayStatus(day, data.completed, content, data.mastered, kauizConnected);
               return (
                 <button
                   key={day}

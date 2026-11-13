@@ -10,6 +10,7 @@ import { DatabaseSync } from 'node:sqlite';
 import { promisify } from 'node:util';
 import { BattleError, createBattleService, ensureBattleSchema, levelFromMastered } from './battle.mjs';
 import { ensureSyncSchema, readSync, syncUser } from './sync.mjs';
+import { ensureKauizSchema, kauizConnected, unlinkKauiz } from './kauiz.mjs';
 
 const scryptAsync = promisify(scrypt);
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -92,6 +93,7 @@ function migrate(db) {
   db.exec('CREATE UNIQUE INDEX IF NOT EXISTS users_public_id ON users(public_id)');
   ensureBattleSchema(db);
   ensureSyncSchema(db);
+  ensureKauizSchema(db);
 }
 
 export function openDatabase(path) {
@@ -244,6 +246,7 @@ export function createApp(db, options = {}) {
       name: user.name,
       publicId: user.public_id,
       canChangePublicId: user.public_id_changed === 0,
+      kauizConnected: kauizConnected(db, user.id),
     };
   }
 
@@ -263,7 +266,7 @@ export function createApp(db, options = {}) {
       const id = randomUUID();
       const publicId = uniquePublicId(db);
       insertUser.run(id, account.email, account.name, salt, hash, new Date().toISOString(), publicId);
-      return { status: 201, body: { token: issueSession(id), account: { ...account, publicId, canChangePublicId: true } } };
+      return { status: 201, body: { token: issueSession(id), account: { ...account, publicId, canChangePublicId: true, kauizConnected: false } } };
     },
 
     async login({ req }) {
@@ -294,6 +297,12 @@ export function createApp(db, options = {}) {
       const token = bearerToken(req);
       if (token) deleteSession.run(hashToken(token));
       return { status: 204, body: null };
+    },
+
+    async kauizUnlink({ req }) {
+      const user = requireUser(req);
+      unlinkKauiz(db, user.id);
+      return { status: 200, body: { account: accountView(user) } };
     },
 
     async me({ req }) {
@@ -441,6 +450,7 @@ export function createApp(db, options = {}) {
     ['POST', '/api/login', handlers.login],
     ['POST', '/api/logout', handlers.logout],
     ['GET', '/api/me', handlers.me],
+    ['DELETE', '/api/kauiz', handlers.kauizUnlink],
     ['POST', '/api/me/public-id/regenerate', handlers.regeneratePublicId],
     ['GET', '/api/users/:publicId', handlers.userLookup],
     ['PUT', '/api/progress/mastered', handlers.saveMastered],

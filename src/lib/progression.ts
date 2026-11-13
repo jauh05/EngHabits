@@ -6,6 +6,14 @@ export const TOTAL_DAYS = 90;
  */
 export const MASTERY_THRESHOLD = 60;
 
+/** Hari yang bisa dibuka tanpa akun Kauiz yang terhubung. Mulai hari berikutnya butuh Kauiz. */
+export const KAUIZ_FREE_DAYS = 5;
+
+/** Hari ini terkunci karena akun belum terhubung dengan Kauiz. */
+export function kauizLocked(day: number, kauizConnected: boolean): boolean {
+  return !kauizConnected && day > KAUIZ_FREE_DAYS;
+}
+
 /**
  * - `locked`: hari sebelumnya belum lulus.
  * - `available`: bisa dikerjakan, belum pernah dikirim.
@@ -28,7 +36,9 @@ export function dayStatus(
   completed: ReadonlySet<number>,
   hasContent: ReadonlySet<number>,
   mastered: ReadonlySet<number>,
+  kauizConnected = true,
 ): DayStatus {
+  if (kauizLocked(day, kauizConnected)) return 'locked';
   if (mastered.has(day)) return 'completed';
   if (day !== 1 && !mastered.has(day - 1)) return 'locked';
   if (!hasContent.has(day)) return 'nocontent';
