@@ -18,8 +18,8 @@ import {
   Video,
   type LucideIcon,
 } from 'lucide-react';
-import { useState, type ReactNode } from 'react';
-import { Link, useNavigate } from 'react-router';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { Link, useNavigate, useSearchParams } from 'react-router';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
 import { BarChart, scoreDot, type BarItem } from '../components/ui/BarChart';
@@ -27,6 +27,7 @@ import { Blob } from '../components/ui/Blob';
 import { Card, type CardTone } from '../components/ui/Card';
 import { CountUp } from '../components/ui/CountUp';
 import { Modal } from '../components/ui/Modal';
+import { useToast } from '../components/ui/Toast';
 import { MonthCalendar } from '../components/ui/MonthCalendar';
 import { StackIllustration } from '../components/ui/Illustration';
 import { ProgressRing } from '../components/ui/ProgressRing';
@@ -36,6 +37,7 @@ import { easeOut } from '../lib/motion';
 import { currentDay, dayStatus, MASTERY_THRESHOLD, TOTAL_DAYS } from '../lib/progression';
 import { isDue } from '../lib/srs';
 import { logoutAccount } from '../lib/auth';
+import { KAUIZ_RESULT_MESSAGES, startKauizLink } from '../lib/kauiz';
 import { useSettings } from '../lib/settings';
 import { useProgressData } from '../lib/useProgressData';
 
@@ -165,6 +167,31 @@ export function DashboardPage() {
   const { settings, update } = useSettings();
   const kauizConnected = settings.account?.kauizConnected === true;
   const navigate = useNavigate();
+  const [searchParams, setSearchParams] = useSearchParams();
+  const { show } = useToast();
+  const [linking, setLinking] = useState(false);
+  // Pesan hasil Kauiz hanya boleh tampil sekali, walaupun efek dijalankan dua kali di mode pengembangan.
+  const announced = useRef(false);
+
+  // Hasil dari Kauiz dikirim lewat parameter `kauiz`. Pesannya ditampilkan sekali, lalu parameter dihapus.
+  useEffect(() => {
+    const status = searchParams.get('kauiz');
+    if (!status || announced.current) return;
+    announced.current = true;
+    show(KAUIZ_RESULT_MESSAGES[status] ?? 'Koneksi Kauiz belum berhasil.', status === 'terhubung' ? 'success' : 'error');
+    setSearchParams({}, { replace: true });
+  }, [searchParams, setSearchParams, show]);
+
+  const connectKauiz = async () => {
+    if (!settings.token) return;
+    setLinking(true);
+    try {
+      window.location.assign(await startKauizLink(settings.token));
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'Koneksi Kauiz belum bisa dimulai.', 'error');
+      setLinking(false);
+    }
+  };
   const [range, setRange] = useState<7 | 14>(7);
   const [confirmLogout, setConfirmLogout] = useState(false);
 
@@ -558,8 +585,8 @@ export function DashboardPage() {
                 : 'Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.'}
             </p>
             {!kauizConnected && (
-              <Button variant="secondary" className="self-start" disabled title="Segera hadir">
-                Hubungkan Kauiz
+              <Button variant="secondary" className="self-start" onClick={connectKauiz} disabled={linking}>
+                {linking ? 'Membuka Kauiz…' : 'Hubungkan Kauiz'}
               </Button>
             )}
           </Card>

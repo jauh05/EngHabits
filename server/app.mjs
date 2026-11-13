@@ -10,7 +10,20 @@ import { DatabaseSync } from 'node:sqlite';
 import { promisify } from 'node:util';
 import { BattleError, createBattleService, ensureBattleSchema, levelFromMastered } from './battle.mjs';
 import { ensureSyncSchema, readSync, syncUser } from './sync.mjs';
-import { ensureKauizSchema, kauizConnected, unlinkKauiz } from './kauiz.mjs';
+import {
+  authorizeUrl,
+  consumeFlow,
+  createFlow,
+  ensureKauizSchema,
+  fetchKauizIdentity,
+  kauizConnected,
+  kauizReady,
+  kauizSettingsFromEnv,
+  kauizUserId,
+  KauizError,
+  linkKauiz,
+  unlinkKauiz,
+} from './kauiz.mjs';
 
 const scryptAsync = promisify(scrypt);
 const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -193,6 +206,8 @@ function matchPath(pattern, pathname) {
 }
 
 export function createApp(db, options = {}) {
+  const kauiz = { ...kauizSettingsFromEnv(), ...(options.kauiz ?? {}) };
+  const fetchImpl = options.fetch ?? fetch;
   const loginLimiter = createLimiter(LOGIN_WINDOW_MS);
   const registerLimiter = createLimiter(REGISTER_WINDOW_MS);
   const streams = new Map();
@@ -250,6 +265,44 @@ export function createApp(db, options = {}) {
     };
   }
 
+  const findUserById = db.prepare('SELECT id, email, name, public_id, public_id_changed FROM users WHERE id = ?');
+
+  async function createKauizAccount(identity) {
+    // Akun dari Kauiz tidak punya kata sandi di EngHabits. Kata sandi acak dipakai supaya kolom hash tetap terisi.
+    const { salt, hash } = await hashPassword(randomBytes(32).toString('base64url'));
+    const id = randomUUID();
+    insertUser.run(id, identity.email, identity.name, salt, hash, new Date().toISOString(), uniquePublicId(db));
+    return id;
+  }
+
+  /** Menyelesaikan callback Kauiz. Mengembalikan path di aplikasi tempat pengguna dikirim kembali. */
+  async function finishKauizFlow(params) {
+    const flow = consumeFlow(db, ['link', 'login'], params.get('state') ?? '');
+    if (!flow) return '/masuk?kauiz=gagal';
+    const failed = flow.kind === 'link' ? '/?kauiz=gagal' : '/masuk?kauiz=gagal';
+    if (params.get('error') || !params.get('code')) {
+      return flow.kind === 'link' ? '/?kauiz=batal' : '/masuk?kauiz=batal';
+    }
+    try {
+      const identity = await fetchKauizIdentity(kauiz, params.get('code'), fetchImpl);
+      if (flow.kind === 'link') {
+        if (!findUserById.get(flow.userId)) return failed;
+        linkKauiz(db, flow.userId, identity.sub);
+        return '/?kauiz=terhubung';
+      }
+      const linkedUserId = kauizUserId(db, identity.sub);
+      if (linkedUserId) return `/masuk/kauiz?code=${createFlow(db, 'handoff', linkedUserId)}`;
+      // Email yang sudah dipakai akun manual tidak ditautkan otomatis. Pemiliknya harus menghubungkan dari beranda.
+      if (findUser.get(identity.email)) return '/masuk?kauiz=email-terpakai';
+      const userId = await createKauizAccount(identity);
+      linkKauiz(db, userId, identity.sub);
+      return `/masuk/kauiz?code=${createFlow(db, 'handoff', userId)}`;
+    } catch (error) {
+      if (!(error instanceof KauizError)) console.error(error);
+      return failed;
+    }
+  }
+
   const handlers = {
     async register({ req }) {
       const ipKey = `ip:${clientIp(req)}`;
@@ -303,6 +356,35 @@ export function createApp(db, options = {}) {
       const user = requireUser(req);
       unlinkKauiz(db, user.id);
       return { status: 200, body: { account: accountView(user) } };
+    },
+
+    async kauizConnectStart({ req }) {
+      const user = requireUser(req);
+      if (!kauizReady(kauiz)) throw new HttpError(503, 'Koneksi Kauiz belum tersedia.');
+      const state = createFlow(db, 'link', user.id);
+      return { status: 200, body: { url: authorizeUrl(kauiz, state) } };
+    },
+
+    async kauizLoginStart() {
+      if (!kauizReady(kauiz)) throw new HttpError(503, 'Koneksi Kauiz belum tersedia.');
+      const state = createFlow(db, 'login');
+      return { status: 200, body: { url: authorizeUrl(kauiz, state) } };
+    },
+
+    async kauizCallback({ req, res }) {
+      const params = new URL(req.url ?? '/', 'http://localhost').searchParams;
+      const location = await finishKauizFlow(params);
+      res.writeHead(302, { Location: `${kauiz.appUrl}${location}`, 'Cache-Control': 'no-store' });
+      res.end();
+      return null; // Respons sudah ditulis di sini.
+    },
+
+    async kauizSession({ req }) {
+      const input = await readJson(req);
+      const flow = consumeFlow(db, ['handoff'], String(input.code ?? ''));
+      const user = flow ? findUserById.get(flow.userId) : undefined;
+      if (!user) throw new HttpError(400, 'Sesi masuk Kauiz sudah habis. Coba masuk lagi.');
+      return { status: 200, body: { token: issueSession(user.id), account: accountView(user) } };
     },
 
     async me({ req }) {
@@ -451,6 +533,10 @@ export function createApp(db, options = {}) {
     ['POST', '/api/logout', handlers.logout],
     ['GET', '/api/me', handlers.me],
     ['DELETE', '/api/kauiz', handlers.kauizUnlink],
+    ['POST', '/api/kauiz/connect', handlers.kauizConnectStart],
+    ['POST', '/api/kauiz/login/start', handlers.kauizLoginStart],
+    ['GET', '/api/kauiz/callback', handlers.kauizCallback],
+    ['POST', '/api/kauiz/session', handlers.kauizSession],
     ['POST', '/api/me/public-id/regenerate', handlers.regeneratePublicId],
     ['GET', '/api/users/:publicId', handlers.userLookup],
     ['PUT', '/api/progress/mastered', handlers.saveMastered],

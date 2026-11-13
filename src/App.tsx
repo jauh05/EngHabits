@@ -10,6 +10,7 @@ import { DaftarPage } from './pages/DaftarPage';
 import { DayPage } from './pages/DayPage';
 import { MapPage } from './pages/MapPage';
 import { MasukPage } from './pages/MasukPage';
+import { KauizSessionPage } from './pages/KauizSessionPage';
 import { MistakesPage } from './pages/MistakesPage';
 import { MulaiPage } from './pages/MulaiPage';
 import { ProfilePage } from './pages/ProfilePage';
@@ -19,7 +20,7 @@ import { SambutanPage } from './pages/SambutanPage';
 import { StatsPage } from './pages/StatsPage';
 
 /** Halaman yang boleh dibuka tanpa masuk. */
-const PUBLIC_PATHS = ['/mulai', '/masuk', '/daftar'];
+const PUBLIC_PATHS = ['/mulai', '/masuk', '/masuk/kauiz', '/daftar'];
 
 function NotFound() {
   return (
@@ -59,6 +60,7 @@ export function App() {
         <Routes>
           <Route path="mulai" element={<MulaiPage />} />
           <Route path="masuk" element={<MasukPage />} />
+          <Route path="masuk/kauiz" element={<KauizSessionPage />} />
           <Route path="daftar" element={<DaftarPage />} />
           <Route path="sambutan" element={<SambutanPage />} />
           <Route element={<AppShell />}>

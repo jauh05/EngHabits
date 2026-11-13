@@ -1,6 +1,6 @@
 import { useState, type FormEvent } from 'react';
 import { ArrowRight } from 'lucide-react';
-import { Link, useNavigate } from 'react-router';
+import { Link, useNavigate, useSearchParams } from 'react-router';
 import { AuthFrame } from '../components/auth/AuthFrame';
 import { InstallButton } from '../components/auth/InstallButton';
 import { KauizButton } from '../components/auth/KauizButton';
@@ -8,12 +8,15 @@ import { BlobCluster } from '../components/ui/BlobCluster';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { loginAccount } from '../lib/auth';
+import { KAUIZ_RESULT_MESSAGES } from '../lib/kauiz';
 import { useSettings } from '../lib/settings';
 
 /** Masuk ke akun lokal di perangkat ini. */
 export function MasukPage() {
   const { update } = useSettings();
   const navigate = useNavigate();
+  const [params] = useSearchParams();
+  const kauizNotice = KAUIZ_RESULT_MESSAGES[params.get('kauiz') ?? ''];
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState<string>();
@@ -66,9 +69,9 @@ export function MasukPage() {
           value={password}
           onChange={(event) => setPassword(event.target.value)}
         />
-        {error && (
+        {(error || kauizNotice) && (
           <p role="alert" className="rounded-2xl bg-error/15 px-4 py-3 text-sm font-semibold text-ink">
-            {error}
+            {error ?? kauizNotice}
           </p>
         )}
         <Button type="submit" size="lg" className="w-full" disabled={busy}>
