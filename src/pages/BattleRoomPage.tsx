@@ -224,10 +224,20 @@ function QuestionPanel({
   const [choice, setChoice] = useState<string>();
   const [text, setText] = useState('');
   const [picked, setPicked] = useState<number[]>([]);
+  const [reviewing, setReviewing] = useState(false);
   const [sending, setSending] = useState(false);
   const limit = item.seconds * 1000;
   const fraction = Math.min(1, remaining / limit);
   const answered = snap.answered.you;
+
+  // Pilihan yang sudah dipilih tapi belum dikirim ikut terkirim saat waktu habis,
+  // supaya jawaban tidak hilang hanya karena belum ditekan "Kirim jawaban".
+  const autoSent = useRef(false);
+  useEffect(() => {
+    if (remaining > 0 || autoSent.current || answered || !choice || !item.options) return;
+    autoSent.current = true;
+    answerBattle(token, snap.id, item.index, choice).catch(() => undefined);
+  }, [remaining, answered, choice, item.options, item.index, token, snap.id]);
 
   const submit = async (value: string) => {
     if (sending || answered) return;
@@ -309,10 +319,7 @@ function QuestionPanel({
               role="radio"
               aria-checked={choice === option.id}
               disabled={answered || sending}
-              onClick={() => {
-                setChoice(option.id);
-                submit(option.id);
-              }}
+              onClick={() => setChoice(option.id)}
               className={`flex min-h-12 items-center gap-3 rounded-2xl border px-4 text-left font-semibold outline-none focus-visible:outline-2 focus-visible:outline-primary-500 ${
                 choice === option.id ? 'border-primary-500 bg-primary-100 text-primary-700' : 'border-line bg-surface text-ink'
               }`}
@@ -321,6 +328,14 @@ function QuestionPanel({
               <span>{option.text}</span>
             </button>
           ))}
+          <Button
+            type="button"
+            onClick={() => choice && submit(choice)}
+            disabled={answered || sending || !choice}
+            className="mt-1 self-end"
+          >
+            Kirim jawaban
+          </Button>
         </div>
       )}
 
@@ -352,21 +367,62 @@ function QuestionPanel({
           className="flex flex-col gap-3"
           onSubmit={(event) => {
             event.preventDefault();
-            submit(text);
+            if (reviewing) submit(text);
           }}
         >
-          <textarea
-            value={text}
-            onChange={(event) => setText(event.target.value)}
-            disabled={answered}
-            rows={6}
-            className="rounded-2xl bg-field p-4 text-base text-ink outline-none focus:shadow-[0_0_0_3px_var(--primary-300)]"
-            placeholder="Tulis dalam bahasa Inggris"
-            aria-label="Esai"
-          />
-          <Button type="submit" disabled={answered || sending || !text.trim()} className="self-end">
-            Kirim esai
-          </Button>
+          {!reviewing ? (
+            <>
+              <textarea
+                value={text}
+                onChange={(event) => setText(event.target.value)}
+                disabled={answered}
+                rows={6}
+                className="rounded-2xl bg-field p-4 text-base text-ink outline-none focus:shadow-[0_0_0_3px_var(--primary-300)]"
+                placeholder="Tulis dalam bahasa Inggris"
+                aria-label="Esai"
+              />
+              <Button
+                type="button"
+                variant="secondary"
+                onClick={() => setReviewing(true)}
+                disabled={answered || !text.trim()}
+                className="self-end"
+              >
+                Cek jawaban
+              </Button>
+            </>
+          ) : (
+            <div className="flex flex-col gap-4 rounded-2xl border border-line bg-surface p-4">
+              <div className="flex items-center justify-between gap-3">
+                <p className="font-bold text-ink">Tinjau esaimu</p>
+                <span className="text-sm font-semibold tabular-nums text-muted">
+                  {text.trim().split(/\s+/).length} kata
+                </span>
+              </div>
+              <p className="whitespace-pre-wrap rounded-2xl bg-bg p-4 text-base leading-relaxed text-ink">{text}</p>
+              {item.criteria && item.criteria.length > 0 && (
+                <div className="flex flex-col gap-2">
+                  <p className="text-sm font-semibold text-muted">Periksa sebelum kirim:</p>
+                  <ul className="flex flex-col gap-1 text-sm text-ink">
+                    {item.criteria.map((criterion) => (
+                      <li key={criterion} className="flex gap-2">
+                        <span aria-hidden="true">•</span>
+                        <span>{criterion}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+              <div className="flex flex-wrap justify-end gap-3">
+                <Button type="button" variant="secondary" onClick={() => setReviewing(false)} disabled={answered || sending}>
+                  Ubah
+                </Button>
+                <Button type="submit" disabled={answered || sending || !text.trim()}>
+                  Kirim esai
+                </Button>
+              </div>
+            </div>
+          )}
         </form>
       )}
 
