@@ -28,6 +28,17 @@ export async function startKauizLink(token: string): Promise<string> {
   return (await post<{ url: string }>('/kauiz/connect', {}, token)).url;
 }
 
+/** Memutus tautan Kauiz. Server mencabut token integrasi di Kauiz juga, jadi berbagi ringkasan ikut berhenti. */
+export async function disconnectKauiz(token: string): Promise<void> {
+  let response: Response;
+  try {
+    response = await fetch(`${API}/kauiz`, { method: 'DELETE', headers: { Authorization: `Bearer ${token}` } });
+  } catch {
+    throw new Error('Tidak bisa terhubung ke server. Periksa koneksi lalu coba lagi.');
+  }
+  if (!response.ok) throw new Error('Tautan Kauiz belum bisa diputus. Coba lagi.');
+}
+
 /** Menukar kode serah-terima dari server menjadi sesi. Kode hanya bisa dipakai sekali. */
 export function exchangeKauizSession(code: string): Promise<AuthSession> {
   return post<AuthSession>('/kauiz/session', { code });

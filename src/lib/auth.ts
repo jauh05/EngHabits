@@ -13,6 +13,10 @@ export type Account = {
   canChangePublicId?: boolean;
   /** True bila akun sudah terhubung dengan Kauiz. */
   kauizConnected?: boolean;
+  /** True bila ringkasan progres sedang dibagikan ke Kauiz. */
+  kauizSharing?: boolean;
+  /** Waktu terakhir ringkasan terkirim, ISO. Kosong bila belum pernah. */
+  kauizLastSentAt?: string | null;
 };
 
 export type AuthSession = {

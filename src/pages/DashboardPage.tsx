@@ -37,7 +37,7 @@ import { easeOut } from '../lib/motion';
 import { currentDay, dayStatus, MASTERY_THRESHOLD, TOTAL_DAYS } from '../lib/progression';
 import { isDue } from '../lib/srs';
 import { logoutAccount } from '../lib/auth';
-import { KAUIZ_RESULT_MESSAGES, startKauizLink } from '../lib/kauiz';
+import { disconnectKauiz, KAUIZ_RESULT_MESSAGES, startKauizLink } from '../lib/kauiz';
 import { useSettings } from '../lib/settings';
 import { useProgressData } from '../lib/useProgressData';
 
@@ -170,6 +170,7 @@ export function DashboardPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const { show } = useToast();
   const [linking, setLinking] = useState(false);
+  const [unlinking, setUnlinking] = useState(false);
   // Pesan hasil Kauiz hanya boleh tampil sekali, walaupun efek dijalankan dua kali di mode pengembangan.
   const announced = useRef(false);
 
@@ -181,6 +182,23 @@ export function DashboardPage() {
     show(KAUIZ_RESULT_MESSAGES[status] ?? 'Koneksi Kauiz belum berhasil.', status === 'terhubung' ? 'success' : 'error');
     setSearchParams({}, { replace: true });
   }, [searchParams, setSearchParams, show]);
+
+  const disconnect = async () => {
+    if (!settings.token || !settings.account) return;
+    if (!window.confirm('Putuskan Kauiz? Ringkasan progres yang sudah dikirim ke Kauiz akan dihapus dan berhenti dibagikan.')) return;
+    setUnlinking(true);
+    try {
+      await disconnectKauiz(settings.token);
+      update({
+        account: { ...settings.account, kauizConnected: false, kauizSharing: false, kauizLastSentAt: null },
+      });
+      show('Tautan Kauiz sudah diputus.', 'success');
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'Tautan Kauiz belum bisa diputus.', 'error');
+    } finally {
+      setUnlinking(false);
+    }
+  };
 
   const connectKauiz = async () => {
     if (!settings.token) return;
@@ -584,6 +602,20 @@ export function DashboardPage() {
                 ? 'Akunmu terhubung dengan Kauiz, jadi semua hari terbuka.'
                 : 'Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.'}
             </p>
+            {kauizConnected && (
+              <p className="text-sm text-ink/80">
+                {settings.account?.kauizSharing
+                  ? settings.account.kauizLastSentAt
+                    ? `Ringkasan progres dibagikan ke Kauiz. Terakhir terkirim ${new Date(settings.account.kauizLastSentAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}.`
+                    : 'Ringkasan progres dibagikan ke Kauiz. Belum ada yang terkirim.'
+                  : 'Ringkasan progres belum dibagikan ke Kauiz.'}
+              </p>
+            )}
+            {kauizConnected && (
+              <Button variant="ghost" className="self-start" onClick={disconnect} disabled={unlinking}>
+                {unlinking ? 'Memutus…' : 'Putuskan Kauiz'}
+              </Button>
+            )}
             {!kauizConnected && (
               <Button variant="secondary" className="self-start" onClick={connectKauiz} disabled={linking}>
                 {linking ? 'Membuka Kauiz…' : 'Hubungkan Kauiz'}

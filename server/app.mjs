@@ -12,16 +12,27 @@ import { BattleError, createBattleService, ensureBattleSchema, levelFromMastered
 import { ensureSyncSchema, readSync, syncUser } from './sync.mjs';
 import {
   authorizeUrl,
+  buildLearningSummary,
+  clearIntegrationToken,
   consumeFlow,
   createFlow,
+  encryptionKey,
   ensureKauizSchema,
   fetchKauizIdentity,
   kauizConnected,
+  kauizLastSentAt,
   kauizReady,
   kauizSettingsFromEnv,
+  kauizSharing,
   kauizUserId,
   KauizError,
   linkKauiz,
+  markPushed,
+  pushLearningSummary,
+  readIntegrationToken,
+  requestedScope,
+  revokeLearningSharing,
+  saveIntegrationToken,
   unlinkKauiz,
 } from './kauiz.mjs';
 
@@ -208,6 +219,7 @@ function matchPath(pattern, pathname) {
 export function createApp(db, options = {}) {
   const kauiz = { ...kauizSettingsFromEnv(), ...(options.kauiz ?? {}) };
   const fetchImpl = options.fetch ?? fetch;
+  const tokenKey = encryptionKey(kauiz);
   const loginLimiter = createLimiter(LOGIN_WINDOW_MS);
   const registerLimiter = createLimiter(REGISTER_WINDOW_MS);
   const streams = new Map();
@@ -262,6 +274,8 @@ export function createApp(db, options = {}) {
       publicId: user.public_id,
       canChangePublicId: user.public_id_changed === 0,
       kauizConnected: kauizConnected(db, user.id),
+      kauizSharing: kauizSharing(db, user.id),
+      kauizLastSentAt: kauizLastSentAt(db, user.id),
     };
   }
 
@@ -273,6 +287,13 @@ export function createApp(db, options = {}) {
     const id = randomUUID();
     insertUser.run(id, identity.email, identity.name, salt, hash, new Date().toISOString(), uniquePublicId(db));
     return id;
+  }
+
+  /** Menyimpan token integrasi dari Kauiz, lalu mengirim ringkasan pertama. */
+  function attachIntegration(userId, identity) {
+    if (!identity.integrationToken || !tokenKey) return;
+    saveIntegrationToken(db, tokenKey, userId, identity.integrationToken);
+    scheduleLearningPush(userId, true);
   }
 
   /** Menyelesaikan callback Kauiz. Mengembalikan path di aplikasi tempat pengguna dikirim kembali. */
@@ -288,18 +309,67 @@ export function createApp(db, options = {}) {
       if (flow.kind === 'link') {
         if (!findUserById.get(flow.userId)) return failed;
         linkKauiz(db, flow.userId, identity.sub);
+        attachIntegration(flow.userId, identity);
         return '/?kauiz=terhubung';
       }
       const linkedUserId = kauizUserId(db, identity.sub);
-      if (linkedUserId) return `/masuk/kauiz?code=${createFlow(db, 'handoff', linkedUserId)}`;
+      if (linkedUserId) {
+        attachIntegration(linkedUserId, identity);
+        return `/masuk/kauiz?code=${createFlow(db, 'handoff', linkedUserId)}`;
+      }
       // Email yang sudah dipakai akun manual tidak ditautkan otomatis. Pemiliknya harus menghubungkan dari beranda.
       if (findUser.get(identity.email)) return '/masuk?kauiz=email-terpakai';
       const userId = await createKauizAccount(identity);
       linkKauiz(db, userId, identity.sub);
+      attachIntegration(userId, identity);
       return `/masuk/kauiz?code=${createFlow(db, 'handoff', userId)}`;
     } catch (error) {
       if (!(error instanceof KauizError)) console.error(error);
       return failed;
+    }
+  }
+
+  const LEARNING_PUSH_INTERVAL_MS = 10 * 60_000;
+  const lastLearningPush = new Map();
+
+  const learningPushTimers = new Map();
+
+  /**
+   * Kirim ringkasan ke Kauiz di latar belakang, paling sering sekali per 10 menit per pengguna. Tidak menahan sinkron.
+   * Perubahan yang datang di dalam jendela itu dijadwalkan ulang, supaya perubahan terakhir tidak tertinggal.
+   */
+  function scheduleLearningPush(userId, force = false, now = Date.now()) {
+    if (!tokenKey || !kauiz.learningEnabled || !kauizReady(kauiz)) return;
+    const last = lastLearningPush.get(userId) ?? 0;
+    const wait = force ? 0 : LEARNING_PUSH_INTERVAL_MS - (now - last);
+    if (wait > 0) {
+      if (!learningPushTimers.has(userId)) {
+        const timer = setTimeout(() => {
+          learningPushTimers.delete(userId);
+          scheduleLearningPush(userId, true);
+        }, wait);
+        timer.unref?.();
+        learningPushTimers.set(userId, timer);
+      }
+      return;
+    }
+    lastLearningPush.set(userId, now);
+    pushLearningNow(userId).catch((error) => console.error('Ringkasan Kauiz belum terkirim:', error.message));
+  }
+
+  async function pushLearningNow(userId) {
+    const token = readIntegrationToken(db, tokenKey, userId);
+    if (!token) return;
+    const summary = buildLearningSummary(db, userId);
+    try {
+      await pushLearningSummary(kauiz, token, summary, fetchImpl);
+      markPushed(db, userId);
+    } catch (error) {
+      // Token sudah dicabut di Kauiz: berbagi dihentikan, tetapi tautan akun tetap ada.
+      if (error instanceof KauizError && (error.status === 401 || error.status === 403)) {
+        clearIntegrationToken(db, userId);
+      }
+      throw error;
     }
   }
 
@@ -319,7 +389,7 @@ export function createApp(db, options = {}) {
       const id = randomUUID();
       const publicId = uniquePublicId(db);
       insertUser.run(id, account.email, account.name, salt, hash, new Date().toISOString(), publicId);
-      return { status: 201, body: { token: issueSession(id), account: { ...account, publicId, canChangePublicId: true, kauizConnected: false } } };
+      return { status: 201, body: { token: issueSession(id), account: { ...account, publicId, canChangePublicId: true, kauizConnected: false, kauizSharing: false } } };
     },
 
     async login({ req }) {
@@ -354,7 +424,17 @@ export function createApp(db, options = {}) {
 
     async kauizUnlink({ req }) {
       const user = requireUser(req);
+      const token = readIntegrationToken(db, tokenKey, user.id);
+      if (token) {
+        // Pencabutan di Kauiz dicoba dulu. Kalau gagal, tautan di EngHabits tetap diputus.
+        await revokeLearningSharing(kauiz, token, fetchImpl).catch((error) =>
+          console.error('Pencabutan di Kauiz gagal:', error.message),
+        );
+      }
       unlinkKauiz(db, user.id);
+      lastLearningPush.delete(user.id);
+      clearTimeout(learningPushTimers.get(user.id));
+      learningPushTimers.delete(user.id);
       return { status: 200, body: { account: accountView(user) } };
     },
 
@@ -362,13 +442,13 @@ export function createApp(db, options = {}) {
       const user = requireUser(req);
       if (!kauizReady(kauiz)) throw new HttpError(503, 'Koneksi Kauiz belum tersedia.');
       const state = createFlow(db, 'link', user.id);
-      return { status: 200, body: { url: authorizeUrl(kauiz, state) } };
+      return { status: 200, body: { url: authorizeUrl(kauiz, state, requestedScope(kauiz)) } };
     },
 
     async kauizLoginStart() {
       if (!kauizReady(kauiz)) throw new HttpError(503, 'Koneksi Kauiz belum tersedia.');
       const state = createFlow(db, 'login');
-      return { status: 200, body: { url: authorizeUrl(kauiz, state) } };
+      return { status: 200, body: { url: authorizeUrl(kauiz, state, requestedScope(kauiz)) } };
     },
 
     async kauizCallback({ req, res }) {
@@ -421,6 +501,7 @@ export function createApp(db, options = {}) {
         db.exec('ROLLBACK');
         throw error;
       }
+      scheduleLearningPush(user.id);
       return { status: 200, body: { level: levelFromMastered(valid), count: valid.length } };
     },
 
@@ -433,7 +514,9 @@ export function createApp(db, options = {}) {
     async syncPut({ req }) {
       const user = requireUser(req);
       const input = await readJson(req, MAX_SYNC_BYTES);
-      return { status: 200, body: syncUser(db, user.id, input) };
+      const body = syncUser(db, user.id, input);
+      scheduleLearningPush(user.id);
+      return { status: 200, body };
     },
 
     async battlePreview({ req }) {

@@ -31,6 +31,8 @@ export function useAccountSync() {
             publicId: account.publicId,
             canChangePublicId: account.canChangePublicId,
             kauizConnected: account.kauizConnected,
+            kauizSharing: account.kauizSharing,
+            kauizLastSentAt: account.kauizLastSentAt,
           },
         });
       })
