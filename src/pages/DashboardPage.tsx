@@ -11,6 +11,7 @@ import {
   Headphones,
   Languages,
   Layers,
+  Link2,
   LogOut,
   Play,
   Target,
@@ -588,12 +589,21 @@ export function DashboardPage() {
         </Reveal>
         <Reveal index={5}>
           <Card tone={kauizConnected ? 'mint' : 'sun'} className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <span className="grid size-10 shrink-0 place-items-center rounded-2xl bg-surface">
-                <img src={`${import.meta.env.BASE_URL}kauiz-logo-mark.png`} alt="" width={24} height={19} />
+            <div className="flex flex-col gap-3">
+              <span className="inline-flex items-center gap-2" aria-hidden="true">
+                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="" width={34} height={34} className="object-contain" />
+                <span
+                  className={`grid size-8 place-items-center rounded-full ${kauizConnected ? 'bg-primary-100 text-primary-700' : 'bg-surface text-muted'}`}
+                >
+                  <Link2 size={16} aria-hidden="true" />
+                </span>
+                <img src={`${import.meta.env.BASE_URL}kauiz-logo-mark.png`} alt="" width={30} height={24} className="object-contain" />
               </span>
-              <div className="min-w-0 flex-1">
+              <div className="min-w-0">
                 <h2 className="text-lg font-bold text-ink">Akun Kauiz</h2>
+                <p className="text-sm text-ink/80">
+                  {kauizConnected ? 'EngHabits terhubung dengan Kauiz' : 'EngHabits belum terhubung dengan Kauiz'}
+                </p>
               </div>
               <Badge tone={kauizConnected ? 'easy' : 'neutral'}>{kauizConnected ? 'Terhubung' : 'Belum terhubung'}</Badge>
             </div>
