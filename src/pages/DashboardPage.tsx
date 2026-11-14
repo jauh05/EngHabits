@@ -378,6 +378,102 @@ export function DashboardPage() {
           </Card>
         </Reveal>
 
+        <div id="akun-kauiz">
+        <Reveal index={5}>
+          <Card tone={kauizConnected ? 'mint' : 'sun'} className="flex flex-col gap-4">
+            <div className="flex flex-col gap-3">
+              <span className="inline-flex items-center gap-2" aria-hidden="true">
+                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="" width={34} height={34} className="object-contain" />
+                <span
+                  className={`grid size-8 place-items-center rounded-full ${kauizConnected ? 'bg-primary-100 text-primary-700' : 'bg-surface text-muted'}`}
+                >
+                  <Link2 size={16} aria-hidden="true" />
+                </span>
+                <img src={`${import.meta.env.BASE_URL}kauiz-logo-mark.png`} alt="" width={30} height={24} className="object-contain" />
+              </span>
+              <div className="min-w-0">
+                <h2 className="text-lg font-bold text-ink">Akun Kauiz</h2>
+                <p className="text-sm text-ink/80">
+                  {kauizConnected ? 'EngHabits terhubung dengan Kauiz' : 'EngHabits belum terhubung dengan Kauiz'}
+                </p>
+              </div>
+              <Badge tone={kauizConnected ? 'easy' : 'neutral'}>{kauizConnected ? 'Terhubung' : 'Belum terhubung'}</Badge>
+            </div>
+            {kauizConnected ? (
+              <>
+                <p className="text-sm text-ink">
+                  Akunmu terhubung dengan {settings.account?.kauizEmail ?? 'Kauiz'}, jadi semua hari terbuka.
+                </p>
+                <p className="text-sm text-ink/80">
+                  {settings.account?.kauizSharing
+                    ? settings.account.kauizLastSentAt
+                      ? `Ringkasan progres dibagikan ke Kauiz. Terakhir terkirim ${new Date(settings.account.kauizLastSentAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}.`
+                      : 'Ringkasan progres dibagikan ke Kauiz. Belum ada yang terkirim.'
+                    : 'Ringkasan progres belum dibagikan ke Kauiz.'}
+                </p>
+                <Button variant="ghost" className="self-start" onClick={disconnect} disabled={unlinking}>
+                  {unlinking ? 'Memutus…' : 'Putuskan Kauiz'}
+                </Button>
+              </>
+            ) : (
+              <>
+                <p className="text-sm text-ink">
+                  Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.
+                </p>
+                <form onSubmit={requestKauizCode} className="flex flex-col gap-3">
+                  <Input
+                    label="Email akun Kauiz"
+                    name="kauiz-email"
+                    type="email"
+                    autoComplete="email"
+                    value={kauizEmail}
+                    onChange={(event) => {
+                      setKauizEmail(event.target.value);
+                      setCodeSent(false);
+                      setKauizCode('');
+                    }}
+                    placeholder="nama@contoh.id"
+                    disabled={linking}
+                  />
+                  <Button type="submit" variant="secondary" className="self-start" disabled={linking}>
+                    {linking && !codeSent ? 'Mengirim…' : codeSent ? 'Kirim ulang kode' : 'Kirim kode'}
+                  </Button>
+                </form>
+                {codeSent && (
+                  <form onSubmit={verifyKauizCode} className="flex flex-col gap-3">
+                    <Input
+                      label="Kode 6 digit"
+                      name="kauiz-code"
+                      inputMode="numeric"
+                      autoComplete="one-time-code"
+                      maxLength={6}
+                      value={kauizCode}
+                      onChange={(event) => setKauizCode(event.target.value.replace(/\D/g, '').slice(0, 6))}
+                      placeholder="000000"
+                      disabled={linking}
+                    />
+                    <Button type="submit" className="self-start" disabled={linking}>
+                      {linking ? 'Memverifikasi…' : 'Verifikasi'}
+                    </Button>
+                  </form>
+                )}
+                <p className="text-sm text-ink/80">
+                  Belum punya akun Kauiz?{' '}
+                  <a
+                    href="https://kauiz.web.id/register"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-semibold text-primary-700 underline"
+                  >
+                    Daftar
+                  </a>
+                </p>
+              </>
+            )}
+          </Card>
+        </Reveal>
+        </div>
+
         <Reveal index={1}>
           <div className="flex flex-col gap-4">
             <section className="relative overflow-hidden rounded-card bg-banner p-6 text-white shadow-card">
@@ -661,101 +757,6 @@ export function DashboardPage() {
             </Link>
           </Card>
         </Reveal>
-        <div id="akun-kauiz">
-        <Reveal index={5}>
-          <Card tone={kauizConnected ? 'mint' : 'sun'} className="flex flex-col gap-4">
-            <div className="flex flex-col gap-3">
-              <span className="inline-flex items-center gap-2" aria-hidden="true">
-                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="" width={34} height={34} className="object-contain" />
-                <span
-                  className={`grid size-8 place-items-center rounded-full ${kauizConnected ? 'bg-primary-100 text-primary-700' : 'bg-surface text-muted'}`}
-                >
-                  <Link2 size={16} aria-hidden="true" />
-                </span>
-                <img src={`${import.meta.env.BASE_URL}kauiz-logo-mark.png`} alt="" width={30} height={24} className="object-contain" />
-              </span>
-              <div className="min-w-0">
-                <h2 className="text-lg font-bold text-ink">Akun Kauiz</h2>
-                <p className="text-sm text-ink/80">
-                  {kauizConnected ? 'EngHabits terhubung dengan Kauiz' : 'EngHabits belum terhubung dengan Kauiz'}
-                </p>
-              </div>
-              <Badge tone={kauizConnected ? 'easy' : 'neutral'}>{kauizConnected ? 'Terhubung' : 'Belum terhubung'}</Badge>
-            </div>
-            {kauizConnected ? (
-              <>
-                <p className="text-sm text-ink">
-                  Akunmu terhubung dengan {settings.account?.kauizEmail ?? 'Kauiz'}, jadi semua hari terbuka.
-                </p>
-                <p className="text-sm text-ink/80">
-                  {settings.account?.kauizSharing
-                    ? settings.account.kauizLastSentAt
-                      ? `Ringkasan progres dibagikan ke Kauiz. Terakhir terkirim ${new Date(settings.account.kauizLastSentAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}.`
-                      : 'Ringkasan progres dibagikan ke Kauiz. Belum ada yang terkirim.'
-                    : 'Ringkasan progres belum dibagikan ke Kauiz.'}
-                </p>
-                <Button variant="ghost" className="self-start" onClick={disconnect} disabled={unlinking}>
-                  {unlinking ? 'Memutus…' : 'Putuskan Kauiz'}
-                </Button>
-              </>
-            ) : (
-              <>
-                <p className="text-sm text-ink">
-                  Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.
-                </p>
-                <form onSubmit={requestKauizCode} className="flex flex-col gap-3">
-                  <Input
-                    label="Email akun Kauiz"
-                    name="kauiz-email"
-                    type="email"
-                    autoComplete="email"
-                    value={kauizEmail}
-                    onChange={(event) => {
-                      setKauizEmail(event.target.value);
-                      setCodeSent(false);
-                      setKauizCode('');
-                    }}
-                    placeholder="nama@contoh.id"
-                    disabled={linking}
-                  />
-                  <Button type="submit" variant="secondary" className="self-start" disabled={linking}>
-                    {linking && !codeSent ? 'Mengirim…' : codeSent ? 'Kirim ulang kode' : 'Kirim kode'}
-                  </Button>
-                </form>
-                {codeSent && (
-                  <form onSubmit={verifyKauizCode} className="flex flex-col gap-3">
-                    <Input
-                      label="Kode 6 digit"
-                      name="kauiz-code"
-                      inputMode="numeric"
-                      autoComplete="one-time-code"
-                      maxLength={6}
-                      value={kauizCode}
-                      onChange={(event) => setKauizCode(event.target.value.replace(/\D/g, '').slice(0, 6))}
-                      placeholder="000000"
-                      disabled={linking}
-                    />
-                    <Button type="submit" className="self-start" disabled={linking}>
-                      {linking ? 'Memverifikasi…' : 'Verifikasi'}
-                    </Button>
-                  </form>
-                )}
-                <p className="text-sm text-ink/80">
-                  Belum punya akun Kauiz?{' '}
-                  <a
-                    href="https://kauiz.web.id/register"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="font-semibold text-primary-700 underline"
-                  >
-                    Daftar
-                  </a>
-                </p>
-              </>
-            )}
-          </Card>
-        </Reveal>
-        </div>
         <Reveal index={6}>
           <Card className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
