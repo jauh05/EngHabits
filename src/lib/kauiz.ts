@@ -1,4 +1,4 @@
-import type { AuthSession } from './auth';
+import type { Account, AuthSession } from './auth';
 
 const API = '/api';
 
@@ -23,9 +23,15 @@ export async function startKauizLogin(): Promise<string> {
   return (await post<{ url: string }>('/kauiz/login/start', {})).url;
 }
 
-/** Alamat halaman Kauiz untuk menghubungkan akun EngHabits yang sedang masuk. */
-export async function startKauizLink(token: string): Promise<string> {
-  return (await post<{ url: string }>('/kauiz/connect', {}, token)).url;
+/** Meminta Kauiz mengirim kode 6 digit ke email akun Kauiz yang dimasukkan. */
+export async function requestKauizEmailCode(token: string, kauizEmail: string): Promise<string> {
+  const data = await post<{ message?: string }>('/kauiz/link/request', { kauiz_email: kauizEmail }, token);
+  return data.message ?? 'Jika email itu terdaftar di EngHabits, kode sudah dikirim.';
+}
+
+/** Memverifikasi kode dan mengembalikan akun EngHabits yang sudah tertaut. */
+export async function verifyKauizEmailCode(token: string, kauizEmail: string, code: string): Promise<Account> {
+  return (await post<{ account: Account }>('/kauiz/link/verify', { kauiz_email: kauizEmail, code }, token)).account;
 }
 
 /** Memutus tautan Kauiz. Server mencabut token integrasi di Kauiz juga, jadi berbagi ringkasan ikut berhenti. */

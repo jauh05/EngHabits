@@ -33,6 +33,7 @@ export function useAccountSync() {
             kauizConnected: account.kauizConnected,
             kauizSharing: account.kauizSharing,
             kauizLastSentAt: account.kauizLastSentAt,
+            kauizEmail: account.kauizEmail,
           },
         });
       })

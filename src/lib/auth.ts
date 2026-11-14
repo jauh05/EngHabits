@@ -17,6 +17,8 @@ export type Account = {
   kauizSharing?: boolean;
   /** Waktu terakhir ringkasan terkirim, ISO. Kosong bila belum pernah. */
   kauizLastSentAt?: string | null;
+  /** Email akun Kauiz yang tertaut, bila ada. */
+  kauizEmail?: string | null;
 };
 
 export type AuthSession = {

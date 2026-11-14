@@ -19,7 +19,7 @@ import {
   Video,
   type LucideIcon,
 } from 'lucide-react';
-import { useEffect, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
 import { Link, useNavigate, useSearchParams } from 'react-router';
 import { Button, buttonClass } from '../components/ui/Button';
 import { Badge } from '../components/ui/Badge';
@@ -27,6 +27,7 @@ import { BarChart, scoreDot, type BarItem } from '../components/ui/BarChart';
 import { Blob } from '../components/ui/Blob';
 import { Card, type CardTone } from '../components/ui/Card';
 import { CountUp } from '../components/ui/CountUp';
+import { Input } from '../components/ui/Input';
 import { Modal } from '../components/ui/Modal';
 import { useToast } from '../components/ui/Toast';
 import { MonthCalendar } from '../components/ui/MonthCalendar';
@@ -38,7 +39,7 @@ import { easeOut } from '../lib/motion';
 import { currentDay, dayStatus, MASTERY_THRESHOLD, TOTAL_DAYS } from '../lib/progression';
 import { isDue } from '../lib/srs';
 import { logoutAccount } from '../lib/auth';
-import { disconnectKauiz, KAUIZ_RESULT_MESSAGES, startKauizLink } from '../lib/kauiz';
+import { disconnectKauiz, KAUIZ_RESULT_MESSAGES, requestKauizEmailCode, verifyKauizEmailCode } from '../lib/kauiz';
 import { useSettings } from '../lib/settings';
 import { useProgressData } from '../lib/useProgressData';
 
@@ -172,6 +173,9 @@ export function DashboardPage() {
   const { show } = useToast();
   const [linking, setLinking] = useState(false);
   const [unlinking, setUnlinking] = useState(false);
+  const [kauizEmail, setKauizEmail] = useState(settings.account?.kauizEmail ?? '');
+  const [kauizCode, setKauizCode] = useState('');
+  const [codeSent, setCodeSent] = useState(false);
   // Pesan hasil Kauiz hanya boleh tampil sekali, walaupun efek dijalankan dua kali di mode pengembangan.
   const announced = useRef(false);
 
@@ -191,8 +195,11 @@ export function DashboardPage() {
     try {
       await disconnectKauiz(settings.token);
       update({
-        account: { ...settings.account, kauizConnected: false, kauizSharing: false, kauizLastSentAt: null },
+        account: { ...settings.account, kauizConnected: false, kauizSharing: false, kauizLastSentAt: null, kauizEmail: null },
       });
+      setKauizEmail('');
+      setKauizCode('');
+      setCodeSent(false);
       show('Tautan Kauiz sudah diputus.', 'success');
     } catch (caught) {
       show(caught instanceof Error ? caught.message : 'Tautan Kauiz belum bisa diputus.', 'error');
@@ -201,13 +208,44 @@ export function DashboardPage() {
     }
   };
 
-  const connectKauiz = async () => {
+  const requestKauizCode = async (event: FormEvent) => {
+    event.preventDefault();
     if (!settings.token) return;
+    if (!kauizEmail.trim()) {
+      show('Masukkan email akun Kauiz.', 'error');
+      return;
+    }
     setLinking(true);
     try {
-      window.location.assign(await startKauizLink(settings.token));
+      const message = await requestKauizEmailCode(settings.token, kauizEmail.trim());
+      setCodeSent(true);
+      setKauizCode('');
+      show(message, 'success');
     } catch (caught) {
-      show(caught instanceof Error ? caught.message : 'Koneksi Kauiz belum bisa dimulai.', 'error');
+      show(caught instanceof Error ? caught.message : 'Kode belum bisa dikirim.', 'error');
+    } finally {
+      setLinking(false);
+    }
+  };
+
+  const verifyKauizCode = async (event: FormEvent) => {
+    event.preventDefault();
+    if (!settings.token) return;
+    if (!/^\d{6}$/.test(kauizCode)) {
+      show('Masukkan 6 digit kode dari email.', 'error');
+      return;
+    }
+    setLinking(true);
+    try {
+      const account = await verifyKauizEmailCode(settings.token, kauizEmail.trim(), kauizCode);
+      update({ account: { ...settings.account, ...account } });
+      setKauizEmail(account.kauizEmail ?? kauizEmail.trim());
+      setKauizCode('');
+      setCodeSent(false);
+      show('Akun Kauiz berhasil dihubungkan.', 'success');
+    } catch (caught) {
+      show(caught instanceof Error ? caught.message : 'Kode tidak valid atau sudah kedaluwarsa.', 'error');
+    } finally {
       setLinking(false);
     }
   };
@@ -607,29 +645,76 @@ export function DashboardPage() {
               </div>
               <Badge tone={kauizConnected ? 'easy' : 'neutral'}>{kauizConnected ? 'Terhubung' : 'Belum terhubung'}</Badge>
             </div>
-            <p className="text-sm text-ink">
-              {kauizConnected
-                ? 'Akunmu terhubung dengan Kauiz, jadi semua hari terbuka.'
-                : 'Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.'}
-            </p>
-            {kauizConnected && (
-              <p className="text-sm text-ink/80">
-                {settings.account?.kauizSharing
-                  ? settings.account.kauizLastSentAt
-                    ? `Ringkasan progres dibagikan ke Kauiz. Terakhir terkirim ${new Date(settings.account.kauizLastSentAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}.`
-                    : 'Ringkasan progres dibagikan ke Kauiz. Belum ada yang terkirim.'
-                  : 'Ringkasan progres belum dibagikan ke Kauiz.'}
-              </p>
-            )}
-            {kauizConnected && (
-              <Button variant="ghost" className="self-start" onClick={disconnect} disabled={unlinking}>
-                {unlinking ? 'Memutus…' : 'Putuskan Kauiz'}
-              </Button>
-            )}
-            {!kauizConnected && (
-              <Button variant="secondary" className="self-start" onClick={connectKauiz} disabled={linking}>
-                {linking ? 'Membuka Kauiz…' : 'Hubungkan Kauiz'}
-              </Button>
+            {kauizConnected ? (
+              <>
+                <p className="text-sm text-ink">
+                  Akunmu terhubung dengan {settings.account?.kauizEmail ?? 'Kauiz'}, jadi semua hari terbuka.
+                </p>
+                <p className="text-sm text-ink/80">
+                  {settings.account?.kauizSharing
+                    ? settings.account.kauizLastSentAt
+                      ? `Ringkasan progres dibagikan ke Kauiz. Terakhir terkirim ${new Date(settings.account.kauizLastSentAt).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' })}.`
+                      : 'Ringkasan progres dibagikan ke Kauiz. Belum ada yang terkirim.'
+                    : 'Ringkasan progres belum dibagikan ke Kauiz.'}
+                </p>
+                <Button variant="ghost" className="self-start" onClick={disconnect} disabled={unlinking}>
+                  {unlinking ? 'Memutus…' : 'Putuskan Kauiz'}
+                </Button>
+              </>
+            ) : (
+              <>
+                <p className="text-sm text-ink">
+                  Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.
+                </p>
+                <form onSubmit={requestKauizCode} className="flex flex-col gap-3">
+                  <Input
+                    label="Email akun Kauiz"
+                    name="kauiz-email"
+                    type="email"
+                    autoComplete="email"
+                    value={kauizEmail}
+                    onChange={(event) => {
+                      setKauizEmail(event.target.value);
+                      setCodeSent(false);
+                      setKauizCode('');
+                    }}
+                    placeholder="nama@contoh.id"
+                    disabled={linking}
+                  />
+                  <Button type="submit" variant="secondary" className="self-start" disabled={linking}>
+                    {linking && !codeSent ? 'Mengirim…' : codeSent ? 'Kirim ulang kode' : 'Kirim kode'}
+                  </Button>
+                </form>
+                {codeSent && (
+                  <form onSubmit={verifyKauizCode} className="flex flex-col gap-3">
+                    <Input
+                      label="Kode 6 digit"
+                      name="kauiz-code"
+                      inputMode="numeric"
+                      autoComplete="one-time-code"
+                      maxLength={6}
+                      value={kauizCode}
+                      onChange={(event) => setKauizCode(event.target.value.replace(/\D/g, '').slice(0, 6))}
+                      placeholder="000000"
+                      disabled={linking}
+                    />
+                    <Button type="submit" className="self-start" disabled={linking}>
+                      {linking ? 'Memverifikasi…' : 'Verifikasi'}
+                    </Button>
+                  </form>
+                )}
+                <p className="text-sm text-ink/80">
+                  Belum punya akun Kauiz?{' '}
+                  <a
+                    href="https://kauiz.web.id/register"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="font-semibold text-primary-700 underline"
+                  >
+                    Daftar
+                  </a>
+                </p>
+              </>
             )}
           </Card>
         </Reveal>
