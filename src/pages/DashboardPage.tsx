@@ -176,6 +176,8 @@ export function DashboardPage() {
   const [kauizEmail, setKauizEmail] = useState(settings.account?.kauizEmail ?? '');
   const [kauizCode, setKauizCode] = useState('');
   const [codeSent, setCodeSent] = useState(false);
+  // Form email dan kode muncul di dalam kartu yang sama setelah tombol Hubungkan ditekan.
+  const [kauizOpen, setKauizOpen] = useState(false);
   // Pesan hasil Kauiz hanya boleh tampil sekali, walaupun efek dijalankan dua kali di mode pengembangan.
   const announced = useRef(false);
 
@@ -666,6 +668,13 @@ export function DashboardPage() {
                 <p className="text-sm text-ink">
                   Hari 1 sampai 5 bisa dipelajari tanpa Kauiz. Hari 6 ke atas perlu akun Kauiz yang terhubung.
                 </p>
+                {!kauizOpen ? (
+                  <Button className="w-full self-start sm:w-auto" onClick={() => setKauizOpen(true)}>
+                    <Link2 size={18} aria-hidden="true" />
+                    Hubungkan
+                  </Button>
+                ) : (
+                  <div className="flex flex-col gap-4">
                 <form onSubmit={requestKauizCode} className="flex flex-col gap-3">
                   <Input
                     label="Email akun Kauiz"
@@ -681,7 +690,7 @@ export function DashboardPage() {
                     placeholder="nama@contoh.id"
                     disabled={linking}
                   />
-                  <Button type="submit" variant="secondary" className="self-start" disabled={linking}>
+                  <Button type="submit" variant="secondary" className="w-full self-start sm:w-auto" disabled={linking}>
                     {linking && !codeSent ? 'Mengirim…' : codeSent ? 'Kirim ulang kode' : 'Kirim kode'}
                   </Button>
                 </form>
@@ -698,7 +707,7 @@ export function DashboardPage() {
                       placeholder="000000"
                       disabled={linking}
                     />
-                    <Button type="submit" className="self-start" disabled={linking}>
+                    <Button type="submit" className="w-full self-start sm:w-auto" disabled={linking}>
                       {linking ? 'Memverifikasi…' : 'Verifikasi'}
                     </Button>
                   </form>
@@ -714,6 +723,19 @@ export function DashboardPage() {
                     Daftar
                   </a>
                 </p>
+                <Button
+                  variant="ghost"
+                  className="self-start"
+                  onClick={() => {
+                    setKauizOpen(false);
+                    setCodeSent(false);
+                    setKauizCode('');
+                  }}
+                >
+                  Tutup
+                </Button>
+                  </div>
+                )}
               </>
             )}
           </Card>
