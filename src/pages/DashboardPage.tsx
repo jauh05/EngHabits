@@ -17,6 +17,7 @@ import {
   Target,
   Trophy,
   Video,
+  X,
   type LucideIcon,
 } from 'lucide-react';
 import { useEffect, useRef, useState, type FormEvent, type ReactNode } from 'react';
@@ -342,6 +343,41 @@ export function DashboardPage() {
           </header>
         </Reveal>
 
+        <Reveal index={0}>
+          <Card
+            tone={kauizConnected ? 'mint' : 'sun'}
+            className="flex flex-wrap items-center gap-4"
+            role="status"
+            aria-label={kauizConnected ? 'Terhubung dengan Kauiz' : 'Belum terhubung dengan Kauiz'}
+          >
+            <span className="inline-flex items-center gap-2" aria-hidden="true">
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="" width={34} height={34} className="object-contain" />
+              <span
+                className={`grid size-10 place-items-center rounded-full text-white ${kauizConnected ? 'bg-primary-500' : 'bg-error'}`}
+              >
+                {kauizConnected ? <Check size={20} aria-hidden="true" /> : <X size={20} aria-hidden="true" />}
+              </span>
+              <img src={`${import.meta.env.BASE_URL}kauiz-logo-mark.png`} alt="" width={30} height={24} className="object-contain" />
+            </span>
+            <div className="min-w-0 flex-1">
+              <p className="font-bold text-ink">{kauizConnected ? 'Terhubung dengan Kauiz' : 'Belum terhubung dengan Kauiz'}</p>
+              <p className="text-sm text-ink/80">
+                {kauizConnected
+                  ? 'Progres belajarmu dibagikan ke Kauiz.'
+                  : 'Hubungkan untuk membuka semua hari dan membagikan progres ke Kauiz.'}
+              </p>
+            </div>
+            {!kauizConnected && (
+              <Button
+                className="shrink-0"
+                onClick={() => document.getElementById('akun-kauiz')?.scrollIntoView({ behavior: 'smooth', block: 'center' })}
+              >
+                Hubungkan
+              </Button>
+            )}
+          </Card>
+        </Reveal>
+
         <Reveal index={1}>
           <div className="flex flex-col gap-4">
             <section className="relative overflow-hidden rounded-card bg-banner p-6 text-white shadow-card">
@@ -625,6 +661,7 @@ export function DashboardPage() {
             </Link>
           </Card>
         </Reveal>
+        <div id="akun-kauiz">
         <Reveal index={5}>
           <Card tone={kauizConnected ? 'mint' : 'sun'} className="flex flex-col gap-4">
             <div className="flex flex-col gap-3">
@@ -718,6 +755,7 @@ export function DashboardPage() {
             )}
           </Card>
         </Reveal>
+        </div>
         <Reveal index={6}>
           <Card className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
