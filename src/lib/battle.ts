@@ -3,17 +3,7 @@
  * Aliran perubahan memakai SSE yang dibaca dengan fetch, karena EventSource tidak bisa mengirim header Bearer.
  */
 
-export type BattleMode =
-  | 'kilat'
-  | 'terjemahan'
-  | 'tata_bahasa'
-  | 'kosakata'
-  | 'cerita'
-  | 'esai'
-  | 'campuran'
-  | 'dengar'
-  | 'susun'
-  | 'bertahan';
+export type BattleMode = 'kilat' | 'terjemahan' | 'tata_bahasa' | 'kosakata' | 'cerita' | 'susun' | 'bertahan';
 
 export const BATTLE_MODES: Array<{ id: BattleMode; label: string; hint: string }> = [
   { id: 'kilat', label: 'Kilat', hint: 'Pilihan ganda, 15 detik per soal' },
@@ -21,15 +11,12 @@ export const BATTLE_MODES: Array<{ id: BattleMode; label: string; hint: string }
   { id: 'tata_bahasa', label: 'Tata Bahasa', hint: 'Jebakan tata bahasa' },
   { id: 'kosakata', label: 'Kosakata', hint: 'Arti dan sinonim' },
   { id: 'cerita', label: 'Cerita', hint: 'Bacaan singkat lalu pertanyaan' },
-  { id: 'esai', label: 'Esai', hint: 'Menulis, dinilai dengan rubrik' },
-  { id: 'campuran', label: 'Campuran', hint: 'Atur sendiri jenis soalnya' },
-  { id: 'dengar', label: 'Dengar', hint: 'Dengarkan lalu jawab' },
   { id: 'susun', label: 'Susun Kalimat', hint: 'Susun kata yang diacak' },
   { id: 'bertahan', label: 'Bertahan', hint: 'Tiga nyawa, salah berarti kehilangan satu' },
 ];
 
 export const BATTLE_TOTALS = [8, 10, 15, 20] as const;
-export type QuestionType = 'mcq' | 'translate' | 'story' | 'essay' | 'listen' | 'reorder';
+export type QuestionType = 'mcq' | 'translate' | 'story' | 'reorder';
 export type Composition = Partial<Record<QuestionType, number>>;
 
 export type PlayerName = { id: string; publicId: string; name: string } | null;
@@ -40,10 +27,8 @@ export type PublicItem = {
   prompt: string;
   seconds: number;
   passage?: string;
-  script?: string;
   words?: string[];
   options?: Array<{ id: string; text: string }>;
-  criteria?: string[];
 };
 
 export type RevealResult = { answered: boolean; correct: boolean; points: number; answer: string | null };
@@ -52,8 +37,8 @@ export type BattleSnapshot = {
   id: string;
   mode: BattleMode;
   modeLabel: string;
-  status: 'pending' | 'active' | 'rating' | 'finished' | 'declined' | 'expired' | 'cancelled';
-  phase: 'idle' | 'countdown' | 'question' | 'reveal' | 'rating' | 'finished';
+  status: 'pending' | 'active' | 'finished' | 'declined' | 'expired' | 'cancelled';
+  phase: 'idle' | 'countdown' | 'question' | 'reveal' | 'finished';
   total: number;
   round: number;
   serverNow: number;
@@ -69,13 +54,8 @@ export type BattleSnapshot = {
     type: QuestionType;
     correct: string | null;
     explanation: string | null;
-    modelAnswer: string | null;
     limitMs: number;
     results: Record<string, RevealResult>;
-  };
-  rating: null | {
-    criteria: string[];
-    essays: Array<{ index: number; answer: string; model: string; rated: boolean }>;
   };
   results: null | { winnerId: string | null; totals: Record<string, number>; players: PlayerName[] };
 };
