@@ -20,6 +20,7 @@ import {
   ensureKauizSchema,
   fetchKauizIdentity,
   kauizConnected,
+  kauizEmail,
   kauizLastSentAt,
   kauizReady,
   kauizSettingsFromEnv,
@@ -30,10 +31,12 @@ import {
   markPushed,
   pushLearningSummary,
   readIntegrationToken,
+  requestKauizLinkCode,
   requestedScope,
   revokeLearningSharing,
   saveIntegrationToken,
   unlinkKauiz,
+  verifyKauizLinkCode,
 } from './kauiz.mjs';
 
 const scryptAsync = promisify(scrypt);
@@ -276,7 +279,17 @@ export function createApp(db, options = {}) {
       kauizConnected: kauizConnected(db, user.id),
       kauizSharing: kauizSharing(db, user.id),
       kauizLastSentAt: kauizLastSentAt(db, user.id),
+      kauizEmail: kauizEmail(db, user.id),
     };
+  }
+
+  function requireKauizSecret(req) {
+    const expected = String(kauiz.clientSecret ?? '');
+    const provided = String(req.headers['x-enghabits-secret'] ?? '');
+    const left = Buffer.from(expected);
+    const right = Buffer.from(provided);
+    const valid = left.length > 0 && left.length === right.length && timingSafeEqual(left, right);
+    if (!valid) throw new HttpError(401, 'Unauthorized.');
   }
 
   const findUserById = db.prepare('SELECT id, email, name, public_id, public_id_changed FROM users WHERE id = ?');
@@ -308,7 +321,7 @@ export function createApp(db, options = {}) {
       const identity = await fetchKauizIdentity(kauiz, params.get('code'), fetchImpl);
       if (flow.kind === 'link') {
         if (!findUserById.get(flow.userId)) return failed;
-        linkKauiz(db, flow.userId, identity.sub);
+        linkKauiz(db, flow.userId, identity.sub, identity.email);
         attachIntegration(flow.userId, identity);
         return '/?kauiz=terhubung';
       }
@@ -320,7 +333,7 @@ export function createApp(db, options = {}) {
       // Email yang sudah dipakai akun manual tidak ditautkan otomatis. Pemiliknya harus menghubungkan dari beranda.
       if (findUser.get(identity.email)) return '/masuk?kauiz=email-terpakai';
       const userId = await createKauizAccount(identity);
-      linkKauiz(db, userId, identity.sub);
+      linkKauiz(db, userId, identity.sub, identity.email);
       attachIntegration(userId, identity);
       return `/masuk/kauiz?code=${createFlow(db, 'handoff', userId)}`;
     } catch (error) {
@@ -436,6 +449,77 @@ export function createApp(db, options = {}) {
       clearTimeout(learningPushTimers.get(user.id));
       learningPushTimers.delete(user.id);
       return { status: 200, body: { account: accountView(user) } };
+    },
+
+    async kauizLinkRequest({ req }) {
+      const user = requireUser(req);
+      if (!kauizReady(kauiz)) throw new HttpError(503, 'Koneksi Kauiz belum tersedia.');
+      const input = await readJson(req);
+      const email = normalizeEmail(input.kauiz_email);
+      if (!EMAIL_PATTERN.test(email)) return { status: 400, body: { error: 'Format email belum benar.' } };
+      const result = await requestKauizLinkCode(kauiz, email, fetchImpl);
+      return {
+        status: 202,
+        body: { message: result.message ?? 'Jika email itu terdaftar di EngHabits, kode sudah dikirim.' },
+      };
+    },
+
+    async kauizLinkVerify({ req }) {
+      const user = requireUser(req);
+      if (!kauizReady(kauiz)) throw new HttpError(503, 'Koneksi Kauiz belum tersedia.');
+      const input = await readJson(req);
+      const email = normalizeEmail(input.kauiz_email);
+      const code = String(input.code ?? '').trim();
+      if (!EMAIL_PATTERN.test(email)) return { status: 400, body: { error: 'Format email belum benar.' } };
+      if (!/^\d{6}$/.test(code)) return { status: 400, body: { error: 'Masukkan 6 digit kode dari email.' } };
+
+      const linked = await verifyKauizLinkCode(
+        kauiz,
+        { kauizEmail: email, code, enghabitsEmail: user.email },
+        fetchImpl,
+      );
+      linkKauiz(db, user.id, linked.kauiz_id, linked.kauiz_email ?? email);
+      saveIntegrationToken(db, tokenKey, user.id, linked.integration_token);
+      scheduleLearningPush(user.id, true);
+      return { status: 200, body: { account: accountView(findUserById.get(user.id)) } };
+    },
+
+    async kauizLookup({ req }) {
+      requireKauizSecret(req);
+      const input = await readJson(req);
+      const email = normalizeEmail(input.email);
+      return { status: 200, body: { exists: Boolean(findUser.get(email)) } };
+    },
+
+    async kauizLinkConfirm({ req }) {
+      requireKauizSecret(req);
+      const input = await readJson(req);
+      const email = normalizeEmail(input.email);
+      const kauizId = String(input.kauiz_id ?? '').trim();
+      const integrationToken = String(input.integration_token ?? '');
+      if (!EMAIL_PATTERN.test(email) || !kauizId || !integrationToken) {
+        return { status: 400, body: { error: 'Data tautan belum lengkap.' } };
+      }
+
+      const user = findUser.get(email);
+      if (!user) return { status: 404, body: { error: 'Akun EngHabits tidak ditemukan.' } };
+      linkKauiz(db, user.id, kauizId, input.kauiz_email ?? email);
+      saveIntegrationToken(db, tokenKey, user.id, integrationToken);
+      scheduleLearningPush(user.id, true);
+      return { status: 200, body: { ok: true } };
+    },
+
+    async kauizUnlinkByKauiz({ req }) {
+      requireKauizSecret(req);
+      const input = await readJson(req);
+      const userId = kauizUserId(db, String(input.kauiz_id ?? '').trim());
+      if (userId) {
+        unlinkKauiz(db, userId);
+        lastLearningPush.delete(userId);
+        clearTimeout(learningPushTimers.get(userId));
+        learningPushTimers.delete(userId);
+      }
+      return { status: 200, body: { ok: true } };
     },
 
     async kauizConnectStart({ req }) {
@@ -616,6 +700,11 @@ export function createApp(db, options = {}) {
     ['POST', '/api/logout', handlers.logout],
     ['GET', '/api/me', handlers.me],
     ['DELETE', '/api/kauiz', handlers.kauizUnlink],
+    ['POST', '/api/kauiz/link/request', handlers.kauizLinkRequest],
+    ['POST', '/api/kauiz/link/verify', handlers.kauizLinkVerify],
+    ['POST', '/api/kauiz/lookup', handlers.kauizLookup],
+    ['POST', '/api/kauiz/link-confirm', handlers.kauizLinkConfirm],
+    ['POST', '/api/kauiz/unlink-by-kauiz', handlers.kauizUnlinkByKauiz],
     ['POST', '/api/kauiz/connect', handlers.kauizConnectStart],
     ['POST', '/api/kauiz/login/start', handlers.kauizLoginStart],
     ['GET', '/api/kauiz/callback', handlers.kauizCallback],
@@ -661,6 +750,7 @@ export function createApp(db, options = {}) {
         const headers = error.retryAfter ? { 'Retry-After': String(error.retryAfter) } : {};
         return send(res, error.status, { error: error.message }, headers);
       }
+      if (error instanceof KauizError) return send(res, error.status, { error: error.message });
       if (error instanceof BattleError) return send(res, error.status, { error: error.message });
       console.error(error);
       send(res, 500, { error: 'Terjadi kesalahan di server.' });

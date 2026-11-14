@@ -35,6 +35,7 @@ export function ensureKauizSchema(db) {
   `);
   ensureColumn(db, 'kauiz_links', 'integration_token_enc', 'TEXT');
   ensureColumn(db, 'kauiz_links', 'last_pushed_at', 'TEXT');
+  ensureColumn(db, 'kauiz_links', 'kauiz_email', 'TEXT');
 }
 
 function ensureColumn(db, table, column, definition) {
@@ -85,22 +86,30 @@ export function kauizLastSentAt(db, userId) {
   return db.prepare('SELECT last_pushed_at FROM kauiz_links WHERE user_id = ?').get(userId)?.last_pushed_at ?? null;
 }
 
+export function kauizEmail(db, userId) {
+  return db.prepare('SELECT kauiz_email FROM kauiz_links WHERE user_id = ?').get(userId)?.kauiz_email ?? null;
+}
+
 export function kauizUserId(db, kauizId) {
   const row = db.prepare('SELECT user_id FROM kauiz_links WHERE kauiz_id = ?').get(kauizId);
   return row?.user_id ?? null;
 }
 
-export function linkKauiz(db, userId, kauizId, now = new Date().toISOString()) {
+export function linkKauiz(db, userId, kauizId, kauizEmailValue = null, now = new Date().toISOString()) {
   const id = String(kauizId ?? '').trim();
   if (!id) throw new KauizError(400, 'ID akun Kauiz tidak valid.');
+  const email = String(kauizEmailValue ?? '').trim().toLowerCase() || null;
   const own = db.prepare('SELECT kauiz_id FROM kauiz_links WHERE user_id = ?').get(userId);
   if (own && own.kauiz_id !== id) {
     throw new KauizError(409, 'Akun ini sudah terhubung ke Kauiz lain. Putuskan dulu sebelum menghubungkan yang baru.');
   }
-  if (own) return;
+  if (own) {
+    if (email) db.prepare('UPDATE kauiz_links SET kauiz_email = ? WHERE user_id = ?').run(email, userId);
+    return;
+  }
   const taken = kauizUserId(db, id);
   if (taken) throw new KauizError(409, 'Akun Kauiz ini sudah terhubung ke akun EngHabits lain.');
-  db.prepare('INSERT INTO kauiz_links (user_id, kauiz_id, linked_at) VALUES (?, ?, ?)').run(userId, id, now);
+  db.prepare('INSERT INTO kauiz_links (user_id, kauiz_id, kauiz_email, linked_at) VALUES (?, ?, ?, ?)').run(userId, id, email, now);
 }
 
 /** Memutus tautan dan menghapus token integrasi lokal. Pencabutan di Kauiz dilakukan terpisah. */
@@ -219,6 +228,43 @@ export async function fetchKauizIdentity(settings, code, fetchImpl = fetch) {
     name: String(info.name ?? '').trim() || email.split('@')[0],
     integrationToken: typeof token.integration_token === 'string' ? token.integration_token : null,
   };
+}
+
+/** Meminta Kauiz mengirim kode 6 digit ke email akun Kauiz milik pengguna EngHabits. */
+export async function requestKauizLinkCode(settings, kauizEmailValue, fetchImpl = fetch) {
+  const response = await fetchKauiz(fetchImpl, `${settings.baseUrl}/v1/enghabits/link/request-by-enghabits`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'X-Enghabits-Secret': settings.clientSecret,
+    },
+    body: JSON.stringify({ kauiz_email: kauizEmailValue }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (response.status === 202) return data;
+  if (response.status === 422) throw new KauizError(422, data.message ?? 'Email akun Kauiz belum benar.');
+  if (response.status === 503) throw new KauizError(503, 'Tautan Kauiz belum tersedia.');
+  throw new KauizError(502, 'Kauiz belum bisa mengirim kode. Coba lagi.');
+}
+
+/** Memverifikasi kode di Kauiz dan mengembalikan identitas beserta token integrasi. */
+export async function verifyKauizLinkCode(settings, { kauizEmail: kauizEmailValue, code, enghabitsEmail }, fetchImpl = fetch) {
+  const response = await fetchKauiz(fetchImpl, `${settings.baseUrl}/v1/enghabits/link/verify-by-enghabits`, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      'X-Enghabits-Secret': settings.clientSecret,
+    },
+    body: JSON.stringify({ kauiz_email: kauizEmailValue, code, enghabits_email: enghabitsEmail }),
+  });
+  const data = await response.json().catch(() => ({}));
+  if (response.status === 422) throw new KauizError(422, data.message ?? 'Kode tidak valid atau sudah kedaluwarsa.');
+  if (!response.ok || !data.kauiz_id || !data.integration_token) {
+    throw new KauizError(502, 'Kauiz belum bisa memverifikasi kode. Coba lagi.');
+  }
+  return data;
 }
 
 /** Mengirim ringkasan ke Kauiz. Status 401 atau 403 berarti token sudah dicabut di Kauiz. */
