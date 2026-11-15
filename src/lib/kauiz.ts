@@ -25,8 +25,9 @@ export async function startKauizLogin(): Promise<string> {
 
 /** Meminta Kauiz mengirim kode 6 digit ke email akun Kauiz yang dimasukkan. */
 export async function requestKauizEmailCode(token: string, kauizEmail: string): Promise<string> {
-  const data = await post<{ message?: string }>('/kauiz/link/request', { kauiz_email: kauizEmail }, token);
-  return data.message ?? 'Jika email itu terdaftar di EngHabits, kode sudah dikirim.';
+  // Pesan dari server tidak dipakai, karena pesannya menyebut EngHabits padahal email ini akun Kauiz.
+  await post<{ message?: string }>('/kauiz/link/request', { kauiz_email: kauizEmail }, token);
+  return 'Jika email ini terdaftar di Kauiz, kode 6 digit sudah dikirim. Cek inbox atau folder spam.';
 }
 
 /** Memverifikasi kode dan mengembalikan akun EngHabits yang sudah tertaut. */

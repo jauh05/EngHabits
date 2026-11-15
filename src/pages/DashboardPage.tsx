@@ -244,7 +244,7 @@ export function DashboardPage() {
       setKauizEmail(account.kauizEmail ?? kauizEmail.trim());
       setKauizCode('');
       setCodeSent(false);
-      show('Akun Kauiz berhasil dihubungkan.', 'success');
+      show('Akun Kauiz berhasil dihubungkan. Hari 6 ke atas sudah terbuka.', 'success');
     } catch (caught) {
       show(caught instanceof Error ? caught.message : 'Kode tidak valid atau sudah kedaluwarsa.', 'error');
     } finally {
@@ -426,6 +426,11 @@ export function DashboardPage() {
                     )}
                     {linkFormOpen && (
                       <>
+                        <p className="text-sm text-ink">
+                          {codeSent
+                            ? 'Kode sudah dikirim. Buka email, lalu masukkan 6 digit kodenya dan klik Verifikasi kode.'
+                            : 'Masukkan email akun Kauiz kamu, lalu klik Kirim kode.'}
+                        </p>
                         <form onSubmit={requestKauizCode} className="flex flex-col gap-3 sm:flex-row sm:items-end">
                           <div className="min-w-0 flex-1">
                             <Input
@@ -451,7 +456,7 @@ export function DashboardPage() {
                           <form onSubmit={verifyKauizCode} className="flex flex-col gap-3 sm:flex-row sm:items-end">
                             <div className="min-w-0 flex-1">
                               <Input
-                                label="Kode 6 digit"
+                                label="Kode dari email (6 digit)"
                                 name="kauiz-code"
                                 inputMode="numeric"
                                 autoComplete="one-time-code"
@@ -463,13 +468,13 @@ export function DashboardPage() {
                               />
                             </div>
                             <Button type="submit" className="w-full sm:w-auto" disabled={linking}>
-                              {linking ? 'Memverifikasi…' : 'Verifikasi'}
+                              {linking ? 'Memverifikasi…' : 'Verifikasi kode'}
                             </Button>
                           </form>
                         )}
                         {codeSent && (
                         <p className="text-sm text-ink/80">
-                          Tidak ada email? Pastikan email ini sudah terdaftar di Kauiz dan cek folder spam. Tunggu 1 menit sebelum kirim ulang.
+                          Belum menerima kode? Cek folder spam. Kode hanya dikirim jika email ini sudah terdaftar di Kauiz. Tunggu 1 menit sebelum kirim ulang.
                         </p>
                       )}
                       <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
