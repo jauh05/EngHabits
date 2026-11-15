@@ -18,6 +18,7 @@ let server;
 let base;
 let db;
 let calls;
+let kauizFailure = null;
 
 function json(body, status = 200) {
   return new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json' } });
@@ -31,6 +32,11 @@ async function fakeKauiz(url, init = {}) {
     body: init.body ? JSON.parse(init.body) : null,
   });
 
+  if (kauizFailure) {
+    const failure = kauizFailure;
+    kauizFailure = null;
+    throw failure;
+  }
   if (url === 'https://kauiz.test/v1/enghabits/link/request-by-enghabits') {
     return json({ message: 'Jika email itu terdaftar di EngHabits, kode sudah dikirim.' }, 202);
   }
@@ -102,6 +108,20 @@ describe('tautan email Kauiz', () => {
     const request = calls.find((item) => item.url.endsWith('/request-by-enghabits'));
     expect(request.headers['X-Enghabits-Secret']).toBe(SECRET);
     expect(request.body).toEqual({ kauiz_email: 'kauiz@test.localhost' });
+  });
+
+  it('Kauiz yang melewati batas waktu memberi pesan yang jelas', async () => {
+    const { token } = await register('lambat@test.localhost');
+    kauizFailure = Object.assign(new Error('timeout'), { name: 'TimeoutError' });
+
+    const response = await call('/api/kauiz/link/request', {
+      method: 'POST',
+      token,
+      body: { kauiz_email: 'kauiz@test.localhost' },
+    });
+
+    expect(response.status).toBe(502);
+    expect((await response.json()).error).toBe('Kauiz terlalu lama membalas. Coba lagi.');
   });
 
   it('memverifikasi kode menyimpan tautan, email Kauiz, dan token terenkripsi', async () => {

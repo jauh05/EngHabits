@@ -7,6 +7,8 @@ import { createCipheriv, createDecipheriv, createHash, randomBytes } from 'node:
 
 const FLOW_TTL_MS = { link: 10 * 60_000, login: 10 * 60_000, handoff: 2 * 60_000 };
 const REQUEST_TIMEOUT_MS = 10_000;
+// Kauiz mengirim email kode di dalam permintaan ini, jadi batas waktunya lebih longgar.
+const LINK_CODE_TIMEOUT_MS = 25_000;
 const PARTS = ['comprehension', 'partA', 'partB', 'hard'];
 const LAST_DAY = 90;
 
@@ -240,11 +242,12 @@ export async function requestKauizLinkCode(settings, kauizEmailValue, fetchImpl 
       'X-Enghabits-Secret': settings.clientSecret,
     },
     body: JSON.stringify({ kauiz_email: kauizEmailValue }),
-  });
+  }, LINK_CODE_TIMEOUT_MS);
   const data = await response.json().catch(() => ({}));
   if (response.status === 202) return data;
   if (response.status === 422) throw new KauizError(422, data.message ?? 'Email akun Kauiz belum benar.');
   if (response.status === 503) throw new KauizError(503, 'Tautan Kauiz belum tersedia.');
+  console.error(`Kauiz menolak permintaan kode dengan HTTP ${response.status}.`);
   throw new KauizError(502, 'Kauiz belum bisa mengirim kode. Coba lagi.');
 }
 
@@ -365,10 +368,17 @@ function percent(value) {
   return Math.min(100, wholeNumber(value));
 }
 
-async function fetchKauiz(fetchImpl, url, init) {
+async function fetchKauiz(fetchImpl, url, init, timeoutMs = REQUEST_TIMEOUT_MS) {
   try {
-    return await fetchImpl(url, { ...init, signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS) });
-  } catch {
-    throw new KauizError(502, 'Tidak bisa terhubung ke Kauiz. Coba lagi.');
+    return await fetchImpl(url, { ...init, signal: AbortSignal.timeout(timeoutMs) });
+  } catch (error) {
+    // Pesan untuk pengguna dibuat sederhana. Penyebab aslinya dicatat di log server.
+    const timedOut = error?.name === 'TimeoutError' || error?.name === 'AbortError';
+    const reason = timedOut ? 'melewati batas waktu' : (error?.message ?? 'tidak diketahui');
+    console.error(`Panggilan ke Kauiz ${url} gagal: ${reason}`);
+    throw new KauizError(
+      502,
+      timedOut ? 'Kauiz terlalu lama membalas. Coba lagi.' : 'Tidak bisa terhubung ke Kauiz. Coba lagi.',
+    );
   }
 }

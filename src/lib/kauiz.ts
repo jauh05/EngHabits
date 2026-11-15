@@ -14,7 +14,7 @@ async function post<T>(path: string, body: unknown, token?: string): Promise<T> 
     throw new Error('Tidak bisa terhubung ke server. Periksa koneksi lalu coba lagi.');
   }
   const data = (await response.json().catch(() => ({}))) as T & { error?: string };
-  if (!response.ok) throw new Error(data.error ?? 'Permintaan gagal. Coba lagi.');
+  if (!response.ok) throw new Error(data.error ?? `Server belum merespons dengan benar (HTTP ${response.status}). Coba lagi.`);
   return data;
 }
 
