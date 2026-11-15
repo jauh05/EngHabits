@@ -380,7 +380,7 @@ export function DashboardPage() {
               )}
             </section>
             <div id="akun-kauiz">
-              <Card tone={kauizConnected ? 'mint' : 'sun'} className="flex flex-col gap-3">
+              <Card tone={kauizConnected ? 'mint' : 'surface'} className="flex flex-col gap-3">
                 <div className="flex items-center gap-3">
                   <span className="inline-flex shrink-0 items-center gap-2" aria-hidden="true">
                     <img src={`${import.meta.env.BASE_URL}logo.png`} alt="" width={28} height={28} className="object-contain" />
