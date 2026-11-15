@@ -1,0 +1,6 @@
+[
+  {"id": "BT003-506", "day": 3, "type": "mcq", "tag": "vocab", "prompt": "Which word means 'things that belong to you and me'?", "options": [{"id": "A", "text": "mine"}, {"id": "B", "text": "theirs"}, {"id": "C", "text": "ours"}, {"id": "D", "text": "yours"}], "correct": "C", "explanation": "Ours berarti milik kita berdua."},
+  {"id": "BT003-507", "day": 3, "type": "mcq", "tag": "vocab", "prompt": "Which word means 'things that belong to the person I talk to'?", "options": [{"id": "A", "text": "mine"}, {"id": "B", "text": "ours"}, {"id": "C", "text": "theirs"}, {"id": "D", "text": "yours"}], "correct": "D", "explanation": "Yours berarti milik lawan bicara."},
+  {"id": "BT003-508", "day": 3, "type": "mcq", "tag": "vocab", "prompt": "Which word means 'the group of people in one home who are relatives'?", "options": [{"id": "A", "text": "family"}, {"id": "B", "text": "mine"}, {"id": "C", "text": "cousin"}, {"id": "D", "text": "theirs"}], "correct": "A", "explanation": "Family adalah sekelompok kerabat dalam satu keluarga."},
+  {"id": "BT003-509", "day": 3, "type": "mcq", "tag": "vocab", "prompt": "Which word means 'a person who is your mother or father'?", "options": [{"id": "A", "text": "cousin"}, {"id": "B", "text": "parent"}, {"id": "C", "text": "sister"}, {"id": "D", "text": "ours"}], "correct": "B", "explanation": "Parent adalah ibu atau ayah."}
+]

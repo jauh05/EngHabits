@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import { Volume2 } from 'lucide-react';
 import { Link, useLocation, useNavigate, useParams } from 'react-router';
 import { Badge } from '../components/ui/Badge';
 import { BattleLoading } from '../components/ui/BattleLoading';
@@ -13,16 +12,15 @@ import {
   answerBattle,
   getBattle,
   openBattleStream,
-  rateBattle,
   remainingMs,
   respondBattle,
   type BattleSnapshot,
   type PublicItem,
 } from '../lib/battle';
-import { speakDialog, splitDialog, stopSpeaking, ttsSupported } from '../lib/tts';
+import { playAnswerSound, startBattleMusic, stopBattleMusic } from '../lib/battleSound';
 import { useSettings } from '../lib/settings';
 
-/** Ruang battle real-time: soal, timer, reveal, penilaian esai, dan hasil. */
+/** Ruang battle real-time: soal, timer, reveal, dan hasil. */
 export function BattleRoomPage() {
   const { id = '' } = useParams();
   const { settings } = useSettings();
@@ -86,6 +84,15 @@ export function BattleRoomPage() {
     return () => window.clearInterval(timer);
   }, []);
 
+  const over = snap === null || snap.phase === 'finished' || ['declined', 'expired', 'cancelled'].includes(snap.status);
+
+  // Musik latar berjalan selama battle masih berlangsung dan berhenti saat selesai atau halaman ditutup.
+  useEffect(() => {
+    if (!settings.battleMusic || over) return;
+    startBattleMusic();
+    return () => stopBattleMusic();
+  }, [settings.battleMusic, over]);
+
   if (loadError) {
     return (
       <div className="flex flex-col gap-4">
@@ -145,17 +152,7 @@ export function BattleRoomPage() {
       )}
 
       {snap.phase === 'reveal' && snap.reveal && (
-        <RevealPanel snap={snap} meId={snap.you} opponentId={opponent?.id ?? ''} />
-      )}
-
-      {snap.phase === 'rating' && snap.rating && (
-        <RatingPanel
-          token={token}
-          battleId={snap.id}
-          criteria={snap.rating.criteria}
-          essays={snap.rating.essays}
-          onError={(message) => show(message, 'error')}
-        />
+        <RevealPanel snap={snap} meId={snap.you} opponentId={opponent?.id ?? ''} soundOn={settings.battleSound} />
       )}
 
       {snap.phase === 'finished' && snap.results && (
@@ -220,11 +217,9 @@ function QuestionPanel({
   token: string;
   onError: (message: string) => void;
 }) {
-  const { settings } = useSettings();
   const [choice, setChoice] = useState<string>();
   const [text, setText] = useState('');
   const [picked, setPicked] = useState<number[]>([]);
-  const [reviewing, setReviewing] = useState(false);
   const [sending, setSending] = useState(false);
   const limit = item.seconds * 1000;
   const fraction = Math.min(1, remaining / limit);
@@ -251,26 +246,6 @@ function QuestionPanel({
     }
   };
 
-  // Naskah dengar bisa berupa percakapan "A: ... B: ...". Setiap pembicara dibacakan dengan suaranya sendiri,
-  // dan labelnya ditampilkan supaya pertanyaan seperti "Apa kata B?" tetap bisa dijawab.
-  const lines = item.script ? splitDialog(item.script) : [];
-  const speakers = [...new Set(lines.map((line) => line.speaker))].filter(Boolean);
-  const [speaking, setSpeaking] = useState<number>();
-
-  // Suara berhenti saat soal berganti, supaya percakapan lama tidak ikut terbaca.
-  useEffect(() => stopSpeaking, []);
-
-  const listen = () => {
-    if (lines.length === 0) return;
-    speakDialog(lines, {
-      accent: settings.accent,
-      rate: settings.rate,
-      onLine: setSpeaking,
-      onEnd: () => setSpeaking(undefined),
-    });
-  };
-  const activeSpeaker = speaking === undefined ? undefined : lines[speaking]?.speaker;
-
   return (
     <Card className="flex flex-col gap-5">
       <div className="flex items-center justify-between gap-4">
@@ -284,33 +259,9 @@ function QuestionPanel({
         <p className="rounded-2xl bg-bg p-4 text-base leading-relaxed text-ink">{item.passage}</p>
       )}
 
-      {item.type === 'listen' && (
-        <div className="flex flex-wrap items-center gap-3">
-          <Button variant="secondary" onClick={listen} disabled={!ttsSupported()}>
-            <Volume2 size={18} aria-hidden="true" />
-            Putar lagi
-          </Button>
-          {speakers.length > 1 && (
-            <div className="flex flex-wrap gap-2" aria-label="Pembicara">
-              {speakers.map((speaker) => (
-                <span
-                  key={speaker}
-                  className={`rounded-full px-3 py-1 text-sm font-bold ${
-                    activeSpeaker === speaker ? 'bg-btn-bg text-btn-fg' : 'bg-primary-100 text-primary-700'
-                  }`}
-                >
-                  {speaker}
-                  {activeSpeaker === speaker ? ' sedang bicara' : ''}
-                </span>
-              ))}
-            </div>
-          )}
-        </div>
-      )}
-
       <p className="text-lg font-bold leading-snug text-ink">{item.prompt}</p>
 
-      {(item.type === 'mcq' || item.type === 'story' || item.type === 'listen') && item.options && (
+      {(item.type === 'mcq' || item.type === 'story') && item.options && (
         <div className="flex flex-col gap-2" role="radiogroup" aria-label="Pilihan jawaban">
           {item.options.map((option) => (
             <button
@@ -359,70 +310,6 @@ function QuestionPanel({
           <Button type="submit" disabled={answered || sending || !text.trim()} className="self-end">
             Kirim
           </Button>
-        </form>
-      )}
-
-      {item.type === 'essay' && (
-        <form
-          className="flex flex-col gap-3"
-          onSubmit={(event) => {
-            event.preventDefault();
-            if (reviewing) submit(text);
-          }}
-        >
-          {!reviewing ? (
-            <>
-              <textarea
-                value={text}
-                onChange={(event) => setText(event.target.value)}
-                disabled={answered}
-                rows={6}
-                className="rounded-2xl bg-field p-4 text-base text-ink outline-none focus:shadow-[0_0_0_3px_var(--primary-300)]"
-                placeholder="Tulis dalam bahasa Inggris"
-                aria-label="Esai"
-              />
-              <Button
-                type="button"
-                variant="secondary"
-                onClick={() => setReviewing(true)}
-                disabled={answered || !text.trim()}
-                className="self-end"
-              >
-                Cek jawaban
-              </Button>
-            </>
-          ) : (
-            <div className="flex flex-col gap-4 rounded-2xl border border-line bg-surface p-4">
-              <div className="flex items-center justify-between gap-3">
-                <p className="font-bold text-ink">Tinjau esaimu</p>
-                <span className="text-sm font-semibold tabular-nums text-muted">
-                  {text.trim().split(/\s+/).length} kata
-                </span>
-              </div>
-              <p className="whitespace-pre-wrap rounded-2xl bg-bg p-4 text-base leading-relaxed text-ink">{text}</p>
-              {item.criteria && item.criteria.length > 0 && (
-                <div className="flex flex-col gap-2">
-                  <p className="text-sm font-semibold text-muted">Periksa sebelum kirim:</p>
-                  <ul className="flex flex-col gap-1 text-sm text-ink">
-                    {item.criteria.map((criterion) => (
-                      <li key={criterion} className="flex gap-2">
-                        <span aria-hidden="true">•</span>
-                        <span>{criterion}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-              <div className="flex flex-wrap justify-end gap-3">
-                <Button type="button" variant="secondary" onClick={() => setReviewing(false)} disabled={answered || sending}>
-                  Ubah
-                </Button>
-                <Button type="submit" disabled={answered || sending || !text.trim()}>
-                  Kirim esai
-                </Button>
-              </div>
-            </div>
-          )}
         </form>
       )}
 
@@ -494,109 +381,42 @@ function ReorderArea({
   );
 }
 
-function RevealPanel({ snap, meId, opponentId }: { snap: BattleSnapshot; meId: string; opponentId: string }) {
+function RevealPanel({
+  snap,
+  meId,
+  opponentId,
+  soundOn,
+}: {
+  snap: BattleSnapshot;
+  meId: string;
+  opponentId: string;
+  soundOn: boolean;
+}) {
   const reveal = snap.reveal!;
   const mine = reveal.results[meId];
   const theirs = reveal.results[opponentId];
+  const correct = Boolean(mine?.correct);
+
+  // Bunyi dibunyikan sekali per soal. Tidak menjawab dihitung salah.
+  useEffect(() => {
+    if (soundOn) playAnswerSound(correct);
+  }, [reveal.round, soundOn, correct]);
+
   return (
     <Card className="flex flex-col gap-4">
-      {reveal.type === 'essay' ? (
-        <div className="flex flex-wrap items-center gap-2">
-          <Badge>{mine?.answered ? 'Esai terkirim' : 'Tidak menjawab'}</Badge>
-          <span className="text-sm text-muted">Esai dinilai sendiri setelah semua soal selesai.</span>
-        </div>
-      ) : (
-        <div className="flex flex-wrap items-center gap-2">
-          <Badge tone={mine?.correct ? 'easy' : 'hard'}>{mine?.correct ? 'Benar' : mine?.answered ? 'Belum tepat' : 'Tidak menjawab'}</Badge>
-          <span className="text-sm font-semibold text-ink">+{mine?.points ?? 0} poin</span>
-          <span className="text-sm text-muted">Lawan: +{theirs?.points ?? 0}</span>
-        </div>
-      )}
+      <div className="flex flex-wrap items-center gap-2">
+        <Badge tone={correct ? 'easy' : 'hard'}>{correct ? 'Benar' : mine?.answered ? 'Belum tepat' : 'Tidak menjawab'}</Badge>
+        <span className="text-sm font-semibold text-ink">+{mine?.points ?? 0} poin</span>
+        <span className="text-sm text-muted">Lawan: +{theirs?.points ?? 0}</span>
+      </div>
       {reveal.correct && (
         <p className="text-sm text-ink">
           Jawaban benar: <span className="font-bold">{reveal.correct}</span>
         </p>
       )}
       {reveal.explanation && <p className="text-sm text-muted">{reveal.explanation}</p>}
-      {reveal.modelAnswer && (
-        <p className="rounded-2xl bg-bg p-4 text-sm text-ink">
-          Contoh jawaban: {reveal.modelAnswer}
-        </p>
-      )}
       <p className="text-center text-sm font-semibold text-muted">Soal berikutnya segera dimulai…</p>
     </Card>
-  );
-}
-
-function RatingPanel({
-  token,
-  battleId,
-  criteria,
-  essays,
-  onError,
-}: {
-  token: string;
-  battleId: string;
-  criteria: string[];
-  essays: Array<{ index: number; answer: string; model: string; rated: boolean }>;
-  onError: (message: string) => void;
-}) {
-  const [scores, setScores] = useState<Record<number, number[]>>({});
-  const pending = essays.filter((essay) => !essay.rated);
-
-  const save = async (index: number) => {
-    const values = scores[index] ?? criteria.map(() => 0);
-    try {
-      await rateBattle(token, battleId, index, values);
-    } catch (caught) {
-      onError(caught instanceof Error ? caught.message : 'Nilai tidak tersimpan.');
-    }
-  };
-
-  return (
-    <div className="flex flex-col gap-4">
-      <Card className="flex flex-col gap-2">
-        <h2 className="text-xl font-bold text-ink">Nilai esaimu sendiri</h2>
-        <p className="text-sm text-muted">Bandingkan dengan contoh, lalu beri nilai 0 sampai 2 untuk tiap kriteria. Nilai ini ikut skor.</p>
-      </Card>
-      {pending.length === 0 && <p className="text-center text-sm font-semibold text-muted">Menunggu lawan menilai esainya…</p>}
-      {pending.map((essay) => (
-        <Card key={essay.index} className="flex flex-col gap-4">
-          <p className="text-sm font-semibold text-ink">Jawabanmu:</p>
-          <p className="rounded-2xl bg-bg p-4 text-ink">{essay.answer || '(kosong)'}</p>
-          <p className="text-sm text-muted">Contoh: {essay.model}</p>
-          {criteria.map((criterion, column) => (
-            <div key={criterion} className="flex items-center justify-between gap-3">
-              <span className="text-sm font-semibold text-ink">{criterion}</span>
-              <div className="flex gap-2">
-                {[0, 1, 2].map((value) => (
-                  <button
-                    key={value}
-                    type="button"
-                    aria-pressed={(scores[essay.index] ?? [])[column] === value}
-                    onClick={() =>
-                      setScores((current) => {
-                        const row = [...(current[essay.index] ?? criteria.map(() => 0))];
-                        row[column] = value;
-                        return { ...current, [essay.index]: row };
-                      })
-                    }
-                    className={`size-11 rounded-full font-bold ${
-                      (scores[essay.index] ?? [])[column] === value ? 'bg-btn-bg text-btn-fg' : 'bg-primary-100 text-primary-700'
-                    }`}
-                  >
-                    {value}
-                  </button>
-                ))}
-              </div>
-            </div>
-          ))}
-          <Button onClick={() => save(essay.index)} className="self-end">
-            Simpan nilai
-          </Button>
-        </Card>
-      ))}
-    </div>
   );
 }
 
@@ -630,8 +450,6 @@ function typeLabel(type: PublicItem['type']): string {
     mcq: 'Pilihan ganda',
     translate: 'Terjemahan',
     story: 'Cerita',
-    essay: 'Esai',
-    listen: 'Dengar',
     reorder: 'Susun kalimat',
   };
   return labels[type];

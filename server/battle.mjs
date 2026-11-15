@@ -8,7 +8,6 @@ export const INVITE_TTL_MS = 10 * 60_000;
 export const TOTALS = [8, 10, 15, 20];
 export const LIVES = 3;
 /** Batas waktu penilaian esai. Yang belum dinilai dihitung 0 saat waktu habis. */
-export const RATING_MS = 3 * 60_000;
 const MAX_DAY = 90;
 
 /** Mode battle: tipe soal yang boleh dipakai, filter tag opsional, dan waktu per soal (detik). */
@@ -18,17 +17,14 @@ export const MODES = {
   tata_bahasa: { types: ['mcq'], tag: 'grammar', seconds: 20, label: 'Tata Bahasa' },
   kosakata: { types: ['mcq'], tag: 'vocab', seconds: 15, label: 'Kosakata' },
   cerita: { types: ['story'], seconds: 60, label: 'Cerita' },
-  esai: { types: ['essay'], seconds: 120, label: 'Esai' },
-  campuran: { types: ['mcq', 'translate', 'story', 'essay'], label: 'Campuran' },
-  dengar: { types: ['listen'], seconds: 25, label: 'Dengar' },
   susun: { types: ['reorder'], seconds: 30, label: 'Susun Kalimat' },
   bertahan: { types: ['mcq', 'translate'], lives: LIVES, seconds: 20, label: 'Bertahan' },
 };
 
-const DEFAULT_SECONDS = { mcq: 15, translate: 40, story: 60, essay: 120, listen: 25, reorder: 30 };
+const DEFAULT_SECONDS = { mcq: 15, translate: 40, story: 60, reorder: 30 };
 
 const MAX_MODES = 3;
-const ORDER = ['mcq', 'translate', 'story', 'essay', 'listen', 'reorder'];
+const ORDER = ['mcq', 'translate', 'story', 'reorder'];
 
 /**
  * Aturan satu mode atau gabungan mode (dipisah '+', maksimal 3). Gabungan memakai union tipe soal,
@@ -43,7 +39,6 @@ export function specFor(modeString) {
     const only = specs[0];
     return { ...only, id: ids[0], tags: only.tag ? [only.tag] : undefined };
   }
-  if (ids.includes('campuran')) return undefined;
   const types = ORDER.filter((type) => specs.some((spec) => spec.types.includes(type)));
   const mcqSpecs = specs.filter((spec) => spec.types.includes('mcq'));
   const tags = mcqSpecs.length > 0 && mcqSpecs.every((spec) => spec.tag)
@@ -66,17 +61,7 @@ function evenComposition(types, total) {
   return out;
 }
 
-/** Komposisi standar untuk mode Campuran dan Bertahan, mengikuti total soal. */
-export const DEFAULT_COMPOSITION = {
-  8: { mcq: 4, translate: 2, story: 1, essay: 1 },
-  10: { mcq: 5, translate: 2, story: 2, essay: 1 },
-  15: { mcq: 7, translate: 3, story: 3, essay: 2 },
-  20: { mcq: 9, translate: 4, story: 4, essay: 3 },
-};
-
-export const ESSAY_CRITERIA = ['Isi dan ide', 'Tata bahasa', 'Kosakata dan kelancaran'];
-
-/** Normalisasi jawaban terjemahan dan susun kalimat: tanpa aksen, huruf kecil, tanpa tanda baca. */
+/** Normalisasi jawaban susun kalimat: tanpa aksen, huruf kecil, tanpa tanda baca, spasi tunggal. */
 export function normalizeAnswer(text) {
   return String(text ?? '')
     .normalize('NFKD')
@@ -86,6 +71,32 @@ export function normalizeAnswer(text) {
     .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim()
     .replace(/\s+/g, ' ');
+}
+
+/** Bentuk panjang kata bantu yang sering disingkat. Dipakai sebelum normalisasi, supaya "don't" sama dengan "do not". */
+const CONTRACTIONS = {
+  "i'm": 'i am', "you're": 'you are', "he's": 'he is', "she's": 'she is', "it's": 'it is',
+  "we're": 'we are', "they're": 'they are', "i've": 'i have', "you've": 'you have',
+  "we've": 'we have', "they've": 'they have', "i'll": 'i will', "you'll": 'you will',
+  "he'll": 'he will', "she'll": 'she will', "it'll": 'it will', "we'll": 'we will',
+  "they'll": 'they will', "i'd": 'i would', "you'd": 'you would', "we'd": 'we would',
+  "they'd": 'they would', "he'd": 'he would', "she'd": 'she would',
+  "don't": 'do not', "doesn't": 'does not', "didn't": 'did not', "isn't": 'is not',
+  "aren't": 'are not', "wasn't": 'was not', "weren't": 'were not', "haven't": 'have not',
+  "hasn't": 'has not', "hadn't": 'had not', "won't": 'will not', "wouldn't": 'would not',
+  "shouldn't": 'should not', "couldn't": 'could not', "can't": 'can not', "cannot": 'can not',
+  "let's": 'let us', "that's": 'that is', "there's": 'there is', "what's": 'what is',
+  "who's": 'who is', "where's": 'where is', "how's": 'how is',
+};
+const CONTRACTION_PATTERN = new RegExp(`\\b(${Object.keys(CONTRACTIONS).map((word) => word.replace("'", "['’]")).join('|')})\\b`, 'gi');
+
+/**
+ * Normalisasi jawaban terjemahan. Huruf besar, tanda baca, dan spasi tidak dihitung. Bentuk singkat dan panjang
+ * dianggap sama ("I'm" = "I am"). Varian lain yang setara ditulis di daftar acceptedAnswers soal itu sendiri.
+ */
+export function normalizeTranslation(text) {
+  const expanded = String(text ?? '').replace(CONTRACTION_PATTERN, (match) => CONTRACTIONS[match.toLowerCase().replace('’', "'")]);
+  return normalizeAnswer(expanded);
 }
 
 /** Level = hari pertama yang belum lulus. Semua hari sudah lulus berarti 90. */
@@ -100,8 +111,7 @@ export function levelFromMastered(mastered) {
 export function compositionFor(mode, total, custom) {
   const spec = specFor(mode);
   if (!spec) return custom ?? {};
-  if (mode === 'campuran') return custom ?? DEFAULT_COMPOSITION[total];
-  if (spec && spec.id.includes('+')) return custom ?? evenComposition(spec.types, total);
+  if (spec.id.includes('+')) return custom ?? evenComposition(spec.types, total);
   if (mode === 'bertahan') {
     const translate = Math.floor(total / 3);
     return { mcq: total - translate, translate };
@@ -119,8 +129,6 @@ export function validateComposition(mode, total, composition) {
   }
   const sum = entries.reduce((total, [, count]) => total + count, 0);
   if (sum !== total) return `Jumlah tipe soal harus tepat ${total}.`;
-  const mixed = mode === 'campuran' || mode.includes('+');
-  if (mixed && (composition.essay ?? 0) > Math.floor(total / 2)) return 'Esai paling banyak setengah dari total soal.';
   return null;
 }
 
@@ -128,18 +136,21 @@ export function validateComposition(mode, total, composition) {
 export function publicItem(item) {
   const base = { index: item.index, type: item.type, prompt: item.prompt, seconds: item.seconds };
   if (item.type === 'story') base.passage = item.passage;
-  if (item.type === 'listen') base.script = item.script;
   if (item.type === 'reorder') base.words = item.words;
-  if (item.type === 'essay') base.criteria = ESSAY_CRITERIA;
   if (item.options) base.options = item.options;
   return base;
 }
 
+/** Jawaban terjemahan benar bila sama dengan salah satu varian yang diterima, setelah normalisasi. */
+export function isTranslationCorrect(item, answer) {
+  const given = normalizeTranslation(answer);
+  return item.acceptedAnswers.some((accepted) => normalizeTranslation(accepted) === given);
+}
+
 function scoreAnswer(item, answer, elapsedMs, limitMs) {
-  if (item.type === 'essay') return { correct: null, points: 0 };
   let correct;
   if (item.type === 'translate') {
-    correct = item.acceptedAnswers.map(normalizeAnswer).includes(normalizeAnswer(answer));
+    correct = isTranslationCorrect(item, answer);
   } else if (item.type === 'reorder') {
     correct = normalizeAnswer(answer) === normalizeAnswer(item.acceptedAnswers[0]);
   } else {
@@ -160,7 +171,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
   const setStatus = db.prepare('UPDATE battles SET status = ?, winner_id = ?, updated_at = ? WHERE id = ?');
   const findBattle = db.prepare('SELECT * FROM battles WHERE id = ?');
   const activeFor = db.prepare(
-    "SELECT id FROM battles WHERE (creator_id = ? OR opponent_id = ?) AND status IN ('pending', 'active', 'rating') LIMIT 1",
+    "SELECT id FROM battles WHERE (creator_id = ? OR opponent_id = ?) AND status IN ('pending', 'active') LIMIT 1",
   );
   const insertItem = db.prepare('INSERT INTO battle_items (battle_id, idx, item_id, type, payload) VALUES (?, ?, ?, ?, ?)');
   const itemsOf = db.prepare('SELECT idx, item_id, type, payload FROM battle_items WHERE battle_id = ? ORDER BY idx');
@@ -168,8 +179,6 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     'INSERT OR REPLACE INTO battle_answers (battle_id, idx, user_id, answer, correct, points, elapsed_ms) VALUES (?, ?, ?, ?, ?, ?, ?)',
   );
   const answersOf = db.prepare('SELECT idx, user_id, answer, correct, points, elapsed_ms FROM battle_answers WHERE battle_id = ?');
-  const insertRating = db.prepare('INSERT OR REPLACE INTO battle_ratings (battle_id, idx, user_id, points) VALUES (?, ?, ?, ?)');
-  const ratingsOf = db.prepare('SELECT idx, user_id, points FROM battle_ratings WHERE battle_id = ?');
   const usedByStmt = db.prepare('SELECT item_id FROM used_items WHERE user_id = ?');
   const markUsed = db.prepare('INSERT OR IGNORE INTO used_items (user_id, item_id) VALUES (?, ?)');
   const masteredOf = db.prepare('SELECT day FROM mastered_days WHERE user_id = ?');
@@ -275,13 +284,10 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       type: item.type,
       prompt: item.prompt,
       passage: item.passage,
-      script: item.script,
       options: item.options,
       words: item.type === 'reorder' ? shuffleWords(item.acceptedAnswers[0]) : undefined,
       acceptedAnswers: item.acceptedAnswers,
       correct: item.correct,
-      modelAnswer: item.modelAnswer,
-      rubric: item.rubric,
       explanation: item.explanation,
       seconds: spec.seconds ?? DEFAULT_SECONDS[item.type],
     }));
@@ -351,20 +357,8 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       current: currentItem && room.phase === 'question' ? publicItem(currentItem) : null,
       answered: { you: Boolean(myAnswer), opponent: Boolean(opponentAnswered) },
       reveal: room.lastReveal,
-      rating: room.phase === 'rating' ? essayRatingState(room, viewerId) : null,
       results: room.phase === 'finished' ? room.results : null,
     };
-  }
-
-  function essayRatingState(room, viewerId) {
-    const essays = room.items.filter((item) => item.type === 'essay');
-    const mine = essays.map((item) => ({
-      index: item.index,
-      answer: room.answers.get(item.index)?.get(viewerId)?.answer ?? '',
-      model: item.modelAnswer,
-      rated: Boolean(room.ratings?.get(`${item.index}:${viewerId}`)),
-    }));
-    return { criteria: ESSAY_CRITERIA, essays: mine };
   }
 
   function broadcast(room) {
@@ -383,7 +377,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
 
   function startRound(room) {
     room.round += 1;
-    if (room.round >= room.items.length) return startRating(room);
+    if (room.round >= room.items.length) return finish(room);
     room.phase = 'countdown';
     room.deadlineAt = null;
     room.lastReveal = null;
@@ -414,20 +408,17 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       results[id] = { answered: true, correct: entry.correct, points: entry.points, answer: entry.answer };
       room.scores[id] = (room.scores[id] ?? 0) + entry.points;
     }
-    if (item.type !== 'essay') {
-      // Mode Bertahan: jawaban salah atau tidak menjawab mengurangi satu nyawa.
-      for (const id of playersOf(room)) {
-        if (room.lives[id] !== null && !results[id].correct) room.lives[id] -= 1;
-      }
+    // Mode Bertahan: jawaban salah atau tidak menjawab mengurangi satu nyawa.
+    for (const id of playersOf(room)) {
+      if (room.lives[id] !== null && !results[id].correct) room.lives[id] -= 1;
     }
     room.phase = 'reveal';
     room.deadlineAt = null;
     room.lastReveal = {
       round: room.round,
       type: item.type,
-      correct: item.type === 'essay' ? null : item.correct ?? item.acceptedAnswers?.[0] ?? null,
+      correct: item.correct ?? item.acceptedAnswers?.[0] ?? null,
       explanation: item.explanation ?? null,
-      modelAnswer: item.type === 'essay' ? item.modelAnswer : null,
       limitMs,
       results,
     };
@@ -446,34 +437,12 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     }
   }
 
-  function startRating(room) {
-    const essays = room.items.filter((item) => item.type === 'essay');
-    if (essays.length === 0) return finish(room);
-    room.phase = 'rating';
-    room.status = 'rating';
-    room.ratings = new Map();
-    setStatus.run('rating', null, iso(), room.id);
-    broadcast(room);
-    later(room, RATING_MS, () => finish(room));
-  }
-
   function finish(room) {
     clearTimers(room);
     room.phase = 'finished';
     room.status = 'finished';
     const totals = {};
-    const timeTotals = {};
-    for (const id of playersOf(room)) {
-      totals[id] = room.scores[id] ?? 0;
-      timeTotals[id] = 0;
-    }
-    for (const byUser of room.answers.values()) {
-      for (const [id, entry] of byUser) timeTotals[id] += entry.elapsedMs;
-    }
-    for (const [key, points] of room.ratings ?? []) {
-      const userId = key.split(':')[1];
-      totals[userId] += points;
-    }
+    for (const id of playersOf(room)) totals[id] = room.scores[id] ?? 0;
     const [a, b] = playersOf(room);
     // Total poin yang sama berarti seri.
     const winnerId = totals[a] === totals[b] ? null : totals[a] > totals[b] ? a : b;
@@ -486,7 +455,6 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
         type: item.type,
         prompt: item.prompt,
         correct: item.correct ?? item.acceptedAnswers?.[0] ?? null,
-        modelAnswer: item.modelAnswer ?? null,
       })),
     };
     setStatus.run('finished', winnerId, iso(), room.id);
@@ -632,27 +600,6 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       return { received: true };
     },
 
-    rate(battleId, userId, idx, scores) {
-      const room = loadRoom(battleId);
-      if (!room || !playersOf(room).includes(userId) || room.phase !== 'rating') {
-        throw new BattleError(409, 'Belum waktunya menilai esai.');
-      }
-      const item = room.items[idx];
-      if (!item || item.type !== 'essay') throw new BattleError(400, 'Soal ini bukan esai.');
-      const list = Array.isArray(scores) ? scores.map(Number) : [];
-      if (list.length !== ESSAY_CRITERIA.length || list.some((value) => ![0, 1, 2].includes(value))) {
-        throw new BattleError(400, 'Setiap kriteria dinilai 0, 1, atau 2.');
-      }
-      const points = list.reduce((sum, value) => sum + value, 0) * 2;
-      room.ratings.set(`${idx}:${userId}`, points);
-      insertRating.run(battleId, idx, userId, points);
-      const essays = room.items.filter((entry) => entry.type === 'essay');
-      const done = essays.every((entry) => playersOf(room).every((id) => room.ratings.has(`${entry.index}:${id}`)));
-      if (done) finish(room);
-      else broadcast(room);
-      return { rated: true };
-    },
-
     stateFor(battleId, userId) {
       const row = findBattle.get(battleId);
       if (!row || (row.creator_id !== userId && row.opponent_id !== userId)) throw new BattleError(404, 'Battle tidak ditemukan.');
@@ -665,7 +612,6 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
           winnerId: row.winner_id,
           you: userId,
           answers: answersOf.all(battleId),
-          ratings: ratingsOf.all(battleId),
           items: itemsOf.all(battleId).map((item) => ({ idx: item.idx, type: item.type, ...publicResult(JSON.parse(item.payload)) })),
         };
       }
@@ -704,7 +650,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
 
     /** Saat service dimulai ulang, battle yang masih berjalan di memori dianggap batal. */
     cancelInterrupted() {
-      db.exec("UPDATE battles SET status = 'cancelled', updated_at = '" + iso() + "' WHERE status IN ('active', 'rating')");
+      db.exec("UPDATE battles SET status = 'cancelled', updated_at = '" + iso() + "' WHERE status = 'active'");
     },
 
     userPublic: nameOf,
@@ -729,7 +675,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
 }
 
 function publicResult(item) {
-  return { prompt: item.prompt, correct: item.correct ?? item.acceptedAnswers?.[0] ?? null, modelAnswer: item.modelAnswer ?? null, explanation: item.explanation ?? null };
+  return { prompt: item.prompt, correct: item.correct ?? item.acceptedAnswers?.[0] ?? null, explanation: item.explanation ?? null };
 }
 
 function normalizeComposition(input) {
@@ -775,13 +721,6 @@ export function ensureBattleSchema(db) {
       correct INTEGER NOT NULL,
       points INTEGER NOT NULL,
       elapsed_ms INTEGER NOT NULL,
-      PRIMARY KEY (battle_id, idx, user_id)
-    );
-    CREATE TABLE IF NOT EXISTS battle_ratings (
-      battle_id TEXT NOT NULL,
-      idx INTEGER NOT NULL,
-      user_id TEXT NOT NULL,
-      points INTEGER NOT NULL,
       PRIMARY KEY (battle_id, idx, user_id)
     );
     CREATE TABLE IF NOT EXISTS friends (

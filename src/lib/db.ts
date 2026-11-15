@@ -52,6 +52,10 @@ export type Settings = {
   signedIn: boolean;
   /** Tampilan Peta 90 hari: roadmap seperti gambar referensi, atau kisi minggu. */
   mapView: 'roadmap' | 'grid';
+  /** Musik latar saat battle berlangsung. */
+  battleMusic: boolean;
+  /** Bunyi benar dan salah saat battle. */
+  battleSound: boolean;
 };
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -59,6 +63,8 @@ export const DEFAULT_SETTINGS: Settings = {
   reduceMotion: false,
   accent: 'en-US',
   rate: 0.9,
+  battleMusic: true,
+  battleSound: true,
   reminderEnabled: false,
   lastReminderDate: '',
   name: '',

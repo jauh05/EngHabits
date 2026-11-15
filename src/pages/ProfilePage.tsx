@@ -315,6 +315,35 @@ export function ProfilePage() {
         </p>
       </SectionCard>
 
+      <SectionCard icon={Volume2} tint={SECTION_TINT.voice} title="Musik dan bunyi battle">
+        <label className="flex min-h-11 items-center justify-between gap-4">
+          <span className="flex flex-col">
+            <span className="font-semibold text-ink">Musik latar</span>
+            <span className="text-sm text-muted">Musik pelan saat battle berlangsung. Dibuat di perangkat, tanpa unduhan.</span>
+          </span>
+          <input
+            type="checkbox"
+            role="switch"
+            checked={settings.battleMusic}
+            onChange={(event) => set({ battleMusic: event.target.checked })}
+            className="size-6 accent-primary-500"
+          />
+        </label>
+        <label className="flex min-h-11 items-center justify-between gap-4">
+          <span className="flex flex-col">
+            <span className="font-semibold text-ink">Bunyi benar dan salah</span>
+            <span className="text-sm text-muted">Nada naik untuk jawaban benar, nada turun untuk jawaban salah.</span>
+          </span>
+          <input
+            type="checkbox"
+            role="switch"
+            checked={settings.battleSound}
+            onChange={(event) => set({ battleSound: event.target.checked })}
+            className="size-6 accent-primary-500"
+          />
+        </label>
+      </SectionCard>
+
       <SectionCard icon={Bell} tint={SECTION_TINT.reminder} title="Pengingat harian">
         <label className="flex min-h-11 items-center justify-between gap-4">
           <span className="flex flex-col">

@@ -4,9 +4,9 @@ import { join } from 'node:path';
 import { DatabaseSync } from 'node:sqlite';
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import { createApp, openDatabase } from './app.mjs';
-import { levelFromMastered, normalizeAnswer } from './battle.mjs';
+import { isTranslationCorrect, levelFromMastered, normalizeAnswer, normalizeTranslation } from './battle.mjs';
 
-// Bank kecil dengan tepat satu battle campuran 8 soal untuk pool hari 1–4. Soal hari 5 ikut sebagai penjaga.
+// Bank kecil untuk pool hari 1–4. Soal hari 5 ikut sebagai penjaga, dan tidak boleh terpakai di battle hari 4.
 const BANK = [
   { id: 'BT001-001', day: 1, type: 'mcq', tag: 'grammar', prompt: 'Pilih kata kerja yang benar: She ___ a student.', options: [{ id: 'A', text: 'are' }, { id: 'B', text: 'is' }, { id: 'C', text: 'be' }, { id: 'D', text: 'am' }], correct: 'B', explanation: 'She memakai is.' },
   { id: 'BT002-001', day: 2, type: 'mcq', tag: 'vocab', prompt: 'Arti kata "bread" adalah...', options: [{ id: 'A', text: 'nasi' }, { id: 'B', text: 'roti' }, { id: 'C', text: 'susu' }, { id: 'D', text: 'telur' }], correct: 'B', explanation: 'Bread berarti roti.' },
@@ -15,15 +15,15 @@ const BANK = [
   { id: 'BT005-001', day: 5, type: 'mcq', tag: 'vocab', prompt: 'Hari kelima: pilih arti "river".', options: [{ id: 'A', text: 'sungai' }, { id: 'B', text: 'gunung' }, { id: 'C', text: 'hutan' }, { id: 'D', text: 'laut' }], correct: 'A', explanation: 'River berarti sungai.' },
   { id: 'BT001-002', day: 1, type: 'translate', prompt: 'Saya suka membaca buku.', acceptedAnswers: ['I like reading books.'], explanation: 'Gunakan like + reading.' },
   { id: 'BT003-002', day: 3, type: 'translate', prompt: 'Dia pergi ke sekolah.', acceptedAnswers: ['He goes to school.'], explanation: 'Gunakan goes.' },
+  { id: 'BT002-003', day: 2, type: 'translate', prompt: 'Saya ada di rumah kemarin.', acceptedAnswers: ['I was at home yesterday', 'I was home yesterday'], explanation: 'Kemarin memakai was.' },
   { id: 'BT002-002', day: 2, type: 'story', prompt: 'Apa yang dilakukan Dina setelah makan?', passage: 'Dina eats breakfast at seven. After that, she walks to school with her brother.', options: [{ id: 'A', text: 'Dia berjalan ke sekolah.' }, { id: 'B', text: 'Dia tidur.' }, { id: 'C', text: 'Dia menonton TV.' }, { id: 'D', text: 'Dia membaca koran.' }], correct: 'A', explanation: 'Teks menyebut walks to school.' },
-  { id: 'BT004-002', day: 4, type: 'essay', prompt: 'Tulis 3 kalimat tentang rutinitas pagimu.', modelAnswer: 'I wake up at six. I brush my teeth. I eat breakfast.', rubric: [{ criterion: 'isi' }, { criterion: 'tata bahasa' }, { criterion: 'kosakata' }], explanation: 'Gunakan simple present.' },
 ];
+
+const MIXED = 'kilat+terjemahan+cerita';
 
 let server;
 let base;
 let db;
-
-const correctFor = (prompt) => BANK.find((item) => item.prompt === prompt);
 
 async function call(method, path, token, body) {
   const response = await fetch(`${base}${path}`, {
@@ -116,8 +116,9 @@ describe('battle real-time', () => {
 
     const invite = await call('POST', '/api/battles', a.token, {
       opponentPublicId: b.publicId,
-      mode: 'campuran',
+      mode: MIXED,
       total: 8,
+      composition: { mcq: 4, translate: 3, story: 1 },
     });
     expect(invite.status).toBe(201);
     expect(invite.data.poolDay).toBe(4);
@@ -143,11 +144,12 @@ describe('battle real-time', () => {
     await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
     await call('PUT', '/api/progress/mastered', b.token, { days: [1, 2, 3] });
 
-    const first = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'campuran', total: 8 });
+    const composition = { mcq: 4, translate: 3, story: 1 };
+    const first = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: MIXED, total: 8, composition });
     await call('POST', `/api/battles/${first.data.battleId}/respond`, b.token, { accept: true });
     await playToEnd(first.data.battleId, a.token, b.token);
 
-    const second = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'campuran', total: 8 });
+    const second = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: MIXED, total: 8, composition });
     const response = await call('POST', `/api/battles/${second.data.battleId}/respond`, b.token, { accept: true });
     expect(response.status).toBe(200);
     const row = db.prepare('SELECT total FROM battles WHERE id = ?').get(second.data.battleId);
@@ -159,7 +161,7 @@ describe('battle real-time', () => {
     const b = await registerUser('Lulu', 'lulu@contoh.id');
     const bad = await call('POST', '/api/battles', a.token, {
       opponentPublicId: b.publicId,
-      mode: 'campuran',
+      mode: MIXED,
       total: 8,
       composition: { mcq: 3, translate: 2 },
     });
@@ -171,6 +173,15 @@ describe('battle real-time', () => {
     const response = await call('POST', '/api/battles', a.token, { opponentPublicId: a.publicId, mode: 'kilat', total: 8 });
     expect(response.status).toBe(400);
   });
+
+  it('mode yang sudah dihapus ditolak', async () => {
+    const a = await registerUser('Nadia', 'nadia.removed@contoh.id');
+    const b = await registerUser('Oki', 'oki.removed@contoh.id');
+    for (const mode of ['esai', 'dengar', 'campuran']) {
+      const response = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode, total: 8 });
+      expect(response.status).toBe(400);
+    }
+  });
 });
 
 /** Memainkan battle sampai selesai. Pemain A selalu benar, pemain B selalu salah. */
@@ -179,37 +190,60 @@ async function playToEnd(battleId, tokenA, tokenB) {
     const state = (await call('GET', `/api/battles/${battleId}`, tokenA)).data;
     if (state.status === 'finished') return state;
     if (state.phase === 'question' && state.current) {
-      const item = correctFor(state.current.prompt);
-      const answerA = answerFor(item, true);
-      const answerB = answerFor(item, false);
-      await call('POST', `/api/battles/${battleId}/answer`, tokenA, { idx: state.current.index, answer: answerA });
-      await call('POST', `/api/battles/${battleId}/answer`, tokenB, { idx: state.current.index, answer: answerB });
-    }
-    if (state.phase === 'rating' && state.rating) {
-      for (const essay of state.rating.essays.filter((entry) => !entry.rated)) {
-        await call('POST', `/api/battles/${battleId}/rate`, tokenA, { idx: essay.index, scores: [2, 2, 2] });
-        await call('POST', `/api/battles/${battleId}/rate`, tokenB, { idx: essay.index, scores: [0, 0, 0] });
-      }
+      const item = BANK.find((entry) => entry.prompt === state.current.prompt);
+      await call('POST', `/api/battles/${battleId}/answer`, tokenA, { idx: state.current.index, answer: answerFor(state.current, item, true) });
+      await call('POST', `/api/battles/${battleId}/answer`, tokenB, { idx: state.current.index, answer: answerFor(state.current, item, false) });
     }
     await new Promise((resolve) => setTimeout(resolve, 15));
   }
   throw new Error('battle tidak selesai');
 }
 
-function answerFor(item, right) {
-  if (item.type === 'mcq' || item.type === 'story' || item.type === 'listen') {
-    if (right) return item.correct;
-    return item.options.find((option) => option.id !== item.correct).id;
+/** Jawaban untuk soal yang sedang tampil. Pilihan diacak server, jadi huruf dicari lewat teks opsi. */
+function answerFor(current, item, right) {
+  if (item.type === 'mcq' || item.type === 'story') {
+    const correctText = item.options.find((option) => option.id === item.correct).text;
+    const wanted = right ? correctText : item.options.find((option) => option.id !== item.correct).text;
+    return current.options.find((option) => option.text === wanted).id;
   }
   if (item.type === 'translate') return right ? item.acceptedAnswers[0] : 'tidak tahu';
-  if (item.type === 'reorder') return right ? item.acceptedAnswers[0] : 'salah urutan';
-  return 'jawaban esai';
+  return right ? item.acceptedAnswers[0] : 'salah urutan';
 }
 
 describe('normalisasi jawaban', () => {
-  it('huruf besar, tanda baca, dan aksen tidak mengubah jawaban yang benar', () => {
+  it('huruf besar, tanda baca, dan aksen tidak mengubah jawaban susun kalimat', () => {
     expect(normalizeAnswer('  I LIKE READING, books! ')).toBe('i like reading books');
     expect(normalizeAnswer('café')).toBe('cafe');
+  });
+});
+
+describe('toleransi jawaban terjemahan', () => {
+  const home = BANK.find((item) => item.id === 'BT002-003');
+
+  it('varian yang sama artinya diterima, termasuk kalimat yang sedikit lebih singkat dalam daftar', () => {
+    expect(isTranslationCorrect(home, 'I was at home yesterday')).toBe(true);
+    expect(isTranslationCorrect(home, 'I was home yesterday')).toBe(true);
+  });
+
+  it('huruf besar, tanda baca, dan spasi berlebih tidak dihitung', () => {
+    expect(isTranslationCorrect(home, 'i was at home yesterday.')).toBe(true);
+    expect(isTranslationCorrect(home, '  I   WAS at   home yesterday!! ')).toBe(true);
+    expect(isTranslationCorrect(home, 'I was home, yesterday')).toBe(true);
+  });
+
+  it('bentuk singkat dan panjang dianggap sama', () => {
+    const contracted = { acceptedAnswers: ['I am a student', 'You do not need a car'] };
+    expect(isTranslationCorrect(contracted, "I'm a student")).toBe(true);
+    expect(isTranslationCorrect(contracted, "you don't need a car")).toBe(true);
+    expect(isTranslationCorrect({ acceptedAnswers: ['I can not swim'] }, "I can't swim")).toBe(true);
+    expect(normalizeTranslation("They're here")).toBe('they are here');
+  });
+
+  it('jawaban dengan arti berbeda tetap salah', () => {
+    expect(isTranslationCorrect(home, 'I was at work yesterday')).toBe(false);
+    expect(isTranslationCorrect(home, 'I am at home yesterday')).toBe(false);
+    expect(isTranslationCorrect(home, 'I was at home')).toBe(false);
+    expect(isTranslationCorrect(home, '')).toBe(false);
   });
 });
 
@@ -219,16 +253,16 @@ describe('gabungan mode', () => {
     const b = await registerUser('Sari', 'sari.mode@contoh.id');
     const ok = await call('POST', '/api/battles', a.token, {
       opponentPublicId: b.publicId,
-      mode: 'kilat+esai',
+      mode: 'kilat+cerita',
       total: 8,
-      composition: { mcq: 4, essay: 4 },
+      composition: { mcq: 4, story: 4 },
     });
     expect(ok.status).toBe(201);
     const c = await registerUser('Wawan', 'wawan.mode@contoh.id');
     const x = await registerUser('Xena', 'xena.mode@contoh.id');
     const tooMany = await call('POST', '/api/battles', c.token, {
       opponentPublicId: x.publicId,
-      mode: 'kilat+esai+cerita+dengar',
+      mode: 'kilat+terjemahan+cerita+bertahan',
       total: 8,
       composition: { mcq: 8 },
     });
@@ -240,7 +274,7 @@ describe('gabungan mode', () => {
     const b = await registerUser('Umar', 'umar.mode@contoh.id');
     const bad = await call('POST', '/api/battles', a.token, {
       opponentPublicId: b.publicId,
-      mode: 'kilat+esai',
+      mode: 'kilat+terjemahan',
       total: 8,
       composition: { mcq: 4, story: 4 },
     });
@@ -256,12 +290,12 @@ describe('kekurangan bank dan teman', () => {
     await call('PUT', '/api/progress/mastered', b.token, { days: [1, 2, 3] });
     const preview = await call('POST', '/api/battles/preview', a.token, {
       opponentPublicId: b.publicId,
-      mode: 'campuran',
+      mode: MIXED,
       total: 10,
-      composition: { mcq: 5, translate: 2, story: 2, essay: 1 },
+      composition: { mcq: 5, translate: 3, story: 2 },
     });
     expect(preview.status).toBe(200);
-    // Soal pilihan ganda hari 5 ikut dipakai dari level di atas, jadi hanya cerita yang kurang.
+    // Pilihan ganda dan terjemahan cukup di seluruh bank, hanya cerita yang kurang (satu dari dua).
     expect(preview.data.adjustedTotal).toBe(9);
     expect(preview.data.shortage.map((item) => item.type)).toEqual(['story']);
   });
@@ -282,12 +316,12 @@ describe('kekurangan bank dan teman', () => {
 });
 
 describe('battle tidak menggantung', () => {
-  it('mode esai bisa dibuat, dan battle selesai walau penilaian tidak dikerjakan', async () => {
+  it('battle selesai walau semua jawaban salah', async () => {
     const a = await registerUser('Wina', 'wina.stuck@contoh.id');
     const b = await registerUser('Xavi', 'xavi.stuck@contoh.id');
     await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
     await call('PUT', '/api/progress/mastered', b.token, { days: [1, 2, 3] });
-    const invite = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'esai', total: 8 });
+    const invite = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'kilat', total: 8 });
     expect(invite.status).toBe(201);
     await call('POST', `/api/battles/${invite.data.battleId}/respond`, b.token, { accept: true });
 
@@ -296,8 +330,8 @@ describe('battle tidak menggantung', () => {
       state = (await call('GET', `/api/battles/${invite.data.battleId}`, a.token)).data;
       if (state.status === 'finished') break;
       if (state.phase === 'question' && state.current) {
-        await call('POST', `/api/battles/${state.id}/answer`, a.token, { idx: state.current.index, answer: 'tulisan' });
-        await call('POST', `/api/battles/${state.id}/answer`, b.token, { idx: state.current.index, answer: 'tulisan' });
+        await call('POST', `/api/battles/${state.id}/answer`, a.token, { idx: state.current.index, answer: 'A' });
+        await call('POST', `/api/battles/${state.id}/answer`, b.token, { idx: state.current.index, answer: 'A' });
       }
       await new Promise((resolve) => setTimeout(resolve, 20));
     }

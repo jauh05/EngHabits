@@ -75,7 +75,7 @@ for (const { name, data } of readJsonFiles(BATTLE_DIR)) {
 }
 
 // Periksa komposisi per hari. Setiap hari minimal punya jumlah minimum per jenis; kelebihan diperbolehkan.
-const MIN_PER_DAY = { mcq: 4, grammar: 2, vocab: 2, translate: 2, story: 1, listen: 1, reorder: 1 };
+const MIN_PER_DAY = { mcq: 4, grammar: 2, vocab: 2, translate: 2, story: 1, reorder: 1 };
 for (let day = 1; day <= 90; day += 1) {
   const today = items.filter((item) => item.day === day);
   if (today.length === 0) continue;
@@ -87,12 +87,10 @@ for (let day = 1; day <= 90; day += 1) {
   const vocab = count((item) => item.type === 'mcq' && item.tag === 'vocab');
   if (grammar < MIN_PER_DAY.grammar) fail(`hari ${day}: tata bahasa ${grammar}, minimal ${MIN_PER_DAY.grammar}`);
   if (vocab < MIN_PER_DAY.vocab) fail(`hari ${day}: kosakata ${vocab}, minimal ${MIN_PER_DAY.vocab}`);
-  for (const type of ['translate', 'story', 'listen', 'reorder'] as const) {
+  for (const type of ['translate', 'story', 'reorder'] as const) {
     const total = count((item) => item.type === type);
     if (total < MIN_PER_DAY[type]) fail(`hari ${day}: ${type} ${total}, minimal ${MIN_PER_DAY[type]}`);
   }
-  const essays = count((item) => item.type === 'essay');
-  if (essays > 1) fail(`hari ${day}: esai ${essays}, paling banyak 1`);
 }
 
 if (errors.length > 0) {

@@ -1,0 +1,10 @@
+[
+  {"id": "BT002-508", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Itu adalah gelas-gelas baru kami)", "acceptedAnswers": ["Those are our new glasses"], "explanation": "Jamak dari glass adalah glasses."},
+  {"id": "BT002-509", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Kami punya satu jendela di dapur)", "acceptedAnswers": ["We have one window in the kitchen"], "explanation": "'One window' tunggal tanpa -s."},
+  {"id": "BT002-510", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Ayah saya membeli lima pensil)", "acceptedAnswers": ["My father buys five pencils"], "explanation": "Setelah 'five' dipakai bentuk jamak pencils."},
+  {"id": "BT002-511", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Tas itu ada di atas kursi)", "acceptedAnswers": ["The bag is on the chair"], "explanation": "'The bag' tunggal, jadi memakai 'is'."},
+  {"id": "BT002-512", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Mereka membaca buku di perpustakaan)", "acceptedAnswers": ["They read books in the library"], "explanation": "Subjek 'they' memakai bentuk dasar read."},
+  {"id": "BT002-513", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Sepeda itu tidak mahal)", "acceptedAnswers": ["That bike is not expensive"], "explanation": "'That bike' tunggal, jadi 'is not'."},
+  {"id": "BT002-514", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Bunga-bunga ini ada di meja saya)", "acceptedAnswers": ["These flowers are on my table"], "explanation": "'These flowers' jamak, jadi memakai 'are'."},
+  {"id": "BT002-515", "day": 2, "type": "reorder", "prompt": "Susun kata menjadi kalimat yang benar (artinya: Siti punya sebuah ponsel baru)", "acceptedAnswers": ["Siti has a new phone"], "explanation": "'Siti' tunggal memakai 'has', dan 'a' sebelum 'new'."}
+]

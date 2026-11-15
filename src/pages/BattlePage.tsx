@@ -1,5 +1,5 @@
 import { useEffect, useState, type FormEvent } from 'react';
-import { BookOpen, Brain, Check, Copy, Ear, FileText, Heart, Languages, Library, ListOrdered, Sparkles, Swords, Trash2, UserPlus, X, Zap, type LucideIcon } from 'lucide-react';
+import { BookOpen, Brain, Check, Copy, Heart, Languages, Library, ListOrdered, Swords, Trash2, UserPlus, X, Zap, type LucideIcon } from 'lucide-react';
 import { Link, useNavigate } from 'react-router';
 import { BattleCrest, VersusBadge } from '../components/ui/BattleIllustrations';
 import { Badge } from '../components/ui/Badge';
@@ -35,8 +35,6 @@ const TYPE_LABEL: Record<QuestionType, string> = {
   mcq: 'Pilihan ganda',
   translate: 'Terjemahan',
   story: 'Cerita',
-  essay: 'Esai',
-  listen: 'Dengar',
   reorder: 'Susun kalimat',
 };
 
@@ -46,9 +44,6 @@ const MODE_ICON: Record<BattleMode, LucideIcon> = {
   tata_bahasa: Brain,
   kosakata: Library,
   cerita: BookOpen,
-  esai: FileText,
-  campuran: Sparkles,
-  dengar: Ear,
   susun: ListOrdered,
   bertahan: Heart,
 };
@@ -60,9 +55,6 @@ const MODE_TONE: Record<BattleMode, string> = {
   tata_bahasa: 'bg-primary-100 [--edge:color-mix(in_srgb,var(--primary-100),var(--shade)_18%)]',
   kosakata: 'bg-tint-mint [--edge:color-mix(in_srgb,var(--tint-mint),var(--shade)_18%)]',
   cerita: 'bg-tint-peach [--edge:color-mix(in_srgb,var(--tint-peach),var(--shade)_18%)]',
-  esai: 'bg-tint-rose [--edge:color-mix(in_srgb,var(--tint-rose),var(--shade)_18%)]',
-  campuran: 'bg-lime [--edge:color-mix(in_srgb,var(--lime),var(--shade)_18%)]',
-  dengar: 'bg-mint-deep [--edge:color-mix(in_srgb,var(--mint-deep),var(--shade)_18%)]',
   susun: 'bg-tint-pale [--edge:color-mix(in_srgb,var(--tint-pale),var(--shade)_18%)]',
   bertahan: 'bg-tint-rose [--edge:color-mix(in_srgb,var(--tint-rose),var(--shade)_18%)]',
 };
@@ -70,7 +62,6 @@ const MODE_TONE: Record<BattleMode, string> = {
 const STATUS_LABEL: Record<string, string> = {
   pending: 'Menunggu',
   active: 'Berjalan',
-  rating: 'Menilai esai',
   expired: 'Kedaluwarsa',
   declined: 'Ditolak',
   cancelled: 'Dibatalkan',
@@ -142,18 +133,15 @@ export function BattlePage() {
 
   const toggleMode = (mode: BattleMode) => {
     let next: BattleMode[];
-    if (mode === 'campuran') {
-      next = modes.includes('campuran') && modes.length === 1 ? ['kilat'] : ['campuran'];
-    } else if (modes.includes(mode)) {
+    if (modes.includes(mode)) {
       next = modes.filter((item) => item !== mode);
       if (next.length === 0) next = ['kilat'];
     } else {
-      const base = modes.filter((item) => item !== 'campuran');
-      if (base.length >= MAX_MODES) {
+      if (modes.length >= MAX_MODES) {
         show(`Pilih paling banyak ${MAX_MODES} mode.`, 'error');
         return;
       }
-      next = [...base, mode];
+      next = [...modes, mode];
     }
     setModes(next);
     resetComposition(next, total);

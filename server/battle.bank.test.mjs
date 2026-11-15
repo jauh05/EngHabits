@@ -1,5 +1,5 @@
-// Tes dengan bank battle asli di content/battle. Memastikan bank bisa dimuat dan satu battle campuran
-// di level hari 4 bisa dimainkan sampai selesai.
+// Tes dengan bank battle asli di content/battle. Memastikan bank bisa dimuat tanpa jenis soal yang sudah
+// dihapus, dan satu battle gabungan di level hari 4 bisa dimainkan sampai selesai.
 import { afterAll, beforeAll, describe, expect, it } from 'vitest';
 import { createApp, loadBattleBank, openDatabase } from './app.mjs';
 
@@ -32,29 +32,35 @@ async function registerUser(name, email) {
   return { token: data.token, publicId: data.account.publicId };
 }
 
-function answerFor(item, right) {
-  if (item.type === 'mcq' || item.type === 'story' || item.type === 'listen') {
-    if (right) return item.correct;
-    return item.options.find((option) => option.id !== item.correct).id;
+/** Jawaban untuk soal yang sedang tampil. Pilihan diacak server, jadi huruf dicari lewat teks opsi. */
+function answerFor(current, item, right) {
+  if (item.type === 'mcq' || item.type === 'story') {
+    const correctText = item.options.find((option) => option.id === item.correct).text;
+    const wanted = right ? correctText : item.options.find((option) => option.id !== item.correct).text;
+    return current.options.find((option) => option.text === wanted).id;
   }
   if (item.type === 'translate') return right ? item.acceptedAnswers[0] : 'tidak tahu';
-  if (item.type === 'reorder') return right ? item.acceptedAnswers[0] : 'salah urutan';
-  return 'jawaban esai';
+  return right ? item.acceptedAnswers[0] : 'salah urutan';
 }
 
 describe('bank battle asli', () => {
-  it('memuat 3383 soal dengan id unik', () => {
-    expect(BANK).toHaveLength(3383);
-    expect(new Set(BANK.map((item) => item.id)).size).toBe(3383);
+  it('memuat soal dengan id unik dan hanya memakai jenis soal yang masih didukung', () => {
+    expect(BANK.length).toBeGreaterThan(3000);
+    expect(new Set(BANK.map((item) => item.id)).size).toBe(BANK.length);
+    expect(new Set(BANK.map((item) => item.type))).toEqual(new Set(['mcq', 'translate', 'story', 'reorder']));
   });
 
-  it('battle campuran 8 soal di level hari 4 selesai dimainkan', async () => {
+  it('battle gabungan 8 soal di level hari 4 selesai dimainkan', async () => {
     const a = await registerUser('Nina', 'nina.bank@contoh.id');
     const b = await registerUser('Omar', 'omar.bank@contoh.id');
     await call('PUT', '/api/progress/mastered', a.token, { days: [1, 2, 3] });
     await call('PUT', '/api/progress/mastered', b.token, { days: [1, 2, 3] });
 
-    const invite = await call('POST', '/api/battles', a.token, { opponentPublicId: b.publicId, mode: 'campuran', total: 8 });
+    const invite = await call('POST', '/api/battles', a.token, {
+      opponentPublicId: b.publicId,
+      mode: 'kilat+terjemahan+cerita',
+      total: 8,
+    });
     expect(invite.status).toBe(201);
     expect(invite.data.poolDay).toBe(4);
     const accepted = await call('POST', `/api/battles/${invite.data.battleId}/respond`, b.token, { accept: true });
@@ -69,14 +75,8 @@ describe('bank battle asli', () => {
       if (state.phase === 'question' && state.current) {
         const item = byPrompt.get(state.current.prompt);
         expect(item).toBeDefined();
-        await call('POST', `/api/battles/${state.id}/answer`, a.token, { idx: state.current.index, answer: answerFor(item, true) });
-        await call('POST', `/api/battles/${state.id}/answer`, b.token, { idx: state.current.index, answer: answerFor(item, false) });
-      }
-      if (state.phase === 'rating' && state.rating) {
-        for (const essay of state.rating.essays.filter((entry) => !entry.rated)) {
-          await call('POST', `/api/battles/${state.id}/rate`, a.token, { idx: essay.index, scores: [2, 2, 2] });
-          await call('POST', `/api/battles/${state.id}/rate`, b.token, { idx: essay.index, scores: [0, 0, 0] });
-        }
+        await call('POST', `/api/battles/${state.id}/answer`, a.token, { idx: state.current.index, answer: answerFor(state.current, item, true) });
+        await call('POST', `/api/battles/${state.id}/answer`, b.token, { idx: state.current.index, answer: answerFor(state.current, item, false) });
       }
       await new Promise((resolve) => setTimeout(resolve, 20));
     }
