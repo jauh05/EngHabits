@@ -467,7 +467,12 @@ export function DashboardPage() {
                             </Button>
                           </form>
                         )}
-                        <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
+                        {codeSent && (
+                        <p className="text-sm text-ink/80">
+                          Tidak ada email? Pastikan email ini sudah terdaftar di Kauiz dan cek folder spam. Tunggu 1 menit sebelum kirim ulang.
+                        </p>
+                      )}
+                      <div className="flex flex-wrap items-center justify-between gap-3 text-sm">
                           <p className="text-ink/80">
                             Belum punya akun Kauiz?{' '}
                             <a href="https://kauiz.web.id/register" target="_blank" rel="noreferrer" className="font-semibold text-primary-700 underline">
