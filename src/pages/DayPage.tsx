@@ -70,6 +70,11 @@ function DaySession({ day }: { day: number }) {
     return () => stopLearningMusic();
   }, [settings.dayMusic]);
 
+  // Pindah blok membawa pengguna ke atas, supaya judul dan isi blok baru langsung terlihat.
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [block]);
+
   useEffect(() => {
     let active = true;
     loadDay(day).then((loaded) => {
