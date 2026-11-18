@@ -24,6 +24,7 @@ import { dayStatus, isMastered, kauizLocked, MASTERY_THRESHOLD } from '../lib/pr
 import { useSettings } from '../lib/settings';
 import { easeOut } from '../lib/motion';
 import { useProgressData } from '../lib/useProgressData';
+import { startLearningMusic, stopLearningMusic } from '../lib/battleSound';
 
 const BLOCKS = [
   { id: 'vocab', label: 'Kosakata' },
@@ -61,6 +62,13 @@ function DaySession({ day }: { day: number }) {
   const [evaluation, setEvaluation] = useState<Evaluation>();
   const [confirmOpen, setConfirmOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
+
+  // Musik latar pelan selama sesi berlangsung. Berhenti saat keluar dari halaman.
+  useEffect(() => {
+    if (!settings.dayMusic) return;
+    startLearningMusic();
+    return () => stopLearningMusic();
+  }, [settings.dayMusic]);
 
   useEffect(() => {
     let active = true;

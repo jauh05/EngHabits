@@ -315,7 +315,7 @@ export function ProfilePage() {
         </p>
       </SectionCard>
 
-      <SectionCard icon={Volume2} tint={SECTION_TINT.voice} title="Musik dan bunyi battle">
+      <SectionCard icon={Volume2} tint={SECTION_TINT.voice} title="Musik dan bunyi">
         <label className="flex min-h-11 items-center justify-between gap-4">
           <span className="flex flex-col">
             <span className="font-semibold text-ink">Musik latar</span>
@@ -339,6 +339,19 @@ export function ProfilePage() {
             role="switch"
             checked={settings.battleSound}
             onChange={(event) => set({ battleSound: event.target.checked })}
+            className="size-6 accent-primary-500"
+          />
+        </label>
+        <label className="flex min-h-11 items-center justify-between gap-4">
+          <span className="flex flex-col">
+            <span className="font-semibold text-ink">Musik latar belajar</span>
+            <span className="text-sm text-muted">Musik pelan saat sesi harian berlangsung.</span>
+          </span>
+          <input
+            type="checkbox"
+            role="switch"
+            checked={settings.dayMusic}
+            onChange={(event) => set({ dayMusic: event.target.checked })}
             className="size-6 accent-primary-500"
           />
         </label>

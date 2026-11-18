@@ -137,6 +137,15 @@ export function stopBattleMusic(): void {
   window.setTimeout(() => state.gain.disconnect(), 400);
 }
 
+/** Musik latar untuk sesi belajar harian. Memakai musik yang sama dengan battle. */
+export function startLearningMusic(): void {
+  startBattleMusic();
+}
+
+export function stopLearningMusic(): void {
+  stopBattleMusic();
+}
+
 /** Bunyi jawaban: naik dua nada untuk benar, turun rendah untuk salah atau tidak menjawab. */
 export function playAnswerSound(correct: boolean): void {
   const ctx = audioContext();

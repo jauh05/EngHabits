@@ -56,6 +56,8 @@ export type Settings = {
   battleMusic: boolean;
   /** Bunyi benar dan salah saat battle. */
   battleSound: boolean;
+  /** Musik latar saat sesi belajar harian berlangsung. */
+  dayMusic: boolean;
 };
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -65,6 +67,7 @@ export const DEFAULT_SETTINGS: Settings = {
   rate: 0.9,
   battleMusic: true,
   battleSound: true,
+  dayMusic: true,
   reminderEnabled: false,
   lastReminderDate: '',
   name: '',

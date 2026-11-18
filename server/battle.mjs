@@ -27,6 +27,14 @@ const MAX_MODES = 3;
 const ORDER = ['mcq', 'translate', 'story', 'reorder'];
 
 /**
+ * Nama mode untuk tampilan. Battle lama yang memakai mode sudah dihapus tetap bisa dibuka riwayatnya,
+ * tanpa membuat server gagal.
+ */
+export function modeLabelOf(modeString) {
+  return specFor(modeString)?.label ?? 'Mode lama';
+}
+
+/**
  * Aturan satu mode atau gabungan mode (dipisah '+', maksimal 3). Gabungan memakai union tipe soal,
  * dan batas tag hanya berlaku bila setiap mode pilihan ganda yang dipilih punya tag.
  */
@@ -343,7 +351,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     return {
       id: room.id,
       mode: room.mode,
-      modeLabel: specFor(room.mode).label,
+      modeLabel: modeLabelOf(room.mode),
       status: room.status,
       phase: room.phase,
       total: room.total,
@@ -608,7 +616,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
           id: battleId,
           status: row.status,
           mode: row.mode,
-          modeLabel: specFor(row.mode).label,
+          modeLabel: modeLabelOf(row.mode),
           winnerId: row.winner_id,
           you: userId,
           answers: answersOf.all(battleId),
@@ -624,7 +632,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
       return historyOf.all(userId, userId).map((row) => ({
         id: row.id,
         mode: row.mode,
-        modeLabel: specFor(row.mode).label,
+        modeLabel: modeLabelOf(row.mode),
         status: row.status,
         total: row.total,
         winner: row.winner_id === userId ? 'you' : row.winner_id ? 'opponent' : null,
@@ -642,7 +650,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
         .map((row) => ({
           battleId: row.id,
           mode: row.mode,
-          modeLabel: specFor(row.mode).label,
+          modeLabel: modeLabelOf(row.mode),
           total: row.total,
           from: nameOf(row.creator_id),
         }));
@@ -667,7 +675,7 @@ export function createBattleService({ db, bank, notify, timeScale = 1 }) {
     return {
       battleId: room.id,
       mode: room.mode,
-      modeLabel: specFor(room.mode).label,
+      modeLabel: modeLabelOf(room.mode),
       total: room.total,
       from: nameOf(room.creatorId),
     };
