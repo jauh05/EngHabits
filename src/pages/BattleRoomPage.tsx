@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { Link, useLocation, useNavigate, useParams } from 'react-router';
+import { Link, useParams } from 'react-router';
 import { Badge } from '../components/ui/Badge';
 import { BattleLoading } from '../components/ui/BattleLoading';
 import { Button, buttonClass } from '../components/ui/Button';
@@ -13,7 +13,6 @@ import {
   getBattle,
   openBattleStream,
   remainingMs,
-  respondBattle,
   type BattleSnapshot,
   type PublicItem,
 } from '../lib/battle';
@@ -25,17 +24,12 @@ export function BattleRoomPage() {
   const { id = '' } = useParams();
   const { settings } = useSettings();
   const { show } = useToast();
-  const navigate = useNavigate();
-  const location = useLocation();
   const token = settings.token;
   const [snap, setSnap] = useState<BattleSnapshot | null>(null);
   const [loadError, setLoadError] = useState<string>();
   const [now, setNow] = useState(() => Date.now());
   const [streamKey, setStreamKey] = useState(0);
   const [offset, setOffset] = useState(0);
-  // Lobi membuka halaman ini langsung saat undangan diterima, jadi jawaban dikirim dari sini.
-  const acceptOnOpen = useRef((location.state as { accept?: boolean } | null)?.accept === true);
-  const acceptRef = useRef<Promise<void> | null>(null);
 
   // Selisih jam dihitung saat keadaan diterima, supaya hitung mundur tidak membeku.
   const applySnapshot = (next: BattleSnapshot) => {
@@ -46,14 +40,7 @@ export function BattleRoomPage() {
   useEffect(() => {
     if (!token) return;
     let cancelled = false;
-    if (acceptOnOpen.current && !acceptRef.current) {
-      acceptRef.current = respondBattle(token, id, true).then(() => {
-        // Penanda terima dihapus dari riwayat, supaya muat ulang halaman tidak menjawab undangan dua kali.
-        navigate(`/battle/${id}`, { replace: true });
-      });
-    }
-    Promise.resolve(acceptRef.current)
-      .then(() => getBattle(token, id))
+    getBattle(token, id)
       .then((next) => {
         if (!cancelled) applySnapshot(next);
       })
@@ -63,7 +50,7 @@ export function BattleRoomPage() {
     return () => {
       cancelled = true;
     };
-  }, [token, id, streamKey, navigate]);
+  }, [token, id, streamKey]);
 
   useEffect(() => {
     if (!token) return;
@@ -104,7 +91,7 @@ export function BattleRoomPage() {
     );
   }
   if (!snap) {
-    return <BattleLoading label={acceptOnOpen.current ? 'Menerima undangan…' : 'Membuka battle…'} />;
+    return <BattleLoading label="Membuka battle…" />;
   }
 
   const me = snap.players.find((player) => player?.id === snap.you);

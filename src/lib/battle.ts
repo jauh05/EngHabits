@@ -122,7 +122,12 @@ export function createBattle(
   token: string,
   input: { opponentPublicId: string; mode: BattleMode; total: number; composition?: Composition },
 ) {
-  return request<{ battleId: string; poolDay: number; composition: Composition }>('POST', '/battles', token, input);
+  return request<{ battleId: string; poolDay: number; composition: Composition; opponent: PlayerName }>(
+    'POST',
+    '/battles',
+    token,
+    input,
+  );
 }
 
 export function respondBattle(token: string, battleId: string, accept: boolean) {

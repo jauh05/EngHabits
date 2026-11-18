@@ -1,6 +1,7 @@
 import { useEffect, useState, type FormEvent } from 'react';
 import { BookOpen, Brain, Check, Copy, Heart, Languages, Library, ListOrdered, Swords, Trash2, UserPlus, X, Zap, type LucideIcon } from 'lucide-react';
-import { Link, useNavigate } from 'react-router';
+import { Link } from 'react-router';
+import { useBattleSignal } from '../components/battle/BattleSignalProvider';
 import { BattleCrest, VersusBadge } from '../components/ui/BattleIllustrations';
 import { Badge } from '../components/ui/Badge';
 import { BattleLoading } from '../components/ui/BattleLoading';
@@ -17,15 +18,12 @@ import {
   type Friend,
   listBattles,
   listFriends,
-  openBattleStream,
   previewBattle,
   removeFriend,
-  respondBattle,
   type BattleMode,
   type Preview,
   type BattleSummary,
   type Composition,
-  type Invite,
   type QuestionType,
 } from '../lib/battle';
 import { defaultCompositionFor, needsComposition, typesFor } from '../lib/battleRules';
@@ -72,11 +70,10 @@ const MAX_MODES = 3;
 /** Lobi battle: ID saya, undangan masuk, kirim undangan, dan riwayat. */
 export function BattlePage() {
   const { settings } = useSettings();
-  const navigate = useNavigate();
   const { show } = useToast();
+  const { incoming, responding, respondInvite, startWaiting } = useBattleSignal();
   const token = settings.token;
   const myId = settings.account?.publicId ?? '';
-  const [invites, setInvites] = useState<Invite[]>([]);
   const [history, setHistory] = useState<BattleSummary[]>([]);
   const [friends, setFriends] = useState<Friend[]>([]);
   const [friendId, setFriendId] = useState('');
@@ -86,7 +83,6 @@ export function BattlePage() {
   const [composition, setComposition] = useState<Composition>(defaultCompositionFor(['kilat'], 8));
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string>();
-  const [connected, setConnected] = useState(true);
 
   // Daftar teman dan status online diperbarui setiap 30 detik.
   useEffect(() => {
@@ -100,32 +96,9 @@ export function BattlePage() {
   useEffect(() => {
     if (!token) return;
     listBattles(token)
-      .then((data) => {
-        setHistory(data.battles);
-        setInvites(data.invites);
-      })
+      .then((data) => setHistory(data.battles))
       .catch((caught) => setError(caught instanceof Error ? caught.message : 'Riwayat tidak bisa dimuat.'));
   }, [token]);
-
-  useEffect(() => {
-    if (!token) return;
-    return openBattleStream(
-      token,
-      (event) => {
-        setConnected(true);
-        if (event.type === 'invites') setInvites(event.invites);
-        if (event.type === 'invite') {
-          setInvites((list) => [event.invite, ...list.filter((item) => item.battleId !== event.invite.battleId)]);
-          show(`${event.invite.from?.name ?? 'Seseorang'} mengundangmu battle.`);
-        }
-        if (event.type === 'battle' && event.battle.status === 'active') navigate(`/battle/${event.battle.id}`);
-        if (event.type === 'battle' && event.battle.status === 'finished') {
-          show('Battle selesai. Lihat hasilnya di riwayat.');
-        }
-      },
-      () => setConnected(false),
-    );
-  }, [token, navigate, show]);
 
   const resetComposition = (nextModes: BattleMode[], nextTotal: (typeof BATTLE_TOTALS)[number]) => {
     setComposition(defaultCompositionFor(nextModes, nextTotal));
@@ -171,7 +144,14 @@ export function BattlePage() {
         total,
         composition: editable ? composition : undefined,
       });
-      show(`Undangan terkirim. Level battle: hari 1 sampai ${result.poolDay}.`, 'success');
+      // Undangan yang sudah terkirim ditunggu lewat modal, di halaman mana pun.
+      startWaiting({
+        battleId: result.battleId,
+        opponentName: result.opponent?.name ?? 'Teman',
+        modeLabel,
+        total,
+        poolDay: result.poolDay,
+      });
     } catch (caught) {
       show(caught instanceof Error ? caught.message : 'Undangan gagal dikirim.', 'error');
     } finally {
@@ -230,22 +210,6 @@ export function BattlePage() {
     }
   };
 
-  const answer = async (item: Invite, accept: boolean) => {
-    if (!token) return;
-    if (accept) {
-      // Langsung pindah ke ruang battle. Jawaban dikirim di sana sambil menampilkan loading, tanpa menunggu di lobi.
-      setInvites((list) => list.filter((entry) => entry.battleId !== item.battleId));
-      navigate(`/battle/${item.battleId}`, { state: { accept: true } });
-      return;
-    }
-    try {
-      await respondBattle(token, item.battleId, false);
-      setInvites((list) => list.filter((entry) => entry.battleId !== item.battleId));
-    } catch (caught) {
-      show(caught instanceof Error ? caught.message : 'Undangan tidak bisa diproses.', 'error');
-    }
-  };
-
   const copyId = async () => {
     try {
       await navigator.clipboard.writeText(myId);
@@ -279,16 +243,10 @@ export function BattlePage() {
         </div>
       </Card>
 
-      {!connected && (
-        <p role="status" className="rounded-2xl bg-error/15 px-4 py-3 text-sm font-semibold text-ink">
-          Koneksi battle terputus. Muat ulang halaman untuk menerima undangan.
-        </p>
-      )}
-
-      {invites.length > 0 && (
+      {incoming.length > 0 && (
         <section className="flex flex-col gap-3" aria-label="Undangan masuk">
           <h2 className="text-xl font-bold text-ink">Undangan masuk</h2>
-          {invites.map((item) => (
+          {incoming.map((item) => (
             <Card key={item.battleId} tone="sun" className="flex flex-wrap items-center gap-3">
               <div className="min-w-0 flex-1">
                 <p className="font-bold text-ink">{item.from?.name ?? 'Pemain'} mengajakmu battle</p>
@@ -296,11 +254,11 @@ export function BattlePage() {
                   {item.modeLabel} · {item.total} soal
                 </p>
               </div>
-              <Button size="md" onClick={() => answer(item, true)}>
+              <Button size="md" onClick={() => void respondInvite(item, true)} disabled={responding}>
                 <Check size={18} aria-hidden="true" />
                 Terima
               </Button>
-              <Button variant="secondary" size="md" onClick={() => answer(item, false)}>
+              <Button variant="secondary" size="md" onClick={() => void respondInvite(item, false)} disabled={responding}>
                 <X size={18} aria-hidden="true" />
                 Tolak
               </Button>

@@ -2,6 +2,7 @@ import type { ReactNode } from 'react';
 import { BrowserRouter, Link, Navigate, Route, Routes, useLocation } from 'react-router';
 import { useSettings } from './lib/settings';
 import { AppShell } from './components/layout/AppShell';
+import { BattleSignalProvider } from './components/battle/BattleSignalProvider';
 import { BankSessionPage } from './pages/BankSessionPage';
 import { BattlePage } from './pages/BattlePage';
 import { BattleRoomPage } from './pages/BattleRoomPage';
@@ -57,27 +58,30 @@ export function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <AuthGate>
-        <Routes>
-          <Route path="mulai" element={<MulaiPage />} />
-          <Route path="masuk" element={<MasukPage />} />
-          <Route path="masuk/kauiz" element={<KauizSessionPage />} />
-          <Route path="daftar" element={<DaftarPage />} />
-          <Route path="sambutan" element={<SambutanPage />} />
-          <Route element={<AppShell />}>
-            <Route index element={<DashboardPage />} />
-            <Route path="peta" element={<MapPage />} />
-            <Route path="kesalahan" element={<MistakesPage />} />
-            <Route path="statistik" element={<StatsPage />} />
-            <Route path="laporan" element={<ReadinessPage />} />
-            <Route path="latihan" element={<PracticePage />} />
-            <Route path="latihan/bank/:week" element={<BankSessionPage />} />
-            <Route path="battle" element={<BattlePage />} />
-            <Route path="battle/:id" element={<BattleRoomPage />} />
-            <Route path="profil" element={<ProfilePage />} />
-          </Route>
-          <Route path="hari/:n" element={<DayPage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+        {/* Undangan battle tampil di halaman mana pun, jadi penyedianya membungkus seluruh rute. */}
+        <BattleSignalProvider>
+          <Routes>
+            <Route path="mulai" element={<MulaiPage />} />
+            <Route path="masuk" element={<MasukPage />} />
+            <Route path="masuk/kauiz" element={<KauizSessionPage />} />
+            <Route path="daftar" element={<DaftarPage />} />
+            <Route path="sambutan" element={<SambutanPage />} />
+            <Route element={<AppShell />}>
+              <Route index element={<DashboardPage />} />
+              <Route path="peta" element={<MapPage />} />
+              <Route path="kesalahan" element={<MistakesPage />} />
+              <Route path="statistik" element={<StatsPage />} />
+              <Route path="laporan" element={<ReadinessPage />} />
+              <Route path="latihan" element={<PracticePage />} />
+              <Route path="latihan/bank/:week" element={<BankSessionPage />} />
+              <Route path="battle" element={<BattlePage />} />
+              <Route path="battle/:id" element={<BattleRoomPage />} />
+              <Route path="profil" element={<ProfilePage />} />
+            </Route>
+            <Route path="hari/:n" element={<DayPage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BattleSignalProvider>
       </AuthGate>
     </BrowserRouter>
   );
